@@ -1,3 +1,10 @@
+## How to run a HTML (with associated js files)? 
+
+Copy and paste the link [here](https://raw.githack.com/).
+
+---
+
+
 **Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
 
 When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
