@@ -19,11 +19,15 @@
   ```
   git add filename.extension
   ```
+  
   //add all files/changes
+  
   ```
   git add --all
   ```
+  
   // need to remove one by one
+  
   ```
   git rm filename.extension
   ```
