@@ -1,10 +1,59 @@
+## Setting up Git + collaborative writing local respository 
+1. [Install git on your desktop](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+2. Prepare a working directory e.g AP_Book, then opens the terminal and navigate to the directory, then type:
+  ```
+  git init
+  ```
+3. Download the respository into your desktop, terminal command:
+  ```
+  git pull https://siusoon@bitbucket.org/siusoon/aesthetic-programming-a-handbook-of-software-studies-or.git
+  ```
+
+--- 
+## Often used commands:
+1. add/remove files to staging:
+  ```
+  git add filename.extension
+  //can also do git add *
+  ```
+  ```
+  git add --all
+  //add all files/changes
+  ```
+  ```
+  // need to remove one by one
+  git rm filename.extension
+  ```
+2. Commit 
+  ```
+  git commit -m '<commit_message>'
+  ```
+3. Upload the files to bitBucket production:
+  ```
+  git push 
+  ```
+- other useful commands:
+  ```
+  git status
+  git diff    //see the difference
+  ```
+- other useful bitBucket commands [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
+---
+
 ## How to run a HTML (with associated js files)? 
 
-Copy and paste the link [here](https://raw.githack.com/).
+Copy and paste the HTML bitBucket link [here](https://raw.githack.com/).
 
 ---
 
+## Other references:
+- [Mark down cheatsheet - files with .md](https://guides.github.com/features/mastering-markdown/)
+- Video: What is Git? (Git-SCM) • Git Basics [#1](https://www.youtube.com/watch?v=8oRjP8yj2Wo&list=PLg7s6cbtAD165JTRsXh8ofwRw0PqUnkVH) [#2](https://www.youtube.com/watch?v=uhtzxPU7Bz0&index=2&list=PLg7s6cbtAD165JTRsXh8ofwRw0PqUnkVH)
+- [Git Tutorial - for command line users](https://try.github.io/levels/1/challenges/1)
 
+---
+
+Original ReadME
 **Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
 
 When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
