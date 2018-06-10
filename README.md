@@ -38,10 +38,10 @@
   git commit -m '<commit_message>'
   ```
 
-* Upload the files to bitBucket production:
+* Upload the files to bitBucket production > bitbucket's respository:
 
   ```
-  git push
+  git push https://bitbucket.org/siusoon/aesthetic-programming-a-handbook-of-software-studies-or/src/master/
   ```
 
 * other useful commands:
@@ -49,7 +49,7 @@
   ```
   git status
   ```
-  
+
   ```
   git diff    
   ```
