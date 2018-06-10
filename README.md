@@ -1,43 +1,54 @@
 ## Setting up Git + collaborative writing local respository 
-1. [Install git on your desktop](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-2. Prepare a working directory e.g AP_Book, then opens the terminal and navigate to the directory, then type:
+* [Install git on your desktop](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* Prepare a working directory e.g AP_Book, then opens the terminal and navigate to the directory, then type: 
+  
   ```
   git init
   ```
-3. Download the respository into your desktop, terminal command:
+
+* Download the respository into your desktop, terminal command:
+
   ```
   git pull https://siusoon@bitbucket.org/siusoon/aesthetic-programming-a-handbook-of-software-studies-or.git
   ```
-
+  
 --- 
 ## Often used commands:
-1. add/remove files to staging:
+* add/remove files to staging:
+
   ```
   git add filename.extension
-  //can also do git add *
   ```
-  ```
-  git add --all
   //add all files/changes
   ```
+  git add --all
   ```
   // need to remove one by one
+  ```
   git rm filename.extension
   ```
-2. Commit 
+  
+* Commit 
+
   ```
   git commit -m '<commit_message>'
   ```
-3. Upload the files to bitBucket production:
+  
+* Upload the files to bitBucket production:
+
   ```
   git push 
   ```
-- other useful commands:
+  
+* other useful commands:
+  
   ```
   git status
-  git diff    //see the difference
+  git diff    
   ```
-- other useful bitBucket commands [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
+  
+* other useful bitBucket commands [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
+
 ---
 
 ## How to run a HTML (with associated js files)? 
