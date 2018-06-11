@@ -1,4 +1,15 @@
 ## Setting up Git + collaborative writing local respository
+### setup
+1. Register BitBucket account [here](http://bitbucket.org/)
+2. Download and install sourcetree (macOS is supported) [here](https://www.sourcetreeapp.com/)
+  - choose BitBucket cloud
+  - clone a repository > select AP done
+  - Select a working directory on your local computer
+
+
+---
+## Command line git
+
 * [Install git on your desktop](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * Prepare a working directory e.g AP_Book, then opens the terminal and navigate to the directory, then type:
 
@@ -65,6 +76,7 @@ Copy and paste the HTML bitBucket link [here](https://raw.githack.com/).
 ---
 
 ## Other references:
+- Using the web interface to add and edit files, [here](https://www.youtube.com/watch?v=0ocf7u76WSo&feature=youtu.be)
 - [Mark down cheatsheet - files with .md](https://guides.github.com/features/mastering-markdown/)
 - Video: What is Git? (Git-SCM) • Git Basics [#1](https://www.youtube.com/watch?v=8oRjP8yj2Wo&list=PLg7s6cbtAD165JTRsXh8ofwRw0PqUnkVH) [#2](https://www.youtube.com/watch?v=uhtzxPU7Bz0&index=2&list=PLg7s6cbtAD165JTRsXh8ofwRw0PqUnkVH)
 - [Git Tutorial - for command line users](https://try.github.io/levels/1/challenges/1)
