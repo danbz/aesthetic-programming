@@ -1,3 +1,7 @@
+**Title:** Aesthetic Programming: A Handbook of Software Studies, or Software Studies for Dummies
+
+**By**: Winnie Soon and Geoff Cox
+
 ## 0. Preface
 ## Chapter 1: Getting started
 * What is Javascript and why p5.js?
