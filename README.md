@@ -2,9 +2,10 @@
 ### setup
 1. Register BitBucket account [here](http://bitbucket.org/)
 2. Download and install sourcetree (macOS is supported) [here](https://www.sourcetreeapp.com/)
-  - choose BitBucket cloud
-  - clone a repository > select AP done
-  - Select a working directory on your local computer
+- choose BitBucket cloud
+- clone a repository > select AP done
+- Select a working directory on your local computer
+
 
 
 ---
