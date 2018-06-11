@@ -2,19 +2,13 @@
 ### setup
 1. Register BitBucket account [here](http://bitbucket.org/)
 2. Download and install sourcetree (macOS is supported) [here](https://www.sourcetreeapp.com/)
-
-  - choose BitBucket cloud
-
-  - clone a repository > select AP one
-
-  - Select a working directory on your local computer
+    - choose BitBucket cloud
+    - clone a repository > select AP one
+    - Select a working directory on your local computer
 3. Working with SourceTree
-
-  - After making any changes > Commit and then push  
-
+    - After making any changes > Commit and then push  
 4. Download Atom (code editor) [here](https://atom.io/)
-
-  - Modify/Update the file content  
+    - Modify/Update the file content  
 
 
 ---
