@@ -19,7 +19,7 @@ git config --global user.email "your_email_address@example.com"
 ### Download the latest respository
 1. Download/Pull the specific respository
 ```
-git pull REMOTE https://gitlab.com/siusoon/Aesthetic_Programming_Book.git
+git pull https://gitlab.com/siusoon/Aesthetic_Programming_Book.git
 ```
 
 ### Updated files and Push to git respository
