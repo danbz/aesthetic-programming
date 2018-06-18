@@ -37,5 +37,15 @@ git commit -m "Your own description"
 ```
 3. Upload/Push the files to the right respository
 ```
-git push Remote Aesthetic_Programming_Book
+git push https://gitlab.com/siusoon/Aesthetic_Programming_Book
+```
+
+### Other useful commmands
+1. Check the local and remote difference (cmd+z exit)
+```
+git diff
+```
+2. check status
+```
+git status
 ```
