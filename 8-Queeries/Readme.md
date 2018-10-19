@@ -1,8 +1,8 @@
-politics of API
-appropriation and copyright
-queer queries
-terms and conditions -> regulation
-operators -> selection, ranking, relevance, curation
+- politics of API
+- appropriation and copyright
+- queer queries (the code and image keyword could be 'queer')
+- terms and conditions -> regulation
+- operators -> selection, ranking, relevance, curation
 
-reference:
+- reference:
 Sollfank PhD thesis 
