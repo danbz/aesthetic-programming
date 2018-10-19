@@ -37,7 +37,7 @@ git commit -m "Your own description"
 ```
 3. Upload/Push the files to the right respository
 ```
-git push https://gitlab.com/siusoon/Aesthetic_Programming_Book
+git push --set-upstream https://gitlab.com/siusoon/Aesthetic_Programming_Book.git master
 ```
 
 ### Other useful commmands
