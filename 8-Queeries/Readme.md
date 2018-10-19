@@ -5,4 +5,4 @@
 - operators -> selection, ranking, relevance, curation
 
 - reference:
-Sollfank PhD thesis 
+Sollfrank PhD thesis 
