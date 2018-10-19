@@ -1,1 +1,2 @@
-stuff here
+brainstorm:
+- portrait of the system
