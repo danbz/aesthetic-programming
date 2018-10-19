@@ -10,6 +10,7 @@ This book attempts all these things, responding to this perceived gap in literat
 
 The proposed book, Aesthetic Programming, unlike those traditional books with only text materials, but also include software and program code that would be stored in an open-access repository. The program code can be run online via a web browser. The overall publishing process, including writing, editing, coding, printing would require supporting both text, graphics, multimedia and software performance. Additionally, it is important to keep the versioning and open access of the text and program code changes for the whole writing process to increase accessibility and transparency. To support this kind of non-traditional and emerging publishing plat-form, a collective called Open Source Publishing, a Brussel-based organization as part of CONSTANT, will run workshop, design and support this special form.
 
+xxx
 ### Background
 
 The term ‘Aesthetic Programming’ is closely related to ‘creative coding’ (Maeda, 2004; Peppler & Kafai, 2009) and ‘exploratory programming’ (Montfort 2016) that have been introduced in related literature in recent years. Such terms emphasize the expressivity of computer programming beyond something pragmatic and functional, in which aesthetic production, or critical thinking through practice, can be cultivated and developed through learning and understanding programming from the broad perspectives of aesthetic theory and cultural studies.
