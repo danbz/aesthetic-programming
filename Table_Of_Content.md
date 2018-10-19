@@ -77,3 +77,6 @@
 
 ## Chapter 11: Programming Aesthetics/Aesthetic Programming
 * Machine learning generated text – based on the text in this book
+
+## Indexing
+https://monoskop.org/media/text/? and Linda's work in Exe practice
