@@ -10,7 +10,7 @@
 * Free and Open-source software and culture
 * Mini-ex 1: Think About My First Program
 
-## Chapter 2: Having fun with smiley faces
+## Chapter 2: Having fun with Geometry/Maths
 * Basics: coordination, variables, geometry, shapes/patterns, faces
 * Having fun, and not just for fun, with software
 * Politics of emoticons 
