@@ -69,11 +69,11 @@
 * Mini-ex 9: Representing a program with a flowchart
 
 ## Chapter 10: Machine Learning
-* Personal assistants: Eliza (1964-1966) + Chatbot  
+* Personal assistants: Eliza (1964-1966) + elizabot.js version (2005) by Norbert Landsteiner  
 * (AYA (2017) by Marie Louise Juul Søndergaard)
 * What is Machine Learning?
 * Machine prediction: Classification and Text generation
-* Experimenting p5ML.js library
+* Experimenting ml5.js library
 * Ways of Machine Seeing, Reading and Processing
 
 ## Chapter 11: Programming Aesthetics/Aesthetic Programming
