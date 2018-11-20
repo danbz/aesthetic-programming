@@ -2,7 +2,7 @@ Having fun with Geometry/Maths
 
 intro:
 Learning to do something hard in programming, is this fun? (Olga's book)
-how to learn? (a hint to ch.10)
+how to learn? (a hint to ch.10), cognitive development esp. in children (smilies)
 political correctness - what is fun to some and not others?
 
 - Coordination
@@ -10,6 +10,7 @@ political correctness - what is fun to some and not others?
 - Geometries: shapes/pattern
 - Drawing faces 
 e.g 
+0. some examples of children drawing
 1. Tofu face by Fracis
 2. Data browser series book 
 
