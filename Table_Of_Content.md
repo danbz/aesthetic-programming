@@ -10,13 +10,14 @@
 * Free and Open-source software and culture
 * Mini-ex 1: Think About My First Program
 
-## Chapter 2: Having fun with basics
-* Basics: coordination, variables, geometry, shapes/patterns
+## Chapter 2: Having fun with smiley faces
+* Basics: coordination, variables, geometry, shapes/patterns, faces
 * Having fun, and not just for fun, with software
-* Mini-ex 2: A fun drawing
+* Politics of emoticons 
+* Mini-ex 2: A fun face
 
 ## Chapter 3: Infinite loops
-* Artwork: Asterisk Painting by Bell John
+* Artwork: Asterisk Painting (2013) by Bell John
 * Iterations: For/ While Loops
 * Conditional statements and Functions
 * Time related syntax
@@ -25,7 +26,7 @@
 * Mini-ex 3: Design a Throbber differently
 
 ## Chapter 4: Data Capture
-* Artwork: How We Act Together by Lauren McCarthy and Kyle McDonald
+* Artwork: How We Act Together (2016) by Lauren McCarthy and Kyle McDonald
 * Mouse and Keyboard events
 * Web camera inputs: with clmtrackr.js library
 * Audio inputs: with p5.sound library
@@ -36,13 +37,14 @@
 * Design work: TOFU GO by Francis Lam
 * Objects, Class, Behaviors and Arguments
 * Play objects: with p5.play library
-* Object-oriented thinking
+* Object-oriented thinking: cooking and coding with class struggle 
 * Mini-ex 5: Games with objects
 
 ## Chapter 6: Automatisms
-* Commodore 64 Basic program: 10 PRINT
+* The Game of Life (1970) by John Horton Conway
+* (Commodore 64 Basic program: 10 PRINT)
 * Random(), Noise()
-* Rule-based systems
+* Rule-based and Emergent systems
 * Generators and other automatisms
 * Mini-ex 6: A generative program
 
@@ -58,18 +60,17 @@
 * Artwork: Net Art Generator by Cornelia Sollfrank
 * Image processing: fetching, loading and display
 * Application Programming Interfaces
-* Data, Archives, Repositories, Libraries, Databases
+* Data, Archives, Repositories, Libraries, Databases / Critical APIs across time
 * Mini-ex 8: Working with APIs
 
-## Chapter 9: Procedural Logic
-* Artwork: Google Will Eat Itself by UBERMORGEN, Alessandro Ludovico and Paolo Cirio
+## Chapter 9: Flow Chart and Diagramming
+* Projects: The Status Project by Heath Bunting + a series of flow chart
 * Receipts,  Procedures, Algorithms
-* Flowchart
-* Procedural values
 * Mini-ex 9: Representing a program with a flowchart
 
 ## Chapter 10: Machine Learning
-* Design work: AYA by Marie Louise Juul Søndergaard
+* Personal assistants: Eliza (1964-1966) + Chatbot  
+* (AYA (2017) by Marie Louise Juul Søndergaard)
 * What is Machine Learning?
 * Machine prediction: Classification and Text generation
 * Experimenting p5ML.js library
