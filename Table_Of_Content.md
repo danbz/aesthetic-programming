@@ -7,13 +7,14 @@
 ## Chapter 1: Getting started
 * What is Javascript and why p5.js?
 * Setting up and Reading code and syntax
+* Hello world syntax
 * Free and Open-source software and culture
 * Mini-ex 1: Think About My First Program
 
 ## Chapter 2: Having fun with Geometry/Maths
 * Basics: coordination, variables, geometry, shapes/patterns, faces
 * Having fun, and not just for fun, with software
-* Politics of emoticons 
+* Politics of emoticons
 * Mini-ex 2: A fun face
 
 ## Chapter 3: Infinite loops
@@ -37,7 +38,7 @@
 * Design work: TOFU GO by Francis Lam
 * Objects, Class, Behaviors and Arguments
 * Play objects: with p5.play library
-* Object-oriented thinking: cooking and coding with class struggle 
+* Object-oriented thinking: cooking and coding with class struggle
 * Mini-ex 5: Games with objects
 
 ## Chapter 6: Automatisms
