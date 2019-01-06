@@ -43,7 +43,7 @@
 * Mini-ex 5: Games with objects
 
 ## Chapter 6: Automatisms
-* The Game of Life (1970) by John Horton Conway / Langton's ant (1986) by Chris Langton 
+* The Game of Life (1970) by John Horton Conway / Langton's ant (1986) by Chris Langton + [automata I](https://isohale.com/Development-1) by Catherine Griffiths  
 * (Commodore 64 Basic program: 10 PRINT)
 * Random(), Noise()
 * Rule-based and Emergent systems
