@@ -8,6 +8,11 @@ git --version
 
 ### Create a work local directory and setting up the remote directory
 1. Create a working folder
+- find/create a directory
+- In the terminal, navigate to the folder. Then:
+```
+git init
+```
 2. Setting up the account
 ```
 git config --global user.name "YOUR_USERNAME"
