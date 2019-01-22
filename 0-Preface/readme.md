@@ -11,6 +11,8 @@ What kind of book is this? A manual of sorts, but not in any conventional techni
 (Note: Adrian Mackenzie’s iterative working process makes a good further example of this approach, see https://github.com/datapractice/machinelearners; Machine Learners: Archaeology of a Data Practice (MIT Press 2017). Mackenzie makes a point of explaining his emulation of the scientific and engineering publication conventions, as “auto-archaeology” as he puts it in the preface, to indicate how the object of study is fully integrated into the analysis.) Indeed text is in code (in the ways that it is made human-readable) and code is in text (in the use of the text editor, interfaces and online platforms we use to render these thoughts. More will be said on this towards the end of the book when we discuss machine learning in detail.). 
 Suffice to say for now that writing and coding are entangled in these ways is centrally what this book is about, and neither are to be privileged above the other: we learn one from the other, and vice versa.  
 
+- how is it different from introduction to programming
+
 // The perversity of writing a book about coding does not go unnoticed either, especially when chunks of code are displayed on the page...
 (find notes on this).
 
@@ -18,6 +20,8 @@ NOTES 00 Coding Literacy
 00.1
 Uses of Literacy - Richard Hoggart
 this informs the development of Cultural Studies initially around the inclusion of working class cultures and an expanded notion of literacy... Also Raymond Williams’ Cultural Materialism - all from a literary tradition. 
+
+Also Coding Literacy by Annette Vee
 
 Raymond Williams Keywords 
 This Lexicon as inspiration - eg. Culture as one of the most contested terms - its multiple meanings, including anthropological sense. 
@@ -37,7 +41,7 @@ Free and open source principles.
 
 changing literacy - Walter Ong’s Orality and Literacy... (maybe even Neil Postman)
 
-00.3 Culture of Github
+00.3 Culture of Github/Gitlab
 Matthew Fuller, Andrew Goffey, Adrian Mackenzie, Richard Mills and Stuart Sharples, "Big Diff, Granularity, Incoherence, and Production in the Github Software Repository" in How To Be a Geek: Essays on the Culture of Software.
 
 So what is coding literacy, and why is it important?
