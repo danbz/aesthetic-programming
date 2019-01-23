@@ -4,6 +4,7 @@
 ```
 git --version
 ```
+
 2. If not, then download git here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 ### Create a work local directory and setting up the remote directory
@@ -32,7 +33,11 @@ git pull https://gitlab.com/siusoon/Aesthetic_Programming_Book.git
 ```
 git add .
 ```
-or
+OR
+```
+git add *
+```
+
 ```
 git add SPECIFIC FILE
 ```
