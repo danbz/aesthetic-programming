@@ -63,4 +63,8 @@ git diff
 git status
 ```
 3. Escape from terminal via pull + merge
-ESC button > type :wq
+ESC button > type 
+```
+:wq
+```
+
