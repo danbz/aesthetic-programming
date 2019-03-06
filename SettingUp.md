@@ -23,7 +23,7 @@ git config --global user.email "your_email_address@example.com"
 ```
 
 ### Download the latest respository
-1. Download/Pull the specific respository
+1. Download/Pull the specific respository  //if you are using your own git, please check your path
 ```
 git pull https://gitlab.com/siusoon/Aesthetic_Programming_Book.git
 ```
@@ -45,7 +45,7 @@ git add SPECIFIC FILE
 ```
 git commit -m "Your own description"
 ```
-3. Upload/Push the files to the right respository
+3. Upload/Push the files to the right respository //if you are using your own git, please check your path
 ```
 git push --set-upstream https://gitlab.com/siusoon/Aesthetic_Programming_Book.git master
 ```
