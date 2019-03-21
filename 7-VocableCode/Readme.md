@@ -12,7 +12,7 @@ Here is the artwork's description:
 Vocable Code is both a work of “software art” (software as artwork, not software to make an artwork) and a “codework” (where the source code and critical writing operate together) produced to embody “queer code”. It examines the notion of queerness in computer coding. Through collecting voices and statements from others that help to complete the sentence that begins: “Queer is…”, the work is computationally and poetically composed where the texts and voices are repeated and disrupted by mathematical chaos, creating a dynamic audio-visual literature and exploring the performativity of code, subjectivity and language. Behind the executed web interface, the code itself is deliberately written as a codework, a mix of a computer programming language and human language, exploring the material and linguistic tensions of writing and reading within the context of (non)binary poetry and computer code.
 </blockquote>
 
-There are few issues to note here. First the source code is considered as codework, which is a poetry for reading. In other words, the source code is not longer hidden away from any user and, instead, always display side by side with the executed version the blur the boundary between the source and the executed interface. Second, the method of using constrains is seen in both the writing of codework, as well as formulating the queer's statements such that the voices themselves express different rhythm, temporality and meaning. But central to the work is the exploration of queer code via speaking code, loading and playing voices, showing codework,  , writing source code and executing machine code.
+There are few issues to note here. First the source code is considered as codework, which is a poetry for reading. In other words, the source code is no longer hidden away from any user and, instead, always display side by side with the executed version that blur the boundary between the source and the executed interfaces. Second, the method of using constrains is seen in both the writing of codework, as well as formulating the queer's statements such that the voices themselves express different rhythm, temporality and meaning. But central to the work is the exploration of queer code via speaking code, loading and playing voices, showing codework,  , writing source code and executing machine code.
 
 ### 1. Decoding Exercise:
 Q: By just looking at the [RUNME](https://siusoon.github.io/VocableCode/vocablecode_program/) of *Vocable Code*, describe the different elements of the work and imagine how they operate computationally in human language?
@@ -54,7 +54,7 @@ The artwork Vocable Code uses a specific font and a range of text-related syntax
 
 #### 2.2 Conditional Structure
 
-There are two different `if` statements implemented in *Vocable Code*. Since text is continuously generated in the artwork, the first one is to check if there are still text remain on the screen. The second conditional statement is to check whether the text are moved out of the canvas especially on the vertical y-axis.
+There are two different `if` statements implemented in *Vocable Code*. Since text is continuously generated in the artwork, the first one is to check if there are still text remained on the screen. The second conditional statement is to check whether the text are moved out of the canvas especially on the vertical y-axis.
 
 <img src="ch7_2.png" width="450">
 
@@ -64,7 +64,7 @@ The first one (see line 2 of the sketch2) with the logic of **AND** (`&&`) case,
 
 The second one (see line 11 of the sketch2) with the logic of **OR** (`||`) case, where either one condition is needed to be 'true'. Additionally, there is also an 'if-else statement' to handle the results of the conditional statement. Therefore, it is read as if either one of the two conditions is met, the variable status will be assigned as 'notFalse' (this means the text is out of the screen in terms of the top or the bottom edge), and else if they are still remained on the screen, the variable status will be assigned as 'notTrue'.
 
-What is interesting here is the use of the value "notFalse" and "notTrue" as we tend to understand the boolean logic as the only absolute binary reality as 'true' or false'. We can then also relate this to the zeros and ones in which information is reduced into machine code. Arguably and conceptually, notFalse and notTrue give a wider possibility of imagining and voicing matters as this points at the becoming of more than the binary reality and thinking that matters.
+What is interesting here is the use of the value "notFalse" and "notTrue" as we tend to understand the boolean logic as the only absolute binary reality as 'true' or false'. We can then also relate this to the zeros and ones in which information is reduced into machine code. Arguably and conceptually, notFalse and notTrue give a wider possibility of imagining and voicing matters as this points at the becoming of more than the binary reality.
 
 #### 2.3 Reading JSON and Speaking Code
 <img src="ch7_data.png" width="450">
@@ -80,6 +80,7 @@ See some of the rules here:
 - Curly braces `{}` hold objects, e.g there are many object instances that share the same structure.
 
 To process this JSON file, you need to use the syntax `loadJSON`. See how this puts together in a sketch:
+
 <img src="ch7_3.png" width="450">
 
 *Sketch 4: Snippets of Vocable Code on Reading JSON I*
@@ -110,9 +111,9 @@ To play a sound file you need to both use `loadSound` as a callback to make sure
 
 In high level programming language, the source code is both for sending instructions to machines as well as communicating with humans. In this way, writing source code means to deal with signs and symbols, semantics and syntactics of languages that collide with both programming and natural ones. We also learnt from previous chapter (Object Orientation) that abstraction is a fundamental concept to software development which is away from the machine operations, and put focuses on building abstractions as objects. The use of class/object structure (text as object instances), conditional structure, procedures and subroutines such as the for-loop of the stored text are some of the ways that are designed to present and execute the source code in a particular way.
 
-Through just showing the source code and the executed interface, one could also argue there is a discrepancy of code, referring to what you see is not necessarily how it operates. There are many other things that are not shown on the executed interface.
+Through just showing the source code and the executed interface, one could also argue there is a discrepancy of code, referring to what you see is not necessarily how it operates. There are many other things that are not shown on the executed interface. (expanded with chun text)
 
-*Vocable Code* has a direct relation on bodily relationship. The voice of the program or the programmer, the voice of the voice donors to account for other social bodies that are drawn into the proccess of meaning production. In other words, computation cannot be just reduced to input and output. What does it mean to execute the function `SpeakingCode(iam, makingStatements)`, who is speaking and for whom? One might think it is the people who is speaking, but the speaking process does not only go through the human process, but also variables, arguments, source code and machine code, and specifically the sound library with the function `speak.play()`. In the writing of *Speaking Code* (2013), Cox suggests "The interplay of the body of the code, the programmer's comments, and the human-machine reader express how hardware and software, text and code, are embodied"
+*Vocable Code* has a direct relation on bodily practices. The voice of the program or the programmer, the voice of the voice donors to account for other social bodies that are drawn into the proccess of meaning production. In other words, computation cannot be just reduced to input and output. What does it mean to execute the function `SpeakingCode(iam, makingStatements)`, who is speaking and for whom? One might think it is the people who is speaking, but the speaking process does not only go through the human process, but also variables, arguments, source code and machine code, and specifically the sound library with the function `speak.play()`. In the writing of *Speaking Code* (2013), Cox suggests "The interplay of the body of the code, the programmer's comments, and the human-machine reader express how hardware and software, text and code, are embodied"
 
 However, thinking about voices with just human speech is very limited, as voice is not just only pointed at how a voice is being spoken and heard, but how voices are being marginalized and normalized. In particular to the idea of queer code and the binary logic of computation, Plant links further to wider western reality:
 
@@ -124,7 +125,7 @@ Although it takes two to make a binary (and set up the heterosexist paradigm), c
 
 In this chapter, through the work *Vocable Code* with strange syntaxes (such as notFalse and notTrue) and many repetitive decimals, what we want is to foreground is: Queer is...making binaries strange.   
 
-### Mini Exercise #7: E-lit
+## Mini Exercise #7: E-lit
 **Task and Objective:**
 - To design and implement an electronic literature that utilizes text as the main medium (but text can be also manifested in various forms)
 - To reflect upon the aesthetics of code and language.
@@ -143,7 +144,7 @@ In this chapter, through the work *Vocable Code* with strange syntaxes (such as 
   - **Analyze** your own e-lit work by using the text 'Vocable Code' or other texts that address the border theme of 'code and language'.
   - What is the **aesthetic aspect** of your program in particular to the relationship between **code and language**?
 
-### Further references:
+## Further references:
 1. Badiou, A. (2008) Number + Numbers. Cambridge: Polity.
 2. Barad, K. (2007) Meeting the Universe Halfway: Quantum Physics and The Entanglement of Matter and Meaning. Durham: Duke University Press.
 3. Barlow, JD. (2001) The Book of Nothing. London: Vintage.
@@ -163,5 +164,5 @@ In this chapter, through the work *Vocable Code* with strange syntaxes (such as 
 17. Shiffman, D. (2017) 10.2: What is JSON? Part I - p5.js Tutorial [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r [Accessed 13 Mar. 2019].
 18. Shiffman, D. (2017) 10.2: What is JSON? Part II - p5.js Tutorial [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r [Accessed 13 Mar. 2019].
 
-### Notes
+## Notes
 <a name="myfootnote1">1</a>: In the same token, you can also find a lot of free and open source fonts to download on the Internet.
