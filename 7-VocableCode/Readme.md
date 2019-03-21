@@ -27,6 +27,8 @@ Not really an 'answer' but some possible imagination:
 7. It seems there is a max limit of text appear on the screen for each new batch.
 8. ...
 
+[insert the flow chart here perhaps]
+
 ### 2. Textuality
 The artwork Vocable Code uses a specific font and a range of text-related syntax:
 
@@ -113,7 +115,7 @@ In high level programming language, the source code is both for sending instruct
 
 Through just showing the source code and the executed interface, one could also argue there is a discrepancy of code, referring to what you see is not necessarily how it operates. There are many other things that are not shown on the executed interface. (expanded with chun text)
 
-*Vocable Code* has a direct relation on bodily practices. The voice of the program or the programmer, the voice of the voice donors to account for other social bodies that are drawn into the proccess of meaning production. In other words, computation cannot be just reduced to input and output. What does it mean to execute the function `SpeakingCode(iam, makingStatements)`, who is speaking and for whom? One might think it is the people who is speaking, but the speaking process does not only go through the human process, but also variables, arguments, source code and machine code, and specifically the sound library with the function `speak.play()`. In the writing of *Speaking Code* (2013), Cox suggests "The interplay of the body of the code, the programmer's comments, and the human-machine reader express how hardware and software, text and code, are embodied"
+*Vocable Code* has a direct relation on bodily practices, the act of voicing. The voice of the program or the programmer, the voice of the voice donors to account for other social bodies that are drawn into the proccess of meaning production. In other words, computation cannot be just reduced to input and output. What does it mean to execute the function `SpeakingCode(iam, makingStatements)`, who is speaking and for whom? One might think it is the people who is speaking, but the speaking process does not only go through the human process, but also variables, arguments, source code and machine code, and specifically the sound library with the function `speak.play()`. In the writing of *Speaking Code* (2013), Cox suggests "The interplay of the body of the code, the programmer's comments, and the human-machine reader express how hardware and software, text and code, are embodied"
 
 However, thinking about voices with just human speech is very limited, as voice is not just only pointed at how a voice is being spoken and heard, but how voices are being marginalized and normalized. In particular to the idea of queer code and the binary logic of computation, Plant links further to wider western reality:
 
