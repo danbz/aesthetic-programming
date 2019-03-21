@@ -29,7 +29,9 @@ Not really an 'answer' but some possible imagination:
 
 ### 2. Textuality
 The artwork Vocable Code uses a specific font and a range of text-related syntax:
-![sketch1](ch7_1.png)
+
+<img src="ch7_1.png" width="450">
+
 *Sketch 1: Snippets of Vocable Code on Textuality*
 
 #### 2.1 Typography
@@ -54,7 +56,8 @@ The artwork Vocable Code uses a specific font and a range of text-related syntax
 
 There are two different `if` statements implemented in *Vocable Code*. Since text is continuously generated in the artwork, the first one is to check if there are still text remain on the screen. The second conditional statement is to check whether the text are moved out of the canvas especially on the vertical y-axis.
 
-![sketch2](ch7_2.png)
+<img src="ch7_2.png" width="450">
+
 *Sketch 2: Snippets of Vocable Code on Conditional Structure*
 
 The first one (see line 2 of the sketch2) with the logic of **AND** (`&&`) case, where both conditions `queerRights.length <= 2.0` AND `frameCount % 20 == 4.0` are needed to be 'true' in order to proceed to the function `makeVisible()`.
@@ -64,7 +67,7 @@ The second one (see line 11 of the sketch2) with the logic of **OR** (`||`) case
 What is interesting here is the use of the value "notFalse" and "notTrue" as we tend to understand the boolean logic as the only absolute binary reality as 'true' or false'. We can then also relate this to the zeros and ones in which information is reduced into machine code. Arguably and conceptually, notFalse and notTrue give a wider possibility of imagining and voicing matters as this points at the becoming of more than the binary reality and thinking that matters.
 
 #### 2.3 Reading JSON and Speaking Code
-![json](ch7_data.png)
+<img src="ch7_data.png" width="450">
 *Sketch 3: The JSON file in Vocable Code*
 
 Javascript Object Notation (JSON) is an open-standard and independent file format. In a nutshell, it is used to store and exchange data with certain rules to follow. For this specific example, JSON file is used to store all the data from voice donors. Their statements are written in text and will be used to display on a screen. By using JSON, all the data can be updated on this JSON file without changing anything in the javascript source code level. This kind of separation of data and computational logic is commonly seen in software development.
@@ -76,17 +79,17 @@ See some of the rules here:
 - Curly braces `{}` hold objects, e.g there are many object instances that share the same structure.
 
 To process this JSON file, you need to use the syntax `loadJSON`. See how this puts together in a sketch:
-![sketch3](ch7_3.png)
+<img src="ch7_3.png" width="450">
 *Sketch 4: Snippets of Vocable Code on Reading JSON*
 
-![sketch5](ch7_4.png)
+<img src="ch7_4.png" width="450">
 *Sketch 5: Snippets of Vocable Code on Reading JSON* [need to redraw in a better form]
 
 After loading the JSON file that is stored in the relative path `inclusive/voices.json`, it then points at the `queers` array (in line 11 of Sketch 5) and look for the name/value pairs of `iam`, `makingstatements` from the randomly selected statement among `statement2` and `statement3`.
 
 Once the text is ready, it will then call the function `SpeakingCode`
 
-![sketch6](ch7_5.png)
+<img src="ch7_5.png" width="450">
 
 All the voice files are stored in wav file format. Since the files are named in a specific convention that follow the field `iam` in the JSON file. In this way, we can then concatenate all the bits and pieces by using the operator `+` to retrieve the specific voice file to play: `let getVoice = "inclusive/voices/" + iam + makingStatements + ".wav";`  
 
@@ -94,7 +97,7 @@ To play a sound file you need to both use `loadSound` as a callback to make sure
 
 ### 3. Source Code for Vocable Code
 
-![source](ch7_source.png)
+<img src="ch7_source.png" width="450">
 
 ## Outro:
 
