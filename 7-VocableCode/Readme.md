@@ -82,17 +82,19 @@ See some of the rules here:
 To process this JSON file, you need to use the syntax `loadJSON`. See how this puts together in a sketch:
 <img src="ch7_3.png" width="450">
 
-*Sketch 4: Snippets of Vocable Code on Reading JSON*
+*Sketch 4: Snippets of Vocable Code on Reading JSON I*
 
 <img src="ch7_4.png" width="450">
 
-*Sketch 5: Snippets of Vocable Code on Reading JSON* [need to redraw in a better form]
+*Sketch 5: Snippets of Vocable Code on Reading JSON II* [need to redraw in a better form]
 
 After loading the JSON file that is stored in the relative path `inclusive/voices.json`, it then points at the `queers` array (in line 11 of Sketch 5) and look for the name/value pairs of `iam`, `makingstatements` from the randomly selected statement among `statement2` and `statement3`.
 
 Once the text is ready, it will then call the function `SpeakingCode`
 
 <img src="ch7_5.png" width="450">
+
+*Sketch 6: Snippets of Vocable Code on Speaking Code*
 
 All the voice files are stored in wav file format. Since the files are named in a specific convention that follow the field `iam` in the JSON file. In this way, we can then concatenate all the bits and pieces by using the operator `+` to retrieve the specific voice file to play: `let getVoice = "inclusive/voices/" + iam + makingStatements + ".wav";`  
 
@@ -101,6 +103,7 @@ To play a sound file you need to both use `loadSound` as a callback to make sure
 ### 3. Source Code for Vocable Code
 
 <img src="ch7_source.png" width="450">
+*Sketch 7: Full source code for Vocable Code*
 
 ## Outro:
 
