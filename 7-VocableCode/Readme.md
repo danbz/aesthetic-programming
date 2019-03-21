@@ -103,6 +103,7 @@ To play a sound file you need to both use `loadSound` as a callback to make sure
 ### 3. Source Code for Vocable Code
 
 <img src="ch7_source.png" width="450">
+
 *Sketch 7: Full source code for Vocable Code*
 
 ## Outro:
