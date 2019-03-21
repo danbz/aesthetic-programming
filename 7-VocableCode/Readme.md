@@ -40,7 +40,7 @@ The artwork Vocable Code uses a specific font and a range of text-related syntax
 
 "Gilbert_TypeWithPride.otf" is free font and is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, and that can be downloaded from the Internet (www.typewithpride.com) <sup>[1](#myfootnote1)</sup>. It is designed to honor the memory of Gilbert Baker, who is the creator of the iconic Rainbow Flag but passed away in 2017.
 
-![type](https://static1.squarespace.com/static/58ed2d6244024330c0a58707/58ed2dbbf7e0abfc5d7ebb1c/58f77ed329687f53ff3123c7/1493282053409/TypeWithPride-07.jpg?format=2500w)
+<img src="https://static1.squarespace.com/static/58ed2d6244024330c0a58707/58ed2dbbf7e0abfc5d7ebb1c/58f77ed329687f53ff3123c7/1493282053409/TypeWithPride-07.jpg?format=2500w" width="450">
 
 `textFont()` means to get ready to print out or write the text with the chosen font, and in this case with `withPride` that is previously defined.
 
@@ -68,6 +68,7 @@ What is interesting here is the use of the value "notFalse" and "notTrue" as we 
 
 #### 2.3 Reading JSON and Speaking Code
 <img src="ch7_data.png" width="450">
+
 *Sketch 3: The JSON file in Vocable Code*
 
 Javascript Object Notation (JSON) is an open-standard and independent file format. In a nutshell, it is used to store and exchange data with certain rules to follow. For this specific example, JSON file is used to store all the data from voice donors. Their statements are written in text and will be used to display on a screen. By using JSON, all the data can be updated on this JSON file without changing anything in the javascript source code level. This kind of separation of data and computational logic is commonly seen in software development.
@@ -80,9 +81,11 @@ See some of the rules here:
 
 To process this JSON file, you need to use the syntax `loadJSON`. See how this puts together in a sketch:
 <img src="ch7_3.png" width="450">
+
 *Sketch 4: Snippets of Vocable Code on Reading JSON*
 
 <img src="ch7_4.png" width="450">
+
 *Sketch 5: Snippets of Vocable Code on Reading JSON* [need to redraw in a better form]
 
 After loading the JSON file that is stored in the relative path `inclusive/voices.json`, it then points at the `queers` array (in line 11 of Sketch 5) and look for the name/value pairs of `iam`, `makingstatements` from the randomly selected statement among `statement2` and `statement3`.
