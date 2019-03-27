@@ -132,8 +132,8 @@ What is interesting here is the use of the value `notFalse` and `notTrue` as we 
 	[
 		{
 		"iam": "WinnieSoon",
-    "statement2": "not fixed not null",
-   	"statement3": "not null not closed"
+        "statement2": "not fixed not null",
+        "statement3": "not null not closed"
     },
 		{
 		"iam": "GeoffCox",
@@ -183,7 +183,7 @@ function makeVisible() {
 ```
 *Sketch 4: Snippets of Vocable Code on Reading JSON I*
 
-<img src="ch7_4.png">
+<img src="ch7_4.png" width="450">
 
 *Sketch 5: Snippets of Vocable Code on Reading JSON II* [need to redraw in a better form]
 
