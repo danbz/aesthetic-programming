@@ -122,7 +122,7 @@ The second one is within the function `this.isInvisible=function()` with the log
 What is interesting here is the use of the value `notFalse` and `notTrue` as we tend to understand the boolean logic as the only absolute binary reality as 'true' or false'. We can then also relate this to the zeros and ones in which information is reduced into machine code. Arguably and conceptually, notFalse and notTrue give a wider possibility of imagining and voicing matters as this points at the becoming of more than the binary reality.
 
 ### 2.3 Reading JSON and Speaking Code
-```JSON
+```
 {
 	"description": "This file contains the meta data of queer text",
 	"condition": "statement2 cannot be null",
@@ -132,8 +132,8 @@ What is interesting here is the use of the value `notFalse` and `notTrue` as we 
 	[
 		{
 		"iam": "WinnieSoon",
-        "statement2": "not fixed not null",
-        "statement3": "not null not closed"
+    "statement2": "not fixed not null",
+    "statement3": "not null not closed"
     },
 		{
 		"iam": "GeoffCox",
