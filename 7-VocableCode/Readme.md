@@ -128,24 +128,23 @@ What is interesting here is the use of the value `notFalse` and `notTrue` as we 
 "condition": "statement2 cannot be null",
 "copyLeft": "Creative Common Licence BY 4.0",
 "lastUpdate": "Mar, 2019",
-"queers":
-  [
-        {
-		"iam": "WinnieSoon",
-        "statement2": "not fixed not null",
-        "statement3": "not null not closed"
-        },
-		{
-		"iam": "GeoffCox",
-		"statement2": "queer and that means queer",
-		"statement3": "null"
-		},
-		{
-		"iam": "GoogleAlgorithm",
-		"statement2": "not a manifesto",
-		"statement3": "null"
-		}
- 	]
+"queers": [
+  {
+    "iam": "WinnieSoon",
+    "statement2": "not fixed not null",
+    "statement3": "not null not closed"
+  },
+	{
+    "iam": "GeoffCox",
+    "statement2": "queer and that means queer",
+    "statement3": "null"
+	},
+	{
+    "iam": "GoogleAlgorithm",
+    "statement2": "not a manifesto",
+    "statement3": "null"
+	}
+]
 }
 ```
 *Sketch 3: The JSON file in Vocable Code*
