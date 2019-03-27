@@ -136,84 +136,9 @@ What is interesting here is the use of the value `notFalse` and `notTrue` as we 
    	"statement3": "not null not closed"
     },
 		{
-  	"iam": "PollyPoon",
-    "statement2": "possibility with no boundary",
-   	"statement3": "null"
- 		},
-    {
-  	"iam": "SørenPold",
-    "statement2": "fixing the binary",
-    "statement3": "null"
- 		},
- 		{
-  	"iam": "MagdaTyżlik-carver",
-    "statement2": "interesting sometimes lonely",
-    "statement3": "what I want it to be"
- 		},
- 		{
-  	"iam": "SarahSchorr",
-    "statement2": "intricacies of gray",
-    "statement3": "changing and individual"
- 		},
- 		{
-  	"iam": "ElyzabethHolford",
-    "statement2": "whatever they need to be",
-    "statement3": "null"
- 		},
- 		{
-  	"iam": "GabrielPereira",
-    "statement2": "going south",
-    "statement3": "deconstruction, performance and reflexiveness"
-    },
- 		{
-  	"iam": "AnnetteMarkham",
-     "statement2": "a false dilemma, to me",
-     "statement3": "not very queer these days"
- 		},
-		{
-		"iam": "AnnaBrynskov",
-		"statement2": "i like chocolate",
-		"statement3": "not only gay"
-		},
-		{
 		"iam": "GeoffCox",
 		"statement2": "queer and that means queer",
 		"statement3": "null"
-		},
-		{
-		"iam": "LoneKoefoedHansen",
-		"statement2": "not being satisfied with categories",
-		"statement3": "often a brave move"
-		},
-		{
-		"iam": "SabrinaRecoules",
-		"statement2": "forgetting to be a node",
-		"statement3": "paranodal"
-		},
-		{
-		"iam": "TobiasStenbergChristensen",
-		"statement2": "embracing the uncomputable",
-		"statement3": "null"
-		},
-		{
-		"iam": "SallLamToro",
-		"statement2": "lyrical affront to the order",
-		"statement3": "constant ephemeral transformation, asymmetry, rupture"
-		},
-		{
-		"iam": "AndersVisti",
-		"statement2": "blowing in the wind",
-		"statement3": "seeping through the cracks"
-		},
-		{
-		"iam": "MelissaPalermo",
-		"statement2": "infinite",
-		"statement3": "null"
-		},
-		{
-		"iam": "AhTong",
-		"statement2": "about being you",
-		"statement3": "colorful"
 		},
 		{
 		"iam": "GoogleAlgorithm",
