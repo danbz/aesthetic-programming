@@ -133,17 +133,15 @@ What is interesting here is the use of the value `notFalse` and `notTrue` as we 
     "iam": "WinnieSoon",
     "statement2": "not fixed not null",
     "statement3": "not null not closed"
-  },
-	{
+  },{
     "iam": "GeoffCox",
     "statement2": "queer and that means queer",
     "statement3": "null"
-	},
-	{
+  },{
     "iam": "GoogleAlgorithm",
     "statement2": "not a manifesto",
     "statement3": "null"
-	}
+  }
 ]
 }
 ```
