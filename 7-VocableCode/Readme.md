@@ -184,7 +184,9 @@ function makeVisible() {
 *Sketch 4: Snippets of Vocable Code on Reading JSON I*
 
 <img src="ch7_4.png">
+
 *Sketch 5: Snippets of Vocable Code on Reading JSON II* [need to redraw in a better form]
+
 
 After loading the JSON file that is stored in the relative path `inclusive/voices.json`, it then points at the `queers` array (in line 11 of Sketch 5) and look for the name/value pairs of `iam`, `makingstatements` from the randomly selected statement among `statement2` and `statement3`. Lastly, the function  `SpeakingCode` is called.
 
@@ -214,6 +216,7 @@ To play a sound file you need to both use `loadSound` as a callback to make sure
 ## 3. Source Code for Vocable Code
 
 <img src="ch7_source.png" width="450">
+
 *Sketch 7: Full source code for Vocable Code*
 
 ## Outro:
