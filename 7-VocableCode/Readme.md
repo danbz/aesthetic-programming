@@ -96,20 +96,20 @@ There are two different `if` statements implemented in *Vocable Code*. Since tex
 ```javascript
 //line 63
 if ((queerRights.length <= 2.0) && (frameCount % 20 == 4.0)) {
-		makeVisible();
+  makeVisible();
 }
 .
 .
 .
 //line 90
 this.isInvisible = function() {
-		var status;
-		if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
-			status = "notFalse";
-		} else {
-			status = "notTrue";
-		}
-		return status;
+	var status;
+	if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
+		status = "notFalse";
+	} else {
+		status = "notTrue";
+	}
+	return status;
 };
 ```
 
