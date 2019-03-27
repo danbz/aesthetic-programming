@@ -2,7 +2,7 @@
 
 ## Intro
 
-Many scholars and artists have explored and put together the concepts of code and language, not only consider programming as a tool to produce a piece of literature but also exploring the materiality, connection, paradoxes and tensions between the two, as articles, performances and artworks, they are Florian Cramer (2008), John Cayley (2002), Ian Hatcher (2015), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015) to name but a few. In this chapter, we explore speech-like qualities, as part of the wider thinking of code and language, between program code and speech-act in language, specifically working on *voices* to think through the aesthetic and critical possibilities for what we might describe as *vocable code* as put in this chapter title.
+Many scholars and artists have explored and put together the concepts of code and language, not only consider programming as a tool to produce a piece of literature but also exploring the materiality, connection, paradoxes and tensions between the two, as articles, performances and artworks, they are Florian Cramer (2008), John Cayley (2002), Ian Hatcher (2015), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015) to name but a few. In this chapter, we explore speech-like qualities, as part of the wider thinking of code and language, between program code and speech-act in language, specifically working on *voices* to think through the aesthetic and critical possibilities for what we might describe as *vocable code* as put in forward as this chapter's title.
 
 This chapter will centre the software artwork *Vocable Code*, as a means to unfold the technical and aesthetic aspects of code.
 ![vocable_code](https://farm2.staticflickr.com/1772/42269344360_a1038a1471_z.jpg)
@@ -35,10 +35,40 @@ Not really an 'answer' but some possible imagination:
 
 
 ## 2. Textuality
-The artwork *Vocable Code* uses a specific font and a range of text-related syntax:
+Although the artwork *Vocable Code* is about voices, voices and text are interlinked in the work. The program will pick only one selected text to speak/play at a time. Other selected text will be display dynamically on a screen. In terms of language, one can look into the meaning and semantics of text, but the placement of words and other design attributes also change the way of how one might perceive and interpret the queer statements. Queer statements are randomly selected, randomly presented and randomly spoken but at the same time they are also randomly combined and disrupted by mathematical chaos.  
 
-<img src="ch7_1.png" width="450">
+Here are the text-related syntax that have been used in the work:
 
+```javascript
+let withPride; //font
+//new font: line 11
+function preload() {
+  withPride = loadFont('inclusive/Gilbert_TypeWithPride.otf');
+}
+.
+.
+.
+//line 68: the class and constructor
+function notNew(getQueer){
+  this.size = floor(random(15.34387,30.34387));
+  this.xxxxx = width/2.0;
+  this.yyyyy = random(height/3.0,height+20.0);
+  this.speed = random(2.34387,3.34387);
+  this.gradient = 240.0;
+}
+.
+.
+.
+this.shows = function() {
+//font, size, alignment, fill and position: line 80
+  textFont(withPride);
+  textSize(this.size);
+  textAlign(CENTER);
+  noStroke();
+  fill(this.gradient);
+  text(getQueer, this.xxxxx, this.yyyyy);
+}
+```
 *Sketch 1: Snippets of Vocable Code on Textuality*
 
 ### 2.1 Typography
@@ -55,7 +85,7 @@ The artwork *Vocable Code* uses a specific font and a range of text-related synt
 
 `textAlign()` takes the first argument for the horizontal alignment. It contains options as LEFT, RIGHT and CENTER. Since every sentence with different number of words and hence the length of it will be various. In Vocable Code, the text is aligned CENTER regardless of the sentence's length.
 
-`noStroke()` and `fill()` do similiar things for shapes. The former one disables drawing the stroke (outline), while the later one sets the color of the text. `fill()` takes RGB values and other different color formats.
+`noStroke()` and `fill()` do similiar things as for shapes. The former one disables drawing the stroke (outline), while the later one sets the color of the text. `fill()` takes RGB values and other different color formats.
 
 `text()` draw text to the screen with specific words and positions (both horizontal and vertical).
 
@@ -63,55 +93,202 @@ The artwork *Vocable Code* uses a specific font and a range of text-related synt
 
 There are two different `if` statements implemented in *Vocable Code*. Since text is continuously generated in the artwork, the first one is to check if there are still text remained on the screen. The second conditional statement is to check whether the text are moved out of the canvas especially on the vertical y-axis.
 
-<img src="ch7_2.png" width="450">
+```javascript
+//line 63
+if ((queerRights.length <= 2.0) && (frameCount % 20 == 4.0)) {
+		makeVisible();
+}
+.
+.
+.
+//line 90
+this.isInvisible = function() {
+		var status;
+		if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
+			status = "notFalse";
+		} else {
+			status = "notTrue";
+		}
+		return status;
+};
+```
 
 *Sketch 2: Snippets of Vocable Code on Conditional Structure*
 
-The first one (see line 2 of the sketch2) with the logic of **AND** (`&&`) case, where both conditions `queerRights.length <= 2.0` AND `frameCount % 20 == 4.0` are needed to be 'true' in order to proceed to the function `makeVisible()`.
+The first one with the logic of **AND** (`&&`) case, where both conditions `queerRights.length <= 2.0` AND `frameCount % 20 == 4.0` are needed to be 'true' in order to proceed to the function `makeVisible()`.
 
-The second one (see line 11 of the sketch2) with the logic of **OR** (`||`) case, where either one condition is needed to be 'true'. Additionally, there is also an 'if-else statement' to handle the results of the conditional statement. Therefore, it is read as if either one of the two conditions is met, the variable status will be assigned as 'notFalse' (this means the text is out of the screen in terms of the top or the bottom edge), and else if they are still remained on the screen, the variable status will be assigned as 'notTrue'.
+The second one is within the function `this.isInvisible=function()` with the logic of **OR** (`||`) case, where either one condition is needed to be 'true' (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an 'if-else statement' to handle the results of the conditional statement. Therefore, it is read as if either one of the two conditions is met, the variable `status` will be assigned as 'notFalse' (this means the text is out of the screen in terms of the top or the bottom edge), and else if they are still remained on the screen, the variable `status` will be assigned as 'notTrue'.
 
-What is interesting here is the use of the value "notFalse" and "notTrue" as we tend to understand the boolean logic as the only absolute binary reality as 'true' or false'. We can then also relate this to the zeros and ones in which information is reduced into machine code. Arguably and conceptually, notFalse and notTrue give a wider possibility of imagining and voicing matters as this points at the becoming of more than the binary reality.
+What is interesting here is the use of the value `notFalse` and `notTrue` as we tend to understand the boolean logic as the only absolute binary reality as 'true' or false'. We can then also relate this to the zeros and ones in which information is reduced into machine code. Arguably and conceptually, notFalse and notTrue give a wider possibility of imagining and voicing matters as this points at the becoming of more than the binary reality.
 
 ### 2.3 Reading JSON and Speaking Code
-<img src="ch7_data.png" width="450">
-
+```JSON
+{
+	"description": "This file contains the meta data of queer text",
+	"condition": "statement2 cannot be null",
+	"copyLeft": "Creative Common Licence BY 4.0",
+	"lastUpdate": "Mar, 2019",
+	"queers":
+	[
+		{
+		"iam": "WinnieSoon",
+    "statement2": "not fixed not null",
+   	"statement3": "not null not closed"
+    },
+		{
+  	"iam": "PollyPoon",
+    "statement2": "possibility with no boundary",
+   	"statement3": "null"
+ 		},
+    {
+  	"iam": "SørenPold",
+    "statement2": "fixing the binary",
+    "statement3": "null"
+ 		},
+ 		{
+  	"iam": "MagdaTyżlik-carver",
+    "statement2": "interesting sometimes lonely",
+    "statement3": "what I want it to be"
+ 		},
+ 		{
+  	"iam": "SarahSchorr",
+    "statement2": "intricacies of gray",
+    "statement3": "changing and individual"
+ 		},
+ 		{
+  	"iam": "ElyzabethHolford",
+    "statement2": "whatever they need to be",
+    "statement3": "null"
+ 		},
+ 		{
+  	"iam": "GabrielPereira",
+    "statement2": "going south",
+    "statement3": "deconstruction, performance and reflexiveness"
+    },
+ 		{
+  	"iam": "AnnetteMarkham",
+     "statement2": "a false dilemma, to me",
+     "statement3": "not very queer these days"
+ 		},
+		{
+		"iam": "AnnaBrynskov",
+		"statement2": "i like chocolate",
+		"statement3": "not only gay"
+		},
+		{
+		"iam": "GeoffCox",
+		"statement2": "queer and that means queer",
+		"statement3": "null"
+		},
+		{
+		"iam": "LoneKoefoedHansen",
+		"statement2": "not being satisfied with categories",
+		"statement3": "often a brave move"
+		},
+		{
+		"iam": "SabrinaRecoules",
+		"statement2": "forgetting to be a node",
+		"statement3": "paranodal"
+		},
+		{
+		"iam": "TobiasStenbergChristensen",
+		"statement2": "embracing the uncomputable",
+		"statement3": "null"
+		},
+		{
+		"iam": "SallLamToro",
+		"statement2": "lyrical affront to the order",
+		"statement3": "constant ephemeral transformation, asymmetry, rupture"
+		},
+		{
+		"iam": "AndersVisti",
+		"statement2": "blowing in the wind",
+		"statement3": "seeping through the cracks"
+		},
+		{
+		"iam": "MelissaPalermo",
+		"statement2": "infinite",
+		"statement3": "null"
+		},
+		{
+		"iam": "AhTong",
+		"statement2": "about being you",
+		"statement3": "colorful"
+		},
+		{
+		"iam": "GoogleAlgorithm",
+		"statement2": "not a manifesto",
+		"statement3": "null"
+		}
+ 	]
+}
+```
 *Sketch 3: The JSON file in Vocable Code*
 
-Javascript Object Notation (JSON) is an open-standard and independent file format. In a nutshell, it is used to store and exchange data with certain rules to follow. For this specific example, JSON file is used to store all the data from voice donors. Their statements are written in text and will be used to display on a screen. By using JSON, all the data can be updated on this JSON file without changing anything in the javascript source code level. This kind of separation of data and computational logic is commonly seen in software development.
+Javascript Object Notation (JSON) is an open-standard and independent file format. In a nutshell, it is used to store and exchange data with certain rules to follow. For this specific example, JSON file is used to store the data from all voice donors. Their statements are written in text and will be used to display on a screen. By using JSON, all the data can be updated on this JSON file without changing anything in the javascript source code level.
 
-See some of the rules here:
+JSON is mainly used for storing and retrieving data while javascript is a programming language that implements computational logic to manipulate the data, such as retrieving the data and display on a screen in various color, size and speed. This kind of separation of data and computational logic is commonly seen in software development. JSON is widely used as a data storage and communication format on the internet and software applications that employ different programming languages. Google, for example, offers their web or image search results in JSON format via their Application Programming Interfaces (APIs). We will look into more about APIs in next chapter.  
+
+JSON looks similar to Javascript in terms of the use of arrays and objects. But they are formatted differently, and some of the rules are:
 - Data is stored in name/value pairs, e.g `"copyLeft": "Creative Common Licence BY 4.0"` and the pair is separated by a colon.
+- All property name/value pairs have to be surrounded by double quotes.
 - Each data is separated by commas
 - Square brackets `[]` hold arrays
 - Curly braces `{}` hold objects, e.g there are many object instances that share the same structure.
+- Comments are not allowed.
+- No other computational logics like conditional structure or for-loop.
 
-To process this JSON file, you need to use the syntax `loadJSON`. See how this puts together in a sketch:
+To process the JSON file in sketch 3, you need to use the syntax `loadJSON`. See how this puts together in a sketch:
 
-<img src="ch7_3.png" width="450">
+```javascript
+let whatisQueer;
 
+function preload() {
+  whatisQueer = loadJSON('inclusive/voices.json');
+}
+.
+.
+.
+function makeVisible() {
+//line 16 (queers is the array)
+  queers = whatisQueer.queers;
+//line 33 (check the JSON file - which are the objects under 'queers' -> to select which voice to play)
+  SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
+}
+```
 *Sketch 4: Snippets of Vocable Code on Reading JSON I*
 
-<img src="ch7_4.png" width="450">
-
+<img src="ch7_4.png">
 *Sketch 5: Snippets of Vocable Code on Reading JSON II* [need to redraw in a better form]
 
-After loading the JSON file that is stored in the relative path `inclusive/voices.json`, it then points at the `queers` array (in line 11 of Sketch 5) and look for the name/value pairs of `iam`, `makingstatements` from the randomly selected statement among `statement2` and `statement3`.
+After loading the JSON file that is stored in the relative path `inclusive/voices.json`, it then points at the `queers` array (in line 11 of Sketch 5) and look for the name/value pairs of `iam`, `makingstatements` from the randomly selected statement among `statement2` and `statement3`. Lastly, the function  `SpeakingCode` is called.
 
-Once the text is ready, it will then call the function `SpeakingCode`
+```javascript
+function makeVisible() {
+  ...
+  SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
+}
+.
+.
+.
+function SpeakingCode(iam, makingStatements) {
+	let getVoice = "inclusive/voices/" + iam + makingStatements + ".wav";
+	speak = loadSound(getVoice, speakingNow);
+}
 
-<img src="ch7_5.png" width="450">
-
+function speakingNow() {
+	speak.play();
+}
+```
 *Sketch 6: Snippets of Vocable Code on Speaking Code*
 
-All the voice files are stored in wav file format. Since the files are named in a specific convention that follow the field `iam` in the JSON file. In this way, we can then concatenate all the bits and pieces by using the operator `+` to retrieve the specific voice file to play: `let getVoice = "inclusive/voices/" + iam + makingStatements + ".wav";`  
+All the voice files are stored in the wav file format. Since the files are named in a specific convention that follow the field `iam` in the JSON file. In this way, we can then concatenate all the bits and pieces by using the operator `+` so as to retrieve the specific voice file to play: `let getVoice = "inclusive/voices/" + iam + makingStatements + ".wav";`As discussed earlier, the selected voice is synchronized with the text on screen. That is to say the program won't speak purely random from all the voices.
 
 To play a sound file you need to both use `loadSound` as a callback to make sure the sound is fully loaded (it takes time as it also involves file size issues, memory and hardware) before the function `speak.play()` is invoked.
 
 ## 3. Source Code for Vocable Code
 
 <img src="ch7_source.png" width="450">
-
 *Sketch 7: Full source code for Vocable Code*
 
 ## Outro:
