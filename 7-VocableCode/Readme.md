@@ -2,19 +2,25 @@
 
 ## Intro
 
-Many scholars and artists have explored and put together the concepts of code and language, such as Florian Cramer, John Cayley, Ian Hatcher, Graham Harwood, Michael Mateas and Allison Parrish. In this chapter, we explore speech-like qualities between program code and speech-act in language, specifically working on voices to think through the aesthetic and critical possibilities for vocable code.
+Many scholars and artists have explored and put together the concepts of code and language, not only consider programming as a tool to produce a piece of literature but also exploring the materiality, connection, paradoxes and tensions between the two, as articles, performances and artworks, they are Florian Cramer (2008), John Cayley (2002), Ian Hatcher (2015), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015) to name but a few. In this chapter, we explore speech-like qualities, as part of the wider thinking of code and language, between program code and speech-act in language, specifically working on *voices* to think through the aesthetic and critical possibilities for what we might describe as *vocable code* as put in this chapter title.
 
-This chapter will centre the software artwork *Vocable Code*, as a means to unfold the technical and conceptual aspects of code.
+This chapter will centre the software artwork *Vocable Code*, as a means to unfold the technical and aesthetic aspects of code.
 ![vocable_code](https://farm2.staticflickr.com/1772/42269344360_a1038a1471_z.jpg)
 
-Here is the artwork's description:
+### The context of the work
 <blockquote>
 Vocable Code is both a work of “software art” (software as artwork, not software to make an artwork) and a “codework” (where the source code and critical writing operate together) produced to embody “queer code”. It examines the notion of queerness in computer coding. Through collecting voices and statements from others that help to complete the sentence that begins: “Queer is…”, the work is computationally and poetically composed where the texts and voices are repeated and disrupted by mathematical chaos, creating a dynamic audio-visual literature and exploring the performativity of code, subjectivity and language. Behind the executed web interface, the code itself is deliberately written as a codework, a mix of a computer programming language and human language, exploring the material and linguistic tensions of writing and reading within the context of (non)binary poetry and computer code.
 </blockquote>
 
-There are few issues to note here. First the source code is considered as codework, which is a poetry for reading. In other words, the source code is no longer hidden away from any user and, instead, always display side by side with the executed version that blur the boundary between the source and the executed interfaces. Second, the method of using constrains is seen in both the writing of codework, as well as formulating the queer's statements such that the voices themselves express different rhythm, temporality and meaning. But central to the work is the exploration of queer code via speaking code, loading and playing voices, showing codework,  , writing source code and executing machine code.
+The work is presented in a dual screen format, with one side shows the source code (codework) and the other side shows the executed version. In this particular work, the source code is no longer, as usual, hidden away from any user and, instead, always display side by side to blur the boundary between the source and the executed, the back and the front. The notion of queer code is the main subject, and this operates in multiple levels, such as the queering about what a front-end interface should be, the always practical writing of code in its most efficient way, the performative aspect of code that includes human and nonhuman execution, the participatory aspect of voices that the program speaks endlessly and many others.  
 
-### 1. Decoding Exercise:
+The core method in structuring the artwork *Vocable Code* is the use of constrains/rules, which is seen in both the writing of codework/source code, as well as formulating the rules for the voice contributors the queer's statements such that the voices themselves express different rhythm, temporality and meaning. For example, below show some of the constrains:
+- When writing the source code, do not use binary 0 or 1, either a single X or Y, a single operator of '>' or '<'.
+- When writing the source code, mindful of all the variable, array and function's naming.
+- For each specific voice, the sentence with the starting words: "Queer is"
+- For each specific voice, each sentence contains the minimum of 1 word but no more than 5.
+
+## 1. Decoding the interface:
 Q: By just looking at the [RUNME](https://siusoon.github.io/VocableCode/vocablecode_program/) of *Vocable Code*, describe the different elements of the work and imagine how they operate computationally in human language?
 
 Not really an 'answer' but some possible imagination:
@@ -23,20 +29,19 @@ Not really an 'answer' but some possible imagination:
 3. The text fades over time
 4. The text are various in size
 5. Some of the content of the text are overlapped but at least there are more than 10 different text.
-6. For each new batch of text that appears on a screen, you can hear a human voice that speaks one of the text.
+6. For each new batch of the text showing on a screen, one can hear a human-like voice that speaks one of the text.
 7. It seems there is a max limit of text appear on the screen for each new batch.
 8. ...
 
-[insert the flow chart here perhaps]
 
-### 2. Textuality
-The artwork Vocable Code uses a specific font and a range of text-related syntax:
+## 2. Textuality
+The artwork *Vocable Code* uses a specific font and a range of text-related syntax:
 
 <img src="ch7_1.png" width="450">
 
 *Sketch 1: Snippets of Vocable Code on Textuality*
 
-#### 2.1 Typography
+### 2.1 Typography
 
 `loadFont` supports opentype font style (.otf and .ttf) and it returns a PFont object through `withPride` in the above sketch 1.
 
@@ -54,7 +59,7 @@ The artwork Vocable Code uses a specific font and a range of text-related syntax
 
 `text()` draw text to the screen with specific words and positions (both horizontal and vertical).
 
-#### 2.2 Conditional Structure
+### 2.2 Conditional Structure
 
 There are two different `if` statements implemented in *Vocable Code*. Since text is continuously generated in the artwork, the first one is to check if there are still text remained on the screen. The second conditional statement is to check whether the text are moved out of the canvas especially on the vertical y-axis.
 
@@ -68,7 +73,7 @@ The second one (see line 11 of the sketch2) with the logic of **OR** (`||`) case
 
 What is interesting here is the use of the value "notFalse" and "notTrue" as we tend to understand the boolean logic as the only absolute binary reality as 'true' or false'. We can then also relate this to the zeros and ones in which information is reduced into machine code. Arguably and conceptually, notFalse and notTrue give a wider possibility of imagining and voicing matters as this points at the becoming of more than the binary reality.
 
-#### 2.3 Reading JSON and Speaking Code
+### 2.3 Reading JSON and Speaking Code
 <img src="ch7_data.png" width="450">
 
 *Sketch 3: The JSON file in Vocable Code*
@@ -103,7 +108,7 @@ All the voice files are stored in wav file format. Since the files are named in 
 
 To play a sound file you need to both use `loadSound` as a callback to make sure the sound is fully loaded (it takes time as it also involves file size issues, memory and hardware) before the function `speak.play()` is invoked.
 
-### 3. Source Code for Vocable Code
+## 3. Source Code for Vocable Code
 
 <img src="ch7_source.png" width="450">
 
@@ -146,12 +151,23 @@ In this chapter, through the work *Vocable Code* with strange syntaxes (such as 
   - **Analyze** your own e-lit work by using the text 'Vocable Code' or other texts that address the border theme of 'code and language'.
   - What is the **aesthetic aspect** of your program in particular to the relationship between **code and language**?
 
+## Works cited:
+- Parrish, A (2015) https://vimeo.com/134734729
+- Cramer, F (2008) Language in Software Studies
+- Harwood, G (2008) Class Library in Software Studies
+- Cayley, J (2002) The Code is not the Text (unless it is the Text). electronic book review
+- Hatcher, I. (2015) The All-New. Small Press United. http://anomalouspress.org/books/all-new.php
+- Temkin, Daniel. (2011) esoteric.codes https://esoteric.codes/
+- Mateas, M., & Montfort, N. (2005, December). A box, darkly: Obfuscation, weird languages, and code aesthetics. In Proceedings of the 6th Digital Arts and Culture Conference, IT University of Copenhagen (pp. 144-153).
+- Cox, G. (2013) Speaking Code: Coding as Aesthetic and 6. Political Expression. Cambridge, Mass: MIT Press.
+- Blas, Z. & Cárdenas, M. Imaginary computatoinal systems: queer technologies and transreal aesthetics. AI & Soc (2013) 28: 559. https://doi.org/10.1007/s00146-013-0502-y
+- Blas, Z. & Cárdenas, M (2012) femme Disturbance Library
+
 ## Further references:
 1. Badiou, A. (2008) Number + Numbers. Cambridge: Polity.
 2. Barad, K. (2007) Meeting the Universe Halfway: Quantum Physics and The Entanglement of Matter and Meaning. Durham: Duke University Press.
 3. Barlow, JD. (2001) The Book of Nothing. London: Vintage.
 4. Braidotti, R. (2013) The Posthuman. Cambridge: Polity.
-5. Cox, G. (2013) Speaking Code: Coding as Aesthetic and 6. Political Expression. Cambridge, Mass: MIT Press.
 6. Feminist Software Foundation. (2013) Feminist Software Foundation: C-Plus-Equality. [online] Available at: https://github.com/ErisBlastar/cplusequality/blob/master/hellofeminists.Xe [Accessed 13 Apr. 2018].
 7. Feminist Software Foundation. (2016) Feminist Software Foundation: C-Plus-Equality. [online] Available at: https://github.com/ErisBlastar/cplusequality/blob/master/README.md [Accessed 13 Apr. 2018].
 8. Hodges, A. (1983) Alan Turing: The Enigma. London: Walker Books.
