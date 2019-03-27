@@ -2,7 +2,7 @@
 
 ## Intro
 
-Many scholars and artists have explored and put together the concepts of code and language, not only consider programming as a tool to produce a piece of literature but also exploring the materiality, connection, paradoxes and tensions between the two, as articles, performances and artworks, they are Florian Cramer (2008), John Cayley (2002), Ian Hatcher (2015), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015) to name but a few. In this chapter, we explore speech-like qualities, as part of the wider thinking of code and language, between program code and speech-act in language, specifically working on *voices* to think through the aesthetic and critical possibilities for what we might describe as *vocable code* as put in forward as this chapter's title.
+Many scholars and artists have explored and put together the concepts of code and language, not only consider programming as a tool to produce a piece of literature but also exploring the materiality, connection, paradoxes and tensions between the two, as articles, performances and artworks, they are Florian Cramer (2008), John Cayley (2002), Ian Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015) to name but a few. In this chapter, we explore speech-like qualities, as part of the wider thinking of code and language, between program code and speech-act in language, specifically working on *voices* to think through the aesthetic and critical possibilities for what we might describe as *vocable code* as put in forward as this chapter's title.
 
 This chapter will centre the software artwork *Vocable Code*, as a means to unfold the technical and aesthetic aspects of code.
 ![vocable_code](https://farm2.staticflickr.com/1772/42269344360_a1038a1471_z.jpg)
@@ -218,13 +218,15 @@ To play a sound file you need to both use `loadSound` as a callback to make sure
 
 ## Outro:
 
-In high level programming language, the source code is both for sending instructions to machines as well as communicating with humans. In this way, writing source code means to deal with signs and symbols, semantics and syntactics of languages that collide with both programming and natural ones. We also learnt from previous chapter (Object Orientation) that abstraction is a fundamental concept to software development which is away from the machine operations, and put focuses on building abstractions as objects. The use of class/object structure (text as object instances), conditional structure, procedures and subroutines such as the for-loop of the stored text are some of the ways that are designed to present and execute the source code in a particular way.
+In high-level programming language, the source code is both for sending instructions to machines as well as communicating with humans. In this way, writing source code means to deal with signs and symbols, semantics and syntactics of languages that collide with both programming and natural ones. We also learnt from previous chapter (Object Orientation) that abstraction is a fundamental concept to software development which is away from the machine operations, and put focuses on building abstractions as objects. The use of class/object structure (text as object instances), conditional structure, procedures and subroutines, such as the for-loop, are some of the ways that are designed to present and execute the source code in a particular way. However, in the context of machine execution, those variable names-the semantic layer- are stripped away and that kind of information is simply lost. It does not has any effect on the execution of the program apart from memory size. In this way, choosing meaningful identifier names is more for the purpose of expression and communication. Then it becomes a question about what's the voice of the programmer.
 
-Through just showing the source code and the executed interface, one could also argue there is a discrepancy of code, referring to what you see is not necessarily how it operates. There are many other things that are not shown on the executed interface. (expanded with chun text)
+Further into the thinking around source code, source code does not show how a machine operates, such as store, load, add and halt actions, that interact with memory address, translate of symbolic into real address and disclose the operation sequences. By showing the two interfaces side by side one could also argue there is a discrepancy of code, referring to what you see is not necessarily how it operates. This could be understood in twofold. First, even the source code is available but the process of translation of source to machine code is still hidden and not all the lines are being executed (Chun 2013, 24; Cox 2013, 23). Wendy Chun summarizes as "Higher level programming languages-automatic programming-may have been sold as offering the programmer more and easier control, but they also necessitated blackboxing even more the operations of the machine they supposedly instructed" (2013, 45). Based on this, we could then argue if source code actually does what it says especially to code poetry (codeworks) that play with language. When one speaks the source code, it performs differently then how a machine performs.
+
+Secondly, even though there is an interface with text running on the screen, the two interfaces are not having identical meaning, and this points to the questionable interface-principle WYSIWYG. The interface of the moving text is just showed part of the results of the source code and never able to capture the full essence of the source code. In this way, the work challenges the the usual and prominent front-end interface by also giving voice to both ends.
 
 *Vocable Code* has a direct relation on bodily practices, the act of voicing. The voice of the program or the programmer, the voice of the voice donors to account for other social bodies that are drawn into the proccess of meaning production. In other words, computation cannot be just reduced to input and output. What does it mean to execute the function `SpeakingCode(iam, makingStatements)`, who is speaking and for whom? One might think it is the people who is speaking, but the speaking process does not only go through the human process, but also variables, arguments, source code and machine code, and specifically the sound library with the function `speak.play()`. In the writing of *Speaking Code* (2013), Cox suggests "The interplay of the body of the code, the programmer's comments, and the human-machine reader express how hardware and software, text and code, are embodied"
 
-However, thinking about voices with just human speech is very limited, as voice is not just only pointed at how a voice is being spoken and heard, but how voices are being marginalized and normalized. In particular to the idea of queer code and the binary logic of computation, Plant links further to wider western reality:
+Of course, thinking about voices with just human speech is very limited, as voice is not just only pointed at how a voice is being spoken and heard, but how voices are being marginalized and normalized. In particular to the idea of queer code and the binary logic of computation, Plant links further to wider western reality:
 
 <blockquote>
 "Whether [...]gathering information, telecommunicating, running washing machines, doing sums, or making videos, all digital computers translate information into zeros and ones of machine code. These binary digits are known as bits and strung together in bytes of eight'. The seros and ones of machine code seems to offer themselves as perfect symbols of the orders of Western reality, the ancient logical codes which make the difference between on and off, right and left, light and dark, form and matter, mine and body, white and black, good and evil, right and wrong, life and death, something and nothing, this and that, here and there, inside and out, active and passive, true and false, yes and no, sanity and madness, health and sickness, up and down, sense and nonsense, west and east, north and south. And they made a lovely couple when it came to sex. Man and woman, male and female, masculine and feminine: one and zero looked just right, made for each other: 1, the definite, upright line; the 0, the diagram of nothing at all: penis and vagina, thing and hole...hand in glove. A perfect match."   - (Plant 1997, pp. 34-35)
@@ -232,7 +234,32 @@ However, thinking about voices with just human speech is very limited, as voice 
 
 Although it takes two to make a binary (and set up the heterosexist paradigm), clearly inequalities are expressed in the tendency to privilege one side of the equation over the other - with positive and negative attributes accordingly.
 
-In this chapter, through the work *Vocable Code* with strange syntaxes (such as notFalse and notTrue) and many repetitive decimals, what we want is to foreground is: Queer is...making binaries strange.   
+[....add more]
+
+In this chapter, through the work *Vocable Code* with strange syntaxes (such as notFalse and notTrue) and many repetitive decimals, what we want to foreground is:
+Queer is...making binaries strange.   
+
+## In-class Exercise:
+1. Work in a group of 3-4.
+2. Download the Vocable Code sketch, and run it in your own computer.
+3. Discuss the various computational structure and syntax to understand how things work, and specifically on the relationship between the voice file naming and JSON file structure
+4. Follow the instruction and record your own voice with your computer or mobile phone. (The program takes in wav file format only.)
+  - Find a blank paper and prepare to write a sentence
+  - Complete the sentence with the starting words: “Queer is ... “
+  - Each sentence contains no more than 5 words (the starting words- “queer is” is not included)
+  - More than 1 sentence is allowed but not more than 2.
+  - It is ok to have just one word.
+  - Download/Locate a voice recording app on your smartphone (e.g “Voice Recorder” on Android phone or ‘’Voice Memos app” on iphone).
+  - Try to find a quiet environment and record your voice, and see if the app works (controlling the start and end of the recording button).
+  - Prepare to record your voice with your written sentence(s).
+  - It is up to you to decide the temporality and rhythm of speaking the text.
+  - It is up to you to either speak the full word or full sentence with different pitch/tempo/rhythm.
+  - You can also speak on a certain part (phonetics) of the word or sentence. In other words, the word/sentence doesn’t need to be fully pronounced.
+  - The first two provided words “queer is” can be omitted.
+  - Record your voice, and convert your voice file into wav file format. (audicity is one of software program to do the conversion)
+5. Add your voices and Update the program with your own voices
+6. Advanced: Try to change the presentation of the text e.g color and the animated behavior of the text
+7. Discuss the different critical and aesthetic aspects of queer code
 
 ## Mini Exercise #7: E-lit
 **Task and Objective:**
@@ -253,12 +280,17 @@ In this chapter, through the work *Vocable Code* with strange syntaxes (such as 
   - **Analyze** your own e-lit work by using the text 'Vocable Code' or other texts that address the border theme of 'code and language'.
   - What is the **aesthetic aspect** of your program in particular to the relationship between **code and language**?
 
+## Assigned Readings:
+- Cox, Geoff and McLean, Alex. Speaking Code. MIT Press, 2013. 17-38.
+
 ## Works cited:
 - Parrish, A (2015) https://vimeo.com/134734729
 - Cramer, F (2008) Language in Software Studies
+- Chun, W (2013) Programmed Visions
 - Harwood, G (2008) Class Library in Software Studies
 - Cayley, J (2002) The Code is not the Text (unless it is the Text). electronic book review
 - Hatcher, I. (2015) The All-New. Small Press United. http://anomalouspress.org/books/all-new.php
+- Hatcher, I. (2016) Not not. https://soundcloud.com/ihatch/5-notnot
 - Temkin, Daniel. (2011) esoteric.codes https://esoteric.codes/
 - Mateas, M., & Montfort, N. (2005, December). A box, darkly: Obfuscation, weird languages, and code aesthetics. In Proceedings of the 6th Digital Arts and Culture Conference, IT University of Copenhagen (pp. 144-153).
 - Cox, G. (2013) Speaking Code: Coding as Aesthetic and 6. Political Expression. Cambridge, Mass: MIT Press.
