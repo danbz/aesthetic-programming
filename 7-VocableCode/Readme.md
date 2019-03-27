@@ -124,17 +124,17 @@ What is interesting here is the use of the value `notFalse` and `notTrue` as we 
 ### 2.3 Reading JSON and Speaking Code
 ```
 {
-	"description": "This file contains the meta data of queer text",
-	"condition": "statement2 cannot be null",
-	"copyLeft": "Creative Common Licence BY 4.0",
-	"lastUpdate": "Mar, 2019",
-	"queers":
-	[
-		{
+"description": "This file contains the meta data of queer text",
+"condition": "statement2 cannot be null",
+"copyLeft": "Creative Common Licence BY 4.0",
+"lastUpdate": "Mar, 2019",
+"queers":
+  [
+        {
 		"iam": "WinnieSoon",
-    "statement2": "not fixed not null",
-    "statement3": "not null not closed"
-    },
+        "statement2": "not fixed not null",
+        "statement3": "not null not closed"
+        },
 		{
 		"iam": "GeoffCox",
 		"statement2": "queer and that means queer",
