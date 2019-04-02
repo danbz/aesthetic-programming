@@ -129,11 +129,11 @@ What is interesting here is the use of the value `notFalse` and `notTrue` as we 
 ### 2.3 Reading JSON and Speaking Code
 ```
 {
-	"description": "This file contains the meta data of queer text",
-	"condition": "yourStatement cannot be null",
-	"copyLeft": "Creative Common Licence BY 4.0",
-	"lastUpdate": "Apr, 2019",
-	"queers":
+  "description": "This file contains the meta data of queer text",
+  "condition": "yourStatement cannot be null",
+  "copyLeft": "Creative Common Licence BY 4.0",
+  "lastUpdate": "Apr, 2019",
+  "queers":
   [
   {
     "iam": "WinnieSoon",
