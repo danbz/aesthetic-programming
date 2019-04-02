@@ -2,6 +2,8 @@
 
 ## Intro
 
+In using the phase "vocable code" we point to ...
+
 Many scholars and artists have explored and put together the concepts of code and language, not only consider programming as a tool to produce a piece of literature but also exploring the materiality, connection, paradoxes and tensions between the two, as articles, performances and artworks, they are Florian Cramer (2008), John Cayley (2002), Ian Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015) to name but a few. In this chapter, we explore speech-like qualities, as part of the wider thinking of code and language, between program code and speech-act in language, specifically working on *voices* to think through the aesthetic and critical possibilities for what we might describe as *vocable code* as we put forward as this chapter's title.
 
 This chapter will centre the software artwork *Vocable Code*, as a means to unfold the technical and aesthetic aspects of code.
