@@ -4,7 +4,7 @@
 
 In using the phase *vocable code* for the title of this chapter we aim to make explicit the ways in which the act of coding is both expression and process. Not reducible to its functional aspects, we argue that code mirrors the instability inherent to the human voice and what and how it expresses its subjects. Code is both script and performance, and is always ready to do something: it says what it will do and does it at the same time. This analogy to speech, or more specifically to *speech-act theory* (cf. John Langshaw Austin's *How To Do Things With Words*) has been well rehearsed in software studies (not least in *Speaking Code*) and helps us to demonstrate neatly how we can to do things with words and code: to produce an action with effects.  
 
-Indeed if coding is somewhat like speaking, it is also like poetry inasmuch as poems operate performatively, especially when read aloud, and clearly there are similarities between the syntactic qualities of written code and words on the page. This is made explicit when source code is read aloud as if it were a poem such as the example of the philosopher Franco Bifo Berardi reading the *I Love You* virus, literally enacting Florian Cramer's claim that the computer virus *I Love You* might be considered as a form of poetry. Such an example stresses the instability of code and how particular intentions or preferred meanings are open to (mis)interpretation. 
+Indeed if coding is somewhat like speaking, it is also like poetry inasmuch as poems operate performatively, especially when read aloud, and clearly there are similarities between the syntactic qualities of written code and words on the page. This is made explicit when source code is read aloud as if it were a poem such as the example of the philosopher Franco Bifo Berardi reading the *I Love You* virus, literally enacting Florian Cramer's claim that the computer virus *I Love You* might be considered as a form of poetry. Such an example stresses the instability of code and how particular intentions or preferred meanings are open to (mis)interpretation.
 
 Many scholars and artists have explored these conections between speaking and coding, not only to consider programming as a tool to produce poetic or literary forms but also to explore the material connections and tensions between the two, in various articles, performances and artworks (including those by Florian Cramer (2008), John Cayley (2002), Ian Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015), to name but a few). That speech comes from living human bodies further reminds us that coding practices have bodies too, and that coding can only be understood in terms of wider infrastructures and the context of its making (or *poiesis*).
 
@@ -17,7 +17,7 @@ In this chapter we also follow this line of thinking, and explore the ways in wh
 Vocable Code is both a work of “software art” (software as artwork, not software to make an artwork) and a “codework” (where the source code and critical writing operate together) produced to embody “queer code”. It examines the notion of queerness in computer coding. Through collecting voices and statements from others that help to complete the sentence that begins: “Queer is…”, the work is computationally and poetically composed where the texts and voices are repeated and disrupted by mathematical chaos, creating a dynamic audio-visual literature and exploring the performativity of code, subjectivity and language. Behind the executed web interface, the code itself is deliberately written as a codework, a mix of a computer programming language and human language, exploring the material and linguistic tensions of writing and reading within the context of (non)binary poetry and computer code.
 </blockquote>
 
-The work is presented in a dual screen format, on one side the source code (codework) is displayed, and the other the executed version. In this particular arrangement, the source code is no longer, as in the convention of most software, hidden away from the user and instead is displayed in full to undermine the hierarchy between the source and its outcome once executed. The notion of queer code is both the subject and the process of the work, and this operates on multiple levels, such as *queering* what would be considered to be the normative conventions of software and its use: what a front-end interface would be expected to be, and how it would be expected to perform. Instead what we experience are the performative qualities of code in terms of both its human and nonhuman execution. We see the code and we hear the multifarious voices of the contributor's statements that together allow the program to speak to us as subjects. 
+The work is presented in a dual screen format, on one side the source code (codework) is displayed, and the other the executed version. In this particular arrangement, the source code is no longer, as in the convention of most software, hidden away from the user and instead is displayed in full to undermine the hierarchy between the source and its outcome once executed. The notion of queer code is both the subject and the process of the work, and this operates on multiple levels, such as *queering* what would be considered to be the normative conventions of software and its use: what a front-end interface would be expected to be, and how it would be expected to perform. Instead what we experience are the performative qualities of code in terms of both its human and nonhuman execution. We see the code and we hear the multifarious voices of the contributor's statements that together allow the program to speak to us as subjects.
 
 The core method in structuring the artwork *Vocable Code* is the use of constraints or rules, which can be seen in both the writing of the source code, as well as formulating the rules for voicing the queer statements such that the voices themselves express different rhythms and meanings. For example, below are some of the constraints:
 - When writing the source code, do not use binary 0 or 1, either a single X or Y, a single operator of '>' or '<'.
@@ -58,7 +58,7 @@ function notNew(getQueer){
   this.size = floor(random(15.34387,30.34387));
   this.xxxxx = width/2.0;
   this.yyyyy = random(height/3.0,height+20.0);
-  this.speed = random(2.34387,3.34387);
+  this.time = random(2.34387,3.34387);
   this.gradient = 240.0;
 }
 .
@@ -129,26 +129,27 @@ What is interesting here is the use of the value `notFalse` and `notTrue` as we 
 ### 2.3 Reading JSON and Speaking Code
 ```
 {
-"description": "This file contains the meta data of queer text",
-"condition": "statement2 cannot be null",
-"copyLeft": "Creative Common Licence BY 4.0",
-"lastUpdate": "Mar, 2019",
-"queers": [
-  {
-    "iam": "WinnieSoon",
-    "statement2": "not fixed not null",
-    "statement3": "not null not closed"
-  },{
-    "iam": "GeoffCox",
-    "statement2": "queer and that means queer",
-    "statement3": "null"
-  },{
-    "iam": "GoogleAlgorithm",
-    "statement2": "not a manifesto",
-    "statement3": "null"
-  }
-]
-}
+	"description": "This file contains the meta data of queer text",
+	"condition": "yourStatement cannot be null",
+	"copyLeft": "Creative Common Licence BY 4.0",
+	"lastUpdate": "Apr, 2019",
+	"queers":
+	[
+		{
+		"iam": "WinnieSoon",
+    "yourStatement": "not fixed not null",
+   	"myStatement": "not null not closed"
+    },
+    {
+		"iam": "GeoffCox",
+		"yourStatement": "queer and that means queer",
+		"myStatement": "null"
+		},
+    {
+		"iam": "GoogleAlgorithm",
+		"yourStatement": "not a manifesto",
+		"myStatement": "null"
+	  }
 ```
 *Sketch 3: The JSON file in Vocable Code*
 
