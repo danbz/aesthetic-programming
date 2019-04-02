@@ -134,20 +134,20 @@ What is interesting here is the use of the value `notFalse` and `notTrue` as we 
 	"copyLeft": "Creative Common Licence BY 4.0",
 	"lastUpdate": "Apr, 2019",
 	"queers":
-	[
-		{
+  [
+  {
 		"iam": "WinnieSoon",
     "yourStatement": "not fixed not null",
    	"myStatement": "not null not closed"
-    },{
+  },{
 		"iam": "GeoffCox",
 		"yourStatement": "queer and that means queer",
 		"myStatement": "null"
-		},{
+  },{
 		"iam": "GoogleAlgorithm",
 		"yourStatement": "not a manifesto",
 		"myStatement": "null"
-	  }
+  }
 }
 ```
 *Sketch 3: The JSON file in Vocable Code*
