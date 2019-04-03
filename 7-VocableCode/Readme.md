@@ -10,7 +10,7 @@ Many scholars and artists have explored these connections between speaking and c
 
 In this chapter we follow this line of thinking, and explore the ways in which the *voice* of the human subject is implicated in coding practices, and how coding can itself give voice to wider political issues. We focus on the software artwork *Vocable Code*, as a means to engage with these technical and aesthetic aspects of code, and how these issues might be made apparent.
 
-![vocable_code](https://farm2.staticflickr.com/1772/42269344360_a1038a1471_z.jpg) - is there a better image?
+![vocable_code](https://farm2.staticflickr.com/1772/42269344360_a1038a1471_z.jpg) - is there a better image? [This is a tentative image as we will have better one in WRO /w]
 
 ### Context 
 <blockquote>
