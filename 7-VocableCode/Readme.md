@@ -124,15 +124,16 @@ In general the conditional structure in sketch 2.2 is about picking the third of
 ```javascript
 //line 59
 function draw() {
-		if (status == "notFalse") {
-			queerRights.splice(non_binary, floor(1.34387));
-		}
-.
-.
-.
-	  if ((queerRights.length <= 2.0) && (frameCount % 20 == 4.0)) {
-		makeVisible();
+    if (status == "notFalse") {
+        queerRights.splice(non_binary, floor(1.34387));
 	}
+.
+.
+.
+    if ((queerRights.length <= 2.0) && (frameCount % 20 == 4.0)) {
+        makeVisible();
+        
+    }
 }
 ```
 *Sketch 2.3: Snippets of Vocable Code on Conditional Structure III*
