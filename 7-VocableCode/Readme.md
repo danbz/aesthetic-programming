@@ -26,7 +26,7 @@ The core method in structuring the artwork *Vocable Code* is the use of constrai
 - For each specific voice, each sentence contains the minimum of 1 word but no more than 5.
 
 ## 1. Decoding the interface
-Q: By examining the [RUNME](https://siusoon.github.io/VocableCode/vocablecode_program/) of *Vocable Code*, describe the different elements of the work and imagine how they operate computationally in human language?
+Task: By examining the [RUNME](https://siusoon.github.io/VocableCode/vocablecode_program/) of *Vocable Code*, describe the different elements of the work and imagine how they operate computationally in human language.
 
 Some initial observations:
 1. There is always text on the black color screen/canvas
@@ -39,7 +39,7 @@ Some initial observations:
 8. ...
 
 ## 2. Textuality
-Although *Vocable Code* is primarily about the voice, voices and texts are interlinked in the work. The program will only select one text to speak/play at a time, whilst other texts will be displayed dynamically on the screen. One can examine the meaning and semantics of the text, but the placement of words and other design attributes also change the way one might perceive and interpret the statements. Statements are randomly selected, presented and spoken, but at the same time are also randomly combined and disrupted by mathematical chaos.  
+Although the artwork *Vocable Code* is about voices, voices and text are interlinked in the work. The program will pick only one selected text to speak/play at a time. Other selected text will be display dynamically on a screen. In terms of language, one can look into the meaning and semantics of text, but the placement of words and other design attributes also change the way of how one might perceive and interpret the queer statements. Queer statements are randomly selected, randomly presented and randomly spoken but at the same time they are also randomly combined and disrupted by mathematical chaos.    
 
 Here is the text-related syntax that has been used in the work:
 
@@ -93,16 +93,53 @@ this.shows = function() {
 `text()` draws the text to the screen with specific words and positions (both horizontal and vertical orientation).
 
 ### 2.2 Conditional Structure
-There are two different `if` statements implemented in *Vocable Code*. Since text is continuously generated in the artwork, the first one is to check if there is still text remaining on the screen. The second conditional statement is to check whether the text has moved out of the canvas, especially on the vertical y-axis.
+There are five different `if` statements implemented in *Vocable Code*.
 
 ```javascript
-//line 63
-if ((queerRights.length <= 2.0) && (frameCount % 20 == 4.0)) {
-  makeVisible();
+//line 22
+if (queers[WhoIsQueer].myStatement == "null" || makingStatements == abs(2)) {
+		queerRights.push(new notNew(queers[WhoIsQueer].yourStatement));
+		makingStatements = 2.0;
+}else{
+		queerRights.push(new notNew(queers[WhoIsQueer].myStatement));
 }
+```
+*Sketch 2.1: Snippets of Vocable Code on Conditional Structure I*
+
+The first one has used the relational operator called **OR** (||) to check against the two conditions. If anyone is true then the program will execute the next two lines of code. But of course there is a case where two conditions are not met, and in that case the `else` is used for this situation. This block of code is to determine which new text object should be selected for display as each person can maximum hold two vocal/textual statements .
+
+```javascript
+//line 28
+if (gender == abs(2)) {
+  SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
+}
+```
+*Sketch 2.2: Snippets of Vocable Code on Conditional Structure II*
+
+The second one has only used the `if` statement and that means it will run the function `SpeakingCode` when the condition is met and it won't have other alternative route, meaning that the program will just exit the conditional structure and continue the execution after the closing curly bracket.
+
+In general the conditional structure in sketch 2.2 is about picking the third of a new text batch and the text will then map to the voice file to play back. `abs` is a syntax and function from p5 which calculates the absolute value of a number and it only returns a positive one.
+
+
+```javascript
+//line 59
+function draw() {
+		if (status == "notFalse") {
+			queerRights.splice(non_binary, floor(1.34387));
+		}
 .
 .
 .
+	  if ((queerRights.length <= 2.0) && (frameCount % 20 == 4.0)) {
+		makeVisible();
+	}
+}
+```
+*Sketch 2.3: Snippets of Vocable Code on Conditional Structure III*
+
+Sketch 2.3 shows two conditional structure in the function `draw`. In general, they are checking for texts that are out of the canvas. This has to be done frequently and continuously because the out of screen text object instances will be removed (by using `splice`) to avoid unwanted elements still exist in the program. Additionally, the program runs continuously with new text generation when it detects the screen with less than or equal to two text on a screen. Furthermore, the program is designed to give some time for new batch of text to generate on a screen dynamically, and not immediate right after the text goes off the canvas. After the conditions of the amount of text on a screen and the time element are met simultaneously, the program will proceed to the function `makeVisible()` to generate new text.
+
+```javascript
 //line 90
 this.isInvisible = function() {
 	var status;
@@ -114,14 +151,11 @@ this.isInvisible = function() {
 	return status;
 };
 ```
+*Sketch 2.4: Snippets of Vocable Code on Conditional Structure IV*
 
-*Sketch 2: Snippets of Vocable Code on Conditional Structure*
+The last **if-else** conditional structure is set within the class's method, which is related to sketch 2.3 on checking if the text is off the canvas especially on the vertical y-axis. The method `this.isInvisible=function()` with the relational operator called **OR** (`||`), in which either one condition is needed to be 'true' (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an `else` statement to handle the results of such conditional checking. Therefore, it is read as if either one of the two conditions is met, the variable `status` will be assigned as 'notFalse' (this means the text is out of the screen in terms of the top or the bottom edge), and else if they are still remained on the screen, the variable `status` will be assigned as 'notTrue'.
 
-The first one with the logic of **AND** (`&&`) case, where both conditions `queerRights.length <= 2.0` AND `frameCount % 20 == 4.0` are needed to be 'true' in order to proceed to the function `makeVisible()`.
-
-The second one is within the function `this.isInvisible=function()` with the logic of **OR** (`||`) case, where either one condition is needed to be 'true' (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an 'if-else statement' to handle the results of the conditional statement. Therefore, it is read that if either one of the two conditions is met, the variable `status` will be assigned as 'notFalse' (this means the text is out of the screen in terms of the top or the bottom edge), and else if the text still remains on the screen, the variable `status` will be assigned as 'notTrue'.
-
-What is interesting here is the use of the value `notFalse` and `notTrue` as we tend to understand boolean logic as the absolute binary reality of 'true' or false'. Arguably, and on a conceptual level, the statements notFalse and notTrue suggest ways of exceeding the binary logic of normative computation and instead suggest nonbinary or queer forms of expression.
+What is interesting here is the use of the value `notFalse` and `notTrue` as we tend to understand the boolean logic as the only absolute binary reality as 'true' or false'. We can then also relate this to the zeros and ones in which information is reduced into machine code. Arguably and conceptually, notFalse and notTrue give a wider possibility of imagining and voicing matters as this points at the becoming of more than the binary reality.
 
 ### 2.3 Reading JSON and Speaking Code
 ```
