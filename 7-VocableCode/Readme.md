@@ -220,7 +220,7 @@ function makeVisible() {
 
 *Sketch 5: Snippets of Vocable Code on Reading JSON II* [need to redraw in a better form]
 
-After loading the JSON file that is stored in the relative path `inclusive/voices.json`, it then points at the `queers` array (in line 11 of Sketch 5) and look for the name/value pairs of `iam`, `makingstatements` from the randomly selected statement among `statement2` and `statement3`. Lastly, the function  `SpeakingCode` is called.
+After loading the JSON file that is stored in the relative path `inclusive/voices.json`, it then points at the `queers` array (in line 11 of Sketch 5) and look for the name/value pairs of `iam`, `makingstatements` from the randomly selected statement among `yourStatement` and `myStatement`. Lastly, the function  `SpeakingCode` is called.
 
 ```javascript
 function makeVisible() {
