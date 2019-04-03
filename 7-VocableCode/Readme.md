@@ -6,7 +6,7 @@ In using the phase *vocable code* for the title of this chapter we aim to make e
 
 Indeed if coding is somewhat like speaking, it is also like poetry inasmuch as poems operate performatively, especially when read aloud, and clearly there are similarities between the syntactic qualities of written code and words on the page. This is made explicit when source code is read aloud as if it were a poem such as the example of the philosopher Franco Bifo Berardi reading the *I Love You* virus, literally enacting Florian Cramer's claim that the computer virus *I Love You* might be considered as a form of poetry. Such an example stresses the instability of code and how particular intentions or preferred meanings are open to (mis)interpretation.
 
-Many scholars and artists have explored these conections between speaking and coding, not only to consider programming as a tool to produce poetic or literary forms but also to explore the material connections and tensions between the two, in various articles, performances and artworks (including those by Florian Cramer (2008), John Cayley (2002), Ian Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015), to name but a few). That speech comes from living human bodies further reminds us that coding practices have bodies too, and that coding can only be understood in terms of wider infrastructures and the context of its making (or *poiesis*).
+Many scholars and artists have explored these connections between speaking and coding, not only to consider programming as a tool to produce poetic or literary forms but also to explore the material connections and tensions between the two, in various articles, performances and artworks (including those by Florian Cramer (2008), John Cayley (2002), Ian Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015), to name but a few). That speech comes from living human bodies further reminds us that coding practices have bodies too, and that coding can only be understood in terms of wider infrastructures and the context of its making (or *poiesis*).
 
 In this chapter we also follow this line of thinking, and explore the ways in which the voice of the human subject is implicated in coding practices, and how coding can give voice to wider political issues. We focus on the software artwork *Vocable Code*, as a means to engage with these technical and aesthetic aspects of code, and how these issues might be made apparent.
 
@@ -26,7 +26,7 @@ The core method in structuring the artwork *Vocable Code* is the use of constrai
 - For each specific voice, each sentence contains the minimum of 1 word but no more than 5.
 
 ## 1. Decoding the interface:
-Q: By just looking at the [RUNME](https://siusoon.github.io/VocableCode/vocablecode_program/) of *Vocable Code*, describe the different elements of the work and imagine how they operate computationally in human language?
+Task: By just looking at the [RUNME](https://siusoon.github.io/VocableCode/vocablecode_program/) of *Vocable Code*, describe the different elements of the work and imagine how they operate computationally in human language.
 
 Not really an 'answer' but some possible imagination:
 1. There are always text on the black color screen/canvas
@@ -96,16 +96,53 @@ this.shows = function() {
 
 ### 2.2 Conditional Structure
 
-There are two different `if` statements implemented in *Vocable Code*. Since text is continuously generated in the artwork, the first one is to check if there are still text remained on the screen. The second conditional statement is to check whether the text are moved out of the canvas especially on the vertical y-axis.
+There are five different `if` statements implemented in *Vocable Code*.
 
 ```javascript
-//line 63
-if ((queerRights.length <= 2.0) && (frameCount % 20 == 4.0)) {
-  makeVisible();
+//line 22
+if (queers[WhoIsQueer].myStatement == "null" || makingStatements == abs(2)) {
+		queerRights.push(new notNew(queers[WhoIsQueer].yourStatement));
+		makingStatements = 2.0;
+}else{
+		queerRights.push(new notNew(queers[WhoIsQueer].myStatement));
 }
+```
+*Sketch 2.1: Snippets of Vocable Code on Conditional Structure I*
+
+The first one has used the relational operator called **OR** (||) to check against the two conditions. If anyone is true then the program will execute the next two lines of code. But of course there is a case where two conditions are not met, and in that case the `else` is used for this situation. This block of code is to determine which new text object should be selected for display as each person can maximum hold two vocal/textual statements .
+
+```javascript
+//line 28
+if (gender == abs(2)) {
+  SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
+}
+```
+*Sketch 2.2: Snippets of Vocable Code on Conditional Structure II*
+
+The second one has only used the `if` statement and that means it will run the function `SpeakingCode` when the condition is met and it won't have other alternative route, meaning that the program will just exit the conditional structure and continue the execution after the closing curly bracket.
+
+In general the conditional structure in sketch 2.2 is about picking the third of a new text batch and the text will then map to the voice file to play back. `abs` is a syntax and function from p5 which calculates the absolute value of a number and it only returns a positive one.
+
+
+```javascript
+//line 59
+function draw() {
+		if (status == "notFalse") {
+			queerRights.splice(non_binary, floor(1.34387));
+		}
 .
 .
 .
+	  if ((queerRights.length <= 2.0) && (frameCount % 20 == 4.0)) {
+		makeVisible();
+	}
+}
+```
+*Sketch 2.3: Snippets of Vocable Code on Conditional Structure III*
+
+Sketch 2.3 shows two conditional structure in the function `draw`. In general, they are checking for texts that are out of the canvas. This has to be done frequently and continuously because the out of screen text object instances will be removed (by using `splice`) to avoid unwanted elements still exist in the program. Additionally, the program runs continuously with new text generation when it detects the screen with less than or equal to two text on a screen. Furthermore, the program is designed to give some time for new batch of text to generate on a screen dynamically, and not immediate right after the text goes off the canvas. After the conditions of the amount of text on a screen and the time element are met simultaneously, the program will proceed to the function `makeVisible()` to generate new text.
+
+```javascript
 //line 90
 this.isInvisible = function() {
 	var status;
@@ -117,12 +154,9 @@ this.isInvisible = function() {
 	return status;
 };
 ```
+*Sketch 2.4: Snippets of Vocable Code on Conditional Structure IV*
 
-*Sketch 2: Snippets of Vocable Code on Conditional Structure*
-
-The first one with the logic of **AND** (`&&`) case, where both conditions `queerRights.length <= 2.0` AND `frameCount % 20 == 4.0` are needed to be 'true' in order to proceed to the function `makeVisible()`.
-
-The second one is within the function `this.isInvisible=function()` with the logic of **OR** (`||`) case, where either one condition is needed to be 'true' (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an 'if-else statement' to handle the results of the conditional statement. Therefore, it is read as if either one of the two conditions is met, the variable `status` will be assigned as 'notFalse' (this means the text is out of the screen in terms of the top or the bottom edge), and else if they are still remained on the screen, the variable `status` will be assigned as 'notTrue'.
+The last **if-else** conditional structure is set within the class's method, which is related to sketch 2.3 on checking if the text is off the canvas especially on the vertical y-axis. The method `this.isInvisible=function()` with the relational operator called **OR** (`||`), in which either one condition is needed to be 'true' (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an `else` statement to handle the results of such conditional checking. Therefore, it is read as if either one of the two conditions is met, the variable `status` will be assigned as 'notFalse' (this means the text is out of the screen in terms of the top or the bottom edge), and else if they are still remained on the screen, the variable `status` will be assigned as 'notTrue'.
 
 What is interesting here is the use of the value `notFalse` and `notTrue` as we tend to understand the boolean logic as the only absolute binary reality as 'true' or false'. We can then also relate this to the zeros and ones in which information is reduced into machine code. Arguably and conceptually, notFalse and notTrue give a wider possibility of imagining and voicing matters as this points at the becoming of more than the binary reality.
 
@@ -146,7 +180,7 @@ What is interesting here is the use of the value `notFalse` and `notTrue` as we 
   },{
     "iam": "GoogleAlgorithm",
     "yourStatement": "not a manifesto",
-    "myStatement": "null"
+    "myStatement": "here"
   }
 }
 ```
@@ -213,7 +247,7 @@ function speakingNow() {
 
 All the voice files are stored in the wav file format. Since the files are named in a specific convention that follow the field `iam` in the JSON file. In this way, we can then concatenate all the bits and pieces by using the operator `+` so as to retrieve the specific voice file to play: `let getVoice = "inclusive/voices/" + iam + makingStatements + ".wav";`As discussed earlier, the selected voice is synchronized with the text on screen. That is to say the program won't speak purely random from all the voices.
 
-To play a sound file you need to both use `loadSound` as a callback to make sure the sound is fully loaded (it takes time as it also involves file size issues, memory and hardware) before the function `speak.play()` is invoked.
+To deal with sound, or to play a voice file in this specific case, there is a p5.sound library which extends p5 with Web Audio functionality. Among many sound related functions like capturing/listening to audio input (we have demonstrated in Ch.4 - Data Capture), analysis and synthesis, the use of the p5.sound library is more to simply load and play the sound files. To do this, you need to both use `loadSound` as a callback to make sure the sound is fully loaded (it takes time as it also involves file size issues, memory and hardware) before the function `speak.play()` is invoked (see sketch 6).
 
 ## 3. Source Code for Vocable Code
 
