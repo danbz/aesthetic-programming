@@ -178,7 +178,7 @@ What is interesting here is the use of the value `notFalse` and `notTrue` as we 
   },{
     "iam": "GoogleAlgorithm",
     "yourStatement": "not a manifesto",
-    "myStatement": "null"
+    "myStatement": "here"
   }
 }
 ```
