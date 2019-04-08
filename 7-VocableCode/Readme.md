@@ -6,9 +6,7 @@ In using the phase *vocable code* for the title of this chapter we aim to make e
 
 Indeed if coding is somewhat like speaking, it is also like poetry inasmuch as poems operate performatively, especially when spoken, and clearly there are similarities between the syntactic qualities of written code and words on the page to be executed. This is made explicit when source code is read aloud as if it were a poem such as the example of the philosopher Franco Bifo Berardi reading the *I Love You* virus, literally enacting Florian Cramer's claim that the computer virus *I Love You* might be considered to be a form of poetry [ref??]. This also makes reference to artists expressing language as found objects, in simultaneous poems from the Dada period for example, where texts in different languages were read aloud at the same time. Code is like poetry inasmuch as it plays with structures of language itself, and sets up a temporal interplay between the voice that is, and the voice that is to come. Such examples stress the instability of codes and how particular intentions or meanings are most likely misinterpreted.
 
-Many scholars and artists have explored these connections between speaking and coding, not only to consider programming as a tool to produce poetic or literary forms but also to explore the material connections and tensions between the two (in various articles, performances and artworks, including those by Florian Cramer (2008), John Cayley (2002), Geoff Cox (2013), Winnie Soon & Geoff Cox (2018), Ian Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015), to name but a few<sup>[1](#myfootnote1)</sup>). That speech comes from living human bodies further reminds us that coding practices have bodies too (even programmers do although many are in denial), and reminds us that coding can only be understood in terms of wider infrastructures and the context of its making (or *poiesis* if you like).
-
-In this chapter we follow this line of thinking, and explore the ways in which the *voice* of the human subject is implicated in coding practices, and how coding can itself give voice to wider political issues. We focus on the software artwork *Vocable Code*, as a means to engage with these technical and aesthetic aspects of code, and how these issues might be made apparent.
+Many scholars and artists have explored these connections between speaking and coding, not only to consider programming as a tool to produce poetic or literary forms but also to explore the material connections and tensions between the two<sup>[1](#myfootnote1)</sup>). That speech comes from living human bodies further reminds us that coding practices have bodies too (even programmers do, although many are in denial), and this further reminds us that coding can only be understood in terms of wider infrastructures and the context of its making (or *poiesis* if you like). In this chapter we follow this line of thinking, and explore the ways in which the *voice* of the human subject is implicated in coding practices, and how coding can itself give voice to wider political issues. We focus on the software artwork *Vocable Code*, as a means to engage with these technical and aesthetic aspects of code, and how these issues might be made apparent.
 
 ![vocable_code](https://farm2.staticflickr.com/1863/42452515710_6f4e0acce9_z.jpg) - is there a better image? [This is a tentative image as we will have better one in WRO /w]
 
@@ -156,7 +154,7 @@ this.isInvisible = function() {
 
 The last **if-else** conditional structure is set within the class's method, which is related to sketch 2.3 on checking if the text is off the canvas especially on the vertical y-axis. The method `this.isInvisible=function()` with the relational operator called **OR** (`||`), in which either one condition is needed to be 'true' (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an `else` statement to handle the results of such conditional checking. Therefore, it is read as if either one of the two conditions is met, the variable `status` will be assigned as 'notFalse' (this means the text is out of the screen in terms of the top or the bottom edge), and else if they are still remained on the screen, the variable `status` will be assigned as 'notTrue'.
 
-What is interesting here is the use of the assigned value `notFalse` and `notTrue` as we tend to understand the boolean logic as the only absolute binary reality as 'true' or false'. We can then also relate this to the zeros and ones in which information is reduced into machine code. Arguably and conceptually, notFalse and notTrue give a wider possibility of imagining and voicing matters as this points at the becoming of more than the binary reality.
+What is interesting here is the use of the assigned values `notFalse` and `notTrue` as we tend to understand boolean logic as an absolute binary reality of 'true' or false'. This at first seems fundamental to computational logic and we can relate this to zeros and ones in which information is reduced into machine code. But, arguably and conceptually, notFalse and notTrue suggest less reductive forms that exted beyond simple binary relations.  
 
 ### 2.3 Reading JSON and Speaking Code
 ```
@@ -263,49 +261,41 @@ Secondly, even though there is an interface with text running on the screen, the
 
 *Vocable Code* has a direct relation to bodily practices, the act of voicing something, and how the voice resonates with political practices. The voices of the program or the programmer, the humans voices, combine with other social bodies in the meaning production that goes beyond simple interpretation. In other words, computation cannot be just reduced to simplistic formal logic of input and output, and nor can speaking machines simply be opposed to speaking humans as clearly they are more deeply entangled. In executing the function `SpeakingCode(iam, makingStatements)`, who is speaking, to whom, and under what conditions?
 
-[GEOFF EDIT TO HERE - add something here about the platforms through which people speak - more on voice]
+These voices are arranged in particular ways, and there is a technical layer that provides the infrastructure through which voices can be heard. In *Vocable Code* one might assume that it is people that are speaking, but not they do not speak alone, as there are also variables, arguments, source code and machine code that speak too, and specifically the sound library with the function `speak.play()` joins the chorus. There is a politics to this as some voices are louder than others and some are marginalized or suppressed altogether. 
 
-One might assume that it is people that are speaking, but not alone, as also variables, arguments, source code and machine code, and specifically the sound library with the function `speak.play()` join the chorus of voices.
-
-In *Speaking Code* (2013), Cox suggests "The interplay of the body of the code, the programmer's comments, and the human-machine reader express how hardware and software, text and code, are embodied."
-
-Of course, thinking about voices with just human speech is very limited, as voice is not just only pointed at how a voice is being spoken and heard, but how voices are being marginalized and normalized. In particular to the idea of queer code and the binary logic of computation, Plant links further to wider western reality:
+In *Zeros + Ones* (1997), Sadie Plant confirms that all computers translate information into the zeros and ones of machine code that reflect the "orders of Western reality": 
 
 <blockquote>
-Whether [...] gathering information, telecommunicating, running washing machines, doing sums, or making videos, all digital computers translate information into zeros and ones of machine code. These binary digits are known as bits and strung together in bytes of eight'. The zeros and ones of machine code seems to offer themselves as perfect symbols of the orders of Western reality, the ancient logical codes which make the difference between on and off, right and left, light and dark, form and matter, mine and body, white and black, good and evil, right and wrong, life and death, something and nothing, this and that, here and there, inside and out, active and passive, true and false, yes and no, sanity and madness, health and sickness, up and down, sense and nonsense, west and east, north and south. And they made a lovely couple when it came to sex. Man and woman, male and female, masculine and feminine: one and zero looked just right, made for each other: 1, the definite, upright line; the 0, the diagram of nothing at all: penis and vagina, thing and hole... hand in glove. A perfect match.   - (Plant 1997, 34-35)
+Whether [...] gathering information, telecommunicating, running washing machines, doing sums, or making videos, all digital computers translate information into zeros and ones of machine code. These binary digits are known as bits and strung together in bytes of eight'. The zeros and ones of machine code seems to offer themselves as perfect symbols of the orders of Western reality, the ancient logical codes which make the difference between on and off, right and left, light and dark, form and matter, mine and body, white and black, good and evil, right and wrong, life and death, something and nothing, this and that, here and there, inside and out, active and passive, true and false, yes and no, sanity and madness, health and sickness, up and down, sense and nonsense, west and east, north and south. And they made a lovely couple when it came to sex. Man and woman, male and female, masculine and feminine: one and zero looked just right, made for each other: 1, the definite, upright line; the 0, the diagram of nothing at all: penis and vagina, thing and hole... hand in glove. A perfect match. (Plant 1997, 34-35)
 </blockquote>
 
-Although it takes two to make a binary (and set up the heterosexist paradigm), clearly inequalities are expressed in the tendency to privilege one side of the equation over the other - with positive and negative attributes accordingly. Hence we seek to queer this relation.
-
-[....add more - need to link queer code with binary thinking - gender and computation /w]
-
-In this chapter, through the work *Vocable Code* with its strange syntax (such as notFalse and notTrue) and many repetitive decimals, what we want to foreground is that: Queer is... making binaries strange.   
+In mathematics, ones and zeros are numbers of equivalent status and power relations take different form. And although it takes two to make a binary (and set up the heterosexist paradigm), clearly inequalities are often expressed in the anthropocentric tendency to privilege one side of the equation over the other - with positive and negative attributes accordingly - master and slave, human and machine. Hence, more than simply negating this binary logic, we seek to queer these relations altogether. In this chapter, through exploring the making of *Vocable Code* with its strange syntax (such as notFalse and notTrue) and its many repetitive decimals, we want to foreground the simple idea that: Queer is... making binaries strange.   
 
 ## In-class Exercise:
 1. Work in a group of 3-4.
 2. Download the Vocable Code sketch, and run it in your own computer.
-3. Discuss the various computational structure and syntax to understand how things work, and specifically on the relationship between the voice file naming and JSON file structure.
+3. Discuss the various computational structures and syntax to understand how things work, and specifically on the relationship between the voice file naming and JSON file structure.
 4. Follow the instruction and record your own voice with your computer or mobile phone. (The program takes wav file format only.)
-  - Find a blank paper and prepare to write a sentence
-  - Complete the sentence with the starting words: “Queer is ... “
-  - Each sentence contains no more than 5 words (the starting words- “queer is” is not included)
+  - Find a blank paper and prepare to write a sentence.
+  - Complete the sentence: "Queer is ...".
+  - Each sentence should contains no more than 5 words (“queer is” is not included).
   - More than 1 sentence is allowed but not more than 2.
   - It is ok to have just one word.
-  - Download/Locate a voice recording app on your smartphone (e.g “Voice Recorder” on Android phone or ‘’Voice Memos app” on iphone).
+  - Download/locate a voice recording app on your smartphone (e.g “Voice Recorder” on Android or "Voice Memos app” on iOS).
   - Try to find a quiet environment and record your voice, and see if the app works (controlling the start and end of the recording button).
   - Prepare to record your voice with your written sentence(s).
   - It is up to you to decide the temporality and rhythm of speaking the text.
-  - It is up to you to either speak the full word or full sentence with different pitch/tempo/rhythm.
-  - You can also speak on a certain part (phonetics) of the word or sentence. In other words, the word/sentence doesn’t need to be fully pronounced.
+  - It is up to you to render the text with different pitch/tempo/rhythm.
+  - You can also stress a certain part of the word or sentence. 
   - The first two provided words “queer is” can be omitted.
-  - Record your voice, and convert your voice file into wav file format. (The software audicity could be considered to do the file conversion)
-5. Add your voices and Update the program with your own voices
-6. Advanced: Try to change the presentation of the text e.g color and the animated behavior of the text
-7. Discuss the different critical and aesthetic aspects of queer code
+  - Record your voice, and convert your voice file into wav file format. (The software audicity could be considered to do the file conversion.)
+5. Add your voice/s and update the program with your own voice/s.
+6. Advanced: Try to change the presentation of the text, e.g. its color and the animated behavior of the text.
+7. Discuss the different critical and aesthetic aspects of queer code with others. 
 
 ## Mini Exercise #7: E-lit
 **Task and Objective:**
-- To design and implement an electronic literature that utilizes text as the main medium (but text can be also manifested in various forms)
+- To design and implement an example of electronic literature that utilizes text as the main medium (but in recognition that text can take various forms, including code).
 - To reflect upon the aesthetics of code and language.
 
 **Get some additional inspiration here:**
@@ -317,18 +307,18 @@ In this chapter, through the work *Vocable Code* with its strange syntax (such a
 - [Rita library](http://rednoise.org/rita/) by Daniel Howe
 
 **Questions to think about:**
-- What's the program about?
-- Try to contextualize your sketch by answering these:
-  - **Analyze** your own e-lit work by using the text 'Vocable Code' or other texts that address the border theme of 'code and language'.
-  - What is the **aesthetic aspect** of your program in particular to the relationship between **code and language**?
+- What is the program about?
+- Try to contextualize your sketch:
+  - **Analyze** your own e-lit work by using the text *Vocable Code* or other texts that address code and language.
+  - What is the **aesthetic aspect** of your program in particular by making reference to the relationship between **code and language**?
 
 ## Assigned Readings:
-- Cox, Geoff and McLean, Alex. Speaking Code. MIT Press, 2013. 17-38.
+- Cox, Geoff, and Alex McLean. *Speaking Code*. MIT Press, 2013. 17-38.
 
 ## Works cited:
-- Chun, W (2013) Programmed Visions
+- Chun, Wendy. *Programmed Visions*. MIT Press, 2011. 
 
-## Further references:
+## Further references: [edit these back]
 1. Badiou, A. (2008) Number + Numbers. Cambridge: Polity.
 2. Barad, K. (2007) Meeting the Universe Halfway: Quantum Physics and The Entanglement of Matter and Meaning. Durham: Duke University Press.
 3. Barlow, JD. (2001) The Book of Nothing. London: Vintage.
@@ -348,7 +338,7 @@ In this chapter, through the work *Vocable Code* with its strange syntax (such a
 18. Shiffman, D. (2017) 10.2: What is JSON? Part II - p5.js Tutorial [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r [Accessed 13 Mar. 2019].
 
 ## Notes
-<a name="myfootnote1">1</a>: Please see references of the provided names.
+<a name="myfootnote1">1</a>: In various articles, performances and artworks, including those by Florian Cramer (2008), John Cayley (2002), Geoff Cox (2013), Winnie Soon & Geoff Cox (2018), Ian Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015), to name but a few. See:
 - Parrish, A (2015) https://vimeo.com/134734729
 - Cramer, F (2008) Language in Software Studies
 - Harwood, G (2008) Class Library in Software Studies
