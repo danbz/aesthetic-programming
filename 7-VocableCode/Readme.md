@@ -310,7 +310,7 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
 ## Mini Exercise #7: E-lit
 **Task and Objective:**
 - To design and implement an example of electronic literature that utilizes text as the main medium (but in recognition that text can take various forms, including code).
-- To reflect upon the aesthetics of code and language.
+- To reflect upon the aesthetics of code, voice and language.
 
 **Get some additional inspiration here:**
 - [e-lit collection1](http://collection.eliterature.org/1/)
@@ -321,10 +321,11 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
 - [Rita library](http://rednoise.org/rita/) by Daniel Howe
 
 **Questions to think about:**
-- What is the program about?
+- How would you perform queer code?
+- Describe what is the program about?
 - Try to contextualize your sketch:
-  - **Analyze** your own e-lit work by using the text *Vocable Code* or other texts that address code and language.
-  - What is the **aesthetic aspect** of your program in particular by making reference to the relationship between **code and language**?
+  - **Analyze** your own e-lit work by using the text *Vocable Code* or other texts that address code, voice and language.
+  - How would you reflect upon various layers of voices in your program? 
 
 ## Assigned Readings:
 - Cox, Geoff, and Alex McLean. *Speaking Code*. MIT Press, 2013. 17-38.
