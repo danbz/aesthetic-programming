@@ -322,8 +322,8 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
 - [Rita library](http://rednoise.org/rita/) by Daniel Howe
 
 **Questions to think about:**
+- Describe what is the program about and how does it work?
 - How would you perform queer code?
-- Describe what is the program about?
 - Try to contextualize your sketch:
   - **Analyze** your own e-lit work by using the text *Vocable Code* or other texts that address code, voice and language.
   - How would you reflect upon various layers of voices in your program? 
