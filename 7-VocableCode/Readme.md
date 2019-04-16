@@ -46,7 +46,7 @@ Here is the text-related syntax that has been used in the work:
 let withPride; //font
 //new font: line 11
 function preload() {
-  withPride = loadFont('inclusive/Gilbert_TypeWithPride.otf');
+  withPride = loadFont('Gilbert_TypeWithPride.otf');
 }
 .
 .
@@ -96,7 +96,7 @@ There are five different `if` statements implemented in *Vocable Code*.
 
 ```javascript
 //line 22
-if (queers[WhoIsQueer].myStatement == "null" || makingStatements == abs(2)) {
+if (queers[WhoIsQueer].myStatement == "null" || makingStatements == 2) {
 		queerRights.push(new notNew(queers[WhoIsQueer].yourStatement));
 		makingStatements = 2.0;
 }else{
@@ -202,7 +202,7 @@ To process the JSON file in sketch 3, you need to use the syntax `loadJSON`. See
 let whatisQueer;
 
 function preload() {
-  whatisQueer = loadJSON('inclusive/voices.json');
+  whatisQueer = loadJSON('voices.json');
 }
 .
 .
@@ -231,7 +231,7 @@ function makeVisible() {
 .
 .
 function SpeakingCode(iam, makingStatements) {
-	let getVoice = "inclusive/voices/" + iam + makingStatements + ".wav";
+	let getVoice = "voices/" + iam + makingStatements + ".wav";
 	speak = loadSound(getVoice, speakingNow);
 }
 
