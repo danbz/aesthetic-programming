@@ -291,16 +291,16 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
 3. Discuss the various computational structures and syntax to understand how things work, and specifically on the relationship between the voice file naming and JSON file structure.
 4. Follow the instruction and record your own voice with your computer or mobile phone. (The program takes wav file format only.)
   - Find a blank paper and prepare to write a sentence.
-  - Complete the sentence: "Queer is ...".
-  - Each sentence should contains no more than 5 words (“queer is” is not included).
-  - More than 1 sentence is allowed but not more than 2.
-  - It is ok to have just one word.
+  - Complete the sentence with the starting words: “Queer is ...”
+  - Each sentence contains no more than 5 words (the starting words - “queer is” -  are not included).
+  - It is ok to have just one word in a sentence.
+  - Maximum two sentences/voices.
   - Download/locate a voice recording app on your smartphone (e.g “Voice Recorder” on Android or "Voice Memos app” on iOS).
   - Try to find a quiet environment and record your voice, and see if the app works (controlling the start and end of the recording button).
   - Prepare to record your voice with your written sentence(s).
-  - It is up to you to decide the temporality and rhythm of speaking the text.
-  - It is up to you to render the text with different pitch/tempo/rhythm.
-  - You can also stress a certain part of the word or sentence. 
+  - You may decide the temporality and rhythm of speaking the text.
+  - You may either speak the full word or full sentence with different pitch/tempo/rhythm. 
+  - You may speak on a certain part (phonetics) of the word or sentence. In other words, the word / sentence doesn’t need ot be fully prounced. 
   - The first two provided words “queer is” can be omitted.
   - Record your voice, and convert your voice file into wav file format. (The software audicity could be considered to do the file conversion.)
 5. Add your voice/s and update the program with your own voice/s.
