@@ -309,7 +309,8 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
 
 ## Mini Exercise #7: E-lit
 **Task and Objective:**
-- To design and implement an example of electronic literature that utilizes text as the main medium (but in recognition that text can take various forms, including code).
+- To design an example of electronic literature that utilizes text as the main medium (but in recognition that text can take various forms, including code and voice).
+- To implement JSON files for text organization, storage and retrieval.  
 - To reflect upon the aesthetics of code, voice and language.
 
 **Get some additional inspiration here:**
