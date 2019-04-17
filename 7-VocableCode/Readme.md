@@ -224,7 +224,7 @@ function makeVisible() {
 
 *Sketch 5: Snippets of Vocable Code on Reading JSON II* [need to redraw in a better form]
 
-After loading the JSON file that is stored in the relative path `inclusive/voices.json`, it then points at the `queers` array (in line 11 of Sketch 5) and look for the name/value pairs of `iam`, `makingstatements` from the randomly selected statement among `yourStatement` and `myStatement`. Lastly, the function  `SpeakingCode` is called.
+After loading the JSON file that is stored in the relative path `voices.json`, it then points at the `queers` array (in line 11 of Sketch 5) and look for the name/value pairs of `iam`, `makingstatements` from the randomly selected statement among `yourStatement` and `myStatement`. Lastly, the function  `SpeakingCode` is called.
 
 ```javascript
 function makeVisible() {
@@ -245,7 +245,7 @@ function speakingNow() {
 ```
 *Sketch 6: Snippets of Vocable Code on Speaking Code*
 
-All the voice files are stored in the wav file format. Since the files are named in a specific convention that follow the field `iam` in the JSON file. In this way, we can then concatenate all the bits and pieces by using the operator `+` so as to retrieve the specific voice file to play: `let getVoice = "inclusive/voices/" + iam + makingStatements + ".wav";` As discussed earlier, the selected voice is synchronized with the text on screen. That is to say the program won't speak purely random from all the voices.
+All the voice files are stored in the wav file format. Since the files are named in a specific convention that follow the field `iam` in the JSON file. In this way, we can then concatenate all the bits and pieces by using the operator `+` so as to retrieve the specific voice file to play: `let getVoice = "voices/" + iam + makingStatements + ".wav";` As discussed earlier, the selected voice is synchronized with the text on screen. That is to say the program won't speak purely random from all the voices.
 
 To deal with sound, or to play a voice file in this specific case, there is a p5.sound library which extends p5 with Web Audio functionality. Among many sound related functions like capturing/listening from an audio input (as we have demonstrated in Ch.4 - Data Capture), analysis and synthesis, the use of the p5.sound library is more to simply load and play the sound files. To do this, you need to use `loadSound` as a callback to make sure the sound is fully loaded (it takes time as it also involves file size issues, memory and hardware) before the function `speak.play()` is invoked (see sketch 6).
 
@@ -253,6 +253,7 @@ To deal with sound, or to play a voice file in this specific case, there is a p5
 <img src="ch7_source.png" width="450">
 
 *Sketch 7: Full source code for Vocable Code*
+[need replacement and think about the book form]
 
 ## Outro
 
