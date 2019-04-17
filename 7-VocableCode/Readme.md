@@ -313,7 +313,7 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
 **Task and Objective:**
 - To design an example of electronic literature that utilizes text as the main medium (but in recognition that text can take various forms, including code and voice).
 - To implement JSON files for text organization, storage and retrieval.  
-- To reflect upon the aesthetics of code, voice and language.
+- To reflect upon the aesthetics of code and language, as well as the multiple aural dimensions of an e-lit.
 
 **Get some additional inspiration here:**
 - [e-lit collection1](http://collection.eliterature.org/1/)
