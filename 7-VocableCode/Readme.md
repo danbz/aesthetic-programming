@@ -43,7 +43,7 @@ Although the artwork *Vocable Code* is about voices, voices and text are interli
 
 Here is the text-related syntax that has been used in the work:
 
-```javascript
+```javascript {.line-numbers}
 let withPride; //font
 //new font: line 11
 function preload() {
