@@ -1,11 +1,8 @@
 ## 7. Vocable Code
 
-## Intro
+## 7.1 Begin()
 
 By using the phase *vocable code* for the title of this chapter we aim to make explicit the ways in which the act of coding is both expression and process. Not reducible to its functional aspects, we argue that code mirrors the instability inherent to human language in terms of how it expresses itself. Code is both script and performance, and in this sense is ready to do something: it says what it will do and does it at the same time. This analogy to speech, or more specifically to *speech-act theory* (cf. John Langshaw Austin's *How To Do Things With Words*) has been well rehearsed in software studies (not least in *Speaking Code*) and helps us to demonstrate neatly how we can to do things with words *and* code: to produce an action with effects.  
-[I'd like to use Chicago ref style if possible, ie. not have harvard references in body text but use footnotes. it reads better this way IMHO. what do you think?
-//I am not sure, because if it is in a book format the footnotes always with no attention and i think for the 1 footnotes for example, it is important to explicitly acknowledge the artist/scholars. Anyway i will create an issue and document all the outstanding there.
-]
 
 Indeed if coding is somewhat like speaking, it is also like poetry inasmuch as poems operate performatively, especially when spoken, and clearly there are similarities between the syntactic qualities of written code and words on the page to be executed. This is made explicit when source code is read aloud as if it were a poem such as the example of the philosopher Franco Bifo Berardi reading the *I Love You* virus, literally enacting Florian Cramer's claim that the computer virus *I Love You* might be considered to be a form of poetry [ref??]. This also makes reference to artists expressing language as found objects, in simultaneous poems from the Dada period for example, where texts in different languages were read aloud at the same time. Code is like poetry inasmuch as it plays with structures of language itself, and sets up a temporal interplay between the voice that is, and the voice that is to come. Such examples stress the instability of codes and how particular intentions or meanings are most likely misinterpreted.
 
@@ -15,7 +12,7 @@ Many scholars and artists have explored these connections between speaking and c
 
 - is there a better image? [This is a tentative image as we will have better one in WRO /w]
 
-### Context
+### 7.1.1 Start()
 <blockquote>
 Vocable Code is both a work of “software art” (software as artwork, not software to make an artwork) and a “codework” (where the source code and critical writing operate together) produced to embody “queer code”. It examines the notion of queerness in computer coding. Through collecting voices and statements from others that help to complete the sentence that begins: “Queer is...”, the work is computationally and poetically composed where the texts and voices are repeated and disrupted by mathematical chaos, creating a dynamic audio-visual literature and exploring the performativity of code, subjectivity and language. Behind the executed web interface, the code itself is deliberately written as a codework, a mix of a computer programming language and human language, exploring the material and linguistic tensions of writing and reading within the context of (non)binary poetry and computer code.
 </blockquote>
@@ -28,7 +25,7 @@ The core method in structuring the artwork *Vocable Code* is the use of constrai
 - For each specific voice, the sentence starts with the phrase: "Queer is".
 - For each specific voice, each sentence contains the minimum of 1 word but no more than 5.
 
-## 1. Decoding the interface
+## 7.2 Decode
 Task: By examining the [RUNME](https://siusoon.github.io/VocableCode/vocablecode_program/) of *Vocable Code*, describe the different elements of the work and imagine how they operate computationally in human language.
 
 Some initial observations:
@@ -41,7 +38,7 @@ Some initial observations:
 7. It seems there is a maximum limit of text appearing on screen for each new batch.
 8. ...
 
-## 2. Textuality
+## 7.3 Textuality
 Although the artwork *Vocable Code* is about voices, voices and text are interlinked in the work. The program will pick only one selected text to speak/play at a time. Other selected text will be display dynamically on a screen. In terms of language, one can look into the meaning and semantics of text, but the placement of words and other design attributes also change the way of how one might perceive and interpret the queer statements. Queer statements are randomly selected, randomly presented and randomly spoken but at the same time they are also randomly combined and disrupted by mathematical chaos.    
 
 Here is the text-related syntax that has been used in the work:
@@ -78,7 +75,7 @@ this.shows = function() {
 ```
 *Sketch 1: Snippets of Vocable Code on Textuality*
 
-### 2.1 Typography
+### 7.3.1 Type
 `loadFont` supports opentype font style (.otf and .ttf) and it returns a PFont object through `withPride` in the above sketch 1.
 
 "Gilbert_TypeWithPride.otf" is a free font and is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, and that can be downloaded from the Internet (www.typewithpride.com) <sup>[2](#myfootnote2)</sup>. It is designed to honor the memory of Gilbert Baker who died in 2017, the creator of the iconic Rainbow Flag.
@@ -95,7 +92,7 @@ this.shows = function() {
 
 `text()` draws the text to the screen with specific words and positions (both horizontal and vertical orientation).
 
-### 2.2 Conditional Structure
+### 7.3.2 Conditions
 There are five different `if` statements implemented in *Vocable Code*.
 
 ```javascript
@@ -161,7 +158,9 @@ The last **if-else** conditional structure is set within the class's method, whi
 
 What is interesting here is the use of the assigned values `notFalse` and `notTrue` as we tend to understand boolean logic as an absolute binary reality of 'true' or false'. This at first seems fundamental to computational logic and we can relate this to zeros and ones in which information is reduced into machine code. But, arguably and conceptually, notFalse and notTrue suggest less reductive forms that exted beyond simple binary relations.  
 
-### 2.3 Reading JSON and Speaking Code
+### 7.3.3 JSON 
+
+[insert explanation - here we introduce... and why... and follow up on in next chapter]
 ```
 {
   "description": "This file contains the meta data of queer text",
@@ -249,17 +248,17 @@ All the voice files are stored in the wav file format. Since the files are named
 
 To deal with sound, or to play a voice file in this specific case, there is a p5.sound library which extends p5 with Web Audio functionality. Among many sound related functions like capturing/listening from an audio input (as we have demonstrated in Ch.4 - Data Capture), analysis and synthesis, the use of the p5.sound library is more to simply load and play the sound files. To do this, you need to use `loadSound` as a callback to make sure the sound is fully loaded (it takes time as it also involves file size issues, memory and hardware) before the function `speak.play()` is invoked (see sketch 6).
 
-## 3. Source Code for Vocable Code
-<img src="ch7_source.png" width="450">
+## 7.4 Source code
+<img src="ch7_source.png" width="450"> [to be replaced with numbered code]
 
 *Sketch 7: Full source code for Vocable Code*
 [need replacement and think about the book form]
 
-## Outro
+## 7.5 While()
 
 In high-level programming languages like javascript, the source code both sends instructions to machines as well as communicates to humans. In this way, writing source code involves the use of signs and symbols, both semantics and syntactics, and operates across both programming and so-called natural languages. We also learnt from the previous chapter (Object Orientation) that abstraction is a fundamental concept to software development, which is different from the machine operations, and thus puts focus on building abstractions as objects. The use of class/object structures (text as object instances), conditional structures, procedures and subroutines, such as the for-loop, are some of the ways that are designed to present and execute the source code in a particular way. However, in the context of machine execution, those variable names - the semantic layer - are stripped away and that kind of human-readable information is avoided. This 'secondary notation' does not have any effect on the execution of the program apart from memory size. In this way, choosing meaningful identifier names is more for the purpose of expression and communication and our example above demonstrates this purpose clearly. This is where we hear the voice of the programmer.
 
-Furthermore, in thinking about the importance of source code for understanding the operations of software, it is important to recognise that source code does not show how a machine operates with physical memory, such as store, load, add and halt actions, that interact with memory address, translate of symbolic into real address and disclose the operation sequences like low-level programming languages [? this is unclear; is it better now? /w]. In the case of *Vocable Code*, by showing the two interfaces side by side - the source code and what happens when it is executed - there is a discrepancy in that what you see is not literally how it operates. This could perhaps be understood in two ways.
+Furthermore, in thinking about the importance of source code for understanding the operations of software, it is important to recognise that source code does not show how a machine operates with physical memory (such as store, load, add and halt actions), and how it interacts with memory, how it translates symbolic actions into real addresses, and discloses operation sequences as low-level programming languages would do. To be specific in the case of *Vocable Code*, by showing the two interfaces side by side - the source code and what happens when it is executed - there is a discrepancy in that what you see is not literally how it operates. This could perhaps be understood in two ways.
 
 Firstly, the source code is made available but the process of translation of source to machine code is still hidden and not all the lines are being executed (Chun 2013, 24; Cox 2013, 23). Wendy Chun refers to this as a process of "sourcery" and summarizes the problem: "Higher level programming languages - automatic programming - may have been sold as offering the programmer more and easier control, but they also necessitated blackboxing even more the operations of the machine they supposedly instructed" (2013, 45). Accordingly, we would need to nuance the poetic notion that source code actually does what it says in any straightforward manner. When one speaks the source code, it performs differently then how a machine performs; and this is no doubt the case with humans too in that there is a further interface and translation between physionomy and action.
 
@@ -288,7 +287,7 @@ Humans in this way, might be thought of part-machines, but one that (like a repl
 
 To conclude this chapter, through exploring the making of *Vocable Code* with its strange syntax - such as notFalse and notTrue - and its many repetitive decimals, we would like to emphasise that: Queer is... making binaries strange.   
 
-## In-class Exercise:
+## 7.5.1 Exercise in class
 1. Work in a group of 3-4.
 2. Download the Vocable Code sketch, and run it in your own computer.
 3. Discuss the various computational structures and syntax to understand how things work, and specifically on the relationship between the voice file naming and JSON file structure.
@@ -310,7 +309,7 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
 6. Advanced: Try to change the presentation of the text, e.g. its color and the animated behavior of the text.
 7. Discuss the different critical and aesthetic aspects of queer code with others.
 
-## Mini Exercise #7: E-lit
+## 7.5.2 Mini_Exercise[7]: E-lit
 **Task and Objective:**
 - To design an example of electronic literature that utilizes text as the main medium (but in recognition that text can take various forms, including code and voice).
 - To implement JSON files for text organization, storage and retrieval.  
@@ -331,32 +330,23 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
   - **Analyze** your own e-lit work by using the text *Vocable Code* or other texts that address code, voice and language.
   - How would you reflect upon various layers of voices in your program?
 
-## Assigned Readings:
+## Required reading:
 - Cox, Geoff, and Alex McLean. *Speaking Code*. MIT Press, 2013. 17-38.
 
-## Works cited:
+## References:
 - Chun, Wendy. *Programmed Visions*. MIT Press, 2011.
 - Cox, Geoff, and Alex McLean. *Speaking Code*. MIT Press, 2013. ??.
 - Risam, Roopika. The poetry of executable code http://jacket2.org/commentary/poetry-executable-code, 2015
 
-## Further references: [edit these back]
-1. Badiou, A. (2008) Number + Numbers. Cambridge: Polity.
-2. Barad, K. (2007) Meeting the Universe Halfway: Quantum Physics and The Entanglement of Matter and Meaning. Durham: Duke University Press.
-3. Barlow, JD. (2001) The Book of Nothing. London: Vintage.
-4. Braidotti, R. (2013) The Posthuman. Cambridge: Polity.
-6. Feminist Software Foundation. (2013) Feminist Software Foundation: C-Plus-Equality. [online] Available at: https://github.com/ErisBlastar/cplusequality/blob/master/hellofeminists.Xe [Accessed 13 Apr. 2018].
-7. Feminist Software Foundation. (2016) Feminist Software Foundation: C-Plus-Equality. [online] Available at: https://github.com/ErisBlastar/cplusequality/blob/master/README.md [Accessed 13 Apr. 2018].
-8. Hodges, A. (1983) Alan Turing: The Enigma. London: Walker Books.
-9. Laporte, D. (2002) A History of Shit. Cambridge, Mass., London: MIT Press.
-10. Muldtofte, L. (2018) ‘Language Plus Code’, PhD thesis. Aarhus University.
-11. Parrish, A. (2018) Text and Type. [online] Available at: https://creative-coding.decontextualize.com/text-and-type/ [Accessed 13 Mar. 2019].  
-12. Plant, S. (1998) Zeros + Ones: Digital Women and the New Technoculture. London: Forth Estate.
-13. Queneau, Ramond, et al. Six Selections by the Oulipo. The New Media Reader. Eds. Noah W-F and Nick M. The MIT Press, 2003. 147-189.
-14. Raley, Rita. Interferences:[Net.Writing] and the Practice of Codework. electronic book review, 2002.
-15. Rhee, Margaret. “Reflecting on Robots, Love, and Poetry.” XRDS 24, no. 2 (December 2017): 44–46.
-16. Shiffman, D. (2017) 10.1: Introduction to Data and APIs in Javascript. [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r [Accessed 13 Mar. 2019].  
-17. Shiffman, D. (2017) 10.2: What is JSON? Part I - p5.js Tutorial [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r [Accessed 13 Mar. 2019].
-18. Shiffman, D. (2017) 10.2: What is JSON? Part II - p5.js Tutorial [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r [Accessed 13 Mar. 2019].
+## Further reading: 
+Parrish, A. (2018) Text and Type. [online] Available at: https://creative-coding.decontextualize.com/text-and-type/ [Accessed 13 Mar. 2019].  
+Plant, S. (1998) Zeros + Ones: Digital Women and the New Technoculture. London: Forth Estate.
+Queneau, Ramond, et al. Six Selections by the Oulipo. The New Media Reader. Eds. Noah W-F and Nick M. The MIT Press, 2003. 147-189.
+Raley, Rita. Interferences: [Net.Writing] and the Practice of Codework. electronic book review, 2002.
+Rhee, Margaret. “Reflecting on Robots, Love, and Poetry.” XRDS 24, no. 2 (December 2017): 44–46.
+Shiffman, Daniel. (2017) 10.1: Introduction to Data and APIs in Javascript. [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r [Accessed 13 Mar. 2019].  
+Shiffman, Daniel. (2017) 10.2: What is JSON? Part I - p5.js Tutorial [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r [Accessed 13 Mar. 2019].
+Shiffman, Daniel. (2017) 10.2: What is JSON? Part II - p5.js Tutorial [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r [Accessed 13 Mar. 2019].
 
 ## Notes
 <a name="myfootnote1">1</a>: In various articles, performances and artworks, including those by Mez Breeze (1994) Florian Cramer (2008), John Cayley (2002), Geoff Cox (2013), Winnie Soon & Geoff Cox (2018), Ian Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015), to name but a few. See:
