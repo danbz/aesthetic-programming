@@ -12,34 +12,34 @@
 * Mini-ex 1: Think About My First Program
 
 ## Chapter 2: Having fun with Geometry/Maths
-* Multi by David Reinfurt 
-* Basics: coordination, variables, geometry, shapes/patterns, faces
-* Having fun, and not just for fun, with software
-* Politics of emoticons
+* Multi by David Reinfurt (cf. sundial project for next chapter)
+* Basics: coordination, variables, geometry, shapes/patterns, faces (with p5.playground)
+* Having fun, and not just for fun, with software, free speech and injurious words, bad jokes
+* Politics of emoticons, politics of representation, background of unicode and universal languages
 * Mini-ex 2: A fun face
 
 ## Chapter 3: Infinite loops
 * Artwork: Asterisk Painting (2013) by Bell John
 * Iterations: For/ While Loops
 * Conditional statements and Functions
-* Time related syntax
+* Time related syntax, machine and human time (unix-epoch), clocks
 * Transform: translate(), rotate(), push/pop()
-* Temporalities: real-time, machine time, micro-time and just-in-time (live) coding
+* Temporalities: real-time, machine time, micro-time and just-in-time (live) coding (Ernst's essay - if... then - loop forever)
 * Mini-ex 3: Design a Throbber differently
 
 ## Chapter 4: Data Capture
-* Artwork: How We Act Together (2016) by Lauren McCarthy and Kyle McDonald
+* Artwork: How We Act Together (2016) by Lauren McCarthy and Kyle McDonald (mention more in passing, not too much emphasis)
 * Mouse and Keyboard events
 * Web camera inputs: with clmtrackr.js library
 * Audio inputs: with p5.sound library
-* Tracking: The datafication of everything, including your habits.
+* Tracking: The datafication of everything, including your habits (datafied research).
 * Mini-ex 4: CAPTURE ALL: Feedback machines
 
 ## Chapter 5: Object Orientation
-* Design work: TOFU GO by Francis Lam
+* Design work: TOFU GO by Francis Lam that inspires Winnie's simple version 
 * Objects, Class, Behaviors and Arguments
 * Play objects: with p5.play library
-* Object-oriented thinking: cooking and coding with class struggle
+* Object-oriented thinking: cooking and coding with class struggle (food and recipes, cultural difference)
 * Mini-ex 5: Games with objects
 
 ## Chapter 6: Automatisms
@@ -47,7 +47,7 @@
 * (Commodore 64 Basic program: 10 PRINT)
 * Random(), Noise()
 * Rule-based and Emergent systems
-* Generators and other automatisms
+* Generators and other automatisms (genotypes)
 * Mini-ex 6: A generative program
 
 ## Chapter 7: Vocable Code
@@ -59,20 +59,20 @@
 * Mini-ex 7: Write and Generate an electronic literature
 
 ## Chapter 8: Que(e)ries
-* Artwork: Net Art Generator by Cornelia Sollfrank
+* Artwork: Net Art Generator by Cornelia Sollfrank (authorship and copyright, image encryption)
 * Image processing: fetching, loading and display
 * Application Programming Interfaces
-* Data, Archives, Repositories, Libraries, Databases / Critical APIs across time
+* Data, Archives, Repositories, Libraries, Databases / Critical APIs across time (googlification of everything, literacy)
 * Mini-ex 8: Working with APIs
 
 ## Chapter 9: Flow Chart and Diagramming
-* Projects: The Status Project by Heath Bunting + a series of flow chart
+* Projects: The Status Project by Heath Bunting (in passing) + a series of flow charts (inc. vocable code)
+* cf. table of contents and other drawn diagrams (dean kenning's jackson 5 flowchart)
 * Receipts,  Procedures, Algorithms
-* Mini-ex 9: Representing a program with a flowchart
+* Mini-ex 9: Representing a program with a flowchart (check algorithm by Goffey is in refs)
 
 ## Chapter 10: Machine Learning
 * Personal assistants: Eliza (1964-1966) + elizabot.js version (2005) by Norbert Landsteiner  
-* (AYA (2017) by Marie Louise Juul Søndergaard)
 * What is Machine Learning?
 * Machine prediction: Classification and Text generation
 * Experimenting ml5.js library
