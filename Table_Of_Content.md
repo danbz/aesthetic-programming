@@ -47,7 +47,7 @@
 * (Commodore 64 Basic program: 10 PRINT)
 * Random(), Noise()
 * Rule-based and Emergent systems
-* Generators and other automatisms (genotypes)
+* Generators and other automatisms (genotypes), love letter generators
 * Mini-ex 6: A generative program
 
 ## Chapter 7: Vocable Code
