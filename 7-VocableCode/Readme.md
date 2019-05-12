@@ -327,6 +327,7 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
 
 ## Required reading:
 - Cox, Geoff, and Alex McLean. *Speaking Code*. Cambridge, Mass.: MIT Press, 2013. 17-38.
+- Cox, Geoff, Alex McLean, and Adrian Ward. "The aesthetics of generative code." Proc. of Generative Art. 2001.
 - Shiffman, Daniel. (2017) 10.2: What is JSON? Part I - p5.js Tutorial [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r [Accessed 13 Mar. 2019].
 - Shiffman, Daniel. (2017) 10.2: What is JSON? Part II - p5.js Tutorial [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r [Accessed 13 Mar. 2019].
 
