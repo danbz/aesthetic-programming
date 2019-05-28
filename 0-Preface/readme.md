@@ -42,6 +42,8 @@ coding in tradition of literary criticism (critical code studies)
 Free and open source principles.
 
 changing literacy - Walter Ong’s Orality and Literacy... (maybe even Neil Postman)
+check out Kevin Brock : Treating code as a pervasive argument 
+https://books.google.dk/books?hl=en&lr=lang_en&id=fISYDwAAQBAJ&oi=fnd&pg=PA69&dq=%22software+studies%22&ots=WYGtE7U0O9&sig=11FWRTJNmEyBRu5m2WrzgPYe2P0&redir_esc=y#v=onepage&q=%22software%20studies%22&f=false
 
 00.3 Culture of Github/Gitlab
 Matthew Fuller, Andrew Goffey, Adrian Mackenzie, Richard Mills and Stuart Sharples, "Big Diff, Granularity, Incoherence, and Production in the Github Software Repository" in How To Be a Geek: Essays on the Culture of Software.
