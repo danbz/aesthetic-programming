@@ -4,13 +4,12 @@
 
 By using the phase *vocable code* for the title of this chapter we aim to make explicit the ways in which the act of coding is both expression and process. Not reducible to its functional aspects, we argue that code mirrors the instability inherent to human language in terms of how it expresses itself. Code is both script and performance, and in this sense is ready to do something: it says what it will do and does it at the same time. This analogy to speech, or more specifically to *speech-act theory* has been well rehearsed in software studies (not least in *Speaking Code*) and helps us to demonstrate neatly how we can to do things with words *and* code: to produce an action with effects.<sup>[1](#myfootnote1)</sup>  
 
-Indeed if coding is somewhat like speaking, it is also like poetry inasmuch as poems operate performatively, especially when spoken, and clearly there are similarities between the syntactic qualities of written code and words on the page to be executed. This is made explicit when source code is read aloud as if it were a poem such as the example of the philosopher Franco Bifo Berardi reading the *I Love You* virus, literally enacting Florian Cramer's claim that the computer virus *I Love You* might be considered to be a form of poetry.<sup>[2](#myfootnote2)</sup> This also makes reference to artists expressing language as found objects, in simultaneous poems from the Dada period for example, where texts in different languages were read aloud at the same time. Code is like poetry inasmuch as it plays with structures of language itself, and sets up a temporal interplay between the voice that is, and the voice that is to come. Such examples stress the instability of codes and how particular intentions or meanings are most likely misinterpreted.
+Indeed if coding is somewhat like speaking, it is also like poetry inasmuch as poems operate performatively, especially when spoken, and clearly there are similarities between the syntactic qualities of written code and words on the page to be executed. This is made explicit when source code is read aloud as if it were a poem such as the example of the philosopher Franco Bifo Berardi reading the *I Love You* virus, literally enacting Florian Cramer's claim that the computer virus *I Love You* might be considered to be a form of poetry.<sup>[2](#myfootnote2)</sup> This also makes reference to artists expressing language as found objects, in simultaneous poems from the Dada period for example, where texts in different languages were read aloud at the same time. Software is constructed in language, and is processed with and via computer code consisting of symbols.<sup>[3](#myfootnote3)</sup> Code is like poetry inasmuch as it plays with structures of language itself, and sets up a temporal interplay between the voice that is, and the voice that is to come. Such examples stress the instability of codes and how particular intentions or meanings are most likely misinterpreted.
 
-Many scholars and artists have explored these connections between speaking and coding, not only to consider programming as a tool to produce poetic or literary forms but also to explore the material connections and creative tensions between the two.<sup>[3](#myfootnote3)</sup> That speech comes from living human bodies further reminds us that coding practices have bodies too (even programmers do, although many are in denial), and this further reminds us that coding can only be understood in terms of wider infrastructures and the context of its making (or *poiesis* if you like). In this chapter we follow this line of thinking, and explore the ways in which the *voice* of the human subject is implicated in coding practices, and how coding can itself give voice to wider political issues particularly around gender and sexuality. We focus on the software artwork *Vocable Code*, as a means to engage with these technical and aesthetic aspects of code, and how these issues might be made apparent.
+Many scholars and artists have explored these connections between speaking and coding, not only to consider programming as a tool to produce poetic or literary forms but also to explore the material connections and creative tensions between the two.<sup>[4](#myfootnote4)</sup> That speech comes from living human bodies further reminds us that coding practices have bodies too (even programmers do, although many are in denial), and this further reminds us that coding can only be understood in terms of wider infrastructures and the context of its making (or *poiesis* if you like). In this chapter we follow this line of thinking, and explore the ways in which the *voice* of the human subject is implicated in coding practices, and how coding can itself give voice to wider political issues particularly around gender and sexuality. We focus on the software artwork *Vocable Code*, as a means to engage with these technical and aesthetic aspects of code, and how these issues might be made apparent.
 
-![vocable_code](https://farm2.staticflickr.com/1863/42452515710_6f4e0acce9_z.jpg)
+![vocable_code](https://live.staticflickr.com/65535/47887642581_b39ae2b523_z.jpg)
 
-- is there a better image? [This is a tentative image as we will have better one in WRO /w]
 
 ### 7.1.1 Start()
 <blockquote>
@@ -84,20 +83,20 @@ this.shows = function() {
 
 `textFont()` means to get ready to print out or write the text with the chosen font, and in this case with `withPride` that is previously defined.
 
-`textSize()` sets the current font size for use. For this sketch it takes a random integer number between 15 to 30.
+`textSize()` sets the current font size for use. For this sketch it takes a random integer number between 20 to 35.
 
 `textAlign()` takes the first argument for the horizontal alignment. It contains options such as LEFT, RIGHT and CENTER. Since every sentence contains a different number of words, its length will vary too. In *Vocable Code*, the text is aligned CENTER regardless of the sentence's length.
 
 `noStroke()` and `fill()` do similiar things for shapes. The former disables drawing the stroke (outline), while the latter sets the color of the text. `fill()` takes RGB values and other different color formats.
 
-`text()` draws the text to the screen with specific words and positions (both horizontal and vertical orientation).
+`text()` draws the text on the screen with specific words and positions (both horizontal and vertical coordinations of the text). e.g `text(getQueer, this.xxxxx, this.yyyyy);`
 
 ### 7.3.2 Conditions
 There are five different `if` statements implemented in *Vocable Code*.
 
 ```javascript
 //line 22
-if (queers[WhoIsQueer].myStatement == "null" || makingStatements == 2) {
+if (queers[WhoIsQueer].myStatement == "null" || makingStatements == floor(2.34387)) {
 		queerRights.push(new notNew(queers[WhoIsQueer].yourStatement));
 		makingStatements = 2.0;
 }else{
@@ -343,9 +342,11 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
 
 <a name="myfootnote1">1</a>: Here we make reference to John Langshaw Austin's *How To Do Things With Words*, and in turn to Geoff Cox and Alex McLean's *Speaking Code* (Cambridge, Mass.: MIT Press 2013). The analogy of free software to free speech is made explicit in the definition by the Free Software Foundation: "'Free software' means [...] that the users have the freedom to run, copy, distribute, study, change and improve the software. Thus, 'free software' is a matter of liberty, not price. To understand the concept, you should think of 'free' as in 'free speech,'' not as in 'free beer'." See https://www.gnu.org/philosophy/free-sw.html.  
 
-<a name="myfootnote2">2</a>: Florian Cramer's claim was made in the context of the *I Love You* exhibition (2002-4) a work in progress-exhibition developed by digitalcraft.org Kulturbüro, see http://www.digitalcraft.org/iloveyou/.
+<a name="myfootnote2">2</a>: Florian Cramer, Language in Software Studies, 2008, 168-173; see also Warren Sack, The Software Arts (Cambridge, Mass. : MIT Press, 2019)
 
-<a name="myfootnote3">3</a>: In various articles, performances and artworks, including those by Mez Breeze (1994) Florian Cramer (2008), John Cayley (2002), Geoff Cox & Alex McLean (2013), Winnie Soon & Geoff Cox (2018), Ian Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015), to name but a few. See:
+<a name="myfootnote3">3</a>: Florian Cramer's claim was made in the context of the *I Love You* exhibition (2002-4) a work in progress-exhibition developed by digitalcraft.org Kulturbüro, see http://www.digitalcraft.org/iloveyou/.
+
+<a name="myfootnote4">4</a>: In various articles, performances and artworks, including those by Mez Breeze (1994) Florian Cramer (2008), John Cayley (2002), Geoff Cox & Alex McLean (2013), Winnie Soon & Geoff Cox (2018), Ian Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015), to name but a few. See:
 - Parrish, A (2015) https://vimeo.com/134734729
 - Cramer, F (2008) Language in Software Studies
 - Breeze, Mez (1994-) MEZANGELLE. https://anthology.rhizome.org/mez-breeze
@@ -360,22 +361,22 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
 - Blas, Z. & Cárdenas, M. Imaginary computatoinal systems: queer technologies and transreal aesthetics. AI & Soc (2013) 28: 559. https://doi.org/10.1007/s00146-013-0502-y
 - Blas, Z. & Cárdenas, M (2012) femme Disturbance Library
 
-<a name="myfootnote4">4</a>: Roopika Risam, The Poetry of Executable Code, 2015, available at http://jacket2.org/commentary/poetry-executable-code. 
+<a name="myfootnote5">5</a>: Roopika Risam, The Poetry of Executable Code, 2015, available at http://jacket2.org/commentary/poetry-executable-code. 
 
-<a name="myfootnote5">5</a>: At the same time, you can also find a lot of free and open source fonts to download on the Internet. See, for instance, https://www.1001freefonts.com/.
+<a name="myfootnote6">6</a>: At the same time, you can also find a lot of free and open source fonts to download on the Internet. See, for instance, https://www.1001freefonts.com/.
 
-<a name="myfootnote6">6</a>: Wendy Hui Kyong Chun, Programmed Visions: Software and Memory (Cambridge, Mass.: MIT Press, 2011, 45).
+<a name="myfootnote7">7</a>: Wendy Hui Kyong Chun, Programmed Visions: Software and Memory (Cambridge, Mass.: MIT Press, 2011, 45).
 
-<a name="myfootnote7">7</a>: Karen Barad, Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning (Durham, North Carolina: Duke University Press, 2007).
+<a name="myfootnote8">8</a>: Karen Barad, Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning (Durham, North Carolina: Duke University Press, 2007).
 
-<a name="myfootnote8">8</a>: Sadie Plant, Zeros + Ones: Digital Women and the New Technoculture (London: Forth Estate, 1997), 34-35.
+<a name="myfootnote9">9</a>: Sadie Plant, Zeros + Ones: Digital Women and the New Technoculture (London: Forth Estate, 1997), 34-35.
 
-<a name="myfootnote9">9</a>: Plant, Zeros + Ones, 88. 
+<a name="myfootnote10">10</a>: Plant, Zeros + Ones, 88. 
 
-<a name="myfootnote10">10</a>: For a more detailed version of historical events, see Andrew Hodges's *Alan Turing: The Enigma*. 
+<a name="myfootnote11">11</a>: For a more detailed version of historical events, see Andrew Hodges's *Alan Turing: The Enigma*. 
 
-<a name="myfootnote11">11</a>: Plant, Zeros + Ones, 98-9; see also Michel Foucault, The Birth of Biopolitics: Lectures at the Collège de France, 1978-1979, London: Palgrave Macmillan, 2008. 
+<a name="myfootnote12">12</a>: Plant, Zeros + Ones, 98-9; see also Michel Foucault, The Birth of Biopolitics: Lectures at the Collège de France, 1978-1979, London: Palgrave Macmillan, 2008. 
 
-<a name="myfootnote12">12</a>: Here we move from the reductive binary of male-female to another, testosterone-oestrogen.  
+<a name="myfootnote13">13</a>: Here we move from the reductive binary of male-female to another, testosterone-oestrogen.  
 
-<a name="myfootnote13">13</a>: Plant, Zeros + Ones, 102.
+<a name="myfootnote14">14</a>: Plant, Zeros + Ones, 102.
