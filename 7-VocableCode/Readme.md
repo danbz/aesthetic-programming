@@ -51,7 +51,7 @@ function preload() {
 .
 .
 .
-//line 68: the class and constructor
+//line 64: the class and constructor
 function notNew(getQueer){
   this.size = floor(random(15.34387,30.34387));
   this.xxxxx = width/2.0;
@@ -63,7 +63,7 @@ function notNew(getQueer){
 .
 .
 this.shows = function() {
-//font, size, alignment, fill and position: line 80
+//font, size, alignment, fill and position: line 76
   textFont(withPride);
   textSize(this.size);
   textAlign(CENTER);
@@ -105,7 +105,7 @@ if (queers[WhoIsQueer].myStatement == "null" || makingStatements == floor(2.3438
 ```
 *Sketch 2.1: Snippets of Vocable Code on Conditional Structure I*
 
-The first one has used the relational operator called **OR** (||) to check against the two conditions. If anyone is true then the program will execute the next two lines of code. But of course there is a case where two conditions are not met, and in that case the `else` is used for this situation. This block of code is to determine which new text object should be selected for display as each person can maximum hold two vocal/textual statements .
+The first one has used the relational operator called **OR** (||) to check against the two conditions. If anyone is true then the program will execute the next two lines of code. But of course there is a case where two conditions are not met, and in that case the `else` is used for this situation. This block of code is to determine which new text object should be selected for display as each person can only hold two vocal/textual statements, and some might have given one voice only. As such, some checking logics need to implement to display the text. 
 
 ```javascript
 //line 28
@@ -117,11 +117,13 @@ if (gender == abs(2)) {
 
 The second one has only used the `if` statement and that means it will run the function `SpeakingCode` when the condition is met and it won't have other alternative route, meaning that the program will just exit the conditional structure and continue the execution after the closing curly bracket.
 
-In general the conditional structure in sketch 2.2 is about picking the third of a new text batch and the text will then map to the voice file to play back. `abs` is a syntax and function from p5 which calculates the absolute value of a number and it only returns a positive one.
+The conditional structure in sketch 2.2 is about picking the third of a new text batch (knowing that an array is started with a [0] index) and the selected text will then map to the voice file to play back. `abs` is a syntax and function from p5 which calculates the absolute value of a number and it only returns a positive one.
+
+Of course the selected line of code is specifically structured around wider political issues on gender and sexuality, attempting to express and open up different thinking about queering gender and code. Technically speaking, it is not necessary to use the `abs` function and secondly, it could be also written to pick other array's index. As we first introduced earlier code is constructed in language but it can also act like poetry in which the programmer can structure and experiment with symbols and logics of language itself. Since *Vocable Code* is also considered as codework (code poetry), it invites and commands audience and machine to speak aloud the code.
 
 
 ```javascript
-//line 59
+//line 55
 function draw() {
     if (status == "notFalse") {
         queerRights.splice(non_binary, floor(1.34387));
@@ -137,10 +139,10 @@ function draw() {
 ```
 *Sketch 2.3: Snippets of Vocable Code on Conditional Structure III*
 
-Sketch 2.3 shows two conditional structure in the function `draw`. In general, they are checking for texts that are out of the canvas. This has to be done frequently and continuously because the out of screen text object instances will be removed (by using `splice`) to avoid unwanted elements still exist in the program. Additionally, the program runs continuously with new text generation when it detects the screen with less than or equal to two text on a screen. Furthermore, the program is designed to give some time for a new batch of text to generate on a screen dynamically, and not immediate right after the text goes off the canvas. After the conditions of the amount of text on a screen and the time element are met simultaneously, the program will proceed to the function `makeVisible()` to generate new text.
+Sketch 2.3 shows two conditional structures in the function `draw`. In general, they are checking for texts that are out of the canvas. This has to be done frequently and continuously because the out-of-screen text instances will be removed (by using `splice`) to avoid unwanted elements/objects still exist in the program. Additionally, the program runs continuously with new text generation when it detects the screen with less than or equal to two text on a screen. Furthermore, the program is designed to give some time for a new batch of text to generate on a screen dynamically, and not immediate right after the text goes off the canvas. After the conditions of the amount of text on a screen and the time element are met simultaneously, the program will proceed to the function `makeVisible()` to generate new text.
 
 ```javascript
-//line 90
+//line 86
 this.isInvisible = function() {
 	var status;
 	if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
@@ -153,13 +155,12 @@ this.isInvisible = function() {
 ```
 *Sketch 2.4: Snippets of Vocable Code on Conditional Structure IV*
 
-The last **if-else** conditional structure is set within the class's method, which is related to sketch 2.3 on checking if the text is off the canvas especially on the vertical y-axis. The method `this.isInvisible=function()` with the relational operator called **OR** (`||`), in which either one condition is needed to be 'true' (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an `else` statement to handle the results of such conditional checking. Therefore, it is read as if either one of the two conditions is met, the variable `status` will be assigned as 'notFalse' (this means the text is out of the screen in terms of the top or the bottom edge), and else if they are still remained on the screen, the variable `status` will be assigned as 'notTrue'.
-
-What is interesting here is the use of the assigned values `notFalse` and `notTrue` as we tend to understand boolean logic as an absolute binary reality of 'true' or false'. This at first seems fundamental to computational logic and we can relate this to zeros and ones in which information is reduced into machine code. But, arguably and conceptually, notFalse and notTrue suggest less reductive forms that exted beyond simple binary relations.  
+The last **if-else** conditional structure is set within the class method, which is related to sketch 2.3 on checking if the text is off the canvas especially on the vertical y-axis. The method `this.isInvisible=function()` with the relational operator called **OR** (`||`), in which either one condition is needed to be 'true' (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an `else` statement to handle the results of such conditional checking. Therefore, it is read as if either one of the two conditions is met, the variable `status` will be assigned as 'notFalse' (this means the text is out of the screen in terms of the top or the bottom edge), and else if they are still remained on the screen, the variable `status` will be assigned as 'notTrue'. These values of `notFalse` and `notTrue` are belonged to the variable called `status` with the **String** type. But in usual programming practice, we tend to understand boolean logic as an absolute binary reality of 'true' or false'. This at first seems fundamental to computational logic and we can relate this to zeros and ones in which information is reduced into machine code. But, arguably and conceptually, notFalse and notTrue suggest less reductive forms that extend beyond simple binary relations.  
 
 ### 7.3.3 JSON 
 
-[insert explanation - here we introduce... and why... and follow up on in next chapter]
+Beyond the core source code, *Vocable Code* utilizes JSON file to store the data from all voice donors, such as their written statements are written in text. By using JSON, all the data can be updated on this JSON file without changing anything at the level of the javascript source code.
+
 ```
 {
   "description": "This file contains the meta data of queer text",
@@ -185,9 +186,7 @@ What is interesting here is the use of the assigned values `notFalse` and `notTr
 ```
 *Sketch 3: The JSON file in Vocable Code*
 
-Javascript Object Notation (JSON) is an open-standard and independent file format. In brief, it is used to store and exchange data with certain rules to follow. For this specific example, a JSON file is used to store the data from all voice donors. Their statements are written in text and are used to display on a screen. By using JSON, all the data can be updated on this JSON file without changing anything at the level of the javascript source code.
-
-JSON is mainly used for storing and retrieving data, while javascript is a programming language that implements computational logic to manipulate data, such as retrieving the data and displaying it on screen in any color, size, and at any tempo. This kind of separation of data and computational logic is commonly seen in software development. JSON is widely used as a data storage and communication format on the internet and software applications that employ different programming languages. Google, for example, offers their web or image search results in JSON format via their Application Programming Interfaces (APIs). (We will look into more about APIs in the next chapter.)  
+Javascript Object Notation (JSON) is an open-standard and independent file format Similar to other programming languages, Javascript implements computational logic to manipulate data, such as retrieving and displaying data on a screen in any color, size, and at any tempo. This kind of separation of data and computational logic is commonly seen in software development. JSON is widely used as a data storage and communication format on the internet and software applications that employ different programming languages. Google, for example, offers their web or image search results in JSON format via their Application Programming Interfaces (APIs). (We will look into more about APIs in the next chapter.)  
 
 JSON looks similar to Javascript in terms of the use of arrays and objects but they are formatted differently. Some of the rules are:
 - Data is stored in name/value pairs, e.g `"copyLeft": "Creative Common Licence BY 4.0"` and the pair is separated by a colon.
@@ -198,7 +197,7 @@ JSON looks similar to Javascript in terms of the use of arrays and objects but t
 - Comments are not allowed.
 - No other computational logics like conditional structure or for-loop are possible.
 
-To process the JSON file in sketch 3, you need to use the syntax `loadJSON`. See how this is put together in a sketch:
+To process the JSON file in sketch 3, you need to use the syntax `loadJSON` in p5.js. See how this is put together in a sketch:
 
 ```javascript
 let whatisQueer;
@@ -222,7 +221,7 @@ function makeVisible() {
 
 *Sketch 5: Snippets of Vocable Code on Reading JSON II* [need to redraw in a better form]
 
-After loading the JSON file that is stored in the relative path `voices.json`, it then points at the `queers` array (in line 11 of Sketch 5) and look for the name/value pairs of `iam`, `makingstatements` from the randomly selected statement among `yourStatement` and `myStatement`. Lastly, the function  `SpeakingCode` is called.
+After loading the JSON file `voices.json` it then points at the `queers` array (in line 11 of Sketch 5) and look for the name/value pairs of `iam`, `makingstatements` from the randomly selected statement among `yourStatement` and `myStatement`. Lastly, the function  `SpeakingCode` is called. Sketch 5 is mainly to communicate between the source code and the JSON files, passing the data (selected text) so as to display on a screen.
 
 ```javascript
 function makeVisible() {
@@ -248,14 +247,110 @@ All the voice files are stored in the wav file format. Since the files are named
 To deal with sound, or to play a voice file in this specific case, there is a p5.sound library which extends p5 with Web Audio functionality. Among many sound related functions like capturing/listening from an audio input (as we have demonstrated in Ch.4 - Data Capture), analysis and synthesis, the use of the p5.sound library is more to simply load and play the sound files. To do this, you need to use `loadSound` as a callback to make sure the sound is fully loaded (it takes time as it also involves file size issues, memory and hardware) before the function `speak.play()` is invoked (see sketch 6).
 
 ## 7.4 Source code
-<img src="ch7_source.png" width="450"> [to be replaced with numbered code]
+```
+// CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+
+let withPride;
+let whatisQueer;
+let queerRights = [];
+let makingStatements;
+let speak;
+let queers = [];
+let voices = [];
+
+function preload() {
+	withPride = loadFont('Gilbert_TypeWithPride.otf');
+	whatisQueer = loadJSON('voices.json');
+}
+
+function makeVisible() {
+	queers = whatisQueer.queers;
+	let addQueers = floor(random(2.34387,4.34387));
+	for (let gender = floor(0.34387); gender <= addQueers; gender++) {
+		let WhoIsQueer = floor(random(queers.length));
+			makingStatements = floor(random(2.34387,3.34387));
+			if (queers[WhoIsQueer].myStatement == "null" || makingStatements == floor(2.34387)) {
+				queerRights.push(new notNew(queers[WhoIsQueer].yourStatement));
+				makingStatements = 2.0;
+			}else{
+				queerRights.push(new notNew(queers[WhoIsQueer].myStatement));
+			}
+	 if (gender == abs(2)) {
+			SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
+	 }
+	}
+}
+
+function SpeakingCode(iam, makingStatements) {
+	let getVoice = "voices/" + iam + makingStatements + ".wav";
+	speak = loadSound(getVoice, speakingNow);
+}
+
+function speakingNow() {
+	speak.play();
+}
+
+function setup() {
+	createCanvas(windowWidth,windowHeight);
+	background(2.34387);
+	makeVisible();
+}
+
+function draw() {
+	background(2.34387);
+	for (let non_binary = floor(0.34387); non_binary <= queerRights.length-floor(1.34387); non_binary++) {
+		queerRights[non_binary].moveUp();
+		queerRights[non_binary].shows();
+		let status = queerRights[non_binary].isInvisible();
+		if (status == "notFalse") {
+			queerRights.splice(non_binary, floor(1.34387));
+		}
+	}
+	if (queerRights.length <= 2.0) {
+		makeVisible();
+	}
+}
+
+function notNew(getQueer) {
+	this.size = random(20.34387,35.34387);
+	this.time = random(2.34387,4.34387);
+	this.yyyyy = random(height/3.0,height+10.3437);
+	this.xxxxx = width/2.0;
+	this.gradient = 240.0;
+
+	this.moveUp = function() {
+		this.yyyyy -= this.time;
+		this.time += sin(radians((frameCount%360.0)*this.time)) - 0.009;
+	};
+
+	this.shows = function() {
+		textFont(withPride);
+		textSize(this.size);
+		textAlign(CENTER);
+		this.gradient-=0.5;
+		noStroke();
+		fill(this.gradient);
+		text(getQueer, this.xxxxx, this.yyyyy);
+	};
+
+	this.isInvisible = function() {
+		let status;
+		if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
+			status = "notFalse";
+		} else {
+			status = "notTrue";
+		}
+		return status;
+	};
+}
+```
 
 *Sketch 7: Full source code for Vocable Code*
-[need replacement and think about the book form]
+
 
 ## 7.5 While()
 
-In high-level programming languages like javascript, the source code both sends instructions to machines as well as communicates to humans. In this way, writing source code involves the use of signs and symbols, both semantics and syntactics, and operates across both programming and so-called natural languages. We also learnt from the previous chapter (Object Orientation) that abstraction is a fundamental concept to software development, which is different from the machine operations, and thus puts focus on building abstractions as objects. The use of class/object structures (text as object instances), conditional structures, procedures and subroutines, such as the for-loop, are some of the ways that are designed to present and execute the source code in a particular way. However, in the context of machine execution, those variable names - the semantic layer - are stripped away and that kind of human-readable information is avoided. This 'secondary notation' does not have any effect on the execution of the program apart from memory size. In this way, choosing meaningful identifier names is more for the purpose of expression and communication and our example above demonstrates this purpose clearly. As we first introduced earlier code is constructed in language but it can also act like poetry in which the programmer can structure and experiment with symbols and logics of language itself. This is where we hear the voice of the programmer.
+In high-level programming languages like javascript, the source code both sends instructions to machines as well as communicates to humans. In this way, writing source code involves the use of signs and symbols, both semantics and syntactics, and operates across both programming and so-called natural languages. We also learnt from the previous chapter (Object Orientation) that abstraction is a fundamental concept to software development, which is different from the machine operations, and thus puts focus on building abstractions as objects. The use of class/object structures (text as object instances), conditional structures, procedures and subroutines, such as the for-loop, are some of the ways that are designed to present and execute the source code in a particular way. However, in the context of machine execution, those variable names - the semantic layer - are stripped away and that kind of human-readable information is avoided. This 'secondary notation' does not have any effect on the execution of the program apart from memory size. In this way, choosing meaningful identifier names is more for the purpose of expression and communication and our example above demonstrates this purpose clearly. This is where we hear the voice of the programmer.
 
 Furthermore, in thinking about the importance of source code for understanding the operations of software, it is important to recognise that source code does not show how a machine operates with physical memory (such as store, load, add and halt actions), and how it interacts with memory, how it translates symbolic actions into real addresses, and discloses operation sequences as low-level programming languages would do. To be specific in the case of *Vocable Code*, by showing the two interfaces side by side - the source code and what happens when it is executed - there is a discrepancy in that what you see is not literally how it operates. This could perhaps be understood in two ways.
 
@@ -283,7 +378,7 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
 
 ## 7.5.1 Exercise in class
 1. Work in a group of 3-4.
-2. Download the Vocable Code sketch, and run it in your own computer.
+2. Download the *Vocable Code* sketch, and run it in your own computer.
 3. Discuss the various computational structures and syntax to understand how things work, and specifically on the relationship between the voice file naming and JSON file structure.
 4. Follow the instruction and record your own voice with your computer or mobile phone. (The program takes wav file format only.)
   - Find a blank paper and prepare to write a sentence.
@@ -315,7 +410,7 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
 - [e-lit collection3](http://collection.eliterature.org/3/)
 - [Digital Poetry by David Jhave Johnston](http://glia.ca/)
 - [Poems by Ian Hatcher](http://ianhatcher.net/#!/poems)
-- [Rita library](http://rednoise.org/rita/) by Daniel Howe
+- [Rita library by Daniel Howe](http://rednoise.org/rita/) 
 
 **Questions to think about:**
 - Describe what is the program about and how does it work?
