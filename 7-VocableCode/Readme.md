@@ -247,7 +247,7 @@ All the voice files are stored in the wav file format. Since the files are named
 To deal with sound, or to play a voice file in this specific case, there is a p5.sound library which extends p5 with Web Audio functionality. Among many sound related functions like capturing/listening from an audio input (as we have demonstrated in Ch.4 - Data Capture), analysis and synthesis, the use of the p5.sound library is more to simply load and play the sound files. To do this, you need to use `loadSound` as a callback to make sure the sound is fully loaded (it takes time as it also involves file size issues, memory and hardware) before the function `speak.play()` is invoked (see sketch 6).
 
 ## 7.4 Source code
-```
+```javascript
 // CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
 
 let withPride;
