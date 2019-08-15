@@ -9,6 +9,7 @@ Indeed if coding is somewhat like speaking, it is also like poetry inasmuch as p
 Many scholars and artists have explored these connections between speaking and coding, not only to consider programming as a tool to produce poetic or literary forms but also to explore the material connections and creative tensions between the two.<sup>[4](#myfootnote4)</sup> That speech comes from living human bodies further reminds us that coding practices have bodies too (even programmers do, although many are in denial), and this further reminds us that coding can only be understood in terms of wider infrastructures and the context of its making (or *poiesis* if you like). In this chapter we follow this line of thinking, and explore the ways in which the *voice* of the human subject is implicated in coding practices, and how coding can itself give voice to wider political issues particularly around gender and sexuality. We focus on the software artwork *Vocable Code*, as a means to engage with these technical and aesthetic aspects of code, and how these issues might be made apparent.
 
 ![vocable_code](https://live.staticflickr.com/65535/46971519965_4ce2094e75_z.jpg)
+
 *Figure 1: An installation view of Vocable Code*
 
 ### 7.1.1 Start()
