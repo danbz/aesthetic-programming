@@ -444,7 +444,7 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
 
 <a name="myfootnote1">1</a>: Here we make reference to John Langshaw Austin's *How To Do Things With Words*, and in turn to Geoff Cox and Alex McLean's *Speaking Code* (Cambridge, Mass.: MIT Press 2013). The analogy of free software to free speech is made explicit in the definition by the Free Software Foundation: "'Free software' means [...] that the users have the freedom to run, copy, distribute, study, change and improve the software. Thus, 'free software' is a matter of liberty, not price. To understand the concept, you should think of 'free' as in 'free speech,'' not as in 'free beer'." See https://www.gnu.org/philosophy/free-sw.html.  
 
-<a name="myfootnote2">2</a>: Florian Cramer, Language in Software Studies, 2008, 168-173; see also Warren Sack, The Software Arts (Cambridge, Mass. : MIT Press, 2019)
+<a name="myfootnote2">2</a>: Florian Cramer, *Language in Software Studies*, 2008, 168-173; see also Warren Sack, *The Software Arts* (Cambridge, Mass. : MIT Press, 2019)
 
 <a name="myfootnote3">3</a>: Florian Cramer's claim was made in the context of the *I Love You* exhibition (2002-4) a work in progress-exhibition developed by digitalcraft.org Kulturbüro, see http://www.digitalcraft.org/iloveyou/.
 
@@ -463,22 +463,22 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
 - Blas, Z. & Cárdenas, M. Imaginary computatoinal systems: queer technologies and transreal aesthetics. AI & Soc (2013) 28: 559. https://doi.org/10.1007/s00146-013-0502-y
 - Blas, Z. & Cárdenas, M (2012) femme Disturbance Library
 
-<a name="myfootnote5">5</a>: Roopika Risam, The Poetry of Executable Code, 2015, available at http://jacket2.org/commentary/poetry-executable-code. 
+<a name="myfootnote5">5</a>: Roopika Risam, *The Poetry of Executable Code*, 2015, available at http://jacket2.org/commentary/poetry-executable-code. 
 
 <a name="myfootnote6">6</a>: At the same time, you can also find a lot of free and open source fonts to download on the Internet. See, for instance, https://www.1001freefonts.com/.
 
-<a name="myfootnote7">7</a>: Wendy Hui Kyong Chun, Programmed Visions: Software and Memory (Cambridge, Mass.: MIT Press, 2011, 45).
+<a name="myfootnote7">7</a>: Wendy Hui Kyong Chun, *Programmed Visions: Software and Memory* (Cambridge, Mass.: MIT Press, 2011, 45).
 
-<a name="myfootnote8">8</a>: Karen Barad, Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning (Durham, North Carolina: Duke University Press, 2007).
+<a name="myfootnote8">8</a>: Karen Barad, *Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning* (Durham, North Carolina: Duke University Press, 2007).
 
-<a name="myfootnote9">9</a>: Sadie Plant, Zeros + Ones: Digital Women and the New Technoculture (London: Forth Estate, 1997), 34-35.
+<a name="myfootnote9">9</a>: Sadie Plant, *Zeros + Ones: Digital Women and the New Technoculture* (London: Forth Estate, 1997), 34-35.
 
-<a name="myfootnote10">10</a>: Plant, Zeros + Ones, 88. 
+<a name="myfootnote10">10</a>: Plant, *Zeros + Ones*, 88. 
 
 <a name="myfootnote11">11</a>: For a more detailed version of historical events, see Andrew Hodges's *Alan Turing: The Enigma*. 
 
-<a name="myfootnote12">12</a>: Plant, Zeros + Ones, 98-9; see also Michel Foucault, The Birth of Biopolitics: Lectures at the Collège de France, 1978-1979, London: Palgrave Macmillan, 2008. 
+<a name="myfootnote12">12</a>: Plant, *Zeros + Ones*, 98-9; see also Michel Foucault, *The Birth of Biopolitics: Lectures at the Collège de France, 1978-1979*, London: Palgrave Macmillan, 2008. 
 
 <a name="myfootnote13">13</a>: Here we move from the reductive binary of male-female to another: testosterone-oestrogen.  
 
-<a name="myfootnote14">14</a>: Plant, Zeros + Ones, 102.
+<a name="myfootnote14">14</a>: Plant, *Zeros + Ones*, 102.
