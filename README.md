@@ -1,6 +1,6 @@
 ## About the book project
 
-### Aesthetic Programming: A Handbook of Software Studies, or Software Studies for Dummies
+### Aesthetic Programming: A Handbook of Software Studies
 
 by Winnie Soon and Geoff Cox
 
