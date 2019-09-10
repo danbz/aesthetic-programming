@@ -12,7 +12,7 @@ As the first chapter of the book, we think that it is important to have a reflec
 To reiterate again, our focus in this book addresses the cultural and aesthetic dimensions of programing as a means to think critically and computationally at the times in which our experiences are ever programmed and surrounded by computational infrastructure. 
 
 ### 1.1.1 Start()
-![getting_started1](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/1-gettingstarted/ch1_1.png)
+<img src="https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/1-gettingstarted/ch1_1.png">
 *Figure 1: p5.js web interface*
 
 What is, and why, p5.js? 
