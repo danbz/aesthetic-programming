@@ -18,24 +18,26 @@ To reiterate again, our focus in this book addresses the cultural and aesthetic 
 
 What is, and why, p5.js? 
 Web p5.js
-syntax reading 
+the concept of runme, readme
 
 ## 1.2 Working Environment
 p5.js + Atom + Gitlab
 
 ### 1.2.1 p5.js 
-reading code and syntax 
+- reading code and syntax 
+- web editor
 
 ### 1.2.2 Code editor 
-ATOM 
+- ATOM 
 
 ### 1.2.3 Git and Repository
-Gitlab
+- Gitlab
 
 ## 1.3 not Hello World
-Running the program with a web browser 
+- Running the program with a web browser
+- web browser console 
 
-## 1.X While()
+## 1.4 While()
 
 - Culture of Github: Matthew Fuller, Andrew Goffey, Adrian Mackenzie, Richard Mills and Stuart Sharples, "Big Diff, Granularity, Incoherence, and Production in the Github Software Repository" in How To Be a Geek: Essays on the Culture of Software. => Versioning
 
@@ -43,10 +45,10 @@ Running the program with a web browser
 
 - Open Source Software and Culture
 
-## 1.x.1 Excercise in class 
+## 1.4.1 Excercise in class 
 ?
 
-## 1.x.2 Mini_Exervise[1]: Think About My First Program
+## 1.4.2 Mini_Exervise[1]: Think About My First Program
 **Objective:**
 - To learn the basic setup, including writing code with a code editor, running code with a web browser, independent study of code syntax, uploading files on gitlab, creating a readme file, etc.
 - To reflect upon the process of coding
@@ -86,4 +88,5 @@ Running the program with a web browser
 <a name="myfootnote2">2</a>: John Cayley, The code is not the text unless it is the text, 2002 electronic book review, available at http://electronicbookreview.com/essay/the-code-is-not-the-text-unless-it-is-the-text/, see also Katherine Hayles, *Writing Machines* (Cambridge, Mass.: MIT Press, 2002)
 
 <a name="myfootnote3">3</a>: Annette Vee, *Coding Literacy: How computer programing is changing writing* (Cambridge, Mass.: MIT Press, 2017, 45-58).
+
 <a name="myfootnote4">4</a>: Nick Montfort, *Exploratory Programming for the Arts and Humanities* (Cambridge, Mass.: MIT Press, 2016). 
