@@ -1,7 +1,7 @@
 ## 1. Getting Started
 
 ## 1.1 Begin()
-[G: feel free to cut below. My main point of starting is to think about why we need to code as the departure point - first class /w]
+[G: feel free to cut below. My main point of starting is to think about why we need to code as the departure point - first class /w] <p>
 It is fairly common, or sometimes mandatory, having programming and/or creative coding course in university programmes like Computer Science, Information Engineering, Computational Arts and Creative Media. However, it is still required some reasons for students to make sense of having a programming course in their programmes like digital design, information studies, visual arts, cultural studies where they do not want to be a programmer in their future career, or they even haven't thought about it is possible. 
 
 One of the key arguments across the East and West is that coding is "the literacy of today", and as the 21st century skill "we must learn to master" <sup>[1](#myfootnote1)</sup>. Argubly, knowing some basic coding skills will enhance employability in the future. But to call a skill as literacy, it implies much wider social situations and cultural relations in everyday life and everyday use which is how Annette Vee, the author of the book "Coding Literacy", suggests us to shift our focus from skill to wider relations: 
