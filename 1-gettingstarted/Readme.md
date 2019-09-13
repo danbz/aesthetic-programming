@@ -42,19 +42,14 @@ Similar to writing a document, you need an editor to write and document. For wri
 *  **index.html** - the default Hypertext Markup Language (HTML) which will be first picked up by a web browser. HTML is a fundamental technology used to define the structure of a webpage and it can be customized to include text, links, images, multimedia, forms, and other different elements. 
 *  **sketch.js** - the key working file for writing JavaScript. 
 *  **p5.js** - p5.js core library.
-*  **p5.sound.js** -p5.js sound library.
-*  **p5.dom.js** - p5.js dom library (we will talk about this in Chapter X).
-
-- concept of directory
-
-
-- web editor
-- reading code and syntax 
+*  **p5.sound.js** -p5.js sound library<sup>[18](#myfootnote18)</sup> for web audio functionality, including features like playback, listening to audio input and audio analysis and synthesis.  
+*  **p5.dom.js** - p5.js dom library (we will return to this in Chapter 4).
 
 ### 1.2.2 Code editor 
 - ATOM and libraries 
 - change theme color 
 - collaborative writing 
+- concept of directory
 
 ### 1.2.3 Git and Repository
 - Gitlab
@@ -63,6 +58,8 @@ Similar to writing a document, you need an editor to write and document. For wri
 ## 1.3 not Hello World
 - Running the program with a web browser
 - web browser console 
+- web editor
+- reading code and syntax 
 
 ## 1.4 While()
 
@@ -143,3 +140,5 @@ Similar to writing a document, you need an editor to write and document. For wri
 <a name="myfootnote16">16</a>: A UX-research project by Claire Kearney-Volpe, see: https://www.clairekv.com/p5js-ux-research
 
 <a name="myfootnote17">17</a>: A project by artist and educator Taeyoon Choi, see: http://taeyoonchoi.com/soft-care/signing-coders/
+
+<a name="myfootnote18">18</a>: See https://p5js.org/reference/#/libraries/p5.sound.
