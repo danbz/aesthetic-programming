@@ -21,15 +21,25 @@ Throughout the entire book, we will use javascript as the main programming langu
 
 But there is much more to just introduce the tool from a practical perspective. This book will use p5.js, a javascript library which is created by artist Lauren McCarthy in 2014 for creative coding. It was begun by Casey Reas and Ben Fry who developed their remarkable and influencial open source project - Processing in 2001 <sup>[12](#myfootnote13)</sup>, which is a Java-based desktop environment, with the aim to reach out coding beyond computer science community for artists and designers. However, McCarthy observes that various creative open source software in the market are mostly developed by white men, and there is a lack of diversity in such environment. Having Reas' encouragement, McCarthy started to investigate what would Processing looks like on the web. The main idea for p5.js is not just deploying Processing to web-based platform, but the central idea is to take diversity and inclusivity explicitly and seriously in software development and communication. As McCarthy says, "thinking about community outreach and diversity is not a secondary goal of p5.js, it's the foundation on which the platform is built." <sup>[13](#myfootnote13)</sup> Within just a couple years, the contributers of p5.js developed the community statement, translated the interface into different languages such as Spanish and Simplified Chinese <sup>[14](#myfootnote14)</sup>, started the homepage series as part of p5.js showing works and interviews by Asian women and gender non-conforming coders <sup>[15](#myfootnote15)</sup>, added high constrasting mode and audio feedback for people who has difficult in seeing <sup>[16](#myfootnote16)</sup>, developed a series of workshops on creative expression called 'Signing Coders' to reach out youth who are deaf or hard of listening <sup>[17](#myfootnote17)</sup>. As p5.js shows us, software is not only about technical tools, but equally important is to put people and humanistic values into the forefront.
 
-
-Web p5.js
-the concept of runme, readme
+[others: Web p5.js, the concept of runme, readme /w]
 
 ## 1.2 Working Environment
-p5.js + Atom + Gitlab
+
+Similar to writing a document, you need an editor to write and document. For writing code, this book will use [Atom](https://atom.io/), which is a free and open-souce text and source code editor across platforms. Additionally Gitlab will be the main platform for code and text respository.
 
 ### 1.2.1 p5.js 
+
+1. First go to the [download page](https://p5js.org/download/) of p5.js, get the p5.js complete (in the compressed format of 'p5.zip') which includes all the necessary libraries to run the code.
+2. Double click the zip and unzip the file, then you should see another new folder is created called 'p5'. 
+3. The next part is crucial for on-going development process, because you have to somehow decide where is your working folder. (Foldering is a concept used for organizing files in your device, which is similar to organize papers, folders, books in a bookshelf or cooking utentials in a cabinet. With the increasing streamlined UX design, many people find alienated to navigate or locate the path of files, like pictures, in a device as we are getting more used to put everything on the first few pages of a phone or on a desktop folder.)  
+4. I assume you put the unzipped folder 'p5' on a customized directory, then you should see the list of files under the folder as below.
+
+
+If you have no clue, you may consider to use 'Desktop'. 
+
 - concept of directory
+
+
 - web editor
 - reading code and syntax 
 
