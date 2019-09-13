@@ -29,13 +29,21 @@ Similar to writing a document, you need an editor to write and document. For wri
 
 ### 1.2.1 p5.js 
 
-1. First go to the [download page](https://p5js.org/download/) of p5.js, get the p5.js complete (in the compressed format of 'p5.zip') which includes all the necessary libraries to run the code.
-2. Double click the zip and unzip the file, then you should see another new folder is created called 'p5'. 
-3. The next part is crucial for on-going development process, because you have to somehow decide where is your working folder. If you have no clue, you may consider to use 'Desktop'. (Foldering is a concept used for organizing files in your device, which is similar to organize papers, folders, books in a bookshelf or cooking utentials in a cabinet. With the increasing streamlined UX design, many people find alienated to navigate or locate the path of files, like pictures, in a device as we are getting more used to put everything on the first few pages of a phone or on a desktop folder.)  
+1. First go to the [download page](https://p5js.org/download/) of p5.js, get the p5.js complete (in the compressed format of 'p5.zip') by clicking it and saving the file which includes all the necessary libraries to run the code. 
+2. Double click the zip and unzip the file to extract all the files associated with the compressed one, then you should see another new folder is created called 'p5'. 
+3. The next part is crucial for on-going development process, because you have to somehow decide where is your working folder. If you have no clue, you may consider to use 'Desktop'. (Foldering is a concept used for organizing files in your device, which is similar to organize papers, folders, books in a bookshelf or cooking utentials in a cabinet. With the increasing streamlined UX design, many people find alienated to navigate or locate the path and directory of files, like pictures, in a device as we are getting more used to put everything on the first few pages of a phone or on a desktop folder.)  
 4. I assume you put the unzipped folder 'p5' on a customized directory, then you should see the list of files under the folder as below.
-<img src="ch1_2.png">
-<img src="ch1_3.png">
+<img src="ch1_2.png"> <br>
+*Figure 2: p5 folder hierarchy*
+5. Click on the folder 'empty-example', and then you will see a list of files.
+<img src="ch1_3.png" width="250">
+*Figure 3: p5 folder hierarchy*
 
+*index.html
+*sletch.js
+*p5.js
+*p5.sound.js
+*p5.dom.js
 
 - concept of directory
 
