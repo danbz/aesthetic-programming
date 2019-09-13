@@ -70,7 +70,8 @@ Similar to writing a document, you need an editor to write and document. For wri
 - Open Source Software and Culture
 
 ## 1.4.1 Excercise in class 
-?
+- foldering 
+- reading and using sample syntax
 
 ## 1.4.2 Mini_Exervise[1]: Think About My First Program
 **Objective:**
