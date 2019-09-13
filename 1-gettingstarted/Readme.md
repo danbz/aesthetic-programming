@@ -38,8 +38,11 @@ Similar to writing a document, you need an editor to write and document. For wri
 <br>
 You should see the two p5.js libraries, one is the complete one (p5.js) and the other is the 'mini' version of it (p5.min.js). 
 5. Click on the folder 'empty-example', and then you will see a list of files and that will be the way to kick start:
-<img src="ch1_3.png" width="250"><br>
-*Figure 3: p5 folder hierarchy* <br>
+
+<img src="ch1_3.png"><br>
+*Figure 3: p5 folder hierarchy* 
+<br>
+
 *  **index.html** - the default Hypertext Markup Language (HTML) which will be first picked up by a web browser. HTML is a fundamental technology used to define the structure of a webpage and it can be customized to include text, links, images, multimedia, forms, and other different elements. 
 *  **sketch.js** - the key working file for writing JavaScript. 
 *  **p5.js** - p5.js core library.
