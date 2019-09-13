@@ -25,11 +25,11 @@ But there is much more to just introduce the tool from a practical perspective. 
 
 ## 1.2 Working Environment
 
-Similar to writing a document, you need an editor to write and document. For writing code, this book will use [Atom](https://atom.io/), which is a free and open-souce text and source code editor across platforms. Additionally Gitlab will be the main platform for code and text respository.
+Similar to writing a document, you need an editor to write and document. For writing code, this book will use [Atom](https://atom.io/)(https://atom.io/), which is a free and open-souce text and source code editor across platforms. Additionally Gitlab will be the main platform for code and text respository.
 
 ### 1.2.1 p5.js 
 
-1. First go to the [download page](https://p5js.org/download/) of p5.js, get the p5.js complete library (in the compressed format of 'p5.zip') by clicking it and saving the file which includes all the necessary libraries to run the code. 
+1. First go to the [download page](https://p5js.org/download/) of p5.js (https://p5js.org/download/), get the p5.js complete library (in the compressed format of 'p5.zip') by clicking it and saving the file which includes all the necessary libraries to run the code. 
 2. Double click the zip and unzip the file to extract all the files associated with the compressed one, then you should see another new folder is created called 'p5'. 
 3. The next part is crucial for on-going development process, because you have to somehow decide where is your working folder. If you have no clue, you may consider to use 'Desktop'. (Foldering is a concept used for organizing files in your device, which is similar to organize papers, folders, books in a bookshelf or cooking utentials in a cabinet. With the increasing streamlined UX design, many people find alienated to navigate or locate the path and directory of files, like pictures, in a device as we are getting more used to put everything on the first few pages of a phone or on a desktop folder.)  
 4. I assume you put the unzipped folder 'p5' on a customized directory, then you should see the list of files under the folder as below. You should see the two p5.js libraries, one is the complete one (p5.js) and the other is the 'mini' version of it (p5.min.js). 
