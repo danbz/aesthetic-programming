@@ -86,15 +86,17 @@ function draw() {
 *Figure 6: My first program* 
 
 ## 1.2.3.1 Excercise in class 
+0. Stop the atom-live-server by going to Packages > 'atom-live-server' > Stop (or to use the shortcut Ctrl + Alt + Q)  
 1. Try to rename the folder 'empty-example' to 'myFirstSketch' (in order to help the computer to process better, don't use space in between)
 2. Try to create a folder called 'libraries' under 'myFirstSketch'
 3. Drag the three p5 libraries into the folder
 4. Change the relative path of the three js libraries in index.html
-5. Can you run the program so that you can see the same screen as Figure 6? 
+5. Can you run the program so that you can see the same screen as Figure 6 on a web browser?
 
-### 1.2.3 Git and Repository
-- Gitlab
-- open processing.org 
+<img src="ch1_7.png" width="450"> <br>
+*Figure 7: My first program 1.1* 
+
+This exerise is to get you to familar with the path and local directory so as to know that running a sketch on a web browser requires to load the right path of the javascript libraries. As the book progress, you are also free to create your own folder name and rename the file like sketch.js as you wish. 
 
 ## 1.3 not Hello World
 - Running the program with a web browser
@@ -110,11 +112,7 @@ function draw() {
 
 - Open Source Software and Culture
 
-## 1.4.1 Excercise in class 
-- foldering 
-- reading and using sample syntax
-
-## 1.4.2 Mini_Exervise[1]: Think About My First Program
+## 1.4.1 Mini_Exervise[1]: Think About My First Program
 **Objective:**
 - To learn the basic setup, including writing code with a code editor, running code with a web browser, independent study of code syntax, uploading files on gitlab, creating a readme file, etc.
 - To reflect upon the process of coding
