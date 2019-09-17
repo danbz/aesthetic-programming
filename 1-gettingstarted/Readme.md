@@ -45,7 +45,12 @@ Similar to writing a document, you need an editor to write and document. For wri
 *  **p5.dom.js** - p5.js dom library (we will return to this in Chapter 4).
 
 ### 1.2.2 Code editor 
-- ATOM and libraries 
+ATOM will be used as a key code editor in this book. Apart from its free and open source nature, ATOM supports cross-platform editing which can be run on Mac OS, Windows and Linux. 
+1. Download the software ATOM from the homepage: https://atom.io/
+2. Drag the 'p5' folder that you have just unzipped onto ATOM. You should able to see the left hand pane will your project. Then you try to navigate to the 'index.html' file under the 'empty-example' folder. See below: 
+<br><img src="ch1_4.png">
+
+
 - change theme color 
 - collaborative writing 
 - concept of directory
