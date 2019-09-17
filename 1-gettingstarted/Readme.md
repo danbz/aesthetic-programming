@@ -55,7 +55,10 @@ The 'index.html' is the default page, among other pages and files, that a web br
 
 Right now the script is using relative paths, which is a useful concept when we need to understand how the libraries are operated, locate the files and how to incorporate new libraries and files in the future. The javascript libraries are simply files, we have to incorporate these files into the html so that they can be imported and read by the program. This means that when we use p5 syntax, the program can recognize the syntax and the corresponding function. For this particular example, it is important to aware that the javascript libraries and the html file are in the same directory. If we move the libraries to somewhere, we will then need to update the path.
 
-Next you will need to install a package called 'atom-live-server'[ref: https://atom.io/packages/atom-live-server], and this is useful for setting up a web server and you can update your code and see the result immediately on a browser without the need to refresh it. You can first check under 'Packages' on your menu bar and see if the package is there. If not, then go to Edit > Preferences > +Install, then type 'atom-live-server'. Click the blue install button and you should able to find it again in under the Packages menu. 
+Next you will need to install a package called 'atom-live-server'[ref: https://atom.io/packages/atom-live-server], and this is useful for setting up a web server and you can update your code and see the result immediately on a browser without the need to refresh it. You can first check under 'Packages' on your menu bar and see if the package is there. If not, then go to Edit > Preferences > +Install, then type 'atom-live-server'. Hit the blue install button and you should able to find it again under the Packages menu. 
+
+<br><img src="ch1_5.png" width="450"> <br>
+*Figure 5: Installing atom-live-server* 
 
 ### 1.2.3 my First program
 Sketch.js is the working file. It doesn't have much things inside with only two functions. 
@@ -75,8 +78,11 @@ function draw() {
     ellipse(56,46,55,55);
 }
 ```
-<br><img src="ch1_5.png"> <br>
-*Figure 5: My first program* 
+
+* To run the code, you just need to go to Packages > atom-live-server (or you can use the shortcut Crtl + Alt + L). Then there will be a popup window, click on the empty-example folder and it should display something like below:
+
+<br><img src="ch1_6.png" width="450"> <br>
+*Figure 6: My first program* 
 
 ## 1.2.2.1 Excercise in class 
 1. Try to rename the folder 'empty-example' to 'myFirstSketch' (to help the computer to process better, don't use space in between)
