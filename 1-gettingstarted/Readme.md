@@ -55,9 +55,9 @@ The 'index.html' is the default page, among other pages and files, that a web br
 
 Right now the script is using relative paths, which is a useful concept when we need to understand how the libraries are operated, locate the files and how to incorporate new libraries and files in the future. The javascript libraries are simply files, we have to incorporate these files into the html so that they can be imported and read by the program. This means that when we use p5 syntax, the program can recognize the syntax and the corresponding function. For this particular example, it is important to aware that the javascript libraries and the html file are in the same directory. If we move the libraries to somewhere, we will then need to update the path.
 
-Next you will need to install a package called 'atom-live-server'[ref: https://atom.io/packages/atom-live-server], and this is useful for setting up a web server and you can update your code and see the result immediately on a browser without the need to refresh it. You can first check under 'Packages' on your menu bar and see if the package is there. If not, then go to Edit > Preferences > +Install, then type 'atom-live-server'. Hit the blue install button and you should able to find it again under the Packages menu. 
+Next you will need to install a package called 'atom-live-server'<sup>[19](#myfootnote19)</sup>, and this is useful for setting up a web server and you can update your code and see the result immediately on a browser without the need to refresh it. You can first check under 'Packages' on your menu bar and see if the package is there. If not, then go to Edit > Preferences > +Install, then type 'atom-live-server'. Hit the blue install button and you should able to find it again under the Packages menu. 
 
-<img src="ch1_5.png" width="450"> <br>
+<img src="ch1_5.png" width="500"> <br>
 *Figure 5: Installing atom-live-server* 
 
 You can also customize the theme by going to Preferences > Themes.
@@ -82,7 +82,7 @@ function draw() {
 ```
 
 * To run the code, you just need to go to Packages > atom-live-server (or you can use the shortcut Crtl + Alt + L). Then there will be a popup window, click on the empty-example folder and it should display something like below:
-<img src="ch1_6.png" width="450"> <br>
+<img src="ch1_6.png" width="500"> <br>
 *Figure 6: My first program* 
 
 ## 1.2.3.1 Excercise in class 
@@ -93,7 +93,7 @@ function draw() {
 4. Change the relative path of the three js libraries in index.html
 5. Can you run the program so that you can see the same screen as Figure 6 on a web browser?
 
-<img src="ch1_7.png" width="450"> <br>
+<img src="ch1_7.png" width="500"> <br>
 *Figure 7: My first program 1.1* 
 
 This exerise is to get you to familar with the path and local directory so as to know that running a sketch on a web browser requires to load the right path of the javascript libraries. As the book progress, you are also free to create your own folder name and rename the file like sketch.js as you wish. 
@@ -182,3 +182,5 @@ This exerise is to get you to familar with the path and local directory so as to
 <a name="myfootnote17">17</a>: A project by artist and educator Taeyoon Choi, see: http://taeyoonchoi.com/soft-care/signing-coders/
 
 <a name="myfootnote18">18</a>: See https://p5js.org/reference/#/libraries/p5.sound.
+
+<a name="myfootnote19">19</a>: See https://atom.io/packages/atom-live-server
