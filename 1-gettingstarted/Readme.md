@@ -57,15 +57,17 @@ Right now the script is using relative paths, which is a useful concept when we 
 
 Next you will need to install a package called 'atom-live-server'[ref: https://atom.io/packages/atom-live-server], and this is useful for setting up a web server and you can update your code and see the result immediately on a browser without the need to refresh it. You can first check under 'Packages' on your menu bar and see if the package is there. If not, then go to Edit > Preferences > +Install, then type 'atom-live-server'. Hit the blue install button and you should able to find it again under the Packages menu. 
 
-<br><img src="ch1_5.png" width="450"> <br>
+<img src="ch1_5.png" width="450"> <br>
 *Figure 5: Installing atom-live-server* 
+
+You can also customize the theme by going to Preferences > Themes.
 
 ### 1.2.3 my First program
 Sketch.js is the working file. It doesn't have much things inside with only two functions. 
 * `function setup()` - Code within this function will only run once by the sketch. We usually put things like setting up the canvas size and background color here to define the basic sketch setup. 
 * `function draw()` - Code within this function will keep on looping, and that means the function draw() is called on each frame. The default rate is 60 frames/times per second, and this is especially useful when things are in motion or constantly being captured. 
 
-Let's try to input these code into the sketch to draw a canvas with a red background color, then asks the sketch to further draw an ellipse locating somewhere on the top left corner. (Details of the code will further explain later)
+Let's try to input these code into the sketch to draw a canvas with a red background color, then the sketch will further draw an ellipse locating somewhere on the top left corner. (Details of the code will further explain later)
 
 ```javascript
 function setup() {
@@ -80,20 +82,15 @@ function draw() {
 ```
 
 * To run the code, you just need to go to Packages > atom-live-server (or you can use the shortcut Crtl + Alt + L). Then there will be a popup window, click on the empty-example folder and it should display something like below:
-
-<br><img src="ch1_6.png" width="450"> <br>
+<img src="ch1_6.png" width="450"> <br>
 *Figure 6: My first program* 
 
-## 1.2.2.1 Excercise in class 
-1. Try to rename the folder 'empty-example' to 'myFirstSketch' (to help the computer to process better, don't use space in between)
+## 1.2.3.1 Excercise in class 
+1. Try to rename the folder 'empty-example' to 'myFirstSketch' (in order to help the computer to process better, don't use space in between)
 2. Try to create a folder called 'libraries' under 'myFirstSketch'
 3. Drag the three p5 libraries into the folder
-4. 
-
-
-- change theme color 
-- collaborative writing 
-- concept of directory
+4. Change the relative path of the three js libraries in index.html
+5. Can you run the program so that you can see the same screen as Figure 6? 
 
 ### 1.2.3 Git and Repository
 - Gitlab
