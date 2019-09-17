@@ -99,10 +99,10 @@ function draw() {
 This exerise is to get you to familar with the path and local directory so as to know that running a sketch on a web browser requires to load the right path of the javascript libraries. As the book progress, you are also free to create your own folder name and rename the file like sketch.js as you wish. 
 
 ## 1.3 not Hello World
-- Running the program with a web browser
-- web browser console 
+- syntax explained e.g canvas, background color and ellipses
+- web browser console and the concept of hello world
 - web editor
-- reading code and syntax 
+- reading code and syntax for future
 
 ## 1.4 While()
 
@@ -114,7 +114,7 @@ This exerise is to get you to familar with the path and local directory so as to
 
 ## 1.4.1 Mini_Exervise[1]: Think About My First Program
 **Objective:**
-- To learn the basic setup, including writing code with a code editor, running code with a web browser, independent study of code syntax, uploading files on gitlab, creating a readme file, etc.
+- To learn the basic setup, including writing code with a code editor, running code with a web browser, independent study of code syntax, creating a readme file, etc.
 - To reflect upon the process of coding
 
 **To get some additional inspiration here:**
@@ -130,7 +130,7 @@ This exerise is to get you to familar with the path and local directory so as to
 4. Use, Read, Modify (or even combine) the sample code that you found (the most basic level is changing the numbers), and produce a new sketch as a 'runme'
 
 **Questions to think about as README:**
-- Describe your first independent coding process (in relation to thinking, reading, copying, modifying, writing, uploading, sharing, commenting code)
+- Describe your first independent coding process (in relation to thinking, reading, copying, modifying, writing code)
 - How your coding process is differ from, or similar to, reading and writing text? 
 - What is code and coding/programming practice means to you?
 
