@@ -47,8 +47,42 @@ Similar to writing a document, you need an editor to write and document. For wri
 ### 1.2.2 Code editor 
 ATOM will be used as a key code editor in this book. Apart from its free and open source nature, ATOM supports cross-platform editing which can be run on Mac OS, Windows and Linux. 
 1. Download the software ATOM from the homepage: https://atom.io/
-2. Drag the 'p5' folder that you have just unzipped onto ATOM. You should able to see the left hand pane will your project. Then you try to navigate to the 'index.html' file under the 'empty-example' folder. See below: 
-<br><img src="ch1_4.png">
+2. Drag the 'p5' folder that you have just unzipped onto ATOM. You should able to see the left hand pane with your project. Then you try to navigate to the 'index.html' file under the 'empty-example' folder, double click that file and the source code should display on the right hand pane. See below: 
+<br><img src="ch1_4.png" width="450"><br>
+*Figure 4: The file structure of ATOM* 
+
+The 'index.html' is the default page, among other pages and files, that a web browser will first pick up and display. You can customize a page title and other styling, but the focus for this chapter will be navigating the libaries and run our first program. Since p5.js is a library, here on line 8-11 which indicates how to incorporate javascript files and libraries by using the tags `<script>` and `</script>. `
+
+Right now the script is using relative paths, which is a useful concept when we need to understand how the libraries are operated, locate the files and how to incorporate new libraries and files in the future. The javascript libraries are simply files, we have to incorporate these files into the html so that they can be imported and read by the program. This means that when we use p5 syntax, the program can recognize the syntax and the corresponding function. For this particular example, it is important to aware that the javascript libraries and the html file are in the same directory. If we move the libraries to somewhere, we will then need to update the path.
+
+Next you will need to install a package called 'atom-live-server'[ref: https://atom.io/packages/atom-live-server], and this is useful for setting up a web server and you can update your code and see the result immediately on a browser without the need to refresh it. You can first check under 'Packages' on your menu bar and see if the package is there. If not, then go to Edit > Preferences > +Install, then type 'atom-live-server'. Click the blue install button and you should able to find it again in under the Packages menu. 
+
+### 1.2.3 my First program
+Sketch.js is the working file. It doesn't have much things inside with only two functions. 
+* `function setup()` - Code within this function will only run once by the sketch. We usually put things like setting up the canvas size and background color here to define the basic sketch setup. 
+* `function draw()` - Code within this function will keep on looping, and that means the function draw() is called on each frame. The default rate is 60 frames/times per second, and this is especially useful when things are in motion or constantly being captured. 
+
+Let's try to input these code into the sketch to draw a canvas with a red background color, then asks the sketch to further draw an ellipse locating somewhere on the top left corner. (Details of the code will further explain later)
+
+```javascript
+function setup() {
+  // put setup code here
+    createCanvas(640,480);
+    background(255,0,0);
+}
+function draw() {
+  // put drawing code here
+    ellipse(56,46,55,55);
+}
+```
+<br><img src="ch1_5.png"> <br>
+*Figure 5: My first program* 
+
+## 1.2.2.1 Excercise in class 
+1. Try to rename the folder 'empty-example' to 'myFirstSketch' (to help the computer to process better, don't use space in between)
+2. Try to create a folder called 'libraries' under 'myFirstSketch'
+3. Drag the three p5 libraries into the folder
+4. 
 
 
 - change theme color 
