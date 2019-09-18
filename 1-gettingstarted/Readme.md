@@ -67,7 +67,7 @@ Sketch.js is the working file. It doesn't have much things inside with only two 
 * `function setup()` - Code within this function will only run once by the sketch. We usually put things like setting up the canvas size to define the basic sketch setup. 
 * `function draw()` - Code within this function will keep on looping, and that means the function draw() is called on each frame. The default rate is 60 frames/times per second, and this is especially useful when things are in motion or constantly being captured. 
 
-Let's try to input these code into the sketch to draw a canvas with a red background color, then the sketch will further draw an ellipse locating somewhere on the top left corner. (Double check the punctuation like curly brackets and semi-colons, details of the code will be further explained later)
+Let's try to input these code into the sketch to draw a canvas with a red background color, then the sketch will further draw an ellipse locating somewhere on the top left corner. (Double check the spelling and punctuation like curly brackets and semi-colons, details of the code will be further explained later)
 
 ```javascript
 function setup() {
@@ -82,7 +82,7 @@ function draw() {
 }
 ```
 
-* To run the code, you just need to go to Packages > atom-live-server (or you can use the shortcut Crtl + Alt + L). Then there will be a popup window, click on the empty-example folder and it should display something like below:
+* To run the code, you just need to go to Packages > atom-live-server (or you can use the shortcut Crtl + Alt + L). Then there will be a popup window, click on the 'empty-example' folder and it should display something like below:
 <img src="ch1_6.png" width="500"> <br>
 *Figure 6: My first program* 
 
@@ -92,12 +92,15 @@ function draw() {
 2. Try to create a folder called 'libraries' under 'myFirstSketch'
 3. Drag the three p5 libraries into the folder
 4. Change the relative path of the three js libraries in index.html
-5. Can you run the program so that you can see the same screen as Figure 6 on a web browser?
+5. Change the title in the HTML file (line 6) 
+5. Can you run the program so that you can see almost the same screen as Figure 6 on a web browser?
 
 <img src="ch1_7.png" width="500"> <br>
 *Figure 7: My first program 1.1* 
 
 This exerise is to get you to familar with the path and local directory so as to know that running a sketch on a web browser requires to load the right path of the javascript libraries. As the book progress, you are also free to create your own folder name and rename the file like sketch.js as you wish. 
+
+You may also try to change the parameters of the numbers to get a sense of how things work, but this will be explained in the next section.
 
 ## 1.3 not Hello World
 - syntax explained e.g canvas, background color and ellipses
