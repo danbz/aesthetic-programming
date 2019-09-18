@@ -64,20 +64,21 @@ You can also customize the theme by going to Preferences > Themes.
 
 ### 1.2.3 my First program
 Sketch.js is the working file. It doesn't have much things inside with only two functions. 
-* `function setup()` - Code within this function will only run once by the sketch. We usually put things like setting up the canvas size and background color here to define the basic sketch setup. 
+* `function setup()` - Code within this function will only run once by the sketch. We usually put things like setting up the canvas size to define the basic sketch setup. 
 * `function draw()` - Code within this function will keep on looping, and that means the function draw() is called on each frame. The default rate is 60 frames/times per second, and this is especially useful when things are in motion or constantly being captured. 
 
-Let's try to input these code into the sketch to draw a canvas with a red background color, then the sketch will further draw an ellipse locating somewhere on the top left corner. (Details of the code will further explain later)
+Let's try to input these code into the sketch to draw a canvas with a red background color, then the sketch will further draw an ellipse locating somewhere on the top left corner. (Double check the punctuation like curly brackets and semi-colons, details of the code will be further explained later)
 
 ```javascript
 function setup() {
   // put setup code here
-    createCanvas(640,480);
-    background(255,0,0);
+  createCanvas(640,480);
+
 }
 function draw() {
   // put drawing code here
-    ellipse(56,46,55,55);
+  background(random(255),0,0);
+  ellipse(55,55,55,55);
 }
 ```
 
