@@ -47,7 +47,7 @@ Similar to writing a document, you need an editor to write and document. For wri
 ### 1.2.2 Code editor 
 ATOM will be used as a key code editor in this book. Apart from its free and open source nature, ATOM supports cross-platform editing which can be run on Mac OS, Windows and Linux. 
 1. Download the software ATOM from the homepage: https://atom.io/
-2. Drag the 'p5' folder that you have just unzipped onto ATOM. You should able to see the left hand pane with your project. Then you try to navigate to the 'index.html' file under the 'empty-example' folder, double click that file and the source code should display on the right hand pane. See below: 
+2. Drag the 'p5' folder that you have just unzipped onto ATOM. You should able to see the left-hand pane with your project. Then you try to navigate to the 'index.html' file under the 'empty-example' folder, double click that file and the source code should display on the right-hand pane. See below: 
 <br><img src="ch1_4.png" width="450"><br>
 *Figure 4: The file structure of ATOM* 
 
@@ -60,20 +60,19 @@ Next you will need to install a package called 'atom-live-server'<sup>[19](#myfo
 <img src="ch1_5.png" width="500"> <br>
 *Figure 5: Installing atom-live-server* 
 
-You can also customize the theme by going to Preferences > Themes.
+If you want to customize the theme like the background color of the panes, simply go to Preferences > Themes.
 
 ### 1.2.3 my First program
 Sketch.js is the working file. It doesn't have much things inside with only two functions. 
 * `function setup()` - Code within this function will only run once by the sketch. We usually put things like setting up the canvas size to define the basic sketch setup. 
 * `function draw()` - Code within this function will keep on looping, and that means the function draw() is called on each frame. The default rate is 60 frames/times per second, and this is especially useful when things are in motion or constantly being captured. 
 
-Let's try to input these code into the sketch to draw a canvas with a red background color, then the sketch will further draw an ellipse locating somewhere on the top left corner. (Double check the spelling and punctuation like curly brackets and semi-colons, details of the code will be further explained later)
+Let's try to input these code into the sketch to draw a canvas with a changing background in different intensity of the red color, then the sketch will further draw an ellipse locating somewhere on the top left corner. (Double check the spelling and punctuation like curly brackets and semi-colons, details of the code will be further explained later)
 
 ```javascript
 function setup() {
   // put setup code here
   createCanvas(640,480);
-
 }
 function draw() {
   // put drawing code here
@@ -83,17 +82,17 @@ function draw() {
 ```
 
 * To run the code, you just need to go to Packages > atom-live-server (or you can use the shortcut Crtl + Alt + L). Then there will be a popup window, click on the 'empty-example' folder and it should display something like below:
-<img src="ch1_6.png" width="500"> <br>
+<br><img src="ch1_6.png" width="500"> <br>
 *Figure 6: My first program* 
 
 ## 1.2.3.1 Excercise in class 
-0. Stop the atom-live-server by going to Packages > 'atom-live-server' > Stop (or to use the shortcut Ctrl + Alt + Q)  
-1. Try to rename the folder 'empty-example' to 'myFirstSketch' (in order to help the computer to process better, don't use space in between)
-2. Try to create a folder called 'libraries' under 'myFirstSketch'
-3. Drag the three p5 libraries into the folder
-4. Change the relative path of the three js libraries in index.html
-5. Change the title in the HTML file (line 6) 
-5. Can you run the program so that you can see almost the same screen as Figure 6 on a web browser?
+1. Stop the atom-live-server by going to Packages > 'atom-live-server' > Stop (or to use the shortcut Ctrl + Alt + Q)  
+2. Try to rename the folder 'empty-example' to 'myFirstSketch' (in order to help the computer to process better, don't use space in between)
+3. Try to create a folder called 'libraries' under 'myFirstSketch'
+4. Drag the three p5 libraries into the folder
+5. Change the relative path of the three js libraries in index.html
+6. Change the title in the HTML file (line 6) 
+7. Can you run the program so that you can see almost the same screen as Figure 6 on a web browser?
 
 <img src="ch1_7.png" width="500"> <br>
 *Figure 7: My first program 1.1* 
@@ -116,7 +115,7 @@ You may also try to change the parameters of the numbers to get a sense of how t
 
 - Open Source Software and Culture
 
-## 1.4.1 Mini_Exervise[1]: Think About My First Program
+## 1.4.1 Mini_Exercise[1]: Think About My First Program
 **Objective:**
 - To learn the basic setup, including writing code with a code editor, running code with a web browser, independent study of code syntax, creating a readme file, etc.
 - To reflect upon the process of coding
