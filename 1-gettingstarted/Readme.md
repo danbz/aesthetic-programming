@@ -123,7 +123,7 @@ There are some kinds of structure here which is hard to remember as a new langua
 
 For p5.js, functions are documented in the page called [References](https://p5js.org/reference/)<sup>[23](#myfootnote23)</sup> and they are structured in a similar fashion. Once you get used to their presentation, it will be easier and quicker to learn and write that syntax. 
 
-<img src="ch1_9.png" height="300"> <br>
+<img src="ch1_9.png" height="500"> <br>
 *Figure 9: The reference guide example - ellipse()* 
 
 Let's read together for the reference in Figure 9 -  [`ellipse()`](https://p5js.org/reference/#/p5/ellipse)<sup>[24](#myfootnote24)</sup>. It usually starts with an example and an illustration, and you can click the 'edit' button to modify the code, especially changing the parameters on the fly and display immediately on a screen. 
