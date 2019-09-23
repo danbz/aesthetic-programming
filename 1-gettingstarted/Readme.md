@@ -113,7 +113,7 @@ In Figure 8, the console area with the text 'Hello World'. What you know from th
 
 Indeed, Hello World program has a long history in computing, especially introduce to novice programmers to a programming language and making sure things are running. Geoff Cox and Duncan Shingleton created a codework project called *hallo welt! (hello world!)*, showcasing and looping more than 100 hello world programs written in different programming languages. [ref:http://www.anti-thesis.net/hello-world-60/] Although all programs are just written with few lines of code, the idea of the project is to combine both human and machine languages in real-time into a multilingual machinic confusion of tongues, performing the code in real-time as it relates to the act of free speaking. When we examine line 4 `print("hello world");`, we roughly understand because it is also considered as human language: to 'print' the text 'hello world' on the console area. This line of code is also a command, instructing the web browser to act/perform through software and hardware according to what it is said/written. "It is both a computer-readable notation of logic and a representation of this process, both script and performance; and in this sense it is like spoken words" as Cox reminds us (ref p.3).
 
-## 1.3.1 The sample code: getting started
+## 1.3.1 Reading the reference guide
 
 To further explain the remaining parts in the sample code, this book will guide you to learn independently, especially learning to read the reference guide so that you explore on your own. In the sample code, there are few functions that you see apart from `print()`:`createCanvas()`, `background()`, `random()`, `ellipse()`. 
 
@@ -129,17 +129,14 @@ Let's read together for the reference `ellipse()` (see: https://p5js.org/referen
 
 The description part try to explain how the syntax works and it is useful especially for novice who might find no clue on the numbers and what does it mean for each parameters within the function. 
 
-The syntax area demonstrates how it could work and the parameters' section explain further. For example: `ellipse(x, y, w, [h])`, it explains the first parameter x and the second parameter y are used to set the location of the ellipse in terms of x and y coordinate. Knowing that the canvas is set in terms of pixel width and height, and the 0,0 coordinate starts on the top left corner. See Figure 10. 
+The syntax area demonstrates how it should work and the parameters' section explain further. For example: `ellipse(x, y, w, [h])`, it explains the first parameter x and the second parameter y are used to set the location of the ellipse in terms of x and y coordinate. Knowing that the canvas is set in terms of pixel width and height, and the [0,0] coordinate starts on the top left corner. The parameter w and h refers to the width and height of the ellipse and you can also think of it as the diameter or setting the size of the ellipse. The square bracket `[h]` is an optional parameter if the width and height of the ellipse is the same. 
 
 
+*Figure 10: Visualizing the ellipse* 
 
+What we want to demonstrate here is that the references are important to start to discover many possible syntaxes, for example other shapes like rectangles, polygons. 
 
-
-https://p5js.org/reference/#/p5/print
-- syntax explained e.g canvas, background color and ellipses
-
-- web editor
-- reading code and syntax for future
+There are still other syntax we haven't explained, perhaps you can find the corresponding references from p5.js web references and look into it? We will continue to explore the color in the next Chapter and the `random` syntax in Chapter 3. 
 
 ## 1.4 While()
 
