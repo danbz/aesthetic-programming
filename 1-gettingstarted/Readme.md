@@ -131,7 +131,7 @@ The description part try to explain how the syntax works and it is useful especi
 
 The syntax area demonstrates how it should work and the parameters' section explain further. For example: `ellipse(x, y, w, [h])`, it explains the first parameter x and the second parameter y are used to set the location of the ellipse in terms of x and y coordinate. Knowing that the canvas is set in terms of pixel width and height, and the [0,0] coordinate starts on the top left corner. The parameter w and h refers to the width and height of the ellipse and you can also think of it as the diameter or setting the size of the ellipse. The square bracket `[h]` is an optional parameter if the width and height of the ellipse is the same. 
 
-
+<img src="ch1_10.png" width="500"> <br>
 *Figure 10: Visualizing the ellipse* 
 
 What we want to demonstrate here is that the references are important to start to discover many possible syntaxes, for example other shapes like rectangles, polygons. 
