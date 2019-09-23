@@ -86,7 +86,7 @@ function draw() {
 <br><img src="ch1_6.png" width="500"> <br>
 *Figure 6: My first program* 
 
-## 1.2.3.1 Excercise in class 
+## 1.2.3.1 Exercise in class 
 1. Stop the atom-live-server by going to Packages > 'atom-live-server' > Stop (or to use the shortcut Ctrl + Alt + Q)  
 2. Try to rename the folder 'empty-example' to 'myFirstSketch' (in order to help the computer to process better, don't use space in between)
 3. Try to create a folder called 'libraries' under 'myFirstSketch'
@@ -102,16 +102,18 @@ This exerise is to get you to familar with the path and local directory so as to
 
 You may also try to change the parameters of the numbers to get a sense of how things work, but this will be explained in the next section.
 
-## 1.3 The sample code: The hidden Hello World
+## 1.3 The sample code: Reading the web console 'Hello World'
 As you might aware, this book is not following the convention of most programming books starting with just the 'Hello World' program, which is usually printing the text 'Hello World' on a screen and it is regarded as one of the simplest program. In p5.js, `print()` is the function one can use to print something on a screen<sup>[20](#myfootnote20)</sup>. But in a web browser setting, such print() function is, instead, printed on what it called the "console area". This is an area not for end user, but more for programmers or developers to see if there is any error messages, logging messages to the console and to check that code is executing in an expected way.
 
-In the sample code above, line 4 with the print() function that writes the text 'Hello World'. To see the text, you need to open the console area which is differently located according to browsers and you can try to search through navigating the menu bar. In Mac's Firefox browser is: Tools > Web Developer > Web Console. 
-
+In the sample code above, line 4 with the print() function that writes the text 'hello world'. To see the text, you need to open the web console area which is differently located according to browsers and you can try to search through navigating the menu bar. In Firefox browser, it is located under Tools > Web Developer > Web Console (Ctrl+Shift+K).
+<br><img src="ch1_8.png" width="400"> <br>
 *Figure 8: The console area* 
 
-In Figure 8, the console area with the text 'Hello World'. What you know from this is that the sketch is running properly and it is able to read the print function line. When you progress with this book, you will find that the console area is very important, because you can also see error messages when, for example, syntax is wrong and the browser gives you some good hints to bug fix your own code.
+At the bottom of the Figure 8, the web console area shows the text 'hello world'. What you know from this is that the sketch is running properly and it is able to read the print's function line. When you progress with this book, you will find that the web console area is very important, because you can also see error messages when, for example, the syntax is wrong and the browser will give you some good hints to bug fix your own code. Figure 9 shows that the web console area can specify which file (sketch.js) and which line of code (line 8) with problem (the syntax background was spelled wrong intentionally - see Figure 9).
+<br><img src="ch1_9.png" width="500"> <br>
+*Figure 9: Example of syntax error* 
 
-Indeed, Hello World program has a long history in computing, especially introduce to novice programmers to a programming language and making sure things are running. Geoff Cox and Duncan Shingleton created a codework project called [*hallo welt! (hello world!)*](http://www.anti-thesis.net/hello-world-60/)<sup>[21](#myfootnote21)</sup>, showcasing and looping more than 100 hello world programs written in different programming languages. Although all programs are just written with few lines of code, the idea of the project is to combine both human and machine languages in real-time into a multilingual machinic confusion of tongues, performing the code in real-time as it relates to the act of free speaking. When we examine line 4 `print("hello world");`, we roughly understand because it is also considered as human language: to 'print' the text 'hello world' on the console area. This line of code is also a command, instructing the web browser to act/perform through software and hardware according to what it is said/written. "It is both a computer-readable notation of logic and a representation of this process, both script and performance; and in this sense it is like spoken words" as Cox reminds us<sup>[22](#myfootnote22)</sup>.
+Indeed, Hello World program has a long history in computing, especially introduce to novice programmers to a programming language and making sure things are running. Geoff Cox and Duncan Shingleton created a codework project called [*hallo welt! (hello world!)*](http://www.anti-thesis.net/hello-world-60/)<sup>[21](#myfootnote21)</sup>, showcasing and looping more than 100 hello world programs written in different programming languages. Although all programs are just written with few lines of code, the idea of the project is to combine both human and machine languages in real-time into a multilingual machinic confusion of tongues, performing the code in real-time as it relates to the act of free speaking. When we examine line 4 `print("hello world");`, we roughly understand because it is also considered as human language: to 'print' the text 'hello world' on the web console area. This line of code is also a command, instructing the web browser to act/perform through software and hardware according to what it is said/written. "It is both a computer-readable notation of logic and a representation of this process, both script and performance; and in this sense it is like spoken words" as Cox reminds us<sup>[22](#myfootnote22)</sup>.
 
 ## 1.3.1 Reading the reference guide
 
@@ -123,8 +125,8 @@ There are some kinds of structure here which is hard to remember as a new langua
 
 For p5.js, functions are documented in the page called [References](https://p5js.org/reference/)<sup>[23](#myfootnote23)</sup> and they are structured in a similar fashion. Once you get used to their presentation, it will be easier and quicker to learn and write that syntax. 
 
-<img src="ch1_9.png" height="500"> <br>
-*Figure 9: The reference guide example - ellipse()* 
+<img src="ch1_10.png" height="500"> <br>
+*Figure 10: The reference guide example - ellipse()* 
 
 Let's read together for the reference in Figure 9 -  [`ellipse()`](https://p5js.org/reference/#/p5/ellipse)<sup>[24](#myfootnote24)</sup>. It usually starts with an example and an illustration, and you can click the 'edit' button to modify the code, especially changing the parameters on the fly and display immediately on a screen. 
 
@@ -132,8 +134,8 @@ The description part explains how the function syntax works and it is useful esp
 
 The syntax area demonstrates how it should be written precisely and the parameters' section explain further. For example: `ellipse(x, y, w, [h])`, it explains the first parameter x and the second parameter y are used to set the location of the ellipse in terms of x and y coordinate. The canvas is set in terms of pixel unit, and the [0,0] coordinate starts on the top left corner. The parameter w and h refers to the width and height of the ellipse and you can also think of it as the diameter, or setting the size, of the ellipse. The square bracket `[h]` is an optional parameter if the width and height of the ellipse is the same. 
 
-<img src="ch1_10.png" width="500"> <br>
-*Figure 10: Visualizing the ellipse* 
+<img src="ch1_11.png" width="500"> <br>
+*Figure 11: Visualizing the ellipse* 
 
 What we want to demonstrate here is that the references are important to start with, and explore to discover many possible syntaxes, for example other shapes like rectangles, polygons. 
 
