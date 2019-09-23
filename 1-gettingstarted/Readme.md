@@ -103,15 +103,15 @@ This exerise is to get you to familar with the path and local directory so as to
 You may also try to change the parameters of the numbers to get a sense of how things work, but this will be explained in the next section.
 
 ## 1.3 The sample code: The hidden Hello World
-As you might aware, this book is not following the convention of most programming books starting with just the 'Hello World' program, which is usually printing the text 'Hello World' on a screen and it is regarded as one of the simplest program. In p5.js, `print()` is the function one can use to print something on a screen [ref:https://p5js.org/reference/#/p5/print]. But in a web browser setting, such print() function is, instead, printed on what it called the "console area". This is an area not for end user, but more for programmers or developers to see if there is any error messages, logging messages to the console and to check that code is executing in an expected way.
+As you might aware, this book is not following the convention of most programming books starting with just the 'Hello World' program, which is usually printing the text 'Hello World' on a screen and it is regarded as one of the simplest program. In p5.js, `print()` is the function one can use to print something on a screen<sup>[20](#myfootnote20)</sup>. But in a web browser setting, such print() function is, instead, printed on what it called the "console area". This is an area not for end user, but more for programmers or developers to see if there is any error messages, logging messages to the console and to check that code is executing in an expected way.
 
 In the sample code above, line 4 with the print() function that writes the text 'Hello World'. To see the text, you need to open the console area which is differently located according to browsers and you can try to search through navigating the menu bar. In Mac's Firefox browser is: Tools > Web Developer > Web Console. 
 
 *Figure 8: The console area* 
 
-In Figure 8, the console area with the text 'Hello World'. What you know from this is that the sketch is running properly and it is able to read the print function line. When you progress with this book, you will find that the console area is very important, because you can also see error messages when, for example, syntax is wrong and the browser gives you some good hints to bug fix your own code. 
+In Figure 8, the console area with the text 'Hello World'. What you know from this is that the sketch is running properly and it is able to read the print function line. When you progress with this book, you will find that the console area is very important, because you can also see error messages when, for example, syntax is wrong and the browser gives you some good hints to bug fix your own code.
 
-Indeed, Hello World program has a long history in computing, especially introduce to novice programmers to a programming language and making sure things are running. Geoff Cox and Duncan Shingleton created a codework project called *hallo welt! (hello world!)*, showcasing and looping more than 100 hello world programs written in different programming languages. [ref:http://www.anti-thesis.net/hello-world-60/] Although all programs are just written with few lines of code, the idea of the project is to combine both human and machine languages in real-time into a multilingual machinic confusion of tongues, performing the code in real-time as it relates to the act of free speaking. When we examine line 4 `print("hello world");`, we roughly understand because it is also considered as human language: to 'print' the text 'hello world' on the console area. This line of code is also a command, instructing the web browser to act/perform through software and hardware according to what it is said/written. "It is both a computer-readable notation of logic and a representation of this process, both script and performance; and in this sense it is like spoken words" as Cox reminds us (ref p.3).
+Indeed, Hello World program has a long history in computing, especially introduce to novice programmers to a programming language and making sure things are running. Geoff Cox and Duncan Shingleton created a codework project called [*hallo welt! (hello world!)](http://www.anti-thesis.net/hello-world-60/)*<sup>[21](#myfootnote21)</sup>, showcasing and looping more than 100 hello world programs written in different programming languages. [ref:http://www.anti-thesis.net/hello-world-60/] Although all programs are just written with few lines of code, the idea of the project is to combine both human and machine languages in real-time into a multilingual machinic confusion of tongues, performing the code in real-time as it relates to the act of free speaking. When we examine line 4 `print("hello world");`, we roughly understand because it is also considered as human language: to 'print' the text 'hello world' on the console area. This line of code is also a command, instructing the web browser to act/perform through software and hardware according to what it is said/written. "It is both a computer-readable notation of logic and a representation of this process, both script and performance; and in this sense it is like spoken words" as Cox reminds us<sup>[22](#myfootnote22)</sup>.
 
 ## 1.3.1 Reading the reference guide
 
@@ -121,11 +121,12 @@ In a nutshell, what is does is to initialize the exact canvas size, with width a
 
 There are some kinds of structure here which is hard to remember as a new language, for example what and how many arguments to take in for each function and what might be the other functions available. At the time of the first chapter, the number of functions that you know is limited, but you will further explore and experiment the vast references. 
 
-For p5.js, functions are documented in the page called References (https://p5js.org/reference/) and they are structured in a similar fashion. Once you get used to their presentation, it will be easy and quicker to learn to write that syntax. 
+For p5.js, functions are documented in the page called [References](https://p5js.org/reference/)<sup>[23](#myfootnote23)</sup> and they are structured in a similar fashion. Once you get used to their presentation, it will be easy and quicker to learn to write that syntax. 
 
+<img src="ch1_9.png"> <br>
 *Figure 9: The reference guide example - ellipse()* 
 
-Let's read together for the reference `ellipse()` (see: https://p5js.org/reference/#/p5/ellipse). It usually starts with an example and an illustration, and you can click the edit button to modify the code, especially changing the parameters on the fly and display immediately on a screen. 
+Let's read together for the reference [`ellipse()`](https://p5js.org/reference/#/p5/ellipse)<sup>[24](#myfootnote24)</sup>. It usually starts with an example and an illustration, and you can click the edit button to modify the code, especially changing the parameters on the fly and display immediately on a screen. 
 
 The description part try to explain how the syntax works and it is useful especially for novice who might find no clue on the numbers and what does it mean for each parameters within the function. 
 
@@ -136,7 +137,7 @@ The syntax area demonstrates how it should work and the parameters' section expl
 
 What we want to demonstrate here is that the references are important to start to discover many possible syntaxes, for example other shapes like rectangles, polygons. 
 
-There are still other syntax we haven't explained, perhaps you can find the corresponding references from p5.js web references and look into it? We will continue to explore the color in the next Chapter and the `random` syntax in Chapter 3. 
+There are still other syntax in the sample code in which we haven't explained in details, perhaps you can find the corresponding references from p5.js web references and look into it? We will continue to explore the color in the next Chapter and the `random` syntax in Chapter 3. 
 
 ## 1.4 While()
 
@@ -215,6 +216,16 @@ There are still other syntax we haven't explained, perhaps you can find the corr
 
 <a name="myfootnote17">17</a>: A project by artist and educator Taeyoon Choi, see: http://taeyoonchoi.com/soft-care/signing-coders/
 
-<a name="myfootnote18">18</a>: See https://p5js.org/reference/#/libraries/p5.sound.
+<a name="myfootnote18">18</a>: See https://p5js.org/reference/#/libraries/p5.sound
 
 <a name="myfootnote19">19</a>: See https://atom.io/packages/atom-live-server
+
+<a name="myfootnote20">20</a>: See https://p5js.org/reference/#/p5/print
+
+<a name="myfootnote21">21</a>: hallo welt! (hello world!) is a collaboration between Geoff Cox and Duncan Shingleton, see http://www.anti-thesis.net/hello-world-60/
+
+<a name="myfootnote22">22</a>: Cox, G. (2013) Speaking Code: Coding as Aesthetic and Political Expression. Cambridge, Mass: MIT Press, 3.
+
+<a name="myfootnote19">23</a>: See https://p5js.org/reference/
+
+<a name="myfootnote19">24</a>: See https://p5js.org/reference/#/p5/ellipse
