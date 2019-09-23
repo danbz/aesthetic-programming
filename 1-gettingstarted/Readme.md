@@ -22,8 +22,6 @@ Throughout the entire book, we will use javascript as the main programming langu
 
 But there is much more to just introduce the tool from a practical perspective. This book will use p5.js, a javascript library which is created by artist Lauren McCarthy in 2014 for creative coding. It was begun by Casey Reas and Ben Fry who developed their remarkable and influencial open source project - Processing in 2001 <sup>[12](#myfootnote13)</sup>, which is a Java-based desktop environment, with the aim to reach out coding beyond computer science community for artists and designers. However, McCarthy observes that various creative open source software in the market are mostly developed by white men, and there is a lack of diversity in such environment. Having Reas' encouragement, McCarthy started to investigate what would Processing looks like on the web. The main idea for p5.js is not just deploying Processing to web-based platform, but the central idea is to take diversity and inclusivity explicitly and seriously in software development and communication. As McCarthy says, "thinking about community outreach and diversity is not a secondary goal of p5.js, it's the foundation on which the platform is built." <sup>[13](#myfootnote13)</sup> Within just a couple years, the contributers of p5.js developed the community statement, translated the interface into different languages such as Spanish and Simplified Chinese <sup>[14](#myfootnote14)</sup>, started the homepage series as part of p5.js showing works and interviews by Asian women and gender non-conforming coders <sup>[15](#myfootnote15)</sup>, added high constrasting mode and audio feedback for people who has difficult in seeing <sup>[16](#myfootnote16)</sup>, developed a series of workshops on creative expression called 'Signing Coders' to reach out youth who are deaf or hard of listening <sup>[17](#myfootnote17)</sup>. As p5.js shows us, software is not only about technical tools, but equally important is to put people and humanistic values into the forefront.
 
-[others: Web p5.js, the concept of runme, readme /w]
-
 ## 1.2 Working Environment
 Similar to writing a document, you need an editor to write and document. For writing code, this book will use [Atom](https://atom.io/)(https://atom.io/), which is a free and open-souce text and source code editor across platforms. Additionally Gitlab will be the main platform for code and text respository.
 
@@ -138,17 +136,16 @@ The syntax area demonstrates how it should be written precisely and the paramete
 <img src="ch1_11.png" width="500"> <br>
 *Figure 11: Visualizing the ellipse* 
 
-What we want to demonstrate here is that the references are important to start with, and explore to discover many possible syntaxes, for example other shapes like rectangles, polygons. 
+What we want to demonstrate here is that the references are important to start with, and explore it to discover other syntaxes and features, for example other shapes like rectangles and polygons. 
 
-There are still other syntaxes in the sample code in which we haven't explained in details, perhaps you can find the corresponding references from p5.js web references and look into it? We will continue to explore the color in the next Chapter and the `random` syntax in Chapter 3. 
+There are still other syntaxes in the sample code with which we haven't explained in details, perhaps you can find the corresponding references from p5.js web references and look into it? But we will continue to explore the color function in the next Chapter and the `random` function in Chapter 3. 
 
 ## 1.4 While()
 
 - Culture of Github: Matthew Fuller, Andrew Goffey, Adrian Mackenzie, Richard Mills and Stuart Sharples, "Big Diff, Granularity, Incoherence, and Production in the Github Software Repository" in How To Be a Geek: Essays on the Culture of Software. => Versioning
-
 - Creative Commons and Licence
-
 - Open Source Software and Culture
+- the concept of readme and runme?
 
 ## 1.4.1 Mini_Exercise[1]: Think About My First Program
 **Objective:**
