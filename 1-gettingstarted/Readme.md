@@ -73,6 +73,7 @@ Let's try to input these code into the sketch to draw a canvas with a changing b
 function setup() {
   // put setup code here
   createCanvas(640,480);
+  print("hello world");
 }
 function draw() {
   // put drawing code here
@@ -101,9 +102,42 @@ This exerise is to get you to familar with the path and local directory so as to
 
 You may also try to change the parameters of the numbers to get a sense of how things work, but this will be explained in the next section.
 
-## 1.3 not Hello World
+## 1.3 The sample code: The hidden Hello World
+As you might aware, this book is not following the convention of most programming books starting with just the 'Hello World' program, which is usually printing the text 'Hello World' on a screen and it is regarded as one of the simplest program. In p5.js, `print()` is the function one can use to print something on a screen [ref:https://p5js.org/reference/#/p5/print]. But in a web browser setting, such print() function is, instead, printed on what it called the "console area". This is an area not for end user, but more for programmers or developers to see if there is any error messages, logging messages to the console and to check that code is executing in an expected way.
+
+In the sample code above, line 4 with the print() function that writes the text 'Hello World'. To see the text, you need to open the console area which is differently located according to browsers and you can try to search through navigating the menu bar. In Mac's Firefox browser is: Tools > Web Developer > Web Console. 
+
+*Figure 8: The console area* 
+
+In Figure 8, the console area with the text 'Hello World'. What you know from this is that the sketch is running properly and it is able to read the print function line. When you progress with this book, you will find that the console area is very important, because you can also see error messages when, for example, syntax is wrong and the browser gives you some good hints to bug fix your own code. 
+
+Indeed, Hello World program has a long history in computing, especially introduce to novice programmers to a programming language and making sure things are running. Geoff Cox and Duncan Shingleton created a codework project called *hallo welt! (hello world!)*, showcasing and looping more than 100 hello world programs written in different programming languages. [ref:http://www.anti-thesis.net/hello-world-60/] Although all programs are just written with few lines of code, the idea of the project is to combine both human and machine languages in real-time into a multilingual machinic confusion of tongues, performing the code in real-time as it relates to the act of free speaking. When we examine line 4 `print("hello world");`, we roughly understand because it is also considered as human language: to 'print' the text 'hello world' on the console area. This line of code is also a command, instructing the web browser to act/perform through software and hardware according to what it is said/written. "It is both a computer-readable notation of logic and a representation of this process, both script and performance; and in this sense it is like spoken words" as Cox reminds us (ref p.3).
+
+## 1.3.1 The sample code: getting started
+
+To further explain the remaining parts in the sample code, this book will guide you to learn independently, especially learning to read the reference guide so that you explore on your own. In the sample code, there are few functions that you see apart from `print()`:`createCanvas()`, `background()`, `random()`, `ellipse()`. 
+
+In a nutshell, what is does is to initialize the exact canvas size, with width as 640 pixel and height as 480 pixel as the overall drawing scope and area. This is why the background covers only the canvas area and the exceeded area remains as the default white color background. The sketch will pick up a random red color at a time (ranging from 0-255 exclusive) as the background color, covering the whole canvas. The last part is to draw an ellipse at certain position and of certain size. Those functions located in the function draw() will constantly and repetitivly execute. It is apparent now because the background color will change over time. 
+
+There are some kinds of structure here which is hard to remember as a new language, for example what and how many arguments to take in for each function and what might be the other functions available. At the time of the first chapter, the number of functions that you know is limited, but you will further explore and experiment the vast references. 
+
+For p5.js, functions are documented in the page called References (https://p5js.org/reference/) and they are structured in a similar fashion. Once you get used to their presentation, it will be easy and quicker to learn to write that syntax. 
+
+*Figure 9: The reference guide example - ellipse()* 
+
+Let's read together for the reference `ellipse()` (see: https://p5js.org/reference/#/p5/ellipse). It usually starts with an example and an illustration, and you can click the edit button to modify the code, especially changing the parameters on the fly and display immediately on a screen. 
+
+The description part try to explain how the syntax works and it is useful especially for novice who might find no clue on the numbers and what does it mean for each parameters within the function. 
+
+The syntax area demonstrates how it could work and the parameters' section explain further. For example: `ellipse(x, y, w, [h])`, it explains the first parameter x and the second parameter y are used to set the location of the ellipse in terms of x and y coordinate. Knowing that the canvas is set in terms of pixel width and height, and the 0,0 coordinate starts on the top left corner. See Figure 10. 
+
+
+
+
+
+https://p5js.org/reference/#/p5/print
 - syntax explained e.g canvas, background color and ellipses
-- web browser console and the concept of hello world
+
 - web editor
 - reading code and syntax for future
 
