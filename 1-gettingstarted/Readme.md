@@ -67,7 +67,7 @@ Sketch.js is the working file. It doesn't have much things inside with only two 
 * `function setup()` - Code within this function will only run once by the sketch. We usually put things like setting up the canvas size to define the basic sketch setup. 
 * `function draw()` - Code within this function will keep on looping, and that means the function draw() is called on each frame. The default rate is 60 frames/times per second, and this is especially useful when things are in motion or constantly being captured. 
 
-Let's try to input these code into the sketch to draw a canvas with a changing background in different intensity of the red color, then the sketch will further draw an ellipse locating somewhere on the top left corner. (Double check the spelling and punctuation like curly brackets and semi-colons, details of the code will be further explained later)
+Let's try to input these code into the sketch to draw a canvas with a changing background in different intensity of the red color, then the sketch will further draw an ellipse locating somewhere on the top left corner. (Double check the spelling and punctuation like curly brackets and semi-colons, indicating the scope of the function and end of the line respectively. Details of the code will be further explained later)
 
 ```javascript
 function setup() {
@@ -95,7 +95,7 @@ function draw() {
 6. Change the title in the HTML file (line 6) 
 7. Can you run the program so that you can see almost the same screen as Figure 6 on a web browser?
 
-<img src="ch1_7.png" width="500"> <br>
+<br><img src="ch1_7.png" width="500"> <br>
 *Figure 7: My first program 1.1* 
 
 This exerise is to get you to familar with the path and local directory so as to know that running a sketch on a web browser requires to load the right path of the javascript libraries. As the book progress, you are also free to create your own folder name and rename the file like sketch.js as you wish. 
@@ -106,22 +106,23 @@ You may also try to change the parameters of the numbers to get a sense of how t
 As you might aware, this book is not following the convention of most programming books starting with just the 'Hello World' program, which is usually printing the text 'Hello World' on a screen and it is regarded as one of the simplest program. In p5.js, `print()` is the function one can use to print something on a screen<sup>[20](#myfootnote20)</sup>. But in a web browser setting, such print() function is, instead, printed on what it called the "console area". This is an area not for end user, but more for programmers or developers to see if there is any error messages, logging messages to the console and to check that code is executing in an expected way.
 
 In the sample code above, line 4 with the print() function that writes the text 'hello world'. To see the text, you need to open the web console area which is differently located according to browsers and you can try to search through navigating the menu bar. In Firefox browser, it is located under Tools > Web Developer > Web Console (Ctrl+Shift+K).
+
 <br><img src="ch1_8.png" width="400"> <br>
 *Figure 8: The console area* 
 
 At the bottom of the Figure 8, the web console area shows the text 'hello world'. What you know from this is that the sketch is running properly and it is able to read the print's function line. When you progress with this book, you will find that the web console area is very important, because you can also see error messages when, for example, the syntax is wrong and the browser will give you some good hints to bug fix your own code. Figure 9 shows that the web console area can specify which file (sketch.js) and which line of code (line 8) with problem (the syntax background was spelled wrong intentionally - see Figure 9).
+
 <br><img src="ch1_9.png" width="500"> <br>
 *Figure 9: Example of syntax error* 
 
 Indeed, Hello World program has a long history in computing, especially introduce to novice programmers to a programming language and making sure things are running. Geoff Cox and Duncan Shingleton created a codework project called [*hallo welt! (hello world!)*](http://www.anti-thesis.net/hello-world-60/)<sup>[21](#myfootnote21)</sup>, showcasing and looping more than 100 hello world programs written in different programming languages. Although all programs are just written with few lines of code, the idea of the project is to combine both human and machine languages in real-time into a multilingual machinic confusion of tongues, performing the code in real-time as it relates to the act of free speaking. When we examine line 4 `print("hello world");`, we roughly understand because it is also considered as human language: to 'print' the text 'hello world' on the web console area. This line of code is also a command, instructing the web browser to act/perform through software and hardware according to what it is said/written. "It is both a computer-readable notation of logic and a representation of this process, both script and performance; and in this sense it is like spoken words" as Cox reminds us<sup>[22](#myfootnote22)</sup>.
 
-## 1.3.1 Reading the reference guide
+## 1.3.1 The sample code: Reading the reference guide
+To further explain the remaining parts in the sample code, this book will guide you to learn independently, especially learning to read the reference guide so that you can explore on your own. In the sample code, there are few functions that you see apart from `print()`:`createCanvas()`, `background()`, `random()`, `ellipse()`. 
 
-To further explain the remaining parts in the sample code, this book will guide you to learn independently, especially learning to read the reference guide so that you explore on your own. In the sample code, there are few functions that you see apart from `print()`:`createCanvas()`, `background()`, `random()`, `ellipse()`. 
+In a nutshell, what the earlier sample code does is to initialize the exact canvas size, with width as 640 pixel and height as 480 pixel as the overall drawing scope and area (see line 3 of the sample code). This is why the background covers only the canvas area and the exceeded area remains as the default white color background. The sketch will pick up a random red color at a time (ranging from 0-255) as the background color, covering the whole canvas (see line 8 of the sample code). The last part is to draw an ellipse at certain position and of certain size (see line 9 of the sample code). Those functions located in the function draw() will execute constantly and repetitivly. Such repetition is obvious in the sample code because the background color will change over time. 
 
-In a nutshell, what the earlier sample code does is to initialize the exact canvas size, with width as 640 pixel and height as 480 pixel as the overall drawing scope and area. This is why the background covers only the canvas area and the exceeded area remains as the default white color background. The sketch will pick up a random red color at a time (ranging from 0-255) as the background color, covering the whole canvas. The last part is to draw an ellipse at certain position and of certain size. Those functions located in the function draw() will constantly and repetitivly execute. It is apparent now because the background color will change over time. 
-
-There are some kinds of structure here which is hard to remember as a new language, for example what and how many arguments to take in for each function and what might be the other functions available. At the first chapter, the number of functions that you know is limited, but you will further explore and experiment the vast references. 
+There are some kinds of structure here which is hard to remember as a new language, for example what and how many arguments to take in for each function and what might be the other functions available. For the first chapter, the number of functions that you know may be limited, but you will further explore and experiment the vast references. 
 
 For p5.js, functions are documented in the page called [References](https://p5js.org/reference/)<sup>[23](#myfootnote23)</sup> and they are structured in a similar fashion. Once you get used to their presentation, it will be easier and quicker to learn and write that syntax. 
 
@@ -130,7 +131,7 @@ For p5.js, functions are documented in the page called [References](https://p5js
 
 Let's read together for the reference in Figure 9 -  [`ellipse()`](https://p5js.org/reference/#/p5/ellipse)<sup>[24](#myfootnote24)</sup>. It usually starts with an example and an illustration, and you can click the 'edit' button to modify the code, especially changing the parameters on the fly and display immediately on a screen. 
 
-The description part explains how the function syntax works and it is useful especially for novice who might find no clue on the numbers and what does it mean for each parameters within a function. 
+The description part of the reference page explains how the function syntax works and it is useful especially for novice who might find no clue on the parameters/numbers and what does it mean for each parameter within a function. 
 
 The syntax area demonstrates how it should be written precisely and the parameters' section explain further. For example: `ellipse(x, y, w, [h])`, it explains the first parameter x and the second parameter y are used to set the location of the ellipse in terms of x and y coordinate. The canvas is set in terms of pixel unit, and the [0,0] coordinate starts on the top left corner. The parameter w and h refers to the width and height of the ellipse and you can also think of it as the diameter, or setting the size, of the ellipse. The square bracket `[h]` is an optional parameter if the width and height of the ellipse is the same. 
 
@@ -177,7 +178,6 @@ There are still other syntaxes in the sample code in which we haven't explained 
 - McCarthay, Lauren. [Learning While making P5.JS](https://www.youtube.com/watch?v=1k3X4DLDHdc), OPENVIS Conference, 2015.
 - Shiffman, Daniel. (2018) 1.1: Code! Programming with p5.js [online] Available at: https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2 [Accessed 09 Sep. 2019].
 - p5.js. p5.js | get started. [Web] Available at: https://p5js.org/get-started/ [Accessed 09 Sep. 2019].
-- Gitlab. Gitlab Web Editor. [Web] Available at: https://docs.gitlab.com/ee/user/project/repository/web_editor.html [Accessed 09 Sep. 2019].
 
 ## Further reading:
 - Lennon, Brian."JavaScript Affogato: Programming a Culture of Improvised Expertise". *Configurations*, Volume 26, Number 1, Winter 2018, pp. 47-72
