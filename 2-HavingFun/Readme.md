@@ -36,11 +36,11 @@ function setup() {
     - Type `print(width);` and then press enter
     - Then type `console.log(width, height);` and then press enter
 
-You should notice from the responses of the console area (see Figure 2.2), where it responds with the actual width in pixel unit (500) with you type the functions `print()`. Additionally, if you use `console.log()`, which is the equivalent of print in JavaScript (not a p5.js function), the responses should respond with two numbers 500 and 600. So what did you just ask the program is to give you the values of the width and height of the canvas. The program can understand these two names 'width' and 'height'. They are the pre-set names in p5.js in which you can use specifically for the canvas' dimension. 
-
-The use of both width and height is called variables, which is another important concept in programming languages. 
+You should notice from the responses of the console area (see Figure 2.2), where it responds with the actual width in pixel unit (500) when you type the functions `print(width)`. Additionally, if you use `console.log()`, which is the equivalent of print in JavaScript (not a p5.js function), the interface should respond with two numbers 500 and 600. With just two lines in the console area, you have asked the program to give you the values of the width and height of the canvas. The program can then understand these two names 'width' and 'height'. They are the pre-set names in p5.js in which you can use specifically for asking the canvas' dimension. 
 
 ## 2.1.3 Variables 
+
+In programming, the use of both width and height is called variables, which is another important concept in programming languages. 
 
 - changes values 
 - concept of storage
