@@ -5,23 +5,18 @@ Building upon the previous first sample code on the shape - ellipse, we want to 
 
 But fun in computing, as Olga Goriunova argues, "as a mode of thinking, making, experencing is about a mode of reasoning" (ref: xxx). In other words, fun is about paradox and sense making too; and in the area of geometry, it is about both bodily and material affections. We want to situate this chapter within the cultural context of geometric emojis. The affective expressions and facial representations that we use in almost all sort of electronic communications. It is fun as it is related to subjectivity and abstraction, producing a subjecthood and abstracting certain facial characteristics, which are not an actual representation of one's face but an imaginary and constructed one. 
 
-But with the design and development of emoji, it has become a pre-coded form of representation and identification. The relationship between emoji and identitiy politics has been explored in the text 'Modifying the Universal', written by Rosel Roscam Abbing, Peggy Pierrot and Femke Snelting (ref: x). They investigate the process of universal standardisation of emoji, in which The Unicode Consortium, a non-profit organization based in America and is concerned with universal character encoding standards, is the key entity to standardize, maintain and publish the Unicode Standard for software internationalization in all major operating systems and applications since 1987. But the development of emoji encounters different issues over time, including the sterotypes of gender and racism, such as female emoji only existed in feminine roles like dancer, bride, and queen but not in professions like doctors and businessmen; as well as limited skin tones applied on emojis and such "universal modifiers" as a feature where there is technological limitation to use across all handsets. Typing emojis may be fun and expressive, but this also expresses normative ideologies within the violent structures, where some people can be represented but not others. So the question is who can get to be represented and why? As Goriunova explores the notion of fun in her edited book *Fun and Software*, she reminds us such bodily and material affections within computational structure that are paradoxically produced as fun objects "across the political, experiential registers, and in the computational feeding on the computational",  which is distributed across society and culture. (p.4)
+But with the design and development of emoji, it has become a pre-coded form of representation and identification. The relationship between emoji and identitiy politics has been explored in the text 'Modifying the Universal', written by Rosel Roscam Abbing, Peggy Pierrot and Femke Snelting (ref: x). They investigate the process of universal standardisation of emoji, in which The Unicode Consortium, a non-profit organization based in America and is concerned with universal character encoding standards, is the key entity to standardize, maintain and publish the Unicode Standard for software internationalization in all major operating systems and applications since 1987. Nevertheless, the development of emoji encounters different issues over time, including the sterotypes of gender and racism, such as female emoji only existed in feminine roles like dancer, bride, and queen but not in professions like doctors and businessmen; as well as limited skin tones applied on emojis and such "universal modifiers" as a feature where there is technological limitation to use across all handsets. Typing emojis may be fun and expressive, but this also depicts normative ideologies within the "violent power structures" (ref: p. 210), where some people can be represented but not others. So the question is who can get to be represented and why? Who has the power to control and standardize what to represent and what are the cultural consequences and implications? As Goriunova explores the notion of fun in her edited book *Fun and Software*, she reminds us such bodily and material affections within computational structure are paradoxically produced as fun objects "across the political, experiential registers, and in the computational feeding on the computational",  which is distributed across society and culture. (p.4)
 
-Such cultural biases is what we want to think about in this chapter by introducing geometry which is situated within the context of emojis.
-
-
-
-[Introduce Multi by David Reinfurt]
-[Introduce the text on modifying universal]
-
-intro:
-Learning to do something hard in programming, is this fun? (Olga's book)
-how to learn? (a hint to ch.10), cognitive development esp. in children (smilies)
-political correctness - what is fun to some and not others?
+Such cultural biases is what we want to think about in this chapter (but also in other chapters) by introducing geometry which is situated within the context of emojis. To start with geometric emojis, the work *Multi* by graphic designer David Reinfurt will be used to demonstrate the basic of geometry and its possible facial expression. 
 
 ## 2.1.1 Start()
+<img src="http://o-r-g.com/media/00004.gif">
+The work *Multi* inspired by Enzo Mari who is an Italian modernist artist and furniture designer. He spent a whole year in 1957 drawing just 'the' apple with simple coutour lines as a way to explore what it means as an essential form of an object. With such a view on essentialism, David Reinfurt use software to present one of 1,728 possible facial arrangements with the combination of minimal puntucation glyphs. The work is presented as a mobile app and later developed as a book cover design in a series of book (ref: data-browser). 
 
-http://o-r-g.com/media/00004.gif
+Instead of using preset typographic characters, this section will explore what constitute those punctunation glyphs like a comma. How can you draw a comma with geometric shapes. 
+
+## 2.1.2 Coordination
+
 
 - Coordination
 - Variables
