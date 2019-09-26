@@ -1,9 +1,12 @@
 ## 2. Having fun with Geometry
 
-## 2.1 Begin()
+## 2.1 function setup()
+Building upon the previous first sample code on the shape - ellipse, we want to further explore various shapes, size, positions, space, lengths, areas which are regarded as geometry in Mathematics disclipline. It has many applications, including architecture and art, in which points, lines, panes are regarded as the foundational elements of Design. They are the elements that constitute objects, and the world is made up of various objects in different shapes, size and spaces. Geometry is used to position as a fun subject (ref: https://www.amazon.co.uk/Geometry-Fun-Vicky-Owyang-Chan/dp/145755884X/ref=sr_1_1?keywords=9781457558849&linkCode=qs&qid=1569494462&s=books&sr=1-1) especially in education sector. It is familiar but challenging to create new patterns and forms of representation. 
 
-Having fun with Geometry/Maths
+But fun in computing, as Olga Goriunova argues, "as a mode of thinking, making, experencing is about a mode of reasoning" (ref: xxx). In other words, fun is about paradox and sense making too; and in the area of geometry, it is about both bodily and material affections. We want to situate this chapter within the cultural context of geometric emojis. The affective expressions and facial representations that we use in almost all sort of electronic communications. It is fun as it is related to subjectivity and abstraction, producing a subjecthood and abstracting certain facial characteristics, which are not an actual representation of one's face but an imaginary and constructed one. 
 
+[need to continue with fun - emoji - variations]
+===
 intro:
 Learning to do something hard in programming, is this fun? (Olga's book)
 how to learn? (a hint to ch.10), cognitive development esp. in children (smilies)
