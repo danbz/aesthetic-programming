@@ -29,20 +29,24 @@ function setup() {
 }
 ```
 <img src="ch2_1.png" width="400"> <br>
+*Figure 2.2: Simple exercise*
 
-- Try to type the above code in the code editor (usually the sketch.js file) and run the code. You should see just a black color rectangle. 
-- Next is recall the memories in using the web console in the previous chapter. (Under Tools > Web Developer > Web Console - Ctrl+Shift+K)
-- Type `print(width);` and then press enter
-- Then type `console.log(width, height);` and then press enter
+- Try to type the above source code in the code editor (usually the sketch.js file) and run the code. You should see just a black color rectangle. 
+- Next is to recall our memories in using the web console (Under Tools > Web Developer > Web Console - Ctrl+Shift+K)
+    - Type `print(width);` and then press enter
+    - Then type `console.log(width, height);` and then press enter
 
-You should see from the console area, where it responds with the actual width in pixel unit (500). Additionally, if you use console.log, which is the equivalent of print in JavaScript (not a p5.js function). So what you did is to ask the program what's the width and height of the canvas. 
+You should notice from the responses of the console area (see Figure 2.2), where it responds with the actual width in pixel unit (500) with you type the functions `print()`. Additionally, if you use `console.log()`, which is the equivalent of print in JavaScript (not a p5.js function), the responses should respond with two numbers 500 and 600. So what did you just ask the program is to give you the values of the width and height of the canvas. The program can understand these two names 'width' and 'height'. They are the pre-set names in p5.js in which you can use specifically for the canvas' dimension. 
 
 The use of both width and height is called variables, which is another important concept in programming languages. 
 
 ## 2.1.3 Variables 
 
+- changes values 
+- concept of storage
+- naming -> human understandable
 
-- Variables
+
 - Geometries: shapes/pattern
 - Drawing faces 
 e.g 
@@ -51,6 +55,7 @@ e.g
 2. Data browser series book 
 
 ## 2.2 
+Source code 
 
 ## 2.X While()
 outro:
