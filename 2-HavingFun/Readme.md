@@ -10,15 +10,38 @@ But with the design and development of emoji, it has become a pre-coded form of 
 Such cultural biases is what we want to think about in this chapter (but also in other chapters) by introducing geometry which is situated within the context of emojis. To start with geometric emojis, the work *Multi* by graphic designer David Reinfurt will be used to demonstrate the basic of geometry and its possible facial expression. 
 
 ## 2.1.1 Start()
-<img src="http://o-r-g.com/media/00004.gif">
+<img src="http://o-r-g.com/media/00004.gif" height="400"><br>
+*Figure 2.1: Multi by David Reinfurt* 
+
 The work *Multi* inspired by Enzo Mari who is an Italian modernist artist and furniture designer. He spent a whole year in 1957 drawing just 'the' apple with simple coutour lines as a way to explore what it means as an essential form of an object. With such a view on essentialism, David Reinfurt use software to present one of 1,728 possible facial arrangements with the combination of minimal puntucation glyphs. The work is presented as a mobile app and later developed as a book cover design in a series of book (ref: data-browser). 
 
 Instead of using preset typographic characters, this section will explore what constitute those punctunation glyphs like a comma. How can you draw a comma with geometric shapes. 
 
 ## 2.1.2 Coordination
+In the last chapter, we have briefly talked about x and y coordination, which is the fundamental concept for objects to position on a canvas. 
+For a line of code like `createCanvas(500,600)`, it refers to the action that creating a canvas with the width of 500 pixel and height of 600 pixel. In high school's maths class, there is a different coordinate system with the origin [0,0] places in the middle of the paper/screen but in computing, the canvas is started to draw from the upper left corner which is the origin.
+
+## 2.1.2.1 Exercise in class
+```javascript
+function setup() {
+    createCanvas(500,600);
+    background(0);
+}
+```
+<img src="ch2_1.png" width="400"> <br>
+
+- Try to type the above code in the code editor (usually the sketch.js file) and run the code. You should see just a black color rectangle. 
+- Next is recall the memories in using the web console in the previous chapter. (Under Tools > Web Developer > Web Console - Ctrl+Shift+K)
+- Type `print(width);` and then press enter
+- Then type `console.log(width, height);` and then press enter
+
+You should see from the console area, where it responds with the actual width in pixel unit (500). Additionally, if you use console.log, which is the equivalent of print in JavaScript (not a p5.js function). So what you did is to ask the program what's the width and height of the canvas. 
+
+The use of both width and height is called variables, which is another important concept in programming languages. 
+
+## 2.1.3 Variables 
 
 
-- Coordination
 - Variables
 - Geometries: shapes/pattern
 - Drawing faces 
