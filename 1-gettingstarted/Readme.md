@@ -65,7 +65,7 @@ Sketch.js is the working file. It doesn't have much things inside with only two 
 * `function setup()` - Code within this function will only run once by the sketch. We usually put things like setting up the canvas size to define the basic sketch setup. 
 * `function draw()` - Code within this function will keep on looping, and that means the function draw() is called on each frame. The default rate is 60 frames/times per second, and this is especially useful when things are in motion or constantly being captured. 
 
-Let's try to input these code into the sketch to draw a canvas with a changing background in different intensity of the red color, then the sketch will further draw an ellipse locating somewhere on the top left corner. (Double check the spelling and punctuation like curly brackets and semi-colons, indicating the scope of the function and end of the line respectively. Details of the code will be further explained later)
+Let's try to input these code into the sketch to draw a canvas with a changing background (between white and black color), then the sketch will further draw an ellipse locating somewhere on the top left corner. (Double check the spelling and punctuation like curly brackets and semi-colons, indicating the scope of the function and end of the line respectively. Details of the code will be further explained later)
 
 ```javascript
 function setup() {
@@ -75,14 +75,14 @@ function setup() {
 }
 function draw() {
   // put drawing code here
-  background(random(255),0,0);
+  background(random(255));
   ellipse(55,55,55,55);
 }
 ```
 
 * To run the code, you just need to go to Packages > atom-live-server (or you can use the shortcut Crtl + Alt + L). Then there will be a popup window, click on the 'empty-example' folder and it should display something like below:
 <br><img src="ch1_6.png" width="500"> <br>
-*Figure 6: My first program* 
+*Figure 6: My first program*  [need to change the image /w]
 
 ## 1.2.3.1 Exercise in class 
 1. Stop the atom-live-server by going to Packages > 'atom-live-server' > Stop (or to use the shortcut Ctrl + Alt + Q)  
@@ -94,7 +94,7 @@ function draw() {
 7. Can you run the program so that you can see almost the same screen as Figure 6 on a web browser?
 
 <br><img src="ch1_7.png" width="500"> <br>
-*Figure 7: My first program 1.1* 
+*Figure 7: My first program 1.1* [need to change the image /w]
 
 This exerise is to get you to familar with the path and local directory so as to know that running a sketch on a web browser requires to load the right path of the JavaScript libraries. As the book progress, you are also free to create your own folder name and rename the file like sketch.js as you wish. 
 
@@ -106,14 +106,14 @@ As you might aware, this book is not following the convention of most programmin
 In the sample code above, line 4 with the print() function that writes the text 'hello world'. To see the text, you need to open the web console area which is differently located according to browsers and you can try to search through navigating the menu bar. In Firefox browser, it is located under Tools > Web Developer > Web Console (Ctrl+Shift+K).
 
 <br><img src="ch1_8.png" width="400"> <br>
-*Figure 8: The console area* 
+*Figure 8: The console area* [need to change the image /w]
 
 At the bottom of the Figure 8, the web console area shows the text 'hello world'. What you know from this is that the sketch is running properly and it is able to read the print's function line. When you progress with this book, you will find that the web console area is very important, because you can also see error messages when, for example, the syntax is wrong and the browser will give you some good hints to bug fix your own code. Figure 9 shows that the web console area can specify which file (sketch.js) and which line of code (line 8) with problem (the syntax background was spelled wrong intentionally - see Figure 9).
 
 <br><img src="ch1_9.png" width="500"> <br>
-*Figure 9: Example of syntax error* 
+*Figure 9: Example of syntax error*  
 
-Indeed, Hello World program has a long history in computing, especially introduce to novice programmers to a programming language and making sure things are running. Wendy Hui Kyong Chun and Andrew Lison argue the first Hello World program is enjoyable and seductive <sup>[21](#myfootnote21)</sup>. One the one hand we rougly understand the line `print("hello world")` literally as it is  considered as human language: to 'print' the text 'hello world', which is understandable and straight forward; On the other hand, the computer is executing what exactly you want it to perform as printing a text through an 'instruction', giving you the immediate result which is rewarding. Such feedback "produce a feeling of power", transitioning from "immature students into programmers". 
+Indeed, Hello World program has a long history in computing, especially introduce to novice programmers to a programming language and making sure things are running. Wendy Hui Kyong Chun and Andrew Lison argue the first Hello World program is enjoyable and seductive <sup>[21](#myfootnote21)</sup>. On the one hand we rougly understand the line `print("hello world")` literally as it is  considered as human language: to 'print' the text 'hello world', which is understandable and straight forward; On the other hand, the computer is executing what exactly you want it to perform as printing a text through an 'instruction', giving you the immediate result which is rewarding. Such feedback "produce a feeling of power" that you start mastering technologies, transitioning from "immature students into programmers". 
 
 Building upon the common knowledge around Hello World programs as mostly claimed as the most rewarding, easiest and understandable starting point, Geoff Cox and Duncan Shingleton created a codework project called [*hallo welt! (hello world!)*](http://www.anti-thesis.net/hello-world-60/)<sup>[22](#myfootnote22)</sup>, showcasing and looping more than 100 Hello World programs written in different programming languages. Although all programs are just written with few lines of code, the idea of the project is to combine both human and machine languages in real-time into a multilingual machinic confusion of tongues, performing the code in real-time as it relates to the act of free speaking. As mentioned earlier, the line of code with print() is also a command, instructing the web browser to act/perform through software and hardware according to what it is said/written. "It is both a computer-readable notation of logic and a representation of this process, both script and performance; and in this sense it is like spoken words" as Cox reminds us<sup>[23](#myfootnote23)</sup>.
 
