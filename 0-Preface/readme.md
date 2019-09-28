@@ -92,3 +92,5 @@ The book aims to expose something of what Adrian Mackenzie has identified as “
 Matthew Fuller, Andrew Goffey, Adrian Mackenzie, Richard Mills and Stuart Sharples, "Big Diff, Granularity, Incoherence, and Production in the Github Software Repository" in How To Be a Geek: Essays on the Culture of Software.
 
 So what is coding literacy, and why is it important?
+
+//[will add the emperical exp in teaching the AP course in the last 4-5 years]
