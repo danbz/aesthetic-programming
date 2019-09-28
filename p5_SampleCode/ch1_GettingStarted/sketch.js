@@ -5,6 +5,6 @@ function setup() {
 }
 function draw() {
   // put drawing code here
-  background(random(255),0,0);
+  background(random(255));
   ellipse(55,55,55,55);
 }
