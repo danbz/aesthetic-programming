@@ -22,7 +22,7 @@ Instead of using preset typographic characters, this section will explore what c
 <img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class02/sketch02_code.gif">
 [need something to run the program - need to check with OSP, ref: https://creative-coding.decontextualize.com/first-steps/]
 
-<script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
+<script src="toolness.github.io/p5.js-widget/p5-widget.js"></script>
 <script type="text/p5" data-autoplay data-p5-version="0.9.0">
 function setup(){
   createCanvas(100, 100);
