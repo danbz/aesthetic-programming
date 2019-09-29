@@ -20,22 +20,11 @@ Instead of using preset typographic characters, this section will explore what c
 
 ## 2.1.2 Source Code
 <img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class02/sketch02_code.gif">
-[need something to run the program - need to check with OSP, ref: https://creative-coding.decontextualize.com/first-steps/]
 
-<script src="toolness.github.io/p5.js-widget/p5-widget.js"></script>
-<script type="text/p5" data-autoplay data-p5-version="0.9.0">
-function setup(){
-  createCanvas(100, 100);
-}
-function draw(){
-  point(40, 50); // point(x, y)
-}
-</script>
+[RunMe: need something to run the program - need to check with OSP, ref: https://creative-coding.decontextualize.com/first-steps/ or https://p5js.org/learn/coordinate-system-and-shapes.html /w]
 
 ```javascript
-/*Inspired by Multi by David Reinfurt
-check shapes:  */
-
+/*Inspired by David Reinfurt's work - Multi*/
 let moving_size = 60;
 let static_size = 20;
 
@@ -45,7 +34,7 @@ function setup() {
 }
 
 function draw() {
-  background(floor(random(90,100))); //get an integer value from the random range 90-100. Check syntax reference floor and random.
+  background(random(90,100)); //get an integer value from the random range 90-100. Check syntax reference floor and random.
   noStroke()
   fill(color(0,0,0));
   rect(50,110,100,26); //left rectangle
@@ -73,9 +62,15 @@ function draw() {
   if (mouseIsPressed) {
     static_size = floor(random(5, 25));
  }
-
 }
 ```
+The code is about various shapes: 
+- the background is in a verticle rectanglar shape, flashing grey-scale colors 
+- left with a horizontal rectangle in black color 
+- right with a square in black color and a polygon in orange color 
+- bottom with an ellipse without any filled color but with white stroke color
+- One can move the mouse in which an outlined ellipse in grey color follows the mouse 
+- One can also click on the mouse to change the size of the white ellipse and the black square
 
 ## 2.1.3 Coordination
 In the last chapter, we have briefly talked about x and y coordination, which is the fundamental concept for positioning and drawing objects on a canvas. 
@@ -84,51 +79,78 @@ For a line of code like `createCanvas(500,600)`, it refers to the action that cr
 ## 2.1.2.1 Exercise in class
 ```javascript
 function setup() {
-    createCanvas(500,600);
-    background(0);
+  createCanvas(500, 600);
+  frameRate(20);
 }
+
+function draw() {
+  background(random(90,100));
 ```
 <img src="ch2_1.png" width="400"> <br>
-*Figure 2.2: Simple exercise*
+*Figure 2.2: Simple exercise*  [need to change the color of this /w]
 
 Remember the structure of a web page includes both the html, working javascript file (for example sketch.js) and p5.js associated libraries. 
 
-- Try to type the above source code in the working javascript file and then save the code. Run the program on ATOM (the live-atom-server with the shortcut Crtl+Alt+L) and you should see just a black color rectangle on a screen. 
+- Type the above source code in the working javascript file and then save the code. Run the program on ATOM (the live-atom-server with the shortcut Crtl+Alt+L) and you should see just a flashing rectangle on a screen. 
+- There are few new syntax or slightly different use of syntax here: 
+    - `frameRate()`: This sets the number of frames per second that the computer will run the program. The default is 60 and now is set as 20, meaning it will run slower in which you can see the background color for each frame quite clearly (You can also compare the flashing rate with the sample code in the previous chapter).
+    - `random(90,100)`: In the earlier sample code the function `random()` took one argument only. This sample code gives you a different use of the function with two arguments. If you at the reference guide (ref: https://p5js.org/reference/#/p5/random), it tells you the random function returns a floating-point number, and this means that the number is not integer but with decimals. By looking at the description (checking reference is very useful to understand how function and syntax work), it also explains the difference with the number of arguments. For this case, the program will return a floating-point number between 90 and up to (but not including) 100. Example of such returned value would be, for example, 98.34387. Such returned value refers to a grey-scale color value. 
 - Next is to recall our memories in using the web console (Under Tools > Web Developer > Web Console - Ctrl+Shift+K)
     - Type `print(width);` and then press enter
-    - Then type `console.log(width, height);` and then press enter
+    - Type `console.log(width, height);` and then press enter
 
 You should notice from the responses of the console area (see Figure 2.2), where it displays the actual width in pixel unit (500) when you type the functions `print(width);`. Additionally, if you use `console.log(width, height);`, which is the equivalent of the print function in JavaScript (not a p5.js function), the screen displays two numbers 500 and 600. With just two lines in the console area, you have asked the program to give you the values of the width and height of the canvas. The program can then understand these two names 'width' and 'height'. They are the pre-set names in p5.js in which you can use specifically for asking the canvas' dimension. 
 
 ## 2.1.3 Variables 
 
-In programming, the use of both width and height is called variables, which is another important concept in programming languages. Variables are used to store data and information in a computer program. You can think of variables as many drawers, and you can put things, replace them with other things, and store them for later retrieval. Just like the variable 'width' and 'height' as something what is called 'global variables', you can use in any parts of your code. To use the earlier example, the value behind width is 500 which is the canvas' width that has been defined in line 2. To continue with the metaphor, a drawer with the name 'width' is stored with the value '500'. For this case, it is assigned by default as the program is able to retrieve the measurement of the canvas. 
+In programming, the use of both width and height is called variables, which is another important concept. Variables are used to store data and information in a computer program. You can think of variables as many drawers, and you can put things, replace them with other things, and store them for later retrieval. Just like the variable 'width' and 'height' as something what is called 'global variables', you can use in any parts of your code. To use the earlier example, the value behind width is 500 which is the canvas' width that has been defined in line 2 (see section 2.1.2.1). To continue with the metaphor, a drawer with the name 'width' is stored with the value '500'. For this case, it is assigned by default as the program is able to retrieve the measurement of the canvas. 
 
-But you can also assign your own variable names (creating your own drawer to store other values). 
+But you can also assign your own variable names (metaphorically speaking, it is to creat your own drawer and store other values). 
+
 ```javascript
 let moving_size = 60;
 let static_size = 20;
 .
 .
 .
+ellipse(190,370,static_size,static_size);
+.
+.
+.
 ellipse(mouseX, mouseY, moving_size, moving_size);
 ```
 
+The above is the excerpt of the entire code, relating to drawing two different size of ellipses. The last two arguments of the ellipse function refer to width and height. Instead of placing a number like in Chapter 1, this time we use variables which refer to a value behind it. There are 3 steps to use variables
 
-- changes values 
-- concept of storage
-- naming -> human understandable
+1. **Declare:** Think of a name you want to store the value (usually it will make sense to yourself and to others to read it). Declare with the syntax 'let' in front (ref the different use of let vs var).  
+2. **Assign:** What is the stuff you want to store there? Is it a number? By assigning a value, you will need to use the equal sign. There are 3 primitive data types are useful to know at this introductary level: 
+    1. number for numbers of any kind: integer or floating-point.
+    2. string for strings. A string may have one or more characters and it has to be used with double or single quote. For example: `let moving_size = "sixty";`
+    3. boolean for true/false. For example: `let moving_size = true;`
+3. **Use:** How and when do you want to retrieve the stored data? 
+
+For this example, two variables: moving_size and static_size are relatively stable as they won't change over time (If you forsee the values won't change, you may also consider to use `const`, where a value remains unchanged).
+
+There are two more variables in the example: `mouseX` and `mouseY`. These are changing variables and are subjected to the mouse movement to trace the coresponding x and y coordinates. If you want to know the mouseX and mouseY exact coordinate position, you may also use `print()` or `console.log` to display the two values onto the console area.  
+
+## 2.1.4 Other functions 
+There are other new functions:
+- `noStroke()`, `stroke()` and `strokeWeight()`
+- `fill()`
+- `color`
+- `rect()`
+- `beginShape()` and `endShape(CLOSE)`
+- `vertex()`
+- `floor()`
+- `if (mouseIsPressed) {}`
 
 
-- Geometries: shapes/pattern
-- Drawing faces 
+
+
 e.g 
 0. some examples of children drawing
 1. Tofu face by Fracis
 2. Data browser series book 
-
-## 2.2 
-Source code 
 
 ## 2.X While()
 outro:
@@ -136,8 +158,6 @@ outro:
 - link to Femke + constant works on emoticons (race)
 - faciality machines (Deleuze)
 - facial recognition
-
-## 2.X Exercise in class 
 
 ## 2.X Mini_Exercise[2]: Geometric emoji
 **Objective:**
