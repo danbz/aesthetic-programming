@@ -36,12 +36,12 @@ function setup() {
 function draw() {
   background(random(90,100)); //get an integer value from the random range 90-100. Check syntax reference floor and random.
   noStroke()
-  fill(color(0,0,0));
+  fill(0,0,0);
   rect(50,110,100,26); //left rectangle
 
   //right eye
   rect(350,140,static_size,static_size);
-  fill(color(200,100,0));
+  fill(200,100,0);
   beginShape();
   vertex(350, 160);
   vertex(343, 180);
@@ -103,7 +103,9 @@ You should notice from the responses of the console area (see Figure 2.2), where
 
 ## 2.1.3 Variables 
 
-In programming, the use of both width and height is called variables, which is another important concept. Variables are used to store data and information in a computer program. You can think of variables as many drawers, and you can put things, replace them with other things, and store them for later retrieval. Just like the variable 'width' and 'height' as something what is called 'global variables', you can use in any parts of your code. To use the earlier example, the value behind width is 500 which is the canvas' width that has been defined in line 2 (see section 2.1.2.1). To continue with the metaphor, a drawer with the name 'width' is stored with the value '500'. For this case, it is assigned by default as the program is able to retrieve the measurement of the canvas. 
+In programming, the use of both width and height is called variables, which is another important concept. Variables are used to store data and information in a computer program. You can think of variables as many lockers, and you can put things, replace them with other things, and store them for later retrieval. Just like the variable 'width' and 'height' as something what is called 'global variables', you can use in any parts of your code. However for local variables, it is defined within a structure or a function, then the variable can only be used within that block of code. To define a global variable, you need to define it before the setup of the program, usually in the first few lines of the program. 
+
+To use the earlier example, the value behind width is 500 which is the canvas' width that has been defined in line 2 (see section 2.1.2.1). To continue with the metaphor, a drawer with the name 'width' is stored with the value '500'. For this case, it is assigned by default as the program is able to retrieve the measurement of the canvas. 
 
 But you can also assign your own variable names (metaphorically speaking, it is to creat your own drawer and store other values). 
 
@@ -123,34 +125,29 @@ ellipse(mouseX, mouseY, moving_size, moving_size);
 The above is the excerpt of the entire code, relating to drawing two different size of ellipses. The last two arguments of the ellipse function refer to width and height. Instead of placing a number like in Chapter 1, this time we use variables which refer to a value behind it. There are 3 steps to use variables
 
 1. **Declare:** Think of a name you want to store the value (usually it will make sense to yourself and to others to read it). Declare with the syntax 'let' in front (ref the different use of let vs var).  
-2. **Assign:** What is the stuff you want to store there? Is it a number? By assigning a value, you will need to use the equal sign. There are 3 primitive data types are useful to know at this introductary level: 
+2. **Assign:** What is the stuff you want to store there? Is it a number? By assigning a value, you will need to use the equal sign. Officially, there are 4 data types are useful to know at this introductary level:
     1. number for numbers of any kind: integer or floating-point.
     2. string for strings. A string may have one or more characters and it has to be used with double or single quote. For example: `let moving_size = "sixty";`
     3. boolean for true/false. For example: `let moving_size = true;`
-3. **Use:** How and when do you want to retrieve the stored data? 
+    4. color. It can take in Red Green, Blue (RGB) or  Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` [ref: https://p5js.org/reference/#/p5/color]
+3. **(Re)Use:** How and when do you want to retrieve the stored data? If such variable change over time, you may want to reuse it for many times. 
 
 For this example, two variables: moving_size and static_size are relatively stable as they won't change over time (If you forsee the values won't change, you may also consider to use `const`, where a value remains unchanged).
 
-There are two more variables in the example: `mouseX` and `mouseY`. These are changing variables and are subjected to the mouse movement to trace the coresponding x and y coordinates. If you want to know the mouseX and mouseY exact coordinate position, you may also use `print()` or `console.log` to display the two values onto the console area.  
+There are two more variables in the example: `mouseX` and `mouseY`. These are changing variables and are subjected to the mouse movement to trace the coresponding x and y coordinates. If you want to know the mouseX and mouseY exact coordinate position, you may also use `print()` or `console.log` to display the two values onto the console area.
+
+<img src="https://media.istockphoto.com/vectors/school-or-changing-room-lockers-vector-id640307424" width="300"> [need lockers illustration or sth like this: https://www.mathwarehouse.com/programming/images/pbv-vs-pbr/picture-pass-by-value-vs-reference-how-memory-works-with-locations.png /w]
+Though there are many books use the metaphor of a container to illustrate the concept of variable, the use of lockers is to convey there is an address for each locker. Technically speaking, by declaring a variable, it also declares a location/address in which the computer memory can hold the value. In short, each variable stores at a block of computer memory which is located inside a physical memory like RAM. Each block has a identification which is called the memory address so that the computer knows where to store it and retrieve it while the program is run. As such, software and hardware is not separable, it is just we can't able to see the inner micro-working of a computer.
 
 ## 2.1.4 Other functions 
-There are other new functions:
-- `noStroke()`, `stroke()` and `strokeWeight()`
-- `fill()`
-- `color`
-- `rect()`
-- `beginShape()` and `endShape(CLOSE)`
-- `vertex()`
-- `floor()`
-- `if (mouseIsPressed) {}`
+There are other new functions in the sample code. 
 
-
-
-
-e.g 
-0. some examples of children drawing
-1. Tofu face by Fracis
-2. Data browser series book 
+- `noStroke()`, `strokeWeight()`, and `stroke()`: These refer to the settings of the shape, whether it is without any outline, what is the weight of the border and what color is that.
+- `fill()`: This function sets the color of objects like shapes or text. It takes RGB (as default) or HSB color. But if the function with 1 argument, then it refers to gray scale color between 0-255. If the function with 3 arguments like `fill(255,255,0)`, then it means the object/shape/text will be filled with yellow color (the mix of red and green with no blue color). There is an optional argument as alpha, referring to the opacity of the color, e.g `fill(255,255,0,127)`;
+- `rect()`: This is similar to draw an ellipse, but just display as a rectangle. 
+- `vertex()`, `beginShape()` and `endShape(CLOSE)`: All these three functions are used for drawing a more complex form according to different vertices. What you need is to use the `vertex` function to tell its x and y coordinates. You can also join all the vertices by using the 'close' argument in `endShape()`. The `beginShape()` is used to record the starting of the vertex for a complex form/polygon. 
+- `floor()`: Since the random function returns a floating-point number instead, the use of `floor()` is to calculate the closest integer value. 
+- `if (mouseIsPressed) {}`: This is a conditional structure for a program to constantly listen to mouse press actions. This wil be further discussed in Chapter 4.
 
 ## 2.X While()
 outro:
