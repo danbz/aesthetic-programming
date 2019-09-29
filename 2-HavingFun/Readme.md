@@ -20,7 +20,31 @@ Instead of using preset typographic characters, this section will explore what c
 
 ## 2.1.2 Source Code
 <img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class02/sketch02_code.gif">
-<iframe src="https://editor.p5js.org/siusoon/embed/8Cunisrs4"></iframe>
+[need something to run the program - need to check with OSP, ref: https://creative-coding.decontextualize.com/first-steps/]
+
+(setq markdown-css-paths '("https://creative-coding.decontextualize.com/public/css/poole.css"))
+
+
+<div class="cntrl">
+  <span class="play" data-sketch-id="01_background">&#9658; run sketch</span>
+  <span class="stop" data-sketch-id="01_background">&#9724; stop sketch</span>
+</div>
+<div class="example">
+<pre style="display: block; float: left; width: 400px;">
+function setup() {
+  
+}
+
+function draw() {
+  background(0);
+  ellipse(50, 50, 60, 60);
+  rect(40, 40, 35, 45);
+}
+</pre>
+<div id="01_background" class="example-container" data-sketch-src="/sketches/01_background.html">
+</div>
+</div>
+
 
 ```javascript
 /*Inspired by Multi by David Reinfurt
