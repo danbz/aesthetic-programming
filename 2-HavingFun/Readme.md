@@ -157,10 +157,11 @@ There are other new functions in the sample code.
 - `if (mouseIsPressed) {}`: This is a conditional structure for a program, constantly listening to mouse press actions. This wil be further discussed in Chapter 4.
 
 ## 2.6 Exercise in class
+- look into existing emojis -> reflect upon the complexity of emotions; what's your experience in using emojis? (https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg)
 - decision to make for abstraction -> what constitute a face?
+- take a look at more emojis beyond facial expression: https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/
 - p5. playground 
 - Print the click coordinates of mouseX and mouseY on the console area 
-- How would you draw a nose in the form of an inverted triangle or half circle outline? 
 
 ## 2.7 While()
 outro:
@@ -198,6 +199,7 @@ outro:
 
 ## Further reading:
 - FUN? 
+- https://tidsskrift.dk/APRJA/issue/view/8133
 
 ## Notes
 
