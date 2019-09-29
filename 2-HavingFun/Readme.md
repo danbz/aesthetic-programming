@@ -157,7 +157,9 @@ There are other new functions in the sample code.
 - `if (mouseIsPressed) {}`: This is a conditional structure for a program, constantly listening to mouse press actions. This wil be further discussed in Chapter 4.
 
 ## 2.6 Exercise in class
-- play with the interface 
+- decision to make for abstraction -> what constitute a face?
+- p5. playground 
+- Print the click coordinates of mouseX and mouseY on the console area 
 - How would you draw a nose in the form of an inverted triangle or half circle outline? 
 
 ## 2.7 While()
@@ -170,7 +172,7 @@ outro:
 ## 2.8 Mini_Exercise[2]: Geometric emoji
 **Objective:**
 - To experiment various geometric drawing's possibilites, especially on shapes and drawing with colors.
-- To reflect critically on emoji via the provided text on "Modifying the Universal"
+- To reflect critically on emoji via the provided text on "Modifying the Universal" and situate within the wider cultural context
 
 **To get some additional inspiration here:**
 - [Multi](http://o-r-g.com/apps/multi) by David Reinfurt
@@ -195,6 +197,7 @@ outro:
 - [Short p5.js video by Daniel Shiffman](https://www.youtube.com/watch?v=8j0UDiN7my4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)(watch 1.3, 1.4, 2.1, 2.2)
 
 ## Further reading:
+- FUN? 
 
 ## Notes
 
