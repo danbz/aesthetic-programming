@@ -14,13 +14,62 @@ Such cultural biases is what we want to think about in this chapter (but also in
 <img src="http://o-r-g.com/media/00004.gif" height="400"><br>
 *Figure 2.1: Multi by David Reinfurt* 
 
-The work *Multi* inspired by Enzo Mari who is an Italian modernist artist and furniture designer. He spent a whole year in 1957 drawing just 'the' apple with simple coutour lines as a way to explore what it means as an essential form of an object. With such a view on essentialism, David Reinfurt use software to present one of 1,728 possible facial arrangements with the combination of minimal puntucation glyphs. The work is presented as a mobile app and later developed as a book cover design in a series of book (ref: data-browser). 
+The work of the indepdendent designer David Reinfurt *Multi* was inspired by Enzo Mari, who is an Italian modernist artist and furniture designer. He spent a whole year in 1957 drawing just 'the' apple with simple coutour lines as a way to explore what it means as an essential form of an object. With such a view on essentialism, Reinfurt uses software to present one of 1,728 possible facial compositions with the combination of minimal puntucation glyphs. The work is presented as a mobile app and later developed as a cover design in a book series (ref: data-browser). 
 
-Instead of using preset typographic characters, this section will explore what constitute those punctunation glyphs like a comma. How can you draw a comma with geometric shapes. 
+Instead of using preset typographic characters, this section will explore what constitute those punctunation glyphs like a comma. How can you draw a comma with the foundational elements of geometry. 
 
-## 2.1.2 Coordination
-In the last chapter, we have briefly talked about x and y coordination, which is the fundamental concept for objects to position on a canvas. 
-For a line of code like `createCanvas(500,600)`, it refers to the action that creating a canvas with the width of 500 pixel and height of 600 pixel. In high school's maths class, there is a different coordinate system with the origin [0,0] places in the middle of the paper/screen but in computing, the canvas is started to draw from the upper left corner which is the origin.
+## 2.1.2 Source Code
+<img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class02/sketch02_code.gif">
+<iframe src="https://editor.p5js.org/siusoon/embed/8Cunisrs4"></iframe>
+
+```javascript
+/*Inspired by Multi by David Reinfurt
+check shapes: https://p5js.org/reference/#group-Shape */
+
+let moving_size = 60;
+let static_size = 20;
+
+function setup() {
+  createCanvas(500, 600);
+  frameRate(20);
+}
+
+function draw() {
+  background(floor(random(90,100))); //get an integer value from the random range 90-100. Check syntax reference floor and random.
+  noStroke()
+  fill(color(0,0,0));
+  rect(50,110,100,26); //left rectangle
+
+  //right eye
+  rect(350,140,static_size,static_size);
+  fill(color(200,100,0));
+  beginShape();
+  vertex(350, 160);
+  vertex(343, 180);
+  vertex(353, 180);
+  vertex(370, 160);
+  endShape(CLOSE);
+
+  //mouth
+  noFill();
+  stroke(255,255,255);
+  strokeWeight(2);
+  ellipse(190,370,static_size,static_size);
+
+  //moving mouse
+  stroke(180);
+  ellipse(mouseX, mouseY, moving_size, moving_size);
+
+  if (mouseIsPressed) {
+    static_size = floor(random(5, 25));
+ }
+
+}
+```
+
+## 2.1.3 Coordination
+In the last chapter, we have briefly talked about x and y coordination, which is the fundamental concept for positioning and drawing objects on a canvas. 
+For a line of code like `createCanvas(500,600)`, it refers to the action that creating a canvas with the width of 500 pixel and the height of 600 pixel. In high school's maths class, there is a different coordinate system with the origin [0,0] places in the middle of the paper/screen but in computing, the canvas is started to draw from the upper left corner which is the origin.
 
 ## 2.1.2.1 Exercise in class
 ```javascript
@@ -32,16 +81,29 @@ function setup() {
 <img src="ch2_1.png" width="400"> <br>
 *Figure 2.2: Simple exercise*
 
-- Try to type the above source code in the code editor (usually the sketch.js file) and run the code. You should see just a black color rectangle. 
+Remember the structure of a web page includes both the html, working javascript file (for example sketch.js) and p5.js associated libraries. 
+
+- Try to type the above source code in the working javascript file and then save the code. Run the program on ATOM (the live-atom-server with the shortcut Crtl+Alt+L) and you should see just a black color rectangle on a screen. 
 - Next is to recall our memories in using the web console (Under Tools > Web Developer > Web Console - Ctrl+Shift+K)
     - Type `print(width);` and then press enter
     - Then type `console.log(width, height);` and then press enter
 
-You should notice from the responses of the console area (see Figure 2.2), where it responds with the actual width in pixel unit (500) when you type the functions `print(width)`. Additionally, if you use `console.log()`, which is the equivalent of print in JavaScript (not a p5.js function), the interface should respond with two numbers 500 and 600. With just two lines in the console area, you have asked the program to give you the values of the width and height of the canvas. The program can then understand these two names 'width' and 'height'. They are the pre-set names in p5.js in which you can use specifically for asking the canvas' dimension. 
+You should notice from the responses of the console area (see Figure 2.2), where it displays the actual width in pixel unit (500) when you type the functions `print(width);`. Additionally, if you use `console.log(width, height);`, which is the equivalent of the print function in JavaScript (not a p5.js function), the screen displays two numbers 500 and 600. With just two lines in the console area, you have asked the program to give you the values of the width and height of the canvas. The program can then understand these two names 'width' and 'height'. They are the pre-set names in p5.js in which you can use specifically for asking the canvas' dimension. 
 
 ## 2.1.3 Variables 
 
-In programming, the use of both width and height is called variables, which is another important concept in programming languages. 
+In programming, the use of both width and height is called variables, which is another important concept in programming languages. Variables are used to store data and information in a computer program. You can think of variables as many drawers, and you can put things, replace them with other things, and store them for later retrieval. Just like the variable 'width' and 'height' as something what is called 'global variables', you can use in any parts of your code. To use the earlier example, the value behind width is 500 which is the canvas' width that has been defined in line 2. To continue with the metaphor, a drawer with the name 'width' is stored with the value '500'. For this case, it is assigned by default as the program is able to retrieve the measurement of the canvas. 
+
+But you can also assign your own variable names (creating your own drawer to store other values). 
+```javascript
+let moving_size = 60;
+let static_size = 20;
+.
+.
+.
+ellipse(mouseX, mouseY, moving_size, moving_size);
+```
+
 
 - changes values 
 - concept of storage
