@@ -124,9 +124,9 @@ ellipse(190,370,static_size,static_size);
 .
 ellipse(mouseX, mouseY, moving_size, moving_size);
   
-  if (mouseIsPressed) {
+if (mouseIsPressed) {
     static_size = floor(random(5, 20));
- }
+}
 ```
 
 The above is the excerpt of the entire code, relating to drawing two different size of ellipses. The last two arguments of the ellipse function refer to width and height. Instead of placing a number in the function like in Chapter 1, this time we use variables instead as they hold value too. There are 3 steps to use variables:
