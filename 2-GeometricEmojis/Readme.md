@@ -1,4 +1,4 @@
-## 2. Having fun with Geometry
+## 2. Geometric Emojis
 
 ## 2.1 function setup()
 Building upon the previous first sample code on the shape - ellipse, we want to further explore various shapes, size, positions, space, lengths, areas which are regarded as geometry in the discipline of Mathematics. It has many applications within daily encounters, including but not limited to road signs, typography, architecture, art and design. In particular, points, lines and panes are regarded as the foundational elements of Design as the elements constitute objects, in which the world is made up of various objects from what we see to what we use. It is fun to learn Geometry <sup>[1](#myfootnote1)</sup> because geometry relates to the properties of everyday and familiar objects,  but at the same time it is challenging to create new patterns and forms of representation which is aesthetically pleasing. 
