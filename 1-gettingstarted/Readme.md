@@ -82,7 +82,7 @@ function draw() {
 
 * To run the code, you just need to go to Packages > atom-live-server (or you can use the shortcut Crtl + Alt + L). Then there will be a popup window, click on the 'empty-example' folder and it should display something like below:
 <br><img src="ch1_6.png" width="500"> <br>
-*Figure 6: My first program*  [need to change the image /w]
+*Figure 6: My first program*  
 
 ## 1.2.3.1 Exercise in class 
 1. Stop the atom-live-server by going to Packages > 'atom-live-server' > Stop (or to use the shortcut Ctrl + Alt + Q)  
@@ -94,7 +94,7 @@ function draw() {
 7. Can you run the program so that you can see almost the same screen as Figure 6 on a web browser?
 
 <br><img src="ch1_7.png" width="500"> <br>
-*Figure 7: My first program 1.1* [need to change the image /w]
+*Figure 7: My first program 1.1* 
 
 This exerise is to get you to familar with the path and local directory so as to know that running a sketch on a web browser requires to load the right path of the JavaScript libraries. As the book progress, you are also free to create your own folder name and rename the file like sketch.js as you wish. 
 
@@ -106,7 +106,7 @@ As you might aware, this book is not following the convention of most programmin
 In the sample code above, line 4 with the print() function that writes the text 'hello world'. To see the text, you need to open the web console area which is differently located according to browsers and you can try to search through navigating the menu bar. In Firefox browser, it is located under Tools > Web Developer > Web Console (Ctrl+Shift+K).
 
 <br><img src="ch1_8.png" width="400"> <br>
-*Figure 8: The console area* [need to change the image /w]
+*Figure 8: The console area* 
 
 At the bottom of the Figure 8, the web console area shows the text 'hello world'. What you know from this is that the sketch is running properly and it is able to read the print's function line. When you progress with this book, you will find that the web console area is very important, because you can also see error messages when, for example, the syntax is wrong and the browser will give you some good hints to bug fix your own code. Figure 9 shows that the web console area can specify which file (sketch.js) and which line of code (line 8) with problem (the syntax background was spelled wrong intentionally - see Figure 9).
 
