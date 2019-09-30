@@ -18,8 +18,8 @@ The independent desigher David Reinfurt created the work *[Multi](http://www.o-r
 Instead of using preset typographic characters, this section will explore what constitute those punctunation glyphs like a comma. How can you draw a comma with the foundational elements of geometry?
 
 ## 2.1.2 Source Code
-<img src="ch2_2.gif" width="250">
-<br>*Figure 2.2: The animated screenshot of the remix of Multi*
+<img src="ch2_2.png" width="250">
+<br>*Figure 2.2: The screenshot of the remix of Multi*
 
 [RunMe: need something to run the program - need to check with OSP, ref: https://creative-coding.decontextualize.com/first-steps/ or https://p5js.org/learn/coordinate-system-and-shapes.html /w]
 
