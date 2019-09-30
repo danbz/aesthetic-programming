@@ -18,7 +18,8 @@ The independent desigher David Reinfurt created the work *[Multi](http://www.o-r
 Instead of using preset typographic characters, this section will explore what constitute those punctunation glyphs like a comma. How can you draw a comma with the foundational elements of geometry?
 
 ## 2.1.2 Source Code
-<img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class02/sketch02_code.gif">
+<img src="https://gitlab.com/siusoon/Aesthetic_Programming_Book/raw/master/2-HavingFun/ch2_2.gif">
+*Figure 2.2: The animated screenshot of the remix of Multi*
 
 [RunMe: need something to run the program - need to check with OSP, ref: https://creative-coding.decontextualize.com/first-steps/ or https://p5js.org/learn/coordinate-system-and-shapes.html /w]
 
@@ -86,9 +87,10 @@ function setup() {
 
 function draw() {
   background(random(130,140));
+}
 ```
-<img src="ch2_1.png" width="400"> <br>
-*Figure 2.2: Simple exercise*  [need to change the color of this /w]
+<img src="ch2_3.png" width="400"> <br>
+*Figure 2.3: Simple exercise* 
 
 Remember the structure of a web page includes both the html, working javascript file (for example sketch.js) and p5.js associated libraries.  
 
@@ -141,7 +143,10 @@ For this example, two variables: 'moving_size' is more stable than 'static_size'
 
 There are two more variables in the example: `mouseX` and `mouseY`. These are changing variables and are subjected to the mouse movement to trace the coresponding x and y coordinates. If you want to know the mouseX and mouseY exact coordinate position, you may also use `print()` or `console.log` to display the two values onto the console area.
 
-<br><img src="https://media.istockphoto.com/vectors/school-or-changing-room-lockers-vector-id640307424" width="300"> <br>[need lockers illustration or sth like this: https://www.mathwarehouse.com/programming/images/pbv-vs-pbr/picture-pass-by-value-vs-reference-how-memory-works-with-locations.png /w] <br>
+<br><img src="https://media.istockphoto.com/vectors/school-or-changing-room-lockers-vector-id640307424" width="300"> <br>
+*Figure 2.4: Illustration of variables*
+
+[need lockers illustration or sth like this: https://www.mathwarehouse.com/programming/images/pbv-vs-pbr/picture-pass-by-value-vs-reference-how-memory-works-with-locations.png /w] <br>
 
 Though there are many books use the metaphor of a container to illustrate the concept of variable, the use of lockers is to convey there is an address for each locker. Technically speaking, by declaring a variable, it also declares a location/address in which the computer memory can hold the value. In short, each variable stores at a block of computer memory which is located inside a physical memory like RAM. Each block has a identification which is called the memory address so that the computer knows where to store it and retrieve it while the program is run. As such, software and hardware is not separable, and it is just we can't able to see the inner micro-working of a computer.
 
