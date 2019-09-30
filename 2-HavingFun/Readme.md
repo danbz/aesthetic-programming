@@ -228,7 +228,7 @@ outro:
 
 <a name="myfootnote10">10</a>: See p5.js random reference: https://p5js.org/reference/#/p5/random
 
-<a name="myfootnote11">11</a>: 'let' is introduced in ES6 (ECMAScript- scripting language specification standardization) to declare variable although 'var' is still commonly used. They are both used for variable declaration but the difference is that let is block scoped while var is function scoped. Specifically for the let case, if the same variable is declared in both global and local levels, the local value will be restricted to the specific function and won't be overridden. For more, see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var and https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+<a name="myfootnote11">11</a>: 'let' is introduced in ES6 (ECMAScript- scripting language specification standardization) to declare variable although 'var' is still commonly used. They are both used for variable declaration but the difference is that let is block scoped while var is function scoped. Specifically for the let case, if the same variable is declared in both global and local levels, the local value will be restricted to the specific block of code and won't be overridden. For more, see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var and https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
 
 <a name="myfootnote12">12</a>: See p5.js color reference: https://p5js.org/reference/#/p5/color
 
