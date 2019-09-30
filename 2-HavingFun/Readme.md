@@ -134,7 +134,7 @@ The above is the excerpt of the entire code, relating to drawing two different s
     1. number for numbers of any kind: integer or floating-point.
     2. string for strings. A string may have one or more characters and it has to be used with double or single quote. For example: `let moving_size = "sixty";`
     3. boolean for true/false. For example: `let moving_size = true;`
-    4. color. It can take in Red Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` [ref: https://p5js.org/reference/#/p5/color]
+    4. color for color values. It can take in Red Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` (see more from the [p5.js color reference](https://p5js.org/reference/#/p5/color)<sup>[11](#myfootnote11)</sup>)
 3. **(Re)Use:** How and when do you want to retrieve the stored data? If such variable will change over time, you may want to reuse it for many times. 
 
 For this example, two variables: 'moving_size' is more stable than 'static_size' because the later one will change according to mouse press. (If you forsee the values won't change, you may also consider to use `const`, where a value remains unchanged for the entire program).
@@ -164,8 +164,8 @@ This section is to briefly introduce other new functions in the sample code, in 
 ## 2.5 Exercise in class
 1. Think: Try to look into [existing emojis](https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg) or your handset, and reflect upon the complexity of human emotions and the abstracted human representation. What's your experience in using emojis? What's the cultural implications of emojis (perhaps can refer to the readings)? 
 2. Discussion: What constitute a face? If you have to use the view of essentialism, what will you have for a facial expression and why those elements are essential from your point of view? What have been abstracted and excluded then?
-3. Beyond the face: Take a look at [more emojis](https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/)<sup>[11](#myfootnote11)</sup> beyond facial expression, are there anything you want to add? 
-4. Exploration: Try out the interactive online tool [p5.playground](https://1023.io/p5-inspector/)<sup>[12](#myfootnote12)</sup> developed by Yining Shi, and do some sketching of emojis. 
+3. Beyond the face: Take a look at [more emojis](https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/)<sup>[12](#myfootnote12)</sup> beyond facial expression, are there anything you want to add? 
+4. Exploration: Try out the interactive online tool [p5.playground](https://1023.io/p5-inspector/)<sup>[13](#myfootnote13)</sup> developed by Yining Shi, and do some sketching of emojis. 
 5. Experiment with p5.js: How would you translate your thoughts into lines of code? You may want to print out the coordinates of mouse press on the console area to get a more accurate position of your shapes. 
 
 ## 2.6 While()
@@ -182,8 +182,8 @@ outro:
 
 **To get some additional inspiration here:**
 - [Multi](http://o-r-g.com/apps/multi) by David Reinfurt
-- [Chinese Characters as Ancient Emoji](https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/)<sup>[13](#myfootnote13)</sup> by Steve Witt
-- [Women finally get a menstruation emoji](https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji)<sup>[14](#myfootnote14)</sup> by Michael Grothaus
+- [Chinese Characters as Ancient Emoji](https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/)<sup>[14](#myfootnote14)</sup> by Steve Witt
+- [Women finally get a menstruation emoji](https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji)<sup>[15](#myfootnote15)</sup> by Michael Grothaus
 - [Between Art and Application by Crystal Abidin and Joel Gn](https://firstmonday.org/ojs/index.php/fm/article/view/9410)<sup>[15](#myfootnote15)</sup> (A short text about researching emoji cultures)
 
 **Tasks (RUNME):**
