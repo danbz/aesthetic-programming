@@ -129,12 +129,12 @@ ellipse(mouseX, mouseY, moving_size, moving_size);
 
 The above is the excerpt of the entire code, relating to drawing two different size of ellipses. The last two arguments of the ellipse function refer to width and height. Instead of placing a number in the function like in Chapter 1, this time we use variables instead as they hold value too. There are 3 steps to use variables:
 
-1. **Declare:** Think of a name you want to store the value (usually it will make sense to yourself and to others to read it). Declare with the syntax 'let' in front (ref: following the standard of x and the different use of let vs var).  
+1. **Declare:** Think of a name you want to store the value (usually it will make sense to yourself and to others to read it). Declare with the syntax 'let' in front<sup>[11](#myfootnote11)</sup> 
 2. **Assign:** What is the stuff you want to store there? Is it a number? By assigning a value, you will need to use the equal sign. Officially, there are 4 data types are useful to know at this introductary level:
     1. number for numbers of any kind: integer or floating-point.
     2. string for strings. A string may have one or more characters and it has to be used with double or single quote. For example: `let moving_size = "sixty";`
     3. boolean for true/false. For example: `let moving_size = true;`
-    4. color for color values. It can take in Red Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` (see more from the [p5.js color reference](https://p5js.org/reference/#/p5/color)<sup>[11](#myfootnote11)</sup>)
+    4. color for color values. It can take in Red Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` (see more from the [p5.js color reference](https://p5js.org/reference/#/p5/color)<sup>[12](#myfootnote12)</sup>)
 3. **(Re)Use:** How and when do you want to retrieve the stored data? If such variable will change over time, you may want to reuse it for many times. 
 
 For this example, two variables: 'moving_size' is more stable than 'static_size' because the later one will change according to mouse press. (If you forsee the values won't change, you may also consider to use `const`, where a value remains unchanged for the entire program).
@@ -165,8 +165,8 @@ This section is to briefly introduce other new functions in the sample code, in 
 ## 2.5 Exercise in class
 1. Think: Try to look into [existing emojis](https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg) or your handset, and reflect upon the complexity of human emotions and the abstracted human representation. What's your experience in using emojis? What's the cultural implications of emojis (perhaps can refer to the readings)? 
 2. Discussion: What constitute a face? If you have to use the view of essentialism, what will you have for a facial expression and why those elements are essential from your point of view? What have been abstracted and excluded then?
-3. Beyond the face: Take a look at [more emojis](https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/)<sup>[12](#myfootnote12)</sup> beyond facial expression, are there anything you want to add? 
-4. Exploration: Try out the interactive online tool [p5.playground](https://1023.io/p5-inspector/)<sup>[13](#myfootnote13)</sup> developed by Yining Shi, and do some sketching of emojis. 
+3. Beyond the face: Take a look at [more emojis](https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/)<sup>[13](#myfootnote13)</sup> beyond facial expression, are there anything you want to add? 
+4. Exploration: Try out the interactive online tool [p5.playground](https://1023.io/p5-inspector/)<sup>[14](#myfootnote14)</sup> developed by Yining Shi, and do some sketching of emojis. 
 5. Experiment with p5.js: How would you translate your thoughts into lines of code? You may want to print out the coordinates of mouse press on the console area to get a more accurate position of your shapes. 
 
 ## 2.6 While()
@@ -183,9 +183,9 @@ outro:
 
 **To get some additional inspiration here:**
 - [Multi](http://o-r-g.com/apps/multi) by David Reinfurt
-- [Chinese Characters as Ancient Emoji](https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/)<sup>[14](#myfootnote14)</sup> by Steve Witt
-- [Women finally get a menstruation emoji](https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji)<sup>[15](#myfootnote15)</sup> by Michael Grothaus
-- [Between Art and Application by Crystal Abidin and Joel Gn](https://firstmonday.org/ojs/index.php/fm/article/view/9410)<sup>[15](#myfootnote15)</sup> (A short text about researching emoji cultures)
+- [Chinese Characters as Ancient Emoji](https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/)<sup>[15](#myfootnote15)</sup> by Steve Witt
+- [Women finally get a menstruation emoji](https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji)<sup>[16](#myfootnote16)</sup> by Michael Grothaus
+- [Between Art and Application by Crystal Abidin and Joel Gn](https://firstmonday.org/ojs/index.php/fm/article/view/9410)<sup>[17](#myfootnote17)</sup> (A short text about researching emoji cultures)
 
 **Tasks (RUNME):**
 1. Make sure you have read/watch the required readings/instructional videos and references
@@ -228,14 +228,16 @@ outro:
 
 <a name="myfootnote10">10</a>: See p5.js random reference: https://p5js.org/reference/#/p5/random
 
-<a name="myfootnote11">11</a>: See p5.js color reference: https://p5js.org/reference/#/p5/color
+<a name="myfootnote11">11</a>: 'let' is introduced in ES6 (ECMAScript- scripting language specification standardization) to declare variable although 'var' is still commonly used. They are both used for variable declaration but the difference is that let is block scoped while var is function scoped. Specifically for the let case, if the same variable is declared in both global and local levels, the local value will be restricted to the specific function and won't be overridden. For more, see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var and https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
 
-<a name="myfootnote12">12</a>: See https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/
+<a name="myfootnote12">12</a>: See p5.js color reference: https://p5js.org/reference/#/p5/color
 
-<a name="myfootnote13">13</a>: See the tool p5.playground developed by Yining Shi:https://1023.io/p5-inspector/
+<a name="myfootnote13">13</a>: See https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/
 
-<a name="myfootnote14">14</a>: Witt, Steve, "Chinese Characters as Ancient 'Emoji'"", *Glocal Notes*, 2015, Web, available at: https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/
+<a name="myfootnote14">14</a>: See the tool p5.playground developed by Yining Shi:https://1023.io/p5-inspector/
 
-<a name="myfootnote15">15</a>: Grothaus, Michael, "Women finally get a menstruation emoji", *Fastcompany*, 2019, Web, available at: https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji
+<a name="myfootnote15">15</a>: Witt, Steve, "Chinese Characters as Ancient 'Emoji'"", *Glocal Notes*, 2015, Web, available at: https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/
 
-<a name="myfootnote16">16</a>: Abidin and Gn, "Between art and application".
+<a name="myfootnote16">16</a>: Grothaus, Michael, "Women finally get a menstruation emoji", *Fastcompany*, 2019, Web, available at: https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji
+
+<a name="myfootnote17">17</a>: Abidin and Gn, "Between art and application".
