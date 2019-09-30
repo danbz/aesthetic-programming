@@ -16,7 +16,7 @@ As the first chapter of this book, we think that it is important to reflecting o
 ### 1.1.1 Start()
 <img src="ch1_1.png" width="450">
 
-*Figure 1: p5.js web interface*
+*Figure 1.1: p5.js web interface*
 
 Throughout the entire book, we will use JavaScript as the main programming language, and primarily focus on p5.js and it's associated libraries. Practically speaking, p5.js is a web-based library, utilizing open source JavaSript framework that makes creating projects with code on the web accessible, as well as much easier to share via Internet, such as p5.js Web Editor, Open Processing, Git hosting platforms without additional installation. Through a web browser, a JavaScript-based project can be run and executed through a URL. JavaScript was originally developed in 1995 by Brendan Eich with the aim to run a program in Netscape's browser <sup>[7](#myfootnote7)</sup>. Some people might be confused with JavaScript and Java. They are operated in two different systems. JavaScript is a lightweight programming lauguage which is usually used for, and enhance, web applications via its animated visual and interactive behaviors, and it was first designed to complement Java. Indeed, program code from any high-level programming languages, which is closer to human languages but further from machines' operations, require translating into native machine instructions/code for a computer to run and execute. This translation process is usually done through interpreters or compilers. JavasScript by design is an interpreted language, but is now mostly, in modern browsers, operated via both interpreter and just-in-time compilers to translate source code to native machine code at runtime <sup>[8](#myfootnote8)</sup>. It is generally faster to kick start the code running process but it takes longer when the application is more complex and with longer interactions as extra runtime overhead will be incurred. <sup>[9](#myfootnote9)</sup> On the contrary, Java, a compiled and complex programming language, was first released to public in 1996 by Sun Microsystems, meaning that source code is typically written in an Integrated Development Environment (IDE). It is required to optimize and compile into static bytecode for computer processing by Java Virtual Machine (JVM). Java powers many desktop and mobile applications, from small apps on Android mobile devices to games like Minecraft <sup>[10](#myfootnote10)</sup>, while JavaScript mainly works for smaller web-based applications e.g websites and bots. For the purpose of the introduction to programming, we need something that is less complicated in terms of getting started but with a capacity to grow in proficiency. This is often called low floors and high ceilings<sup>[11](#myfootnote11)</sup>, and JavaScript is a good tool from such practical perspective. 
 
@@ -31,10 +31,10 @@ Similar to writing a document, you need an editor to write and document. For wri
 3. The next part is crucial for on-going development process, because you have to somehow decide where is your working folder. If you have no clue, you may consider to use 'Desktop'. (Foldering is a concept used for organizing files in your device, which is similar to organize papers, folders, books in a bookshelf or cooking utentials in a cabinet. With the increasing streamlined UX design, many people find alienated to navigate or locate the path and directory of files, like pictures, in a device as we are getting more used to put everything on the first few pages of a phone or on a desktop folder.)  
 4. I assume you put the unzipped folder 'p5' on a customized directory, then you should see the list of files under the folder as below. You should see the two p5.js libraries, one is the complete one (p5.js) and the other is the 'mini' version of it (p5.min.js). 
 <br><img src="ch1_2.png"> <br>
-*Figure 2: p5 folder hierarchy*
+*Figure 1.2: p5 folder hierarchy*
 5. Click on the folder 'empty-example', and then you will see a list of files and that will be the way to kick start:
 <br><img src="ch1_3.png"><br>
-*Figure 3: p5 folder hierarchy* 
+*Figure 1.3: p5 folder hierarchy* 
 
 *  **index.html** - the default Hypertext Markup Language (HTML) which will be first picked up by a web browser. HTML is a fundamental technology used to define the structure of a webpage and it can be customized to include text, links, images, multimedia, forms, and other different elements. 
 *  **sketch.js** - the key working file for writing JavaScript. 
@@ -47,7 +47,7 @@ ATOM will be used as a key code editor in this book. Apart from its free and ope
 1. Download the software ATOM from the homepage: https://atom.io/
 2. Drag the 'p5' folder that you have just unzipped onto ATOM. You should able to see the left-hand pane with your project. Then you try to navigate to the 'index.html' file under the 'empty-example' folder, double click that file and the source code should display on the right-hand pane. See below: 
 <br><img src="ch1_4.png" width="450"><br>
-*Figure 4: The file structure of ATOM* 
+*Figure 1.4: The file structure of ATOM* 
 
 The 'index.html' is the default page, among other pages and files, that a web browser will first pick up and display. You can customize a page title and other styling, but the focus for this chapter will be navigating the libaries and run our first program. Since p5.js is a library, here on line 8-11 which indicates how to incorporate javascript files and libraries by using the tags `<script>` and `</script>. `
 
@@ -56,7 +56,7 @@ Right now the script is using relative paths, which is a useful concept when we 
 Next you will need to install a package called 'atom-live-server'<sup>[19](#myfootnote19)</sup>, and this is useful for setting up a web server and you can update your code and see the result immediately on a browser without the need to refresh it. You can first check under 'Packages' on your menu bar and see if the package is there. If not, then go to Edit > Preferences > +Install, then type 'atom-live-server'. Hit the blue install button and you should able to find it again under the Packages menu. 
 
 <img src="ch1_5.png" width="500"> <br>
-*Figure 5: Installing atom-live-server* 
+*Figure 1.5: Installing atom-live-server* 
 
 If you want to customize the theme like the background color of the panes, simply go to Preferences > Themes.
 
@@ -82,7 +82,7 @@ function draw() {
 
 * To run the code, you just need to go to Packages > atom-live-server (or you can use the shortcut Crtl + Alt + L). Then there will be a popup window, click on the 'empty-example' folder and it should display something like below:
 <br><img src="ch1_6.png" width="500"> <br>
-*Figure 6: My first program*  
+*Figure 1.6: My first program*  
 
 ## 1.2.3.1 Exercise in class 
 1. Stop the atom-live-server by going to Packages > 'atom-live-server' > Stop (or to use the shortcut Ctrl + Alt + Q)  
@@ -94,7 +94,7 @@ function draw() {
 7. Can you run the program so that you can see almost the same screen as Figure 6 on a web browser?
 
 <br><img src="ch1_7.png" width="500"> <br>
-*Figure 7: My first program 1.1* 
+*Figure 1.7: My first program 1.1* 
 
 This exerise is to get you to familar with the path and local directory so as to know that running a sketch on a web browser requires to load the right path of the JavaScript libraries. As the book progress, you are also free to create your own folder name and rename the file like sketch.js as you wish. 
 
@@ -106,12 +106,12 @@ As you might aware, this book is not following the convention of most programmin
 In the sample code above, line 4 with the print() function that writes the text 'hello world'. To see the text, you need to open the web console area which is differently located according to browsers and you can try to search through navigating the menu bar. In Firefox browser, it is located under Tools > Web Developer > Web Console (Ctrl+Shift+K).
 
 <br><img src="ch1_8.png" width="400"> <br>
-*Figure 8: The console area* 
+*Figure 1.8: The console area* 
 
 At the bottom of the Figure 8, the web console area shows the text 'hello world'. What you know from this is that the sketch is running properly and it is able to read the print's function line. When you progress with this book, you will find that the web console area is very important, because you can also see error messages when, for example, the syntax is wrong and the browser will give you some good hints to bug fix your own code. Figure 9 shows that the web console area can specify which file (sketch.js) and which line of code (line 8) with problem (the syntax background was spelled wrong intentionally - see Figure 9).
 
 <br><img src="ch1_9.png" width="500"> <br>
-*Figure 9: Example of syntax error*  
+*Figure 1.9: Example of syntax error*  
 
 Indeed, Hello World program has a long history in computing, especially introduce to novice programmers to a programming language and making sure things are running. Wendy Hui Kyong Chun and Andrew Lison argue the first Hello World program is enjoyable and seductive <sup>[21](#myfootnote21)</sup>. On the one hand we rougly understand the line `print("hello world")` literally as it is  considered as human language: to 'print' the text 'hello world', which is understandable and straight forward; On the other hand, the computer is executing what exactly you want it to perform as printing a text through an 'instruction', giving you the immediate result which is rewarding. Such feedback "produce a feeling of power" that you start mastering technologies, transitioning from "immature students into programmers". 
 
@@ -127,7 +127,7 @@ There are some kinds of structure here which is hard to remember as a new langua
 For p5.js, functions are documented in the page called [References](https://p5js.org/reference/)<sup>[24](#myfootnote24)</sup> and they are structured in a similar fashion. Once you get used to their presentation, it will be easier and quicker to learn and write that syntax. 
 
 <img src="ch1_10.png" height="500"> <br>
-*Figure 10: The reference guide example - ellipse()* 
+*Figure 1.10: The reference guide example - ellipse()* 
 
 Let's read together for the reference in Figure 9 -  [`ellipse()`](https://p5js.org/reference/#/p5/ellipse)<sup>[25](#myfootnote25)</sup>. It usually starts with an example and an illustration, and you can click the 'edit' button to modify the code, especially changing the parameters on the fly and display the result immediately on a screen. 
 
@@ -136,7 +136,7 @@ The description part of the reference page explains how the function syntax work
 The syntax area demonstrates how it should be written precisely and the parameters' section explain further. For example: `ellipse(x, y, w, [h])`, it explains the first parameter x and the second parameter y are used to set the location of the ellipse in terms of x and y coordinate. The canvas is set in terms of pixel unit, and the [0,0] coordinate starts on the top left corner. The parameter w and h refers to the width and height of the ellipse and you can also think of it as the diameter, or setting the size, of the ellipse. The square bracket `[h]` is an optional parameter if the width and height of the ellipse is the same. 
 
 <img src="ch1_11.png" width="500"> <br>
-*Figure 11: Visualizing the ellipse* 
+*Figure 1.11: Visualizing the ellipse* 
 
 What we want to demonstrate here is that the references are important to start with, and explore it to discover other syntaxes and features, for example other shapes like rectangles and polygons. 
 
