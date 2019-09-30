@@ -89,9 +89,9 @@ function draw() {
   background(random(130,140));
 }
 ```
-<img src="ch2_3.png" width="400">
+<img src="ch2_3.png" width="400"><br>
 *Figure 2.3: Simple exercise* 
-
+<br>
 Remember the structure of a web page includes both the html, working javascript file (for example sketch.js) and p5.js associated libraries.  
 
 - Type the above source code in the working javascript file and then save the code. Run the program on ATOM (the live-atom-server with the shortcut Crtl+Alt+L) and you should see just a flashing rectangle on a screen. 
