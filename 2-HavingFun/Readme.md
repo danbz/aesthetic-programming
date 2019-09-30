@@ -141,7 +141,8 @@ For this example, two variables: 'moving_size' is more stable than 'static_size'
 
 There are two more variables in the example: `mouseX` and `mouseY`. These are changing variables and are subjected to the mouse movement to trace the coresponding x and y coordinates. If you want to know the mouseX and mouseY exact coordinate position, you may also use `print()` or `console.log` to display the two values onto the console area.
 
-<img src="https://media.istockphoto.com/vectors/school-or-changing-room-lockers-vector-id640307424" width="300"> <br>[need lockers illustration or sth like this: https://www.mathwarehouse.com/programming/images/pbv-vs-pbr/picture-pass-by-value-vs-reference-how-memory-works-with-locations.png /w] <br>
+<br><img src="https://media.istockphoto.com/vectors/school-or-changing-room-lockers-vector-id640307424" width="300"> <br>[need lockers illustration or sth like this: https://www.mathwarehouse.com/programming/images/pbv-vs-pbr/picture-pass-by-value-vs-reference-how-memory-works-with-locations.png /w] <br>
+
 Though there are many books use the metaphor of a container to illustrate the concept of variable, the use of lockers is to convey there is an address for each locker. Technically speaking, by declaring a variable, it also declares a location/address in which the computer memory can hold the value. In short, each variable stores at a block of computer memory which is located inside a physical memory like RAM. Each block has a identification which is called the memory address so that the computer knows where to store it and retrieve it while the program is run. As such, software and hardware is not separable, and it is just we can't able to see the inner micro-working of a computer.
 
 ## 2.3.1 Why use variables? 
@@ -196,7 +197,7 @@ outro:
   - **How** would you put your emoji into a wider cultural context that concerns representation,s identity, race, social, economics, culture, device politics and beyond? (Try to think through the assigned reading and your coding process, and then expand that to your experience and thoughts - this is a difficult task, you may need to spend sometimes in thinking about it)
 
 ## Required readings:
-- Abbing, R.R, Pierrot, P and Snelting, F., "[Modifying the Universal.](http://www.data-browser.net/db06.html)"Executing Practices. Eds. Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver. Open Humanities Press, 2018, pp. 35-51 
+- Abbing, R.R, Pierrot, P and Snelting, F., "[Modifying the Universal.](http://www.data-browser.net/db06.html)" *Executing Practices*. Eds. Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver. Open Humanities Press, 2018, pp. 35-51 
 - (OR) Snelting, Femke. [Modifying the Universal](https://www.youtube.com/watch?v=ZP2bQ_4Q7DY), MedeaTV, 2016. (1 hr 15 mins) 
 - p5.js. p5.js | Simple Shapes. [Web] Available at: https://p5js.org/examples/hello-p5-simple-shapes.html [Accessed 09 Sep. 2019].
 - Shiffman, Daniel. (2018) 1.3,1.4,2.1,2.2: Code! Programming with p5.js [online] Available at: https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2 [Accessed 09 Sep. 2019].
@@ -207,4 +208,34 @@ outro:
 - Cox, Geoff and Andersen, UC, Machine Feeling, *A Peer-Reviwed Journal About*, 8(1), 2019. Available at: https://tidsskrift.dk/APRJA/issue/view/8133
 
 ## Notes
+<a name="myfootnote1">1</a>: See for example the children book: Owyang Chan, V, *Geometry Is Fun For me* (Dog Ear Publishing, 2017).
 
+<a name="myfootnote2">2</a>: Goriunova, Olga, *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing* (New York, London: Bloomsbury, 2014, 4).
+
+<a name="myfootnote3">3</a>: Abbing, R.R, Pierrot, P and Snelting, F., "[Modifying the Universal.](http://www.data-browser.net/db06.html)" *Executing Practices*. Eds. Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, (Open Humanities Press, 2018, 35-51).; Abidin, Crystal and Gn, Joel. "Between art and application: Special issue on emoji epistemology", *first monday*, 23(9), 3 September 2018.; Stark, Luke, "Facial recognition, emotion and race in animated social media", *first monday*, 23(9), 3 September 2018.; Sweeney, Miriam E and Whaley, Kelsea, "Technically white: Emoji skin-tone modifiers as American technoculture", *first monday*, 24(7), 1 July 2019.;
+
+<a name="myfootnote4">4</a>: See https://www.telegraph.co.uk/technology/2016/07/15/new-gender-equality-emoji-to-show-women-at-work/
+
+<a name="myfootnote5">5</a>: Abbing, Pierrot and Snelting, *Modifying the Universal*. 
+
+<a name="myfootnote6">6</a>: Abbing, Pierrot and Snelting, *Modifying the Universal*, 210. 
+
+<a name="myfootnote7">7</a>: Goriunova, *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing*, 4.
+
+<a name="myfootnote8">8</a>: See http://www.o-r-g.com/apps/multi. 
+
+<a name="myfootnote9">9</a>: See the book cover of data-browser series: http://www.data-browser.net/
+
+<a name="myfootnote10">10</a>: See p5.js random reference: https://p5js.org/reference/#/p5/random
+
+<a name="myfootnote11">11</a>: See p5.js color reference: https://p5js.org/reference/#/p5/color
+
+<a name="myfootnote12">12</a>: See https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/
+
+<a name="myfootnote13">13</a>: See the tool p5.playground developed by Yining Shi:https://1023.io/p5-inspector/
+
+<a name="myfootnote14">14</a>: Witt, Steve, "Chinese Characters as Ancient 'Emoji'"", *Glocal Notes*, 2015, Web, available at: https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/
+
+<a name="myfootnote15">15</a>: Grothaus, Michael, "Women finally get a menstruation emoji", *Fastcompany*, 2019, Web, available at: https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji
+
+<a name="myfootnote16">16</a>: Abidin and Gn, "Between art and application".
