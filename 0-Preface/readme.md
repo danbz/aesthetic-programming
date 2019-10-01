@@ -2,13 +2,11 @@ Aesthetic Programming: A Handbook of Software Studies
 
 Preface
 
-What kind of book is this? Reading its subtitle, it is clearly meant to be a handbook of sorts, but not in any conventional technical sense of it being a prescribed set of instructions (how-to recipe-style book) in order to find out how to do something like coding in a straightforward relation (for ‘dummies’, if you pardon the expression).[Note: explain apology perhaps] This handbook is not simply meant to be read in order to learn to code or indeed to offer critical reflection upon the practice of coding alone. Instead, it is something more messy and at the same time ambitious: a book to represent a more complex and deeply entangled set of relations between writing and coding as forms of usable knowledge production. 
+What kind of book is this? Reading its subtitle, it is clearly meant to be a handbook of sorts, but not in any conventional technical sense of it being a prescribed set of instructions (how-to recipe-style book) in order to find out how to do something like coding in a straightforward relation (for ‘dummies’, if you pardon the expression).[Note: explain apology perhaps] This handbook is not simply meant to be read in order to learn to code or indeed to offer critical reflection upon the practice of coding alone. Instead, it is something more messy and at the same time ambitious: a book to represent a more complex and deeply entangled set of relations between writing and coding as forms of usable knowledge production.
 
 The book is aimed at those who would like to learn how to read, write and *think* with program code. Most programming books are written with a primary objective of teaching readers how to learn a programming language to become a good (or better) programmer. There is a strong emphasis on state-of-the-art technology, as well as practical examples that are explained and then designed to be deployed in IT-related or creative industries. Not many programming books address the cultural and aesthetic dimensions of programming as a means to think critically and computationally, or to gain an expanded ‘coding literacy’.[Note: see Vee] 
-// Explain this a bit more.
-In emerging trans-disciplinary fields involving computational technology - such as software studies, platform studies, and digital humanities to an extent - the practice of programming is incorporated into the object of study and yet little practical advice is provided, especially to those studying non-science and engineering disciplines. 
 
-This book attempts to address all these things, responding to this perceived gap in literature and the growing interest in ‘computational thinking’ to expand programming beyond the confines of computer science and engineering disciplines or even the digital huamnaities. Whilst operating broadly in the spirit of Software Studies, the book offers an overtly practice-oriented approach to understanding the centrality of reading, writing and thinking with software as a critical tool for our times, in recognition of the way in which our experiences are ever more programmed. It is offered as a deep learning tool - a handbook for those unaccustomed to programming - and one that allows for the critical agency of the programmer to develop as they become more proficient in both their technical and conceptual skills. 
+In emerging trans-disciplinary fields involving computational technology - such as software studies, platform studies, and digital humanities to an extent - the practice of programming is incorporated into the object of study and yet little practical advice is provided, especially to those studying non-science and engineering disciplines. This book attempts to address the practical and conceptual challenge here, responding to this perceived gap in literature and the growing interest in ‘computational thinking’ to expand programming beyond the confines of computer science and engineering disciplines or even the digital huamnaities. Whilst operating broadly in the spirit of Software Studies, the book offers an overtly practice-oriented approach to understanding the centrality of reading, writing and thinking with software as a critical tool for our times, in recognition of the way in which our experiences are ever more programmed. It is offered as a deep learning tool - a handbook for those unaccustomed to programming - and one that allows for the critical agency of the programmer to develop as they become more proficient in both their technical and conceptual skills. 
 
 Why Aesthetic Programming?
 
@@ -58,6 +56,14 @@ We acknowledge numerous experimental publishing initiatives and even anti-platfo
 - include some aspects of the proposal - audience address
 
 
+So what is coding literacy, and why is it important? 
+Literacy is important here inasmuch as we draw upon cultural studies 
+// Explain this a bit more.Hoggart
+
+
+
+
+
 00.1 Coding Literacy
 Uses of Literacy - Richard Hoggart
 this informs the development of Cultural Studies initially around the inclusion of working class cultures and an expanded notion of literacy... Also Raymond Williams’ Cultural Materialism - all from a literary tradition. 
@@ -91,6 +97,6 @@ https://books.google.dk/books?hl=en&lr=lang_en&id=fISYDwAAQBAJ&oi=fnd&pg=PA69&dq
 The book aims to expose something of what Adrian Mackenzie has identified as “auto-archaeology” to indicate how the object of study is fully integrated into the analysis.[see Adrian Mackenzie’s preface to Machine Learners: Archaeology of a Data Practice, MIT Press 2017] An insight into the background thinking of his *Machine Learners* can be found on the associated GitLab site at https://github.com/datapractice/machinelearners. 
 Matthew Fuller, Andrew Goffey, Adrian Mackenzie, Richard Mills and Stuart Sharples, "Big Diff, Granularity, Incoherence, and Production in the Github Software Repository" in How To Be a Geek: Essays on the Culture of Software.
 
-So what is coding literacy, and why is it important?
+
 
 //[will add the emperical exp in teaching the AP course in the last 4-5 years]
