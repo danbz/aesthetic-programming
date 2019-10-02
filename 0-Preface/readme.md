@@ -2,7 +2,7 @@
 
 **Preface**
 
-**What kind of book is this? **
+**What kind of book is this?**
 
 Reading its subtitle, it is clearly meant to be a handbook of sorts, but not in any conventional technical sense of it being a prescribed set of instructions (how-to recipe-style book) in order to find out how to do something like coding in a straightforward relation (for ‘dummies’, if you pardon the expression).[Note: explain how dummy doesn't follow political correctness] This handbook is not simply meant to be read in order to learn to code or indeed to offer critical reflection upon the practice of coding alone. Instead, it is something more messy and at the same time ambitious: a book to represent a more complex and deeply entangled set of relations between writing and coding as applied and usable knowledge.
 
@@ -16,7 +16,7 @@ Our intention is that readers will acquire key skills of programming in order to
 
 We aim to bridge the gap between theories of computational culture, aesthetic theory and cultural studies, and the practice of programming and thereby to provide new (epistemic) insights. As part of this, we take a particular interest in power relations rarely acknowledged, such as class, gender, race, and the authoritarian logic of command and control built into computational systems. In short, the handbook introduces and demonstrates a distinctive approach through the intersectional and reflexive practice of aesthetic programming as we understand it.
 
-**So why aesthetic programming? **
+**So why aesthetic programming?**
 
 The position the book presents is that computational culture is not just a trendy subject to study or a way to understand what is happening with computational processes, but something to engage in as an active way to create change. Thus we consider programming to be a cultural practice and phenomenon, as thinking and doing in the world, to understand some of the complex procedures that underwrite our lived realities, and to act upon that reality.  
 
