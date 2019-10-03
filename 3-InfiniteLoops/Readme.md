@@ -5,7 +5,7 @@ In computer programming, the concept of a loop is highly related to repetition, 
 
 Mathematician Augusta Ada Byron Lovelace first introduced the concept of a loop in the early nineteenth century. She recognised that there were repeatable operations in the early conceptual design of the operating machine that was regarded as “the first automatic, general-purpose computing machine ever designed” (ref: Kim & Toole, 1999, p. 76), known as Charles Babbage’s Analytical Engine. The concept of a loop, which she called a ‘cycle,’ was conceived in 1834 in her notes on the Analytical Engine which set a precedent for the direction in which digital computers would be later developed. Her notes include (in the form of a diagram in Note G.) the program procedures, also called the Bernoulli numbers program, of the Analytical Engine. The diagram utilises two loops to indicate the repetition of a set of instructions with conditions (ref: Kim & Toole, 1999, p. 78), minimizing duplicate efforts to write the repeatable operation again. Arguably, the concept of a loop in modern coding practice is highly influenced by her insights into the handling of repeated machine operations in a concrete diagramatic manner, which depict the essence of repetition and condition in a cycle. Modern high-level programming language includes a loop function, allowing a fragment of source code to be repeatedly executed (ref Nakov et al., 2013, p. 211). 
 
-<img src="http://media.factmyth.com/2015/10/ada-lovelace-bernoulli-note-g.jpg" width ="700">
+<img src="http://media.factmyth.com/2015/10/ada-lovelace-bernoulli-note-g.jpg" width ="700"><br>
 *Figure 3.1: The diagram on Bernoulli in Note G by Ada Lovelace*
 
 ### 3.1.1 Start()
@@ -13,7 +13,7 @@ For this chapter, we are using the cultural icon - Throbber as a way to guide th
 
 ## 3.2 Decode 
 We are moving from static objects (like shapes) to moving objects here. 
-<img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class03/throbber.gif">
+<img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class03/throbber.gif"><br>
 *Figure 3.2: What you see in the sample code* 
 
 Task 1: By examining the RUNME (ref) of a simple throbber, can you describe the different elements of the work and imagine how they operate computationally in human language.
@@ -32,7 +32,8 @@ Task 1: By examining the RUNME (ref) of a simple throbber, can you describe the 
     - why push() and pop() are used here?
     
 **technical question/issues:**
-    - what is this line means? `let cir = 360/num*(frameCount%num);` (can check with [Golan Levin's tutorial](https://www.youtube.com/watch?v=r5Iy3v1co0A) on the modulo operator<ref: https://www.youtube.com/watch?v=r5Iy3v1co0A>)
+    - what is this line means? `let cir = 360/num*(frameCount%num);` (can check with [Golan Levin's tutorial](https://www.youtube.com/watch?v=r5Iy3v1co0A) on the modulo operator(ref: https://www.youtube.com/watch?v=r5Iy3v1co0A) 
+    
     - What does this function do?
     
     ```javascript
@@ -40,6 +41,7 @@ Task 1: By examining the RUNME (ref) of a simple throbber, can you describe the 
     //something here
     }
    ```
+   
     - To display an image, you can use the syntax  `createImg()` or  `loadImg()`, but the later one only loads the first frame if it is an animated gif
     
     ```javascript
