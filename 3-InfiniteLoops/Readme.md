@@ -58,7 +58,7 @@ By examining the RUNME (ref) of a simple throbber, can you describe the differen
 
 New functions in this sketch: translate(), frameCount(), rotate(), modulo/%, radians, createImg(), image.position and image.size, passing argument within functions,
 
-....continue here
+//continue here
 
 ## loops
 Iterations: For/ While Loops
@@ -87,7 +87,7 @@ Temporalities: real-time, machine time, micro-time and just-in-time (live) codin
 
 ## Notes: 
 
-===
+//
 https://gitlab.com/siusoon/aesthetic-programming/blob/master/Ap2019/class03/class03.md
 
 In-Class structure:
