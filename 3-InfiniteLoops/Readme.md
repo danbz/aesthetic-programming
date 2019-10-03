@@ -13,12 +13,12 @@ For this chapter, we are using the cultural icon - Throbber as a way to guide th
 
 ## 3.2 Decode 
 We are moving from static objects (like shapes) to moving objects here. 
-<img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class03/throbber.gif"><br>
+<img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class03/throbber.gif" width="300"><br>
 *Figure 3.2: What you see in the sample code* 
 
-Task 1: By examining the RUNME (ref) of a simple throbber, can you describe the different elements of the work and imagine how they operate computationally in human language.
+By examining the RUNME (ref) of a simple throbber, can you describe the different elements of the work and imagine how they operate computationally in human language.
 
-**Speculation** - based on what you see on the screen:
+1) **Speculation** - based on what you see on the screen:
     - What do you see/hear/experience on the screen?
         - what are the elements on the screen?
         - how many ellipses at the center?
@@ -26,19 +26,19 @@ Task 1: By examining the RUNME (ref) of a simple throbber, can you describe the 
         - how to make the ellipse fades out and rotates to the next position?
         - where is the image? (how to position the image?)
         
-**Mapping** - map the mapping elements with the code procedures:
+2) **Mapping** - map the mapping elements with the code procedures:
     - what are the elements in setup() and draw()?
     - what is translate()?
     - why push() and pop() are used here?
     
-**technical question/issues:**
-    - what is this line means? `let cir = 360/num*(frameCount%num);` (can check with [Golan Levin's tutorial](https://www.youtube.com/watch?v=r5Iy3v1co0A) on the modulo operator(ref: https://www.youtube.com/watch?v=r5Iy3v1co0A) 
+3) **technical question/issues:**
+    - what this line means? `let cir = 360/num*(frameCount%num);` (can check with [Golan Levin's tutorial](https://www.youtube.com/watch?v=r5Iy3v1co0A) on the modulo operator(ref: https://www.youtube.com/watch?v=r5Iy3v1co0A) 
     
-    - What does this function do?
+    - What is special about the below function struture? 
     
     ```javascript
     function drawThrobber(num) {
-    //something here
+        //something here
     }
    ```
    
@@ -59,7 +59,7 @@ Task 1: By examining the RUNME (ref) of a simple throbber, can you describe the 
 New functions in this sketch: translate(), frameCount(), rotate(), modulo/%, radians, createImg(), image.position and image.size, passing argument within functions,
 
 
->>>>> continue HERE
+[continue HERE]
 
 ## loops
 Iterations: For/ While Loops
