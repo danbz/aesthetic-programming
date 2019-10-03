@@ -32,7 +32,7 @@ By examining the RUNME (ref) of a simple throbber, can you describe the differen
     - why push() and pop() are used here?
     
 3) **technical question/issues:**
-    - what this line means? `let cir = 360/num*(frameCount%num);` (can check with [Golan Levin's tutorial](https://www.youtube.com/watch?v=r5Iy3v1co0A) on the modulo operator(ref: https://www.youtube.com/watch?v=r5Iy3v1co0A) 
+    - `let cir = 360/num*(frameCount%num);` <br> What this line means? (can check with [Golan Levin's tutorial](https://www.youtube.com/watch?v=r5Iy3v1co0A) on the modulo operator(ref: https://www.youtube.com/watch?v=r5Iy3v1co0A) 
     
     - What is special about the below function struture? 
     
@@ -54,7 +54,7 @@ By examining the RUNME (ref) of a simple throbber, can you describe the differen
     function draw() {
         loading_createimg.position(width/2-loading_createimg.width/2,20); //loads GIF - related to the width of the gif
     }
-  ```
+   ```
 
 New functions in this sketch: translate(), frameCount(), rotate(), modulo/%, radians, createImg(), image.position and image.size, passing argument within functions,
 
