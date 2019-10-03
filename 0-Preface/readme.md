@@ -2,9 +2,9 @@
 
 **Preface**
 
-*What kind of book is this?*
+// What kind of book is this?
 
-Reading its subtitle, it is clearly meant to be a handbook of sorts, but not in any conventional technical sense of it being a prescribed set of instructions (how-to recipe-style book) in order to find out how to do something like coding in a straightforward relation (for ‘dummies’, if you pardon the expression).[Note: explain how dummy doesn't follow political correctness] This handbook is not simply meant to be read in order to learn to code or indeed to offer critical reflection upon the practice of coding alone. Instead, it is something more messy and at the same time ambitious: a book to represent a more complex and deeply entangled set of relations between writing and coding as applied and usable knowledge.
+Reading its subtitle, this book is clearly meant to be a handbook of sorts, but not in any conventional technical sense of it being a prescribed set of instructions (how-to recipe-style book) in order to find out how to do something like coding in a straightforward relation (for ‘dummies’, if you pardon the expression).[Note: explain how dummy doesn't follow political correctness] This handbook is not simply meant to be read in order to learn to code or indeed to offer critical reflection upon the practice of coding alone. Instead, it is something more messy and at the same time ambitious: a book to represent a more complex and deeply entangled set of relations between writing and coding as applied and usable knowledge.
 
 The book is aimed at those who would like to learn how to read, write and *think* with program code. Most programming books are written with a primary objective of teaching readers how to learn a programming language to become a good (or better) programmer, with an emphasis on state-of-the-art technology, as well as practical examples that are explained and then designed to be deployed in IT-related or creative industries. Not many programming books address the cultural and aesthetic dimensions of programming as a means to think critically and computationally. 
 
@@ -16,7 +16,7 @@ Our intention is that readers will acquire key skills of programming in order to
 
 We aim to bridge the gap between theories of computational culture, aesthetic theory and cultural studies, and the practice of programming and thereby to provide new (epistemic) insights. As part of this, we take a particular interest in power relations rarely acknowledged, such as class, gender, race, and the authoritarian logic of command and control built into computational systems. In short, the handbook introduces and demonstrates a distinctive approach through the intersectional and reflexive practice of aesthetic programming as we understand it.
 
-*So why aesthetic programming?*
+// So why aesthetic programming?
 
 The position the book presents is that computational culture is not just a trendy subject to study or a way to understand what is happening with computational processes, but something to engage in as an active way to create change. Thus we consider programming to be a cultural practice and phenomenon, as thinking and doing in the world, to understand some of the complex procedures that underwrite our lived realities, and to act upon that reality.  
 
@@ -28,7 +28,7 @@ Technology plays its part here, and the infamous artwork essay by Benjamin becom
 
 To do this we have been working with key concepts from programming as the starting point for our analysis (such as class, function, loop), thereby not reading cultural phenomena in relation to programming concepts but the other way around where the programming leads the discussion through a deep understanding of the way it is constructed and operationalized. The common ground therefore with both courses promotes the practical understanding and knowledge of programming to underpin critical understanding of techno-cultural systems, often informed by expertise in both fields as in the case of Wendy Hui Kyong Chun who manages to embody such crossovers. [Note: She has studied both Systems Design Engineering and English Literature, which she combines and mutates in her current work on digital media, see https://en.wikipedia.org/wiki/Wendy_Hui_Kyong_Chun] 
 
-*And software studies?*
+// And software studies?
 
 So we draw upon the field of Software Studies -- the work of Wendy Chun and others -- to deal with and communicate knowledge of software as a cultural form via analyses of examples of software artefacts and close readings of theoretical texts. {Note" Add something about Critical Code Studies too] In terms of form we take our cue from Matthew Fuller's *Software Studies: A Lexicon* from 2008, structured literally as a lexicon of key terms, it in turn taking its cue from the Raymond Williams' *Keywords: A Vocabulary of Culture and Society* published in 1976.[Note: add REFS] In many ways, and put simply, our book can be thought of as an update of both books but with far more attention to the culture of software from the inside, but also like any lexicon, as a way to attest to the ways in which words exert power through meanings and also through their actions as instructions. In this respect it is also important to recognise that the book Software Studies comes from a workshop, and it is worth quoting the project page for its clarity of intention: 
 
@@ -39,7 +39,7 @@ Like this, we believe that paying attention to key concepts from programming off
 
 In order to discuss the expressivity and aesthetic dimensions of code and computational processes, this book incorporates and presents artistic works that explore the material conditions of software and operations of computational processes alongside the practical and theoretical examination of programming. We might add, and repeating what has already been said, that we are not simply interested in a critical aesthetics of programming but also programming as critical aesthetics. This comes with a challenge over language as has also been expressed thus far, or what we might call an *expanded literacy* as the ability to read, write, *and program*. 
 
-Programming literacy
+// Programming literacy
 
 Literacy is important here to explain how new kinds of reading and writing are required to account for significant cultural and technical changes. We can root this back to the beginnings of cultural studies as a field, and Richard Hoggart's "Uses of Literacy" that included working class cultures as part of what we call culture that was previously the preserve of an elite, and thereby introducing an expanded and politicised notion of literacy. [Notes: add REF; add that Raymond Williams’ cultural materialism also derives from literary theory.] Clearly literacy is a shifting 
 changing literacy - Walter Ong’s Orality and Literacy... (maybe even Neil Postman)
