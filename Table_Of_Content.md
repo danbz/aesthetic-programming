@@ -11,7 +11,7 @@
 * Free and Open-source software and culture
 * Mini-ex 1: Think About My First Program
 
-## Chapter 2: Geometric Emojis
+## Chapter 2: Variable Geometry
 * Multi by David Reinfurt (cf. sundial project for next chapter)
 * Basics: coordination, variables, geometry, shapes/patterns, faces (with p5.playground)
 * Having fun, and not just for fun, with software, free speech and injurious words, bad jokes
