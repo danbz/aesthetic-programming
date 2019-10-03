@@ -13,7 +13,7 @@ For this chapter, we are using the cultural icon - Throbber as a way to guide th
 
 ## 3.2 Decode 
 We are moving from static objects (like shapes) to moving objects here. 
-<img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class03/throbber.gif" width="300"><br>
+<br><img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class03/throbber.gif" width="300"><br>
 *Figure 3.2: What you see in the sample code* 
 
 By examining the RUNME (ref) of a simple throbber, can you describe the different elements of the work and imagine how they operate computationally in human language.
