@@ -58,8 +58,7 @@ By examining the RUNME (ref) of a simple throbber, can you describe the differen
 
 New functions in this sketch: translate(), frameCount(), rotate(), modulo/%, radians, createImg(), image.position and image.size, passing argument within functions,
 
-
-[continue HERE]
+....continue here
 
 ## loops
 Iterations: For/ While Loops
