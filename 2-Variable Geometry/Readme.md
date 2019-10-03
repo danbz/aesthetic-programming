@@ -148,14 +148,14 @@ There are two more variables in the example: `mouseX` and `mouseY`. These are ch
 
 [need lockers illustration or sth like this: https://www.mathwarehouse.com/programming/images/pbv-vs-pbr/picture-pass-by-value-vs-reference-how-memory-works-with-locations.png /w] <br>
 
-Though there are many books use the metaphor of a container to illustrate the concept of variable, the use of lockers is to convey there is an address for each locker. Technically speaking, by declaring a variable, it also declares a location/address in which the computer memory can hold the value. In short, each variable stores at a block of computer memory which is located inside a physical and concrete memory like RAM. Each block has a identification which is called the memory address so that the computer knows where to store it and retrieve it while the program is run. As such, software and hardware is not separable, and it is just we can't able to see the inner micro-working of a computer.
+Though there are many books use the metaphor of a container to illustrate the concept of variable, the use of lockers is to convey there is an address for each locker. Technically speaking, by declaring a variable, it also declares a location/address in which the computer memory can hold the value. In short, each variable stores at a block of computer memory which is located inside a physical and concrete memory like RAM. Each block has a identification which is called the memory address so that the computer knows where to store it and retrieve it while the program is run. As such, software and hardware is not separable, and it is just we can't able to see the inner micro-working of a computer in handling .
 
 ## 2.3.1 Why use variables? 
-As you learn to program more complex software, you will know it is very common to use variables to store values and data. Furthermore, by having a meaningful naming, it gives a sense of how a program is structured to humans. More importantly, the value of variables can be changed while a program is run in real-time. The earlier variables: mouseX and mouseY may serve the purpose of illustrating the point because the coordinate of the mouse will change according to the movement. We will also discuss variable again in the next Chapter with the concept of loop and repetition. 
+As you learn to program more complex software, you will know it is very common to use variables to store values and data. More importantly, the value of variables can be changed while a program is run in real-time. The earlier variables: mouseX and mouseY may serve the purpose of illustrating the point because the coordinate of the mouse will change according to the movement. We will also discuss variable again in the next Chapter with the concept of loop and repetition. 
 
 Another reason is that if you have longer lines of code, it is easier to have all the variables that you have declared for the program as an overview. As such you can change the value for testing, for example different size of shapes, but without locating the specific line of code. Morever, it is also easier for others to read your code with a well-thought variable name when you have to use it in different parts of your program.
 
-This leads to the reusability of variables. Variables can be used in different functions and more than one function, just like static_size variable in the sample code for drawing both the ellipse and the rectangle.
+This leads to the reusability of variables. Variables can be used in different functions and more than one function (and also as arguments passed to a function subroutine where we will discuss in the next chapter), just like static_size variable in the sample code for drawing both the ellipse and the rectangle. 
 
 ## 2.4 Other functions 
 This section is to briefly introduce other new functions in the sample code, in which drawing and designing a emoji requires different decisions, in terms of shapes, color and spaitial composition. 
@@ -171,15 +171,15 @@ This section is to briefly introduce other new functions in the sample code, in 
 1. Think: Try to look into [existing emojis](https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg) or your handset, and reflect upon the complexity of human emotions and the abstracted human representation. What's your experience in using emojis? What's the cultural implications of emojis (perhaps can refer to the readings)? 
 2. Discussion: What constitute a face? If you have to use the view of essentialism, what will you have for a facial expression and why those elements are essential from your point of view? What have been abstracted and excluded then?
 3. Beyond the face: Take a look at [more emojis](https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/)<sup>[13](#myfootnote13)</sup> beyond facial expression, are there anything you want to add? 
-4. Exploration: Try out the interactive online tool [p5.playground](https://1023.io/p5-inspector/)<sup>[14](#myfootnote14)</sup> developed by Yining Shi, and do some sketching of emojis. 
+4. Exploration: Try out the interactive online tool [p5.playground](https://1023.io/p5-inspector/)<sup>[14](#myfootnote14)</sup> developed by Yining Shi, and do some sketching of emojis by paying attention to spatial composition and foundational design elements. 
 5. Experiment with p5.js: How would you translate your thoughts into lines of code? You may want to print out the coordinates of mouse press on the console area to get a more accurate position of your shapes. 
 
 ## 2.6 While()
 outro:
-- emoticons 
-- link to Femke + constant works on emoticons (race)
+
 - faciality machines (Deleuze)
 - facial recognition
+- geometry and variable
 
 ## 2.7 Mini_Exercise[2]: Geometric emoji
 **Objective:**
@@ -208,10 +208,11 @@ outro:
 - Shiffman, Daniel. (2018) 1.3,1.4,2.1,2.2: Code! Programming with p5.js [online] Available at: https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2 [Accessed 09 Sep. 2019].
 
 ## Further reading:
+- Robinson, Derek. "Variables" in *Software Studies* (Fuller, M ed), MIT Press 2008.
 - Goriunova, Olga, *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing*, New York, London: Bloomsbury, 2014, pp.1-19 (Introduction chapter)
 - Abidin, Crystal and Gn, Joel (eds), Histories and cultures of emoji vernaculars, *first monday*, 23(9), September, 2018. Available at: https://firstmonday.org/ojs/index.php/fm/issue/view/607
 - Cox, Geoff and Andersen, UC, Machine Feeling, *A Peer-Reviwed Journal About*, 8(1), 2019. Available at: https://tidsskrift.dk/APRJA/issue/view/8133
-- Robinson, Derek. "Variables" in *Software Studies* (Fuller, M ed), MIT Press 2008.
+
 
 ## Notes
 <a name="myfootnote1">1</a>: See for example the children book: Owyang Chan, V, *Geometry Is Fun For me* (Dog Ear Publishing, 2017).
