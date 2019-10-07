@@ -99,13 +99,12 @@ To display the throbber image in a PNG format, the sample code utilizes few func
 
 1. `function preload() {}`: This function is called directly before `setup()` and `draw()`. The purpose is to make sure the image is loaded fully before starting other things. It is very useful when the image is big in size and you have multiple of them. Similarly, you can also load files/data that are related to other medium like sounds, text files, etc.  
 - `loadImage()`: This syntax is to specify what you want to load and this is about loading an image. The image file is located inside the data folder, and as such a relative path to the index.html file is written `img = loadImage("data/waiting.png");`. Since we need to reuse the image in order to display in a particular position (or you may want to further manipulate the image), therefore a global variable has been defined as `let img` at the top. 
-- `image()`: This is a syntax to draw an image on the canvas. At the most basic level it specifics three parameters 1) which image, 2 & 3) where to locate in terms of x and y coordinates - `image(img, (width-img_width)/2,(height-img_height)/2);`. Further parameters include the size you want to display, as well as displaying the subsection of the source image. [ref: https://p5js.org/reference/#/p5/image] For this sample code, I want to simply display the image in the middle, as such the program makes use of the variables `width` and `height` of the canvas (can refer to the previous chapter) as well as the size of the actual image file, which has defined through global variables, to calculate and position the image at the center.
+- `image()`: This is a syntax to draw an image on the canvas. At the most basic level it specifics three parameters 1) which image, 2 & 3) where to locate in terms of x and y coordinates - `image(img, (width-img_width)/2,(height-img_height)/2);`. Further parameters include the size you want to display, as well as displaying the subsection of the source image. [ref: https://p5js.org/reference/#/p5/image] For this sample code, I want to simply display the image in the middle, as such the program makes use of the variables `width` and `height` of the canvas (can refer to the previous chapter) as well as the size of the actual image, which has defined through global variables, to calculate and position the image at the center via arithmetic operations.
+
+## 3.5 Function
 
 
 
-There are few new syntax here:
-
-image 
 function: preload and passing arguments 
 transform: translate, rotate, push and pop 
 using global and local variables 
