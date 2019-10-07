@@ -40,13 +40,6 @@ By examining the RUNME (ref) of a simple throbber, can you describe the differen
 4) **Technical question/issues:**
     - `let cir = 360/num*(frameCount%num);` <br> What this line means? (can check with [Golan Levin's tutorial](https://www.youtube.com/watch?v=r5Iy3v1co0A) on the modulo operator(ref: https://www.youtube.com/watch?v=r5Iy3v1co0A) 
     
-    - What is special about the below function struture? 
-    
-    ```javascript
-    function drawThrobber(num) {
-        //something here
-    }
-   ```
 ### 3.2.1 Source Code
  ```javascript
 //ch3_1
@@ -153,6 +146,10 @@ function drawElements() {
 ```
 The last three lines are about the drawing of two static red lines on the left and right side of the canvas. Logically speaking, the translate and rotate functions should also apply to these two lines but because the `pop()` function is in placed right after all the drawing of ellipses and such transform features, therefore, would not impact the lines. But if you move the line `pop()` till the end, then the two lines will also rotate and translate. This is to illustrate the idea of how `push()` and `pop()` could be used and where to place them does matter (ref: https://p5js.org/reference/#/p5/push).
 
+## 3.6 Exercise in class
+- This exercise is about structuring code. How would you restructure the sample code again so that it is easier for others to understand but without the change of visual outcome? There is no right or wrong answers but some pointers below might facilitate discussion: 
+    - you may think of rename the function and add new functions
+    - Instead of having `drawElements()`, can we have `drawThrobber()` and `drawLines()`?
 
 ## loops
 Iterations: For/ While Loops
