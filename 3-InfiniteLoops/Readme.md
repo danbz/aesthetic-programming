@@ -30,7 +30,7 @@ By examining the RUNME (ref) of a simple throbber, can you describe the differen
         - how to make a ellipse fades out and rotates to the next position?
         - how to position the ellipse, the red lines and the image?
         
-2) **Experimenting** - Change some of the code parameters
+2) **Experimention** - Change some of the code parameters
     - Try to change some of the parameters e.g background(), framerate(), drawThrobber()
     - There are some new functions are used, can you check that out in the p5.js reference? (e.g loadImage(), push(), pop(), translate(), rotate())
     
@@ -69,10 +69,11 @@ function draw() {
   noStroke();
   rect(0, 0, width, height);
   image(img, (width-img_width)/2,(height-img_height)/2);
-  drawThrobber(9);  //pass to another function, try changing this number
+  drawElements();
 }
 
-function drawThrobber(num) {
+function drawElements() {
+  let num =9;
   push();
   translate(width/2, height/2); //move things to the center
   // 360/num >> degree of each ellipse' move ;frameCount%num >> get the remainder that indicates the movement of the ellipse
@@ -102,12 +103,31 @@ To display the throbber image in a PNG format, the sample code utilizes few func
 - `image()`: This is a syntax to draw an image on the canvas. At the most basic level it specifics three parameters 1) which image, 2 & 3) where to locate in terms of x and y coordinates - `image(img, (width-img_width)/2,(height-img_height)/2);`. Further parameters include the size you want to display, as well as displaying the subsection of the source image. [ref: https://p5js.org/reference/#/p5/image] For this sample code, I want to simply display the image in the middle, as such the program makes use of the variables `width` and `height` of the canvas (can refer to the previous chapter) as well as the size of the actual image, which has defined through global variables, to calculate and position the image at the center via arithmetic operations.
 
 ## 3.5 Function
+A function of code in p5.js starts with the syntax `function() {}`, containing "a self-contained section of code" (Ref: Derek p. 101) to peform a certain task. For the most basic built-in functions in p5.js, `setup()` and `draw()`, specifying the contained code in relation to a particular purpose as setting up the environment for running the program, as well as doing things over time. Other built-in functions include `preload()` and `windowResized()` in the provided sample code, which serve the purpose of preload image(s) and readjust the canvas size if there is any event of window resizing. The later one suggests an event listener implements at the code level to not only run once, but *constantly* listening to events of window resizing specifically and it is similar to other listening events such as `mouseIsPressed()`. This is considered as asynchronicity, which means some other events occur concurrently with the main program flow. For these event listeners, it works fine but this may not be good for all the scenarios. If some of the images or files are too big, then it takes time to load and display on a screen. Having running the setup and draw function but the images or files are not fully loaded will result in empty display. To escape from such asynchronicity, the function `preload()` is used to force the program finish loading files before the program moves to setup and draw. 
+
+Apart from built-in functions, the sample code contains the custom-one called `function drawElement();` which is invoked by line 21: `drawElement();` within the `draw()` function. Defining a function is relatively simple in JavaScript with the keyword "function". From the function name "drawElement", one may get a sense of what this function does, which is mainly to draw ellipses and the two lines in a particular size, position and color, as well as making ellipses and lines to rotate in a clock-wise direction and statically stay at a position respectively. There are many ways to achieve drawing the same result especially with object-oriented approach but we are still in the early stage of learning to program, therefore we work on example that can do similar tasks that can be more aligned with our learning progress. Some of the code are intentionally written in a way that is less efficient but can serve the purpose of unfolding some of the key elements. 
+
+Programmers like to split a big task into smaller operations and procedures, which is easier to structure, manage, debug, read and potentially collaborate with other programmers. In `function drawElement();`, the sample code is just simply seperate out from the function `draw()`, and clearly indicate this particular part of code relates to drawing the different elements on a screen. Of course one can also seperate out the drawing of ellipses and lines, and it is a subjective decision to decide how details you need to seperate the tasks.  
+
+There is another type of function where you can specify with arguments passing to the function and receive a return value.  See below example:
+```javascript
+let x = sum(4, 3, 2);   
+print(x);
+function sum(a, b, c) { //passing values 4 as a, 3 as b, 2 as c to the function sum
+  return a + b + c; //return statement 
+}
+```
+> output: 
+"9"
+
+You can also try to type this in the console area `let x = sum(4, 3, 2);function sum(a, b, c) {return a + b + c;} print(x);` and it returns the number 9 as the output which has summed the values 4, 3 and 2. The arguments a, b and c are parameter variables. The function "sum" can be reused if you pass other values say another line of code `let y = sum(5,6,7);` and the return value of y would be 18. 
+
+## 3.6 Transformation
 
 
 
-function: preload and passing arguments 
 transform: translate, rotate, push and pop 
-using global and local variables 
+
 
 
 
@@ -135,6 +155,7 @@ Temporalities: real-time, machine time, micro-time and just-in-time (live) codin
 
 ## Further reading:
 - Bek, Wilfried Hou Je. "Loop" in Software Studies (Fuller, M ed), MIT Press 2008.
+- Robinson, Derek. "Function" in Software Studies (Fuller, M ed), MIT Press 2008.
 - Farman, Jason. Fidget Spinners. *Real Life*, 2017.
 
 ## Notes: 
