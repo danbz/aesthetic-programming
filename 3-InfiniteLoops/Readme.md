@@ -28,7 +28,7 @@ By examining the RUNME (ref) of a simple throbber, can you describe the differen
         - how to set the background color?
         - how does an ellipse rotate? 
         - how to make a ellipse fades out and rotates to the next position?
-        - how to position the ellipse, the red lines and the image?
+        - how to position the static black throbber and yellow lines, as well as the moving ellipses?
         
 2) **Experimention** - Change some of the code parameters
     - Try to change some of the parameters e.g background(), framerate(), drawThrobber()
@@ -77,7 +77,7 @@ function drawElements() {
   ellipse(35,0,22,22);  //the moving dot(s), the x is the distance from the center
   pop();
 
-  stroke(255,0,0);
+  stroke(255,255,0);
   line(60,0,60,height);   //a static line
   line(width-60,0,width-60,height);   //a static line
 }
@@ -144,7 +144,7 @@ function drawElements() {
   line(width-60,0,width-60,height);   //a static line
 }
 ```
-The last three lines are about the drawing of two static red lines on the left and right side of the canvas. Logically speaking, the translate and rotate functions should also apply to these two lines but because the `pop()` function is in placed right after all the drawing of ellipses and such transform features, therefore, would not impact the lines. But if you move the line `pop()` till the end, then the two lines will also rotate and translate. This is to illustrate the idea of how `push()` and `pop()` could be used and where to place them does matter (ref: https://p5js.org/reference/#/p5/push).
+The last three lines are about the drawing of two static yellow lines on the left and right side of the canvas. Logically speaking, the translate and rotate functions should also apply to these two lines but because the `pop()` function is in placed right after all the drawing of ellipses and such transform features, therefore, would not impact the lines. But if you move the line `pop()` till the end, then the two lines will also rotate and translate. This is to illustrate the idea of how `push()` and `pop()` could be used and where to place them does matter (ref: https://p5js.org/reference/#/p5/push).
 
 ## 3.6 Exercise in class
 - This exercise is about structuring code. How would you restructure the sample code again so that it is easier for others to understand but without the change of visual outcome? There is no right or wrong answers but some pointers below might facilitate discussion: 
