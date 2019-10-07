@@ -167,21 +167,41 @@ This section is to briefly introduce other new functions in the sample code, in 
 - `floor()`: Since the random function returns a floating-point number instead, the use of `floor()` is to calculate the closest integer value. 
 - `if (mouseIsPressed) {}`: This is a conditional structure for a program, constantly listening to mouse press actions. This wil be further discussed in Chapter 4.
 
-## 2.5 Exercise in class
+
+## 2.5 Basic Arithmetic Operators 
+- add(+): Addition and concatenation (applicable for both numbers and text/characters)
+- subtract(-)
+- multiply(*)  
+- divide(/)
+- Special operators: increment (++), decrement (--)   
+
+You can try the following in the console area:
+```
+print(2*3);
+```
+>> Output: 
+"6"
+```
+print("hello " + "world");
+```
+>> output:
+"hello world"
+
+## 2.6 Exercise in class
 1. Think: Try to look into [existing emojis](https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg) or your handset, and reflect upon the complexity of human emotions and the abstracted human representation. What's your experience in using emojis? What's the cultural implications of emojis (perhaps can refer to the readings)? 
 2. Discussion: What constitute a face? If you have to use the view of essentialism, what will you have for a facial expression and why those elements are essential from your point of view? What have been abstracted and excluded then?
 3. Beyond the face: Take a look at [more emojis](https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/)<sup>[13](#myfootnote13)</sup> beyond facial expression, are there anything you want to add? 
 4. Exploration: Try out the interactive online tool [p5.playground](https://1023.io/p5-inspector/)<sup>[14](#myfootnote14)</sup> developed by Yining Shi, and do some sketching of emojis by paying attention to spatial composition and foundational design elements. 
 5. Experiment with p5.js: How would you translate your thoughts into lines of code? You may want to print out the coordinates of mouse press on the console area to get a more accurate position of your shapes. 
 
-## 2.6 While()
+## 2.7 While()
 outro:
 
 - faciality machines (Deleuze)
 - facial recognition
 - geometry and variable
 
-## 2.7 Mini_Exercise[2]: Geometric emoji
+## 2.8 Mini_Exercise[2]: Geometric emoji
 **Objective:**
 - To experiment various geometric drawing's possibilites, especially on shapes and drawing with colors.
 - To reflect culturally and critically on emojis via the assigned text 
