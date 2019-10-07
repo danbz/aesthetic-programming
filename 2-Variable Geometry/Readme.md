@@ -179,12 +179,12 @@ You can try the following in the console area:
 ```
 print(2*3);
 ```
->> Output: 
+> Output: 
 "6"
 ```
 print("hello " + "world");
 ```
->> output:
+> output:
 "hello world"
 
 ## 2.6 Exercise in class
