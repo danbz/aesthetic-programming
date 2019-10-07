@@ -170,17 +170,17 @@ Temporalities: real-time, machine time, micro-time and just-in-time (live) codin
 
 ## Mini_Exercise[3]: Designing a throbber 
 **Task and Objective:**
-- To reflect upon time and temporality in digital culture via the famous visual throbber icon.
+- To reflect upon time and temporality in digital culture via the throbber icon.
 - To experiment various computational effects of animation and transformation.
-- Redesign an *animated/moving** throbber.
--
+- Redesign an *animated/moving* throbber.
+
 **Get some additional inspiraton here:**
 - Check out other works regarding a throbber and how other people contextualize the thinking:  
   - [Loading](https://festivalenter.wordpress.com/2009/04/09/electroboutique-by-alexei-shulgin-roman-minaev-aristarkh-chernyshev/) by Electroboutique:
   - [LOADING (THE BEAST 6:66/20:09)](https://www.yugo.at/processing/archive/index.php?what=loading) by Gordan Savičić
   - [Fedora’s artwork team](https://fedoraproject.org/wiki/Artwork/ArtTeamProjects/Fedora7Remix/Rhgb/Throbber) produces a series of throbber images that put emphasis on the design of spinning.
   - [DVD guy by Constant Dullaart](https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB), with the contextualization by Panke Gallery in Berlin: http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin 
-
+  - [Throb by Winnie Soon](http://siusoon.net/throb/)
 
 Questions to think about:
 - **Describe** about your throbber design, both conceptually and technically.
