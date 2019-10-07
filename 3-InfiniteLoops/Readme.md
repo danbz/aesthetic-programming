@@ -31,7 +31,7 @@ By examining the RUNME (ref) of a simple throbber, can you describe the differen
         - how to position the static yellow lines, as well as the moving ellipses?
         
 2) **Experimention** - Change some of the code parameters
-    - Try to change some of the parameters e.g background(), framerate(), drawThrobber()
+    - Try to change some of the parameters e.g background(), framerate(), drawElements()
     - There are some new functions are used, can you check that out in the p5.js reference? (e.g push(), pop(), translate(), rotate())
     
 3) **Mapping** - Map some of the elements from #1 to the source code level 
