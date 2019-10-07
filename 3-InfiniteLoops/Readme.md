@@ -45,7 +45,6 @@ By examining the RUNME (ref) of a simple throbber, can you describe the differen
 //ch3_1
 function setup() {
  createCanvas(windowWidth, windowHeight);   //create a drawing canvas
- background(10);
  frameRate (8);  //try to change this parameter
 }
 
