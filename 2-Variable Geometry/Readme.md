@@ -169,7 +169,9 @@ This section is to briefly introduce other new functions in the sample code, in 
 
 
 ## 2.5 Basic Arithmetic Operators 
-- add(+): Addition and concatenation (applicable for both numbers and text/characters)
+You can also do arithmetic operations in programming and it is commonly done in arguments of a function. 
+Here is the list of baisc arithmetic operators: 
+- add(+): Addition and concatenation, which is applicable for both numbers and text/characters respectively.
 - subtract(-)
 - multiply(*)  
 - divide(/)
