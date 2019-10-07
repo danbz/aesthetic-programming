@@ -119,7 +119,6 @@ function drawElements() {
   translate(width/2, height/2); //move things to the center
   // 360/num >> degree of each ellipse' move ;frameCount%num >> get the remainder that indicates the movement of the ellipse
   let cir = 360/num*(frameCount%num);  //to know which one among 8 possible positions.
-  print(cir);
   rotate(radians(cir));
   noStroke();
   fill(255,255,0);
@@ -132,7 +131,6 @@ function drawElements() {
   line(width-60,0,width-60,height);
   line(0,60,width,60);
   line(0,height-60,width,height-60);
-}
 }
 ```
 The last three lines are about the drawing of two static yellow lines on the left and right side of the canvas. Logically speaking, the translate and rotate functions should also apply to these two lines but because the `pop()` function is in placed right after all the drawing of ellipses and such transform features, therefore, would not impact the lines. But if you move the line `pop()` till the end, then the two lines will also rotate and translate. This is to illustrate the idea of how `push()` and `pop()` could be used and where to place them does matter (ref: https://p5js.org/reference/#/p5/push).
