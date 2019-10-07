@@ -47,7 +47,7 @@ By examining the RUNME (ref) of a simple throbber, can you describe the differen
         //something here
     }
    ```
-## 3.3 Source Code
+### 3.2.1 Source Code
  ```javascript
 //ch3_1
 let img;
@@ -77,7 +77,7 @@ function drawElements() {
   push();
   translate(width/2, height/2); //move things to the center
   // 360/num >> degree of each ellipse' move ;frameCount%num >> get the remainder that indicates the movement of the ellipse
-  let cir = 360/num*(frameCount%num);  //to know which one among 9 possible positions.
+  let cir = 360/num*(frameCount%num);  //to know which one among 8 possible positions.
   rotate(radians(cir));
   noStroke();
   fill(255,255,0);
@@ -94,7 +94,7 @@ function windowResized() {
 }
  ```
 
-## 3.4 Image 
+## 3.3 Image 
 
 To display the throbber image in a PNG format, the sample code utilizes few functions. The logic is to first load the exact path of the image and then position it at the center of the screen. The sample code does not define the exact canvas size, but rather the size is determined by the existing width and height of the current window. This illustrates in line 11 `createCanvas(windowWidth, windowHeight);`. Again, the two variables are defined by the p5.js library. 
 
@@ -102,7 +102,7 @@ To display the throbber image in a PNG format, the sample code utilizes few func
 - `loadImage()`: This syntax is to specify what you want to load and this is about loading an image. The image file is located inside the data folder, and as such a relative path to the index.html file is written `img = loadImage("data/waiting.png");`. Since we need to reuse the image in order to display in a particular position (or you may want to further manipulate the image), therefore a global variable has been defined as `let img` at the top. 
 - `image()`: This is a syntax to draw an image on the canvas. At the most basic level it specifics three parameters 1) which image, 2 & 3) where to locate in terms of x and y coordinates - `image(img, (width-img_width)/2,(height-img_height)/2);`. Further parameters include the size you want to display, as well as displaying the subsection of the source image. [ref: https://p5js.org/reference/#/p5/image] For this sample code, I want to simply display the image in the middle, as such the program makes use of the variables `width` and `height` of the canvas (can refer to the previous chapter) as well as the size of the actual image, which has defined through global variables, to calculate and position the image at the center via arithmetic operations.
 
-## 3.5 Function
+## 3.4 Function
 A function of code in p5.js starts with the syntax `function() {}`, containing "a self-contained section of code" (Ref: Derek p. 101) to peform a certain task. For the most basic built-in functions in p5.js, `setup()` and `draw()`, specifying the contained code in relation to a particular purpose as setting up the environment for running the program, as well as doing things over time. Other built-in functions include `preload()` and `windowResized()` in the provided sample code, which serve the purpose of preload image(s) and readjust the canvas size if there is any event of window resizing. The later one suggests an event listener implements at the code level to not only run once, but *constantly* listening to events of window resizing specifically and it is similar to other listening events such as `mouseIsPressed()`. This is considered as asynchronicity, which means some other events occur concurrently with the main program flow. For these event listeners, it works fine but this may not be good for all the scenarios. If some of the images or files are too big, then it takes time to load and display on a screen. Having running the setup and draw function but the images or files are not fully loaded will result in empty display. To escape from such asynchronicity, the function `preload()` is used to force the program finish loading files before the program moves to setup and draw. 
 
 Apart from built-in functions, the sample code contains the custom-one called `function drawElement();` which is invoked by line 21: `drawElement();` within the `draw()` function. Defining a function is relatively simple in JavaScript with the keyword "function". From the function name "drawElement", one may get a sense of what this function does, which is mainly to draw ellipses and the two lines in a particular size, position and color, as well as making ellipses and lines to rotate in a clock-wise direction and statically stay at a position respectively. There are many ways to achieve drawing the same result especially with object-oriented approach but we are still in the early stage of learning to program, therefore we work on example that can do similar tasks that can be more aligned with our learning progress. Some of the code are intentionally written in a way that is less efficient but can serve the purpose of unfolding some of the key elements. 
@@ -120,16 +120,38 @@ function sum(a, b, c) { //passing values 4 as a, 3 as b, 2 as c to the function 
 > output: 
 "9"
 
-You can also try to type this in the console area `let x = sum(4, 3, 2);function sum(a, b, c) {return a + b + c;} print(x);` and it returns the number 9 as the output which has summed the values 4, 3 and 2. The arguments a, b and c are parameter variables. The function "sum" can be reused if you pass other values say another line of code `let y = sum(5,6,7);` and the return value of y would be 18. 
+You can also try to type this in the console area `let x = sum(4, 3, 2); print(x); function sum(a, b, c) {return a + b + c;}` and it returns the number 9 as the output which has summed the values 4, 3 and 2. The arguments a, b and c are parameter variables. The function "sum" can be reused if you pass other values say another line of code `let y = sum(5,6,7);` and the return value of y would be 18. 
 
-## 3.6 Transformation
+## 3.5 Transform
+In general, the transform-related functions apply a 2D or 3D transformation to an element or object. For the provided sample code, there are two specific transformational functions have been used. 
+1. `translate()`: This function allows you to move or displace objects within the display window. For example, moving the ellipses to center (`translate(width/2, height/2);`). The ellipse is drawn as `ellipse(35,0,22,22)` which takes in (35,0) as the x and y coordinates, where 22 is the size of it. If we don't have the upfront `translate()` function, the ellipse will be placed at the top left corner instead while the x coordinate value "35" is the distance of the circulating ellipses from the center position.
+2. `rotate()`: By using the function `rotate()`, the object ellipse, in this sample code, will rotate at a certain angle. The default unit for rotation is radians. As such, the code is written as `rotate(radians(cir));`. `rotate()` takes in radians as the default mode and if you want to change to the degree mode, you can add the code `angleMode(DEGREES)`. 
+In the most simple way, there are in total 9 ellipses (which is indicated as `let num=9;`), and each has a difference of 40 degree (i.e 0.968 rad) which is derived from 360/9. A circle has 360 degrees and to rotate the ellipse over time, it requires the time element to calculate when to move and how to move. This is how the function `frameCount` comes in, which counts the number of frames that have been displayed since the program started (ref: https://p5js.org/reference/#/p5/frameCount). The line `let cir = 360/num*(frameCount%num);` illustrates the use of a modulo operation to find the remainder after division of one number by another. As such the value of the variable `cir` is only limited to the multiples of 40: 0, 40, 80, 120, 160, 240, 280 and 320. 
 
+There are also other transform-related functions such as `scale()`, `shearX()`, `shearY()`. (ref: https://p5js.org/reference/#group-Transform) 
 
+Further to the control of transformation, `push()` and `pop()` functions are commonly used to saves the current style and retores such setting respectively. Style such as color and setting such as rotate and translate. Let's explain with the except of code: 
 
-transform: translate, rotate, push and pop 
+```javascript
+function drawElements() {
+  let num =9;
+  push();
+  translate(width/2, height/2); //move things to the center
+  // 360/num >> degree of each ellipse' move ;frameCount%num >> get the remainder that indicates the movement of the ellipse
+  let cir = 360/num*(frameCount%num);  //to know which one among 8 possible positions.
+  print(cir);
+  rotate(radians(cir));
+  noStroke();
+  fill(255,255,0);
+  ellipse(35,0,22,22);  //the moving dot(s), the x is the distance from the center
+  pop();
 
-
-
+  stroke(255,0,0);
+  line(60,0,60,height);   //a static line
+  line(width-60,0,width-60,height);   //a static line
+}
+```
+The last three lines are about the drawing of two static red lines on the left and right side of the canvas. Logically speaking, the translate and rotate functions should also apply to these two lines but because the `pop()` function is in placed right after all the drawing of ellipses and such transform features, therefore, would not impact the lines. But if you move the line `pop()` till the end, then the two lines will also rotate and translate. This is to illustrate the idea of how `push()` and `pop()` could be used and where to place them does matter (ref: https://p5js.org/reference/#/p5/push).
 
 
 ## loops
