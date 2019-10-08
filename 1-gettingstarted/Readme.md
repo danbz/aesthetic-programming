@@ -168,7 +168,7 @@ There are still other syntaxes in the sample code with which we haven't explaine
 **Questions to think about as README:**
 - Describe your first independent coding process (in relation to thinking, reading, copying, modifying, writing code)
 - How your coding process is differ from, or similar to, reading and writing text? 
-- What is code and coding/programming practice means to you?
+- What is code and coding/programming practice means to you, and use the assigned readings to reflect on why program?
 
 ## Required reading:
 - Montfort, Nick. *Exploratory Programming For the Arts and Humanities*. Canbridge, Mass.: MIT Press, 2016. 267-277 (Appendix A: Why Program?)
