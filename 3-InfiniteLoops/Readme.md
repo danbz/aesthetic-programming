@@ -154,10 +154,9 @@ Temporalities: real-time, machine time, micro-time and just-in-time (live) codin
 ## Exercise in class
 
 ## Mini_Exercise[3]: Designing a throbber 
-**Task and Objective:**
+**Objective:**
 - To reflect upon time and temporality in digital culture via the throbber icon.
-- To experiment various computational effects of animation and transformation.
-- Redesign an *animated/moving* throbber.
+- To experiment various computational syntax and effects of animation and transformation.
 
 **Get some additional inspiraton here:**
 - Check out other works regarding a throbber and how other people contextualize the thinking:  
@@ -167,7 +166,10 @@ Temporalities: real-time, machine time, micro-time and just-in-time (live) codin
   - [DVD guy by Constant Dullaart](https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB), with the contextualization by Panke Gallery in Berlin: http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin 
   - [Throb by Winnie Soon](http://siusoon.net/throb/)
 
-Questions to think about:
+**Task (RUNME):**
+- Redesign and program an *animated/moving* throbber.
+
+**Questions to think about as README:**
 - **Describe** about your throbber design, both conceptually and technically.
     -  What are the time-related syntaxes/functions that you have used in your program? and why you use in this way? How is time being constructed in computation (can refer to both reading and your process of coding)?
     - Think about a throbber that you have encounted in digital culture e.g streaming video on YouTube or loading latest feeds on Facebook or waiting a ticket transaction, what do you think a throbber tells us, and/or hides, about? How might we think about this remarkable throbber icon differently?
