@@ -84,7 +84,7 @@ this.shows = function() {
 "Gilbert_TypeWithPride.otf" is a free font, is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, and can be downloaded from the Internet (www.typewithpride.com) <sup>[6](#myfootnote6)</sup>. It is designed to honor the memory of Gilbert Baker who died in 2017, the creator of the iconic Rainbow Flag.
 
 <img src="https://static1.squarespace.com/static/58ed2d6244024330c0a58707/58ed2dbbf7e0abfc5d7ebb1c/58f77ed329687f53ff3123c7/1493282053409/TypeWithPride-07.jpg?format=2500w" width="450">
-*Figure 2: The font type with pride, designed by Gilbert Baker*
+<br>*Figure 2: The font type with pride, designed by Gilbert Baker*
 
 `textFont()` means to get ready to print out or write the text with the chosen font, and in this case with the `withPride` that is previously defined.
 
