@@ -150,6 +150,7 @@ Artwork: Asterisk Painting (2013) by Bell John
 
 ## While()
 Temporalities: real-time, machine time, micro-time and just-in-time (live) coding (Ernst's essay - if... then - loop forever)
+-> link to the politics of time
 
 ## Exercise in class
 
