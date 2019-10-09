@@ -201,7 +201,7 @@ outro:
 
 - faciality machines (Deleuze)
 - facial recognition
-- geometry and variable
+- politics of measuremen can go here > in relation to what constitute a face and how a face is being recognized in nowadays facial recognization technology. -> but this will address in the chapter data capture too. 
 
 ## 2.8 Mini_Exercise[2]: Geometric emoji
 **Objective:**
