@@ -142,12 +142,15 @@ What we want to demonstrate here is that the references are important to start w
 
 There are still other syntaxes in the sample code with which we haven't explained in details, perhaps you can find the corresponding references from p5.js web references and look into it? But we will continue to explore the color function in the next Chapter and the `random` function in Chapter 3. 
 
+// add instructions for using gitlab and wven what git is.
+
 ## 1.4 While()
 
-- Culture of Github: Matthew Fuller, Andrew Goffey, Adrian Mackenzie, Richard Mills and Stuart Sharples, "Big Diff, Granularity, Incoherence, and Production in the Github Software Repository" in How To Be a Geek: Essays on the Culture of Software. => Versioning
+- Culture of sharing code and tutorials, and shared environments
+- Github: Matthew Fuller, Andrew Goffey, Adrian Mackenzie, Richard Mills and Stuart Sharples, "Big Diff, Granularity, Incoherence, and Production in the Github Software Repository" in How To Be a Geek: Essays on the Culture of Software. => Versioning
 - Creative Commons and Licence
 - Open Source Software and Culture
-- the concept of readme and runme?
+- the concept of readme and runme? yes explainin more dtail where it comes from and how it perate sacross critical and practical tasks.
 
 ## 1.4.1 Mini_Exercise[1]: Think About My First Program
 **Objective:**
