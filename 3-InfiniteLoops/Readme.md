@@ -374,8 +374,8 @@ See below example taken from the source code of Asterisk Painting (line 37-42):
     yPos[i] = yPos[i] * (yDim / (yPos.length+1));
   }
 ```
-See the structure of a for-loop:
-<img src="ch3_4.png" width="400"> 
+See the structure of a for-loop:<br>
+<img src="ch3_4.png" width="400"> <br>
 *Figure 3.4 A for-loop* 
 
 From the Figure 3.4, you can see a for-loop contains:
