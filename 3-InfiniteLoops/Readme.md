@@ -157,7 +157,7 @@ The original piece was written in Processing and it has been modified and ported
 /*
 Asterisk Painting by John P.Bell (http://www.johnpbell.com/asterisk-painting/)
 Original code in Processing: http://wg18.criticalcodestudies.com/index.php?p=/discussion/31/week-2-critical-and-creative-coding-calvinball-and-coders#latest
-Port to p5js and modified by Winnie Soon with comment notes, last update: 13 Feb 2019
+Port to p5js and modified by Winnie Soon with comment notes, last update: 12 Oct 2019
 
 notes:
 1. The color mode has been changed to a variable as the push/pop function will restore the previous fill color state.
@@ -204,33 +204,31 @@ function setup(){
 
 function draw(){
      currentMillis = floor(millis() - milliStart);  //millis means millsecond since starting the program, like frameCount
-     if(currentMillis > timer){ //check the time for every "speed" time then run this (slow down the program)
-       push();
+     if(currentMillis > timer){
        translate(xPos[xCtr], yPos[yCtr]);  //rows and cols
-       rotate(radians((360/8)* (millis()/speed)));  //rotation in itself
-       timer = currentMillis + speed; //the time for next loop
+       rotate(radians((360/8)* (millis()/speed)));  //rotate in itself
+       timer = currentMillis + speed; //the time for the next loop
        textSize(12);
-       //nf:format no into strings and adds zeros in front [https://p5js.org/reference/#/p5/nf]  3 digits in front and 0 digit after the decimal
+       //nf:format numbers into strings and adds zeros in front [https://p5js.org/reference/#/p5/nf]  3 digits in front and 0 digit after the decimal
        fill(fillColor);
-       text(nf(currentMillis, 6), 3, 0);     //which is about the time, and it starts with 0 always.
+       text(nf(currentMillis, 6), 3, 0);  //which is about the time string written as the asterisk, and it starts with 0 always.
        sentences++;
-       if(sentences >= maxSentences){  //reach the max for each circle
+       if(sentences >= maxSentences){  //reach the max for each asterisk
          xCtr++;  //move to next array
 
          if(xCtr >= xPos.length) {  //meet max cols, and need to go to next row
            xCtr = 0;
            yCtr++;  //next row
-
            //the screen is filled > reset everything and update the counter
            if(yCtr >= yPos.length){  //reach the max no of rows on a screen (after reach the no. of max cols)
              yCtr = 0;
              background(240);
              itr++;  //add counter (iteration)
              pop();
-             fill(0);   //counter display color
+             fill(0);   //counter's display color
              text(itr, 10, yDim-30);  //change counter display again
              let wait = floor(millis() + waitTime);  //wait for next round
-             while(millis() < wait){}  // let the waittime pass (variable) and do nothing
+             while(millis() < wait){}  // Just wait for resetting
              milliStart = millis(); //reset the starting time
              timer = 0; //reset the timer
              push();
@@ -240,7 +238,6 @@ function draw(){
         fillColor = color(floor(random(0,255)),floor(random(0,255)),floor(random(0,255)));
        }
        pop();  //restore previous state
-
      }
 }
 ```
@@ -433,17 +430,6 @@ Temporalities: real-time, machine time, micro-time and just-in-time (live) codin
 - Farman, Jason. Fidget Spinners. *Real Life*, 2017.
 
 ## Notes: 
-
-//
-https://gitlab.com/siusoon/aesthetic-programming/blob/master/Ap2019/class03/class03.md
-
-In-Class structure:
-Arrays
-Conditional Statements
-Iterations: For and While Loops
-Time related syntax:
-
-FrameRate(), FrameCount, setInterval(), millis()
 
 
 
