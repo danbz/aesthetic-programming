@@ -21,6 +21,8 @@ Instead of using preset typographic characters, this section will explore what c
 <img src="ch2_2.png" width="250"><br>
 *Figure 2.2: The screenshot of the remix of Multi*
 
+[the image and source code will change a bit to match exactly the spatial composition of Multi - will get back in *future*]
+
 [RunMe: need something to run the program - need to check with OSP, ref: https://creative-coding.decontextualize.com/first-steps/ or https://p5js.org/learn/coordinate-system-and-shapes.html /w]
 
 ```javascript
