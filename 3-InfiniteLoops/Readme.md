@@ -9,7 +9,7 @@ Mathematician Augusta Ada Byron Lovelace first introduced the concept of a loop 
 *Figure 3.1: The diagram on Bernoulli in Note G by Ada Lovelace*
 
 ### 3.1.1 Start()
-For this chapter, we are using the cultural icon - Throbber as a way to guide the programming tasks, but it also acts as an object for us to think through the concept of a loop and the relations with repetition, time and temporality. Users usually encounter a distinctive spinning icon during the loading, waiting and streaming of data content. Such graphical animation known as throbber indicates to users that something is loading and in-progress, but nothing more. Interestingly, a throbber does not indicate any completed or finished status and progress and all that is presented is a spinning icon, perceived as repeatedly spinning under constant speed as well as hinting at invisible background activities for an indeterminate and unforeseeable timespan. Throbber, as a cultural icon, expresses various dimensions of time at our times. We will introduce the repetitive spinning through the sample code of a throbber and then it will lead to the artwork *Asterisk Painting* by John P. Bell. 
+For this rather long chapter, we are using the cultural icon - Throbber as a way to guide the programming tasks, but it also acts as an object for us to think through the concept of a loop and the relations with repetition, time and temporality. Users usually encounter a distinctive spinning icon during the loading, waiting and streaming of data content. Such graphical animation known as throbber indicates to users that something is loading and in-progress, but nothing more. Interestingly, a throbber does not indicate any completed or finished status and progress and all that is presented is a spinning icon, perceived as repeatedly spinning under constant speed as well as hinting at invisible background activities for an indeterminate and unforeseeable timespan. Throbber, as a cultural icon, expresses various dimensions of time at our times. We will introduce the repetitive spinning through the sample code of a throbber and then it will lead to the artwork *Asterisk Painting* by John P. Bell. 
 
 ## 3.2 Decode 
 We are moving from static objects (like shapes) to a mix of static and moving objects here. 
@@ -19,7 +19,7 @@ We are moving from static objects (like shapes) to a mix of static and moving ob
 By examining the RUNME (ref) of a simple throbber, can you describe the different elements of the work and imagine how they operate computationally in human language.
 
 1) **Speculation** - based on what you see on the screen:
-    - What do you see/experience on the screen?
+    - Describe you see/experience on the screen?
         - What are the elements on the screen?
         - What are moving and not moving?
         - How many ellipses at the center?
@@ -135,11 +135,134 @@ function drawElements() {
 The last three lines are about the drawing of two static yellow lines on the left and right side of the canvas. Logically speaking, the translate and rotate functions should also apply to these two lines but because the `pop()` function is in placed right after all the drawing of ellipses and such transform features, therefore, would not impact the lines. But if you move the line `pop()` till the end, then the two lines will also rotate and translate. This is to illustrate the idea of how `push()` and `pop()` could be used and where to place them does matter (ref: https://p5js.org/reference/#/p5/push).
 
 ## 3.5 Exercise in class
-- This exercise is about structuring code. How would you restructure the sample code again so that it is easier for others to understand but without the change of visual outcome? There is no right or wrong answers but some pointers below might facilitate discussion: 
+- This exercise is about structuring code. How would you restructure the sample code again so that it is easier for others to understand but maintaining the same visual outcome? There is no right or wrong answers but some pointers below might facilitate discussion: 
     - you may think of rename the function and add new functions
-    - Instead of having `drawElements()`, can we have `drawThrobber()` and `drawLines()`?
+    - Instead of having `drawElements()`, may be we can have something like `drawThrobber()` and `drawLines()`?
 
-## loops
+## 3.6 Asterisk Painting 
+So far we have discussed the transformation of objects with the sample code, but the throbber is moving repetitively and regularly through using syntaxes like `frameRate()` to slower down the number of frames that run per second, and `rotate()` to control the angle for each rotation. But more importantly with the `draw()` and `rect()` functions, it gives the illusion that the newly drawn ellipse fades over time and one after the after following the drawing of a semi-transparent rectangle background per frame.   
+
+This section will move from repetition and regularity to repetition and difference. Artist and software developer John P. Bell has made an artwork called *Asterisk Painting*, containing a lot of throbber-like spinning patterns, but each throbber (what he called asterisk) is spinning differently, in terms of how it spins, the variation of color and texture. Many syntaxes that Bell have used are related to time and temporality, for example the setting up of a timer, the calculation of current millis, the speed of rotation, the waiting time for starting the new cycle, etc. Even for the visual outcome, what constitute an asterisk is not a shape, but a series of number which refers to the milliseconds counter that will line up as a straight line. (See Figure 3.3 for the visual outcome)
+
+<img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class03/Asterisk_Painting.gif"><br>
+*Figure 3.3 : Aesterisk Painting (2014) by John P. Bell*
+
+According to Bell, 
+>  Asterisk Painting is programmed to create a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started. If left to run by itself it will do so; however, when started on a system with other threads running in the background delays external to my artwork may make the asterisks look more like spots and the painting may resemble the work of certain other overly-litigious artists.
+
+## 3.7 Soure code 
+```javascript
+/*
+Asterisk Painting by John P.Bell (http://www.johnpbell.com/asterisk-painting/)
+Original code in Processing: http://wg18.criticalcodestudies.com/index.php?p=/discussion/31/week-2-critical-and-creative-coding-calvinball-and-coders#latest
+Port to p5js and modified by Winnie Soon with comment notes, last update: 13 Feb 2019
+
+notes:
+1. The color mode has been changed to a variable as the push/pop function will restore the previous fill color state.
+2. Remove font
+3. change the bg color
+4. add text size
+5. remove load signature image
+6. change the canvas size and corresponding no. of asterisk
+7. display a counter on the bottom left corner and in black color
+8. Add extensive comments
+9. return a random no in integer
+*/
+
+let xDim = 1000;  //canvas size-width
+let yDim = 600;   //canvas size-height
+let timer=0;
+let speed=100;  //the speed of rotating , default 100
+let maxSentences = 77;  //original: 77
+let sentences = 0;
+let xPos = [1,2,3,4,5]; //original: 8 columns
+let yPos = [1,2,3,4]; //original: 5 rows
+let xCtr = 0;
+let yCtr = 0;
+let waitTime = 10000;
+let itr = 0; // no. of iteration
+let milliStart = 0;
+let currentMillis;
+let fillColor;
+
+function setup(){
+  createCanvas(xDim, yDim);
+  background(240);
+  for(let i=0; i<xPos.length; i++) {      //calculate the position of each asterisk horizontally in terms of array, start with [0] array index
+    xPos[i] = xPos[i] * (xDim / (xPos.length+1));
+  }
+  for(let i=0; i<yPos.length; i++) {  // //calculate the position of asterisk vertically in terms of array, start with [0] array index
+    yPos[i] = yPos[i] * (yDim / (yPos.length+1));
+  }
+  fill(0);  //counter color at the bottom left
+  textAlign(LEFT, CENTER);
+  text(itr, 10, yDim-30); //display counter
+  fillColor = color(floor(random(0,255)),floor(random(0,255)),floor(random(0,255)));
+}
+
+function draw(){
+     currentMillis = floor(millis() - milliStart);  //millis means millsecond since starting the program, like frameCount
+     if(currentMillis > timer){ //check the time for every "speed" time then run this (slow down the program)
+       push();
+       translate(xPos[xCtr], yPos[yCtr]);  //rows and cols
+       rotate(radians((360/8)* (millis()/speed)));  //rotation in itself
+       timer = currentMillis + speed; //the time for next loop
+       console.log(currentMillis);
+       textSize(12);
+       //nf:format no into strings and adds zeros in front [https://p5js.org/reference/#/p5/nf]  3 digits in front and 0 digit after the decimal
+       fill(fillColor);
+       text(nf(currentMillis, 6), 3, 0);     //which is about the time, and it starts with 0 always.
+       sentences++;
+       if(sentences >= maxSentences){  //reach the max for each circle
+         xCtr++;  //move to next array
+
+         if(xCtr >= xPos.length) {  //meet max cols, and need to go to next row
+           xCtr = 0;
+           yCtr++;  //next row
+
+           //the screen is filled > reset everything and update the counter
+           if(yCtr >= yPos.length){  //reach the max no of rows on a screen (after reach the no. of max cols)
+             yCtr = 0;
+             background(240);
+             itr++;  //add counter (iteration)
+             pop();
+             fill(0);   //counter display color
+             text(itr, 10, yDim-30);  //change counter display again
+             let wait = floor(millis() + waitTime);  //wait for next round
+             while(millis() < wait){}  // let the waittime pass (variable) and do nothing
+             milliStart = millis(); //reset the starting time
+             timer = 0; //reset the timer
+             push();
+           }
+         }
+        sentences = 0;
+        fillColor = color(floor(random(0,255)),floor(random(0,255)),floor(random(0,255)));
+       }
+       pop();  //restore previous state
+
+     }
+}
+```
+## 3.8 Exercise in class 
+- Try to run the *Asterisk Painting* [here](xxx)
+- Try reading the source code above 
+- Using the decoding method that we have introduced earlier in this chapter, try to speculate, experiment and map your thoughts with the source code.  
+    - *Speculation:* Describe what see/experience on the screen? 
+        - What are the elements on the screen?
+        - How many asterisks on the screen and how are they arranged?
+        - What are moving and how they move? 
+        - What each asterisk spins/rotates and when it stops to create a new one? 
+    - *Experimentation:* Change some of the code parameters
+        - Try to change some of the parameters e.g the values of the written global variables
+        - What are the new syntax and functions that you do not know? (Can you check it out in the p5.js reference?)
+    - *Mapping:* Map of of the elements from speculation to the source code level 
+
+## 3.9 Arrays 
+
+
+by John P. Bell, ported to p5.js and modified by Winnie Soon
+
+loops
 Iterations: For/ While Loops
 Conditional statements and Functions
 Time related syntax, machine and human time (unix-epoch), clocks
