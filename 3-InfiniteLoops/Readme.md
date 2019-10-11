@@ -150,7 +150,7 @@ This section will move from repetition and regularity to repetition and differen
 According to Bell, 
 >  Asterisk Painting is programmed to create a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started. If left to run by itself it will do so; however, when started on a system with other threads running in the background delays external to my artwork may make the asterisks look more like spots and the painting may resemble the work of certain other overly-litigious artists.
 
-## 3.7 Soure code 
+## 3.7 Source code 
 The original piece was written in Processing by John P.Bell and it has been modified and ported to p5.js by Winnie Soon
 
 ```javascript
