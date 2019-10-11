@@ -190,10 +190,10 @@ let fillColor;
 function setup(){
   createCanvas(xDim, yDim);
   background(240);
-  for(let i=0; i<xPos.length; i++) {      //calculate the position of each asterisk horizontally in terms of array, start with [0] array index
+  for(let i=0; i<xPos.length; i++) {  //calculate the position of each asterisk horizontally as an array that starts with array index[0]
     xPos[i] = xPos[i] * (xDim / (xPos.length+1));
   }
-  for(let i=0; i<yPos.length; i++) {  // //calculate the position of asterisk vertically in terms of array, start with [0] array index
+  for(let i=0; i<yPos.length; i++) {  //calculate the position of each asterisk vertically as an array that starts with array index[0]
     yPos[i] = yPos[i] * (yDim / (yPos.length+1));
   }
   fill(0);  //counter color at the bottom left
@@ -209,7 +209,6 @@ function draw(){
        translate(xPos[xCtr], yPos[yCtr]);  //rows and cols
        rotate(radians((360/8)* (millis()/speed)));  //rotation in itself
        timer = currentMillis + speed; //the time for next loop
-       console.log(currentMillis);
        textSize(12);
        //nf:format no into strings and adds zeros in front [https://p5js.org/reference/#/p5/nf]  3 digits in front and 0 digit after the decimal
        fill(fillColor);
@@ -356,26 +355,51 @@ if () {
 }else{
   //something here
 }
+*/
 ```
-
 ## 3.11 Loops 
+the concept of a loop is that you can execute a block of code in many times. For example if you have to draw 100 lines that place vertically one after the other, you can of course write 100 lines of code using the syntax: `line()`. A for-loop provides a handy way to draw the line 100 times by setting a conditional structure, counting the number of line that has drawn and the max lines.
 
+To structure a for-loop, you need to ask yourself:
+- What are the things/actions that you want to loop repetitively and that comes with a certain sequence or pattern?
+- Specifically what is the conditional logic? And when do you want to exit the loop?
+- What do you want to do when this condition is/is not met?
 
+See below example taken from the source code of Asterisk Painting (line 37-42):
 
-loops
-Iterations: For/ While Loops
+```javascript
+  for(let i=0; i<xPos.length; i++) {
+    //calculate the position of each asterisk horizontally as an array that starts with array index[0] 
+    xPos[i] = xPos[i] * (xDim / (xPos.length+1));
+  }
+  for(let i=0; i<yPos.length; i++) {  
+   //calculate the position of each asterisk vertically as an array that starts with array index[0] 
+    yPos[i] = yPos[i] * (yDim / (yPos.length+1));
+  }
+```
+See the structure of a for-loop:
+<img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class03/loop.png"> 
+*Figure 3.4 A for-loop*  [need to draw differently /w]
 
-Time related syntax, machine and human time (unix-epoch), clocks
-Transform: translate(), rotate(), push/pop()
-Artwork: Asterisk Painting (2013) by Bell John
+From the Figure 3.4, you can see a for-loop contains:
+1) *A variable declaration and initialization*: Usually start with a count as 0
+2) *A specificed condition*: What's the criteria to meet the condition
+3) *Action*: The things that you want to process / compute when the condition is met
+4) *loop for next*: For the next iteration (usually incremental/decremental)
 
-## Source code
+For this specific case, this block of code from the above describes the position of each asterisk in terms of its' x and y coordinates (the center point [x,y] of each asterisk). Since there are 5 columns (xPos) and 4 rows (yPos) which have been defined in the global variables, the program needs to know the coordinates precisely. The overall formular to locate the position, for example xPos, is to get the width of the canvas divides by the number of asterisks horizontally and add 1. As such, the code should be understood as: For each count with the starting point as 0, calculate the `xPos[i]`. Additionally, each iteration will increase the count by one until it reaches the maximum number of asterisks in a row (`i<xPos.length`). 
+
+<img src="ch3_5.png"> <br>
+*Figure 3.5 The xPos of each* </br>
+
+## 3.11.1 While Loop
+While loop is another type of loop for executing iteration. The statement is executed until the condition is true, it will stop as soon as it is false. 
+
+For example, `while(millis() < wait){}` in line 77 which tells the computer to do nothing if the value of `millis()` (ref: https://p5js.org/reference/#/p5/millis, this is a p5.js syntax, returning the number of milliseconds since the staring the program. It is similar to frameCount but it is count by miniseconds) is smaller than the value of the `wait` variable. Once the condition is false (i.e `millis()` is not longer small than `wait`), the loop will be ended and the program can proceed to the next line. This example is located towards the end of the program when all the asterisks are drawn but need to wait for a certain time to reset the canvas and restart drawing again. Therefore, this while-loop serves the purpose of a pause sign, freezing the program from running because there is literaly nothing between the opening and closing brackets.  
 
 ## While()
 Temporalities: real-time, machine time, micro-time and just-in-time (live) coding (Ernst's essay - if... then - loop forever)
 -> link to the politics of time
-
-## Exercise in class
 
 ## Mini_Exercise[3]: Designing a throbber 
 **Objective:**
