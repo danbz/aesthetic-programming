@@ -375,7 +375,7 @@ See below example taken from the source code of Asterisk Painting (line 37-42):
   }
 ```
 See the structure of a for-loop:
-<img src="ch3_4.png"> 
+<img src="ch3_4.png" width="400"> 
 *Figure 3.4 A for-loop* 
 
 From the Figure 3.4, you can see a for-loop contains:
