@@ -375,8 +375,8 @@ See below example taken from the source code of Asterisk Painting (line 37-42):
   }
 ```
 See the structure of a for-loop:
-<img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class03/loop.png"> 
-*Figure 3.4 A for-loop*  [need to draw differently /w]
+<img src="ch3_4.png"> 
+*Figure 3.4 A for-loop* 
 
 From the Figure 3.4, you can see a for-loop contains:
 1) *A variable declaration and initialization*: Usually start with a count as 0
