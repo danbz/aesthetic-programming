@@ -386,7 +386,7 @@ From the Figure 3.4, you can see a for-loop contains:
 
 For this specific case, this block of code from the above describes the position of each asterisk in terms of its' x and y coordinates (the center point [x,y] of each asterisk). Since there are 5 columns (xPos) and 4 rows (yPos) which have been defined in the global variables, the program needs to know the coordinates precisely. The overall formular to locate the position, for example xPos, is to get the width of the canvas divides by the number of asterisks horizontally and add 1. As such, the code should be understood as: For each count with the starting point as 0, calculate the `xPos[i]`. Additionally, each iteration will increase the count by one until it reaches the maximum number of asterisks in a row (`i<xPos.length`). 
 
-<img src="ch3_5.png"> <br>
+<img src="ch3_5.png" width="650"> <br>
 *Figure 3.5 The xPos of each* </br>
 
 ## 3.11.1 While Loop
