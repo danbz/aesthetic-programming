@@ -142,7 +142,7 @@ The last three lines are about the drawing of two static yellow lines on the lef
 ## 3.6 Asterisk Painting 
 So far we have discussed the transformation of objects with the sample code, but the throbber is moving repetitively and regularly through using syntaxes like `frameRate()` to slower down the number of frames that run per second, and `rotate()` to control the angle for each rotation. But more importantly with the `draw()` and `rect()` functions, it gives the illusion that the newly drawn ellipse fades over time and one after the after following the drawing of a semi-transparent rectangle background per frame.   
 
-This section will move from repetition and regularity to repetition and difference. Artist and software developer John P. Bell has made an artwork called *Asterisk Painting*, containing a lot of throbber-like spinning patterns, but each throbber (what he called asterisk) is spinning differently, in terms of how it spins, the variation of color and texture. Many syntaxes that Bell have used are related to time and temporality, for example the setting up of a timer, the calculation of current millis, the speed of rotation, the waiting time for starting the new cycle, etc. Even for the visual outcome, what constitute an asterisk is not a shape, but a series of number which refers to the milliseconds counter that will line up as a straight line. (See Figure 3.3 for the visual outcome)
+This section will move from repetition and regularity to repetition and difference. Artist and software developer John P. Bell has made an artwork called *Asterisk Painting* (ref: http://www.johnpbell.com/asterisk-painting/), containing a lot of throbber-like spinning patterns, but each throbber (what he called asterisk) is spinning differently, in terms of how it spins, the variation of color and texture. Many syntaxes that Bell have used are related to time and temporality, for example the setting up of a timer, the calculation of current millis, the speed of rotation, the waiting time for starting the new cycle, etc. Even for the visual outcome, what constitute an asterisk is not a shape, but a series of number which refers to the milliseconds counter that will line up as a straight line. (See Figure 3.3 for the visual outcome)
 
 <img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class03/Asterisk_Painting.gif"><br>
 *Figure 3.3 : Aesterisk Painting (2014) by John P. Bell*
@@ -151,13 +151,13 @@ According to Bell,
 >  Asterisk Painting is programmed to create a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started. If left to run by itself it will do so; however, when started on a system with other threads running in the background delays external to my artwork may make the asterisks look more like spots and the painting may resemble the work of certain other overly-litigious artists.
 
 ## 3.7 Soure code 
-The original piece was written in Processing and it has been modified and ported to p5.js by Winnie Soon
+The original piece was written in Processing by John P.Bell and it has been modified and ported to p5.js by Winnie Soon
 
 ```javascript
 /*
 Asterisk Painting by John P.Bell (http://www.johnpbell.com/asterisk-painting/)
 Original code in Processing: http://wg18.criticalcodestudies.com/index.php?p=/discussion/31/week-2-critical-and-creative-coding-calvinball-and-coders#latest
-Port to p5js and modified by Winnie Soon with comment notes, last update: 12 Oct 2019
+Port to p5js and modified by Winnie Soon with comment notes. Last update: 12 Oct 2019
 
 notes:
 1. The color mode has been changed to a variable as the push/pop function will restore the previous fill color state.
