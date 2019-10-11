@@ -151,6 +151,8 @@ According to Bell,
 >  Asterisk Painting is programmed to create a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started. If left to run by itself it will do so; however, when started on a system with other threads running in the background delays external to my artwork may make the asterisks look more like spots and the painting may resemble the work of certain other overly-litigious artists.
 
 ## 3.7 Soure code 
+The original piece was written in Processing and it has been modified and ported to p5.js by Winnie Soon
+
 ```javascript
 /*
 Asterisk Painting by John P.Bell (http://www.johnpbell.com/asterisk-painting/)
@@ -259,12 +261,110 @@ function draw(){
 
 ## 3.9 Arrays 
 
+To be able to fully understand the source code, you need a few more foundamental concepts of programming. The first one is Array, which is commonly understood as a list of data and it is related to previous concepts as variable and data types. If we need to work with a chunk of data, for example a collection of words, we can use something called arrays instead of making three totally separately variables. Example:
+```javascript 
+//example
+let words = [] //array -> start with 0
+words[0] = "what";
+words[1] = "is";
+words[2] = "array";
+print(words[2]); //output: is
+print(words.length); //output: 3
+```
+Recalling from previous approach of using variables, we follow similar structure:
+1. *Declare:* Think of a name you want to store the list of values. The symbol [] in `let words = []` indicates words is an array but how many is something unknown and haven't been specified with just this line of code.
+2. *Assign:* Given the example above, there are three text values to store: "what", "is", "array". Since array is a list of values and it is needed to be identified individually, array index is used to represent the position of each piece of data in an array. It starts with [0] as the first item, then [1] as the second and so forth. Therefore `words[0] ="what` means that the first index item of the array words is a string and with the value "what".  
+3. *Re(use):* The `print()` function is just an example to indicate how you may retrieve and use the data, you can print it on the console area, or you can arrange to draw on a canvas. 
 
-by John P. Bell, ported to p5.js and modified by Winnie Soon
+The ask for how many items in an array, the syntax `arrayname.length` is used. 
+
+Let's see the sample below from Asterisk Painting:
+```javascript 
+//sample from Asterisk Painting e.g line 25-26
+let xPos = [1,2,3,4,5];
+let yPos = [1,2,3,4];
+```
+This is a slightly different way of declaring an array. It combines both declaration and assignment into one line to both declare the array names as xPos and yPos and assigning the numberic values into the array index, which refers to the number of column and row respectively. Think about the program needs to know how many asterisks should be drawn on the screen before going to next row and when to restart everything again. 
+
+As the array index is started with [0], therefore each index is mapped the value in this way:  
+`let xPos = [1,2,3,4,5];` -> 
+xPos.length: xPos[0] = 1, xPos[1] = 2, xPos[2] = 3, xPos[3] = 4, xPos[4] = 5
+`let yPos = [1,2,3,4];` -> 
+yPos.length: ypos[0] = 1, yPos[1] = 2, yPos[2] = 3, yPos[3] = 4
+
+## 3.10 Conditional Statements 
+Conditional statements is very useful because it allows you to set different path of the decision by specifying conditions. Indeed, conditional decision is something not only specific to programming: 
+
+In the physical world you would say "If I am hungry then I'll eat some food, otherwise if I am thirsty, then I will drink some water, else I will just take a nap"
+```javascript
+//example in human language
+if (I am hungry) { 
+  eat some food;
+}else if(thirsty) {
+  drink some water;
+}else{
+  take a nap;
+}
+```
+The above is the pseudocode to demonstrate what might be a daily decision looks like in programming. With the keyword and syntax `if`, then follow by the condition and check if that certain condition holds. As such, the whole if statement is a Boolean expression, it can be either true and false, leading to a different path and action.
+
+Referring back to the work *Asterisk Painting* (especially line 62), it has a conditional logic (if-then) built in the program so that it knows when to move to the next position for the asterisk painting. 
+
+```javascript
+//sample from Asterisk Painting  :see line 62:
+if(sentences >= maxSentences){  //if the existing sentence count reaches the max sentence of a asterisk painting
+   move to the next one and continues;
+}
+```
+The value of the variable `maxSentences` is 77 (refer to line 22 from the source code), therefore each asterisk contains 77 sentences (which is in the form of a line that contains numbers). The other variable `sentences` is to count for each line and the program will check if the current `sentences` has reached the maximum scope. **If** the asterisk reaches 77 sentences **then** it will move to the next one and the `sentences` counter will be reset to 0 (line 84) and count again. The logic repeats and loops again within the `draw()` function. 
+
+## 3.10.1 Relational operators 
+When you have to create your own conditional statement with the if-then form, there are multiple combination you can work on to form a more complex expression. For example you can have many different cases using the syntax `else if`, or a combinaton of logical operators, such as the AND case here as a pseudocode example: 
+```javascript 
+if (I am hungry) && (I am in a good mood) {
+    print("go out");
+}
+```
+Here is a list of relational operators and logical symbols that can be used in a conditional statement. 
+
+```
+/* 
+Relational Operators: 
+>   Greater than
+<   Less than
+>=  greater than or equal to
+<=  less than or equal to
+==  equality
+=== equality (include strict data type checking)
+!=  not equal to
+!== inquality with strict type checking
+*/
+
+/*
+Logical Operators: boolean logic:
+&&  logical AND
+||  logical OR
+!   logical NOT
+*/
+
+/*
+Example: 
+if () {
+  //something here
+}else if() {
+  //something here
+}else{
+  //something here
+}
+```
+
+## 3.11 Loops 
+
+
 
 loops
 Iterations: For/ While Loops
-Conditional statements and Functions
+
 Time related syntax, machine and human time (unix-epoch), clocks
 Transform: translate(), rotate(), push/pop()
 Artwork: Asterisk Painting (2013) by Bell John
@@ -287,7 +387,7 @@ Temporalities: real-time, machine time, micro-time and just-in-time (live) codin
   - [Loading](https://festivalenter.wordpress.com/2009/04/09/electroboutique-by-alexei-shulgin-roman-minaev-aristarkh-chernyshev/) by Electroboutique:
   - [LOADING (THE BEAST 6:66/20:09)](https://www.yugo.at/processing/archive/index.php?what=loading) by Gordan Savičić
   - [Fedora’s artwork team](https://fedoraproject.org/wiki/Artwork/ArtTeamProjects/Fedora7Remix/Rhgb/Throbber) produces a series of throbber images that put emphasis on the design of spinning.
-  - [DVD guy by Constant Dullaart](https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB), with the contextualization by Panke Gallery in Berlin: http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin 
+  - [DVD guy by Constant Dullaart](https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB), with the contextualization by Panke Gallery in Berlin http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin 
   - [Throb by Winnie Soon](http://siusoon.net/throb/)
 
 **Task (RUNME):**
