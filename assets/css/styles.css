@@ -1,0 +1,35 @@
+@page {
+    size: 140mm 200mm;
+}
+
+.debug .pagedjs_page {
+    outline: 1px solid black;
+}
+
+.pagedjs_page {
+    counter-increment: page;
+}
+.pagedjs_margin-bottom:before {
+    /*content: var(--pagedjs-page-count);*/
+    content: counter(page);
+    
+}
+
+@font-face {
+    font-family: Code;
+    src: url("/assets/fonts/CutiveMono-Regular.ttf");
+}
+@font-face {
+    font-family: Text;
+    src: url("/assets/fonts/cmunui.ttf");
+}
+
+body {
+    font-family: Text;
+}
+
+pre,
+code {
+    font-family: Code;
+}
+
