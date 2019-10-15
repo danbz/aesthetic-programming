@@ -1,3 +1,6 @@
+Title: 2. Variable Geometry
+page_order: 2
+
 ## 2. Variable Geometry
 
 ## 2.1 function setup()
@@ -18,7 +21,8 @@ The independent desigher David Reinfurt created the work *[Multi](http://www.o-r
 Instead of using preset typographic characters, this section will explore what constitute those punctunation glyphs like a comma. How can you draw a comma with the foundational elements of geometry?
 
 ## 2.1.2 Source Code
-<img src="ch2_2.png" width="250"><br>
+<!-- <img src="ch2_2.png" width="250"> -->
+![](ch2_2.png)<br>
 *Figure 2.2: The screenshot of the remix of Multi*
 
 [the image and source code will change a bit to match exactly the spatial composition of Multi - will get back in *future* /w]
@@ -91,7 +95,8 @@ function draw() {
   background(random(130,140));
 }
 ```
-<img src="ch2_3.png" width="400"><br>
+<!-- <img src="ch2_3.png" width="400"> -->
+![](ch2_3.png)<br>
 *Figure 2.3: Simple exercise* 
 
 Remember the structure of a web page includes both the html, working javascript file (for example sketch.js) and p5.js associated libraries.  
@@ -145,7 +150,8 @@ For this example, two variables: 'moving_size' is more stable than 'static_size'
 
 There are two more variables in the example: `mouseX` and `mouseY`. These are changing variables and are subjected to the mouse movement to trace the coresponding x and y coordinates. If you want to know the mouseX and mouseY exact coordinate position, you may also use `print()` or `console.log` to display the two values onto the console area.
 
-<br><img src="https://media.istockphoto.com/vectors/school-or-changing-room-lockers-vector-id640307424" width="300"> <br>
+<br><!-- <img src="https://media.istockphoto.com/vectors/school-or-changing-room-lockers-vector-id640307424" width="300"> -->
+![](https://media.istockphoto.com/vectors/school-or-changing-room-lockers-vector-id640307424) <br>
 *Figure 2.4: Illustration of variables*
 
 [need lockers illustration or sth like this: https://www.mathwarehouse.com/programming/images/pbv-vs-pbr/picture-pass-by-value-vs-reference-how-memory-works-with-locations.png /w] <br>

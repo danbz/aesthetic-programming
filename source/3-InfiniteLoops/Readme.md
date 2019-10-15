@@ -1,3 +1,6 @@
+Title: 3. Infinite Loops
+page_order: 3
+
 ## 3. Infinite Loops
 
 ### 3.1 function setup()
@@ -13,7 +16,8 @@ For this rather long chapter, we are using the cultural icon - Throbber as a way
 
 ### 3.2 Decode 
 We are moving from static objects (like shapes) to a mix of static and moving objects here. 
-<br><img src="ch3_2.png" width="380"><br>
+<br><!-- <img src="ch3_2.png" width="380"> -->
+![](ch3_2.png)<br>
 *Figure 3.2: The runme of sample code - sketch 3_1* [need to change the path /w]
 
 By examining the RUNME (ref) of a simple throbber, can you describe the different elements of the work and imagine how they operate computationally in human language.
@@ -390,7 +394,8 @@ See below example taken from the source code of Asterisk Painting (line 37-42):
     ```
 
 See the structure of a for-loop:<br>
-<img src="ch3_4.png" width="400"> <br>
+<!-- <img src="ch3_4.png" width="400"> -->
+![](ch3_4.png) <br>
 *Figure 3.4 A for-loop* 
 
 From the Figure 3.4, you can see a for-loop contains:
@@ -401,7 +406,8 @@ From the Figure 3.4, you can see a for-loop contains:
 
 For this specific case, this block of code from the above describes the position of each asterisk in terms of its' x and y coordinates (the center point [x,y] of each asterisk). Since there are 5 columns (xPos) and 4 rows (yPos) which have been defined in the global variables, the program needs to know the coordinates precisely. The overall formular to locate the position, for example xPos, is to get the width of the canvas divides by the number of asterisks horizontally and add 1. As such, the code should be understood as: For each count with the starting point as 0, calculate the `xPos[i]`. Additionally, each iteration will increase the count by one until it reaches the maximum number of asterisks in a row (`i<xPos.length`). 
 
-<img src="ch3_5.png" width="750"> <br>
+<!-- <img src="ch3_5.png" width="750"> -->
+![](ch3_5.png) <br>
 *Figure 3.5 The xPos of each* </br>
 
 #### 3.11.1 While Loop

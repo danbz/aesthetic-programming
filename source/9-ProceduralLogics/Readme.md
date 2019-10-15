@@ -1,3 +1,6 @@
+Title: 9. Procedural Logics
+page_order: 9
+
 ## Other projects
 - The  Project  Formerly  Known  as  Kindle  Forkbomb Printing Press: http://www.arnolfini.org.uk:7081/project.arnolfini/the-project-formerly-known-as-kindle-forkbomb
 

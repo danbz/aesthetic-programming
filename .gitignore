@@ -1,1 +1,4 @@
 output/
+pelican/output
+*.pyc
+pelican/__pycache__
