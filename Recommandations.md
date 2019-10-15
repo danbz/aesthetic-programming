@@ -4,3 +4,9 @@
 - Keep saving the images and resources within the chapter folder
 
 - We added title and page_order metadata for pelican.
+
+# Visual language
+
+Some inspirations:
+- <https://www.sqlite.org/lang_createtable.html>
+- <https://macintoshnotes.files.wordpress.com/2013/09/meldscreenshot2.jpg>
