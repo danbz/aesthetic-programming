@@ -13,9 +13,9 @@ page_order: 4
 
 ## 4.2.1 Exercise in class
 
-## 2.7 While()
+## 4.7 While()
 
-## 2.8 Mini_Exercise[4]: Capture All
+## 4.8 Mini_Exercise[4]: Capture All
 
 **Objective:**
 - To experiment various data capturing inputs, including audio, mouse, keyboard, web camera and beyond.
