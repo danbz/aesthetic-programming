@@ -33,7 +33,7 @@ page_order: 4
 
 **Questions to think about as README:**
 - **Describe** your program and what you have used and learnt
-- **Articulate** how does your program and thoughts behind address the open call from Transmediale 2015. 
+- **Articulate** how do your program and thoughts behind address the open call from Transmediale 2015. 
 - What might be the cultural implicatons of data capture? 
 
 ## Required readings:
