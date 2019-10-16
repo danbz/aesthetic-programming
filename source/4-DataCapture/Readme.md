@@ -37,8 +37,8 @@ page_order: 4
 - What might be the cultural implicatons of data capture? 
 
 ## Required readings:
-- (a short one) Pold, Søren. "Button." Software Studies\ a lexicon. Eds. Matthew Fuller. MIT Press, 2008. 31-36. 
-- Gerlitz, Carolin, and Helmond, Anne. “The like Economy: Social Buttons and the Data-Intensive Web.” New Media & Society 15, no. 8 (December 1, 2013): 1348–65. (can access via e-library)
+- Pold, Søren. "Button" in *Software Studies* (Fuller, M ed), MIT Press 2008.
+- Gerlitz, Carolin, and Helmond, Anne. “The like Economy: Social Buttons and the Data-Intensive Web.” *New Media & Society* 15, no. 8 (December 1, 2013): 1348–65.
 - [p5.js examples - Interactivity 1](https://p5js.org/examples/hello-p5-interactivity-1.html)
 - [p5.js examples - Interactivity 2](https://p5js.org/examples/hello-p5-interactivity-2.html)
 - [p5.dom library reference](https://p5js.org/reference/#/libraries/p5.dom)
