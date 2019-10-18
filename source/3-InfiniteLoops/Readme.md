@@ -8,7 +8,7 @@ In computer programming, the concept of loop is highly related to repetition, co
 
 Mathematician Augusta Ada Byron Lovelace first introduced the concept of a loop in the early nineteenth century. She recognised that there were repeatable operations in the conceptual design of the operating machine that was regarded as “the first automatic, general-purpose computing machine ever designed” <span class="ref">(ref: Kim & Toole, 1999, p. 76)</span>, known as Charles Babbage’s Analytical Engine. The concept of a loop, which she called a ‘cycle,’ was conceived in 1834 in her notes on the Analytical Engine which set a precedent for the direction in which digital computers would be later developed. Her notes include (in the form of a diagram in Note G) the program procedures, also called the Bernoulli numbers program, of the Analytical Engine. The diagram utilises two loops to indicate the repetition of a set of instructions with conditions <span class="ref">(ref: Kim & Toole, 1999, p. 78)</span>, minimizing duplicate efforts to write the repeatable operation again. Arguably, the concept of a loop in modern coding practice is highly influenced by her insights into the handling of repeated machine operations expressed in a concrete diagramatic manner, which depicts the essence of repetition and condition in a cycle. Modern high-level programming language includes a loop function, allowing a fragment of source code to be repeatedly executed. 
 
-<img src="http://media.factmyth.com/2015/10/ada-lovelace-bernoulli-note-g.jpg" width ="700"><br>
+![ada lovelace](http://media.factmyth.com/2015/10/ada-lovelace-bernoulli-note-g.jpg)<br>
 *Figure 3.1: The diagram on Bernoulli in Note G by Ada Lovelace*
 
 #### 3.1.1 Start()
@@ -16,7 +16,7 @@ For this rather long chapter, we are using the cultural icon - Throbber as a way
 
 ### 3.2 Decode 
 We are moving from static objects (like shapes) to a mix of static and moving objects here. 
-<br><!-- <img src="ch3_2.png" width="380"> -->
+
 ![](ch3_2.png)<br>
 *Figure 3.2: The runme of sample code - sketch 3_1* [need to change the path /w]
 
@@ -35,18 +35,18 @@ By examining the RUNME (ref) of a simple throbber, can you describe the differen
     - how to make a ellipse fades out and rotates to the next position?
     - how to position the static yellow lines, as well as the moving ellipses?
         
-2. **Experimention** - Change some of the code parameters
+2. **Experimentation** - Change some of the code parameters
 
-- Try to change some of the parameters e.g background(), framerate(), drawElements()
-- There are some new functions are used, can you check that out in the p5.js reference? (e.g push(), pop(), translate(), rotate())
+- Try to change some of the parameters e.g. `background()`, `framerate()`, `drawElements()`
+- There are some new functions are used, can you check that out in the `p5.js` reference? (e.g. `push()`, `pop()`, `translate()`, `rotate()`)
     
 3. **Mapping** - Map some of the elements from #1 to the source code level 
 
 - Can you identify the part/block of the code responds to the elements that you have speculated before?
 
-4. **Technical question/issues:**
+4. **Technical question/issues**
 
-- `let cir = 360/num*(frameCount%num);` <br> What this line means? (can check with [Golan Levin's tutorial](https://www.youtube.com/watch?v=r5Iy3v1co0A) on the modulo operator (ref. https://www.youtube.com/watch?v=r5Iy3v1co0A) 
+- `let cir = 360/num*(frameCount%num);` <br> What does this line means? (can check with [Golan Levin's tutorial](https://www.youtube.com/watch?v=r5Iy3v1co0A) on the modulo operator <span class="ref">(ref. https://www.youtube.com/watch?v=r5Iy3v1co0A)</span>. 
     
 #### 3.2.1 Source Code
 
@@ -148,11 +148,13 @@ function drawElements() {
 
 The last three lines are about the drawing of two static yellow lines on the left and right side of the canvas. Logically speaking, the translate and rotate functions should also apply to these two lines but because the `pop()` function is in placed right after all the drawing of ellipses and such transform features, therefore, would not impact the lines. But if you move the line `pop()` till the end, then the two lines will also rotate and translate. This is to illustrate the idea of how `push()` and `pop()` could be used and where to place them does matter <span class="ref">(ref: https://p5js.org/reference/#/p5/push)</span>.
 
+<div class="exercise" markdown="true">
 ### 3.5 Exercise in class
 
 - This exercise is about structuring code. How would you restructure the sample code again so that it is easier for others to understand but maintaining the same visual outcome? There is no right or wrong answers but some pointers below might facilitate discussion: 
     - you may think of rename the function and add new functions
     - Instead of having `drawElements()`, may be we can have something like `drawThrobber()` and `drawLines()`?
+</div>
 
 ### 3.6 Asterisk Painting 
 So far we have discussed the transformation of objects with the sample code, but the throbber is moving repetitively and regularly through using syntaxes like `frameRate()` to slower down the number of frames that run per second, and `rotate()` to control the angle for each rotation. But more importantly with the `draw()` and `rect()` functions, it gives the illusion that the newly drawn ellipse fades over time and one after the after following the drawing of a semi-transparent rectangle background per frame.   
@@ -163,7 +165,7 @@ This section will move from repetition and regularity to repetition and differen
 *Figure 3.3 : Aesterisk Painting (2014) by John P. Bell*
 
 According to Bell, 
->  Asterisk Painting is programmed to create a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started. If left to run by itself it will do so; however, when started on a system with other threads running in the background delays external to my artwork may make the asterisks look more like spots and the painting may resemble the work of certain other overly-litigious artists.
+>  “Asterisk Painting is programmed to create a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started. If left to run by itself it will do so; however, when started on a system with other threads running in the background delays external to my artwork may make the asterisks look more like spots and the painting may resemble the work of certain other overly-litigious artists.”
 
 ### 3.7 Source code 
 The original piece was written in Processing by John P.Bell and it has been modified and ported to p5.js by Winnie Soon
@@ -214,7 +216,7 @@ function setup(){
   fill(0);  //counter color at the bottom left
   textAlign(LEFT, CENTER);
   text(itr, 10, yDim-30); //display counter
-  fillColor = color(floor(random(0,255)),floor(random(0,255)),floor(random(0,255)));
+  fillColor = color(floor(random(0,255)), floor(random(0,255)), floor(random(0,255)));
 }
 
 function draw(){
@@ -433,6 +435,7 @@ For example, `while(millis() < wait){}` in line 77 which tells the computer to d
 Temporalities: real-time, machine time, micro-time and just-in-time (live) coding (Ernst's essay - if... then - loop forever)
 -> link to the politics of time
 
+<div class="exercise" markdown="true">
 ## Mini_Exercise[3]: Designing a throbber 
 **Objective:**
 
@@ -457,20 +460,22 @@ Check out other works regarding a throbber and how other people contextualize th
 - **Describe** about your throbber design, both conceptually and technically.
     -  What are the time-related syntaxes/functions that you have used in your program? and why you use in this way? How is time being constructed in computation (can refer to both reading and your process of coding)?
     - Think about a throbber that you have encounted in digital culture e.g streaming video on YouTube or loading latest feeds on Facebook or waiting a ticket transaction, what do you think a throbber tells us, and/or hides, about? How might we think about this remarkable throbber icon differently?
+</div>
 
-## Required reading:
 
-- Shiffman, Daniel. (2018) 3.1,3.2,3.3,3.4,4.1,4.2,5.1,5.2,5.3,7.1,7.2: Code! Programming with p5.js [online] Available at: https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2 [Accessed 09 Sep. 2019]. (practical usage on conditional statements, loops, functions and arrays)
-- Soon, Winnie. Throbber: Executing Micro-temporal Streams, *Computational Culture*, inpress, 2019.
+## 3.12 Required reading
+
+- Shiffman, Daniel. Courses 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2, *Code! Programming with p5.js* on [YouTube](https://www.youtube.com/watch?v=1Osb_iGDdjk), 2018 [Accessed 9 Sep. 2019]. (practical usage on conditional statements, loops, functions and arrays)
+- Soon, Winnie. "Throbber: Executing Micro-temporal Streams", *Computational Culture*, inpress, 2019.
 - Close reading on the work *Asterisk Painting* by John P. Bell, ported to p5.js, and modified, by Winnie Soon 
 
-## Further reading:
+## 3.13 Further reading
 
-- Bek, Wilfried Hou Je. "Loop" in Software Studies (Fuller, M ed), MIT Press 2008.
-- Robinson, Derek. "Function" in Software Studies (Fuller, M ed), MIT Press 2008.
-- Farman, Jason. Fidget Spinners. *Real Life*, 2017.
+- Hou Je Bek, Wilfried. "Loop", *Software Studies* (Fuller, Matthew, ed.), MIT Press, 2008.
+- Robinson, Derek. "Function", *Software Studies* (Fuller, Matthew, ed.), MIT Press, 2008.
+- Farman, Jason. "Fidget Spinners", *Real Life*, 2017.
 
-## Notes: 
+## Notes:
 
 
 
