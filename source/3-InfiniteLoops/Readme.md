@@ -3,7 +3,7 @@ page_order: 3
 
 ## 3. Infinite Loops
 
-### 3.1 function setup()
+### 3.1 Setup()
 In computer programming, the concept of loop is highly related to repetition, control and automation. For example, the function `draw()` also exhibits some kinds of repetition in `p5.js` while `frameRate()` controls how many times to run the `draw()` function in a second. Once you run the whole program, things will run on its own, for example the program automatically captures the mouse coordinates of the movement. Extending from programming to applications, the feature of loop can be observed in mandune daily activities and operations, such as the checking logic of a metro/underground/train card balance in kiosk machines, and the program does the same task by capturing data via the card reader and outputting the card balance amount on a screen. If variables highlight the changes over time, then loops focus on repetition and operative tasks, but they are both inter-related in programming. 
 
 Mathematician Augusta Ada Byron Lovelace first introduced the concept of a loop in the early nineteenth century. She recognised that there were repeatable operations in the conceptual design of the operating machine that was regarded as “the first automatic, general-purpose computing machine ever designed” <span class="ref">(ref: Kim & Toole, 1999, p. 76)</span>, known as Charles Babbage’s Analytical Engine. The concept of a loop, which she called a ‘cycle,’ was conceived in 1834 in her notes on the Analytical Engine which set a precedent for the direction in which digital computers would be later developed. Her notes include (in the form of a diagram in Note G) the program procedures, also called the Bernoulli numbers program, of the Analytical Engine. The diagram utilises two loops to indicate the repetition of a set of instructions with conditions <span class="ref">(ref: Kim & Toole, 1999, p. 78)</span>, minimizing duplicate efforts to write the repeatable operation again. Arguably, the concept of a loop in modern coding practice is highly influenced by her insights into the handling of repeated machine operations expressed in a concrete diagramatic manner, which depicts the essence of repetition and condition in a cycle. Modern high-level programming language includes a loop function, allowing a fragment of source code to be repeatedly executed. 
@@ -17,36 +17,29 @@ For this rather long chapter, we are using the cultural icon - Throbber as a way
 ### 3.2 Decode 
 We are moving from static objects (like shapes) to a mix of static and moving objects here. 
 
-![](ch3_2.png)<br>
+<iframe src="sketch.html"></iframe>
 *Figure 3.2: The runme of sample code - sketch 3_1* [need to change the path /w]
 
 By examining the RUNME (ref) of a simple throbber, can you describe the different elements of the work and imagine how they operate computationally in human language.
 
-1. **Speculation** - based on what you see on the screen:
-
-- Describe you see/experience on the screen?
-    - What are the elements on the screen?
-    - What are moving and not moving?
-    - How many ellipses at the center?
-    - Try to resize the window and see what happens?
-- Further questions:
-    - how to set the background color?
-    - how does an ellipse rotate? 
-    - how to make a ellipse fades out and rotates to the next position?
-    - how to position the static yellow lines, as well as the moving ellipses?
-        
-2. **Experimentation** - Change some of the code parameters
-
-- Try to change some of the parameters e.g. `background()`, `framerate()`, `drawElements()`
-- There are some new functions are used, can you check that out in the `p5.js` reference? (e.g. `push()`, `pop()`, `translate()`, `rotate()`)
-    
-3. **Mapping** - Map some of the elements from #1 to the source code level 
-
-- Can you identify the part/block of the code responds to the elements that you have speculated before?
-
-4. **Technical question/issues**
-
-- `let cir = 360/num*(frameCount%num);` <br> What does this line means? (can check with [Golan Levin's tutorial](https://www.youtube.com/watch?v=r5Iy3v1co0A) on the modulo operator <span class="ref">(ref. https://www.youtube.com/watch?v=r5Iy3v1co0A)</span>. 
+- **Speculation** - based on what you see on the screen:
+    - Describe you see/experience on the screen?
+        - What are the elements on the screen?
+        - What are moving and not moving?
+        - How many ellipses at the center?
+        - Try to resize the window and see what happens?
+    - Further questions:
+        - how to set the background color?
+        - how does an ellipse rotate? 
+        - how to make a ellipse fades out and rotates to the next position?
+        - how to position the static yellow lines, as well as the moving ellipses?
+- **Experimentation** - Change some of the code parameters
+    - Try to change some of the parameters e.g. `background()`, `framerate()`, `drawElements()`
+    - There are some new functions are used, can you check that out in the `p5.js` reference? (e.g. `push()`, `pop()`, `translate()`, `rotate()`)
+- **Mapping** - Map some of the elements from #1 to the source code level 
+    - Can you identify the part/block of the code responds to the elements that you have speculated before?
+- **Technical question/issues**
+    - `let cir = 360/num*(frameCount%num);` <br> What does this line means? (can check with [Golan Levin's tutorial](https://www.youtube.com/watch?v=r5Iy3v1co0A) on the modulo operator <span class="ref">(ref. https://www.youtube.com/watch?v=r5Iy3v1co0A)</span>. 
     
 #### 3.2.1 Source Code
 
