@@ -142,6 +142,7 @@ function drawElements() {
 The last three lines are about the drawing of two static yellow lines on the left and right side of the canvas. Logically speaking, the translate and rotate functions should also apply to these two lines but because the `pop()` function is in placed right after all the drawing of ellipses and such transform features, therefore, would not impact the lines. But if you move the line `pop()` till the end, then the two lines will also rotate and translate. This is to illustrate the idea of how `push()` and `pop()` could be used and where to place them does matter <span class="ref">(ref: https://p5js.org/reference/#/p5/push)</span>.
 
 <div class="exercise" markdown="true">
+
 ### 3.5 Exercise in class
 
 - This exercise is about structuring code. How would you restructure the sample code again so that it is easier for others to understand but maintaining the same visual outcome? There is no right or wrong answers but some pointers below might facilitate discussion: 
@@ -429,6 +430,7 @@ Temporalities: real-time, machine time, micro-time and just-in-time (live) codin
 -> link to the politics of time
 
 <div class="exercise" markdown="true">
+
 ## Mini_Exercise[3]: Designing a throbber 
 **Objective:**
 
@@ -469,7 +471,7 @@ Check out other works regarding a throbber and how other people contextualize th
 - Farman, Jason. "Fidget Spinners", *Real Life*, 2017.
 
 ## Notes:
-
+reference and footnotes here... 
 
 
 
