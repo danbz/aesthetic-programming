@@ -9,9 +9,12 @@ This chapter focuses on how a program can capture and process input data. In som
 The chapter begins with a familiar button that we can picture it in our head, something like switching on/off a light, a kettle and many other electronic devices. A button is "seductive" (ref: pold p. 34), indicating a potentiality of interaction and generating a desire to press it, and usually it comes with an immediate feedback. Similarly in software and platforms like Facebook, a button indicates a call for actions, inviting a user to click and and interact with it in a binary state: on or off, like or (not)like, accept or cancel. Further with the capability to customize wordings on a button, Pold suggests that a button is developed with distinct functionality and signification (ref: pold p. 31). The following section will introduce the sample code of this chapter that is centered around the button of likes to demonstrating the potential of interactions, customizations and manipulations. Then it will further discuss different modes of capture in contemporary culture.
 
 ## 4.1.1 Start()
-![datacapture](https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class04/sketch04.gif) [need to update the image and runme /w]
+![datacapture](https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class04/sketch04.gif) 
+<br>
+*Figure 4.1 The web interface and interaction of Data Capture*<br>
+[need to update the image and runme /w]
 
-[Runme](xxx_ch4)    
+[RUNME](xxx_ch4)    
 
 Starting with this sample code of Data Capture, the sketch incorporates four data inputs around the customized-like button: 
 1. The button is clickable through a mouse in which to clearing the screen.
