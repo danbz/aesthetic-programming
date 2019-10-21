@@ -121,7 +121,7 @@ The basic structure for creating form elements is relatively simple. Under the p
 
 First you need to give an object name for a button, and of course a different name if you have more than one so that you can set the properties (ref: See the method list of p5.Element here: https://p5js.org/reference/#/p5.Element) for each individual one. 
 
-- `let button;`: declare the dom object name
+- `let button;`: First is to declare the object by assigning a name.
 - `button = createButton('like');`: Create a button and consider the text display of the button
 - `button.style("xxx","xxxx");`: This is the CSS standard, where the first argument is a selection and the second is a declaration block. For example if you want to set the font color, then you can put in "color" and "#fff" for the arguments. (ref/footnote: This can be easily checked out the possible styling of a button, and here are some examples: https://www.w3schools.com/csS/css3_buttons.asp) For this specific sample code, all the styling are copied from the Facebook interface directly (as of 2015) by looking into their CSS source code. Those styling include `display`, `color`, `padding`, `text-decoration`, `font-size`, `font-weight`, `border-radius`, `border`, `text-shadow`, `background`, `filter` and `transform`.  
 - `button.mousePressed(clearance());`: This specifies what to do (which function to call) when the program listens to the mousePressed event. Within the customized function `clearance()`, the `clear()` is a JavaScript built-in function and in this case is to clear the screen.    
