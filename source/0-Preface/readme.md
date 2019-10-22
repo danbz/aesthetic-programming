@@ -31,7 +31,7 @@ To address this difficulty we have been working with key concepts from programmi
 
 // And software studies?
 
-So we draw heavily upon the field of Software Studies, and to an extent Critical Code Studies -- the work of Wendy Chun, Matthew Fuller, and others, including our own earlier selves -- to deal with and communicate knowledge of software as a cultural form via analyses of examples of software artefacts and close readings of theoretical texts.<sup>[11](#myfootnote11)</sup> In many ways, and simply put, our book can be thought of as an update of both books -- a further lexicon -- but with far more attention to the culture of software from the inside; but also like any lexicon, as a way to attest to the ways in which words exert power through meanings and also through their actions as instructions. In this respect it is also important to recognise that the book *Software Studies* derived from an earlier workshop, and it is worth quoting the project page for its clarity of intention: 
+So we draw heavily upon the field of Software Studies, and to an extent Critical Code Studies -- the work of Wendy Chun, Matthew Fuller, and others, including our own earlier selves -- to deal with and communicate knowledge of software as a cultural form via analyses of examples of software artefacts and close readings of theoretical texts. In terms of form we take our cue from Matthew Fuller's *Software Studies: A Lexicon* from 2008, structured literally as a lexicon of key terms, it in turn taking its cue from the Raymond Williams's *Keywords: A Vocabulary of Culture and Society* first published in  1958.<sup>[11](#myfootnote11)</sup> In many ways, and simply put, our book can be thought of as an update of both books -- a further lexicon -- but with far more attention to the culture of software from the inside; but also like any lexicon, as a way to attest to the ways in which words exert power through meanings and also through their actions as instructions. In this respect it is also important to recognise that the book *Software Studies* derived from an earlier workshop, and it is worth quoting the project page for its clarity of intention: 
 "[T]he project aims at folding the internalist/externalist question of science studies inside out, the mechanisms of the one conjugating the subject of the other: what does software-enabled scholarship, in software, art and literary practice have to say about its own medium? The purpose of this interaction is not therefore to stage some revelation of a supposed hidden truth of software, to unmask its esoteric reality, but to see what it is and what it can be coupled with: a rich seam of paradoxical conjunctions in which the speed and rationality of computation meets with its ostensible outside."<sup>[12](#myfootnote12)</sup>
 
 Like this, we believe that paying attention to key concepts from programming offers the possibility to open up new insights into aesthetics and critical theory, and new perspectives on cultural phenomena increasingly bound to computational logic. In extending the discussion, beyond formal logic to its outside, we also emphasise the usefulness of artistic practice to open up more speculative and alternative imaginaries. In this spirit, and in keeping with the development of software studies in Europe at least, we take inspiration from what has been referred to as *software art* (although admittedly the category was only meant as a temporary holding position).<sup>[13](#myfootnote13)</sup> That we draw upon examples from artistic (and critical design) practices as part of our argument, including works by one of us (Winnie Soon), stresses our point that programming is not simply a practical tool that produces an artwork but -- like poetry or performance art -- is a critical-aesthetic object in itself.<sup>[14](#myfootnote14)</sup> As media theorist Tilman Baumgärtel once neatly clarified:
@@ -61,4 +61,36 @@ The use of a Git repository for our writing further emphasises these working pri
 Finally we might add that the book is not simply a physical object that you might be holding in your hands as you read these words, but a computational and networked object too, distributed across various other spaces and temporalities, and made available to both readers and writers alike. In saying this we refer to Benjamin again, from his essay “The Author as Producer": “The reader is always prepared to become a writer, in the sense of being one who describes or prescribes. [...] And writing about work makes up part of the skill necessary to perform it. Authority to write is no longer founded in a specialist training but in a polytechnical one, and so becomes common property.”[Note: Walter Benjamin, "The Author as Producer" [1935], quoted in Geoff Cox & Joasia Krysa, eds. *Engineering Culture: On the Author as (Digital) Producer*, New York, Autonomedia, 2005: 22.] (and interestingly, for Benjamin, cultural production requires a pedagogic function.) 
 
 This is exactly our point. The book expresses itself as a dynamic object not fixed in terms of authorship or commodity form. It follows that, although this preface is only the beginning of the book, there can be no end: the book is purposefully stuck in an endless loop of its own becoming. 
+
+##Notes [IN PROCESS]
+
+<a name=“myfootnote1”>1</a> The casual address “for dummies” could also be used but this carries the unfortunate connotation of learning disability.
+
+<a name=“myfootnote2”>2</a> Here we are making reference to nonstandard literacy, such as in the article: Marilyn M. Cooper, "Really Useful Knowledge: A Cultural Studies Agenda for Writing Centers", *The Writing Center Journal*, Vol. 14, No. 2 (Spring 1994), pp. 97-111, https://www.jstor.org/stable/43441948.
+
+<a name=“myfootnote3”>3</a> Software studies is an interdisciplinary research field, which studies software systems and their social and cultural effects, see Matthew Fuller, ed. *Software Studies: A Lexicon*, London: MIT Press, 2008.
+
+<a name=“myfootnote4”>4</a> Here we are referring to Maeda, 2004; Peppler & Kafai, 2009; Montfort 2016, Wardrip-Fruin 2012, ADD REFS, add more?
+
+<a name=“myfootnote5”>5</a> Special mention should be extended to Magda Tyzlik-Carver and Christian Ulrik Andersen who have contributed to the teaching of these courses, as well as teaching assistants... add names. 
+
+<a name=“myfootnote6”>6</a> Jacques Rancière, *The Politics of Aesthetics*, London: Continuum, 2006, that investigates what aesthetics and politics have in common: the delimitation of the thinkable and the unthinkable, the possible and the impossible, according to Rancière.
+
+<a name=“myfootnote7”>7</a> The quote continues: "... which must be deciphered by means of critical analysis." (Martin Jay, *Aesthetic Theory*, 1996: 177). 
+
+<a name=“myfootnote8”>8</a> To quote Benjamin on this point: "The instant the criterion of authenticity ceases to be applicable to artistic production, the total function of art is reversed. Instead of being based on ritual, it begins to be based on another practice - politics." (ADD REF)
+
+<a name=“myfootnote9”>9</a> Adorno says it better: "A successful work of art, according to immanent criticism, is one that resolves objective contradictions in a spurious harmony, but one expresses the idea of harmony negatively by embodying the contradictions, pure and uncompromised, in its innermost structure" (Adorno, in *Prisms*, 1967: 32, also quoted in Jay, 1996: 179). 
+
+<a name=“myfootnote10”>10</a> Chun has studied both Systems Design Engineering and English Literature, which she combines and mutates in her current work, see https://en.wikipedia.org/wiki/Wendy_Hui_Kyong_Chun. 
+
+<a name=“myfootnote11”>11</a> Fuller, ed. *Software Studies*; Raymond Williams, *Keywords: A Vocabulary of Culture and Society*, London: Fontana, 1983; in 2005 Blackwell published *New Keywords: A Revised Vocabulary of Culture and Society*. 
+
+<a name=“myfootnote12”>12</a> The project workshop description an be found archived at https://web.archive.org/web/20100327185154/http://pzwart.wdka.hro.nl/mdr/Seminars2/softstudworkshop.
+
+<a name=“myfootnote13”>13</a> In particular we might cite the influence of the Readme festival... add more on this. Importantly here perhaps is to emphasise that the category of art in itself becomes inadequate to cover the kinds of creatives practices that have developed in the field. ADD REFS
+
+<a name=“myfootnote14”>14</a> Critical Code studies makes this explicit. Critical Code Studies is... coding in tradition of literary criticism [ADD MORE].  
+
+<a name=“myfootnote15”>15</a> Cited in Cox, 2007 REF???, 150.
 
