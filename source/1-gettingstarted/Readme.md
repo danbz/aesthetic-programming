@@ -53,7 +53,7 @@ ATOM is used as the key code editor in this book. IN keeping with its free and o
 1. Download the software ATOM from the homepage: https://atom.io/
 2. Drag the 'p5' folder that you have just unzipped onto ATOM. You should able to see the left-hand pane with your project. Then you try to navigate to the 'index.html' file under the 'empty-example' folder, double click that file and the source code should display on the right-hand pane. See below: 
 <br><!-- <img src="ch1_4.png" width="450"> -->
-![]({attach}ch1_4.png)<br>
+![](ch1_4.png)<br>
 *Figure 1.4: The file structure of ATOM* 
 
 The 'index.html' is the default page, amongst other pages and files, that the web browser will first pick up and display. You can customize the page title and other styling, but the focus for this chapter will be navigating the libraries and running our first program. Since p5.js is a library, here on line 8-11 which indicates how to incorporate javascript files and libraries by using the tags `<script>` and `</script>. `
@@ -63,7 +63,7 @@ Right now the script is using relative paths, which is a useful concept when we 
 Next you will need to install a package called 'atom-live-server'<sup>[19](#myfootnote19)</sup>, and this is useful for setting up a web server and you can update your code and see the result immediately on a browser without the need to refresh it. You can first check under 'Packages' on your menu bar and see if the package is there. If not, then go to Edit > Preferences > +Install, then type 'atom-live-server'. Hit the blue install button and you should able to find it again under the Packages menu. 
 
 <!-- <img src="ch1_5.png" width="500"> -->
-![]({attach}ch1_5.png) <br>
+![](ch1_5.png) <br>
 *Figure 1.5: Installing atom-live-server* 
 
 If you want to customize the theme like the background color of the panes, simply go to Preferences > Themes.
@@ -90,7 +90,7 @@ function draw() {
 
 * To run the code, you just need to go to Packages > atom-live-server (or you can use the shortcut Crtl + Alt + L). Then there will be a popup window, click on the 'empty-example' folder and it should display something like below:
 <br><!-- <img src="ch1_6.png" width="500"> -->
-![]({attach}ch1_6.png) <br>
+![](ch1_6.png) <br>
 *Figure 1.6: My first program*  
 
 ## 1.2.3.1 Exercise in class 
@@ -116,13 +116,13 @@ As you might aware, this book is not following the convention of most programmin
 In the sample code above, line 4 with the print() function that writes the text 'hello world'. To see the text, you need to open the web console area which is differently located according to browsers and you can try to search through navigating the menu bar. In Firefox browser, it is located under Tools > Web Developer > Web Console (Ctrl+Shift+K).
 
 <br><!-- <img src="ch1_8.png" width="400"> -->
-![]({attach}ch1_8.png) <br>
+![](ch1_8.png) <br>
 *Figure 1.8: The console area* 
 
 At the bottom of the Figure 8, the web console area shows the text 'hello world'. What you know from this is that the sketch is running properly and it is able to read the print's function line. When you progress with this book, you will find that the web console area is very important, because you can also see error messages when, for example, the syntax is wrong and the browser will give you some good hints to bug fix your own code. Figure 1.9 shows that the web console area is able to specify which file (sketch.js) and which line of code (line 8) with problems (the syntax background was spelled wrong intentionally - see Figure 2.9).
 
 <br><!-- <img src="ch1_9.png" width="500"> -->
-![]({attach}ch1_9.png) <br>
+![](ch1_9.png) <br>
 *Figure 1.9: Example of syntax error*  
 
 Indeed, Hello World program has a long history in computing, especially introducing to novice programmers with a programming language and making sure things are running. Wendy Hui Kyong Chun and Andrew Lison argue the first Hello World program we learn is enjoyable and seductive <sup>[21](#myfootnote21)</sup>. On the one hand we rougly understand the line `print("hello world")` literally as it is considered as human language: to 'print' the text 'hello world', which is understandable and straight forward; On the other hand, the computer is executing what exactly you want it to perform as printing a text through an 'instruction', giving you the immediate result which is rewarding. Such feedback "produce a feeling of power" that you start mastering technologies, transitioning from "immature students into programmers". 
@@ -139,7 +139,7 @@ There are some kinds of structure here which is hard to remember as a new langua
 For p5.js, functions are documented in the page called [References](https://p5js.org/reference/)<sup>[24](#myfootnote24)</sup> and they are structured in a similar fashion. Once you get used to their presentation, it will be easier and quicker to learn and write that syntax. 
 
 <!-- <img src="ch1_10.png" height="500"> -->
-![]({attach}ch1_10.png) <br>
+![](ch1_10.png) <br>
 *Figure 1.10: The reference guide example - ellipse()* 
 
 Let's read together for the reference in Figure 2.9 -  [`ellipse()`](https://p5js.org/reference/#/p5/ellipse)<sup>[25](#myfootnote25)</sup>. It usually starts with an example and an illustration, and you can click the 'edit' button to modify the code, especially changing the parameters on the fly and display the result immediately on a screen. 
@@ -149,7 +149,7 @@ The description part of the reference page explains how the function syntax work
 The syntax area demonstrates how it should be written precisely and the parameters' section explain further. For example: `ellipse(x, y, w, [h])`, it explains the first parameter x and the second parameter y are used to set the location of the ellipse in terms of x and y coordinates. The canvas is set in terms of pixel unit, and the [0,0] coordinate starts on the top left corner. The parameter w and h refers to the width and height of the ellipse and you can also think of it as the diameter, or setting the size, of the ellipse. The square bracket `[h]` is an optional parameter if the width and height of the ellipse is the same. 
 
 <!-- <img src="ch1_11.png" width="500"> -->
-![]({attach}ch1_11.png) <br>
+![](ch1_11.png) <br>
 *Figure 1.11: Visualizing the ellipse* 
 
 What we want to demonstrate here is that the references are important to start with, and explore it to discover other syntaxes and features, for example other shapes like rectangles and polygons. 
