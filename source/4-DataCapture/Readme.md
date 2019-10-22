@@ -22,7 +22,7 @@ Starting with this sample code of Data Capture, the sketch incorporates four dat
 3. The button will change its size according to the volume of the audio/mic input.
 4. The button will move according to the facial recognization technology, following the mouth of your face. 
 
-The button is customized with Cascading Style Sheets (aka CSS), describing the style and visual elements of an object in a format consists of a selector and a declaration block. This simply means *which* element you want to customize and *how* to do it precisely. CSS works with HTML elements and we use the library p5.dom (which is included in the html file by default when you download the whole completed p5.js library) to create most form elements, including button. 
+The button is customized with Cascading Style Sheets (aka CSS), describing the style and visual elements of an object in a format consists of a selector and a declaration block. This simply means *which* element you want to customize and *how* to do it precisely. CSS works with HTML elements and we use the library p5.dom (which is included in the html file by default when you download the whole completed p5.js library) to create most form elements, including a button. 
 
 ## 4.1.2 Exercise in class
 
@@ -89,7 +89,7 @@ function setup() {
 }
 
 function draw() {
-  //sound capture
+  //getting the audio data
   let vol = mic.getLevel(); // Get the overall volume (between 0 and 1.0)
   button.size(floor(map(vol, 0, 1, 40, 500)));  //map the mic vol to the size of button: check map function: https://p5js.org/reference/#/p5/map
 
@@ -125,16 +125,71 @@ The basic structure for creating form elements is relatively simple. Under the p
 First you need to give an object name for a button, and of course a different name if you have more than one so that you can set the properties (ref: See the method list of p5.Element here: https://p5js.org/reference/#/p5.Element) for each individual one. 
 
 - `let button;`: First is to declare the object by assigning a name.
-- `button = createButton('like');`: Create a button and consider the text display of the button
-- `button.style("xxx","xxxx");`: This is the CSS standard, where the first argument is a selection and the second is a declaration block. For example if you want to set the font color, then you can put in "color" and "#fff" for the arguments. (ref/footnote: This can be easily checked out the possible styling of a button, and here are some examples: https://www.w3schools.com/csS/css3_buttons.asp) For this specific sample code, all the styling are copied from the Facebook interface directly (as of 2015) by looking into their CSS source code. Those styling include `display`, `color`, `padding`, `text-decoration`, `font-size`, `font-weight`, `border-radius`, `border`, `text-shadow`, `background`, `filter` and `transform`.  
+- `button = createButton('like');`: Create a button and consider the text display of the button.
+- `button.style("xxx","xxxx");`: This is the CSS standard, where the first argument is a selection and the second is a declaration block. For example if you want to set the font color, then you can put in "color" and "#fff" for the arguments. (ref/footnote: This can be easily checked out the possible styling of a button, and here are some examples: https://www.w3schools.com/csS/css3_buttons.asp) For this specific sample code, all the styling are copied from the Facebook interface directly (as of 2015) by looking into their CSS source code. Those styling include `display`, `color`, `padding`, `text-decoration`, `font-size`, `font-weight`, `border-radius`, `border`, `text-shadow`, `background` and `filter`, with the additional added one called `transform`.  
 - `button.mousePressed(clearance());`: This specifies what to do (which function to call) when the program listens to the mousePressed event. Within the customized function `clearance()`, the `clear()` is a JavaScript built-in function and in this case is to clear the screen.    
 - `button.size();`: This sets the size of the button in terms of the width and height. 
 - `button.position();` This sets the position of the button. 
 
-## mouse
-## keyboard
-## audio
-## face 
+## 4.4 Mouse Capture 
+Unlike in the previous chapter that the program will listen to the mouse movement and capture the corresponding x and y coordinates by using the built-in functions `mouseX` and `mouseY`. This sample code of Data Capture incorporates a specific mousePressed function which is called once every time a user presses a mouse button. See below excerpt of code regarding the mouse capture:
+
+```javascript
+button.mousePressed(clearence);  
+//click the button to clear the screen
+
+function clearence() {
+  clear();
+}
+```
+The function `mousePressed()` is attached to which button you want to listen and trigger actions. There are other mouse related mouseEvents (ref: See the related function in the reference page, which is under Events > Mouse> https://p5js.org/reference/), such as `mouseClicked()`, `mouseReleased()`, `doubleClicked()`, `mouseMoved()`, etc. 
+
+## 4.5 Keyboard Capture
+```javascript
+function keyPressed() {
+  if (keyCode === 32) { //spacebar - check here: http://keycode.info/
+    button.style("transform", "rotate(180deg)");
+  } else {   //for other keycode
+    button.style("transform", "rotate(0deg)");
+  }
+}
+```
+
+The use of `keyPressed()` function is to listen any keyboard pressing events. If you want to specify any `keyCode` (that is the actual key on the keyboard), the sample code shows how a conditional statement can be implemented within the `keyPressed()` function. Within the if-else conditional statment, if a keyboard press of a spacebar is detected, then the button will rotate in 180 degree and any other keys will just resume back to the original state which is 0 degree.
+
+`keyCode` takes in numbers or special keys like BACKSPACE, DELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL, OPTION, ALT, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW. In the above example, the `keyCode` of a spacebar is 32.
+
+Capital and small letter do not make a different and they are using equavilent to the same keyCode, such as 'A' and 'a' with the same `keyCode` as 65.  
+
+Similar to mouseEvents, there are also many other keyboardEvents (ref: See the related function in the reference page, which is under Events > Keyboard> https://p5js.org/reference/), such as `keyReleased()`, `keyTyped()`, `keyIsDown()`. 
+
+## 4.6 Audio Capture
+```javascript
+let mic;
+
+function setup() {
+  // Audio capture
+  mic = new p5.AudioIn();
+  mic.start();
+}
+
+function draw() {
+  //getting the audio data
+  let vol = mic.getLevel(); // Get the overall volume (between 0 and 1.0)
+  button.size(floor(map(vol, 0, 1, 40, 500)));  //map the mic vol to the size of button: check map function: https://p5js.org/reference/#/p5/map
+}
+```
+To deal with basic web audio p5.sound library is the one used in the sample code. It includes features like audio input, sound files playback, audio analysis and synthesis. (ref: see the different features of the sound library: https://p5js.org/reference/#/libraries/p5.sound)
+
+The library should be also included in the html file (as demonstrated earlier) so that we can use the corresponding functions like `p5.AudioIn()` and `getLevel()`. 
+
+Similar to a button, you first declare the object e.g `let mic;`, and then setting up the input source (usually from a computer microphone) and starting to listen the audio input (See the two lines within `setup()`). When the entire sample code is executed, a popup screen from a browser will ask for a permission to access the audio source. This audio capture only works when the access is granted. 
+
+This sample code is only focused on the methods under `p5.AudioIn()`, which is to read the Amplitude (volume level) of the input source with the return value between 0 to 1.0 by using the method `getLevel()`.
+
+A new function `map()` is introduced to map a number from one range to another. Since the return of the volume is range between 0 to 1.0, but this actual number will not make a significant different in terms of the size of the button. As such, the range of the audio input will then map to the size range of the button. 
+
+## 4.7 Face Tracker 
 
 ## The Concept of Capture
 
