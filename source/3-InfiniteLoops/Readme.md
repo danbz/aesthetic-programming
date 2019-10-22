@@ -308,6 +308,10 @@ As the array index is started with [0], therefore each index is mapped the value
 `let yPos = [1,2,3,4];` -> 
 `yPos.length: ypos[0] = 1, yPos[1] = 2, yPos[2] = 3, yPos[3] = 4`
 
+Other methods of an array would be useful:
+- `array.push(value)` (ref:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) : To add a value the end of the array. Example: `xPos.push(6)`, this will extend the index to xPos[5] = 6. 
+- `array.splice()` (ref: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice): This is to remove a range of an array index, or remove existing index and replace with new indexes with other value. 
+
 ### 3.10 Conditional Statements 
 Conditional statements is very useful because it allows you to set different path of the decision by specifying conditions. Indeed, conditional decision is something not only specific to programming: 
 
