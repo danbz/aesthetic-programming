@@ -187,7 +187,7 @@ Similar to a button, you first declare the object e.g `let mic;`, and then setti
 
 This sample code is only focused on the methods under `p5.AudioIn()`, which is to read the Amplitude (volume level) of the input source with the return value between 0 to 1.0 by using the method `getLevel()`.
 
-A new function `map()` is introduced to map a number from one range to another. Since the return of the volume is range between 0 to 1.0, but this actual number will not make a significant different in terms of the size of the button. As such, the range of the audio input will then map to the size range of the button. 
+A new function `map()` is introduced to map a number from one range to another. Since the return of the volume is range between 0 to 1.0, but this actual number will not make a significant different in terms of the size of the button. As such, the range of the audio input will then map to the size range of the button dynamically and on-the-fly. 
 
 ## 4.7 Face Tracker 
 
