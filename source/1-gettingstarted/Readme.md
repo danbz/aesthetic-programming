@@ -16,7 +16,7 @@ As the opening chapter of this book, to get started -- Begin() -- we think that 
 
 ### 1.1 Start()
 <!-- <img src="ch1_1.png" width="450"> -->
-![]({attach}ch1_1.png)
+![ch1_1](ch1_1.png =450x)
 
 *Figure 1.1: p5.js web interface*
 
