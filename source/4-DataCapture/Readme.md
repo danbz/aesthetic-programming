@@ -6,7 +6,7 @@ page_order: 4
 ## 4.1 function setup()
 This chapter focuses on how a program can capture and process input data. In some programming books, this would fall into the topic of interactivity, such as interacting with physical devices like a mouse and a keyboard. In the earlier chapters we have already introduced the functions `mouseX` and `mouseY` (see Chapter 2 - Variable Geometry), as well as the concept of listening events via the functions `mouseIsPressed()` and `windowResized()`(see Chapter 3 - Infinite Loops).  This chapter is more an extension of those and present with more different types of data capture, including mouse movement, keyboard press, audio volume and facial recognization with a web camera. Framing under the topic of Data Capture instead of Interactivity is to shift away our attention from immediate interactions to think about what kinds of possible data can be captured, and how data is being computed and processed so as to start unfolding the complexity of 'capture', such as what do these captures do to us and what these mean in digital culture especially the phenomena of datafication. 
 
-The chapter begins with a familiar button that we can picture it in our head, something like switching on/off a light, a kettle and many other electronic devices. A button is "seductive" (ref: pold p. 34), indicating a potentiality of interaction and generating a desire to press it, and usually it comes with an immediate feedback. Similarly in software and platforms like Facebook, a button indicates a call for actions, inviting a user to click and and interact with it in a binary state: on or off, like or (not)like, accept or cancel. Further with the capability to customize wordings on a button, Pold suggests that a button is developed with distinct functionality and signification (ref: pold p. 31). The following section will introduce the sample code of this chapter that is centered around the button of likes to demonstrating the potential of interactions, customizations and manipulations. Then it will further discuss different modes of capture in contemporary culture.
+The chapter begins with a familiar button that we can picture it in our head, something like switching on/off a light, a kettle and many other electronic devices. A button is "seductive" (ref: pold p. 34), indicating a potentiality of interaction and generating a desire to press it, and usually it comes with an immediate feedback. Similarly in software and platforms like Facebook, a button indicates a call for actions, inviting a user to click and to interact with it in a binary state: on or off, like or (not)like, accept or cancel. Further with the capability to customize wordings on a button, Pold suggests that a button is developed with distinct functionality and signification (ref: pold p. 31). The following section will introduce the sample code of this chapter that is centered around the button of likes to demonstrating the potential of interactions, customizations and manipulations. Then it will further discuss different modes of capture in contemporary culture.
 
 ## 4.1.1 Start()
 ![datacapture](https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class04/sketch04.gif) 
@@ -181,15 +181,54 @@ function draw() {
 ```
 To deal with basic web audio p5.sound library is the one used in the sample code. It includes features like audio input, sound files playback, audio analysis and synthesis. (ref: see the different features of the sound library: https://p5js.org/reference/#/libraries/p5.sound)
 
-The library should be also included in the html file (as demonstrated earlier) so that we can use the corresponding functions like `p5.AudioIn()` and `getLevel()`. 
+The library should be also included in the html file (as demonstrated in Chapter 1 - Getting Started) so that we can use the corresponding functions like `p5.AudioIn()` and `getLevel()`. 
 
 Similar to a button, you first declare the object e.g `let mic;`, and then setting up the input source (usually from a computer microphone) and starting to listen the audio input (See the two lines within `setup()`). When the entire sample code is executed, a popup screen from a browser will ask for a permission to access the audio source. This audio capture only works when the access is granted. 
+
+![](ch4_1.png)
+*Figure 4.1: Permission for audio access*
+
+![](ch4_2.png)
+*Figure 4.2: Permission for camera access*
 
 This sample code is only focused on the methods under `p5.AudioIn()`, which is to read the Amplitude (volume level) of the input source with the return value between 0 to 1.0 by using the method `getLevel()`.
 
 A new function `map()` is introduced to map a number from one range to another. Since the return of the volume is range between 0 to 1.0, but this actual number will not make a significant different in terms of the size of the button. As such, the range of the audio input will then map to the size range of the button dynamically and on-the-fly. 
 
 ## 4.7 Face Tracker 
+```javascript
+var ctracker;
+
+function setup() {
+//web cam capture
+let capture = createCapture();
+capture.size(640,480);
+capture.position(0,0);
+
+//setup tracker
+ctracker = new clm.tracker();
+ctracker.init(pModel);
+ctracker.start(capture.elt);
+}
+
+function draw() {
+let positions = ctracker.getCurrentPosition();
+if (positions.length) { //check the availability of web cam tracking
+    button.position(positions[60][0]-20, positions[60][1]);  //as the button is too long, i wanna put it in the middle of my mouth, and 60 is the mouth area (check lib spec)
+    for (let i=0; i<positions.length; i++) {  //loop through all major face track points
+       noStroke();
+       fill(map(positions[i][0], 0, width, 100, 255), 0,0,10);  //color with alpha value
+       ellipse(positions[i][0], positions[i][1], 5, 5);
+    }
+}
+}
+```
+For face capture, the sample code has used the clmtrackr which is a Javascript library developed by a data scientist Audun M. Øygard in 2014 for fitting a facial model to faces in images or video (ref: https://www.auduno.com/2014/01/05/fitting-faces/). Based on the facial algorithms designed by Jason Saragih and Simon Lucey (ref: J. M. Saragih, S. Lucey and J. F. Cohn, "Face alignment through subspace constrained mean-shifts," 2009 IEEE 12th International Conference on Computer Vision, Kyoto, 2009, pp. 1034-1041.
+doi: 10.1109/ICCV.2009.5459377), the library analyses a face and divides it into 70 points in real-time based on a pretrained machine training model on face images for classification. 
+
+![](ch4_3.png)
+*Figure 4.3: The tracker points of a face.*
+
 
 ## The Concept of Capture
 
