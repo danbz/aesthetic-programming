@@ -253,11 +253,21 @@ First is the introduction of heatmap, which is a graphical representation of dat
 
 Second, we want to bring the attention to one of the research projects by Facebook in 2013 about last-minute self-censorship. This reveals the capability of tracking unposted status updates/posts/comments, which is the erased text or images while you are thinking and typing but haven't been posted publicly (ref: https://research.fb.com/publications/self-censorship-on-facebook/). 
 
-Third is the use of a single like button and the six emoticons that has launched in 2016 by Facebook including Like, Love, Haha, Wow, sad and Angry. All the clicks are categorized into metrics and display on the web publicly.  Shoshana Zuboff argues that (ref: The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power)
+Third is the use of a single like button and the six emoticons that has launched in 2016 by Facebook including Like, Love, Haha, Wow, sad and Angry. All the clicks are *reduced* and *categorized* into emotional metrics and display on the web publicly.  Shoshana Zuboff argues that this metrification is about "surveillance capitalism" (ref: The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power). Such emotional metrics also commonly appeared on other social media platforms. Facebook and Instagram, in 2019, was testing the feature of hiding public counts on posts so as to shift the focus from metrics to "connecting people" (ref: https://www.wired.co.uk/article/instagram-hides-likes). But such feature has been experimented by software artist Benjamin Grosser on his series of artworks on demetricator since 2012 to critique the digital culture of quantification (ref: See Grosser's artwork on Facebook Demetricator here: https://bengrosser.com/projects/facebook-demetricator/; Instagram Demetricator here: https://bengrosser.com/projects/instagram-demetricator/; Twitter Demetricator: https://bengrosser.com/projects/twitter-demetricator/ )
 
-Artist Benjamin Grosser argues that this metrification is about "surveillance capitalism" with more users' data and increase time spent on the platform (ref: https://www.therealists.org/2019/07/real-reason-why-instagram-is-hiding-likes/)
+Forth is about the affordance of using various form elements to capture data beyond a button. Researcher Rena Bivens did a thorough analysis on Facebook's registration page in relation to gender options. When Facebook first launched to the market in 2004, gender field is not needed for the sign-up page. But things change in 2008 where a drop-down list show the selection of only Male and Female for registration and it further change to the use of radio buttons to emphasize the binary options of gender representation. (ref: https://journals.sagepub.com/doi/10.1177/1461444815621527) The breakthrough was on 2014 where Facebook allowed user to customize the gender field and one can select from a list of more than 50 custom gender options. These different options and other kinds of information is to enable platform developers to enhance the so called "personalized experiences" with "authetic identity" (ref: Facebook (2012) Form S-1 registration statement. Available at: https://infodocket.files.wordpress.com/2012/02/facebook_s1-copy.pdf (accessed 16 Oct 2019)).
 
-Such emotional metrics also commonly appeared on other social media platforms like Weibo and Instagram but in 2019 hiding the like and view count seems to 
+Fifth is about the most widely used web analytics service offered by Google that tracks data on website traffic and browsing behaviors, including number of unique visits, average time on site, browser and operating system information, traffic sources and users' geographic locations, etc. 
+
+![](ch4_4.jpg)
+*Figure 4.4: Screenshot of Google Analytics*
+
+Sixth is smart speakers that do voice recognization and smart devices such as Sari, Alexa and Google assistant. 
+
+![](ch4_5.jpg)
+*Figure 4.5: Screenshot of Voice & Audio activity*
+
+
 
 ## 4.7 While()
 
