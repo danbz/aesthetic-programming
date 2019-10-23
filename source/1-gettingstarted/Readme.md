@@ -150,7 +150,29 @@ What we want to demonstrate here is that the references are important to start w
 
 // add here on how to setup Gitlab 
 
+///git
+
+Git - acronym? 
+
 ## 1.5 While()
+
+
+
+///////In this way, we aim to do something similar to what Adrian Mackenzie has identified as “auto-archaeology” to indicate how the object of study is fully integrated into the analysis, and demonstrated in the associated GitHub site to his 2017 book *Machine Learners*. [See Adrian Mackenzie’s "Preface" to *Machine Learners: Archaeology of a Data Practice*, Cambridge, Mass.: MIT Press, 2017; on GitHub at https://github.com/datapractice/machinelearners.] This helps us as readers to understand something of the iterative process of writing a book about code in the spirit of how software developers work together, host and review code, and build software together. Git, as a dynamic repository in this way collapses the distinction between storage and production.[Note: for more on this, see Matthew Fuller, Andrew Goffey, Adrian Mackenzie, Richard Mills and Stuart Sharples, "Big Diff, Granularity, Incoherence, and Production in the Github Software Repository", in Matthew Fuller, *How To Be a Geek: Essays on the Culture of Software*, Cambridge: Polity Press, 2017.] /////////
+
+
+Part of the challenge here is the acquisition of new This comes with a challenge over language as has also been expressed thus far, or what we might call an *expanded literacy* as the ability to read, write, *and program*   
+
+// Programming literacy
+
+Literacy is important here to explain how new kinds of reading and writing are required to account for significant cultural and technical changes. To clarify we can refer back to the beginnings of cultural studies as a field, and Richard Hoggart's *Uses of Literacy* (published in 1957) that included working class (or mass) cultures as part of what we call *culture*, previously the preserve of an elite, and thereby introducing an expanded notion of literacy. [Note: Richard Hoggart, *The Uses of Literacy: Aspects of Working Class Life*, London: Penguin, 2009 [1957].] Clearly literacy is a shifting notion, changing across cultures and underpinned by the changing relations between speaking and writing, also explored by Walter J. Ong in *Orality and Literacy*, who argued that the electronic age has sharpened our understanding through the "secondary orality" of media that all depend on writing in various ways.[Note: Walter J. Ong, *Orality and Literacy: The Technologizing of the Word*, London: Routledge, 2002 [1982].] The written words of programming, for instance, demonstrate how our language has been further enhanced by new forms, and how writing is a form of action and not simply a referent of thinking.[Note: We will return to the analogy between speech and programming in later chapters; see also Geoff Cox & Alex McLean, *Speaking Code: Coding as Aesthetic and Political Expression*, Cambridge, Mass.: MIT Press, 2013).] 
+
+In this book we weave together the words and actions of human and computer languages although recognise that they are not equivalents as such. The syntax of JavaScript, that we use in this book is one particular instance of this -- useful to learn programming fundamentals and basic object-oriented concepts -- but also allowing for experimentation with *seconday notation*. By this, we mean adjusting the formal notation to allow it to be more easily understood and offer the opportunity for other creative expression through semantic ambiguity; as, for instance, using 'class' to describe one or more objects in object-oriented programming as well as to stratefications in society based on economic and social status. An excellent example of this is Harwood's codework "Class Library", a combination of program code and written text to stress the material conditions of working with code and the possibility of class action.[Note: See Harwood's "Class Library", in Fuller ed., *Software Studies*, 37-39.] You might want to look this up in the references section too to clarify the technical understanding.  
+
+This discussion of programming or coding as a necessary skill for contemporary life seems indisputable, and there are plenty of examples of initiatives related to computational literacy and thinking, from online tutorials to websites such as Codecademy.org and Code.org. *Coding Literacy* by Annette Vee is an attempt to grapple with these connections, arguing how the concept of literacy underscores the importance, flexibility, and power of writing for and with computers (we also refer to this in the following chapter).[Note: Annette Vee, *Coding Literacy: How Computer Programming Is Changing Writing*, Cambridge, MA: MIT Press, 2017.] An important aspect of this is that not only does this help us to better understand the social, technical and cultural dynamics of programming but also expands our very notion of literacy and its connection to a politics of exclusion (as with other literacies). Furthermore, and given that programming like other forms of writing performs actions, it presents itself as way to reconceive politics too: not simply writing or speaking, arguing or protesting, but also demonstrating the ability to modify the technical layer through which the action is performed, in recognition of the ways in which power and control are now structured. [Note: This point largely derives from Christopher Kelty's *Two Bits: the Cultural Significance of Free Software*, Durham: Duke University Press, 2008; he uses the phrase "running code" to describe the relationship between "argument-by-technology and argument-by-talk" (58). Clearly programmers are able to make arguments like other rhetorical forms, see Kevin Brock, *Rhetorical Code Studies: Discovering Arguments in and around Code*, Ann Arbor, Michigan: University of Michigan Press, 2019.] 
+
+// Reader runme
+
 
 
 
