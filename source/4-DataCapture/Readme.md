@@ -3,7 +3,7 @@ page_order: 4
 
 ## 4. Data Capture
 
-## 4.1 function setup()
+## 4.1 setup()
 This chapter focuses on how a program can capture and process input data. In some programming books, this would fall into the topic of interactivity, such as interacting with physical devices like a mouse and a keyboard. In the earlier chapters we have already introduced the functions `mouseX` and `mouseY` (see Chapter 2 - Variable Geometry), as well as the concept of listening events via the functions `mouseIsPressed()` and `windowResized()`(see Chapter 3 - Infinite Loops).  This chapter is more an extension of those and present with more different types of data capture, including mouse movement, keyboard press, audio volume and facial recognization with a web camera. Framing under the topic of Data Capture instead of Interactivity is to shift away our attention from immediate interactions to think about what kinds of possible data can be captured, and how data is being computed and processed so as to start unfolding the complexity of 'capture', such as what do these captures do to us and what these mean in digital culture especially the phenomena of datafication. 
 
 The chapter begins with a familiar button that we can picture it in our head, something like switching on/off a light, a kettle and many other electronic devices. A button is "seductive" (ref: pold p. 34), indicating a potentiality of interaction and generating a desire to press it, and usually it comes with an immediate feedback. Similarly in software and platforms like Facebook, a button indicates a call for actions, inviting a user to click and to interact with it in a binary state: on or off, like or (not)like, accept or cancel. Further with the capability to customize wordings on a button, Pold suggests that a button is developed with distinct functionality and signification (ref: pold p. 31). The following section will introduce the sample code of this chapter that is centered around the button of likes to demonstrating the potential of interactions, customizations and manipulations. Then it will further discuss different modes of capture in contemporary culture.
@@ -186,9 +186,11 @@ The library should be also included in the html file (as demonstrated in Chapter
 Similar to a button, you first declare the object e.g `let mic;`, and then setting up the input source (usually from a computer microphone) and starting to listen the audio input (See the two lines within `setup()`). When the entire sample code is executed, a popup screen from a browser will ask for a permission to access the audio source. This audio capture only works when the access is granted. 
 
 ![](ch4_1.png)
+
 *Figure 4.1: Permission for audio access*
 
 ![](ch4_2.png)
+
 *Figure 4.2: Permission for camera access*
 
 This sample code is only focused on the methods under `p5.AudioIn()`, which is to read the Amplitude (volume level) of the input source with the return value between 0 to 1.0 by using the method `getLevel()`.
@@ -197,7 +199,7 @@ A new function `map()` is introduced to map a number from one range to another. 
 
 ## 4.7 Face Tracker 
 ```javascript
-var ctracker;
+let ctracker;
 
 function setup() {
 //web cam capture
@@ -223,16 +225,39 @@ if (positions.length) { //check the availability of web cam tracking
 }
 }
 ```
-For face capture, the sample code has used the clmtrackr which is a Javascript library developed by a data scientist Audun M. Øygard in 2014 for fitting a facial model to faces in images or video (ref: https://www.auduno.com/2014/01/05/fitting-faces/). Based on the facial algorithms designed by Jason Saragih and Simon Lucey (ref: J. M. Saragih, S. Lucey and J. F. Cohn, "Face alignment through subspace constrained mean-shifts," 2009 IEEE 12th International Conference on Computer Vision, Kyoto, 2009, pp. 1034-1041.
+For face capture, the sample code has used the clmtrackr which is a JavaScript library developed by a data scientist Audun M. Øygard in 2014 for fitting a facial model to faces in images or video (ref: https://www.auduno.com/2014/01/05/fitting-faces/). Based on the facial algorithms designed by Jason Saragih and Simon Lucey (ref: J. M. Saragih, S. Lucey and J. F. Cohn, "Face alignment through subspace constrained mean-shifts," 2009 IEEE 12th International Conference on Computer Vision, Kyoto, 2009, pp. 1034-1041.
 doi: 10.1109/ICCV.2009.5459377), the library analyses a face and divides it into 70 points in real-time based on a pretrained machine training model on face images for classification. 
 
 ![](ch4_3.png)
+
 *Figure 4.3: The tracker points of a face.*
 
+What the program does in terms of face capture and recognization: 
+1. `createCapture()`: This is a HTML5 <video> element that capture the feed from a web camera. In relation to this function would be to define the size (which is subjected to the resolution of the web camera) and position e.g `capture.size(640,480);` and `capture.position(0,0);`
+2. `clmtrackr`: Similar to audio and camera use, first you need to initialize the tracker library, select the classified model and start tracking from the video source. 
+3. `ctracker.getPosition()`: This is to loop through all the 70 tracker points and return the position in terms of x and y coordinates. Since the like button will follow the mouth of a face and the tracker point of a mouth is 60, the program then will return the position in terms of an array: `positions[60][0]-20` and `positions[60][1]`. The second array's dimension with [0] and [1] refers to the x and y coordinates specifically. 
+4. The last part is to draw the ellipses the cover the face. A for-loop is implemented to loop through all the ctracker points and then get the x and y coordinates for the drawing of ellipses. 
 
-## The Concept of Capture
+## 4.8 Exercise in class
+To familiar with the face capture, we can try the followings:
 
-## 4.2.1 Exercise in class
+1. Explore the different modes of capture by tinkering various parameters such as `keyCode`, other keyboard and mouse events. 
+2. Study the tracker points and try to change the position of the like button that you have customized in the earlier exercise. 
+3. Try to test the boundary of facial recognition: to what extend a face can(not) be recognized?
+4. How has facial recognization tecnology been applied in society? 
+
+## 4.9 The Concept of Capture
+This section is more moving from away from how to capture data technically to what are the different examples of capture in our society and culture. It is more a showcase different possibilities of capture, and more importantly how these capture relate to the phenomena of datafication, commodification, surveillance and personalization, which is more around data politics to questioning how our data is being captured, quantified, stored and used, and for what purpose? Who has the power to access the captured data? 
+
+First is the introduction of heatmap, which is a graphical representation of data. It is commonly used in industries for the purpose of analytics. For example, it is possible to track the cursor position and the duration on a page. This is useful for many marketers to understand which part of their content is more attractive to their users. In particular if pages with advertisement, it will be useful for companies to analyze where to place the advertisement and content according to screen behaviors (ref: https://www.slashgear.com/facebook-investigates-tracking-users-cursors-and-screen-behavior-30303663/).
+
+Second, we want to bring the attention to one of the research projects by Facebook in 2013 about last-minute self-censorship. This reveals the capability of tracking unposted status updates/posts/comments, which is the erased text or images while you are thinking and typing but haven't been posted publicly (ref: https://research.fb.com/publications/self-censorship-on-facebook/). 
+
+Third is the use of a single like button and the six emoticons that has launched in 2016 by Facebook including Like, Love, Haha, Wow, sad and Angry. All the clicks are categorized into metrics and display on the web publicly.  Shoshana Zuboff argues that (ref: The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power)
+
+Artist Benjamin Grosser argues that this metrification is about "surveillance capitalism" with more users' data and increase time spent on the platform (ref: https://www.therealists.org/2019/07/real-reason-why-instagram-is-hiding-likes/)
+
+Such emotional metrics also commonly appeared on other social media platforms like Weibo and Instagram but in 2019 hiding the like and view count seems to 
 
 ## 4.7 While()
 
