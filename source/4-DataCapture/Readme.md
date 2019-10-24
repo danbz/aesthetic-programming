@@ -258,6 +258,7 @@ The most widely used web analytics service is currently offered by Google that t
 Among different visualization tools, Heatmap is a graphical representation of data to visualize user behavior. It is commonly used in industries for the purpose of data analytics. For example, it is possible to track the cursor's position and compute the stay's duration on different parts of a web page so as to present which contents are hot or not. This is useful for many marketers to understand which part of their content is more attractive to their users. In particular if pages with advertisement, it will be useful for companies to analyze where to place the advertisement and content according to screen behaviors. 
 
 ![](ch4_7.png)
+
 *Figure 4.5: An example of heatmap on analysing a web page*
 
 Big companies like Facebook[ref: Will Conley (2013), Facebook investigates tracking users' cursors and screen behavior. Available at: https://www.slashgear.com/facebook-investigates-tracking-users-cursors-and-screen-behavior-30303663/.] constantly investigate differnet methods for data collection in order to optimize the screen presentation. Yet, how people know exactly about what have been captured and how data will be used?  
