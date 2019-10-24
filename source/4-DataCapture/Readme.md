@@ -247,31 +247,49 @@ To familiar with the face capture, we can try the followings:
 4. How has facial recognization tecnology been applied in society? 
 
 ## 4.9 The Concept of Capture
-This section is more moving from away from how to capture data technically to what are the different examples of capture in our society and culture. It is more a showcase different possibilities of capture, and more importantly how these capture relate to the phenomena of datafication, commodification, surveillance and personalization, which is more around data politics to questioning how our data is being captured, quantified, stored and used, and for what purpose? Who has the power to access the captured data? 
+After the demonstration of different inputs for data capture, this section discusses various examples of capture in our society and culture. It is more a showcase some possibilities of capture, and more importantly how these capture relate to the phenomena of datafication, commodification, surveillance and personalization, which is more around data politics to questioning how our data is being captured, quantified, stored and used, and for what purpose? Who has the power to access the captured data? 
 
-First is the introduction of heatmap, which is a graphical representation of data. It is commonly used in industries for the purpose of analytics. For example, it is possible to track the cursor position and the duration on a page. This is useful for many marketers to understand which part of their content is more attractive to their users. In particular if pages with advertisement, it will be useful for companies to analyze where to place the advertisement and content according to screen behaviors (ref: https://www.slashgear.com/facebook-investigates-tracking-users-cursors-and-screen-behavior-30303663/).
-
-Second, we want to bring the attention to one of the research projects by Facebook in 2013 about last-minute self-censorship. This reveals the capability of tracking unposted status updates/posts/comments, which is the erased text or images while you are thinking and typing but haven't been posted publicly (ref: https://research.fb.com/publications/self-censorship-on-facebook/). 
-
-Third is the use of a single like button and the six emoticons that has launched in 2016 by Facebook including Like, Love, Haha, Wow, sad and Angry. All the clicks are *reduced* and *categorized* into emotional metrics and display on the web publicly.  Shoshana Zuboff argues that this metrification is about "surveillance capitalism" (ref: The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power). Such emotional metrics also commonly appeared on other social media platforms. Facebook and Instagram, in 2019, was testing the feature of hiding public counts on posts so as to shift the focus from metrics to "connecting people" (ref: https://www.wired.co.uk/article/instagram-hides-likes). But such feature has been experimented by software artist Benjamin Grosser on his series of artworks on demetricator since 2012 to critique the digital culture of quantification (ref: See Grosser's artwork on Facebook Demetricator here: https://bengrosser.com/projects/facebook-demetricator/; Instagram Demetricator here: https://bengrosser.com/projects/instagram-demetricator/; Twitter Demetricator: https://bengrosser.com/projects/twitter-demetricator/ )
-
-Forth is about the affordance of using various form elements to capture data beyond a button. Researcher Rena Bivens did a thorough analysis on Facebook's registration page in relation to gender options. When Facebook first launched to the market in 2004, gender field is not needed for the sign-up page. But things change in 2008 where a drop-down list show the selection of only Male and Female for registration and it further change to the use of radio buttons to emphasize the binary options of gender representation. (ref: https://journals.sagepub.com/doi/10.1177/1461444815621527) The breakthrough was on 2014 where Facebook allowed user to customize the gender field and one can select from a list of more than 50 custom gender options. These different options and other kinds of information is to enable platform developers to enhance the so called "personalized experiences" with "authetic identity" (ref: Facebook (2012) Form S-1 registration statement. Available at: https://infodocket.files.wordpress.com/2012/02/facebook_s1-copy.pdf (accessed 16 Oct 2019)).
-
-Fifth is about the most widely used web analytics service offered by Google that tracks data on website traffic and browsing behaviors, including number of unique visits, average time on site, browser and operating system information, traffic sources and users' geographic locations, etc. 
+### 4.9.1 Web Analytics and Heatmap
+The most widely used web analytics service is currently offered by Google that tracks data on website traffic and browsing behaviors, including number of unique visits, average time on site, browser and operating system information, traffic sources and users' geographic locations, etc. 
 
 ![](ch4_4.jpg)
 *Figure 4.4: Screenshot of Google Analytics*
 
-Sixth is smart speakers that do voice recognization and smart devices such as Sari, Alexa and Google assistant. 
+Among different visualization tools, Heatmap is a graphical representation of data to visualize user behavior. It is commonly used in industries for the purpose of data analytics. For example, it is possible to track the cursor's position and compute the stay's duration on different parts of a web page so as to present which contents are hot or not. This is useful for many marketers to understand which part of their content is more attractive to their users. In particular if pages with advertisement, it will be useful for companies to analyze where to place the advertisement and content according to screen behaviors. 
 
-![](ch4_5.jpg)
-*Figure 4.5: Screenshot of Voice & Audio activity*
+![](ch4_7.jpg)
+*Figure 4.5: An example of heatmap on analysing a web page*
 
+Big companies like Facebook[ref: Will Conley (2013), Facebook investigates tracking users' cursors and screen behavior. Available at: https://www.slashgear.com/facebook-investigates-tracking-users-cursors-and-screen-behavior-30303663/.] constantly investigate differnet methods for data collection in order to optimize the screen presentation. Yet, how people know exactly about what have been captured and how data will be used?  
 
+### 4.9.2 Form elements
+Each form elements like a dropdown menu and a button signals different meaning with its affordance. Researcher Rena Bivens did a thorough analysis on Facebook's registration page in relation to gender options. When Facebook first launched to the market in 2004, gender field was not needed for the sign-up page. But things changed in 2008 where a drop-down list showed the selection of only Male and Female for registration and it further changed to the use of radio buttons to emphasize the binary options of gender representation [ref:   Bivens, R. (2017). The gender binary will not be deprogrammed: Ten years of coding gender on Facebook. New Media & Society, 19(6), 880–898. https://doi.org/10.1177/1461444815621527]. The breakthrough was on 2014 where Facebook allowed user to customize the gender field and one can select from a list of more than 50 custom gender options. According to Facebook, they want to enhance "personalized experiences" with "authetic identity" (ref: Facebook (2012) Form S-1 registration statement. Available at: https://infodocket.files.wordpress.com/2012/02/facebook_s1-copy.pdf (accessed 16 Oct 2019)). But this is also arguable whether such gender specific personalization (not only to Facebook but border culture) is actually enforcing gender division through social construction.
 
-## 4.7 While()
+### 4.9.3 Metrics on likes/favorites
+The use of a single like button and the six emoticons was launched in 2016 by Facebook including Like, Love, Haha, Wow, sad and Angry. All the clicks are *reduced* and *categorized* into emotional metrics and display on the web publicly. Those data will be used for part of the algorithmic calculation, prioritizing feeds to be shown to you and others. 
 
-## 4.8 Mini_Exercise[4]: Capture All
+Interestingly, Facebook and Instagram were testing the feature of hiding public counts on posts so as to shift the audience attention from metrics to what they called "connecting people" in 2019 (ref: https://www.wired.co.uk/article/instagram-hides-likes). But such feature has been experimented by software artist Benjamin Grosser on his series of artworks on demetricator since 2012 to critique the digital culture of quantification (ref: See Grosser's artwork on Facebook Demetricator here: https://bengrosser.com/projects/facebook-demetricator/; Instagram Demetricator here: https://bengrosser.com/projects/instagram-demetricator/; Twitter Demetricator: https://bengrosser.com/projects/twitter-demetricator/ ) It is worth thinking about how such metrics affect the way of how you click and see. 
+
+### 4.9.4 Self-censorship data 
+In 2013, Facebook conducted a rsearch project about last-minute self-censorship [ref: See ref https://research.fb.com/publications/self-censorship-on-facebook/]. The project revealed the capability of tracking unposted status updates/posts/comments, which is the erased text or images while you are thinking and typing but haven't been posted publicly. This implies that Facebook is not only interested in what you have posted but what you have been thinking. 
+
+### 4.9.5 Voice and Audio data 
+Smart devices like our computers, phones and gagets are now equiped with the feature of voice recognization through Siri, Google Assistant or Alexa, turning an audio input into a command for software processing, and feedback with "more personalised experiences" to assist in many organizational works. Finn Ed uses the term "Culture Machines" to think about how algorithms are operated at a "marco-social level" that produces "cultural objects, processes and experiences" (p. 34). It is worth further thinking about these audio assistants, what are the ambitious of such cultural objects?
+
+![](ch4_6.jpg)
+*Figure 4.6: Screenshot of Voice & Audio activity*
+
+### 4.9.6 Health tracker 
+Within the domain of health and well being, one can find a growing trend of quantified self - a phenomenon of self-tracking with technology. Data such as movement, steps, heart rate and even sleep pattern can be traced and analyzed easily with software behind the use of wearable devices and gagets.
+
+![](ch4_6.jpg)
+*Figure 4.7: Screenshot of Sleep tracker*
+
+There are also many other kinds of data that can be captured, quantified and analyzed as part of life, work and play. In 2015, transmediale, an annual festival for art and digital culture in Berlin, posted a call for works on such theme, addressing the culture's pervasive logic of CAPTURE ALL and its quantificaton of life, work and play. Some interesting questions worth to think about: "Are there still modes of being that resist the imperative of digital capitalism to CAPTURE ALL or is there no option but to play along? If so, are there artistic strategies and speculative approaches that do not play this game of quantification by the numbers? What are the blind spots and gaps of relentless quantification and gamification that can be exploited in order to carve out new ways of living?" [ref: See https://transmediale.de/content/call-for-works-2015]
+
+## 4.10 While()
+
+## 4.11 Mini_Exercise[4]: Capture All
 
 **Objective:**
 - To experiment various data capturing inputs, including audio, mouse, keyboard, web camera and beyond.
@@ -281,7 +299,6 @@ Sixth is smart speakers that do voice recognization and smart devices such as Sa
 - [nonsense](http://siusoon.net/nonsense/) (2015) by Winnie Soon (look at the comment in the source code to get a sense of the work's concept)
 - [Facebook Demetricator](https://bengrosser.com/projects/facebook-demetricator/) by Benjamin Grosser
 - [LAUREN](http://lauren-mccarthy.com/LAUREN) by Lauren McCarthy
-- [Feedback Machines](https://www.creativeapplications.net/processing/feedback-machines-mis-using-technology-non-linear-behavioural-systems/)
 
 **Tasks (RUNME):**
 1. Experiment various data capturing input and interactive devices, such as audio, mouse, keyboard, web camera, etc.
