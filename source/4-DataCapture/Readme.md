@@ -300,7 +300,7 @@ There are also many other kinds of data that can be captured, quantified and ana
 
 **To get some additional inspiration here:**
 - [nonsense](http://siusoon.net/nonsense/) (2015) by Winnie Soon (look at the comment in the source code to get a sense of the work's concept)
-- [Facebook Demetricator](https://bengrosser.com/projects/facebook-demetricator/) by Benjamin Grosser
+- [Facebook Demetricator](https://bengrosser.com/projects/facebook-demetricator/) or [Instagram Demetricator](https://bengrosser.com/projects/instagram-demetricator/) or [Twitter Demetricator](https://bengrosser.com/projects/twitter-demetricator/) by Benjamin Grosser
 - [LAUREN](http://lauren-mccarthy.com/LAUREN) by Lauren McCarthy
 
 **Tasks (RUNME):**
@@ -324,5 +324,6 @@ There are also many other kinds of data that can be captured, quantified and ana
 - [clmtrackr - Face tracking javascript library](https://github.com/auduno/clmtrackr) by Audun M. Øygard
 - Charlton, James (2015). [Add to Shopping Basket](http://www.aprja.net/add-to-shopping-basket/). *APRJA* 4.1.
 - Bivens, R. (2017). The gender binary will not be deprogrammed: Ten years of coding gender on Facebook. New Media & Society, 19(6), 880–898. https://doi.org/10.1177/1461444815621527
+- Cox, G and Andersen, C (eds) (2015), [A Peer-Reviewed Journal About Datafied Research](https://tidsskrift.dk/APRJA/issue/view/8402), *APRJA* 4(1).
 
 ## Notes
