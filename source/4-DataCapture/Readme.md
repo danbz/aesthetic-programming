@@ -277,12 +277,14 @@ In 2013, Facebook conducted a rsearch project about last-minute self-censorship 
 Smart devices like our computers, phones and gagets are now equiped with the feature of voice recognization through Siri, Google Assistant or Alexa, turning an audio input into a command for software processing, and feedback with "more personalised experiences" to assist in many organizational works. Finn Ed uses the term "Culture Machines" to think about how algorithms are operated at a "marco-social level" that produces "cultural objects, processes and experiences" (p. 34). It is worth further thinking about these audio assistants, what are the ambitious of such cultural objects?
 
 ![](ch4_6.png)
+
 *Figure 4.6: Screenshot of Voice & Audio activity*
 
 ### 4.9.6 Health tracker 
 Within the domain of health and well being, one can find a growing trend of quantified self - a phenomenon of self-tracking with technology. Data such as movement, steps, heart rate and even sleep pattern can be traced and analyzed easily with software behind the use of wearable devices and gagets.
 
 ![](ch4_5.png)
+
 *Figure 4.7: Screenshot of Sleep tracker*
 
 There are also many other kinds of data that can be captured, quantified and analyzed as part of life, work and play. In 2015, transmediale, an annual festival for art and digital culture in Berlin, posted a call for works on such theme, addressing the culture's pervasive logic of CAPTURE ALL and its quantificaton of life, work and play. Some interesting questions worth to think about: "Are there still modes of being that resist the imperative of digital capitalism to CAPTURE ALL or is there no option but to play along? If so, are there artistic strategies and speculative approaches that do not play this game of quantification by the numbers? What are the blind spots and gaps of relentless quantification and gamification that can be exploited in order to carve out new ways of living?" [ref: See https://transmediale.de/content/call-for-works-2015]
