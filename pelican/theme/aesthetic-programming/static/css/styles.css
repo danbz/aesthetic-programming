@@ -1,6 +1,25 @@
 @page {
     size: 140mm 200mm;
+    margin: 1cm 1cm 2cm 1cm;
 }
+
+@page:left {
+    @bottom-left {
+        content: counter(page);
+    }
+ }
+
+@page:right {
+    @bottom-right {
+        content: counter(page);
+    }
+ }
+
+:root {
+    --font-size: 10pt;
+    --line-height: 12.5pt;
+}
+
 
 .debug .pagedjs_page {
 }
@@ -8,31 +27,87 @@
 .pagedjs_page {
     counter-increment: page;
 }
-.pagedjs_margin-bottom:before {
-    /*content: var(--pagedjs-page-count);*/
-    content: counter(page);
-    
-}
-
-@font-face {
-    font-family: Code;
-    src: url("../fonts/CutiveMono-Regular.ttf");
-}
-@font-face {
-    font-family: Text;
-    src: url("../fonts/cmunui.ttf");
-}
 
 body {
-    font-family: Text;
+    font-family: Breite Grotesk;
+    font-size: var(--font-size);
+    line-height:  var(--line-height);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: herscheytimes;
+    margin-top: calc(var(--line-height) * 2);
+    margin-bottom: var(--line-height);
+
 }
 
 pre,
 code {
-    font-family: Code;
+    font-family: ocr-pbi;
+    font-size: 8pt;
+    white-space: pre-wrap;
+    margin: var(--line-height) 0;
+    outline: 1px dotted black;
+}
+
+pre {
+    padding: var(--line-height);
+}
+
+code {
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0 4px;
+}
+
+a {
+    color: inherit;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+p + p {
+    margin-top: var(--line-height);
 }
 
 img {
     max-width: 100%;
     max-height: 100%;
+}
+
+ul, ol {
+margin: var(--line-height);
+}
+
+ul li:before {
+    content: "– ";
+}
+
+ol > li {
+    list-style-type: decimal;
+}
+
+.ref {
+    font-style: italic;
+}
+
+.exercise {
+    color: gray;
+}
+
+blockquote {
+    border-left: 1px solid black;
+    margin-left: calc(var(--line-height) / 3);
+    padding: 0 calc(var(--line-height) / 3);
+}
+
+iframe {
+    width: 100%;
+    height: calc(15 * var(--line-height));
 }
