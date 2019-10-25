@@ -142,6 +142,7 @@ function drawElements() {
 The last three lines are about the drawing of two static yellow lines on the left and right side of the canvas. Logically speaking, the translate and rotate functions should also apply to these two lines but because the `pop()` function is in placed right after all the drawing of ellipses and such transform features, therefore, would not impact the lines. But if you move the line `pop()` till the end, then the two lines will also rotate and translate. This is to illustrate the idea of how `push()` and `pop()` could be used and where to place them does matter <span class="ref">(ref: https://p5js.org/reference/#/p5/push)</span>.
 
 <div class="exercise" markdown="true">
+
 ### 3.5 Exercise in class
 
 - This exercise is about structuring code. How would you restructure the sample code again so that it is easier for others to understand but maintaining the same visual outcome? There is no right or wrong answers but some pointers below might facilitate discussion: 
@@ -307,6 +308,10 @@ As the array index is started with [0], therefore each index is mapped the value
 `let yPos = [1,2,3,4];` -> 
 `yPos.length: ypos[0] = 1, yPos[1] = 2, yPos[2] = 3, yPos[3] = 4`
 
+Other methods of an array would be useful:
+- `array.push(value)` (ref:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) : To add a value the end of the array. Example: `xPos.push(6)` - this will extend the index to xPos[5] = 6. 
+- `array.splice()` (ref: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice): This is to remove a range of an array index, or remove existing index and replace with new indexes with other value. 
+
 ### 3.10 Conditional Statements 
 Conditional statements is very useful because it allows you to set different path of the decision by specifying conditions. Indeed, conditional decision is something not only specific to programming: 
 
@@ -429,6 +434,7 @@ Temporalities: real-time, machine time, micro-time and just-in-time (live) codin
 -> link to the politics of time
 
 <div class="exercise" markdown="true">
+
 ## Mini_Exercise[3]: Designing a throbber 
 **Objective:**
 
@@ -469,7 +475,7 @@ Check out other works regarding a throbber and how other people contextualize th
 - Farman, Jason. "Fidget Spinners", *Real Life*, 2017.
 
 ## Notes:
-
+reference and footnotes here... 
 
 
 
