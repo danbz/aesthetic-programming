@@ -60,6 +60,8 @@ Finally we might add that the book is not simply a physical object that you migh
 
 This is exactly our point. The book expresses itself as a dynamic object not fixed in terms of attribution or commodity form. It follows that, although this preface is only the beginning of the book, there can be no end: the book is purposefully stuck in an endless loop of its own becoming. 
 
+[explain the central metaphor - kitchen, inspired by OSP and others]
+
 ##Notes
 
 <a name=“myfootnote1”>1</a> The casual address “for dummies” could also be used but this carries the unfortunate connotation of learning disability.
