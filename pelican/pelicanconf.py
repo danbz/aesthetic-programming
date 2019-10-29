@@ -43,3 +43,13 @@ PAGE_ORDER_BY = 'Order'
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['page_order']
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'mdx_figcaption': {}
+    },
+    'output_format': 'html5',
+}
