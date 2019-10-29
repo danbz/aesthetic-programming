@@ -5,7 +5,7 @@ page_order: 0
 
 **Preface**
 
-// What kind of book is this?
+***What kind of book is this?***
 
 Reading its subtitle, this book is clearly meant to be a handbook of sorts, but not in any conventional technical sense of it being a prescribed set of instructions (how-to recipe-style book) in order to find out how to do something like coding in a straightforward fashion (for beginners, and so on).<sup>[1](#myfootnote1)</sup> As such this handbook is not simply meant to be read in order to learn to code or indeed to offer critical reflection upon the practice of coding alone. Instead, it is something more messy and at the same time ambitious we would say: a book to represent a more complex and deeply entangled set of relations between writing, coding and thinking as "really useful knowledge"<sup>[2](#myfootnote2)</sup> in terms of changing the way we use software and the way we act in digital culture to achive agency.
 
@@ -17,7 +17,7 @@ To reiterate, our intention is that readers will acquire key skills of programmi
 
 We aim to bridge the gap between theories of computational culture, aesthetics and cultural studies, alongside learning to program. As part of this, we take a particular interest in power relations rarely acknowledged, such as class, gender, race and capitalism [~~not sure how we address this in the content, let's wait and see /w: as well as the authoritarian logic of command and control inherent to computational systems~~]. In short, the handbook introduces and demonstrates a distinctive approach through the intersectional and reflexive practice of aesthetic programming as we understand it.
 
-// So why aesthetic programming?
+***So why aesthetic programming?***
 
 The argument the book follows is that computational culture is not just a trendy subject to study, or a way to understand more about what is happening with computational processes, but a means to engage with programming as a way to question existing technological interfaces and further create change in the technical system. Thus we consider programming to be a dynamic cultural practice and phenomenon, a way of thinking and doing in the world, and a means to understand some of the complex procedures that underwrite our lived realities, in order to act upon that reality.  
 
@@ -36,7 +36,7 @@ Aesthetics also refers back to the critical theory of the Frankfurt School, and 
 
 To address this difficulty we have been working with fundamental concepts of programming as the starting point for further our aesthetic articulation -- such as abstraction, geometry and object orientation/modeling; variable, data type, functions and namings as well as data capturing, processing and automation -- thereby the technical functionings are setting the ground works for further understanding of how cultural phenomena is constructed and operationalized. This suggests practical understanding and knowledge of programming to underpin critical understanding of techno-cultural systems, often informed by expertise in both fields -- as in the case of Wendy Hui Kyong Chun.<sup>[11](#myfootnote11)</sup> We hope to encourage more and more people to defy the separation of fields in this way.    
 
-// And software studies?
+***And software studies?***
 
 So we draw heavily upon the field of Software Studies, and to an extent Critical Code Studies -- the work of Wendy Chun, Matthew Fuller, Mark Marino and others, including our own earlier selves -- to deal with and communicate knowledge of software as a cultural form via analyses of examples of software artefacts and close readings of theoretical texts and source code. In terms of form we take our cue from Matthew Fuller's *Software Studies: A Lexicon* from 2008, structured literally as a lexicon of key terms, it in turn taking its cue from the Raymond Williams's *Keywords: A Vocabulary of Culture and Society* first published in  1958.<sup>[12](#myfootnote12)</sup> In many ways, and simply put, our book can be thought of using similar approach of zooming in formal logics of computaton and zooming out on the cultural implications of software. In this respect it is also important to recognise that the book *Software Studies* derived from an earlier workshop, and it is worth quoting the project page for its clarity of intention: 
 "[T]he project aims at folding the internalist/externalist question of science studies inside out, the mechanisms of the one conjugating the subject of the other: what does software-enabled scholarship, in software, art and literary practice have to say about its own medium? The purpose of this interaction is not therefore to stage some revelation of a supposed hidden truth of software, to unmask its esoteric reality, but to see what it is and what it can be coupled with: a rich seam of paradoxical conjunctions in which the speed and rationality of computation meets with its ostensible outside."<sup>[13](#myfootnote13)</sup>
@@ -46,7 +46,7 @@ Like this, we believe that paying attention to fundamental, or key, concepts fro
 
 In order to discuss the expressivity and aesthetic dimensions of code and computational processes, we incorporate artistic works that explore the material conditions of software and operations of computational processes as practical and theoretical examples. They are part of our argument in other words, as well as usefully demonstrate some of the ideas in practice and unexpected epistemic insights. We might add, and repeating what has already been introduced, that we are not simply interested in a critical aesthetics of programming but also programming as critical aesthetics. 
 
-// The book object
+***The book object***
 
 More to the point, text is in code (in the ways that it is made human-readable) and code is in text (in the use of the text editor, interfaces and online platforms we use to render these thoughts). There is more to say on this, and we will return to these issues across the various chapters of the book, each following the logic of fundamental programming concepts. Suffice to say for now that the book sets out to express how writing and coding are entangled, and how neither should be privileged over the other: we learn from their relationality. Writing code and writing about code are forced together in ways that reflect broader cultural and technical shifts in data practices and open publishing initiatives, and moreover to emphasise that writing a book is necessarily a work in progress. In other words, this is a book to be read and acted upon, shared and rewritten.
 
@@ -59,6 +59,10 @@ The use of a Git repository for our writing further emphasises these free and op
 Finally we might add that the book is not simply a physical object that you might be holding in your hands as you read these words, but a computational and networked object too, distributed across various other spaces and temporalities, and made available to both readers and writers alike. In saying this we make reference to Benjamin again, and his essay “The Author as Producer": “The reader is always prepared to become a writer, in the sense of being one who describes or prescribes. [...] And writing about work makes up part of the skill necessary to perform it. Authority to write is no longer founded in a specialist training but in a polytechnical one, and so becomes common property.”<sup>[22](#myfootnote22)</sup> (And interestingly, for Benjamin, cultural production requires a pedagogic function.) 
 
 This is exactly our point. The book expresses itself as a dynamic object not fixed in terms of attribution or commodity form. It follows that, although this preface is only the beginning of the book, there can be no end: the book is purposefully stuck in an endless loop of its own becoming. 
+
+[explain the central metaphor - kitchen, inspired by OSP and others]
+
+[also add explanation of structuring device - flow charts]
 
 ##Notes
 
