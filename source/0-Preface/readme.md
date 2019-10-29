@@ -62,6 +62,8 @@ This is exactly our point. The book expresses itself as a dynamic object not fix
 
 [explain the central metaphor - kitchen, inspired by OSP and others]
 
+[also add explanation of structuring device - flow charts]
+
 ##Notes
 
 <a name=“myfootnote1”>1</a> The casual address “for dummies” could also be used but this carries the unfortunate connotation of learning disability.
