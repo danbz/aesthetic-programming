@@ -81,7 +81,7 @@ page_order: -2
 * Experimenting ml5.js library
 * Ways of Machine Seeing, Reading and Processing
 
-## Chapter 11: Programming Aesthetics/Aesthetic Programming
+## Bonus chapter
 * Machine learning generated text – based on the text in this book
 
 ## Indexing
