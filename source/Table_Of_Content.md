@@ -1,7 +1,7 @@
 Title: TOC
 page_order: -2
 
-**Title:** Aesthetic Programming: A Handbook of Software Studies, or Software Studies for Dummies
+**Title:** Aesthetic Programming: A Handbook of Software Studies
 
 **By**: Winnie Soon and Geoff Cox
 
@@ -81,7 +81,7 @@ page_order: -2
 * Experimenting ml5.js library
 * Ways of Machine Seeing, Reading and Processing
 
-## Chapter 11: Programming Aesthetics/Aesthetic Programming
+## Bonus chapter
 * Machine learning generated text – based on the text in this book
 
 ## Indexing
