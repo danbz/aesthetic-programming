@@ -212,11 +212,11 @@ Make a RUNME and a README.
 
 [^Rushkoff]: We take this from Douglas Rushkoff's *Program or Be Programmed: Ten Commandments for a Digital Age* (New York: OR books, 2010).
 
-[^Severance]: Charles Severance, "Javascript: Designing a Language in 10 Days", *IEEE Computer Society*, Feburary 2012, 7-8.
+[^Severance]: Charles Severance, "Javascript: Designing a Language in 10 Days", *IEEE Computer Society*, February 2012, 7-8.
 
-[^Clark]: Lin Clark who works at Mozilla and turn code into code cartoons, and she explains how javascript is run in the browser, see: https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/.
+[^Clark]: Lin Clark who works at Mozilla and turn code into code cartoons, and she explains how javascript is run in the browser, see https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/.
 
-[^Moon]: Seong-Won Lee and Soo-Mook Moon. 2011. Selective just-in-time compilation for client-side mobile javascript engine. In *Proceedings of the 14th international conference on Compilers, architectures and synthesis for embedded systems (CASES '11)*. ACM, New York, NY, USA, 5-14. DOI: https://doi.org/10.1145/2038698.2038703
+[^Moon]: Seong-Won Lee and Soo-Mook Moon, "Selective Just-in-time Compilation for Client-side Mobile Javascript Engine", in *Proceedings of the 14th International Conference on Compilers, Architectures and Synthesis for Embedded Systems (CASES '11)* (New York: ACM, 2011), 5-14. DOI: https://doi.org/10.1145/2038698.2038703
 
 [^IDE]: explain IDE.
 
@@ -226,9 +226,9 @@ Make a RUNME and a README.
 
 [^Papert]: A concept was first formulated by mathematician, computer scientist, and educator Seymour Papert who was a MIT Professor and created a design principle for a programming language called Logo. See, Seymour Papert, *Mindstorms: Children, Computers, and Powerful Ideas* (New York, NY: Basic Books, 1980).
 
-[^Processing]: See Processing.org
+[^Processing]: See Processing.org.
 
-[^McCarthy]: Lauren McCarthy, P5js Diversity & Floss Panel Introduction, 2015. Video, available at http://opentranscripts.org/transcript/p5js-diversity-floss-panel-introduction/.
+[^McCarthy]: Lauren McCarthy, P5js Diversity & Floss Panel Introduction (2015). Video available at http://opentranscripts.org/transcript/p5js-diversity-floss-panel-introduction/.
 
 [^Chinese]: p5.js is now available in Spanish, Maya Man, *Processing Foundation* (2016), available at https://medium.com/processing-foundation/p5-js-is-now-available-in-spanish-3d1eab9dffa0; see also Kenneth Lim, Chinese Translation for p5.js and preparing a future of more translations (2018), available at https://medium.com/processing-foundation/chinese-translation-for-p5-js-and-preparing-a-future-of-more-translations-b56843ea096e.
 
@@ -262,18 +262,18 @@ Make a RUNME and a README.
 
 [^GNUGPL]: See https://www.gnu.org/licenses/lgpl-3.0.txt.
 
-[^Spender] Foundational reading in this direction would be Dale Spender, *Man-Made Language*.
+[^Spender] Foundational reading in this direction would be Dale Spender, *Man-Made Language* (add ref).
 
 [^Butler]: Judith Butler, *Excitable Speech: A Politics of the Performative* (Routledge, 1997).
 
 [^Cox]: See also Geoff Cox & Alex McLean, *Speaking Code: Coding as Aesthetic and Political Expression* (Cambridge, Mass.: MIT Press, 2013).
 
-[^Hoggart]: Richard Hoggart, *The Uses of Literacy: Aspects of Working Class Life*, London: Penguin, 2009 [1957]. 
+[^Hoggart]: Richard Hoggart, *The Uses of Literacy: Aspects of Working Class Life* (London: Penguin, 2009 [1957]). 
 
-[^Ong]: Walter J. Ong, *Orality and Literacy: The Technologizing of the Word*, London: Routledge, 2002 [1982].
+[^Ong]: Walter J. Ong, *Orality and Literacy: The Technologizing of the Word* (London: Routledge, 2002 [1982]).
 
 [^Harwood]: See Harwood's "Class Library", in Fuller ed., *Software Studies*, 37-39.
 
 [^Vee3]: Vee, *Coding Literacy*.
 
-[^Kelty]: This point largely derives from Christopher Kelty's *Two Bits: the Cultural Significance of Free Software* (Durham: Duke University Press, 2008), who uses the phrase "running code" to describe the relationship between "argument-by-technology and argument-by-talk" (58). Clearly programmers are able to make arguments like other rhetorical forms, see Kevin Brock, *Rhetorical Code Studies: Discovering Arguments in and around Code*, Ann Arbor, Michigan: University of Michigan Press, 2019.
+[^Kelty]: This point largely derives from Christopher Kelty's *Two Bits: the Cultural Significance of Free Software* (Durham: Duke University Press, 2008), who uses the phrase "running code" to describe the relationship between "argument-by-technology and argument-by-talk" (58). Clearly programmers are able to make arguments like other rhetorical forms, see Kevin Brock, *Rhetorical Code Studies: Discovering Arguments in and around Code* (Ann Arbor, Michigan: University of Michigan Press, 2019).
