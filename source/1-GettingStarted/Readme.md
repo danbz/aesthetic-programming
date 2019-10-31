@@ -154,55 +154,53 @@ Already introduced briefly, Git is a distributed version-control system for trac
 
 Like the debates over the geneology of 'Git' and 'git', the use of words becomes hugely significant in terms of their meaning and ability to do things in the world in programming environment and in everyday situations. An example of this in everyday language would be the politics of pronouns and how the use of 'she', 'he' or 'they' indicate particular subject positions in the case of people and in the gendering of objects given that language tends to be "man-made".[^Spender] The importance of this is how to do things with words ethically given that words have effects as Judith Butler, amongst others, have forcefully pointed out. In her book *Excitable Speech*, Butler makes apparent how words can be "injurious".[^Butler] We will return to the analogy between speech and programming in later chapters (Chapter 7) but for now it is enough to say that words have social and political consequences and this extends to the naming of computational objects and functions.[^Cox] Whether they are directly executable or not they still have effects.
 
-This politics of language was touched upon in the first section of this chapter, through what we might call an *expanded literacy* — as the ability to read, write, *and program* — an enhanced understanding of the relationship between what words mean and do things in terms of wider culture. Literacy is crucially important here to explain how new kinds of reading and writing are required to account for significant cultural and technical changes which includes issues of access. To clarify, we can refer back to the beginnings of cultural studies as a field, and Richard Hoggart's *Uses of Literacy* (published in 1957) that included working class (or mass) cultures as part of what we call *culture*, previously the preserve of an elite, and thereby introducing an expanded notion of literacy.[^Hoggart] Clearly literacy is a shifting notion, changing across cultures and underpinned by the changing relations between speaking and writing, also explored by Walter J. Ong in *Orality and Literacy*, who argued that the electronic age has sharpened our understanding through the "secondary orality" of media that all depend on writing in various ways.[Note: Walter J. Ong, *Orality and Literacy: The Technologizing of the Word*, London: Routledge, 2002 [1982].] The written words of programming, for instance, demonstrate how our language has been further enhanced by new forms, and how writing is a form of action and not simply a referent of thinking.
+This politics of language was touched upon in the first section of this chapter, through what we might call an *expanded literacy* — as the ability to read, write, *and program* — an enhanced understanding of the relationship between what words mean and do things in terms of wider culture. Literacy is crucially important here to explain how new kinds of reading and writing are required to account for significant cultural and technical changes which includes issues of access. To clarify, we can refer back to the beginnings of cultural studies as a field, and Richard Hoggart's *Uses of Literacy* (published in 1957) that included working class (or mass) cultures as part of what we call *culture*, previously the preserve of an elite, and thereby introducing an expanded notion of literacy.[^Hoggart] Clearly literacy is a shifting notion, changing across cultures and underpinned by the changing relations between speaking and writing, also explored by Walter J. Ong in *Orality and Literacy*, who argued that the electronic age has sharpened our understanding through the "secondary orality" of media that all depend on writing in various ways.[^Ong] The written words of programming, for instance, demonstrate how our language has been further enhanced by new forms, and how writing is a form of action and not simply a referent of thinking.
 
-In this book we weave together the words and actions of human and computer languages although recognise that they are not equivalents as such. The syntax of JavaScript, that we use in this book is one particular instance of this — useful to learn programming fundamentals and basic object-oriented concepts — but also allowing for experimentation with *seconday notation*. By this, we mean adjusting the formal notation to allow it to be more easily understood and offer the opportunity for other creative expression through semantic ambiguity; as, for instance, using 'class' to describe one or more objects in object-oriented programming as well as to stratefications in society based on economic and social status. An excellent example of this is Harwood's codework "Class Library", a combination of program code and written text to stress the material conditions of working with code and the possibility of class action.[Note: See Harwood's "Class Library", in Fuller ed., *Software Studies*, 37-39.] You might want to look this up in the references section too to clarify the technical understanding.  
+In this book we weave together the words and actions of human and computer languages although recognise that they are not equivalents as such. The syntax of JavaScript, that we use in this book is one particular instance of this — useful to learn programming fundamentals and basic object-oriented concepts — but also allowing for experimentation with *seconday notation*. By this, we mean adjusting the formal notation to allow it to be more easily understood and offer the opportunity for other creative expression through semantic ambiguity; as, for instance, using 'class' to describe one or more objects in object-oriented programming as well as to stratefications in society based on economic and social status. An excellent example of this is Harwood's codework "Class Library", a melding of program code and written text to stress the material conditions of working with code and the possibility of class action.[^Harwood] You might want to look this term up in the references section to clarify the technical understanding.  
 
-This discussion of programming or coding as a necessary skill for contemporary life seems indisputable, and there are plenty of examples of initiatives related to computational literacy and thinking, from online tutorials to websites such as Codecademy.org and Code.org. *Coding Literacy* by Annette Vee is an attempt to grapple with these connections, arguing how the concept of literacy underscores the importance, flexibility, and power of writing for and with computers (we also refer to this in the following chapter).[Note: Annette Vee, *Coding Literacy: How Computer Programming Is Changing Writing*, Cambridge, MA: MIT Press, 2017.] An important aspect of this is that not only does this help us to better understand the social, technical and cultural dynamics of programming but also expands our very notion of literacy and its connection to a politics of exclusion (as with other literacies). Furthermore, and given that programming like other forms of writing performs actions, it presents itself as way to reconceive politics too: not simply writing or speaking, arguing or protesting, but also demonstrating the ability to modify the technical layer through which the action is performed, in recognition of the ways in which power and control are now structured. [Note: This point largely derives from Christopher Kelty's *Two Bits: the Cultural Significance of Free Software*, Durham: Duke University Press, 2008; he uses the phrase "running code" to describe the relationship between "argument-by-technology and argument-by-talk" (58). Clearly programmers are able to make arguments like other rhetorical forms, see Kevin Brock, *Rhetorical Code Studies: Discovering Arguments in and around Code*, Ann Arbor, Michigan: University of Michigan Press, 2019.]
+This discussion of programming or coding as a necessary skill for contemporary life seems indisputable, and there are plenty of examples of initiatives related to computational literacy and thinking, from online tutorials to websites such as Codecademy.org and Code.org. As already introduced at the beginning of this chapter, Vee's *Coding Literacy* explores these connections too, arguing how the concept of literacy underscores the importance, flexibility, and power of writing for and with computers.[^Vee3] An important aspect of this is that not only does this help us to better understand the social, technical and cultural dynamics of programming but also expands our very notion of literacy and its connection to a politics of exclusion (as with other non-standard literacies). Furthermore, and given that programming like other forms of writing performs actions, it presents itself as way to reconceive politics too: not simply writing or speaking, arguing or protesting in public, but also demonstrating the ability to modify the technical layer through which the action is performed, in recognition of the ways in which power and control are now structured at the level of infrastructure.[^Kelty] 
 
-// ADD notes on Readme and runme
+To get started, your first program is a means to engage with these ideas, to run some code. As this is not meant to be, nor can be, simply a technical exercise, we ask you to make the critical and practical aspects explicit in producing a README and a RUNME. This book serves as a guide for this initial task as well as subsequent ones: to run some code and to think with it. 
 
-- the concept of readme and runme? yes explainin more dtail where it comes from and how it perate sacross critical and practical tasks.> leads neatly into exercises.
+## 1.5.1 Mini_Exercise[1]: My First Program
 
-## 1.5.1 Mini_Exercise[1]: Think About My First Program
+Make a RUNME and a README. 
+
 **Objective:**
-- To learn the basic setup, including writing code with a code editor, running code with a web browser, independent study of code syntax, creating a readme file, etc.
-- To reflect upon the process of coding
+- To learn the basic setup, including writing code with a code editor, running code with a web browser, independent study of code syntax, creating a readme file, etc. 
+- To reflect upon the process of coding.
 
 **To get some additional inspiration here:**
-- [Daily sketch in Processing by Saskia Freeke](https://twitter.com/sasj_nl) and her talk is [here](https://www.youtube.com/watch?v=nBtGpEZ0-EQ&fbclid=IwAR119xLXt4nNiqpimIMWBlFHz9gJNdJyUgNwreRhIbdJMPPVx6tq7krd0ww) + [All the Daily Things 2018](https://vimeo.com/309138645) by Saskia Freeke
-- [Zach Lieberman](https://www.instagram.com/zach.lieberman/)
-- [Basics in OpenProcessing](https://www.openprocessing.org/browse/?q=basics&time=anytime&type=all#)
-- [Creative Coding with Processing and P5.JS](https://www.facebook.com/groups/creativecodingp5/)
+- [Daily sketch in Processing by Saskia Freeke](https://twitter.com/sasj_nl) and her talk is [here](https://www.youtube.com/watch?v=nBtGpEZ0-EQ&fbclid=IwAR119xLXt4nNiqpimIMWBlFHz9gJNdJyUgNwreRhIbdJMPPVx6tq7krd0ww) + [All the Daily Things 2018](https://vimeo.com/309138645) by Saskia Freeke.
+- [Zach Lieberman](https://www.instagram.com/zach.lieberman/).
+- [Basics in OpenProcessing](https://www.openprocessing.org/browse/?q=basics&time=anytime&type=all#).
+- [Creative Coding with Processing and P5.JS](https://www.facebook.com/groups/creativecodingp5/).
 
 **Task (RUNME):**
-1. Study at least one syntax from the list of p5.js' [reference](https://p5js.org/reference/) (of course, it is always good to know more different syntax. Be curious!)
-2. Familiar yourself with the reference structure: example, description, syntax and parameters (This becomes your essential and life-long skills for learning new syntax on your own)
-3. Use, Read, Modify (or even combine) the sample code that you found (the most basic level is changing the numbers), and produce a new sketch as a 'runme'
+1. Study at least one example of syntax from p5.js' [reference](https://p5js.org/reference/) (Of course, it is always good to know more than one. Be curious!)
+2. Familiarise yourself with the reference structure: examples, descriptions, different syntax and parameters (This knowledge will becomes essential and life-long skills for learning new syntax on your own)
+3. Use, Read, Modify (or even combine) the sample code that you find (the most basic level is changing the numbers), and produce a new sketch as a RUNME.
 
-**Questions to think about as README:**
-- Describe your first independent coding process (in relation to thinking, reading, copying, modifying, writing code)
-- How your coding process is differ from, or similar to, reading and writing text?
-- What is code and coding/programming practice means to you, and use the assigned readings to reflect on why program?
+**Questions to think about in your README:**
+- How would you describe your first independent coding experience (in relation to thinking, reading, copying, modifying, writing code, and so on)? 
+- How is the coding process different from, or similar to, reading and writing text?
+- What does code and programming mean to you, and how do the assigned readings help you to reflect on programming?
 
 ## Required reading:
-- Montfort, Nick. *Exploratory Programming For the Arts and Humanities*. Cambridge, Mass.: MIT Press, 2016. 267-277 (Appendix A: Why Program?)
-- Vee, Annette. *Coding Literacty: How Computer Programming Is Changing Writing*. Cambridge, Mass.: MIT Press, 2017. 43-93 (Chapter 1 Coding for Everyone and the Legacy of Mass Literacy)
-- McCarthay, Lauren. [Learning While making P5.JS](https://www.youtube.com/watch?v=1k3X4DLDHdc), OPENVIS Conference, 2015.
-- Shiffman, Daniel. (2018) 1.1: Code! Programming with p5.js [online] Available at: https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2 [Accessed 09 Sep. 2019].
-- p5.js. p5.js | get started. [Web] Available at: https://p5js.org/get-started/ [Accessed 09 Sep. 2019].
+- Nick Montfort, "Appendix A: Why Program?", *Exploratory Programming For the Arts and Humanities* (Cambridge, Mass.: MIT Press, 2016), 267-277. 
+- Annette Vee, "Coding for Everyone and the Legacy of Mass Literacy", *Coding Literacty: How Computer Programming Is Changing Writing* Cambridge, Mass.: MIT Press, 2017), 43-93.
+- Lauren McCarthy, [Learning While making P5.JS](https://www.youtube.com/watch?v=1k3X4DLDHdc), OPENVIS Conference (2015).
+- Daniel Shiffman, 1.1: Code! Programming with p5.js [online] (2018). Available at https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2 [Accessed 09 Sep. 2019].
+- p5.js. p5.js | get started. Available at: https://p5js.org/get-started/ [Accessed 09 Sept 2019].
 
 ## Further reading:
-- Lennon, Brian."JavaScript Affogato: Programming a Culture of Improvised Expertise". *Configurations*, Volume 26, Number 1, Winter 2018, pp. 47-72
+- Brian Lennon, "JavaScript Affogato: Programming a Culture of Improvised Expertise", *Configurations*, Volume 26, Number 1, Winter 2018, 47-72.
 
 ## Notes
 
-[^STEM]:
-... like Computer Science, Information/Software Engineering, Computational/Digital Arts and Creative Media. However, it is still required some reasons for students to make sense of having a programming course in their programmes like Digital Design, Information Studies, Visual Arts, Cultural Studies where they may not want to be a programmer in their future career, or they even haven't thought about it is possible.
-This will lead to a different way of coding practice beyond specialized discplines like Computer Science and Engineering, the so-called 'STEM' curriculum and approaches.
-Having coding skills become an important direction both in education, corporations and policy making across West and East continents. See, for instance,  https://ec.europa.eu/digital-single-market/en/coding-21st-century-skill and https://news.microsoft.com/apac/features/coding-way-brighter-future-2018-beyond/
+[^STEM]: Having programming skills has become a prerequisite in education and business glabally. See, for instance, https://ec.europa.eu/digital-single-market/en/coding-21st-century-skill and https://news.microsoft.com/apac/features/coding-way-brighter-future-2018-beyond/. The opening up of programming beyond specialized disciplines, the so-called 'STEM' subjects, sets the conditions for what we refer to as *aesthetic programming*.
 
-[^Hall]: We are thinking of Stuart Hall's essay "Encoding/Decoding" in which he argues that people can play an active role in decoding messages; Stuart Hall et al, eds. *Culture, Media, Language*, London: Hutchison, 1980, 128-38.]
+[^Hall]: We are thinking of Stuart Hall's essay "Encoding/Decoding" in which he argues that people can play an active role in decoding messages; Stuart Hall et al, eds. *Culture, Media, Language* (London: Hutchison, 1980), 128-38.
 
 [^Vee]: Annette Vee, *Coding Literacy: How computer programing is changing writing* (Cambridge, Mass.: MIT Press, 2017, 4). Beyond coding literacy, we can also observe other kinds of literacy in mainstream media, policy making and academic discourses, such as procedural, data and digital literacy. See Ian Bogost, "Procedural Literacy: Problem Solving with Programming, Systems, & Play", *The Journal of Media Literacy*, vol. 52, no. 1-2, 2015; Michael Mateas, "Procedural Literacy: Educating the New Media Practitioner", *On the Horizon. Special issue. Future of Games, Simulations and Interactive Media in Learning Contexts*, vol. 13, no. 1, 2005; Annette N. Markham, “Taking Data Literacy to the Streets: Critical Pedagogy in the Public Sphere.” *Qualitative Inquiry* (August 2019). doi:10.1177/1077800419859024; Teressa Umali, "Exclusive: Promoting Digital Literacy in the Philippine Education System, *OpenGov Asia*, web, available at: https://www.opengovasia.com/promoting-digital-literacy-in-the-philippine-education-system/.
 
@@ -220,11 +218,11 @@ Having coding skills become an important direction both in education, corporatio
 
 [^Moon]: Seong-Won Lee and Soo-Mook Moon. 2011. Selective just-in-time compilation for client-side mobile javascript engine. In *Proceedings of the 14th international conference on Compilers, architectures and synthesis for embedded systems (CASES '11)*. ACM, New York, NY, USA, 5-14. DOI: https://doi.org/10.1145/2038698.2038703
 
-[^IDE]: add note
+[^IDE]: explain IDE.
 
-[^JVM]: add note
+[^JVM]: explain JVM.
 
-[^Minecraft]: See, https://minecraft.gamepedia.com/Development_resources
+[^Minecraft]: See, https://minecraft.gamepedia.com/Development_resources.
 
 [^Papert]: A concept was first formulated by mathematician, computer scientist, and educator Seymour Papert who was a MIT Professor and created a design principle for a programming language called Logo. See, Seymour Papert, *Mindstorms: Children, Computers, and Powerful Ideas* (New York, NY: Basic Books, 1980).
 
@@ -232,42 +230,50 @@ Having coding skills become an important direction both in education, corporatio
 
 [^McCarthy]: Lauren McCarthy, P5js Diversity & Floss Panel Introduction, 2015. Video, available at http://opentranscripts.org/transcript/p5js-diversity-floss-panel-introduction/.
 
-[^Chinese]: Maya Man, p5.js is now available in Spanish, *Processing Foundation*, 2016, web, available at: https://medium.com/processing-foundation/p5-js-is-now-available-in-spanish-3d1eab9dffa0; see also Kenneth Lim, Chinese Translation for p5.js and preparing a future of more translations, 2018, web, available at: https://medium.com/processing-foundation/chinese-translation-for-p5-js-and-preparing-a-future-of-more-translations-b56843ea096e
+[^Chinese]: p5.js is now available in Spanish, Maya Man, *Processing Foundation* (2016), available at https://medium.com/processing-foundation/p5-js-is-now-available-in-spanish-3d1eab9dffa0; see also Kenneth Lim, Chinese Translation for p5.js and preparing a future of more translations (2018), available at https://medium.com/processing-foundation/chinese-translation-for-p5-js-and-preparing-a-future-of-more-translations-b56843ea096e.
 
 [^Jin]: Such series with a focus on diversity with code+art is placed under the subdomain of p5.js, created and curated by Chelly Jin, see: diversity.p5js.org.
 
-[^UX]: A UX-research project by Claire Kearney-Volpe, see: https://www.clairekv.com/p5js-ux-research
+[^UX]: A UX-research project by Claire Kearney-Volpe, see: https://www.clairekv.com/p5js-ux-research.
 
-[^Choi]: A project by artist and educator Taeyoon Choi, see: http://taeyoonchoi.com/soft-care/signing-coders/
+[^Choi]: A project by artist and educator Taeyoon Choi, see: http://taeyoonchoi.com/soft-care/signing-coders/.
 
 [^Atom]: https://atom.io/.
 
 [^p5js]: p5.js download page, https://p5js.org/download/.
 
-[^sound]: See https://p5js.org/reference/#/libraries/p5.sound
+[^sound]: See https://p5js.org/reference/#/libraries/p5.sound.
 
-[^liveserver]: See https://atom.io/packages/atom-live-server
+[^liveserver]: See https://atom.io/packages/atom-live-server.
 
-[^print]: See https://p5js.org/reference/#/p5/print
+[^print]: See https://p5js.org/reference/#/p5/print.
 
 [^Chun2]: Wendy Hui Kyong Chun and Andrew Lison argue the first Hello World program we learn is enjoyable and seductive. See Chun, Wendy HK & Lison, Andrew. "Fun is a Battlefield: Software between Enjoyment and Obsession", in Olga Goriunova, ed., *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing* (New York, London: Bloomsbury Academic, 2014), 180.
 
-[^Hello]: hallo welt! (hello world!) is a collaboration between Geoff Cox and Duncan Shingleton, see http://www.anti-thesis.net/hello-world-60/
+[^Hello]: hallo welt! (hello world!) is a collaboration between Geoff Cox and Duncan Shingleton, see http://www.anti-thesis.net/hello-world-60/.
 
 [^Babel]: *The Tower of Babel*, designed to reach into heaven, displeased God such that ‘he’ [sic] decided to confound the single language of Adam so that people would not understand each other’s speech (*Genesis* 2:19 & 11:1-9). Subsequently everyone is left to 'babble' in a diversity of languages and confusion of tongues. The code expresses this confusion but also invokes free speech, allowing the web browser to 'speak' through software according to what it is said/written. "It is both a computer-readable notation of logic and a representation of this process, both script and performance; and in this sense it is like spoken words" as Cox reminds us. We will return to this issue in Chapter 7 - Vocable Code. See Geoff Cox, *Speaking Code: Coding as Aesthetic and Political Expression* (Cambridge, Mass: MIT Press, 2013), 3.
 
-[^Reference]: See https://p5js.org/reference/
+[^Reference]: See https://p5js.org/reference/.
 
-[^ellipse]: See https://p5js.org/reference/#/p5/ellipse
+[^ellipse]: See https://p5js.org/reference/#/p5/ellipse.
 
-[^Git]: This discussion is summarised at https://stackoverflow.com/questions/43959748/what-is-the-abbreviation-of-git
+[^Git]: This discussion is summarised at https://stackoverflow.com/questions/43959748/what-is-the-abbreviation-of-git.
 
-[^GNUGPL]: See https://www.gnu.org/licenses/lgpl-3.0.txt
+[^GNUGPL]: See https://www.gnu.org/licenses/lgpl-3.0.txt.
 
-[^Spender] Foundational reading in this direction would be Dale Spender, Man-Made Language
+[^Spender] Foundational reading in this direction would be Dale Spender, *Man-Made Language*.
 
 [^Butler]: Judith Butler, *Excitable Speech: A Politics of the Performative* (Routledge, 1997).
 
 [^Cox]: See also Geoff Cox & Alex McLean, *Speaking Code: Coding as Aesthetic and Political Expression* (Cambridge, Mass.: MIT Press, 2013).
 
 [^Hoggart]: Richard Hoggart, *The Uses of Literacy: Aspects of Working Class Life*, London: Penguin, 2009 [1957]. 
+
+[^Ong]: Walter J. Ong, *Orality and Literacy: The Technologizing of the Word*, London: Routledge, 2002 [1982].
+
+[^Harwood]: See Harwood's "Class Library", in Fuller ed., *Software Studies*, 37-39.
+
+[^Vee3]: Vee, *Coding Literacy*.
+
+[^Kelty]: This point largely derives from Christopher Kelty's *Two Bits: the Cultural Significance of Free Software* (Durham: Duke University Press, 2008), who uses the phrase "running code" to describe the relationship between "argument-by-technology and argument-by-talk" (58). Clearly programmers are able to make arguments like other rhetorical forms, see Kevin Brock, *Rhetorical Code Studies: Discovering Arguments in and around Code*, Ann Arbor, Michigan: University of Michigan Press, 2019.
