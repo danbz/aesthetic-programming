@@ -146,7 +146,7 @@ What we want to demonstrate here is that the references are important to start w
 
 ## 1.4 Git
 
-// add here on how to setup Gitlab
+// add here on how to setup Gitlab ///////////
 
 ## 1.5 While()
 
