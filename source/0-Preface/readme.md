@@ -29,6 +29,7 @@ idea 1 - with *sample code* that put code together;learn technically but also to
 idea 2 - example are specially made according to learning pace, interesting / reflective levels + the required elements in order to progress. Balance between difficult level and when to stop, also beyond 'effective and efficient code'. -> this may lead to metaphors (kitchen concept and inspired by OSP)
 idea 3 - As a teaching handbook too - exercise in class and weekly ex, which the students found most fruitful with the freedom to sketch creatively, conceptually and critically. 
 idea 4 - In practical teaching, we have pause week and project week(s) so this is not exactly how it works in classroom as we adjust the curriculum in the book/online format. There are some flexibility that can work around in structuring the course
+idea 5 - add ref to critical technical practice
 */
 
 To go further, invoking aesthetics, it should be clear that we do not refer to ideas of beauty as it is often misunderstood, but to aesthetics at the core of politics, to what presents itself to sense-making experience and bodily perception (see Jacques Rancière's *The Politics of Aesthetics*, for instance).[^Ranciere] How we apprehend the world in this sense is not fixed but in process of endless becoming, much like software itself.
