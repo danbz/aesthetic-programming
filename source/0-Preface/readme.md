@@ -78,7 +78,7 @@ This is exactly our point. The book expresses itself as a dynamic object not fix
 
 [^Refs]: Here we are referring to Maeda, 2004; Peppler & Kafai, 2009; Montfort 2016, Wardrip-Fruin 2012, ADD REFS, add more?
 
-[^Magda]: Special mention should be extended to Magda Tyzlik-Carver and Christian Ulrik Andersen who have contributed to the teaching of these courses, as well as teaching assistants... add names.
+[^Magda]: Special mention should be extended to Magda Tyzlik-Carver and Christian Ulrik Andersen who have contributed to the teaching of these courses, as well as teaching assistants... add names (Tobias, Ann, Ester, Nynna, Maltha...Noeh, Simone..). + goldsmiths Theo, Simon (class observation) + Anders Visti (esp Ants + bit/bytes of variables)
 
 [^Ranciere]: Jacques Rancière, *The Politics of Aesthetics*, London: Continuum, 2006, that investigates what aesthetics and politics have in common: the delimitation of the thinkable and the unthinkable, the possible and the impossible, according to Rancière.
 
