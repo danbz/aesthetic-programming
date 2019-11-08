@@ -118,7 +118,7 @@ You should notice from the responses of the console area (see Figure 2.2), where
 
 ## 2.3 Variables 
 
-In programming, the use of both width and height is called variables, which is another important concept. Variables are used to store data and information in a computer program. You can think of variables as many lockers, and you can put things, replace them with other things, and store them for later retrieval. Just like the variable 'width' and 'height' as something what is called 'global variables', in which you can use in any parts of your code. However for local variables, it is defined within a structure or a function, then the variable can only be used within that block of code. To define a global variable, you need to define it before the setup of the program, usually in the first few lines of the program. 
+In programming, the use of both width and height is called variables, which is another important concept. Variables are used to store data and information in a computer program. You can think of variables as many lockers [need to change metaphor - may be kitchen cabinet, extending with types, capacity, but need to think about the link with memory and physicality /w], and you can put things, replace them with other things, and store them for later retrieval. Just like the variable 'width' and 'height' as something what is called 'global variables', in which you can use in any parts of your code. However for local variables, it is defined within a structure or a function, then the variable can only be used within that block of code. To define a global variable, you need to define it before the setup of the program, usually in the first few lines of the program. 
 
 To use the earlier example, the value behind 'width' is 500 which is the canvas' width that has been defined in line 2 (see section 2.2.1). To continue with the metaphor, a locker with the name 'width' is being labeled and stored the value '500'. For this case, it is assigned by default as the program is able to retrieve the measurement of the canvas. 
 
@@ -173,11 +173,11 @@ This leads to the reusability of variables. Variables can be used in different f
 This section is to briefly introduce other new functions in the sample code, in which drawing and designing a emoji requires different decisions, in terms of shapes, color and spaitial composition. 
 
 - `noStroke()`, `strokeWeight()` : These refer to the settings of the shape, whether it is without any outline, and what is the weight of the border.
-- `stroke()`, `fill()` and `nofill()`: These functions set the color of objects like border, shapes or text. It takes RGB (as default) or HSB color. But if the function with 1 argument, then it refers to gray scale color between 0-255 [add why it is the range of 255 - binary value/bytes of data in memory -  2^8th power is 256. In the range of 0-255 there are actually 256 possible values - link to the nature of computation with a binary system /w]. If the function with 3 arguments like `fill(255,255,0)`, then it means the object/shape/text will be filled with yellow color (the mix of red and green with no blue color). There is an optional argument called 'alpha', referring to the opacity of the color, e.g `fill(255,255,0,127)`;
+- `stroke()`, `fill()` and `nofill()`: These functions set the color of objects like border, shapes or text. It takes RGB (as default) or HSB color. But if the function with 1 argument, then it refers to gray scale color between 0-255 [add why it is the range of 255 - binary value/bytes of data in memory -  2^8th power is 256 (8 bit each). In the range of 0-255 there are actually 256 possible values - link to the nature of computation in a binary system /w]. If the function with 3 arguments like `fill(255,255,0)`, then it means the object/shape/text will be filled with yellow color (the mix of red and green with no blue color). There is an optional argument called 'alpha', referring to the opacity of the color, e.g `fill(255,255,0,127)`;
 - `rect()`: This is similar to draw an ellipse, but just display as a rectangle. 
 - `vertex()`, `beginShape()` and `endShape(CLOSE)`: All these three functions are used for drawing a more complex form according to different vertices. What you need is to use the `vertex` function to tell its x and y coordinates. You can also join all the vertices by using the 'close' argument in `endShape()`. The `beginShape()` is used to record the starting of the vertex for a complex form/polygon. 
 - `floor()`: Since the random function returns a floating-point number instead, the use of `floor()` is to calculate the closest integer value. 
-- `if (mouseIsPressed) {}`: This is a conditional structure for a program, constantly listening to mouse press actions. This wil be further discussed in Chapter 4.
+- `if (mouseIsPressed) {}`: This is a conditional structure for a program, constantly listening to mouse press actions. This wil be further discussed in Chapter 4. [will be introduce here in 2.6 instead so as to easen the next chapter /w]
 
 
 ## 2.5 Basic Arithmetic Operators 
@@ -201,21 +201,24 @@ print("hello " + "world");
 > output:
 "hello world"
 
-## 2.6 Exercise in class
+## 2.6 Conditional Structure 
+Move conditional structure from ch 3 to here with the starting example of mouseIsPressed. Next chapter will be more a deeper use and repetition. /w
+
+## 2.7 Exercise in class
 1. Think: Try to look into [existing emojis](https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg) or your handset, and reflect upon the complexity of human emotions and the abstracted human representation. What's your experience in using emojis? What's the cultural implications of emojis (perhaps can refer to the readings)? 
 2. Discussion: What constitute a face? If you have to use the view of essentialism, what will you have for a facial expression and why those elements are essential from your point of view? What have been abstracted and excluded then?
 3. Beyond the face: Take a look at [more emojis](https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/)<sup>[13](#myfootnote13)</sup> beyond facial expression, are there anything you want to add? 
 4. Exploration: Try out the interactive online tool [p5.playground](https://1023.io/p5-inspector/)<sup>[14](#myfootnote14)</sup> developed by Yining Shi, and do some sketching of emojis by paying attention to spatial composition and foundational design elements. 
 5. Experiment with p5.js: How would you translate your thoughts into lines of code? You may want to print out the coordinates of mouse press on the console area to get a more accurate position of your shapes. 
 
-## 2.7 While()
+## 2.8 While()
 outro:
 
 - faciality machines (Deleuze)
 - facial recognition
 - politics of measuremen can go here > in relation to what constitute a face and how a face is being recognized in nowadays facial recognization technology. -> but this will address in the chapter data capture too. 
 
-## 2.8 Mini_Exercise[2]: Geometric emoji
+## 2.9 Mini_Exercise[2]: Geometric emoji
 **Objective:**
 - To experiment various geometric drawing's possibilites, especially on shapes and drawing with colors.
 - To reflect culturally and critically on emojis via the assigned text 
