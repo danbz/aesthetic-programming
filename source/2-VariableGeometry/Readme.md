@@ -21,9 +21,7 @@ Our point is that using emojis may be fun and expressive but they also simplify 
 <img src="http://o-r-g.com/media/00004.gif" height="400"><br>
 *Figure 2.1: Multi by David Reinfurt* 
 
-The designer David Reinfurt created the work *[Multi](http://www.o-r-g.com/apps/multi)* in ??,[^Multi] inspired by another designer Enzo Mari who spent a whole year in 1957 drawing just 'the' apple with simple contour lines to explore the essential form of an object. With such a view on essentialism, Reinfurt uses software to present one of 1,728 possible facial compositions with the combination of minimal punctuation glyphs. The work is presented as a mobile app and later developed as a cover design in a book series.[^DB] 
-
-Instead of using preset typographic characters, we will explore what constitute those punctunation glyphs like a comma. How can you draw a simple comma with the foundational elements of geometry?
+The designer David Reinfurt created the work *[Multi](http://www.o-r-g.com/apps/multi)*,[^Multi] inspired by another designer Enzo Mari who spent a whole year in 1957 exploring the essential form of an object (an apple, the universal apple we might add). Reinfurt explains that "He was not looking to draw AN apple, but rather THE apple — a perfect symbol designed for the serial logic of industrial reproduction." *Multi* develops this idea for the informational reproduction as a mobile app with 1,728 possible arrangements, or facial compositions, built from minimal punctuation glyphs. But instead of using preset typographic characters, which admittedly is the conceptual charm of *Multi*, for our purpose we will draw these punctunation glyphs — such as a simple comma — with foundational elements of geometry.
 
 ## 2.1.2 Source Code
 <!-- <img src="ch2_2.png" width="250"> -->
@@ -269,11 +267,9 @@ outro:
 
 [^ideology]: Abbing, Pierrot and Snelting, *Modifying the Universal*, 210. 
 
-[^multi]: See http://www.o-r-g.com/apps/multi. 
+[^multi]: See http://www.o-r-g.com/apps/multi. *Multi* also provides variations of book covers for the DATA browser series published by Open Humanities Press, at http://www.data-browser.net/.
 
-[^DB]: See the variations of the book covers of the DATA browser series at http://www.data-browser.net/.
-
-<a name="myfootnote10">10</a>: See p5.js random reference: https://p5js.org/reference/#/p5/random
+[^random]]: See p5.js random reference at https://p5js.org/reference/#/p5/random.
 
 <a name="myfootnote11">11</a>: 'let' is introduced in ES6 (ECMAScript- scripting language specification standardization) to declare variable although 'var' is still commonly used. They are both used for variable declaration but the difference is that let is block scoped while var is function scoped. Specifically for the let case, if the same variable is declared in both global and local levels, the local value will be restricted to the specific block of code and won't be overridden. For more, see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var and https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
 
