@@ -11,17 +11,17 @@ There are many more examples that reinforce the idea of fun, as if simply the de
 
 We take the example of emojis — ideograms, typically smileys — as typographic shorthands for expressing emotional states such as happiness, using facial expressions and common objects. These have become pervasive in communications, and no longer simply typographic but actual pictures which can be funny but also come with underlying issues related to a politics of representation and stereotyping. More on this soon, but for now it is enough to say that emojis make a good example as they consist of geometric shapes, using lines, points, panes and color. This chapter is about having fun with this (even if some of the underlying issues are not fun), exploring the affective dimension of emojis, and the varying representations that we encounter in everyday communications. 
 
-The relationship between emojis and a politics of representation, has been explored by many commentators. The essay "Modifying the Universal", written by Rosel Roscam Abbing, Peggy Pierrot and Femke Snelting makes a good example,[^Emojis] as it investigates the *universal* standardisation of emojis, emerging from the Unicode project, a non-profit organization based in America, that has set the computing industry standard for the consistent encoding, representation, and handling of text for software internationalization in all major operating systems and writing applications since 1987. Interestingly, on a technical level, Unicode provides a unique code point — a number — to represent a character in an abstract way and leaves the visual rendering (size, font, shape, geometry) to other software, such as a web browser or word processor. It is this question of representation that interests us. 
+The relationship between emojis and a politics of representation, has been explored by many commentators. The essay "Modifying the Universal", written by Roel Roscam Abbing, Peggy Pierrot and Femke Snelting makes a good example,[^Emojis] as it investigates the *universal* standardisation of emojis, emerging from the Unicode project, a non-profit organization based in America, that has set the computing industry standard for the consistent encoding, representation, and handling of text for software internationalization in all major operating systems and writing applications since 1987. Interestingly, on a technical level, Unicode provides a unique code point — a number — to represent a character in an abstract way and leaves the visual rendering (size, font, shape, geometry) to other software, such as a web browser or word processor. It is this question of representation that interests us. 
 
 Much like the utopian project of developing a universal language to be spoken and understood by all or most of the world's population — such as Esperanto — Unicode is clearly important for communicative operations across international/multilingual systems. By the time of the release of the most recent version, Unicode 12.1, in May 2019, there were 137,994 characters covering 150 modern and historic scripts, as well as multiple symbol sets and emojis.[^Unicode] Yet as the standard expanded from the underlying characters and glyphs to symbol sets and emojis, the universalism has become increasingly problematic. Criticism has unsurprisingly centred on a politics of representation, such as blatent gender stereotyping and racial discrimination: female emojis were under-represented in certain professional roles,[^Telegraph] as well as there were limitations of skin tones applied on emojis and 'universal modifiers', that were not displayed 'universally' across all devices and operating systems. 
 
-Our point is that using emojis may be fun and expressive but they also simplify and universalise differences, and thereby perpetuate normative ideologies within already "violent power structures",[^ideology] such that only selected people, those with specific skin tones for instance, can be represented while others are marginalized or erased altogether. So the question is who gets to be represented, and who has the power to control and standardize the representations? That these operations are characterised as fun is part of the problem. These are the issues we want to explore in this chapter by introducing variable geometry and learning to be able to produce alternatives, more politically-correct ones perhaps. We start with the work *Multi* by David Reinfurt which will be used to demonstrate the basis of geometry and the variations of facial expression and composition that can be generated from simple typographic elements. 
+Our point is that using emojis may be fun and expressive but they also tend to oversimplify and universalise differences, and thereby perpetuate normative ideologies within already "violent power structures",[^ideology] such that only selected people, those with specific skin tones for instance, are represented while others are not. There is a distinct inequality: who gets to be represented, how, and who sets the standards for these representations? That these operations are characterised as fun is part of the problem. These are some of the issues we want to explore in this chapter by introducing variable geometry and learning to be able to produce alternatives, more politically-correct ones perhaps. We start with the work *Multi* by David Reinfurt which will be used to demonstrate the basis of geometry and the variations of facial expression and composition that can be generated from simple typographic elements. 
 
 ## 2.1.1 Start()
 <img src="http://o-r-g.com/media/00004.gif" height="400"><br>
 *Figure 2.1: Multi by David Reinfurt* 
 
-The designer David Reinfurt created the work *[Multi](http://www.o-r-g.com/apps/multi)*,[^Multi] inspired by another designer Enzo Mari who spent a whole year in 1957 exploring the essential form of an object (an apple, the universal apple we might add). Reinfurt explains that "He was not looking to draw AN apple, but rather THE apple — a perfect symbol designed for the serial logic of industrial reproduction." *Multi* develops this idea for the informational reproduction as a mobile app with 1,728 possible arrangements, or facial compositions, built from minimal punctuation glyphs. But instead of using preset typographic characters, which admittedly is the conceptual charm of *Multi*, for our purpose we will draw these with foundational elements of geometry.
+The designer David Reinfurt created the work *[Multi](http://www.o-r-g.com/apps/multi)*,[^Multi] inspired by another designer Enzo Mari who spent a whole year in 1957 exploring the essential form of an object (an apple, the universal apple we might add). Reinfurt explains that "He was not looking to draw AN apple, but rather THE apple — a perfect symbol designed for the serial logic of industrial reproduction." *Multi* develops a variation of this idea for informational reproduction in the form of a mobile app with 1,728 possible arrangements, or facial compositions, built from minimal punctuation glyphs. But instead of using preset typographic characters, which admittedly is the conceptual charm of *Multi*, for our purpose we will draw these from scratch with foundational elements of geometry.
 
 ## 2.1.2 Source Code
 <!-- <img src="ch2_2.png" width="250"> -->
@@ -76,16 +76,15 @@ function draw() {
 }
 ```
 The above code draws various shapes and performs simple interactions: 
-- the background is in a verticle rectanglar shape, flashing grey-scale colors 
-- the left with a horizontal rectangle in black color 
-- the right with a square in black color and a polygon in orange color 
-- the bottom with an ellipse without any filled color but with white stroke color
-- One can move the mouse in which an outlined ellipse in grey color follows the mouse 
-- One can also click on the mouse to change the size of the white ellipse and the black square
+- the background is a vertical rectanglar shape, flashing grey-scale colors 
+- on the left is a horizontal rectangle in the color black  
+- on the right is a square in black and a polygon in orange
+- on the bottom is an ellipse without any filled color but with white stroke color
+- when you move the mouse, ian outlined ellipse in grey color follows the movement 
+- you can also click on the mouse to change the size of the white ellipse and the black square
 
 ## 2.2 Coordination
-In the last chapter, we have briefly talked about x and y coordinations, which is the fundamental concept for positioning and drawing objects with various measurement on a canvas. 
-For a line of code like `createCanvas(500,600)`, it refers to the action of creating a canvas with the width of 500 pixel and the height of 600 pixel. In high school's maths class, there is a different coordinate system with the origin [0,0] places in the middle of a grid paper/screen but in computing, the canvas is started to draw from the upper left corner which is the origin (see Figure 1.11 in the previous chapter).
+In the last chapter, we briefly talked about x and y coordinates, which is a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(500,600)` refers to the action of creating a canvas with the width of 500 pixels and the height of 600 pixels. It should be noted that in mathematics the origin [0,0] is positioned in the middle of a grid paper/screen, but in computing the origin is drawn at the upper left corner  (see Figure 1.11 in the previous chapter).
 
 ## 2.2.1 Exercise in class
 ```javascript
@@ -102,25 +101,25 @@ function draw() {
 ![](ch2_3.png)<br>
 *Figure 2.3: Simple exercise* 
 
-Remember the structure of a web page includes both the html, working javascript file (for example sketch.js) and p5.js associated libraries.  
+Remember the structure of a web page should include the html, working javascript file (for example, sketch.js) and p5.js associated libraries.  
 
-- Type the above source code in the working javascript file and then save the code. Run the program on ATOM (the live-atom-server with the shortcut Crtl+Alt+L) and you should see just a flashing rectangle on a screen. 
-- There are few new syntax or slightly different use of syntax here: 
-    - `frameRate()`: This sets the number of frames per second that the computer will run the program. The default is 60 and now is set as 15, referring to a slower iteration and thus you can see the background color for each frame quite clearly (You can also compare the flashing rate with the sample code in the previous chapter).
-    - `random(130,140)`: In the earlier sample code the function `random()` took one argument only. This sample code gives you a different use of the function with two arguments. If you look at the [reference guide](https://p5js.org/reference/#/p5/random)<sup>[10](#myfootnote10)</sup>, it tells you the random function returns a floating-point number, and this means that the number is not an integer but a number with decimals. By looking at the description (checking reference is very useful to understand how function and syntax work), it also explains the difference on the number of arguments. For this case, the program will return a floating-point number between 130 and up to (but not including) 140. Example of such returned value would be, for example, 131.34387. Such returned value refers to a grey-scale color value. 
-- Next is to recall our memories in using the web console (Under Tools > Web Developer > Web Console - Ctrl+Shift+K)
+- Type the above source code in the working javascript file and then save the code. Run the program on ATOM (the live-atom-server with the shortcut Crtl+Alt+L) and you should see a flashing rectangle on a screen. 
+- There are few new examples of syntax, or a slightly different use of syntax, here: 
+    - `frameRate()`: This sets the number of frames per second that the computer will use when running the program. The default is 60 and now it is set as 15, a slower iteration so you can see the background color for each frame quite clearly (you might also compare the flashing rate with the sample code in the previous chapter).
+    - `random(130,140)`: In the earlier sample code the function `random()` took one argument only. This sample code gives you a different use of the function with two arguments. If you look at the [reference guide](https://p5js.org/reference/#/p5/random),[^random] it explains that the random function returns a floating-point number, and this means that the number is not an integer but a number with decimals. (The difference in the number of arguments is also explained in the reference.) For this case, the program will return a floating-point number between 130 and up to, but not including, 140. An example of such a returned value would be 131.34387. This refers to a grey-scale color value. 
+- Next you need to recall using the web console (Under Tools > Web Developer > Web Console - Ctrl+Shift+K)
     - Type `print(width);` and then press enter
     - Type `console.log(width, height);` and then press enter
 
-You should notice from the responses of the console area (see Figure 2.2), where it displays the actual width in pixel unit (500) when you type the functions `print(width);`. Additionally, if you use `console.log(width, height);`, which is the equivalent of the print function in JavaScript (not a p5.js function), the screen displays two numbers 500 and 600. With just two lines in the console area, you have asked the program to give you the values of the width and height of the canvas. The program can then understand these two names 'width' and 'height'. They are the pre-set names in p5.js in which you can use specifically for asking the canvas' dimension. 
+You should notice from the responses of the console area (see Figure 2.2) that it displays the actual width in pixel unit (500) when you type the functions `print(width);`. Additionally, if you use `console.log(width, height);`, which is the equivalent of the print function in JavaScript (not a p5.js function), the screen displays two numbers 500 and 600. With just two lines in the console area, you have asked the program to give you the values of the width and height of the canvas. The program understands the two names 'width' and 'height'. They are the pre-set names in p5.js which you can use specifically for asking the dimensions of the canvas. 
 
 ## 2.3 Variables 
 
-In programming, the use of both width and height is called variables, which is another important concept. Variables are used to store data and information in a computer program. You can think of variables as many lockers [need to change metaphor - may be kitchen cabinet, extending with types, capacity, but need to think about the link with memory and physicality /w], and you can put things, replace them with other things, and store them for later retrieval. Just like the variable 'width' and 'height' as something what is called 'global variables', in which you can use in any parts of your code. However for local variables, it is defined within a structure or a function, then the variable can only be used within that block of code. To define a global variable, you need to define it before the setup of the program, usually in the first few lines of the program. 
+In programming, both width and height are called variables, which is another important concept. Variables are used to store data and information in a computer program. You can think of variables as a container, and you can put things in a given container, replace them with other things, and store them for later retrieval. There is also something called a 'global variable', which you can use in any parts of your code. Local variables are defined within a structure or a function, and then an only be used within that block of code. To define a global variable, you need to define it before the setup of the program, usually in the first few lines of the program. 
 
-To use the earlier example, the value behind 'width' is 500 which is the canvas' width that has been defined in line 2 (see section 2.2.1). To continue with the metaphor, a locker with the name 'width' is being labeled and stored the value '500'. For this case, it is assigned by default as the program is able to retrieve the measurement of the canvas. 
+To use the earlier example, the value behind 'width' is 500 which is the canvas width that has been defined in line 2 (see section 2.2.1). To continue with the analogy, a container with the name 'width' is being labeled and has stored the value '500'. In this case, it is assigned by default as the program is able to retrieve the measurement of the canvas. 
 
-But you can also assign your own variable names (metaphorically speaking, it is to create your own locker and store other values). 
+But, and importantly, you can also assign your own variable names (metaphorically speaking, you can create your own type of container and store other values). 
 
 ```javascript
 let moving_size = 60;
@@ -139,26 +138,23 @@ if (mouseIsPressed) {
 }
 ```
 
-The above is the excerpt of the entire code, relating to drawing two different size of ellipses. The last two arguments of the ellipse function refer to width and height. Instead of placing a number in the function like in Chapter 1, this time we use variables instead as they hold value too. There are 3 steps to use variables:
+The above is the excerpt of the entire code to draw two different size of ellipses. The last two arguments of the ellipse function refer to width and height. Instead of placing a number in the function as in Chapter 1, this time we use variables instead as they hold values too. There are 3 steps to use variables:
 
-1. **Declare:** Think of a name you want to store the value (usually it will make sense to yourself and to others to read it). Declare with the syntax 'let' in front<sup>[11](#myfootnote11)</sup> 
-2. **Assign:** What is the stuff you want to store there? Is it a number? By assigning a value, you will need to use the equal sign. Officially, there are 4 data types are useful to know at this introductary level:
+1. **Declare:** Think of a name for the container you want to store the value in (usually it will make sense to yourself and to others to read it, but of course there is scope for a conceptual approach here). Declare with the syntax 'let' in front.[^let]
+2. **Assign:** What is it that you want to store there? Is it a number? By assigning a value, you will need to use the equal sign. Officially, there are 4 data types that are useful to know at this introductary level:
     1. number for numbers of any kind: integer or floating-point.
-    2. string for strings. A string may have one or more characters and it has to be used with double or single quote. For example: `let moving_size = "sixty";`
+    2. string for strings. A string may have one or more characters and it has to be used with double or single quote marks. For example: `let moving_size = "sixty";`
     3. boolean for true/false. For example: `let moving_size = true;`
-    4. color for color values. It can take in Red Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` (see more from the [p5.js color reference](https://p5js.org/reference/#/p5/color)<sup>[12](#myfootnote12)</sup>)
-3. **(Re)Use:** How and when do you want to retrieve the stored data? If such variable will change over time, you may want to reuse it for many times. 
+    4. color for color values. It can take in Red Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` (see more from the [p5.js color reference](https://p5js.org/reference/#/p5/color)[^color]
+3. **(Re)Use:** How and when do you want to retrieve the stored data? If the variable will change over time, you may want to reuse it many times. 
 
-For this example, two variables: 'moving_size' is more stable than 'static_size' because the later one will change according to mouse press. (If you forsee the values won't change, you may also consider to use `const`, where a value remains unchanged for the entire program).
+For this example, two variables: 'moving_size' is more stable than 'static_size' because the later one will change according to mouse press. (If you foresee the values won't change, you may also consider to use `const`, where a value remains unchanged for the entire program).
 
-There are two more variables in the example: `mouseX` and `mouseY`. These are changing variables and are subjected to the mouse movement to trace the coresponding x and y coordinates. If you want to know the mouseX and mouseY exact coordinate position, you may also use `print()` or `console.log` to display the two values onto the console area.
+There are two more variables in the example: `mouseX` and `mouseY`. These are changing variables and are subject to the mouse movement to trace the coresponding x and y coordinates. If you want to know the mouseX and mouseY exact coordinate position, you may also use `print()` or `console.log` to display the two values in the console area.
 
-<br><need to replace with a kitchen metaphor <br>
-*Figure 2.4: Illustration of variables*
+*Figure 2.4: Illustration of variables*//////// check metaphor
 
-<br>
-
-Though there are many books use the metaphor of a container to illustrate the concept of variable, the use of lockers[change metaphor] is to convey there is an address for each locker. Technically speaking, by declaring a variable, it also declares a location/address in which the computer memory can hold the value. In short, each variable stores at a block of computer memory which is located inside a physical and concrete memory like RAM. Each block has a identification which is called the memory address so that the computer knows where to store it and retrieve it while the program is run. As such, software and hardware is not separable, and it is just we can't able to see the inner micro-working of a computer in handling .
+Although there are many books use the metaphor of a container to illustrate the concept of variable, the use of lockers[change metaphor] is to convey there is an address for each locker. Technically speaking, by declaring a variable, it also declares a location/address in which the computer memory can hold the value. In short, each variable stores at a block of computer memory which is located inside a physical and concrete memory like RAM. Each block has a identification which is called the memory address so that the computer knows where to store it and retrieve it while the program is run. As such, software and hardware is not separable, and it is just we can't able to see the inner micro-working of a computer in handling .
 
 ## 2.3.1 Why use variables? 
 As you learn to program more complex software, you will know it is very common to use variables to store values and data. More importantly, the value of variables can be changed while a program is run in real-time. The earlier variables: mouseX and mouseY may serve the purpose of illustrating the point because the coordinate of the mouse will change according to the movement. We will also discuss variable again in the next Chapter with the concept of loop and repetition. 
@@ -269,11 +265,11 @@ outro:
 
 [^multi]: See http://www.o-r-g.com/apps/multi. *Multi* also provides variations of book covers for the DATA browser series published by Open Humanities Press, at http://www.data-browser.net/.
 
-[^random]]: See p5.js random reference at https://p5js.org/reference/#/p5/random.
+[^random]: See p5.js random reference at https://p5js.org/reference/#/p5/random.
 
-<a name="myfootnote11">11</a>: 'let' is introduced in ES6 (ECMAScript- scripting language specification standardization) to declare variable although 'var' is still commonly used. They are both used for variable declaration but the difference is that let is block scoped while var is function scoped. Specifically for the let case, if the same variable is declared in both global and local levels, the local value will be restricted to the specific block of code and won't be overridden. For more, see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var and https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+[^let]: 'let' is introduced in ES6 (ECMAScript- scripting language specification standardization) to declare a variable although 'var' is still commonly used. They are both used for variable declaration but the difference is that let is block scoped while var is function scoped. Specifically for the let case, if the same variable is declared in both global and local levels, the local value will be restricted to the specific block of code and won't be overridden. For more on the distinction, see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var and https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let.
 
-<a name="myfootnote12">12</a>: See p5.js color reference: https://p5js.org/reference/#/p5/color
+[^color]: See p5.js color reference: https://p5js.org/reference/#/p5/color
 
 <a name="myfootnote13">13</a>: See https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/
 
