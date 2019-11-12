@@ -240,7 +240,7 @@ The challenge then is to rethink normative geometries, to turn them upside down 
   - **Describe** your program and what you have used and learnt.
   - **How** would you put your emoji into a wider cultural context that concerns representation,s identity, race, social, economics, culture, device politics and beyond? (Try to think through the assigned reading and your coding process, and then expand that to your experience and thoughts - this is a difficult task, you may need to spend sometimes in thinking about it).
 
-## Required readings:
+## Required reading:
 - Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, "[Modifying the Universal.](http://www.data-browser.net/db06.html)" *Executing Practices*, Eds. Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, London: Open Humanities Press, 2018, 35-51. 
 - p5.js. p5.js | Simple Shapes. [Web] Available at: https://p5js.org/examples/hello-p5-simple-shapes.html [Accessed 09 Sep. 2019].
 - Shiffman, Daniel. (2018) 1.3,1.4,2.1,2.2: Code! Programming with p5.js [online] Available at: https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2 [Accessed 09 Sep. 2019].
