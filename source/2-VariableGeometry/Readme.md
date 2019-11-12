@@ -84,7 +84,7 @@ The above code draws various shapes and performs simple interactions:
 - you can also click on the mouse to change the size of the white ellipse and the black square
 
 ## 2.2 Coordination
-In the last chapter, we briefly talked about x and y coordinates, which is a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(500,600)` refers to the action of creating a canvas with the width of 500 pixels and the height of 600 pixels. It should be noted that in mathematics the origin [0,0] is positioned in the middle of a grid paper/screen, but in computing the origin is drawn at the upper left corner  (see Figure 1.11 in the previous chapter).
+In the last chapter, we briefly talked about x and y coordinates, which is a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(500,600)` refers to the action of creating a canvas with the width of 500 pixels and the height of 600 pixels. It should be noted that in mathematics the origin [0,0] is positioned in the middle of a grid paper/screen, but in computing the origin is drawn at the upper left corner (see Figure 1.11 in the previous chapter).
 
 ## 2.2.1 Exercise in class
 ```javascript
@@ -154,14 +154,14 @@ There are two more variables in the example: `mouseX` and `mouseY`. These are ch
 
 *Figure 2.4: Illustration of variables* [not a locker as it's not open enough]
 
-Although it is commonplace to use the metaphor of a container to illustrate the concept of variable, it is important to convey that there is an address for each container (for instance, it is in a particular place on a shelf if you like, and the computer needs to know it's there). Technically speaking, by declaring a variable, it also declares an address at which the computer memory can hold the value. In short, each variable is stored in a block of computer memory which is located inside physical and concrete memory like RAM. Each block has a identification which is called the memory address so that the computer knows where to store it and retrieve it while the program is running. As such, software and hardware is not separable, and it is just we can't able to see the inner micro-workings of a computer whilst it is handling data.
+Although it is commonplace to use the metaphor of a container to illustrate the concept of variable, it is important to add that there is an address for each container (for instance, it is in a particular place on a shelf if you like, and the computer needs to know it's there). Technically speaking, by declaring a variable, it also declares an address at which the computer memory can hold the value. In short, each variable is stored in a block of computer memory which is located inside physical and concrete memory like RAM. Each block has a identification which is called the memory address so that the computer knows where to store it and retrieve it while the program is running. As such, software and hardware is not separable, and it is just we can't able to see the inner micro-workings of a computer whilst it is handling data.
 
 ## 2.3.1 Why use variables? 
 As you learn to program more complex software, you will discover it is very common to use variables to store values and data. More importantly, the value of variables can be changed while a program is being run in real-time. The earlier variables: mouseX and mouseY may serve the purpose of illustrating the point because the coordinates of the mouse will change according to its movement. We will also discuss variables again in the next chapter when we introduce the concepts of loop and repetition. 
 
 Another reason for variables is that if you have longer lines of code, it is easier to have all the variables that you have declared for the program in an overview. As such you can change the value for testing, for example defining different sizes of shapes without locating the specific line of code. Morever, it is also easier for others to read your code with a well-chosen variable name when you have to use it in different parts of your program.
 
-This leads to the reusability of variables. Variables can be used in different functions and more than one time (and also as arguments passed to a function subroutine, something we will also discuss in the next chapter), just like the `static_size` variable in the sample code taht is used for drawing both the ellipse and the rectangle. 
+This leads to the reusability of variables. Variables can be used in different functions and more than one time (and also as arguments passed to a function subroutine, something we will also discuss in the next chapter), just like the `static_size` variable in the sample code that is used for drawing both the ellipse and the rectangle. 
 
 ## 2.4 Other functions 
 This section is to briefly introduce some other new functions in the sample code, as drawing and designing an emoji requires different decisions, in terms of shapes, color and spatial composition. 
@@ -170,14 +170,12 @@ This section is to briefly introduce some other new functions in the sample code
 - `stroke()`, `fill()` and `nofill()`: These set the color of objects like the border, shapes or text. It takes RGB (as default) or HSB color. But if the function has 1 argument, then it refers to gray scale color between 0-255 [add why it is the range of 255 - binary value/bytes of data in memory -  2^8th power is 256 (8 bit each). In the range of 0-255 there are actually 256 possible values - link to the nature of computation in a binary system /w]. If the function has 3 arguments like `fill(255,255,0)`, then it means the object/shape/text will be filled with a yellow color (the mix of red and green with no blue color). There is an optional argument called 'alpha', which refers to the opacity of the color, e.g `fill(255,255,0,127)`.
 - `rect()`: This is similar to draw an ellipse, but is used to display a rectangle. 
 - `vertex()`, `beginShape()` and `endShape(CLOSE)`: These three functions are used for drawing a more complex form according to different vertices. You will need is to use the `vertex` function to indicate its x and y coordinates. You can also join all the vertices by using the 'close' argument in `endShape()`. The `beginShape()` is used to record the start of the vertex for a complex form like a polygon. 
-- `floor()`: Since the random function returns a floating-point number instead, the use of `floor()` is to calculate the closest integer value. 
-- `if (mouseIsPressed) {}`: This is a conditional structure for a program, constantly listening to mouse press actions. This wil be further discussed in Chapter 4. [will be introduce here in 2.6 instead so as to easen the next chapter /w]
-
+- `floor()`: Since the random function returns a floating-point number, `floor()` is used to calculate the closest integer value. 
+- `if (mouseIsPressed) {}`: This is a conditional structure for a program, constantly referring to mouse press actions. This is discussed in more detail below.
 
 ## 2.5 Basic Arithmetic Operators 
-You can also do arithmetic operations in programming and it is commonly done in arguments of a function. 
-Here is the list of baisc arithmetic operators: 
-- add(+): Addition and concatenation, which is applicable for both numbers and text/characters respectively.
+You can also do arithmetic operations in programming, and this is commonly done in arguments of a function. Here is a list of basic arithmetic operators: 
+- add(+): For addition and concatenation, which is applicable for both numbers and text/characters.
 - subtract(-)
 - multiply(*)  
 - divide(/)
@@ -190,16 +188,16 @@ print(2*3);
 > Output: 
 "6"
 ```
-print("hello " + "world");
+print("hello" + "world");
 ```
 > output:
 "hello world"
 
 ## 2.6 Conditional Structure 
-Move conditional structure from ch 3 to here with the starting example of mouseIsPressed. Next chapter will be more a deeper use and repetition. /w
+Move conditional structure from ch 3 to here with the starting example of mouseIsPressed. Next chapter will be more a deeper use and repetition. /w - good idea /g
 
 ## 2.7 Exercise in class
-1. Think: Try to look into [existing emojis](https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg) or your handset, and reflect upon the complexity of human emotions and the abstracted human representation. What's your experience in using emojis? What's the cultural implications of emojis (perhaps can refer to the readings)? 
+1. Examine [existing emojis](https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg) or those available on your handset, and reflect upon the complexity of human emotions and their caricature.  What's your experience in using emojis? What are the cultural and political implications of emojis (perhaps yopu can refer to the readings and introduction above)? 
 2. Discussion: What constitute a face? If you have to use the view of essentialism, what will you have for a facial expression and why those elements are essential from your point of view? What have been abstracted and excluded then?
 3. Beyond the face: Take a look at [more emojis](https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/)<sup>[13](#myfootnote13)</sup> beyond facial expression, are there anything you want to add? 
 4. Exploration: Try out the interactive online tool [p5.playground](https://1023.io/p5-inspector/)<sup>[14](#myfootnote14)</sup> developed by Yining Shi, and do some sketching of emojis by paying attention to spatial composition and foundational design elements. 
