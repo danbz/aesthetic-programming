@@ -106,7 +106,7 @@ This is exactly our point. The book expresses itself as a dynamic object not fix
 
 [^devdocs]: See https://jupyter.org/ and https://devdocs.io/javascript/.
 
-[^OSP]: For more on Open Source Publishing (OSP), see http://osp.kitchen/about.
+[^OSP]: For more on Open Source Publishing (OSP), see http://osp.kitchen/about. We are interested in this approach as it somewhat breaks down the divisions of labour associated with traditional publishing in which writing, editing, and design tasks are separated. 
 
 [^Mackenzie]: See Adrian Mackenzie’s "Preface" to *Machine Learners: Archaeology of a Data Practice*, Cambridge, Mass.: MIT Press, 2017; and on GitHub at https://github.com/datapractice/machinelearners.
 
