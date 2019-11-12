@@ -248,9 +248,9 @@ Make a RUNME and a README.
 
 [^print]: https://p5js.org/reference/#/p5/print.
 
-[^Chun2]: Wendy Hui Kyong Chun and Andrew Lison argue the first Hello World program we learn is enjoyable and seductive. See Chun, Wendy HK & Lison, Andrew. "Fun is a Battlefield: Software between Enjoyment and Obsession", in Olga Goriunova, ed., *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing* (New York, London: Bloomsbury Academic, 2014), 180.
+[^Chun2]: Wendy Hui Kyong Chun and Andrew Lison argue the first Hello World program we learn is enjoyable and seductive. We will say more about this in the following chapter. See Wendy Hui Kyong Chun and Andrew Lison, "Fun is a Battlefield: Software between Enjoyment and Obsession", in Olga Goriunova, ed., *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing* (New York, London: Bloomsbury Academic, 2014), 180. 
 
-[^Hello]: *hallo welt! (hello world!)* is a collaboration between Geoff Cox and Duncan Shingleton, see http://www.anti-thesis.net/hello-world-60/.
+[^Hello]: *hallo welt! (hello world!)* was a collaboration between Geoff Cox and Duncan Shingleton, see http://www.anti-thesis.net/hello-world-60/.
 
 [^Babel]: *The Tower of Babel*, designed to reach into heaven, displeased God such that ‘he’ [sic] decided to confound the single language of Adam so that people would not understand each other’s speech (*Genesis* 2:19 & 11:1-9). Subsequently everyone is left to 'babble' in a diversity of languages and confusion of tongues. The code expresses this confusion but also invokes free speech, allowing the web browser to 'speak' through software according to what it is said/written. "It is both a computer-readable notation of logic and a representation of this process, both script and performance; and in this sense it is like spoken words" as Cox reminds us. We will return to this issue in Chapter 7 - Vocable Code. See Geoff Cox, *Speaking Code: Coding as Aesthetic and Political Expression* (Cambridge, Mass: MIT Press, 2013), 3.
 
