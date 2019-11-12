@@ -198,37 +198,58 @@ Move conditional structure from ch 3 to here with the starting example of mouseI
 
 ## 2.7 Exercise in class
 1. Examine [existing emojis](https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg) or those available on your handset, and reflect upon the complexity of human emotions and their caricature.  What's your experience in using emojis? What are the cultural and political implications of emojis (perhaps yopu can refer to the readings and introduction above)? 
-2. Discussion: What constitute a face? If you have to use the view of essentialism, what will you have for a facial expression and why those elements are essential from your point of view? What have been abstracted and excluded then?
-3. Beyond the face: Take a look at [more emojis](https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/)<sup>[13](#myfootnote13)</sup> beyond facial expression, are there anything you want to add? 
-4. Exploration: Try out the interactive online tool [p5.playground](https://1023.io/p5-inspector/)<sup>[14](#myfootnote14)</sup> developed by Yining Shi, and do some sketching of emojis by paying attention to spatial composition and foundational design elements. 
-5. Experiment with p5.js: How would you translate your thoughts into lines of code? You may want to print out the coordinates of mouse press on the console area to get a more accurate position of your shapes. 
+2. Discuss what constitutes a face? What essential elements do you need for a particular facial expression, and why? What has been lost in translation?
+3. Beyond the face, take a look at [more emojis](https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/).[^emojis2] Is there anything you want to add? 
+4. Explore the interactive online tool [p5.playground](https://1023.io/p5-inspector/)[^playground] developed by Yining Shi, and do some sketching of emojis by paying attention to spatial composition and foundational design elements. 
+5. Experiment with p5.js. How do you translate your thoughts into lines of code? You may want to print out the coordinates of the mouse press on the console area to get a more accurate position for your shapes. 
 
 ## 2.8 While()
-outro:
 
-- faciality machines (Deleuze)
-- facial recognition
+The human face make a good starting point here we recognise it even in its simplest form, as *Multi* seems to verify with its minimal rendering of three elements. The face clearly occupies a central position in everyday life and social interaction, and it almost goes without saying that its features are perceived to display our uniqueness and individuality. But this is a surface reading only. Emojis operate in this way and seem to occlude the face of experience and it ability to express complex feelings. It would be tempting to think that emojis, despite their name, stop short of emotions. 
+
+In *A Thousand Plateaus*, Gilles Deleuze and Félix Guattari conceive of the face as "overcoded", imposed upon us universally, resonating with some of the comments we made earlier in this chapter about Unicode. Their main point is that the face - or what they call facial machine - is tied to a specific Western history of ideas (the face of Jesus Christ). This, in turn, situates the origins of the face with white ethnicities and “facialization” (the imposition onto the subject of the face) has been spread by white Europeans, and thus provides a way to understand racial prejudice: "Racism operates by the determination of degrees of deviance to the White man’s face...".[^DG] The face is thus an "imperial machine", subsuming language and other semiotic systems. The face is part of a surface that promotes sameness and rejects difference. 
+
+Facial recognition systems, technologies that are capable of identifying or verifying a person from a digital image or a video frame, seem to operate on these imperialist terms too. When a person is identified in this way, the person's facial shape and textures are matched against a model based on a standardised dataset. Moreover the datasets are based on a disproportionate number of white faces and studies have proven that facial recognition systems struggle to identify women and black people. This has led to significant problems not least when it comes to the use of these technologies for law enforcement. 
+
+Face recognition also becomes unreliable when facial expressions vary, and even a big smile can render the results unreliable, so ironically a smiley in real-life is likely to create difficulties of recognition. The iconic emoji smiley seems to further stress the point. The face may be able to escape overcoding under certain conditions but emojis are quite literally facial-machines. Herein lies a challenge perhaps, when having fun with programming, to escape the overcode and to develop alternatives with geometric shapes. 
+
+Something of this logic is evident in a further article by Femke Snelting. "Other Geometries", who discusses how geometric shapes can help to resist sovereign infrastructures.[^Snelting] She is thinking of something as simple as a circle and how it opens up possibilities to imagine collective forms.
+
+"A circle is a simple geometric shape. [...] Circles are mathematically defined as the set of all points in a plane that are at the same distance from a shared center; its boundary or circumference is formed by tracing the curve of a point that keeps moving at a constant radius from the middle. [...] Circles are omnipresent in practices and imaginaries of collectivity. [... and yet] Their flatness provides little in the way of vocabulary for more complex relational notions that attempt to include space, matter and time, let alone interspecies mingling and other uneasy alliances. The obligation to always stay at the same distance from the center promises a situation of equality but does so by conflating it with similarity. Circles divide spaces into an interior and an exterior, a binary separation that is never easy to overcome. We urgently need other axes to move along."
+
+Snelting is looking for other geometries that escape well-known configurations. She also refers to the works of Zach Blas, also know for his interventions with facial recognition systems,[note] to point to the geometric spaces between nodes and edges, more attention to relations. Beyond network imaginaries, so long part of rethinking centralised power structures, the idea is to "bend our infrastructural desires in other directions".[Note: Snelting makes further references to the work of Anna Tsing and messy geometries that are inspired by Mycelium, and mushroom root structures. See Anna Lowenhaupt Tsing, The Mushroom at the End of the World: On the Possibility of Life in Capitalist Ruins (Princeton University Press, 2017).]
+
+The challenge is to rethink geometries, to turn them inside out and upside down. 
+
+Also produced as an "overcoding", Emoji faces seem to encapsulate the thinking. The face may be able to escape this overcoding under certain conditions but emojis seem to have become more and machine machine-like. Herein lies a challenge perhaps, having fun with programming, to escape the face's overcoding and to develop alternatives.
+
+
 - politics of measuremen can go here > in relation to what constitute a face and how a face is being recognized in nowadays facial recognization technology. -> but this will address in the chapter data capture too. 
+ 
+
+
+
+
 
 ## 2.9 Mini_Exercise[2]: Geometric emoji
 **Objective:**
-- To experiment various geometric drawing's possibilites, especially on shapes and drawing with colors.
-- To reflect culturally and critically on emojis via the assigned text 
+- To experiment with various geometric drawings, explore possibilites, especially on shapes and drawing with colors.
+- To reflect on a politics of emojis via the assigned texts. 
 
-**To get some additional inspiration here:**
-- [Multi](http://o-r-g.com/apps/multi) by David Reinfurt
-- [Chinese Characters as Ancient Emoji](https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/)<sup>[15](#myfootnote15)</sup> by Steve Witt
-- [Women finally get a menstruation emoji](https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji)<sup>[16](#myfootnote16)</sup> by Michael Grothaus
-- [Between Art and Application by Crystal Abidin and Joel Gn](https://firstmonday.org/ojs/index.php/fm/article/view/9410)<sup>[17](#myfootnote17)</sup> (A short text about researching emoji cultures)
+**Get some additional inspiration here:**
+- [Multi](http://o-r-g.com/apps/multi) by David Reinfurt.
+- [Chinese Characters as Ancient Emoji](https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/)[^Witt] by Steve Witt.
+- [Women finally get a menstruation emoji](https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji)[^Grot] by Michael Grothaus.
+- [Between Art and Application by Crystal Abidin and Joel Gn](https://firstmonday.org/ojs/index.php/fm/article/view/9410)[^Abidin] (short text about emoji culture)
 
 **Tasks (RUNME):**
-1. Make sure you have read/watch the required readings/instructional videos and references
-2. Explore different shape and geometric related syntax (via p5.js [references](https://p5js.org/reference/))
-3. Design two emoji icons and reflect upon how does emoji relate to identity and cultural phenomena
+1. Make sure you have read/watch the required readings/instructional videos and references.
+2. Explore different shape and geometric related syntax (via p5.js [references](https://p5js.org/reference/)).
+3. Design two emoji icons and reflect upon how does emoji relate to identity and cultural phenomena.
 
 **Questions to think about as README:**
-  - **Describe** your program and what you have used and learnt
-  - **How** would you put your emoji into a wider cultural context that concerns representation,s identity, race, social, economics, culture, device politics and beyond? (Try to think through the assigned reading and your coding process, and then expand that to your experience and thoughts - this is a difficult task, you may need to spend sometimes in thinking about it)
+  - **Describe** your program and what you have used and learnt.
+  - **How** would you put your emoji into a wider cultural context that concerns representation,s identity, race, social, economics, culture, device politics and beyond? (Try to think through the assigned reading and your coding process, and then expand that to your experience and thoughts - this is a difficult task, you may need to spend sometimes in thinking about it).
 
 ## Required readings:
 - Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, "[Modifying the Universal.](http://www.data-browser.net/db06.html)" *Executing Practices*, Eds. Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, London: Open Humanities Press, 2018, 35-51. 
@@ -254,11 +275,11 @@ outro:
 
 [^Femke]: Femke Snelting, "Other Geometries", *transmediale journal*, Issue#3, 31 October 2019, https://transmediale.de/content/other-geometries
 
-[^Emojis]: Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, "[Modifying the Universal.](http://www.data-browser.net/db06.html)", *Executing Practices*. Eds. Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver (Open Humanities Press, 2018, 35-51). Other references include: Crystal Abidin and Joel Gn, "Between Art and Application: Special issue on emoji epistemology", *First Monday*, 23(9), 3 September 2018; Luke Stark, "Facial recognition, emotion and race in animated social media", *First Monday*, 23(9), 3 September 2018; Miriam E Sweeney and Kelsea Whaley, "Technically White: Emoji skin-tone modifiers as American technoculture", *First Monday*, 24(7), 1 July 2019.
+[^Emojis]: Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, "[Modifying the Universal.](http://www.data-browser.net/db06.html)", *Executing Practices*. Eds. Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver (Open Humanities Press, 2018, 35-51). Other references include: Crystal Abidin and Joel Gn, "Between Art and Application: Special Issue on Emoji Epistemology", *First Monday*, 23(9), 3 September 2018; Luke Stark, "Facial recognition, emotion and race in animated social media", *First Monday*, 23(9), 3 September 2018; Miriam E Sweeney and Kelsea Whaley, "Technically White: Emoji Skin-tone Modifiers as American Technoculture", *First Monday*, 24(7), 1 July 2019.
 
 [^Unicode]: See https://en.wikipedia.org/wiki/Unicode#Origin_and_development.
 
-[^Telegraph]: See https://www.telegraph.co.uk/technology/2016/07/15/new-gender-equality-emoji-to-show-women-at-work/
+[^Telegraph]: See https://www.telegraph.co.uk/technology/2016/07/15/new-gender-equality-emoji-to-show-women-at-work/.
 
 [^ideology]: Abbing, Pierrot and Snelting, *Modifying the Universal*, 210. 
 
@@ -268,14 +289,18 @@ outro:
 
 [^let]: 'let' is introduced in ES6 (ECMAScript- scripting language specification standardization) to declare a variable although 'var' is still commonly used. They are both used for variable declaration but the difference is that let is block scoped while var is function scoped. Specifically for the let case, if the same variable is declared in both global and local levels, the local value will be restricted to the specific block of code and won't be overridden. For more on the distinction, see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var and https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let.
 
-[^color]: See p5.js color reference: https://p5js.org/reference/#/p5/color
+[^color]: See p5.js color reference: https://p5js.org/reference/#/p5/color.
 
-<a name="myfootnote13">13</a>: See https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/
+[^Emojis2]: See https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/.
 
-<a name="myfootnote14">14</a>: See the tool p5.playground developed by Yining Shi:https://1023.io/p5-inspector/
+[^playground]: See the tool p5.playground developed by Yining Shi:https://1023.io/p5-inspector/.
 
-<a name="myfootnote15">15</a>: Witt, Steve, "Chinese Characters as Ancient 'Emoji'"", *Glocal Notes*, 2015, Web, available at: https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/
+[^DG]: Gilles Deleuze and Félix Guattari, *A Thousand Plateaus: Capitalism and Schizophrenia* (Minneapolis: University of Minnesota Press, 1987), 178.
 
-<a name="myfootnote16">16</a>: Grothaus, Michael, "Women finally get a menstruation emoji", *Fastcompany*, 2019, Web, available at: https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji
+[^Snelting]: Snelting, "Other Geometries"
 
-<a name="myfootnote17">17</a>: Abidin and Gn, "Between art and application".
+[^Witt]: Steve Witt, "Chinese Characters as Ancient 'Emoji'"", *Glocal Notes*, 2015, available at https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/.
+
+[^Grot]: Grothaus, Michael, "Women Finally Get a Menstruation Emoji", *Fastcompany*, 2019, available at https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji.
+
+[^Abidin]: Abidin and Gn, "Between Art and Application".
