@@ -205,31 +205,20 @@ Move conditional structure from ch 3 to here with the starting example of mouseI
 
 ## 2.8 While()
 
-The human face make a good starting point here we recognise it even in its simplest form, as *Multi* seems to verify with its minimal rendering of three elements. The face clearly occupies a central position in everyday life and social interaction, and it almost goes without saying that its features are perceived to display our uniqueness and individuality. But this is a surface reading only. Emojis operate in this way and seem to occlude the face of experience and it ability to express complex feelings. It would be tempting to think that emojis, despite their name, stop short of emotions. 
+The human face make a good starting point here as we recognise it even in its simplest form, something *Multi* seems to verify with its minimal rendering of three elements. The face clearly occupies a central position in everyday life and social interaction, and it almost goes without saying that its features are perceived to display our uniqueness and individuality. But this is a surface reading only. Emojis operate in this way and seem to occlude the face of experience and it ability to express complex feelings. It would be tempting to think that emojis, despite their name, stop short of emotions altogether. 
 
-In *A Thousand Plateaus*, Gilles Deleuze and Félix Guattari conceive of the face as "overcoded", imposed upon us universally, resonating with some of the comments we made earlier in this chapter about Unicode. Their main point is that the face - or what they call facial machine - is tied to a specific Western history of ideas (the face of Jesus Christ). This, in turn, situates the origins of the face with white ethnicities and “facialization” (the imposition onto the subject of the face) has been spread by white Europeans, and thus provides a way to understand racial prejudice: "Racism operates by the determination of degrees of deviance to the White man’s face...".[^DG] The face is thus an "imperial machine", subsuming language and other semiotic systems. The face is part of a surface that promotes sameness and rejects difference. 
+In *A Thousand Plateaus*, Gilles Deleuze and Félix Guattari conceive of the face as "overcoded", imposed upon us universally, resonating with some of the comments we made earlier in this chapter about Unicode. Their main point is that the face — or what they call facial machine — is tied to a specific Western history of ideas (the face of Jesus Christ). This, in turn, situates the origins of the face with white ethnicities and what they call “facialization” (the imposition onto the subject of the face) has been spread by white Europeans, and thus provides a way to understand racial prejudice: "Racism operates by the determination of degrees of deviance to the White man’s face...".[^DG] The face is thus an "imperial machine", subsuming language and other semiotic systems. The face is part of a surface that promotes sameness and rejects difference. 
 
-Facial recognition systems, technologies that are capable of identifying or verifying a person from a digital image or a video frame, seem to operate on these imperialist terms too. When a person is identified in this way, the person's facial shape and textures are matched against a model based on a standardised dataset. Moreover the datasets are based on a disproportionate number of white faces and studies have proven that facial recognition systems struggle to identify women and black people. This has led to significant problems not least when it comes to the use of these technologies for law enforcement. 
+Facial recognition technologies that are capable of identifying or verifying a person from a digital image or a video frame, seem to operate on these (imperialist) terms too. When a person is identified in this way, the person's facial shape and textures are matched against a model based on a standardised dataset (and we will return to this discussion in chapter 4). Moreover the datasets are based on a disproportionate number of white faces and notoriously facial recognition systems struggle to identify black people. This has led to significant problems not least when it comes to the use of these technologies for policing. 
 
-Face recognition also becomes unreliable when facial expressions vary, and even a big smile can render the results unreliable, so ironically a smiley in real-life is likely to create difficulties of recognition. The iconic emoji smiley seems to further stress the point. The face may be able to escape overcoding under certain conditions but emojis are quite literally facial-machines. Herein lies a challenge perhaps, when having fun with programming, to escape the overcode and to develop alternatives with geometric shapes. 
+Systems also becomes unreliable when facial expressions vary, and even a big smile can render the results unreliable, so there is heavy irony that a smiley in real-life is likely to create difficulties of recognition. The iconic emoji smiley seems to further stress the point. The face may be able to escape overcoding under certain conditions but emojis are quite literally facial-machines. Herein lies a challenge perhaps, when having fun with programming, to escape the overcode and to develop alternative geometric shapes. 
 
-Something of this logic is evident in a further article by Femke Snelting. "Other Geometries", who discusses how geometric shapes can help to resist sovereign infrastructures.[^Snelting] She is thinking of something as simple as a circle and how it opens up possibilities to imagine collective forms.
+Something of this logic is evident in a further article by Femke Snelting, "Other Geometries", which discusses how geometric shapes can help to resist sovereign infrastructures.[^Snelting] She is thinking of something as simple as a circle and how it is associated with collective forms.
+"A circle is a simple geometric shape. [...] Circles are mathematically defined as the set of all points in a plane that are at the same distance from a shared center; its boundary or circumference is formed by tracing the curve of a point that keeps moving at a constant radius from the middle. [...] Circles are omnipresent in practices and imaginaries of collectivity. [... and yet] Their flatness provides little in the way of vocabulary for more complex relational notions that attempt to include space, matter and time, let alone interspecies mingling and other uneasy alliances. The obligation to always stay at the same distance from the center promises a situation of equality but does so by conflating it with similarity. Circles divide spaces into an interior and an exterior, a binary separation that is never easy to overcome. We urgently need other axes to move along."[^Snelting2]
 
-"A circle is a simple geometric shape. [...] Circles are mathematically defined as the set of all points in a plane that are at the same distance from a shared center; its boundary or circumference is formed by tracing the curve of a point that keeps moving at a constant radius from the middle. [...] Circles are omnipresent in practices and imaginaries of collectivity. [... and yet] Their flatness provides little in the way of vocabulary for more complex relational notions that attempt to include space, matter and time, let alone interspecies mingling and other uneasy alliances. The obligation to always stay at the same distance from the center promises a situation of equality but does so by conflating it with similarity. Circles divide spaces into an interior and an exterior, a binary separation that is never easy to overcome. We urgently need other axes to move along."
+Snelting is looking for other geometries that can escape normative configurations of collectivity. She also refers to the works of Zach Blas, also know for his interventions with facial recognition systems (*Facial Weaponization Suite*, 2011-14), to point to the geometric spaces between nodes and edges, and draw more attention to relations. Beyond network imaginaries of decentralised and distributed forms, historically part of rethinking centralised power structures, the idea is to "bend our infrastructural desires in other directions", bu  making further reference to the work of Anna Tsing and "messy geometries" that are inspired by mushroom root structures such as Mycelium.[^Tsing] 
 
-Snelting is looking for other geometries that escape well-known configurations. She also refers to the works of Zach Blas, also know for his interventions with facial recognition systems,[note] to point to the geometric spaces between nodes and edges, more attention to relations. Beyond network imaginaries, so long part of rethinking centralised power structures, the idea is to "bend our infrastructural desires in other directions".[Note: Snelting makes further references to the work of Anna Tsing and messy geometries that are inspired by Mycelium, and mushroom root structures. See Anna Lowenhaupt Tsing, The Mushroom at the End of the World: On the Possibility of Life in Capitalist Ruins (Princeton University Press, 2017).]
-
-The challenge is to rethink geometries, to turn them inside out and upside down. 
-
-Also produced as an "overcoding", Emoji faces seem to encapsulate the thinking. The face may be able to escape this overcoding under certain conditions but emojis seem to have become more and machine machine-like. Herein lies a challenge perhaps, having fun with programming, to escape the face's overcoding and to develop alternatives.
-
-
-- politics of measuremen can go here > in relation to what constitute a face and how a face is being recognized in nowadays facial recognization technology. -> but this will address in the chapter data capture too. 
- 
-
-
-
-
+The challenge then is to rethink normative geometries, to turn them upside down and inside out. Herein lies a challenge perhaps, in having fun with programming, to escape the face's overcoding and to develop alternatives. Fun in this sense means the ability to be able to modify forms and to diverge from established rules - like a good joke. In the case of programming the rules can be applied differently, adapted and modified, and even transformed altogether. 
 
 ## 2.9 Mini_Exercise[2]: Geometric emoji
 **Objective:**
@@ -260,7 +249,6 @@ Also produced as an "overcoding", Emoji faces seem to encapsulate the thinking. 
 ## Further reading:
 - Crystal Abidin and Joel Gn, eds., "Histories and Cultures of Emoji Vernaculars", *First Monday*, 23(9), September, 2018, https://firstmonday.org/ojs/index.php/fm/issue/view/607
 - Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-reviewed Journal About Machine Feeling*, 8(1), 2019, https://tidsskrift.dk/APRJA/issue/view/8133.
-- Geoff Cox and Alex McLean, "Not Just for Fun", in Olga Goriunova, ed., *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing*, New York, London: Bloomsbury, 2014, pp??
 - Olga Goriunova, Olga, "Introduction", *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing*, New York, London: Bloomsbury, 2014, 1-19.
 - Derek Robinson, "Variables", in Matthew Fuller, ed., *Software Studies*, Cambridge, Mass.: MIT Press, 2008.
 - Femke Snelting, [Modifying the Universal](https://www.youtube.com/watch?v=ZP2bQ_4Q7DY), MedeaTV, 2016 [Video, 1 hr 15 mins]. 
@@ -297,7 +285,13 @@ Also produced as an "overcoding", Emoji faces seem to encapsulate the thinking. 
 
 [^DG]: Gilles Deleuze and Félix Guattari, *A Thousand Plateaus: Capitalism and Schizophrenia* (Minneapolis: University of Minnesota Press, 1987), 178.
 
-[^Snelting]: Snelting, "Other Geometries"
+[^Snelting]: Snelting, "Other Geometries".
+
+[^Snelting2]: Ibid.
+
+[^Blas]: The series of works *Facial Weaponization Suite* exposes some of the inequalities associated with biometric facial recognition by making collective masks, including *Fag Face Mask* as a response to scientific studies that link determining sexual orientation through rapid facial recognition techniques, and another mask that explores the inability of biometric technologies to detect dark skin. See http://www.zachblas.info/works/facial-weaponization-suite/. 
+
+[^Tsing]: Anna Lowenhaupt Tsing, *The Mushroom at the End of the World: On the Possibility of Life in Capitalist Ruins* (Princeton University Press, 2017).
 
 [^Witt]: Steve Witt, "Chinese Characters as Ancient 'Emoji'"", *Glocal Notes*, 2015, available at https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/.
 
