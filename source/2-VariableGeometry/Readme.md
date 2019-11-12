@@ -7,7 +7,7 @@ page_order: 2
 
 Aside from the difficulties of learning anything new and complex, learning to code can be enjoyable and rewarding (we hope!). That fun can be had with programming would seem to be demonstrated in the numerous titles that make explicit reference to it such as Linus Torvalds's book *Just for Fun: The Story of an Accidental Revolutionary*, written with David Diamond, part autobiography and part story of the development of Linux.[^Fun] Fun in this case combines with the serious effort of making source code freely available and open to further modification. Like sharing a joke (or indeed recipe), programmming is indeed a social activity and relies on collective understanding in order to *get it*. 
 
-There are many more examples that reinforce the idea of fun, as if simply the declaration was enough to convince users to work through learning to program and not be too put off by its underlying difficulty. In what follows we encourage you to have fun with geometry, building on the drawing of an ellipse in the previous chapter. The idea is to further explore various shapes, sizes, positions, space, and lengths, all which are regarded as geometry in the serious discipline of mathematics, with multiple applications in everyday life, including but not limited to typography, signage, graphic design and architecture, as well as other organisational forms. More specifically, points, lines and panes are regarded as the foundational elements of design as these elements constitute objects, and the world is made up of various objects. Fun with geometry comes from manipulating these properties, and reconsituting them anew, creating alternative patterns of recognition and understanding.[^Fun2] As Olga Goriunova has argued in her book *Fun and Software*, fun with computers can be considered to be a mode of thinking and reasoning in this way,[^Olga] and furthermore fun can be had with the paradoxes that arise in this process. By creating new computational objects, you are manipulating learnt procedural logics, and exploring how these might be further adapted and redrawn. Variable geometry in this sense is about shape-shifting: re-imagining all sorts of new shapes and compositional forms, about challenging geometric conventions.[^Femke] 
+There are many more examples that reinforce the idea of fun, as if simply the declaration was enough to convince users to work through learning to program and not be too put off by its underlying difficulty. In what follows we encourage you to have fun with geometry, building on the drawing of an ellipse in the previous chapter. The idea is to further explore various shapes, sizes, positions, space, and lengths, all which are regarded as geometry in the serious discipline of mathematics, with multiple applications in everyday life, including but not limited to typography, signage, graphic design and architecture, as well as other organisational forms. More specifically, points, lines and panes are regarded as the foundational elements of design as these elements constitute objects, and the world is made up of various objects. Fun with geometry comes from manipulating these properties, and reconsituting them anew, creating alternative patterns of recognition and understanding.[^Fun2] As Olga Goriunova has argued in her book *Fun and Software*, fun with computers is considered to be a mode of thinking in this way,[^Olga] and furthermore fun can be had with the paradoxes that arise in this process. By creating new computational objects, you are manipulating learnt procedural logics, and exploring how these might be further adapted and redrawn. Variable geometry in this sense is about shape-shifting: re-imagining all sorts of new shapes and compositional forms, about challenging geometric conventions.[^Femke] 
 
 We take the example of emojis — ideograms, typically smileys — as typographic shorthands for expressing emotional states such as happiness, using facial expressions and common objects. These have become pervasive in communications, and no longer simply typographic but actual pictures which can be funny but also come with underlying issues related to a politics of representation and stereotyping. More on this soon, but for now it is enough to say that emojis make a good example as they consist of geometric shapes, using lines, points, panes and color. This chapter is about having fun with this (even if some of the underlying issues are not fun), exploring the affective dimension of emojis, and the varying representations that we encounter in everyday communications. 
 
@@ -115,11 +115,11 @@ You should notice from the responses of the console area (see Figure 2.2) that i
 
 ## 2.3 Variables 
 
-In programming, both width and height are called variables, which is another important concept. Variables are used to store data and information in a computer program. You can think of variables as a container, and you can put things in a given container, replace them with other things, and store them for later retrieval. There is also something called a 'global variable', which you can use in any parts of your code. Local variables are defined within a structure or a function, and then an only be used within that block of code. To define a global variable, you need to define it before the setup of the program, usually in the first few lines of the program. 
+In programming, both width and height are called *variables*, which is another important concept. Variables are used to store data and information in a computer program. You can think of variables as a container, and you can put things in a given container, replace them with other things, and store them for later retrieval. There is also something called a 'global variable', which you can use in any parts of your code. Local variables are defined within a structure or a function, and then an only be used within that block of code. To define a global variable, you need to define it before the setup of the program, usually in the first few lines of the program. 
 
 To use the earlier example, the value behind 'width' is 500 which is the canvas width that has been defined in line 2 (see section 2.2.1). To continue with the analogy, a container with the name 'width' is being labeled and has stored the value '500'. In this case, it is assigned by default as the program is able to retrieve the measurement of the canvas. 
 
-But, and importantly, you can also assign your own variable names (metaphorically speaking, you can create your own type of container and store other values). 
+But, and importantly, you can also assign your own variable names (in other words, you can create your own type of container and store other values). 
 
 ```javascript
 let moving_size = 60;
@@ -152,9 +152,9 @@ For this example, two variables: 'moving_size' is more stable than 'static_size'
 
 There are two more variables in the example: `mouseX` and `mouseY`. These are changing variables and are subject to the mouse movement to trace the coresponding x and y coordinates. If you want to know the mouseX and mouseY exact coordinate position, you may also use `print()` or `console.log` to display the two values in the console area.
 
-*Figure 2.4: Illustration of variables*//////// check metaphor
+*Figure 2.4: Illustration of variables* [not a locker as it's not open enough]
 
-Although there are many books use the metaphor of a container to illustrate the concept of variable, the use of lockers[change metaphor] is to convey there is an address for each locker. Technically speaking, by declaring a variable, it also declares a location/address in which the computer memory can hold the value. In short, each variable stores at a block of computer memory which is located inside a physical and concrete memory like RAM. Each block has a identification which is called the memory address so that the computer knows where to store it and retrieve it while the program is run. As such, software and hardware is not separable, and it is just we can't able to see the inner micro-working of a computer in handling .
+Although it is commonplace to use the metaphor of a container to illustrate the concept of variable, it is important to convey that there is an address for each container (for instance, it is in a particular place on a shelf if you like, and the computer knows it's there). Technically speaking, by declaring a variable, it also declares a location/address in which the computer memory can hold the value. In short, each variable is stored in a block of computer memory which is located inside physical and concrete memory like RAM. Each block has a identification which is called the memory address so that the computer knows where to store it and retrieve it while the program is run. As such, software and hardware is not separable, and it is just we can't able to see the inner micro-workings of a computer whilst it is handling data.
 
 ## 2.3.1 Why use variables? 
 As you learn to program more complex software, you will know it is very common to use variables to store values and data. More importantly, the value of variables can be changed while a program is run in real-time. The earlier variables: mouseX and mouseY may serve the purpose of illustrating the point because the coordinate of the mouse will change according to the movement. We will also discuss variable again in the next Chapter with the concept of loop and repetition. 
@@ -233,21 +233,22 @@ outro:
   - **How** would you put your emoji into a wider cultural context that concerns representation,s identity, race, social, economics, culture, device politics and beyond? (Try to think through the assigned reading and your coding process, and then expand that to your experience and thoughts - this is a difficult task, you may need to spend sometimes in thinking about it)
 
 ## Required readings:
-- Abbing, R.R, Pierrot, P and Snelting, F., "[Modifying the Universal.](http://www.data-browser.net/db06.html)" *Executing Practices*. Eds. Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver. Open Humanities Press, 2018, pp. 35-51 
-- (OR) Snelting, Femke. [Modifying the Universal](https://www.youtube.com/watch?v=ZP2bQ_4Q7DY), MedeaTV, 2016. (1 hr 15 mins) 
+- Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, "[Modifying the Universal.](http://www.data-browser.net/db06.html)" *Executing Practices*, Eds. Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, London: Open Humanities Press, 2018, 35-51. 
 - p5.js. p5.js | Simple Shapes. [Web] Available at: https://p5js.org/examples/hello-p5-simple-shapes.html [Accessed 09 Sep. 2019].
 - Shiffman, Daniel. (2018) 1.3,1.4,2.1,2.2: Code! Programming with p5.js [online] Available at: https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2 [Accessed 09 Sep. 2019].
+- Femke Snelting, "Other Geometries", *transmediale journal*, Issue#3, 31 October 2019, https://transmediale.de/content/other-geometries
 
 ## Further reading:
-- Robinson, Derek. "Variables" in *Software Studies* (Fuller, M ed), MIT Press 2008.
-- Goriunova, Olga, *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing*, New York, London: Bloomsbury, 2014, pp.1-19 (Introduction chapter)
-- Abidin, Crystal and Gn, Joel (eds), Histories and cultures of emoji vernaculars, *first monday*, 23(9), September, 2018. Available at: https://firstmonday.org/ojs/index.php/fm/issue/view/607
-- Cox, Geoff and Andersen, UC, Machine Feeling, *A Peer-Reviwed Journal About*, 8(1), 2019. Available at: https://tidsskrift.dk/APRJA/issue/view/8133
-
+- Crystal Abidin and Joel Gn, eds., "Histories and Cultures of Emoji Vernaculars", *First Monday*, 23(9), September, 2018, https://firstmonday.org/ojs/index.php/fm/issue/view/607
+- Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-reviewed Journal About Machine Feeling*, 8(1), 2019, https://tidsskrift.dk/APRJA/issue/view/8133.
+- Geoff Cox and Alex McLean, "Not Just for Fun", in Olga Goriunova, ed., *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing*, New York, London: Bloomsbury, 2014, pp??
+- Olga Goriunova, Olga, "Introduction", *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing*, New York, London: Bloomsbury, 2014, 1-19.
+- Derek Robinson, "Variables", in Matthew Fuller, ed., *Software Studies*, Cambridge, Mass.: MIT Press, 2008.
+- Femke Snelting, [Modifying the Universal](https://www.youtube.com/watch?v=ZP2bQ_4Q7DY), MedeaTV, 2016 [Video, 1 hr 15 mins]. 
 
 ## Notes
 
-[^Fun]: Linus Torvalds and David Diamond, *Just for Fun: The Story of an Accidental Revolutionary* (Knutsford: Texere Publishing, 2001), see http://en.wikipedia.org/wiki/Just_for_Fun. Other examples include *Computers are Fun* by Tony Gray and Carl Billson, and, as mentioned, *The Fun of Programming* by Jeremy Gibbons and Oege de Moor. 
+[^Fun]: Linus Torvalds and David Diamond, *Just for Fun: The Story of an Accidental Revolutionary* (Knutsford: Texere Publishing, 2001), see http://en.wikipedia.org/wiki/Just_for_Fun. Other examples include Jeremy Gibbons and Oege de Moor, *The Fun of Programming* (London: Palgrave Macmillan, 2003). 
 
 [^Fun2]: See the children's book: Owyang Chan, V, *Geometry Is Fun For Me* (Dog Ear Publishing, 2017).
 
@@ -255,7 +256,7 @@ outro:
 
 [^Femke]: Femke Snelting, "Other Geometries", *transmediale journal*, Issue#3, 31 October 2019, https://transmediale.de/content/other-geometries
 
-[^Emojis]: Abbing, R.R, Pierrot, P and Snelting, F., "[Modifying the Universal.](http://www.data-browser.net/db06.html)", *Executing Practices*. Eds. Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver (Open Humanities Press, 2018, 35-51). Other references include: Crystal Abidin and Joel Gn, "Between Art and Application: Special issue on emoji epistemology", *First Monday*, 23(9), 3 September 2018; Luke Stark, "Facial recognition, emotion and race in animated social media", *First Monday*, 23(9), 3 September 2018; Miriam E Sweeney and Kelsea Whaley, "Technically White: Emoji skin-tone modifiers as American technoculture", *First Monday*, 24(7), 1 July 2019.
+[^Emojis]: Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, "[Modifying the Universal.](http://www.data-browser.net/db06.html)", *Executing Practices*. Eds. Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver (Open Humanities Press, 2018, 35-51). Other references include: Crystal Abidin and Joel Gn, "Between Art and Application: Special issue on emoji epistemology", *First Monday*, 23(9), 3 September 2018; Luke Stark, "Facial recognition, emotion and race in animated social media", *First Monday*, 23(9), 3 September 2018; Miriam E Sweeney and Kelsea Whaley, "Technically White: Emoji skin-tone modifiers as American technoculture", *First Monday*, 24(7), 1 July 2019.
 
 [^Unicode]: See https://en.wikipedia.org/wiki/Unicode#Origin_and_development.
 
