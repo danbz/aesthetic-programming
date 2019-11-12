@@ -296,6 +296,6 @@ The challenge is to rethink normative geometries, to turn them upside down and i
 
 [^Witt]: Steve Witt, "Chinese Characters as Ancient 'Emoji'"", *Glocal Notes*, 2015, available at https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/.
 
-[^Grot]: Grothaus, Michael, "Women Finally Get a Menstruation Emoji", *Fastcompany*, 2019, available at https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji.
+[^Grot]: Michael Grothaus, "Women Finally Get a Menstruation Emoji", *Fastcompany*, 2019, available at https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji.
 
 [^Abidin]: Abidin and Gn, "Between Art and Application".
