@@ -6,17 +6,34 @@ page_order: 5
 ## 5.1 setup()
 
 Pause week before -> OOP 
+
 abstraction is all over in computing, but we just choose to use this chapter to examplify it 
-games 
+
+A programming paradigm
+https://user-content.gitlab-static.net/38287337cdf9f32ae05de5b3d9d7037868960496/687474703a2f2f6a6f667261706573652e626c6f6769612e636f6d2f75706c6f61642f32303038303632373232313730302d6461686c2d6e7967616172642e6a7067
+
+Background: The formal programming concept of objects was introduced in the mid-1960s with Simula 67, a major revision of Simula I, a programming language designed for discrete event simulation, created by Ole-Johan Dahl and Kristen Nygaard of the Norwegian Computing Center in Oslo. (Wikipedia)
+
+"bring technical process closer to non-specialist understanding" (Fuller and Goffey 2017) => link to participatory design's utopia project that works with workers' union.
+re-use of code and operation: "it saves time and effort to be able to write the code once and re-use it in different programs" (Fuller and Goffey 2017)
+
 food , steps 
+
+input/output -> potential to interact the environment; specialization and generalization (Cecile)
 politics -> representation
+
+Epistemologies
+
+example application: games 
+
+- The concept of object
+what it means by objects as model 
 
 ## 5.1.1 Start()
 ToFu Go by Francis Lam (HK/CN)
 
 ## Abstraction and OOP 
 
-## The concept of object
 
 ## Source Code 
 
