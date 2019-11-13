@@ -3,6 +3,8 @@ page_order: 3
 
 ## 3. Infinite Loops
 
+[G: this i may need to rework more on the content as the second example may be still a bit complicated at this stage, need to think about how to simplify /w ]
+
 ### 3.1 Setup()
 In computer programming, the concept of loop is highly related to repetition, control and automation. For example, the function `draw()` also exhibits some kinds of repetition in `p5.js` while `frameRate()` controls how many times to run the `draw()` function in a second. Once you run the whole program, things will run on its own, for example the program automatically captures the mouse coordinates of the movement. Extending from programming to applications, the feature of loop can be observed in mandune daily activities and operations, such as the checking logic of a metro/underground/train card balance in kiosk machines, and the program does the same task by capturing data via the card reader and outputting the card balance amount on a screen. If variables highlight the changes over time, then loops focus on repetition and operative tasks, but they are both inter-related in programming. 
 
