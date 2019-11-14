@@ -278,11 +278,11 @@ The challenge is to rethink normative geometries, to turn them upside down and i
 
 [^let]: 'let' is introduced in ES6 (ECMAScript- scripting language specification standardization) to declare a variable although 'var' is still commonly used. They are both used for variable declaration but the difference is that let is block scoped while var is function scoped. Specifically for the let case, if the same variable is declared in both global and local levels, the local value will be restricted to the specific block of code and won't be overridden. For more on the distinction, see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var and https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let.
 
-[^color]: See p5.js color reference: https://p5js.org/reference/#/p5/color.
+[^color]: See p5.js color reference, https://p5js.org/reference/#/p5/color.
 
 [^Emojis2]: See https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/.
 
-[^playground]: See the tool p5.playground developed by Yining Shi:https://1023.io/p5-inspector/.
+[^playground]: See the tool p5.playground developed by Yining Shi, https://1023.io/p5-inspector/.
 
 [^DG]: Gilles Deleuze and Félix Guattari, *A Thousand Plateaus: Capitalism and Schizophrenia* (Minneapolis: University of Minnesota Press, 1987), 178.
 
@@ -294,7 +294,7 @@ The challenge is to rethink normative geometries, to turn them upside down and i
 
 [^Tsing]: Anna Lowenhaupt Tsing, *The Mushroom at the End of the World: On the Possibility of Life in Capitalist Ruins* (Princeton University Press, 2017).
 
-[^Witt]: Steve Witt, "Chinese Characters as Ancient 'Emoji'"", *Glocal Notes*, 2015, available at https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/.
+[^Witt]: Steve Witt, "Chinese Characters as Ancient 'Emoji'", *Glocal Notes*, 2015, available at https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/.
 
 [^Grot]: Michael Grothaus, "Women Finally Get a Menstruation Emoji", *Fastcompany*, 2019, available at https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji.
 
