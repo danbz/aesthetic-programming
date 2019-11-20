@@ -3,14 +3,24 @@ page_order: 3
 
 ## 3. Infinite Loops
 
-[G: this i may need to rework more on the content as the second example may be still a bit complicated at this stage, need to think about how to simplify /w ]
-
 ### 3.1 Setup()
-In computer programming, the concept of loop is highly related to repetition, control and automation. For example, the function `draw()` also exhibits some kinds of repetition in `p5.js` while `frameRate()` controls how many times to run the `draw()` function in a second. Once you run the whole program, things will run on its own, for example the program automatically captures the mouse coordinates of the movement. Extending from programming to applications, the feature of loop can be observed in mandune daily activities and operations, such as the checking logic of a metro/underground/train card balance in kiosk machines, and the program does the same task by capturing data via the card reader and outputting the card balance amount on a screen. If variables highlight the changes over time, then loops focus on repetition and operative tasks, but they are both inter-related in programming. 
+
+Loops and other recursive functions offer alternative imaginaries, as for instance in the case of the ancient image of a snake or serpent eating its own tail. The *Ouroboros*, from the Greek, expresses the endless cycle of birth and death, and thus stands for the ability of processes to renew themselves infinitely.   
+
+![Ouroboros](https://en.wikipedia.org/wiki/Ouroboros#/media/File:Chrysopoea_of_Cleopatra_1.png)
+:    *Figure 3.0: Early alchemical ouroboros illustration with the words ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist in MS Marciana gr. Z. 299. (10th Century)*
+
+Aside from images of autocannibalism, loops are related to procedures of repetition, control and automation, and are mirrored in everyday situations and repetitive procedures. This can be playfully demonstrated in the following paradoxical statement: "The next sentence is true. The previous is false".[^Hofstadter] In computer programming, a loop allows repeated execution of a fragment of source code that continues until a given condition is met, such as true or false. Indeed a loop becomes an infinite loop if a condition never becomes false. 
+
+It was Augusta Ada Byron Lovelace who first introduced the concept of a programmatic loop in the early nineteenth century. She recognised that there were repeatable operations in the conceptual design of the operating machine that was regarded as "the first automatic, general-purpose computing machine ever designed",[^Kim] namely Charles Babbage's Analytical Engine that is widely regarded as the first computer. A loop which she called a 'cycle' appears in her notes on the Analytical Engine which set a precedent for the direction in which digital computers would be later developed. Her notes include (in the form of a diagram in Note G) the program procedures, also called the Bernoulli numbers program, of the Analytical Engine. The diagram utilises two loops to indicate the repetition of a set of instructions with conditions,[^Kim2] minimizing duplicate efforts to write the repeatable operation again. Arguably, the concept of a loop in modern coding practice is highly influenced by her insights into the handling of repeated machine operations expressed in a concrete diagramatic manner, which depicts the essence of repetition and condition in a cycle. Modern high-level programming language includes a loop function, allowing a fragment of source code to be repeatedly executed. 
+
+To be more specific, the function `draw()` also exhibits some kind of repetition in `p5.js` while `frameRate()` controls how many times the `draw()` function with run. Once you run the whole program, things will run on their own, for example the program automatically captures the mouse coordinates of the movement.  
+
 
 //winnie will add more on the throbber thing (why throbber is interesting)
+For related reasons we are captivated by the apparent simplicity of the graphical spinning wheel icon of a ‘throbber’ that indicates when a computer programme is performing an action such as downloading content or performing intensive calculations. In contrast to the teleology of a progress bar, a throbber does not convey how much of the action has been completed and thus resonates with our understanding of the real-time dynamics of the contemporary condition and the ambiguity of the multiple temporal registers that are running at the same time.
 
-Mathematician Augusta Ada Byron Lovelace first introduced the concept of a loop in the early nineteenth century. She recognised that there were repeatable operations in the conceptual design of the operating machine that was regarded as “the first automatic, general-purpose computing machine ever designed” <span class="ref">(ref: Kim & Toole, 1999, p. 76)</span>, known as Charles Babbage’s Analytical Engine. The concept of a loop, which she called a ‘cycle,’ was conceived in 1834 in her notes on the Analytical Engine which set a precedent for the direction in which digital computers would be later developed. Her notes include (in the form of a diagram in Note G) the program procedures, also called the Bernoulli numbers program, of the Analytical Engine. The diagram utilises two loops to indicate the repetition of a set of instructions with conditions <span class="ref">(ref: Kim & Toole, 1999, p. 78)</span>, minimizing duplicate efforts to write the repeatable operation again. Arguably, the concept of a loop in modern coding practice is highly influenced by her insights into the handling of repeated machine operations expressed in a concrete diagramatic manner, which depicts the essence of repetition and condition in a cycle. Modern high-level programming language includes a loop function, allowing a fragment of source code to be repeatedly executed. 
+
 
 ![ada lovelace](http://media.factmyth.com/2015/10/ada-lovelace-bernoulli-note-g.jpg)
 :    *Figure 3.1: The diagram on Bernoulli in Note G by Ada Lovelace*
@@ -469,17 +479,19 @@ Check out other works regarding a throbber and how other people contextualize th
 ## 3.12 Required reading
 
 - Shiffman, Daniel. Courses 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2, *Code! Programming with p5.js* on [YouTube](https://www.youtube.com/watch?v=1Osb_iGDdjk), 2018 [Accessed 9 Sep. 2019]. (practical usage on conditional statements, loops, functions and arrays)
-- Soon, Winnie. "Throbber: Executing Micro-temporal Streams", *Computational Culture*, inpress, 2019.
+- Winnie Soon, "Throbber: Executing Micro-temporal Streams", *Computational Culture*, 2019.
 - Close reading on the work *Asterisk Painting* by John P. Bell, ported to p5.js, and modified, by Winnie Soon 
 
 ## 3.13 Further reading
 
-- Hou Je Bek, Wilfried. "Loop", *Software Studies* (Fuller, Matthew, ed.), MIT Press, 2008.
+- Wilfried Hou Je Bek, "Loop", *Software Studies* (Fuller, Matthew, ed.), MIT Press, 2008.
 - Robinson, Derek. "Function", *Software Studies* (Fuller, Matthew, ed.), MIT Press, 2008.
 - Farman, Jason. "Fidget Spinners", *Real Life*, 2017.
 
 ## Notes:
-reference and footnotes here... 
+[^Hofstadter]: Further examples of paradox, recursion and strange loops can be found in Douglas R. Hofstadter's' *Gödel, Escher, Bach: An Eternal Golden Braid*, New York: Basic Books, 1999.
+[^Kim]: Eugene Eric Kim and Betty Alexandra Toole, "Ada and the First Computer", *Scientific American* 280 (5) (1999), 76.
+[^Kim2]: Kim and Toole, "Ada and the First Computer", 78. 
 
 
 
