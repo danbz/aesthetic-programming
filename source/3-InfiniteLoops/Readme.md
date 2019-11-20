@@ -10,10 +10,10 @@ page_order: 3
 
 Loops and other recursive functions offer alternative imaginaries, as for instance in the case of the ancient image of a snake or serpent eating its own tail. The *Ouroboros*, from the Greek, expresses the endless cycle of birth and death, and thus stands for the ability of processes to renew themselves infinitely. Aside from autocannibalism and alchemy, loops are related to procedures of control and automation, and are mirrored in repetitive procedures in everyday situations. In computer programming, a loop allows repeated execution of a fragment of source code that continues until a given condition is met, such as true or false. Indeed a loop becomes an infinite loop if a condition never becomes false. The logic can be demonstrated in the following paradoxical word-play: "The next sentence is true. The previous is false".[^Hofstadter] 
 
-It was mathematician and writer Augusta Ada Byron Lovelace who first introduced the concept of a programmatic loop in the early nineteenth century. She recognised that there were repeatable operations in the conceptual design of the first automatic, general-purpose computing machine ever designed, namely Charles Babbage's Analytical Engine. A loop which she called a 'cycle' appears in her "Note G" on the Analytical Engine,[^Ada] in which she describes the program procedures, also called the Bernoulli numbers program, as in the diagram below. It utilises two loops to indicate the repetition of a set of instructions with conditions,[^Kim] thereby minimizing efforts to write the repeatable operation in duplicate. 
+It was mathematician and writer Augusta Ada Byron Lovelace who first introduced the concept of a programmatic loop in the early nineteenth century. She recognised that there were repeatable operations in the conceptual design of the first automatic, general-purpose computing machine ever designed, namely Charles Babbage's Analytical Engine. A loop which she called a 'cycle' appears in her "Note G" on the Analytical Engine,[^Ada] in which she describes the program procedures, also called the Bernoulli numbers program, as in the diagram below. It utilises two loops to indicate the repetition of a set of instructions with conditions,[^Kim] thereby minimizing efforts to write a repeatable operation in duplicate. 
 
 ![ada lovelace](http://media.factmyth.com/2015/10/ada-lovelace-bernoulli-note-g.jpg)
-:    *Figure 3.1: The diagram on Bernoulli in Note G by Ada Lovelace*
+:    *Figure 3.1: Diagram for the computation by the Engine of the Numbers of Bernoulli, from "Note G" by Ada Lovelace*
 
 The concept of a loop in contemporary programming is highly influenced by these early insights into the handling of repeated machine operations expressed in a diagramatic manner. High-level programming languages such as `p5.js` include a loop function, allowing a fragment of source code to be repeatedly executed, as in the example of the `draw()` function that will run continuously until the program is stopped. We will continue with further examples but suffice to say that loops are among the most basic and powerful of programming concepts.
 
@@ -21,7 +21,9 @@ The example we use centrally in this chapter is the graphical spinning wheel ico
 
 #### 3.1.1 Start()
 
-We usually encounter this ubiquitous spinning icon during the loading and streaming of data content. It indicates that we are waiting for something to happen but what exactly we are waiting for is not clear at all. Something is in-progress, but we know little more as it does not indicate any completed or finished status or progress — as a progress bar does, for instance — and all that is presented is a spinning icon, perceived as repeatedly spinning under constant speed as well as hinting at invisible background activities for an indeterminate and unforeseeable timespan. The icon expresses various dimensions of time at our times. 
+We usually encounter the ubiquitous spinning icon during the loading and streaming of data content. It indicates that we are waiting for something to happen but what exactly we are waiting for and for how long is not clear at all. We know something is in-progress, but there is no indication of progress or status — as with a progress bar does, for instance. 
+
+and all that is presented is a spinning icon, perceived as repeatedly spinning under constant speed as well as hinting at invisible background activities for an indeterminate and unforeseeable timespan. The icon expresses various dimensions of time at our times. 
 
 We will introduce the repetitive spinning through the sample code of a throbber and then it will lead to the artwork *Asterisk Painting* by John P. Bell. 
 
