@@ -23,7 +23,7 @@ The example we use centrally in this chapter is the graphical spinning wheel ico
 We usually encounter the ubiquitous spinning icon during the loading and streaming of data content. It shows that a certain operation is in progress, but what exactly and how long it will take is not at all clear. There is no indication of progress or status — as with a progress bar for instance. We see the icon spinning but it explains little about the background activities or timespan. By learning to program a throbber, and in turn the artwork *Asterisk Painting* by John P. Bell that creates a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started, the idea is to gain insight into some of the background operations of computational processes. With these examples, we can gain an understanding of the temporality of computation and the way programming employs loop structures.  
 
 ### 3.2 Decode 
-Here we move from programming static objects such as shapes to a mixture of both static and moving objects. If the shape was a circle we join and spin the circle like a serpent eating its own tail once more. 
+Here we move from programming static objects such as shapes to a mixture of both static and moving objects. If we assume the shape to be a circle we join it up here, and spin it, as if eating its own tail. 
 [I have edited up to here /g]
 
 <iframe src="sketch.html"></iframe>
