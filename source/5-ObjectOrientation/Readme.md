@@ -48,6 +48,7 @@ From the pseudo object, we start to see how abstraction takes place in computati
 After the brief example of modeling the person object, we will then move to the example that is inpsired by the game *ToFu go!*.
 
 ![tofu go](ch5_1.png)
+
 *Figure 5.1: A screenshot of the game ToFu Go!, developed and designed by Francis Lam*
 
 [embeded video](https://www.youtube.com/watch?v=V9NirY55HfU])
@@ -65,7 +66,14 @@ This chapter's sample code is a game with the following core components:
 *Figure 5.2: A screenshot of the simplified Tofu go!.*
 
 ## Source Code 
-The source code is divided into two pieces, one with all the core functions in sketch.js, and the other tofu.js that specifies the class/object relationship. 
+The source code is divided into two pieces, one with all the core functions in sketch.js, and the other tofu.js that specifies the class/object relationship. Sometimes it gives a clearer overview of the program if you seperate the program into different functions and files. To enable the two js files, you need to add the following into the index.html file:
+
+```html
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <script language="javascript" type="text/javascript" src="Tofu.js"></script>
+```
+
+sketch.js:
 
 ```javascript
 let tofu = [];
@@ -168,6 +176,7 @@ function checkLoser() {
     }
 }
 ```
+tofu.js:
 
 ```javascript 
 class Tofu { //create a class: template/blueprint of objects with properties and behaviors
@@ -351,6 +360,16 @@ It requires some planning before you start coding if you want to implement class
 
 - What does it mean by object orientation as a sociotechnical practice? (Fuller and Goffery 2017)
 
+## Further notes
+
+Button: The button in this chapter is similar to previous one in Data Capture, which is to define the global variable `button`, then create the button with text and add the style such as background color, padding and font-size (in the style of CSS). A function called `addTofu` is created to push for new object creation when the button is clicked.  
+
+Table: The table mainly consists of two rectangles that show the table weight with shadow. Two for-loops are used to draw the colored line with a certain and equal amount of width so as to give a 3-dimentional perspective. 
+
+Beers: The sample code uses p5.play library with the concept of `createSprite()`, `addImage()`, `addtoGroup`, considering the beer as a sprite object that you can manipulate. The beer is an image technically and all the images can be added as a group. `checkBeer()` is a custom function to check for beer availability. As sprites with the built-in concept of objects, `remove()` is similar to `splice()`, removing those beers that have already reached the edge of the other side of the table. In a similar vein, beers are added if the program do not have enoguh of them on the table. That said, there is a logic of checking the availablity of beers. But for this chapter, it is more important to walkthrough the whole concept of object-oriented programming rather than using other library, as it will defeat the purpose of understanding the decision of each steps in terms of the creation of class and object instances with properties and behaviors. Having the beers in `p5.play` is more to give a sense of how different things can put together. 
+
+A game: The program is a game with the game over scene as the ending shot. `checkLoser()` is a function used to check how many tofus are remained. If they remain less than the required, then the game over text will be displayed. 
+
 ## While()
 
 By going through the tofu example, we can see object oriented programming is highly organized and concrete even though objects are abstracted and imagined from the world. Fuller and Goffey suggest that this kind of modeling of the world is a socialtechnical practice, as they put it "compressing and abstracting relations operative at different scales of reality, composing new forms of agency", and such agency lies at the computational and material arrangement of everyday encounters. They produce a different perspective that affect how we perceive the world. Who design the objects? We are indeed entering the mind of the programmer/designer who has their own worldview. Game may be a good example especially the apparent persistent sexualisation of female characters. The cultural implication is significant if we aware how much we interact with various objects, even just simply buttons, sliders, check box and each of the object has it own agency. 
@@ -406,12 +425,4 @@ https://user-content.gitlab-static.net/38287337cdf9f32ae05de5b3d9d7037868960496/
 [^splice]: `splice()` is a p5.js function, see here: https://p5js.org/reference/#/p5/splice 
 
 [^push]: `push()` is a JavaScript function that is used in an array to add one or more elements to the end of an array, see here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push 
-
----
-
-stuff here
-
-some ref: https://www.hastac.org/blogs/ari-schlesinger/2013/11/26/feminism-and-programming-languages
-
-doubting the object world: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.90.4954&rep=rep1&type=pdf
 
