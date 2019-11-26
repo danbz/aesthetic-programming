@@ -25,6 +25,7 @@ We usually encounter the ubiquitous spinning icon during the loading and streami
 ### 3.2 Decode 
 Here we move from programming static objects such as shapes to a mixture of both static and moving objects. If we assume the shape to be a circle we join it up here, and spin it, as if eating its own tail. 
 
+![2.3](ch3_2.png) 
 <iframe src="https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch3_InfiniteLoops/sketch3_1/index.html"></iframe>
 *Figure 3.2: The runme of sample code - sketch 3_1* 
 
