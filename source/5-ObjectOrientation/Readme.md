@@ -4,15 +4,20 @@ page_order: 5
 ## Object Abstraction
 
 ## 5.1 setup()
+In the previous chapters, we have worked with different objects such as geometric shapes like ellipses, rectangles and polygons. One can apply different attributes to these objects, such as color, size and position. Additionally, they can exhibit certain behaviors such as moving, animating and rotation (as seen in Ch.3- Infinite Loops and Ch.4- Data Capture). But those geometric objects are already built-in `p5.js`. In this chapter, we will work on constructing our own objects, attributes and behaviors, representing some parts of the objects in a physical or imagined world.
 
-Pause week before -> OOP 
+Abstraction in computing is about representation. There are too much details and relations to handle in real world in which objects are complex and nonlinear. For example, Tofu, originated in China with over 2000 years, is a food made of soybean. Through soaking and grinding soybeans, as well as filering out remaining particulates, it becomes something known as soymilk, containing stable emulsion of oil, water, and protein. Such condensed soymilk is pressed into solid white blocks with varying softness as Tofu in a process similar to cheesemaking. It is an important food product specifically in the East, not only because of its protein richness but also as a cultural symbol. When you present a ToFu in a game context like [Tofu Go](https://www.dbdbking.com/Tofu-Go), developed and designed by Francis Lam (HK/CN), it is inevitably required to abstract the complexity of processes and relations, representing essential and desired elements. In the game, Tofu is designed as a white 3-d cube form with an emoticon, and it could also move and jump. Of course in real world Tofu cannot behave in that way, but one can imgine how objects can be performed differently when you program your own software. 
 
-abstraction is all over in computing, but we just choose to use this chapter to examplify it 
+Abstraction is one of the key concepts of object-oriented programming (OOP) languages. Its main goal is to handle object's complexity by presenting and abstracting certain details to the users by representing a concrete model. Fazi and Fuller discuss such concreteness of abstracted computation [^Fazi], they said "Computation not only abstracts from the world in order to model and represet it; through such abstractions, it also partakes in it." If we think of previous capture of data capture, it becomes clear that computation, in a wider cultural context, facilitates urban life into capitalistic metrification and datafication.  
+Abstraction is all over in computing from using high level programing langauge to the representation in a graphical user interface. Such abstraction hides details of how a computer work physically with logic gates in a binary system as well as reducing the complexity of computer operation (such as copying and deleting files) to users. This chapter is more to examplify the concept of abstraction through object oriented programming with objects creation. 
+
+Historically speaking, the formal programming concept of objects was introduced in the mid-1960s with Simula 67, a major revision of Simula I, a programming language designed for discrete event simulation, created by Ole-Johan Dahl and Kristen Nygaard of the Norwegian Computing Center in Oslo. (Wikipedia)
+
 
 A programming paradigm
 https://user-content.gitlab-static.net/38287337cdf9f32ae05de5b3d9d7037868960496/687474703a2f2f6a6f667261706573652e626c6f6769612e636f6d2f75706c6f61642f32303038303632373232313730302d6461686c2d6e7967616172642e6a7067
 
-Background: The formal programming concept of objects was introduced in the mid-1960s with Simula 67, a major revision of Simula I, a programming language designed for discrete event simulation, created by Ole-Johan Dahl and Kristen Nygaard of the Norwegian Computing Center in Oslo. (Wikipedia)
+Background: 
 
 "bring technical process closer to non-specialist understanding" (Fuller and Goffey 2017) => link to participatory design's utopia project that works with workers' union.
 re-use of code and operation: "it saves time and effort to be able to write the code once and re-use it in different programs" (Fuller and Goffey 2017)
@@ -98,7 +103,7 @@ ToFu Go by Francis Lam (HK/CN)
 - [16.17 Inheritance in JavaScript - Topics of JavaScript/ES6 by Daniel Shiffman](https://www.youtube.com/watch?v=MfxBfRD0FVU&feature=youtu.be&fbclid=IwAR14JwOuRnCXYUIKV7DxML3ORwPIttOPPKhqTCKehbq4EcxbtdZDXJDr4b0)
 
 ## Notes:
-
+[^Fazi]: Fazi, M Beatrice and Fuller, Matthew (2016) Computational aesthetics. In: Paul, Christiane (ed.) *A companion to digital art*. Wiley Blackwell, Hoboken, NJ, pp. 281-296. ISBN 9781118475201
 
 ---
 
