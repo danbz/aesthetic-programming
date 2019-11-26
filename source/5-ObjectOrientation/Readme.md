@@ -63,6 +63,7 @@ This chapter's sample code is a game with the following core components:
 5. The simple game logic is to main at least 5 Tofu on the table, or else the game will stop with the text 'Game Over' shows on the screen. 
 
 ![ch5_2](ch5_2.png)
+
 *Figure 5.2: A screenshot of the simplified Tofu go!.*
 
 ## Source Code 
