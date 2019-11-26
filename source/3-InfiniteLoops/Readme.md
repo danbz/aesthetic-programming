@@ -23,7 +23,7 @@ The example we use centrally in this chapter is the graphical spinning wheel ico
 We usually encounter the ubiquitous spinning icon during the loading and streaming of data content. It shows that a certain operation is in progress, but what exactly is happening and how long this will take is not at all clear. There is no indication of progress or status — as with a progress bar for instance. We see the icon spinning but it explains little about the background activities or timespan. By learning to program a throbber — and in turn *Asterisk Painting* by John P. Bell that creates a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started — the idea is to gain insight into the way programming employs loop structures, and at the same time better understand some of the temporal operations of computational processes.  
 
 ### 3.2 Decode 
-So in this chapter we move from programming static objects such as shapes to a mixture of both static and moving objects. If we assume the shape to be a circle we join it up here, and spin it, as if it were eating its own tail. 
+In this chapter we move from programming static objects such as shapes to a mixture of both static and moving objects. If we assume the shape to be a circle we join it up here, and spin it, as if it were eating its own tail. 
 
 ![2.3](ch3_2.png) 
 <iframe src="https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch3_InfiniteLoops/sketch3_1/index.html"></iframe>
@@ -75,7 +75,7 @@ function drawElements() {
   let num =9;
   push();
   translate(width/2, height/2); //move things to the center
-  // 360/num >> degree of each ellipse' move ;frameCount%num >> get the remainder that indicates the movement of the ellipse
+  // 360/num >> degree of each ellipse' move; frameCount%num >> get the remainder that indicates the movement of the ellipse
   let cir = 360/num*(frameCount%num);  //to know which one among 8 possible positions.
   rotate(radians(cir));
   noStroke();
@@ -104,7 +104,7 @@ Apart from built-in functions, the sample code contains the custom-one called `f
 
 Programmers like to split a big task into smaller operations and procedures, which is easier to structure, manage, debug, read and potentially collaborate with other programmers. In `function drawElements();`, the sample code is just simply seperate out from the function `draw()`, and clearly indicate this particular part of code relates to drawing the different elements on a screen. Of course one can also seperate out the drawing of ellipses and lines, and it is a subjective decision to decide how details you need to seperate the tasks.  
 
-There is another type of function where you can specify with arguments passing to the function and receive a return value.  See below example:
+There is another type of function where you can specify with arguments passing to the function and receive a return value. See the example below:
 
 ```javascript
 let x = sum(4, 3, 2);   
@@ -439,7 +439,7 @@ For this specific case, this block of code from the above example describes the 
 #### 3.11.1 While Loop
 While loop is another type of loop for executing iterations. The statement is executed until the condition is true, it will stop as soon as it is false. 
 
-For example, `while(millis() < wait){}` in line 77 which tells the computer to do nothing if the value of `millis()` <span class="ref">(ref: https://p5js.org/reference/#/p5/millis, this is a p5.js syntax, returning the number of milliseconds since the staring the program. It is similar to frameCount but it is count by miniseconds)</span> is smaller than the value of the `wait` variable. Once the condition is false (i.e `millis()` is not longer small than `wait`), the loop will be ended and the program can proceed to the next line. This example is located towards the end of the program when all the asterisks are drawn but need to wait for a certain time to reset the canvas and restart drawing again. Therefore, this while-loop serves the purpose of a pause sign, freezing the program from running because there is literaly nothing between the opening and closing brackets.  
+For example, `while(millis() < wait){}` in line 77 tells the computer to do nothing if the value of `millis()` <span class="ref">(ref: https://p5js.org/reference/#/p5/millis, this is a p5.js syntax, returning the number of milliseconds since the staring the program. It is similar to frameCount but it is count by miniseconds)</span> is smaller than the value of the `wait` variable. Once the condition is false (i.e `millis()` is not longer small than `wait`), the loop will be ended and the program can proceed to the next line. This example is located towards the end of the program when all the asterisks are drawn but need to wait for a certain time to reset the canvas and restart drawing again. Therefore, this while-loop serves the purpose of a pause sign, freezing the program from running because there is literaly nothing between the opening and closing brackets.  
 
 ## While()
 
