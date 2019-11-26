@@ -342,12 +342,12 @@ function addTofu() {   //speed, xpos, ypos, size
 
 It requires some planning before you start coding if you want to implement class-object in your own program. In a nutshell, an object consists of attributes/properties and actions/behaviors, and all these hold and manage data in which the data can be executed and operation can be carried out. 
 
-**(Step 1) Naming**: Give a name of your class
-**(Step 2) Properties**: What are the attributes/properties of a Tofu?
-**(Step 3) Behaviors**: What are the behaviors of the Tofu? 
-**(Step 4) Object creation**: After the basic setup of the class structure, next is to create a Tofu object that can display on a screen. 
-**(Step 5) Display**: How you want to display and present them over time?
-**(Step 6) Trigger point**: Think with the holistic logic
+- **(Step 1) Naming**: Give a name of your class
+- **(Step 2) Properties**: What are the attributes/properties of a Tofu?
+- **(Step 3) Behaviors**: What are the behaviors of the Tofu? 
+- **(Step 4) Object creation**: After the basic setup of the class structure, next is to create a Tofu object that can display on a screen. 
+- **(Step 5) Display**: How you want to display and present them over time?
+- **(Step 6) Trigger point**: Think with the holistic logic
 
 ## Exercise in class
 
