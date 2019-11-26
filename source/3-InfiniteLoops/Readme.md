@@ -472,7 +472,7 @@ Check out other works regarding a throbber and how other people contextualize th
 - [LOADING (THE BEAST 6:66/20:09)](https://www.yugo.at/processing/archive/index.php?what=loading) by Gordan Savičić
 - [Fedora’s artwork team](https://fedoraproject.org/wiki/Artwork/ArtTeamProjects/Fedora7Remix/Rhgb/Throbber) produces a series of throbber images that put emphasis on the design of spinning.
 - [DVD guy by Constant Dullaart](https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB), with the contextualization by Panke Gallery in Berlin http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin 
-- [Throb by Winnie Soon](http://siusoon.net/throb/)
+- [Throb 2018. 2019 by Winnie Soon](http://siusoon.net/throb/)
 
 **Task (RUNME):**
 - Redesign and program an *animated/moving* throbber.
