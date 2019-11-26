@@ -24,10 +24,9 @@ We usually encounter the ubiquitous spinning icon during the loading and streami
 
 ### 3.2 Decode 
 Here we move from programming static objects such as shapes to a mixture of both static and moving objects. If we assume the shape to be a circle we join it up here, and spin it, as if eating its own tail. 
-[I have edited up to here /g]
 
-<iframe src="sketch.html"></iframe>
-*Figure 3.2: The runme of sample code - sketch 3_1* [need to change the path /w]
+<iframe src="https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch3_InfiniteLoops/sketch3_1/index.html"></iframe>
+*Figure 3.2: The runme of sample code - sketch 3_1* 
 
 By examining the RUNME (ref) of a simple throbber, can you describe the different elements of the work and imagine how they operate computationally in human language.
 
@@ -42,13 +41,19 @@ By examining the RUNME (ref) of a simple throbber, can you describe the differen
         - how does an ellipse rotate? 
         - how to make a ellipse fades out and rotates to the next position?
         - how to position the static yellow lines, as well as the moving ellipses?
-- **Experimentation** - Change some of the code parameters
+- **Experimentation** 
+    - Change some of the code parameters
     - Try to change some of the parameters e.g. `background()`, `framerate()`, `drawElements()`
     - There are some new functions are used, can you check that out in the `p5.js` reference? (e.g. `push()`, `pop()`, `translate()`, `rotate()`)
-- **Mapping** - Map some of the elements from #1 to the source code level 
+- **Mapping** 
+    - Map some of the elements from #1 at the source code level 
     - Can you identify the part/block of the code responds to the elements that you have speculated before?
 - **Technical question/issues**
     - `let cir = 360/num*(frameCount%num);` <br> What does this line means? (can check with [Golan Levin's tutorial](https://www.youtube.com/watch?v=r5Iy3v1co0A) on the modulo operator <span class="ref">(ref. https://www.youtube.com/watch?v=r5Iy3v1co0A)</span>. 
+- **Other conceptul questions** 
+    - Where do you often see this icon? 
+    - What do you know about this icon? 
+    - What you can't see in this icon? 
     
 #### 3.2.1 Source Code
 
@@ -264,7 +269,7 @@ function draw(){
 
 ### 3.8 Exercise in class 
 
-- Try to run the *Asterisk Painting* [here](xxx)
+- Try to run the *Asterisk Painting* [here](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch3_InfiniteLoops/index.html)
 - Try reading the source code above 
 - Using the decoding method that we have introduced earlier in this chapter, try to speculate, experiment and map your thoughts with the source code.  
     - *Speculation:* Describe what see/experience on the screen? 
@@ -418,7 +423,7 @@ See below example taken from the source code of Asterisk Painting (line 37-42):
 See the structure of a for-loop:<br>
 <!-- <img src="ch3_4.png" width="400"> -->
 ![](ch3_4.png) <br>
-*Figure 3.4 A for-loop* 
+*Figure 3.4 A for-loop*  (will redraw it with graghviz - /w)
 
 From the Figure 3.4, you can see a for-loop contains:
 
@@ -490,6 +495,7 @@ Check out other works regarding a throbber and how other people contextualize th
 - Wilfried Hou Je Bek, "Loop", *Software Studies* (Fuller, Matthew, ed.), MIT Press, 2008.
 - Robinson, Derek. "Function", *Software Studies* (Fuller, Matthew, ed.), MIT Press, 2008.
 - Farman, Jason. "Fidget Spinners", *Real Life*, 2017.
+- Wolfgang Ernst, “‘... Else Loop Forever’. The Untimeliness of Media” (2009). Available at [https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf](https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf).
 
 ## Notes:
 [^Hofstadter]: Further examples of paradox, recursion and strange loops can be found in Douglas R. Hofstadter's' *Gödel, Escher, Bach: An Eternal Golden Braid* (New York: Basic Books, 1999).
