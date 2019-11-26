@@ -11,30 +11,8 @@ Abstraction in computing is about representation. There are too much details and
 Abstraction is one of the key concepts of object-oriented programming (OOP) languages. Its main goal is to handle object's complexity by presenting and abstracting certain details to the users by representing a concrete model. Fazi and Fuller discuss such concreteness of abstracted computation [^Fazi], they said "Computation not only abstracts from the world in order to model and represet it; through such abstractions, it also partakes in it." If we think of previous capture of data capture, it becomes clear that computation, in a wider cultural context, facilitates urban life into capitalistic metrification and datafication.  
 Abstraction is all over in computing from using high level programing langauge to the representation in a graphical user interface. Such abstraction hides details of how a computer work physically with logic gates in a binary system as well as reducing the complexity of computer operation (such as copying and deleting files) to users. This chapter is more to examplify the concept of abstraction through object oriented programming with objects creation. 
 
-Historically speaking, the formal programming concept of objects was introduced in the mid-1960s with Simula 67, a major revision of Simula I, a programming language designed for discrete event simulation, created by Ole-Johan Dahl and Kristen Nygaard of the Norwegian Computing Center in Oslo. (Wikipedia)
-
-
-A programming paradigm
-https://user-content.gitlab-static.net/38287337cdf9f32ae05de5b3d9d7037868960496/687474703a2f2f6a6f667261706573652e626c6f6769612e636f6d2f75706c6f61642f32303038303632373232313730302d6461686c2d6e7967616172642e6a7067
-
-Background: 
-
-"bring technical process closer to non-specialist understanding" (Fuller and Goffey 2017) => link to participatory design's utopia project that works with workers' union.
-re-use of code and operation: "it saves time and effort to be able to write the code once and re-use it in different programs" (Fuller and Goffey 2017)
-
-food , steps 
-
-input/output -> potential to interact the environment; specialization and generalization (Cecile)
-politics -> representation
-
-Epistemologies
-
-example application: games 
-
-- The concept of object
-what it means by objects as model 
-
 ## 5.1.1 Start()
+![tofu go](ch5_1.png)
 ToFu Go by Francis Lam (HK/CN)
 
 ## Abstraction and OOP 
@@ -63,6 +41,11 @@ ToFu Go by Francis Lam (HK/CN)
 - What does it mean by object orientation as a sociotechnical practice? (Fuller and Goffery 2017)
 
 ## While()
+
+> history of the concept of objects in the mid-1960s with Simula 67 created by Ole-Johan Dahl and Kristen Nygaard of the Norwegian Computing Center in Oslo. > A programming paradigm
+https://user-content.gitlab-static.net/38287337cdf9f32ae05de5b3d9d7037868960496/687474703a2f2f6a6f667261706573652e626c6f6769612e636f6d2f75706c6f61642f32303038303632373232313730302d6461686c2d6e7967616172642e6a7067
+> but it is more than just create for efficiency. It is created with the perspective of participatory design in the context of utopia project that works iwth workers' union to "bring technical process closer to non-specialist understanding" (Fuller and Goffey 2017) > re-use of code and operation: "it saves time and effort to be able to write the code once and re-use it in different programs" (Fuller and Goffey 2017)
+> Epistemologies
 
 ## Mini_Exercise[5]: Games with objects
 
