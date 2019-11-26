@@ -13,16 +13,27 @@ Abstraction is one of the key concepts of object-oriented programming (OOP) lang
 Abstraction is all over in computing from using high level programing langauge to the representation in a graphical user interface. Such abstraction hides details of how a computer work physically with logic gates in a binary system as well as reducing the complexity of computer operation (such as copying and deleting files) to users. This chapter is more to examplify the concept of abstraction through object oriented programming with objects creation. 
 
 ## 5.1.1 Start()
+
+Before we go on to use ToFu Go! as the continuous example. Let's get back to a step in which we try to think about a person as an object and to consider what might be the properties of that person. 
+
+For example, a person with the **name** called Yondi, in which they have brown **hair color**, **wears** glasses with **height** as 165 cm. Their **favorite color** is blue and they to **eat** Tofu.   
+
+For the above, we can construct like a Pseudo
+
+
+
 ![tofu go](ch5_1.png)
 
 [embeded video](https://www.youtube.com/watch?v=V9NirY55HfU])
 
 To kick start with this chapter, we will use the game *ToFu Go!* (which is freely available on App Store [^App]) as the main flow of discussion and then a simplified version will be used for the sample code. As discussed before, *ToFu Go!* is a mobile game references to the context of Chinese food culture i.e HotPot. 
 
+## Source Code 
+
+
 ## Abstraction and OOP 
 
 
-## Source Code 
 
 ## class
 
