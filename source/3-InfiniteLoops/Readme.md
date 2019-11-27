@@ -501,7 +501,7 @@ Check out other works that refer to the throbber and how other people contextual
 [^throbber]: It is also interesting to note that the term 'throbber' is a derogatory term, meaning a stupid person, not unlike 'git' as described in the opening chapter. 
 [^Robinson]: Derek Robinson, "Function", in Matthew Fuller, ed. *Software Studies* (London: MIT Press, 2008), 101.
 [^ref]: https://p5js.org/reference/#/p5/frameCount. 
-[^ref2]: ?? ADD FROM EARLIER VERSION OF TEXT /g
+[^ref2]: https://p5js.org/reference/#group-Transform.
 [^ref3]: https://p5js.org/reference/#/p5/push.
 [^Bell]: http://www.johnpbell.com/asterisk-painting/.
 [^millis]: https://p5js.org/reference/#/p5/millis. This is a p5.js syntax, returning the number of milliseconds since starting the program, similar to frameCount but counted in miniseconds. 
