@@ -75,7 +75,7 @@ function drawElements() {
   let num =9;
   push();
   translate(width/2, height/2); //move things to the center
-  // 360/num >> degree of each ellipse' move; frameCount%num >> get the remainder that indicates the movement of the ellipse
+  // 360/num >> degree of each ellipse's movement; frameCount%num >> get the remainder that indicates the movement of the ellipse
   let cir = 360/num*(frameCount%num);  //to know which one among 8 possible positions.
   rotate(radians(cir));
   noStroke();
@@ -98,13 +98,13 @@ function windowResized() {
 
 ### 3.3 Function
 
-A function of code in p5.js starts with the syntax `function() {}`, containing "a self-contained section of code"[^Robinson] to peform a certain task. For the most basic built-in functions in p5.js, `setup()` and `draw()`, specifying the contained code in relation to a particular purpose as setting up the environment for running the program, as well as doing things over time. Other built-in function `windowResized()` in the provided sample code, which serves the purpose of re-adjusting the canvas size if there is any event of window resizing. The canvas size is not a fixed dimension but it is subjected to the window that you have adjusted as illustrate in the code: `createCanvas(windowWidth, windowHeight);`. These lines suggest that an event listener implements at the code level to not only run once, but *constantly* listening to events of window resizing specifically and it is similar to other listening events such as `mouseIsPressed()`. This is considered as asynchronicity, which means some other events occur concurrently with the main program flow like drawing shapes for this case. 
+A function of code in p5.js starts with the syntax `function() {}`, containing "a self-contained section of code"[^Robinson] to peform a certain task. For the most basic built-in functions in p5.js are `setup()` and `draw()`, specifying the contained code in relation to a particular purpose as setting up the environment for running the program, as well as doing things over time. Other built-in functions such as `windowResized()` in the provided sample code serves the purpose of re-adjusting the canvas size if there is any event of window resizing. The canvas size is not a fixed dimension but is subject to the window that you have adjusted as illustrated in the code: `createCanvas(windowWidth, windowHeight);`. These lines suggest that an event listener implements at the code level to not only run once, but *constantly*, listening to events of window resizing specifically and similar to other listening events such as `mouseIsPressed()`. This is considered as asynchronous, which means some other events occur concurrently with the main program flow such as drawing shapes in this case. 
 
-Apart from built-in functions, the sample code contains the custom-one called `function drawElements();` which is invoked by line 21: `drawElements();` within the `draw()` function. Defining a function is relatively simple in JavaScript with the keyword "function". From the function name "drawElements", one may get a sense of what this function does, which is mainly to draw ellipses and the two lines in a particular size, position and color, as well as making ellipses and lines to rotate in a clock-wise direction and statically stay at a position respectively. There are many ways to achieve drawing the same result especially with object-oriented approach but we are still in the early stage of learning to program, therefore we work on example that can do similar tasks that can be more aligned with our learning progress. Some of the code are intentionally written in a way that is less efficient but can serve the purpose of unfolding some of the key elements. 
+Apart from built-in functions, the sample code contains the custom-one `function drawElements();` which is invoked by line 21: `drawElements();` within the `draw()` function. Defining a function is relatively simple in JavaScript with the keyword "function". From the function name "drawElements", you can get a sense of what this function does, which is mainly to draw ellipses and draw the two lines in a particular size, position and color, as well as making ellipses and lines to rotate in a clock-wise direction and statically remain at a position respectively. There are many ways to achieve drawing the same result especially with an object-oriented approach but we are still in the early stage of learning to program, and therefore we work on an example that can do similar tasks but that can align with our learning progress. With this in mind, some of the code is intentionally written in a way that is less efficient but serves the purpose of unfolding key concepts. 
 
-Programmers like to split a big task into smaller operations and procedures, which is easier to structure, manage, debug, read and potentially collaborate with other programmers. In `function drawElements();`, the sample code is just simply seperate out from the function `draw()`, and clearly indicate this particular part of code relates to drawing the different elements on a screen. Of course one can also seperate out the drawing of ellipses and lines, and it is a subjective decision to decide how details you need to seperate the tasks.  
+Programmers like to split a big tasks into smaller operations and procedures, so they are easier to structure, manage, debug, read and more open to collaboration with other programmers. In `function drawElements();`, the sample code is simply separated out from the function `draw()`, and in this way clearly indicates that this particular part of the code relates to drawing the different elements on a screen. Of course you can also separate out the drawing of ellipses and lines, and it is a subjective decision to decide how best to separate out the different tasks.  
 
-There is another type of function where you can specify with arguments passing to the function and receive a return value. See the example below:
+There is another type of function where you can specify tasks with arguments that are passed to the function and receive a return value. See the example below:
 
 ```javascript
 let x = sum(4, 3, 2);   
@@ -118,18 +118,18 @@ function sum(a, b, c) { //passing values 4 as a, 3 as b, 2 as c to the function 
     "9"
 
 #### 3.3.1 Exercise in class
-You can also try to type this in the console area `let x = sum(4, 3, 2); print(x); function sum(a, b, c) {return a + b + c;}` and it returns the number 9 as the output which has summed the values 4, 3 and 2. The arguments a, b and c are parameter variables. The function "sum" can be reused if you pass other values say another line of code `let y = sum(5,6,7);` and the return value of y would be 18. You may try to come up with your new functions and arguments to familiar with writing function. 
+You can also try to type this in the console area `let x = sum(4, 3, 2); print(x); function sum(a, b, c) {return a + b + c;}` and it will return the number 9 as the output as the sum of the values 4, 3 and 2. The arguments a, b and c are parameter variables. The function "sum" can be reused if you pass other values as for instance another line of code `let y = sum(5,6,7);` and the return value of y would be 18. You can try to come up with your new functions and arguments to familiarise yourself with writing this function. 
 
 ### 3.4 Transform
 In general, the transform-related functions apply a 2D or 3D transformation to an element or object. For the provided sample code, there are two specific transformational functions have been used. 
 
-1. `translate()`: This function allows you to move or displace objects within the display window. For example, moving the ellipses to center (`translate(width/2, height/2);`). The ellipse is drawn as `ellipse(35,0,22,22)` which takes in (35,0) as the x and y coordinates, where 22 is the size of it. If we don't have the upfront `translate()` function, the ellipse will be placed at the top left corner instead while the x coordinate value "35" is the distance of the circulating ellipses from the center position.
-2. `rotate()`: By using the function `rotate()`, the object ellipse, in this sample code, will rotate at a certain angle. The default unit for rotation is radians. As such, the code is written as `rotate(radians(cir));`. `rotate()` takes in radians as the default mode and if you want to change to the degree mode, you can add the code `angleMode(DEGREES)`. 
-In the most simple way, there are in total 9 ellipses (which is indicated as `let num=9;`), and each with a separation of 40 degrees each (i.e 0.968 rad) which is derived from 360/9. A circle has 360 degrees and to rotate the ellipse over time, it requires the time element to calculate when to move and how to move. This is how the function `frameCount` comes in, which counts the number of frames that have been displayed since the program started <span class="ref">(ref: https://p5js.org/reference/#/p5/frameCount)</span>. The line `let cir = 360/num*(frameCount%num);` illustrates the use of a modulo operation to find the remainder after division of one number by another. As such the value of the variable `cir` is only limited to the multiples of 40: 0, 40, 80, 120, 160, 240, 280 and 320. 
+1. `translate()`: This function allows you to move or displace objects within the display window. For example, moving the ellipses to the center (`translate(width/2, height/2);`). The ellipse is drawn as `ellipse(35,0,22,22)` which takes in (35,0) as the x and y coordinates, where 22 is the size. If we don't have the upfront `translate()` function, the ellipse will be placed at the top left corner instead while the x coordinate value "35" is the distance of the circulating ellipses from the center position.
+2. `rotate()`: By using the function `rotate()`, in this sample code, the object ellipse will rotate at a certain angle. The default unit for rotation is radians. As such, the code is written as `rotate(radians(cir));`. The function `rotate()` takes in radians as the default mode, and if you want to change to the degree mode, you add the code `angleMode(DEGREES)`. 
+In simple explanation, there are in total 9 ellipses (which is indicated as `let num=9;`), and each comes with a separation of 40 degrees (i.e 0.968 rad) which is derived from 360/9. A circle has 360 degrees and to rotate the ellipse over time, it requires the time element to calculate when and how to move. This is how the function `frameCount` comes in, which counts the number of frames that have been displayed since the program started.[^ref] The line `let cir = 360/num*(frameCount%num);` illustrates the use of a modulo operation to find the remainder after the division of one number by another. As such the value of the variable `cir` is only limited to the multiples of 40: 0, 40, 80, 120, 160, 240, 280 and 320. 
 
-There are also other transform-related functions such as `scale()`, `shearX()`, `shearY()`. <span class="ref">(ref: https://p5js.org/reference/#group-Transform)</span> 
+There are also other transform-related functions such as `scale()`, `shearX()`, `shearY()`.[^ref2] 
 
-Further to the control of transformation, `push()` and `pop()` functions are commonly used to saves the current style and retores such setting respectively. Style such as color and setting such as rotate and translate. Let's explain with the except of code: 
+In addition `push()` and `pop()` functions are commonly used to save the current style and restore settings respectively. Style such as color and a setting such as rotate and translate. The foloowing except of code will help to explain: 
 
 ```javascript
 function drawElements() {
@@ -153,53 +153,53 @@ function drawElements() {
 }
 ```
 
-The last three lines are about the drawing of two static yellow lines on the left and right side of the canvas. Logically speaking, the translate and rotate functions should also apply to these two lines but because the `pop()` function is in placed right after all the drawing of ellipses and such transform features, therefore, would not impact the lines. But if you move the line `pop()` till the end, then the two lines will also rotate and translate. This is to illustrate the idea of how `push()` and `pop()` could be used and where to place them does matter <span class="ref">(ref: https://p5js.org/reference/#/p5/push)</span>.
+The last three lines describe the drawing of two static yellow lines on the left and right side of the canvas. Logically speaking, the translate and rotate functions should also apply to these two lines but because the `pop()` function is placed right after all the drawing of ellipses and such transform features, it does not impact the lines. But if you move the line `pop()` to the end, then the two lines will also rotate and translate. This illustrates how `push()` and `pop()` might be used and how their placement matters.[^ref3]
 
 <div class="exercise" markdown="true">
 
 ### 3.5 Exercise in class
 
-- This exercise is about structuring code. How would you restructure the sample code again so that it is easier for others to understand but maintaining the same visual outcome? There is no right or wrong answers but some pointers below might facilitate discussion: 
-    - you may think of rename the function and add new functions
-    - Instead of having `drawElements()`, may be we can have something like `drawThrobber()` and `drawLines()`?
+- This exercise is about structuring code. How would you restructure the sample code so that it is easier for others to understand but still maintain the same visual outcome? There are no right or wrong answers but some pointers below might facilitate discussion: 
+    - You may rename the function and add new functions
+    - Instead of having `drawElements()`, you might have something like `drawThrobber()` and `drawLines()`?
 </div>
 
 ### 3.6 Asterisk Painting 
-So far we have discussed the transformation of objects with the sample code, but the throbber is moving repetitively and regularly through using syntaxes like `frameRate()` to slow down the number of frames that run per second, and `rotate()` to control the angle for each rotation. But more importantly with the `draw()` and `rect()` functions, it gives the illusion that the newly drawn ellipse fades over time and one after the after following the drawing of a semi-transparent rectangle background per frame.   
+So far we have discussed the transformation of objects with the sample code, but the throbber is moving repetitively and regularly through the use of syntaxes like `frameRate()` (to slow down the number of frames that run per second) and `rotate()` (to control the angle for each rotation). But more importantly with the `draw()` and `rect()` functions, it gives the illusion that the newly drawn ellipse fades over time and one appears after the other following the drawing of a semi-transparent rectangle background each frame.   
 
-This section will move from repetition and regularity to repetition and difference. Artist and software developer John P. Bell has made an artwork called *Asterisk Painting* <span class="ref">(ref: http://www.johnpbell.com/asterisk-painting/)</span>, containing a lot of throbber-like spinning patterns, but each throbber (what he called asterisk) is spinning differently, in terms of how it spins, the variation of color and texture. Many syntaxes that Bell have used are related to time and temporality, for example the setting up of a timer, the calculation of current millis, the speed of rotation, the waiting time for starting the new cycle, etc. Even for the visual outcome, what constitute an asterisk is not a shape, but a series of number which refers to the milliseconds counter that will line up as a straight line. (See Figure 3.3 for the visual outcome)
+The following section will move from repetition and regularity to repetition and difference. Artist and software developer John P. Bell has made an artwork called *Asterisk Painting*,[^Bell] containing a number of throbber-like spinning patterns, but each throbber (or what he calls asterisk) is spinning differently, with variations of color and texture. Many syntaxes that Bell has used are related to time and temporality, for example the setting up of a timer, the calculation of current milliseconds, the speed of rotation, the waiting time for starting a new cycle, and so on. Even for the visual outcome, what constitutes an asterisk is not a shape, but a series of numbers which refer to the milliseconds counter that lines up as a straight line. (See Figure 3.3 for the visual outcome)
 
 <img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class03/Asterisk_Painting.gif"><br>
-*Figure 3.3 : Aesterisk Painting (2014) by John P. Bell*
+*Figure 3.3 : Asterisk Painting (2014) by John P. Bell*
 
 According to Bell, 
 >  “Asterisk Painting is programmed to create a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started. If left to run by itself it will do so; however, when started on a system with other threads running in the background delays external to my artwork may make the asterisks look more like spots and the painting may resemble the work of certain other overly-litigious artists.”
 
 ### 3.7 Source code 
-The original piece was written in Processing by John P.Bell and it has been modified and ported to p5.js by Winnie Soon
+The original piece was written in Processing and has been modified and ported to p5.js.
 
 ```javascript
 /*
-Asterisk Painting by John P.Bell (http://www.johnpbell.com/asterisk-painting/)
+Asterisk Painting by John P. Bell (http://www.johnpbell.com/asterisk-painting/)
 Original code in Processing: http://wg18.criticalcodestudies.com/index.php?p=/discussion/31/week-2-critical-and-creative-coding-calvinball-and-coders#latest
-Port to p5js and modified by Winnie Soon with comment notes. Last update: 12 Oct 2019
+Ported to p5js and modified by Winnie Soon with comment notes. Last updated 12 October 2019.
 
-notes:
+Notes:
 1. The color mode has been changed to a variable as the push/pop function will restore the previous fill color state.
 2. Remove font
-3. change the bg color
-4. add text size
-5. remove load signature image
-6. change the canvas size and corresponding no. of asterisk
-7. display a counter on the bottom left corner and in black color
+3. Change the bg color
+4. Add text size
+5. Remove load signature image
+6. Change the canvas size and corresponding noumber of asterisks
+7. Display a counter on the bottom left corner in black color
 8. Add extensive comments
-9. return a random no in integer
+9. Return a random nunber in integer
 */
 
 let xDim = 1000;  //canvas size-width
 let yDim = 600;   //canvas size-height
 let timer=0;
-let speed=100;  //the speed of rotating , default 100
+let speed=100;  //the speed of rotation, default 100
 let maxSentences = 77;  //original: 77
 let sentences = 0;
 let xPos = [1,2,3,4,5]; //original: 8 columns
@@ -207,7 +207,7 @@ let yPos = [1,2,3,4]; //original: 5 rows
 let xCtr = 0;
 let yCtr = 0;
 let waitTime = 10000;
-let itr = 0; // no. of iteration
+let itr = 0; // number of iterations
 let milliStart = 0;
 let currentMillis;
 let fillColor;
@@ -228,24 +228,24 @@ function setup(){
 }
 
 function draw(){
-     currentMillis = floor(millis() - milliStart);  //millis means millsecond since starting the program, like frameCount
+     currentMillis = floor(millis() - milliStart);  //millis means millseconds since starting the program, like frameCount
      if(currentMillis > timer){
        translate(xPos[xCtr], yPos[yCtr]);  //rows and cols
        rotate(radians((360/8)* (millis()/speed)));  //rotate in itself
        timer = currentMillis + speed; //the time for the next loop
        textSize(12);
-       //nf:format numbers into strings and adds zeros in front [https://p5js.org/reference/#/p5/nf]  3 digits in front and 0 digit after the decimal
+       //nf:format numbers into strings and adds zeros in front [https://p5js.org/reference/#/p5/nf]. 3 digits in front and 0 digit after the decimal
        fill(fillColor);
-       text(nf(currentMillis, 6), 3, 0);  //which is about the time string written as the asterisk, and it starts with 0 always.
+       text(nf(currentMillis, 6), 3, 0);  //which is about the time string written as the asterisk, and it starts with 0 always
        sentences++;
-       if(sentences >= maxSentences){  //reach the max for each asterisk
+       if(sentences >= maxSentences){  //reach the maximum for each asterisk
          xCtr++;  //move to next array
 
          if(xCtr >= xPos.length) {  //meet max cols, and need to go to next row
            xCtr = 0;
            yCtr++;  //next row
            //the screen is filled > reset everything and update the counter
-           if(yCtr >= yPos.length){  //reach the max no of rows on a screen (after reach the no. of max cols)
+           if(yCtr >= yPos.length){  //reach the max number of rows on a screen (after reach the max number of cols)
              yCtr = 0;
              background(240);
              itr++;  //add counter (iteration)
@@ -253,7 +253,7 @@ function draw(){
              fill(0);   //counter's display color
              text(itr, 10, yDim-30);  //change counter display again
              let wait = floor(millis() + waitTime);  //wait for next round
-             while(millis() < wait){}  // Just wait for resetting
+             while(millis() < wait){}  //just wait for resetting
              milliStart = millis(); //reset the starting time
              timer = 0; //reset the timer
              push();
@@ -270,17 +270,17 @@ function draw(){
 ### 3.8 Exercise in class 
 
 - Try to run the *Asterisk Painting* [here](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch3_InfiniteLoops/index.html)
-- Try reading the source code above 
+- Try reading the source code above. 
 - Using the decoding method that we have introduced earlier in this chapter, try to speculate, experiment and map your thoughts with the source code.  
     - *Speculation:* Describe what see/experience on the screen? 
         - What are the elements on the screen?
-        - How many asterisks on the screen and how are they arranged?
-        - What are moving and how they move? 
-        - What each asterisk spins/rotates and when it stops to create a new one? 
+        - How many asterisks are there on the screen and how are they arranged?
+        - What is moving and how do they move? 
+        - What makes each asterisk spin/rotate and when does it stops to create a new one? 
     - *Experimentation:* Change some of the code parameters
-        - Try to change some of the parameters e.g the values of the written global variables
-        - What are the new syntax and functions that you do not know? (Can you check it out in the p5.js reference?)
-    - *Mapping:* Map of of the elements from speculation to the source code level 
+        - Try to change some of the parameters, e.g. the values of the written global variables
+        - What are the new syntax and functions that you did not know? (check them out in the p5.js reference?)
+    - *Mapping:* Map the elements from speculation to the source code level 
 
 ### 3.9 Arrays 
 
@@ -397,13 +397,13 @@ if () {
 ```
 
 ### 3.11 Loops 
-The core concept of a loop is that you can execute a block of code many times. For example if you have to draw 100 lines that are placed vertically one after the other, you can of course write 100 lines of code using the syntax: `line()`. A *for-loop* provides an efficient way to draw the line 100 times by setting a conditional structure, counting the number of lines that have been drawn and counting the maximum lines.
+The core concept of a loop is that you can execute a block of code many times. For example, if you have to draw 100 lines that are placed vertically one after the other, you can of course write 100 lines of code using the syntax: `line()`. A *for-loop* provides an efficient way to draw the line 100 times by setting a conditional structure, counting the number of lines that have been drawn and counting the maximum lines.
 
 To structure a for-loop, you need to ask yourself:
 
 - What are the things/actions that you want to loop, to repeat in a sequence or pattern?
 - More specifically, what is the conditional logic, and when do you want to exit the loop?
-- What do you want to do when this condition is/is not met?
+- What do you want to do when this condition is or is not met?
 
 See below example taken from the source code of *Asterisk Painting* (lines 37-42):
 
@@ -439,7 +439,7 @@ For this specific case, this block of code from the above example describes the 
 #### 3.11.1 While Loop
 While loop is another type of loop for executing iterations. The statement is executed until the condition is true, it will stop as soon as it is false. 
 
-For example, `while(millis() < wait){}` in line 77 tells the computer to do nothing if the value of `millis()` <span class="ref">(ref: https://p5js.org/reference/#/p5/millis, this is a p5.js syntax, returning the number of milliseconds since the staring the program. It is similar to frameCount but it is count by miniseconds)</span> is smaller than the value of the `wait` variable. Once the condition is false (i.e `millis()` is not longer small than `wait`), the loop will be ended and the program can proceed to the next line. This example is located towards the end of the program when all the asterisks are drawn but need to wait for a certain time to reset the canvas and restart drawing again. Therefore, this while-loop serves the purpose of a pause sign, freezing the program from running because there is literaly nothing between the opening and closing brackets.  
+For example, `while(millis() < wait){}` in line 77 tells the computer to do nothing if the value of `millis()`[^milis] is less than the value of the `wait` variable. Once the condition is false (i.e `millis()` is no longer less than `wait`), the loop will be ended and the program can proceed to the next line. This example is located towards the end of the program when all the asterisks are drawn but need to wait for a certain time to reset the canvas and restart drawing again. Therefore, this while-loop serves the purpose of a pause sign, freezing the program from running because there is literally nothing between the opening and closing brackets.  
 
 ## While()
 
@@ -458,12 +458,12 @@ Making reference to Martin Heidegger’s ‘being-in-time’,[^Heidegger] and th
 ## Mini_Exercise[3]: Designing a throbber 
 **Objective:**
 
-- To reflect upon time and temporality in digital culture via the throbber icon.
-- To experiment various computational syntax and effects of animation and transformation.
+- To reflect upon temporality in digital culture with the throbber icon.
+- To experiment with various computational syntax and effects of animation and transformation.
 
 **Get some additional inspiraton here:**
 
-Check out other works regarding a throbber and how other people contextualize the thinking:  
+Check out other works that refer to the throbber and how other people contextualize their thinking:  
 
 - [Loading](https://festivalenter.wordpress.com/2009/04/09/electroboutique-by-alexei-shulgin-roman-minaev-aristarkh-chernyshev/) by Electroboutique:
 - [LOADING (THE BEAST 6:66/20:09)](https://www.yugo.at/processing/archive/index.php?what=loading) by Gordan Savičić
@@ -472,13 +472,12 @@ Check out other works regarding a throbber and how other people contextualize th
 - [Throb 2018. 2019 by Winnie Soon](http://siusoon.net/throb/)
 
 **Task (RUNME):**
-- Redesign and program an *animated/moving* throbber.
+- Redesign and program an *animated* throbber.
 
-**Questions to think about as README:**
-
-- **Describe** about your throbber design, both conceptually and technically.
-    -  What are the time-related syntaxes/functions that you have used in your program? and why you use in this way? How is time being constructed in computation (can refer to both reading and your process of coding)?
-    - Think about a throbber that you have encounted in digital culture e.g streaming video on YouTube or loading latest feeds on Facebook or waiting a ticket transaction, what do you think a throbber tells us, and/or hides, about? How might we think about this remarkable throbber icon differently?
+**Questions to think about (README):**
+- **Describe** your throbber design, both conceptually and technically.
+    - What are the time-related syntaxes/functions that you have used in your program, and why have you used them in this way? How is time being constructed in computation (refer to both the reading materials and your process of coding)?
+    - Think about a throbber that you have encounted in digital culture, e.g. for streaming video on YouTube or loading the latest feeds on Facebook, or waiting for a ticket transaction, and consider what a throbber communicates, and/or hides? How might we characterise this icon differently?
 </div>
 
 
@@ -486,7 +485,7 @@ Check out other works regarding a throbber and how other people contextualize th
 
 - Shiffman, Daniel. Courses 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2, *Code! Programming with p5.js* on [YouTube](https://www.youtube.com/watch?v=1Osb_iGDdjk), 2018 [Accessed 9 Sep. 2019]. (practical usage on conditional statements, loops, functions and arrays)
 - Winnie Soon, "Throbber: Executing Micro-temporal Streams", *Computational Culture*, 2019.
-- Close reading on the work *Asterisk Painting* by John P. Bell, ported to p5.js, and modified, by Winnie Soon 
+- Close reading on the work *Asterisk Painting* by John P. Bell, ported to p5.js, and modified, by Winnie Soon. 
 
 ## 3.13 Further reading
 
@@ -501,6 +500,11 @@ Check out other works regarding a throbber and how other people contextualize th
 [^Kim]: Eugene Eric Kim and Betty Alexandra Toole, "Ada and the First Computer", *Scientific American* 280 (5) (1999), 78. 
 [^throbber]: It is also interesting to note that the term 'throbber' is a derogatory term, meaning a stupid person, not unlike 'git' as described in the opening chapter. 
 [^Robinson]: Derek Robinson, "Function", in Matthew Fuller, ed. *Software Studies* (London: MIT Press, 2008), 101.
+[^ref]: https://p5js.org/reference/#/p5/frameCount. 
+[^ref2]: ?? ADD FROM EARLIER VERSION OF TEXT /g
+[^ref3]: https://p5js.org/reference/#/p5/push.
+[^Bell]: http://www.johnpbell.com/asterisk-painting/.
+[^millis]: https://p5js.org/reference/#/p5/millis. This is a p5.js syntax, returning the number of milliseconds since starting the program, similar to frameCount but counted in miniseconds. 
 [^Chrono]: Wolfgang Ernst, *Chronopoetics: The Temporal Being and Operativity of Technological Media* (London: Rowman & Littlefield International, 2016), 63-95.
 [^Chrono2]: Ernst, *Chronopoetics*, 63.
 [^Bergson]: ADD EXAMPLE.
