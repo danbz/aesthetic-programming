@@ -6,14 +6,14 @@ page_order: 3
 ### 3.1 Setup()
 
 ![Ouroboros](https://en.wikipedia.org/wiki/Ouroboros#/media/File:Chrysopoea_of_Cleopatra_1.png)
-:    *Figure 3.0: Early alchemical ouroboros illustration with the words ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist (10th Century)*
+*Figure 3.0: Early alchemical ouroboros illustration with the words ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist (10th Century)*
 
 Loops offer alternative imaginaries, as for instance in the case of the ancient image of a snake or serpent eating its own tail. The *Ouroboros*, from the Greek, expresses the endless cycle of birth and death, and thus stands for the ability of processes to renew themselves infinitely. Aside from autocannibalism and alchemy, loops are related to procedures of control and automation, and are mirrored in repetitive procedures in everyday situations. The logic can be demonstrated in the following paradoxical word-play: "The next sentence is true. The previous is false".[^Hofstadter] In computer programming, a loop allows repeated execution of a fragment of source code that continues until a given condition is met, such as true or false. Indeed a loop becomes an infinite (or endless) loop if a condition never becomes false. 
 
 It was mathematician and writer Augusta Ada Byron Lovelace who first introduced the concept of a programmatic loop in the early nineteenth century. She recognised that there were repeatable operations in the conceptual design of the first automatic, general-purpose computing machine ever designed, namely Charles Babbage's Analytical Engine. A loop which she called a 'cycle' appears in her "Note G" on the Analytical Engine,[^Ada] in which she describes the program procedures, also called the Bernoulli numbers program, as in the diagram below. It utilises two loops to indicate the repetition of a set of instructions with conditions,[^Kim] thereby minimizing efforts to write a repeatable operation in duplicate. 
 
 ![ada lovelace](http://media.factmyth.com/2015/10/ada-lovelace-bernoulli-note-g.jpg)
-:    *Figure 3.1: Diagram for the computation by the Engine of the Numbers of Bernoulli, from "Note G" by Ada Lovelace*
+*Figure 3.1: Diagram for the computation by the Engine of the Numbers of Bernoulli, from "Note G" by Ada Lovelace*
 
 The idea of a loop in contemporary programming is highly influenced by these early insights into the handling of repeated machine operations expressed in a diagramatic manner. High-level programming languages such as `p5.js` include a loop function, allowing a fragment of source code to be repeatedly executed, as in the example of the `draw()` function that will run continuously until the program is stopped. We will continue with further examples but suffice to say that loops are among the most basic and powerful of programming concepts.
 
@@ -46,7 +46,7 @@ By examining the RUNME (ref) of a simple throbber, can you describe the differen
     - Try to change some of the parameters e.g. `background()`, `framerate()`, `drawElements()`
     - There are some new functions used, can you check these out in the `p5.js` reference? (e.g. `push()`, `pop()`, `translate()`, `rotate()`)
 - **Mapping** 
-    - Map some of the elements from #1 at the source code level [don't get this? /g]
+    - Map some of the findings/features from the *Speculation* that you have done with the source code. Which block of code relates to your findings?  
     - Can you identify the part/block of code that responds to the elements that you have speculated on earlier?
 - **Technical questions/issues**
     - `let cir = 360/num*(frameCount%num);` <br> What does this line mean? (can check with [Golan Levin's tutorial](https://www.youtube.com/watch?v=r5Iy3v1co0A) on the modulo operator <span class="ref">(ref. https://www.youtube.com/watch?v=r5Iy3v1co0A)</span>. 
@@ -121,7 +121,7 @@ function sum(a, b, c) { //passing values 4 as a, 3 as b, 2 as c to the function 
 You can also try to type this in the console area `let x = sum(4, 3, 2); print(x); function sum(a, b, c) {return a + b + c;}` and it will return the number 9 as the output as the sum of the values 4, 3 and 2. The arguments a, b and c are parameter variables. The function "sum" can be reused if you pass other values as for instance another line of code `let y = sum(5,6,7);` and the return value of y would be 18. You can try to come up with your new functions and arguments to familiarise yourself with writing this function. 
 
 ### 3.4 Transform
-In general, the transform-related functions apply a 2D or 3D transformation to an element or object. For the provided sample code, there are two specific transformational functions have been used. 
+In general, the transform-related functions apply a 2D or 3D transformation to an element or object. For the provided sample code, there are two specific transformational functions have been used to move the canvas and created an illusion of objects transformation. 
 
 1. `translate()`: This function allows you to move or displace objects within the display window. For example, moving the ellipses to the center (`translate(width/2, height/2);`). The ellipse is drawn as `ellipse(35,0,22,22)` which takes in (35,0) as the x and y coordinates, where 22 is the size. If we don't have the upfront `translate()` function, the ellipse will be placed at the top left corner instead while the x coordinate value "35" is the distance of the circulating ellipses from the center position.
 2. `rotate()`: By using the function `rotate()`, in this sample code, the object ellipse will rotate at a certain angle. The default unit for rotation is radians. As such, the code is written as `rotate(radians(cir));`. The function `rotate()` takes in radians as the default mode, and if you want to change to the degree mode, you add the code `angleMode(DEGREES)`. 
@@ -167,7 +167,7 @@ The last three lines describe the drawing of two static yellow lines on the left
 ### 3.6 Asterisk Painting 
 So far we have discussed the transformation of objects with the sample code, but the throbber is moving repetitively and regularly through the use of syntaxes like `frameRate()` (to slow down the number of frames that run per second) and `rotate()` (to control the angle for each rotation). But more importantly with the `draw()` and `rect()` functions, it gives the illusion that the newly drawn ellipse fades over time and one appears after the other following the drawing of a semi-transparent rectangle background each frame.   
 
-The following section will move from repetition and regularity to repetition and difference. Artist and software developer John P. Bell has made an artwork called *Asterisk Painting*,[^Bell] containing a number of throbber-like spinning patterns, but each throbber (or what he calls asterisk) is spinning differently, with variations of color and texture. Many syntaxes that Bell has used are related to time and temporality, for example the setting up of a timer, the calculation of current milliseconds, the speed of rotation, the waiting time for starting a new cycle, and so on. Even for the visual outcome, what constitutes an asterisk is not a shape, but a series of numbers which refer to the milliseconds counter that lines up as a straight line. (See Figure 3.3 for the visual outcome)
+The following section will move from repetition and regularity to repetition and difference. Artist and software developer John P. Bell has made an artwork called *Asterisk Painting*,[^Bell] containing a number of throbber-like spinning patterns, but each throbber (or what he calls asterisk) is spinning differently, with variations of color and texture. Many syntaxes that Bell has used are related to time and temporality, for example the setting up of a timer, the calculation of current milliseconds, the speed of rotation, the waiting time for starting a new cycle, and so on. Even for the visual outcome, what constitutes an asterisk is not a geometric shape, but a series of numbers which refer to the milliseconds counter that lines up as a straight line. (See Figure 3.3 for the visual outcome)
 
 <img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class03/Asterisk_Painting.gif"><br>
 *Figure 3.3 : Asterisk Painting (2014) by John P. Bell*
@@ -302,7 +302,7 @@ Recalling our previous approach using variables, we can follow a similar structu
 2. *Assign:* Given the example above, there are three text values to store: "what", "is", and "array". Since array is a list of values and it is needed to be identified individually, an array index is used to represent the position of each piece of data in an array. It starts with [0] as the first item, then [1] as the second, and so forth. Therefore `words[0] ="what"` means that the first index item of the array words is a string and with the value "what".  
 3. *Re(use):* The `print()` function is just an example to indicate how you may retrieve and use the data, you can print it in the console area, or you can arrange to draw on a canvas. 
 
-Tho ask how many items in an array, the syntax `arrayname.length` is used. 
+To ask how many items in an array, the syntax `arrayname.length` is used. 
 
 Let's see the sample below from *Asterisk Painting*:
 
@@ -312,7 +312,7 @@ let xPos = [1,2,3,4,5];
 let yPos = [1,2,3,4];
 ```
 
-This is a slightly different way of declaring an array. It combines both declaration and assignment into one line to both declare the array names as xPos and yPos and then assigns the numberic values into the array index, which refers to the number of column and row respectively. Think about like this: the program needs to know how many asterisks should be drawn on the screen before going to the next row and when to restart everything again. 
+This is a slightly different way of declaring an array. It combines both declaration and assignment into one line to both declare the array names as xPos and yPos and then assigns the numeric values into the array index, which refers to the number of column and row respectively. Think about like this: the program needs to know how many asterisks should be drawn on the screen before going to the next row and when to restart everything again. 
 
 As the array index starts with [0], therefore each index has mapped the value in this way:  
 
@@ -322,7 +322,7 @@ As the array index starts with [0], therefore each index has mapped the value in
 `let yPos = [1,2,3,4];` -> 
 `yPos.length: ypos[0] = 1, yPos[1] = 2, yPos[2] = 3, yPos[3] = 4`
 
-Other methods for an array might be useful:
+Other methods for adding or removing an array index might be useful:
 - `array.push(value)` (ref:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) : To add a value to the end of the array. Example: `xPos.push(6)` - this will extend the index to xPos[5] = 6. 
 - `array.splice()` (ref: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice): This is to remove a range of an array index, or remove the existing index and replace with new indexes with other values. 
 
@@ -397,7 +397,7 @@ if () {
 ```
 
 ### 3.11 Loops 
-The core concept of a loop is that you can execute a block of code many times. For example, if you have to draw 100 lines that are placed vertically one after the other, you can of course write 100 lines of code using the syntax: `line()`. A *for-loop* provides an efficient way to draw the line 100 times by setting a conditional structure, counting the number of lines that have been drawn and counting the maximum lines.
+The core concept of a loop is that you can execute a block of code many times. For example, if you have to draw 100 lines that are placed vertically one after the other, you can of course write 100 lines of code using the syntax: `line()`. A *for-loop* provides an efficient way to draw the line 100 times by setting up a conditional structure, counting the number of lines that have been drawn and counting the maximum lines.
 
 To structure a for-loop, you need to ask yourself:
 
@@ -421,7 +421,7 @@ See below example taken from the source code of *Asterisk Painting* (lines 37-42
 See the structure of a for-loop:<br>
 <!-- <img src="ch3_4.png" width="400"> -->
 ![](ch3_4.png) <br>
-*Figure 3.4 A for-loop*  (will redraw it with graghviz - /w)
+*Figure 3.4 A for-loop*  (will redraw it with gragphviz - /w)
 
 From Figure 3.4, you can see what a for-loop contains:
 
