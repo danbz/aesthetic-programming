@@ -292,6 +292,8 @@ There are also many other kinds of data that can be captured, quantified and ana
 
 ## 4.10 While()
 
+there is a tendency of think of data as raw and unmediated; and that somehow data should simply be allowed to speak for itself rather than be lost in the ornamentation of visualisation. In saying this I make reference to Edward Tufte’s guidelines for information graphics, and the removal of unnecessary graphical information to “let the data speak for itself.” Of course in reality what happens is far from this, as unstructured data is selected, targeted, preprocessed and cleaned, mined, and so on, not least to make it human readable. Data begins relatively raw and uninterpreted, but in practice there is always some additional information about its composition, usually derived from the means by which it was gathered in the first place.  
+
 ## 4.11 Mini_Exercise[4]: Capture All
 
 **Objective:**
