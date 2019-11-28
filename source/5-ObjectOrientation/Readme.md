@@ -8,7 +8,7 @@ In the previous chapters, we have worked with different objects such as geometri
 
 Abstraction in computing is about representation. There are too much details and relations to handle in real world in which objects are complex and nonlinear. For example, Tofu, originated in China with over 2000 years, is a food made of soybean. Through soaking and grinding soybeans, as well as filering out remaining particulates, it becomes something known as soymilk, containing stable emulsion of oil, water, and protein. Such condensed soymilk is pressed into solid white blocks with varying softness as Tofu in a process similar to cheesemaking. It is an important food product specifically in the East, not only because of its protein richness but also as a cultural symbol. When you present a ToFu in a game context like [Tofu Go](https://www.dbdbking.com/Tofu-Go), developed and designed by Francis Lam (HK/CN) [^francis], it is inevitably required to abstract the complexity of processes and relations, representing essential and desired elements. In the game, Tofu is designed as a white 3-d cube form with an emoticon, and it could also move and jump. Of course in real world Tofu cannot behave in that way, but one can imgine how objects can be performed differently when you program your own software. 
 
-Abstraction is one of the key concepts of object-oriented programming (OOP) languages. Its main goal is to handle object's complexity by presenting and abstracting certain details to the users by representing a concrete model. Fazi and Fuller discuss such concreteness of abstracted computation [^Fazi], they said "Computation not only abstracts from the world in order to model and represet it; through such abstractions, it also partakes in it." If we think of previous capture of data capture, it becomes clear that computation, in a wider cultural context, facilitates urban life into capitalistic metrification and datafication.
+Abstraction is one of the key concepts of object-oriented programming (OOP). Its main goal is to handle object's complexity by presenting and abstracting certain details to the users via representing a concrete model. Fazi and Fuller discuss such concreteness of abstracted computation [^Fazi], they said "Computation not only abstracts from the world in order to model and represet it; through such abstractions, it also partakes in it." If we think of previous capture of data capture, it becomes clear that computation with material agency, in a wider cultural context, shaping a particular urban life and facilitating capitalistic metrification and datafication.
 
 Abstraction is all over in computing from using high level programing langauge to the representation in a graphical user interface. Such abstraction hides details of how a computer work physically with logic gates in a binary system as well as reducing the complexity of computer operation (such as copying and deleting files) to users. This chapter is more to examplify the concept of abstraction through object oriented programming with objects creation. 
 
@@ -225,7 +225,7 @@ class Tofu { //create a class: template/blueprint of objects with properties and
 ```
 ## class
 
-To first work with object-oriented programming to construct objects, it is important to have a blueprint. A class specifies the structure of its objects' attributes and the possible behaviors/actions of its objects. Therefore, it is like a template and blueprint of things.  
+To first construct objects in object-oriented programming, it is important to have a blueprint. A class specifies the structure of its objects' attributes and the possible behaviors/actions of its objects. Therefore, it is like a template and blueprint of things.  
 
 To use the similar template that we had for a person object (You may refer to Tofu.js with the full source code), we have the followings:
 
@@ -289,7 +289,7 @@ function setup() {
  }
 }
 ```
-The above shows that the program will start off with 5 Tofus (which is also the minimum requirement of the game). 5 Tofu is created through a for-loop in various properties that have defined earlier in the pseudo class: speed, xpos, ypos, size. For this example, each of the property is generated from a random number range except the x position (xpos) as 30, which means the initial 5 Tofus are all started at 30 pixel on x coordinate.  
+The above shows that the program will start off with 5 Tofus (which is also the minimum requirement of the game). 5 Tofus are created through a for-loop with various properties that are defined earlier in the pseudo class: speed, xpos, ypos, size. For this example, each of the property is generated from a random number range except the x position (xpos) as 30, which means the initial 5 Tofus are all started at 30 pixel on x coordinate.  
 
 Specifically, we now look at the most important line here:
 `tofu[i] = new Tofu(speed, xpos, ypos, size);`
@@ -363,22 +363,23 @@ It requires some planning before you start coding if you want to implement class
 
 ## Further notes
 
-Button: The button in this chapter is similar to previous one in Data Capture, which is to define the global variable `button`, then create the button with text and add the style such as background color, padding and font-size (in the style of CSS). A function called `addTofu` is created to push for new object creation when the button is clicked.  
+**Button:** The button in this chapter is similar to previous one in Data Capture, which is to define the global variable `button`, then create the button with text and add the style such as background color, padding and font-size (in the style of CSS). A function called `addTofu` is created to push for new object creation when the button is clicked.  
 
-Table: The table mainly consists of two rectangles that show the table weight with shadow. Two for-loops are used to draw the colored line with a certain and equal amount of width so as to give a 3-dimentional perspective. 
+**Table:** The table mainly consists of two rectangles that show the table weight with shadow. Two for-loops are used to draw the colored line with a certain and equal amount of width so as to give a 3-dimentional perspective. 
 
-Beers: The sample code uses p5.play library with the concept of `createSprite()`, `addImage()`, `addtoGroup`, considering the beer as a sprite object that you can manipulate. The beer is an image technically and all the images can be added as a group. `checkBeer()` is a custom function to check for beer availability. As sprites with the built-in concept of objects, `remove()` is similar to `splice()`, removing those beers that have already reached the edge of the other side of the table. In a similar vein, beers are added if the program do not have enoguh of them on the table. That said, there is a logic of checking the availablity of beers. But for this chapter, it is more important to walkthrough the whole concept of object-oriented programming rather than using other library, as it will defeat the purpose of understanding the decision of each steps in terms of the creation of class and object instances with properties and behaviors. Having the beers in `p5.play` is more to give a sense of how different things can put together. 
+**Beers:** The sample code uses p5.play library with the library functions of `createSprite()`, `addImage()`, `addtoGroup`, considering the beer as a sprite object that one can manipulate. The beer is an image technically and all the images can be added as a group. `checkBeer()` is a custom function to check for beer availability. As sprites with the built-in concept of objects, `remove()` is similar to `splice()`, removing those beers that have already reached the edge of the other side of the table. In a similar vein, beers are added if the program do not have enoguh of them on the table. That said, there is a logic of checking the availablity of beers. But for this chapter, it is more important to walkthrough the whole concept of object-oriented programming rather than using other library, as it will defeat the purpose of understanding the decision of each steps in terms of the creation of class and object instances with properties and behaviors. Having the beers in `p5.play` is more to give a sense of how different things can put together. 
 
-A game: The program is a game with the game over scene as the ending shot. `checkLoser()` is a function used to check how many tofus are remained. If they remain less than the required, then the game over text will be displayed. 
+A game: The program is a game with the game over scene as the ending shot. `checkLoser()` is a function used to check how many tofus are remained. If they remain less than the required, then the "game over" text will be displayed. 
 
 ## While()
 
 By going through the tofu example, we can see object oriented programming is highly organized and concrete even though objects are abstracted and imagined from the world. Fuller and Goffey suggest that this kind of modeling of the world is a socialtechnical practice, as they put it "compressing and abstracting relations operative at different scales of reality, composing new forms of agency", and such agency lies at the computational and material arrangement of everyday encounters. They produce a different perspective that affect how we perceive the world. Who design the objects? We are indeed entering the mind of the programmer/designer who has their own worldview. Game may be a good example especially the apparent persistent sexualisation of female characters. The cultural implication is significant if we aware how much we interact with various objects, even just simply buttons, sliders, check box and each of the object has it own agency. 
 
-> history of the concept of objects in the mid-1960s with Simula 67 created by Ole-Johan Dahl and Kristen Nygaard of the Norwegian Computing Center in Oslo. > A programming paradigm
+[g: not sure if it is good to incorporate below /w]
+-  history of the concept of objects in the mid-1960s with Simula 67 created by Ole-Johan Dahl and Kristen Nygaard of the Norwegian Computing Center in Oslo. > A programming paradigm
 https://user-content.gitlab-static.net/38287337cdf9f32ae05de5b3d9d7037868960496/687474703a2f2f6a6f667261706573652e626c6f6769612e636f6d2f75706c6f61642f32303038303632373232313730302d6461686c2d6e7967616172642e6a7067
-> but it is more than just create for efficiency. It is created with the perspective of participatory design in the context of utopia project that works iwth workers' union to "bring technical process closer to non-specialist understanding" (Fuller and Goffey 2017) > re-use of code and operation: "it saves time and effort to be able to write the code once and re-use it in different programs" (Fuller and Goffey 2017)
-> Epistemologies
+- about working class and hireachy? but it is more than just create for efficiency. It is created with the perspective of participatory design in the context of utopia project that works witth workers' union to "bring technical process closer to non-specialist understanding" (Fuller and Goffey 2017) > re-use of code and operation: "it saves time and effort to be able to write the code once and re-use it in different programs" (Fuller and Goffey 2017)
+- Epistemologies
 
 ## Mini_Exercise[5]: Games with objects
 
