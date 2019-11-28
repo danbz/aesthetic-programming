@@ -60,7 +60,7 @@ This chapter's sample code is a game with the following core components:
 2. A cube-like ToFu as a class object. With many of the object instances, they appear in different parts of the table, running from left to right.
 3. The button with the text "add Tofu: maintain minimum 5 on the table". It allows the addition of ToFu object instances.
 4. There are continuous display of beer objects which run from right to left. (The beers are more considered as decorative objects in this game and in the chapter, which means the game can still function without the them. We use the library of [p5.play](http://molleindustria.github.io/p5.play/) to control the beer image and together it illustrates a different way of constructing objects)
-5. The simple game logic is to main at least 5 Tofu on the table, or else the game will stop with the text 'Game Over' shows on the screen. 
+5. The simple game logic is to maintain at least 5 Tofu on the table, or else the game will stop with the text 'Game Over' shows on the screen. 
 
 ![ch5_2](ch5_2.png)
 
