@@ -225,42 +225,41 @@ if (positions.length) { //check the availability of web cam tracking
 }
 }
 ```
-For face capture, the sample code has used the clmtrackr which is a JavaScript library developed by a data scientist Audun M. Øygard in 2014 for fitting a facial model to faces in images or video.[^Face] Based on facial algorithms designed by Jason Saragih and Simon Lucey,[^Algo] the library analyses a face and divides it into 70 points in real-time based on a pretrained machine training model on face images for classification. 
+For face capture, the sample code has used the clmtrackr which is a JavaScript library developed by a data scientist Audun M. Øygard in 2014 for fitting a facial model to faces in images or video.[^Face] Based on facial algorithms designed by Jason Saragih and Simon Lucey,[^Algo] the library analyses a face and divides it into 70 points in real-time based on a pretrained machine vision model of facial images for classification. 
 
 ![](ch4_3.png)
 
-*Figure 4.3: The tracker points of a face.*
+*Figure 4.3: The tracker points of a face*
 
-What the program does in terms of face capture and recognization: 
-1. `createCapture()`: This is a HTML5 <video> element that capture the feed from a web camera. In relation to this function would be to define the size (which is subjected to the resolution of the web camera) and position e.g `capture.size(640,480);` and `capture.position(0,0);`
+What the program does in terms of face capture and facial recognition: 
+1. `createCapture()`: This is a HTML5 <video> element that captures the feed from a web camera. In relation to this function tasks might be to define the size (which is subjected to the resolution of the web camera) and position on screen, e.g. `capture.size(640,480);` and `capture.position(0,0);`
 2. `clmtrackr`: Similar to audio and camera use, first you need to initialize the tracker library, select the classified model and start tracking from the video source. 
-3. `ctracker.getPosition()`: This is to loop through all the 70 tracker points and return the position in terms of x and y coordinates. Since the like button will follow the mouth of a face and the tracker point of a mouth is 60, the program then will return the position in terms of an array: `positions[60][0]-20` and `positions[60][1]`. The second array's dimension with [0] and [1] refers to the x and y coordinates specifically. 
-4. The last part is to draw the ellipses the cover the face. A for-loop is implemented to loop through all the ctracker points and then get the x and y coordinates for the drawing of ellipses. 
+3. `ctracker.getPosition()`: This is to loop through all the 70 tracker points and return the position in terms of x and y coordinates. Since the Like button will follow the mouth of the face and the tracker point of a mouth is 60, the program then will return the position in terms of an array: `positions[60][0]-20` and `positions[60][1]`. The second array's dimensions of [0] and [1] refers to the x and y coordinates specifically. 
+4. The last part is to draw the ellipses to cover the face. A for-loop is implemented to loop through all the ctracker points and then get the x and y coordinates for the drawing of the ellipses. 
 
 ## 4.8 Exercise in class
-To familiar with the face capture, we can try the followings:
+To familiar yourself with face capture, try the following:
+1. Explore the different modes of capture by tinkering with various parameters such as `keyCode`, as well as other keyboard and mouse events. 
+2. Study the tracker points and try to change the position of the Like button that you previously customized in the earlier exercise. 
+3. Try to test the boundaries of facial recognition: to what extend can(not) a face be recognized as a face?
+4. How has facial recognition technology been applied in society at large, and what are some of the issues that arise from this? 
 
-1. Explore the different modes of capture by tinkering various parameters such as `keyCode`, other keyboard and mouse events. 
-2. Study the tracker points and try to change the position of the like button that you have customized in the earlier exercise. 
-3. Try to test the boundary of facial recognition: to what extend a face can(not) be recognized?
-4. How has facial recognization tecnology been applied in society? 
-
-## 4.9 The Concept of Capture
-After the demonstration of different inputs for data capture, this section discusses various examples of capture in our society and culture. It is more a showcase some possibilities of capture, and more importantly how these capture relate to the phenomena of datafication, commodification, surveillance and personalization, which is more around data politics to questioning how our data is being captured, quantified, stored and used, and for what purpose? Who has the power to access the captured data? 
+## 4.9 The concept of capture
+After the demonstration of different inputs for data capture, this next section discusses various examples of capture in society. The intention is to showcase some other possibilities of its application, and more importantly how this relates to datafication, commodification, surveillance and personalization. This is an attempt to discuss data politics more broadly, to question how our personal data is being captured, quantified, archived and used, and to what purpose? What are the implications and who has the power to access the captured data and derive profit from it? Few people know exactly what data is being captured nor how data will be used? Of course the inroduction of legislation such as GDPR (General Data Protection Regulation) are responses to this lack of transparency.[^GDPR] 
 
 ### 4.9.1 Web Analytics and Heatmap
-The most widely used web analytics service is currently offered by Google that tracks data on website traffic and browsing behaviors, including number of unique visits, average time on site, browser and operating system information, traffic sources and users' geographic locations, etc. 
+The most widely used web analytics service is currently offered by Google to track data on website traffic and browsing behaviors, including the number of unique visits, average time on sites, browser and operating system information, traffic sources and users' geographic locations, amongst other things. 
 
 ![](ch4_4.png)
 *Figure 4.4: Screenshot of Google Analytics*
 
-Among different visualization tools, Heatmap is a graphical representation of data to visualize user behavior. It is commonly used in industries for the purpose of data analytics. For example, it is possible to track the cursor's position and compute the stay's duration on different parts of a web page so as to present which contents are hot or not. This is useful for many marketers to understand which part of their content is more attractive to their users. In particular if pages with advertisement, it will be useful for companies to analyze where to place the advertisement and content according to screen behaviors. 
+Among different visualization tools, Heatmap is a feature which shows a graphical representation of data to visualize user behavior. It is commonly used in industries for the purpose of data analytics. For example, it is easily possible to track the cursor's position and compute the duration of stay on different parts of a web page so as to suggest which contents are 'hotter' than others. This is useful for marketing to understand which parts of their content is more or less attractive to their users, and for companies to analyze where to best place advertisements. 
 
 ![](ch4_7.png)
 
-*Figure 4.5: An example of heatmap on analysing a web page*
+*Figure 4.5: An example of a heatmap for analysing a web page*
 
-Big companies like Facebook[ref: Will Conley (2013), Facebook investigates tracking users' cursors and screen behavior. Available at: https://www.slashgear.com/facebook-investigates-tracking-users-cursors-and-screen-behavior-30303663/.] constantly investigate differnet methods for data collection in order to optimize the screen presentation. Yet, how people know exactly about what have been captured and how data will be used?  
+Big companies like Facebook,[^Facebook] constantly investigate different methods for data capture in order to optimize screen presentation. 
 
 ### 4.9.2 Form elements
 Each form elements like a dropdown menu and a button signals different meaning with its affordance. Researcher Rena Bivens did a thorough analysis on Facebook's registration page in relation to gender options. When Facebook first launched to the market in 2004, gender field was not needed for the sign-up page. But things changed in 2008 where a drop-down list showed the selection of only Male and Female for registration and it further changed to the use of radio buttons to emphasize the binary options of gender representation [ref:   Bivens, R. (2017). The gender binary will not be deprogrammed: Ten years of coding gender on Facebook. New Media & Society, 19(6), 880–898. https://doi.org/10.1177/1461444815621527]. The breakthrough was on 2014 where Facebook allowed user to customize the gender field and one can select from a list of more than 50 custom gender options. According to Facebook, they want to enhance "personalized experiences" with "authetic identity" (ref: Facebook (2012) Form S-1 registration statement. Available at: https://infodocket.files.wordpress.com/2012/02/facebook_s1-copy.pdf (accessed 16 Oct 2019)). But this is also arguable whether such gender specific personalization (not only to Facebook but border culture) is actually enforcing gender division through social construction.
@@ -273,7 +272,7 @@ Interestingly, Facebook and Instagram were testing the feature of hiding public 
 ### 4.9.4 Self-censorship data 
 In 2013, Facebook conducted a rsearch project about last-minute self-censorship [ref: See ref https://research.fb.com/publications/self-censorship-on-facebook/]. The project revealed the capability of tracking unposted status updates/posts/comments, which is the erased text or images while you are thinking and typing but haven't been posted publicly. This implies that Facebook is not only interested in what you have posted but what you have been thinking. 
 
-### 4.9.5 Voice and Audio data 
+### 4.9.5 Voice and audio data 
 Smart devices like our computers, phones and gagets are now equiped with the feature of voice recognization through Siri, Google Assistant or Alexa, turning an audio input into a command for software processing, and feedback with "more personalised experiences" to assist in many organizational works. Finn Ed uses the term "Culture Machines" to think about how algorithms are operated at a "marco-social level" that produces "cultural objects, processes and experiences" (p. 34). It is worth further thinking about these audio assistants, what are the ambitious of such cultural objects?
 
 ![](ch4_6.png)
@@ -281,7 +280,7 @@ Smart devices like our computers, phones and gagets are now equiped with the fea
 *Figure 4.6: Screenshot of Voice & Audio activity*
 
 ### 4.9.6 Health tracker 
-Within the domain of health and well being, one can find a growing trend of quantified self - a phenomenon of self-tracking with technology. Data such as movement, steps, heart rate and even sleep pattern can be traced and analyzed easily with software behind the use of wearable devices and gagets.
+Within the domain of health and well-being, one can find a growing trend of quantified self - a phenomenon of self-tracking with technology. Data such as movement, steps, heart rate and even sleep pattern can be traced and analyzed easily with software behind the use of wearable devices and gagets.
 
 ![](ch4_5.png)
 
@@ -294,7 +293,11 @@ There are also many other kinds of data that can be captured, quantified and ana
 [unsorted notes /g]
 *datafication*. As such we refer to the ways in which all aspects of our life seem to be turned into data which is subsequently transferred into information realised as a new form of value.
 
+///////datafication, commodification, surveillance and personalization
+
 There is a tendency of think of data as raw and unmediated; and that somehow data should simply be allowed to speak for itself rather than be lost in the ornamentation of visualisation. In saying this we make reference to Edward Tufte’s guidelines for information graphics, and the removal of unnecessary graphical information to “let the data speak for itself" as he puts it. Of course in reality what happens is far from this, as unstructured data is selected, targeted, preprocessed and cleaned, mined, and so on, not least to make it human readable. Data begins relatively raw and uninterpreted, but in practice there is always some additional information about its composition, usually derived from the means by which it was gathered in the first place.
+
+facial recognition//// don't take things at face value. 
 
 //////////data-subject
 
@@ -345,3 +348,5 @@ There is a tendency of think of data as raw and unmediated; and that somehow dat
 [^Audio]: See the different features of the sound library: https://p5js.org/reference/#/libraries/p5.sound.
 [^Face]: https://www.auduno.com/2014/01/05/fitting-faces/. 
 [^Algo]: Jason M. Saragih, Simon Lucey and Jeffrey F. Cohn, "Face Alignment Through Subspace Constrained Mean-shifts", 2009 IEEE 12th International Conference on Computer Vision, Kyoto, 2009, 1034-1041. doi: 10.1109/ICCV.2009.5459377.
+[^GDPR]: GDPR (General Data Protection Regulation) is a regulation in EU law (2016) on data protection and privacy for all individual citizens of the European Union and the European Economic Area. It also addresses the transfer of personal data outside the EU and EEA areas. See https://gdpr-info.eu/.
+[^Facebook]: Will Conley, "Facebook investigates tracking users’ cursors and screen behavior", *Slashgear* (30 October 2013). Available at: https://www.slashgear.com/facebook-investigates-tracking-users-cursors-and-screen-behavior-30303663/.
