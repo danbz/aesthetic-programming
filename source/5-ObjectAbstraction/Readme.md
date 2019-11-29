@@ -381,6 +381,10 @@ https://user-content.gitlab-static.net/38287337cdf9f32ae05de5b3d9d7037868960496/
 - about working class and hireachy? but it is more than just create for efficiency. It is created with the perspective of participatory design in the context of utopia project that works witth workers' union to "bring technical process closer to non-specialist understanding" (Fuller and Goffey 2017) > re-use of code and operation: "it saves time and effort to be able to write the code once and re-use it in different programs" (Fuller and Goffey 2017)
 - Epistemologies
 
+other notes:
+- marx + abstraction
+- cooking and coding with class struggle (food and recipes, cultural difference)
+
 ## Mini_Exercise[5]: Games with objects
 
 **Objective:**
