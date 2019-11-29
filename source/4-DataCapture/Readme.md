@@ -4,7 +4,7 @@ page_order: 4
 ## 4. Data Capture
 
 ## 4.1 setup()
-This chapter focuses on how a program captures and processes input data. In some programming books, this would fall under the topic of interactivity, such as interacting with physical devices like a mouse and a keyboard. This is already familiar in  earlier chapters where we already introduced the functions `mouseX` and `mouseY` (see Chapter 2 - VariableGeometry), as well as the idea of listening events via the functions `mouseIsPressed()` and `windowResized()` (see Chapter 3 - InfiniteLoops). This chapter extends these ideas and presents different types of data capture, including mouse movement, keyboard press, audio volume and face tracking with a web camera. Framing this under data capture allows us to move from immediate interactions to question what kinds of data is being captured, and how it is being processed, and the wider consequences of this as part of a broader cultural tendency that tends to be referred to as *datafication*. The term refer to the ways in which all aspects of our life seem to be turned into data which is subsequently transferred into information realised as a new form of value. Articulated in this way we can say that social media platforms datify people's friendships, thoughts, and experiences. This is what Kenneth Cukier and Victor Mayer-Schöenberger describe in their article "The Rise of Big Data",[^bigdata] in the context of the need for large amounts of data to be harvested for computational purposes, such as to perform predictive analytics for instance (think of us saying, you bought this book, and we think you might like these other ones too). 
+This chapter focuses on how a program captures and processes input data. In some programming books, this would fall under the topic of interactivity, such as interacting with physical devices like a mouse and a keyboard. This is already familiar in  earlier chapters where we already introduced the functions `mouseX` and `mouseY` (see Chapter 2 - VariableGeometry), as well as the idea of listening events via the functions `mouseIsPressed()` and `windowResized()` (see Chapter 3 - InfiniteLoops). This chapter extends these ideas and presents different types of data capture, including mouse movement, keyboard press, audio volume and face tracking with a web camera. Framing this under data capture allows us to move from immediate interactions to question what kinds of data is being captured, and how it is being processed, and the wider consequences of this as part of a broader cultural tendency that tends to be referred to as *datafication*. The term refer to the ways in which all aspects of our life seem to be turned into data which is subsequently transferred into information realised as a new form of value. Articulated in this way we can say that social media platforms datify people's friendships, thoughts, and experiences. This is what Kenneth Cukier and Victor Mayer-Schöenberger describe in their article "The Rise of Big Data",[^Bigdata] in the context of the need for large amounts of data to be harvested for computational purposes, such as to perform predictive analytics for instance (think of us saying, you bought this book, and we think you might like these other ones too). 
 
 We will come back to these issues later in the book (Chapter 10 - MachineLearning) but suffice to say for now that in the era of big data, there appears to be the need to capture everything, even the most mundane activities like button pressing. The chapter begins with this example, a relatively simple action like switching on/off a device — a light, a kitchen appliance, and so on. A button is "seductive",[^Pold] generating the desire to press it, with immediate feedback and instant gratification. Similarly in software and online platforms like Facebook, a button indicates a call for inter-action, inviting the user to click and to interact with it in a binary state: on or off, like or not-like, accept or cancel. The functionality is simple and gives the impression of *interaction* despite the severe limitations of choice on offer. Indeed this might be considered to be more *interpassive* than interactive, like accepting the terms of conditions for a social media platform like Facebook without bothering to read the details, or liking something as a way of registering engagement however superficial. Basically permission is given to capture data. With this in mind, the next section will introduce the sample code for a customizable Like button in order to demonstrate the potential of simple interactions like button-press, and how you might begin to reflect on how data is captured through such processes for specific ends. 
 
@@ -84,7 +84,7 @@ function setup() {
   button.style("filter","progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c69ba', endColorstr='#3b55a0', GradientType=0 )");
 
   //mouse capture
-  button.mousePressed(clearence);  //click the button to clear the screen
+  button.mousePressed(clearance);  //click the button to clear the screen
 }
 
 function draw() {
@@ -119,33 +119,31 @@ function keyPressed() {
 ```
 ## 4.3 p5.dom: Creating and styling a button
 
-The basic structure for creating from elements is relatively simple. Under the p5.js reference guide under the DOM category (ref: https://p5js.org/reference/#group-DOM), there are different form creation syntaxes, e.g. `createCheckbox()`, `createSlider()`, `createRadio()`, `createSelect()`, `createFileInput()`, and so on. The one that we need for creating a button is called `createButton()`. 
+The basic structure for creating from elements is relatively simple. In the p5.js reference guide under the DOM category,[^DOM] there are different form creation syntaxes, e.g. `createCheckbox()`, `createSlider()`, `createRadio()`, `createSelect()`, `createFileInput()`, and so on. The one that we need for creating a button is called `createButton()`. 
 
-First you need to assign an object name for the button, and of course different names if you have more than one so that you can set the properties (ref: see the method list of p5.Element here: https://p5js.org/reference/#/p5.Element) for each individual one. 
+First you need to assign an object name for the button, and of course different names if you have more than one so that you can set the properties[^Element] for each. 
 
-///// add - Furthermore with the capability to customize wordings on a button, Pold suggests that a button is developed with distinct functionality and signification (ref: pold p. 31). 
-
-- `let button;`: First is to declare the object by assigning a name.
-- `button = createButton('like');`: Create a button and consider the text display of the button.
-- `button.style("xxx","xxxx");`: This is the CSS standard, where the first argument is a selection and the second is a declaration block. For example if you want to set the font color, then you can put in "color" and "#fff" for the arguments. (ref/footnote: This can be easily checked out the possible styling of a button, and here are some examples: https://www.w3schools.com/csS/css3_buttons.asp) For this specific sample code, all the styling are copied from the Facebook interface directly (as of 2015) by looking into their CSS source code. Those styling include `display`, `color`, `padding`, `text-decoration`, `font-size`, `font-weight`, `border-radius`, `border`, `text-shadow`, `background` and `filter`, with the additional added one called `transform`.  
-- `button.mousePressed(clearance());`: This specifies what to do (which function to call) when the program listens to the mousePressed event. Within the customized function `clearance()`, the `clear()` is a JavaScript built-in function and in this case is to clear the screen.    
-- `button.size();`: This sets the size of the button in terms of the width and height. 
+- `let button;`: First step is to declare the object by assigning a name.
+- `button = createButton('like');`: Create a button and consider what text is to be displayed.
+- `button.style("xxx","xxxx");`: This is the CSS standard, where the first argument is a selection and the second is a declaration block. For example if you want to set the font color, then you can put in "color" and "#fff" respectively.[^Style] For this specific sample code, all the styling is copied from the Facebook interface directly (as of 2015) by looking into their CSS source code. Styling includes `display`, `color`, `padding`, `text-decoration`, `font-size`, `font-weight`, `border-radius`, `border`, `text-shadow`, `background` and `filter`, with the addition of `transform`.  
+- `button.mousePressed(clearance());`: This specifies what to do (which function to call) when the program listens to the mousePressed event. Within the customized function `clearance()`, the `clear()` is a JavaScript built-in function and in this case is included to clear the screen.    
+- `button.size();`: This sets the size of the button in terms of its width and height. 
 - `button.position();` This sets the position of the button. 
 
-## 4.4 Mouse Capture 
+## 4.4 Mouse capture 
 In the previous chapter the program listened to the mouse movement and captured the corresponding x and y coordinates by using the built-in functions `mouseX` and `mouseY`. This sample code incorporates a specific `mousePressed` function which is called once every time the user presses a mouse button. See the excerpt of code below:
 
 ```javascript
-button.mousePressed(clearence);  
+button.mousePressed(clearance);  
 //click the button to clear the screen
 
-function clearence() {
+function clearance() {
   clear();
 }
 ```
-The function `mousePressed()` is attached to which button you want to listen and trigger actions. There are other mouse related mouseEvents (ref: See the related function in the reference page, which is under Events > Mouse> https://p5js.org/reference/), such as `mouseClicked()`, `mouseReleased()`, `doubleClicked()`, `mouseMoved()`, etc. 
+The function `mousePressed()` is attached to the button you want to trigger actions. There are other mouse related mouseEvents,[^Events] such as `mouseClicked()`, `mouseReleased()`, `doubleClicked()`, `mouseMoved()`, and so on. 
 
-## 4.5 Keyboard Capture
+## 4.5 Keyboard capture
 ```javascript
 function keyPressed() {
   if (keyCode === 32) { //spacebar - check here: http://keycode.info/
@@ -156,15 +154,15 @@ function keyPressed() {
 }
 ```
 
-The use of `keyPressed()` function is to listen any keyboard pressing events. If you want to specify any `keyCode` (that is the actual key on the keyboard), the sample code shows how a conditional statement can be implemented within the `keyPressed()` function. Within the if-else conditional statment, if a keyboard press of a spacebar is detected, then the button will rotate in 180 degree and any other keys will just resume back to the original state which is 0 degree.
+The use of the `keyPressed()` function is to listen any keyboard pressing events. If you want to specify any `keyCode` (that is the actual key on the keyboard), the sample code shows how a conditional statement can be implemented within the `keyPressed()` function. Within the if-else conditional statement, if a keyboard press of a spacebar is detected, then the button will rotate through 180 degrees and any other keys will just resume back to the original state of 0 degrees.
 
 `keyCode` takes in numbers or special keys like BACKSPACE, DELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL, OPTION, ALT, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW. In the above example, the `keyCode` of a spacebar is 32.
 
-Capital and small letter do not make a different and they are using equavilent to the same keyCode, such as 'A' and 'a' with the same `keyCode` as 65.  
+Capital and lower case letters do not make any difference as they are using the same `keyCode`, such that 'A' and 'a' use the same number 65. 
 
-Similar to mouseEvents, there are also many other keyboardEvents (ref: See the related function in the reference page, which is under Events > Keyboard> https://p5js.org/reference/), such as `keyReleased()`, `keyTyped()`, `keyIsDown()`. 
+Similar to `mouseEvents`, there are also many other `keyboardEvents`,[^Key] such as `keyReleased()`, `keyTyped()`, `keyIsDown()`. 
 
-## 4.6 Audio Capture
+## 4.6 Audio capture
 ```javascript
 let mic;
 
@@ -176,15 +174,16 @@ function setup() {
 
 function draw() {
   //getting the audio data
-  let vol = mic.getLevel(); // Get the overall volume (between 0 and 1.0)
-  button.size(floor(map(vol, 0, 1, 40, 500)));  //map the mic vol to the size of button: check map function: https://p5js.org/reference/#/p5/map
+  let vol = mic.getLevel(); //get the overall volume (between 0 and 1.0)
+  button.size(floor(map(vol, 0, 1, 40, 500))); //as the button is too big, check map function: https://p5js.org/reference/#/p5/map
 }
 ```
-To deal with basic web audio p5.sound library is the one used in the sample code. It includes features like audio input, sound files playback, audio analysis and synthesis. (ref: see the different features of the sound library: https://p5js.org/reference/#/libraries/p5.sound)
+
+The basic web audio p5.sound library is used in the sample code. It includes features like audio input, sound files playback, audio analysis and synthesis.[^Audio] 
 
 The library should be also included in the html file (as demonstrated in Chapter 1 - Getting Started) so that we can use the corresponding functions like `p5.AudioIn()` and `getLevel()`. 
 
-Similar to a button, you first declare the object e.g `let mic;`, and then setting up the input source (usually from a computer microphone) and starting to listen the audio input (See the two lines within `setup()`). When the entire sample code is executed, a popup screen from a browser will ask for a permission to access the audio source. This audio capture only works when the access is granted. 
+Similar to a button, you first declare the object, e.g. `let mic;`, and then set up the input source (commonly from a computer microphone) and start to listen to the audio input (see the two lines within `setup()`). When the entire sample code is executed, a popup screen from a browser will ask for permission to access the audio source. This audio capture only works if access is granted. 
 
 ![](ch4_1.png)
 
@@ -194,11 +193,11 @@ Similar to a button, you first declare the object e.g `let mic;`, and then setti
 
 *Figure 4.2: Permission for camera access*
 
-This sample code is only focused on the methods under `p5.AudioIn()`, which is to read the Amplitude (volume level) of the input source with the return value between 0 to 1.0 by using the method `getLevel()`.
+The sample code refers to methods under `p5.AudioIn()`, which reads the amplitude (volume level) of the input source with the return value between 0 to 1.0 by using the method `getLevel()`.
 
-A new function `map()` is introduced to map a number from one range to another. Since the return of the volume is range between 0 to 1.0, but this actual number will not make a significant different in terms of the size of the button. As such, the range of the audio input will then map to the size range of the button dynamically and on-the-fly. 
+A new function `map()` is introduced to map a number across a range. Since the return of the volume is set between a range of 0 to 1.0, the corresponding number will not make a significant difference in terms of the size of the button. As such, the range of the audio input will then map to the size range of the button dynamically. 
 
-## 4.7 Face Tracker 
+## 4.7 Face tracker 
 ```javascript
 let ctracker;
 
@@ -217,8 +216,8 @@ ctracker.start(capture.elt);
 function draw() {
 let positions = ctracker.getCurrentPosition();
 if (positions.length) { //check the availability of web cam tracking
-    button.position(positions[60][0]-20, positions[60][1]);  //as the button is too long, i wanna put it in the middle of my mouth, and 60 is the mouth area (check lib spec)
-    for (let i=0; i<positions.length; i++) {  //loop through all major face track points
+    button.position(positions[60][0]-20, positions[60][1]); //as the button is too big, place it in the middle of my mouth, and 60 is the mouth area (check lib spec)
+    for (let i=0; i<positions.length; i++) {  //loop through all major face tracking points
        noStroke();
        fill(map(positions[i][0], 0, width, 100, 255), 0,0,10);  //color with alpha value
        ellipse(positions[i][0], positions[i][1], 5, 5);
@@ -226,8 +225,7 @@ if (positions.length) { //check the availability of web cam tracking
 }
 }
 ```
-For face capture, the sample code has used the clmtrackr which is a JavaScript library developed by a data scientist Audun M. Øygard in 2014 for fitting a facial model to faces in images or video (ref: https://www.auduno.com/2014/01/05/fitting-faces/). Based on the facial algorithms designed by Jason Saragih and Simon Lucey (ref: J. M. Saragih, S. Lucey and J. F. Cohn, "Face alignment through subspace constrained mean-shifts," 2009 IEEE 12th International Conference on Computer Vision, Kyoto, 2009, pp. 1034-1041.
-doi: 10.1109/ICCV.2009.5459377), the library analyses a face and divides it into 70 points in real-time based on a pretrained machine training model on face images for classification. 
+For face capture, the sample code has used the clmtrackr which is a JavaScript library developed by a data scientist Audun M. Øygard in 2014 for fitting a facial model to faces in images or video.[^Face] Based on facial algorithms designed by Jason Saragih and Simon Lucey,[^Algo] the library analyses a face and divides it into 70 points in real-time based on a pretrained machine training model on face images for classification. 
 
 ![](ch4_3.png)
 
@@ -337,7 +335,13 @@ There is a tendency of think of data as raw and unmediated; and that somehow dat
 
 ## Notes
 
-[^bigdata]: Kenneth Cukier and Victor Mayer-Schöenberger, "The Rise of Big Data". *Foreign Affairs* (May/June 2013): 28–40. 
-[^Pold]: Søren Pold, "Button", in Matthew Fuller. ed. *Software Studies* (Cambridge, Mass.: MIT Press 2008), 34.
-
-
+[^Bigdata]: Kenneth Cukier and Victor Mayer-Schöenberger, "The Rise of Big Data". *Foreign Affairs* (May/June 2013): 28–40. 
+[^Pold]: Søren Pold, "Button", in Matthew Fuller ed., *Software Studies* (Cambridge, Mass.: MIT Press, 2008), 34. Users are seduced by the wording not least, and Pold suggests that a button is developed with distinct functionality and signification (Ibid., 31). 
+[^DOM]: https://p5js.org/reference/#group-DOM.
+[^Element]: See the method list of p5.Element here, https://p5js.org/reference/#/p5.Element.
+[^Style]: For possible styling of a button, some examples can be found here: https://www.w3schools.com/csS/css3_buttons.asp.
+[^Events]: See the related function in the reference page, which is under Events > Mouse> https://p5js.org/reference/.
+[^Key]: See the related function in the reference page, which is under Events > Keyboard> https://p5js.org/reference/.
+[^Audio]: See the different features of the sound library: https://p5js.org/reference/#/libraries/p5.sound.
+[^Face]: https://www.auduno.com/2014/01/05/fitting-faces/. 
+[^Algo]: Jason M. Saragih, Simon Lucey and Jeffrey F. Cohn, "Face Alignment Through Subspace Constrained Mean-shifts", 2009 IEEE 12th International Conference on Computer Vision, Kyoto, 2009, 1034-1041. doi: 10.1109/ICCV.2009.5459377.
