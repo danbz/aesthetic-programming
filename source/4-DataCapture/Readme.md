@@ -6,7 +6,7 @@ page_order: 4
 ## 4.1 setup()
 This chapter focuses on how a program captures and processes input data. In some programming books, this would fall under the topic of interactivity, such as interacting with physical devices like a mouse and a keyboard. This is already familiar in  earlier chapters where we already introduced the functions `mouseX` and `mouseY` (see Chapter 2 - VariableGeometry), as well as the idea of listening events via the functions `mouseIsPressed()` and `windowResized()` (see Chapter 3 - InfiniteLoops). This chapter extends these ideas and presents different types of data capture, including mouse movement, keyboard press, audio volume and face tracking with a web camera. Framing this under data capture allows us to move from immediate interactions to question what kinds of data is being captured, and how it is being processed, and the wider consequences of this as part of a broader cultural tendency that tends to be referred to as *datafication*. The term refer to the ways in which all aspects of our life seem to be turned into data which is subsequently transferred into information realised as a new form of value. Articulated in this way we can say that social media platforms datify people's friendships, thoughts, and experiences. This is what Kenneth Cukier and Victor Mayer-Schöenberger describe in their article "The Rise of Big Data",[^bigdata] in the context of the need for large amounts of data to be harvested for computational purposes, such as to perform predictive analytics for instance (think of us saying, you bought this book, and we think you might like these other ones too). 
 
-We will come back to these issues later in the book (Chapter 10 - MachineLearning) but suffice to say for now that in the era of big data, there appears to be the need to capture everything, even the most mundane activities and phenomena. This happens even with simple operations like button pressing. The chapter begins with this example, a relatively mundane action like switching on/off a device — a light, a kitchen appliance, and so on. A button is "seductive",[^Pold] generating the desire to press it, with immediate feedback and instant gratification. Similarly in software and online platforms like Facebook, a button indicates a call for inter-action, inviting the user to click and to interact with it in a binary state: on or off, like or not-like, accept or cancel. The functionality is simple and gives the impression of *interaction* despite the severe limitations of choice on offer. Indeed this might be considered to be more *interpassive* than interactive, like accepting the terms of conditions for a social media platform like Facebook without bothering to read the details, or liking something as a way of registering engagement however superficial. The next section will introduce the sample code for this chapter centered around a customizable Like button in order to demonstrate the potential of simple interactions like button-press, and how you might reflect on how data is captured through such processes for specific ends. 
+We will come back to these issues later in the book (Chapter 10 - MachineLearning) but suffice to say for now that in the era of big data, there appears to be the need to capture everything, even the most mundane activities like button pressing. The chapter begins with this example, a relatively simple action like switching on/off a device — a light, a kitchen appliance, and so on. A button is "seductive",[^Pold] generating the desire to press it, with immediate feedback and instant gratification. Similarly in software and online platforms like Facebook, a button indicates a call for inter-action, inviting the user to click and to interact with it in a binary state: on or off, like or not-like, accept or cancel. The functionality is simple and gives the impression of *interaction* despite the severe limitations of choice on offer. Indeed this might be considered to be more *interpassive* than interactive, like accepting the terms of conditions for a social media platform like Facebook without bothering to read the details, or liking something as a way of registering engagement however superficial. Basically permission is given to capture data. With this in mind, the next section will introduce the sample code for a customizable Like button in order to demonstrate the potential of simple interactions like button-press, and how you might begin to reflect on how data is captured through such processes for specific ends. 
 
 ## 4.1.1 Start()
 ![datacapture](https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class04/sketch04.gif) 
@@ -17,7 +17,7 @@ We will come back to these issues later in the book (Chapter 10 - MachineLearnin
 [RUNME](xxx_ch4)    
 
 Starting with this sample code, the sketch incorporates four data inputs for a customizable Like button: 
-1. The button is clickable through the mouse in order to clear the screen.
+1. The button is clickable through the mouse to clear the screen.
 2. The button will rotate 180 degrees when you click on the spacebar of your keyboard.
 3. The button will change its size according to the volume of the audio/mic input.
 4. The button will move according to the facial recognization software, following what it considers to be the mouth of the face. 
@@ -89,12 +89,12 @@ function setup() {
 
 function draw() {
   //getting the audio data
-  let vol = mic.getLevel(); // Get the overall volume (between 0 and 1.0)
-  button.size(floor(map(vol, 0, 1, 40, 500)));  //map the mic vol to the size of button: check map function: https://p5js.org/reference/#/p5/map
+  let vol = mic.getLevel(); //get the overall volume (between 0 and 1.0)
+  button.size(floor(map(vol, 0, 1, 40, 500))); //map the mic vol to the size of button, check map function: https://p5js.org/reference/#/p5/map
 
   let positions = ctracker.getCurrentPosition();
   if (positions.length) { //check the availability of web cam tracking
-    button.position(positions[60][0]-20, positions[60][1]);  //as the button is too long, i wanna put it in the middle of my mouth, and -> 60 is the mouth area
+    button.position(positions[60][0]-20, positions[60][1]);  //as the button is too big, place it in the middle of my mouth, and -> 60 is the mouth area
     for (let i=0; i<positions.length; i++) {  //loop through all major face track points (see: https://www.auduno.com/clmtrackr/docs/reference.html)
        noStroke();
        fill(map(positions[i][0], 0, width, 100, 255), 0,0,10);  //color with alpha value
@@ -104,7 +104,7 @@ function draw() {
   }
 }
 
-function clearence() {
+function clearance() {
   clear();
 }
 
@@ -117,11 +117,11 @@ function keyPressed() {
   }
 }
 ```
-## 4.3 p5.dom: Creating and Styling a button
+## 4.3 p5.dom: Creating and styling a button
 
-The basic structure for creating form elements is relatively simple. Under the p5.js reference guide under the DOM category (ref: https://p5js.org/reference/#group-DOM), there are different form creation syntaxes e.g `createCheckbox()`, `createSlider()`, `createRadio()`, `createSelect()`, `createFileInput()`, etc. The one that we need for creating a button is called `createButton()`. 
+The basic structure for creating from elements is relatively simple. Under the p5.js reference guide under the DOM category (ref: https://p5js.org/reference/#group-DOM), there are different form creation syntaxes, e.g. `createCheckbox()`, `createSlider()`, `createRadio()`, `createSelect()`, `createFileInput()`, and so on. The one that we need for creating a button is called `createButton()`. 
 
-First you need to give an object name for a button, and of course a different name if you have more than one so that you can set the properties (ref: See the method list of p5.Element here: https://p5js.org/reference/#/p5.Element) for each individual one. 
+First you need to assign an object name for the button, and of course different names if you have more than one so that you can set the properties (ref: see the method list of p5.Element here: https://p5js.org/reference/#/p5.Element) for each individual one. 
 
 ///// add - Furthermore with the capability to customize wordings on a button, Pold suggests that a button is developed with distinct functionality and signification (ref: pold p. 31). 
 
@@ -133,7 +133,7 @@ First you need to give an object name for a button, and of course a different na
 - `button.position();` This sets the position of the button. 
 
 ## 4.4 Mouse Capture 
-Unlike in the previous chapter that the program will listen to the mouse movement and capture the corresponding x and y coordinates by using the built-in functions `mouseX` and `mouseY`. This sample code of Data Capture incorporates a specific mousePressed function which is called once every time a user presses a mouse button. See below excerpt of code regarding the mouse capture:
+In the previous chapter the program listened to the mouse movement and captured the corresponding x and y coordinates by using the built-in functions `mouseX` and `mouseY`. This sample code incorporates a specific `mousePressed` function which is called once every time the user presses a mouse button. See the excerpt of code below:
 
 ```javascript
 button.mousePressed(clearence);  
