@@ -253,7 +253,12 @@ The most widely used web analytics service is currently offered by Google to tra
 ![](ch4_4.png)
 *Figure 4.4: Screenshot of Google Analytics*
 
-Among different visualization tools, Heatmap is a feature which shows a graphical representation of data to visualize user behavior. It is commonly used in industries for the purpose of data analytics. For example, it is easily possible to track the cursor's position and compute the duration of stay on different parts of a web page so as to suggest which contents are 'hotter' than others. This is useful for marketing to understand which parts of their content is more or less attractive to their users, and for companies to analyze where to best place advertisements. 
+Among different visualization tools, Heatmap is a feature which shows a graphical representation of data to visualize user behavior. It is commonly used in industries for the purpose of data analytics. For example, it is easily possible to track the cursor's position and compute the duration of stay on different parts of a web page so as to suggest which contents are 'hotter' than others. This is useful for marketing purposes not least to understand which parts of their content is more or less attractive to their users, and for companies or political parties to analyze where to best place their advertisements and other 'propaganda'. The Facebook–Cambridge Analytica data scandal makes an excellent case study here, as in early 2018 a whitleblower revealed that the personal data of millions of peoples' Facebook profiles had been harvested without their consent and used for political advertising purposes.[^Analytica]
+
+[^Analytica]: Facebook ultimately were forced to pay a hefty fine. See The Guardian's "The Cambridge Analytica Files", https://www.theguardian.com/news/series/cambridge-analytica-files"
+
+Alex Hern, "Facebook agrees to pay fine over Cambridge Analytica scandal", *The Guardian*, 30 October 2019, https://www.theguardian.com/technology/2019/oct/30/facebook-agrees-to-pay-fine-over-cambridge-analytica-scandal
+
 
 ![](ch4_7.png)
 
