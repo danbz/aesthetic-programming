@@ -4,9 +4,9 @@ page_order: 4
 ## 4. Data Capture
 
 ## 4.1 setup()
-This chapter focuses on how a program captures and processes input data. In some programming books, this would fall under the topic of interactivity, such as interacting with physical devices like a mouse and a keyboard. This is already familiar in  earlier chapters where we already introduced the functions `mouseX` and `mouseY` (see Chapter 2 - VariableGeometry), as well as the idea of listening events via the functions `mouseIsPressed()` and `windowResized()` (see Chapter 3 - InfiniteLoops). This chapter extends these ideas and presents different types of data capture, including mouse movement, keyboard press, audio volume and facial recognition with a web camera. Framing this under data capture allows us to move from immediate interactions to question what kinds of data is being captured, and how it is being processed, and the wider consequeneces of this as part of a broader cultural tendency that is referred to as *datafication*. As such we refer to the ways in which all aspects of our life seem to be turned into data which is subsequently transferred into information realised as a new form of value. THought about in this way we can say that social media platforms datafy people's friendships, thoughts, and experiences. This is what Kenneth Cukier and Victor Mayer-Schöenberger argue in their book Big Data[^bigdata] in the context of the need for large amounts of data for computations, in order to perform predictive analytics (think of us saying "you bought this book, we think you might like these too" and such like). We will come back to these issues later in the book (Chapter ?? - MachineLearning). Suffice to say that in the era of big data, there is a need to capture everything, even the most mundane activities and phenomena. This happens even with simple operations like button pressing.
+This chapter focuses on how a program captures and processes input data. In some programming books, this would fall under the topic of interactivity, such as interacting with physical devices like a mouse and a keyboard. This is already familiar in  earlier chapters where we already introduced the functions `mouseX` and `mouseY` (see Chapter 2 - VariableGeometry), as well as the idea of listening events via the functions `mouseIsPressed()` and `windowResized()` (see Chapter 3 - InfiniteLoops). This chapter extends these ideas and presents different types of data capture, including mouse movement, keyboard press, audio volume and facial recognition with a web camera. Framing this under data capture allows us to move from immediate interactions to question what kinds of data is being captured, and how it is being processed, and the wider consequeneces of this as part of a broader cultural tendency that is referred to as *datafication*. As such we refer to the ways in which all aspects of our life seem to be turned into data which is subsequently transferred into information realised as a new form of value. Thought about in this way we can say that social media platforms datafy people's friendships, thoughts, and experiences. This is what Kenneth Cukier and Victor Mayer-Schöenberger argue in their article "The Rise of Big Data"[^bigdata] in the context of the need for large amounts of data for computations, in order to perform predictive analytics for instance (think of us saying "you bought this book, we think you might like these too", and such like). 
 
-The chapter begins with this example, an action like switching on/off a light, a kettle and many other electronic devices. A button is "seductive" (ref: pold p. 34), indicating a potentiality of interaction and generating a desire to press it, and usually it comes with an immediate feedback. Similarly in software and platforms like Facebook, a button indicates a call for actions, inviting a user to click and to interact with it in a binary state: on or off, like or (not)like, accept or cancel. Further with the capability to customize wordings on a button, Pold suggests that a button is developed with distinct functionality and signification (ref: pold p. 31). The following section will introduce the sample code of this chapter that is centered around the button of likes to demonstrating the potential of interactions, customizations and manipulations. Then it will further discuss different modes of capture in contemporary culture.
+We will come back to these issues later in the book (Chapter 10 - MachineLearning) but suffice to say for now that in the era of big data, there is a need to capture everything, even the most mundane activities and phenomena. This happens even with simple operations like button pressing. The chapter begins with this example, a mundane action like switching on/off a device — a light, a kitchen appliance, and the like. A button is "seductive",[^Pold] generating the desire to press it, with immediate feedback and instant gratification. Similarly in software and online platforms like Facebook, a button indicates a call for inter-action, inviting the user to click and to interact with it in a binary state: on or off, like or not-like, accept or cancel. The functionality is simple and gives the impression of *interaction* despite the limitations of choice on offer. Moreover this might be considered to be more *interpassive* than interactive, like accepting the terms of conditions for a social media platform like Facebook without bothering to read the details, or liking something as a way of registering engagement however superficial. The next section will introduce the sample code for this chapter centered around a customizable like-button in order to demonstrate the potential of simple interactions like button-press, and how you might reflect on how data is captured through such processes for specific ends. 
 
 ## 4.1.1 Start()
 ![datacapture](https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class04/sketch04.gif) 
@@ -16,7 +16,7 @@ The chapter begins with this example, an action like switching on/off a light, a
 
 [RUNME](xxx_ch4)    
 
-Starting with this sample code of Data Capture, the sketch incorporates four data inputs around the customized-like button: 
+Starting with this sample code, the sketch incorporates four data inputs around a customized-like button: 
 1. The button is clickable through a mouse in which to clearing the screen.
 2. The button will rotate 180 degree when you click on the spacebar of your keyboard.
 3. The button will change its size according to the volume of the audio/mic input.
@@ -123,6 +123,8 @@ function keyPressed() {
 The basic structure for creating form elements is relatively simple. Under the p5.js reference guide under the DOM category (ref: https://p5js.org/reference/#group-DOM), there are different form creation syntaxes e.g `createCheckbox()`, `createSlider()`, `createRadio()`, `createSelect()`, `createFileInput()`, etc. The one that we need for creating a button is called `createButton()`. 
 
 First you need to give an object name for a button, and of course a different name if you have more than one so that you can set the properties (ref: See the method list of p5.Element here: https://p5js.org/reference/#/p5.Element) for each individual one. 
+
+///// add - Furthermore with the capability to customize wordings on a button, Pold suggests that a button is developed with distinct functionality and signification (ref: pold p. 31). 
 
 - `let button;`: First is to declare the object by assigning a name.
 - `button = createButton('like');`: Create a button and consider the text display of the button.
@@ -292,6 +294,9 @@ There are also many other kinds of data that can be captured, quantified and ana
 
 ## 4.10 While()
 
+[unsorted notes /g]
+*datafication*. As such we refer to the ways in which all aspects of our life seem to be turned into data which is subsequently transferred into information realised as a new form of value.
+
 There is a tendency of think of data as raw and unmediated; and that somehow data should simply be allowed to speak for itself rather than be lost in the ornamentation of visualisation. In saying this we make reference to Edward Tufte’s guidelines for information graphics, and the removal of unnecessary graphical information to “let the data speak for itself" as he puts it. Of course in reality what happens is far from this, as unstructured data is selected, targeted, preprocessed and cleaned, mined, and so on, not least to make it human readable. Data begins relatively raw and uninterpreted, but in practice there is always some additional information about its composition, usually derived from the means by which it was gathered in the first place.
 
 //////////data-subject
@@ -324,6 +329,7 @@ There is a tendency of think of data as raw and unmediated; and that somehow dat
 - [p5.dom library reference](https://p5js.org/reference/#/libraries/p5.dom)
 
 ## Further reading:
+- Kenneth Cukier and Victor Mayer-Schöenberger, "The Rise of Big Data". *Foreign Affairs* (May/June 2013): 28–40.
 - Shiffman, Daniel. (2017) 8. HTML / CSS/DOM - p5.js Tutorial [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX [Accessed 09 Sep. 2019].
 - [clmtrackr - Face tracking javascript library](https://github.com/auduno/clmtrackr) by Audun M. Øygard
 - Charlton, James (2015). [Add to Shopping Basket](http://www.aprja.net/add-to-shopping-basket/). *APRJA* 4.1.
@@ -331,3 +337,8 @@ There is a tendency of think of data as raw and unmediated; and that somehow dat
 - Cox, G and Andersen, C (eds) (2015), [A Peer-Reviewed Journal About Datafied Research](https://tidsskrift.dk/APRJA/issue/view/8402), *APRJA* 4(1).
 
 ## Notes
+
+[^bigdata]: Kenneth Cukier and Victor Mayer-Schöenberger, "The Rise of Big Data". *Foreign Affairs* (May/June 2013): 28–40. 
+[^Pold]: Søren Pold, "Button", in Matthew Fuller. ed. *Software Studies* (Cambridge, Mass.: MIT Press 2008), 34.
+
+
