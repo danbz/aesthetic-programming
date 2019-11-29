@@ -31,7 +31,7 @@ From the above, we can construct a pseudo class that can use to create an object
 | Name, HairColor, withGlasses, Height, FavoriteColor, FavoriteFood, FromLocation, ToLocation |
 | run()                  |
 
-In the same token, we can *reuse* the same properties and behavior to create another *object instance*:
+In the same token, we can *reuse* the same properties and behavior to create another *object instance* with the corresponding data values:
 
 | Object instance 1            | Object instance 2         |
 |------------------------------|---------------------------|
@@ -82,14 +82,13 @@ sketch.js:
 let tofu = [];
 let button;
 let beerImage, beer, beers, beerY;
-let min_tofu = 5;
 const max_beer=20, min_beer=10;
+let min_tofu = 5;
 let height_limit;
 
 function preload() {
   beerImage = loadImage("data/beer2.png");
 }
-
 function setup() {
   createCanvas(windowWidth, 600);
   height_limit = height/4; //a reference point for the table, beers and tofu
@@ -100,7 +99,7 @@ function setup() {
   button.mousePressed(addTofu);
   addBeers();
   for (let i=0; i<=min_tofu; i++) {
-    tofu[i] = new Tofu(floor(random(3,10)), 30, floor(random(height_limit+20,height_limit+115)), floor(random(30,35))); //create/construct a new object instance
+    tofu[i] = new Tofu(30); //create/construct a new object instance
   }
 }
 function draw() {
@@ -171,7 +170,7 @@ function checkBeer() { //check beer availability
       drawSprites();
 }
 function addTofu() {   //speed, xpos, ypos, size
-  tofu.push(new Tofu(floor(random(3,10)), floor(random(0,20)), floor(random(height_limit+20,height_limit+115)), floor(random(20,30))));  //only grey scale colors for newly added tofu
+  tofu.push(new Tofu(floor(random(0,20))));
 }
 function checkLoser() {
     if (tofu.length < min_tofu) {
@@ -183,10 +182,10 @@ tofu.js:
 
 ```javascript 
 class Tofu { //create a class: template/blueprint of objects with properties and behaviors
-    constructor(speed, xpos, ypos, size) { //initalize the objects
-    this.speed = speed;
-    this.pos = new createVector(xpos, ypos);  //check this feature: https://p5js.org/reference/#/p5/createVector
-    this.size = size;
+    constructor(xpos) { //initalize the objects
+    this.speed = floor(random(3,10));
+    this.pos = new createVector(xpos, floor(random(height_limit+20,height_limit+115)));  //check this feature: https://p5js.org/reference/#/p5/createVector
+    this.size = floor(random(30,35));
     this.toFu_rotate = random(0,PI/8); //rotate in clockwise for +ve no
     this.emoji_size = this.size/1.5;
     }
@@ -221,9 +220,8 @@ class Tofu { //create a class: template/blueprint of objects with properties and
     text('-',0+this.size/1.7, 0+this.size/1.9);
     text('。',0+this.size/8, 0+this.size/1.15);
     pop();
-  }
+  } 
 }
-
 ```
 ## class
 
@@ -243,25 +241,33 @@ class Tofu {
 
 }
 ```
-**(Step 2) Properties**: What are the (varying) attributes/properties of a Tofu?
+In the sample code above, we have Tofu as the class name and tofu as the name of object instances. The things within a class describes what it means to be the object, such as what are the properties, the data values, and behaviors and functionality. In computer science, this is called encapsulation.  
+
+**(Step 2) Properties**: What are the (varying) attributes/properties of a tofu?
 
 ```javascript
-class Tofu { 
-    constructor(speed, xpos, ypos, size) { //initalize the objects
-    this.speed = speed;
-    this.pos = new createVector(xpos, ypos);  //check this feature: https://p5js.org/reference/#/p5/createVector
-    this.size = size;
-    this.toFu_rotate = random(0,PI/8); //rotate in clockwise
+class Tofu { //create a class: template/blueprint of objects with properties and behaviors
+    constructor(xpos) { //initalize the objects
+    this.speed = floor(random(3,10));
+    this.pos = new createVector(xpos, floor(random(height_limit+20,height_limit+115)));  //check this feature: https://p5js.org/reference/#/p5/createVector
+    this.size = floor(random(30,35));
+    this.toFu_rotate = random(0,PI/8); //rotate in clockwise for +ve no
     this.emoji_size = this.size/1.5;
     }
 //something more here
 }
 ```
+The above style is to prepare an object construction. As such we have a function called constructor. Here the variable `xpos` is put inside the constructor function because this will be passed from other function in the `sketch.js` that have a line that actually instruct the class to make an object instance. It is similar to how a function pass argument from one to another. 
+
+Below the function constructor, there is a list of variables that indicate the properties of speed, position, size, roatating angle and the emoji's size of a tofu. All these properties are defined with the keyword `this`, which refers to the current object instance, e.g `    this.speed = floor(random(3,10));`. It can be translated roughly like this: when the object instance tofu is created, that particular tofu's speed will be a random integer between 3 to 10. 
+
+For the other variable `this.pos`, we have used the function `new createVector` to create the new p5 vector which contains the x and y component. With the `createVector` function, we can then use `pos.x` and `pos.y` to specify the x and y coordinates of a tofu. 
+
 **(Step 3) Behaviors**: What are the behaviors of the Tofu? 
 
 ```javascript 
 class Tofu {
-  constructor(speed, xpos, ypos, size) { //initalize the objects
+  constructor(xpos) { //initalize the objects
     // something here
   }
   move() {  //moving behaviors
@@ -273,12 +279,14 @@ class Tofu {
   }
 }
 ```
+The two behaviors `move()` and `show()` are the functions that can be used by each object instance. Each object can move differently with various speed, size, etc. 
+
 
 ## Objects
 
 For this section, we will illustrate how to create an object instance, which is coded in the file sketch.js. 
 
-**(Step 4) Object creation**: After the basic setup of the class structure, next is to create a Tofu object that can display on a screen. 
+**(Step 4) Object creation**: After the basic setup of the class structure, next is to create a tofu object that can display on a screen. 
 
 ```javascript
 let tofu = [];
@@ -287,17 +295,17 @@ let min_tofu = 5;
 function setup() {
  //something here
  for (let i=0; i<=min_tofu; i++) {
-   tofu[i] = new Tofu(floor(random(3,10)), 30, floor(random(height_limit+20,height_limit+115)), floor(random(30,35))); //create/construct a new object instance
+   tofu[i] = new Tofu(30); //create/construct a new object instance
  }
 }
 ```
-The above shows that the program will start off with 5 Tofus (which is also the minimum requirement of the game). 5 Tofus are created through a for-loop with various properties that are defined earlier in the pseudo class: speed, xpos, ypos, size. For this example, each of the property is generated from a random number range except the x position (xpos) as 30, which means the initial 5 Tofus are all started at 30 pixel on x coordinate.  
+The above shows that the program will start off with 5 Tofus (which is also the minimum requirement of the game). 5 Tofus are created through a for-loop with the specific properties (in this case is the x position with the data value 30) that are defined earlier in the class: Tofu.  The initial 5 tofus are all started at 30 pixel on x coordinate, they have different properties (refer to step 2 above). 
 
 Specifically, we now look at the most important line here:
-`tofu[i] = new Tofu(speed, xpos, ypos, size);`
+`tofu[i] = new Tofu(30);`
 
 - tofu[i] refers to the new object instance and it starts with the index 0. 
-- new Tofu() refers to the action of creating the new object through passing the values into the class Tofu. 
+- new Tofu() refers to the action of creating the new object through passing the data value(s) into the class Tofu. 
 
 **(Step 5) Display**: How you want to display and present them over time?
 
@@ -320,13 +328,13 @@ function draw() {
  }
 }
 ```
-Since the program is running over time in the draw() function, which means the Tofu will be continuously moving and displaying, as well as disappearing on the screen once a Tofu reaches the edge of the table. Hence, there are some calculation behind for every frame such as the x position in particular. An object has behaviors, which can perform action(s) in different ways. We have created two behaviors earlier in the class section: move() and show().
+Since the program is running all the time in the draw() function, which means the tofu(s) will be continuously moving and displaying, as well as disappearing on the screen once a tofu reaches the edge of the table. Hence, there are some calculation behind for every frame such as the x position in particular that is derived from the speed and the previous position.  
 
 ```javascript
 tofu[i].move();
 tofu[i].show();
 ```
-The two important lines here are used to tell the computer to move the and show the tofus. The number of total tofu would be depended on how many objects have been created. You can check the amount of objects by using `tofu.length` and update each tofu with a for-loop. 
+The two important lines above instruct the tofu(s) to move and show on a screen. The number of total tofu would be depended on how many objects have been created. You can check the amount of objects by using `tofu.length` and update each tofu with a for-loop. 
 
 **(Step 6) Trigger point**: Think with the holistic logic
 
@@ -334,15 +342,15 @@ The two important lines here are used to tell the computer to move the and show 
 
 ```javascript
 function addTofu() {   //speed, xpos, ypos, size
-  tofu.push(new Tofu(floor(random(3,10)), floor(random(0,20)), floor(random(height_limit+20,height_limit+115)), floor(random(20,30)))); 
+  tofu.push(new Tofu(floor(random(0,20))));
 }
 ```
 
-- Think about if objects will be forever stayed on a screen, will they disappear on a screen? As mentioned that the specific tofu object will no longer be used when it reaches the end of the table, therefore, we use the function `splice()` [^splice] to remove the objects when the object's x position is greater than the width of the screen (that is the table's width). 
+Think about if objects will be forever stayed on a screen, will they disappear on a screen? As mentioned that the specific tofu object will no longer be used when it reaches the end of the table, therefore, we use the function `splice()` [^splice] to remove the objects when the object's x position is greater than the width of the screen (that is the table's width). 
 
-## Class-Object in a nutshell 
+## Class-Object creation
 
-It requires some planning before you start coding if you want to implement class-object in your own program. In a nutshell, an object consists of attributes/properties and actions/behaviors, and all these hold and manage data in which the data can be executed and operation can be carried out. 
+It requires some planning before you start coding if you want to implement class-object in your own program. In a nutshell, an object consists of attributes/properties and actions/behaviors, and all these hold and manage data in which the data can be used and operation can be performed. 
 
 - **(Step 1) Naming**: Give a name of your class
 - **(Step 2) Properties**: What are the attributes/properties of a Tofu?
@@ -353,17 +361,19 @@ It requires some planning before you start coding if you want to implement class
 
 ## Exercise in class
 
-1. Tinkering - add features and behaviors 
+1. Tinkering 
+- modify the numbers, colors
+- add features and behaviors to existing sample code
 
 2. Discussion in Groups:
 
 - Try to discuss a game that you are familiar with and describe the characters/objects by using the concept and vocabulary of class and object. Can you identify the classes and objects within the chosen game?
 
-- What powers computational objects have? (Fuller and Goffey 2017)
-
-- What does it mean by object orientation as a sociotechnical practice? (Fuller and Goffery 2017)
+- The creation of objects require the concept of abstraction, where Fuller and Goffey (2017) argue that such object orientation is a sociotechnical practice and computational objects exhibit power. Can you use the sample code or your game as an example to articulate that? 
 
 ## Further notes
+
+We choose to discuss the class-object creation in greater details in this chapter with the step by step approach. The sample code also include other built-in and customized objects as a whole game. 
 
 **Button:** The button in this chapter is similar to previous one in Data Capture, which is to define the global variable `button`, then create the button with text and add the style such as background color, padding and font-size (in the style of CSS). A function called `addTofu` is created to push for new object creation when the button is clicked.  
 
@@ -375,15 +385,13 @@ A game: The program is a game with the game over scene as the ending shot. `chec
 
 ## While()
 
-By going through the tofu example, we can see object oriented programming is highly organized and concrete even though objects are abstracted and imagined from the world. Fuller and Goffey suggest that this kind of modeling of the world is a socialtechnical practice, as they put it "compressing and abstracting relations operative at different scales of reality, composing new forms of agency", and such agency lies at the computational and material arrangement of everyday encounters. They produce a different perspective that affect how we perceive the world. Who design the objects? We are indeed entering the mind of the programmer/designer who has their own worldview. Game may be a good example especially the apparent persistent sexualisation of female characters. The cultural implication is significant if we aware how much we interact with various objects, even just simply buttons, sliders, check box and each of the object has it own agency. 
+By going through the tofu example, we can see object oriented programming is highly organized and concrete even though objects are abstracted and imagined from the world. Fuller and Goffey suggest that this kind of modeling of the world is a socialtechnical practice, as they put it "compressing and abstracting relations operative at different scales of reality, composing new forms of agency", and such agency lies at the computational and material arrangement of everyday encounters. Computerized objects produce a different perspective that affect how we perceive the world. Who design the objects? We are indeed entering the mind of the programmer/designer who has their own worldview. Game may be a good example especially the apparent persistent sexualisation of female characters. The cultural implication is significant if we aware how much we interact with various objects, even just simply buttons, sliders, check boxes and each of the object has it own affordances and agency. 
 
-[g: not sure if it is good to incorporate below /w]
+[g: not sure if it is good to incorporate item 1 and 2 below but i think the idea of class from history - PD and workers union may be a good way to link with your marx + abstraction with the notion of class struggle ? /w]
 -  history of the concept of objects in the mid-1960s with Simula 67 created by Ole-Johan Dahl and Kristen Nygaard of the Norwegian Computing Center in Oslo. > A programming paradigm
 https://user-content.gitlab-static.net/38287337cdf9f32ae05de5b3d9d7037868960496/687474703a2f2f6a6f667261706573652e626c6f6769612e636f6d2f75706c6f61642f32303038303632373232313730302d6461686c2d6e7967616172642e6a7067
-- about working class and hireachy? but it is more than just create for efficiency. It is created with the perspective of participatory design in the context of utopia project that works witth workers' union to "bring technical process closer to non-specialist understanding" (Fuller and Goffey 2017) > re-use of code and operation: "it saves time and effort to be able to write the code once and re-use it in different programs" (Fuller and Goffey 2017)
+- about working class and hireachy? but it is more than just create for efficiency. It is created with the perspective of participatory design in the context of utopia project that works with workers' union to "bring technical process closer to non-specialist understanding" (Fuller and Goffey 2017 + Andersen and Pold's metainterface) > re-use of code and operation: "it saves time and effort to be able to write the code once and re-use it in different programs" (Fuller and Goffey 2017). 
 - Epistemologies
-
-other notes:
 - marx + abstraction
 - cooking and coding with class struggle (food and recipes, cultural difference)
 
