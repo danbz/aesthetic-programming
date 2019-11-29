@@ -381,7 +381,15 @@ We choose to discuss the class-object creation in greater details in this chapte
 
 **Beers:** The sample code uses p5.play library with the library functions of `createSprite()`, `addImage()`, `addtoGroup`, considering the beer as a sprite object that one can manipulate. The beer is an image technically and all the images can be added as a group. `checkBeer()` is a custom function to check for beer availability. As sprites with the built-in concept of objects, `remove()` is similar to `splice()`, removing those beers that have already reached the edge of the other side of the table. In a similar vein, beers are added if the program do not have enoguh of them on the table. That said, there is a logic of checking the availablity of beers. But for this chapter, it is more important to walkthrough the whole concept of object-oriented programming rather than using other library, as it will defeat the purpose of understanding the decision of each steps in terms of the creation of class and object instances with properties and behaviors. Having the beers in `p5.play` is more to give a sense of how different things can put together. 
 
-A game: The program is a game with the game over scene as the ending shot. `checkLoser()` is a function used to check how many tofus are remained. If they remain less than the required, then the "game over" text will be displayed. 
+**A game:** The program is a game with the game over scene as the ending shot. `checkLoser()` is a function used to check how many tofus are remained. If they remain less than the required, then the "game over" text will be displayed. 
+
+**Arithmetic operators:** There are new arithmetic syntax beyond simply `=`, `+`, `-`, `*`, `/`, such as `+=` in `tableX+=texture_width;` and `edgeX+=texture_width;`. See below list: 
+
+| Operator | Use case | Same as |
+|----------|----------|---------|
+| +=       | x+=y     | x=x+y   |
+| -=       | x-=y     | x=x-y   |
+
 
 ## While()
 
