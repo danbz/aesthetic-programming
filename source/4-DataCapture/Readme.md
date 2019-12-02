@@ -277,17 +277,16 @@ So-called smart devices like our computers, phones and other gadgets are commonl
 *Figure 4.6: Screenshot of Voice & Audio activity*
 
 ### 4.9.5 Health tracker 
-Within the domain of health care and well-being, one can find a growing trend of *self-tracking*. Data such as movement, steps, heart rate and even sleep patterns can be traced and analyzed easily with wearable devices and gadgets, such as the Fitbit or the Apple Watch. These *quantified self* practices — sometimes referred to as body hacking or self-surveillance — overlap with other trends that incorporate technology and data acquisition into daily life, often with the goal of improving physical, mental, and/or emotional performance. The idea of sleep quality ////////
-24/7/////////
-
+Within the domain of health care and well-being, one can find a growing trend of *self-tracking*. Data such as movement, steps, heart rate and even sleep patterns can be traced and analyzed easily with wearable devices and gadgets, such as the Fitbit or the Apple Watch. These *quantified self* practices — sometimes referred to as body hacking or self-surveillance — overlap with other trends that incorporate technology and data acquisition into daily life, as Jonathan Crary's book *24/7: Late Capitalism and the Ends of Sleep* testifies.[^Crary] The collapse of the distinction beteen day and night means that we are destined to produce at all times. If sleep was once thought to be the last refuge from capitalism where no value could be extracted, then this is no longer the case. Under late capitalism, temporality has been reconfigured and "there is a relentless incursion of the non-time of 24/7 into every aspect of social or personal life. There are, for example, almost no circumstances now that cannot be recorded or archived as digital imagery or information."[^Crary2] That sleep is datafied points to the extent to which our subjectivities have been captured too. 
 
 ![](ch4_5.png)
 
 *Figure 4.7: Screenshot of Sleep tracker*
 
-There are also many other kinds of data that can be captured, quantified and analyzed as part of life, work and play. In 2015, transmediale, an annual festival for art and digital culture in Berlin, posted a call for works on such theme, addressing the culture's pervasive logic of CAPTURE ALL and its quantificaton of life, work and play. Some interesting questions worth to think about: "Are there still modes of being that resist the imperative of digital capitalism to CAPTURE ALL or is there no option but to play along? If so, are there artistic strategies and speculative approaches that do not play this game of quantification by the numbers? What are the blind spots and gaps of relentless quantification and gamification that can be exploited in order to carve out new ways of living?" [ref: See https://transmediale.de/content/call-for-works-2015]
-
 ## 4.10 While()
+
+Our personal and professional lives are fully enmeshed in various processes of datafication. In 2015, transmediale, an annual festival for art and digital culture in Berlin, posted a call for works on this theme, addressing the culture's pervasive logic of CAPTURE ALL and its quantificaton of life, work and play. The call included some pertinent questions worth further consideration: "Are there still modes of being that resist the imperative of digital capitalism to CAPTURE ALL or is there no option but to play along? If so, are there artistic strategies and speculative approaches that do not play this game of quantification by the numbers? What are the blind spots and gaps of relentless quantification and gamification that can be exploited in order to carve out new ways of living?" [ref: See https://transmediale.de/content/call-for-works-2015]
+
 
 [unsorted notes /g]
 *datafication*. As such we refer to the ways in which all aspects of our life seem to be turned into data which is subsequently transferred into information realised as a new form of value.
@@ -355,7 +354,7 @@ facial recognition//// don't take things at face value.
 [^Hide]: Laurie Clarke, "Why hiding likes won’t make Instagram a happier place to be", *Wired*, 19 July 2019, https://www.wired.co.uk/article/instagram-hides-likes.  
 [^Grosser]: See Grosser's Demetricator series of artworks: *Facebook Demetricator*, https://bengrosser.com/projects/facebook-demetricator/; *Instagram Demetricator*, https://bengrosser.com/projects/instagram-demetricator/; *Twitter Demetricator*, https://bengrosser.com/projects/twitter-demetricator/.
 [^Facebook3]: Sauvik Das and Adam D. I. Kramer, "Self-censorship on Facebook", AAAI Conference on Weblogs and Social Media (ICWSM), 2 July 2013, https://research.fb.com/publications/self-censorship-on-facebook/.
-
-
+[^Crary]: Jonathan Crary, *24/7: Late Capitalism and the Ends of Sleep*, London: Verso, 2013. 
+[^Crary2]: Ibid. 30–31. 
 
 
