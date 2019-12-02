@@ -285,10 +285,12 @@ Within the domain of health care and well-being, one can find a growing trend of
 
 ## 4.10 While()
 
+That sleep is datafied points to the extent to which our subjectivities have been captured too. 
+
 [unsorted notes /g] 
 Our personal and professional lives are fully enmeshed in various processes of datafication. *datafication*. As such we refer to the ways in which all aspects of our life seem to be turned into data which is subsequently transferred into information realised as a new form of value.
 
-That sleep is datafied points to the extent to which our subjectivities have been captured too. 
+
 
 In 2015, transmediale, an annual festival for art and digital culture in Berlin, posted a call for works on this theme, addressing the culture's pervasive logic of CAPTURE ALL and its quantificaton of life, work and play. The call included some pertinent questions worth further consideration: "Are there still modes of being that resist the imperative of digital capitalism to CAPTURE ALL or is there no option but to play along? If so, are there artistic strategies and speculative approaches that do not play this game of quantification by the numbers? What are the blind spots and gaps of relentless quantification and gamification that can be exploited in order to carve out new ways of living?" [ref: See https://transmediale.de/content/call-for-works-2015]
 
@@ -355,7 +357,6 @@ facial recognition//// don't take things at face value.
 [^Hide]: Laurie Clarke, "Why hiding likes won’t make Instagram a happier place to be", *Wired*, 19 July 2019, https://www.wired.co.uk/article/instagram-hides-likes.  
 [^Grosser]: See Grosser's Demetricator series of artworks: *Facebook Demetricator*, https://bengrosser.com/projects/facebook-demetricator/; *Instagram Demetricator*, https://bengrosser.com/projects/instagram-demetricator/; *Twitter Demetricator*, https://bengrosser.com/projects/twitter-demetricator/.
 [^Facebook3]: Sauvik Das and Adam D. I. Kramer, "Self-censorship on Facebook", AAAI Conference on Weblogs and Social Media (ICWSM), 2 July 2013, https://research.fb.com/publications/self-censorship-on-facebook/.
-[^Crary]: Jonathan Crary, *24/7: Late Capitalism and the Ends of Sleep*, London: Verso, 2013. 
-[^Crary2]: Ibid. 30–31. 
+[^Crary]: Jonathan Crary, *24/7: Late Capitalism and the Ends of Sleep* (London: Verso, 2013), 30–31. 
 
 
