@@ -44,7 +44,7 @@ Discussion:
 - [Open Processing with the search keyword 'generative'](https://www.openprocessing.org/browse/?q=generative&time=anytime&type=all#)
 - [John Conway's Game of Life](http://web.stanford.edu/~cdebs/GameOfLife/)
 
-** Tasks (RUNME):**
+**Tasks (RUNME):**
 1. Start with a blank paper. Think of at least three simple rules that you want to implement in a generative program. (You may take reference from Langton's ant (1986) and The Game of Life (1970))
 2. Based on the rules that you set in step 1, then design a generative program that utilizes at least one for-loop/while-loop and one conditional statement but without any direct interactivity. Just let the program runs and emerges automatically.(You may also consider to use noise() and random() syntax)
 
