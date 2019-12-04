@@ -17,7 +17,7 @@ It was mathematician and writer Augusta Ada Byron Lovelace who first introduced 
 
 The idea of a loop in contemporary programming is highly influenced by these early insights into the handling of repeated machine operations expressed in a diagramatic manner. High-level programming languages such as `p5.js` include a loop function, allowing a fragment of source code to be repeatedly executed, as in the example of the `draw()` function that will run continuously until the program is stopped. We will continue with further examples but suffice to say that loops are among the most basic and powerful of programming concepts.
 
-The example we use centrally in this chapter is the graphical spinning wheel icon of a so-called 'throbber'[^throbber] that indicates when a computer program is performing an action such as downloading content or performing intensive calculations. We find this to be an evocative symbol as it stands for the hidden processes and the complexity of multiple temporalities that are running during any given computational operation. We use this to guide the programming tasks, but also because it acts as a suitable cultural object for us to think through the idea of loops more conceptually. 
+The example we use centrally in this chapter is the graphical spinning wheel icon of a preloader or so-called 'throbber'[^throbber] that indicates when a computer program is performing an action such as downloading content or performing intensive calculations. We find this to be an evocative symbol as it stands for the hidden processes and the complexity of multiple temporalities that are running during any given computational operation. We use this to guide the programming tasks, but also because it acts as a suitable cultural object for us to think through the idea of loops more conceptually. 
 
 #### 3.1.1 Start()
 We usually encounter the ubiquitous spinning icon during the loading and streaming of data content. It shows that a certain operation is in progress, but what exactly is happening and how long this will take is not at all clear. There is no indication of progress or status — as with a progress bar for instance. We see the icon spinning but it explains little about the background activities or timespan. By learning to program a throbber — and in turn *Asterisk Painting* by John P. Bell that creates a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started — the idea is to gain insight into the way programming employs loop structures, and at the same time better understand some of the temporal operations of computational processes.  
@@ -465,11 +465,12 @@ Making reference to Martin Heidegger’s ‘being-in-time’,[^Heidegger] and th
 
 Check out other works that refer to the throbber and how other people contextualize their thinking:  
 
-- [Loading](https://festivalenter.wordpress.com/2009/04/09/electroboutique-by-alexei-shulgin-roman-minaev-aristarkh-chernyshev/) by Electroboutique:
-- [LOADING (THE BEAST 6:66/20:09)](https://www.yugo.at/processing/archive/index.php?what=loading) by Gordan Savičić
+- [Loading](https://festivalenter.wordpress.com/2009/04/09/electroboutique-by-alexei-shulgin-roman-minaev-aristarkh-chernyshev/) by Electroboutique.
+- [LOADING (THE BEAST 6:66/20:09)](https://www.yugo.at/processing/archive/index.php?what=loading) by Gordan Savičić.
 - [Fedora’s artwork team](https://fedoraproject.org/wiki/Artwork/ArtTeamProjects/Fedora7Remix/Rhgb/Throbber) produces a series of throbber images that put emphasis on the design of spinning.
-- [DVD guy by Constant Dullaart](https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB), with the contextualization by Panke Gallery in Berlin http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin 
-- [Throb 2018. 2019 by Winnie Soon](http://siusoon.net/throb/)
+- [The Best is Yet to Come](https://silviolorusso.com/work/the-best-is-yet-to-come/) by Silvio Lorusso, preloaders follow one another randomly and endlessly. 
+- [DVD guy by Constant Dullaart](https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB), with the contextualization by Panke Gallery in Berlin http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin. 
+- [Throb 2018/2019](http://siusoon.net/throb/) by Winnie Soon.
 
 **Task (RUNME):**
 - Redesign and program an *animated* throbber.
