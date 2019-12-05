@@ -8,21 +8,20 @@ In the previous chapters, we have worked with different objects such as geometri
 
 Object Abstraction in computing is about representation. Certain attributes and relations are abstracted from the real world, but at the same time details and contexts are left out. It is understood that objects in real world are complex and nonlinear. For example, Tofu, originated in China with over 2000 years, is a food made of soybean. Through soaking and grinding soybeans, as well as filering out remaining particulates, it becomes something known as soymilk, containing stable emulsion of oil, water, and protein. Such condensed soymilk is pressed into solid white blocks with varying softness as Tofu in a process similar to cheesemaking. The process of making Tofu involves different labour and machinic processes. It is an important food product specifically in the East, not only because of its protein richness but also as a cultural symbol. When Tofu becomes a game object, like in [Tofu Go](https://www.dbdbking.com/Tofu-Go) that is developed and designed by Francis Lam (HK/CN) [^francis], it is inevitably required to abstract the complexity of processes and relations, representing essential and desired elements. In the game, Tofu is designed as a white 3-d cube form with an emoticon, and it could also move and jump. Of course in the real world Tofu cannot behave in that way, but one can imgine how objects can be performed differently when you program your own software. 
 
-Abstraction is one of the key concepts of object-oriented programming (OOP). Its main goal is to handle object's complexity by presenting and abstracting certain details to the users via representing a concrete model. Fazi and Fuller discuss such concreteness of abstracted computation [^Fazi], they said "Computation not only abstracts from the world in order to model and represet it; through such abstractions, it also partakes in it." If we recall the previous chapter of Data Capture with many different contemporary examples of tracking forms and data input capturing, it becomes clear that computation with material agency, in a wider cultural context, shaping a particular urban life and facilitating capitalistic metrification and datafication. In other words, objects in OOP are not only about negotiating with the real world as a form of realism and representation nor the formal logics that compose and design the objects, but also as a "contingent, real process" that "re-actualised by the interactions between and with the computational" that form a border set of relations. [^Fuller] 
+Abstraction is one of the key concepts of Object-Oriented Programming (OOP). Its main goal is to handle object's complexity by presenting and abstracting certain details to users via representing a concrete model. Beatrice Fazi and Matthew Fuller discuss such concreteness of abstracted computation [^Fazi], and they said "Computation not only abstracts from the world in order to model and represet it; through such abstractions, it also partakes in it." If we recall the previous chapter of Data Capture with many different contemporary examples of tracking forms and data input capturing, it becomes clear that computation with material agency, in a wider cultural context, shaping a particular urban life and facilitating capitalistic metrification and datafication. In other words, objects in OOP are not only about negotiating with the real world as a form of realism and representation nor the formal logics that compose and design the objects, but also as a "contingent, real process" that "re-actualised by the interactions between and with the computational" that form a border set of relations. [^Fuller] 
 
-Indeed, abstraction exists in many different layers and scales of computing. The everyday use of computers consist of a binary system to process data and information. At the lowest level of abstraction, the flow of information is stored, processed and represented in the form of the binary (base 2 number system) number of zeros and ones, including text, images, video and sound. [^binary] In other words, the way how we as human understand these multimedia formats is different from how a computer to process them as data (or more precisely as the binary number) including pixels, color values and waveforms. In this way, abstraction is all over in computing from lower level like machine code and electric circuit to higher level like graphical user interface and interaction. The farther away from the machine language of the computer, we call this as high-level abstraction including the programming language, `p5.js` that we use in the book. 
+Indeed, abstraction exists in many different layers and scales of computing. The everyday use of computers consist of a binary system to process data and information. At the lowest level of abstraction, the flow of information is stored, processed and represented in the form of the binary (base 2 number system) number of zeros and ones, including text, images, video and sound. [^binary] In other words, the way how we as human understand these multimedia formats is different from how a computer to process them as data (or more precisely as the binary number) including pixels, color values and waveforms. In this way, abstraction is all over in computing from a lower level like machine code and electric circuit to a higher level like graphical user interface and interaction. The farther away from the machine language of the computer, we call this as high-level abstraction including the programming language `p5.js` that we use in the book. 
 
-In general, abstraction, as a fundamental concept of computing, hides details of how a computer work physically with logic gates in a binary system as well as reducing the complexity of computer operations (such as copying and deleting files) to users. But for this chapter, it will specifically focus on object abstraction, which is an approach in object oriented programming, to think conceptually about how do objects model real or imaginary world. 
+In general, abstraction, as a fundamental concept of computing, hides details of how a computer work physically with logic gates in a binary system as well as reducing the complexity of computer operations (such as copying and deleting files) to users. But for this chapter, it will specifically focus on object abstraction, which is an approach in OOP, to think conceptually about how do objects model real or imaginary world. 
 
 ## 5.1.1 Start()
 
-Before we go on to use *ToFu Go!* as the continuous example. Let's step back a little in which we try to think about a person as an object and to consider what might be the properties and behaviors of that person. We use the name **class** to give an overview of the object's properties and behaviors. 
-
+Before we go on to use *ToFu Go!* as the continuous example in this chapter. Let's try to think of a person as an object first and to consider what might be the properties and behaviors of that person. We use the name **class** to give an overview of the object's properties and behaviors. 
 For example:
 
-**Properties**: A person with the **name** called Yondi, in which they have brown **hair color**, **wears** glasses with **height** as 165 cm. Their **favorite color** is blue and they to **eat** Tofu.  
+**Properties**: A person with the **name** called Yondi, in which they have brown **hair color**, **wears** glasses with **height** as 165 cm. Their **favorite color** is blue and their **favorite food** is Tofu.  
 
-**Behavior** A person can run from location A (train station) to location B (bus stop). 
+**Behavior**: A person can run from location A (train station) to location B (bus stop). 
 
 From the above, we can construct a pseudo class that can use to create an object with the following properties and behaviors:
 
@@ -45,9 +44,9 @@ In the same token, we can *reuse* the same properties and behavior to create ano
 | ToLocation = Bus stop        | ToLocation = Home         |
 | run()                        | run()                     |
 
-From the pseudo object, we start to see how abstraction takes place in computation as *computerized material*, in which we only select properties and behaviors that we think is important in a program. This is a way of modeling/representing physical phenomena, simulating the behaviors of either a real or imaginary part of the world [^Madsen]. 
+From the pseudo object, we start to see how abstraction takes place in computation as *computerized material*, in which we only select properties and behaviors that we think is important to be represented in a program. This is a way of modeling/representing physical phenomena, simulating the behaviors of either a real or imaginary part of the world [^Madsen]. 
 
-After the brief example of modeling the person object, we will then move to the example that is inpsired by the game *ToFu go!*.
+After the brief example of modeling the person object, we now move to the example that is inpsired by the game *ToFu go!*.
 
 ![tofu go](ch5_1.png)
 
@@ -225,14 +224,16 @@ class Tofu { //create a class: template/blueprint of objects with properties and
 ```
 ## class
 
-To first construct objects in object-oriented programming, it is important to have a blueprint. A class specifies the structure of its objects' attributes and the possible behaviors/actions of its objects. Therefore, it is like a template and blueprint of things.  
+To first construct objects in OOP, it is important to have a blueprint. A class specifies the structure of its objects' attributes and the possible behaviors/actions of its objects. Therefore, classs can be understood as a template and blueprint of things.  
 
-To use the similar template that we had for a person object (You may refer to Tofu.js with the full source code), we have the followings:
+Similar to the template that we had for a person object, we have the followings:
 
 |Tofu                                              |
 | ------------------------------------------------ |
 | speed, xpos, ypos, size, toFu_rotate, emoji_size |
 | move(), show()                                   |
+
+You may refer to Tofu.js with the full source code on how the Tofu class is constructed.
 
 **(Step 1) Naming**: Give a name of your class
 
@@ -369,7 +370,7 @@ It requires some planning before you start coding if you want to implement class
 
 - Try to discuss a game that you are familiar with and describe the characters/objects by using the concept and vocabulary of class and object. Can you identify the classes and objects within the chosen game?
 
-- The creation of objects require the concept of abstraction, where Fuller and Goffey (2017) argue that such object orientation is a sociotechnical practice and computational objects exhibit power. Can you use the sample code or your game as an example to articulate that? 
+- The creation of objects require the concept of abstraction, where Fuller and Goffey (2017) argue that such object orientation is a sociotechnical practice and computational objects exhibit power. Can you use the sample code or your game as an example to think through what it means by power relations and abstracted objects? 
 
 ## Further notes
 
