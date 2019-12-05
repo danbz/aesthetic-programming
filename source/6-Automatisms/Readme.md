@@ -11,6 +11,8 @@ The turing machine identifies 6 types of fundamental operations in the abstract 
 
 ![turing](ch6_1.jpg)
 
+*Figure 6.1: An illustration of the Turing Machine*
+
 This chapter focuses on rules, and how rules are the fundamental elements in a system. You might argue that the previous chapter on game object is also about rules such as how the tofus and beers should be moved and appeared. It is true though but the last chapter was more focused on the notion of abstraction and this chapter will be less on interacting with abstracted objects but on rules in which an autonomous system is generated over time. 
 
 In 2015, an exhibition called "Logical Conclusions: 40 Years of Rules-Based Art" took place in New York, showcasing not computer art but instead a wide range of conceptual artist' works from the 20th century. Many of the works were based on or derived from mathematics and logics, but at the core of this chapter would be to the extent that the system allows the author to give more agency to the rules so as to produce the artefact. It is not simply a direct instruction of something like to draw an ellipse in white color at the x and y coordinate 100 and 120 respectively. Clearly, the person who has written this instruction has a full control on what would be the outcome in a very precise manner and this specific rule does not allow the program to emerge and create something different. In the following sections, we will explore two examples of rule-based programs to unfold the thinking of agency and control. 
@@ -106,4 +108,4 @@ Discussion:
 - [p5.js Coding Challenge #76: Recursion by Daniel Shiffman](https://www.youtube.com/watch?v=jPsZwrV9ld0)
 
 ## Notes
-
+[^Turing]: Turing, Alan Mathison. "On computable numbers, with an application to the Entscheidungsproblem." Proceedings of the London mathematical society 2.1 (1937): 230-265.
