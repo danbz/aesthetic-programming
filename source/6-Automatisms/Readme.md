@@ -17,14 +17,14 @@ This chapter focuses on rules, and how rules are the fundamental elements in a s
 
 In 2015, an exhibition called "Logical Conclusions: 40 Years of Rules-Based Art" took place in New York, showcasing not computer art but instead a wide range of conceptual artist' works from the 20th century. Many of the works were based on or derived from mathematics and logics, but at the core of this chapter would be to the extent that the system allows the author to give more agency to the rules so as to produce the artefact. It is not simply a direct instruction of something like to draw an ellipse in white color at the x and y coordinate 100 and 120 respectively. Clearly, the person who has written this instruction has a full control on what would be the outcome in a very precise manner and this specific rule does not allow the program to emerge and create something different. In the following sections, we will explore two examples of rule-based programs to unfold the thinking of agency and control. 
 
-[g: do you want to mention sol lewitt?]
-[g: perhaps need to link this rule-based art into authorship ? ]
+[g: do you want to mention sol lewitt? and perhaps need to link this rule-based art into authorship ? ]
 - ideas as form 
-- Focus on rules, orders, chaos, emergent behaviors 
+- Focus on rules, orders, chaos, emergent behaviors ?
 - the recode project 
 - Generators and other automatisms (genotypes), love letter generators
 
 ## start()
+Two sample code will be provided in this chapter. The first one is the 
 
 - 10 print
 - Langton ant 
@@ -82,6 +82,7 @@ Discussion:
 - [GenArt (with source code)](https://github.com/JosephFiola/GenArt) by JosephFiola, see ch.1-4
 - [Open Processing with the search keyword 'generative'](https://www.openprocessing.org/browse/?q=generative&time=anytime&type=all#)
 - [John Conway's Game of Life](http://web.stanford.edu/~cdebs/GameOfLife/)
+- [The recode project](http://recodeproject.com/)
 
 **Tasks (RUNME):**
 1. Start with a blank paper. Think of at least three simple rules that you want to implement in a generative program. (You may take reference from Langton's ant (1986) and The Game of Life (1970))
