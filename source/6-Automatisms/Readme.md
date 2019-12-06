@@ -31,19 +31,18 @@ Another example is Joan Truckenbrod who have showned her work *Coded Algorithmic
 
 *Figure 6.3: Joan Truckenbrod,Coded Algorithmic Drawing, 1975*
 
-Rules and instructions are highly interesting, which is not only because of having a different way of creative drawing, but also how a sketch can be produced which is based on or derived from mathematics and logics in which to give more agency to the rules. It is not simply a direct instruction of drawing something like having an ellipse in white color at the x and y coordinate 100 and 120 respectively. Clearly, this instruction has a full control on what would be the outcome in a very precise manner and this specific rule does not allow the program to emerge and create something different. This idea of agency and the matter of control is how Philip Galanter hightlighted in defining generative art, as he puts it [^galanter],
+Rules and instructions are highly interesting, which is not only because of having a different way of creative drawing, but also how a sketch can be produced which is based on or derived from mathematics and logics in which to give more agency to the rules. It is not simply a direct instruction of drawing something like having an ellipse in white color at the x and y coordinate 100 and 120 respectively. Clearly, this instruction has a full control on what would be the outcome in a very precise manner and this specific rule does not allow the program to emerge and create something different. This idea of agency and the matter of control is how Philip Galanter hightlighted when defining generative art, as he puts it [^galanter],
 > Generative art refers to any art practice where artists use a system, such as a set of natural languages, rules, a computer program, a machine, or other procedural invention, which is set into motion with some degree of autonomy contributing to or resulting in a completed work of art.
 
 In the following sections, we will explore two examples of rule-based programs to unfold the thinking of agency and control. 
 
-[g: do you want to mention sol lewitt? and perhaps need to link this rule-based art into authorship ? ]
+[g: do you want to mention sol lewitt? and perhaps need to link this rule-based art into authorship ? or move to while() /w ]
 - ideas as form 
 - Focus on rules, orders, chaos, emergent behaviors ?
-- the recode project 
 - Generators and other automatisms (genotypes), love letter generators
 
 ## start()
-Two sample code will be provided in this chapter. The first one is the 
+Two sample code will be provided in this chapter. The first one is called *10 PRINT* which is based on one-line Commodore 64 BASIC program `10 PRINT CHR$(205.5+RND(1)); : GOTO 10` to generate endless pattern on a screen. It wasn't claimed to be an art piece, but instead this line of code was printed in the 1982 *Commodore 64 User's Guide* and later published on the web. This line of code also becomes an important example to demonstrate how to study code critically via history, science and culture. [^10print]   
 
 - 10 print
 - Langton ant 
@@ -140,3 +139,5 @@ Discussion:
 [^joan]: See more of her works here: http://joantruckenbrod.com/gallery/#
 
 [^galanter]: Galanter, P. (2003). *What is Generative Art? Complexity theory as a context for art theory*. In GA2003-6th Generative Art Conference Citeseer. 
+
+[^10print]: Montfort, Nick, et al. *10 PRINT CHR $(205.5+ RND (1));: GOTO 10.* MIT Press, 2012.
