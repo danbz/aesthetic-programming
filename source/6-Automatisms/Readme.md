@@ -36,13 +36,23 @@ Rules and instructions are highly interesting, which is not only because of havi
 
 In the following sections, we will explore two examples of rule-based programs to unfold the thinking of agency and control. 
 
-[g: do you want to mention sol lewitt? and perhaps need to link this rule-based art into authorship ? or move to while() /w ]
+[g: may be move some of the bits to start(), duno, and perhaps need to link this rule-based art into authorship ? or move to while() /w ]
 - ideas as form 
 - Focus on rules, orders, chaos, emergent behaviors ?
 - Generators and other automatisms (genotypes), love letter generators
 
 ## start()
-Two sample code will be provided in this chapter. The first one is called *10 PRINT* which is based on one-line Commodore 64 BASIC program `10 PRINT CHR$(205.5+RND(1)); : GOTO 10` to generate endless pattern on a screen. It wasn't claimed to be an art piece, but instead this line of code was printed in the 1982 *Commodore 64 User's Guide* and later published on the web. This line of code also becomes an important example to demonstrate how to study code critically via history, science and culture. [^10print]   
+Two sample code will be provided in this chapter. The first one is called *10 PRINT* which is based on one-line program code that is written in BASIC programming language that was executed in Commodore 64, an early home homputer model: `10 PRINT CHR$(205.5+RND(1)); : GOTO 10` to generate endless pattern on a screen. It wasn't claimed to be an art piece, but instead this line of code was printed in the 1982 *Commodore 64 User's Guide* and later published on the web. This line of code also becomes an important example in the field of software studies to demonstrate how to study code critically via history, science and culture. [^10print] This 10 PRINT in `p5.js` is mainly to let you familiar with rules and its creative potential to allow the program to set some degree of autonomy.  
+
+The second program is called Langton's Ant which is invented by a computer scentist Christopher Gale Langton, who is considered the father of the concept of Artificial life, in 1986. The core different with the *10 PRINT* is to discuss complex system and emergent behavior through simple rules, thinking about automated simulation as a Turing machine. 
+
+
+## Exercise in class
+
+- execise in class 
+- screenshot 
+- showcase different variation 
+- understanding the concept of rules 
 
 - 10 print
 - Langton ant 
