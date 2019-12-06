@@ -291,9 +291,9 @@ Under late capitalism, temporality itself seems to have been captured, and "ther
 
 ## 4.10 While()
 
-That sleep is datafied seems to point to the extent to which our subjectivities have been captured too. But it's not quite that simple. As we have discussed in this chapter our personal and professional lives are fully enmeshed in various processes of datafication, a term that indicates how data is subsequently transferred into information as a new form of value. In this last section we will try to unpack this a little more and in particular this notion of value especially in the context of the flow of data that we call 'big data' and the algothms that attempt to make sense of this level of abstraction. 
+That sleep is datafied seems to point to the extent to which our subjectivities have been captured too. 
 
-Some Marxist theory can help us make sense of this. The various techniques we have described can be understtod means of production, what Marx would refer to as 'fixed capital'. The value comes inasmuch as this can be turned into exchange value, in other words monetised.  
+But it's not quite that simple. As we have discussed in this chapter our personal and professional lives are fully enmeshed in various processes of datafication, a term that indicates how data is subsequently transferred into information as a new form of value. In this last section we will try to unpack this a little more and in particular this notion of value especially in the context of the flow of data that we call 'big data' and the algorithms that attempt to make sense of this level of abstraction. Some Marxist theory can help us make sense of this. The various techniques we have described can be understood means of production, what Marx would refer to as 'fixed capital'. The value comes inasmuch as this can be turned into exchange value, in other words monetised. To see this as simply the labour of users being captured and value stolen misses the point, as Tiziana Terranova has pointed out in line with Marx, that rather than indic=visual user needed recompensation, it is the larger social power that needs to be considered.[^Terranova]    
 
 
 
@@ -368,5 +368,6 @@ facial recognition//// don't take things at face value.
 [^Grosser]: See Grosser's Demetricator series of artworks: *Facebook Demetricator*, https://bengrosser.com/projects/facebook-demetricator/; *Instagram Demetricator*, https://bengrosser.com/projects/instagram-demetricator/; *Twitter Demetricator*, https://bengrosser.com/projects/twitter-demetricator/.
 [^Facebook3]: Sauvik Das and Adam D. I. Kramer, "Self-censorship on Facebook", AAAI Conference on Weblogs and Social Media (ICWSM), 2 July 2013, https://research.fb.com/publications/self-censorship-on-facebook/.
 [^Crary]: Jonathan Crary, *24/7: Late Capitalism and the Ends of Sleep* (London: Verso, 2013), 30–31. 
+[^Terranova]: Tiziana Terranova, "Red Stack Attack! Algorithms, Capital and teh Automation of the Common", *Euronomade*, 8 March 2014, ?????????????????? http???????
 
 
