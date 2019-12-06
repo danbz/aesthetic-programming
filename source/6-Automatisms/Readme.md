@@ -5,17 +5,36 @@ page_order: 6
 
 ## setup() 
 
-Following the concept of object abstraction, this chapter introduces an abstract machine (also known as Turing machine) which is very much depended on rules and instructions to perform various operations. Mathematician and computer scientist Alan Turing who first described the Turing machine in his infamous article 'On Computable Numbers, with an Application to the Entscheidungsproblem' in 1936 [^Turing]. It is a theoretical model that describes how a machine works as a storage medium, processing input and producing output results in computation. 
+Following the concept of object abstraction before in making class blueprints and object instances, this chapter introduces the creation of rules and the study of automaton as a self-operating machine, which is widely known as an abstract machine or Turing machine. Mathematician and computer scientist Alan Turing who first described this kind of machines in his infamous article 'On Computable Numbers, with an Application to the Entscheidungsproblem' in 1936 [^Turing]. He uses the term *universal computing machine* to theorize a model that describes how a machine "can be used to computate any computatable sequence" [^Turing1] and this could be understood as how a machine operates, following a predetermined sequence of instructions that process input and produce output results. 
 
-The turing machine identifies 6 types of fundamental operations in the abstract machine (at that time there wasn't a thing called computer yet), including read, write, move to left, move to right, state change and halt. Turing demonstrated how an abstract machine can perform these operations via an endless tape and a set of conditional instructions. Those instructions determine the machine's state by moving the tape.  
+Specifically, the Turing machine is capable for 6 types of fundamental operations (at that time there wasn't a thing called computer yet), including read, write, move left, move right, change state and halt/stop. Turing suggested these operations can be performed via running an endless tape (acts like the memory/storage in a modern computer) with instructions like what symbols to read, what symbols to write as well as how to move. These instructions are fundamental to the Turing machine. [^visualization]  
 
 ![turing](ch6_1.jpg)
 
 *Figure 6.1: An illustration of the Turing Machine*
 
-This chapter focuses on rules, and how rules are the fundamental elements in a system. You might argue that the previous chapter on game object is also about rules such as how the tofus and beers should be moved and appeared. It is true though but the last chapter was more focused on the notion of abstraction and this chapter will be less on interacting with abstracted objects but on rules in which an autonomous system is generated over time. 
+This chapter focuses on instructions, and to explore how instructions are the fundamental elements in an automatic system. You might argue that the previous chapter on game object is also about rules such as how the tofus and beers should be moved and appeared. It is true though but the last chapter was more focused on the notion of abstraction and this chapter will be less on interacting with abstracted objects but on rules in which an autonomous system is generated over time. 
 
-In 2015, an exhibition called "Logical Conclusions: 40 Years of Rules-Based Art" took place in New York, showcasing not computer art but instead a wide range of conceptual artist' works from the 20th century. Many of the works were based on or derived from mathematics and logics, but at the core of this chapter would be to the extent that the system allows the author to give more agency to the rules so as to produce the artefact. It is not simply a direct instruction of something like to draw an ellipse in white color at the x and y coordinate 100 and 120 respectively. Clearly, the person who has written this instruction has a full control on what would be the outcome in a very precise manner and this specific rule does not allow the program to emerge and create something different. In the following sections, we will explore two examples of rule-based programs to unfold the thinking of agency and control. 
+Focusing on rules are not only something programmers do, artists are also interested in art that is based on instructions. Indeed, we can trace the use of rules back to the conceptual art movement in the 60s. An exhibition called *Programmed: Rules, Codes, and Choreographies in Art, 1965-2018* [^exhibition], organized by Christiane Paul in the Whitney Museum of American Art, showcasing pieces that are regarded as predecessors of computational art, and tracing how rules and instructions in art have both responded to and been shaped by technologies. Artist Sol Le Witt as one of the key figures in the conceptual art movement, demonstrating how a concept is based on a set of instructions but the outcome might be different and it depends on the person who adapts the instructions. For example, the work *Wall Drawing #289* consists of three simple instructions but without specifying the angles and length of the lines, as such each time this piece can be drawn differently:
+
+1. twenty-four lines from the center 
+2. Twelve lines from the midpoint of each of the sides
+3. Twelve lines from each corner 
+
+![drawing2](ch6_2.jpg)
+*Figure 6.2: Sol LeWitt, Wall drawing #289, 1976*
+
+Another example is Joan Truckenbrod who have showned her work *Coded Algorithmic Drawing (#9)* in the same show. The piece with a number of squares of variations in size and angle was coded with the programming language Fortran in the 1970s, simulating moving substance in natural phenomena.[^joan]
+
+
+![drawing3](ch6_3.png)
+
+*Figure 6.3: Joan Truckenbrod,Coded Algorithmic Drawing, 1975*
+
+Rules and instructions are highly interesting, which is not only because of having a different way of creative drawing, but also how a sketch can be produced which is based on or derived from mathematics and logics in which to give more agency to the rules. It is not simply a direct instruction of drawing something like having an ellipse in white color at the x and y coordinate 100 and 120 respectively. Clearly, this instruction has a full control on what would be the outcome in a very precise manner and this specific rule does not allow the program to emerge and create something different. This idea of agency and the matter of control is how Philip Galanter hightlighted in defining generative art, as he puts it [^galanter],
+> Generative art refers to any art practice where artists use a system, such as a set of natural languages, rules, a computer program, a machine, or other procedural invention, which is set into motion with some degree of autonomy contributing to or resulting in a completed work of art.
+
+In the following sections, we will explore two examples of rule-based programs to unfold the thinking of agency and control. 
 
 [g: do you want to mention sol lewitt? and perhaps need to link this rule-based art into authorship ? ]
 - ideas as form 
@@ -78,11 +97,12 @@ Discussion:
 - To reflect upon the concept of automatism conceptually and practically, such as systems, rules, temporality, emergence and processes.
 
 **To get some additional inspiration here:**
+- [{Software} Structure #003 A by Casey Reas](https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks)
 - [Generative Design - sketches](http://www.generative-gestaltung.de/2/), [soure code](https://github.com/generative-design/Code-Package-p5.js)
 - [GenArt (with source code)](https://github.com/JosephFiola/GenArt) by JosephFiola, see ch.1-4
 - [Open Processing with the search keyword 'generative'](https://www.openprocessing.org/browse/?q=generative&time=anytime&type=all#)
 - [John Conway's Game of Life](http://web.stanford.edu/~cdebs/GameOfLife/)
-- [The recode project](http://recodeproject.com/)
+- [The recode project](http://recodeproject.com/) or https://web.archive.org/web/20181227225001/http://www.recodeproject.com/
 
 **Tasks (RUNME):**
 1. Start with a blank paper. Think of at least three simple rules that you want to implement in a generative program. (You may take reference from Langton's ant (1986) and The Game of Life (1970))
@@ -110,3 +130,13 @@ Discussion:
 
 ## Notes
 [^Turing]: Turing, Alan Mathison. "On computable numbers, with an application to the Entscheidungsproblem." Proceedings of the London mathematical society 2.1 (1937): 230-265.
+
+[^Turing1]: ibid, 241.
+
+[^visualization]: A visualization of the Turing Machine can be tried here: https://turingmachine.io/.
+
+[^exhibition]: See https://whitney.org/exhibitions/programmed. 
+
+[^joan]: See more of her works here: http://joantruckenbrod.com/gallery/#
+
+[^galanter]: Galanter, P. (2003). *What is Generative Art? Complexity theory as a context for art theory*. In GA2003-6th Generative Art Conference Citeseer. 
