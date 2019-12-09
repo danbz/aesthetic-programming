@@ -289,7 +289,7 @@ So-called smart devices like our computers, phones and other gadgets are commonl
 ### 4.9.5 Health tracker 
 Within the domain of health care and well-being, one can find a growing trend of *self-tracking* which makes an excellent example of our willingness to provide data. Movement, steps, heart rate and even sleep patterns can be traced and analyzed easily with wearable devices and gadgets, such as the Fitbit or the Apple Watch. These practices of the *quantified self* — sometimes referred to as body hacking or self-surveillance — overlap with other trends that incorporate capture and data acquisition into all aspects of daily life. 
 
-Under late capitalism, temporality itself seems to have been captured, and "there is a relentless incursion of the non-time of 24/7 into every aspect of social or personal life. There are, for example, almost no circumstances now that cannot be recorded or archived as digital imagery or information."[^Crary] We quote from Jonathan Crary's book *24/7: Late Capitalism and the Ends of Sleep* which describes the collapse of the distinction between day and night, meaning we are destined to produce data at all times. If sleep was once thought to be the last refuge from capitalism where no value could be extracted, then this is clearly no longer the case and many of us happily monitor our sleep and share the data. 
+Under late capitalism, temporality itself seems to have been captured, and "there is a relentless incursion of the non-time of 24/7 into every aspect of social or personal life. There are, for example, almost no circumstances now that cannot be recorded or archived as digital imagery or information."[^Crary] We quote from Jonathan Crary's book *24/7: Late Capitalism and the Ends of Sleep* which describes the collapse of the distinction between day and night, meaning we are destined to produce data at all times. If sleep was once thought to be the last refuge from capitalism where no value could be extracted, then this is clearly no longer the case and many of us happily monitor our sleep and share the data.[^Crary2] 
 
 ![](ch4_5.png)
 
@@ -363,7 +363,8 @@ This is a reference to the philosophy of Gilbert Simondon, to the transformation
 [^Hide]: Laurie Clarke, "Why hiding likes won’t make Instagram a happier place to be", *Wired*, 19 July 2019, https://www.wired.co.uk/article/instagram-hides-likes.  
 [^Grosser]: See Ben Grosser's Demetricator series of artworks: *Facebook Demetricator*, https://bengrosser.com/projects/facebook-demetricator/; *Instagram Demetricator*, https://bengrosser.com/projects/instagram-demetricator/; *Twitter Demetricator*, https://bengrosser.com/projects/twitter-demetricator/.
 [^Facebook3]: Sauvik Das and Adam D. I. Kramer, "Self-censorship on Facebook", AAAI Conference on Weblogs and Social Media (ICWSM), 2 July 2013, https://research.fb.com/publications/self-censorship-on-facebook/.
-[^Crary]: Jonathan Crary, *24/7: Late Capitalism and the Ends of Sleep* (London: Verso, 2013), 30–31. 
+[^Crary]: Jonathan Crary, *24/7: Late Capitalism and the Ends of Sleep* (London: Verso, 2013), 30–31.
+[^Crary2]: Ibid. 10-11. 
 [^transmediale]: transmediale, *Capture All*, https://transmediale.de/content/call-for-works-2015.
 [^Terranova]: Tiziana Terranova, "Red Stack Attack! Algorithms, Capital and the Automation of the Common", *EuroNomade*, 2014. Available at http://www.euronomade.info/?p=2268
 [^Terranova2]: Ibid.
