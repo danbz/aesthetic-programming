@@ -47,6 +47,11 @@ Two sample code will be provided in this chapter. The first one is called *10 PR
 The second program is called Langton's Ant which is invented by a computer scentist Christopher Gale Langton, who is considered the father of the concept of Artificial life, in 1986. The core different with the *10 PRINT* is to discuss complex system and emergent behavior through simple rules, thinking about automated simulation as a Turing machine. 
 
 ## Exercise in class (10 PRINT)
+
+![drawing4](ch6_4.png)
+
+*Figure 6.4: 10 PRINT in p5.js*
+
 1. Read the source code of *10 PRINT* then copy it and run in your own computer.
 
 ```javascript
@@ -93,6 +98,12 @@ Langton's Ant, invented by Christopher Gale Langton [^Langton], is a classical m
 
 This section will present the sample code that simulate the states of the ant, presenting in a grid system with the state in either white or black color. The ant will move base on the simple rules, but it will turn into a more complex system and exhibit emergent behavior over time.
 
+![drawing5](ch6_5.gif)
+
+
+![drawing6](ch6_6.gif)
+
+![drawing7](ch6_7.png)
 
 
 ## Source code (Langton Ant)
