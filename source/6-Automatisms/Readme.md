@@ -46,18 +46,8 @@ Two sample code will be provided in this chapter. The first one is called *10 PR
 
 The second program is called Langton's Ant which is invented by a computer scentist Christopher Gale Langton, who is considered the father of the concept of Artificial life, in 1986. The core different with the *10 PRINT* is to discuss complex system and emergent behavior through simple rules, thinking about automated simulation as a Turing machine. 
 
-
-## Exercise in class
-
-- execise in class 
-- screenshot 
-- showcase different variation 
-- understanding the concept of rules 
-
-- 10 print
-- Langton ant 
-
-## Source Code (10 Print)
+## Exercise in class (10 PRINT)
+1. Read the source code of *10 PRINT* then copy it and run in your own computer.
 
 ```javascript
 let x = 0;
@@ -71,12 +61,10 @@ function setup() {
 
 function draw() {
   stroke(255);
-  if (random(1) <0.5) {  //probabilty
-    //line(0,0,10,10); //backward slash
+  if (random(1) <0.5) {  
     line(x,y,x+spacing,y+spacing);
   } else {
-    //line(0,10,10,0); //forward slash
-    line(x,y+spacing,x+spacing,y); //forward slash
+    line(x,y+spacing,x+spacing,y);
   }
   x+=10;
   if (x > width) {
@@ -86,6 +74,35 @@ function draw() {
   }
 }
 ```
+
+2. Discuss the following rules of *10 PRINT* and map the rules to the related lines of code:
+    1. Throw a dice randomly and half of the chance print a backward slash
+    2. The other half of the chance will print a forward slash
+
+3. Discuss the use and the role of randomness in this specific *10 PRINT* and in games/literature, and the arts?  
+
+4. Try to modify existing rules, for example: 
+    - Can we have more different outputs rather than the backward and forward slash?
+    - the size and color of slashes? 
+
+5. *10 PRINT* has been appropriated by many artists, designers and students. Take a look at the different possibilities of [*10 PRINT*](https://twitter.com/search?q=%2310print&src=typd) that is documented on Twitter. Your in-class task is to create a sketch with a clear set of rules and a modified version of the *10 PRINT*.  
+
+## Langton's Ant 
+
+Inspired by the Turing Machine, Langton's Ant, invented by Christopher Gale Langton [^Langton], is a classical mathematical game involving an ant, simulating the molecular logic of the ant's living state.   
+
+
+This ant has different states that is similar to the Turing machine. Christopher Gale Langton describes the details of the states and rules of the ant in his paper titled "Studying Artificial Life with Cellular Automata"  
+
+
+Christopher G. Langton. "Studying Artificial Life with Cellular Automata". Physica D, 22, 1986.
+
+The second program is called Langton's Ant which is invented by a computer scentist Christopher Gale Langton, who is considered the father of the concept of Artificial life, in 1986. The core different with the *10 PRINT* is to discuss complex system and emergent behavior through simple rules, thinking about automated simulation as a Turing machine. 
+
+
+Langton's ant is a mathematical game involving an ant who, after landing on a white square, turns right and changes the color of the square to black. If the ant lands on a black square, it turns left and changes the square's color to white. Below is an application that lets you play with a number of parameters and view the results of these two simple rules. Enter values of your choice and press 'Load'. Once your choices have been loaded, press the start button. Note that the upper left square is (0, 0), making the lower right (width - 1, height - 1). This application is most likely unstable. If something goes wrong, just refresh the page. 
+
+
 
 ## Source code (Langton Ant)
 
@@ -151,3 +168,6 @@ Discussion:
 [^galanter]: Galanter, P. (2003). *What is Generative Art? Complexity theory as a context for art theory*. In GA2003-6th Generative Art Conference Citeseer. 
 
 [^10print]: Montfort, Nick, et al. *10 PRINT CHR $(205.5+ RND (1));: GOTO 10.* MIT Press, 2012.
+
+[^Langton]: Langton, Christopher G. “Studying Artificial Life with Cellular Automata.” Physica D: Nonlinear Phenomena 22, no. 1–3 (October 1986): 120–49. https://doi.org/10.1016/0167-2789(86)90237-X.
+
