@@ -307,13 +307,6 @@ We can find some evidence of this in the social energies of the free and open so
 
 This is a reference to the philosophy of Gilbert Simondon, to the transformational process by which individuation — how a person or thing is identified as distinguished from other persons or things — is caught up with other individuations. There is no space (or need) to go into this in detail in this publication but for now simply to say that *transindividuation* describes this shift between the individual 'I' and collective 'We' and how they are transformed through one another.[^Stiegler] We hope something of this happens with this book project, already a collective endeavour, but also one that opens up further possibilities to produce new versions and socialities in its reworking. Of course this involves tinkering with the underlying codes and values associated with data capture and our ability to reinvent its main purpose. This is an open invitation to not only capture data but to unleash its potential.  
 
-[would be good to end with some pseudo code here /g - something like??]
-```
-function sleep(ms) {
-    return new Potential(resolve => setTimeout(resolve, ms));
-    }
-```
-
 ## 4.11 Mini_Exercise[4]: Capture All
 
 **Objective:**
