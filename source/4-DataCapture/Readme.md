@@ -337,10 +337,9 @@ This is a reference to the philosophy of Gilbert Simondon, to the transformation
 ## Further reading:
 - Christian Ulrik Andersen and Geoff Cox, eds. , [A Peer-Reviewed Journal About Datafied Research](https://tidsskrift.dk/APRJA/issue/view/8402), *APRJA* 4.1 (2015). 
 - Rena Bivens, "The Gender Binary Will Not be Deprogrammed: Ten Years of Coding Gender on Facebook", *New Media & Society* 19(6) (2017): 880–898, https://doi.org/10.1177/1461444815621527. 
-- James Charlton, [Add to Shopping Basket](http://www.aprja.net/add-to-shopping-basket/). *APRJA* 4.1. (2015). 
 - Kenneth Cukier and Victor Mayer-Schöenberger, "The Rise of Big Data", *Foreign Affairs* (May/June 2013): 28–40.
 - [clmtrackr - Face tracking javascript library](https://github.com/auduno/clmtrackr) by Audun M. Øygard.
-- Shiffman, Daniel. (2017) 8. HTML / CSS/DOM - p5.js Tutorial [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX [Accessed 09 Sep. 2019].
+- Daniel Shiffman, (2017) 8. HTML / CSS/DOM - p5.js Tutorial [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX [Accessed 09 Sep. 2019].
 - Tiziana Terranova, "Red Stack Attack! Algorithms, Capital and the Automation of the Common", *EuroNomade*, 2014. Available at http://www.euronomade.info/?p=2268
 
 ## Notes
@@ -362,7 +361,7 @@ This is a reference to the philosophy of Gilbert Simondon, to the transformation
 [^Bivens]: Rena Bivens, "The Gender Binary will not be Deprogrammed: Ten Years of Coding Gender on Facebook", *New Media & Society* 19(6), (2017): 880–898. doi.org/10.1177/1461444815621527. 
 [^Facebook2]: Facebook, Form S-1 registration statement (2012). Available at: https://infodocket.files.wordpress.com/2012/02/facebook_s1-copy.pdf (accessed 16 Oct 2019). 
 [^Hide]: Laurie Clarke, "Why hiding likes won’t make Instagram a happier place to be", *Wired*, 19 July 2019, https://www.wired.co.uk/article/instagram-hides-likes.  
-[^Grosser]: See Grosser's Demetricator series of artworks: *Facebook Demetricator*, https://bengrosser.com/projects/facebook-demetricator/; *Instagram Demetricator*, https://bengrosser.com/projects/instagram-demetricator/; *Twitter Demetricator*, https://bengrosser.com/projects/twitter-demetricator/.
+[^Grosser]: See Ben Grosser's Demetricator series of artworks: *Facebook Demetricator*, https://bengrosser.com/projects/facebook-demetricator/; *Instagram Demetricator*, https://bengrosser.com/projects/instagram-demetricator/; *Twitter Demetricator*, https://bengrosser.com/projects/twitter-demetricator/.
 [^Facebook3]: Sauvik Das and Adam D. I. Kramer, "Self-censorship on Facebook", AAAI Conference on Weblogs and Social Media (ICWSM), 2 July 2013, https://research.fb.com/publications/self-censorship-on-facebook/.
 [^Crary]: Jonathan Crary, *24/7: Late Capitalism and the Ends of Sleep* (London: Verso, 2013), 30–31. 
 [^transmediale]: transmediale, *Capture All*, https://transmediale.de/content/call-for-works-2015.
