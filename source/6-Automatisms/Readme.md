@@ -94,16 +94,28 @@ function draw() {
 
 ## Langton's Ant 
 
-Langton's Ant, invented by Christopher Gale Langton [^Langton], is a classical mathematical game involving an ant, simulating the molecular logic of the ant's living state. The simulation of the ant's state is inspired by the Turing machine that can perform computational tasks.    
+Langton's Ant, invented by Christopher Gale Langton [^Langton], is a classical mathematical game involving an ant, simulating the molecular logic of the ant's living state. The simulation of the ant's state is inspired by the Turing machine that can perform computational tasks with the manipulation of symbols on a strip of tape according to a set of rules. 
 
-This section will present the sample code that simulate the states of the ant, presenting in a grid system with the state in either white or black color. The ant will move base on the simple rules, but it will turn into a more complex system and exhibit emergent behavior over time.
+This section will present the sample code that simulate the (on/off) states of the ant, presenting in a grid system with a state in either white or black color. The ant will move base on the simple rules, but it will turn into a more complex system and exhibit emergent behavior over time.
 
 ![drawing5](ch6_5.gif)
+
+*Figure 6.5: Langton's Ant - Initial steps*
+
+Figure 6.5 shows the initial steps of the Langton's Ant. It follows the general rules as below:
+
+1. If the ant is on a black square, it turns right 90 degree and moves forward one unit
+2. If the ant is on a white square, it turns left 90 degree and moves forward one unit 
+3. When the ant leaves a square and on the new sqaure, it inverts the color at its new position.  
 
 
 ![drawing6](ch6_6.gif)
 
+*Figure 6.6: Langton's Ant - Processes*
+
 ![drawing7](ch6_7.png)
+
+*Figure 6.7: Langton's Ant - A snapshot of the process*
 
 
 ## Source code (Langton Ant)
