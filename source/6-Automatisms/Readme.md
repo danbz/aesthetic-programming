@@ -89,18 +89,9 @@ function draw() {
 
 ## Langton's Ant 
 
-Inspired by the Turing Machine, Langton's Ant, invented by Christopher Gale Langton [^Langton], is a classical mathematical game involving an ant, simulating the molecular logic of the ant's living state.   
+Langton's Ant, invented by Christopher Gale Langton [^Langton], is a classical mathematical game involving an ant, simulating the molecular logic of the ant's living state. The simulation of the ant's state is inspired by the Turing machine that can perform computational tasks.    
 
-
-This ant has different states that is similar to the Turing machine. Christopher Gale Langton describes the details of the states and rules of the ant in his paper titled "Studying Artificial Life with Cellular Automata"  
-
-
-Christopher G. Langton. "Studying Artificial Life with Cellular Automata". Physica D, 22, 1986.
-
-The second program is called Langton's Ant which is invented by a computer scentist Christopher Gale Langton, who is considered the father of the concept of Artificial life, in 1986. The core different with the *10 PRINT* is to discuss complex system and emergent behavior through simple rules, thinking about automated simulation as a Turing machine. 
-
-
-Langton's ant is a mathematical game involving an ant who, after landing on a white square, turns right and changes the color of the square to black. If the ant lands on a black square, it turns left and changes the square's color to white. Below is an application that lets you play with a number of parameters and view the results of these two simple rules. Enter values of your choice and press 'Load'. Once your choices have been loaded, press the start button. Note that the upper left square is (0, 0), making the lower right (width - 1, height - 1). This application is most likely unstable. If something goes wrong, just refresh the page. 
+This section will present the sample code that simulate the states of the ant, presenting in a grid system with the state in either white or black color. The ant will move base on the simple rules, but it will turn into a more complex system and exhibit emergent behavior over time.
 
 
 
