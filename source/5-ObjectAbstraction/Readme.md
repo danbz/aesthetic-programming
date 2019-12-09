@@ -399,6 +399,7 @@ By going through the tofu example, we can see object oriented programming is hig
 [g: not sure if it is good to incorporate item 1 and 2 below but i think the idea of class from history - PD and workers union may be a good way to link with your marx + abstraction with the notion of class struggle ? /w]
 -  history of the concept of objects in the mid-1960s with Simula 67 created by Ole-Johan Dahl and Kristen Nygaard of the Norwegian Computing Center in Oslo. > A programming paradigm
 https://user-content.gitlab-static.net/38287337cdf9f32ae05de5b3d9d7037868960496/687474703a2f2f6a6f667261706573652e626c6f6769612e636f6d2f75706c6f61642f32303038303632373232313730302d6461686c2d6e7967616172642e6a7067
+- objects and subject-pbject relations, OOO and OOP, units (Bogost maybe??)
 - about working class and hireachy? but it is more than just create for efficiency. It is created with the perspective of participatory design in the context of utopia project that works with workers' union to "bring technical process closer to non-specialist understanding" (Fuller and Goffey 2017 + Andersen and Pold's metainterface) > re-use of code and operation: "it saves time and effort to be able to write the code once and re-use it in different programs" (Fuller and Goffey 2017). 
 - Epistemologies
 - marx + abstraction
