@@ -36,15 +36,15 @@ Rules and instructions are highly interesting, which is not only because of havi
 
 In the following sections, we will explore two examples of rule-based programs to unfold the thinking of agency and control. 
 
-[g: may be move some of the bits to start(), duno, and perhaps need to link this rule-based art into authorship ? or move to while() /w ]
+[g: may be move some of the bits to start(), duno, and perhaps need to link this rule-based art into authorship ? or move to while(). Another question is the above images, thinking how to clear the copyright issues on PRINT /w ]
 - ideas as form 
 - Focus on rules, orders, chaos, emergent behaviors ?
 - Generators and other automatisms (genotypes), love letter generators
 
 ## start()
-Two sample code will be provided in this chapter. The first one is called *10 PRINT* which is based on one-line program code that is written in BASIC programming language that was executed in Commodore 64, an early home homputer model: `10 PRINT CHR$(205.5+RND(1)); : GOTO 10` to generate endless pattern on a screen. It wasn't claimed to be an art piece, but instead this line of code was printed in the 1982 *Commodore 64 User's Guide* and later published on the web. This line of code also becomes an important example in the field of software studies to demonstrate how to study code critically via history, science and culture. [^10print] This 10 PRINT in `p5.js` is mainly to let you familiar with rules and its creative potential to allow the program to set some degree of autonomy.  
+Two sample code will be provided in this chapter. The first one is called *10 PRINT* which is based on one-line program code that is written in BASIC programming language that was executed in Commodore 64, an early home computer model: `10 PRINT CHR$(205.5+RND(1));: GOTO 10` to generate endless pattern on a screen. It wasn't claimed to be an art piece, but instead this line of code was printed in the 1982 *Commodore 64 User's Guide* and later published on the web. This line of code also becomes an important example in the field of software studies to demonstrate how to study code critically via history, science and culture. [^10print] This *10 PRINT* in `p5.js` is mainly to help familiarizing rules and its creative potential to allow some degree of autonomy within a system.  
 
-The second program is called Langton's Ant which is invented by a computer scentist Christopher Gale Langton, who is considered the father of the concept of Artificial life, in 1986. The core different with the *10 PRINT* is to discuss complex system and emergent behavior through simple rules, thinking about automated simulation as a Turing machine. 
+The second program is called *Langton's Ant* which is invented by a computer scentist Christopher Gale Langton, who is considered the father of the concept of Artificial life, in 1986. The core different with the *10 PRINT* is to discuss complex system and emergent behavior through simple rules, thinking about automated simulation as a Turing machine. 
 
 ## Exercise in class (10 PRINT)
 
@@ -87,7 +87,7 @@ function draw() {
 3. Discuss the use and the role of randomness in this specific *10 PRINT* and in games/literature, and the arts?  
 
 4. Try to modify existing rules, for example: 
-    - Can we have more different outputs rather than the backward and forward slash?
+    - Can we have more different outputs rather than just the backward and forward slash?
     - the size and color of slashes? 
 
 5. *10 PRINT* has been appropriated by many artists, designers and students. Take a look at the different possibilities of [*10 PRINT*](https://twitter.com/search?q=%2310print&src=typd) that is documented on Twitter. Your in-class task is to create a sketch with a clear set of rules and a modified version of the *10 PRINT*.  
@@ -96,30 +96,135 @@ function draw() {
 
 Langton's Ant, invented by Christopher Gale Langton [^Langton], is a classical mathematical game involving an ant, simulating the molecular logic of the ant's living state. The simulation of the ant's state is inspired by the Turing machine that can perform computational tasks with the manipulation of symbols on a strip of tape according to a set of rules. 
 
-This section will present the sample code that simulate the (on/off) states of the ant, presenting in a grid system with a state in either white or black color. The ant will move base on the simple rules, but it will turn into a more complex system and exhibit emergent behavior over time.
+This section will present the sample code that simulate the (on/off) states of an ant, presenting in a grid system with a state in either white or black color. The ant will move based on the simple rules, but it will gradually turn into a more complex system and exhibit emergent behavior over time.
 
 ![drawing5](ch6_5.gif)
 
 *Figure 6.5: Langton's Ant - Initial steps*
 
-Figure 6.5 shows the initial steps of the Langton's Ant. It follows the general rules as below:
+With the initial direction of an ant that is pointed upwards (i.e the North position), figure 6.5 shows the initial 33 steps of the Langton's Ant that follow the two general rules as below:
 
-1. If the ant is on a black square, it turns right 90 degree and moves forward one unit
-2. If the ant is on a white square, it turns left 90 degree and moves forward one unit 
-3. When the ant leaves a square and on the new sqaure, it inverts the color at its new position.  
+1. If the ant is at a white cell, it turns right 90° and changes to a black cell then moves forward one unit.
+2. If the ant is at a black cell, it turns left 90° and changes to a white cell then moves forward one unit. 
 
+At the beginning, the canvas with only a grid system and all the individual cells are in white color. The ant with four possible head directions: UP, RIGHT, DOWN, LEFT, and will turn 90 degrees on either left or right that is subjected to the existing cell's color. 
+
+To start, the ant initial is at the UPWARD position on the middle of the grid, that is the white color cell. It follows the rule 1 above to change the white cell to the black one and then the ant rotates its head direction from UP to RIGHT and moves forward one unit. 
+
+Then the second step would be to follow rule 1 because the new cell is in white color. Therefore, the second cell will turn to the black color and the ant's head will turn right 90 degrees that point from RIGHT to DOWN and moves forward one unit. 
+
+Then the third and forth steps are similar to the previous one until the ant meets a cell which is in black color (which is started in step 5), then the ant will follow rule 2 to change back the cell's color to white and then turns left 90 degrees instead of the right. 
 
 ![drawing6](ch6_6.gif)
 
 *Figure 6.6: Langton's Ant - Processes*
 
+Figure 6.6 shows the ant starts building the emergent 'highway' pattern after the first few hundred moves with simple patterns and the next 10,000 steps with chaotic behavior. The highway pattern repeats indefinately until most of cells are reconfigured, leading to something that is similar to Figure 6.7 which the ant is still constantly moving and changing the color of the cells.
+
 ![drawing7](ch6_7.png)
 
-*Figure 6.7: Langton's Ant - A snapshot of the process*
+*Figure 6.7: Langton's Ant - A snapshot of the emergent process*
 
 
 ## Source code (Langton Ant)
+```javascript
+let grid_space = 5;  //e.g 4, 5, 10 need to be dividable as an integer by the width and height of the canvas
+let grid =[]; //on/off state
+let cols, rows;  //for drawing the grid purpose
+let xPos, yPos; //current position in terms of rows and cols, not actual pixel
+let dir; //current direction of the ant
+const antUP = 0;
+const antRIGHT = 1;
+const antDOWN = 2;
+const antLEFT = 3;
+let offColor;
+let onColor;
 
+function setup() {
+  createCanvas(1000,700);
+  offColor = color(255,255,255);  //setting offcolor
+  onColor = color(0); //setting onColor
+  background(offColor);
+  grid = drawGrid();
+  xPos = floor(cols/2);  //initial x position and make sure it is an integer in the grid array
+  yPos = floor(rows/2); //initial y position and make sure it is an integer in the grid array
+  dir = antUP; //initial direction
+  frameRate(20);
+}
+
+function draw() {
+
+  for (let n = 0; n < 100; n++) { //just for running faster per frame, try 1
+   checkEdges();
+   let state = grid[xPos][yPos];
+   //check state against current cell
+   if (state == 0) { //rule 1
+    dir++;  // turn right 90 degree
+    grid[xPos][yPos] = 1; //change the currect cell's state to 'on' state
+    fill(onColor);  //subsequent color change
+
+    if (dir > antLEFT) {
+      dir = antUP;  //reset the counter
+    }
+   }else{  //rule 2
+    dir--;  //turn left 90 degree
+    grid[xPos][yPos] = 0; //change the current cell's state to off state
+    fill(offColor);  //subsequent color change
+
+    if (dir < antUP) {
+      dir = antLEFT; //reset the counter
+    }
+   }
+  rect(xPos*grid_space, yPos*grid_space, grid_space, grid_space);
+  nextMove();
+  }
+}
+function drawGrid() {
+  cols = width/grid_space;
+  rows = height/grid_space;
+  let arr = new Array(cols);
+  for (let i=0; i < cols; i++) {//no of cols
+    arr[i] = new Array(rows); //2D array
+    for (let j=0; j < rows; j++){ //no of rows
+      let x = i * grid_space; //actual x coordinate
+      let y = j * grid_space; //actual y coordinate
+      stroke(0);
+      strokeWeight(1);
+      noFill();
+      rect(x, y, grid_space, grid_space);
+      arr[i][j] = 0;  // assign each cell with the off color and link to individual cells
+    }
+  }
+  return arr; //a function with a return value
+}
+
+function nextMove () {
+  //check which direction to go next and set the new current direction
+  if (dir == antUP) {
+    yPos--;
+  } else if (dir == antRIGHT) {
+    xPos++;
+  } else if (dir == antDOWN) {
+    yPos++;
+  } else if (dir == antLEFT) {
+    xPos--;
+  }
+}
+
+function checkEdges() {
+  //check width and height boundary
+  if (xPos > cols-1) { //reach the right edge
+    xPos = 0;    //go back to the left
+  } else if (xPos < 0) {  //reach the left edge
+    xPos = cols-1;  //go to the right edge
+  }
+  if (yPos > rows-1) { //reach the bottom edge
+    yPos = 0; //go back to the top
+  } else if (yPos < 0) { //reach the top edge
+    yPos = rows-1;  //go to the bottom
+  }
+}
+```
 
 ## Exercise in class
 Discussion:
