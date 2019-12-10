@@ -44,6 +44,8 @@ In the same token, we can *reuse* the same properties and behavior to create ano
 | ToLocation = Bus stop        | ToLocation = Home         |
 | run()                        | run()                     |
 
+[g: should we have winnie and geoff as object instance 2 and 3? haha /w ]
+
 From the pseudo object, we start to see how abstraction takes place in computation as *computerized material*, in which we only select properties and behaviors that we think is important to be represented in a program. This is a way of modeling/representing physical phenomena, simulating the behaviors of either a real or imaginary part of the world [^Madsen]. 
 
 After the brief example of modeling the person object, we now move to the example that is inpsired by the game *ToFu go!*.
