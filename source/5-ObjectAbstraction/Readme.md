@@ -65,7 +65,7 @@ This chapter's sample code is a game with the following core components:
 
 ![ch5_2](ch5_2.png)
 
-*Figure 5.2: A screenshot of the simplified Tofu go!.*
+*Figure 5.2: A screenshot of the simplified Tofu go!.* [need to adjust slightly the code and visual for next round /w]
 
 ## Source Code 
 The source code is divided into two pieces, one with all the core functions in sketch.js, and the other tofu.js that specifies the class/object relationship. Sometimes it gives a clearer overview of the program if you seperate the program into different functions and files. To enable the two js files, you need to add the following into the index.html file:
