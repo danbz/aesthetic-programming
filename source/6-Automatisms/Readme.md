@@ -119,7 +119,7 @@ Then the third and forth steps are similar to the previous one until the ant mee
 
 *Figure 6.6: Langton's Ant - Processes*
 
-Figure 6.6 shows the ant starts building the emergent 'highway' pattern after the first few hundred moves with simple patterns and the next 10,000 steps with chaotic behavior. The highway pattern repeats indefinately until most of cells are reconfigured, leading to something that is similar to Figure 6.7 which the ant is still constantly moving and changing the color of the cells.
+Figure 6.6 shows the ant starts building the emergent 'highway' pattern after the first few hundred moves with simple patterns and the next 10,000 steps[^Steps] with chaotic behavior. The highway pattern repeats indefinately until most of cells are reconfigured, leading to something that is similar to Figure 6.7 which the ant is still constantly moving and changing the color of the cells.
 
 ![drawing7](ch6_7.png)
 
@@ -354,6 +354,6 @@ In order to know the exact x and y coordinates of each cell within a grid struct
 
 [^shiffman2]: See the video intruction on 2D Arrays in p5.js: https://www.youtube.com/watch?v=OTNpiLUSiB4
 
-[^ Galanter2]: Galanter, Philip. "[Generative Art Theory](http://cmuems.com/2016/60212/resources/galanter_generative.pdf)". *A Companion to Digital Art*. Eds. Christiane P, 2016, p. 154.
-
 [^Watz]: Marius Watz. (2007). "Beautiful Rules: Generative models of creativity" in The Olhares de Outono. Video. https://vimeo.com/26594644
+
+[^Steps]: See the web-based step by step running of the Langton's Ant which is implemented by Barend Köbben in 2014. https://kartoweb.itc.nl/kobben/D3tests/LangstonsAnt/.
