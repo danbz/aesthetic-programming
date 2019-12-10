@@ -227,14 +227,14 @@ function checkEdges() {
 ```
 ## Reading Langton's Ant
 
-Based on the above code, there are three areas can help you to slow down or zoom in the program. 
-1. `let grid_space = 5;`: You can try to change the value to 10 then you are able to see it at a bigger size.   
+Based on the above code, there are three areas can help dlowing down or zooming in the program. 
+1. `let grid_space = 5;`: You can tchange the value to 10 then you are able to see it at a bigger size.   
 2. `frameRate(20);`: Lower the frameRate value can help slowering down the program
-3. Within the `draw()` function, we have a for-loop where n is the steps of the ant. You may try to reduce the `n < 100` to `n < 1` in the line: `for (let n = 0; n < 100; n++) {`. Reduced the n value will instruct the program to only process n steps per frame. 
+3. Within the `draw()` function, we have a for-loop where n is the steps of the ant. You may reduce the `n < 100` to `n < 1` in the line: `for (let n = 0; n < 100; n++) {`. Reducing the n value will instruct the program to only process n steps per frame. 
 
 Intead of going through the code line by line, this part is more showing what each function does. 
 
-- `function setup()`: This is more to setup the canvas size, initite ant's head direction, frameRate, color and to prepare drawing the background grid structure. 
+- `function setup()`: This is more to setup the canvas size, initite the ant's head direction, frameRate, color and to prepare drawing the background grid structure. 
 
 - `function draw()`: This is the main function to check against the two rules of Langton's Ant and change cells' color. 
 
@@ -244,6 +244,13 @@ Intead of going through the code line by line, this part is more showing what ea
 
 - `function checkEdges()`: This function is to check if the ant moves out of the four edges, then it will continue at the other end. 
 
+Technically speaking, there is no new syntax as the 2-dimensional arrays have been covered briefly in Chapter 4 - Data Capture. However, there may be new use of 2-dimensional arrays and nested for-loops. 
+
+## 2-dimensional Arrays
+
+
+## Nested for-loops 
+
 ## Exercise in class
 Discussion:
 
@@ -251,6 +258,10 @@ Discussion:
 - What is the role of rules and "software as material" (Marius Watz 2007), and do you consider the machine as a co-author?
 
 ## While()
+
+- nature / technical/ culture / reproduction (feminist approach)? 
+- authorship/ power / control? 
+- order, disorder, chaos, complex system, emergence?
 
 ## Mini_Exercise[6]: A generative program
 
