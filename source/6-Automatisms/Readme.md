@@ -236,26 +236,55 @@ Intead of going through the code line by line, this part is more showing what ea
 
 - `function setup()`: This is more to setup the canvas size, initite the ant's head direction, frameRate, color and to prepare drawing the background grid structure. 
 
-- `function draw()`: This is the main function to check against the two rules of Langton's Ant and change cells' color. 
-
 - `function drawGrid()`: To divide the canvas into a grid structure with apparent lines.
+
+- `function draw()`: This is the main function to check against the two rules of Langton's Ant and change cells' color. 
 
 - `function nextMove ()`: The 4 directions are structured in a number format so that the variable `dir++` can be used for incrementing or decrementing the ant's head direction. Each different direction of *UP, RIGHT, DOWN, LEFT* corresponds to moving forward in either horizontal (xPos) or vertical (yPos) step on the canvas. 
 
 - `function checkEdges()`: This function is to check if the ant moves out of the four edges, then it will continue at the other end. 
 
-Technically speaking, there is no new syntax as the 2-dimensional arrays have been covered briefly in Chapter 4 - Data Capture. However, there may be new use of 2-dimensional arrays and nested for-loops. 
+Technically speaking, there is no new syntax as the 2-dimensional arrays have been covered briefly in Chapter 4 - Data Capture. However, there is the new use of 2-dimensional arrays and nested for-loops. 
 
-## 2-dimensional Arrays
+## 2-dimensional Arrays & Nested for-loops
 
+Daniel Shiffman creates a tutorial (both in the form of written[^shiffman1] and video[^shiffman12) to discuss how a 2-dimensional array is essentially an array of a bunch of arrays. He also suggests that using 2-dimensional arrays to think of a grid structure would be very useful. The background of the Langton's Ant is designed with a grid structure, implementating with a structure of a 2-dimensional array in which the width and height of the canvas is devided into an evenly distributed space. Each space (which we called it as cell in the sample code) represents a possiblity that an ant can move as a unit and with the on/off state that is represented in black/white color. 
 
-## Nested for-loops 
+```javascript
+function drawGrid() {
+  cols = width/grid_space;
+  rows = height/grid_space;
+  let arr = new Array(cols);
+  for (let i=0; i < cols; i++) {//no of cols
+    arr[i] = new Array(rows); //2D array
+    for (let j=0; j < rows; j++){ //no of rows
+      let x = i * grid_space; //actual x coordinate
+      let y = j * grid_space; //actual y coordinate
+      stroke(0);
+      strokeWeight(1);
+      noFill();
+      rect(x, y, grid_space, grid_space);
+      arr[i][j] = 0;  // assign each cell with the off color and link to individual cells
+    }
+  }
+  return arr; //a function with a return value
+}
+```
+
+To create an array, we use the syntax `let arr = new Array(cols);` and this line indicates the grid in columns and the length of the array is the number of columns. Since we also need to cater the number of rows in a two-dimensional manner, that's why we create another array out of each existing array in the column with the line `arr[i] = new Array(rows);`. Such syntax is put under a for-loop to loop through each of the column but then with the addition of number of rows (which is derived from the canvas's height). Therefore, 2-dimensional arrays is visualized in this way: `arr[][]`. 
+
+In order to know the exact x and y coordinates of each cell within a grid structure, it depends on which columns and which rows that you are pointing at with the formular `x = i * grid_space;` and `y= j * grid_space;` respectively. By using two nested for-loops, the program will loop through each column and the each row under the same column until the program runs till the last column. Ultimately, we are able to get the x and y coordinate with the syntax `array[i][j]`, which is subjected to which column (with the variable i) and rows (with the variable j).
 
 ## Exercise in class
-Discussion:
+Give yourself sometime to read and tinker the code, as well as to observe the stages of the Langton's Ant. Rethink about the rules that have been implemented, similar to *10 PRINT* can you try changing the existing rule or adding new rules so that the ant behaves differently? Remember we have specifically emphasized rules in this chapter, in which the programmer will lose some kinds of control to the system so as to allow the program to emerge over time. 
 
-- What have been generated beyond the end product but to focus on systems and processes? or How would you understand "autonomy is the ultimate goal" (Marius Watz 2007)?
-- What is the role of rules and "software as material" (Marius Watz 2007), and do you consider the machine as a co-author?
+Right now the Langton's Ant program is more about representing the world of the ant in a very abstracted way, such as an ant's cell with only black and white color, as well as it only allows to move in four directions and each time in 90°. 
+
+It is clear that simulating and abstracting real world systems, such as biological or chemical processes, smart cities, procedural operations, is one of the applications of generative art or cellula automaton. However, what we want to focus in this chapter is not so much the end result of the pattern, but more on the generative process in itself to think about what Matius Watz[^Watz] might suggests as "autonomy is the ultimate goal". So, let's discuss the following questions:
+
+- What are systems and processes? Can you think of and describe different systems in the world that exhibit orders and chaos? 
+- How would you understand autonomy is the end goal with the focus beyond the end product? 
+- What is the role of rules and software as material, and do you consider the machine as a co-author in generative and automatic systems?
 
 ## While()
 
@@ -320,3 +349,10 @@ Discussion:
 
 [^Langton]: Langton, Christopher G. “Studying Artificial Life with Cellular Automata.” Physica D: Nonlinear Phenomena 22, no. 1–3 (October 1986): 120–49. https://doi.org/10.1016/0167-2789(86)90237-X.
 
+[^shiffman1]: See "Two-dimensional Arrays" written for the Processing Community: https://processing.org/tutorials/2darray/
+
+[^shiffman2]: See the video intruction on 2D Arrays in p5.js: https://www.youtube.com/watch?v=OTNpiLUSiB4
+
+[^ Galanter2]: Galanter, Philip. "[Generative Art Theory](http://cmuems.com/2016/60212/resources/galanter_generative.pdf)". *A Companion to Digital Art*. Eds. Christiane P, 2016, p. 154.
+
+[^Watz]: Marius Watz. (2007). "Beautiful Rules: Generative models of creativity" in The Olhares de Outono. Video. https://vimeo.com/26594644
