@@ -126,7 +126,7 @@ Figure 6.6 shows the ant starts building the emergent 'highway' pattern after th
 *Figure 6.7: Langton's Ant - A snapshot of the emergent process*
 
 
-## Source code (Langton Ant)
+## Source code (Langton's Ant)
 ```javascript
 let grid_space = 5;  //e.g 4, 5, 10 need to be dividable as an integer by the width and height of the canvas
 let grid =[]; //on/off state
@@ -260,7 +260,7 @@ Discussion:
 ## While()
 
 - nature / technical/ culture / reproduction (feminist approach)? 
-- authorship/ power / control? 
+- authorship/ power / control / unpredictability? 
 - order, disorder, chaos, complex system, emergence?
 
 ## Mini_Exercise[6]: A generative program
@@ -277,6 +277,7 @@ Discussion:
 - [Open Processing with the search keyword 'generative'](https://www.openprocessing.org/browse/?q=generative&time=anytime&type=all#)
 - [John Conway's Game of Life](http://web.stanford.edu/~cdebs/GameOfLife/)
 - [The recode project](http://recodeproject.com/) or https://web.archive.org/web/20181227225001/http://www.recodeproject.com/
+- [WUOUS by Anders Visti and Tobias Stenberg](https://andersvisti.dk/work/wuos-2019) (with the implementation of the Langton's Ant to question the so-called smart cities)
 
 **Tasks (RUNME):**
 1. Start with a blank paper. Think of at least three simple rules that you want to implement in a generative program. (You may take reference from Langton's ant (1986) and The Game of Life (1970))
