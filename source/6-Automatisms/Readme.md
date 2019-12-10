@@ -310,11 +310,11 @@ In order to know the exact x and y coordinates of each cell within a grid struct
 - [WUOUS by Anders Visti and Tobias Stenberg](https://andersvisti.dk/work/wuos-2019) (with the implementation of the Langton's Ant to question the so-called smart cities)
 
 **Tasks (RUNME):**
-1. Start with a blank paper. Think of at least three simple rules that you want to implement in a generative program. (You may take reference from Langton's ant (1986) and The Game of Life (1970))
+1. Start with a blank paper. Think of at least two simple rules that you want to implement in a generative program. (You may take reference from Langton's ant (1986) and The Game of Life (1970))
 2. Based on the rules that you set in step 1, then design a generative program that utilizes at least one for-loop/while-loop and one conditional statement but without any direct interactivity. Just let the program runs and emerges automatically.(You may also consider to use noise() and random() syntax)
 
 **Questions to think about as README:**
-- What are the rules in your generative program and describe how your program performs over time. What have been generated beyond just the end product?
+- What are the rules in your generative program and describe how your program performs over time and how the rules allow to perform and evolve over time? 
 - What's the role of rules and processes in your work?
 - What's generativity and automatism? How does this mini-exericse help you to understand what might be generativity and automatism? 
 
