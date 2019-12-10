@@ -107,13 +107,13 @@ With the initial direction of an ant that is pointed upwards (i.e the North posi
 1. If the ant is at a white cell, it turns right 90° and changes to a black cell then moves forward one unit.
 2. If the ant is at a black cell, it turns left 90° and changes to a white cell then moves forward one unit. 
 
-At the beginning, the canvas with only a grid system and all the individual cells are in white color. The ant with four possible head directions: UP, RIGHT, DOWN, LEFT, and will turn 90 degrees on either left or right that is subjected to the existing cell's color. 
+At the beginning, the canvas with only a grid system and all the individual cells are in white color. The ant with four possible head directions: UP, RIGHT, DOWN, LEFT, and will turn 90° on either left or right that is subjected to the existing cell's color. 
 
 To start, the ant initial is at the UPWARD position on the middle of the grid, that is the white color cell. It follows the rule 1 above to change the white cell to the black one and then the ant rotates its head direction from UP to RIGHT and moves forward one unit. 
 
-Then the second step would be to follow rule 1 because the new cell is in white color. Therefore, the second cell will turn to the black color and the ant's head will turn right 90 degrees that point from RIGHT to DOWN and moves forward one unit. 
+Then the second step would be to follow rule 1 because the new cell is in white color. Therefore, the second cell will turn to the black color and the ant's head will turn right 90° that point from RIGHT to DOWN and moves forward one unit. 
 
-Then the third and forth steps are similar to the previous one until the ant meets a cell which is in black color (which is started in step 5), then the ant will follow rule 2 to change back the cell's color to white and then turns left 90 degrees instead of the right. 
+Then the third and forth steps are similar to the previous one until the ant meets a cell which is in black color (which is started in step 5), then the ant will follow rule 2 to change back the cell's color to white and then turns left 90° instead of the right. 
 
 ![drawing6](ch6_6.gif)
 
@@ -225,6 +225,24 @@ function checkEdges() {
   }
 }
 ```
+## Reading Langton's Ant
+
+Based on the above code, there are three areas can help you to slow down or zoom in the program. 
+1. `let grid_space = 5;`: You can try to change the value to 10 then you are able to see it at a bigger size.   
+2. `frameRate(20);`: Lower the frameRate value can help slowering down the program
+3. Within the `draw()` function, we have a for-loop where n is the steps of the ant. You may try to reduce the `n < 100` to `n < 1` in the line: `for (let n = 0; n < 100; n++) {`. Reduced the n value will instruct the program to only process n steps per frame. 
+
+Intead of going through the code line by line, this part is more showing what each function does. 
+
+- `function setup()`: This is more to setup the canvas size, initite ant's head direction, frameRate, color and to prepare drawing the background grid structure. 
+
+- `function draw()`: This is the main function to check against the two rules of Langton's Ant and change cells' color. 
+
+- `function drawGrid()`: To divide the canvas into a grid structure with apparent lines.
+
+- `function nextMove ()`: The 4 directions are structured in a number format so that the variable `dir++` can be used for incrementing or decrementing the ant's head direction. Each different direction of *UP, RIGHT, DOWN, LEFT* corresponds to moving forward in either horizontal (xPos) or vertical (yPos) step on the canvas. 
+
+- `function checkEdges()`: This function is to check if the ant moves out of the four edges, then it will continue at the other end. 
 
 ## Exercise in class
 Discussion:
