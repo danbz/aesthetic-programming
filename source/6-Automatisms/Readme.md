@@ -281,7 +281,7 @@ In order to know the exact x and y coordinates of each cell within a grid struct
 
 2. Right now the Langton's Ant program is more about representing the world of the ant in a very abstracted way, such as an ant's cell with only black and white color, as well as it only allows to move in four directions and each time in 90°. Rethink about the rules that have been implemented, can you try changing the existing rule or adding new rules so that the ant behaves differently? (recall what you have changed in the previous exercise on *10 PRINT*) 
 
-3. Remember we have specifically emphasized rules in this chapter, in which the programmer will lose some kinds of control to the system so as to allow the program to emerge over time. It is clear that simulating and abstracting real world systems, such as biological or chemical processes, smart cities, procedural operations, is one of the applications of generative art or cellula automaton. However, what we want to focus in this chapter is not so much the end result of the pattern, but more on the generative process in itself to think about what Matius Watz[^Watz] might suggests as "autonomy is the ultimate goal". So, let's discuss the following questions:
+3. It is clear that simulating and abstracting real world systems, such as biological or chemical processes, smart cities[^Smart], procedural operations, is one of the applications of generative art or cellula automaton. However, what we want to focus in this chapter is not so much the end result, but more on the generative process in itself with the focus on rules and agency, in which the programmer will lose some kinds of control to the system so as to allow the program to emerge over time or what Matius Watz[^Watz] might suggests as "autonomy is the ultimate goal". So, let's discuss the following questions:
 
 - What are systems and processes? Can you think of and describe different systems in the world that exhibit orders and chaos? 
 - How would you understand autonomy is the end goal with the focus beyond the end product? 
@@ -357,3 +357,5 @@ In order to know the exact x and y coordinates of each cell within a grid struct
 [^Watz]: Marius Watz. (2007). "Beautiful Rules: Generative models of creativity" in The Olhares de Outono. Video. https://vimeo.com/26594644
 
 [^Steps]: See the web-based step by step running of the Langton's Ant which is implemented by Barend Köbben in 2014. https://kartoweb.itc.nl/kobben/D3tests/LangstonsAnt/.
+
+[^Smart]: See the artwork *WUOUS* by Anders Visti and Tobias Stenberg with the implementation of the Langton's Ant to question the so-called smart cities here: https://andersvisti.dk/work/wuos-2019 
