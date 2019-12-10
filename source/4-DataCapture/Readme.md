@@ -237,7 +237,7 @@ For face capture, the sample code has used the clmtrackr which is a JavaScript l
 
 What the program does in terms of face capture and facial recognition: 
 1. `createCapture()`: This is a HTML5 <video> element that captures the feed from a web camera. In relation to this function tasks might be to define the size (which is subjected to the resolution of the web camera) and position on screen, e.g. `capture.size(640,480);` and `capture.position(0,0);`
-2. `clmtrackr`: Similar to audio and camera use, first you need to initialize the tracker library, select the classified model and start tracking from the video source. 
+2. The three lines related to ctracker: `ctracker = new clm.tracker()`, `ctracker.init(pModel);` and `ctracker.start(capture.elt);`: Similar to audio and camera use, first you need to initialize the tracker library, select the classified model and start tracking from the video source. 
 3. `ctracker.getPosition()`: This is to loop through all the 70 tracker points and return the position in terms of x and y coordinates. Since the Like button will follow the mouth of the face and the tracker point of a mouth is 60, the program then will return the position in terms of an array: `positions[60][0]-20` and `positions[60][1]`. The second array's dimensions of [0] and [1] refers to the x and y coordinates specifically. 
 4. The last part is to draw the ellipses to cover the face. A for-loop is implemented to loop through all the ctracker points and then get the x and y coordinates for the drawing of the ellipses. 
 
