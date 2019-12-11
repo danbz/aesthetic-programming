@@ -65,7 +65,7 @@ After the brief example of modeling the person object, we now move to the exampl
 
 [embeded video](https://www.youtube.com/watch?v=V9NirY55HfU])
 
-In the following, we will use the game *ToFu Go!* (which is freely available on App Store [^App]) as the main flow of discussion and then a simplified version will be used for the sample code. As discussed before, *ToFu Go!* is a mobile game references to the context of Chinese food culture i.e HotPot. By programming a modified and simplier version of *ToFu Go!*, the remaining parts unfold the computational logics and modeling within the context of object oriented programming.
+In the following, we will use the game *ToFu Go!* (which is freely available on App Store [^App]) as the main flow of discussion and then a simplified version will be used for the sample code. As discussed before, *ToFu Go!* is a mobile game references to the context of Chinese food culture i.e HotPot. By programming a modified and simplier version of *ToFu Go!*, the remaining parts unfold the computational logics and modeling within the context of Object Oriented Programming.
 
 This chapter's sample code is a game with the following core components: 
 1. A static table 
@@ -464,7 +464,7 @@ https://user-content.gitlab-static.net/38287337cdf9f32ae05de5b3d9d7037868960496/
 
 [^App2]: *ToFu Go!* is freely available on the App store for iphone and iPad, see: https://apps.apple.com/us/app/tofu-go/id441704812 
 
-[^Madsen]: Madsen et al, 1993, pp.16-18 (need formatting /w)
+[^Madsen]: Madsen et al, 1993, pp.16-18 (w need formatting /w)
 
 [^splice]: `splice()` is a p5.js function, see here: https://p5js.org/reference/#/p5/splice 
 
