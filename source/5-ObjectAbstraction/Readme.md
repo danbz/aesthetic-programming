@@ -73,6 +73,8 @@ This chapter's sample code is a game with the following core components:
 
 *Figure 5.2: A screenshot of the simplified Tofu go!.* [need to adjust slightly the code and visual for next round /w]
 
+[RUNME](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch5_ObjectAbstraction/index.html)
+
 ## Source Code 
 The source code is divided into two pieces, one with all the core functions in sketch.js, and the other tofu.js that specifies the class/object relationship. Sometimes it gives a clearer overview of the program if you seperate the program into different functions and files. To enable the two js files, you need to add the following into the index.html file:
 
