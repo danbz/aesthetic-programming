@@ -6,9 +6,9 @@ page_order: 5
 ## 5.1 setup()
 The idea of an object is a key concept in programming but also more broadly understood as a thing with properties that can be identified in relation to the term subject. Put simply, and following philosophical conventions, a subject is an observer (we might say programmer) and an object is a thing outside of this, a thing observed (the program). In this chapter we will learn to further manipulate objects and understand their complexity in keeping with those that think we need to place more importance on nonhuman things so as to understand better how objects exist and interact (with other objects but also with subjects). 
 
-In the previous chapters, we have worked with different objects such as geometric shapes like ellipses, rectangles and polygons. You can apply different attributes to these objects, such as color, size and position, and additionally objects can exhibit certain behaviors such as movement, animation and rotation (as seen in Chapter 3 — InfiniteLoops, and Chapter 4 — DataCapture). These geometric objects use functions that are already built-in within `p5.js` as a set of pre-defined arguments and attributes. In this chapter, we will work on constructing our own objects, attributes and behaviors, that represent aspects of the real world. There is a process of abstraction here, because physical objects need to be translated into the idea of an object, and in doing this certain details and contextual information is inevitably left out. We will return to this. 
+In the previous chapters, we have worked with different objects such as geometric shapes like ellipses, rectangles and polygons. You can apply different attributes to these objects, such as color, size and position, and additionally objects can exhibit certain behaviors such as movement, animation and rotation (as seen in Chapter 3 — InfiniteLoops, and Chapter 4 — DataCapture). These geometric objects use functions that are already built-in within `p5.js` as a set of pre-defined arguments and attributes. In this chapter, we will work on constructing our own objects, attributes and behaviors, that represent aspects of the real world. There is a process of abstraction here, because physical objects need to be translated into the idea of an object, and in doing this certain details and contextual information is inevitably left out. We will return to this issue later. 
 
-Abstraction is one of the key concepts of Object-Oriented Programming (OOP), a model of programming in which programs are organized around data, or objects, rather than functions and logic. The main goal is to handle an object's complexity by abstracting certain details and representing a concrete model. Beatrice Fazi and Matthew Fuller discuss the wider significance of this and the movement between concrete and abstracted computation: "Computation not only abstracts from the world in order to model and represent it; through such abstractions, it also partakes in it".[^Fazi] If we recall the previous chapter and the many examples of data capture and gamification, it becomes clear that computation can begin to shape certain behaviours and actions. In other words, objects in OOP are not only about negotiating with the real world as a form of realism and representation, nor the functions and logic that compose the objects, but the wider relation and "interactions between and with the computational".[^Fuller]
+Abstraction is one of the key concepts of Object-Oriented Programming (OOP), a model of programming in which programs are organized around data, or objects, rather than functions and logic. The main goal is to handle an object's complexity by abstracting certain details and representing a concrete model. Beatrice Fazi and Matthew Fuller discuss the wider significance of this and the relations between concrete and abstracted computation: "Computation not only abstracts from the world in order to model and represent it; through such abstractions, it also partakes in it".[^Fazi] If we recall the previous chapter and the many examples of data capture and gamification, it becomes clear that computation can begin to shape certain behaviours and actions. In other words, objects in OOP are not only about negotiating with the real world as a form of realism and representation, nor the functions and logic that compose the objects, but the wider relations and "interactions between and with the computational".[^Fuller]
 
 Indeed, abstraction exists at many different layers and scales of computing. At the lowest level of abstraction, the flow of information is stored, processed and represented in the form of binary (base 2 number system) numbers — zeros and ones.[^binary] In other words, the way we understand all multimedia formats (whether texts, images, video or sound) is quite different from how a computer understands them as data, or more precisely as binary numbers, including pixels, color values and waveforms. In this way, we can move from low-level abstraction in the form of machine code and the switching of electric circuits to high-levels of abstraction such as the graphical user interface or the programming language `p5.js` that we use in the book. 
 
@@ -17,9 +17,13 @@ Recognition of the levels of abstraction are important to understand that the sp
 ## 5.1.1 Start()
 
 Object Abstraction in computing is about representation. Certain attributes and relations are abstracted from the real world, but at the same time details and contexts are left out. Let's imagine a person as an object (rather than a subject) and consider what properties and behaviors that person might have. We use the name **class** to give an overview of the object's properties and behaviors. 
+
 For example:
+
 **Properties**: A person with the **name** Winnie, has black **hair color**, **wears** no glasses with **height** as 164 cm. Their **favorite color** is black and their **favorite food** is Tofu.  
+
 **Behavior**: A person can run from location A (Home) to location B (University). 
+
 From the above, we can construct a pseudo class that can use to create another object with the following properties and behaviors:
 
 |Person                  |
@@ -43,7 +47,11 @@ In the same token, we can *reuse* the same properties and behavior to create ano
 
 From the pseudo object, we can begin to see how abstraction takes place in computation as *computerized material*, in which we only select properties and behaviors that we think are important to be represented in a program and ignore a whole range of other possible properties. This is a way of modeling/representing physical phenomena, simulating the behaviors of real or imaginary entities in the world [^Madsen]. 
 
-After the brief example of modeling the person object, we now move to the example that is inspired by the game *ToFu go!*.
+It is understood that objects in the real world are highly complex and nonlinear. Let's explore this through the example of Tofu, food that originated in China over 2000 years ago. Through soaking and grinding soybeans, as well as filtering out remaining particulates, it becomes something known as soymilk, containing stable emulsion of oil, water, and protein. This is then pressed into solid white blocks with varying softness as Tofu in a process similar to cheesemaking. It is an important food product specifically in the East, not only because of its protein richness but also as a cultural symbol. 
+
+After the brief example of modeling the person-object, we now move to our central example for this chapter that is inspired by the game *ToFu go!* [Tofu Go](https://www.dbdbking.com/Tofu-Go), a game developed and designed by Francis Lam (HK/CN).[^francis] 
+
+When Tofu becomes a computational object, as in [Tofu Go](https://www.dbdbking.com/Tofu-Go), abstraction is required to capture the complexity of processes and relations, and to represent essential and desired elements. In the game, Tofu is designed as a white 3-D cube form with an emoticon, and it can also move and jump. Of course in the real world Tofu cannot behave in that way, but one can imgine how objects can be performed differently when you program your own software and if you love Tofu. As Lam declares: "Tofu Go! is a game dedicated to my love for tofu". 
 
 ![tofu go](ch5_1.png)
 
@@ -51,13 +59,7 @@ After the brief example of modeling the person object, we now move to the exampl
 
 [embeded video](https://www.youtube.com/watch?v=V9NirY55HfU])
 
-
 [need to re-edit this. I think it's better here /g OK]
-
-
-It is understood that objects in the real world are highly complex and nonlinear. Let's explore this through the example of Tofu, food that originated in China over 2000 years ago. Through soaking and grinding soybeans, as well as filtering out remaining particulates, it becomes something known as soymilk, containing stable emulsion of oil, water, and protein. This is then pressed into solid white blocks with varying softness as Tofu in a process similar to cheesemaking. It is an important food product specifically in the East, not only because of its protein richness but also as a cultural symbol. 
-
-When Tofu becomes a computational object, as in [Tofu Go](https://www.dbdbking.com/Tofu-Go), a game developed and designed by Francis Lam (HK/CN),[^francis] abstraction is required to capture the complexity of processes and relations, and to represent essential and desired elements. In the game, Tofu is designed as a white 3-D cube form with an emoticon, and it can also move and jump. Of course in the real world Tofu cannot behave in that way, but one can imgine how objects can be performed differently when you program your own software and if you love Tofu. As Lam declares: "Tofu Go! is a game dedicated to my love for tofu". We will return to this example later but for now it is the process of abstraction that concerns us. 
 
 In the following, we will use the game *ToFu Go!* (which is freely available on App Store [^App]) as the main flow of discussion and then a simplified version will be used for the sample code. As discussed before, *ToFu Go!* is a mobile game references to the context of Chinese food culture i.e HotPot. By programming a modified and simplier version of *ToFu Go!*, the remaining parts unfold the computational logics and modeling within the context of object oriented programming.
 
