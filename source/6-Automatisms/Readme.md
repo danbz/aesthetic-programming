@@ -251,7 +251,7 @@ Technically speaking, there is no new syntax as the 2-dimensional arrays have be
 
 ## 2-dimensional Arrays & Nested for-loops
 
-Daniel Shiffman creates a tutorial (both in the form of written[^shiffman1] and video[^shiffman12]) to discuss how a 2-dimensional array is essentially an array of a bunch of arrays. He also suggests that it would be useful to think about 2-dimensional arrays with a grid structure. The background of the Langton's Ant is designed with a grid structure in two dimensions with both columns and rows. Since we need to identify the state of each cell, we need to know the exact x and y position of each cell. 
+Daniel Shiffman creates a tutorial (both in the form of written[^shiffman1] and video[^shiffman2]) to discuss how a 2-dimensional array is essentially an array of a bunch of arrays. He also suggests that it would be useful to think about 2-dimensional arrays with a grid structure. The background of the Langton's Ant is designed with a grid structure in two dimensions with both columns and rows. Since we need to identify the state of each cell, we need to know the exact x and y position of each cell. 
 
 Let's see the source code again for the grid drawing: 
 
@@ -318,12 +318,12 @@ Therefore, each divided cell is presented in the structure of a 2-dimensional ar
 
 **Tasks (RUNME):**
 1. Start with a blank paper. Think of at least two simple rules that you want to implement in a generative program. (You may take reference from Langton's ant (1986) and The Game of Life (1970))
-2. Based on the rules that you set in step 1, then design a generative program that utilizes at least one for-loop/while-loop and one conditional statement but without any direct interactivity. Just let the program runs and emerges automatically.(You may also consider to use noise() and random() syntax)
+2. Based on the rules that you set in step 1, then design a generative program that utilizes at least one for-loop/while-loop and one conditional statement but without any direct interactivity. Just let the program runs and emerges automatically.(You may also consider to use `noise()` and `random()` syntax if that helps)
 
 **Questions to think about as README:**
-- What are the rules in your generative program and describe how your program performs over time and how the rules allow to perform and evolve over time? 
+- What are the rules in your generative program and describe how your program performs over time and how are the running of the rules contingently enabled emergent behaviors? 
 - What's the role of rules and processes in your work?
-- What's generativity and automatism? How does this mini-exericse help you to understand what might be generativity and automatism? 
+- How does this mini-exericse help you to understand what might be generativity and automatism? Any thoughts about the theme of this chapter? 
 
 ## Required readings:
 - Montfort, N, et al. "Randomness". *[10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org/)*, The MIT Press, 2012, pp. 119-146 (The chapter: Randomness)
