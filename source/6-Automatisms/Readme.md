@@ -5,6 +5,8 @@ page_order: 6
 
 ## setup() 
 
+[g: feel free to cut/add/change the text, seems a bit long /w]
+
 Following the concept of object abstraction before in making class blueprints and object instances, this chapter introduces the creation of rules and the study of automaton as a self-operating machine, which is widely known as an abstract machine or Turing machine. Mathematician and computer scientist Alan Turing who first described this kind of machines in his infamous article 'On Computable Numbers, with an Application to the Entscheidungsproblem' in 1936 [^Turing]. He uses the term *universal computing machine* to theorize a model that describes how a machine "can be used to computate any computatable sequence" [^Turing1] and this could be understood as how a machine operates, following a predetermined sequence of instructions that process input and produce output results. 
 
 Specifically, the Turing machine is capable for 6 types of fundamental operations (at that time there wasn't a thing called computer yet), including read, write, move left, move right, change state and halt/stop. Turing suggested these operations can be performed via running an endless tape (acts like the memory/storage in a modern computer) with instructions like what symbols to read, what symbols to write as well as how to move. These instructions are fundamental to the Turing machine. [^visualization]  
@@ -44,7 +46,7 @@ In the following sections, we will explore two examples of rule-based programs t
 ## start()
 Two sample code will be provided in this chapter. The first one is called *10 PRINT* which is based on one-line program code that is written in BASIC programming language that was executed in Commodore 64, an early home computer model: `10 PRINT CHR$(205.5+RND(1));: GOTO 10` to generate endless pattern on a screen. It wasn't claimed to be an art piece, but instead this line of code was printed in the 1982 *Commodore 64 User's Guide* and later published on the web. This line of code also becomes an important example in the field of software studies to demonstrate how to study code critically via history, science and culture. [^10print] This *10 PRINT* in `p5.js` is mainly to help familiarizing rules and its creative potential to allow some degree of autonomy within a system.  
 
-The second program is called *Langton's Ant* which is invented by a computer scentist Christopher Gale Langton, who is considered the father of the concept of Artificial life, in 1986. The core different with the *10 PRINT* is to discuss complex system and emergent behavior through simple rules, thinking about automated simulation as a Turing machine. 
+The second program is called *Langton's Ant* which is invented by a computer scentist Christopher Langton, who is considered the father of the concept of Artificial life, in 1986. The core different with the *10 PRINT* is to discuss complex system and emergent behavior through simple rules, thinking about automated simulation as a Turing machine. 
 
 ## Exercise in class (10 PRINT)
 
@@ -94,9 +96,9 @@ function draw() {
 
 ## Langton's Ant 
 
-Langton's Ant, invented by Christopher Gale Langton [^Langton], is a classical mathematical game involving an ant, simulating the molecular logic of the ant's living state. The simulation of the ant's state is inspired by the Turing machine that can perform computational tasks with the manipulation of symbols on a strip of tape according to a set of rules. 
+Langton's Ant, invented by Christopher Langton [^Langton], is a classical mathematical game involving an ant, simulating the molecular logic of the ant's living. The simulation of the cell's state is inspired by the classical Turing machine that can perform computational tasks with the manipulation of symbols on a strip of tape according to a set of rules. 
 
-This section will present the sample code that simulate the (on/off) states of an ant, presenting in a grid system with a state in either white or black color. The ant will move based on the simple rules, but it will gradually turn into a more complex system and exhibit emergent behavior over time.
+Similiar to the divided cells in the one dimensional long tape, this section will present the sample code that simulate the cell states, presenting in a two-dimensional grid system in either white or black color. Based on the simple rules, an ant is considered as the input source that will change the state of the cell by moving in four direction, and the ant will gradually turn the grid into a more complex system and exhibit emergent behavior over time.
 
 ![drawing5](ch6_5.gif)
 
@@ -109,17 +111,17 @@ With the initial direction of an ant that is pointed upwards (i.e the North posi
 
 At the beginning, the canvas with only a grid system and all the individual cells are in white color. The ant with four possible head directions: UP, RIGHT, DOWN, LEFT, and will turn 90° on either left or right that is subjected to the existing cell's color. 
 
-To start, the ant initial is at the UPWARD position on the middle of the grid, that is the white color cell. It follows the rule 1 above to change the white cell to the black one and then the ant rotates its head direction from UP to RIGHT and moves forward one unit. 
+To start with, the ant's head is pointing at the UPWARD position as the start and is located in the middle of the white grid canvas. It then follows the rule 1 above to rotate the head direction from UP to RIGHT, then it also changes the white cell to the black and moves forward one unit (pointing to the right as per the new head direction). 
 
-Then the second step would be to follow rule 1 because the new cell is in white color. Therefore, the second cell will turn to the black color and the ant's head will turn right 90° that point from RIGHT to DOWN and moves forward one unit. 
+Then the second step would be to follow rule 1 again because the new cell is still in white color. The ant's head direction will turn right 90° that point from RIGHT to DOWN, and then changes the white cell to the black color and finally the ant moves forward one unit.
 
-Then the third and forth steps are similar to the previous one until the ant meets a cell which is in black color (which is started in step 5), then the ant will follow rule 2 to change back the cell's color to white and then turns left 90° instead of the right. 
+Then the third and forth steps are similar to the previous one until the ant meets a cell which is in black color (which is started in step 5). At this point, the ant will follow rule 2 instead to change back the cell's color to white and then turns left 90° instead of the right. 
 
 ![drawing6](ch6_6.gif)
 
 *Figure 6.6: Langton's Ant - Processes*
 
-Figure 6.6 shows the ant starts building the emergent 'highway' pattern after the first few hundred moves with simple patterns and the next 10,000 steps[^Steps] with chaotic behavior. The highway pattern repeats indefinately until most of cells are reconfigured, leading to something that is similar to Figure 6.7 which the ant is still constantly moving and changing the color of the cells.
+Figure 6.6 shows the ant starts building the emerging 'highway' pattern[^Moreira] after the first few hundred moves with simple symmetricial patterns and follows by additional 9000 steps[^Steps] with the seemingly random steps at the center. The highway pattern repeats indefinately until most of cells are reconfigured, leading to something that is similar to Figure 6.7 which the ant is still constantly moving and changing the color of the cells.
 
 ![drawing7](ch6_7.png)
 
@@ -142,7 +144,7 @@ let onColor;
 
 function setup() {
   createCanvas(1000,700);
-  offColor = color(255,255,255);  //setting offcolor
+  offColor = color(255);  //setting offcolor
   onColor = color(0); //setting onColor
   background(offColor);
   grid = drawGrid();
@@ -153,30 +155,27 @@ function setup() {
 }
 
 function draw() {
-
-  for (let n = 0; n < 100; n++) { //just for running faster per frame, try 1
+  for (let n = 0; n < 100; n++) { //just for running faster per frame, try changing the n e.g 1
    checkEdges();
    let state = grid[xPos][yPos];
-   //check state against current cell
+   //check the current cell's state
    if (state == 0) { //rule 1
-    dir++;  // turn right 90 degree
-    grid[xPos][yPos] = 1; //change the currect cell's state to 'on' state
+    dir++;  // turn right 90°
+    grid[xPos][yPos] = 1; //change the currect cell's state to 'on'
     fill(onColor);  //subsequent color change
-
     if (dir > antLEFT) {
       dir = antUP;  //reset the counter
     }
    }else{  //rule 2
-    dir--;  //turn left 90 degree
-    grid[xPos][yPos] = 0; //change the current cell's state to off state
+    dir--;  //turn left 90°
+    grid[xPos][yPos] = 0; //change the current cell's state to 'off'
     fill(offColor);  //subsequent color change
-
     if (dir < antUP) {
       dir = antLEFT; //reset the counter
     }
    }
-  rect(xPos*grid_space, yPos*grid_space, grid_space, grid_space);
-  nextMove();
+   rect(xPos*grid_space, yPos*grid_space, grid_space, grid_space);
+   nextMove();
   }
 }
 function drawGrid() {
@@ -192,10 +191,10 @@ function drawGrid() {
       strokeWeight(1);
       noFill();
       rect(x, y, grid_space, grid_space);
-      arr[i][j] = 0;  // assign each cell with the off color and link to individual cells
+      arr[i][j] = 0;  // assign each cell with the off state + color
     }
   }
-  return arr; //a function with a return value
+  return arr; //a function with a return value of cell's status
 }
 
 function nextMove () {
@@ -224,13 +223,14 @@ function checkEdges() {
     yPos = rows-1;  //go to the bottom
   }
 }
+
 ```
 ## Reading Langton's Ant
 
-Based on the above code, there are three areas can help dlowing down or zooming in the program. 
+Based on the above code, there are three areas can help slowing down or zooming in the program. 
 1. `let grid_space = 5;`: You can tchange the value to 10 then you are able to see it at a bigger size.   
 2. `frameRate(20);`: Lower the frameRate value can help slowering down the program
-3. Within the `draw()` function, we have a for-loop where n is the steps of the ant. You may reduce the `n < 100` to `n < 1` in the line: `for (let n = 0; n < 100; n++) {`. Reducing the n value will instruct the program to only process n steps per frame. 
+3. Within the `draw()` function, we have a for-loop where n is the steps of the ant. You may reduce the `n < 100` to `n < 1` in the line: `for (let n = 0; n < 100; n++) {`. (Reducing the n value will instruct the program to only process n steps per frame.)
 
 Intead of going through the code line by line, this part is more showing what each function does. 
 
@@ -240,15 +240,17 @@ Intead of going through the code line by line, this part is more showing what ea
 
 - `function draw()`: This is the main function to check against the two rules of Langton's Ant and change cells' color. 
 
-- `function nextMove ()`: The 4 directions are structured in a number format so that the variable `dir++` can be used for incrementing or decrementing the ant's head direction. Each different direction of *UP, RIGHT, DOWN, LEFT* corresponds to moving forward in either horizontal (xPos) or vertical (yPos) step on the canvas. 
+- `function nextMove()`: The 4 directions are structured in a number format so that the variable `dir++` can be used for incrementing or decrementing the ant's head direction. Each different direction of *UP, RIGHT, DOWN, LEFT* corresponds to moving forward in either horizontal (xPos) or vertical (yPos) step on the canvas. 
 
 - `function checkEdges()`: This function is to check if the ant moves out of the four edges, then it will continue at the other end. 
 
-Technically speaking, there is no new syntax as the 2-dimensional arrays have been covered briefly in Chapter 4 - Data Capture. However, there is the new use of 2-dimensional arrays and nested for-loops. 
+Technically speaking, there is no new syntax as the 2-dimensional arrays have been covered briefly in Chapter 4 - Data Capture. However, there is the new use of 2-dimensional arrays and nested for-loops in the sample code. 
 
 ## 2-dimensional Arrays & Nested for-loops
 
-Daniel Shiffman creates a tutorial (both in the form of written[^shiffman1] and video[^shiffman12) to discuss how a 2-dimensional array is essentially an array of a bunch of arrays. He also suggests that using 2-dimensional arrays to think of a grid structure would be very useful. The background of the Langton's Ant is designed with a grid structure, implementating with a structure of a 2-dimensional array in which the width and height of the canvas is devided into an evenly distributed space. Each space (which we called it as cell in the sample code) represents a possiblity that an ant can move as a unit and with the on/off state that is represented in black/white color. 
+Daniel Shiffman creates a tutorial (both in the form of written[^shiffman1] and video[^shiffman12]) to discuss how a 2-dimensional array is essentially an array of a bunch of arrays. He also suggests that it would be useful to think about 2-dimensional arrays with a grid structure. The background of the Langton's Ant is designed with a grid structure in two dimensions with both columns and rows. Since we need to identify the state of each cell, we need to know the exact x and y position of each cell. 
+
+Let's see the source code again for the grid drawing: 
 
 ```javascript
 function drawGrid() {
@@ -273,7 +275,9 @@ function drawGrid() {
 
 To create an array, we use the syntax `let arr = new Array(cols);` and this line indicates the grid in columns and the length of the array is the number of columns. Since we also need to cater the number of rows in a two-dimensional manner, that's why we create another array out of each existing array in the column with the line `arr[i] = new Array(rows);`. Such syntax is put under a for-loop to loop through each of the column but then with the addition of number of rows (which is derived from the canvas's height). Therefore, 2-dimensional arrays is visualized in this way: `arr[][]`. 
 
-In order to know the exact x and y coordinates of each cell within a grid structure, it depends on which columns and which rows that you are pointing at with the formular `x = i * grid_space;` and `y= j * grid_space;` respectively. By using two nested for-loops, the program will loop through each column and the each row under the same column until the program runs till the last column. Ultimately, we are able to get the x and y coordinate with the syntax `array[i][j]`, which is subjected to which column (with the variable i) and rows (with the variable j).
+In order to know the exact x and y coordinates of each cell within a grid structure, it depends on which columns and which rows that you are pointing at with the formular `x = i * grid_space;` and `y= j * grid_space;` respectively. By using two nested for-loops, the program will loop through each column and each row (under the same column) until the program runs till the last column. Ultimately, we are able to get the x and y coordinate with the syntax `array[i][j]`, which is subjected to which column (with the variable i) and rows (with the variable j).
+
+Therefore, each divided cell is presented in the structure of a 2-dimensional array. It depends on the width and height of hte canvas and how you will evenly distributed the space. Each cell represents a possiblity that an ant can move as a unit and with the on/off state that is represented in black/white color. 
 
 ## Exercise in class
 
@@ -359,3 +363,5 @@ In order to know the exact x and y coordinates of each cell within a grid struct
 [^Steps]: See the web-based step by step running of the Langton's Ant which is implemented by Barend Köbben in 2014. https://kartoweb.itc.nl/kobben/D3tests/LangstonsAnt/.
 
 [^Smart]: See the artwork *WUOUS* by Anders Visti and Tobias Stenberg with the implementation of the Langton's Ant to question the so-called smart cities here: https://andersvisti.dk/work/wuos-2019 
+
+[^Moreira]: Andrés Moreira, Anahí Gajardo and Eric Goles. “Dynamical Behavior and Complexity of Langton’s Ant.” *Complexity* 6, no. 4 (March 2001): 46–52. https://doi.org/10.1002/cplx.1042.
