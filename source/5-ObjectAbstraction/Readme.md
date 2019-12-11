@@ -40,7 +40,7 @@ In the same token, we can *reuse* the same properties and behavior to create ano
 | withGlasses = No              | withGlasses = Yes         |
 | Height = 164 cm               | Height = 183 cm           |
 | FavoriteColor = Black         | favoriteColor = Blue      |
-| FavoriteFood = Tofu           | FavoriteFood = Salad      |
+| FavoriteFood = Tofu           | FavoriteFood = Avocado      |
 | FromLocation = Home           | FromLocation = University |
 | ToLocation = University       | ToLocation = Home         |
 | run()                         | run()                     |
