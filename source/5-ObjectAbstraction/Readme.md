@@ -8,17 +8,17 @@ The idea of an object is a key concept in programming but also more broadly unde
 
 In the previous chapters, we have worked with different objects such as geometric shapes like ellipses, rectangles and polygons. You can apply different attributes to these objects, such as color, size and position, and additionally objects can exhibit certain behaviors such as movement, animation and rotation (as seen in Chapter 3 — InfiniteLoops, and Chapter 4 — DataCapture). These geometric objects use functions that are already built-in within `p5.js` as a set of pre-defined arguments and attributes. In this chapter, we will work on constructing our own objects, attributes and behaviors, that represent aspects of the real world. There is a process of abstraction here, because physical objects need to be translated into the idea of an object, and in doing this certain details and contextual information is inevitably left out. We will return to this. 
 
-Abstraction is one of the key concepts of Object-Oriented Programming (OOP), a model of programming in which programs are organized around data, or objects, rather than functions and logic. The main goal is to handle an object's complexity by abstracting certain details and representing a concrete model. Beatrice Fazi and Matthew Fuller discuss the wider significance of this and the movement between concrete and abstracted computation: "Computation not only abstracts from the world in order to model and represent it; through such abstractions, it also partakes in it".[^Fazi] If we recall the previous chapter and the many examples of data capture and gamification, it becomes clear that computation can begin to shape certain behaviours and actions. In other words, objects in OOP are not only about negotiating with the real world as a form of realism and representation, nor the functions and logic that compose the objects, but the wider relatiosn and "interactions between and with the computational".[^Fuller]
+Abstraction is one of the key concepts of Object-Oriented Programming (OOP), a model of programming in which programs are organized around data, or objects, rather than functions and logic. The main goal is to handle an object's complexity by abstracting certain details and representing a concrete model. Beatrice Fazi and Matthew Fuller discuss the wider significance of this and the movement between concrete and abstracted computation: "Computation not only abstracts from the world in order to model and represent it; through such abstractions, it also partakes in it".[^Fazi] If we recall the previous chapter and the many examples of data capture and gamification, it becomes clear that computation can begin to shape certain behaviours and actions. In other words, objects in OOP are not only about negotiating with the real world as a form of realism and representation, nor the functions and logic that compose the objects, but the wider relation and "interactions between and with the computational".[^Fuller]
 
 Indeed, abstraction exists at many different layers and scales of computing. At the lowest level of abstraction, the flow of information is stored, processed and represented in the form of binary (base 2 number system) numbers — zeros and ones.[^binary] In other words, the way we understand all multimedia formats (whether texts, images, video or sound) is quite different from how a computer understands them as data, or more precisely as binary numbers, including pixels, color values and waveforms. In this way, we can move from low-level abstraction in the form of machine code and the switching of electric circuits to high-levels of abstraction such as the graphical user interface or the programming language `p5.js` that we use in the book. 
 
-Recognoition of the levels of abstraction are important to understand that the specific details of how a computer actually works are largely hidden from view or substituted by desktop metaphors (such as deleting a file by throwing it in the bin). That the complexity is reduced is useful of course for a number of reasons including accessability and usability, but we also need to bear in mind that there is more at stake here. In learning to program, even at the higher level, we engage the politics of this movement between abstract and concrete reality. More specically, for this chapter, we focus on object abstraction, which is an approach in OOP, to think conceptually about how objects model the world and what this suggests in terms of an understanding of its hidden layers. 
+Recognition of the levels of abstraction are important to understand that the specific details of how a computer actually works are largely hidden from view or substituted by desktop metaphors (such as deleting a file by throwing it in the bin). That the complexity is reduced is useful of course for a number of reasons including accessability and usability, but we also need to bear in mind that there is more at stake here. In learning to program, even at the higher level, we engage the politics of this movement between abstract and concrete reality. More specically, for this chapter, we focus on object abstraction, which is an approach in OOP, to think conceptually about how objects model the world and what this suggests in terms of an understanding of its hidden layers. 
 
 ## 5.1.1 Start()
 
 Object Abstraction in computing is about representation. Certain attributes and relations are abstracted from the real world, but at the same time details and contexts are left out. Let's imagine a person as an object (rather than a subject) and consider what properties and behaviors that person might have. We use the name **class** to give an overview of the object's properties and behaviors. 
 For example:
-**Properties**: A person with the **name** Winnie, has black **hair color**, **wears** no glasses with **height** as 145 cm. Their **favorite color** is black and their **favorite food** is Tofu.  
+**Properties**: A person with the **name** Winnie, has black **hair color**, **wears** no glasses with **height** as 164 cm. Their **favorite color** is black and their **favorite food** is Tofu.  
 **Behavior**: A person can run from location A (Home) to location B (University). 
 From the above, we can construct a pseudo class that can use to create another object with the following properties and behaviors:
 
@@ -33,15 +33,13 @@ In the same token, we can *reuse* the same properties and behavior to create ano
 |-------------------------------|---------------------------|
 | Name = Winnie                 | Name = Geoff              |
 | HairColor = Black             | HairColor = Brown         |
-| withGlasses = No              | withGlasses = Yes          |
-| Height = 145 cm               | Height = 183 cm           |
-| FavoriteColor = Black         | favoriteColor = Blue     |
-| FavoriteFood = Tofu           | FavoriteFood = Salad     |
+| withGlasses = No              | withGlasses = Yes         |
+| Height = 164 cm               | Height = 183 cm           |
+| FavoriteColor = Black         | favoriteColor = Blue      |
+| FavoriteFood = Tofu           | FavoriteFood = Salad      |
 | FromLocation = Home           | FromLocation = University |
 | ToLocation = University       | ToLocation = Home         |
 | run()                         | run()                     |
-
-[g: should we have winnie and geoff as object instance 2 and 3? haha /w YES PLEASE ADJUST ]
 
 From the pseudo object, we can begin to see how abstraction takes place in computation as *computerized material*, in which we only select properties and behaviors that we think are important to be represented in a program and ignore a whole range of other possible properties. This is a way of modeling/representing physical phenomena, simulating the behaviors of real or imaginary entities in the world [^Madsen]. 
 
@@ -54,7 +52,7 @@ After the brief example of modeling the person object, we now move to the exampl
 [embeded video](https://www.youtube.com/watch?v=V9NirY55HfU])
 
 
-[need to re-edit this. I think it's better here /g]
+[need to re-edit this. I think it's better here /g OK]
 
 
 It is understood that objects in the real world are highly complex and nonlinear. Let's explore this through the example of Tofu, food that originated in China over 2000 years ago. Through soaking and grinding soybeans, as well as filtering out remaining particulates, it becomes something known as soymilk, containing stable emulsion of oil, water, and protein. This is then pressed into solid white blocks with varying softness as Tofu in a process similar to cheesemaking. It is an important food product specifically in the East, not only because of its protein richness but also as a cultural symbol. 
@@ -68,7 +66,7 @@ This chapter's sample code is a game with the following core components:
 2. A cube-like Tofu as a class object. There are many object instances, and they appear in different parts of the table, running from left to right.
 3. The button with the text "add Tofu: maintain minimum 5 on the table". It allows the addition of Tofu object instances.
 4. There are continuous display of beer objects which move from right to left. (The beers are more considered as decorative objects in this game and in the chapter, which means the game can still function without them. We use the library of [p5.play](http://molleindustria.github.io/p5.play/) to control the beer image and together it illustrates a different way of constructing objects)
-5. The simple game logic is to maintain at least 5 Tofu on the table, or else the game will stop with the dispaly of the text 'Game Over'.
+5. The simple game logic is to maintain at least 5 tofus on the table, or else the game will stop with the dispaly of the text 'Game Over'.
 
 ![ch5_2](ch5_2.png)
 
@@ -77,7 +75,7 @@ This chapter's sample code is a game with the following core components:
 [RUNME](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch5_ObjectAbstraction/index.html)
 
 ## Source Code 
-The source code is divided into two pieces, one with all the core functions in sketch.js, and the other tofu.js that specifies the class/object relationship. Sometimes it gives a clearer overview of the program if you seperate the program into different functions and files. To enable the two js files, you need to add the following into the index.html file:
+The source code is divided into two pieces, one with all the core functions in sketch.js, and the other tofu.js that specifies the class/object relationship. Sometimes it gives a clearer overview of the program if you seperate the program into different functions and files. To enable the two js files in a program, you need to add the following into the index.html file:
 
 ```html
   <script language="javascript" type="text/javascript" src="sketch.js"></script>
@@ -267,9 +265,9 @@ class Tofu { //create a class: template/blueprint of objects with properties and
 //something more here
 }
 ```
-The above style is to prepare an object construction. As such we have a function called constructor. Here the variable `xpos` is put inside the constructor function because this will be passed from other function in the `sketch.js` that have a line that actually instruct the class to make an object instance. It is similar to how a function pass argument from one to another. 
+The above style is to prepare an object construction. As such we have a function called constructor. Here the variable `xpos` is put inside the constructor function because this will be passed from other function in the `sketch.js` that actually instructs the class to make an object instance. It is similar to how a function pass argument from one to another. 
 
-Below the function constructor, there is a list of variables that indicate the properties of speed, position, size, roatating angle and the emoji's size of a tofu. All these properties are defined with the keyword `this`, which refers to the current object instance, e.g `    this.speed = floor(random(3,10));`. It can be translated roughly like this: when the object instance tofu is created, that particular tofu's speed will be a random integer between 3 to 10. 
+Below the function constructor, and there is a list of variables that indicate the properties of speed, position, size, roatating angle and the emoji's size of a tofu. All these properties are defined with the keyword `this`, which refers to the current object instance, e.g `this.speed = floor(random(3,10));`. It can be translated roughly like this: when the object instance tofu is created, that particular tofu's speed value will be a random integer between 3 to 10. 
 
 For the other variable `this.pos`, we have used the function `new createVector` to create the new p5 vector which contains the x and y component. With the `createVector` function, we can then use `pos.x` and `pos.y` to specify the x and y coordinates of a tofu. 
 
@@ -316,6 +314,8 @@ Specifically, we now look at the most important line here:
 
 - tofu[i] refers to the new object instance and it starts with the index 0. 
 - new Tofu() refers to the action of creating the new object through passing the data value(s) into the class Tofu. 
+
+This small snippets of code shows that objects can be duplicated and easy to manage. This points at one the advantages of using OOP which is the reusability of objects. 
 
 **(Step 5) Display**: How you want to display and present them over time?
 
