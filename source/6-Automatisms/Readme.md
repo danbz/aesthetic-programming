@@ -54,6 +54,8 @@ The second program is called *Langton's Ant* which is invented by a computer sce
 
 *Figure 6.4: 10 PRINT in p5.js*
 
+[RUNME](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch6_Automatisms/index.html)
+
 1. Read the source code of *10 PRINT* then copy it and run in your own computer.
 
 ```javascript
@@ -127,6 +129,7 @@ Figure 6.6 shows the ant starts building the emerging 'highway' pattern[^Moreira
 
 *Figure 6.7: Langton's Ant - A snapshot of the emergent process*
 
+[RUNME](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch6_Automatisms/sketch_6_1/index.html)
 
 ## Source code (Langton's Ant)
 ```javascript
