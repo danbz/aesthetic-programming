@@ -45,21 +45,17 @@ In the same token, we can *reuse* the same properties and behavior to create ano
 | ToLocation = University       | ToLocation = Home         |
 | run()                         | run()                     |
 
-From the pseudo object, we can begin to see how abstraction takes place in computation as *computerized material*, in which we only select properties and behaviors that we think are important to be represented in a program and ignore a whole range of other possible properties. This is a way of modeling/representing physical phenomena, simulating the behaviors of real or imaginary entities in the world [^Madsen]. 
+From the pseudo object, we can begin to see how abstraction takes place in computation as *computerized material*, in which we only select properties and behaviors that we think are important to be represented in a program and ignore a whole range of other possible properties. This is a way of modeling/representing physical phenomena, simulating the behaviors of real or imaginary entities in the world.[^Madsen] 
 
 It is understood that objects in the real world are highly complex and nonlinear. Let's explore this through the example of Tofu, food that originated in China over 2000 years ago. Through soaking and grinding soybeans, as well as filtering out remaining particulates, it becomes something known as soymilk, containing stable emulsion of oil, water, and protein. This is then pressed into solid white blocks with varying softness as Tofu in a process similar to cheesemaking. It is an important food product specifically in the East, not only because of its protein richness but also as a cultural symbol. 
 
-After the brief example of modeling the person-object, we now move to our central example for this chapter that is inspired by the game *ToFu go!* [Tofu Go](https://www.dbdbking.com/Tofu-Go), a game developed and designed by Francis Lam (HK/CN).[^francis] 
-
-When Tofu becomes a computational object, as in [Tofu Go](https://www.dbdbking.com/Tofu-Go), abstraction is required to capture the complexity of processes and relations, and to represent essential and desired elements. In the game, Tofu is designed as a white 3-D cube form with an emoticon, and it can also move and jump. Of course in the real world Tofu cannot behave in that way, but one can imgine how objects can be performed differently when you program your own software and if you love Tofu. As Lam declares: "Tofu Go! is a game dedicated to my love for tofu". 
+After the brief example of modeling the person-object, we now move to our central example for this chapter that is inspired by the game *ToFu go!* [Tofu Go](https://www.dbdbking.com/Tofu-Go), a game developed and designed by Francis Lam (HK/CN).[^francis] When Tofu becomes a computational object, as in [Tofu Go](https://www.dbdbking.com/Tofu-Go), abstraction is required to capture the complexity of processes and relations, and to represent essential and desired properties and behaviours. In the game, Tofu is designed as a white 3-D cube form with an emoticon, and it can also move and jump. Of course in the real world Tofu cannot behave in that way, but one can imgine how objects can be performed differently when you program your own software, and if you love Tofu ass Lam does: "Tofu Go! is a game dedicated to my love for tofu". 
 
 ![tofu go](ch5_1.png)
 
 *Figure 5.1: A screenshot of the game ToFu Go!, developed and designed by Francis Lam*
 
 [embeded video](https://www.youtube.com/watch?v=V9NirY55HfU])
-
-[need to re-edit this. I think it's better here /g OK]
 
 In the following, we will use the game *ToFu Go!* (which is freely available on App Store [^App]) as the main flow of discussion and then a simplified version will be used for the sample code. As discussed before, *ToFu Go!* is a mobile game references to the context of Chinese food culture i.e HotPot. By programming a modified and simplier version of *ToFu Go!*, the remaining parts unfold the computational logics and modeling within the context of object oriented programming.
 
