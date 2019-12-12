@@ -12,7 +12,7 @@ Abstraction is one of the key concepts of Object-Oriented Programming (OOP), a m
 
 Indeed, abstraction exists at many different layers and scales of computing. At the lowest level of abstraction, the flow of information is stored, processed and represented in the form of binary (base 2 number system) numbers — zeros and ones.[^binary] In other words, the way we understand all multimedia formats (whether texts, images, video or sound) is quite different from how a computer understands them as data, or more precisely as binary numbers, including pixels, color values and waveforms. In this way, we can move from low-level abstraction in the form of machine code and the switching of electric circuits to high-levels of abstraction such as the graphical user interface or the programming language `p5.js` that we use in the book. 
 
-Recognition of the levels of abstraction are important to understand that the specific details of how a computer actually works are largely hidden from view or substituted by desktop metaphors (such as deleting a file by throwing it in the bin). That the complexity is reduced is useful of course for a number of reasons including accessability and usability, but we also need to bear in mind that there is more at stake here. In learning to program, even at the higher level, we engage the politics of this movement between abstract and concrete reality. More specically, for this chapter, we focus on object abstraction, which is an approach in OOP, to think conceptually about how objects model the world and what this suggests in terms of an understanding of its hidden layers. 
+Recognition of the levels of abstraction are important to understand that the specific details of how a computer actually works are largely hidden from view or substituted by desktop metaphors (such as deleting a file by throwing it in the bin). That the complexity is reduced is useful of course for a number of reasons including accessability, but we also need to bear in mind that there is more at stake here. In learning to program, even at the higher level, we engage the politics of this movement between abstract and concrete reality. More specically, for this chapter, we focus on object abstraction, which is an approach in OOP, to think conceptually about how objects model the world and what this suggests in terms of an understanding of its hidden layers. 
 
 ## 5.1.1 Start()
 
@@ -351,7 +351,7 @@ The two important lines above instruct the tofu(s) to move and display on screen
 
 **(Step 6) Trigger point**: Think with the holistic logic
 
-Think about if you want to create a new object when there is a trigger point, e.g. click on a button to create something (Tofu). The trigger point can be clicking a button (as with data capture in the previous chapter), and on clicking the mouse moves to a particular position, the mic's volume exceeds a certain value, the object reaches the end of a screen or detection of a human face, etc. To append the new object instance in an existing array in which you do not know the existing amount of tofu, you can use the `push()` [^push] function.
+Think about if you want to create a new object when there is a trigger point, e.g. click on a button to create something (Tofu). The trigger point can be clicking a button (as with data capture in the previous chapter), and on clicking the mouse moves to a particular position, the mic's volume exceeds a certain value or detection of a human face, etc. To append the new object instance in an existing array in which you do not know the existing amount of tofu, you can use the `push()` [^push] function.
 
 ```javascript
 function addTofu() { //speed, xpos, ypos, size
@@ -371,8 +371,6 @@ It requires some planning before you start coding if you want to implement a cla
 - **(Step 4) Object creation**: After the basic setup of the class structure, next is to create a tofu object that can display on screen. 
 - **(Step 5) Display**: How you want to display and present the tofu object over time?
 - **(Step 6) Trigger point**: Think with the holistic logic.
-
-It is by no means saying the steps should be in the exact sequence as stated. Of course one might think about a program or a game in a holistic way at the beginning and come up with the different object instances afterwards. As such, the steps is just a suggested guideline especially for beginners who are encountering class-object creation in their first time. Based on our teaching experience, students usually found difficult to implement their own objects and we hope it is useful to have some steps, keywords and questions to facilitate the crafting of objects. 
 
 ## Exercise in class
 
@@ -406,19 +404,19 @@ We chose to discuss the class-object creation in greater detail in this chapter 
 
 ## While()
 
-By going through the tofu example, we can see object-oriented programming is highly organized and concrete even though objects are abstracted from the world. It's worth adding here that OOP is designed in this way
+By going through the tofu example, we can see object-oriented programming is highly organized and concrete even though objects are abstracted from the world. We will say more about this movement between abstract and concrete states. It's also worth adding here that OOP is designed to reflect the way the world itself is organised, at least from the perspective of computer programmers, that is, an understanding of the ways in which relatively independent objects operate through their relation to other objects. As we have seen each object includes both data and functions, and in addition, programmers can create relationships between different objects and can inherit characteristics from other objects. 
 
+This object-oriented approach comes close to the ways that other disciplines also understand discrete objects and their inter-relations. Bruno Latour, for instance, has identified the 'social' as not a thing (as in traditional sociology) but a type of connection, an assemblage, a set of actions by multiple agents, the 'actor-network' of objects demonstrating agency.[^Latour] Objects have become things again, as Latour puts it. If we extend this to ideas of organising systems, even society, then questions arise as to how best facilitate the production of objects, and their distribution and exchange. The culture of collaborative production, of free and open source software production, and so on, rest on these principles, and what is considered to be an object that might be bought and sold or copyrighted. 
 
+In a more philosophical register, objects take on meaning
+ 
 
-
-
-The movement between abstract and concrete states is important here, not least as a means to underpin a critical approach too. Matthew Fuller and Andrew Goffey suggest that this kind of modeling of the world is a socialtechnical practice, as they put it "compressing and abstracting relations operative at different scales of reality, composing new forms of agency",[^FullerGoffey] and such agency lies at the computational and material arrangement of everyday encounters. 
+The movement  is important here /// the politics of this movement between abstract and concrete reality //, not least as a means to underpin a critical approach too. Matthew Fuller and Andrew Goffey suggest that this kind of modeling of the world is a socialtechnical practice, as they put it "compressing and abstracting relations operative at different scales of reality, composing new forms of agency",[^FullerGoffey] and such agency lies at the computational and material arrangement of everyday encounters. 
 
 Computerized objects produce a different perspective that affect how we perceive the world. Who design the objects? We are indeed entering the mind of the programmer/designer who has their own worldview. Game may be a good example especially the apparent persistent sexualisation of female characters. The cultural implication is significant if we aware how much we interact with various objects, even just simply buttons, sliders, check boxes and each of the object has it own affordances and agency. 
 
 [g: not sure if it is good to incorporate item 1 and 2 below but i think the idea of class from history - PD and workers union may be a good way to link with your marx + abstraction with the notion of class struggle ? /w]
--  history of the concept of objects in the mid-1960s with Simula 67 created by Ole-Johan Dahl and Kristen Nygaard of the Norwegian Computing Center in Oslo. > A programming paradigm
-https://user-content.gitlab-static.net/38287337cdf9f32ae05de5b3d9d7037868960496/687474703a2f2f6a6f667261706573652e626c6f6769612e636f6d2f75706c6f61642f32303038303632373232313730302d6461686c2d6e7967616172642e6a7067
+
 - objects and subject-pbject relations, OOO and OOP, units (Bogost maybe??)
 - about working class and hireachy? but it is more than just create for efficiency. It is created with the perspective of participatory design in the context of utopia project that works with workers' union to "bring technical process closer to non-specialist understanding" (Fuller and Goffey 2017 + Andersen and Pold's metainterface) > re-use of code and operation: "it saves time and effort to be able to write the code once and re-use it in different programs" (Fuller and Goffey 2017). 
 - Epistemologies
@@ -461,25 +459,23 @@ https://user-content.gitlab-static.net/38287337cdf9f32ae05de5b3d9d7037868960496/
 
 ## Notes:
 
-
-
-[^history]: Simula, developed in the 1960s at the Norwegian Computing Center in Oslo, is considered to be the first object-oriented programming language. Despite being first, Smalltalk is more often cited, first developed for educational use at Xerox Corporation's Palo Alto Research Center in the late 1960s and released in 1972. For more on the history of this, see ?????
-
+[^history]: Simula, developed in the 1960s by Ole-Johan Dahl and Kristen Nygaard at the Norwegian Computing Center in Oslo, is considered to be the first object-oriented programming language. Despite being first, Smalltalk is more often cited, first developed for educational use at Xerox Corporation's Palo Alto Research Center in the late 1960s and released in 1972. For more on the history of this, see https://en.wikipedia.org/wiki/Object-oriented_programming. 
 [^Fazi]: Beatrice M. Fazi and Matthew Fuller, "Computational Aesthetics", in Christiane Paul, ed., *A Companion to Digital Art* (Hoboken, NJ: Wiley Blackwell, 2016), 281-296. 
-
 [^Fuller]: Matthew Fuller & Andrew Goffey, "The Obscure Objects of Object Orientation", in Matthew Fuller, ed., *How to be a Geek: Essays on the Culture of Software* (Cambridge, UK: Polity, 2017).
 
 [^binary]: Limor Fried & Federico Gomez Suarez (n.d). "Binary & Data". Khan Academy. Available at: https://www.khanacademy.org/computing/computer-science/how-computers-work2/v/khan-academy-and-codeorg-binary-data.
 
-[^Madsen]: Madsen, Ole & Møller-Pedersen, Birger & Nygaard, Kristen. (1993). Object-Oriented Programming in the BETA Programming Language, pp. 16-18.  
+[^Madsen]: Madsen et al, 1993, pp.16-18 (need formatting /w)
 
 [^francis]: *ToFu Go!* is freely available on the App store for iphone and iPad, see: https://apps.apple.com/us/app/tofu-go/id441704812. 
 
-[^francis2]: See the interview of Francis Lam in 2012 here: https://www.design-china.org/post/35833433475/francis-lam
+[^francis2]: See the interview of Francis Lam in 2012 here: https://www.design-china.org/post/35833433475/francis-lam.
 
-[^App]: *ToFu Go!* is freely available on the App store for iphone and iPad, see: https://apps.apple.com/us/app/tofu-go/id441704812 
+[^App]: *ToFu Go!* is freely available on the App store for iphone and iPad, see: https://apps.apple.com/us/app/tofu-go/id441704812. 
 
-[^splice]: `splice()` is a p5.js function, see here: https://p5js.org/reference/#/p5/splice 
+[^splice]: `splice()` is a p5.js function, see here: https://p5js.org/reference/#/p5/splice. 
 
-[^push]: `push()` is a JavaScript function that is used in an array to add one or more elements to the end of an array, see here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push 
+[^push]: `push()` is a JavaScript function that is used in an array to add one or more elements to the end of an array, see here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push.
+
+[^Latour]: Bruno Latour, *Reassembling the Social: An Introduction to Actor-Network-Theory* (Oxford: Oxford University Press, 2005), 22 & 119. 
 
