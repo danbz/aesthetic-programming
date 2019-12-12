@@ -476,5 +476,5 @@ Think of a simple game that you want to design and implement, what are the objec
 [^Bennett]: Jane Bennett, *Vibrant Matter: A Political Ecology of Things* (Durham, NC: Duke University Press, 2009).
 [^Bennett2]: Ibid., viii. 
 [^Latour]: This is a description of the "actor-network". Bruno Latour, *Reassembling the Social: An Introduction to Actor-Network-Theory* (Oxford: Oxford University Press, 2005). 
-[^Manifesto]: The famous adage comes to mind: "Hitherto, philosophers have sought to understand the world; the point, however, is to change it", from *The Communist Manifesto* (1848), https://www.marxists.org/archive/marx/works/1848/communist-manifesto/.
+[^Manifesto]: Marx and Engels, *The Communist Manifesto* (1848), https://www.marxists.org/archive/marx/works/1848/communist-manifesto/.
 [^color]: [will add why color value is in the range of 0-255 in terms of binary 2^8th = 256 /w]
