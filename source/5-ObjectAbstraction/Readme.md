@@ -351,7 +351,7 @@ The two important lines above instruct the tofu(s) to move and display on screen
 
 **(Step 6) Trigger point**: Think with the holistic logic
 
-Think about if you want to create a new object when there is a trigger point, e.g. click on a button to create something (Tofu). The trigger point can be clicking a button (as with data capture in the previous chapter), and on clicking the mouse moves to a particular position, the mic's volume exceeds a certain value or detection of a human face, etc. To append the new object instance in an existing array in which you do not know the existing amount of tofu, you can use the `push()` [^push] function.
+Think about if you want to create a new object when there is a trigger point, e.g. click on a button to create something (Tofu). The trigger point can be clicking a button (as with data capture in the previous chapter), and on clicking the mouse moves to a particular position, the mic's volume exceeds a certain value, the object reaches the end of a screen or detection of a human face, etc. To append the new object instance in an existing array in which you do not know the existing amount of tofu, you can use the `push()` [^push] function.
 
 ```javascript
 function addTofu() { //speed, xpos, ypos, size
