@@ -351,7 +351,7 @@ The two important lines above instruct the tofu(s) to move and display on screen
 
 **(Step 6) Trigger point**: Think with the holistic logic
 
-Think about if you want to create a new object when there is a trigger point, e.g. click on a button to create something (Tofu). The trigger point can be clicking a button (as with data capture in the previous chapter), and on clicking the mouse moves to a particular position, the mic's volume exceeds a certain value or detection of a human face, etc. To append the new object instance in an existing array in which you do not know the existing amount of tofu, you can use the `push()` [^push] function.
+Think about if you want to create a new object when there is a trigger point, e.g. click on a button to create something (Tofu). The trigger point can be clicking a button (as with data capture in the previous chapter), and on clicking the mouse moves to a particular position, tthe mic's volume exceeds a certain value, the object reaches the end of a screen or detection of a human face, etc. To append the new object instance in an existing array in which you do not know the existing amount of tofu, you can use the `push()` [^push] function.
 
 ```javascript
 function addTofu() { //speed, xpos, ypos, size
@@ -465,7 +465,7 @@ Computerized objects produce a different perspective that affect how we perceive
 
 [^binary]: Limor Fried & Federico Gomez Suarez (n.d). "Binary & Data". Khan Academy. Available at: https://www.khanacademy.org/computing/computer-science/how-computers-work2/v/khan-academy-and-codeorg-binary-data.
 
-[^Madsen]: Madsen et al, 1993, pp.16-18 (need formatting /w)
+[^Madsen]: Madsen, Ole & Møller-Pedersen, Birger & Nygaard, Kristen. (1993). Object-Oriented Programming in the BETA Programming Language, pp. 16-18.
 
 [^francis]: *ToFu Go!* is freely available on the App store for iphone and iPad, see: https://apps.apple.com/us/app/tofu-go/id441704812. 
 
