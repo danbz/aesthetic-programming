@@ -7,7 +7,7 @@ page_order: 0
 
 ### What kind of book is this?
 
-Reading its subtitle, this book is clearly meant to be a handbook of sorts, but not in any conventional technical sense of it being a prescribed set of instructions (how-to recipe-style book) in order to find out how to do something like coding in a straightforward fashion (for beginners, and so on).[^howto] As such this handbook is not simply meant to be read in order to learn to code or indeed to offer critical reflection upon the practice of coding alone. Instead, it is something more messy and at the same time ambitious we would say: a book to represent a more complex and deeply entangled set of relations between writing, coding and thinking as "really useful knowledge"[^useful] in terms of changing the way we use software and the way we act in digital culture to achive agency.
+Reading its subtitle, this book is clearly meant to be a handbook of sorts, but not in any conventional technical sense of it being a prescribed set of instructions (how-to recipe-style book) in order to find out how to do something like coding in a straightforward fashion (for beginners, and so on).[^howto] As such this handbook is not simply meant to be read in order to learn to code or indeed to offer critical reflection upon the practice of coding alone. Instead, it is something more messy and at the same time ambitious we would say: a book to represent a more complex and deeply entangled set of relations between writing, coding and thinking as "really useful knowledge".[^useful]
 
 Most programming books are written with a primary objective of teaching readers how to learn a programming language to become a good (or better) programmer, with an emphasis on state-of-the-art technology, as well as practical examples that are explained and then designed to be deployed in IT-related or creative industries. Not many programming books address the cultural and aesthetic dimensions of programming as a means to think and act critically. In emerging trans-disciplinary fields involving computational technology — such as software studies, platform studies, and digital humanities to an extent — the practice of programming is incorporated into the object of study and yet little practical detail is provided in terms of putting programming into a critical perspective, especially for those studying non-technical or scientific disciplines. This book attempts to address this perceived gap in literature and the growing interest in *computational thinking*[^Berry] to expand programming beyond the confines of computer science (or even the digital humnaities which presents a set of other limitations ultimately). We consider our approach to be distinctive from other programming books that are more focused on programming from an engineering perspective, as well as distinctive from other theoretical books where source code becomes an illustration of the programmer's thinking or too-easy analogy to the hidden layers of operations (if not ignored altogether).
 
@@ -70,7 +70,7 @@ This is exactly our point. The book expresses itself as a dynamic object not fix
 
 [^howto]: The casual address “for dummies” could also be used but this carries the unfortunate connotation of learning disability.
 
-[^useful]: Here we are making reference to nonstandard literacy, such as in the article: Marilyn M. Cooper, "Really Useful Knowledge: A Cultural Studies Agenda for Writing Centers", *The Writing Center Journal*, Vol. 14, No. 2 (Spring 1994), pp. 97-111, https://www.jstor.org/stable/43441948.
+[^useful]: Useful in the way we write software. Here we are making reference to nonstandard literacy, such as in the article: Marilyn M. Cooper, "Really Useful Knowledge: A Cultural Studies Agenda for Writing Centers", *The Writing Center Journal*, Vol. 14, No. 2 (Spring 1994), pp. 97-111, https://www.jstor.org/stable/43441948. 
 
 [^Berry]: David M. Berry, and Fagerjord, A, *Digital humanities: knowledge and critique in a digital age.*, Cambridge: Polity Press, 2017; Fuller, M, *How to be a Geek: Essays on the Culture of Software*, Cambridge: Polity Press, 2017; Vee, A, *Coding Literacy: How Computer Programming Is Changing Writing*, MIT Press, 2017.
 
@@ -97,7 +97,6 @@ This is exactly our point. The book expresses itself as a dynamic object not fix
 [^Readme]: In particular we might cite the influence of the Readme festival... add more on this. Importantly here perhaps is to emphasise that the category of art in itself becomes inadequate to cover the kinds of creatives practices that have developed in the field. ADD REFS
 
 [^codestudies]: Critical Code studies makes this explicit. Critical Code Studies is... coding in tradition of literary criticism [ADD MORE].  
-
 [^Cox]: Cited in Cox, 2007 REF???, 150.
 
 [^OHP]: For more on Open Humanities Press, see https://openhumanitiespress.org/.
