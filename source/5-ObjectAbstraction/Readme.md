@@ -39,8 +39,8 @@ In the same token, we can *reuse* the same properties and behavior to create ano
 | HairColor = Black             | HairColor = Brown         |
 | withGlasses = No              | withGlasses = Yes         |
 | Height = 164 cm               | Height = 183 cm           |
-| FavoriteColor = Black         | favoriteColor = Green      |
-| FavoriteFood = Tofu           | FavoriteFood = Avocado      |
+| FavoriteColor = Black         | favoriteColor = Green     |
+| FavoriteFood = Tofu           | FavoriteFood = Avocado    |
 | FromLocation = Home           | FromLocation = University |
 | ToLocation = University       | ToLocation = Home         |
 | run()                         | run()                     |
@@ -372,6 +372,7 @@ It requires some planning before you start coding if you want to implement a cla
 - **(Step 5) Display**: How you want to display and present the tofu object over time?
 - **(Step 6) Trigger point**: Think with the holistic logic.
 
+It is by no means saying the steps should be in the exact sequence as stated. Of course one might think about a program or a game in a holistic way at the beginning and come up with the different object instances afterwards. As such, the steps is just a suggested guideline especially for beginners who are encountering class-object creation in their first time. Based on our teaching experience, students usually found difficult to implement their own objects and we hope it is useful to have some steps, keywords and questions to facilitate the crafting of objects. 
 ## Exercise in class
 
 1. Tinkering 
