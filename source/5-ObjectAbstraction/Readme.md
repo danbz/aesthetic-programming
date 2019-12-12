@@ -412,14 +412,9 @@ As mentioned above, this object-oriented approach comes close to the ways that m
 
 Again a book like ours is not the place for a deep discussion of this, nor its critique, but it should be noted that this is a Heidegger-influenced critique of Kantian metaphysics, and a rejection of the privileging of human existence over the existence of nonhuman objects. The connection to Heidegger's ideas is explicit in Harman's *Tool-Being: Heidegger and the Metaphysics of Objects* that builds on the oft-cited distinction between *present-at-hand* and the *ready-to-hand*.[^Harman2] The former refers to our theoretical apprehension of a world made up of objects, and the latter describes our practical relation to things that are handy or useful. The claim is that practice precedes theory, and that the ready-to-hand of human practice is prior to the present-at-hand, which Harman takes further to the practice of objects, to articulate his ontology of objects. This is perhaps useful to think of programming in this way, as a tool-based practice where the objects themselves exist independently of human activity and, as Harman would put it, are not ontologically exhausted by their relations with humans or other objects.       
 
+One of the difficulties is how to build a politics into this. Jane Bennett’s *Vibrant Matter* is one such attempt to take a political position on more-than-human assemblages that question human sovereignty over the world, even including the agency of food in the chapter "Edible Matter".[^Bennett] The aim, she writes "is to articulate a vibrant materiality that runs alongside and inside humans to see how analyses of political events might change if we gave the force of things more due".[^Bennett2] She is partly drawing on the work of Bruno Latour here, and his idea of *actants*, which emphasises non-human agency. Objects have become things again, as Latour puts it, and operate in assemblages and actor-networks.[^Latour] If we extend this to ideas of operating systems, even society as Latour does, then questions arise as to how best facilitate the production of objects, and their distribution and mutual exchange. Free and open source software production, for instance, rests on these principles.  
 
-
-
-
-
-Bruno Latour, for instance, has identified the 'social' as not a thing (as in traditional sociology) but a type of connection, an assemblage, a set of actions by multiple agents, the 'actor-network' of objects demonstrating agency.[^Latour] Objects have become things again, as Latour puts it. If we extend this to ideas of organising systems, even society, then questions arise as to how best facilitate the production of objects, and their distribution and exchange. The culture of collaborative production, of free and open source software production, and so on, rest on these principles, and what is considered to be an object that might be bought and sold or copyrighted. 
-
-> politics
+There's also the politics of abstraction...
 
 The movement  is important here 
 , and there is more to say about this movement between abstract and concrete states.
@@ -430,7 +425,6 @@ Computerized objects produce a different perspective that affect how we perceive
 
 [g: not sure if it is good to incorporate item 1 and 2 below but i think the idea of class from history - PD and workers union may be a good way to link with your marx + abstraction with the notion of class struggle ? /w]
 
-- objects and subject-pbject relations, OOO and OOP, units (Bogost maybe??)
 - about working class and hireachy? but it is more than just create for efficiency. It is created with the perspective of participatory design in the context of utopia project that works with workers' union to "bring technical process closer to non-specialist understanding" (Fuller and Goffey 2017 + Andersen and Pold's metainterface) > re-use of code and operation: "it saves time and effort to be able to write the code once and re-use it in different programs" (Fuller and Goffey 2017). 
 - Epistemologies
 - marx + abstraction
@@ -494,7 +488,11 @@ Computerized objects produce a different perspective that affect how we perceive
 
 [^Harman]: Graham Harman, *Object-Oriented Ontology: A New Theory of Everything* (London: Pelican/Penguin, 2018).
 
-[^Harman2]: The connection to Heidegger ideas is explicit in Harman's *Tool-Being: Heidegger and the Metaphysics of Objects* (Chicago: Open Court Publishing, 2002), building on the distinction between 'present-at-hand' and the 'ready-to-hand'. The former refers to our theoretical apprehension of a world made up of objects, and the latter describes our practical relation to things that are handy or useful. The claim is that practice precedes theory, and that the ready-to-hand of human practice is prior to the present-at-hand, which Harman takes further to the practice of objects, to articulate an ontology of objects. 
+[^Harman2]: Graham Harman, *Tool-Being: Heidegger and the Metaphysics of Objects* (Chicago: Open Court Publishing, 2002). 
+
+[^Bennett]: Jane Bennett, *Vibrant Matter: A Political Ecology of Things* (Durham, NC: Duke University Press, 2009).
+
+[^Bennett2]: Ibid., viii. 
 
 [^Latour]: Bruno Latour, *Reassembling the Social: An Introduction to Actor-Network-Theory* (Oxford: Oxford University Press, 2005), 22 & 119. 
 
