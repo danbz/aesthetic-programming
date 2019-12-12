@@ -39,8 +39,8 @@ In the same token, we can *reuse* the same properties and behavior to create ano
 | HairColor = Black             | HairColor = Brown         |
 | withGlasses = No              | withGlasses = Yes         |
 | Height = 164 cm               | Height = 183 cm           |
-| FavoriteColor = Black         | favoriteColor = Green     |
-| FavoriteFood = Tofu           | FavoriteFood = Avocado    |
+| FavoriteColor = Black         | favoriteColor = Green      |
+| FavoriteFood = Tofu           | FavoriteFood = Avocado      |
 | FromLocation = Home           | FromLocation = University |
 | ToLocation = University       | ToLocation = Home         |
 | run()                         | run()                     |
@@ -351,7 +351,7 @@ The two important lines above instruct the tofu(s) to move and display on screen
 
 **(Step 6) Trigger point**: Think with the holistic logic
 
-Think about if you want to create a new object when there is a trigger point, e.g. click on a button to create something (Tofu). The trigger point can be clicking a button (as with data capture in the previous chapter), and on clicking the mouse moves to a particular position, the mic's volume exceeds a certain value, the object reaches the end of a screen or detection of a human face, etc. To append the new object instance in an existing array in which you do not know the existing amount of tofu, you can use the `push()` [^push] function.
+Think about if you want to create a new object when there is a trigger point, e.g. click on a button to create something (Tofu). The trigger point can be clicking a button (as with data capture in the previous chapter), and on clicking the mouse moves to a particular position, the mic's volume exceeds a certain value or detection of a human face, etc. To append the new object instance in an existing array in which you do not know the existing amount of tofu, you can use the `push()` [^push] function.
 
 ```javascript
 function addTofu() { //speed, xpos, ypos, size
@@ -372,7 +372,6 @@ It requires some planning before you start coding if you want to implement a cla
 - **(Step 5) Display**: How you want to display and present the tofu object over time?
 - **(Step 6) Trigger point**: Think with the holistic logic.
 
-It is by no means saying the steps should be in the exact sequence as stated. Of course one might think about a program or a game in a holistic way at the beginning and come up with the different object instances afterwards. As such, the steps is just a suggested guideline especially for beginners who are encountering class-object creation in their first time. Based on our teaching experience, students usually found difficult to implement their own objects and we hope it is useful to have some steps, keywords and questions to facilitate the crafting of objects. 
 ## Exercise in class
 
 1. Tinkering 
@@ -405,12 +404,15 @@ We chose to discuss the class-object creation in greater detail in this chapter 
 
 ## While()
 
-By going through the tofu example, we can see object-oriented programming is highly organized and concrete even though objects are abstracted from the world. We will say more about this movement between abstract and concrete states. It's also worth adding here that OOP is designed to reflect the way the world itself is organised, at least from the perspective of computer programmers, that is, an understanding of the ways in which relatively independent objects operate through their relation to other objects. As we have seen each object includes both data and functions, and in addition, programmers can create relationships between different objects and can inherit characteristics from other objects. 
+By going through the tofu example, we can see object-oriented programming is highly organized and concrete even though objects are abstracted from the world. We will say more about this movement between abstract and concrete states. It's also worth adding here that OOP is designed to reflect the way the world itself is organised, at least from the perspective of computer programmers, that is, an understanding of the ways in which relatively independent objects operate through their relation to other objects. The academic and video game designer Ian Bogost refers to the implementation of flexible and interacting simple and complex processes as *unit operations*, "characterized by their increased compression of representation, a tendency common over the course of the twentieth century, from structuralist anthropology to computation. I use this term to refer to processes in the general sense, for example, the coupling of a cultural process and its computational representation."[^Bogost] Taking his cue from a combination of literary theory and computing, he argues that cultural objects can be read as a configurative system of discrete, interlocking units of meaning.
 
-This object-oriented approach comes close to the ways that other disciplines also understand discrete objects and their inter-relations. Bruno Latour, for instance, has identified the 'social' as not a thing (as in traditional sociology) but a type of connection, an assemblage, a set of actions by multiple agents, the 'actor-network' of objects demonstrating agency.[^Latour] Objects have become things again, as Latour puts it. If we extend this to ideas of organising systems, even society, then questions arise as to how best facilitate the production of objects, and their distribution and exchange. The culture of collaborative production, of free and open source software production, and so on, rest on these principles, and what is considered to be an object that might be bought and sold or copyrighted. 
+As we have seen each object includes both data and functions, and in addition, programmers can create relationships between different objects, and can inherit characteristics from other objects. As above, this object-oriented approach comes close to the ways that other disciplines also understand discrete objects and their inter-relations. The most obvious connection here, not least in the naming, is with OOO (object-oriented ontology), a 
 
-In a more philosophical register, objects take on meaning
- 
+> OOP and OOO.
+
+Bruno Latour, for instance, has identified the 'social' as not a thing (as in traditional sociology) but a type of connection, an assemblage, a set of actions by multiple agents, the 'actor-network' of objects demonstrating agency.[^Latour] Objects have become things again, as Latour puts it. If we extend this to ideas of organising systems, even society, then questions arise as to how best facilitate the production of objects, and their distribution and exchange. The culture of collaborative production, of free and open source software production, and so on, rest on these principles, and what is considered to be an object that might be bought and sold or copyrighted. 
+
+> politics
 
 The movement  is important here /// the politics of this movement between abstract and concrete reality //, not least as a means to underpin a critical approach too. Matthew Fuller and Andrew Goffey suggest that this kind of modeling of the world is a socialtechnical practice, as they put it "compressing and abstracting relations operative at different scales of reality, composing new forms of agency",[^FullerGoffey] and such agency lies at the computational and material arrangement of everyday encounters. 
 
@@ -430,11 +432,11 @@ Computerized objects produce a different perspective that affect how we perceive
 - To implement a class-based object oriented sketch via abstracting and designing objects' properties and behaviors.
 - To reflect upon object abstraction in the domain of digital culture
 
-**To get some additional inspiration here:**
+**Get some additional inspiration here:**
 - [p5.js - Array Objects](https://p5js.org/examples/arrays-array-objects.html)
 - [p5.js coding challenge #31: Flappy Bird by Daniel Shiffman](https://www.youtube.com/watch?v=cXgA1d_E-jY)
-- [p5.js coding challenge #3: The snake game by Daniel Shiffman](https://www.youtube.com/watch?v=AaGK-fj-BAM)
-- [EAT FOOD NOT BOMBS by Ben Grosser](https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI)
+- [p5.js coding challenge #3: The Snake Game by Daniel Shiffman](https://www.youtube.com/watch?v=AaGK-fj-BAM)
+- [Eat Food Not Bombs by Ben Grosser](https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI)
 
 **Tasks (RUNME)**
 1. Think of a simple game that you want to design and implement, what are the objects required? What are their properties and behaviors? At the most basic level, you need to **use class-based object oriented approach** to design your game components that can exhibit certain behaviors (that means you need to at least have a class, constructor and method). If you can master objects and classes, you may further work on a mini game (with basic rules) and/or with p5.play that works with data input and interactive devices (such as keyboard and mouse) that you have learned from previous classes.
@@ -446,10 +448,10 @@ Computerized objects produce a different perspective that affect how we perceive
 - **Extend/connect** your game project to wider digital culture context, can you think of a digital example and describe how complex details and operations are being **abstracted**?
 
 ## Required readings:
-- Fuller, M & Goffey, A. "The obscure Objects of Object Orientation." *How to be a geek : essays on the culture of software*. Eds Matthew Fuller. Cambridge, UK, Malden, MA, USA : Polity, 2017
+- Matthew Fuller & Andrew Goffey, "The Obscure Objects of Object Orientation", in Matthew Fuller, ed. *How to be a Geek: Essays on the Culture of Software* (Cambridge: Polity, 2017).
 - [p5.js examples - Objects](https://p5js.org/examples/objects-objects.html)
 - [p5.js examples - Array of Objects](https://p5js.org/examples/objects-array-of-objects.html)
-- Shiffman, Daniel. Courses 2.3, 6.1, 6.2, 6.3, 7.1, 7.2, 7.3, [Code! Programming with p5.js on YouTube](https://www.youtube.com/watch?v=8j0UDiN7my4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA), 2018 [Accessed 9 Sep. 2019]. (practical usage on conditional statements, loops, functions and arrays)
+- Daniel Shiffman, Courses 2.3, 6.1, 6.2, 6.3, 7.1, 7.2, 7.3, [Code! Programming with p5.js on YouTube](https://www.youtube.com/watch?v=8j0UDiN7my4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA), 2018 [Accessed 9 Sep. 2019]. (practical usage on conditional statements, loops, functions and arrays)
 
 ## Further readings:
 - Lee, Roger Y. *Software Engineering: A Hands-On Approach*. Springer, 2013. 17-24, 35-37 (ch. 2 Object-Oriented concepts)
@@ -466,7 +468,7 @@ Computerized objects produce a different perspective that affect how we perceive
 
 [^binary]: Limor Fried & Federico Gomez Suarez (n.d). "Binary & Data". Khan Academy. Available at: https://www.khanacademy.org/computing/computer-science/how-computers-work2/v/khan-academy-and-codeorg-binary-data.
 
-[^Madsen]: Madsen, Ole & Møller-Pedersen, Birger & Nygaard, Kristen. (1993). Object-Oriented Programming in the BETA Programming Language, pp. 16-18.
+[^Madsen]: Madsen et al, 1993, pp.16-18 (need formatting /w)
 
 [^francis]: *ToFu Go!* is freely available on the App store for iphone and iPad, see: https://apps.apple.com/us/app/tofu-go/id441704812. 
 
@@ -477,6 +479,8 @@ Computerized objects produce a different perspective that affect how we perceive
 [^splice]: `splice()` is a p5.js function, see here: https://p5js.org/reference/#/p5/splice. 
 
 [^push]: `push()` is a JavaScript function that is used in an array to add one or more elements to the end of an array, see here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push.
+
+[^Bogost]: Ian Bogost, *Persuasive Games: The Expressive Power of Videogames* (Cambridge, Mass.: MIT Press, 2007) 8. Also, see his *Unit Operations: An Approach to Videogame Criticism* (Cambridge, Mass.: MIT Press, 2006).
 
 [^Latour]: Bruno Latour, *Reassembling the Social: An Introduction to Actor-Network-Theory* (Oxford: Oxford University Press, 2005), 22 & 119. 
 
