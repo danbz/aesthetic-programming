@@ -469,7 +469,7 @@ https://user-content.gitlab-static.net/38287337cdf9f32ae05de5b3d9d7037868960496/
 
 [^binary]: Limor Fried & Federico Gomez Suarez (n.d). "Binary & Data". Khan Academy. Available at: https://www.khanacademy.org/computing/computer-science/how-computers-work2/v/khan-academy-and-codeorg-binary-data.
 
-[^Madsen]: Madsen et al, 1993, pp.16-18 (need formatting /w)
+[^Madsen]: Madsen, Ole & Møller-Pedersen, Birger & Nygaard, Kristen. (1993). Object-Oriented Programming in the BETA Programming Language, pp. 16-18.  
 
 [^francis]: *ToFu Go!* is freely available on the App store for iphone and iPad, see: https://apps.apple.com/us/app/tofu-go/id441704812. 
 
