@@ -8,7 +8,7 @@ The idea of an object is a key concept in programming but also more broadly unde
 
 In the previous chapters, we have worked with different objects such as geometric shapes like ellipses, rectangles and polygons. You can apply different attributes to these objects, such as color, size and position, and additionally objects can exhibit certain behaviors such as movement, animation and rotation (as seen in Chapter 3 — InfiniteLoops, and Chapter 4 — DataCapture). These geometric objects use functions that are already built-in within `p5.js` as a set of pre-defined arguments and attributes. In this chapter, we will work on constructing our own objects, attributes and behaviors, that represent aspects of the real world. There is a process of abstraction here, because physical objects need to be translated into the idea of an object, and in doing this certain details and contextual information is inevitably left out. We will return to this issue later. 
 
-Abstraction is one of the key concepts of Object-Oriented Programming (OOP), a model of programming in which programs are organized around data, or objects, rather than functions and logic. The main goal is to handle an object's complexity by abstracting certain details and representing a concrete model. Beatrice Fazi and Matthew Fuller discuss the wider significance of this and the relations between concrete and abstracted computation: "Computation not only abstracts from the world in order to model and represent it; through such abstractions, it also partakes in it".[^Fazi] If we recall the previous chapter and the many examples of data capture and gamification, it becomes clear that computation can begin to shape certain behaviours and actions. In other words, objects in OOP are not only about negotiating with the real world as a form of realism and representation, nor the functions and logic that compose the objects, but the wider relations and "interactions between and with the computational".[^Fuller]
+Abstraction is one of the key concepts of Object-Oriented Programming (OOP), a model of programming in which programs are organized around data, or objects, rather than functions and logic.[^history] The main goal is to handle an object's complexity by abstracting certain details and representing a concrete model. Beatrice Fazi and Matthew Fuller discuss the wider significance of this and the relations between concrete and abstracted computation: "Computation not only abstracts from the world in order to model and represent it; through such abstractions, it also partakes in it".[^Fazi] If we recall the previous chapter and the many examples of data capture and gamification, it becomes clear that computation can begin to shape certain behaviours and actions. In other words, objects in OOP are not only about negotiating with the real world as a form of realism and representation, nor the functions and logic that compose the objects, but the wider relations and "interactions between and with the computational".[^Fuller]
 
 Indeed, abstraction exists at many different layers and scales of computing. At the lowest level of abstraction, the flow of information is stored, processed and represented in the form of binary (base 2 number system) numbers — zeros and ones.[^binary] In other words, the way we understand all multimedia formats (whether texts, images, video or sound) is quite different from how a computer understands them as data, or more precisely as binary numbers, including pixels, color values and waveforms. In this way, we can move from low-level abstraction in the form of machine code and the switching of electric circuits to high-levels of abstraction such as the graphical user interface or the programming language `p5.js` that we use in the book. 
 
@@ -49,7 +49,7 @@ From the pseudo object, we can begin to see how abstraction takes place in compu
 
 Tofu, or bean curd, is a popular food derived from soya orginating from China 2000 years ago. Through soaking and grinding soybeans, as well as filtering out remaining particulates, it becomes something known as soymilk, containing stable emulsion of oil, water, and protein. This is then pressed into solid white blocks with varying softness as tofu in a process similar to cheesemaking. It is an important food product specifically in the East, not only because of its protein richness but also as a cultural symbol. 
 
-When tofu becomes a computational object, as in *Tofu Go!*, abstraction is required to capture the complexity of processes and relations, and to represent what are thought to be essential and desired properties and behaviours. In the game, tofu is designed as a simple white three-dimensional cube form with an emoticon, and the ability to move and jump. Of course in the real world tofu cannot behave in that way, but one can imagine how objects can perform differently when you program your own software, and if you love tofu as Lam does: "*Tofu Go!* is a game dedicated to my love for tofu and hotpot" as he puts it. You need to save the tofu from the chopsticks. 
+When tofu becomes a computational object, as in *Tofu Go!*, abstraction is required to capture the complexity of processes and relations, and to represent what are thought to be essential and desired properties and behaviours. In the game, tofu is designed as a simple white three-dimensional cube form with an emoticon, and the ability to move and jump. Of course in the real world tofu cannot behave in that way, but one can imagine how objects can perform differently when you program your own software, and if you love tofu as Lam does: "*Tofu Go!* is a game dedicated to my love for tofu and hotpot" as he puts it.[^francis2] You need to save the tofu from the chopsticks. 
 
 ![tofu go](ch5_1.png)
 
@@ -404,7 +404,13 @@ We chose to discuss the class-object creation in greater detail in this chapter 
 
 ## While()
 
-By going through the tofu example, we can see object-oriented programming is highly organized and concrete even though objects are abstracted from the world. The movement between abstract and concrete states is important here, not least as a means to underpin a critical approach too. Matthew Fuller and Andrew Goffey suggest that this kind of modeling of the world is a socialtechnical practice, as they put it "compressing and abstracting relations operative at different scales of reality, composing new forms of agency",[^FullerGoffey] and such agency lies at the computational and material arrangement of everyday encounters. 
+By going through the tofu example, we can see object-oriented programming is highly organized and concrete even though objects are abstracted from the world. It's worth adding here that OOP is designed in this way
+
+
+
+
+
+The movement between abstract and concrete states is important here, not least as a means to underpin a critical approach too. Matthew Fuller and Andrew Goffey suggest that this kind of modeling of the world is a socialtechnical practice, as they put it "compressing and abstracting relations operative at different scales of reality, composing new forms of agency",[^FullerGoffey] and such agency lies at the computational and material arrangement of everyday encounters. 
 
 Computerized objects produce a different perspective that affect how we perceive the world. Who design the objects? We are indeed entering the mind of the programmer/designer who has their own worldview. Game may be a good example especially the apparent persistent sexualisation of female characters. The cultural implication is significant if we aware how much we interact with various objects, even just simply buttons, sliders, check boxes and each of the object has it own affordances and agency. 
 
@@ -453,7 +459,9 @@ https://user-content.gitlab-static.net/38287337cdf9f32ae05de5b3d9d7037868960496/
 
 ## Notes:
 
-[^francis]: *ToFu Go!* is freely available on the App store for iphone and iPad, see: https://apps.apple.com/us/app/tofu-go/id441704812 
+
+
+[^history]: Simula, developed in the 1960s at the Norwegian Computing Center in Oslo, is considered to be the first object-oriented programming language. Despite being first, Smalltalk is more often cited, first developed for educational use at Xerox Corporation's Palo Alto Research Center in the late 1960s and released in 1972. For more on the history of this, see ?????
 
 [^Fazi]: Beatrice M. Fazi and Matthew Fuller, "Computational Aesthetics", in Christiane Paul, ed., *A Companion to Digital Art* (Hoboken, NJ: Wiley Blackwell, 2016), 281-296. 
 
@@ -461,11 +469,13 @@ https://user-content.gitlab-static.net/38287337cdf9f32ae05de5b3d9d7037868960496/
 
 [^binary]: Limor Fried & Federico Gomez Suarez (n.d). "Binary & Data". Khan Academy. Available at: https://www.khanacademy.org/computing/computer-science/how-computers-work2/v/khan-academy-and-codeorg-binary-data.
 
+[^Madsen]: Madsen et al, 1993, pp.16-18 (need formatting /w)
+
+[^francis]: *ToFu Go!* is freely available on the App store for iphone and iPad, see: https://apps.apple.com/us/app/tofu-go/id441704812. 
+
 [^francis2]: See the interview of Francis Lam in 2012 here: https://www.design-china.org/post/35833433475/francis-lam
 
-[^App2]: *ToFu Go!* is freely available on the App store for iphone and iPad, see: https://apps.apple.com/us/app/tofu-go/id441704812 
-
-[^Madsen]: Madsen et al, 1993, pp.16-18 (need formatting /w)
+[^App]: *ToFu Go!* is freely available on the App store for iphone and iPad, see: https://apps.apple.com/us/app/tofu-go/id441704812 
 
 [^splice]: `splice()` is a p5.js function, see here: https://p5js.org/reference/#/p5/splice 
 
