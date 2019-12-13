@@ -96,6 +96,8 @@ function draw() {
 
 *Langton's Ant* is a classical mathematical game that simulates the molecular logic of a living ant. The simulation of the cell's state is inspired by the classical Turing machine that can perform computational tasks with the manipulation of symbols on a strip of tape according to a set of rules. 
 
+[more on this in the context of generative art and introduce cellular automaton - game of life /g]
+
 This section presents sample code to simulate the cell states, presenting in a two-dimensional grid system in either the color black or white. Based on simple rules, an ant is considered to be the input source that will change the state of the cell by moving in four directions. The ant will gradually turn the grid into a more complex system that exhibits emergent behavior over time.
 
 ![drawing5](ch6_5.gif)
@@ -276,10 +278,11 @@ Therefore, each divided cell is presented in the structure of a 2-dimensional ar
 
 2. Right now the *Langton's Ant* program is more about representing the world of an ant through abstraction, such as limited cell color, as well as only being able to move in four directions and turn 90°. Rethink the rules that have been implemented. Can you try changing the existing rules or adding new rules so that the ant behaves differently? (Recall what you have changed in the previous exercise on *10 PRINT*.) 
 
-3. It is clear that simulating and abstracting real world systems, such as animal life, biological processes, smart cities[^Smart], procedural operations, is one of the applications of generative art or cellular automaton. However, what we want to focus in this chapter is not so much the end result, but more on the generative process in itself with the focus on rules and agency, in which the programmer will lose some kinds of control to the system so as to allow the program to emerge over time or what Matius Watz[^Watz] might suggests as "autonomy is the ultimate goal". So, let's discuss the following questions:
-- What are systems and processes? Can you think of and describe different systems in the world that exhibit orders and chaos? 
-- How would you understand autonomy is the end goal with the focus beyond the end product? 
-- What is the role of rules and software as material, and do you consider the machine as a co-author in generative and automatic systems?
+3. It is clear that in simulating and abstracting living systems — such as the complex behaviour of insects — there is a focus on emergent and generative process over end-result. In terms of creative process this allows us to think about how rules and instructions can produce complexity and other forms of control and agency. 
+Let's discuss the following questions:
+- Can you think of and describe other systems and processes that exhibit emergent behaviour? 
+- How would you understand autonomy and agency in this context?[^Watz] 
+- To what extent do you consider the machine to be an active agent in generative and autonomous systems? What are the implications for wider culture?
 
 ## While()
 
@@ -292,13 +295,12 @@ Therefore, each divided cell is presented in the structure of a 2-dimensional ar
 - Focus on rules, orders, chaos, emergent behaviors ?
 - Generators and other automatisms (genotypes), love letter generators
 
-
 ## Mini_Exercise[6]: A generative program
 
 **Objectives:**
 - To implement a rule-based generative program from scratch.
 - To strengthen the computational use of loops and conditional statements in a program.
-- To reflect upon the concept of automatism conceptually and practically, such as systems, rules, temporality, emergence and processes.
+- To reflect upon the concept of automatism conceptually and practically.
 
 **To get some additional inspiration here:**
 - [{Software} Structure #003 A by Casey Reas](https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks)
@@ -307,7 +309,7 @@ Therefore, each divided cell is presented in the structure of a 2-dimensional ar
 - [Open Processing with the search keyword 'generative'](https://www.openprocessing.org/browse/?q=generative&time=anytime&type=all#)
 - [John Conway's Game of Life](http://web.stanford.edu/~cdebs/GameOfLife/)
 - [The recode project](http://recodeproject.com/) or https://web.archive.org/web/20181227225001/http://www.recodeproject.com/
-- [WUOUS by Anders Visti and Tobias Stenberg](https://andersvisti.dk/work/wuos-2019) (with the implementation of the Langton's Ant to question the so-called smart cities)
+- [WUOUS by Anders Visti and Tobias Stenberg](https://andersvisti.dk/work/wuos-2019) (with an implementation of the Langton's Ant)
 
 **Tasks (RUNME):**
 1. Start with a blank paper. Think of at least two simple rules that you want to implement in a generative program. (You may take reference from Langton's ant (1986) and The Game of Life (1970))
@@ -351,10 +353,9 @@ Therefore, each divided cell is presented in the structure of a 2-dimensional ar
 [^shiffman1]: See "Two-dimensional Arrays" written for the Processing Community: https://processing.org/tutorials/2darray/.
 [^shiffman2]: See the video intruction on 2D Arrays in p5.js: https://www.youtube.com/watch?v=OTNpiLUSiB4.
 
-[^Watz]: Marius Watz. (2007). "Beautiful Rules: Generative models of creativity" in The Olhares de Outono. Video. https://vimeo.com/26594644
 
+[these need to just operate as references I think /g]
+[^Smart]: See the artwork *WUOUS* by Anders Visti and Tobias Stenberg with an implementation of *Langton's Ant* to question the procedural logic of so-called 'smart cities': https://andersvisti.dk/work/wuos-2019. 
+[^Watz]: For instance, generative artist Marius Watz would suggest that "autonomy is the ultimate goal". Marius Watz (2007). "Beautiful Rules: Generative Models of Creativity", in *The Olhares de Outono* (2007), https://vimeo.com/26594644.
 [^Steps]: See the web-based step by step running of the Langton's Ant which is implemented by Barend Köbben in 2014. https://kartoweb.itc.nl/kobben/D3tests/LangstonsAnt/.
-
-[^Smart]: See the artwork *WUOUS* by Anders Visti and Tobias Stenberg with the implementation of the Langton's Ant to question the so-called smart cities here: https://andersvisti.dk/work/wuos-2019 
-
 [^Moreira]: Andrés Moreira, Anahí Gajardo and Eric Goles. “Dynamical Behavior and Complexity of Langton’s Ant.” *Complexity* 6, no. 4 (March 2001): 46–52. https://doi.org/10.1002/cplx.1042.
