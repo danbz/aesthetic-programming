@@ -24,10 +24,11 @@ Focusing on rules and instructions are not only something programmers do, for in
 ![drawing2](ch6_2.jpg)
 *Figure 6.2: Sol LeWitt, Wall drawing #289, 1976* [if copyright a problem then use a casey reas example maybe /g]
 
-It becomes clear how conceptual practices combine idea and action in parallel to how performance works with scores and scripts, and in turn how programs work with instructions and their execution. LeWitt's work lends itself well to computation, and this was taken up by Casy Reas using Processing to render LeWitt's wall drawings from their instructions and thus to explore the parallels of interpretation, material, and process in each case.[^Reas] Despite the LeWitt quote above, he makes an important distinction in that LeWitt's programs are to be executed and interpreted by people rather than machines a such. Yet it is the close connection and overlaps that interests Reas — also underlying the development of the Processing as a "software sketchbook" — wanting programming to be as immediate and fluid as the practice of drawing. 
+It becomes clear how conceptual practices combine idea and action in parallel to how performance works with scores and scripts, and in turn how programs work with instructions and their execution. LeWitt's work lends itself well to computation, and this was taken up by Casy Reas using Processing to render LeWitt's wall drawings from their instructions and thus to explore the parallels of interpretation and process in each case.[^Reas] Despite the LeWitt quote above, in his accompanying text he makes an important distinction in that LeWitt's programs are to be executed and interpreted by people rather than machines a such. Yet it is the close connection and overlaps that interests Reas — also underlying the development of the Processing as a "software sketchbook" — wanting programming to be as immediate and fluid as the practice of drawing. 
  
 / [I would be tempted to drop this example - good as it is, and a woman - and the next section follows Reas well /g] Another example is Joan Truckenbrod who has shown her work *Coded Algorithmic Drawing (#9)* in the same show. The piece with a number of squares of variations in size and angle was coded with the programming language Fortran in the 1970s, simulating moving substance in natural phenomena.[^joan]
 ![drawing3](ch6_3.png)
+
 *Figure 6.3: Joan Truckenbrod, Coded Algorithmic Drawing, 1975* /
 
 This kind of approach is important not only because of offering a different way to draw and author works by machines based on mathematical logic, but also to provide a sense of machinic creativity that — as in the previous chapter — questions the centrality of human (more often than not, male) agency. In this chapter we aim to explore more complex (posthuman) combinations that combine people and machines. If we were to draw an ellipse in white color at the x and y coordinate 100 and 120, there is a direct correspondance to the instruction. The outcome is predictable as the instruction is followed unambiguosuly but this need not be the case as certain kinds of instructions or a lots of instructions can generate unpredictable results. This *generative* quality throws into question the extent of control and autonomy over the creative process, made clear in the following definition of generative art:[^galanter]
@@ -35,12 +36,11 @@ This kind of approach is important not only because of offering a different way 
 
 Interestingly, as we can see this definition does not limit itself to the use of computers and this is important to bear in mind as we proceed to focus on our sample code. In the following two examples we explore rule-based programs that unfold some of these issues of autonomy, but as with previous ones we are interested in the wider implications. 
 
-
 ## start()
 
 The first program is called *10 PRINT* based on one line of program code `10 PRINT CHR$(205.5+RND(1));: GOTO 10`, written in the BASIC programming language and executed on a Commodore 64 home computer. It generates an endless pattern on the screen. It is printed in the 1982 *Commodore 64 User's Guide* and later published on the web. This line of code has become an important example in the field of software studies to demonstrate the history and culture of creative computing.[^10print] *10 PRINT* in `p5.js` below is used to help us become familiar with rules and its creative potential to demonstrate some degree of autonomy within a system.  
 
-The second program is *Langton's Ant* (1986), a two-dimensional universal Turing machine invented in 1986 by the computer scentist Christopher Langton who is considered to be one of the founders of field of Artificial life. The core difference with *10 PRINT* is the way that complex emergent behavior is generated with only a simple set of rules. 
+The second program is *Langton's Ant* (1986), a two-dimensional universal Turing machine invented in 1986 by the computer scentist Christopher Langton who is considered to be one of the founders of field of Artificial life.[^Langton] The core difference with *10 PRINT* is the way that complex emergent behavior is generated with only a simple set of rules. 
 
 ## Exercise in class (10 PRINT)
 
@@ -79,57 +79,51 @@ function draw() {
 ```
 
 2. Discuss the following rules of *10 PRINT* and map them to the related lines of code:
-    - Throw a dice randomly and half of the times print a backward slash
+    - Throw a dice randomly and half of the time print a backward slash
     - The other half of the time will print a forward slash
 
-3. Discuss the use and the role of randomness in this specific *10 PRINT* and in games/literature, and the arts? What is randomness to a computer?[^Haahr]  
+3. Discuss the use and the role of randomness in *10 PRINT* and in the arts, literature, and games? What is randomness to a computer?[^Haahr]  
 
-4. Try to modify existing rules, for example: 
-    - Can we have more different outputs rather than just the backward and forward slash?
-    - the size and color of slashes? 
+4. Try to modify the existing rules, for example: 
+    - Can we have other outputs than just the backward and forward slash?
+    - Can we chnage the size and color of the slashes? 
 
-5. *10 PRINT* has been appropriated by many artists, designers and students. Take a look at the different possibilities of [*10 PRINT*](https://twitter.com/search?q=%2310print&src=typd) that is documented on Twitter. Your in-class task is to create a sketch with a clear set of rules and a modified version of the *10 PRINT*.  
+5. *10 PRINT* has been appropriated by many artists, designers and students. Take a look at some of the different possibilities for [*10 PRINT*](https://twitter.com/search?q=%2310print&src=typd) that are documented on Twitter. Your in-class task is to create a sketch with a clear set of rules and that operates as a modified version of *10 PRINT*.  
 
 ## Langton's Ant 
 
-Langton's Ant, invented by Christopher Langton [^Langton], is a classical mathematical game involving an ant, simulating the molecular logic of the ant's living. The simulation of the cell's state is inspired by the classical Turing machine that can perform computational tasks with the manipulation of symbols on a strip of tape according to a set of rules. 
+*Langton's Ant* is a classical mathematical game that simulates the molecular logic of a living ant. The simulation of the cell's state is inspired by the classical Turing machine that can perform computational tasks with the manipulation of symbols on a strip of tape according to a set of rules. 
 
-Similiar to the divided cells in the one dimensional long tape, this section will present the sample code that simulate the cell states, presenting in a two-dimensional grid system in either white or black color. Based on the simple rules, an ant is considered as the input source that will change the state of the cell by moving in four direction, and the ant will gradually turn the grid into a more complex system and exhibit emergent behavior over time.
+This section presents sample code to simulate the cell states, presenting in a two-dimensional grid system in either the color black or white. Based on simple rules, an ant is considered to be the input source that will change the state of the cell by moving in four directions. The ant will gradually turn the grid into a more complex system that exhibits emergent behavior over time.
 
 ![drawing5](ch6_5.gif)
 
 *Figure 6.5: Langton's Ant - Initial steps*
 
-With the initial direction of an ant that is pointed upwards (i.e the North position), figure 6.5 shows the initial 33 steps of the Langton's Ant that follow the two general rules as below:
+With the initial direction of an ant pointed upwards (i.e. North position), figure 6.5 shows the initial 33 steps of  *Langton's Ant* in following the two general rules below:
 
 1. If the ant is at a white cell, it turns right 90° and changes to a black cell then moves forward one unit.
 2. If the ant is at a black cell, it turns left 90° and changes to a white cell then moves forward one unit. 
 
-At the beginning, the canvas with only a grid system and all the individual cells are in white color. The ant with four possible head directions: UP, RIGHT, DOWN, LEFT, and will turn 90° on either left or right that is subjected to the existing cell's color. 
-
-To start with, the ant's head is pointing at the UPWARD position as the start and is located in the middle of the white grid canvas. It then follows the rule 1 above to rotate the head direction from UP to RIGHT, then it also changes the white cell to the black and moves forward one unit (pointing to the right as per the new head direction). 
-
-Then the second step would be to follow rule 1 again because the new cell is still in white color. The ant's head direction will turn right 90° that point from RIGHT to DOWN, and then changes the white cell to the black color and finally the ant moves forward one unit.
-
-Then the third and forth steps are similar to the previous one until the ant meets a cell which is in black color (which is started in step 5). At this point, the ant will follow rule 2 instead to change back the cell's color to white and then turns left 90° instead of the right. 
+At the beginning, the canvas displays only a grid system and all the individual cells are set in white color. The ant has  four possible directions — UP, RIGHT, DOWN, LEFT — and can turn 90° either left or right subject to the color of the cell. The ant's head is pointing in an UPWARD position at the start, and is located in the middle of the white grid. It then follows rule 1 above to rotate the head direction from UP to RIGHT, then it also changes the white cell to the black and moves forward one unit (pointing to the right as per the new head direction). Then the second step is to follow rule 1 again because the new cell is still white. The ant's head direction will turn right 90° and point from RIGHT to DOWN, and then changes the white cell to black and the ant moves forward one unit. Then the third and forth steps are similar to the previous ones until the ant meets a cell which is black, which is started in step 5. At this point, the ant will follow rule 2 instead to change back cell's color back to white and then turns left 90° instead of the right. The complexity builds. 
 
 ![drawing6](ch6_6.gif)
 
-*Figure 6.6: Langton's Ant - Processes*
+*Figure 6.6: Langton's Ant - Process*
 
-Figure 6.6 shows the ant starts building the emerging 'highway' pattern[^Moreira] after the first few hundred moves with simple symmetricial patterns and follows by additional 9000 steps[^Steps] with the seemingly random steps at the center. The highway pattern repeats indefinately until most of cells are reconfigured, leading to something that is similar to Figure 6.7 which the ant is still constantly moving and changing the color of the cells.
+Figure 6.6 shows how the ant starts building the emergent 'highway' pattern[^Moreira] after the first few hundred moves with simple symmetricial patterns. It is then followed by an additional 9000 steps[^Steps] with the seemingly random steps at the center. The highway pattern repeats indefinitely until most of cells are reconfigured, leading to something that is similar to Figure 6.7 at which point the ant is still constantly moving and changing the color of the cells.
 
 ![drawing7](ch6_7.png)
 
-*Figure 6.7: Langton's Ant - A snapshot of the emergent process*
+*Figure 6.7: Langton's Ant - A snapshot of emergence*
 
 [RUNME](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch6_Automatisms/sketch_6_1/index.html)
 
 ## Source code (Langton's Ant)
 ```javascript
-let grid_space = 5;  //e.g 4, 5, 10 need to be dividable as an integer by the width and height of the canvas
+let grid_space = 5; //e.g. 4, 5, 10 need to be dividable as an integer by the width and height of the canvas
 let grid =[]; //on/off state
-let cols, rows;  //for drawing the grid purpose
+let cols, rows; //for drawing the grid purpose
 let xPos, yPos; //current position in terms of rows and cols, not actual pixel
 let dir; //current direction of the ant
 const antUP = 0;
@@ -141,32 +135,31 @@ let onColor;
 
 function setup() {
   createCanvas(1000,700);
-  offColor = color(255);  //setting offcolor
+  offColor = color(255); //setting offcolor
   onColor = color(0); //setting onColor
   background(offColor);
   grid = drawGrid();
-  xPos = floor(cols/2);  //initial x position and make sure it is an integer in the grid array
+  xPos = floor(cols/2); //initial x position and make sure it is an integer in the grid array
   yPos = floor(rows/2); //initial y position and make sure it is an integer in the grid array
   dir = antUP; //initial direction
   frameRate(20);
 }
 
 function draw() {
-  for (let n = 0; n < 100; n++) { //just for running faster per frame, try changing the n e.g 1
+  for (let n = 0; n < 100; n++) { //just for running faster per frame, try changing the n value, e.g. to 1
    checkEdges();
-   let state = grid[xPos][yPos];
-   //check the current cell's state
+   let state = grid[xPos][yPos]; //check the current cell's state
    if (state == 0) { //rule 1
-    dir++;  // turn right 90°
+    dir++; // turn right 90°
     grid[xPos][yPos] = 1; //change the currect cell's state to 'on'
-    fill(onColor);  //subsequent color change
+    fill(onColor); //subsequent color change
     if (dir > antLEFT) {
-      dir = antUP;  //reset the counter
+      dir = antUP; //reset the counter
     }
-   }else{  //rule 2
-    dir--;  //turn left 90°
+   }else{ //rule 2
+    dir--; //turn left 90°
     grid[xPos][yPos] = 0; //change the current cell's state to 'off'
-    fill(offColor);  //subsequent color change
+    fill(offColor); //subsequent color change
     if (dir < antUP) {
       dir = antLEFT; //reset the counter
     }
@@ -179,7 +172,7 @@ function drawGrid() {
   cols = width/grid_space;
   rows = height/grid_space;
   let arr = new Array(cols);
-  for (let i=0; i < cols; i++) {//no of cols
+  for (let i=0; i < cols; i++) { //no of cols
     arr[i] = new Array(rows); //2D array
     for (let j=0; j < rows; j++){ //no of rows
       let x = i * grid_space; //actual x coordinate
@@ -188,14 +181,13 @@ function drawGrid() {
       strokeWeight(1);
       noFill();
       rect(x, y, grid_space, grid_space);
-      arr[i][j] = 0;  // assign each cell with the off state + color
+      arr[i][j] = 0; //assign each cell with the off state + color
     }
   }
-  return arr; //a function with a return value of cell's status
+  return arr; //a function with a return value of the cell's status
 }
 
-function nextMove () {
-  //check which direction to go next and set the new current direction
+function nextMove () { //check which direction to go next and set the new current direction
   if (dir == antUP) {
     yPos--;
   } else if (dir == antRIGHT) {
@@ -207,26 +199,26 @@ function nextMove () {
   }
 }
 
-function checkEdges() {
-  //check width and height boundary
+function checkEdges() { //check width and height boundary
   if (xPos > cols-1) { //reach the right edge
-    xPos = 0;    //go back to the left
-  } else if (xPos < 0) {  //reach the left edge
-    xPos = cols-1;  //go to the right edge
+    xPos = 0; //go back to the left
+  } else if (xPos < 0) { //reach the left edge
+    xPos = cols-1; //go to the right edge
   }
   if (yPos > rows-1) { //reach the bottom edge
     yPos = 0; //go back to the top
   } else if (yPos < 0) { //reach the top edge
-    yPos = rows-1;  //go to the bottom
+    yPos = rows-1; //go to the bottom
   }
 }
 
 ```
+
 ## Reading Langton's Ant
 
-Based on the above code, there are three areas can help slowing down or zooming in the program. 
-1. `let grid_space = 5;`: You can tchange the value to 10 then you are able to see it at a bigger size.   
-2. `frameRate(20);`: Lower the frameRate value can help slowering down the program
+Based on the above example, there are three areas can help in slowing down or zooming in on the program. 
+1. `let grid_space = 5;`: You can change the value to 10 then you are able to see it at a larger size.   
+2. `frameRate(20);`: Lower the frameRate value can help slow down the program
 3. Within the `draw()` function, we have a for-loop where n is the steps of the ant. You may reduce the `n < 100` to `n < 1` in the line: `for (let n = 0; n < 100; n++) {`. (Reducing the n value will instruct the program to only process n steps per frame.)
 
 Intead of going through the code line by line, this part is more showing what each function does. 
@@ -350,15 +342,11 @@ Therefore, each divided cell is presented in the structure of a 2-dimensional ar
 [^exhibition]: The exhibition "Programmed: Rules, Codes, and Choreographies in Art, 1965–2018" was held at the Whitney Museum of American Art, New York (28 Sep 2018 – 14 Apr 2019), and organized by Christiane Paul and Carol Mancusi-Ungaro, with Clémence White. See https://whitney.org/exhibitions/programmed. An earlier well-cited example would be the 1970 exhibition “Software — Information Technology: Its New Meaning for Art” at the Jewish Museum in New York, curated by Jack Burnham. 
 [^LeWitt]: Sol LeWitt cited in Lippard, ed. *Six Years: The Dematerialization of the Art Object from 1966 to 1972*. 
 [^Reas]: For an explanation of this work, and linked docuementation, see Casey Reas, "{Software} Structures",  https://artport.whitney.org/commissions/softwarestructures/text.html
-[^joan]: See more of her works here: http://joantruckenbrod.com/gallery/#
-
+[^joan]: See more of her works here: http://joantruckenbrod.com/gallery/# DELETE??????
 [^galanter]: Philip Galanter, *What is Generative Art? Complexity theory as a context for art theory*. In GA2003-6th Generative Art Conference, Milan (2003). 
-
 [^10print]: Nick Montfort, et al, *10 PRINT CHR $(205.5+ RND (1));: GOTO 10* (Cambridge, Mass., MIT Press, 2012_.
-
-[^Langton]: Langton, Christopher G. “Studying Artificial Life with Cellular Automata.” Physica D: Nonlinear Phenomena 22, no. 1–3 (October 1986): 120–49. https://doi.org/10.1016/0167-2789(86)90237-X.
-
 [^Haahr]: Mads Haahr, "Introduction to Randomness and Random Numbers", https://www.random.org/randomness/.
+[^Langton]: Christopher G. Langton, “Studying Artificial Life with Cellular Automata”, *Physica D: Nonlinear Phenomena* 22, no. 1–3 (October 1986): 120–49. https://doi.org/10.1016/0167-2789(86)90237-X.
 
 [^shiffman1]: See "Two-dimensional Arrays" written for the Processing Community: https://processing.org/tutorials/2darray/
 
