@@ -290,7 +290,7 @@ Let's discuss the following questions:
 - nature / technical/ culture / reproduction (feminist approach)? 
 - authorship/ power / control / unpredictability? 
 - order, disorder, chaos, complex system, emergence? cellular automata, game of life
-- more on automatism and production
+- more on automatism and production, and autonmy as power to determine life
 - ideas as form 
 - Focus on rules, orders, chaos, emergent behaviors ?
 - Generators and other automatisms (genotypes), love letter generators
