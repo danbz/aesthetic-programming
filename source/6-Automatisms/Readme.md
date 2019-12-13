@@ -13,24 +13,26 @@ More specifically, the Turing machine is capable of six types of fundamental ope
 
 *Figure 6.1: An illustration of the Turing Machine*
 
-This chapter thus focuses on instructions, and explores how instructions are fundamental elements of automatic systems and autonomous processes. Although the previous chapter was also about rules in terms of how objects (e.g. tofu and beer) appear and could be interacted with, this chapter will be more about how rules are automatised and generated over time. 
+This chapter thus focuses on instructions, and explores how instructions are fundamental elements of automatic and autonomous processes. Although the previous chapter was also about rules in terms of how objects (e.g. tofu and beer) appear and could be interacted with, this chapter will be more about how rules are performed and generated over time. 
 
-Focusing on rules and instructions are not only something programmers do, for instance artists have also produced works that are instruction-based as in the case of the Fluxus and the Conceptual Art movement in the 1960s and 1970s. There are many examples of commentators making the connections between these instruction-based works and computational art,[^Cox] for instance the exhibition *Programmed: Rules, Codes, and Choreographies in Art, 1965-2018*,[^exhibition], organized by Christiane Paul at the Whitney Museum of American Art, showcases whata re widely regarded to be the predecessors of computational art, and how instruction-based practices have both responded to and been shaped by technologies. The work of artist Sol Le Witt is one of the key references here, demonstrating how a concept is based on a set of instructions but the outcome might be different depending on how the instructions are executed. For example, the work *Wall Drawing #289* consists of three simple instructions but without specific detail on the angles and length of the lines:
+Focusing on rules and instructions are not only something programmers do, for instance artists have also produced artworks that are systems or instruction-based as in the case of the Fluxus and the Conceptual Art movements of the 1960s and 1970s that set out to challenge art's object-ness, and its "dematerialsation".[^Lippard] There are many examples of commentators making the connections between these instruction-based works and computational art,[^Cox] for instance the survey exhibition *Programmed: Rules, Codes, and Choreographies in Art, 1965-2018*,[^exhibition], organized by Christiane Paul at the Whitney Museum of American Art (2018-19), showcased what are widely regarded to be the main predecessors of computational art, and how instruction-based practices have both responded to and been shaped by technologies. The work of artist Sol Le Witt is one of the key examples here, demonstrating how a concept is based on a set of instructions but the outcome might be different depending on the specific context and how the instructions are executed by other people. This is explained neatly by LeWitt: "The idea becomes a machine that makes the art".[^LeWitt] For example, the work *Wall Drawing #289* consists of three simple instructions but without specific detail on the angles and length of the lines:
 
 1. twenty-four lines from the center 
 2. Twelve lines from the midpoint of each of the sides
 3. Twelve lines from each corner 
 
 ![drawing2](ch6_2.jpg)
-*Figure 6.2: Sol LeWitt, Wall drawing #289, 1976*
+*Figure 6.2: Sol LeWitt, Wall drawing #289, 1976* [if copyright a problem then use a casey reas example maybe /g]
 
-Another example is Joan Truckenbrod who have showned her work *Coded Algorithmic Drawing (#9)* in the same show. The piece with a number of squares of variations in size and angle was coded with the programming language Fortran in the 1970s, simulating moving substance in natural phenomena.[^joan]
-
+It becomes clear how conceptual practices combine idea and action in parallel to how performance works with scores, and in turn how programs work with instructions and their execution. LeWitt's work lends itself well to computation, and this was taken up by Casy Reas using Processing to render LeWitt's wall drawings from their instructions and thus to explore the parallels of interpretation, material, and process.[^Reas] Despite the LeWitt quote above, he makes an important distinction in that LeWitt's programs are to be executed and interpreted by people rather than machines. Yet it is the close connection that concerns Reas, and the development of the Processing as a "software sketchbook", wanting programming to be as immediate and fluid as the practice of drawing. 
+ 
+/ [I would be tempted to drop this example - good as it is, and a woman - and the next section follows Reas well /g] Another example is Joan Truckenbrod who has shown her work *Coded Algorithmic Drawing (#9)* in the same show. The piece with a number of squares of variations in size and angle was coded with the programming language Fortran in the 1970s, simulating moving substance in natural phenomena.[^joan]
 ![drawing3](ch6_3.png)
+*Figure 6.3: Joan Truckenbrod, Coded Algorithmic Drawing, 1975* /
 
-*Figure 6.3: Joan Truckenbrod, Coded Algorithmic Drawing, 1975*
+Rules and instructions are fascinating not only because of offering a different way to draw, but also to reflect on how a sketch can be produced by machines based on, or derived from, mathematical logic, to provide a sense of agency that is less human-centric — which links to the discussion of the last chapter and ...   
 
-Rules and instructions are highly interesting, which is not only because of having a different way of creative drawing, but also how a sketch can be produced which is based on or derived from mathematics and logics in which to give more agency to the rules. It is not simply a direct instruction of drawing something like having an ellipse in white color at the x and y coordinate 100 and 120 respectively. Clearly, this instruction has a full control on what would be the outcome in a very precise manner and this specific rule does not allow the program to emerge and create something different. This idea of agency and the matter of control is how Philip Galanter hightlighted when defining generative art, as he puts it [^galanter],
+It is not simply a direct instruction of drawing something like having an ellipse in white color at the x and y coordinate 100 and 120 respectively. Clearly, this instruction has a full control on what would be the outcome in a very precise manner and this specific rule does not allow the program to emerge and create something different. This idea of agency and the matter of control is how Philip Galanter hightlighted when defining generative art, as he puts it [^galanter],
 > Generative art refers to any art practice where artists use a system, such as a set of natural languages, rules, a computer program, a machine, or other procedural invention, which is set into motion with some degree of autonomy contributing to or resulting in a completed work of art.
 
 In the following sections, we will explore two examples of rule-based programs to unfold the thinking of agency and control. 
@@ -296,6 +298,12 @@ Therefore, each divided cell is presented in the structure of a 2-dimensional ar
 - nature / technical/ culture / reproduction (feminist approach)? 
 - authorship/ power / control / unpredictability? 
 - order, disorder, chaos, complex system, emergence?
+- more on automatism and production
+
+- ideas as form 
+- Focus on rules, orders, chaos, emergent behaviors ?
+- Generators and other automatisms (genotypes), love letter generators
+
 
 ## Mini_Exercise[6]: A generative program
 
@@ -342,10 +350,11 @@ Therefore, each divided cell is presented in the structure of a 2-dimensional ar
 [^Turing]: Alan Mathison Turing, "On Computable Numbers, with an Application to the Entscheidungsproblem", *Proceedings of the London Mathematical Society* 2.1 (1937): 230-265.
 [^Turing1]: Ibid., 241.
 [^visualization]: A visualization of the Turing Machine can be found here: https://turingmachine.io/.
-[^Cox]: One example of many, and also connected to an exhibition, is Geoff Cox's' "Generator: The Value of Software Art", in Judith Rugg and Michèle Sedgwick, eds., *Issues in Curating Contemporary Art and Performance* (Bristol: Intellect, 2007), 147-162; available at https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf. Interestingly, this includes a description of Adrian Ward's *Auto-Illustrator*, released as a boxed version for the exhibition "Generator" with an accompanying "User’s  Manual" that contained both technical detail and critical essays. In many ways this sets a precedent for the publication you are reading.
-
-[^exhibition]: See https://whitney.org/exhibitions/programmed. 
-
+[^Lippard]: Reference to Lucy Lippard, ed. *Six Years: The Dematerialization of the Art Object from 1966 to 1972* (London: University of California Press, 1997). 
+[^Cox]: One example of many, and also connected to an exhibition, is Geoff Cox's' "Generator: The Value of Software Art", in Judith Rugg and Michèle Sedgwick, eds., *Issues in Curating Contemporary Art and Performance* (Bristol: Intellect, 2007), 147-162; available at https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf. Interestingly, this includes a description of Adrian Ward's *Auto-Illustrator*, released as a boxed version for the exhibition "Generator" (2002-3) with an accompanying "User’s  Manual" that contained both technical detail and critical essays. In many ways this sets a precedent for the publication you are reading.
+[^exhibition]: The exhibition "Programmed: Rules, Codes, and Choreographies in Art, 1965–2018" was held at the Whitney Museum of American Art, New York (28 Sep 2018 – 14 Apr 2019), and organized by Christiane Paul and Carol Mancusi-Ungaro, with Clémence White. See https://whitney.org/exhibitions/programmed. An earlier well-cited example would be the 1970 exhibition “Software — Information Technology: Its New Meaning for Art” at the Jewish Museum in New York, curated by Jack Burnham. 
+[^LeWitt]: Sol LeWitt cited in Lippard, ed. *Six Years: The Dematerialization of the Art Object from 1966 to 1972*. 
+[^Reas]: For an explanation of this work, and linked docuementation, see Casey Reas, "{Software} Structures",  https://artport.whitney.org/commissions/softwarestructures/text.html
 [^joan]: See more of her works here: http://joantruckenbrod.com/gallery/#
 
 [^galanter]: Galanter, P. (2003). *What is Generative Art? Complexity theory as a context for art theory*. In GA2003-6th Generative Art Conference Citeseer. 
