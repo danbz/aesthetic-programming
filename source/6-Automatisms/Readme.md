@@ -286,14 +286,44 @@ Let's discuss the following questions:
 
 ## While()
 
-[I will get onto this next week I hope /g]
-- nature / technical/ culture / reproduction (feminist approach)? 
-- authorship/ power / control / unpredictability? 
-- order, disorder, chaos, complex system, emergence? cellular automata, game of life
-- more on automatism and production, and autonmy as power to determine life
-- ideas as form 
-- Focus on rules, orders, chaos, emergent behaviors ?
-- Generators and other automatisms (genotypes), love letter generators
+We already have discussed the idea of unleashing potential in the previous chapter and it would seem that generative systems promise something similar as a means to change an existing system. The allusion to living systems is made clear in Game of Life - developed by the mathematician Jon Conway in 1970 - a further example of how an evolutionary process is determined by its initial state, requiring no further input, and producing emergent forms. Langton's Ant - our earlier example - is based on these principles of cellular automata too, in which there is a regular grid of cells, each in one of a finite number of states, such as on and off, or alive and dead in this case. We have already explored the reductive logic of this somewhat but this example is also troubling as it addresses life and death as if part of a social cleansing programme. 
+
+Every cell interacts with other cells that are directly adjacent, and the following transitions occur:
+Any live cell with fewer than two live neighbours dies, as if by underpopulation.
+Any live cell with two or three live neighbours lives on to the next generation.
+Any live cell with more than three live neighbours dies, as if by overpopulation.
+Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+
+Nevertheless there is other political potential here too in the way an adaptive complex organism can assemble itself 'bottom-up', without a central 'top-down' command and control mechanism.[See Steven Johnson, Emergence: The Connected Lives of Ants, Brains, Cities and Software (London: Penguin, 2001), 20).] There is a "revolutionary" moment where it is impossible to predict the direction change will take, and whether it will fall into a higher level of order or disintegrate into chaos. We return to ants by way of our examples here. The study of ant colonies reveal that there is no discernible hierarchy at work, and although humans have named the ants in provocative terms, the 'queen' is not an authority figure at all, merely an egg-laying ant and does not direct or exploit the workers in sovereign rule (although, as an aside, it should be said that the workers are female and unpaid and the sexual politics of ants is outside our scope here). 
+
+According to complexity theory, all systems contain subsystems that are continually fluctuating. It is possible that one or more fluctuations, as a result of feedback, may change the preexisting organisation of the system. One of the properties of the evolution of a complex system is that multiple interacting elements in a system cannot be governed and the collective behaviour cannot be predicted, as Ilya Prigogine and Isabelle Stengers explain in Order Out of Chaos:
+"A society defined entirely in terms of a functional model would correspond to the Aristotelian idea of natural hierarchy and order. Each official would perform the duties for which he [sic] has been appointed. These duties would translate at each level the different aspects of the organization of the society as a whole. The king gives orders to the architect, the architect to the contractor, the contractor to the worker. On the contrary, termites and other social insects seem to approach the "statistical" model. As we have seen, there seems to be no mastermind behind the construction of the termites' nest, when interactions among individuals produce certain types of collective behaviour in some circumstances, but none of these interactions refer to any global task, being all purely local." [Ilya Prigogine and Isabelle Stengers, Order Out of Chaos: Man’s New Dialogue With Nature (London: Fontana, 1985), 205.]
+
+If we look to a history of computing for the understanding of emergent behaviour, Alan Turing's 'morphogenesis' paper (from 1954) is an early example of this recognition of patterns in the apparent chaos of code. At this point we return to another example from the history of computing, the generative “love-letters” that first appeared on the notice board of Manchester University’s Computer Department in 1953. These computer-generated declarations were produced by a program written by the programmer Christopher Strachey, using the built-in random generator of the Manchester University Computer (the Ferranti Mark I), the earliest programmable computer (first functioning as a prototype in 1948). Artist David Link has since reconstructed a functional replica of the hardware and the original program, following meticulous research on the functional aspects but also speculating on why the programmer may have decided to generate love letters at all (not least, as a gay man). The main program is relatively simple, using loops and a random variable to follow the sentence structure: 
+
+“You are my — Adjective — Substantive,” and “My — [Adjective] — Substantive — [Adverb] — Verb — Your — [Adjective] — Substantive.” [David Link, “There Must  Be an  Angel:  On  the  Beginnings of  the  Arithmetics of  Rays,”  in Siegfried  Zielinski and David Link,  eds.,  Variantology  2: On Deep Time  Relations  of Arts,  Sciences and  Technologies  (Cologne:  König, 2006), 15–42; available at  http://www.alpha60.de/research/ muc/.]
+
+Some words are fixed and some optional, indicated by the square brackets; the program selects from the list of options—adjectives, adverbs, and verbs — and loops are configured to avoid repetition. The software could generate over 318 billion variations. In terms of effect, the dialogic structure is important too in setting up an exchange between “Me” (the program writer) and “You” (the human reader), such that you feel addressed directly. The resultant declarations suggest a surprising tenderness of expression that runs contrary to what we consider the standard functional outcomes of computational procedures (for commerce or war). Here is an example:
+
+DEAR DARLING
+YOU ARE MY BEAUTIFUL RAPTURE. MY INFATUATION BEAUTIFULLY CLINGS TO YOUR ADORABLE LUST. MY INFATUATION LUSTS FOR YOUR WISH. MY AMBITION CURIOUSLY LIKES YOUR LOVE. YOU ARE MY DEAR EAGERNESS.
+YOURS WISTFULLY
+M. U. C.
+[Ibid.]
+
+If computers could speak freely, is this what they would say? Is love reducible to a “recombinatory procedure”? [Ibid.] But surely not. On the one hand, as Link points out, it seems to portray a reductionist view of love, but on the other, love is also characterized by projection, and in this way fires the imagination. He explains this by quoting Goethe, who “once made the cynical suggestion that love-letters should be formulated in a completely cryptic way, so that the recipient could project whatever she liked into the text.”[Ibid.] Moreover, cryptology aside, is the love letter reducible to the problem of memory like the Universal Machine, to be written, read, stored, and deleted like any other data? 
+
+If human experience is ever more prescribed through scripts and programs like this, which we seem to we have less and less access to, then the challenge for those making programs is to open up other alternatives. Thankfully humans are not reducible to computational logic, ...
+
+REF my documenta essay. 
+
+
+- more on automatism and production, and autonomy as power to determine life
+
+
+
+
+
 
 ## Mini_Exercise[6]: A generative program
 
@@ -342,7 +372,7 @@ Let's discuss the following questions:
 [^visualization]: A visualization of the Turing Machine can be found here: https://turingmachine.io/.
 [^Lippard]: Reference to Lucy Lippard, ed. *Six Years: The Dematerialization of the Art Object from 1966 to 1972* (London: University of California Press, 1997). 
 [^Cox]: One example of many, and also connected to an exhibition, is Geoff Cox's' "Generator: The Value of Software Art", in Judith Rugg and Michèle Sedgwick, eds., *Issues in Curating Contemporary Art and Performance* (Bristol: Intellect, 2007), 147-162; available at https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf. Interestingly, this includes a description of Adrian Ward's *Auto-Illustrator*, released as a boxed version for the exhibition "Generator" (2002-3) with an accompanying "User’s  Manual" that contained both technical detail and critical essays. In many ways this sets a precedent for the publication you are reading.
-[^exhibition]: The exhibition "Programmed: Rules, Codes, and Choreographies in Art, 1965–2018" was held at the Whitney Museum of American Art, New York (28 Sep 2018 – 14 Apr 2019), and organized by Christiane Paul and Carol Mancusi-Ungaro, with Clémence White. See https://whitney.org/exhibitions/programmed. An earlier well-cited example would be the 1970 exhibition “Software — Information Technology: Its New Meaning for Art” at the Jewish Museum in New York, curated by Jack Burnham. 
+[^exhibition]: The exhibition "Programmed: Rules, Codes, and Choreographies in Art, 1965–2018" was held at the Whitney Museum of American Art, New York (28 Sep 2018 – 14 Apr 2019), and organized by Christiane Paul and Carol Mancusi-Ungaro, with Clémence White. See https://whitney.org/exhibitions/programmed. An earlier well-cited example would be the 1970 exhibition “Software — Information Technology: Its New Meaning for Art” at the Jewish Museum in New York, curated by Jack Burnham. For Burnham, the exhibition "Software" encouraged an understanding of underlying structures in art and information systems, and by drawing together practices in computer technology with conceptual art, software was to be seen as a metaphor for information exchange. 
 [^LeWitt]: Sol LeWitt cited in Lippard, ed. *Six Years: The Dematerialization of the Art Object from 1966 to 1972*. 
 [^Reas]: For an explanation of this work, and linked docuementation, see Casey Reas, "{Software} Structures",  https://artport.whitney.org/commissions/softwarestructures/text.html
 [^joan]: See more of her works here: http://joantruckenbrod.com/gallery/# DELETE??????
