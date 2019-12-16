@@ -298,7 +298,10 @@ Maybe this is simply a poor abstraction. That said, there is an alternative poli
 
 > "A society defined entirely in terms of a functional model would correspond to the Aristotelian idea of natural hierarchy and order. Each official would perform the duties for which he [sic] has been appointed. These duties would translate at each level the different aspects of the organization of the society as a whole. The king gives orders to the architect, the architect to the contractor, the contractor to the worker. On the contrary, termites and other social insects seem to approach the 'statistical' model. As we have seen, there seems to be no mastermind behind the construction of the termites' nest, when interactions among individuals produce certain types of collective behaviour in some circumstances, but none of these interactions refer to any global task, being all purely local."[^chaos] 
 
-If we look to a history of computing for an understanding of emergent behaviour,[^morpho] we might cite Turing's article of 1952 "The Chemical Basis of Morphogenesis" that described the way in which natural patterns naturally arise from a homogeneous, uniform state.[^morpho] 
+If we look to a history of computing for an understanding of emergent behaviour, we might cite Turing's article of 1952 "The Chemical Basis of Morphogenesis" that described the way in which natural patterns naturally arise from a homogeneous, uniform state.[^morpho]
+
+We are left with the idea of autonomy...
+- more on automatism and production, and autonomy as power to determine life
 
 But more relevant for our purpose is another example, the generative *love-letters* that appeared on the notice board of Manchester University’s Computer Department shortly after in 1953. These computer-generated declarations were produced by a program written by the programmer Christopher Strachey using the built-in random generator of the Manchester University Computer (the Ferranti Mark I), the earliest programmable computer. Regarded by some as the first example of a digital artwork,[^Noah] and by Jacob Gaboury as a critique of heteronormative love,[^Gaboury] as Strachey like Turing was queer. Moreover this is arguably more than a longing for same sex love but more human-machine love.
 
@@ -313,17 +316,7 @@ Some words are fixed and some optional, indicated by the square brackets. The pr
 > YOURS WISTFULLY
 > M. U. C.
 
-But is love reducible to a “recombinatory procedure”? On the one hand, as Link points out, it seems to portray a reductionist view of love, but on the other, love is also characterized by its generative capacity, and the challenge for those making programs is to generate queer forms. 
-
-We are left with the idea of autonomy...
-
-
-- more on automatism and production, and autonomy as power to determine life
-
-
-
-
-
+But is love reducible to a “recombinatory procedure”? On the one hand, as Link points out, it seems to portray a reductionist view of love, but on the other, love has a generative capacity, and the challenge for those making programs is to generate queer recombinant forms. 
 
 ## Mini_Exercise[6]: A generative program
 
