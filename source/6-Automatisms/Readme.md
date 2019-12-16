@@ -298,25 +298,24 @@ Maybe this is simply a poor abstraction. That said, there is an alternative poli
 
 > "A society defined entirely in terms of a functional model would correspond to the Aristotelian idea of natural hierarchy and order. Each official would perform the duties for which he [sic] has been appointed. These duties would translate at each level the different aspects of the organization of the society as a whole. The king gives orders to the architect, the architect to the contractor, the contractor to the worker. On the contrary, termites and other social insects seem to approach the 'statistical' model. As we have seen, there seems to be no mastermind behind the construction of the termites' nest, when interactions among individuals produce certain types of collective behaviour in some circumstances, but none of these interactions refer to any global task, being all purely local."[^chaos] 
 
-If we look to a history of computing for an understanding of emergent behaviour, we might cite Turing's article of 1952 "The Chemical Basis of Morphogenesis" that described the way in which natural patterns naturally arise from a homogeneous, uniform state.[^morpho]
+If we look to a history of computing for an understanding of emergent behaviour, we might cite Turing's article of 1952 "The Chemical Basis of Morphogenesis" that described the way in which natural patterns naturally arise from a homogeneous, uniform state.[^morpho] This idea of morphogenesis is something that the political theorist and activist Franco 'Bifo' Berardi has utilised to describe social and political mutation, or when new political form emerges and takes shape, a "morphogenetic modeling of the living operated by the habitat with which it is required to interact" as he puts it.[^Bifo] 
+
+The model is useful because it allows for an understanding of the conditions in which the mutations take place, and how cognitive and emotional automatism at the deep level of perception, imagination and desire might be repurposed for collective action.  MORE ON BIFO
 
 We are left with the idea of autonomy...
 - more on automatism and production, and autonomy as power to determine life
++++++++++++
 
 But more relevant for our purpose is another example, the generative *love-letters* that appeared on the notice board of Manchester University’s Computer Department shortly after in 1953. These computer-generated declarations were produced by a program written by the programmer Christopher Strachey using the built-in random generator of the Manchester University Computer (the Ferranti Mark I), the earliest programmable computer. Regarded by some as the first example of a digital artwork,[^Noah] and by Jacob Gaboury as a critique of heteronormative love,[^Gaboury] as Strachey like Turing was queer. Moreover this is arguably more than a longing for same sex love but more human-machine love.
 
-Artist David Link has since reconstructed a functional replica of both the hardware and the original program, following meticulous research on the functional aspects.[^loveletters] The main program is relatively simple, using loops and a random variable to follow the sentence structure: 
-
-> "You are my — Adjective — Substantive,” and “My — [Adjective] — Substantive — [Adverb] — Verb — Your — [Adjective] — Substantive.”  
-
-Some words are fixed and some optional, indicated by the square brackets. The program selects from the list of options—adjectives, adverbs, and verbs — and loops are configured to avoid repetition. The software could generate over 318 billion variations. In terms of effect, the dialogic structure is important too in setting up an exchange between *Me* (the program writer) and *You* (the human reader), such that you feel addressed directly. The resultant declarations suggest a surprising tenderness of expression that runs contrary to what we consider the standard functional outcomes of computational procedures. Here is an example of the output:
+Artist David Link has since reconstructed a functional replica of both the hardware and the original program, following meticulous research on the functional aspects.[^loveletters] The main program is relatively simple, using loops and a random variable to follow the sentence structure: "You are my — Adjective — Substantive,” and “My — [Adjective] — Substantive — [Adverb] — Verb — Your — [Adjective] — Substantive." Some words are fixed and some optional, indicated by the square brackets. The program selects from the list of options—adjectives, adverbs, and verbs — and loops are configured to avoid repetition. The software could generate over 318 billion variations. In terms of effect, the dialogic structure is important too in setting up an exchange between *Me* (the program writer) and *You* (the human reader), such that you feel addressed directly. The resultant declarations suggest a surprising tenderness of expression that runs contrary to what we consider the standard functional outcomes of computational procedures. Here is a sample output:
 
 > DEAR DARLING
 > YOU ARE MY BEAUTIFUL RAPTURE. MY INFATUATION BEAUTIFULLY CLINGS TO YOUR ADORABLE LUST. MY INFATUATION LUSTS FOR YOUR WISH. MY AMBITION CURIOUSLY LIKES YOUR LOVE. YOU ARE MY DEAR EAGERNESS.
 > YOURS WISTFULLY
 > M. U. C.
 
-But is love reducible to a “recombinatory procedure”? On the one hand, as Link points out, it seems to portray a reductionist view of love, but on the other, love has a generative capacity, and the challenge for those making programs is to generate queer recombinant forms. 
+This is far from a reductionist view of love, and perhaps the challenge for those making programs is to generate queer recombinant forms. 
 
 ## Mini_Exercise[6]: A generative program
 
@@ -379,7 +378,8 @@ But is love reducible to a “recombinatory procedure”? On the one hand, as Li
 [^smart]: See the artwork *WUOUS* by Anders Visti and Tobias Stenberg with an implementation of *Langton's Ant* to question the procedural logic of so-called 'smart cities': https://andersvisti.dk/work/wuos-2019. 
 [^chaos]: Ilya Prigogine and Isabelle Stengers, *Order Out of Chaos: Man’s New Dialogue With Nature* (London: Fontana, 1985), 205.
 [^morpho]: Alan Mathison Turing, "The Chemical Basis of Morphogenesis" (PDF). *Philosophical Transactions of the Royal Society of London B*, 237 (641) (1952): 37–72. doi:10.1098/rstb.1952.0012. JSTOR 92463. 
-[^Noah]: Noah Wardrip-Fruin, "Christopher Strachey: The first digital artist?". *Grand Text Auto*. School of Engineering, University of California Santa Cruz (1 August 2005).
+[^Bifo]: Franco Berardi, The Soul at Work, 187. ???????????????????????
+[^Noah]: Noah Wardrip-Fruin, "Christopher Strachey: The First Digital Artist?". *Grand Text Auto*, School of Engineering, University of California Santa Cruz (1 August 2005).
 [^Gaboury]: Jacob Gaboury, "A Queer History of Computing", *Rhizome* (9 April 2013).   
 [^loveletters]: David Link's *LoveLetters_1.0: MUC=Resurrection* was first exhibited in 2009, and was part of dOCUMENTA(13), Kassel, in 2012. A detailed description and documentation can be found at http://www.alpha60.de/art/love_letters/. Also see Geoff Cox, Introduction" to David Link, *Das Herz der Maschine* (dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 037) (Berlin: Hatje Cantz, 2012).  
 
