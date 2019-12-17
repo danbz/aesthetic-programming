@@ -1,8 +1,8 @@
 Title: Automatisms
 page_order: 6
 
-## Automatisms 
-[how about Auto Generator? /w yes maybe that's better /g]
+## Auto Generator
+[then let's feel for awhile /w]
 
 ## setup() 
 
@@ -351,7 +351,7 @@ Artist David Link has since reconstructed a functional replica of both the hardw
 **Questions to think about as README:**
 - What are the rules in your generative program and describe how your program performs over time and how are the running of the rules contingently enabled emergent behaviors? 
 - What's the role of rules and processes in your work?
-- How does this mini-exericse help you to understand generativity and automatism? Do you have any further thoughts about the theme of this chapter? 
+- How does this mini-exericse help you to understand auto generator? Do you have any further thoughts about the theme of this chapter? 
 
 ## Required reading:
 - Montfort, N, et al. "Randomness". *[10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org/)*, The MIT Press, 2012, pp. 119-146 (The chapter: Randomness)
