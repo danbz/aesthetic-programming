@@ -315,7 +315,7 @@ Artist David Link has since reconstructed a functional replica of both the hardw
 - To strengthen the computational use of loops and conditional statements in a program.
 - To reflect upon the concept of automatism conceptually and practically.
 
-**To get some additional inspiration here:**
+**Get some additional inspiration here:**
 - [{Software} Structure #003 A by Casey Reas](https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks)
 - [Generative Design - sketches](http://www.generative-gestaltung.de/2/), [soure code](https://github.com/generative-design/Code-Package-p5.js)
 - [GenArt (with source code)](https://github.com/JosephFiola/GenArt) by JosephFiola, see ch.1-4
