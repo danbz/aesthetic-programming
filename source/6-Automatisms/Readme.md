@@ -33,7 +33,7 @@ It becomes clear how conceptual practices combine idea and action in parallel to
 
 This kind of approach is important not only because of offering a different way to draw and author works by machines based on mathematical logic, but also to provide a sense of machinic creativity that — as in the previous chapter — questions the centrality of human (and more often than not, male) agency. In this chapter we aim to explore more complex combinations that combine people and machines (if not animals, considering our upcoming example is an ant). 
 
-If we were to draw an ellipse in white color at the x and y coordinate 100 and 120, there is a direct correspondance to the instruction. The outcome is predictable as the instruction is followed unambiguosuly but this need not be the case as certain kinds of instructions or combinations of instructions can generate unpredictable results. This *generative* quality throws into question the extent of control and autonomy over the creative process, made clear in the following definition of generative art:[^galanter]
+If we were to draw an ellipse in white color at the x and y coordinate 100 and 120, there is a direct correspondance to the instruction. The outcome is predictable as the instruction is followed to the rule, but this need not be the case as certain kinds of instructions or combinations of instructions can generate unruly results. This *generative* capacity throws into question the extent of control and autonomy over the creative process, made clear in the following definition of generative art:[^galanter]
 > Generative art refers to any art practice where artists use a system, such as a set of natural languages, rules, a computer program, a machine, or other procedural invention, which is set into motion with some degree of autonomy contributing to or resulting in a completed work of art.
 
 As we can see this definition does not limit itself to the use of computers and this is important to bear in mind as we proceed to focus on our sample code. In the following two examples we explore rule-based programs that unfold some of these issues of auto-generation, but as with previous ones we are interested in the wider implications. 
@@ -84,7 +84,7 @@ function draw() {
     - Throw a dice randomly and half of the time print a backward slash
     - The other half of the time will print a forward slash
 
-3. Discuss the use and the role of randomness in *10 PRINT* and in the arts, literature, and games? What is randomness to a computer?[^Haahr]  
+3. Discuss the use and the role of randomness in *10 PRINT* and in the arts, literature, and games? What is randomness to a computer?[^Haahr] 
 
 4. Try to modify the existing rules, for example: 
     - Can we have other outputs than just the backward and forward slash?
@@ -98,8 +98,6 @@ function draw() {
 ## Langton's Ant 
 
 *Langton's Ant* is a classical mathematical game that simulates the molecular logic of a living ant. The simulation of the cell's state is inspired by the classical Turing machine that can perform computational tasks with the manipulation of symbols on a strip of tape according to a set of rules. 
-
-[more on this in the context of generative art and introduce cellular automaton - game of life /g]
 
 This section presents sample code to simulate the cell states, presenting in a two-dimensional grid system in either the color black or white. Based on simple rules, an ant is considered to be the input source that will change the state of the cell by moving in four directions. The ant will gradually turn the grid into a more complex system that exhibits emergent behavior over time.
 
@@ -280,7 +278,6 @@ Therefore, each divided cell is presented in the structure of a 2-dimensional ar
 1. Give yourself sometime to read and tinker with the code, as well as to observe the different stages of *Langton's Ant*. 
 
 2. Right now the *Langton's Ant* program is more about representing the world of an ant through abstraction, such as limited cell color, as well as only being able to move in four directions and turn 90°. Rethink the rules that have been implemented. Can you try changing the existing rules or adding new rules so that the ant behaves differently? (Recall what you have changed in the previous exercise on *10 PRINT*.) 
-
 3. It is clear that in simulating and abstracting living systems — such as the complex behaviour of insects — there is a focus on emergent and generative process over end-result. In terms of creative process this allows us to think about how rules and instructions can produce complexity and other forms of control and agency. 
 Let's discuss the following questions:
 - Can you think of, and describe, other systems and processes that exhibit emergent behaviour? 
@@ -296,22 +293,16 @@ Every cell interacts with other cells that are directly adjacent, and the follow
 > Any live cell with more than three live neighbours dies, as if by overpopulation.
 > Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
-Maybe this is simply a poor abstraction. That said, there is an alternative political potential here in the way an adaptive complex organism can assemble itself *bottom-up*, without a central *top-down* command and control mechanism.[^emergence] This is referred to a *revolutionary* moment where it becomes impossible to predict the direction change will take, and whether it will fall into a higher level of order or disintegrate into chaos. We return to ants again here as the study of ant colonies reveal that there is no discernible hierarchy at work, and although humans have named the ants in provocative terms, the 'queen' is not an authority figure at all but an egg-laying funtionary, and the workers operate in a cooperative rather than feudal structure (although, as an aside, the workers are all female, but the gender politics of ants is outside our scope). To be more precise, and according to complexity theory, all systems contain subsystems that are continually fluctuating. It is possible that one or more fluctuations, as a result of feedback, may change the preexisting organisation of the system, and as such the multiple interacting elements of a system cannot be governed and the collective behaviour cannot be predicted, as Ilya Prigogine and Isabelle Stengers explain in *Order Out of Chaos*:
+Perhaps this is simply a poor example of abstraction. That said, there is an alternative political potential here in the way an adaptive complex organism can assemble itself *bottom-up*, without a central *top-down* command and control mechanism.[^emergence] This is referred to a *revolutionary* moment where it becomes impossible to predict the direction change will take, and whether it will fall into a higher level of order or disintegrate into chaos. We return to ants again here as the study of ant colonies reveal that there is no discernible hierarchy at work, and although humans have named the ants in provocative terms, the 'queen' is not an authority figure at all but an egg-laying funtionary, and the workers operate in a cooperative rather than feudal structure (although, as an aside, the workers are all female, but the gender politics of ants is outside our scope). To be more precise, and according to complexity theory, all systems contain subsystems that are continually fluctuating. It is possible that one or more fluctuations, as a result of feedback, may change the preexisting organisation of the system, and as such the multiple interacting elements of a system cannot be governed and the collective behaviour cannot be predicted, as Ilya Prigogine and Isabelle Stengers explain in *Order Out of Chaos*:
 
 > "A society defined entirely in terms of a functional model would correspond to the Aristotelian idea of natural hierarchy and order. Each official would perform the duties for which he [sic] has been appointed. These duties would translate at each level the different aspects of the organization of the society as a whole. The king gives orders to the architect, the architect to the contractor, the contractor to the worker. On the contrary, termites and other social insects seem to approach the 'statistical' model. As we have seen, there seems to be no mastermind behind the construction of the termites' nest, when interactions among individuals produce certain types of collective behaviour in some circumstances, but none of these interactions refer to any global task, being all purely local."[^chaos] 
 
-If we look to a history of computing for an understanding of emergent behaviour, we might cite Turing's article of 1952 "The Chemical Basis of Morphogenesis" for its description of the way in which natural patterns naturally arise from a homogeneous, uniform state.[^morpho] This idea of morphogenesis is something that the political theorist and activist Franco 'Bifo' Berardi has in turn utilised to describe social and political mutation, or when new political form emerges and takes shape. His concern is to better understand the conditions in which these mutations take place, the cognitive and imaginative "automatisms" that determine collective possibilities for action. 
+If we look to a history of computing for an understanding of emergent behaviour, we might turn to Turing's article of 1952 "The Chemical Basis of Morphogenesis" for its description of the way in which natural patterns naturally arise from a homogeneous, uniform state.[^morpho] This idea of morphogenesis is something that the political theorist and activist Franco 'Bifo' Berardi has utilised to describe social and political mutation, or when new political form emerges and takes shape. He is thinking of how processes of automation have not only replaced physical acts of production with information technology, automation has massively transformed cognitive activity itself. The effect "implies the reduction of cognitive activity to algorithmic procedures, and the insertion of "automatisms into the social existence of the general intellect".[^eflux] One of the consequences is that automation is taking the place of political decision: "Yes or no... no nuances, no ambiguity" — and for Berardi this implies the end of politics, democracy, and conscious decision-making, and the establishment of an automatic chain of logical procedures intended to replace conscious voluntary choices. 
 
-////////His argument is that automation is taking the place of political decision, and the word "governance" refers essentially to this automation of data interpretation and decision: it implies the end of politics, democracy, and conscious decision-making, and the establishment of an automatic chain of logical procedures intended to replace conscious voluntary choices.[^eflux]
 
-As some theorists have argued (e.g., Kevin Kelly in his Out of Control: The New Biology of Machines, Social Systems, and the Economic World), the social organism is going to be transformed into a swarm, a collective organism composed of many individual bodies whose brains follow rules embedded in the nervous system of each individual. The individuals who comprise a swarm act in a coordinated way even if no centralized structure of control dictates how the individuals should behave. 
-
-Cognitive automatisms act as embedded rules which lead to the emergence of a form of intelligent behavior that is not consciously performed by the individuals who take part in the swarm.
 //////////
 
-MORE ON BIFO
 
-We are left with the idea of autonomy...
 - more on automatism and production, and autonomy as power to determine life
 +++++++++++ LINK is Bifo on love...
 
@@ -391,7 +382,7 @@ Artist David Link has since reconstructed a functional replica of both the hardw
 [^chaos]: Ilya Prigogine and Isabelle Stengers, *Order Out of Chaos: Man’s New Dialogue With Nature* (London: Fontana, 1985), 205.
 [^morpho]: Alan Mathison Turing, "The Chemical Basis of Morphogenesis" (PDF). *Philosophical Transactions of the Royal Society of London B*, 237 (641) (1952): 37–72. doi:10.1098/rstb.1952.0012. JSTOR 92463. 
 [^Bifo]: Franco “Bifo” Berardi, *The Soul at Work*, 187. ???????????????????????
-[^eflux]: Franco “Bifo” Berardi, "The Neuroplastic Dilemma: Consciousness and Evolution", in *e-flux* jouurnal #60 (December 2014), https://www.e-flux.com/journal/60/61034/the-neuroplastic-dilemma-consciousness-and-evolution/.
+[^eflux]: Franco “Bifo” Berardi, "The Neuroplastic Dilemma: Consciousness and Evolution", in *e-flux* jouurnal #60 (December 2014), https://www.e-flux.com/journal/60/61034/the-neuroplastic-dilemma-consciousness-and-evolution/. "General Intellect" is a concept taken from Marx's *Grundrisse*, in the passage "Fragment on Machines", used to indiacte the coming together of technological expertise and social intellect. 
 [^Noah]: Noah Wardrip-Fruin, "Christopher Strachey: The First Digital Artist?". *Grand Text Auto*, School of Engineering, University of California Santa Cruz (1 August 2005).
 [^Gaboury]: Jacob Gaboury, "A Queer History of Computing", *Rhizome* (9 April 2013).   
 [^loveletters]: David Link's *LoveLetters_1.0: MUC=Resurrection* was first exhibited in 2009, and was part of dOCUMENTA(13), Kassel, in 2012. A detailed description and documentation can be found at http://www.alpha60.de/art/love_letters/. Also see Geoff Cox, Introduction" to David Link, *Das Herz der Maschine* (dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 037) (Berlin: Hatje Cantz, 2012).  
