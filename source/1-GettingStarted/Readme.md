@@ -145,7 +145,7 @@ Let's read together the reference in Figure 1.10 - [`ellipse()`](https://p5js.or
 What we want to demonstrate here is that the references are important to start with, and then explore other syntaxes and features, for example other shapes like rectangles and polygons. There are still other syntaxes in the sample code that we haven't explained in detail, so perhaps you can find the corresponding references from p5.js web references and explore these yourself. But we will continue to explore the color function in the next chapter, and the `random` function in chapter 3.
 
 ## 1.4 Git
-We use Git both in our process of writing this book as well as in our teaching. Git is an open source software management system developed by Linus Torvalds in 205, the creator of Linux operating system. It is used to track changes in any files, facilitating versioning control of variations. It is particularly useful for collaborative programming in a larger scale, where individual works on different parts of the software with their own machine via copying (forking), splitting (branching) and combining (merging). 
+We use Git both in our process of writing this book as well as in our teaching. Git is an open source software management system developed by Linus Torvalds in 2005, the creator of Linux Kernel Architecture that is used in the Linux Operating System. It is used to track changes in any files, facilitating versioning control of variations in a distributed network. It is particularly useful for collaborative programming in a larger scale, where individual works on different parts of the software with their own machine via copying (forking), splitting (branching) and combining (merging). In this way Git uses the distributed model in which every contributor has and maintain a copy of the main repository.
 
 GitLab is an open source web-based Git repository platform, hosting software libraries and source code that are contributed by software developers. GitLab is also a social platform, where one can leave comments, follow other software development process, fork the whole program into your own repositor, and amongst others. All the book content including the readme files, source code and libaries are stored on the GitLab platform in a creative common licience, giving other people the right to share, use and build upon this work. We imagine this is just the first iteration (we have many versions before the beta launch indeed) of this book and we hope to see many re-appropriation and forking of the entire book so that people can base on the existing skeleton to make changes, such as adding a chapter, an example and exercise and more related content and references that facilitate the dialogues between programming and thinking. 
 
@@ -164,8 +164,6 @@ To upload the file or create a directory, just simply click on the + sign under 
 
 ![gitlab1](ch1_13.png)
 *Figure 1.13: Manage directories/files on GitLab web interface*
-
-// add here on how to setup Gitlab ///////////
 
 ## 1.5 While()
 
