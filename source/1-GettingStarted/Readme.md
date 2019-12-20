@@ -145,6 +145,25 @@ Let's read together the reference in Figure 1.10 - [`ellipse()`](https://p5js.or
 What we want to demonstrate here is that the references are important to start with, and then explore other syntaxes and features, for example other shapes like rectangles and polygons. There are still other syntaxes in the sample code that we haven't explained in detail, so perhaps you can find the corresponding references from p5.js web references and explore these yourself. But we will continue to explore the color function in the next chapter, and the `random` function in chapter 3.
 
 ## 1.4 Git
+We use Git both in our process of writing this book as well as in our teaching. Git is an open source software management system developed by Linus Torvalds in 205, the creator of Linux operating system. It is used to track changes in any files, facilitating versioning control of variations. It is particularly useful for collaborative programming in a larger scale, where individual works on different parts of the software with their own machine via copying (forking), splitting (branching) and combining (merging). 
+
+GitLab is an open source web-based Git repository platform, hosting software libraries and source code that are contributed by software developers. GitLab is also a social platform, where one can leave comments, follow other software development process, fork the whole program into your own repositor, and amongst others. All the book content including the readme files, source code and libaries are stored on the GitLab platform in a creative common licience, giving other people the right to share, use and build upon this work. We imagine this is just the first iteration (we have many versions before the beta launch indeed) of this book and we hope to see many re-appropriation and forking of the entire book so that people can base on the existing skeleton to make changes, such as adding a chapter, an example and exercise and more related content and references that facilitate the dialogues between programming and thinking. 
+
+For simplicy, we use the GitLab's web interface for some of our writing and teaching. Specifically for students to familiar with the writing of README file{^readme] and also aware that JavaScript can be run online via a web browser as RUNME. We also use GitLab for peer feedback so that students can read other people work with both README and RUNME. 
+
+![gitlab](ch1_12.png)
+*Figure 1.12: Create a new project on GitLab web interface*
+
+1. Register an account by clicking 'Register' at the navigation bar
+2. To create new project: Go to Projects > New Project 
+3. Give a projet name and a project description, and click Public if this project can be accessed by others without any authentication. 
+4. As this point you can also initialize a README within the repository by ticking the checkbox. 
+5. A folder in your repository then should be created 
+
+To upload the file or create a directory, just simply click on the + sign under the repository project name. 
+
+![gitlab1](ch1_13.png)
+*Figure 1.13: Manage directories/files on GitLab web interface*
 
 // add here on how to setup Gitlab ///////////
 
@@ -277,3 +296,5 @@ Make a RUNME and a README.
 [^Vee3]: Vee, *Coding Literacy*.
 
 [^Kelty]: This point largely derives from Christopher Kelty's *Two Bits: the Cultural Significance of Free Software* (Durham: Duke University Press, 2008), who uses the phrase "running code" to describe the relationship between "argument-by-technology and argument-by-talk" (58). Clearly programmers are able to make arguments like other rhetorical forms, see Kevin Brock, *Rhetorical Code Studies: Discovering Arguments in and around Code* (Ann Arbor, Michigan: University of Michigan Press, 2019).
+
+[^readme]: The readme file is structured in a markdown format with the file extension as '.md'. It is a lightweight markup language supporting simple text formatting with special syntax. Files with this extension can be processed by GitLab and display in a more readable form visually. For more about the syntax of writing the Markdown, see: https://docs.gitlab.com/ee/user/markdown.html. 
