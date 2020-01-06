@@ -325,6 +325,7 @@ Artist David Link has since reconstructed a functional replica of both the hardw
 - [Generative Design - sketches](http://www.generative-gestaltung.de/2/), [soure code](https://github.com/generative-design/Code-Package-p5.js)
 - [GenArt (with source code)](https://github.com/JosephFiola/GenArt) by JosephFiola, see ch.1-4
 - [Open Processing with the search keyword 'generative'](https://www.openprocessing.org/browse/?q=generative&time=anytime&type=all#)
+- [Generative Artistry by Ruth John and Tim Holman ](https://generativeartistry.com/tutorials/)
 - [John Conway's Game of Life](http://web.stanford.edu/~cdebs/GameOfLife/)
 - [The recode project](http://recodeproject.com/) or https://web.archive.org/web/20181227225001/http://www.recodeproject.com/
 - [WUOUS by Anders Visti and Tobias Stenberg](https://andersvisti.dk/work/wuos-2019) (with an implementation of the Langton's Ant)
