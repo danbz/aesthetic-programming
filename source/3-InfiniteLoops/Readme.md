@@ -230,6 +230,7 @@ function setup(){
 function draw(){
      currentMillis = floor(millis() - milliStart);  //millis means millseconds since starting the program, like frameCount
      if(currentMillis > timer){
+       push();
        translate(xPos[xCtr], yPos[yCtr]);  //rows and cols
        rotate(radians((360/8)* (millis()/speed)));  //rotate in itself
        timer = currentMillis + speed; //the time for the next loop
