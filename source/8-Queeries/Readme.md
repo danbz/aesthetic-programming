@@ -1,11 +1,17 @@
 Title: 8. Que(e)ries
 page_order: 8
 
-## Executing Que(e)ries
-[g: just thinking we need to words, any recommendation with the chapter title? /w]
+## Que(e)ry Data
+[g: just thinking we need two words, any recommendation with the chapter title? /w]
 
 ## setup() 
-- the link to data capture , current big data processing
+Following Chapter 4 on Data Capture, we have already explored some of the processes of how a program captures input data, especially data that is connected to physical devices. This chapter is an expansion of data processing with data that is hosted on platforms and in sheer amount in terms of quantity. 
+
+In contemporary culture many applications offer data streams or feeds with infinite stored data sets where their database undergo a never-ending update of records. Databases have a significant impact on contemporary conditions and it is through the storage and analysis of massive amounts of data (so-called 'Big Data') that profiling, targeted marketing, personalised recommendations and various sorts of predictions and e-commerce become accelerated. According to Chun, user habits formulate big data businesses, and she explains, 'Through habits users become their machines: they stream, update, capture, upload, share, grind, link, verify, map, save, trash and troll' (^chun). Browsing, Googling, logging, messaging and Tweeting, for instance, become our habits and they are storable, tracable and analysable in the form of data that is kept in databases. But databases do not only enable the storage of data but also the organisation of data and the retrieval of information. 
+
+Specifically, this chapter explores que(e)ry data in which data can be acquired through the real-time query of an Application Programming Interface (API) that allows data to be selected, organized and retrieved in relations. 
+
+
 - the brief development of why APIs is at stake
 - what's making queries? 
 - queer queries? 
