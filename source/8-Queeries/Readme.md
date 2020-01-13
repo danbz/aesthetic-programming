@@ -1,6 +1,15 @@
 Title: 8. Que(e)ries
 page_order: 8
 
+## Executing Que(e)ries
+[g: just thinking we need to words, any recommendation with the chapter title? /w]
+
+## setup() 
+- the link to data capture , current big data processing
+- the brief development of why APIs is at stake
+- what's making queries? 
+- queer queries? 
+- 
 - politics of API
 - appropriation and copyright
 - queer queries (the code and image keyword could be 'queer')
@@ -9,3 +18,78 @@ page_order: 8
 
 - reference:
 Sollfrank PhD thesis 
+
+## start()
+
+NET ART GENERATOR by Cornelia Sollfrank, ver5b updated by Winnie Soon
+![nag1](ch8_1.png)
+
+How it works?
+
+What's a query 
+
+The values of APIs 
+
+## Image processing: Fetching, Loading and Display
+
+sample code picture 
+
+## Source Code 
+
+## Accessing Web APIs (Step by Step) 
+
+## Different types of errors 
+
+## Exercise in class
+
+## Source code 
+
+## While()
+
+## Mini_Exercise[8]: Working with APIs in a group
+
+**Objectives:**
+- To design and implement a program that utilizes web API(s).
+- To learn to code and conceptualize a program collaboratively.
+- To reflect upon the processes of data parsing via API, paying attention to registration, availability/selection/manipulation of data
+
+**Get some additional inspiration here with different APIs source code:**
+- [Open Weather with code example](https://www.youtube.com/watch?v=ecT42O6I_WI)
+- [Other weather API by apix with code example](https://p5js.org/examples/hello-p5-weather.html)
+- [New York times with code example](https://www.youtube.com/watch?v=IMne3LY4bks&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=9)
+- [Giphy images with code example](https://www.youtube.com/watch?v=mj8_w11MvH8&index=10&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
+- [Wikipedia API](https://www.youtube.com/watch?v=RPz75gcHj18)
+- [Twitter API and Twitter Bot with code example](http://shiffman.net/a2z/twitter-bots/) ** As far as I know Twitter has tighten the rules a lot and you need to have a solid proposal in order to get API's keys and it will take weeks to do it.
+- [Movie API with code example](https://itp.nyu.edu/classes/cc-s16/movie-api-data/)
+- [Global statistic API with code example](https://itp.nyu.edu/classes/cc-s16/inqubu-global-statistics-api/)
+- [Google map API](https://developers.google.com/maps/documentation/javascript/)
+- [Search many other kinds of API](https://www.programmableweb.com/)
+
+**for those APIs require OAuth protocol, you might need [Node.js](https://nodejs.org/en/). See what is Node [here](https://www.youtube.com/watch?v=RF5_MPSNAtU&index=1&list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV) for 15.1 and 15.2**
+
+**Tasks (RUNME):**
+This is a relatively complex exercise that requires you to
+  - Design a program that utilizes at least one web API (think about what you want to say conceptually), including:
+    - Finding available web APIs and the data that you want to explore 
+    - Understand what are the available data: the data file format and the API's specification
+    - Decide which data fields you want to choose to explore and experiment
+    - Utilize the web API and the corresponding data in your suggested program
+    - Please reserve more time if you are getting data from other unfamiliar platforms, as the registration process can take a long time to do so.
+
+**Questions to think about as README:**
+- What is the program about? which API have you used and why?
+- Can you describe and reflect on your process of making this mini exercise in terms of acquiring, processing, using and representing data? How much do you understand this provided data or what do you want to know more? How do platform providers sort the data and give you the selected data? What are the power-relationship in the chosen APIs? What's the significance of APIs in digital culture?
+- Try to formulate a question in relation to web APIs or querying/parsing processes that you want to investigate further if you have more time.  
+
+## Required reading:
+- Snodgrass, Eric, & Winnie Soon. "[API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange](https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721)." *First Monday* [Online], 24.2 (2019): n. pag. Web. 13 Jan. 2020 
+- Daniel Shiffman, Working with data, The Coding Train, available at https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r (watch 10.4-10.10)
+
+## Further reading:
+- Kirschenbaum, Matthew G. Mechanisms: New Media and the Forensic Imagination, MIT Press, 2007, 25-71.
+Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City APIs as Elements of Infrastructures.](https://journals.sagepub.com/doi/full/10.1177/2053951719827619)” Big Data & Society, Jan. 2019, doi:10.1177/2053951719827619.
+- Albright, Jonathan. "[The Graph API: Key Points in the Facebook and Cambridge Analytica Debacle](https://medium.com/tow-center/the-graph-api-key-points-in-the-facebook-and-cambridge-analytica-debacle-b69fe692d747)". Medium, 2018. (check out the recent hot topic around Cambridge Analytica online)
+- Bucher, Taina, “Objects of intense feeling: The case of the Twitter API”, in Computational Culture: a journal of software studies. 2013. Web. 27 Nov. 2013. http://computationalculture.net/article/objects-of-intense-feeling-the-case-of-the-twitter-api
+
+## Notes
+
