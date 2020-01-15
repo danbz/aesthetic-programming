@@ -98,6 +98,6 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 
 ## Notes
 
-[^chun] Wendy Hui Kyong Chun, *Updating to Remain the Same: Habitual New Media*, MIT Press, 2016.
+[^chun]: Wendy Hui Kyong Chun, *Updating to Remain the Same: Habitual New Media*, MIT Press, 2016.
 
-[^api] CST, Executing uncertaines + Soon (2016) + Snordgrass + Soon (2019) 
+[^api]: CST, Executing uncertaines + Soon (2016) + Snordgrass + Soon (2019) (to be formatted)
