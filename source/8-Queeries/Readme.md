@@ -150,12 +150,10 @@ https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={s
 - Under queries > request > 0 which shows how many results are found on Google image search, what search terms have been processed and how many data are returned. In the sample code, we only start with the top 10 search, but you can configure the field 'startIndex' to get the last 10 images out of 10 million. 
 - Under items are specific image data returned in the form of an array. The array index 0 (i.e item[0]) shows the detailed information of the search result, such as the title, the link and the snippet of page content
 
+## Exercise in class
 
 ## Different types of errors 
 
-## Exercise in class
-
-## Source code 
 
 ## While()
 
