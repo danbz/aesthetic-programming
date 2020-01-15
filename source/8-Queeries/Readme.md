@@ -23,16 +23,126 @@ Go to net.art generator (https://nag.iap.de/) and explore the creation of genera
 
 ## Image processing: Fetching, Loading and Display
 
-In the following sample code which is a snippet of nag especially focuses on the logic of request and response. Requested data will pass via a Web API data and then Google will return the corresponding data. As this sample code is focusd on image, we will also demonstrate how to process and display image and pixel data on a screen. Here are the key syntaxes: 
+In the following sample code which is a snippet of nag on the logic of request and response. Requested data will pass via a Web API data and then Google will return the corresponding data. As this sample code is focused on image, we will also demonstrate how to process and display image and pixel data on a screen in a similar way when compare with nag. This is just the first step to get on with the que(e)y data and the possibiliy of using the data is unlimited. Here are the key syntaxes: 
 
 * `loadJSON()`: use the GOOGLE API to fetch search images with a specific keyword. This is a call back function as it takes time to fetch the file and need to further process after receive the response from Google.
 * `loadImage()` and `image()` are used to display images.
 * `loadPixels()`: If you want to manipulate or analyze the data within an image, this is the function that can extract and manipulate information of each image pixel, loading the pixel data into the pixels[] array[^pixel].
-* line() is used in the sample code to visualize the particular color that is extracted from the image's pixel.
+* `line()` is used in the sample code to visualize the particular color that is extracted from the image's pixel.
 
 ## Source Code 
 
+```javascript 
+var url = "https://www.googleapis.com/customsearch/v1?";
+var apikey = //"INPUT YOUR OWN KEY";  //register API key here: https://developers.google.com/custom-search/json-api/v1/overview
+var engineID = // "INPUT YOUR OWN"; //https://cse.google.com/all  
+var query = "warhol+flowers";  //search keywords
+var imgSize ="small"; //small, check here: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
+var request; //full API
+
+var img;
+var getImg;
+var loc;
+var img_x, img_y;
+var cv;
+
+function setup() {
+	cv = createCanvas(500,350);
+	centerCanvas();
+	background(200,200);
+	frameRate(10);
+	fetchImage();
+}
+
+function centerCanvas() {
+    let x = (windowWidth - width) / 2;
+    let y = (windowHeight - height) / 2;
+    cv.position(x, y);
+}
+function gotData(data) {   //a callback needs an argument
+	getImg = data.items[0].pagemap.cse_thumbnail[0].src;  // this is the thumbnail
+	console.log(getImg);
+}
+
+function draw() {
+	try {	//takes time to load the external image, that's why you see errors in the console.log
+		loadImage(getImg, function(img) {
+		push();
+		translate(width/2-img.width/2, 0);
+		image(img,0,0);
+		 //try to uncomment this block if you manage to get the image.
+
+		img.loadPixels();
+		img_x = floor(random(0,img.width));
+		img_y = floor(random(0,img.height));
+		loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values - 4) can see more here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
+		stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
+		line(img_x,0,img_x,height);
+
+		pop();
+		});
+	}catch(error) {
+  		console.error(error);
+	}
+}
+
+function fetchImage() {
+	request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&q=" + query;
+	console.log(request);
+	loadJSON(request, gotData); //this is the key syntax and line of code to make a query request and get a query response
+
+}
+```
+
 ## Accessing Web APIs (Step by Step) 
+![samplecode](ch8_2.gif)
+*Figure 8.2: The sample code with Wahol+flowers*
+
+The above sample code is about getting a static image from Google image search API (via parsing JSON), and then displaying it on a screen. You need to first get the key ID and Engine ID from Google by providing necessary information, then the program can run and fetch a networked image on the fly. This requires you to:
+
+* Understand the Google image search API workflow
+* Understand the API specification with what data and parameters are available
+* Understand the returned JSON file format from Google image search API
+* Able to register and use the API key and search engine ID from Google with the configuration and settings at the search console
+* This is more advanced that relates to the post-production of image, and what you want to do with the data that you got.
+
+1. Step 1: Create a p5 sketch, then copy and paste the source code to your code editor. (Don't forget the html file and the p5 library)
+2. Step 2: Replace the API key with your own on the line: `var apikey = "INPUT YOUR OWN KEY";`. 
+![google1](ch8_3.png)
+*Figure 8.3: Google Custom Search Interface*
+    - Register a Google account if you don't have one 
+    - Login your account 
+    - Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and go to the section API key
+    - Click the blue botton "Get A Key", then create a new project by entering your project name e.g "nag-test" and press enter key.
+    - The API key should be returned to you on the screen, and you just need to copy and paste the key and put in your code.
+3. Step 3: Replace the Search engine ID (cx) with your own on the line: `var engineID = "INPUT YOUR OWN";`.
+    - Go to [Cusom Search Engine](https://cse.google.com/all)[^google2]
+    - Click the 'Add' button in adding a search engine 
+    - then you can limit your search area but if you want to search in entire Google search, just simply type "http://www.google.com"
+    - Enter a name of your search engine e.g "nag-test"
+    - By clicking the blue create button, you agree with the Terms of Service that is offered by Google and know your rights.
+    - Go to Control Panel to modify the setting of the search engine
+    - Copy and paste the Search engine ID and put in your code.  
+4. Step 4: Configuration in the control panel
+    - Make sure the "Image search" is ON with the blue color 
+    - Make sure the "Search the entire web" is ON with the blue color
+
+The basic configuration should be done and you can try to run the program and see if any image display on the screen (turn your browser console on to observe if there might be any error messages)
+
+## Que(e)rying data
+Although you have set the key and id, there are still things that you need to understand if you want to read the data on your own or try to work on other web APIs to get the data that you want. 
+
+![google2](ch8_4.png)
+*Figure 4: Data structure in the web API* 
+
+- Check the web console and look for a URL that starts with https and ends with warhol+flowers (something like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=small&q=warhol+flowers). Just simply click it and you will see how data is being structured in the JSON file format.
+- Under url > template, the link demonstrates what are the possible parameters that you can set to filter the data 
+```
+https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json
+```
+- Under queries > request > 0 which shows how many results are found on Google image search, what search terms have been processed and how many data are returned. In the sample code, we only start with the top 10 search, but you can configure the field 'startIndex' to get the last 10 images out of 10 million. 
+- Under items are specific image data returned in the form of an array. The array index 0 (i.e item[0]) shows the detailed information of the search result, such as the title, the link and the snippet of page content
+
 
 ## Different types of errors 
 
@@ -109,3 +219,7 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 [^nag]: There are five different versions of nag that have been realised by seven programmers working at different stages of the project. In 2003, the version 5 has started to use images from Google search but it was broken in 2015. The current version 5b was updated in 2017 and this is the version that has officially utilized Google Image Search API according to the specification. See http://net.art-generator.com/.
 
 [^pixel]: See the reference guide of `loadPixels()`, https://p5js.org/reference/#/p5/loadPixels.
+
+[^google1]: See https://developers.google.com/custom-search/v1/overview. 
+
+[^google2]: See https://cse.google.com/all.
