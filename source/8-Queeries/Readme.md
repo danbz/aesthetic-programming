@@ -48,7 +48,7 @@ var img_x, img_y;
 var cv;
 
 function setup() {
-	cv = createCanvas(500,350);
+	cv = createCanvas(500,450);
 	centerCanvas();
 	background(200,200);
 	frameRate(10);
