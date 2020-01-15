@@ -19,7 +19,7 @@ net.art generator (nag)[^nag] is first conceptualized by artist Cornelia Sollfra
 *Figure 8.1: The web interface of net.art generator with the title 'queeries'*
 
 ## Exercise in class
-Go to net.art generator (https://nag.iap.de/) and explore the creation of generative images and the previously generated images. Try to base on the interface to map out the relationship between user input of title and the corresonding image out, what are the processes in between the input and output? 
+Go to net.art generator (https://nag.iap.de/) and explore the creation of generative images and the previously generated images. Try to base on the interface and map out the relationship between user input (e.g title) and the corresonding generated output, what are the processes in between the input and output? How images are being composited and generated? 
 
 ## Image processing: Fetching, Loading and Display
 
