@@ -2,7 +2,7 @@ Title: 8. Que(e)ries
 page_order: 8
 
 ## Que(e)ry Data
-[g: how you think about the title? /w]
+[g: how do you think about the title? /w]
 
 ## setup() 
 Following Chapter 4 on Data Capture, we have already explored some of the processes of how a program captures input data, especially data that is connected to physical devices. This chapter is an expansion of data processing with data that is hosted on platforms and in sheer amount in terms of quantity, extending the focus from data 'capture' to data 'accessibility' questioning power relations on data ownership and transparency.
@@ -23,7 +23,12 @@ Go to net.art generator (https://nag.iap.de/) and explore the creation of genera
 
 ## Image processing: Fetching, Loading and Display
 
-sample code picture 
+In the following sample code which is a snippet of nag especially focuses on the logic of request and response. Requested data will pass via a Web API data and then Google will return the corresponding data. As this sample code is focusd on image, we will also demonstrate how to process and display image and pixel data on a screen. Here are the key syntaxes: 
+
+* `loadJSON()`: use the GOOGLE API to fetch search images with a specific keyword. This is a call back function as it takes time to fetch the file and need to further process after receive the response from Google.
+* `loadImage()` and `image()` are used to display images.
+* `loadPixels()`: If you want to manipulate or analyze the data within an image, this is the function that can extract and manipulate information of each image pixel, loading the pixel data into the pixels[] array[^pixel].
+* line() is used in the sample code to visualize the particular color that is extracted from the image's pixel.
 
 ## Source Code 
 
@@ -102,3 +107,5 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 [^api]: CST, Executing uncertaines + Soon (2016) + Snordgrass + Soon (2019) (to be formatted)
 
 [^nag]: There are five different versions of nag that have been realised by seven programmers working at different stages of the project. In 2003, the version 5 has started to use images from Google search but it was broken in 2015. The current version 5b was updated in 2017 and this is the version that has officially utilized Google Image Search API according to the specification. See http://net.art-generator.com/.
+
+[^pixel]: See the reference guide of `loadPixels()`, https://p5js.org/reference/#/p5/loadPixels.
