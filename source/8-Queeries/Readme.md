@@ -97,6 +97,7 @@ function draw() {
 
 ## Accessing Web APIs (Step by Step) 
 ![samplecode](ch8_2.gif)
+
 *Figure 8.2: The sample code with Wahol+flowers*
 
 The above sample code is about getting a static image from Google image search API (via parsing JSON), and then displaying it on a screen. You need to first get the key ID and Engine ID from Google by providing necessary information, then the program can run and fetch a networked image on the fly. This requires you to:
@@ -110,6 +111,7 @@ The above sample code is about getting a static image from Google image search A
 1. Step 1: Create a p5 sketch, then copy and paste the source code to your code editor. (Don't forget the html file and the p5 library)
 2. Step 2: Replace the API key with your own on the line: `var apikey = "INPUT YOUR OWN KEY";`. 
 ![google1](ch8_3.png)
+
 *Figure 8.3: Google Custom Search Interface*
     - Register a Google account if you don't have one 
     - Login your account 
@@ -134,6 +136,7 @@ The basic configuration should be done and you can try to run the program and se
 Although you have set the key and id, there are still things that you need to understand if you want to read the data on your own or try to work on other web APIs to get the data that you want. 
 
 ![google2](ch8_4.png)
+
 *Figure 4: Data structure in the web API* 
 
 - Check the web console and look for a URL that starts with https and ends with warhol+flowers (something like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=small&q=warhol+flowers). Just simply click it and you will see how data is being structured in the JSON file format.
