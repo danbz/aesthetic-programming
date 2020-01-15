@@ -9,18 +9,17 @@ Following Chapter 4 on Data Capture, we have already explored some of the proces
 
 In contemporary culture many user behavioral and user-generated content are algorithmically manifested as data streams or feeds for other people. Beyond social media, search engine is an important application to aggregate content and algorithmically returns search results accordingly to keywords search. Infinite data are stored in databases undergo a never-ending update of records. Databases have a significant impact on computational culture and it is through the storage and analysis of massive amounts of captured data (so-called 'Big Data') in which profiling, targeted marketing, personalised recommendations and various sorts of predictions and e-commerce on platforms become accelerated and perpetuated. According to Chun, user habits formulate big data businesses, and she explains, 'Through habits users become their machines: they stream, update, capture, upload, share, grind, link, verify, map, save, trash and troll' [^chun]. Browsing, searching, posting, for instance, become our habits and they are transformed from actions to data that is storable, tracable and analysable. But these databases do not only enable the storage of data but also the organisation of data and the retrieval of information over networked conditions. 
 
-This chapter focuses on query data, in which some data can be acquired through the real-time query of an Application Programming Interface (API). Querying data, in the form a two-way communication process, is about data selection, extraction and presentation through "the logic of request and response" [^api] and in the format of structured data file like JSON as we have covered in the last chapter. There are many ways of doing it but we will, in this chapter, introduce an example of a search engine to walk through the whole process of que(e)rying data, raising some critical questions particularly in regards to the parameters of openness and accessibility that structure knowledge sharing and production. 
+This chapter focuses on query data, in which some data can be acquired through the real-time query of an Application Programming Interface (API). Querying data, in the form a two-way communication process, is about data selection, extraction and presentation through "the logic of request and response" [^api] and in the format of structured data file like JSON as we have covered in the last chapter. There are many ways of doing it but we will, in this chapter, introduce the artwork NET ART GENERATOR that utilizes Google image search API to generate net art images, which will serve as an example to demonstrate the whole process of que(e)rying data, raising some critical questions particularly in regards to the parameters of openness and accessibility that structure knowledge sharing and production. 
 
 ## start()
+net.art generator (nag) is first conceptualized by artist Cornelia Sollfrank in 1997 and the latest version 5b is updated by Winnie Soon, which is an application runs on a web browser to create images. Back then, the initial idea was to make an intervention to the net art competition by *generating* more than 200 submission entres by international female artists. The program that generates such entries was called Female Extension, which took into the consideration of internet as material and object (that is not traditional art form turning into digital format) and made as an activist response to the art scenes and competitions in which women are always underrepresented. Female Extension was later developed into nag as a web application and a functional tool for generating images on the fly that are based on data that are readily available, questioning notions of authorship, copyright and power structures by means of automated machine generation. The latest version of nag generates images by combining the data that is sent from Google via the web search API. Howver, this is a project made with 100 free limits of API requests and that means users will experience a customized error page and images cannot be retrieved when the program exceeds the image request limit. Although the project shifts the narrative from politics of identity to politics of technology, it still continouously questioning who gets visible in, and how to get access to, the system. 
 
-NET ART GENERATOR by Cornelia Sollfrank, ver5b updated by Winnie Soon
+
 ![nag1](ch8_1.png)
+*Figure 8.1: The web interface of net.art generator with the title 'queeries'
 
-How it works?
-
-What's a query 
-
-The values of APIs 
+## Exercise in class
+Go to net.art generator (https://nag.iap.de/) and explore the creation of generative images and the previously generated images. Try to base on the interface to map out the relationship between user input of title and the corresonding image out, what are the processes in between the input and output? 
 
 ## Image processing: Fetching, Loading and Display
 
