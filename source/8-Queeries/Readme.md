@@ -37,7 +37,7 @@ var url = "https://www.googleapis.com/customsearch/v1?";
 var apikey = "INPUT YOUR OWN KEY";  //register API key here: https://developers.google.com/custom-search/json-api/v1/overview
 var engineID = "INPUT YOUR OWN"; //https://cse.google.com/all  | create search engine, then get the searchengine ID - make sure image is on
 var query = "warhol+flowers";  //search keywords
-var searchType = 'image';
+var searchType = "image";
 var imgSize ="medium"; //check here: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
 var request; //full API
 
