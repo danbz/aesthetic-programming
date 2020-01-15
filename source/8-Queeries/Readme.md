@@ -109,26 +109,29 @@ The above sample code is about getting a static image from Google image search A
 * This is more advanced that relates to the post-production of image, and what you want to do with the data that you got.
 
 1. Step 1: Create a p5 sketch, then copy and paste the source code to your code editor. (Don't forget the html file and the p5 library)
+
 2. Step 2: Replace the API key with your own on the line: `var apikey = "INPUT YOUR OWN KEY";`. 
 ![google1](ch8_3.png)
 
 *Figure 8.3: Google Custom Search Interface*
-    - Register a Google account if you don't have one 
-    - Login your account 
-    - Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and go to the section API key
-    - Click the blue botton "Get A Key", then create a new project by entering your project name e.g "nag-test" and press enter key.
-    - The API key should be returned to you on the screen, and you just need to copy and paste the key and put in your code.
+    
+- Register a Google account if you don't have one 
+- Login your account 
+- Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and go to the section API key
+- Click the blue botton "Get A Key", then create a new project by entering your project name e.g "nag-test" and press enter key.
+- The API key should be returned to you on the screen, and you just need to copy and paste the key and put in your code.
+    
 3. Step 3: Replace the Search engine ID (cx) with your own on the line: `var engineID = "INPUT YOUR OWN";`.
-    - Go to [Cusom Search Engine](https://cse.google.com/all)[^google2]
-    - Click the 'Add' button in adding a search engine 
-    - then you can limit your search area but if you want to search in entire Google search, just simply type "http://www.google.com"
-    - Enter a name of your search engine e.g "nag-test"
-    - By clicking the blue create button, you agree with the Terms of Service that is offered by Google and know your rights.
-    - Go to Control Panel to modify the setting of the search engine
-    - Copy and paste the Search engine ID and put in your code.  
+- Go to [Cusom Search Engine](https://cse.google.com/all)[^google2]
+- Click the 'Add' button in adding a search engine 
+- then you can limit your search area but if you want to search in entire Google search, just simply type "http://www.google.com"
+- Enter a name of your search engine e.g "nag-test"
+- By clicking the blue create button, you agree with the Terms of Service that is offered by Google and know your rights.
+- Go to Control Panel to modify the setting of the search engine
+- Copy and paste the Search engine ID and put in your code.  
 4. Step 4: Configuration in the control panel
-    - Make sure the "Image search" is ON with the blue color 
-    - Make sure the "Search the entire web" is ON with the blue color
+- Make sure the "Image search" is ON with the blue color 
+- Make sure the "Search the entire web" is ON with the blue color
 
 The basic configuration should be done and you can try to run the program and see if any image display on the screen (turn your browser console on to observe if there might be any error messages)
 
