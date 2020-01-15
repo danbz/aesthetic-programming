@@ -5,26 +5,11 @@ page_order: 8
 [g: just thinking we need two words, any recommendation with the chapter title? /w]
 
 ## setup() 
-Following Chapter 4 on Data Capture, we have already explored some of the processes of how a program captures input data, especially data that is connected to physical devices. This chapter is an expansion of data processing with data that is hosted on platforms and in sheer amount in terms of quantity. 
+Following Chapter 4 on Data Capture, we have already explored some of the processes of how a program captures input data, especially data that is connected to physical devices. This chapter is an expansion of data processing with data that is hosted on platforms and in sheer amount in terms of quantity, extending the focus from data 'capture' to data 'accessibility' questioning power relations on data ownership and transparency.
 
-In contemporary culture many applications offer data streams or feeds with infinite stored data sets where their database undergo a never-ending update of records. Databases have a significant impact on contemporary conditions and it is through the storage and analysis of massive amounts of data (so-called 'Big Data') that profiling, targeted marketing, personalised recommendations and various sorts of predictions and e-commerce become accelerated. According to Chun, user habits formulate big data businesses, and she explains, 'Through habits users become their machines: they stream, update, capture, upload, share, grind, link, verify, map, save, trash and troll' (^chun). Browsing, Googling, logging, messaging and Tweeting, for instance, become our habits and they are storable, tracable and analysable in the form of data that is kept in centralized databases. But these databases do not only enable the storage of data but also the organisation of data and the retrieval of information over networked conditions. 
+In contemporary culture many user behavioral and user-generated content are algorithmically manifested as data streams or feeds for other people. Beyond social media, search engine is an important application to aggregate content and algorithmically returns search results accordingly to keywords search. Infinite data are stored in databases undergo a never-ending update of records. Databases have a significant impact on computational culture and it is through the storage and analysis of massive amounts of captured data (so-called 'Big Data') in which profiling, targeted marketing, personalised recommendations and various sorts of predictions and e-commerce on platforms become accelerated and perpetuated. According to Chun, user habits formulate big data businesses, and she explains, 'Through habits users become their machines: they stream, update, capture, upload, share, grind, link, verify, map, save, trash and troll' [^chun]. Browsing, searching, posting, for instance, become our habits and they are transformed from actions to data that is storable, tracable and analysable. But these databases do not only enable the storage of data but also the organisation of data and the retrieval of information over networked conditions. 
 
-Specifically, this chapter explores que(e)ry data in which data can be acquired through the real-time query of an Application Programming Interface (API) that allows data to be selected, organized and retrieved in relations. 
-
-/*A query is technically understood as a two-way communication process, both a request and a response. This is what an API does in relation to querying data, including selecting, extracting and presenting data through the logic of request and response. In relation to Web APIs, a query is executed through the hypertext transfer protocol (HTTP), the foundation of the World Wide Web for facilitating forms of exchange. Such facilitations on the part of APIs might involve the sharing and making available of information for various productive purposes, what has become one of the most common and impactful uses of APIs within the so-called big data economies of the present. Information sharing of this kind helps in the facilitating of the generative “remixability” of data that one sees today, as well as providing a key support layer for the kind of data “flows” that can occur within and across the different platform environments of the present (O’Reilly, 2005; Helmond, 2015).*/
-
-- the brief development of why APIs is at stake
-- what's making queries? 
-- queer queries? 
-- 
-- politics of API
-- appropriation and copyright
-- queer queries (the code and image keyword could be 'queer')
-- terms and conditions -> regulation
-- operators -> selection, ranking, relevance, curation
-
-- reference:
-Sollfrank PhD thesis 
+This chapter focuses on query data, in which some data can be acquired through the real-time query of an Application Programming Interface (API). Querying data, in the form a two-way communication process, is about data selection, extraction and presentation through "the logic of request and response" [^api] and in the format of structured data file like JSON as we have covered in the last chapter. There are many ways of doing it but we will, in this chapter, introduce an example of a search engine to walk through the whole process of que(e)rying data, raising some critical questions particularly in regards to the parameters of openness and accessibility that structure knowledge sharing and production. 
 
 ## start()
 
@@ -52,6 +37,19 @@ sample code picture
 ## Source code 
 
 ## While()
+
+- the brief development of why APIs is at stake
+- what's making queries? 
+- queer queries? 
+- 
+- politics of API
+- appropriation and copyright
+- queer queries (the code and image keyword could be 'queer')
+- terms and conditions -> regulation
+- operators -> selection, ranking, relevance, curation
+
+- reference:
+Sollfrank PhD thesis 
 
 ## Mini_Exercise[8]: Working with APIs in a group
 
@@ -99,4 +97,5 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 - Bucher, Taina, “Objects of intense feeling: The case of the Twitter API”, in Computational Culture: a journal of software studies. 2013. Web. 27 Nov. 2013. http://computationalculture.net/article/objects-of-intense-feeling-the-case-of-the-twitter-api
 
 ## Notes
-
+[^chun] Wendy Hui Kyong Chun, *Updating to Remain the Same: Habitual New Media*, MIT Press, 2016.
+[^api] CST, Executing uncertaines + Soon (2016) + Snordgrass + Soon (2019) 
