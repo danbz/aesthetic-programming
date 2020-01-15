@@ -2,7 +2,7 @@ Title: 8. Que(e)ries
 page_order: 8
 
 ## Que(e)ry Data
-[g: just thinking we need two words, any recommendation with the chapter title? /w]
+[g: how you think about the title? /w]
 
 ## setup() 
 Following Chapter 4 on Data Capture, we have already explored some of the processes of how a program captures input data, especially data that is connected to physical devices. This chapter is an expansion of data processing with data that is hosted on platforms and in sheer amount in terms of quantity, extending the focus from data 'capture' to data 'accessibility' questioning power relations on data ownership and transparency.
