@@ -97,5 +97,7 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 - Bucher, Taina, “Objects of intense feeling: The case of the Twitter API”, in Computational Culture: a journal of software studies. 2013. Web. 27 Nov. 2013. http://computationalculture.net/article/objects-of-intense-feeling-the-case-of-the-twitter-api
 
 ## Notes
+
 [^chun] Wendy Hui Kyong Chun, *Updating to Remain the Same: Habitual New Media*, MIT Press, 2016.
+
 [^api] CST, Executing uncertaines + Soon (2016) + Snordgrass + Soon (2019) 
