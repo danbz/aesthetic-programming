@@ -34,10 +34,11 @@ In the following sample code which is a snippet of nag on the logic of request a
 
 ```javascript 
 var url = "https://www.googleapis.com/customsearch/v1?";
-var apikey = //"INPUT YOUR OWN KEY";  //register API key here: https://developers.google.com/custom-search/json-api/v1/overview
-var engineID = // "INPUT YOUR OWN"; //https://cse.google.com/all  
+var apikey = "INPUT YOUR OWN KEY";  //register API key here: https://developers.google.com/custom-search/json-api/v1/overview
+var engineID = "INPUT YOUR OWN"; //https://cse.google.com/all  | create search engine, then get the searchengine ID - make sure image is on
 var query = "warhol+flowers";  //search keywords
-var imgSize ="small"; //small, check here: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
+var searchType = 'image';
+var imgSize ="medium"; //check here: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
 var request; //full API
 
 var img;
@@ -55,23 +56,29 @@ function setup() {
 }
 
 function centerCanvas() {
-    let x = (windowWidth - width) / 2;
-    let y = (windowHeight - height) / 2;
-    cv.position(x, y);
+	let x = (windowWidth - width) / 2;
+  let y = (windowHeight - height) / 2;
+  cv.position(x, y);
 }
-function gotData(data) {   //a callback needs an argument
-	getImg = data.items[0].pagemap.cse_thumbnail[0].src;  // this is the thumbnail
+
+function fetchImage() {
+	request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&q=" + query + "&searchType=" + searchType;
+	console.log(request);
+	loadJSON(request, gotData); //this is the key syntax and line of code to make a query request and get a query response
+}
+
+function gotData(data) {   
+	getImg = data.items[0].link;  
 	console.log(getImg);
 }
 
 function draw() {
-	try {	//takes time to load the external image, that's why you see errors in the console.log
-		loadImage(getImg, function(img) {
+  try {	//takes time to load the external image, that's why you see errors in the console.log
+ 		loadImage(getImg, function(img) {
 		push();
 		translate(width/2-img.width/2, 0);
 		image(img,0,0);
 		 //try to uncomment this block if you manage to get the image.
-
 		img.loadPixels();
 		img_x = floor(random(0,img.width));
 		img_y = floor(random(0,img.height));
@@ -80,18 +87,12 @@ function draw() {
 		line(img_x,0,img_x,height);
 
 		pop();
-		});
-	}catch(error) {
-  		console.error(error);
-	}
+  });
+ }catch(error) {
+    console.error(error);
+ }
 }
 
-function fetchImage() {
-	request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&q=" + query;
-	console.log(request);
-	loadJSON(request, gotData); //this is the key syntax and line of code to make a query request and get a query response
-
-}
 ```
 
 ## Accessing Web APIs (Step by Step) 
