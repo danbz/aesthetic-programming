@@ -202,9 +202,9 @@ Up to here the colored line visualization is an additional element in this chapt
 
 ## Different types of errors 
 
-At this stage, you have better programming skills and your program will be more complex. It is important to understand, identify and locate errors so that one the one hand you can build a workable sketch, but on the other hand, it allows us to experience how a program works at a very logical and accurate manner. 
+At this stage, you have better programming skills and your program will be more complex. It is important to understand, identify and locate errors so that on the one hand you can build a workable sketch, but on the other hand, it allows us to experience how a program works at a very logical, computational and accurate manner. 
 
-When you are debugging your sketch, is the error come from your own code, or errors from parsing the data while it is running, or errors from other third party like Google? Are they minor errors or critical errors (that stop your program from running)? Are they belong to syntactic, runtime or logical errors? (see below) For example, if you encounter error 403 in your console, this likely means that Google has barred your API as the requests exceed the 100 times limit per day.
+When you are debugging your sketch, can you able to identity if the errors come from your own code, or the errors from parsing the data while it is running, or the errors from other third party like Google? Are they minor errors or critical errors (that stop your program from running)? Are they belong to syntactic, runtime or logical errors? (see below) For example, if you encounter error 403 in your console with the sample code, this likely means that Google has barred your API as the requests exceed the 100 times limit per day.
 
 In a broad sense, errors can be categorized in three types:
 
@@ -226,7 +226,7 @@ In this chapter's sample code, it uses `Try` & `Catch`[^catch] exceptions so as 
 
 C. **Logical errors**: Arguably the hardest error to locate as it deals with logics but not syntax. The code may still run perfectly but the result is not what you expected.
 
-The web console is a good place to be notified with errors. When countering errors, try to identify where errors might occur down to which block of code or which line of code. Then try to identify the error types and fix them accordingly. For real-time situation especially dealing with files or other input/output devices, Try/Catch/Finally/Throw exception would be useful to pose more control on the program. Of course in this specific example, if we have known the image URL before the program run we can then even code in the `preload()` function. However, the web API only returns the image URL in the form of a JSON file while the program is executed. No pixel information can be extracted when the program hasn't loaded the image fully. In that sense, it is necessarily to find ways to deal with this situation of both getting and then loading the image before getting the pixel's color values.   
+The web console is a good place to be notified with errors. When countering errors, try to identify where errors might occur down to which block of code or which line of code. Then try to identify the error types and fix them accordingly. For real-time situation especially dealing with files or other input/output devices, Try/Catch/Finally/Throw exception would be useful to pose more control on the program. Of course in this specific example, if we have known the image URL before the program start we can then even program the link in the `preload()` function. However, the web API only returns the image URL in the form of a JSON file while the program is executed. No pixel information can be extracted when the program hasn't loaded the image fully. In that sense, it is necessarily to find ways to deal with this situation of both getting and then loading the image before extracting the pixel's color values.   
 
 ## While()
 
