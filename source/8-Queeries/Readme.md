@@ -141,13 +141,11 @@ Although you have set the key and search engine id, there are still things that 
 
 *Figure 4: Data structure in the web API* 
 
-- Check the web console and look for a URL that starts with https and ends with warhol+flowers (something like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=small&q=warhol+flowers). Just simply click it and you will see how data is being structured in the JSON file format.
-- Under url > template, the link demonstrates what are the possible parameters that you can set to filter the data 
-```
-https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json
-```
-- Under queries > request > 0 which shows how many results are found on Google image search, what search terms have been processed and how many data are returned. In the sample code, we only start with the top 10 search, but you can configure the field 'startIndex' to get the last 10 images out of 10 million. 
-- Under items are specific image data returned in the form of an array. The array index 0 (i.e item[0]) shows the detailed information of the search result, such as the title, the link and the snippet of page content
+In the web console, look for a URL that starts with "https" and ends with "warhol+flowers" (something like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image). Just simply click it and you will see how data is being structured in the JSON file format on a web browser. Figure 4 above is something similar to what you see on your screen. There are indeed much more parameters that you can set to select more specific forms of data such as image size, image color type and image dominant color, the API that we have used in the sample code is just to demonstrate the minimal settings[^setting].
+
+Figure 4 demonstrates how one could point at a specific data among the whole JSON file. In our source code, we have `getImg = data.items[0].link;`, and the first parameter data is simply the returned object from the function `loadJSON()`. `items[0]` points at the first data object (using the array concept with the first index as 0). The dot syntax allows you to navigate to the `link` under `items[0]`. This is hirechary is specific to this API as other web APIs might structure their data and organization diffferently. 
+
+To learn more about the JSON file, you can go to queries > request > 0 which shows how many results are found on Google image search, what search terms have been processed and how many data are returned. In the sample code, we only start with the top 10 search, but you can configure the field 'startIndex' to get the last 10 images out of 110 million. Furthermore, under `items` you will find the specific image data returned in the form of an array,  such as the title and the snippet of the page content
 
 ## Exercise in class
 
@@ -233,3 +231,5 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 [^img1]: See https://p5js.org/reference/#/p5/loadImage.
 
 [^img2]: See https://p5js.org/reference/#/p5/image.
+
+[^setting]: There are other optional parameters, see https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters.
