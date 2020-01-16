@@ -56,8 +56,8 @@ function setup() {
 
 function centerCanvas() {
 	let x = (windowWidth - width) / 2;
-  let y = (windowHeight - height) / 2;
-  cv.position(x, y);
+    let y = (windowHeight - height) / 2;
+    cv.position(x, y);
 }
 
 function fetchImage() {
@@ -132,7 +132,13 @@ Therefore, the first thing now is to get the key ID and Engine ID from Google by
 - Make sure the "Image search" is ON with the blue color 
 - Make sure the "Search the entire web" is ON with the blue color
 
-The basic configuration should be done by now and you can try to run the program and see if any image display on the screen (turn your browser console on to observe if there might be any error messages)
+The basic configuration should be done by now. But before you run the program and test if any image display on the screen, you need to install a browser add-on to bypass CORS (Cross-Origin Resource Sharing). For security reasons, data is being restricted when it is requested from other domain (in this case is Google) which is different from the origin (in this case is your local server). In the industry environment, it is usually configured at the web server side setting but for our testing purpose we can simply install a browser add-on to bypass that. 
+
+5. Search for "CORS" in the browser add-on site and install it. At the time of writing this book, we have used:
+- [CORS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/)[^cors1] on Firefox  or
+- [Allow CORS](hhttps://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf)[^cors2] on Google Chrome.  
+
+After the installation of the web browser add-on, you can try to run the program and see if any image display on the screen (turn your browser console on to observe if there might be any error messages)
 
 ## Que(e)rying data
 Although you have set the key and search engine id, there are still things that you need to understand if you want to read and locate the data on your own or try to work on other web APIs to get a different set of data. 
@@ -148,9 +154,79 @@ Figure 4 demonstrates how one could point at a specific data among the whole JSO
 To learn more about the JSON file, you can go to queries > request > 0 which shows how many results are found on Google image search, what search terms have been processed and how many data are returned. In the sample code, we only start with the top 10 search, but you can configure the field 'startIndex' to get the last 10 images out of 110 million. Furthermore, under `items` you will find the specific image data returned in the form of an array,  such as the title and the snippet of the page content
 
 ## Exercise in class
+![api](ch8_5.png)
+
+*Figure 8.5: The API's logic of request and response*
+
+1. According to Figure 8.5, can you recap what has been requested and received through the web API? 
+2. Change your own query strings: The curent keywords is warhol flowers. The program won't take space between text and therefore it is written as "warhol+flowrers"
+3. Add more [different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters)[^setting], such as adding image color type. (The URL parameters are seperated by a "&" sign like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image
+4. Study the JSON file and modify the sketch to get other data such as the text by showing that into the web console. 
+5. To process the image data and to visualize the pixel's color through lines is mainly done by below snippet of code. Think about and discuss why there is an error message in the console log: TypeError: "path is undefined".
+
+```javascript
+function draw() {
+  try {	//takes time to load the external image, that's why you see errors in the console.log
+ 		loadImage(getImg, function(img) {
+		push();
+		translate(width/2-img.width/2, 0);
+		image(img,0,0);
+		 //try to uncomment this block if you manage to get the image.
+		img.loadPixels();
+		img_x = floor(random(0,img.width));
+		img_y = floor(random(0,img.height));
+		loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values - 4) 
+		stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
+		line(img_x,0,img_x,height);
+
+		pop();
+  });
+  }catch(error) {
+    console.error(error);
+ }
+}
+```
+
+## LoadPixels()
+
+For this sample sketch, only one color of the search image will be picked up and processed. This means that the program will randomly pick up any pixel from the image according to the x and y coordinates, and then the function of pixels can analyze and retrieve the color specifically the RGB color values that are further used to draw the line. `loc` is set as a variable to store the pixel information. Imagine an image is 5x5 pixels in terms of the dimension which is the total of 25. Each pixel position of an image needs to be clearly located so that a line can be drawn. The line is not randomly drawn but it draws along the y axes in which the pixel is randomly picked up, and this will lead to something like a pattern visualization of the image in the lines format as shown in Figure 8.2. But each pixel contains further information, that is the R (red), G (green), B (blue) and A (alpha) values:
+
+pixel 1: R G B A values 
+pixel 2: R G B A values 
+pixel 3: R G B A values 
+...
+
+Therefore each pixel contains 4 values, and in order to locate specifically on the selected pixel, the formula would be: `loc = (img_x+img_y * img.width)*4;`. Then the use of `img.pixels[loc]`, `img.pixels[loc+1]`, `img.pixels[loc+2]` is to locate the RGB values respectively by using the function of pixel array `pixels[]`.
+
+Up to here the colored line visualization is an additional element in this chapter beyond the web APis, which is to show how a computer processes and stores an image as a piece of data which is fundamentally different from how humans see and perceive it. It is also a way to demonstrate how an image object is being translated into numbers for computation, which may be similar to the face tracking in the chapter 4 - Data Capture in which a pixel can be clearly located in a very small scale beyond human reception. These machine ways of seeing may help to understand more contemporary applications like tracking technology and even computer vision with machine learning where images are regarded as training data set for generating similar drawing style of works. 
 
 ## Different types of errors 
 
+At this stage, you have better programming skills and your program will be more complex. It is important to understand, identify and locate errors so that one the one hand you can build a workable sketch, but on the other hand, it allows us to experience how a program works at a very logical and accurate manner. 
+
+When you are debugging your sketch, is the error come from your own code, or errors from parsing the data while it is running, or errors from other third party like Google? Are they minor errors or critical errors (that stop your program from running)? Are they belong to syntactic, runtime or logical errors? (see below) For example, if you encounter error 403 in your console, this likely means that Google has barred your API as the requests exceed the 100 times limit per day.
+
+In a broad sense, errors can be categorized in three types:
+
+A. **Syntax errors**: problems with the syntax, also known as parsing errors. This kind of errors are easier to catch and can be detected by a parser (i.e the browser in this case) e.g spelling errors or missing a closed bracket
+```
+SyntaxError: missing ) after argument list
+```
+B. **Runtime errors**: It happens during the execution of a program and it can cause a program to terminate unexpectedly if an exception is not thrown while the syntax is correct. That is why it is also called exceptions. (e.g TypeError or ReferenceError in Firefox browser)
+```
+TypeError: Cannot read property 'indexOf' of undefined
+    at e.loadImage (p5.min.js:10)
+    at draw (sketch09.js:43)
+    at e.d.redraw (p5.min.js:9)
+    at e.<anonymous> (p5.min.js:8)
+```
+Exception handling is normally used to do something (or even stop the process) when the program, or more specifically a function, cannot run normally. It has a wide range of use because the syntax of `Try & Catch`[^catch] is simply to try to do something and catch the errors if any. 
+
+In this chapter's sample code, it uses `Try` & `Catch`[^catch] exceptions so as to keep the code running in the function `draw()`. Usually a programmer possibly anticipate errors like in this case but no one knows when exactly will it occur and when will it stop. For this case, it depends on the computer and network speed to handle the API request and image loading. The use of exception handling, then, is to allow the program to "recover from errors and continue execution"[^louden]. The `catch` syntax prevents the program stops from critical errors in this case and so that the `draw()` functions can still continuously run for every frame. 
+
+C. **Logical errors**: Arguably the hardest error to locate as it deals with logics but not syntax. The code may still run perfectly but the result is not what you expected.
+
+The web console is a good place to be notified with errors. When countering errors, try to identify where errors might occur down to which block of code or which line of code. Then try to identify the error types and fix them accordingly. For real-time situation especially dealing with files or other input/output devices, Try/Catch/Finally/Throw exception would be useful to pose more control on the program. Of course in this specific example, if we have known the image URL before the program run we can then even code in the `preload()` function. However, the web API only returns the image URL in the form of a JSON file while the program is executed. No pixel information can be extracted when the program hasn't loaded the image fully. In that sense, it is necessarily to find ways to deal with this situation of both getting and then loading the image before getting the pixel's color values.   
 
 ## While()
 
@@ -233,3 +309,11 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 [^img2]: See https://p5js.org/reference/#/p5/image.
 
 [^setting]: There are other optional parameters, see https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters.
+
+[^cors2]: See hhttps://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf. 
+
+[^cors1]: See https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/.
+
+[^catch]: See https://www.w3schools.com/js/js_errors.asp.
+
+[^louden]: Louden & Lambert, 2012, pp. 432-4  (to be formatted).
