@@ -191,6 +191,7 @@ function draw() {
 ## LoadPixels()
 
 For this sample sketch, only one color of the search image will be picked up and processed. This means that the program will randomly pick up any pixel from the image according to the x and y coordinates, and then the function of pixels can analyze and retrieve the color specifically the RGB color values that are further used to draw the line. `loc` is set as a variable to store the pixel information. Imagine an image is 5x5 pixels in terms of the dimension which is the total of 25. Each pixel position of an image needs to be clearly located so that a line can be drawn. The line is not randomly drawn but it draws along the y axes in which the pixel is randomly picked up, and this will lead to something like a pattern visualization of the image in the lines format as shown in Figure 8.2. But each pixel contains further information, that is the R (red), G (green), B (blue) and A (alpha) values:
+
 |------------+---------------|
 | pixels[0]: | R G B A values|           
 | pixels[1]: | R G B A values|  
