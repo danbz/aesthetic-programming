@@ -120,7 +120,7 @@ Therefore, the first thing now is to get the key ID and Engine ID from Google by
 - Click the blue botton "Get A Key", then create a new project by entering your project name e.g "nag-test" and press the enter key.
 - You should able to see the API key and you just need to copy and paste the key and put in your sketch.
     
-3. *Step 3:* Replace the Search engine ID (cx) with your own on the line: `var engineID = "INPUT YOUR OWN";`.
+3. **Step 3:** Replace the Search engine ID (cx) with your own on the line: `var engineID = "INPUT YOUR OWN";`.
 - Go to [Cusom Search Engine](https://cse.google.com/all)[^google2]
 - Click the "Add" button in adding a search engine 
 - You can limit your search area but if you want to search in entire Google search, just simply type "http://www.google.com"
@@ -128,7 +128,7 @@ Therefore, the first thing now is to get the key ID and Engine ID from Google by
 - By clicking the blue "create" button, you agree to the Terms of Service that is offered by Google and you should know your rights.
 - Go to the Control Panel and modify the setting of the search engine
 - Copy and paste the Search engine ID and put in your sketch.  
-4. *Step 4:* Configuration in the control panel
+4. **Step 4:** Configuration in the control panel
 - Make sure the "Image search" is ON with the blue color 
 - Make sure the "Search the entire web" is ON with the blue color
 
