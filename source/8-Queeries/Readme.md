@@ -7,28 +7,27 @@ page_order: 8
 ## setup() 
 Following Chapter 4 on Data Capture, we have already explored some of the processes of how a program captures input data, especially data that is connected to physical devices. This chapter is an expansion of data processing with data that is hosted on platforms and in sheer amount in terms of quantity, extending the focus from data 'capture' to data 'accessibility' questioning power relations on data ownership and transparency.
 
-In contemporary culture many user behavioral and user-generated content are algorithmically manifested as data streams or feeds for other people. Beyond social media, search engine is an important application to aggregate content and algorithmically returns search results accordingly to keywords search. Infinite data are stored in databases undergo a never-ending update of records. Databases have a significant impact on computational culture and it is through the storage and analysis of massive amounts of captured data (so-called 'Big Data') in which profiling, targeted marketing, personalised recommendations and various sorts of predictions and e-commerce on platforms become accelerated and perpetuated. According to Chun, user habits formulate big data businesses, and she explains, 'Through habits users become their machines: they stream, update, capture, upload, share, grind, link, verify, map, save, trash and troll' [^chun]. Browsing, searching, posting, for instance, become our habits and they are transformed from actions to data that is storable, tracable and analysable. But these databases do not only enable the storage of data but also the organisation of data and the retrieval of information over networked conditions. 
+In contemporary culture many user behavioral and user-generated content are algorithmically manifested as data streams or feeds. Beyond social media, search engine is an important application to aggregate content and algorithmically returns search results accordingly to keywords search. Infinite data are stored in databases undergo a never-ending update of records. Databases have a significant impact on computational culture and it is through the storage and analysis of massive amounts of captured data (so-called 'Big Data') in which profiling, targeted marketing, personalised recommendations and various sorts of predictions and e-commerce on platforms become accelerated and perpetuated. According to Chun, user habits formulate big data businesses, and she explains, 'Through habits users become their machines: they stream, update, capture, upload, share, grind, link, verify, map, save, trash and troll' [^chun]. Browsing, searching, posting, for instance, become our habits and they are transformed from actions to data that is storable, tracable and analysable. But these databases do not only enable the storage of data but also the organisation of data and the retrieval of information over networked conditions. 
 
-This chapter focuses on query data, in which some data can be acquired through the real-time query of an Application Programming Interface (API). Querying data, in the form a two-way communication process, is about data selection, extraction and presentation through "the logic of request and response" [^api] and in the format of structured data file like JSON as we have covered in the last chapter. There are many ways of doing it but we will, in this chapter, introduce the artwork NET ART GENERATOR that utilizes Google image search API to generate net art images, which will serve as an example to demonstrate the whole process of que(e)rying data, raising some critical questions particularly in regards to the parameters of openness and accessibility that structure knowledge sharing and production. 
+This chapter focuses on query data, in which some data can be acquired through the real-time query of an Application Programming Interface (API). Querying data, in the form a two-way communication process, is about information processing with the actions of data selection, extraction, transmission and presentation through "the logic of request and response" [^api] and in the format of structured data file like JSON as we have covered in the last chapter. There are many ways of doing it but we will, in this chapter, introduce the artwork NET ART GENERATOR that utilizes Google image search API to generate net art images, which will serve as an example to demonstrate the whole process of que(e)rying data, raising some critical questions particularly in regards to the parameters of openness and accessibility that structure knowledge sharing and production. 
 
 ## start()
-net.art generator (nag)[^nag] is first conceptualized by artist Cornelia Sollfrank in 1997 and the latest version 5b is updated by Winnie Soon, which is an application runs on a web browser to create images. Back then, the initial idea was to make an intervention to the net art competition by *generating* more than 200 submission entres by international female artists. The program that generates such entries was called Female Extension, which took into the consideration of internet as material and object (that is not traditional art form turning into digital format) and made as an activist response to the art scenes and competitions in which women are always underrepresented. Female Extension was later developed into nag as a web application and a functional tool for generating images on the fly that are based on data that are readily available, questioning notions of authorship, copyright and power structures by means of automated machine generation. The latest version of nag generates images by combining the data that is sent from Google via the web search API. Howver, this is a project made with 100 free limits of API requests and that means users will experience a customized error page and images cannot be retrieved when the program exceeds the image request limit. Although the project shifts the narrative from politics of identity to politics of technology, it still continouously questioning who gets visible in, and how to get access to, the system. 
-
+*net.art generator* (nag)[^nag] is first conceptualized by artist Cornelia Sollfrank in 1997 and the latest version 5b is updated by Winnie Soon, which is an application runs on a web browser to create images. Back then, the initial idea was to make an intervention to the net art competition called EXTENSION by *generating* more than 200 submission entres by international female artists. The program that generates such entries was called *Female Extension*, which took into the consideration of internet as material and object (that is not traditional art form porting into any digital format) and made as an activist response to the art scenes and competitions in which women are always underrepresented. *Female Extension* was later developed into *nag* as a web application and a functional tool for generating images on the fly that are based on data that are readily available from web platforms, questioning notions of authorship, copyright and power structures by means of automated machine generation. The latest version of *nag* generates images by combining the data that is sent from Google via the web search API. However, this is a project made with 100 free limits of API requests and that means users will experience a customized error page and images cannot be retrieved when the program exceeds the image request daily limit. Although the project shifts the narrative from the politics of identity to the politics of technology, it still continouously questions who gets visible in, and how to get access to, the system. 
 
 ![nag1](ch8_1.png)
 *Figure 8.1: The web interface of net.art generator with the title 'queeries'*
 
 ## Exercise in class
-Go to net.art generator (https://nag.iap.de/) and explore the creation of generative images and the previously generated images. Try to base on the interface and map out the relationship between user input (e.g title) and the corresonding generated output, what are the processes in between the input and output? How images are being composited and generated? 
+Go to net.art generator (https://nag.iap.de/) and explore the creation of generative images and the previously generated images. Try to base on the interface and map out the relationship between user input (e.g title) and the corresonding generated output (i.e images). What are the processes in between the input and output? How images are being composited and generated? 
 
 ## Image processing: Fetching, Loading and Display
 
-In the following sample code which is a snippet of nag on the logic of request and response. Requested data will pass via a Web API data and then Google will return the corresponding data. As this sample code is focused on image, we will also demonstrate how to process and display image and pixel data on a screen in a similar way when compare with nag. This is just the first step to get on with the que(e)y data and the possibiliy of using the data is unlimited. Here are the key syntaxes: 
+In the following sample code which is a snippet of *nag* with the web API's logic of request and response. Requested data will pass via a Web API and then Google will return the corresponding data. As this sample code is focused on image, we will also demonstrate how to process and display image and pixel data on a screen in a much simplier way than *nag*. This is just the first step to get on with the que(e)y data yet the possibiliy of using the data is unlimited. Here are the key syntaxes: 
 
-* `loadJSON()`: use the GOOGLE API to fetch search images with a specific keyword. This is a call back function as it takes time to fetch the file and need to further process after receive the response from Google.
-* `loadImage()` and `image()` are used to display images.
-* `loadPixels()`: If you want to manipulate or analyze the data within an image, this is the function that can extract and manipulate information of each image pixel, loading the pixel data into the pixels[] array[^pixel].
-* `line()` is used in the sample code to visualize the particular color that is extracted from the image's pixel.
+* `loadJSON()`[^json]: This is a function to load a JSON file from a file or a URL. In this specific sample code, this is used to send the web API (in the form of a URL) request and receive the response in the format of JSON. The callback function is to turn the returned data into an object. 
+* `loadImage()`[^img1] and `image()`[^img2]: They both are used to load and display images. Data such as sound, files, images, videos are objects that need to be loaded before you can process them. 
+* `loadPixels()`[^pixel]: If you want to manipulate or analyze the data from an image, this is the function that can extract and manipulate information of each image pixel, loading the pixel data into the pixels[] array.
+* `line()`: This is used in the sample code to just visualize the particular color that is extracted from the image's pixel.
 
 ## Source Code 
 
@@ -96,47 +95,47 @@ function draw() {
 ```
 
 ## Accessing Web APIs (Step by Step) 
-![samplecode](ch8_2.gif)
-
+![samplecode](ch8_2.gif) <br>
 *Figure 8.2: The sample code with Wahol+flowers*
 
-The above sample code is about getting a static image from Google image search API (via parsing JSON), and then displaying it on a screen. You need to first get the key ID and Engine ID from Google by providing necessary information, then the program can run and fetch a networked image on the fly. This requires you to:
+The above sample code is about getting a static image from Google image search API (via parsing JSON), and then displaying it on a screen. Similar to many other web APIs, you need to have an API key which the platforms can identify who is getting the data and track the usage. 
+Therefore, the first thing now is to get the key ID and Engine ID from Google by providing necessary information, then the program can run and fetch a networked image on the fly. This requires you to:
 
-* Understand the Google image search API workflow
+* Understand the Google image search API's workflow
 * Understand the API specification with what data and parameters are available
-* Understand the returned JSON file format from Google image search API
+* Understand the returned JSON file format from the web API
 * Able to register and use the API key and search engine ID from Google with the configuration and settings at the search console
-* This is more advanced that relates to the post-production of image, and what you want to do with the data that you got.
+* This is more advanced that relates to the post-production of images, and what you want to do with the data that you got.
 
-1. Step 1: Create a p5 sketch, then copy and paste the source code to your code editor. (Don't forget the html file and the p5 library)
+1. **Step 1:** Create a p5 sketch, then copy and paste the source code to your code editor. (Don't forget the html file and the p5 library)
 
-2. Step 2: Replace the API key with your own on the line: `var apikey = "INPUT YOUR OWN KEY";`. 
+2. **Step 2:** Replace the API key with your own on the line: `var apikey = "INPUT YOUR OWN KEY";`. 
 ![google1](ch8_3.png)
 
 *Figure 8.3: Google Custom Search Interface*
     
 - Register a Google account if you don't have one 
 - Login your account 
-- Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and go to the section API key
-- Click the blue botton "Get A Key", then create a new project by entering your project name e.g "nag-test" and press enter key.
-- The API key should be returned to you on the screen, and you just need to copy and paste the key and put in your code.
+- Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and find the section API key
+- Click the blue botton "Get A Key", then create a new project by entering your project name e.g "nag-test" and press the enter key.
+- You should able to see the API key and you just need to copy and paste the key and put in your sketch.
     
-3. Step 3: Replace the Search engine ID (cx) with your own on the line: `var engineID = "INPUT YOUR OWN";`.
+3. *Step 3:* Replace the Search engine ID (cx) with your own on the line: `var engineID = "INPUT YOUR OWN";`.
 - Go to [Cusom Search Engine](https://cse.google.com/all)[^google2]
-- Click the 'Add' button in adding a search engine 
-- then you can limit your search area but if you want to search in entire Google search, just simply type "http://www.google.com"
+- Click the "Add" button in adding a search engine 
+- You can limit your search area but if you want to search in entire Google search, just simply type "http://www.google.com"
 - Enter a name of your search engine e.g "nag-test"
-- By clicking the blue create button, you agree with the Terms of Service that is offered by Google and know your rights.
-- Go to Control Panel to modify the setting of the search engine
-- Copy and paste the Search engine ID and put in your code.  
-4. Step 4: Configuration in the control panel
+- By clicking the blue "create" button, you agree to the Terms of Service that is offered by Google and you should know your rights.
+- Go to the Control Panel and modify the setting of the search engine
+- Copy and paste the Search engine ID and put in your sketch.  
+4. *Step 4:* Configuration in the control panel
 - Make sure the "Image search" is ON with the blue color 
 - Make sure the "Search the entire web" is ON with the blue color
 
-The basic configuration should be done and you can try to run the program and see if any image display on the screen (turn your browser console on to observe if there might be any error messages)
+The basic configuration should be done by now and you can try to run the program and see if any image display on the screen (turn your browser console on to observe if there might be any error messages)
 
 ## Que(e)rying data
-Although you have set the key and id, there are still things that you need to understand if you want to read the data on your own or try to work on other web APIs to get the data that you want. 
+Although you have set the key and search engine id, there are still things that you need to understand if you want to read and locate the data on your own or try to work on other web APIs to get a different set of data. 
 
 ![google2](ch8_4.png)
 
@@ -228,3 +227,9 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 [^google1]: See https://developers.google.com/custom-search/v1/overview. 
 
 [^google2]: See https://cse.google.com/all.
+
+[^json]: See https://p5js.org/reference/#/p5/loadJSON.
+
+[^img1]: See https://p5js.org/reference/#/p5/loadImage.
+
+[^img2]: See https://p5js.org/reference/#/p5/image.
