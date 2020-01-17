@@ -281,7 +281,7 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 
 [^chun]: Wendy Hui Kyong Chun, *Updating to Remain the Same: Habitual New Media*, MIT Press, 2016.
 
-[^api]: CST, Executing uncertaines + Soon (2016) + Snordgrass + Soon (2019) (to be formatted)
+[^api]: See Winnie Soon, *Executing Liveness: An Examination of the Live Dimension of Code Inter-actions in Software (Art) Practice*. 2016. Aarhus University, PhD dissertation; Eric, Snodgrass & Winnie Soon. "API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange". *First Monday*, 24(2), 2019. 
 
 [^nag]: There are five different versions of nag that have been realised by seven programmers working at different stages of the project. In 2003, the version 5 has started to use images from Google search but it was broken in 2015. The current version 5b was updated in 2017 and this is the version that has officially utilized Google Image Search API according to the specification. See http://net.art-generator.com/.
 
@@ -305,6 +305,6 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 
 [^catch]: See https://www.w3schools.com/js/js_errors.asp.
 
-[^louden]: Louden & Lambert, 2012, pp. 432-4  (to be formatted).
+[^louden]: Louden, K. C., & Lambert, K. A. *Programming Languages: Principles and Practice* (3rd ed.). Boston: Cengage Learning, 2012, pp. 432-4 .
 
 [^feminist]: Cornelia, Sollfrank. Beautiful Warriors: Technofeminist Praxis in the Twenty-First Century. MINOR COMPOSITIONS, 2019. p.6.
