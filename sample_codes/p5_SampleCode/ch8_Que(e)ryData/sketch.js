@@ -1,24 +1,25 @@
 /*
- Fetching and visualizing images from Google image search API with CORS problem (Cross-Origin Resource Sharing) on displaying http images:
-- proper fixing should be done at the web server side but for testing purpose we can install browser add-ons to by-pass the errors
-- firefox: https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/
-- Chrome: Allow-Control-Allow-Original:* (https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf)
+ Fetching other domain images via Google image search API has CORS problem (Cross-Origin Resource Sharing):
+- proper fixing should be done at the web server side but for testing purpose we can install browser add-ons to by-pass the errors, keyword search: CORS, or add a proxy in front of the image URL
+  - firefox ver72.02: Access Control-Allow-Origin - Unblock: https://addons.mozilla.org/en-US/firefox/addon/cors-unblock/
+  - Chrome ver79: CORS Unblock https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino
+  - we can also use CORS proxy: see line 45
 - credit: Image Lines in Processing by Anna the Crow https://www.openprocessing.org/sketch/120964
 - full url here: https://www.googleapis.com/customsearch/v1?key=???&cx=????&imgSize=small&q=warhol+flowers
 */
-var url = "https://www.googleapis.com/customsearch/v1?";
-var apikey = "AIzaSyBRE6L4ohm4c2rAxZqpbFSUbSc8w6ZOg-w";//"INPUT YOUR OWN KEY";  //register API key here: https://developers.google.com/custom-search/json-api/v1/overview
-var engineID = "012341178072093258148:xebpi6c3ibg";// "INPUT YOUR OWN"; //https://cse.google.com/all  | create search engine, then get the searchengine ID - make sure image is on
-var query = "warhol+flowers";  //search keywords
-var searchType = "image";
-var imgSize ="medium"; //check here: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
-var request; //full API
+let url = "https://www.googleapis.com/customsearch/v1?";
+let apikey = "INPUT YOUR OWN KEY";  //register API key here: https://developers.google.com/custom-search/json-api/v1/overview
+let engineID = "INPUT YOUR OWN"; //https://cse.google.com/all  | create search engine, then get the searchengine ID - make sure image is on
+let query = "warhol+flowers";  //search keywords
+let searchType = "image";
+let imgSize ="medium"; //check here: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
+let request; //full API
 
-var img;
-var getImg;
-var loc;
-var img_x, img_y;
-var cv;
+let getImg;
+let loc;
+let img_x, img_y;
+let imgCORSproxy = "https://cors-anywhere.herokuapp.com/"; //check top comment
+let cv;
 
 function setup() {
 	cv = createCanvas(500,450);
@@ -41,9 +42,8 @@ function fetchImage() {
 }
 
 function gotData(data) {
-	getImg = data.items[0].link;
+	getImg = imgCORSproxy + data.items[0].link;
 	console.log(getImg);
-
 }
 
 function draw() {
