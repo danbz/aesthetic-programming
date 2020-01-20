@@ -15,7 +15,7 @@ Many scholars and artists have explored these connections between speaking and c
 
 *Figure 1: An installation view of Vocable Code*
 
-[add literate programming ref by Knuth, 1992]
+[add literate programming ref by Knuth, 1992 - or the paper in 1984 https://academic.oup.com/comjnl/article/27/2/97/343244]
 
 ### 7.1.1 Start()
 
