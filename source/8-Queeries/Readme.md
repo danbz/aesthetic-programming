@@ -73,7 +73,7 @@ function gotData(data) {
 }
 
 function draw() {
-  try {	//takes time to load the external image, that's why you see errors in the console.log
+  try {	//takes time to get the path of the image from the JSON file via the web API
  		loadImage(getImg, function(img) {
 		push();
 		translate(width/2-img.width/2, 0);
