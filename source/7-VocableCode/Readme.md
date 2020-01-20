@@ -15,6 +15,8 @@ Many scholars and artists have explored these connections between speaking and c
 
 *Figure 1: An installation view of Vocable Code*
 
+[add literate programming ref by Knuth, 1992]
+
 ### 7.1.1 Start()
 
 Vocable Code is both a work of “software art” (software as artwork, not software to make an artwork) and a “codework” (where the source code and critical writing operate together) to embody “queer code”. Through collecting voices and statements from others that help to complete the sentence that begins “Queer is...”, the work is computationally and poetically composed: texts and voices are repeated and disrupted by mathematical chaos, to create a dynamic artwork (software art or work of electronic literature) and to explore the performativity of code, subjectivity and language. Behind the executed web interface, the code itself is a mixture of a computer programming language and human language, and aims to expose the material and linguistic tensions of writing and reading within the context of (non)binary poetry and queer computer code.
