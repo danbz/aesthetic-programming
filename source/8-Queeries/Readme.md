@@ -33,32 +33,32 @@ In the following sample code which is a snippet of *nag* with the web API's logi
 ## Source Code 
 
 ```javascript 
-var url = "https://www.googleapis.com/customsearch/v1?";
+let url = "https://www.googleapis.com/customsearch/v1?";
 var apikey = "INPUT YOUR OWN KEY";  //register API key here: https://developers.google.com/custom-search/json-api/v1/overview
 var engineID = "INPUT YOUR OWN"; //https://cse.google.com/all  | create search engine, then get the searchengine ID - make sure image is on
-var query = "warhol+flowers";  //search keywords
-var searchType = "image";
-var imgSize ="medium"; //check here: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
-var request; //full API
+let query = "warhol+flowers";  //search keywords
+let searchType = "image";
+let imgSize ="medium"; //check here: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
+let request; //full API
 
-var img;
-var getImg;
-var loc;
-var img_x, img_y;
-var cv;
+let getImg;
+let loc;
+let img_x, img_y;
+let imgCORSproxy = "https://cors-anywhere.herokuapp.com/"; //check top comment
+let cv;
 
 function setup() {
-	cv = createCanvas(500,450);
+	cv = createCanvas(400,450);
 	centerCanvas();
-	background(200,200);
+	background(235);
 	frameRate(10);
 	fetchImage();
 }
 
 function centerCanvas() {
 	let x = (windowWidth - width) / 2;
-    let y = (windowHeight - height) / 2;
-    cv.position(x, y);
+  let y = (windowHeight - height) / 2;
+  cv.position(x, y);
 }
 
 function fetchImage() {
@@ -67,16 +67,17 @@ function fetchImage() {
 	loadJSON(request, gotData); //this is the key syntax and line of code to make a query request and get a query response
 }
 
-function gotData(data) {   
-	getImg = data.items[0].link;  
+function gotData(data) {
+	getImg = imgCORSproxy + data.items[0].link;
 	console.log(getImg);
 }
 
 function draw() {
   try {	//takes time to get the path of the image from the JSON file via the web API
- 		loadImage(getImg, function(img) {
+   loadImage(getImg, img=> { //function(img)
 		push();
-		translate(width/2-img.width/2, 0);
+		let frameBorder = (width-img.width)/2;
+		translate(width/2-img.width/2, frameBorder);
 		image(img,0,0);
 		 //try to uncomment this block if you manage to get the image.
 		img.loadPixels();
@@ -84,10 +85,9 @@ function draw() {
 		img_y = floor(random(0,img.height));
 		loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values - 4) can see more here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
 		stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
-		line(img_x,0,img_x,height);
-
+		line(img_x,1,img_x,height-frameBorder*2);
 		pop();
-  });
+   });
  }catch(error) {
     console.error(error);
  }
@@ -133,14 +133,6 @@ Therefore, the first thing now is to get the key ID and Engine ID from Google by
 - Make sure the "Image search" is ON with the blue color 
 - Make sure the "Search the entire web" is ON with the blue color
 
-The basic configuration should be done by now. But before you run the program and test if any image display on the screen, you need to install a browser add-on to bypass CORS (Cross-Origin Resource Sharing). For security reasons, data is being restricted when it is requested from other domain (in this case is Google) which is different from the origin (in this case is your local server). In the industry environment, it is usually configured at the web server side setting but for our testing purpose we can simply install a browser add-on to bypass that. 
-
-5. Search for "CORS" in the browser add-on site and install it. At the time of writing this book, we have used:
-- [CORS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/)[^cors1] on Firefox  or
-- [Allow CORS](hhttps://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf)[^cors2] on Google Chrome.  
-
-After the installation of the web browser add-on, you can try to run the program and see if any image display on the screen (turn your browser console on to observe if there might be any error messages)
-
 ## Que(e)rying data
 Although you have set the key and search engine id, there are still things that you need to understand if you want to read and locate the data on your own or try to work on other web APIs to get a different set of data. 
 
@@ -148,11 +140,14 @@ Although you have set the key and search engine id, there are still things that 
 
 *Figure 4: Data structure in the web API* 
 
-In the web console, look for a URL that starts with "https" and ends with "warhol+flowers" (something like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image). Just simply click it and you will see how data is being structured in the JSON file format on a web browser. Figure 4 above is something similar to what you see on your screen. There are indeed much more parameters that you can set to select more specific forms of data such as image size, image color type and image dominant color, the API that we have used in the sample code is just to demonstrate the minimal settings[^setting]. 
+In the web console, look for a URL that starts with "https" and ends with "warhol+flowers" (something like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image). Just simply click it and you will see how data is being structured in a JSON file format on a web browser (see Figure 4). There are indeed more parameters that you can set to select more specific forms of data such as image size, image color type and image dominant color, and the API that we have used in the sample code is just to demonstrate the minimal settings[^setting]. 
 
-Figure 4 demonstrates how one could point at a specific data among the whole JSON file. In our source code, we have `getImg = data.items[0].link;`, and the first parameter data is simply the returned object from the function `loadJSON()`. `items[0]` points at the first data object (using the array concept with the first index as 0). The dot syntax allows you to navigate to the `link` under `items[0]`. This hirechary is specific to this API as other web APIs might structure their data and organization diffferently. 
+**Cross-Origin Resource Sharing**
+Requesting, getting and loading images (and other multimedia forms like video and fonts) from a different domain will incure web sercurity problem, which is known in the area called Cross-Origin Resource Sharing (CORS). For this chapter and the corresponding sample code, the sample code is hosted on a local machine with a local server to run via the *ATOM* code editor, but the API request and the corresponding data is hosted outside of the origin. This CORS issue related to network requests so as to prevent "unsafe HTTP requests" (^w3). In the industry environment, it is usually configured at the web server side setting, specifically with the parameter *Access-Control-Allow-Origin* that could specifiy how network requests can be made and shared[^http]. But for our learning and testing purposes, we have used a proxy to bypass the issue of CORS as seen in the use of global variable `let imgCORSproxy`, yet it is important to note that this is not a long term solution because the CORS proxy is not always reliable and usually it comes with the file size limitation[^add-on]. 
 
-To learn more about the JSON file, you can go to queries > request > 0 which shows how many results are found on Google image search, what search terms have been processed and how many data are returned. In the sample code, we only start with the top 10 search, but you can configure the field 'startIndex' to get the last 10 images out of 110 million. Furthermore, under `items` you will find the specific image data returned in the form of an array,  such as the title and the snippet of the page content. Although Google has provided the API to access the data, data is fundamentally collected from the public and people have no ways to question the exact algorithm in which how the data is selected and presented as top 10. 
+By adding the proxy URL in front of the image URL, it allows retreiving the image outside of the local server. Figure 4 demonstrates how one could point at a specific data among the whole JSON file. Specifically, we have the line `getImg = imgCORSproxy + data.items[0].link;` and the second part of the code is to get the specified returned object (the image URL) from the JSON file. The name data refers to all the returned object via the callback function `loadJSON()`. Then `items[0]` points at the first data object (using the array concept with the first index as 0). The dot syntax allows you to navigate to the object `link` under `items[0]`. This hirechary is specific to this API as other web APIs might structure their data and organization differently. 
+
+To learn more about the JSON file, you can navigate other data objects such as queries > request > 0 that shows, for example, how many results are found on the image search, what search terms have been processed and how many data are returned. In the sample code, we only start with the top 10 search, but you can configure the field 'startIndex' to get the last 10 images out of 110 million. Furthermore, under `items` you will find the specific image data returned in the form of an array,  such as the title and the snippet of the page content. Although Google has provided the API to access the data, data is fundamentally collected from the public and people have no ways to question the exact algorithm in which how the data is selected, prioritized and presented as top 10. 
 
 ## Exercise in class
 ![api](ch8_5.png)
@@ -160,29 +155,28 @@ To learn more about the JSON file, you can go to queries > request > 0 which sho
 *Figure 8.5: The API's logic of request and response*
 
 1. According to Figure 8.5, can you recap what has been requested and received through the web API? 
-2. Change your own query strings: The curent keywords is warhol flowers. The program won't take space between text and therefore it is written as "warhol+flowrers"
+2. Change your own query strings: The current keywords is warhol flowers. The program won't take space between text and therefore it is written as "warhol+flowrers"
 3. Add more [different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters)[^setting], such as adding image color type. (The URL parameters are seperated by a "&" sign like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image
 4. Study the JSON file and modify the sketch to get other data such as the text by showing that into the web console. 
 5. To process the image data and to visualize the pixel's color through lines is mainly done by below snippet of code. Think about and discuss why there is an error message in the console log: TypeError: "path is undefined".
 
 ```javascript
 function draw() {
-  try {	//takes time to load the external image, that's why you see errors in the console.log
- 		loadImage(getImg, function(img) {
+  try {	//takes time to get the path of the image from the JSON file via the web API
+    loadImage(getImg, img=> { //function(img)
 		push();
-		translate(width/2-img.width/2, 0);
+		let frameBorder = (width-img.width)/2;
+		translate(width/2-img.width/2, frameBorder);
 		image(img,0,0);
-		 //try to uncomment this block if you manage to get the image.
 		img.loadPixels();
 		img_x = floor(random(0,img.width));
 		img_y = floor(random(0,img.height));
-		loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values - 4) 
+		loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values
 		stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
-		line(img_x,0,img_x,height);
-
+		line(img_x,1,img_x,height-frameBorder*2);
 		pop();
-  });
-  }catch(error) {
+   });
+ }catch(error) {
     console.error(error);
  }
 }
@@ -299,12 +293,14 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 
 [^setting]: There are other optional parameters, see https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters.
 
-[^cors2]: See hhttps://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf. 
-
-[^cors1]: See https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/.
-
 [^catch]: See https://www.w3schools.com/js/js_errors.asp.
 
 [^louden]: Louden, K. C., & Lambert, K. A. *Programming Languages: Principles and Practice* (3rd ed.). Boston: Cengage Learning, 2012, pp. 432-4 .
 
 [^feminist]: Cornelia, Sollfrank. *Beautiful Warriors: Technofeminist Praxis in the Twenty-First Century*. MINOR COMPOSITIONS, 2019. p.6.
+
+[^http]: HTTP headers let the client and the server pass additional information, such as the Access-Control-Allow-Origin parameter, with an HTTP request or response. Such configuration is critical to resource security and it is part of how networks, web browsers and code communicate with different parties. See the different values of such parameter here https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin
+
+[^wc]: See the recommendation of CORS by W3C, https://www.w3.org/TR/cors/. 
+
+[^add-on]: Other than having a CORS proxy, we can also install browser add-ons to bypass the issue of CORS. Just simply search in the extension/add on site for the specific web browser with the keyword "CORS".
