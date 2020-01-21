@@ -49,18 +49,18 @@ function gotData(data) {
 function draw() {
   try {	//takes time to get the path of the image from the JSON file via the web API
    loadImage(getImg, img=> { //function(img)
-			push();
-			let frameBorder = (width-img.width)/2;
-			translate(width/2-img.width/2, frameBorder);
-			image(img,0,0);
+		push();
+		let frameBorder = (width-img.width)/2;
+		translate(width/2-img.width/2, frameBorder);
+		image(img,0,0);
 		 //try to uncomment this block if you manage to get the image.
-			img.loadPixels();
-			img_x = floor(random(0,img.width));
-			img_y = floor(random(0,img.height));
-			loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values - 4) can see more here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
-			stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
-			line(img_x,1,img_x,height-frameBorder*2);
-			pop();
+		img.loadPixels();
+		img_x = floor(random(0,img.width));
+		img_y = floor(random(0,img.height));
+		loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values - 4) can see more here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
+		stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
+		line(img_x,1,img_x,height-frameBorder*2);
+		pop();
    });
  }catch(error) {
     console.error(error);
