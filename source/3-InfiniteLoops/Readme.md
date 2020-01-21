@@ -12,7 +12,7 @@ Loops offer alternative imaginaries, as for instance in the case of the ancient 
 
 It was mathematician and writer Augusta Ada Byron Lovelace who first introduced the concept of a programmatic loop in the early nineteenth century. She recognised that there were repeatable operations in the conceptual design of the first automatic, general-purpose computing machine ever designed, namely Charles Babbage's Analytical Engine. A loop which she called a 'cycle' appears in her "Note G" on the Analytical Engine,[^Ada] in which she describes the program procedures, also called the Bernoulli numbers program, as in the diagram below. It utilises two loops to indicate the repetition of a set of instructions with conditions,[^Kim] thereby minimizing efforts to write a repeatable operation in duplicate. 
 
-![ada lovelace](http://media.factmyth.com/2015/10/ada-lovelace-bernoulli-note-g.jpg)
+![ada lovelace](ch3_1.jpg)
 *Figure 3.1: Diagram for the computation by the Engine of the Numbers of Bernoulli, from "Note G" by Ada Lovelace*
 
 The idea of a loop in contemporary programming is highly influenced by these early insights into the handling of repeated machine operations expressed in a diagramatic manner. High-level programming languages such as `p5.js` include a loop function, allowing a fragment of source code to be repeatedly executed, as in the example of the `draw()` function that will run continuously until the program is stopped. We will continue with further examples but suffice to say that loops are among the most basic and powerful of programming concepts.
