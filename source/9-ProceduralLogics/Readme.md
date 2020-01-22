@@ -11,7 +11,7 @@ This chapter is not specificially about the syntax of code, but more about algor
 
 But of course an algorithm is more than just steps and operations, as it has wider cultural and political consequences. As we learnt in previous chapters that programming is a form of abstraction that requires the selection of important details in which the way of implementation is inevitably embodied programmers' thinking and decision. If algorithm is considered as the skeleton of how a program operates, then many of the cultural objects that we are using nowadays such as a mobile phone, a web browser, or even a voice assistant device embody the substrate of computing that produce a certain form of reality that structures our experience with gagets and applications. In this book *What Algorithms Want?*, Ed Finn explores algorithm as a culture machine and he argues that algorithm "operates both within and beyond the reflexive barrier of effective computability, producing culture at a macro-social level at the same time as it produces cultural objects, processes, and experiences."[^fin] Similary, scholar Taina Bucher asserts that algorithms have power and politics, and she argues that "they are fundamentally productive of new new ways of ordering the world".[^bucher] 
 
-In this chapter we will introduce diagramming practice, especially flow chart in which to elaborate the concept of algorithmic procedures. 
+In this chapter we will introduce diagramming practice, especially flow charts as a means to elaborate the practical and conceptual aspects of algorithmic procedures. 
 
 ## start()
 
