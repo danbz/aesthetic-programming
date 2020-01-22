@@ -33,6 +33,8 @@ Conventionally, each step in a flow chart is represented by a symbol and connect
 - Diamond: Show the decision points with yes and no branches.
 - Arrow: Act as a connector to show the relationship and sequence, but sometimes an arrow might be returned the the previous process especially showing the repetition and loops.
 
+As we have covered the program *Vocable Code* in Chapter 7, Figure 9.1 below shows the flow chart of the program.
+
 ## Exercise in class
 
 Draw a flow chart based on below code:
