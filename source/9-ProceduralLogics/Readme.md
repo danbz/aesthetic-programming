@@ -14,6 +14,24 @@ But of course an algorithm is more than just steps and operations, as it has wid
 In this chapter we will introduce diagramming practice, especially flow charts as a means to elaborate the practical and conceptual aspects of algorithmic procedures. 
 
 ## start()
+Flow charts is considered as a fundamental tool since the early days of computer programming. One of the uses is to illustrate computational operations and data processing for programming purpose by "converting the numerical method into a series of steps" (Ferranti 1955, 1.3) logically. But flow charts are also considered as a representational diagram which can be also used for communicating complex logics between programmers and organizational units[^flowcharts2].
+
+Within our teaching, we also consider coding as a social activity in which collaborative coding is encouraged, which means programming is not necessarily seen as anti-social, masculine and nerdy tasks, the myth of the typical stereotypes[^sterotypes] that need to be deconstructed. Furthermore, we understood that in many of the applications that we are using nowadays is not developed by one programmer but tasks are divided into different components instead that are shared by people you know or you don't know, such as maintaining or debugging a program that is done by someone before. As a beginner especially in a classroom setting, we see that having discussion around syntax, logics and implementation collaboratively is a good way to learn together.  
+
+## Discussion in class
+
+- Can you give a daily example with the details of (computational) logic about an algorithm that you have used or experienced. 
+
+- Base on the assigned reading from Bucher, can you list out some of the properties of algorithms? Why is it both technical and social?
+
+## Flow Chart
+
+Conventionally, each step in a flow chart is represented by a symbol and connecting lines that guide towards a certain output progressively[^flowchart3]. The symbols that are used in a flow chart are shapes and each shape has different meaning:
+
+- Oval: Indicate the start or end points of a program/system.
+- Rectangle: Represent the process steps.
+- Diamond: Show the decision points with yes and no branches.
+- Arrow: Act as a connector to show the relationship and sequence, but sometimes an arrow might be returned the the previous process especially showing the repetition and loops.
 
 ## Exercise in class
 
@@ -103,3 +121,9 @@ Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Pres
 [^fin]: Finn, Ed. *What Algorithms Want: Imagination in the Age of Computing*. Cambridge, MA: MIT Press, 2017, p. 34.
 
 [^bucher]: Bucher, Taina. *If...Then: Algorithmic Power and Politics*. Oxford University Press, 2018, p. 20.
+
+[^flowcharts2]: See Morris, Stephen, and Orlena Gotel. “The Role of Flow Charts in the Early Automation of Applied Mathematics.” *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44–52. https://doi.org/10.1080/17498430903449207 and Ensmenger, Nathan. “The Multiple Meanings of a Flowchart.” *Information & Culture: A Journal of History* 51, no. 3 (2016): 321–51. https://doi.org/10.1353/lac.2016.0013.
+
+[^sterotypes]: See Ho, Chih Wei, et al. Examining the impact of pair programming on female students. North Carolina State University. Dept. of Computer Science, 2004.
+
+[^flowcharts3]: Berry 2011, pp. 113-114
