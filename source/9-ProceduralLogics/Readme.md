@@ -33,11 +33,22 @@ Conventionally, each step in a flow chart is represented by a symbol and connect
 - Diamond: Show the decision points with yes and no branches.
 - Arrow: Act as a connector to show the relationship and sequence, but sometimes an arrow might be returned the the previous process especially showing the repetition and loops.
 
-As we have covered the program *Vocable Code* in Chapter 7, Figure 9.1 below shows the flow chart of the program.
+As we have covered the program *Vocable Code* in Chapter 7, Figure 9.1 below shows the corresponding flow chart, a different representation of the program. The original idea of this flow is to first demonstrate the high level logics and sequences, and second to elaborate the details in plain English. This flowchart does not follow conventional drawing strictly but using symbols, lines and text to communicate with wider audiences like our readers.  
+
+![flowchart](ch9_1.png)
+*Figure 9.1: The flow chart of Vocable Code by Winnie Soon*
+
+In this chapter, we take a slightly different objective and definition in working with flow charts:
+
+A flow chart shows a breakdown of tasks representing procedures, a step-by-step progression and algorithm. It is not a detailed flow chart that includes every possible computational steps but rather it demonstrates high-level processes for visual understanding that gives a general idea of how tasks are broken down. It is independent of any programming languages as it concerns procedures but not coding syntax.
+
+The challenges of drawing a flow chart at this stage would be:
+1. Turn programming syntax and function into understandable plain text.
+2. Decide the details level of showing the important operations that allow a third party person can understand your program.
 
 ## Exercise in class
 
-Draw a flow chart based on below code:
+Let's start with something seems to be very simple. Draw a flow chart based on the below program code:
 
 ```javascript
 function setup() {
@@ -57,23 +68,23 @@ o
 
 ```
 
-A flow chart shows a breakdown of tasks representing procedures, step-by-step progression and algorithms. It is not a detailed flow chart that includes every possible computational steps but rather it demonstrates high-level processes for visual understanding that gives a general idea of how tasks are broken down. It is independent of any programming language as it concerns procedures but not coding syntax.
+In our experience in doing this class exercise, every person comes up with a slightly different result and we think it is a good way of starting the discussion about the use of flow charts and the challenges of drawing them.
 
 ## Discussion
-According to Ensmenger (2016):
 
-1. how would you understand "To view the computer flowchart as having only one purpose is narrow and misleading" as he suggests that "every flowchart had multiple meanings and served several purposes simultaneously"?
+We have extracted two quotes from Nathan Ensmenger on his article titled "The Multiple Meanings of a Flowchart" for further discussion, and how would you perceive and understand them?
 
-2. How would you expand this line of thinking? "Flowcharts allow us to "see" software in ways that are otherwise impossible"
+1. "To view the computer flowchart as having only one purpose is narrow and misleading" as he suggests that "every flowchart had multiple meanings and served several purposes simultaneously" (p. 324)?
+
+2. "Flowcharts allow us to "see" software in ways that are otherwise impossible" (p. 346)?
+
+## Other forms of flow charts as diagramming practice
 
 ## Flow chart as source
 
 ## While()
 
 - The  Project  Formerly  Known  as  Kindle  Forkbomb Printing Press: http://www.arnolfini.org.uk:7081/project.arnolfini/the-project-formerly-known-as-kindle-forkbomb
-
-- Ensmenger, Nathan. “The Multiple Meanings of a Flowchart.” Information & Culture: A Journal of History 51, no. 3 (2016): 321–51. https://doi.org/10.1353/lac.2016.0013.
-- Morris, Stephen, and Orlena Gotel. “The Role of Flow Charts in the Early Automation of Applied Mathematics.” BSHM Bulletin: Journal of the British Society for the History of Mathematics 26, no. 1 (March 2011): 44–52. https://doi.org/10.1080/17498430903449207.
 
 
 ## Mini_Exercise[9]: 
