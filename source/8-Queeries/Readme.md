@@ -78,6 +78,7 @@ function draw() {
 		push();
 		let frameBorder = (width-img.width)/2;
 		translate(width/2-img.width/2, frameBorder);
+		//tint(255, 0);
 		image(img,0,0);
 		img.loadPixels();
 		img_x = floor(random(0,img.width));
@@ -156,11 +157,14 @@ To learn more about the JSON file, you can navigate other data objects such as q
 
 *Figure 8.5: The API's logic of request and response*
 
+You may also uncomment the line `//tint(255, 0);` to set the fill value for displaying images. In this sample code, the `tint()`[^tint] function is used to make the image transparent by including an alpha value.
+
 1. According to Figure 8.5, can you recap what has been requested and received through the web API? 
 2. Change your own query strings: The current keywords is warhol flowers. The program won't take space between text and therefore it is written as "warhol+flowrers"
 3. Add more [different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters)[^setting], such as adding image color type. (The URL parameters are seperated by a "&" sign like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image
 4. Study the JSON file and modify the sketch to get other data such as the text by showing that into the web console. 
 5. To process the image data and to visualize the pixel's color through lines is mainly done by below snippet of code. Think about and discuss why there is an error message in the web console: `TypeError: "path is undefined"`.
+
 
 ```javascript
 function draw() {
@@ -306,3 +310,5 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 [^wc]: See the recommendation of CORS by W3C, https://www.w3.org/TR/cors/. 
 
 [^add-on]: Other than having a CORS proxy, we can also install browser add-ons to bypass the issue of CORS. Just simply search in the extension/add on site for the specific web browser with the keyword "CORS".
+
+[^tint]: See https://p5js.org/reference/#/p5/tint
