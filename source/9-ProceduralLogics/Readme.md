@@ -30,10 +30,10 @@ Within our teaching, we also consider coding as a social activity in which colla
 
 Conventionally, each step in a flow chart is represented by a symbol and connecting lines that guide towards a certain output progressively. The symbols that are used in a flow chart are shapes and each shape has different meaning:
 
-- Oval: Indicate the start or end points of a program/system. (But this needs to think about if all programs have an end?)
-- Rectangle: Represent the process steps.
-- Diamond: Show the decision points with yes and no branches.
-- Arrow: Act as a connector to show the relationship and sequence, but sometimes an arrow might be returned the the previous process especially showing the repetition and loops.
+- **Oval**: Indicate the start or end points of a program/system. (But this needs to think about if all programs have an end?)
+- **Rectangle**: Represent the process steps.
+- **Diamond**: Show the decision points with yes and no branches.
+- **Arrow**: Act as a connector to show the relationship and sequence, but sometimes an arrow might be returned the the previous process especially showing the repetition and loops.
 
 As we have covered the program *Vocable Code* in Chapter 7, Figure 9.1 below shows the corresponding flow chart, a different representation of the program. The original idea of this flow is to first demonstrate the high level logics and sequences, and second to elaborate the details in plain English. This flowchart does not follow conventional drawing strictly but using symbols, lines and text to communicate with wider audiences like our readers.  
 
