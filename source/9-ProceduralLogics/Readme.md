@@ -28,7 +28,7 @@ Within our teaching, we also consider coding as a social activity in which colla
 
 ## Flow Chart
 
-Conventionally, each step in a flow chart is represented by a symbol and connecting lines that guide towards a certain output progressively[^flowchart3]. The symbols that are used in a flow chart are shapes and each shape has different meaning:
+Conventionally, each step in a flow chart is represented by a symbol and connecting lines that guide towards a certain output progressively. The symbols that are used in a flow chart are shapes and each shape has different meaning:
 
 - Oval: Indicate the start or end points of a program/system. (But this needs to think about if all programs have an end?)
 - Rectangle: Represent the process steps.
@@ -140,5 +140,3 @@ Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Pres
 [^flowcharts2]: See Morris, Stephen, and Orlena Gotel. “The Role of Flow Charts in the Early Automation of Applied Mathematics.” *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44–52. https://doi.org/10.1080/17498430903449207 and Ensmenger, Nathan. “The Multiple Meanings of a Flowchart.” *Information & Culture: A Journal of History* 51, no. 3 (2016): 321–51. https://doi.org/10.1353/lac.2016.0013.
 
 [^sterotypes]: See Ho, Chih Wei, et al. Examining the impact of pair programming on female students. North Carolina State University. Dept. of Computer Science, 2004.
-
-[^flowcharts3]: Berry 2011, pp. 113-114
