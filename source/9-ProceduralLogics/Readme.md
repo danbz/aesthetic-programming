@@ -9,10 +9,9 @@ In chapter 3 - Infinite Loops, we have briefly introduced the computational diag
 
 This chapter is not specificially about the syntax of code, but more about algorithmic procedures that describe the steps and operations of a program to "produce desire outcomes" (Kitchin, 2017, 16) or to solve a problem in Computer Science terms. It is not dependent on specific software and library, and the algorithm can show the steps in which, ideally, can be implemented by any programming languages. In other words, an algorithm shows the break down of procedural operations on how an operation moves from one step to another progressively. Perhaps at this point it is useful to think of the common analogy[^recipe], an algorithm as a cooking recipe to describe ordinary activities in everyday life. For example, what are the ingredients and procedures required when you bake a chocolate cake? 
 
-But of course an algorithm is more than just steps and operations, as it has wider cultural and political sequences
+But of course an algorithm is more than just steps and operations, as it has wider cultural and political consequences. As we learnt in previous chapters that programming is a form of abstraction that requires the selection of important details in which the way of implementation is inevitably embodied programmers' thinking and decision. If algorithm is considered as the skeleton of how a program operates, then many of the cultural objects that we are using nowadays such as a mobile phone, a web browser, or even a voice assistant device embody the substrate of computing that produce a certain form of reality that structures our experience with gagets and applications. In this book *What Algorithms Want?*, Ed Finn explores algorithm as a culture machine and he argues that algorithm "operates both within and beyond the reflexive barrier of effective computability, producing culture at a macro-social level at the same time as it produces cultural objects, processes, and experiences."[^fin] Similary, scholar Taina Bucher asserts that algorithms have power and politics, and she argues that "they are fundamentally productive of new new ways of ordering the world".[^bucher] 
 
-
-Taking the departure point of mathematics and computing, 
+In this chapter we will introduce diagramming practice, especially flow chart in which to elaborate the concept of algorithmic procedures. 
 
 ## start()
 
@@ -101,3 +100,6 @@ Goffey, Andrew. "Algorithm." *Software Studies\ a lexicon*. Eds. Matthew Fuller.
 [^recipe]: Although the concept of algorithm is rooted in Computer Science, scholars from other fields like cultural studies and media studies take on the technical concept of algorithm and explore the wider cultural consequences and political implications. The analogy of algorithms as receipes can be also seen here: Finn, Ed. What Algorithms Want: Imagination in the Age of Computing. Cambridge, MA: MIT Press, 2017, p. 17 and 
 Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Press, 2018, p. 21.
 
+[^fin]: Finn, Ed. *What Algorithms Want: Imagination in the Age of Computing*. Cambridge, MA: MIT Press, 2017, p. 34.
+
+[^bucher]: Bucher, Taina. *If...Then: Algorithmic Power and Politics*. Oxford University Press, 2018, p. 20.
