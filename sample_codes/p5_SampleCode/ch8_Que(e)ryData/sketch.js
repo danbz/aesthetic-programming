@@ -31,8 +31,8 @@ function setup() {
 
 function centerCanvas() {
 	let x = (windowWidth - width) / 2;
-  let y = (windowHeight - height) / 2;
-  cv.position(x, y);
+    let y = (windowHeight - height) / 2;
+    cv.position(x, y);
 }
 
 function fetchImage() {
@@ -52,6 +52,7 @@ function draw() {
 		push();
 		let frameBorder = (width-img.width)/2;
 		translate(width/2-img.width/2, frameBorder);
+		//tint(255, 0);
 		image(img,0,0);
 		 //try to uncomment this block if you manage to get the image.
 		img.loadPixels();
