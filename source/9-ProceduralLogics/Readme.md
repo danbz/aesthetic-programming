@@ -24,11 +24,13 @@ Within our teaching, we also consider coding as a social activity in which colla
 
 - Base on the assigned reading from Bucher, can you list out some of the properties of algorithms? Why is it both technical and social?
 
+- We have discussed rule-based systems in Chapter 6 - Auto Generator, how is that different from procedures in this chapter?
+
 ## Flow Chart
 
 Conventionally, each step in a flow chart is represented by a symbol and connecting lines that guide towards a certain output progressively[^flowchart3]. The symbols that are used in a flow chart are shapes and each shape has different meaning:
 
-- Oval: Indicate the start or end points of a program/system.
+- Oval: Indicate the start or end points of a program/system. (But this needs to think about if all programs have an end?)
 - Rectangle: Represent the process steps.
 - Diamond: Show the decision points with yes and no branches.
 - Arrow: Act as a connector to show the relationship and sequence, but sometimes an arrow might be returned the the previous process especially showing the repetition and loops.
@@ -44,7 +46,7 @@ A flow chart shows a breakdown of tasks representing procedures, a step-by-step 
 
 The challenges of drawing a flow chart at this stage would be:
 1. Turn programming syntax and function into understandable plain text.
-2. Decide the details level of showing the important operations that allow a third party person can understand your program.
+2. Decide the details level of showing the important operations that allow other people to understand your program.
 
 ## Exercise in class
 
@@ -72,7 +74,7 @@ In our experience in doing this class exercise, every person comes up with a sli
 
 ## Discussion
 
-We have extracted two quotes from Nathan Ensmenger on his article titled "The Multiple Meanings of a Flowchart" for further discussion, and how would you perceive and understand them?
+We have selected two quotes from Nathan Ensmenger on his article titled "The Multiple Meanings of a Flowchart" for further discussion here. How would you perceive and understand them?
 
 1. "To view the computer flowchart as having only one purpose is narrow and misleading" as he suggests that "every flowchart had multiple meanings and served several purposes simultaneously" (p. 324)?
 
@@ -80,11 +82,11 @@ We have extracted two quotes from Nathan Ensmenger on his article titled "The Mu
 
 ## Other forms of flow charts as diagramming practice
 
+- The  Project  Formerly  Known  as  Kindle  Forkbomb Printing Press: http://www.arnolfini.org.uk:7081/project.arnolfini/the-project-formerly-known-as-kindle-forkbomb
+
 ## Flow chart as source
 
 ## While()
-
-- The  Project  Formerly  Known  as  Kindle  Forkbomb Printing Press: http://www.arnolfini.org.uk:7081/project.arnolfini/the-project-formerly-known-as-kindle-forkbomb
 
 
 ## Mini_Exercise[9]: 
