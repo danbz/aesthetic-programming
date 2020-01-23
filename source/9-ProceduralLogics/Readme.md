@@ -1,7 +1,7 @@
 Title: 9. Algorithmic Procedures
 page_order: 9
 
-## Procedural Logics 
+## Algorithmic Procedures
 [g: how about algorithmic procedures instead of procedural logics? /w]
 
 ## setup()
