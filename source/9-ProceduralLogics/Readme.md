@@ -28,7 +28,7 @@ Within our teaching, we also consider coding as a social activity in which colla
 
 ## Flow Chart
 
-Conventionally, each step in a flow chart is represented by a symbol and connecting lines that guide towards a certain output progressively. The symbols that are used in a flow chart are shapes and each shape has different meaning:
+Conventionally, each step in a flow chart is represented by a symbol and connecting lines that guide towards a certain output progressively. The symbols that are used in a flow chart are shapes and each shape has different meaning and below it shows the basic components of drawing a typical flow chart:
 
 - **Oval**: Indicate the start or end points of a program/system. (But this needs to think about if all programs have an end?)
 - **Rectangle**: Represent the process steps.
@@ -76,9 +76,9 @@ In our experience in doing this class exercise, every person comes up with a sli
 
 We have selected two quotes from Nathan Ensmenger on his article titled "The Multiple Meanings of a Flowchart" for further discussion here. How would you perceive and understand them?
 
-1. "To view the computer flowchart as having only one purpose is narrow and misleading" as he suggests that "every flowchart had multiple meanings and served several purposes simultaneously" (p. 324)?
+1. "To view the computer flowchart as having only one purpose is narrow and misleading" as he suggests that "every flowchart had multiple meanings and served several purposes simultaneously" (p. 324)
 
-2. "Flowcharts allow us to "see" software in ways that are otherwise impossible" (p. 346)?
+2. "Flowcharts allow us to "see" software in ways that are otherwise impossible" (p. 346)
 
 ## Other forms of flow charts as diagramming practice
 
@@ -124,9 +124,10 @@ Group:
 Goffey, Andrew. "Algorithm." *Software Studies\ a lexicon*. Eds. Matthew Fuller. MIT Press, 2008. pp. 15-20.
 
 ## Notes
-[^rational]: A rational number can be made by dividing two integers e.g 1.5 is a rational number because 1.5 = 3/2 where both 3 and 2 are integers.
 
 [^first]: In particular to the complexity of the diagram for calculating Bernoulli numbers that includes the grouping of operations, the invention of the loop concept (repetition and cycle in Lovelace's term), the manipulation of symbols and variables in accordance with rules. Although such an algorithm was designed to be used in mechanical caluclating machine, Babbage Analytical Engine is conceptually close to a modern computer at the time with a vision that could do other things, such as music, beyond number calculation. See Menabrea, Luigi Federico, and Ada Lovelace. *Sketch of the analytical engine invented by Charles Babbage.* , 1842, p. 694. 
+
+[^rational]: A rational number can be made by dividing two integers e.g 1.5 is a rational number because 1.5 = 3/2 where both 3 and 2 are integers.
 
 [^ada2]: (Lovelace Papers, Bodleian Library, Oxford University, 42, folio 12 (6 Feb 1841). As quoted and cited in Dorothy Stein (ed.), 'This First Child of Mine', Ada: A Life and a Legacy (1985), 106-107.)
 
