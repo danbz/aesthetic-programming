@@ -1,8 +1,8 @@
-Title: 9. Procedural Logics
+Title: 9. Algorithmic Procedures
 page_order: 9
 
 ## Procedural Logics 
-[g: how about algorithmic procedures? /w]
+[g: how about algorithmic procedures instead of procedural logics? /w]
 
 ## setup()
 In chapter 3 - Infinite Loops, we have briefly introduced the computational diagram that is drafted by Mathematicians Ada Lovelace in 1842, which is often referred to the world's first computer program[^first]. With an interest in numbers and arithmetical calculation, in particular Bernoulli numbers (B<sub>n</sub>), the sequence of rational numbers[^rational], the published diagram and the extensive notes of Ada Lovelace demonstrate the sophisticated step by step sequence of operations for solving mathematical problems. Such a diagram can be seen as instructions that can be executed by machine automatically, as she puts it, "I want to put something about Bernoulli’s numbers, in one of my Notes, as an example of how the implicit function may be worked out by the engine without human head & hands first. Give me the necessary formulae."[^ada2]
