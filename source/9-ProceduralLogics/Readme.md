@@ -5,11 +5,11 @@ page_order: 9
 [g: how about algorithmic procedures instead of procedural logics? /w]
 
 ## setup()
-In chapter 3 - Infinite Loops, we have briefly introduced the computational diagram that is drafted by Mathematicians Ada Lovelace in 1842, which is often referred to the world's first computer program[^first]. With an interest in numbers and arithmetical calculation, in particular Bernoulli numbers (B<sub>n</sub>), the sequence of rational numbers[^rational], the published diagram and the extensive notes of Ada Lovelace demonstrate the sophisticated step by step sequence of operations for solving mathematical problems. Such a diagram can be seen as instructions that can be executed by machine automatically, as she puts it, "I want to put something about Bernoulli’s numbers, in one of my Notes, as an example of how the implicit function may be worked out by the engine without human head & hands first. Give me the necessary formulae."[^ada2]
+In chapter 3 - Infinite Loops, we have briefly introduced the computational diagram that is drafted by Mathematicians Ada Lovelace in 1842, which is often referred to the world's first computer program[^first]. With an interest in numbers and arithmetical calculation, in particular Bernoulli numbers (B<sub>n</sub>), the sequence of rational numbers[^rational], the published diagram and the extensive notes of Ada Lovelace demonstrate the sophisticated step by step sequence of operations for solving mathematical problems. Such a diagram can be seen as instructions that can be executed by machine automatically, as she puts it, "I want to put something about Bernoulli’s numbers, in one of my Notes, as an example of how the implicit function may be worked out by the engine without human head & hands first. Give me the necessary formulae."[^ada2] The formulae is then further expanded as algorithmic procedures via a diagram. 
 
-This chapter is not specificially about the syntax of code, but more about algorithmic procedures that describe the steps and operations of a program to "produce desire outcomes" (Kitchin, 2017, 16) or to solve a problem in Computer Science terms. It is not dependent on specific software and library, and the algorithm can show the steps in which, ideally, can be implemented by any programming languages or at least able to use it for communication. In other words, an algorithm illustrates the break down of procedural operations on how an operation moves from one step to another progressively. Perhaps at this point it is useful to think of the common analogy[^recipe], an algorithm as a cooking recipe to describe ordinary activities in everyday life. For example, what are the ingredients and procedures required when you bake a chocolate cake? 
+This chapter is more about algorithmic procedures that describe the steps and operations of a program and less specificially about the syntax of code. It is not dependent on specific software and library. An algorithm shows the operational steps in which, ideally, can be implemented by any programming languages or at least able to use it for communication. In other words, an algorithm illustrates the break down of procedural operations on how an operation moves from one step to another progressively. Perhaps at this point it is useful to think of the common analogy[^recipe], an algorithm as a cooking recipe to describe ordinary activities in everyday life. For example, what are the ingredients and procedures required when you bake a chocolate cake? 
 
-But of course an algorithm is more than just steps and operations, as it has wider cultural and political consequences. As we learnt in previous chapters that programming is a form of abstraction that requires the selection of important details in which the way of implementation is inevitably embodied programmers' thinking and decision. If an algorithm is considered as the skeleton of how a program operates, then many of the cultural objects that we are using nowadays such as a mobile phone, a web browser, or even a voice assistant device embody the substrate of computing that produce a certain form of reality that structures our experience. In his book *What Algorithms Want*, Ed Finn explores algorithm as a culture machine and argues that algorithm "operates both within and beyond the reflexive barrier of effective computability, producing culture at a macro-social level at the same time as it produces cultural objects, processes, and experiences."[^fin] Similary, scholar Taina Bucher asserts that algorithms have power and politics, and she argues that "they are fundamentally productive of new new ways of ordering the world".[^bucher] It becomes clear that algorithmic procedures play an important role in organizing digital culture, and it is not very easy to see through or describe them because they operate beyond what we see and they have accumulated and wider effects in the ordering of life, more than a cooking recipe. 
+But of course an algorithm is more than just steps and operations, as it has wider cultural and political consequences. As we learnt in previous chapters that programming is a form of abstraction that requires the selection of important details in which the way of implementation is inevitably embodied programmers' thinking and decision. If an algorithm is considered as the skeleton of how a program operates, then many of the cultural objects that we are using nowadays such as a mobile phone, a web browser, or even a voice assistant device embody the substrate of computing that produce a certain form of subjectivity that structures our experience. In his book *What Algorithms Want*, Ed Finn explores algorithm as a culture machine and argues that algorithm "operates both within and beyond the reflexive barrier of effective computability, producing culture at a macro-social level at the same time as it produces cultural objects, processes, and experiences."[^fin] Similary, scholar Taina Bucher asserts that algorithms have power and politics, and she argues that "they are fundamentally productive of new new ways of ordering the world".[^bucher] It becomes clear that algorithmic procedures play an important role in organizing digital culture, and it is not very easy to see through or describe them because they operate beyond what we see and they have accumulated and wider effects in the ordering of life, more than a cooking recipe. 
 
 In this chapter we will introduce diagramming practice, especially flow charts as a means to elaborate the practical and conceptual aspects of algorithmic procedures. 
 
@@ -28,7 +28,7 @@ Within our teaching, we also consider coding as a social activity in which colla
 
 ## Flow Chart
 
-Conventionally, each step in a flow chart is represented by a symbol and connecting lines that guide towards a certain output progressively. The symbols that are used in a flow chart are shapes and each shape has different meaning and below it shows the basic components of drawing a typical flow chart:
+Conventionally, each step in a flow chart is represented by a symbol and connecting lines that guide towards a certain output progressively. The symbols that are used in a flow chart are shapes and each shape has different meaning. Below it shows the basic components of drawing a typical flow chart:
 
 - **Oval**: Indicate the start or end points of a program/system. (But this needs to think about if all programs have an end?)
 - **Rectangle**: Represent the process steps.
@@ -42,9 +42,9 @@ As we have covered the program *Vocable Code* in Chapter 7, Figure 9.1 below sho
 
 Indeed flowcharts are used beyond science disciplines, for example it is relatively common to use flowchart in business sector to understand and communicate how different processes or workflows are done, such as recruitment process flow and customer complaint handling. In humanities teaching, we also introduce flowcharts as a means to deconstructing a text as well as to formulating a structure of an essay idea. It is a tool that helps thinking different procedures and processes.   
 
-In the chapter's mini exercise, you will come up with a flow cart collaboratively for a new project idea. We see a flowchart can be used as a tool to formulate ideas, generate discussion, forseeing technical challenges and set the path for working together. If tasks need to be divided within a group, flowcharts can be used to identify how a smaller task can be linked to other without losing site of seeing the larger picture of a program. 
+In the chapter's mini exercise, you will come up with a flow cart collaboratively for a new project idea. Especially it comes to this stage of the book where you may have more confident in building a slightly more complex program/project that incorporates different types of syntax. We found that one of the usual struggling is to think of combining functions and breaking down a task. We see a flowchart can be used as a tool to formulate ideas, generate discussion, forseeing technical challenges and set the path for working together. If tasks need to be divided within a group, flowcharts can be used to identify how a smaller task can be linked to other without losing site of seeing the larger picture of a program. 
 
-But to turn existing program into a flow chart for communication purpose, the challenges of drawing a flow chart at this stage would be:
+But to turn an existing program into a flow chart for communication purpose, the challenges of drawing a flow chart at this stage would be:
 1. Turn programming syntax and function into understandable plain text.
 2. Decide the details level of showing the important operations that allow other people to understand your program.
 
@@ -70,7 +70,8 @@ o
 
 ```
 
-In our experience in doing this class exercise, every person comes up with a slightly different result and we think it is a good way of starting the discussion about the use of flow charts and the challenges of drawing them.
+In our experience in doing this class exercise[^ex], every person comes up with a slightly different result and we think it is a good way of starting the discussion about the use of flow charts and the challenges of drawing them.
+
 
 ## Discussion
 
@@ -82,9 +83,10 @@ We have selected two quotes from Nathan Ensmenger on his article titled "The Mul
 
 ## Flow charts as diagramming practice
 
-Beyond the more practical usage of a flowchart, it is also an aesthetic diagramming practice as seen in software art. A classic example *Google will eat itself* (2005)[^GWEI] by UBERMORGEN, Alessandro Ludovico and Paolo Cirio illustrate how their artwork operates within the existing process of Google revene generation, and that addresses how information is being monopolized in the dominant global advertisement system. The project's goal is to tigger advertising clicks on websites in order to receive micropayment from Google to buy their share (that is how Google will eat itself as an iterative loop). 
+Beyond the more practical usage of a flowchart, it is also an aesthetic diagramming practice as seen in software art. A classic example *Google will eat itself* (2005)[^GWEI] by UBERMORGEN, Alessandro Ludovico and Paolo Cirio illustrate how their artwork operates within the existing process of Google revene generation, and that addresses how information is being monopolized in the global advertisement system. The project's goal is to tigger advertising clicks on websites in order to receive micropayment from Google to buy their share (that is how Google will eat itself as an iterative loop). 
 
 ![diagram1](ch9_2.gif)
+
 *Figure 9.2: GWEI - Google Will Eat Itself/ THE ATTACK*
 
 After 8 years in 2013, UBERMORGEN developed another project titled *The Project Formerly Known as Kindle Forkbomb Printing Press* but this time they focus on another giant monopolistic corporation AMAZON. Similar to the previous project, they also built an internet robot, instead of clicking the advertisments on webpages, the program is based on, and collect, YouTube video comments to generate books automatically by uploading the generated e-books to Amazon's Kindle bookstore. Such a generative system, or an auto generator, comes without an end but with the aim to "continuously replicates itself, draining the system of its resources, ultimately causing the system to crash"[^pold] by exploiting the print-on-demand, publishing servies as well as the book e-commerce store.
@@ -94,7 +96,7 @@ After 8 years in 2013, UBERMORGEN developed another project titled *The Project 
 *Figure 9.3: The Project Formerly Known as Kindle Forkbomb Printing Press. Courtesy of UBERMORGEN and Kunsthal Aarhus, No Copyright, 2013*
 [g: do you have a better picture/higher resolution of this? /w]
 
-Both works are always being displayed with the flow charts in exhibition settings, in which the artists do not only show different workflows but to make clear that procedures and processes as the art. 
+Both works are always being displayed with the flow charts in exhibition settings, in which the artists do not only display them as an art object but to make clear the point that procedures and processes as the art. 
 
 ## Flow chart as source
 
@@ -157,4 +159,6 @@ Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Pres
 [^pold]: Christian Ulrik Anderden and Søren Bro Pold, Post-digital Books and Disruptive Literary Machines, *Formules* 18, 164-183, 2014. 
 
 [^GWEI]: See http://www.gwei.org/index.php.
+
+[^ex]: You can find one of the many possible ways of illustrating the simple program here: https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/source/9-ProceduralLogics/flow.png
 
