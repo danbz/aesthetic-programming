@@ -14,7 +14,7 @@ But of course an algorithm is more than just steps and operations, as it has wid
 In this chapter we will introduce diagramming practice, especially flow charts as a means to elaborate the practical and conceptual aspects of algorithmic procedures. 
 
 ## start()
-Flow charts is considered as a fundamental tool since the early days of computer programming. One of the uses is to illustrate computational operations and data processing for programming purpose by "converting the numerical method into a series of steps" (Ferranti 1955, 1.3) logically. But flow charts are also considered as a representational diagram which can be also used for communicating complex logics between programmers and organizational units [^flowcharts2].
+Flow charts is considered as a fundamental tool since the early days of computer programming. One of the uses is to illustrate computational operations and data processing for programming purpose by "converting the numerical method into a series of steps" [^Ferranti] logically. But flow charts are also considered as a representational diagram which can be also used for communicating complex logics between programmers and organizational units [^flowcharts2].
 
 Within our teaching, we also consider coding as a social activity in which collaborative coding is encouraged, which means programming is not necessarily seen as anti-social, masculine and nerdy tasks, the myth of the typical stereotypes[^sterotypes] that need to be deconstructed. Furthermore, we understood that in many of the applications that we are using nowadays is not developed by one programmer but tasks are divided into different components instead that are shared by people you know or you don't know, such as maintaining or debugging a program that is done by someone before. As a beginner especially in a classroom setting, we see that having discussion around syntax, logics and implementation collaboratively is a good way to learn together.  
 
@@ -149,6 +149,8 @@ Goffey, Andrew. "Algorithm." *Software Studies\ a lexicon*. Eds. Matthew Fuller.
 [^first]: In particular to the complexity of the diagram for calculating Bernoulli numbers that includes the grouping of operations, the invention of the loop concept (repetition and cycle in Lovelace's term), the manipulation of symbols and variables in accordance with rules. Although such an algorithm was designed to be used in mechanical caluclating machine, Babbage Analytical Engine is conceptually close to a modern computer at the time with a vision that could do other things, such as music, beyond number calculation. See Menabrea, Luigi Federico, and Ada Lovelace. *Sketch of the analytical engine invented by Charles Babbage.* , 1842, p. 694. 
 
 [^rational]: A rational number can be made by dividing two integers e.g 1.5 is a rational number because 1.5 = 3/2 where both 3 and 2 are integers.
+
+[^Ferranti]: Ferranti Limited, Ferranti Pegasus Computer,programming manual, Issue 1, List CS 50,September 1955
 
 [^ada2]: (Lovelace Papers, Bodleian Library, Oxford University, 42, folio 12 (6 Feb 1841). As quoted and cited in Dorothy Stein (ed.), 'This First Child of Mine', Ada: A Life and a Legacy (1985), 106-107.)
 
