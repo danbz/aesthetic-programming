@@ -42,9 +42,11 @@ As we have covered the program *Vocable Code* in Chapter 7, Figure 9.1 below sho
 
 In this chapter, we take a slightly different objective and definition in working with flow charts:
 
-A flow chart shows a breakdown of tasks representing procedures, a step-by-step progression and algorithm. It is not a detailed flow chart that includes every possible computational steps but rather it demonstrates high-level processes for visual understanding that gives a general idea of how tasks are broken down. It is independent of any programming languages as it concerns procedures but not coding syntax.
+A flow chart shows a breakdown of tasks representing procedures, a step-by-step progression and algorithm. It is not a detailed flow chart that includes every possible computational steps but rather it demonstrates high-level processes for visual understanding that gives a general idea of how tasks are broken down. It is independent of any programming languages as it concerns procedures but not specific programming languages.
 
-The challenges of drawing a flow chart at this stage would be:
+In the chapter's mini exercise, you will come up with a flow cart collaboratively for a new project idea. We see a flowchart can be used as a tool to formulate ideas, generate discussion, forseeing technical challenges and set the path for working together. If tasks need to be divided within a group, flowcharts can be used to identify how a smaller task can be linked to other without losing site of seeing the larger picture of a program. 
+
+But to turn existing program into a flow chart for communication purpose, the challenges of drawing a flow chart at this stage would be:
 1. Turn programming syntax and function into understandable plain text.
 2. Decide the details level of showing the important operations that allow other people to understand your program.
 
