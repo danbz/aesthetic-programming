@@ -82,15 +82,19 @@ We have selected two quotes from Nathan Ensmenger on his article titled "The Mul
 
 ## Flow charts as diagramming practice
 
-Beyond the more functional aspect of a flowchart, it is also an aesthetic diagramming practice as seen in software art. A classic example *Google will eat itself* (2005) by UBERMORGEN, Alessandro Ludovico and Paolo Cirio illustrate how their artwork operates within the existing process of Google revene generation, in order to address how information is being monopolized in the dominant global advertisement system. The project's goal is to tigger advertising clicks on websites in order to receive micropayment from Google to buy their share. 
+Beyond the more practical usage of a flowchart, it is also an aesthetic diagramming practice as seen in software art. A classic example *Google will eat itself* (2005)[^GWEI] by UBERMORGEN, Alessandro Ludovico and Paolo Cirio illustrate how their artwork operates within the existing process of Google revene generation, and that addresses how information is being monopolized in the dominant global advertisement system. The project's goal is to tigger advertising clicks on websites in order to receive micropayment from Google to buy their share (that is how Google will eat itself as an iterative loop). 
 
 ![diagram1](ch9_2.gif)
-*Figure 9.3: The Project Formerly Known as Kindle Forkbomb Printing Press. Courtesy of UBERMORGEN and Kunsthal Aarhus, No Copyright, 2013*
+*Figure 9.2: GWEI - Google Will Eat Itself/ THE ATTACK*
 
-After 8 years in 2013, UBERMORGEN developed another project titled *The Project Formerly Known as Kindle Forkbomb Printing Press* but this time they focus on another giant monopoly corporation AMAZON. Similar to the previous project, they also built an internet robot but not to click the advertisments on webpages, instead the program based on and collect YouTube video comments to generate books automatically by uploading the generated e-books to Amazon's Kindle bookstore. Such a generative system, or an auto generator, comes without an end but with the aim to "continuously replicates itself, draining the system of its resources, ultimately causing the system to crash"[^pold] by exploiting the print-on-demand, publishing servies as well as the book e-commerce store.
+After 8 years in 2013, UBERMORGEN developed another project titled *The Project Formerly Known as Kindle Forkbomb Printing Press* but this time they focus on another giant monopolistic corporation AMAZON. Similar to the previous project, they also built an internet robot, instead of clicking the advertisments on webpages, the program is based on, and collect, YouTube video comments to generate books automatically by uploading the generated e-books to Amazon's Kindle bookstore. Such a generative system, or an auto generator, comes without an end but with the aim to "continuously replicates itself, draining the system of its resources, ultimately causing the system to crash"[^pold] by exploiting the print-on-demand, publishing servies as well as the book e-commerce store.
 
 ![diagram3](ch9_3.png)
-*Figure 9.2: GWEI - Google Will Eat Itself/ THE ATTACK*
+
+*Figure 9.3: The Project Formerly Known as Kindle Forkbomb Printing Press. Courtesy of UBERMORGEN and Kunsthal Aarhus, No Copyright, 2013*
+[g: do you have a better picture/higher resolution of this? /w]
+
+Both works are always being displayed with the flow charts in exhibition settings, in which the artists do not only show different workflows but to make clear that procedures and processes as the art. 
 
 ## Flow chart as source
 
@@ -151,3 +155,6 @@ Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Pres
 [^sterotypes]: See Ho, Chih Wei, et al. Examining the impact of pair programming on female students. North Carolina State University. Dept. of Computer Science, 2004.
 
 [^pold]: Christian Ulrik Anderden and Søren Bro Pold, Post-digital Books and Disruptive Literary Machines, *Formules* 18, 164-183, 2014. 
+
+[^GWEI]: See http://www.gwei.org/index.php.
+
