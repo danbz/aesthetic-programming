@@ -40,7 +40,7 @@ Conventionally, each step in a flow chart is represented by a symbol and connect
 As we have covered the program *Vocable Code* in Chapter 7, Figure 9.1 below shows the corresponding flow chart, a different representation of the program. The original idea of this flow is to first demonstrate the high level logics and sequences, and second to elaborate the details in plain English. This flowchart does not follow conventional drawing strictly but using symbols, lines and text to communicate with wider audience like our readers.  
 
 ![flowchart](ch9_1.png)
-*Figure 9.1: The flow chart of Vocable Code by Winnie Soon*
+*Figure 9.1: The flow chart of Vocable Code by Winnie Soon, graphic design by Anders Visti*
 
 Indeed flowcharts are used beyond science disciplines, for example it is relatively common to use flowchart in business sector to understand and communicate how different processes or workflows are done, such as recruitment process flow and customer complaint handling. In humanities teaching, we also introduce flowcharts as a means to deconstructing a text as well as to formulating a structure of an essay idea. It is a tool that helps thinking different procedures and processes.   
 
