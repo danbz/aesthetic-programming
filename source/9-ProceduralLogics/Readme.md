@@ -44,7 +44,7 @@ As we have covered the program *Vocable Code* in Chapter 7, Figure 9.1 below sho
 
 Indeed flowcharts are used beyond science disciplines, for example it is relatively common to use flowchart in business sector to understand and communicate how different processes or workflows are done, such as recruitment process flow and customer complaint handling. In humanities teaching, we also introduce flowcharts as a means to deconstructing a text as well as to formulating a structure of an essay idea. It is a tool that helps thinking different procedures and processes.   
 
-In the chapter's mini exercise, you will come up with a flow cart collaboratively for a new project idea. Especially it comes to this stage of the book where you may have more confident in building a slightly more complex program/project that incorporates different types of syntax. We found that one of the usual struggling is to think of combining functions and breaking down a task. We see a flowchart can be used as a tool to formulate ideas, generate discussion, forseeing technical challenges and set the path for working together. If tasks need to be divided within a group, flowcharts can be used to identify how a smaller task can be linked to other without losing site of seeing the larger picture of a program. 
+In the chapter's mini exercise, you will come up with a flow cart collaboratively for a new project idea. Especially it comes to this stage of the book where you may have more confident in building a slightly more complex program/project that incorporates different types of syntax. We found that one of the usual struggles of crafting a program's flow chart is about how to combine and link various functions as well as to break down a task into smaller steps in order to know what to do next. We see a flowchart can be used as a tool to formulate ideas, generate discussion, forseeing technical challenges and set the path for working together. If tasks need to be divided within a group, flowcharts can be used to identify how a smaller task can be linked to other without losing site of seeing the larger picture of a program. 
 
 But to turn an existing program into a flow chart for communication purpose, the challenges of drawing a flow chart at this stage would be:
 1. Turn programming syntax and function into understandable plain text.
@@ -72,8 +72,7 @@ o
 
 ```
 
-In our experience in doing this class exercise[^ex], every person comes up with a slightly different result and we think it is a good way of starting the discussion about the use of flow charts and the challenges of drawing them.
-
+In our experience with this class exercise[^ex], every person comes up with a slightly different result and we think it is a good way of starting the discussion about the use of flow charts and the challenges of crafting them.
 
 ## Discussion
 
@@ -85,7 +84,7 @@ We have selected two quotes from Nathan Ensmenger on his article titled "The Mul
 
 ## Flow charts as diagramming practice
 
-Beyond the more practical usage of a flowchart, it is also an aesthetic diagramming practice as seen in software art. A classic example *Google will eat itself* (2005)[^GWEI] by UBERMORGEN, Alessandro Ludovico and Paolo Cirio illustrate how their artwork operates within the existing process of Google revene generation, and that addresses how information is being monopolized in the global advertisement system. The project's goal is to tigger advertising clicks on websites in order to receive micropayment from Google to buy their share (that is how Google will eat itself as an iterative loop). 
+Beyond the more practical usage of a flowchart, it is also an aesthetic diagramming practice as seen in software art. A classic example *Google will eat itself* (2005)[^GWEI] by UBERMORGEN, Alessandro Ludovico and Paolo Cirio illustrate how their artwork operates within the existing process of Google revene generation, and that addresses how information is being monopolized in the global advertisement system. The project's goal is to trigger advertising clicks on websites in order to receive micropayment from Google to buy their share (that is how Google will eat itself as an iterative loop). 
 
 ![diagram1](ch9_2.gif)
 
@@ -103,9 +102,9 @@ Both works are always being displayed with the flow charts in exhibition setting
 
 ## While()
 
-There is a growing interest on algorithms as objects of study for disciplines like sociology, media studies, science and technology studies, among others. In the humanities, the concern is not on building an efficient or optimized algorithm, but more into the social and cultural concerns of technology that is less visible or even as a blackbox. Accompanying with this book, students who work on this theme have to create and present a flow chart of a sorting problem, showing an algorithm with procedures to sort a series of unique random number. Sorting seems to be within mathematical discipline where there are different ways to approach such a problem, but if we extend sorting to wider cultural context, such as the prioritization of a social media feeds, it is essentially far more complex that involves selecting, classifying and hierarchizing of time, tastes, objects, knowledge and other forms of metrics that are of business concerns.    
+There is a growing interest on algorithms as objects of study for disciplines like sociology, media studies, science and technology studies, among others. In the humanities, the concern is not on building an efficient or optimized algorithm, but more into the social and cultural concerns of technology that is less visible or even as a blackbox. Accompanying with this book, students who work on this theme have to create and present a flow chart of a sorting problem, showing an algorithm with procedures to sort a series of unique random number. Sorting seems to be seen within mathematical discipline where there are different ways to approach such a problem,  and if we extend sorting to wider cultural context, such as the prioritization of a social media feeds, it is essentially far more complex that involves selecting, classifying and hierarchizing of time, tastes, objects, knowledge and other forms of metrics that are of business concerns.    
 
-....
+.... next chapter is machine learning btw...wondering what you will say here :) 
 
 
 ## Mini_Exercise[9]: 
