@@ -22,6 +22,8 @@ Within our teaching, we also consider coding as a social activity in which colla
 
 - Can you give a daily example with the details of (computational) logic about an algorithm that you have used or experienced. 
 
+- Can you sketch an algorithic procedures on how your social media feeds is being organized?
+
 - Base on the assigned reading from Bucher, can you list out some of the properties of algorithms? Why is it both technical and social?
 
 - We have discussed rule-based systems in Chapter 6 - Auto Generator, how is that different from procedures in this chapter?
@@ -98,9 +100,12 @@ After 8 years in 2013, UBERMORGEN developed another project titled *The Project 
 
 Both works are always being displayed with the flow charts in exhibition settings, in which the artists do not only display them as an art object but to make clear the point that procedures and processes as the art. 
 
-## Flow chart as source
 
 ## While()
+
+There is a growing interest on algorithms as objects of study for disciplines like sociology, media studies, science and technology studies, among others. In the humanities, the concern is not on building an efficient or optimized algorithm, but more into the social and cultural concerns of technology that is less visible or even as a blackbox. Accompanying with this book, students who work on this theme have to present a flow chart of sorting problems, showing an algorithm and procedures to sort a series of unique random number. Sorting seems to be a mathematical discipline, but if we put this sorting algorithm into wider cultural context, such as the prioritization of a social media feeds, it is essentially far more complex that involves selecting, classifying and hierarchizing of time, tastes, objects, knowledge and other forms of metrics.   
+
+....
 
 
 ## Mini_Exercise[9]: 
