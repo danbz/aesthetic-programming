@@ -44,6 +44,8 @@ In this chapter, we take a slightly different objective and definition in workin
 
 A flow chart shows a breakdown of tasks representing procedures, a step-by-step progression and algorithm. It is not a detailed flow chart that includes every possible computational steps but rather it demonstrates high-level processes for visual understanding that gives a general idea of how tasks are broken down. It is independent of any programming languages as it concerns procedures but not specific programming languages.
 
+Indeed flowcharts are used beyond science disciplines, for example it is relatively common to use flowchart in business sector to understand and communicate how different processes or workflows are done, such as recruitment process flow and customer complaint handling. In humanities teaching, we also introduce flowcharts as a means to deconstructing a text as well as to formulating a structure of an essay idea. It is a tool that helps thinking different procedures and processes.   
+
 In the chapter's mini exercise, you will come up with a flow cart collaboratively for a new project idea. We see a flowchart can be used as a tool to formulate ideas, generate discussion, forseeing technical challenges and set the path for working together. If tasks need to be divided within a group, flowcharts can be used to identify how a smaller task can be linked to other without losing site of seeing the larger picture of a program. 
 
 But to turn existing program into a flow chart for communication purpose, the challenges of drawing a flow chart at this stage would be:
