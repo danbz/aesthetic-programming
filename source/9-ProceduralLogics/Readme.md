@@ -84,8 +84,13 @@ We have selected two quotes from Nathan Ensmenger on his article titled "The Mul
 
 Beyond the more functional aspect of a flowchart, it is also an aesthetic diagramming practice as seen in software art. A classic example *Google will eat itself* (2005) by UBERMORGEN, Alessandro Ludovico and Paolo Cirio illustrate how their artwork operates within the existing process of Google revene generation, in order to address how information is being monopolized in the dominant global advertisement system. The project's goal is to tigger advertising clicks on websites in order to receive micropayment from Google to buy their share. 
 
+![diagram1](ch9_2.gif)
+*Figure 9.3: The Project Formerly Known as Kindle Forkbomb Printing Press. Courtesy of UBERMORGEN and Kunsthal Aarhus, No Copyright, 2013*
+
 After 8 years in 2013, UBERMORGEN developed another project titled *The Project Formerly Known as Kindle Forkbomb Printing Press* but this time they focus on another giant monopoly corporation AMAZON. Similar to the previous project, they also built an internet robot but not to click the advertisments on webpages, instead the program based on and collect YouTube video comments to generate books automatically by uploading the generated e-books to Amazon's Kindle bookstore. Such a generative system, or an auto generator, comes without an end but with the aim to "continuously replicates itself, draining the system of its resources, ultimately causing the system to crash"[^pold] by exploiting the print-on-demand, publishing servies as well as the book e-commerce store.
 
+![diagram3](ch9_3.png)
+*Figure 9.2: GWEI - Google Will Eat Itself/ THE ATTACK*
 
 ## Flow chart as source
 
