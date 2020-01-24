@@ -35,14 +35,10 @@ Conventionally, each step in a flow chart is represented by a symbol and connect
 - **Diamond**: Show the decision points with yes and no branches.
 - **Arrow**: Act as a connector to show the relationship and sequence, but sometimes an arrow might be returned the the previous process especially showing the repetition and loops.
 
-As we have covered the program *Vocable Code* in Chapter 7, Figure 9.1 below shows the corresponding flow chart, a different representation of the program. The original idea of this flow is to first demonstrate the high level logics and sequences, and second to elaborate the details in plain English. This flowchart does not follow conventional drawing strictly but using symbols, lines and text to communicate with wider audiences like our readers.  
+As we have covered the program *Vocable Code* in Chapter 7, Figure 9.1 below shows the corresponding flow chart, a different representation of the program. The original idea of this flow is to first demonstrate the high level logics and sequences, and second to elaborate the details in plain English. This flowchart does not follow conventional drawing strictly but using symbols, lines and text to communicate with wider audience like our readers.  
 
 ![flowchart](ch9_1.png)
 *Figure 9.1: The flow chart of Vocable Code by Winnie Soon*
-
-In this chapter, we take a slightly different objective and definition in working with flow charts:
-
-A flow chart shows a breakdown of tasks representing procedures, a step-by-step progression and algorithm. It is not a detailed flow chart that includes every possible computational steps but rather it demonstrates high-level processes for visual understanding that gives a general idea of how tasks are broken down. It is independent of any programming languages as it concerns procedures but not specific programming languages.
 
 Indeed flowcharts are used beyond science disciplines, for example it is relatively common to use flowchart in business sector to understand and communicate how different processes or workflows are done, such as recruitment process flow and customer complaint handling. In humanities teaching, we also introduce flowcharts as a means to deconstructing a text as well as to formulating a structure of an essay idea. It is a tool that helps thinking different procedures and processes.   
 
@@ -84,9 +80,12 @@ We have selected two quotes from Nathan Ensmenger on his article titled "The Mul
 
 2. "Flowcharts allow us to "see" software in ways that are otherwise impossible" (p. 346)
 
-## Other forms of flow charts as diagramming practice
+## Flow charts as diagramming practice
 
-- The  Project  Formerly  Known  as  Kindle  Forkbomb Printing Press: http://www.arnolfini.org.uk:7081/project.arnolfini/the-project-formerly-known-as-kindle-forkbomb
+Beyond the more functional aspect of a flowchart, it is also an aesthetic diagramming practice as seen in software art. A classic example *Google will eat itself* (2005) by UBERMORGEN, Alessandro Ludovico and Paolo Cirio illustrate how their artwork operates within the existing process of Google revene generation, in order to address how information is being monopolized in the dominant global advertisement system. The project's goal is to tigger advertising clicks on websites in order to receive micropayment from Google to buy their share. 
+
+After 8 years in 2013, UBERMORGEN developed another project titled *The Project Formerly Known as Kindle Forkbomb Printing Press* but this time they focus on another giant monopoly corporation AMAZON. Similar to the previous project, they also built an internet robot but not to click the advertisments on webpages, instead the program based on and collect YouTube video comments to generate books automatically by uploading the generated e-books to Amazon's Kindle bookstore. Such a generative system, or an auto generator, comes without an end but with the aim to "continuously replicates itself, draining the system of its resources, ultimately causing the system to crash"[^pold] by exploiting the print-on-demand, publishing servies as well as the book e-commerce store.
+
 
 ## Flow chart as source
 
@@ -145,3 +144,5 @@ Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Pres
 [^bucher]: Bucher, Taina. *If...Then: Algorithmic Power and Politics*. Oxford University Press, 2018, p. 20.
 
 [^sterotypes]: See Ho, Chih Wei, et al. Examining the impact of pair programming on female students. North Carolina State University. Dept. of Computer Science, 2004.
+
+[^pold]: Christian Ulrik Anderden and Søren Bro Pold, Post-digital Books and Disruptive Literary Machines, *Formules* 18, 164-183, 2014. 
