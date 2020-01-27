@@ -103,7 +103,7 @@ function draw() {
 7. Can you run the program so that you can see almost the same screen as Figure 6 on a web browser?
 
 <br><!-- <img src="ch1_7.png" width="500"> -->
-![]({attach}ch1_7.png) <br>
+![](ch1_7.png) <br>
 *Figure 1.7: My first program 1.1*
 
 This exerise is to get familiarize you with the path and local directory so as to know that running a sketch on a web browser requires loading the right path of the JavaScript libraries. You are also free to create your own folder name and rename the file like sketch.js as you please. You may also try to change the parameters of the numbers to get a sense of how things work, but this will be explained in more detail later in the book.
