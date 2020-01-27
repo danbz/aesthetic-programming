@@ -72,7 +72,7 @@ Sketch.js is the working file. Inside there are only two functions.
 * `function setup()` - Code within this function will only run once by the sketch. We would typically use this to set the canvas size to define the basic sketch setup.
 * `function draw()` - Taking the clue from drawing practice in visual arts, code within this function will keep on looping, and that means the `function draw()` is called on each running frame. The default rate is 60 frames/times per second, and this is especially useful when things are set in motion or constantly being captured.
 
-Let's try to input these into the sketch to draw a canvas with a changing background (between white and black colors), then the sketch will further draw an ellipse located somewhere in the top left corner. (Double check the spelling and punctuation like curly brackets and semi-colons, indicating the scope of the function and end of the line respectively. Details of the code will be further explained later.)
+Let's try to input these into the sketch to draw a canvas with a changing background (subtly change the darkness of the black color), then the sketch will further draw an ellipse located somewhere in the top left corner. (Double check the spelling and punctuation like curly brackets and semi-colons, indicating the scope of the function and end of the line respectively. Details of the code will be further explained later.)
 
 ```javascript
 function setup() {
