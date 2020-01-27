@@ -83,7 +83,7 @@ function setup() {
 }
 function draw() {
   // put drawing code here
-  background(random(255));
+  background(random(50));
   ellipse(55,55,55,55);
 }
 ```
