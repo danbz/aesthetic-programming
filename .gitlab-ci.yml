@@ -6,7 +6,7 @@ pages:
   - echo 'Nothing to do...'
   artifacts:
     paths:
-    - sample_codes/p5_SampleCode
+    - public
 
   only:
   - master
