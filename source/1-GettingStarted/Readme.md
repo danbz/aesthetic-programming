@@ -46,7 +46,6 @@ Additionally we use Gitlab as our code and text respository, at least for this b
 *  **sketch.js** - the key working file for writing JavaScript. The use of the word 'sketch' is similar to drawing a sketch in visual arts, which is less formal to use a sketch to work out or capture ideas and experiment with composition.
 *  **p5.js** - the p5.js core library.
 *  **p5.sound.js** - the p5.js sound library[^sound] for web audio functionality, including features like playback, listening to audio input, audio analysis and synthesis.  
-*  **p5.dom.js** - the p5.js dom library (we will return to this in Chapter 4).
 
 ### 1.2.2 Code editor
 ATOM is used as the key code editor for this book. It supports cross-platform editing which can be run on Mac OS, Windows and Linux.
