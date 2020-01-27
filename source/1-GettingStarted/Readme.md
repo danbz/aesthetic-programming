@@ -87,7 +87,7 @@ function draw() {
 }
 ```
 
-* To run the code, you just need to go to Packages > atom-live-server (or you can use the shortcut Crtl + Alt + L). Then you will see a popup window, click on the 'empty-example' folder and it should display something like this:
+* To run the code, you just need to go to Packages > atom-live-server (or you can use the shortcut Crtl + Alt/Option + L). Then you will see a popup window, click on the 'empty-example' folder and it should display something like this:
 <br><!-- <img src="ch1_6.png" width="500"> -->
 ![](ch1_6.png) <br>
 *Figure 1.6: My first program*  
