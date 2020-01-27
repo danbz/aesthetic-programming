@@ -110,7 +110,7 @@ This exerise is to get familiarize you with the path and local directory so as t
 ## 1.3 The sample code: Reading the web console 'Hello World'
 As you might realise by now, this book is not following the convention of most programming books in starting with the 'Hello World' program, printing 'Hello World' onto the screen. In p5.js, `print()` is the function to print,[^print] but in a web browser setting that the `print()` function writes in the "console area". This is an area not for end users, but more for programmers or developers to see if there are any error messages, logging messages to the console and to check that code is executing in the expected way.
 
-In the sample code above, you can see that line 4 prints 'hello world'. But to see the text, you need to open the web console area which is located according to the type of browser you are using. Try to search by navigating the menu bar. In the Firefox browser, for instance, it is located under Tools > Web Developer > Web Console (Ctrl + Shift + K).
+In the sample code above, you can see that line 4 prints 'hello world'. But to see the text, you need to open the web console area which is located according to the type of browser you are using. Try to search by navigating the menu bar. In the Firefox browser, for instance, it is located under Tools > Web Developer > Web Console (Ctrl + Shift + K for Linux and Option + Command + K for Mac).
 
 <br><!-- <img src="ch1_8.png" width="400"> -->
 ![](ch1_8.png) <br>
