@@ -55,7 +55,7 @@ ATOM is used as the key code editor for this book. It supports cross-platform ed
 ![](ch1_4.png)<br>
 *Figure 1.4: The file structure of ATOM*
 
-The 'index.html' is the default page, amongst all other pages and files, which the web browser will display. You can customize the page title and other styling issues, but the focus for this chapter will be to navigate the libraries and run your first program. Since `p5.js` is a library, here the lines 8-11 indicate how to incorporate JavaScript files and libraries by using the tags `<script>` and `</script>`.
+The 'index.html' is the default page, amongst all other pages and files, which the web browser will display. You can customize the page title and other styling issues, but the focus for this chapter will be to navigate the libraries and run your first program. Since `p5.js` is a library, here the lines 8-10 indicate how to incorporate JavaScript files and libraries by using the tags `<script>` and `</script>`.
 
 Right now the script is using relative paths, which is a useful concept when we need to understand how the libraries are operated, how to locate the files and how to incorporate new libraries and files in the future. The JavaScript libraries are simply files, and we have to incorporate these files into the html so that they can be imported and read by the program. This means that when we use the p5 syntax, the program can recognize the syntax and the corresponding function. For this particular example, it is important to aware that the JavaScript libraries and the html file are in the same directory. If we move the libraries somewhere else, we will then need to update the path.
 
@@ -146,20 +146,20 @@ What we want to demonstrate here is that the references are important to start w
 ## 1.4 Git
 We use Git both in our process of writing this book as well as in our teaching. Git is an open source software management system developed by Linus Torvalds in 2005, the creator of Linux Kernel Architecture that is used in the Linux Operating System. It is used to track changes in any files, facilitating versioning control of variations in a distributed network. It is particularly useful for collaborative programming in a larger scale, where individual works on different parts of the software with their own machine via copying (forking), splitting (branching) and combining (merging). In this way Git uses a distributed model in which every contributor maintain and has a copy of the main repository.
 
-GitLab is an open source web-based Git repository platform, hosting software libraries and source code that are contributed by software developers. GitLab is also a social platform, where one can leave comments, follow other software development process, fork the whole program into your own repositor, and amongst others. All the book content including the readme files, source code and libaries are stored on the GitLab platform in a creative common licience, giving other people the rights to share, use and build upon this work. We imagine this is just the first iteration (we have many versions before the beta launch indeed) of this book and we hope to see many re-appropriation and forking of the entire book so that people would base on the existing skeleton to make changes, such as adding a chapter, an example and exercise and more related content and references that facilitate the dialogues between programming and thinking. 
+GitLab is an open source web-based Git repository platform, hosting software libraries and source code that are contributed by software developers. GitLab is also a social platform, where one can leave comments, follow other software development process, fork the whole program into your own repositor, and amongst others. All the book content including the readme files, source code and libaries are stored on the GitLab platform in a creative common licience, giving other people the rights to share, use and build upon this work. We imagine this is just the first iteration (we have many versions before the beta launch indeed) of this book and we hope to see many re-appropriation and forking of the entire book so that people would base on the existing skeleton to make changes, such as adding a chapter, an example and exercise and more related content and references that facilitate the dialogues between programming and thinking.
 
-For simplicy, we use the GitLab's web interface for some of our writing and teaching. Specifically for students to familiar with the writing of README file[^readme] and also aware that JavaScript can be run online via a web browser as RUNME. We also use GitLab for peer feedback so that students can read other people work with both README and RUNME. 
+For simplicy, we use the GitLab's web interface for some of our writing and teaching. Specifically for students to familiar with the writing of README file[^readme] and also aware that JavaScript can be run online via a web browser as RUNME. We also use GitLab for peer feedback so that students can read other people work with both README and RUNME.
 
 ![gitlab](ch1_12.png)
 *Figure 1.12: Create a new project on GitLab web interface*
 
 1. Register an account by clicking 'Register' at the navigation bar
-2. To create new project: Go to Projects > New Project 
-3. Give a projet name and a project description, and click Public if this project can be accessed by others without any authentication. 
-4. As this point you can also initialize a README within the repository by ticking the checkbox. 
-5. A folder in your repository then should be created 
+2. To create new project: Go to Projects > New Project
+3. Give a projet name and a project description, and click Public if this project can be accessed by others without any authentication.
+4. As this point you can also initialize a README within the repository by ticking the checkbox.
+5. A folder in your repository then should be created
 
-To upload the file or create a directory, just simply click on the '+'' sign under the repository project name. 
+To upload the file or create a directory, just simply click on the '+'' sign under the repository project name.
 
 ![gitlab1](ch1_13.png)
 *Figure 1.13: Manage directories/files on GitLab web interface*
@@ -174,16 +174,16 @@ This politics of language was touched upon in the first section of this chapter,
 
 In this book we weave together the words and actions of human and computer languages although recognise that they are not equivalents as such. The syntax of JavaScript, that we use in this book is one particular instance of this — useful to learn programming fundamentals and basic object-oriented concepts — but also allowing for experimentation with *seconday notation*. By this, we mean adjusting the formal notation to allow it to be more easily understood and offer the opportunity for other creative expression through semantic ambiguity; as, for instance, using 'class' to describe one or more objects in object-oriented programming as well as to stratefications in society based on economic and social status. An excellent example of this is Harwood's codework "Class Library", a melding of program code and written text to stress the material conditions of working with code and the possibility of class action.[^Harwood] You might want to look this term up in the references section to clarify the technical understanding.  
 
-This discussion of programming or coding as a necessary skill for contemporary life seems indisputable, and there are plenty of examples of initiatives related to computational literacy and thinking, from online tutorials to websites such as Codecademy.org and Code.org. As already introduced at the beginning of this chapter, Vee's *Coding Literacy* explores these connections too, arguing how the concept of literacy underscores the importance, flexibility, and power of writing for and with computers.[^Vee3] An important aspect of this is that not only does this help us to better understand the social, technical and cultural dynamics of programming but also expands our very notion of literacy and its connection to a politics of exclusion (as with other non-standard literacies). Furthermore, and given that programming like other forms of writing performs actions, it presents itself as way to reconceive politics too: not simply writing or speaking, arguing or protesting in public, but also demonstrating the ability to modify the technical layer through which the action is performed, in recognition of the ways in which power and control are now structured at the level of infrastructure.[^Kelty] 
+This discussion of programming or coding as a necessary skill for contemporary life seems indisputable, and there are plenty of examples of initiatives related to computational literacy and thinking, from online tutorials to websites such as Codecademy.org and Code.org. As already introduced at the beginning of this chapter, Vee's *Coding Literacy* explores these connections too, arguing how the concept of literacy underscores the importance, flexibility, and power of writing for and with computers.[^Vee3] An important aspect of this is that not only does this help us to better understand the social, technical and cultural dynamics of programming but also expands our very notion of literacy and its connection to a politics of exclusion (as with other non-standard literacies). Furthermore, and given that programming like other forms of writing performs actions, it presents itself as way to reconceive politics too: not simply writing or speaking, arguing or protesting in public, but also demonstrating the ability to modify the technical layer through which the action is performed, in recognition of the ways in which power and control are now structured at the level of infrastructure.[^Kelty]
 
-To get started, your first program is a means to engage with these ideas, to run some code. As this is not meant to be, nor can be, simply a technical exercise, we ask you to make the critical and practical aspects explicit in producing a README and a RUNME. This book serves as a guide for this initial task as well as subsequent ones: to run some code and to think with it. 
+To get started, your first program is a means to engage with these ideas, to run some code. As this is not meant to be, nor can be, simply a technical exercise, we ask you to make the critical and practical aspects explicit in producing a README and a RUNME. This book serves as a guide for this initial task as well as subsequent ones: to run some code and to think with it.
 
 ## 1.5.1 Mini_Exercise[1]: My First Program
 
-Make a RUNME and a README. 
+Make a RUNME and a README.
 
 **Objective:**
-- To learn the basic setup, including writing code with a code editor, running code with a web browser, independent study of code syntax, creating a readme file, etc. 
+- To learn the basic setup, including writing code with a code editor, running code with a web browser, independent study of code syntax, creating a readme file, etc.
 - To reflect upon the process of coding.
 
 **To get some additional inspiration here:**
@@ -198,12 +198,12 @@ Make a RUNME and a README.
 3. Use, Read, Modify (or even combine) the sample code that you find (the most basic level is changing the numbers), and produce a new sketch as a RUNME.
 
 **Questions to think about in your README:**
-- How would you describe your first independent coding experience (in relation to thinking, reading, copying, modifying, writing code, and so on)? 
+- How would you describe your first independent coding experience (in relation to thinking, reading, copying, modifying, writing code, and so on)?
 - How is the coding process different from, or similar to, reading and writing text?
 - What does code and programming mean to you, and how do the assigned readings help you to reflect on programming?
 
 ## Required reading:
-- Nick Montfort, "Appendix A: Why Program?", *Exploratory Programming For the Arts and Humanities* (Cambridge, Mass.: MIT Press, 2016), 267-277. 
+- Nick Montfort, "Appendix A: Why Program?", *Exploratory Programming For the Arts and Humanities* (Cambridge, Mass.: MIT Press, 2016), 267-277.
 - Annette Vee, "Coding for Everyone and the Legacy of Mass Literacy", *Coding Literacty: How Computer Programming Is Changing Writing* Cambridge, Mass.: MIT Press, 2017), 43-93.
 - Lauren McCarthy, [Learning While making P5.JS](https://www.youtube.com/watch?v=1k3X4DLDHdc), OPENVIS Conference (2015).
 - Daniel Shiffman, 1.1: Code! Programming with p5.js [online] (2018). Available at https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2 [Accessed 09 Sep. 2019].
@@ -264,7 +264,7 @@ Make a RUNME and a README.
 
 [^print]: https://p5js.org/reference/#/p5/print.
 
-[^Chun2]: Wendy Hui Kyong Chun and Andrew Lison argue the first Hello World program we learn is enjoyable and seductive. We will say more about this in the following chapter. See Wendy Hui Kyong Chun and Andrew Lison, "Fun is a Battlefield: Software between Enjoyment and Obsession", in Olga Goriunova, ed., *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing* (New York, London: Bloomsbury Academic, 2014), 180. 
+[^Chun2]: Wendy Hui Kyong Chun and Andrew Lison argue the first Hello World program we learn is enjoyable and seductive. We will say more about this in the following chapter. See Wendy Hui Kyong Chun and Andrew Lison, "Fun is a Battlefield: Software between Enjoyment and Obsession", in Olga Goriunova, ed., *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing* (New York, London: Bloomsbury Academic, 2014), 180.
 
 [^Hello]: *hallo welt! (hello world!)* was a collaboration between Geoff Cox and Duncan Shingleton, see http://www.anti-thesis.net/hello-world-60/.
 
@@ -284,7 +284,7 @@ Make a RUNME and a README.
 
 [^Cox]: See also Geoff Cox & Alex McLean, *Speaking Code: Coding as Aesthetic and Political Expression* (Cambridge, Mass.: MIT Press, 2013).
 
-[^Hoggart]: Richard Hoggart, *The Uses of Literacy: Aspects of Working Class Life* (London: Penguin, 2009 [1957]). 
+[^Hoggart]: Richard Hoggart, *The Uses of Literacy: Aspects of Working Class Life* (London: Penguin, 2009 [1957]).
 
 [^Ong]: Walter J. Ong, *Orality and Literacy: The Technologizing of the Word* (London: Routledge, 2002 [1982]).
 
@@ -294,4 +294,4 @@ Make a RUNME and a README.
 
 [^Kelty]: This point largely derives from Christopher Kelty's *Two Bits: the Cultural Significance of Free Software* (Durham: Duke University Press, 2008), who uses the phrase "running code" to describe the relationship between "argument-by-technology and argument-by-talk" (58). Clearly programmers are able to make arguments like other rhetorical forms, see Kevin Brock, *Rhetorical Code Studies: Discovering Arguments in and around Code* (Ann Arbor, Michigan: University of Michigan Press, 2019).
 
-[^readme]: The readme file is structured in a markdown format with the file extension as '.md'. It is a lightweight markup language supporting simple text formatting with special syntax. Files with this extension can be processed by GitLab and display in a more readable form visually. For more about the syntax of writing the Markdown, see: https://docs.gitlab.com/ee/user/markdown.html. 
+[^readme]: The readme file is structured in a markdown format with the file extension as '.md'. It is a lightweight markup language supporting simple text formatting with special syntax. Files with this extension can be processed by GitLab and display in a more readable form visually. For more about the syntax of writing the Markdown, see: https://docs.gitlab.com/ee/user/markdown.html.
