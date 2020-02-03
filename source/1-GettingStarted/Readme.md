@@ -97,7 +97,7 @@ function draw() {
 2. Try to rename the folder 'empty-example' to 'myFirstSketch' (in order to help the computer to process better, don't use space in between)
 3. Try to create a folder called 'libraries' under 'myFirstSketch'
 4. Drag the three p5 libraries into the newly created folder: 'libraries'
-5. Change the relative path of the three js libraries in index.html
+5. Change the relative path of the two js libraries in index.html
 6. Change the title in the HTML file (line 6)
 7. Can you run the program so that you can see almost the same screen as Figure 6 on a web browser?
 
