@@ -3,6 +3,8 @@ page_order: 7
 
 ## 7. Vocable Code
 
+add “World's First Classical Chinese Programming Language” - https://spectrum.ieee.org/tech-talk/computing/software/classical-chinese
+
 ## 7.1 Begin()
 
 By using the phase *vocable code* for the title of this chapter we aim to make explicit the ways in which the act of coding is not reducible to its functional aspects. Rather we stress that code mirrors the instability inherent to human language in terms of how it expresses itself and is interpreted. Code is both script and performance, and in this sense is always ready to do something: it says what it will do and does it at the same time. This analogy to speech, or more specifically to *speech-act theory* has been well rehearsed in software studies (not least in *Speaking Code*) and helps us to demonstrate neatly how we can to do things with words *and* code: to produce an action with effects.<sup>[1](#myfootnote1)</sup>  
