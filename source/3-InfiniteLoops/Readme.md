@@ -328,6 +328,8 @@ Other methods for adding or removing an array index might be useful:
 - `array.splice()` (ref: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice): This is to remove a range of an array index, or remove the existing index and replace with new indexes with other values. 
 
 ### 3.10 Conditional statements 
+[have been moved to ch.2, need changes for this bit /w]
+
 Conditional statements are very useful as they allow you to set a different decision path by specifying conditions. Indeed, a conditional decision is something not only specific to programming. In the everyday life, for instance, you might say "If I am hungry, then I'll eat some food, otherwise if I am thirsty, then I will drink some water, else I will just take a nap". 
 
 ```javascript
@@ -355,47 +357,7 @@ if(sentences >= maxSentences){  //if the existing sentence count reaches the max
 The value of the variable `maxSentences` is 77 (refer to line 22 from the source code), therefore each asterisk contains 77 sentences (which is in the form of a line that contains numbers). The other variable `sentences` counts for each line and the program will check if the current `sentences` has reached its maximum scope. **If** the asterisk reaches 77 sentences **then** it will move to the next one and the `sentences` counter will be reset to 0 (line 84) and count again. The logic repeats and loops again within the `draw()` function. 
 
 #### 3.10.1 Relational operators 
-When you have to create your own conditional statement with the if-then format, there are multiple combinations you can work on to form a more complex expression. For example, you can have many different cases using the syntax `else if`, or a combinaton of logical operators, such as the AND case here in another pseudocode example: 
-
-```javascript 
-if (I am hungry) && (I am in a good mood) {
-    print("go out");
-}
-```
-
-Here is a list of relational operators and logical symbols that can be used in conditional statements. 
-
-```
-/* 
-Relational Operators: 
->   Greater than
-<   Less than
->=  greater than or equal to
-<=  less than or equal to
-==  equality
-=== equality (include strict data type checking)
-!=  not equal to
-!== inequality with strict type checking
-*/
-
-/*
-Logical Operators: boolean logic:
-&&  logical AND
-||  logical OR
-!   logical NOT
-*/
-
-/*
-Example: 
-if () {
-  //something here
-}else if() {
-  //something here
-}else{
-  //something here
-}
-*/
-```
+have been moved to ch.2 
 
 ### 3.11 Loops 
 The core concept of a loop is that you can execute a block of code many times. For example, if you have to draw 100 lines that are placed vertically one after the other, you can of course write 100 lines of code using the syntax: `line()`. A *for-loop* provides an efficient way to draw the line 100 times by setting up a conditional structure, counting the number of lines that have been drawn and counting the maximum lines.
