@@ -194,7 +194,7 @@ Make a RUNME and a README.
 
 **Task (RUNME):**
 1. Study at least one example of syntax from p5.js' [reference](https://p5js.org/reference/) (Of course, it is always good to know more than one. Be curious!)
-2. Familiarise yourself with the reference structure: examples, descriptions, different syntax and parameters (This knowledge will becomes essential and life-long skills for learning new syntax on your own)
+2. Familiarise yourself with the reference structure: examples, descriptions, different syntax and parameters (This knowledge will become essential and life-long skills for learning new syntax on your own)
 3. Use, Read, Modify (or even combine) the sample code that you find (the most basic level is changing the numbers), and produce a new sketch as a RUNME.
 
 **Questions to think about in your README:**
