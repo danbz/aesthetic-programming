@@ -82,7 +82,7 @@ The above code draws various shapes and performs simple interactions:
 - you can also click on the mouse to change the size of the grey ellipse
 
 ## 2.2 Coordination
-In the last chapter, we briefly talked about x and y coordinates, which is a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(windowWidth,windowHeight)` refers to the action of creating a canvas with the width and height according to your window size. Unlike the previous chapter you can set the pixel dimension of a canvas, this approach gives you a flexibility of no fixed size. It should be reminded that in mathematics the origin [0,0] is positioned in the middle of a grid paper/screen, but in computing the origin is drawn at the upper left corner (see Figure 1.11 in the previous chapter).
+In the last chapter, we briefly talked about x and y coordinates, which is a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(windowWidth,windowHeight)` refers to the action of creating a canvas with the width and height according to your window size. Unlike the previous chapter with the setting of the exact pixel dimension, this approach gives you a flexibility of no fixed canvas size. It should be reminded that in mathematics the origin [0,0] is positioned in the middle of a grid paper/screen, but in computing the origin is drawn at the upper left corner (see Figure 1.11 in the previous chapter).
 
 ## 2.2.1 Exercise in class
 ```javascript
@@ -113,9 +113,9 @@ You should notice from the responses of the console area (see Figure 2.2) that i
 
 ## 2.3 Variables
 
-In programming, both width and height are called *variables*, which is another important concept. Variables are used to store data and information in a computer program. You can think of variables as a container, and you can put things in a given container, replace them with other things, and store them for later retrieval. There is also something called a 'global variable', which you can use in any parts of your code. Local variables are defined within a structure or a function, and then an only be used within that block of code. To define a global variable, you need to define it before the setup of the program, usually in the first few lines of the program.
+In programming, both width and height are called *variables*, which is another important concept. Variables are used to store data and information in a computer program. You can think of variables as a kitchen container, and you can put things (like food, forks, etc) in a given container, replace them with other things, and store them for later retrieval. Two main types of variables: Local variables are defined within a structure or a function, and then can only be used within that block of code. On the contrary, a 'global variable' is something you can use in any parts of your code. To define a global variable, you need to define it before the setup of the program, usually in the first few lines of the program. On the other note, 
 
-To use the sample code example, the value behind 'windowWidth' which is the window width as the canvas width (as illustrated in line 2). To continue with the analogy, a container with the name 'width' (as we have just typed in the web console) is being labeled and has stored the value. In this case, it is assigned by default as the program is able to retrieve the measurement of the canvas.
+To use the sample code example, the value behind `windowWidth` is the width of the window that set as the canvas width (as illustrated in line 2). To continue with the analogy, a container with the name 'width' (as we have just typed in the web console) is being labeled and has stored the value. In this case, it is assigned by default as the program is able to retrieve the measurement of the canvas. With the variable `width`, this value can be changed according to your window width and being retrieved and display by using the web console. 
 
 But, and importantly, you can also assign your own variable names (in other words, you can create your own type of container and store other values).
 
@@ -136,7 +136,7 @@ if (mouseIsPressed) {
 }
 ```
 
-The above is the excerpt of the entire code to draw two different size of ellipses. The last two arguments of the ellipse function refer to width and height. Instead of placing a number in the function as in Chapter 1, this time we use variables instead as they hold values too. There are 3 steps to use variables:
+The above is the excerpt of the entire code to draw two different size of ellipses (As discussed in the previous chapter, the last two arguments of the ellipse function refer to width and height). Instead of placing a number in the function as in Chapter 1, this time we use variables instead as they hold values too. There are 3 steps to use variables:
 
 1. **Declare:** Think of a name for the container you want to store the value in (usually it will make sense to yourself and to others to read it, but of course there is scope for a conceptual approach here). Declare with the syntax 'let' in front.[^let]
 2. **Assign:** What is it that you want to store there? Is it a number? By assigning a value, you will need to use the equal sign. Officially, there are 4 data types that are useful to know at this introductary level:
@@ -146,7 +146,7 @@ The above is the excerpt of the entire code to draw two different size of ellips
     4. color for color values. It can take in Red Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` (see more from the [p5.js color reference](https://p5js.org/reference/#/p5/color)[^color]
 3. **(Re)Use:** How and when do you want to retrieve the stored data? If the variable will change over time, you may want to reuse it many times.
 
-For this example, two variables: 'moving_size' is more stable than 'static_size' because the later one will change according to mouse press. (If you foresee the values won't change, you may also consider to use `const`, where a value remains unchanged for the entire program).
+For this example, two variables: 'moving_size' is more stable than 'static_size' because the later one will change according to mouse press. (If you foresee the values won't change, you may also consider to use `const` [constant], where a value remains unchanged for the entire program).
 
 There are two more variables in the example: `mouseX` and `mouseY`. These are changing variables and are subject to the mouse movement to trace the coresponding x and y coordinates. If you want to know the mouseX and mouseY exact coordinate position, you may also use `print()` or `console.log` to display the two values in the console area. (How to write a line of code to display or print the mouseX value on the web console?)
 
@@ -190,16 +190,80 @@ print("hello" + "world");
 "hello world"
 
 ## 2.6 Conditional Structure
-Move conditional structure from ch 3 to here with the starting example of mouseIsPressed. Next chapter will be more a deeper use and repetition. /w - good idea /g
+Conditional statements are very useful as they allow you to set a different decision path by specifying conditions. Indeed, a conditional decision is something not only specific to programming. In the everyday life, for instance, you might say "If I am hungry, then I'll eat some food, otherwise if I am thirsty, then I will drink some water, else I will just take a nap". 
 
-## 2.7 Exercise in class
+```javascript
+//example in human language
+if (I am hungry) { 
+  eat some food;
+} else if(thirsty) {
+  drink some water;
+} else{
+  take a nap;
+}
+```
+
+The above is *pseudocode* to demonstrate what making an everyday decision to eat or drink might look like in programming. The keyword and syntax `if` is then followed by the condition and checks whether a certain condition holds. As such, the whole if statement is a *Boolean expression* — one of two possible values is possible, true or false, leading to a different path and action. In computer science, the Boolean data type is a data type that has one of two possible values which is intended to represent the two truth values of logic.
+
+In our sample code, we have implemented a conditional logic to constantly check if there is any mousepressed actions. This is why the size of the ellipse changes when a mouse is pressed. 
+
+```javascript
+  if (mouseIsPressed) {
+    static_size = floor(random(5, 20));
+ }
+```
+
+## 2.7 Relational operators 
+When you have to create your own conditional statement with the if-then format, there are multiple combinations you can work on to form a more complex expression. For example, you can have many different cases using the syntax `else if`, or a combinaton of logical operators, such as the AND case here in another pseudocode example: 
+
+```javascript 
+if (I am hungry) && (I am in a good mood) {
+    print("go out");
+}
+```
+
+Here is a list of relational operators and logical symbols that can be used in conditional statements. 
+
+```
+/* 
+Relational Operators: 
+>   Greater than
+<   Less than
+>=  greater than or equal to
+<=  less than or equal to
+==  equality
+=== equality (include strict data type checking)
+!=  not equal to
+!== inequality with strict type checking
+*/
+
+/*
+Logical Operators: boolean logic:
+&&  logical AND
+||  logical OR
+!   logical NOT
+*/
+
+/*
+Example: 
+if () {
+  //something here
+}else if() {
+  //something here
+}else{
+  //something here
+}
+*/
+```
+
+## 2.8 Exercise in class
 1. Examine [existing emojis](https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg) or those available on your handset, and reflect upon the complexity of human emotions and their caricature.  What's your experience in using emojis? What are the cultural and political implications of emojis (perhaps yopu can refer to the readings and introduction above)?
 2. Discuss what constitutes a face? What essential elements do you need for a particular facial expression, and why? What has been lost in translation?
 3. Beyond the face, take a look at [more emojis](https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/).[^emojis2] Is there anything you want to add?
 4. Explore the interactive online tool [p5.playground](https://1023.io/p5-inspector/)[^playground] developed by Yining Shi, and do some sketching of emojis by paying attention to spatial composition and foundational design elements.
 5. Experiment with p5.js. How do you translate your thoughts into lines of code? You may want to print out the coordinates of the mouse press on the console area to get a more accurate position for your shapes.
 
-## 2.8 While()
+## 2.9 While()
 
 The human face make a good starting point here as we recognise it even in its simplest form, something *Multi* seems to verify with its minimal rendering of three elements. The face clearly occupies a central position in everyday life and social interaction, and it almost goes without saying that its features are perceived to display our uniqueness and individuality. But this is a surface reading only. Emojis operate in this way and seem to occlude the face of experience and it ability to express complex feelings. It would be tempting to think that emojis, despite their name, stop short of emotions altogether.
 
@@ -217,7 +281,7 @@ Snelting is looking for other geometries that can escape normative configuration
 
 The challenge is to rethink normative geometries, to turn them upside down and inside out. Herein lies the challenge of the chapter, in having fun with programming, to escape the face's overcoding and to develop alternatives. Fun in this sense means the ability to be able to modify forms and to diverge from established rules - like a good joke. In the case of programming the rules can be applied differently, adapted and modified, and even transformed altogether.
 
-## 2.9 Mini_Exercise[2]: Geometric emoji
+## 3.0 Mini_Exercise[2]: Geometric emoji
 **Objective:**
 - To experiment with various geometric drawings, explore possibilites, especially on shapes and drawing with colors.
 - To reflect on a politics of emojis via the assigned texts.
