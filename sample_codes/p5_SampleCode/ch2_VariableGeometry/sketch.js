@@ -1,35 +1,36 @@
 /*Inspired by David Reinfurt's work - Multi*/
-let moving_size = 60;
+let moving_size = 50;
 let static_size = 20;
 
 function setup() {
-  createCanvas(500, 600);
+  createCanvas(windowWidth, windowHeight);
   frameRate(15);
 }
 
 function draw() {
   //background
-  background(random(130,140));
+  background(random(230,240));
   //left
   noStroke()
-  fill(0,0,0);
-  rect(50,110,100,26);
+  fill(0);
+  rect(97,169,79,12);
 
   //right
-  rect(350,140,static_size,static_size);
-  fill(200,100,0);
+  rect(365,184,20,15);
+  fill(20,20,120);
+
   beginShape();
-  vertex(350, 160);
-  vertex(343, 180);
-  vertex(353, 180);
-  vertex(370, 160);
+  vertex(365, 199);
+  vertex(385, 199);
+  vertex(372, 216);
+  vertex(358, 216);
   endShape(CLOSE);
 
   //bottom
   noFill();
-  stroke(255,255,255);
+  stroke(130);
   strokeWeight(2);
-  ellipse(190,370,static_size,static_size);
+  ellipse(255,350,static_size,static_size);
 
   //mouse interactions
   stroke(180);
