@@ -28,43 +28,42 @@ Our point is that using emojis may be fun and expressive but they also tend to o
 ![](ch2_2.png)<br>
 *Figure 2.2: The screenshot of the remix of Multi*
 
-[the image and source code will change a bit to match exactly the spatial composition of Multi - will get back in *future* /w]
-
-[RunMe: need something to run the program - need to check with OSP, ref: https://creative-coding.decontextualize.com/first-steps/ or https://p5js.org/learn/coordinate-system-and-shapes.html /w]
+[RunMe]()
 
 ```javascript
 /*Inspired by David Reinfurt's work - Multi*/
-let moving_size = 60;
+let moving_size = 50;
 let static_size = 20;
 
 function setup() {
-  createCanvas(500, 600);
+  createCanvas(windowWidth, windowHeight);
   frameRate(15);
 }
 
 function draw() {
   //background
-  background(random(130,140));
+  background(random(230,240));
   //left
   noStroke()
-  fill(0,0,0);
-  rect(50,110,100,26);
+  fill(0);
+  rect(97,169,79,12);
 
   //right
-  rect(350,140,static_size,static_size);
-  fill(200,100,0);
+  rect(365,184,20,15);
+  fill(20,20,120);
+
   beginShape();
-  vertex(350, 160);
-  vertex(343, 180);
-  vertex(353, 180);
-  vertex(370, 160);
+  vertex(365, 199);
+  vertex(385, 199);
+  vertex(372, 216);
+  vertex(358, 216);
   endShape(CLOSE);
 
   //bottom
   noFill();
-  stroke(255,255,255);
+  stroke(130);
   strokeWeight(2);
-  ellipse(190,370,static_size,static_size);
+  ellipse(255,350,static_size,static_size);
 
   //mouse interactions
   stroke(180);
@@ -76,25 +75,25 @@ function draw() {
 }
 ```
 The above code draws various shapes and performs simple interactions: 
-- the background is a vertical rectanglar shape, flashing grey-scale colors 
+- the background is filled with flashing grey-scale colors 
 - on the left is a horizontal rectangle in the color black  
-- on the right is a square in black and a polygon in orange
-- on the bottom is an ellipse without any filled color but with white stroke color
-- when you move the mouse, ian outlined ellipse in grey color follows the movement 
-- you can also click on the mouse to change the size of the white ellipse and the black square
+- on the right is a rectangle in black and a polygon in blue
+- on the bottom is an ellipse without any filled color but with grey stroke color
+- when you move the mouse, an outlined ellipse in grey color follows the movement 
+- you can also click on the mouse to change the size of the grey ellipse
 
 ## 2.2 Coordination
-In the last chapter, we briefly talked about x and y coordinates, which is a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(500,600)` refers to the action of creating a canvas with the width of 500 pixels and the height of 600 pixels. It should be noted that in mathematics the origin [0,0] is positioned in the middle of a grid paper/screen, but in computing the origin is drawn at the upper left corner (see Figure 1.11 in the previous chapter).
+In the last chapter, we briefly talked about x and y coordinates, which is a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(windowWidth,windowHeight)` refers to the action of creating a canvas with the width and height according to your window size. Unlike the previous chapter you can set the pixel dimension of a canvas, this approach gives you a flexibility of no fixed size. It should be reminded that in mathematics the origin [0,0] is positioned in the middle of a grid paper/screen, but in computing the origin is drawn at the upper left corner (see Figure 1.11 in the previous chapter).
 
 ## 2.2.1 Exercise in class
 ```javascript
 function setup() {
-  createCanvas(500, 600);
+  createCanvas(windowWidth, windowHeight);
   frameRate(15);
 }
 
 function draw() {
-  background(random(130,140));
+  background(random(230,240));
 }
 ```
 <!-- <img src="ch2_3.png" width="400"> -->
@@ -103,31 +102,31 @@ function draw() {
 
 Remember the structure of a web page should include the html, working javascript file (for example, sketch.js) and p5.js associated libraries.  
 
-- Type the above source code in the working javascript file and then save the code. Run the program on ATOM (the live-atom-server with the shortcut Crtl+Alt+L) and you should see a flashing rectangle on a screen. 
+- Type the above source code in the working javascript file and then save the code. Run the program on ATOM (with the live-atom-server) and you should see a flashing background on a screen. 
 - There are few new examples of syntax, or a slightly different use of syntax, here: 
     - `frameRate()`: This sets the number of frames per second that the computer will use when running the program. The default is 60 and now it is set as 15, a slower iteration so you can see the background color for each frame quite clearly (you might also compare the flashing rate with the sample code in the previous chapter).
-    - `random(130,140)`: In the earlier sample code the function `random()` took one argument only. This sample code gives you a different use of the function with two arguments. If you look at the [reference guide](https://p5js.org/reference/#/p5/random),[^random] it explains that the random function returns a floating-point number, and this means that the number is not an integer but a number with decimals. (The difference in the number of arguments is also explained in the reference.) For this case, the program will return a floating-point number between 130 and up to, but not including, 140. An example of such a returned value would be 131.34387. This refers to a grey-scale color value. 
+    - `random(230,240)`: In the earlier sample code the function `random()` took one argument only. This sample code gives you a different use of the function with two arguments. If you look at the [reference guide](https://p5js.org/reference/#/p5/random),[^random] it explains that the random function returns a floating-point number, and this means that the number is not an integer but a number with decimals. (The difference in the number of arguments is also explained in the reference.) For this case, the program will return a floating-point number between 230 and up to, but not including, 240. An example of such a returned value would be 231.34387. This refers to a grey-scale color value. 
 - Next you need to recall using the web console (Under Tools > Web Developer > Web Console - Ctrl+Shift+K)
     - Type `print(width);` and then press enter
     - Type `console.log(width, height);` and then press enter
 
-You should notice from the responses of the console area (see Figure 2.2) that it displays the actual width in pixel unit (500) when you type the functions `print(width);`. Additionally, if you use `console.log(width, height);`, which is the equivalent of the print function in JavaScript (not a p5.js function), the screen displays two numbers 500 and 600. With just two lines in the console area, you have asked the program to give you the values of the width and height of the canvas. The program understands the two names 'width' and 'height'. They are the pre-set names in p5.js which you can use specifically for asking the dimensions of the canvas. 
+You should notice from the responses of the console area (see Figure 2.2) that it displays the actual width in pixel unit when you type the functions `print(width);`. Additionally, if you use `console.log(width, height);`, which is the equivalent of the print function in JavaScript (not a p5.js function), the screen displays two numbers according to your screen size (you may adjust the screen and try again to get a different number). With just two lines in the console area, you have asked the program to give you the values of the width and height of the canvas. The program understands the two names 'width' and 'height'. They are the pre-set names in p5.js which you can use specifically for asking the dimensions of the canvas. 
 
 ## 2.3 Variables 
 
 In programming, both width and height are called *variables*, which is another important concept. Variables are used to store data and information in a computer program. You can think of variables as a container, and you can put things in a given container, replace them with other things, and store them for later retrieval. There is also something called a 'global variable', which you can use in any parts of your code. Local variables are defined within a structure or a function, and then an only be used within that block of code. To define a global variable, you need to define it before the setup of the program, usually in the first few lines of the program. 
 
-To use the earlier example, the value behind 'width' is 500 which is the canvas width that has been defined in line 2 (see section 2.2.1). To continue with the analogy, a container with the name 'width' is being labeled and has stored the value '500'. In this case, it is assigned by default as the program is able to retrieve the measurement of the canvas. 
+To use the sample code example, the value behind 'windowWidth' which is the window width as the canvas width (as illustrated in line 2). To continue with the analogy, a container with the name 'width' (as we have just typed in the web console) is being labeled and has stored the value. In this case, it is assigned by default as the program is able to retrieve the measurement of the canvas. 
 
 But, and importantly, you can also assign your own variable names (in other words, you can create your own type of container and store other values). 
 
 ```javascript
-let moving_size = 60;
+let moving_size = 50;
 let static_size = 20;
 .
 .
 .
-ellipse(190,370,static_size,static_size);
+ellipse(255,350,static_size,static_size);
 .
 .
 .
@@ -150,9 +149,7 @@ The above is the excerpt of the entire code to draw two different size of ellips
 
 For this example, two variables: 'moving_size' is more stable than 'static_size' because the later one will change according to mouse press. (If you foresee the values won't change, you may also consider to use `const`, where a value remains unchanged for the entire program).
 
-There are two more variables in the example: `mouseX` and `mouseY`. These are changing variables and are subject to the mouse movement to trace the coresponding x and y coordinates. If you want to know the mouseX and mouseY exact coordinate position, you may also use `print()` or `console.log` to display the two values in the console area.
-
-*Figure 2.4: Illustration of variables* [not a locker as it's not open enough]
+There are two more variables in the example: `mouseX` and `mouseY`. These are changing variables and are subject to the mouse movement to trace the coresponding x and y coordinates. If you want to know the mouseX and mouseY exact coordinate position, you may also use `print()` or `console.log` to display the two values in the console area. (How to write a line of code to display or print the mouseX value on the web console?)
 
 Although it is commonplace to use the metaphor of a container to illustrate the concept of variable, it is important to add that there is an address for each container (for instance, it is in a particular place on a shelf if you like, and the computer needs to know it's there). Technically speaking, by declaring a variable, it also declares an address at which the computer memory can hold the value. In short, each variable is stored in a block of computer memory which is located inside physical and concrete memory like RAM. Each block has a identification which is called the memory address so that the computer knows where to store it and retrieve it while the program is running. As such, software and hardware is not separable, and it is just we can't able to see the inner micro-workings of a computer whilst it is handling data.
 
