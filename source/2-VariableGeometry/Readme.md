@@ -284,7 +284,7 @@ The challenge is to rethink normative geometries, to turn them upside down and i
 ## 3.0 Mini_Exercise[2]: Geometric emoji
 **Objective:**
 - To experiment with various geometric drawings, explore possibilites, especially on shapes and drawing with colors.
-- To reflect on a politics of emojis via the assigned texts.
+- To reflect on the politics/aesthetics of emojis via the assigned texts.
 
 **Get some additional inspiration here:**
 - [Multi](http://o-r-g.com/apps/multi) by David Reinfurt.
