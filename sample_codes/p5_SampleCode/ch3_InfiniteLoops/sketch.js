@@ -54,8 +54,8 @@ function draw(){
        rotate(radians((360/8)* (millis()/speed)));  //rotate in itself
        timer = currentMillis + speed; //the time for the next loop
        textSize(12);
-       //nf:format numbers into strings and adds zeros in front [https://p5js.org/reference/#/p5/nf]  3 digits in front and 0 digit after the decimal
        fill(fillColor);
+       //nf:format numbers into strings and adds zeros in front [https://p5js.org/reference/#/p5/nf]  3 digits in front and 0 digit after the decimal
        text(nf(currentMillis, 6), 3, 0);  //which is about the time string written as the asterisk, and it starts with 0 always.
        sentences++;
        if(sentences >= maxSentences){  //reach the max for each asterisk
