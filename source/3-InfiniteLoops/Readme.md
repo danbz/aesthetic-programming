@@ -449,7 +449,7 @@ Check out other works that refer to the throbber and how other people contextual
 
 - Shiffman, Daniel. Courses 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2, *Code! Programming with p5.js* on [YouTube](https://www.youtube.com/watch?v=1Osb_iGDdjk), 2018 [Accessed 9 Sep. 2019]. (practical usage on conditional statements, loops, functions and arrays)
 - Winnie Soon. “Throbber: Executing Micro-temporal Streams.” Computational Culture 7 (21st October 2019). http://computationalculture.net/throbber-executing-micro-temporal-streams/.
-- Close reading on the work *Asterisk Painting* by John P. Bell, ported to p5.js, and modified, by Winnie Soon. 
+- Close reading on the artwork *Asterisk Painting* by John P. Bell, ported to p5.js, and modified, by Winnie Soon. https://editor.p5js.org/siusoon/sketches/YAk1ZCieC
 
 ## 3.13 Further reading
 
