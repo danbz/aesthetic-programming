@@ -82,7 +82,7 @@ The above code draws various shapes and performs simple interactions:
 - you can also click on the mouse to change the size of the grey ellipse
 
 ## 2.2 Coordination
-In the last chapter, we briefly talked about x and y coordinates, which is a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(windowWidth,windowHeight)` refers to the action of creating a canvas with the width and height according to your window size. Unlike the previous chapter with the setting of the exact pixel dimension, this approach gives you a flexibility of no fixed canvas size. It should be reminded that in mathematics the origin [0,0] is positioned in the middle of a grid paper/screen, but in computing the origin is drawn at the upper left corner (see Figure 1.11 in the previous chapter).
+In the last chapter, we briefly talked about x and y coordinates, which is a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(windowWidth,windowHeight)` refers to the action of creating a canvas with the width and height according to your window size. Unlike the previous chapter with the setting of the exact pixel dimension like `createCanvas(640,480);`, this approach gives you a flexibility of no fixed canvas size. Therefore, the background color of the sample code fills the whole window screen. It should be reminded that in mathematics the origin [0,0] is positioned in the middle of a grid paper/screen, but in computing the origin is drawn at the upper left corner (see Figure 1.11 in the previous chapter).
 
 ## 2.2.1 Exercise in class
 ```javascript
@@ -101,11 +101,11 @@ function draw() {
 
 Remember the structure of a web page should include the html, working javascript file (for example, sketch.js) and p5.js associated libraries.  
 
-- Type the above source code in the working javascript file and then save the code. Run the program on ATOM (with the live-atom-server) and you should see a flashing background on a screen.
+- Type/copy the above source code in the working javascript file and then save the code. Run the program on ATOM (with the live-atom-server) and you should see a flashing background on a screen.
 - There are few new examples of syntax, or a slightly different use of syntax, here:
     - `frameRate()`: This sets the number of frames per second that the computer will use when running the program. The default is 60 and now it is set as 15, a slower iteration so you can see the background color for each frame quite clearly (you might also compare the flashing rate with the sample code in the previous chapter).
     - `random(230,240)`: In the earlier sample code the function `random()` took one argument only. This sample code gives you a different use of the function with two arguments. If you look at the [reference guide](https://p5js.org/reference/#/p5/random),[^random] it explains that the random function returns a floating-point number, and this means that the number is not an integer but a number with decimals. (The difference in the number of arguments is also explained in the reference.) For this case, the program will return a floating-point number between 230 and up to, but not including, 240. An example of such a returned value would be 231.34387. This refers to a grey-scale color value.
-- Next you need to recall using the web console (Under Tools > Web Developer > Web Console - Ctrl+Shift+K)
+- Next you need to recall using the web console (Under Tools > Web Developer > Web Console)
     - Type `print(width);` and then press enter
     - Type `console.log(width, height);` and then press enter
 
@@ -113,9 +113,9 @@ You should notice from the responses of the console area (see Figure 2.2) that i
 
 ## 2.3 Variables
 
-In programming, both width and height are called *variables*, which is another important concept. Variables are used to store data and information in a computer program. You can think of variables as a kitchen container, and you can put things (like food, forks, etc) in a given container, replace them with other things, and store them for later retrieval. Two main types of variables: Local variables are defined within a structure or a function, and then can only be used within that block of code. On the contrary, a 'global variable' is something you can use in any parts of your code. To define a global variable, you need to define it before the setup of the program, usually in the first few lines of the program. On the other note, 
+In programming, both width and height are called *variables*, which is another important concept. Variables are used to store data and information in a computer program. You can think of variables as a kitchen container, and you can put things (like food, forks, etc) in a given container, replace them with other things, and store them for later retrieval. Two main types of variables: Local variables are defined within a structure or a function, and then can only be used within that block of code. On the contrary, a 'global variable' is something you can use in any parts of your code. To define a global variable, you need to define it before the setup of the program, usually in the first few lines of the program. 
 
-To use the sample code example, the value behind `windowWidth` is the width of the window that set as the canvas width (as illustrated in line 2). To continue with the analogy, a container with the name 'width' (as we have just typed in the web console) is being labeled and has stored the value. In this case, it is assigned by default as the program is able to retrieve the measurement of the canvas. With the variable `width`, this value can be changed according to your window width and being retrieved and display by using the web console. 
+To use the sample code example, the value behind `windowWidth` is the width of the window that set as the canvas width (as illustrated in line 2). To continue with the analogy, a container with the name 'width' (as we have just typed in the web console) is being labeled and has stored the value. The program is able to retrieve the measurement of the canvas by using the variable `width` and this value can be changed according to your window width and being retrieved and display by using the web console (You may also use the variable `width` and `height` with other functions and for other purposes.)
 
 But, and importantly, you can also assign your own variable names (in other words, you can create your own type of container and store other values).
 
@@ -139,21 +139,21 @@ if (mouseIsPressed) {
 The above is the excerpt of the entire code to draw two different size of ellipses (As discussed in the previous chapter, the last two arguments of the ellipse function refer to width and height). Instead of placing a number in the function as in Chapter 1, this time we use variables instead as they hold values too. There are 3 steps to use variables:
 
 1. **Declare:** Think of a name for the container you want to store the value in (usually it will make sense to yourself and to others to read it, but of course there is scope for a conceptual approach here). Declare with the syntax 'let' in front.[^let]
-2. **Assign:** What is it that you want to store there? Is it a number? By assigning a value, you will need to use the equal sign. Officially, there are 4 data types that are useful to know at this introductary level:
-    1. number for numbers of any kind: integer or floating-point.
-    2. string for strings. A string may have one or more characters and it has to be used with double or single quote marks. For example: `let moving_size = "sixty";`
-    3. boolean for true/false. For example: `let moving_size = true;`
-    4. color for color values. It can take in Red Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` (see more from the [p5.js color reference](https://p5js.org/reference/#/p5/color)[^color]
+2. **Initialize/Assign:** What is it that you want to store there? Is it a number? By assigning a value, you will need to use the equal sign. Officially, there are 4 data types that are useful to know at this introductary level:
+    1. *number* for numbers of any kind: integer or floating-point.
+    2. *string* for strings. A string may have one or more characters and it has to be used with double or single quote marks. For example: `let moving_size = "sixty";`
+    3. *boolean* for true/false. For example: `let moving_size = true;`
+    4. *color* for color values. It can take in Red Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` (see more from the [p5.js color reference](https://p5js.org/reference/#/p5/color)[^color]
 3. **(Re)Use:** How and when do you want to retrieve the stored data? If the variable will change over time, you may want to reuse it many times.
 
-For this example, two variables: 'moving_size' is more stable than 'static_size' because the later one will change according to mouse press. (If you foresee the values won't change, you may also consider to use `const` [constant], where a value remains unchanged for the entire program).
+For this example, two variables: 'moving_size' is more stable than 'static_size' because the later one will change according to mouse press. (If you foresee the values won't change, you may also consider to use `const` [^constant], where a value remains unchanged for the entire program).
 
 There are two more variables in the example: `mouseX` and `mouseY`. These are changing variables and are subject to the mouse movement to trace the coresponding x and y coordinates. If you want to know the mouseX and mouseY exact coordinate position, you may also use `print()` or `console.log` to display the two values in the console area. (How to write a line of code to display or print the mouseX value on the web console?)
 
 Although it is commonplace to use the metaphor of a container to illustrate the concept of variable, it is important to add that there is an address for each container (for instance, it is in a particular place on a shelf if you like, and the computer needs to know it's there). Technically speaking, by declaring a variable, it also declares an address at which the computer memory can hold the value. In short, each variable is stored in a block of computer memory which is located inside physical and concrete memory like RAM. Each block has a identification which is called the memory address so that the computer knows where to store it and retrieve it while the program is running. As such, software and hardware is not separable, and it is just we can't able to see the inner micro-workings of a computer whilst it is handling data.
 
 ## 2.3.1 Why use variables?
-As you learn to program more complex software, you will discover it is very common to use variables to store values and data. More importantly, the value of variables can be changed while a program is being run in real-time. The earlier variables: mouseX and mouseY may serve the purpose of illustrating the point because the coordinates of the mouse will change according to its movement. We will also discuss variables again in the next chapter when we introduce the concepts of loop and repetition.
+As you learn to program more complex software, you will discover it is very common to use variables to store values and data. More importantly, the value of variables can be changed while a program is being run in real-time. The earlier variables: mouseX and mouseY may serve the purpose of illustrating the point because the coordinates of the mouse will change according to its movement. We will also discuss variables again in the next chapter when we introduce the concepts of array, loop and repetition.
 
 Another reason for variables is that if you have longer lines of code, it is easier to have all the variables that you have declared for the program in an overview. As such you can change the value for testing, for example defining different sizes of shapes without locating the specific line of code. Morever, it is also easier for others to read your code with a well-chosen variable name when you have to use it in different parts of your program.
 
@@ -162,10 +162,10 @@ This leads to the reusability of variables. Variables can be used in different f
 ## 2.4 Other functions
 This section is to briefly introduce some other new functions in the sample code, as drawing and designing an emoji requires different decisions, in terms of shapes, color and spatial composition.
 
-- `noStroke()`, `strokeWeight()`: These functions refer to the settings of the shape, whether it is has an outline, and the weight of the border.
-- `stroke()`, `fill()` and `nofill()`: These set the color of objects like the border, shapes or text. It takes RGB (as default) or HSB color. But if the function has 1 argument, then it refers to gray scale color between 0-255 [add why it is the range of 255 - binary value/bytes of data in memory -  2^8th power is 256 (8 bit each). In the range of 0-255 there are actually 256 possible values - link to the nature of computation in a binary system /w]. If the function has 3 arguments like `fill(255,255,0)`, then it means the object/shape/text will be filled with a yellow color (the mix of red and green with no blue color). There is an optional argument called 'alpha', which refers to the opacity of the color, e.g `fill(255,255,0,127)`.
-- `rect()`: This is similar to draw an ellipse, but is used to display a rectangle.
-- `vertex()`, `beginShape()` and `endShape(CLOSE)`: These three functions are used for drawing a more complex form according to different vertices. You will need is to use the `vertex` function to indicate its x and y coordinates. You can also join all the vertices by using the 'close' argument in `endShape()`. The `beginShape()` is used to record the start of the vertex for a complex form like a polygon.
+- `noStroke()`, `strokeWeight()`: These functions refer to the settings of the shape, whether it has an outline, and the weight of the border.
+- `stroke()`, `fill()` and `nofill()`: These set the color of objects like the border, shapes or text. It takes RGB (as default) or HSB color. But if the function has 1 argument, then it refers to gray scale color between 0-255 [^binarycolor]. If the function has 3 arguments like `fill(255,255,0)`, then it means the object/shape/text will be filled with a yellow color (the mix of red and green with no blue color). There is an optional argument called 'alpha', which refers to the opacity of the color, e.g `fill(255,255,0,127)`.
+- `rect()`: This is similar to drawing an ellipse, but is used to display a rectangle.
+- `vertex()`, `beginShape()` and `endShape(CLOSE)`: These three functions are used for drawing a more complex form according to different vertices. The `vertex` function indicate its x and y coordinates and all the vertices can be joined via using the 'close' argument in `endShape()`. The `beginShape()` is used to record the start of the vertex for a complex form like a polygon.
 - `floor()`: Since the random function returns a floating-point number, `floor()` is used to calculate the closest integer value.
 - `if (mouseIsPressed) {}`: This is a conditional structure for a program, constantly referring to mouse press actions. This is discussed in more detail below.
 
@@ -256,12 +256,26 @@ if () {
 */
 ```
 
-## 2.8 Exercise in class
+Below is an example of a small sketch with the use of a conditional structure and operators. Although all the conditional if or else-if statements are true, the web console will only print out "one". It is because the program will exit the structure when the first condition is met. In other words, sequence matters and the program will not run the other else-if statements and will take the first true statement to execute. 
+
+```javascript
+let x = 18;
+if (x > 10 || x <= 20 ) {
+    console.log("one");
+}else if (x == 18) {
+    console.log("two");
+}else if (x === 18) {
+    console.log("three");
+}else  {
+    console.log("four");
+}
+```
+
+## 2.8 Discussion in class
 1. Examine [existing emojis](https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg) or those available on your handset, and reflect upon the complexity of human emotions and their caricature.  What's your experience in using emojis? What are the cultural and political implications of emojis (perhaps yopu can refer to the readings and introduction above)?
 2. Discuss what constitutes a face? What essential elements do you need for a particular facial expression, and why? What has been lost in translation?
 3. Beyond the face, take a look at [more emojis](https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/).[^emojis2] Is there anything you want to add?
-4. Explore the interactive online tool [p5.playground](https://1023.io/p5-inspector/)[^playground] developed by Yining Shi, and do some sketching of emojis by paying attention to spatial composition and foundational design elements.
-5. Experiment with p5.js. How do you translate your thoughts into lines of code? You may want to print out the coordinates of the mouse press on the console area to get a more accurate position for your shapes.
+4. Experiment with p5.js. How do you translate your thoughts into lines of code? You may want to print out the coordinates of the mouse press on the console area to get a more accurate position for your shapes.
 
 ## 2.9 While()
 
@@ -293,13 +307,12 @@ The challenge is to rethink normative geometries, to turn them upside down and i
 - [Between Art and Application by Crystal Abidin and Joel Gn](https://firstmonday.org/ojs/index.php/fm/article/view/9410)[^Abidin] (short text about emoji culture)
 
 **Tasks (RUNME):**
-1. Make sure you have read/watch the required readings/instructional videos and references.
-2. Explore different shape and geometric related syntax (via p5.js [references](https://p5js.org/reference/)).
-3. Design two emoji icons and reflect upon how does emoji relate to identity and cultural phenomena.
+
+Explore different shape, geometric and other related syntax (via p5.js [references](https://p5js.org/reference/)) and design two emoji icons
 
 **Questions to think about as README:**
   - **Describe** your program and what you have used and learnt.
-  - **How** would you put your emoji into a wider cultural context that concerns representation,s identity, race, social, economics, culture, device politics and beyond? (Try to think through the assigned reading and your coding process, and then expand that to your experience and thoughts - this is a difficult task, you may need to spend sometimes in thinking about it).
+  - **How** would you put your emoji into a wider cultural context that concerns representations, identity, race, social, economics, culture, device politics and beyond? (Try to think through the assigned reading and your coding process, and then expand that to your experience and thoughts - this is a difficult task, you may need to spend sometimes in thinking about it).
 
 ## Required reading:
 - Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, "[Modifying the Universal.](http://www.data-browser.net/db06.html)" *Executing Practices*, Eds. Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, London: Open Humanities Press, 2018, 35-51.
@@ -333,6 +346,8 @@ The challenge is to rethink normative geometries, to turn them upside down and i
 [^ideology]: Abbing, Pierrot and Snelting, *Modifying the Universal*, 210.
 
 [^multi]: See http://www.o-r-g.com/apps/multi. *Multi* also provides variations of book covers for the DATA browser series published by Open Humanities Press, at http://www.data-browser.net/.
+
+[^binarycolor]: Red, Green and Blue are primary colors added together to produce a broad array of color. The range of RGB color values is from 0 to 255 with a total of 256 possible values for each primary color. The reason behind is that all the colors are of the 24 bit format, and the red (R) takes 8 bit, the green (G) takes 8 bit and the blue (B) takes the remaining 8 bit. For each bit it stores 2 binary values, therefore 2^8th power is 256 which is the exact possible range of each color. The system of how RGB is used is highly related to the nature of compuation in a binary system.
 
 [^random]: See p5.js random reference at https://p5js.org/reference/#/p5/random.
 
