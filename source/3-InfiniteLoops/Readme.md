@@ -300,7 +300,7 @@ print(words.length); //output: 3
 Recalling our previous approach using variables, we can follow a similar structure:
 
 1. *Declare:* Think of a name you want to use to store the list of values. The symbol [] in `let words = []` indicates words is an array but how many is unknown and hasn't been specified with just this line of code.
-2. *Assign:* Given the example above, there are three text values to store: "what", "is", and "array". Since array is a list of values and it is needed to be identified individually, an array index is used to represent the position of each piece of data in an array. It starts with [0] as the first item, then [1] as the second, and so forth. Therefore `words[0] ="what"` means that the first index item of the array words is a string and with the value "what".  
+2. *Initialize/Assign:* Given the example above, there are three text values to store: "what", "is", and "array". Since array is a list of values and it is needed to be identified individually, an array index is used to represent the position of each piece of data in an array. It starts with [0] as the first item, then [1] as the second, and so forth. Therefore `words[0] ="what"` means that the first index item of the array words is a string and with the value "what".  
 3. *Re(use):* The `print()` function is just an example to indicate how you may retrieve and use the data, you can print it in the console area, or you can arrange to draw on a canvas. 
 
 To ask how many items in an array, the syntax `arrayname.length` is used. 
@@ -384,7 +384,7 @@ See below example taken from the source code of *Asterisk Painting* (lines 37-42
 See the structure of a for-loop:<br>
 <!-- <img src="ch3_4.png" width="400"> -->
 ![](ch3_4.png) <br>
-*Figure 3.4 A for-loop*  (will redraw it with gragphviz - /w)
+*Figure 3.4 A for-loop*
 
 From Figure 3.4, you can see what a for-loop contains:
 
