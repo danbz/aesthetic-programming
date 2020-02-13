@@ -4,35 +4,35 @@ page_order: 8
 ## Que(e)ry Data
 [g: how do you think about the title? /w]
 
-## setup() 
+## setup()
 Following Chapter 4 on Data Capture, we have already explored some of the processes of how a program captures input data, especially data that is connected to physical devices. This chapter is an expansion of data processing with data that is hosted on platforms and in sheer amount in terms of quantity, extending the focus from data 'capture' to data 'accessibility' questioning power relations on data ownership and transparency.
 
-In contemporary culture many user behavioral and user-generated content are algorithmically manifested as data streams or feeds. Beyond social media, search engine is an important application to aggregate content and algorithmically returns search results accordingly to keywords search. Infinite data are stored in databases undergo a never-ending update of records. Databases have a significant impact on computational culture and it is through the storage and analysis of massive amounts of captured data (so-called 'Big Data') in which profiling, targeted marketing, personalised recommendations and various sorts of predictions and e-commerce on platforms become accelerated and perpetuated. According to Chun, user habits formulate big data businesses, and she explains, 'Through habits users become their machines: they stream, update, capture, upload, share, grind, link, verify, map, save, trash and troll' [^chun]. Browsing, searching, posting, for instance, become our habits and they are transformed from actions to data that is storable, tracable and analysable. But these databases do not only enable the storage of data but also the organisation of data and the retrieval of information over networked conditions. 
+In contemporary culture many user behavioral and user-generated content are algorithmically manifested as data streams or feeds. Beyond social media, search engine is an important application to aggregate content and algorithmically returns search results accordingly to keywords search. Infinite data are stored in databases undergo a never-ending update of records. Databases have a significant impact on computational culture and it is through the storage and analysis of massive amounts of captured data (so-called 'Big Data') in which profiling, targeted marketing, personalised recommendations and various sorts of predictions and e-commerce on platforms become accelerated and perpetuated. According to Chun, user habits formulate big data businesses, and she explains, 'Through habits users become their machines: they stream, update, capture, upload, share, grind, link, verify, map, save, trash and troll' [^chun]. Browsing, searching, posting, for instance, become our habits and they are transformed from actions to data that is storable, tracable and analysable. But these databases do not only enable the storage of data but also the organisation of data and the retrieval of information over networked conditions.
 
-This chapter focuses on query data, in which some data can be acquired through the real-time query of an Application Programming Interface (API). Querying data, in the form a two-way communication process, is about information processing with the actions of data selection, extraction, transmission and presentation through "the logic of request and response" [^api] and in the format of structured data file like JSON as we have covered in the last chapter. There are many ways of doing it but we will, in this chapter, introduce the artwork NET ART GENERATOR that utilizes Google image search API to generate net art images, which will serve as an example to demonstrate the whole process of que(e)rying data, raising some critical questions particularly in regards to the parameters of openness and accessibility that structure knowledge sharing and production. 
+This chapter focuses on query data, in which some data can be acquired through the real-time query of an Application Programming Interface (API). Querying data, in the form a two-way communication process, is about information processing with the actions of data selection, extraction, transmission and presentation through "the logic of request and response" [^api] and in the format of structured data file like JSON as we have covered in the last chapter. There are many ways of doing it but we will, in this chapter, introduce the artwork NET ART GENERATOR that utilizes Google image search API to generate net art images, which will serve as an example to demonstrate the whole process of que(e)rying data, raising some critical questions particularly in regards to the parameters of openness and accessibility that structure knowledge sharing and production.
 
 ## start()
-*net.art generator* (nag)[^nag] is first conceptualized by artist Cornelia Sollfrank in 1997 and the latest version 5b is updated by Winnie Soon, which is an application runs on a web browser to create images. Back then, the initial idea was to make an intervention to the net art competition called EXTENSION by *generating* three hundred submission entres with fake international female artists' profile. The program that generates such entries was called *Female Extension*, which took into the consideration of internet as material and object (that is not traditional art form porting into any digital format) and made as an activist response to the art scenes and competitions in which women are always underrepresented. *Female Extension* was later developed into *nag* as a web application and a functional tool for generating images on the fly that are based on data that are readily available from web platforms, questioning notions of authorship, copyright and power structures by means of automated machine generation. The latest version of *nag* generates images by combining the data that is sent from Google via the web search API. However, this is a project made with 100 free limits of API requests and that means users will experience a customized error page and images cannot be retrieved when the program exceeds the image request daily limit. Although the project shifts the narrative from the politics of identity to the politics of technology, it still continouously questions who gets visible in, and how to get access to, the system. 
+*net.art generator* (nag)[^nag] is first conceptualized by artist Cornelia Sollfrank in 1997 and the latest version 5b is updated by Winnie Soon, which is an application runs on a web browser to create images. Back then, the initial idea was to make an intervention to the net art competition called EXTENSION by *generating* three hundred submission entres with fake international female artists' profile. The program that generates such entries was called *Female Extension*, which took into the consideration of internet as material and object (that is not traditional art form porting into any digital format) and made as an activist response to the art scenes and competitions in which women are always underrepresented. *Female Extension* was later developed into *nag* as a web application and a functional tool for generating images on the fly that are based on data that are readily available from web platforms, questioning notions of authorship, copyright and power structures by means of automated machine generation. The latest version of *nag* generates images by combining the data that is sent from Google via the web search API. However, this is a project made with 100 free limits of API requests and that means users will experience a customized error page and images cannot be retrieved when the program exceeds the image request daily limit. Although the project shifts the narrative from the politics of identity to the politics of technology, it still continouously questions who gets visible in, and how to get access to, the system.
 
 ![nag1](ch8_1.png)
 
 *Figure 8.1: The web interface of net.art generator with the title 'queeries'*
 
 ## Exercise in class
-Go to net.art generator (https://nag.iap.de/) and explore the creation of generative images and the previously generated images. Try to base on the interface and map out the relationship between user input (e.g title) and the corresonding generated output (i.e images). What are the processes in between the input and output? How images are being composited and generated? 
+Go to net.art generator (https://nag.iap.de/) and explore the creation of generative images and the previously generated images. Try to base on the interface and map out the relationship between user input (e.g title) and the corresonding generated output (i.e images). What are the processes in between the input and output? How images are being composited and generated?
 
 ## Image processing: Fetching, Loading and Display
 
-In the following sample code which is a snippet of *nag* with the web API's logic of request and response. Requested data will pass via a Web API and then Google will return the corresponding data. As this sample code is focused on image, we will also demonstrate how to process and display image and pixel data on a screen in a much simplier way than *nag*. This is just the first step to get on with the que(e)y data yet the possibiliy of using the data is unlimited. Here are the key syntaxes: 
+In the following sample code which is a snippet of *nag* with the web API's logic of request and response. Requested data will pass via a Web API and then Google will return the corresponding data. As this sample code is focused on image, we will also demonstrate how to process and display image and pixel data on a screen in a much simplier way than *nag*. This is just the first step to get on with the que(e)y data yet the possibiliy of using the data is unlimited. Here are the key syntaxes:
 
-* `loadJSON()`[^json]: This is a function to load a JSON file from a file or a URL. In this specific sample code, this is used to send the web API (in the form of a URL) request and receive the response in the format of JSON. The callback function is to turn the returned data into an object. 
-* `loadImage()`[^img1] and `image()`[^img2]: They both are used to load and display images. Data such as sound, files, images, videos are objects that need to be loaded before you can process them. 
+* `loadJSON()`[^json]: This is a function to load a JSON file from a file or a URL. In this specific sample code, this is used to send the web API (in the form of a URL) request and receive the response in the format of JSON. The callback function is to turn the returned data into an object.
+* `loadImage()`[^img1] and `image()`[^img2]: They both are used to load and display images. Data such as sound, files, images, videos are objects that need to be loaded before you can process them.
 * `loadPixels()`[^pixel]: If you want to manipulate or analyze the data from an image, this is the function that can extract and manipulate information of each image pixel, loading the pixel data into the pixels[] array.
 * `line()`: This is used in the sample code to just visualize the particular color that is extracted from the image's pixel.
 
-## Source Code 
+## Source Code
 
-```javascript 
+```javascript
 let url = "https://www.googleapis.com/customsearch/v1?";
 var apikey = "INPUT YOUR OWN KEY";  //register API key here: https://developers.google.com/custom-search/json-api/v1/overview
 var engineID = "INPUT YOUR OWN"; //https://cse.google.com/all  | create search engine, then get the searchengine ID - make sure image is on
@@ -44,7 +44,7 @@ let request; //full API
 let getImg;
 let loc;
 let img_x, img_y;
-let imgCORSproxy = "https://cors-anywhere.herokuapp.com/"; 
+let imgCORSproxy = "https://cors-anywhere.herokuapp.com/";
 let cv;
 
 function setup() {
@@ -95,11 +95,11 @@ function draw() {
 
 ```
 
-## Accessing Web APIs (Step by Step) 
+## Accessing Web APIs (Step by Step)
 ![samplecode](ch8_2.gif) <br>
 *Figure 8.2: The sample code with Wahol+flowers*
 
-The above sample code is about getting a static image from Google image search API (via parsing JSON), and then displaying it on a screen. Similar to many other web APIs, you need to have an API key which the platforms can identify who is getting the data and track the usage. 
+The above sample code is about getting a static image from Google image search API (via parsing JSON), and then displaying it on a screen. Similar to many other web APIs, you need to have an API key which the platforms can identify who is getting the data and track the usage.
 Therefore, the first thing now is to get the key ID and Engine ID from Google by providing necessary information, then the program can run and fetch a networked image on the fly. This requires you to:
 
 * Understand the Google image search API's workflow
@@ -110,47 +110,47 @@ Therefore, the first thing now is to get the key ID and Engine ID from Google by
 
 1. **Step 1:** Create a p5 sketch, then copy and paste the source code to your code editor. (Don't forget the html file and the p5 library)
 
-2. **Step 2:** Replace the API key with your own on the line: `var apikey = "INPUT YOUR OWN KEY";`. 
+2. **Step 2:** Replace the API key with your own on the line: `var apikey = "INPUT YOUR OWN KEY";`.
 ![google1](ch8_3.png)
 
 *Figure 8.3: Google Custom Search Interface*
-    
-- Register a Google account if you don't have one 
-- Login your account 
+
+- Register a Google account if you don't have one
+- Login your account
 - Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and find the section API key
 - Click the blue botton "Get A Key", then create a new project by entering your project name e.g "nag-test" and press the enter key.
 - You should able to see the API key and you just need to copy and paste the key and put in your sketch.
-    
+
 3. **Step 3:** Replace the Search engine ID (cx) with your own on the line: `var engineID = "INPUT YOUR OWN";`.
 - Go to [Cusom Search Engine](https://cse.google.com/all)[^google2]
-- Click the "Add" button in adding a search engine 
+- Click the "Add" button in adding a search engine
 - You can limit your search area but if you want to search in entire Google search, just simply type "http://www.google.com"
 - Enter a name of your search engine e.g "nag-test"
 - By clicking the blue "create" button, you agree to the Terms of Service that is offered by Google and you should know your rights.
 - Go to the Control Panel and modify the setting of the search engine
 - Copy and paste the Search engine ID and put in your sketch.  
 4. **Step 4:** Configuration in the control panel
-- Make sure the "Image search" is ON with the blue color 
+- Make sure the "Image search" is ON with the blue color
 - Make sure the "Search the entire web" is ON with the blue color
 
 ## Que(e)rying data
-Although you have set the key and search engine id, there are still things that you need to understand if you want to read and locate the data on your own or try to work on other web APIs to get a different set of data. 
+Although you have set the key and search engine id, there are still things that you need to understand if you want to read and locate the data on your own or try to work on other web APIs to get a different set of data.
 
 ![google2](ch8_4.png)
 
-*Figure 4: Data structure in the web API* 
+*Figure 4: Data structure in the web API*
 
-In the web console, look for a URL that starts with "https" and ends with "warhol+flowers" (something like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image). Just simply click it and you will see how data is being structured in a JSON file format on a web browser (see Figure 4). There are indeed more parameters that you can set to select more specific forms of data such as image size, image color type and image dominant color, and the API that we have used in the sample code is just to demonstrate the minimal settings[^setting]. 
+In the web console, look for a URL that starts with "https" and ends with "warhol+flowers" (something like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image). Just simply click it and you will see how data is being structured in a JSON file format on a web browser (see Figure 4). There are indeed more parameters that you can set to select more specific forms of data such as image size, image color type and image dominant color, and the API that we have used in the sample code is just to demonstrate the minimal settings[^setting].
 
 **Cross-Origin Resource Sharing**
 
-Requesting, getting and loading images (and other multimedia forms like video and fonts) from a different domain will incure web sercurity problem, which is known in the area called Cross-Origin Resource Sharing (CORS). For this chapter and the corresponding sample code, the sample code is hosted on a local machine with a local server to run via the *ATOM* code editor, but the API request and the corresponding data is hosted outside of the origin. This CORS issue related to network requests so as to prevent "unsafe HTTP requests" (^w3). In the industry environment, it is usually configured at the web server side setting, specifically with the parameter *Access-Control-Allow-Origin* that could specifiy how network requests can be made and shared[^http]. But for our learning and testing purposes, we have used a proxy to bypass the issue of CORS as seen in the use of global variable `let imgCORSproxy`, yet it is important to note that this is not a long term solution because the CORS proxy is not always reliable and usually it comes with the file size limitation[^add-on]. 
+Requesting, getting and loading images (and other multimedia forms like video and fonts) from a different domain will incure web sercurity problem, which is known in the area called Cross-Origin Resource Sharing (CORS). For this chapter and the corresponding sample code, the sample code is hosted on a local machine with a local server to run via the *ATOM* code editor, but the API request and the corresponding data is hosted outside of the origin. This CORS issue related to network requests so as to prevent "unsafe HTTP requests" (^w3). In the industry environment, it is usually configured at the web server side setting, specifically with the parameter *Access-Control-Allow-Origin* that could specifiy how network requests can be made and shared[^http]. But for our learning and testing purposes, we have used a proxy to bypass the issue of CORS as seen in the use of global variable `let imgCORSproxy`, yet it is important to note that this is not a long term solution because the CORS proxy is not always reliable and usually it comes with the file size limitation[^add-on].
 
 **Data Structure**
 
-By adding the proxy URL in front of the image URL, it allows retreiving the image outside of the local server. Figure 4 demonstrates how one could point at a specific data among the whole JSON file. Specifically, we have the line `getImg = imgCORSproxy + data.items[0].link;` and the second part of the code is to get the specified returned object (the image URL) from the JSON file. The name data refers to all the returned object via the callback function `loadJSON()`. Then `items[0]` points at the first data object (using the array concept with the first index as 0). The dot syntax allows you to navigate to the object `link` under `items[0]`. This hirechary is specific to this API as other web APIs might structure their data and organization differently. 
+By adding the proxy URL in front of the image URL, it allows retreiving the image outside of the local server. Figure 4 demonstrates how one could point at a specific data among the whole JSON file. Specifically, we have the line `getImg = imgCORSproxy + data.items[0].link;` and the second part of the code is to get the specified returned object (the image URL) from the JSON file. The name data refers to all the returned object via the callback function `loadJSON()`. Then `items[0]` points at the first data object (using the array concept with the first index as 0). The dot syntax allows you to navigate to the object `link` under `items[0]`. This hirechary is specific to this API as other web APIs might structure their data and organization differently.
 
-To learn more about the JSON file, you can navigate other data objects such as queries > request > 0 that shows, for example, how many results are found on the image search, what search terms have been processed and how many data are returned. In the sample code, we only start with the top 10 search, but you can configure the field 'startIndex' to get the last 10 images out of 110 million. Furthermore, under `items` you will find the specific image data returned in the form of an array,  such as the title and the snippet of the page content. Although Google has provided the API to access the data, data is fundamentally collected from the public and people have no ways to question the exact algorithm in which how the data is selected, prioritized and presented as top 10. 
+To learn more about the JSON file, you can navigate other data objects such as queries > request > 0 that shows, for example, how many results are found on the image search, what search terms have been processed and how many data are returned. In the sample code, we only start with the top 10 search, but you can configure the field 'startIndex' to get the last 10 images out of 110 million. Furthermore, under `items` you will find the specific image data returned in the form of an array,  such as the title and the snippet of the page content. Although Google has provided the API to access the data, data is fundamentally collected from the public and people have no ways to question the exact algorithm in which how the data is selected, prioritized and presented as top 10.
 
 ## Exercise in class
 ![api](ch8_5.png)
@@ -159,10 +159,10 @@ To learn more about the JSON file, you can navigate other data objects such as q
 
 You may also uncomment the line `//tint(255, 0);` to set the fill value for displaying images. In this sample code, the `tint()`[^tint] function is used to make the image transparent by including an alpha value.
 
-1. According to Figure 8.5, can you recap what has been requested and received through the web API? 
+1. According to Figure 8.5, can you recap what has been requested and received through the web API?
 2. Change your own query strings: The current keywords is warhol flowers. The program won't take space between text and therefore it is written as "warhol+flowrers"
 3. Add more [different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters)[^setting], such as adding image color type. (The URL parameters are seperated by a "&" sign like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image
-4. Study the JSON file and modify the sketch to get other data such as the text by showing that into the web console. 
+4. Study the JSON file and modify the sketch to get other data such as the text by showing that into the web console.
 5. To process the image data and to visualize the pixel's color through lines is mainly done by below snippet of code. Think about and discuss why there is an error message in the web console: `TypeError: "path is undefined"`.
 
 
@@ -196,11 +196,11 @@ Pixel 1 - R value, Pixel 1 - G value, Pixel 1 - B value, Pixel 1 - A value, Pixe
 
 The first pixel with the 4 RGBA values, then the second pixel with another 4 RGBA values, and this continues to go on for all the pixels. Therefore, it is understood as 4 different locations and each store one value. In order to locate specifically on the selected pixel, the formula would be: `loc = (img_x+img_y * img.width)*4;`. The use of `img.pixels[loc]`, `img.pixels[loc+1]`, `img.pixels[loc+2]` is to locate the RGB values respectively by using the function of pixel array `pixels[]`.
 
-Up to here the colored line visualization is an additional element in this chapter beyond the web APis, which is to show how a computer processes and stores an image as a piece of data which is fundamentally different from how humans see and perceive it. It is also a way to demonstrate how an image object is being translated into numbers for computation, which may be similar to the face tracking in the chapter 4 - Data Capture in which a pixel can be clearly located in a very small scale beyond human reception. These machine ways of seeing may help to understand more contemporary applications like tracking technology and even computer vision with machine learning where images are regarded as training data set for generating similar drawing style of works. 
+Up to here the colored line visualization is an additional element in this chapter beyond the web APis, which is to show how a computer processes and stores an image as a piece of data which is fundamentally different from how humans see and perceive it. It is also a way to demonstrate how an image object is being translated into numbers for computation, which may be similar to the face tracking in the chapter 4 - Data Capture in which a pixel can be clearly located in a very small scale beyond human reception. These machine ways of seeing may help to understand more contemporary applications like tracking technology and even computer vision with machine learning where images are regarded as training data set for generating similar drawing style of works.
 
-## Different types of errors 
+## Different types of errors
 
-At this stage, you have better programming skills and your program will be more complex. It is important to understand, identify and locate errors so that on the one hand you can build a workable sketch, but on the other hand, it allows us to experience how a program works at a very logical, computational and accurate manner. 
+At this stage, you have better programming skills and your program will be more complex. It is important to understand, identify and locate errors so that on the one hand you can build a workable sketch, but on the other hand, it allows us to experience how a program works at a very logical, computational and accurate manner.
 
 When you are debugging your sketch, can you able to identity if the errors come from your own code, or the errors from parsing the data while it is running, or the errors from other third party like Google? Are they minor errors or critical errors (that stop your program from running)? Are they belong to syntactic, runtime or logical errors? (see below) For example, if you encounter error 403 in your console with the sample code, this likely means that Google has barred your API as the requests exceed the 100 times limit per day.
 
@@ -218,9 +218,9 @@ TypeError: Cannot read property 'indexOf' of undefined
     at e.d.redraw (p5.min.js:9)
     at e.<anonymous> (p5.min.js:8)
 ```
-Exception handling is normally used to do something (or even stop the process) when the program, or more specifically a function, cannot run normally. It has a wide range of use because the syntax of `Try & Catch`[^catch] is simply to try to do something and catch the errors if any. 
+Exception handling is normally used to do something (or even stop the process) when the program, or more specifically a function, cannot run normally. It has a wide range of use because the syntax of `Try & Catch`[^catch] is simply to try to do something and catch the errors if any.
 
-In this chapter's sample code, it uses `Try` & `Catch`[^catch] exceptions so as to keep the code running in the function `draw()`. Usually a programmer possibly anticipate errors like in this case but no one knows when exactly will it occur and when will it stop. For this case, it depends on the computer and network speed to handle the API request and image loading. The use of exception handling, then, is to allow the program to "recover from errors and continue execution"[^louden]. The `catch` syntax prevents the program stops from critical errors in this case and so that the `draw()` functions can still continuously run for every frame. 
+In this chapter's sample code, it uses `Try` & `Catch`[^catch] exceptions so as to keep the code running in the function `draw()`. Usually a programmer possibly anticipate errors like in this case but no one knows when exactly will it occur and when will it stop. For this case, it depends on the computer and network speed to handle the API request and image loading. The use of exception handling, then, is to allow the program to "recover from errors and continue execution"[^louden]. The `catch` syntax prevents the program stops from critical errors in this case and so that the `draw()` functions can still continuously run for every frame.
 
 C. **Logical errors**: Arguably the hardest error to locate as it deals with logics but not syntax. The code may still run perfectly but the result is not what you expected.
 
@@ -231,6 +231,8 @@ The web console is a good place to be notified with errors. When countering erro
 The notion of queerness is especially seen in the chapters 6-8 that is exemplified via the early queer love work by Christopher Strachey and language poetry by Winnie Soon to explore auto generator and queer code. With this chapter on que(e)ry data, we have started off with *FEMINIST EXTENSION* as an intervention to a stable system with the lens of institutional critique. Following this line we have then introduced the corporational institution - Google who offers the free (and not open source) but limited requests of the API via the artwork *nag* that emphasizes the querying processes, including not only the execution of data request and response but also questioning how data is being algorithmically structured yet without knowing what are the factors and parameters involved to organizing a search result. The trade off of the so-called "free" services of Google is not only the public data that is contributed by many individuals but also, more importantly, the perpetual and significant influence in shaping knowledge production and consumption. Indeed, the internet now is dominated by major proprietary platforms such as Facebook, Instagram, Line and Weibo that has tremendous power to organize the flow of information.  
 
 Que(e)ry data suggests something similar to queer code as a feminist approach especially in regards to new materialism, which is to queer the power structure of materials in order to understand "the mechanisms that shape reality" by "including new agents"[^feminist]. In the current climate of datafied and automated culture, it is important to queer how data is being collected, stored, analyzed, recommended, ranked, selected and curated in order to understand the broader social, cultural and political relations and implications of proprietary and free capitalist system. 
+
+....Data, Archives, Repositories, Libraries, Databases / Critical APIs across time (googlification of everything, literacy)
 
 ## Mini_Exercise[8]: Working with APIs in a group
 
@@ -256,7 +258,7 @@ Que(e)ry data suggests something similar to queer code as a feminist approach es
 **Tasks (RUNME):**
 This is a relatively complex exercise that requires you to
   - Design a program that utilizes at least one web API (think about what you want to say conceptually), including:
-    - Finding available web APIs and the data that you want to explore 
+    - Finding available web APIs and the data that you want to explore
     - Understand what are the available data: the data file format and the API's specification
     - Decide which data fields you want to choose to explore and experiment
     - Utilize the web API and the corresponding data in your suggested program
@@ -268,7 +270,7 @@ This is a relatively complex exercise that requires you to
 - Try to formulate a question in relation to web APIs or querying/parsing processes that you want to investigate further if you have more time.  
 
 ## Required reading:
-- Snodgrass, Eric, & Winnie Soon. "[API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange](https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721)." *First Monday* [Online], 24.2 (2019): n. pag. Web. 13 Jan. 2020 
+- Snodgrass, Eric, & Winnie Soon. "[API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange](https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721)." *First Monday* [Online], 24.2 (2019): n. pag. Web. 13 Jan. 2020
 - Daniel Shiffman, Working with data, The Coding Train, available at https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r (watch 10.4-10.10)
 
 ## Further reading:
@@ -287,7 +289,7 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 
 [^pixel]: See the reference guide of `loadPixels()`, https://p5js.org/reference/#/p5/loadPixels.
 
-[^google1]: See https://developers.google.com/custom-search/v1/overview. 
+[^google1]: See https://developers.google.com/custom-search/v1/overview.
 
 [^google2]: See https://cse.google.com/all.
 
@@ -307,7 +309,7 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 
 [^http]: HTTP headers let the client and the server pass additional information, such as the Access-Control-Allow-Origin parameter, with an HTTP request or response. Such configuration is critical to resource security and it is part of how networks, web browsers and code communicate with different parties. See the different values of such parameter here https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin
 
-[^wc]: See the recommendation of CORS by W3C, https://www.w3.org/TR/cors/. 
+[^wc]: See the recommendation of CORS by W3C, https://www.w3.org/TR/cors/.
 
 [^add-on]: Other than having a CORS proxy, we can also install browser add-ons to bypass the issue of CORS. Just simply search in the extension/add on site for the specific web browser with the keyword "CORS".
 
