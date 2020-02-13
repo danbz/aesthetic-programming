@@ -422,6 +422,7 @@ Check out other works that refer to the throbber and how other people contextual
 
 **Questions to think about (README):**
 - **Describe** your throbber design, both conceptually and technically.
+    - What is your sketch? What do you want to explore and/or express? 
     - What are the time-related syntaxes/functions that you have used in your program, and why have you used them in this way? How is time being constructed in computation (refer to both the reading materials and your process of coding)?
     - Think about a throbber that you have encounted in digital culture, e.g. for streaming video on YouTube or loading the latest feeds on Facebook, or waiting for a ticket transaction, and consider what a throbber communicates, and/or hides? How might we characterise this icon differently?
 </div>
