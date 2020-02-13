@@ -295,8 +295,8 @@ let words = [] //array -> start with 0
 words[0] = "what";
 words[1] = "is";
 words[2] = "array";
-print(words[2]); //output: is
-print(words.length); //output: 3
+console.log(words[2]); //output: array
+console.log(words.length); //output: 3
 ```
 
 Recalling our previous approach using variables, we can follow a similar structure:
