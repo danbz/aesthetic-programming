@@ -10,8 +10,17 @@ page_order: 10
 - Ways of Machine Seeing, Reading and Processing
 
 ## setup()
-As the last human writing chapter,
-changing the strategy of writing and this chapter is not focused on the technical on how to make it works as it involves more classes on natural language processing, or another book. But this is to hint at the way forward, or the next aesthetic programming book perhaps.
+
+![](ch10_1.png)
+*Figure 10.1: The flow diagram of Eliza (1966) by Joseph Weizenbaum*
+
+This chapter begins with a diagram that describes how a chatbot works procedurally. *Eliza*, a computer program but it also often describes  as a computer therapist, was considered as one of the first chatbot that was created in the mid-1960s by Joseph Weizenbaum at MIT. Involving natural language processing, *Eliza* implements keywords recognition in which it takes in textual input from a patient and output responses that simulate a doctor therapist by following certain language rules with psycological consideration. Such conversations involve an "illusion" [^Weizenbaum] in blurring the boundary between humans and machines. Evidently, *Eliza* exhibits some kinds of intelligence, with reference to the Turing Test[^Turing], not only it is able to maintain a relevant and personalized dialogue over time but also as Weizenbaum notes, "[s]ome subjects have been very hard to convince that ELIZA is not human."[^Weizenbaum2]  
+
+This kind of artificial intelligence deals with expectation, and in computer science terms it is called prediction. What do you expect when you are interacting with a device/screen interface that is based on the experience, in terms of human interactions, that you have in the past? Latest technology of voice assistants in particular demonstrates the smoothness of conversations, such as asking the assistant to switch on/off a light, to play a certain style of music, to reserve a table at a restaurant and to seek help from customer services, these assistants are able to *learn the style* of human behaviors mostly based on data sets that are trained and through machine learning models to recognize patterns.  
+
+However, pattern recognization is a political issue as argued by Clemens Apprich, and it is not a neutral process as it involves the identification of input data and the  discrimination of information.[^clemens] It is not difficult to experience inherent ideologies in machine learning processes, such as gender stereotypes as found in the online translation tool[^online], the AI chatbot that was regarded as racist[^tay], racial bias as found in facial recognization regarding border control and criminal identification [^face], and many others. As such, machine learning or pattern recognition is not only about smoothening tasks and efficiency in terms of technical operation but also as what Hito Steyerl would describe as "political operation" as it creates "subjects and subjection, knowledge, authority" as well as classification and categorization.[^hito]
+
+There are many aesthetic and cultural aspects around machine learning, such as labour practices, bias, data collection, creativity and authorship, transparency, that we could discuss but we definately need more space, or perhaps even another book to continue this thread of critical discussion and learning. In view of the last chapter of this book, we take the advice from John Berger who is an art critic and wrote the infamous book *Ways of Seeing* in 1972, which is to call for an attitude of skepticism, to "remain skeptical"[^john], about what and how we read, see and know, extending from visual culture to machine learning algorithms and software production in general. Gathering, arranging, producing, generalizing knowledge automatically via machine operations is further bounded together with "systems of power". Instead of following the common objective of achieving the so-called accurate prediction in using machine learning, perhaps we need to first unsettle the relations between seeing and knowing.[^cox] By knowing how/what machine senses and at what conditions, it may  illuminate the entanglement of knowldege and power, human and nonhuman operations.
 
 ## start()
 - voice assistant
@@ -79,6 +88,16 @@ The README should address at least the following questions with the help of your
 ## Further reading:
 - Weizenbaum Joseph (1966) ELIZA - a computer program for the study of natural language communication between man and machine. *Commun ACM* 9(1):36–4
 - Kate Crawford and Vladan Joler. Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources, 2018. Web: https://anatomyof.ai/
-- Edobson, James. E. "[Can An Algorithm Be Disturbed?: Machine Learning, Intrinsic Criticism, and the Digital Humanities](https://pdfs.semanticscholar.org/987a/c2ba1da176d52036023f7ef05f47c6366d29.pdf)." College Literature, vol. 42 no. 4, 2015, pp. 543-564. Project MUSE
+- Clemens Apprich, Wendy Hui Kyong Chun, Florian Cramer, Hito Steyerl, *[Pattern Discrimination: In Search of Media](https://meson.press/wp-content/uploads/2018/11/9783957961457-Pattern-Discrimination.pdf)*, Minneapolis, London: University of Minnesota Press, 2018.
 
 ## Notes
+
+[^Weizenbaum]:
+[^Weizenbaum2]:
+[^clement]: p.x
+[^online]:https://twitter.com/mit_csail/status/916032004466122758
+[^tay]: microsoft chatbot
+[^face]: xx
+[^hito]: p.3
+[^john]: ref
+[^cox]: ref
