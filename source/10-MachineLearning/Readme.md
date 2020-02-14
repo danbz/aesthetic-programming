@@ -13,17 +13,33 @@ This chapter begins with a diagram that describes how a chatbot works procedural
 
 This kind of artificial intelligence deals with expectation, and in computer science terms it is called prediction. What do you expect when you are interacting with a device/screen interface that is based on the experience, in terms of human interactions, that you have in the past? Latest technology of voice assistants in particular demonstrates the smoothness of conversations, such as asking the assistant to switch on/off a light, to play a certain style of music, to reserve a table at a restaurant and to seek help from customer services, these assistants are able to *learn the style* of human behaviors mostly based on data sets that are trained and through machine learning models to recognize patterns.  
 
-However, pattern recognization is a political issue as argued by Clemens Apprich, and it is not a neutral process as it involves the identification of input data and the discrimination of information.[^clemens] It is not difficult to experience inherent ideologies in machine learning processes, such as gender stereotypes as found in the online translation tool[^online], the AI chatbot that was regarded as racist[^tay], racial bias as found in facial recognization regarding border control and criminal identification [^face], and many others. As such, machine learning or pattern recognition is not only about smoothening tasks and efficiency in terms of technical operation but also as what Hito Steyerl would describe as "political operation" as it creates "subjects and subjection, knowledge, authority" as well as classification and categorization.[^hito]
+However, pattern recognization is a political issue as argued by Clemens Apprich, and it is not a neutral process as it involves the identification of input data and the *discrimination* of information.[^clemens] It is not difficult to experience inherent ideologies in machine learning processes, such as gender stereotypes as found in the online translation tool[^online], the AI chatbot that was regarded as racist[^tay], racial bias as found in facial recognization regarding border control and criminal identification [^face], and many others. As such, machine learning or pattern recognition is not only about smoothening tasks and accurate predictions in terms of technical operation but also as what Hito Steyerl would describe as "political operation" as it creates "subjects and subjection, knowledge, authority" as well as classification and categorization.[^hito]
 
-There are many aesthetic and cultural aspects around machine learning, such as labour practices, bias, data collection, creativity and authorship, transparency, that we could discuss but we definately need more space, or perhaps even another book to continue this thread of critical discussion and learning. In view of the last chapter of this book, we take the advice from John Berger who is an art critic and wrote the infamous book *Ways of Seeing* in 1972, which is to call for an attitude of skepticism, to "remain skeptical"[^john], about what and how we read, see and know, extending from visual culture to machine learning algorithms and software production in general. Gathering, arranging, producing, generalizing knowledge automatically via machine operations is further bounded together with "systems of power". Instead of following the common objective of achieving the so-called accurate prediction in using machine learning, perhaps we need to first unsettle the relations between seeing and knowing.[^cox] By knowing how/what machine senses and at what conditions, it may illuminate the entanglement of knowldege and power, human and nonhuman operations.
+There are many aesthetic and cultural aspects around machine learning, such as labour practices, bias, data collection, creativity and authorship, transparency, that we could discuss but we definately need more space, or perhaps even need to write another book to continue this thread of critical discussion and learning. In view of the last chapter of this book, we take the advice from John Berger who is an art critic and wrote the infamous book *Ways of Seeing* in 1972, which is to call for an attitude of skepticism, to "remain skeptical"[^john], about what and how we read, see and know, extending from visual culture to machine learning algorithms and software production in general. Gathering, arranging, producing and generalizing knowledge automatically via machine operations are further bounded together with "systems of power"[^cox]. Instead of following the common objectives of achieving accurate prediction and efficient generalization in using machine learning, perhaps we need to first unsettle the relations between seeing and knowing as suggested by Geoff Cox. By knowing how/what machine senses and at what conditions, it may illuminate the entanglement of knowldege and power, human and nonhuman operations.
 
 ## start()
-- voice assistant
-- Eliza
-- ml5 for machine generative text
--
+In a nutshell, machine learning can be thought of three components: Input, Modelling and Output. Usually a large amount of data is needed to be collected, gathered, parsed, and this process is called data cleansing in computer science terms (data can be thought of text, video, images, gestures, etc). Pointing at this cleaning process, it involves decision making, in terms of identifying and accessing the datasets, how to structure the raw data and how to deal with inconsistencies. If data is coming from different places, then how to normalize the data by imposing a standard into structuring a cohesive data set? If we take the next bonus chapter - Machine Writing as the example, the raw data would be the gathering of markdowns in the form of characters and symbols from each chapter. We want to explore how a chapter is produced with different source code, image links, texts, etc, and what does it mean by generating a chapter.  
+
+Machine learning utilizes different algorithms to process the training data set. But in general, there are 3 types of algorithms: Supervised Learning, Unsupervised Learning and Reinforcement Learning.
+
+Supervised Learning -
+
+Unsupervised Learning -
+
+Reinforcement Learning -
+
+Given the length and the cohesiveness of the book, this chapter will point to the machine learning library called ml5.js, which is a JavaScript framework again that can be run on a web browser like p5.js. With its objective to make machine learning approachable for a broad audience, the library is supported by extensive code examples and tutorials on the website[^ml5].
 
 ## Exercise in class
+
+Ths exercise is more returing to the Eliza chatbot as a mode to think about the notion of intelligence:
+
+elizabot.js version (2005) https://www.masswerk.at/elizabot/ by Norbert Landsteiner
+  - Eliza Test: https://www.masswerk.at/elizabot/eliza_test.html -> click the button 'Next step' to see the conversation that was stated in the original example given by Joseph Weizenbaum (1966)
+  - E.L.I.Z.A talking: https://www.masswerk.at/eliza/
+
+Daniel Temkin | Drunk Eliza (2010): http://danieltemkin.com/DrunkEliza/
+
 
 ##
 
@@ -42,12 +58,8 @@ let
 
 
 ## While()
-- Personal assistants: Eliza (1964-1966) + elizabot.js version (2005) by Norbert Landsteiner + Daniel Temkin | Drunk Eliza (2010)
-- What is Machine Learning?
-- Machine prediction: Classification and Text generation
-- Experimenting ml5.js library
-- Ways of Machine Seeing, Reading and Processing
 - The Borges story (classification)
+- g: you want to talk more image net? database? /w
 
 ## Mini_Exercise[10]: Final Project
 
@@ -94,12 +106,23 @@ The README should address at least the following questions with the help of your
 ## Notes
 
 [^Weizenbaum]:
+
 [^Weizenbaum2]:
+
 [^Turing]:
+
 [^clemens]: p.x
+
 [^online]:https://twitter.com/mit_csail/status/916032004466122758
+
 [^tay]: microsoft chatbot
+
 [^face]: xx
+
 [^hito]: p.3
+
 [^john]: ref
+
 [^cox]: ref
+
+[^ml5]: See https://ml5js.org/.
