@@ -3,15 +3,10 @@ page_order: 10
 
 ## Machine Learning
 
-- Personal assistants: Eliza (1964-1966) + elizabot.js version (2005) by Norbert Landsteiner + Daniel Temkin | Drunk Eliza (2010)
-- What is Machine Learning?
-- Machine prediction: Classification and Text generation
-- Experimenting ml5.js library
-- Ways of Machine Seeing, Reading and Processing
-
 ## setup()
 
 ![](ch10_1.png)
+
 *Figure 10.1: The flow diagram of Eliza (1966) by Joseph Weizenbaum*
 
 This chapter begins with a diagram that describes how a chatbot works procedurally. *Eliza*, a computer program but it also often describes  as a computer therapist, was considered as one of the first chatbot that was created in the mid-1960s by Joseph Weizenbaum at MIT. Involving natural language processing, *Eliza* implements keywords recognition in which it takes in textual input from a patient and output responses that simulate a doctor therapist by following certain language rules with psycological consideration. Such conversations involve an "illusion" [^Weizenbaum] in blurring the boundary between humans and machines. Evidently, *Eliza* exhibits some kinds of intelligence, with reference to the Turing Test[^Turing], not only it is able to maintain a relevant and personalized dialogue over time but also as Weizenbaum notes, "[s]ome subjects have been very hard to convince that ELIZA is not human."[^Weizenbaum2]  
@@ -47,6 +42,12 @@ let
 
 
 ## While()
+- Personal assistants: Eliza (1964-1966) + elizabot.js version (2005) by Norbert Landsteiner + Daniel Temkin | Drunk Eliza (2010)
+- What is Machine Learning?
+- Machine prediction: Classification and Text generation
+- Experimenting ml5.js library
+- Ways of Machine Seeing, Reading and Processing
+- The Borges story (classification)
 
 ## Mini_Exercise[10]: Final Project
 
@@ -94,7 +95,8 @@ The README should address at least the following questions with the help of your
 
 [^Weizenbaum]:
 [^Weizenbaum2]:
-[^clement]: p.x
+[^Turing]:
+[^clemens]: p.x
 [^online]:https://twitter.com/mit_csail/status/916032004466122758
 [^tay]: microsoft chatbot
 [^face]: xx
