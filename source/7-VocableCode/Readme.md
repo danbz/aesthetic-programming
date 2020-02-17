@@ -482,7 +482,7 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
 
 [^Plant2]: Plant, *Zeros + Ones*, 88. 
 
-[^Hodges]: For a more detailed version of historical events, see Andrew Hodges's *Alan Turing: The Enigma*. 
+[^Hodges]: For a more detailed version of historical events, see Andrew Hodges's *Alan Turing: The Enigma* (London: Burnett Books, 1983). 
 
 [^Plant3]: Plant, *Zeros + Ones*, 98-9. 
 
