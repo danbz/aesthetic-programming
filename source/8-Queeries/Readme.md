@@ -2,10 +2,11 @@ Title: 8. Que(e)ries
 page_order: 8
 
 ## Que(e)ry Data
-[g: how do you think about the title? /w]
 
 ## setup()
-Following Chapter 4 on Data Capture, we have already explored some of the processes of how a program captures input data, especially data that is connected to physical devices. This chapter is an expansion of data processing with data that is hosted on platforms and in sheer amount in terms of quantity, extending the focus from data 'capture' to data 'accessibility' questioning power relations on data ownership and transparency.
+To query something is to ask a question about something, to check its validity or accuracy. When doing this with a database, a query is a request for data in order to be able to be selective about how much data is returned. For example, you might only want to check data from a given time or place. 
+
+Following Chapter 4 on Data Capture, we have already explored some of the processes by which a program captures input data, especially data that is connected to physical devices. This chapter is an expansion of data processing with data that is hosted on platforms and in sheer amount in terms of quantity, extending the focus from data 'capture' to data 'accessibility' questioning power relations on data ownership and transparency.
 
 In contemporary culture many user behavioral and user-generated content are algorithmically manifested as data streams or feeds. Beyond social media, search engine is an important application to aggregate content and algorithmically returns search results accordingly to keywords search. Infinite data are stored in databases undergo a never-ending update of records. Databases have a significant impact on computational culture and it is through the storage and analysis of massive amounts of captured data (so-called 'Big Data') in which profiling, targeted marketing, personalised recommendations and various sorts of predictions and e-commerce on platforms become accelerated and perpetuated. According to Chun, user habits formulate big data businesses, and she explains, 'Through habits users become their machines: they stream, update, capture, upload, share, grind, link, verify, map, save, trash and troll' [^chun]. Browsing, searching, posting, for instance, become our habits and they are transformed from actions to data that is storable, tracable and analysable. But these databases do not only enable the storage of data but also the organisation of data and the retrieval of information over networked conditions.
 
