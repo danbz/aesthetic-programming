@@ -65,9 +65,7 @@ function setup() {
 }
 
 function draw() {
-  fill(70,80);  //check this syntax with alpha value
-  noStroke();
-  rect(0, 0, width, height);
+  background(70, 80);  //check this syntax with the alpha value
   drawElements();
 }
 
