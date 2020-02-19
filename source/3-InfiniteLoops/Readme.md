@@ -348,6 +348,8 @@ To structure a for-loop, you need to ask yourself:
 - More specifically, what is the conditional logic, and when do you want to exit the loop?
 - What do you want to do when this condition is or is not met?
 
+[w: perhaps add this example first before moving to something more complex - useful in teaching: https://editor.p5js.org/siusoon/sketches/0A6i5_a3 /w]
+
 See below example taken from the source code of *Asterisk Painting* (lines 37-42):
 
 ```javascript
