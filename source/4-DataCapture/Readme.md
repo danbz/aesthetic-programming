@@ -121,9 +121,9 @@ function keyPressed() {
   }
 }
 ```
-## 4.3 p5.dom: Creating and styling a button
+## 4.3 DOM elements: Creating and styling a button
 
-The basic structure for creating from elements is relatively simple. In the p5.js reference guide under the DOM category,[^DOM] there are different form creation syntaxes, e.g. `createCheckbox()`, `createSlider()`, `createRadio()`, `createSelect()`, `createFileInput()`, and so on. The one that we need for creating a button is called `createButton()`. 
+DOM stands for Document Object Model, considering a document like HTML as a tree structure that allows programs to dynamically access and update the content, structure and style of it. Instead of focusing different tree structure of a document, this chapter will be focus on form elements as part of the DOM. The basic structure for creating form elements is relatively simple. In the p5.js reference guide under the DOM category,[^DOM] there are different form creation syntaxes, e.g. `createCheckbox()`, `createSlider()`, `createRadio()`, `createSelect()`, `createFileInput()`, and so on. The one that we need for creating a button is called `createButton()`. 
 
 First you need to assign an object name for the button, and of course different names if you have more than one so that you can set the properties[^Element] for each. 
 
@@ -246,9 +246,9 @@ To familiar yourself with face capture, try the following:
 1. Explore the different modes of capture by tinkering with various parameters such as `keyCode`, as well as other keyboard and mouse events. 
 2. Study the tracker points and try to change the position of the Like button that you previously customized in the earlier exercise. 
 3. Try to test the boundaries of facial recognition: to what extend can(not) a face be recognized as a face?
-4. How has facial recognition technology been applied in society at large, and what are some of the issues that arise from this? 
+4. Do you know how the face is being modelled? How has facial recognition technology been applied in society at large, and what are some of the issues that arise from this? 
 
-It would be worth checking back to Chapter 2 (VariableGeometry) for a reminder of how facial recognition identifies a person's face from its geometry — such as the distance between a person's eyes or size of mouth — to establish a facial signature that is comparable to a standardised database. Not least of the problems is that the database is itself skewed by the ways in which the data has been prepared, in its selection, collection, categorization, classification and cleaning. To what extent does your face meet the standard?   
+It would be worth checking back to Chapter 2 (Variable Geometry) for a reminder of how facial recognition identifies a person's face from its geometry — such as the distance between a person's eyes or size of mouth — to establish a facial signature that is comparable to a standardised database. Not least of the problems is that the database is itself skewed by the ways in which the data has been prepared, in its selection, collection, categorization, classification and cleaning. To what extent does your face meet the standard?   
 
 ## 4.9 The concept of capture
 After the demonstration of different inputs for data capture, this next section discusses various examples. The intention is to showcase some other possibilities of its application, and more importantly how this relates to datafication, commodification, surveillance and personalization. This is an attempt to discuss data politics more broadly: to question how our personal data is being captured, quantified, archived and used, and to what purpose? What are the implications and who has the power to access the captured data and derive profit from it? Few people know exactly what data is being captured nor how it will be used?[^GDPR] But, despite the term capture, we should also point out that this is not total incarceration, and there are escape routes too. More on this later.  
@@ -274,7 +274,8 @@ As we argued with interaction, the choices are limited. Each form elements like 
 The use of a single Like button provides a good example of how our feelings are captured. The aptly named company *Happy or Not* who produce push button technology and analytics software — the kind found in supermarkets for instance, with happy or sad faces — also provide feedback technologies for the workplace, as indicated by their strapline: "Creating happiness in every business, worldwide".[^Leslie] The six emoticons launched in 2016 by Facebook including *Like*, *Love*, *Haha*, *Wow*, *Sad* and *Angry* mark our standardised experience of work and play more precisely. All clicks are *categorized* into emotional metrics, displayed publicly on the web, and used for algorithmic calculation to prioritize feeds to users. It is fairly clear how the clicks serve the interests of platform owners foremost, and as if to prove the point, Facebook and Instagram have tested the idea of hiding the metrics on posts in order to shift attention to what they prefer to call "connecting people"[^Hide] — as if their interests were altruistic. 
 This practice of quantification is something the artist Benjamin Grosser has parodied in his *Demetricator* series,[^Grosser] first published in 2012, in which all the numbers associated with the metadata has disappeared. The associated *value* of numbers associated with notifications, replies, favorites and feeds, have all been nullified. Or rather it becomes clear that the clicking produces *value* and the proof of this is conspicuous by its absence. 
 
-[add demetricator image? /g]
+[https://bengrosser.com/wp-content/resources/fbd-home-master.gif]
+*Figure 4.x: Benjamin Grosser's Facebook Demetricator Demetricating Likes, Shares, Comments, and Timestamps Original (top), Demetricated (bottom). Image courtesy of the artist.*
 
 Tracking is clearly big business and comes with its own invisibility cloak. In 2013, Facebook conducted a research project about last-minute self-censorship,[^Facebook3] revealing their capability of being able to track even unposted status updates/posts/comments, including erased texts or images. The implication is that Facebook is not only interested in capturing what you have posted but what you have been thinking about posting. It is sobering to think that data capture extends to the imaginative realm.
 
