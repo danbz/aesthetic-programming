@@ -4,14 +4,21 @@ page_order: 8
 ## Que(e)ry Data
 
 ## setup()
-To query something is to ask a question about something, to check its validity or accuracy. When doing this with a database, a query is a simple request for data, in order to be able to be selective about what and how much data is returned, but we should clearly question the results. 
+To query something is to ask a question about something, to check its validity or accuracy. When doing this with a database, a query is a simple request for data, in order to be able to be selective about what and how much data is returned, but we should clearly question the results. We wish to 'que(e)ry' results that tend towards normativity and self-fulfilling prophesy.   
 
-Search engines (like Google) make a good example of applications that aggregate content and algorithmically return search results according to a keywords search. They promise to answer all our questions but do not make visible the underlying processes (and ideology) that give prominance to certain answers over others.[^netcultures] In a query-driven society, search engines make sense for us of seemingly infinite amounts of data stored in databases that undergo never-ending updates but tend to return normative results. We query this in this chapter and make apparent some of the processes at work.  
+Search engines (like Google) make a good example of applications that aggregate content and algorithmically return search results according to a keywords search. They promise to answer all our questions but do not make visible the underlying processes (and ideology) that give prominance to certain answers over others.[^netcultures] In a query-driven society, search engines have become powerful mechanisms for truth-making and for making sense of seemingly endless amounts of data. We have already explored some of the processes by which a program captures input data in Chapter 4 (Data Capture), especially data that is connected to physical devices, and in this chapter we expand this to data hosted on platforms. What is different here is that we encounter a shift in terms of quantity of data, extending our focus from 'capture' to the storage and analysis of massive amounts of captured data (so-called 'Big Data') 
 
-We have already explored some of the processes by which a program captures input data in Chapter 4 (Data Capture), especially data that is connected to physical devices, and in this chapter we expand this to data hosted on platforms. Given that this necessitates  
+in which profiling, targeted marketing, personalised recommendations and various sorts of predictions and e-commerce on platforms become accelerated and perpetuated. According to Chun, user habits formulate big data businesses, and she explains: "Through habits users become their machines: they stream, update, capture, upload, share, grind, link, verify, map, save, trash and troll".[^chun] Browsing, searching, posting, for instance, become our habits and they are transformed from actions to data that is storable, tracable and analysable. But these databases do not only enable the storage of data but also the organisation of data and the retrieval of information over networked conditions.
 
 
-and in sheer amount in terms of quantity, extending the focus from data 'capture' to data 'accessibility', questioning power relations on data ownership and transparency. We queer query play with the term - by  to challnege the elgitmacy of results and to point to the undeleying polituics
+'accessibility', questioning power relations on data ownership and transparency. 
+ 
+
+It is through the 
+
+Given that this necessitates  
+
+
 
 
 
@@ -252,6 +259,8 @@ The notion of queerness is especially seen in the chapters 6-8 that is exemplifi
 Que(e)ry data suggests something similar to queer code as a feminist approach especially in regards to new materialism, which is to queer the power structure of materials in order to understand "the mechanisms that shape reality" by "including new agents"[^feminist]. In the current climate of datafied and automated culture, it is important to queer how data is being collected, stored, analyzed, recommended, ranked, selected and curated in order to understand the broader social, cultural and political relations and implications of proprietary and free capitalist system. 
 
 ....Data, Archives, Repositories, Libraries, Databases / Critical APIs across time (googlification of everything, literacy)
+
+/add Antoinette Rouvroy.
 
 ## Mini_Exercise[8]: Working with APIs in a group
 
