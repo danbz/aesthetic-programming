@@ -61,7 +61,7 @@ This is exactly our point. The book expresses itself as a dynamic object not fix
 
 ## Notes
 
-[^Howto]: The casual address "for dummies" could also be used but this carries the unfortunate connotation of learning disability.
+[^Howto]: Useful in the way we write software. Here we are making reference to nonstandard literacy, such as in the article: Marilyn M. Cooper, "Really Useful Knowledge: A Cultural Studies Agenda for Writing Centers",
 
 [^useful]: Useful in the way we write software. Here we are making reference to nonstandard literacy, such as in the article: Marilyn M. Cooper, "Really Useful Knowledge: A Cultural Studies Agenda for Writing Centers", *The Writing Center Journal*, Vol. 14, No. 2 (Spring 1994), pp. 97-111, https://www.jstor.org/stable/43441948. 
 
