@@ -4,36 +4,13 @@ page_order: 8
 ## Que(e)ry Data
 
 ## setup()
-To query something is to ask a question about something, to check its validity or accuracy. When doing this with a database, a query is a simple request for data, in order to be able to be selective about what and how much data is returned, but we should clearly question the results. We wish to 'que(e)ry' results that tend towards normativity and self-fulfilling prophesy.   
+To query something is to ask a question about something, to check its validity or accuracy. When doing this with a database, a query is a simple request for data, in order to be able to be selective about what and how much data is returned, but we should clearly question this too. We wish to further 'que(e)ry' results that we think become self-fulfilling prophesy.   
 
-Search engines (like Google) make a good example of applications that aggregate content and algorithmically return search results according to a keywords search. They promise to answer all our questions but do not make visible the underlying processes (and ideology) that give prominance to certain answers over others.[^netcultures] In a query-driven society, search engines have become powerful mechanisms for truth-making and for making sense of seemingly endless amounts of data. We have already explored some of the processes by which a program captures input data in Chapter 4 (Data Capture), especially data that is connected to physical devices, and in this chapter we expand this to data hosted on platforms. What is different here is that we encounter a shift in terms of quantity of data, extending our focus from 'capture' to the storage and analysis of massive amounts of captured data (so-called 'Big Data') 
+Search engines (like Google) make a good example of applications that aggregate content and algorithmically return search results according to a keywords search. They promise to answer all our questions but do not make visible the underlying processes (and ideology) that give prominance to certain answers over others. In a query-driven society, search engines have become powerful mechanisms for truth-making and for our making sense of seemingly endless amounts of data, manifested as streams and feeds. 
 
-in which profiling, targeted marketing, personalised recommendations and various sorts of predictions and e-commerce on platforms become accelerated and perpetuated. According to Chun, user habits formulate big data businesses, and she explains: "Through habits users become their machines: they stream, update, capture, upload, share, grind, link, verify, map, save, trash and troll".[^chun] Browsing, searching, posting, for instance, become our habits and they are transformed from actions to data that is storable, tracable and analysable. But these databases do not only enable the storage of data but also the organisation of data and the retrieval of information over networked conditions.
+We have already explored some of the processes by which a program captures input data in Chapter 4 (Data Capture), especially data that is connected to physical devices, and in this chapter we expand this to data hosted on online platforms. What is evident is that we encounter a significant shift in saturation here, thus extending our attention from the capture of data to the storage and analysis of massive amounts of captured data (so-called 'Big Data') which is then utilized for user-profiling, targeted marketing, personalised recommendations and various sorts of predictions and e-commerce. According to Wendy Chun, user habits formulate big data businesses, and she further explains: "Through habits users become their machines: they stream, update, capture, upload, share, grind, link, verify, map, save, trash and troll".[^chun] Searching, for instance, becomes a habit and this is transformed into data that is storable, tracable and analysable, with direct implications for subjectivation (the process by which we become a subject). In turn it seems that, "We’re not in control of our search practices – search engines are in control of us and we readily agree, though mostly unconsciously, to this domination."[^netcultures] 
 
-
-'accessibility', questioning power relations on data ownership and transparency. 
- 
-
-It is through the 
-
-Given that this necessitates  
-
-
-
-
-
-It is through the storage and analysis of massive amounts of captured data (so-called 'Big Data') 
-in which profiling, targeted marketing, personalised recommendations and various sorts of predictions and e-commerce on platforms become accelerated and perpetuated. According to Chun, user habits formulate big data businesses, and she explains: "Through habits users become their machines: they stream, update, capture, upload, share, grind, link, verify, map, save, trash and troll".[^chun] Browsing, searching, posting, for instance, become our habits and they are transformed from actions to data that is storable, tracable and analysable. But these databases do not only enable the storage of data but also the organisation of data and the retrieval of information over networked conditions.
-
-
-user behavior and user-generated content is algorithmically manifested as data streams or feeds, evident in social media. Beyond social media, 
-
-.  
-This chapter focuses on query data, in which some data can be acquired through the real-time query of an Application Programming Interface (API). Querying data, in the form a two-way communication process, is about information processing with the actions of data selection, extraction, transmission and presentation through "the logic of request and response" [^api] and in the format of structured data file like JSON as we have covered in the last chapter. 
-
-There are many ways of doing it but we will, in this chapter, introduce the artwork *Net.Art Generator* that utilizes Google image search API to generate net.art images, which will serve as an example to demonstrate the whole process of que(e)rying data, raising some critical questions particularly in regards to the parameters of openness and accessibility that structure knowledge sharing and production.
-
-
+To make some of these processes visible, this chapter focuses on how data can be acquired through the real-time query of an Application Programming Interface (API). Querying data, in the form of a two-way communication process, is about information processing with the actions of data selection, extraction, transmission and presentation through "the logic of request and response",[^api] and uses the format of a structured data file like JSON introduced in the last chapter. Although there are many ways of addressing this issue, we want to try to ensure this two-way communication through our example. In what follows we introduce a generative artwork that utilizes the Google image search API and demonstrates 'que(e)rying data' beyond technical description to further question some of the assumptions of openness and accessibility, and the politics of cultural production. 
 
 ## start()
 *net.art generator* (nag)[^nag] - an application that runs on a web browser to create images - was first produced by artist Cornelia Sollfrank in 1997, and the latest version 5b has been updated by Winnie Soon in 2017. Back then, the initial idea was to make an intervention to the net art competition called EXTENSION by *generating* three hundred submission entres with fake international female artists' profile. The program that generates such entries was called *Female Extension*, which took into the consideration of internet as material and object (that is not traditional art form porting into any digital format) and made as an activist response to the art scenes and competitions in which women are always underrepresented. *Female Extension* was later developed into *nag* as a web application and a functional tool for generating images on the fly that are based on data that are readily available from web platforms, questioning notions of authorship, copyright and power structures by means of automated machine generation. The latest version of *nag* generates images by combining the data that is sent from Google via the web search API. However, this is a project made with 100 free limits of API requests and that means users will experience a customized error page and images cannot be retrieved when the program exceeds the image request daily limit. Although the project shifts the narrative from the politics of identity to the politics of technology, it still continouously questions who gets visible in, and how to get access to, the system.
@@ -309,7 +286,7 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 
 ## Notes
 
-[^netcultures]: "We’re not in control of our search practices – search engines are in control of us and we readily agree, though mostly unconsciously, to this domination." René König and Miriam Rasch, "Reflect and Act! Introduction to the Society of the Query Reader", in René König and Miriam Rasch, eds. *Society of the Query: Reflections on Web Search* (Amsterdam: The Institute of Network Cultures, 2014), https://networkcultures.org/query/2014/04/23/reflect-and-act-introduction-to-the-society-of-the-query-reader/.
+[^netcultures]: René König and Miriam Rasch, "Reflect and Act! Introduction to the Society of the Query Reader", in René König and Miriam Rasch, eds. *Society of the Query: Reflections on Web Search* (Amsterdam: The Institute of Network Cultures, 2014), https://networkcultures.org/query/2014/04/23/reflect-and-act-introduction-to-the-society-of-the-query-reader/.
 
 [^chun]: Wendy Hui Kyong Chun, *Updating to Remain the Same: Habitual New Media* (Cambridge, Mass.: MIT Press, 2016).
 
