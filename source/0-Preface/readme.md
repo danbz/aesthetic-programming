@@ -109,5 +109,5 @@ This is exactly our point. The book expresses itself as a dynamic object not fix
 
 [^agre]: Agre, P. E, Toward a critical technical practice: Lessons learned in trying to reform AI. In G. Bowker, L. Gasser, L. Star & B. Turner, (Eds.), *Bridging the great divide: Social science, technical systems, and cooperative work*. Erlbaum, 1997. 
 
-[^howto]: The casual address "for dummies" could also be used but this carries the unfortunate connotation of learning disability.
+[^howto]: abc.
 
