@@ -69,7 +69,7 @@ This is exactly our point. The book expresses itself as a dynamic object not fix
 
 [^Fuller]: Software studies is an interdisciplinary research field, which studies software systems and their social and cultural effects, see Matthew Fuller, ed. *Software Studies: A Lexicon*, London: MIT Press, 2008.
 
-[^Refs]: Here we are referring to Maeda, 2004; Peppler & Kafai, 2009; Montfort 2016, Wardrip-Fruin 2012, ADD REFS, add more?
+[^Refs]: Here we are referring to John Maeda, *Creative Code: Aesthetics + Computation*, London: Thames & Hudson, 2004; Kylie A. Peppler and  Yasmin B. Kafai, “Creative coding: Programming for personal expression,” *The 8th International Conference on Computer Supported Collaborative Learning (CSCL)*, Vol. 2 (2009), pp. 76-78; Nick Montfort, *Exploratory Programming for the Arts and Humanities*. MIT Press, 2016; Noah Wardrip-Fruin, *Expressive Processing: Digital Fictions, Computer Games, and Software Studies*, The MIT Press, 2012. 
 
 [^Magda]: Special mention should be extended to Magda Tyżlik-Carver and Christian Ulrik Andersen who have contributed to the teaching of these courses, as well as teaching assistants including Frederik Westergaard, Nils Rungholm Jensen, Tobias Stenberg, Malthe Stavning Erslev, Ann Karring, Simone Morrison, Nynne Lucca Christianen, Ester Marie Aagaard and Noah Aamund. We also thanks Theodoros Papatheodorou and Simon Katan from Goldsmiths, University of London for allowing us to observe their classes and to understand the pace and the sense making of teaching different syntax combinations in a classroom setting. Lastly thanks are also due to our artist friend Anders Visti who especially inspires us to include the example of Langton's Ant.
 
@@ -110,6 +110,3 @@ This is exactly our point. The book expresses itself as a dynamic object not fix
 [^flowchart]: Morris, Stephen, and Orlena Gotel. ‘The Role of Flow Charts in the Early Automation of Applied Mathematics’. BSHM Bulletin: Journal of the British Society for the History of Mathematics 26, no. 1 (March 2011): 44–52. https://doi.org/10.1080/17498430903449207.
 
 [^ctp]: Agre, P. E, Toward a critical technical practice: Lessons learned in trying to reform AI. In G. Bowker, L. Gasser, L. Star & B. Turner, (Eds.), *Bridging the great divide: Social science, technical systems, and cooperative work*. Erlbaum, 1997. 
-
-
-
