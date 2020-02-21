@@ -4,7 +4,7 @@ page_order: 8
 ## Que(e)ry Data
 
 ## setup()
-To query something is to ask a question about something, to check its validity or accuracy. When doing this with a database, a query is a simple request for data, in order to be able to be selective about what and how much data is returned, but we should clearly question this too.   
+To query something is to ask a question about it, to check its validity or accuracy. When doing this with a database, a query is an apparently simple request for data, in order to be able to be selective about what and how much data is returned, but we should clearly question this too. We need to query the query.   
 
 Search engines (like Google) make a good example of applications that aggregate content and algorithmically return search results according to a keywords search. They promise to answer all our questions but do not make visible the underlying processes (and ideology) that give prominance to certain answers over others. In a query-driven society, search engines have become powerful mechanisms for truth-making and for our making sense of seemingly endless amounts of data, manifested as streams and feeds - indicative of the over-saturation of information and so-called attention-economy. 
 
@@ -27,19 +27,19 @@ Go to *net.art generator* (https://nag.iap.de/) and explore the generation of im
 
 ## Image processing: Fetching, Loading and Display
 
-In the following sample code which is a snippet of *nag* with the web API's logic of request and response. Requested data will pass via a Web API and then Google will return the corresponding data. As this sample code is focused on image, we will also demonstrate how to process and display image and pixel data on a screen in a much simplier way than *nag*. This is just the first step to get on with the que(e)y data yet the possibiliy of using the data is unlimited. Here are the key syntaxes:
+The following sample code is a snippet from *nag* showing the web API's logic of request and response: requested data passes via a Web API and then Google returns the corresponding data. As this sample code is focused on images, we will also demonstrate how to process and display image and pixel data on the screen in a similar manner to *nag*. This is just the first step before we  proceed with the que(e)y data yet there are many other possibilities for using the data. Here are the key examples of syntax:
 
 * `loadJSON()`[^json]: This is a function to load a JSON file from a file or a URL. In this specific sample code, this is used to send the web API (in the form of a URL) request and receive the response in the format of JSON. The callback function is to turn the returned data into an object.
-* `loadImage()`[^img1] and `image()`[^img2]: They both are used to load and display images. Data such as sound, files, images, videos are objects that need to be loaded before you can process them.
-* `loadPixels()`[^pixel]: If you want to manipulate or analyze the data from an image, this is the function that can extract and manipulate information of each image pixel, loading the pixel data into the pixels[] array.
-* `line()`: This is used in the sample code to just visualize the particular color that is extracted from the image's pixel.
+* `loadImage()`[^img1] and `image()`[^img2]: They both are used to load and display images. Data such as sound, files, images, videos are objects that need to be loaded before they can be processed.
+* `loadPixels()`[^pixel]: If you want to manipulate or analyze the data from an image, this is a function that can extract and manipulate information of each image pixel, loading the data into the pixels[] array.
+* `line()`: This is used in the sample code to visualize the particular color that is extracted from the image's pixels.
 
 ## Source Code
 
 ```javascript
 let url = "https://www.googleapis.com/customsearch/v1?";
-var apikey = "INPUT YOUR OWN KEY";  //register API key here: https://developers.google.com/custom-search/json-api/v1/overview
-var engineID = "INPUT YOUR OWN"; //https://cse.google.com/all  | create search engine, then get the searchengine ID - make sure image is on
+var apikey = "INPUT YOUR OWN KEY";  //register API key here to gain access to the data: https://developers.google.com/custom-search/json-api/v1/overview
+var engineID = "INPUT YOUR OWN"; //https://cse.google.com/all | create search engine, then get the searchengine ID - make sure image is on
 let query = "warhol+flowers";  //search keywords
 let searchType = "image";
 let imgSize ="medium"; //check here: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
@@ -68,7 +68,7 @@ function centerCanvas() {
 function fetchImage() {
 	request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&q=" + query + "&searchType=" + searchType;
 	console.log(request);
-	loadJSON(request, gotData); //this is the key syntax and line of code to make a query request and get a query response
+	loadJSON(request, gotData); //this is the line of code that makes a query request and gets a query response
 }
 
 function gotData(data) {
@@ -81,14 +81,14 @@ function draw() {
    loadImage(getImg, img=> { //function(img)
 		push();
 		let frameBorder = (width-img.width)/2;
-		translate(width/2-img.width/2, frameBorder);
+		translate(width/2-img.width/2, frameBorder); 
 		//tint(255, 0);
 		image(img,0,0);
 		img.loadPixels();
 		img_x = floor(random(0,img.width));
 		img_y = floor(random(0,img.height));
-		loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values - 4) can see more here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
-		stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
+		loc = (img_x+img_y * img.width)*4; // The formula to locate the no: x+y*width, indicating which pixel of the image appears in a grid (and each pixel array holds red, green, blue and alpha values - 4). You can see more here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
+		stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb color values
 		line(img_x,1,img_x,height-frameBorder*2);
 		pop();
    });
@@ -100,51 +100,52 @@ function draw() {
 ```
 
 ## Accessing Web APIs (Step by Step)
-![samplecode](ch8_2.gif) <br>
-*Figure 8.2: The sample code with Wahol+flowers*
 
-The above sample code is about getting a static image from Google image search API (via parsing JSON), and then displaying it on a screen. Similar to many other web APIs, you need to have an API key which the platforms can identify who is getting the data and track the usage.
-Therefore, the first thing now is to get the key ID and Engine ID from Google by providing necessary information, then the program can run and fetch a networked image on the fly. This requires you to:
+![samplecode](ch8_2.gif) <br>
+*Figure 8.2: The sample code with Warhol+flowers*
+
+The above sample code describes getting a static image from Google image search API (via parsing JSON), and then displaying it on a screen. Similar to many other web APIs, you need to have an API key so the platforms can identify who is getting the data and track its usage. Hence, the next thing to do is to get the key ID and Engine ID from Google by providing all necessary information, then the program can run and fetch a networked image on the fly. This requires you to:
 
 * Understand the Google image search API's workflow
-* Understand the API specification with what data and parameters are available
+* Understand the API specification that indicates what data and parameters are available
 * Understand the returned JSON file format from the web API
-* Able to register and use the API key and search engine ID from Google with the configuration and settings at the search console
-* This is more advanced that relates to the post-production of images, and what you want to do with the data that you got.
+* Register and use the API key and search engine ID from Google with the configuration and settings at the search console
+/delete? * This is more advanced that relates to the post-production of images, and what you want to do with the data that you got - don't get this bit /g
 
-1. **Step 1:** Create a p5 sketch, then copy and paste the source code to your code editor. (Don't forget the html file and the p5 library)
+1. **Step 1:** Create a p5 sketch, then copy and paste the source code to your code editor. (Don't forget the html file and the p5 library.)
 
-2. **Step 2:** Replace the API key with your own on the line: `var apikey = "INPUT YOUR OWN KEY";`.
+2. **Step 2:** Replace the API key with your own details on the line: `var apikey = "INPUT YOUR OWN KEY";`.
 ![google1](ch8_3.png)
 
 *Figure 8.3: Google Custom Search Interface*
-
 - Register a Google account if you don't have one
-- Login your account
+- Login to your account
 - Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and find the section API key
-- Click the blue botton "Get A Key", then create a new project by entering your project name e.g "nag-test" and press the enter key.
-- You should able to see the API key and you just need to copy and paste the key and put in your sketch.
+- Click the blue button "Get A Key" and then create a new project by entering your project name (e.g. "nag-test") and press the enter key
+- You should able to see the API key and you just need to copy and paste the key into your sketch.
 
-3. **Step 3:** Replace the Search engine ID (cx) with your own on the line: `var engineID = "INPUT YOUR OWN";`.
-- Go to [Cusom Search Engine](https://cse.google.com/all)[^google2]
-- Click the "Add" button in adding a search engine
-- You can limit your search area but if you want to search in entire Google search, just simply type "http://www.google.com"
-- Enter a name of your search engine e.g "nag-test"
-- By clicking the blue "create" button, you agree to the Terms of Service that is offered by Google and you should know your rights.
-- Go to the Control Panel and modify the setting of the search engine
-- Copy and paste the Search engine ID and put in your sketch.  
+3. **Step 3:** Replace the Search engine ID (cx) with your own, on the line: `var engineID = "INPUT YOUR OWN";`.
+- Go to [Custom Search Engine](https://cse.google.com/all)[^google2]
+- Click the "Add" button to add a search engine
+- You can limit your search area but if you want to search Google entirely, just simply type "http://www.google.com"
+- Enter a name of your search engine, e.g. "nag-test"
+- By clicking the blue "create" button, you agree to the Terms of Service that is offered by Google (and you should know your rights of course)
+- Go to the Control Panel and modify the settings of the search engine
+- Copy and paste the Search engine ID and put it in your sketch
+- 
 4. **Step 4:** Configuration in the control panel
-- Make sure the "Image search" is ON with the blue color
-- Make sure the "Search the entire web" is ON with the blue color
+- Make sure the "Image search" is ON indicated by the blue color
+- Make sure the "Search the entire web" is ON indicated by the blue color
 
 ## Que(e)rying data
-Although you have set the key and search engine id, there are still things that you need to understand if you want to read and locate the data on your own or try to work on other web APIs to get a different set of data.
+
+Although you have set the key and search engine id, there are still things that you need to understand if you want to read and locate the data on your own or try to work on other web APIs to different sets of data.
 
 ![google2](ch8_4.png)
 
 *Figure 4: Data structure in the web API*
 
-In the web console, look for a URL that starts with "https" and ends with "warhol+flowers" (something like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image). Just simply click it and you will see how data is being structured in a JSON file format on a web browser (see Figure 4). There are indeed more parameters that you can set to select more specific forms of data such as image size, image color type and image dominant color, and the API that we have used in the sample code is just to demonstrate the minimal settings[^setting].
+In the web console, look for a URL that starts with "https" and ends with "warhol+flowers" (something like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image). Just simply click it and you will see how data is being structured in the JSON file format on a web browser (see Figure 4). There are indeed more parameters that you can set to select more specific forms of data such as image size, image color type, and image dominant color, and so on. The API that we have used in the sample code is just to demonstrate minimal settings.[^setting]
 
 **Cross-Origin Resource Sharing**
 
