@@ -170,7 +170,6 @@ You may also uncomment the line `//tint(255, 0);` to set the fill value for disp
 4. Study the JSON file and modify the sketch to get other data such as the text by showing that into the web console.
 5. To process the image data and to visualize the pixel's color through lines is mainly done by below snippet of code. Think about and discuss why there is an error message in the web console: `TypeError: "path is undefined"`.
 
-
 ```javascript
 function draw() {
   try {	//takes time to get the path of the image from the JSON file via the web API
@@ -182,8 +181,8 @@ function draw() {
 		img.loadPixels();
 		img_x = floor(random(0,img.width));
 		img_y = floor(random(0,img.height));
-		loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values
-		stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
+		loc = (img_x+img_y * img.width)*4; // The formula to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values)
+		stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2])); //rgb values
 		line(img_x,1,img_x,height-frameBorder*2);
 		pop();
    });
@@ -195,7 +194,7 @@ function draw() {
 
 ## LoadPixels()
 
-For this sample sketch, only one color within the image will be picked up and processed. This means that the program will randomly pick up any pixel from the image according to the x and y coordinates, and then the function of pixels can analyze and retrieve the color specifically the RGB color values that are further used to draw the line. `loc` is set as a variable to store the pixel information. Imagine an image is 5x5 pixels in terms of the dimension which is the total of 25. Each pixel position of an image needs to be clearly located so that a line can be drawn. The line is not randomly drawn but it draws along the y axes in which the pixel is randomly picked up, and this will lead to something like a pattern visualization of the image in the lines format as shown in Figure 8.2. But each pixel contains further information, that is the R (red), G (green), B (blue) and A (alpha) values. This is how the data is being stored in the pixels' one dimensional array:
+For this sample sketch, only one color within the image will be picked and processed. This means that the program will randomly pick any pixel from the image according to the x and y coordinates, and then the function of pixels can analyze and retrieve the color. specifically the RGB color values that are further used to draw the line. `loc` is set as a variable to store the pixel information. Imagine an image is 5x5 pixels in terms of the dimension which makes a total of 25 pixels. Each pixel position of an image needs to be clearly located so that a line can be drawn. The line is not randomly drawn but it draws along the y axes in which the pixel is randomly picked up, and this will lead to something like a pattern visualization of the image in the lines format as shown in Figure 8.2. But each pixel contains further information, that is the R (red), G (green), B (blue) and A (alpha) values. This is how the data is being stored in the pixels' one dimensional array:
 
 Pixel 1 - R value, Pixel 1 - G value, Pixel 1 - B value, Pixel 1 - A value, Pixel 2 - R value, Pixel 2 - G value, Pixel 2 - B value, Pixel 2 - A value ...
 
