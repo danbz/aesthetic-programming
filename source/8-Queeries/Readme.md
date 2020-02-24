@@ -137,6 +137,9 @@ The above sample code describes getting a static image from Google image search 
 - Make sure the "Image search" is ON indicated by the blue color
 - Make sure the "Search the entire web" is ON indicated by the blue color
 
+## sth on API 
+there should be a session (forgot to write here) about the API formulation here before processing the JSON data /w 
+
 ## Que(e)rying data
 
 Although you have set the key and search engine id, there are still things that you need to understand if you want to read and locate the data on your own or try to work on other web APIs to different sets of data.
