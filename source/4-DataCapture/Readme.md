@@ -145,7 +145,7 @@ function clearance() {
   clear();
 }
 ```
-The function `mousePressed()` is attached to the button you want to trigger actions. There are other mouse related mouseEvents,[^Events] such as `mouseClicked()`, `mouseReleased()`, `doubleClicked()`, `mouseMoved()`, and so on. 
+The function `mousePressed()` is attached to the button you want to trigger actions. There are other mouse related mouseEvents,[^event] such as `mouseClicked()`, `mouseReleased()`, `doubleClicked()`, `mouseMoved()`, and so on. 
 
 ## 4.5 Keyboard capture
 ```javascript
@@ -354,7 +354,7 @@ This is a reference to the philosophy of Gilbert Simondon, to the transformation
 [^DOM]: https://p5js.org/reference/#group-DOM.
 [^Element]: See the method list of p5.Element here, https://p5js.org/reference/#/p5.Element.
 [^Style]: For possible styling of a button, some examples can be found here: https://www.w3schools.com/csS/css3_buttons.asp.
-[^Events]: See the related function in the reference page, which is under Events > Mouse> https://p5js.org/reference/.
+[^event]: See the related function in the reference page, which is under Events > Mouse> https://p5js.org/reference/.
 [^Key]: See the related function in the reference page, which is under Events > Keyboard> https://p5js.org/reference/.
 [^Audio]: See the different features of the sound library: https://p5js.org/reference/#/libraries/p5.sound.
 [^Face]: https://www.auduno.com/2014/01/05/fitting-faces/. 
