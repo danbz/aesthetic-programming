@@ -292,7 +292,7 @@ This is a relatively complex exercise that requires you to:
     - Utilizing the web API and the corresponding data in your suggested program
     (Please reserve more time if you are getting data from other unfamiliar platforms, as the registration process can take a long time.)
 
-**Questions to think about (fore the README):**
+**Questions to think about (for the README):**
 - What is the program about? which API have you used and why?
 - Can you describe and reflect on your process of making this mini exercise in terms of acquiring, processing, using and representing data? How much do you understand this data or what do you want to know more about? How do platform providers sort the data and give you the selected data? What are the power-relations in the chosen APIs? What is the significance of APIs in digital culture?
 - Try to formulate a question in relation to web APIs or querying/parsing processes that you want to investigate further if you have more time.  
