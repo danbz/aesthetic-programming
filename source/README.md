@@ -3,6 +3,8 @@ page_order: -1
 
 ## About the book project
 
+[This is the origina proposal and is a little outdated now.]
+
 ### Aesthetic Programming: A Handbook of Software Studies
 
 by Winnie Soon and Geoff Cox
