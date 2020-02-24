@@ -321,7 +321,7 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 
 [^extension]: *Extension* was sponsored by Galerie der Gegenwart (Gallery of Contemporary Art) of the Hamburger Kunsthalle (Hamburg Art Museum). Despite the disproportionate number of submissions by female artists, only male artists were selected as finalists. After the decision was announced, Sollfrank went public. Some documentation of *Female Extension* can be found at http://www.artwarez.org/femext/index.html.
 
-[^obn]" Old Boys Network (OBN) is widely regarded as the first international Cyberfeminist alliance and was founded in 1997 in Berlin. See https://www.obn.org/.
+[^obn]: Old Boys Network (OBN) is widely regarded as the first international Cyberfeminist alliance and was founded in 1997 in Berlin. See https://www.obn.org/.
 
 [^hack]: Sollfrank employs Thomas Wulffen's phrase, in Cornelia Sollfrank, "Hacking the Art Operating System", interviewed by Florian Cramer, Chaos Computer Club, Berlin (2001). 
 
