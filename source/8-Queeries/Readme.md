@@ -252,9 +252,9 @@ As already noted in the introduction, simple operations such as search or feeds 
 
 The highlighted projects by Cornelia Sollfrank become all the more powerful with these ideas in mind: *Female Extension* purposefully hacks the process of personalization at work, literally without a subject as they are fake; and then *nag* uses algorithmic governmentality against itself. The male domination of the 'art operating system' is tricked into believing its own liberal dogma and is amed at the numbers of female hackers. When it comes of Google, we can see that although it offers its API for experimentation it only does so under restrictions: by limiting requests and by only revealing some of its source code. *nag* emphasizes the querying of data, not only the execution of data request and response but also by questioning how data is being algorithmically structured into new normalizations. 
 
-"The more effectively the models operate in the world, the more they tend to normalize the situations in which they are entangled. This normalization can work in very different ways, but it nearly always will stem from the ways in which differences have been measured and approximated within the model."[^Mackenzie4] 
+"The more effectively the models operate in the world, the more they tend to normalize the situations in which they are entangled. This normalization can work in very different ways, but it nearly always will stem from the ways in which differences have been measured and approximated within the model."[^Mackenzie] 
 
-When working with data there is a danger of simply perpetuating 'norms' through the process of generalization. Following advanced data-mining processes, Adrian Mackenzie speaks of the various kinds of generalization at work that allow for the development of machine learning.[^Mackenzie] We will return to machine learning in Chapter 10 in more detail, but for now it is important to recognize how all techniques of pattern recognition and statistics "generate statements and prompt actions in relation to instances of individual desire" and they transform, construct and impose shape on data, in order to then “discover, decide, classify, rank, cluster, recommend, label or predict” something or other.[^Mackenzie2] The assumption, as Mackenzie points out, is that everything that exists is reducible to stable and distinct categorisation: “In all cases, prediction depends on classification, and classification itself presumes the existence of classes, and attributes that define membership of classes."[^Mackenzie3] This presumption of stable classes and classifications is one of the main problems here that we wish to query - as if the world was organised in such a way. The difficulty lies as to what extent any model is accurate or valid. 
+When working with data there is a danger of simply perpetuating 'norms' through the process of generalization. Following advanced data-mining processes, Adrian Mackenzie speaks of the various kinds of generalization at work that allow for the development of machine learning.[^Mackenzie1] We will return to machine learning in Chapter 10 in more detail, but for now it is important to recognize how all techniques of pattern recognition and statistics "generate statements and prompt actions in relation to instances of individual desire" and they transform, construct and impose shape on data, in order to then “discover, decide, classify, rank, cluster, recommend, label or predict” something or other.[^Mackenzie2] The assumption, as Mackenzie points out, is that everything that exists is reducible to stable and distinct categorisation: “In all cases, prediction depends on classification, and classification itself presumes the existence of classes, and attributes that define membership of classes."[^Mackenzie3] This presumption of stable classes and classifications is one of the main problems here that we wish to query - as if the world was organised in such a way. The difficulty lies as to what extent any model is accurate or valid. 
 
 To que(e)ry data in this way throws into further question how data is collected, stored, analyzed, recommended, ranked, selected and curated in order to understand the broader social and political implications, not least how categorizations such as gender are normalized. To query the power structures of materials with a feminist standpoint is to understand "the mechanisms that shape reality"[^feminist] and how they might be recoded. 
 
@@ -345,13 +345,13 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 
 [^Rouvroy2]: See Antoinette Rouvroy, "Technology, Virtuality and Utopia: Governmentality in an Age of Autonomic Computing", in Mireille Hildebrandt and Antoinette Rouvroy, eds., *Autonomic Computing and Transformations of Human Agency* (London: Routledge, 2011).
 
-[^Mackenzie]: Adrian Mackenzie, "The Production of Prediction: What Does Machine Learning Want?", in *European Journal of Cultural Studies*, vol 18 (4-5) (2015): 431. 
+[^Mackenzie]: Adrian Mackenzie, "The Production of Prediction: What Does Machine Learning Want?", in *European Journal of Cultural Studies*, vol 18 (4-5) (2015): 442.
+
+[^Mackenzie1]: Mackenzie, "The Production of Prediction", 431. 
 
 [^Mackenzie2]: Mackenzie, "The Production of Prediction", 432. 
 
 [^Mackenzie3]: Mackenzie, "The Production of Prediction", 433. 
-
-[^Mackenzie4]: Mackenzie, "The Production of Prediction", 442. 
 
 [^feminist]: Cornelia Sollfrank, ed. *Beautiful Warriors: Technofeminist Praxis in the Twenty-First Century* (New York: Autonomedia/Minor Compositions, 2019), 6.
 
