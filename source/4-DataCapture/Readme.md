@@ -271,15 +271,17 @@ Big companies like Facebook,[^Facebook] constantly explore new methods for data 
 ### 4.9.2 Form elements
 As we argued with interaction, the choices are limited. Each form elements like a dropdown menu and a button signals different affordances. Researcher Rena Bivens made a thorough analysis of Facebook's registration page in relation to the gender options available.[^Bivens] When Facebook was first launched in 2004 there was no gender field, but things changed in 2008 when a drop-down list was introduced that included only the options of Male or Female, further changed with the use of radio buttons to emphasize the binary choice. The breakthrough was in 2014 when Facebook allowed users to customize the gender field and as a result one can now select from a list of more than 50 custom gender options. According to Facebook, they wanted to enhance "personalized experiences" with "authetic identity",[^Facebook2] but it remains arguable whether this personalization (not only in the case of Facebook but broader society) actually serves to enforce categorisation, and of course is ultimately serves the purpose of market segmentation (dividing users into ever more sub-groups). 
 
-[w: update image /w]
-*Figure 4.X: The custom gender field of Facebook as of Feb. 2020*
+![](ch4_8.png)
+
+*Figure 4.6: The custom gender field of Facebook as of Feb. 2020*
 
 ### 4.9.3 Metrics of likes 
 The use of a single Like button provides a good example of how our feelings are captured. The aptly named company *Happy or Not* who produce push button technology and analytics software — the kind found in supermarkets for instance, with happy or sad faces — also provide feedback technologies for the workplace, as indicated by their strapline: "Creating happiness in every business, worldwide".[^Leslie] The six emoticons launched in 2016 by Facebook including *Like*, *Love*, *Haha*, *Wow*, *Sad* and *Angry* mark our standardised experience of work and play more precisely. All clicks are *categorized* into emotional metrics, displayed publicly on the web, and used for algorithmic calculation to prioritize feeds to users. It is fairly clear how the clicks serve the interests of platform owners foremost, and as if to prove the point, Facebook and Instagram have tested the idea of hiding the metrics on posts in order to shift attention to what they prefer to call "connecting people"[^Hide] — as if their interests were altruistic. 
 This practice of quantification is something the artist Benjamin Grosser has parodied in his *Demetricator* series,[^Grosser] first published in 2012, in which all the numbers associated with the metadata has disappeared. The associated *value* of numbers associated with notifications, replies, favorites and feeds, have all been nullified. Or rather it becomes clear that the clicking produces *value* and the proof of this is conspicuous by its absence. 
 
-[https://bengrosser.com/wp-content/resources/fbd-home-master.gif]
-*Figure 4.x: Benjamin Grosser's Facebook Demetricator Demetricating Likes, Shares, Comments, and Timestamps Original (top), Demetricated (bottom). Image courtesy of the artist.*
+![](ch4_9.gif)
+
+*Figure 4.7: Benjamin Grosser's Facebook Demetricator Demetricating Likes, Shares, Comments, and Timestamps Original (top), Demetricated (bottom). Image courtesy of the artist.*
 
 Tracking is clearly big business and comes with its own invisibility cloak. In 2013, Facebook conducted a research project about last-minute self-censorship,[^Facebook3] revealing their capability of being able to track even unposted status updates/posts/comments, including erased texts or images. The implication is that Facebook is not only interested in capturing what you have posted but what you have been thinking about posting. It is sobering to think that data capture extends to the imaginative realm.
 
@@ -288,7 +290,7 @@ So-called smart devices like our computers, phones and other gadgets are commonl
 
 ![](ch4_6.png)
 
-*Figure 4.6: Screenshot of Voice & Audio activity*
+*Figure 4.8: Screenshot of Voice & Audio activity*
 
 ### 4.9.5 Health tracker 
 Fitness and well-being becomes datafied and gamified to set personal targets. As the welfare state and social care are dismantled, personal well-being becomes individualised and one can find a growing trend of *self-tracking* apps. Movement, steps, heart rate and even sleep patterns can be tracked and analyzed easily with wearable devices and gadgets, such as the Fitbit or the Apple Watch. These practices of the *quantified self* — sometimes referred to as body hacking or self-surveillance — overlap with other trends that incorporate capture and data acquisition into all aspects of daily life. 
@@ -297,7 +299,7 @@ Under late capitalism, temporality itself seems to have been captured, and "ther
 
 ![](ch4_5.png)
 
-*Figure 4.7: Screenshot of sleep tracker*
+*Figure 4.9: Screenshot of sleep tracker*
 
 ## 4.10 While()
 
