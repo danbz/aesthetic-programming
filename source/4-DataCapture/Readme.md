@@ -123,7 +123,7 @@ function keyPressed() {
 ```
 ## 4.3 DOM elements: Creating and styling a button
 
-DOM stands for Document Object Model, considering a document like HTML as a tree structure that allows programs to dynamically access and update the content, structure and style of it. Instead of focusing different tree structure of a document, this chapter will be focus on form elements as part of the DOM. The basic structure for creating form elements is relatively simple. In the p5.js reference guide under the DOM category,[^DOM] there are different form creation syntaxes, e.g. `createCheckbox()`, `createSlider()`, `createRadio()`, `createSelect()`, `createFileInput()`, and so on. The one that we need for creating a button is called `createButton()`. 
+DOM stands for Document Object Model, considering a document like HTML as a tree structure that allows programs to dynamically access and update the content, structure and style of it. Instead of focusing different tree structure of a document, this chapter will focus on form elements as part of the DOM. The basic structure for creating form elements is relatively simple. In the p5.js reference guide under the DOM category,[^DOM] there are different form creation syntaxes, e.g. `createCheckbox()`, `createSlider()`, `createRadio()`, `createSelect()`, `createFileInput()`, and so on. The one that we need for creating a button is called `createButton()`. 
 
 First you need to assign an object name for the button, and of course different names if you have more than one so that you can set the properties[^Element] for each. 
 
@@ -229,7 +229,12 @@ if (positions.length) { //check the availability of web cam tracking
 }
 }
 ```
-For face capture, the sample code has used the clmtrackr which is a JavaScript library developed by a data scientist Audun M. Øygard in 2014 for fitting a facial model to faces in images or video.[^Face] Based on facial algorithms designed by Jason Saragih and Simon Lucey,[^Algo] the library analyses a face and divides it into 70 points in real-time based on a pretrained machine vision model of facial images for classification. 
+For face capture, the sample code has used the clmtrackr which is a JavaScript library developed by a data scientist Audun M. Øygard in 2014 for fitting a facial model to faces in images or video.[^Face] Based on facial algorithms designed by Jason Saragih and Simon Lucey,[^Algo] the library analyses a face and divides it into 70 points in real-time based on a pretrained machine vision model of facial images for classification. Since it is a JavaScript library, you need to put the library in the working directory and link the library and the face model in the html file like:
+
+```javascript    
+<script src="../libraries/clmtrackr/clmtrackr.js"></script>
+<script src="../libraries/clmtrackr/models/model_pca_20_svm.js"></script>
+```
 
 ![](ch4_3.png)
 
@@ -238,7 +243,7 @@ For face capture, the sample code has used the clmtrackr which is a JavaScript l
 What the program does in terms of face capture and facial recognition: 
 1. `createCapture()`: This is a HTML5 <video> element that captures the feed from a web camera. In relation to this function tasks might be to define the size (which is subjected to the resolution of the web camera) and position on screen, e.g. `capture.size(640,480);` and `capture.position(0,0);`
 2. The three lines related to ctracker: `ctracker = new clm.tracker()`, `ctracker.init(pModel);` and `ctracker.start(capture.elt);`: Similar to audio and camera use, first you need to initialize the tracker library, select the classified model and start tracking from the video source. 
-3. `ctracker.getPosition()`: This is to loop through all the 70 tracker points and return the position in terms of x and y coordinates. Since the Like button will follow the mouth of the face and the tracker point of a mouth is 60, the program then will return the position in terms of an array: `positions[60][0]-20` and `positions[60][1]`. The second array's dimensions of [0] and [1] refers to the x and y coordinates specifically. 
+3. `ctracker.getPosition()`: While we get the tracker points into an array `position`, there is a for-loop that has been implemented to loop through all the 70 tracker points and return the position in terms of x and y coordinates as a two-dimension array in the form of `position[][]`. The first dimension ([]) of the position array is to indicate the tracker points from 0-70. The second dimension ([][]) is to get the x and y coordinates of the tracker points. Since the Like button will follow the mouth of the face and the tracker point of a mouth is 60, the program then will return the position in terms of an array: `positions[60][0]-20` and `positions[60][1]`. The second array's dimensions of [0] and [1] refers to the x and y coordinates specifically. 
 4. The last part is to draw the ellipses to cover the face. A for-loop is implemented to loop through all the ctracker points and then get the x and y coordinates for the drawing of the ellipses. 
 
 ## 4.8 Exercise in class
