@@ -229,16 +229,16 @@ if (positions.length) { //check the availability of web cam tracking
 }
 }
 ```
-For face capture, the sample code has used the clmtrackr which is a JavaScript library developed by a data scientist Audun M. Øygard in 2014 for fitting a facial model to faces in images or video.[^Face] Based on facial algorithms designed by Jason Saragih and Simon Lucey,[^Algo] the library analyses a face and divides it into 70 points in real-time based on a pretrained machine vision model of facial images for classification. Since it is a JavaScript library, you need to put the library in the working directory and link the library and the face model in the html file like:
+For face capture, the sample code has used the clmtrackr which is a JavaScript library developed by a data scientist Audun M. Øygard in 2014 for fitting a facial model to faces in images or video.[^Face] Based on facial algorithms designed by Jason Saragih and Simon Lucey,[^Algo] the library analyses a face and divides it into 70 points in real-time based on a pretrained machine vision model of facial images for classification. Since it is a JavaScript library, you need to put the library in the working directory and link the library and the face model in the html file.
 
-```javascript    
-<script src="../libraries/clmtrackr/clmtrackr.js"></script>
-<script src="../libraries/clmtrackr/models/model_pca_20_svm.js"></script>
-```
+![](ch4_10.png)
+
+*Figure 4.3: The html file structure to import the new library and models*
+
 
 ![](ch4_3.png)
 
-*Figure 4.3: The tracker points of a face*
+*Figure 4.4: The tracker points of a face*
 
 What the program does in terms of face capture and facial recognition: 
 1. `createCapture()`: This is a HTML5 <video> element that captures the feed from a web camera. In relation to this function tasks might be to define the size (which is subjected to the resolution of the web camera) and position on screen, e.g. `capture.size(640,480);` and `capture.position(0,0);`
@@ -263,13 +263,13 @@ The most widely used web analytics service is currently offered by Google to tra
 
 ![](ch4_4.png)
 
-*Figure 4.4: Screenshot of Google Analytics*
+*Figure 4.5: Screenshot of Google Analytics*
 
 Among different visualization tools, Heatmap is a feature which shows a graphical representation of data to visualize user behavior. It is commonly used in industries for the purpose of data analytics. For example, it is easily possible to track the cursor's position and compute the duration of stay on different parts of a web page so as to suggest which contents are 'hotter' than others. This is useful for marketing purposes not least to understand which parts of their content is more or less attractive to their users, and for companies or political parties to analyze where to best place their advertisements and other 'propaganda'. The Facebook–Cambridge Analytica data scandal makes an pertinent case study here, as in early 2018 it was revealed that the personal data of millions of peoples' Facebook profiles had been harvested without their consent and used for political advertising purposes.[^Analytica]
 
 ![](ch4_7.png)
 
-*Figure 4.5: An example of a heatmap for analysing a web page*
+*Figure 4.6: An example of a heatmap for analysing a web page*
 
 Big companies like Facebook,[^Facebook] constantly explore new methods for data capture in order to optimize screen presentation. 
 
@@ -278,7 +278,7 @@ As we argued with interaction, the choices are limited. Each form elements like 
 
 ![](ch4_8.png)
 
-*Figure 4.6: The custom gender field of Facebook as of Feb. 2020*
+*Figure 4.7: The custom gender field of Facebook as of Feb. 2020*
 
 ### 4.9.3 Metrics of likes 
 The use of a single Like button provides a good example of how our feelings are captured. The aptly named company *Happy or Not* who produce push button technology and analytics software — the kind found in supermarkets for instance, with happy or sad faces — also provide feedback technologies for the workplace, as indicated by their strapline: "Creating happiness in every business, worldwide".[^Leslie] The six emoticons launched in 2016 by Facebook including *Like*, *Love*, *Haha*, *Wow*, *Sad* and *Angry* mark our standardised experience of work and play more precisely. All clicks are *categorized* into emotional metrics, displayed publicly on the web, and used for algorithmic calculation to prioritize feeds to users. It is fairly clear how the clicks serve the interests of platform owners foremost, and as if to prove the point, Facebook and Instagram have tested the idea of hiding the metrics on posts in order to shift attention to what they prefer to call "connecting people"[^Hide] — as if their interests were altruistic. 
@@ -286,7 +286,7 @@ This practice of quantification is something the artist Benjamin Grosser has par
 
 ![](ch4_9.gif)
 
-*Figure 4.7: Benjamin Grosser's Facebook Demetricator Demetricating Likes, Shares, Comments, and Timestamps Original (top), Demetricated (bottom). Image courtesy of the artist.*
+*Figure 4.8: Benjamin Grosser's Facebook Demetricator Demetricating Likes, Shares, Comments, and Timestamps Original (top), Demetricated (bottom). Image courtesy of the artist.*
 
 Tracking is clearly big business and comes with its own invisibility cloak. In 2013, Facebook conducted a research project about last-minute self-censorship,[^Facebook3] revealing their capability of being able to track even unposted status updates/posts/comments, including erased texts or images. The implication is that Facebook is not only interested in capturing what you have posted but what you have been thinking about posting. It is sobering to think that data capture extends to the imaginative realm.
 
@@ -295,7 +295,7 @@ So-called smart devices like our computers, phones and other gadgets are commonl
 
 ![](ch4_6.png)
 
-*Figure 4.8: Screenshot of Voice & Audio activity*
+*Figure 4.9: Screenshot of Voice & Audio activity*
 
 ### 4.9.5 Health tracker 
 Fitness and well-being becomes datafied and gamified to set personal targets. As the welfare state and social care are dismantled, personal well-being becomes individualised and one can find a growing trend of *self-tracking* apps. Movement, steps, heart rate and even sleep patterns can be tracked and analyzed easily with wearable devices and gadgets, such as the Fitbit or the Apple Watch. These practices of the *quantified self* — sometimes referred to as body hacking or self-surveillance — overlap with other trends that incorporate capture and data acquisition into all aspects of daily life. 
@@ -304,7 +304,7 @@ Under late capitalism, temporality itself seems to have been captured, and "ther
 
 ![](ch4_5.png)
 
-*Figure 4.9: Screenshot of sleep tracker*
+*Figure 4.10: Screenshot of sleep tracker*
 
 ## 4.10 While()
 
