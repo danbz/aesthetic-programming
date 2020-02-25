@@ -158,7 +158,9 @@ function keyPressed() {
 }
 ```
 
-The use of the `keyPressed()` function is to listen any keyboard pressing events. If you want to specify any `keyCode` (that is the actual key on the keyboard), the sample code shows how a conditional statement can be implemented within the `keyPressed()` function. Within the if-else conditional statement, if a keyboard press of a spacebar is detected, then the button will rotate through 180 degrees and any other keys will just resume back to the original state of 0 degrees.
+The use of the `keyPressed()` function is to listen any keyboard pressing events. If you want to specify any `keyCode` (that is the actual key on the keyboard), the sample code shows how a conditional statement can be implemented within the `keyPressed()` function. 
+
+The conditional structure is something similar to what you have learnt in the previous chapter but also it is something different with the if-else conditional statement. It explains as: if a keyboard press of a spacebar is detected, then the button will rotate through 180 degrees and any other keys will just resume back to the original state of 0 degrees. Therefore with the if-else structure, you can also setup a further condition such as if any other keycode is detected other than the spacebar, then the program will do something else. 
 
 `keyCode` takes in numbers or special keys like BACKSPACE, DELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL, OPTION, ALT, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW. In the above example, the `keyCode` of a spacebar is 32.
 
