@@ -60,6 +60,7 @@ let
 ## While()
 - The Borges story (classification)
 - g: you want to talk more image net? database? /w
+- "AI is a dicursive practice" (Agre - add notes from his paper "Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI" as this will refer back to the beginning of the book)
 
 ## Mini_Exercise[10]: Final Project
 
