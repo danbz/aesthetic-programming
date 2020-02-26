@@ -346,7 +346,7 @@ This is a reference to the philosophy of Gilbert Simondon, to the transformation
 - Søren Pold, "Button", in Matthew Fuller, ed. *Software Studies* (Cambridge, Mass.: MIT Press 2008).
 - [p5.js examples - Interactivity 1](https://p5js.org/examples/hello-p5-interactivity-1.html).
 - [p5.js examples - Interactivity 2](https://p5js.org/examples/hello-p5-interactivity-2.html).
-- [p5.dom library reference](https://p5js.org/reference/#/libraries/p5.dom).
+- [p5 DOM reference](https://p5js.org/reference/#group-DOM).
 
 ## Further reading:
 - Christian Ulrik Andersen and Geoff Cox, eds. , [A Peer-Reviewed Journal About Datafied Research](https://tidsskrift.dk/APRJA/issue/view/8402), *APRJA* 4.1 (2015). 
