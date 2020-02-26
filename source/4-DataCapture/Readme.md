@@ -26,7 +26,7 @@ Starting with this sample code, the sketch incorporates four data inputs for a c
 3. The button will change its size according to the volume of the audio/mic input.
 4. The button will move according to the facial recognization software, following what it considers to be the mouth of the face. 
 
-The button is customized using CSS (Cascading Style Sheets), which describes the style and visual elements of an object in a format that onsists of a selector and a declaration block. These simply identify *which* elements you want to customize and *how* to do it precisely. CSS works with HTML elements and with the p5.js library, including a button. 
+The button is customized using CSS (Cascading Style Sheets), which describes the style and visual elements of an object in a format that onsists of a selector and a declaration block. These simply identify *which* elements you want to customize and *how* to do it precisely. CSS works with HTML and we can create HTML's DOM objects like a button with the p5.js library (will discuss further in the next section).
 
 ## 4.1.2 Exercise in class
 By looking at the Like button closely in the RUNME, can you come up with a list of potential customizations that have been introduced in the sample code? 
