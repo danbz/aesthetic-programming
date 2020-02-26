@@ -117,6 +117,6 @@ This is exactly our point. The book expresses itself as a dynamic object not fix
 
 [^agre]: Philip E. Agre, "Toward a critical technical practice: Lessons learned in trying to reform AI. In G. Bowker, L. Gasser, L. Star & B. Turner, (Eds.), *Bridging the great divide: Social science, technical systems, and cooperative work*. Erlbaum, 1997. 
 
-[^teaching]: Here with every week's schedule and messy notes for the course Aesthetic Programming in recent years: https://gitlab.com/siusoon/aesthetic-programming/-/tree/master/
+[^teaching]: Here with the curriculum and messy notes for the course Aesthetic Programming in recent years: https://gitlab.com/siusoon/aesthetic-programming/-/tree/master/
 
 [^readcode]: The field Critial Code Studies considers source code as cultural text for critical reading and interpretation beyond the understanding of how is code worked technically and functionally. See Mark C Marino, *Critical Code Studies*, MIT Press, 2020.
