@@ -26,7 +26,7 @@ Starting with this sample code, the sketch incorporates four data inputs for a c
 3. The button will change its size according to the volume of the audio/mic input.
 4. The button will move according to the facial recognization software, following what it considers to be the mouth of the face. 
 
-The button is customized using CSS (Cascading Style Sheets), which describes the style and visual elements of an object in a format that onsists of a selector and a declaration block. These simply identify *which* elements you want to customize and *how* to do it precisely. CSS works with HTML elements and we can use the library p5.dom (which is included in the html file by default when you download the whole completed p5.js library) to create most form elements, including a button. 
+The button is customized using CSS (Cascading Style Sheets), which describes the style and visual elements of an object in a format that onsists of a selector and a declaration block. These simply identify *which* elements you want to customize and *how* to do it precisely. CSS works with HTML elements and with the p5.js library, including a button. 
 
 ## 4.1.2 Exercise in class
 By looking at the Like button closely in the RUNME, can you come up with a list of potential customizations that have been introduced in the sample code? 
@@ -36,9 +36,9 @@ Then look at the source code in the next section (lines 67-83) and describe some
 ## 4.2 Source Code 
 ```javascript
 /*Data Capture for Chapter 4
-//Interacting with captured data: Mouse, Keyboard, Audio, Web Camera
+Interacting with captured data: Mouse, Keyboard, Audio, Web Camera
 check:
-1. sound input via the microphone: https://p5js.org/examples/sound-mic-input.html
+1. sound input via a microphone: https://p5js.org/examples/sound-mic-input.html
 2. dom objects like button
 3. p5.sound library: https://github.com/processing/p5.js-sound/blob/master/lib/p5.sound.js
 4. Face tracking library: https://github.com/auduno/clmtrackr
@@ -160,7 +160,7 @@ function keyPressed() {
 
 The use of the `keyPressed()` function is to listen any keyboard pressing events. If you want to specify any `keyCode` (that is the actual key on the keyboard), the sample code shows how a conditional statement can be implemented within the `keyPressed()` function. 
 
-The conditional structure is something similar to what you have learnt in the previous chapter but also it is something different with the if-else conditional statement. It explains as: if a keyboard press of a spacebar is detected, then the button will rotate through 180 degrees and any other keys will just resume back to the original state of 0 degrees. Therefore with the if-else structure, you can also setup a further condition such as if any other keycode is detected other than the spacebar, then the program will do something else. 
+The conditional structure is something similar to what you have learnt in the previous chapter but it is also something different with the if-else conditional statement. It explains as: if a keyboard press of a spacebar is detected, then the button will rotate through 180 degrees and any other keys will just resume back to the original state of 0 degrees. Therefore with the if-else structure, you can also setup a further condition with the listening event: if any other keycode is detected other than the spacebar, then the program will do something else. 
 
 `keyCode` takes in numbers or special keys like BACKSPACE, DELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL, OPTION, ALT, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW. In the above example, the `keyCode` of a spacebar is 32.
 
@@ -343,7 +343,7 @@ This is a reference to the philosophy of Gilbert Simondon, to the transformation
 
 ## Required reading:
 - Carolin Gerlitz and Anne Helmond, "The Like Economy: Social Buttons and the Data-Intensive Web", *New Media & Society* 15: 8 (December 1, 2013): 1348–65.
-- - Søren Pold, "Button", in Matthew Fuller, ed. *Software Studies* (Cambridge, Mass.: MIT Press 2008).
+- Søren Pold, "Button", in Matthew Fuller, ed. *Software Studies* (Cambridge, Mass.: MIT Press 2008).
 - [p5.js examples - Interactivity 1](https://p5js.org/examples/hello-p5-interactivity-1.html).
 - [p5.js examples - Interactivity 2](https://p5js.org/examples/hello-p5-interactivity-2.html).
 - [p5.dom library reference](https://p5js.org/reference/#/libraries/p5.dom).
