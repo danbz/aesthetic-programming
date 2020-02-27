@@ -28,11 +28,12 @@ Starting with this sample code, the sketch incorporates four data inputs for a c
 
 The button is customized using CSS (Cascading Style Sheets), which describes the style and visual elements of an object in a format that onsists of a selector and a declaration block. These simply identify *which* elements you want to customize and *how* to do it precisely. CSS works with HTML and we can create HTML's DOM objects like a button with the p5.js library (will discuss further in the next section).
 
+<div class="exercise" markdown="true">
 ## 4.1.2 Exercise in class
 By looking at the Like button closely in the RUNME, can you come up with a list of potential customizations that have been introduced in the sample code? 
 
 Then look at the source code in the next section (lines 67-83) and describe some of the button's styling in your own words. 
-
+</div>
 ## 4.2 Source Code 
 ```javascript
 /*Data Capture for Chapter 4
@@ -248,6 +249,7 @@ What the program does in terms of face capture and facial recognition via using 
 3. `ctracker.getPosition()`: While we get the tracker points into an array `position`, there is a for-loop that has been implemented to loop through all the 70 tracker points and return the position in terms of x and y coordinates as a two-dimension array in the form of `position[][]`. The first dimension ([]) of the position array is to indicate the tracker points from 0-70. The second dimension ([][]) is to get the x and y coordinates of the tracker points. Since the Like button will follow the mouth of the face and the tracker point of a mouth is 60, the program then will return the position in terms of an array: `positions[60][0]-20` and `positions[60][1]`. The second array's dimensions of [0] and [1] refers to the x and y coordinates specifically. 
 4. The last part is to draw the ellipses to cover the face. A for-loop is implemented to loop through all the ctracker points and then get the x and y coordinates for the drawing of the ellipses. 
 
+<div class="exercise" markdown="true">
 ## 4.8 Exercise in class
 To familiar yourself with different modes of capture, try the following:
 1. Explore the different modes of capture by tinkering with various parameters such as `keyCode`, as well as other keyboard and mouse events. 
@@ -256,7 +258,7 @@ To familiar yourself with different modes of capture, try the following:
 4. Do you know how the face is being modelled? How has facial recognition technology been applied in society at large, and what are some of the issues that arise from this? 
 
 It would be worth checking back to Chapter 2 (Variable Geometry) for a reminder of how facial recognition identifies a person's face from its geometry — such as the distance between a person's eyes or size of mouth — to establish a facial signature that is comparable to a standardised database. Not least of the problems is that the database is itself skewed by the ways in which the data has been prepared, in its selection, collection, categorization, classification and cleaning. To what extent does your face meet the standard?   
-
+</div>
 ## 4.9 The concept of capture
 After the demonstration of different inputs for data capture, this next section discusses various examples. The intention is to showcase some other possibilities of its application, and more importantly how this relates to datafication, commodification, surveillance and personalization. This is an attempt to discuss data politics more broadly: to question how our personal data is being captured, quantified, archived and used, and to what purpose? What are the implications and who has the power to access the captured data and derive profit from it? Few people know exactly what data is being captured nor how it will be used?[^GDPR] But, despite the term capture, we should also point out that this is not total incarceration, and there are escape routes too. More on this later.  
 
