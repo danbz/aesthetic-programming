@@ -134,7 +134,7 @@ The above source code describes getting a static image from Google image search 
 - By clicking the blue "create" button, you agree to the Terms of Service that is offered by Google (and you should know your rights of course)
 - Go to the Control Panel and modify the settings of the search engine
 - Copy and paste the Search engine ID and put it in your sketch
-- 
+
 4. **Step 4:** Configuration in the control panel
 - Make sure the "Image search" is ON indicated by the blue color
 - Make sure the "Search the entire web" is ON indicated by the blue color
