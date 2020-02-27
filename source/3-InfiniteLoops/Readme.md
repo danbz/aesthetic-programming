@@ -119,8 +119,11 @@ function sum(a, b, c) { //passing values 4 as a, 3 as b, 2 as c to the function 
     > output: 
     "9"
 
+<div class="exercise" markdown="true">
+
 #### 3.3.1 Exercise in class
 You can also try to type/copy the above code in your own sketch and it will return the number "9" as the output because this is the result of the sum of the values 4, 3 and 2. The arguments a, b and c are parameter variables. The function "sum" can be reused if you pass other values as for instance another line of code `let y = sum(5,6,7);` and the return value of y would be 18. You can try to come up with your new functions and arguments. 
+</div>
 
 ### 3.4 Transform
 In general, the transform-related functions apply a 2D or 3D transformation to an element or object. For the provided sample code, there are two specific transformational functions have been used to move the canvas and created an illusion of objects transformation. (This is important to know the transformation is done at the level of canvas background but not at the individual shape/object). 
@@ -129,10 +132,10 @@ In general, the transform-related functions apply a 2D or 3D transformation to a
 
 *Figure 3.4: Moving the coordinate system at the canvas level (image from processing.org)* 
 
-1. `translate()`: This function displaces/moves objects within the display window. For example, moving the canvas to the center will position the whole sketch at the center too (`translate(width/2, height/2);`). The ellipse is drawn as `ellipse(35,0,22,22)` which takes in (35,0) as the x and y coordinates, where 22 is the size. If we don't have the upfront `translate()` function, the ellipse will be placed at the top left corner instead (while the x coordinate value "35" is the distance of the circulating ellipses from the center position). By moving the canvas coordinate origin to the middle by using the `translate()` function, then you see the ellipses now place in the middle of the canvas. The center of the screen with the coordinate orign (0,0) instead.  
+1. `translate()`: This function displaces/moves objects within the display window. For example, moving the canvas to the center will position the whole sketch at the center too (`translate(width/2, height/2);`). The ellipse is drawn as `ellipse(35,0,22,22)` which takes in (35,0) as the x and y coordinates, where 22 is the size. If we don't have the upfront `translate()` function, the ellipse will be placed at the top left corner instead (while the x coordinate value "35" is the distance of the circulating ellipses from the center position). By moving the coordinate origin to the middle via the `translate()` function, then you see the ellipses now place in the middle of the canvas, in which the coordinate orign (0,0) has moved to the center of the screen instead.  
 2. `rotate()`: By using the function `rotate()`, in this sample code, the object ellipse will rotate at a certain angle. The default unit for rotation is radians. As such, the code is written as `rotate(radians(cir));`. The function `rotate()` takes in radians as the default mode, and if you want to change to the degree mode, you add the code `angleMode(DEGREES)`. 
 
-In simple explanation, there are in total 9 ellipses (which is indicated as `let num=9;`), and each comes with a separation of 40 degrees (i.e 0.968 rad) which is derived from 360/9. A circle has 360 degrees and to rotate the ellipse over time, it requires the time element to calculate when, how and where to move. This is how the function `frameCount()` comes in, which counts the number of frames that have been displayed since the program started.[^ref] The line `let cir = 360/num*(frameCount%num);` illustrates the use of a modulo operation to find the remainder after the division of one number by another. As such the value of the variable `cir` is only limited to the multiples of 40: 0, 40, 80, 120, 160, 240, 280 and 320. With the `cir` value, then the program will follow a sequence over time to rotate one after the other based on the original position and repeats continously.  
+There are in total 9 ellipses (which is indicated as `let num=9;`), and each comes with a separation of 40 degrees (i.e 0.968 rad) which is derived from 360/9. A circle has 360 degrees and to rotate the ellipse over time, it requires the time element to calculate when, how and where to move. This is how the function `frameCount()` comes in, which counts the number of frames that have been displayed since the program started.[^ref] The line `let cir = 360/num*(frameCount%num);` illustrates the use of a modulo operation to find the remainder after the division of one number by another. As such the value of the variable `cir` is only limited to the multiples of 40: 0, 40, 80, 120, 160, 240, 280 and 320. With the `cir` value, then the program will follow such a sequence over time to rotate one after the other based on the original position and repeats continously.  
 
 There are also other transform-related functions such as `scale()`, `shearX()`, `shearY()`.[^ref2] 
 
@@ -160,7 +163,7 @@ function drawElements() {
 }
 ```
 
-The last four lines describe the drawing of static yellow lines. Logically speaking, the translate and rotate functions should also apply to these lines but because the `pop()` function is placed right after all the drawing of ellipses and such transform features, it does not impact the lines. But if you move the line `pop()` to the end, then the lines will also rotate and translate. This illustrates how `push()` and `pop()` might be used and how their placement matters.[^ref3]
+The last four lines describe the drawing of the static four yellow lines. Logically speaking, the translate and rotate functions should also apply to these lines but because the `pop()` function is placed right after all the drawing of ellipses and as such it does not impact the lines. But if you move the line `pop()` to the end, then the lines will also rotate and translate. This illustrates how `push()` and `pop()` might be used and how their placement matters.[^ref3]
 
 <div class="exercise" markdown="true">
 
@@ -176,7 +179,7 @@ The last four lines describe the drawing of static yellow lines. Logically speak
 
 ### 3.6 Asterisk Painting 
 
-The following section will move from repetition and regularity to repetition and difference. Artist and software developer John P. Bell has made an artwork called *Asterisk Painting*,[^Bell] containing a number of throbber-like spinning patterns, but each throbber (or what he calls asterisk) is spinning differently, with variations of color and texture. Many syntaxes that Bell has used are related to time and temporality, for example the setting up of a timer, the calculation of current milliseconds, the speed of rotation, the waiting time for starting a new cycle, and so on. Even for the visual outcome, what constitutes an asterisk is not a geometric shape, but a series of numbers which refer to the milliseconds counter that lines up as a straight line. (See Figure 3.3 for the visual outcome)
+The following section will move from repetition and regularity to repetition and difference. Artist and software developer John P. Bell has made an artwork called *Asterisk Painting*,[^Bell] containing a number of throbber-like spinning patterns, but each throbber (or what he calls asterisk) is spinning differently, with variations of color and texture. Many syntaxes that Bell has used are related to time and temporality, for example the setting up of a timer, the calculation of current milliseconds, the speed of rotation, the waiting time for starting a new cycle, and so on. Even for the visual outcome, what constitutes an asterisk is not a geometric shape, but a series of numbers which refer to the milliseconds counter that lines up as a straight line. 
 
 <img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class03/Asterisk_Painting.gif"><br>
 *Figure 3.5 : Asterisk Painting (2014) by John P. Bell*
@@ -316,12 +319,14 @@ The `xPos.length` is 5 and that indicates 5 values are being stored in this arra
 `let yPos = [1,2,3,4];` -> 
 The `yPos.length` is 4 and that indicates 4 values are being stored in this array: ypos[0] = 1, yPos[1] = 2, yPos[2] = 3, yPos[3] = 4.
 
+The above two arrays store the x and y center position of each aesterisk. 
+
 Other methods for adding or removing an array index might be useful to know:
-- `array.push(value)` (ref:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) : To add a value to the end of the array. Example: `xPos.push(6)` - this will extend the index to xPos[5] = 6. 
-- `array.splice()` (ref: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice): This is to remove a range of an array index, or remove the existing index and replace with new indexes with other values. 
+- `array.push(value)`:[^push] To add a value to the end of the array. Example: `xPos.push(6)` - this will extend the index to xPos[5] = 6. 
+- `array.splice()`:[^spliace] This is to remove a range of an array index, or remove the existing index and replace with new indexes with other values. 
 
 ### 3.10 Conditional statements 
-As we have already discussed conditional statements in the previous chapter, it may be easier to follow the code of *Asterisk Painting* (especially line 61). It follows the conditional logic (if-then) built into the program in order to know when to move to the next position of the painting. 
+As we have already discussed conditional statements in the previous chapter, it may be easier to follow the code of *Asterisk Painting* (especially line 61). It follows the conditional logic (if-then) built into the program in order to know when to move from one asterisk to the other.
 
 ```javascript
 //sample from Asterisk Painting, see line 61:
@@ -341,14 +346,14 @@ To structure a for-loop, you need to ask yourself:
 - More specifically, what is the conditional logic, and when do you want to exit/stop the loop?
 - What do you want to do when this condition is or is not met?
 
-See below example taken from the source code of *Asterisk Painting* (lines 37-42):
+See below an excerpt of *Asterisk Painting* (lines 37-42):
 
 ```javascript
-  for(let i=0; i<xPos.length; i++) {
+  for(let i=0; i< xPos.length; i++) {
     //calculate the position of each asterisk horizontally as an array that starts with an array index[0] 
     xPos[i] = xPos[i] * (xDim / (xPos.length+1));
   }
-  for(let i=0; i<yPos.length; i++) {  
+  for(let i=0; i< yPos.length; i++) {  
    //calculate the position of each asterisk vertically as an array that starts with an array index[0] 
     yPos[i] = yPos[i] * (yDim / (yPos.length+1));
   }
@@ -366,13 +371,13 @@ From Figure 3.6, you can see what a for-loop contains:
 3. *Action*: The things that you want to process/compute when the condition is met
 4. *Loop for next*: For the next iteration (usually incremental/decremental)
 
-For this specific case, this block of code from the above example describes the position of each asterisk in terms of its x and y coordinates (the center point [x,y] of each asterisk). Since there are 5 columns (xPos) and 4 rows (yPos) which have been defined in global variables, the program needs to know the coordinates precisely. The overall formula to locate the position, for example xPos, is to get the width of the canvas to divide by the number of asterisks horizontally and add 1. As such, the code can be understood in this way: For each count with the starting point as 0, calculate the `xPos[i]`. Additionally, each iteration will increase the count by one until it reaches the maximum number of asterisks in a row (`i<xPos.length`). 
+For this specific case, this block of code from the above example describes the position of each asterisk in terms of its x and y coordinates (the center point [x,y] of each asterisk). Since there are 5 columns (xPos) and 4 rows (yPos) which have been defined in global variables, the program needs to know the coordinates precisely. The overall formula to locate the position, for example xPos, is to get the width of the canvas to divide by the number of asterisks horizontally and add 1. As such, the code can be understood in this way: For each count with the starting point as 0, calculate the `xPos[i]`. Additionally, each iteration will increase the count by one until it reaches the maximum number of asterisks in a row (`i < xPos.length`). 
 
 <!-- <img src="ch3_5.png" width="750"> -->
 ![](ch3_5.png) <br>
 *Figure 3.7 The xPos of each* </br>
 
-To reiterate the use of a for-loop, we offer a second example as a reference to demonstrate the drawing of repeated lines.
+In our teaching, we offer another example of the use of a for-loop to further clarify the use and demonstrate the drawing of repeated lines.
 
 ![](ch3_8.png) <br>
 *Figure 3.8 Drawing 20 lines on a canvas by using a for-loop* </br>
@@ -391,12 +396,12 @@ function setup() {
 ```
 <iframe src="https://editor.p5js.org/siusoon/embed/0A6i5_a3"></iframe>
 
-In this sample code, the key is the local variable `i` (which is used to set the starting count of the lines: `let i = 0;`, as well as setting the condition of how many lines should be drawn: `i < 20` and to do the actual counting of lines for each iteration: `i++`) and the global variable `y` to determine the y position of each line and make sure it will increment 20 pixels for each iteration: `y+=20`. 
+In this sample code, the key is the local variable `i` (which is used to set the starting count of the lines: `let i = 0;`, as well as setting the condition of how many lines should be drawn: `i < 20` and to do the actual counting of lines for each iteration: `i++`) and the global variable `y` is to determine the y position of each line and make sure it will increment 20 pixels for each iteration: `y+=20`. This is how we can use a for-loop to draw multiple lines.
 
 #### 3.11.1 While Loop
 While loop is another type of loop for executing iterations. The statement is executed until the condition is true, it will stop as soon as it is false. 
 
-For example, `while(millis() < wait){}` in line 76 of the work *Asterisk Painting* tells the computer to do nothing if the value of `millis()`[^milis] is less than the value of the `wait` variable. `millis()` is a time-related sytax to return the number of milliseconds since starting the program and it is similar to `frameCount()` but just return the timein the form of milliseconds other than the actual frame count. Once the condition is false (i.e `millis()` is no longer less than `wait`), the loop will be ended and the program can proceed to the next line. This example is located towards the end of the program when all the asterisks are drawn but need to wait for a certain time to reset the canvas and restart drawing again. Therefore, this while-loop serves the purpose of a pause sign, freezing the program from running because there is literally nothing between the opening and closing brackets.  
+For example, `while(millis() < wait){}` in line 76 of the work *Asterisk Painting* tells the computer to do nothing if the value of `millis()`[^milis] is less than the value of the `wait` variable. `millis()` is a time-related sytax to return the number of milliseconds since starting the program and it is similar to `frameCount()` but just return the timein the form of milliseconds other than the actual frame count. Once the condition is false (i.e `millis()` is no longer less than `wait`), the loop will be ended and the program can proceed to the next line. This example is located towards the end of the program when all the asterisks are drawn but need to wait for a certain time to reset(clear) the canvas and restart drawing again. Therefore, this while-loop serves the purpose of a pause sign, freezing the program from running because there is literally nothing between the opening and closing brackets.  
 
 ## While()
 
@@ -477,3 +482,5 @@ Check out other works that refer to the throbber and how other people contextual
 [^Else4]: Ernst, “‘... Else Loop Forever’. The Untimeliness of Media”.
 [^soon]: Winnie Soon. “Throbber: Executing Micro-temporal Streams.” Computational Culture 7 (21st October 2019). http://computationalculture.net/throbber-executing-micro-temporal-streams/.
 [^modulo]: Artist Golan Levin has given an online tutorial on modulo operator as part of the coding train series, see: https://www.youtube.com/watch?v=r5Iy3v1co0A. 
+[^push]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+[^splice]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
