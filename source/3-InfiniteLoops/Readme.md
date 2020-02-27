@@ -5,9 +5,9 @@ page_order: 3
 
 ### 3.1 Setup()
 
-![Ouroboros](https://en.wikipedia.org/wiki/Ouroboros#/media/File:Chrysopoea_of_Cleopatra_1.png)
+![Ouroboros](ch3_0.png)
 
-*Figure 3.0: Early alchemical ouroboros illustration with the words ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist (10th Century)*
+*Figure 3.1: Early alchemical ouroboros illustration with the words ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist (10th Century)(image from Wikipedia)*
 
 Loops offer alternative imaginaries, as for instance in the case of the ancient image of a snake or serpent eating its own tail. The *Ouroboros*, from the Greek, expresses the endless cycle of birth and death, and thus stands for the ability of processes to renew themselves infinitely. Aside from autocannibalism and alchemy, loops are related to procedures of control and automation, and are mirrored in repetitive procedures in everyday situations. The logic can be demonstrated in the following paradoxical word-play: "The next sentence is true. The previous is false".[^Hofstadter] In computer programming, a loop allows repeated execution of a fragment of source code that continues until a given condition is met, such as true or false. Indeed a loop becomes an infinite (or endless) loop if a condition never becomes false. 
 
@@ -15,7 +15,7 @@ It was mathematician and writer Augusta Ada Byron Lovelace who first introduced 
 
 ![ada lovelace](ch3_1.jpg)
 
-*Figure 3.1: Diagram for the computation by the Engine of the Numbers of Bernoulli, from "Note G" by Ada Lovelace*
+*Figure 3.2: Diagram for the computation by the Engine of the Numbers of Bernoulli, from "Note G" by Ada Lovelace*
 
 The idea of a loop in contemporary programming is highly influenced by these early insights into the handling of repeated machine operations expressed in a diagramatic manner. High-level programming languages such as `p5.js` include this loop concept, allowing a fragment of source code to be repeatedly executed, as in the example of the `draw()` function that will run continuously until the program is stopped or using the syntax `noLoop()`. We will continue with further examples but suffice to say that loops are among the most basic and powerful of programming concepts.
 
@@ -29,7 +29,7 @@ In this chapter we move from programming static objects such as shapes to a mixt
 
 ![2.3](ch3_2.png) 
 
-*Figure 3.2: The runme of sample code - sketch 3_1* 
+*Figure 3.3: The runme of sample code - sketch 3_1* 
 
 RUNME
 
@@ -125,9 +125,9 @@ You can also try to type/copy the above code in your own sketch and it will retu
 ### 3.4 Transform
 In general, the transform-related functions apply a 2D or 3D transformation to an element or object. For the provided sample code, there are two specific transformational functions have been used to move the canvas and created an illusion of objects transformation. (This is important to know the transformation is done at the level of canvas background but not at the individual shape/object). 
 
-![3.3](https://processing.org/tutorials/transform2d/imgs/moved_grid.png) 
+![3.3](ch3_3.png) 
 
-*Figure 3.3: Moving the coordinate system at the canvas level* 
+*Figure 3.4: Moving the coordinate system at the canvas level (image from processing.org)* 
 
 1. `translate()`: This function displaces/moves objects within the display window. For example, moving the canvas to the center will position the whole sketch at the center too (`translate(width/2, height/2);`). The ellipse is drawn as `ellipse(35,0,22,22)` which takes in (35,0) as the x and y coordinates, where 22 is the size. If we don't have the upfront `translate()` function, the ellipse will be placed at the top left corner instead (while the x coordinate value "35" is the distance of the circulating ellipses from the center position). By moving the canvas coordinate origin to the middle by using the `translate()` function, then you see the ellipses now place in the middle of the canvas. The center of the screen with the coordinate orign (0,0) instead.  
 2. `rotate()`: By using the function `rotate()`, in this sample code, the object ellipse will rotate at a certain angle. The default unit for rotation is radians. As such, the code is written as `rotate(radians(cir));`. The function `rotate()` takes in radians as the default mode, and if you want to change to the degree mode, you add the code `angleMode(DEGREES)`. 
@@ -179,7 +179,7 @@ The last four lines describe the drawing of static yellow lines. Logically speak
 The following section will move from repetition and regularity to repetition and difference. Artist and software developer John P. Bell has made an artwork called *Asterisk Painting*,[^Bell] containing a number of throbber-like spinning patterns, but each throbber (or what he calls asterisk) is spinning differently, with variations of color and texture. Many syntaxes that Bell has used are related to time and temporality, for example the setting up of a timer, the calculation of current milliseconds, the speed of rotation, the waiting time for starting a new cycle, and so on. Even for the visual outcome, what constitutes an asterisk is not a geometric shape, but a series of numbers which refer to the milliseconds counter that lines up as a straight line. (See Figure 3.3 for the visual outcome)
 
 <img src="https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class03/Asterisk_Painting.gif"><br>
-*Figure 3.3 : Asterisk Painting (2014) by John P. Bell*
+*Figure 3.5 : Asterisk Painting (2014) by John P. Bell*
 
 According to Bell, 
 >  “Asterisk Painting is programmed to create a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started. If left to run by itself it will do so; however, when started on a system with other threads running in the background delays external to my artwork may make the asterisks look more like spots and the painting may resemble the work of certain other overly-litigious artists.”
@@ -357,9 +357,9 @@ See below example taken from the source code of *Asterisk Painting* (lines 37-42
 See the structure of a for-loop:<br>
 <!-- <img src="ch3_4.png" width="400"> -->
 ![](ch3_4.png) <br>
-*Figure 3.4 A for-loop*
+*Figure 3.6 A for-loop*
 
-From Figure 3.4, you can see what a for-loop contains:
+From Figure 3.6, you can see what a for-loop contains:
 
 1. *A variable declaration and initialization*: Usually starts with 0
 2. *A specificed condition*: The criteria to meet the condition
@@ -370,11 +370,12 @@ For this specific case, this block of code from the above example describes the 
 
 <!-- <img src="ch3_5.png" width="750"> -->
 ![](ch3_5.png) <br>
-*Figure 3.5 The xPos of each* </br>
+*Figure 3.7 The xPos of each* </br>
 
 To reiterate the use of a for-loop, we offer a second example as a reference to demonstrate the drawing of repeated lines.
-![](.png) <br>
-*Figure 3.6 Drawing 20 lines on a canvas by using a for-loop* </br>
+
+![](ch3_8.png) <br>
+*Figure 3.8 Drawing 20 lines on a canvas by using a for-loop* </br>
 
 ```javascript
 let y = 20;
