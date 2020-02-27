@@ -226,6 +226,7 @@ function draw() {
 }
 ```
 </div>
+
 ## LoadPixels()
 
 ![sample](ch8_6.png)
