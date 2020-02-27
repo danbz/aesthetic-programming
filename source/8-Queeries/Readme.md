@@ -16,7 +16,7 @@ To make some of these inter-acting entities tangible, and to offer a less-determ
 
 *net.art generator* (nag)[^nag] - an application that runs on a web browser to generate new images - was first produced by artist Cornelia Sollfrank in 1997, and the latest version 5b has been updated by Winnie Soon in 2017. The interface requires the user to enter a title which then functions as the search term, and to enter a name as author. Sollfrank's initial idea was to 'hack' a net.art competition called *Extension* by generating several hundred submission entries with fake international female artist profiles. The program that generated the entries was called *Female Extension* - an undercover example of net.art in itself - to make ironic feminist comment on the under-representation of women artists in the media art scene at that time.[^extension] Sollfrank created not only fictitious names, but also email addresses, phone numbers, and addresses for each applicant, along with an example of original net.art work. 
 
-Preconceptions of geeky male hacker culture are challenged in this work, as well as in earlier documentaries where fake female hackers were interviewed, further emphasized in the naming of the cyberfeminist group she was part of: "Old Boys Network".[^obn] Sollfrank's ironic claim that "a smart artist makes the machine do the work" (itself a hack of Lewitt's maxim, as referred in in Chapter ??) has relevance here too as a clarification of "hacking the art operating system", as she put it.[^hack] 
+Preconceptions of geeky male hacker culture are challenged in this work, as well as in earlier documentaries where fake female hackers were interviewed, further emphasized in the naming of the cyberfeminist group she was part of: "Old Boys Network".[^obn] Sollfrank's ironic claim that "a smart artist makes the machine do the work" (itself a hack of Lewitt's maxim, as referred in in Chapter ??) has relevance here too as a clarification of "hacking the art operating system", as she puts it.[^hack] 
 
 *Female Extension* was later developed into *nag* as a web application and a functional tool for generating images from available data on the fly to further question normative authorship, copyright and some of the underlying infrastructures of artistic production. The latest version of *nag* generates images by combining the data that is sent from Google via the web search API. Interestingly there is a daily limit set at one hundred API requests, which means that once exceeded users will experience a customized error page and images can no longer be retrieved. The issue of visibility thus shifts from a politics of representation (data on female artists) to the nonrepresentational realm of APIs and to what extent we are allowed access to hidden layers of software that queries the available data and generates new arrangements.  
 
@@ -26,13 +26,13 @@ Preconceptions of geeky male hacker culture are challenged in this work, as well
 
 ## Exercise in class
 
-Go to *net.art generator* (https://nag.iap.de/) and explore the generation of images and previous examples. Pay close attention to the interface and map out the relationship between user input (e.g. a title) and the corresonding output (the image). What are the processes in between the input and output? How are the images being composited and generated?
+Go to *net.art generator* (https://nag.iap.de/) and explore the generation of images and previous images examples. Pay close attention to the interface and map out the relationship between user input (e.g. a title) and the corresonding output (the image). What are the processes in between the input and output? How are the images being composited and generated?
 
 ## Image processing: Fetching, Loading and Display
 
 The following sample code is a snippet from *nag* showing the web API's logic of request and response: requested data passes via a Web API and then Google returns the corresponding data. As this sample code is focused on images, we will also demonstrate how to process and display image and pixel data on the screen in a similar manner to *nag*. This is just the first step before we  proceed with the que(e)y data yet there are many other possibilities for using the data. Here are the key examples of syntax:
 
-* `loadJSON()`[^json]: This is a function to load a JSON file from a file or a URL. In this specific sample code, this is used to send the web API (in the form of a URL) request and receive the response in the format of JSON. The callback function is to turn the returned data into an object.
+* `loadJSON()`[^json]: This is a function to load a JSON file (from a file or a URL). In this specific sample code, the function is used to send the web API (in the form of a URL) request and receive the response in the format of JSON. The callback function is to turn the returned data into an object.
 * `loadImage()`[^img1] and `image()`[^img2]: They both are used to load and display images. Data such as sound, files, images, videos are objects that need to be loaded before they can be processed.
 * `loadPixels()`[^pixel]: If you want to manipulate or analyze the data from an image, this is a function that can extract and manipulate information of each image pixel, loading the data into the pixels[] array.
 * `line()`: This is used in the sample code to visualize the particular color that is extracted from the image's pixels.
@@ -41,8 +41,8 @@ The following sample code is a snippet from *nag* showing the web API's logic of
 
 ```javascript
 let url = "https://www.googleapis.com/customsearch/v1?";
-var apikey = "INPUT YOUR OWN KEY";  //register API key here to gain access to the data: https://developers.google.com/custom-search/json-api/v1/overview
-var engineID = "INPUT YOUR OWN"; //https://cse.google.com/all | create search engine, then get the searchengine ID - make sure image is on
+let apikey = "INPUT YOUR OWN KEY";  //register API key here to gain access to the data: https://developers.google.com/custom-search/json-api/v1/overview
+let engineID = "INPUT YOUR OWN"; //https://cse.google.com/all | create search engine, then get the searchengine ID - make sure image is on
 let query = "warhol+flowers";  //search keywords
 let searchType = "image";
 let imgSize ="medium"; //check here: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
@@ -104,20 +104,19 @@ function draw() {
 
 ## Accessing Web APIs (Step by Step)
 
-![samplecode](ch8_2.gif) <br>
-*Figure 8.2: The sample code with Warhol+flowers*
+![samplecode](ch8_2.gif)![samplecode](ch8_2b.gif)<br>
+*Figure 8.2: Two Warhol+flowers with the web APIs*
 
-The above sample code describes getting a static image from Google image search API (via parsing JSON), and then displaying it on a screen. Similar to many other web APIs, you need to have an API key so the platforms can identify who is getting the data and track its usage. Hence, the next thing to do is to get the key ID and Engine ID from Google by providing all necessary information, then the program can run and fetch a networked image on the fly. This requires you to:
+The above source code describes getting a static image from Google image search API (via parsing JSON), and then displaying it on a screen. Similar to many other web APIs, you need to have an API key so the platforms can identify who is getting the data and track its usage. Hence, the next thing to do is to get the key ID and Engine ID from Google by providing all necessary information, then the program can run and fetch a networked image on the fly. This requires you to:
 
 * Understand the Google image search API's workflow
 * Understand the API specification that indicates what data and parameters are available
 * Understand the returned JSON file format from the web API
-* Register and use the API key and search engine ID from Google with the configuration and settings at the search console
-/delete? * This is more advanced that relates to the post-production of images, and what you want to do with the data that you got - don't get this bit /g
+* To use the Google API by first registering the API key and search engine ID, as well as configuring the search setting
 
-1. **Step 1:** Create a p5 sketch, then copy and paste the source code to your code editor. (Don't forget the html file and the p5 library.)
+1. **Step 1:** Create a p5 sketch, then copy and paste the source code to your code editor (assuming you have the html file and the p5 library).
 
-2. **Step 2:** Replace the API key with your own details on the line: `var apikey = "INPUT YOUR OWN KEY";`.
+2. **Step 2:** Replace the API key with your own details on the line: `let apikey = "INPUT YOUR OWN KEY";`.
 ![google1](ch8_3.png)
 
 *Figure 8.3: Google Custom Search Interface*
@@ -127,7 +126,7 @@ The above sample code describes getting a static image from Google image search 
 - Click the blue button "Get A Key" and then create a new project by entering your project name (e.g. "nag-test") and press the enter key
 - You should able to see the API key and you just need to copy and paste the key into your sketch.
 
-3. **Step 3:** Replace the Search engine ID (cx) with your own, on the line: `var engineID = "INPUT YOUR OWN";`.
+3. **Step 3:** Replace the Search engine ID (cx) with your own, on the line: `let engineID = "INPUT YOUR OWN";`.
 - Go to [Custom Search Engine](https://cse.google.com/all)[^google2]
 - Click the "Add" button to add a search engine
 - You can limit your search area but if you want to search Google entirely, just simply type "http://www.google.com"
@@ -140,18 +139,46 @@ The above sample code describes getting a static image from Google image search 
 - Make sure the "Image search" is ON indicated by the blue color
 - Make sure the "Search the entire web" is ON indicated by the blue color
 
-## sth on API 
-there should be a session (forgot to write here) about the API formulation here before processing the JSON data /w 
+## APIs
+
+```javascript
+let url = "https://www.googleapis.com/customsearch/v1?";
+let apikey = "INPUT YOUR OWN KEY";  //register API key here: https://developers.google.com/custom-search/json-api/v1/overview
+let engineID = "INPUT YOUR OWN"; //https://cse.google.com/all  | create search engine, then get the searchengine ID - make sure image is on
+let query = "warhol+flowers";  //search keywords
+let searchType = "image";
+let imgSize ="medium"; //check here: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
+let request; //full API
+let imgCORSproxy = "https://cors-anywhere.herokuapp.com/"; //check top comment
+
+function setup() {
+	fetchImage();
+}
+
+function fetchImage() {
+	request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&q=" + query + "&searchType=" + searchType;
+	console.log(request);
+	loadJSON(request, gotData); //this is the key syntax and line of code to make a query request and get a query response
+}
+
+function gotData(data) {
+	getImg = imgCORSproxy + data.items[0].link;
+	console.log(getImg);
+}
+```
+In order for easy modification, we have put the search parameters as global variable, such as the required URL, API key, search engine ID, query, search type, image size. By what it means by a web API, it is simply a long URL `request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&q=" + query + "&searchType=" + searchType;` that includes all the credentials and items that you want to search and filter (it looks like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image). 
+
+The key syntax is `loadJSON()` (within the function `fetchImage()` to submit a `request` in the form of a URL to Google and then wait for the returned JSON file with a list of results. The function `gotData()` is to further process and que(e)ry the data that is recevied from Google.
 
 ## Que(e)rying data
 
-Although you have set the key and search engine id, there are still things that you need to understand if you want to read and locate the data on your own or try to work on other web APIs to different sets of data.
+Figure 8.4 below shows the JSON file format, but it includes a lot of information that you might not need. Therefore, you need to understand the file structure and locate the data that you want to further process (understanding the returned data file is part of the processing of que(e)rying data as different providers and platforms they structure their data differently).
 
 ![google2](ch8_4.png)
 
-*Figure 4: Data structure in the web API*
+*Figure 8.4: Data structure in the web API*
 
-In the web console, look for a URL that starts with "https" and ends with "warhol+flowers" (something like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image). Just simply click it and you will see how data is being structured in the JSON file format on a web browser (see Figure 4). You will see that there are more parameters that you can set in order to select more specific forms of data such as image size, image color type, and image dominant color, and so on. The API that we have used in the sample code demonstrates minimal settings.[^setting]
+In the web console, look for a URL (with your own API key and search engine ID) that starts with "https" and ends with "warhol+flowers" (something like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image). Just simply click it and you will see how data is being structured in the JSON file format on a web browser (see Figure 8.4). You will see that there are more parameters that you can set in order to select more specific forms of data such as image size, image color type, and image dominant color, and so on. The API that we have used in the sample code demonstrates minimal settings.[^setting]
 
 **Cross-Origin Resource Sharing**
 
@@ -159,10 +186,11 @@ Requesting, getting and loading images (and other multimedia forms like video an
 
 **Data Structure**
 
-By adding the proxy URL in front of the image URL, it allows us to retrieve the image outside of the local server. Figure 4 demonstrates how one can point at specific data in the whole JSON file. Specifically, we have the line `getImg = imgCORSproxy + data.items[0].link;` and the second part of the code gets the specified returned object (the image URL) from the JSON file. The name data refers to all the returned objects via the callback function `loadJSON()`. Then `items[0]` points at the first data object (using the array concept with the first index as 0). The dot syntax allows you to navigate to the object `link` under `items[0]`. Note that this hierarchy is specific to this API as other web APIs might structure their data and its organization differently.
+By adding the proxy URL in front of the image URL, it allows us to retrieve the image outside of the local server. Figure 8.4 demonstrates how one can point at specific data in the whole JSON file. Specifically, we have the line `getImg = imgCORSproxy + data.items[0].link;` and the second part of the code gets the specified returned object (the image URL) from the JSON file. The name data refers to all the returned objects via the callback function `loadJSON()`. Then `items[0]` points at the first data object (using the array concept with the first index as 0). The dot syntax allows you to navigate to the object `link` under `items[0]`. Note that this hierarchy is specific to this API as other web APIs might structure their data and its organization differently.
 
-To learn more about the JSON file, you can navigate other data objects such as queries > request > 0 that shows, for example, how many results are found on the image search, what search terms have been processed and how many data objects are returned. In the sample code, we only start with the top 10 search items, but you can configure the field 'startIndex' to get the last 10 images out of 110 million. Furthermore, under `items` you will find the specific image data returned in the form of an array,  such as the title and the corresponding snippet of the page content. Although Google has provided the API to access the data, it should be remembered that the actual data is collected from the public and people have no access to the specific algorithm by which the data is selected, prioritized and presented.
+To learn more about the JSON file, you can navigate other data objects such as queries > request > 0 that shows, for example, how many results are found on the image search, what search terms have been processed and how many data objects are returned. In the sample code, we only start with the top 10 search items, but you can configure the parameter 'startIndex' to get the last 10 images out of 110 million. Furthermore, under `items` in the JSON file you will find the specific image data returned in the form of an array, such as the title and the corresponding snippet of the page content. Although Google has provided the API to access the data, it should be remembered that the actual data is collected from the public and people have no access to the specific algorithm by which the data is selected, prioritized and presented.
 
+<div class="exercise" markdown="true">
 ## Exercise in class
 ![api](ch8_5.png)
 
@@ -172,8 +200,8 @@ You may also uncomment the line `//tint(255, 0);` to set the fill value for disp
 
 1. According to Figure 8.5, can you recap what has been requested and received through the web API?
 2. Change your own query strings: The current keywords are 'warhol flowers' but note that the program doesn't understand space between text and therefore it needs to be written as "warhol+flowers"
-3. Add more [different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters)[^setting], such as adding image color type. (The URL parameters are seperated by a "&" sign like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image
-4. Study the JSON file and modify the sketch to get other data such as the text by showing that into the web console.
+3. Add more parameters in terms of the search filter[different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters)[^setting], such as adding image color type. (The URL parameters are seperated by a "&" sign like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image
+4. Study the JSON file and modify the sketch to get other data such as the text by showing that onto the web console.
 5. To process the image data and to visualize the pixel's color through lines is mainly done by below snippet of code. Think about and discuss why there is an error message in the web console: `TypeError: "path is undefined"`.
 
 ```javascript
@@ -197,10 +225,11 @@ function draw() {
  }
 }
 ```
-
+</div>
 ## LoadPixels()
 
-For this sample sketch, only one color within the image will be picked and processed. This means that the program will randomly pick any pixel from the image according to the x and y coordinates, and then the function of pixels can analyze and retrieve the color. specifically the RGB color values that are further used to draw the line. `loc` is set as a variable to store the pixel information. Imagine an image is 5x5 pixels in terms of the dimension which makes a total of 25 pixels. Each pixel position of an image needs to be clearly located so that a line can be drawn. The line is not randomly drawn but it draws along the y axes in which the pixel is randomly picked up, and this will lead to something like the visualization of the pattern of lines, as shown in Figure 8.2. But each pixel contains further information, that is the R (red), G (green), B (blue) and A (alpha) values. This is how the data is being stored in the pixels' one dimensional array:
+
+For this sample sketch, only one color within the image will be picked and processed. This means that the program will randomly pick any pixel from the image according to the x and y coordinates, and then the function of `pixels` will analyze and retrieve the color, specifically the RGB color values that are further used to draw the line. `loc` is set as a variable to store the pixel information. Imagine an image is 5x5 pixels in terms of the dimension which makes a total of 25 pixels. Each pixel position of an image needs to be clearly located so that a line can be drawn. The line is not randomly drawn but it draws along the y axes in which the pixel is randomly picked up, and this will lead to something like the visualization of the pattern of lines, as shown in Figure 8.2. But each pixel contains further information, that is the R (red), G (green), B (blue) and A (alpha) values. This is how the data is being stored in the pixels' one dimensional array:
 
 Pixel 1 - R value, Pixel 1 - G value, Pixel 1 - B value, Pixel 1 - A value, Pixel 2 - R value, Pixel 2 - G value, Pixel 2 - B value, Pixel 2 - A value ...
 
