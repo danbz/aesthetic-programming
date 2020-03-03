@@ -35,6 +35,7 @@ By looking at the Like button closely in the RUNME, can you come up with a list 
 
 Then look at the source code in the next section (lines 67-83) and describe some of the button's styling in your own words. 
 </div>
+
 ## 4.2 Source Code 
 ```javascript
 /*Data Capture for Chapter 4
