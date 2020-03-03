@@ -29,6 +29,7 @@ Starting with this sample code, the sketch incorporates four data inputs for a c
 The button is customized using CSS (Cascading Style Sheets), which describes the style and visual elements of an object in a format that onsists of a selector and a declaration block. These simply identify *which* elements you want to customize and *how* to do it precisely. CSS works with HTML and we can create HTML's DOM objects like a button with the p5.js library (will discuss further in the next section).
 
 <div class="exercise" markdown="true">
+
 ## 4.1.2 Exercise in class
 By looking at the Like button closely in the RUNME, can you come up with a list of potential customizations that have been introduced in the sample code? 
 
@@ -250,15 +251,17 @@ What the program does in terms of face capture and facial recognition via using 
 4. The last part is to draw the ellipses to cover the face. A for-loop is implemented to loop through all the ctracker points and then get the x and y coordinates for the drawing of the ellipses. 
 
 <div class="exercise" markdown="true">
+
 ## 4.8 Exercise in class
 To familiar yourself with different modes of capture, try the following:
 1. Explore the different modes of capture by tinkering with various parameters such as `keyCode`, as well as other keyboard and mouse events. 
 2. Study the tracker points and try to change the position of the Like button that you previously customized in the earlier exercise. 
-3. Try to test the boundaries of facial recognition: to what extend can(not) a face be recognized as a face?
+3. Try to test the boundaries of facial recognition (such as lighting, facial expression and the composition of a face): to what extend can(not) a face be recognized as a face?
 4. Do you know how the face is being modelled? How has facial recognition technology been applied in society at large, and what are some of the issues that arise from this? 
 
 It would be worth checking back to Chapter 2 (Variable Geometry) for a reminder of how facial recognition identifies a person's face from its geometry — such as the distance between a person's eyes or size of mouth — to establish a facial signature that is comparable to a standardised database. Not least of the problems is that the database is itself skewed by the ways in which the data has been prepared, in its selection, collection, categorization, classification and cleaning. To what extent does your face meet the standard?   
 </div>
+
 ## 4.9 The concept of capture
 After the demonstration of different inputs for data capture, this next section discusses various examples. The intention is to showcase some other possibilities of its application, and more importantly how this relates to datafication, commodification, surveillance and personalization. This is an attempt to discuss data politics more broadly: to question how our personal data is being captured, quantified, archived and used, and to what purpose? What are the implications and who has the power to access the captured data and derive profit from it? Few people know exactly what data is being captured nor how it will be used?[^GDPR] But, despite the term capture, we should also point out that this is not total incarceration, and there are escape routes too. More on this later.  
 
