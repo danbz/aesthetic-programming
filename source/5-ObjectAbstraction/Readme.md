@@ -435,7 +435,7 @@ It is by no means saying the steps should be in the exact sequence as stated. Of
 ## Exercise in class
 
 1. Tinkering 
-- modify the numbers, colors.
+- modify the different values to understand the function/syntax
 - add more features/behaviors to the game such as
 
 2. Discussion in groups:
@@ -444,13 +444,13 @@ It is by no means saying the steps should be in the exact sequence as stated. Of
 
 ## Further notes
 
-**`function preload(){}`:** In this game we have used an animated gif. To make the image appear on the screen, you need to use the function `loadImage()` to load the image file before the program runs the `setup()` and `draw()`. 
+**`function preload(){}`:** In this game we have used an animated gif - pacman that can be controlled by pressing certain keycodes. To have the image draw on a canvas, you need to use the function `loadImage()` to load the image file before the program runs the `setup()` and `draw()`. 
 
 **`image()`:** To use, dislay and technically draw the image onto the p5.js canvas, `image()` is used and take arguments on which image, x position, y position, the width of an image and the height of it.
 
 **Tofu's shape:** As already introduced in chapter 2 - Variable Geometry, we have reused the related syntaxes such as `rect()`, `vertex()`, `beingShape()` and `endShape()`. But this time we use the typographic characters for the emoji by using the `text()` and `textSize()` functions. 
 
-**A game:** The program is a typical game, and as such there is a losing point(eating tofu is gamified). Functions `checkEating()` and `checkResult()` are used to count how many tofu is eaten (with the variable `score`) and how many tofu has not been eated as wastage (with the variable `lose`). In the end, these two variables are compared. A game over message will be shown if the wastage is bigger than the eaten tofus (`lose > score`), as well as (by using the symbol `&&`) the game provides two chances of tofu's wastage. `noLoop()` is used to stop the program from looping. 
+**A game:** The program is a typical game with an end point (eating tofu is gamified). Functions `checkEating()` and `checkResult()` are used to count how many tofus are eaten (with the variable `score`) and how many tofus have not been eated and regarded as wastage (with the variable `lose`). In the end, these two variables are compared. A game over message will be shown if the wastage is bigger than the eaten tofus (`lose > score`), and (by using the symbol `&&`) the game provides two chances of tofu's wastage. `noLoop()` is used to stop the program from looping, and as such the canvas is freezed.
 
 **Arithmetic operators:** There is new arithmetic syntax beyond simply `=`, `+`, `-`, `*`, `/`, such as `+=` in `tableX+=texture_width;` and `edgeX+=texture_width;`. See the list below: 
 
