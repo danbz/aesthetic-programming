@@ -59,20 +59,33 @@ When tofu becomes a computational object, as in *Tofu Go!*, abstraction is requi
 
 In the following, we will use the game *ToFu Go!* (freely available to download on App Store[^App]) for the main flow of discussion and then a simplified version is introduced as the sample code (the recipe if you like). As discussed, *ToFu Go!* is a mobile game that makes reference to Chinese food culture, especially HotPot (a convenient one pot meal). By programming a modified and simplier version of *ToFu Go!*, the remaining parts unfold the computational logic and modeling required to understand the basics of OOP. 
 
-## Source Code 
-
-This chapter's sample code has the following core components: 
-1. A static table. 
-2. A cube-like Tofu as a class object. There are many object instances, and they appear on different parts of the table, running from left to right.
-3. The button with the text "Add Tofu: maintain minimum 5 on the table". It allows the addition of Tofu object instances.
-4. There is a continuous display of beer objects which move from right to left. (The beers can be considered to be decorative objects in this game and in the chapter, which means the game can still function without them. We use the library of [p5.play](http://molleindustria.github.io/p5.play/) to control the beer image and together it illustrates a different way of constructing objects)
-5. The simple game logic is used to maintain at least 5 pieces of tofu on the table, or else the game will stop and display the text 'Game Over'.
+## Exercise in class
 
 ![ch5_2](ch5_2.png)
 
-*Figure 5.2: A screenshot of the simplified Tofu Go!.* [need to adjust slightly the code and visual for next round /w]
+*Figure 5.2: A screenshot of the simplified Tofu Go!.*
 
 [RUNME](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch5_ObjectAbstraction/index.html)
+
+**SPECULATION**
+
+Based on what you see/experience on the screen, describe:
+- What are the involved elements?
+- What are moving and not moving? (and how do they move?)
+- What are the instructions/rules to play the game?
+- Can you describe the algorithm (logical procedure) of the game?
+- Task: Come up with a list of features.
+
+**Further questions to think about:**
+- How to insert tofu continuously in the screen?
+- Under what conditions the game will be ended?
+
+**MAPPING with the source code**
+- Map some of the findings/features from the speculation that you have done with the source code. Which block of code relates to your findings?
+- Can you identify the part/block of code that responds to the elements that you have speculated on earlier?
+- Identify the syntax and function that you might not know and check out on p5.js reference site: https://p5js.org/reference/
+
+## Source Code 
 
 The source code is divided into two, one with all the core functions in `sketch.js`, and the other `tofu.js` that specifies the class/object relationship. Sometimes it can help to give a clearer overview if you separate the program into different functions and files. To enable the two js files in a program, you need to add the following into the index.html file:
 
@@ -84,132 +97,130 @@ The source code is divided into two, one with all the core functions in `sketch.
 sketch.js:
 
 ```javascript
+let pacmanSize = {
+  w:86,
+  h:89
+};
+let pacman;
+let pacPosY;
+let mini_height;
+let min_tofu = 5;  //min tofu on the screen
 let tofu = [];
-let button;
-let beerImage, beer, beers, beerY;
-const max_beer=20, min_beer=10;
-let min_tofu = 5;
-let height_limit;
+let score =0, lose = 0;
+let keyColor = 96;
 
-function preload() {
-  beerImage = loadImage("data/beer2.png");
+function preload(){
+  pacman = loadImage("data/pacman.gif");
 }
+
 function setup() {
-  createCanvas(windowWidth, 600);
-  height_limit = height/4; //a reference point for the table, beers and tofu
-  button = createButton("add Tofu: maintain minimum" + min_tofu + "on the table");
-  button.style('background-color','white');
-  button.style('padding','10px 30px');
-  button.style('font-size','12px');
-  button.mousePressed(addTofu);
-  addBeers();
+  createCanvas(1000,600);
+  pacPosY = height/2;
+  mini_height = height/2;
   for (let i=0; i<=min_tofu; i++) {
-    tofu[i] = new Tofu(30); //create/construct a new object instance
+    tofu[i] = new Tofu(); //create/construct a new object instance
   }
 }
 function draw() {
   background(255);
-  button.position(width/3,55);
-  drawTable();
-  checkBeer();
+  fill(keyColor, 255);
+  rect(0,height/1.5,width,1);
+  displayScore();
+  showTofu();
+  image(pacman, 0, pacPosY,pacmanSize.w, pacmanSize.h);
+  checkTofuNum(); //available tofu
+  checkEating(); //scoring
+  checkResult();
+}
+
+function showTofu(){
   for (let i = 0; i <tofu.length; i++) {
     tofu[i].move();
     tofu[i].show();
-    if (tofu[i].pos.x > width){
-      tofu.splice(i,1); //first argument is start at which index, and the second one stands for how many
+  }
+}
+
+function checkTofuNum() {
+  if (tofu.length < min_tofu) {
+    tofu.push(new Tofu());
+  }
+}
+
+function checkEating() {
+  //calculate the distance between each tofu
+  for (let i = 0; i <tofu.length; i++) {
+    let d = int(dist(pacmanSize.w/2, pacPosY+pacmanSize.h/2,tofu[i].pos.x, tofu[i].pos.y));
+    if (d < pacmanSize.w/2.5) { //close enough as if eating the tofu
+      score++;
+      tofu.splice(i,1);
+    }else if (tofu[i].pos.x < 3) { //pacman missed the tofu
+      lose++;
+      tofu.splice(i,1);
     }
   }
-  let loser = checkLoser();
-  if (loser==true){
-    fill(200,0,0);
-    textSize(40);
-    text("GAME OVER", width/2, height/2);
+}
+
+function displayScore() {
+    fill(keyColor,110);
+    textSize(17);
+    text('You have eaten '+ score + " tofu(s)", 10, height/1.4);
+    text('You have wasted ' + lose + " tofu(s)", 10, height/1.4+20);
+    fill(keyColor,255);
+    text('PRESS the ARROW UP & DOWN key to eat the ToFu', 10, height/1.4+40)
+}
+
+function checkResult() {
+  if (lose > score && lose > 2) {
+    fill(keyColor,255);
+    textSize(26);
+    text("Too Much WASTAGE...GAME OVER", width/3, height/1.4);
     noLoop();
   }
 }
 
-function addBeers() { //sprite - using p5.play library
-  beers = new Group();
-  for (let i=0; i < max_beer ; i++ ){
-    beerImage.resize(20,50);
-    if (floor(random(0,2)) == 0){
-      beerY = height_limit;
-    }else {
-      beerY = height/1.9;
-    }
-    beer = createSprite(random(width, width+width), beerY);
-    beer.addImage('normal', beerImage);  //can check for other sprite properties, e.g. beer.rotationSpeed = random(-1,-3);
-    beer.addToGroup(beers);
+function keyPressed() {
+  if (keyCode === UP_ARROW) {
+    pacPosY-=30;
+  } else if (keyCode === DOWN_ARROW) {
+    pacPosY+=30;
   }
-}
-function drawTable() {
-  let texture_width = 60;
-  stroke(196,98,16,15);
-  fill(196,98,16,10);
-  rect(0,height_limit, width, height/2.95);
-  let tableX=-texture_width;
-  for (let i = 0; i < width/texture_width+1; i++) {
-    line(tableX, height_limit, tableX+texture_width, height_limit+height/2.95);
-    tableX+=texture_width;
+  //reset if the pacman moves out of range
+  if (pacPosY > mini_height) {
+    pacPosY = mini_height;
+  } else if (pacPosY < 0 - pacmanSize.w/2) {
+    pacPosY = 0;
   }
-  fill(196,98,16, 30);
-  rect(0,height/1.7, width, 40);
-  let edgeX = 0;
-  stroke(196,98,16, 30);
-  for (let i = 0; i < width/texture_width; i++) {
-    line(edgeX, height/1.7, edgeX, height/1.7+39);
-    edgeX+=texture_width;
-  }
-}
-function checkBeer() { //check beer availability
-      for(let i = 0; i<beers.length; i++) { //add beer
-        let b = beers[i];
-         b.velocity.x = -2;
-         if(b.position.x < -10) { //check out of screen
-           b.remove(); //remove sprites when they are out of screen
-         }
-      }
-      if (beers.length < min_beer) { //refill beer on the screen
-        addBeers();
-      }
-      drawSprites();
-}
-function addTofu() { //speed, xpos, ypos, size
-  tofu.push(new Tofu(floor(random(0,20))));
-}
-function checkLoser() {
-    if (tofu.length < min_tofu) {
-      return true;
-    }
 }
 ```
 tofu.js:
 
 ```javascript 
 class Tofu { //create a class: template/blueprint of objects with properties and behaviors
-    constructor(xpos) { //initalize the objects
-    this.speed = floor(random(3,10));
-    this.pos = new createVector(xpos, floor(random(height_limit+20,height_limit+115))); //check this feature: https://p5js.org/reference/#/p5/createVector
-    this.size = floor(random(30,35));
-    this.toFu_rotate = random(0,PI/8); //rotate in clockwise for +ve no
+    constructor()
+    { //initalize the objects
+    this.speed = floor(random(2,5));
+    this.pos = new createVector(width+5, random(12,height/1.7));  //check this feature: https://p5js.org/reference/#/p5/createVector
+    this.size = floor(random(15,35));
+    this.toFu_rotate = random(0,PI/20); //rotate in clockwise for +ve no
     this.emoji_size = this.size/1.5;
     }
-  move() { //moving behaviors
-    this.pos.x+=this.speed; //i.e. this.pos.x = this.pos.x + this.speed;
+  move() {  //moving behaviors
+    this.pos.x-=this.speed;  //i.e, this.pos.x = this.pos.x - this.speed;
   }
   show() { //show tofu as a cube
     push()
     translate(this.pos.x, this.pos.y);
     rotate(this.toFu_rotate);
     noStroke();
-    fill(255); //front plane
+    fill(130, 120);//shadow
+    rect(0,this.size, this.size, 1);
+    fill(253); //front plane
     rect(0,0, this.size,this.size);
     fill(150); //top
     beginShape();
     vertex(0,0);
     vertex(0-this.size/4,0-this.size/4);
-    //vertex(0+this.size/0.45,0-this.size/5); //special hair style
-    vertex(0+this.size/1.5,0-this.size/4); //no special hair style
+    vertex(0+this.size/1.5,0-this.size/4);  //no special hair style
     vertex(0+this.size, 0);
     endShape(CLOSE);
     fill(220);//side
@@ -225,7 +236,7 @@ class Tofu { //create a class: template/blueprint of objects with properties and
     text('-',0+this.size/1.7, 0+this.size/1.9);
     text('。',0+this.size/8, 0+this.size/1.15);
     pop();
-  } 
+ }
 }
 ```
 
@@ -256,20 +267,19 @@ In the sample code above, we have Tofu as the class name and Tofu as the name of
 
 ```javascript
 class Tofu { //create a class: template/blueprint of objects with properties and behaviors
-    constructor(xpos) { //initalize the objects
-    this.speed = floor(random(3,10));
-    this.pos = new createVector(xpos, floor(random(height_limit+20,height_limit+115))); //check this feature: https://p5js.org/reference/#/p5/createVector
-    this.size = floor(random(30,35));
-    this.toFu_rotate = random(0,PI/8); //rotate clockwise for +ve no
+    constructor()
+    { //initalize the objects
+    this.speed = floor(random(2,5));
+    this.pos = new createVector(width+5, random(12,height/1.7));  //check this feature: https://p5js.org/reference/#/p5/createVector
+    this.size = floor(random(15,35));
+    this.toFu_rotate = random(0,PI/20); //rotate in clockwise for +ve no
     this.emoji_size = this.size/1.5;
     }
-//something more here
 }
+//something more here
 ```
 
-The above is to prepare the object construction. As such we have a function called constructor. Here the variable `xpos` is put inside the constructor function because this will be passed from other function in the `sketch.js` that actually instructs the class to make an object instance. It is similar to how a function passes an argument from one to another. 
-
-Below the function constructor is a list of variables that indicate the properties of speed, position, size, rotating angle and the emoji's size. All these properties are defined with the keyword `this`, which refers to the current object instance, e.g. `this.speed = floor(random(3,10));`. It can be translated roughly as: when the object instance tofu is created, that particular tofu's speed value will be a random integer between 3 to 10. 
+The above is to prepare the object construction. As such we have a function called constructor to initialize an abject with the following attributes in the form of a list of variables that indicate the properties of speed, position, size, rotating angle and the emoji's size. All these properties are defined with the keyword `this`, which refers to the current object instance, e.g. `this.speed = floor(random(2,5));`. It can be translated roughly as: when the object instance tofu is created, that particular tofu's speed value will be a random integer between 2 to 5. 
 
 For the other variable `this.pos`, we have used the function `new createVector` to create the new p5 vector which contains the x and y components. With the `createVector` function, we can then use `pos.x` and `pos.y` to specify the x and y coordinates of a tofu. 
 
@@ -277,11 +287,11 @@ For the other variable `this.pos`, we have used the function `new createVector` 
 
 ```javascript 
 class Tofu {
-  constructor(xpos) { //initalize the objects
+  constructor() { //initalize the objects
     // something here
   }
   move() { //moving behaviors
-    this.pos.x+=this.speed; //i.e, this.pos.x = this.pos.x + this.speed;
+    this.pos.x-=this.speed; //i.e, this.pos.x = this.pos.x - this.speed;
   }
   show() {
       //show Tofu as a cube by using vertex 
@@ -298,31 +308,31 @@ For this section, we will illustrate how to create an object instance, which is 
 **(Step 4) Object creation**: After the basic setup of the class structure, the next step is to create a tofu object that can display on a screen. 
 
 ```javascript
+let min_tofu = 5;  //min tofu on the screen
 let tofu = [];
-let min_tofu = 5;
 
 function setup() {
  //something here
  for (let i=0; i<=min_tofu; i++) {
-   tofu[i] = new Tofu(30); //create a new object instance
+   tofu[i] = new Tofu(); //create/construct a new object instance
  }
 }
 ```
-The above shows that the program will start off with five pieces of tofu (which is the minimum requirement of the game). The tofu is created through a for-loop with specific properties (in this case, the x position with the data value 30) that are defined earlier in the class: Tofu. The five pieces of tofu are all started at 30 pixels on the x coordinate, and they have different properties (refer to step 2 above). 
+The above shows that the program will start off with five pieces of tofu (which is the minimum requirement of the game). The tofu is created through a for-loop with the defined Tofu clas' properties. The five pieces of tofu are all started at the position that is beyond the screen (this.pos.x = width + 5) at various vertical (y axis) position.
 
 Specifically, we now look at the most important line here:
-`tofu[i] = new Tofu(30);`
+`tofu[i] = new Tofu();`
 
 - tofu[i] refers to the new object instance and it starts with the index 0. 
-- new Tofu() refers to the action of creating the new object through passing the data value(s) into the class Tofu. 
+- new Tofu() refers to the action of creating the new object via the class Tofu. 
 
 These small snippets of code shows that objects can be duplicated and relatively easy to manage. This demonstrates one the advantages of using OOP which is the reusability of objects. 
 
 **(Step 5) Display**: How you want to display and present them over time?
 
 ```javascript
+let min_tofu = 5;  //min tofu on the screen
 let tofu = [];
-let min_tofu = 5;
 
 function setup() {
  //something here
@@ -330,12 +340,14 @@ function setup() {
 
 function draw() {
  //something here
- for (let i = 0; i <tofu.length; i++) {
+ showTofu();
+}
+
+function showTofu() {
+ //something here
+  for (let i = 0; i <tofu.length; i++) {
    tofu[i].move();
    tofu[i].show();
-   if (tofu[i].pos.x > width){
-     tofu.splice(i,1); //first argument is start at which index, and the second one stands for how many
-   }
  }
 }
 ```
@@ -351,15 +363,39 @@ The two important lines above instruct the tofu(s) to move and display on screen
 
 **(Step 6) Trigger point**: Think with the holistic logic
 
-Think about if you want to create a new object when there is a trigger point, e.g. click on a button to create something (Tofu). The trigger point can be clicking a button (as with data capture in the previous chapter), and on clicking the mouse moves to a particular position, the mic's volume exceeds a certain value, the object reaches the end of a screen or detection of a human face, etc. To append the new object instance in an existing array in which you do not know the existing amount of tofu, you can use the `push()` [^push] function.
+Think about if you want to create a new object when there is a trigger point or meeting a certain condition. The trigger point can be clicking a button (as with data capture in the previous chapter), and on clicking the mouse moves to a particular position, the mic's volume exceeds a certain value, the object reaches the end of a screen or detection of a human face, etc. To append the new object instance in an existing array in which you do not know the existing amount of tofu, you can use the `push()` [^push] function.
+
+Within the function `checkTofuNum();`, new object instance (tofu) will be created if the total number of tofu is less than the minimal amount (which is 5 as set in the global variable).
 
 ```javascript
-function addTofu() { //speed, xpos, ypos, size
-  tofu.push(new Tofu(floor(random(0,20))));
+function draw() {
+  checkTofuNum(); //available tofu
+  checkEating(); //scoring
 }
+
+function checkTofuNum() {   
+  if (tofu.length < min_tofu) {
+    tofu.push(new Tofu());
+  }
+}
+
+function checkEating() {
+  //calculate the distance between each tofu
+  for (let i = 0; i <tofu.length; i++) {
+    let d = int(dist(pacmanSize.w/2, pacPosY+pacmanSize.h/2,tofu[i].pos.x, tofu[i].pos.y));
+    if (d < pacmanSize.w/2.5) { //close enough as if eating the tofu
+      score++;
+      tofu.splice(i,1);
+    }else if (tofu[i].pos.x < 3) { //pacman missed the tofu
+      lose++;
+      tofu.splice(i,1);
+    }
+  }
+}
+
 ```
 
-Think about if you want objects to stay on a screen, or disappear? As mentioned, any specific tofu object will no longer be used when it reaches the end of the table, so we use the function `splice()` [^splice] to remove the objects when the object's x position is greater than the width of the screen (equivalent to the table's width). 
+There are different ways to check how many tofus on screen. One is to see the x position of each tofu and when it is smaller than 0 then that means it is out of the screen range. However, it is important to think about the resources of the objects. This sample code take the approach to delete the specific object when it is out of range with the conditional statement `tofu[i].pos.x < 3`. Any specific tofu object will no longer be used when it reaches the end of the table, so we use the function `splice()` [^splice] to remove the objects. As such, everytime when the program checks against the number of available tofus on the screen, and it will only counts for those within the visible screen by checking with the variable `this.pos.x`.
 
 ## Class-Object creation
 
@@ -378,7 +414,7 @@ It is by no means saying the steps should be in the exact sequence as stated. Of
 
 1. Tinkering 
 - modify the numbers, colors.
-- add features and behaviors to the existing sample code.
+- add more features/behaviors to the game such as
 
 2. Discussion in groups:
 - Identify a game that you are familiar with, and describe the characters/objects by using the concept and vocabulary of class and object. Can you identify the classes and objects within the chosen example?
@@ -386,15 +422,9 @@ It is by no means saying the steps should be in the exact sequence as stated. Of
 
 ## Further notes
 
-We chose to discuss the class-object creation in greater detail in this chapter with the step by step approach. The sample code also includes other built-in and customized objects as a whole game. 
+//need to add the dist function, keypressed, scoring game
 
-**Button:** The button in this chapter is similar to the previous one (Chapter 4 - DataCapture), which is to define the global variable `button`, then create the button with text and add the style such as background color, padding and font-size (in the style of CSS). A function called `addTofu` is created to push for new object creation when the button is clicked.  
-
-**Table:** The table mainly consists of two rectangles that show the table weight with shadow. Two for-loops are used to draw the colored line with a certain and equal amount of width so as to give a three-dimentional effect. 
-
-**Beers:** The sample code uses the `p5.play` library with the functions of `createSprite()`, `addImage()`, `addtoGroup`, considering beer as a sprite object that one can manipulate. The beer is an image technically, and all the images can be added as a group. `checkBeer()` is a custom function to check for beer availability. As sprites with the built-in concept of objects, `remove()` is similar to `splice()`, used to remove those beers that have already reached the edge of the other side of the table. In a similar vein, beers are added if the program does not have enough of them on the table. That said, there is also a logic of checking the availablity of beers. But for this chapter, it is more important to walkthrough the whole concept of object-oriented programming rather than using other libraries, as it will defeat the purpose of understanding the decision for each step in terms of the creation of class and object instances with properties and behaviors. Having the beers in `p5.play` is more to give a sense of how different things can be put together. 
-
-**A game:** The program is a game, and as such there are winners and losers (eating tofu is gamified). `checkLoser()` is a function used to check how many tofus remain. If they are less than the required amount, then the "game over" text will be displayed.  
+**A game:** The program is a game, and as such there are winners and losers (eating tofu is gamified). `checkResult()` is a function used to check how many tofus remain. If they are less than the required amount, then the "game over" text will be displayed.  
 
 **Arithmetic operators:** There is new arithmetic syntax beyond simply `=`, `+`, `-`, `*`, `/`, such as `+=` in `tableX+=texture_width;` and `edgeX+=texture_width;`. See the list below: 
 
