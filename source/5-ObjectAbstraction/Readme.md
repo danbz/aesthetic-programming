@@ -365,7 +365,7 @@ The two important lines above instruct the tofu(s) to move and display on screen
 
 Think about if you want to create a new object when there is a trigger point or meeting a certain condition. The trigger point can be clicking a button (as with data capture in the previous chapter), and on clicking the mouse moves to a particular position, the mic's volume exceeds a certain value, the object reaches the end of a screen or detection of a human face, etc. To append the new object instance in an existing array in which you do not know the existing amount of tofu, you can use the `push()` [^push] function.
 
-Within the function `checkTofuNum();`, new object instance (tofu) will be created if the total number of tofu is less than the minimal amount (which is 5 as set in the global variable).
+Within the function `checkTofuNum();`, a new object instance (tofu) will be created if the total number of tofu is less than the minimal amount (which is 5 as set in the global variable `let min_tofu = 5;`).
 
 ```javascript
 function draw() {
@@ -422,7 +422,8 @@ It is by no means saying the steps should be in the exact sequence as stated. Of
 
 ## Further notes
 
-//need to add the dist function, keypressed, scoring game
+//need to add the dist function, keypressed, scoring game, repeat again on shapes (each tofu)
+//image pacman
 
 **A game:** The program is a game, and as such there are winners and losers (eating tofu is gamified). `checkResult()` is a function used to check how many tofus remain. If they are less than the required amount, then the "game over" text will be displayed.  
 
