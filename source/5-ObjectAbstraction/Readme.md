@@ -59,6 +59,8 @@ When tofu becomes a computational object, as in *Tofu Go!*, abstraction is requi
 
 In the following, we will use the game *ToFu Go!* (freely available to download on App Store[^App]) for the main flow of discussion and then a simplified version is introduced as the sample code (the recipe if you like). As discussed, *ToFu Go!* is a mobile game that makes reference to Chinese food culture, especially HotPot (a convenient one pot meal). By programming a modified and simplier version of *ToFu Go!*, the remaining parts unfold the computational logic and modeling required to understand the basics of OOP. 
 
+## Source Code 
+
 This chapter's sample code has the following core components: 
 1. A static table. 
 2. A cube-like Tofu as a class object. There are many object instances, and they appear on different parts of the table, running from left to right.
@@ -71,8 +73,6 @@ This chapter's sample code has the following core components:
 *Figure 5.2: A screenshot of the simplified Tofu Go!.* [need to adjust slightly the code and visual for next round /w]
 
 [RUNME](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch5_ObjectAbstraction/index.html)
-
-## Source Code 
 
 The source code is divided into two, one with all the core functions in `sketch.js`, and the other `tofu.js` that specifies the class/object relationship. Sometimes it can help to give a clearer overview if you separate the program into different functions and files. To enable the two js files in a program, you need to add the following into the index.html file:
 
