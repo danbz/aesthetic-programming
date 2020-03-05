@@ -63,7 +63,9 @@ In the following, we will use the game *ToFu Go!* (freely available to download 
 
 ![ch5_2](ch5_2.png)
 
-*Figure 5.2: A screenshot of the simplified Tofu Go!.*
+![ch5_3](ch5_3.gif)
+
+*Figure 5.2: A screenshot of a Pacman-Tofu game*
 
 [RUNME](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch5_ObjectAbstraction/index.html)
 
