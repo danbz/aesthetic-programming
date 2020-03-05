@@ -399,6 +399,26 @@ function checkEating() {
 
 There are different ways to check how many tofus on screen. One is to see the x position of each tofu and when it is smaller than 0 then that means it is out of the screen range. However, it is important to think about the resources of the objects. This sample code take the approach to delete the specific object when it is out of range with the conditional statement `tofu[i].pos.x < 3`. Any specific tofu object will no longer be used when it reaches the end of the table, so we use the function `splice()` [^splice] to remove the objects. As such, everytime when the program checks against the number of available tofus on the screen, and it will only counts for those within the visible screen by checking with the variable `this.pos.x`.
 
+Within the function `checkEating()`, the program will continuously check against the distance between each tofu (as an array within a for-loop) and the pacman. The `dist();` function takes in 4 arguments to calculate the distance between two points (x1, y1, x2, y2), which is the x1 and y1 position of the pacman (the center point) and the x2, y2 of each of the tofu's position.
+
+To control the pacman and play the game, users will use the UP_ARROW and the DOWN_ARROW to control the pacman's image position. There is a boundary to set the max height and mini height of the pacman by implementing a conditional structure so as to make sure the pacman is able to eat the tofus from different y positions.
+
+```javascript
+function keyPressed() {
+  if (keyCode === UP_ARROW) {
+    pacPosY-=30;
+  } else if (keyCode === DOWN_ARROW) {
+    pacPosY+=30;
+  }
+  //reset if the pacman moves out of range
+  if (pacPosY > mini_height) {
+    pacPosY = mini_height;
+  } else if (pacPosY < 0 - pacmanSize.w/2) {
+    pacPosY = 0;
+  }
+}
+```
+
 ## Class-Object creation
 
 It requires some planning before you start coding if you want to implement a class-object in your own program. In a nutshell, an object consists of attributes/properties and actions/behaviors, and all these hold and manage data in which the data can be used and operation can be performed. 
@@ -424,10 +444,13 @@ It is by no means saying the steps should be in the exact sequence as stated. Of
 
 ## Further notes
 
-//need to add the dist function, keypressed, scoring game, repeat again on shapes (each tofu)
-//image pacman
+**`function preload(){}`:** In this game we have used an animated gif. To make the image appear on the screen, you need to use the function `loadImage()` to load the image file before the program runs the `setup()` and `draw()`. 
 
-**A game:** The program is a game, and as such there are winners and losers (eating tofu is gamified). `checkResult()` is a function used to check how many tofus remain. If they are less than the required amount, then the "game over" text will be displayed.  
+**`image()`:** To use, dislay and technically draw the image onto the p5.js canvas, `image()` is used and take arguments on which image, x position, y position, the width of an image and the height of it.
+
+**Tofu's shape:** As already introduced in chapter 2 - Variable Geometry, we have reused the related syntaxes such as `rect()`, `vertex()`, `beingShape()` and `endShape()`. But this time we use the typographic characters for the emoji by using the `text()` and `textSize()` functions. 
+
+**A game:** The program is a typical game, and as such there is a losing point(eating tofu is gamified). Functions `checkEating()` and `checkResult()` are used to count how many tofu is eaten (with the variable `score`) and how many tofu has not been eated as wastage (with the variable `lose`). In the end, these two variables are compared. A game over message will be shown if the wastage is bigger than the eaten tofus (`lose > score`), as well as (by using the symbol `&&`) the game provides two chances of tofu's wastage. `noLoop()` is used to stop the program from looping. 
 
 **Arithmetic operators:** There is new arithmetic syntax beyond simply `=`, `+`, `-`, `*`, `/`, such as `+=` in `tableX+=texture_width;` and `edgeX+=texture_width;`. See the list below: 
 
