@@ -39,13 +39,13 @@ In the same token, we can *reuse* the same properties and behavior to create ano
 | HairColor = Black             | HairColor = Brown         |
 | withGlasses = No              | withGlasses = Yes         |
 | Height = 164 cm               | Height = 183 cm           |
-| FavoriteColor = Black         | favoriteColor = Green      |
-| FavoriteFood = Tofu           | FavoriteFood = Avocado      |
+| FavoriteColor = Black         | favoriteColor = Green     |
+| FavoriteFood = Tofu           | FavoriteFood = Avocado    |
 | FromLocation = Home           | FromLocation = University |
 | ToLocation = University       | ToLocation = Home         |
 | run()                         | run()                     |
 
-From the pseudo object, we can begin to see how abstraction takes place in computation as *computerized material*, in which we only select properties and behaviors that we think are important to be represented in a program and ignore others. This is a way of modeling physical phenomena and simulating the behaviors of real or imaginary entities.[^Madsen] The understooding is that objects in the real world are highly complex and nonlinear. After the brief example of modeling the person-object, we now move to another example, tofu, that informs the sample code for this chapter, inspired by the game [Tofu Go!](https://www.dbdbking.com/Tofu-Go) (2018), a game developed and designed by Francis Lam (HK/CN).[^francis] 
+From the pseudo object, we can begin to see how abstraction takes place in computation as *computerized material*, in which we only select properties and behaviors that we think are important to be represented in a program and ignore others. This is a way of modeling physical phenomena and simulating the behaviors of real or imaginary entities.[^Madsen] The understanding is that objects in the real world are highly complex and nonlinear. After the brief example of modeling the person-object, we now move to another example, tofu, that informs the sample code for this chapter, inspired by the game [Tofu Go!](https://www.dbdbking.com/Tofu-Go) (2018), a game developed and designed by Francis Lam (HK/CN).[^francis] 
 
 Tofu, or bean curd, is a popular food derived from soya orginating from China 2000 years ago. Through soaking and grinding soybeans, as well as filtering out remaining particulates, it becomes something known as soymilk, containing stable emulsion of oil, water, and protein. This is then pressed into solid white blocks with varying softness as tofu in a process similar to cheesemaking. It is an important food product specifically in the East, not only because of its protein richness but also as a cultural symbol. 
 
