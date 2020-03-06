@@ -25,22 +25,22 @@ We also consider coding as a social practice that can expose these relations. In
 
 ## Discussion in class
 
-- Can you give a daily example with the details of (computational) logic about an algorithm that you have used or experienced.
+- Can you give an everyday example, with details of (computational) logic, about an algorithm that you have used or experienced?
 
 - Can you sketch an algorithic procedure such as how your social media feeds are being organized?
 
-- Base on the assigned reading from Bucher, can you list out some of the properties of algorithms? Why is it both technical and social?
+- Based on the assigned reading from Taina Bucher, can you list some of the properties of algorithms? How is it both technical and social?
 
-- We have discussed rule-based systems in Chapter 6 - Auto Generator, how is that different from procedures in this chapter?
+- We discussed rule-based systems in Chapter 6 (Auto Generator), how is that different from the way we are dicussing procedure in this chapter?
 
-## Flow Chart
+## Flow Charts
 
-Conventionally, each step in a flow chart is represented by a symbol and connecting lines that guide towards a certain output progressively. The symbols that are used in a flow chart are shapes and each shape has different meaning. Below it shows the basic components of drawing a typical flow chart:
+Conventionally, each step in a flow chart is represented by a symbol and connecting lines that guide logic progressively towards a certain output . The symbols that are used in a flow chart are shapes and each shape carries a different meaning. Below we show the basic components of drawing a typical flow chart:
 
-- **Oval**: Indicate the start or end points of a program/system. (But this needs to think about if all programs have an end?)
-- **Rectangle**: Represent the process steps.
-- **Diamond**: Show the decision points with yes and no branches.
-- **Arrow**: Act as a connector to show the relationship and sequence, but sometimes an arrow might be returned the the previous process especially showing the repetition and loops.
+- **Oval**: Indicates the start or end point of a program/system. (But this requires further refection on whether all programs have an end.)
+- **Rectangle**: Represents the processual steps.
+- **Diamond**: Indicates the decision points with yes and no branches.
+- **Arrow**: Acts as a connector to show the relationship and sequence, but sometimes an arrow might be returned to a previous process, especially when showing repetition and loops.
 
 As we have covered the program *Vocable Code* in Chapter 7, Figure 9.1 below shows the corresponding flow chart, a different representation of the program. The original idea of this flow is to first demonstrate the high level logics and sequences, and second to elaborate the details in plain English. This flowchart does not follow conventional drawing strictly but using symbols, lines and text to communicate with wider audience like our readers.  
 
