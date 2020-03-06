@@ -6,8 +6,10 @@ page_order: 9
 ## setup()
 
 An algorithm or recipe can also be written down in a cookbook or codebook so the actions can be shared and repeated. In *The Art of Computer Programming* (1968), Donald Knuth points to the aesthetic dimension of programming and makes an analogy to recipes in a cookbook.[^krysa] The practices of coding and cooking share common attributes including how ingredients are selected, actions applied, and how transformation take place. Knuth's comments and indeed playful style sets the tone for this chapter in terms of subject matter but also for the way it lays out algorithmic instructions for the reader: “procedures for reading” as he puts it. For example, the structure of his book is algorithmic in both form and content. Here are some snippets of the instructions top the reader: 
+
 "1. Begin reading this procedure, unless you have already begun to read it. Continue to follow the steps faithfully; [...] 5. Is the subject of the chapter interesting you? If so, go to step 7; if not, go to step 6. 14. Are you tired? If not, go back to step 7; 15. Go to sleep. Then, wake up, and go back to step 7."[^knuth]
-It serves to emphasize whether we follow instructions faithfully. We might conclude that algorithms are more than simply steps and operations in other ways as there are wider cultural and political implications not least in terms of whether we decide to interpret them on our own terms or even fail to execute them at all. In this sense coding is like cooking inasmuch as it expresses cultural differences and matters of taste more simply command and control.
+
+It serves to emphasize whether we tend to follow instructions faithfully. We might conclude that algorithms are more than simply steps and operations in other ways as there are wider cultural and political implications not least in terms of whether we decide to interpret them on our own terms or even fail to execute them at all. In this sense coding is like cooking inasmuch as it expresses cultural differences and matters of taste. Nevertheless Taina Bucher would stress, in *If... Then: Algorithmic Power and Politics*, that algorithms are “fundamentally productive of new new ways of ordering the world".[^bucher]
 
 In this chapter we discuss some of these recipe-like algorithmic procedures and how they describe the steps and operations of a program, and less about the syntax of code as has been the case in previous chapters. An algorithm is different from lines of code in that it is not dependent on specific software and libraries. It is simply a process or set of rules to be followed in calculations or other problem-solving operations (especially by a computer).[^algo] An algorithm shows the operational steps which, ideally, can be implemented by any Turing-complete programming language (as discussed briefly in chapter ??). In other words, an algorithm illustrates the breakdown of procedural operations to describe how an operation moves from one step to another progressively. It’s only like a recipe in a general sense in that it is a set of step by step instructions, but the analogy only goes so far as recipes lack the exactness and reproducibility of Turing-completeness.
 
@@ -19,14 +21,13 @@ In chapter 3 (Infinite Loops) we briefly introduced the computational diagram th
 
 Flow charts are considered to be a fundamental explanatory tool since the early days of computer programming. One of the uses is to illustrate computational operations and data processing for programming purpose by "converting the numerical method into a series of steps" [^Ferranti] logically. But flow charts are also considered as a representational diagram which can be also used for communicating complex logics between programmers and organizational units. It’s worth adding that philosophy has also used diagrams to produce new kinds of thinking, what Deleuze and Guattari referred to as an “abstract machine” that can offer a way to read the cartography of forces and relations.[^Guattari] The diagram exists in space and time, and can be thought of as a material assemblage of relations. (We will return to these issues in more detail at the end of the chapter.) 
 
-We also consider coding as a social practice that can expose these relations. In this way programming is not necessarily a solitary activity, associated with anti-social and nerdy tasks, the myth of the typical hacker stereotypes.[^stereotypes] Furthermore, we understand that in many of the applications that are commonly used are not developed by one programmer but  tasks are divided into different components that are shared by people, as for instance in maintaining or debugging a program made by someone else. This is good practice of course, and as a beginner especially in a classroom setting, essential for learning and sharing ideas.  
-
+We also consider coding as a social practice that can expose these relations. In this way programming is not necessarily a solitary activity, associated with anti-social and nerdy tasks, the myth of the typical hacker stereotype (male, bearded, unwashed).[^stereotype] Furthermore, we understand that in many of the applications that are commonly used are not developed by a single programmer but tasks are divided into different components that are shared by others, as for instance in maintaining or debugging a program made by someone else. This is good practice of course, and as a beginner especially in a classroom setting, essential for learning and sharing ideas.  
 
 ## Discussion in class
 
 - Can you give a daily example with the details of (computational) logic about an algorithm that you have used or experienced.
 
-- Can you sketch an algorithic procedures on how your social media feeds is being organized?
+- Can you sketch an algorithic procedure such as how your social media feeds are being organized?
 
 - Base on the assigned reading from Bucher, can you list out some of the properties of algorithms? Why is it both technical and social?
 
@@ -151,9 +152,11 @@ Goffey, Andrew. "Algorithm." *Software Studies\ a lexicon*. Eds. Matthew Fuller.
 
 ## Notes
 
-[^krysa]: 
+[^krysa]: See Joasia Krysa and G Sedek, "Source Code", in Fuller, *Software Studies: A Lexicon*, pp.
 
 [^knuth]:  1981: xv-xvi. 
+
+[^bucher]: Taina Bucher, *If...Then: Algorithmic Power and Politics* (Oxford: Oxford University Press, 2018), 20.
 
 [^algo]: The term 'algorithm' has a historical relation to 'algorism' as the process of doing arithmetic using Arabic numerals (originating from the title of the book Kitab al jabr w'al-muqabala (Rules of restoration and reduction) written by the Persian author Abu Ja'far Mohammed ibn Musa al-Khowarizmi (c. 825).  
 
@@ -185,8 +188,6 @@ Goffey, Andrew. "Algorithm." *Software Studies\ a lexicon*. Eds. Matthew Fuller.
 
 
 [^fin]: Finn, Ed. *What Algorithms Want: Imagination in the Age of Computing*. Cambridge, MA: MIT Press, 2017, p. 34.
-
-[^bucher]: Bucher, Taina. *If...Then: Algorithmic Power and Politics*. Oxford University Press, 2018, p. 20.
 
 [^recipe]: Although the concept of algorithm is rooted in Computer Science, scholars from other fields like cultural studies and media studies take on the technical concept of algorithm and explore the wider cultural consequences and political implications. The analogy of algorithms as receipes can be also seen here: Finn, Ed. What Algorithms Want: Imagination in the Age of Computing. Cambridge, MA: MIT Press, 2017, p. 17 and
 Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Press, 2018, p. 21.
