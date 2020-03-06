@@ -2,23 +2,25 @@ Title: 9. Algorithmic Procedures
 page_order: 9
 
 ## Algorithmic Procedures
-[g: how about algorithmic procedures instead of procedural logics? /w]
 
 ## setup()
-[g: feel free to add/change/delete stuff, i remeber you have a very simple flowchart which is your favorite, may be you wanna talk about it here? + The Status Project by Heath Bunting /w]
 
-In chapter 3 - Infinite Loops, we have briefly introduced the computational diagram that is drafted by Mathematicians Ada Lovelace in 1842, which is often referred to the world's first computer program[^first]. With an interest in numbers and arithmetical calculation, in particular Bernoulli numbers (B<sub>n</sub>), the sequence of rational numbers[^rational], the published diagram and the extensive notes of Ada Lovelace demonstrate the sophisticated step by step sequence of operations for solving mathematical problems. Such a diagram can be seen as instructions that can be executed by machine automatically, as she puts it, "I want to put something about Bernoulli’s numbers, in one of my Notes, as an example of how the implicit function may be worked out by the engine without human head & hands first. Give me the necessary formulae."[^ada2] The formulae is then further expanded as algorithmic procedures via a diagram.
+An algorithm or recipe can also be written down in a cookbook or codebook so the actions can be shared and repeated. In *The Art of Computer Programming* (1968), Donald Knuth points to the aesthetic dimension of programming and makes an analogy to recipes in a cookbook.[^krysa] The practices of coding and cooking share common attributes including how ingredients are selected, actions applied, and how transformation take place. Knuth's comments and indeed playful style sets the tone for this chapter in terms of subject matter but also for the way it lays out algorithmic instructions for the reader: “procedures for reading” as he puts it. For example, the structure of his book is algorithmic in both form and content. Here are some snippets of the instructions top the reader: 
+"1. Begin reading this procedure, unless you have already begun to read it. Continue to follow the steps faithfully; [...] 5. Is the subject of the chapter interesting you? If so, go to step 7; if not, go to step 6. 14. Are you tired? If not, go back to step 7; 15. Go to sleep. Then, wake up, and go back to step 7."[^knuth]
+It serves to emphasize whether we follow instructions faithfully. We might conclude that algorithms are more than simply steps and operations in other ways as there are wider cultural and political implications not least in terms of whether we decide to interpret them on our own terms or even fail to execute them at all. In this sense coding is like cooking inasmuch as it expresses cultural differences and matters of taste more simply command and control.
 
-This chapter is more about algorithmic procedures that describe the steps and operations of a program and less specificially about the syntax of code. It is not dependent on specific software and library. An algorithm shows the operational steps in which, ideally, can be implemented by any programming languages or at least able to use it for communication. In other words, an algorithm illustrates the break down of procedural operations on how an operation moves from one step to another progressively. Perhaps at this point it is useful to think of the common analogy[^recipe], an algorithm as a cooking recipe to describe ordinary activities in everyday life. For example, what are the ingredients and procedures required when you bake a chocolate cake?
+In this chapter we discuss some of these recipe-like algorithmic procedures and how they describe the steps and operations of a program, and less about the syntax of code as has been the case in previous chapters. An algorithm is different from lines of code in that it is not dependent on specific software and libraries. It is simply a process or set of rules to be followed in calculations or other problem-solving operations (especially by a computer).[^algo] An algorithm shows the operational steps which, ideally, can be implemented by any Turing-complete programming language (as discussed briefly in chapter ??). In other words, an algorithm illustrates the breakdown of procedural operations to describe how an operation moves from one step to another progressively. It’s only like a recipe in a general sense in that it is a set of step by step instructions, but the analogy only goes so far as recipes lack the exactness and reproducibility of Turing-completeness.
 
-But of course an algorithm is more than just steps and operations, as it has wider cultural and political consequences. As we learnt in previous chapters that programming is a form of abstraction that requires the selection of important details in which the way of implementation is inevitably embodied programmers' thinking and decision. If an algorithm is considered as the skeleton of how a program operates, then many of the cultural objects that we are using nowadays such as a mobile phone, a web browser, or even a voice assistant device embody the substrate of computing that produce a certain form of subjectivity that structures our experience. In his book *What Algorithms Want*, Ed Finn explores algorithm as a culture machine and argues that algorithm "operates both within and beyond the reflexive barrier of effective computability, producing culture at a macro-social level at the same time as it produces cultural objects, processes, and experiences."[^fin] Similary, scholar Taina Bucher asserts that algorithms have power and politics, and she argues that "they are fundamentally productive of new new ways of ordering the world".[^bucher] It becomes clear that algorithmic procedures play an important role in organizing digital culture, and it is not very easy to see through or describe them because they operate beyond what we see and they have accumulated and wider effects in the ordering of life, more than a cooking recipe.
-
-In this chapter we will introduce diagramming practice, especially flow charts as a means to elaborate the practical and conceptual aspects of algorithmic procedures.
+But this does not limit the creative opportunities, as Knuth also states, quoting Ada Lovelace to support his position, and extending his earlier analogy with recipes in a cookbook: “The process of preparing computer programs for a digital computer is especially attractive, not only because it can be economically and scientifically rewarding, but also because it can be an aesthetic experience much like composing poetry or music.”[^knuth2] 
 
 ## start()
-Flow charts is considered as a fundamental tool since the early days of computer programming. One of the uses is to illustrate computational operations and data processing for programming purpose by "converting the numerical method into a series of steps" [^Ferranti] logically. But flow charts are also considered as a representational diagram which can be also used for communicating complex logics between programmers and organizational units.
 
-Within our teaching, we also consider coding as a social activity in which collaborative coding is encouraged, which means programming is not necessarily seen as anti-social, masculine and nerdy tasks, the myth of the typical stereotypes[^sterotypes] that need to be deconstructed. Furthermore, we understood that in many of the applications that we are using nowadays is not developed by one programmer but tasks are divided into different components instead that are shared by people you know or you don't know, such as maintaining or debugging a program that is done by someone before. As a beginner especially in a classroom setting, we see that having discussion around syntax, logics and implementation collaboratively is a good way to learn together.  
+In chapter 3 (Infinite Loops) we briefly introduced the computational diagram that was drafted by Ada Lovelace in 1842, which is often referred to the world's first computer program.[^first] With an interest in numbers and calculation (in particular Bernoulli numbers (B<sub>n</sub>), the sequence of rational numbers[^rational]), Lovelace’s published diagram and the extensive notes demonstrate the sophisticated step by step sequence of operations for solving mathematical problems. The diagram can be seen as instructions that can be executed by a machine automatically. As she puts it, "I want to put something about Bernoulli’s numbers, in one of my Notes, as an example of how the implicit function may be worked out by the engine without human head & hands first. Give me the necessary formulae."[^ada2] The formulae are expanded as algorithmic procedures in the diagram. In this chapter we build on ‘diagramming’, especially the use of flow charts (already familiar as a means to outline the flow of ideas in each of our chapters) to elaborate the practical and conceptual aspects of algorithmic procedures.
+
+Flow charts are considered to be a fundamental explanatory tool since the early days of computer programming. One of the uses is to illustrate computational operations and data processing for programming purpose by "converting the numerical method into a series of steps" [^Ferranti] logically. But flow charts are also considered as a representational diagram which can be also used for communicating complex logics between programmers and organizational units. It’s worth adding that philosophy has also used diagrams to produce new kinds of thinking, what Deleuze and Guattari referred to as an “abstract machine” that can offer a way to read the cartography of forces and relations.[^Guattari] The diagram exists in space and time, and can be thought of as a material assemblage of relations. (We will return to these issues in more detail at the end of the chapter.) 
+
+We also consider coding as a social practice that can expose these relations. In this way programming is not necessarily a solitary activity, associated with anti-social and nerdy tasks, the myth of the typical hacker stereotypes.[^stereotypes] Furthermore, we understand that in many of the applications that are commonly used are not developed by one programmer but  tasks are divided into different components that are shared by people, as for instance in maintaining or debugging a program made by someone else. This is good practice of course, and as a beginner especially in a classroom setting, essential for learning and sharing ideas.  
+
 
 ## Discussion in class
 
@@ -104,6 +106,9 @@ Both works are always being displayed with the flow charts in exhibition setting
 
 ## While()
 
+Although the concept of algorithm is rooted in Computer Science, scholars from other fields like cultural studies and media studies take on the technical concept of algorithm and explore the wider cultural consequences and political implications. The analogy of algorithms as receipes can be also seen here: Finn, Ed. What Algorithms Want: Imagination in the Age of Computing. Cambridge, MA: MIT Press, 2017, p. 17 and
+Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Press, 2018, p. 21.
+
 There is a growing interest on algorithms as objects of study for disciplines like sociology, media studies, science and technology studies, among others. In the humanities, the concern is not on building an efficient or optimized algorithm, but more into the social and cultural concerns of technology that is less visible or even as a blackbox. Accompanying with this book, students who work on this theme have to create and present a flow chart of a sorting problem, showing an algorithm with procedures to sort a series of unique random number. Sorting seems to be seen within mathematical discipline where there are different ways to approach such a problem,  and if we extend sorting to wider cultural context, such as the prioritization of a social media feeds, it is essentially far more complex that involves selecting, classifying and hierarchizing of time, tastes, objects, knowledge and other forms of metrics that are of business concerns.    
 
 
@@ -146,24 +151,46 @@ Goffey, Andrew. "Algorithm." *Software Studies\ a lexicon*. Eds. Matthew Fuller.
 
 ## Notes
 
-[^flowcharts2]: See Morris, Stephen, and Orlena Gotel. “The Role of Flow Charts in the Early Automation of Applied Mathematics.” *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44–52. https://doi.org/10.1080/17498430903449207 and Ensmenger, Nathan. “The Multiple Meanings of a Flowchart.” *Information & Culture: A Journal of History* 51, no. 3 (2016): 321–51. https://doi.org/10.1353/lac.2016.0013.
+[^krysa]: 
+
+[^knuth]:  1981: xv-xvi. 
+
+[^algo]: The term 'algorithm' has a historical relation to 'algorism' as the process of doing arithmetic using Arabic numerals (originating from the title of the book Kitab al jabr w'al-muqabala (Rules of restoration and reduction) written by the Persian author Abu Ja'far Mohammed ibn Musa al-Khowarizmi (c. 825).  
+
+[^knuth2]: 1981: v.
 
 [^first]: In particular to the complexity of the diagram for calculating Bernoulli numbers that includes the grouping of operations, the invention of the loop concept (repetition and cycle in Lovelace's term), the manipulation of symbols and variables in accordance with rules. Although such an algorithm was designed to be used in mechanical caluclating machine, Babbage Analytical Engine is conceptually close to a modern computer at the time with a vision that could do other things, such as music, beyond number calculation. See Menabrea, Luigi Federico, and Ada Lovelace. *Sketch of the analytical engine invented by Charles Babbage.* , 1842, p. 694.
 
 [^rational]: A rational number can be made by dividing two integers e.g 1.5 is a rational number because 1.5 = 3/2 where both 3 and 2 are integers.
 
-[^Ferranti]: Ferranti Limited, Ferranti Pegasus Computer,programming manual, Issue 1, List CS 50,September 1955
-
 [^ada2]: (Lovelace Papers, Bodleian Library, Oxford University, 42, folio 12 (6 Feb 1841). As quoted and cited in Dorothy Stein (ed.), 'This First Child of Mine', Ada: A Life and a Legacy (1985), 106-107.)
 
-[^recipe]: Although the concept of algorithm is rooted in Computer Science, scholars from other fields like cultural studies and media studies take on the technical concept of algorithm and explore the wider cultural consequences and political implications. The analogy of algorithms as receipes can be also seen here: Finn, Ed. What Algorithms Want: Imagination in the Age of Computing. Cambridge, MA: MIT Press, 2017, p. 17 and
-Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Press, 2018, p. 21.
+[^Ferranti]: Ferranti Limited, Ferranti Pegasus Computer,programming manual, Issue 1, List CS 50,September 1955.
+
+[^Guattari]: In Guattari’s terms, “the diagram is conceived as an autopoietic machine which not only gives it a functional and material consistency, but requires it to deploy its diverse registers of alterity, freeing it from an identity locked into simple structural relations.” Félix Guattari, “Machinic Heterogenesis,” in *Chaosmosis: An Ethico-Aesthetic Paradigm* (Bloomington, Indianapolis: Indiana University Press, 1995), 44. “Freeing” here applies to escaping a pre-determined “diagrammatic order” imposed on the machine - algorithmic perhaps.
+
+
+
+
+
+
+
+[^flowcharts2]: See Morris, Stephen, and Orlena Gotel. “The Role of Flow Charts in the Early Automation of Applied Mathematics.” *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44–52. https://doi.org/10.1080/17498430903449207 and Ensmenger, Nathan. “The Multiple Meanings of a Flowchart.” *Information & Culture: A Journal of History* 51, no. 3 (2016): 321–51. https://doi.org/10.1353/lac.2016.0013.
+
+[^stereotypes]: See Ho, Chih Wei, et al. Examining the impact of pair programming on female students. North Carolina State University. Dept. of Computer Science, 2004.
+
+
+
+
+
 
 [^fin]: Finn, Ed. *What Algorithms Want: Imagination in the Age of Computing*. Cambridge, MA: MIT Press, 2017, p. 34.
 
 [^bucher]: Bucher, Taina. *If...Then: Algorithmic Power and Politics*. Oxford University Press, 2018, p. 20.
 
-[^sterotypes]: See Ho, Chih Wei, et al. Examining the impact of pair programming on female students. North Carolina State University. Dept. of Computer Science, 2004.
+[^recipe]: Although the concept of algorithm is rooted in Computer Science, scholars from other fields like cultural studies and media studies take on the technical concept of algorithm and explore the wider cultural consequences and political implications. The analogy of algorithms as receipes can be also seen here: Finn, Ed. What Algorithms Want: Imagination in the Age of Computing. Cambridge, MA: MIT Press, 2017, p. 17 and
+Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Press, 2018, p. 21.
+
 
 [^pold]: Christian Ulrik Anderden and Søren Bro Pold, Post-digital Books and Disruptive Literary Machines, *Formules* 18, 164-183, 2014.
 
