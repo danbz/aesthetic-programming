@@ -79,21 +79,18 @@ In our previous experience of this class exercise,[^ex] people came up with slig
 
 ## Flowcharts as diagramming practice
 
-Beyond the more practical use of flowcharts to help with the development of software and in terms of peadgogy, they can also be aestehetic objects in their own right. A classic example is *Google will eat itself* (2005)[^GWEI] by UBERMORGEN, Alessandro Ludovico and Paolo Cirio. Here they illustrate how their artwork operates within the existing process of Google revene generation, and that addresses how information is being monopolized in the global advertisement system. The project's goal is to trigger advertising clicks on websites in order to receive micropayment from Google to buy their share (that is how Google will eat itself as an iterative loop).
-
-
-
+Beyond the more practical use of flowcharts to help with the development of software and in terms of peadgogy, they can also be artistic objects in their own right, as a "meta-medium for an aesthetics of social complexity" as Paolo Cirio puts it.[^Cirio] A good earlier example, by Cirio along with Alessandro Ludovico and UBERMORGEN is *Google Will Eat Itself* (2005),[^GWEI] an artwork to generate revenue by hacking the Google 'AdSense' initiative. The project automatically triggers advertising clicks on websites in order to receive micropayments from Google to then buy shares in Google: hence the auto-cannibalism of the title, and the iterative loop can be clearly displayed in the diagram below. 
 
 ![diagram1](ch9_2.gif)
 
-*Figure 9.2: GWEI - Google Will Eat Itself/ THE ATTACK*
+*Figure 9.2: GWEI - Google Will Eat Itself / THE ATTACK*
 
-After 8 years in 2013, UBERMORGEN developed another project titled *The Project Formerly Known as Kindle Forkbomb Printing Press* but this time they focus on another giant monopolistic corporation AMAZON. Similar to the previous project, they also built an internet robot, instead of clicking the advertisments on webpages, the program is based on, and collect, YouTube video comments to generate books automatically by uploading the generated e-books to Amazon's Kindle bookstore. Such a generative system, or an auto generator, comes without an end but with the aim to "continuously replicates itself, draining the system of its resources, ultimately causing the system to crash"[^pold] by exploiting the print-on-demand, publishing servies as well as the book e-commerce store.
+In 2013, UBERMORGEN developed another project entitled *The Project Formerly Known as Kindle Forkbomb Printing Press* but this time they focus on another giant monopolistic corporation AMAZON. Similar to the previous project, they also built an internet robot, instead of clicking the advertisments on webpages, the program is based on, and collect, YouTube video comments to generate books automatically by uploading the generated e-books to Amazon's Kindle bookstore. Such a generative system, or an auto generator, comes without an end but with the aim to "continuously replicates itself, draining the system of its resources, ultimately causing the system to crash"[^pold] by exploiting the print-on-demand, publishing servies as well as the book e-commerce store.
 
 ![diagram3](ch9_3.png)
 
 *Figure 9.3: The Project Formerly Known as Kindle Forkbomb Printing Press. Courtesy of UBERMORGEN and Kunsthal Aarhus, No Copyright, 2013*
-[g: do you have a better picture/higher resolution of this? /w]
+[do you have a better picture/higher resolution of this? /w Yes I think so and it would be good to use an installation shot too. I will check. /G]
 
 Both works are always being displayed with the flow charts in exhibition settings, in which the artists do not only display them as an art object but to make clear the point that procedures and processes as the art.
 
@@ -134,7 +131,7 @@ Group:
 - What's the role of the individual and the group flow chart that you have done?
 
 ## Required reading:
-- Ensmenger, Nathan. "The Multiple Meanings of a Flowchart." Information & Culture: A Journal of History, vol. 51 no. 3, 2016, pp. 321-351. Project MUSE, doi:10.1353/lac.2016.0013
+- Ensmenger, Nathan. "The Multiple Meanings of a Flowchart." *Information & Culture: A Journal of History*, vol. 51 no. 3, 2016, pp. 321-351. Project MUSE, doi:10.1353/lac.2016.0013
 - Bucher, Taina. "The Multiplicity of Algorithimcs" in *If...THEN: Algorithmic Power and Politics*, Oxford University Press, 2018, pp. 19-40
 - Marcus du sautoy, The Secret Rules of Modern Living: Algorithms - Clips, BBC Four, 2015. Web. https://www.bbc.co.uk/programmes/p030s6b3/clips
 
@@ -169,7 +166,11 @@ Goffey, Andrew. "Algorithm." *Software Studies\ a lexicon*. Eds. Matthew Fuller.
 
 [^ex]: You can find one of the many possible ways of illustrating the simple program here: https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/source/9-ProceduralLogics/flow.png.
 
-[^Ensmenger]: Nathan Ensmenger, "The Multiple Meanings of a Flowchart", 324, 346.
+[^Ensmenger]: Nathan Ensmenger, "The Multiple Meanings of a Flowchart", in *Information & Culture: A Journal of History*, vol. 51 no. 3 (2016), 324 & 346.
+
+[^Cirio]: See Paolo Cirio, *Flowcharts: On Systems of Systems*, Artist Monograph (Lulu, 2019); available at https://www.paolocirio.net/press/archive/?/id/268/t/FLOWCHARTS/. *Open Society Structures - Algorithms Triptych* (2009) would make a good example for our purpose here. 
+
+[^GWEI]: *GWEI* (2005) was part of the *Hacking Monopolism Trilogy* which also included *Amazon Noir* (2006) and *Face to Facebook* (2011). For more on *GWEI* ee http://www.gwei.org/index.php.
 
 
 
@@ -182,6 +183,6 @@ Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Pres
 
 [^pold]: Christian Ulrik Anderden and Søren Bro Pold, Post-digital Books and Disruptive Literary Machines, *Formules* 18, 164-183, 2014.
 
-[^GWEI]: See http://www.gwei.org/index.php.
+
 
 
