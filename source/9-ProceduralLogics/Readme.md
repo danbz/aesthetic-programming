@@ -15,11 +15,9 @@ In this chapter we discuss some of these recipe-like algorithmic procedures and 
 
 ## start()
 
-In chapter 3 (Infinite Loops) we briefly introduced the computational diagram that was drafted by Ada Lovelace in 1842, often referred to the world's first computer program.[^first] The published diagram and Lovelace's extensive notes demonstrate the sophisticated step by step sequence of operations for solving mathematical problems. The instructions are executed by a machine automatically. As she puts it, "I want to put something about Bernoulli’s numbers, in one of my Notes, as an example of how the implicit function may be worked out by the engine without human head & hands first. Give me the necessary formulae."[^ada2] The formulae are expanded as algorithmic procedures in the diagram. In this chapter we build on ‘diagramming’, especially in the use of flow charts to elaborate the practical and conceptual aspects of algorithmic procedures.
+In chapter 3 (Infinite Loops) we briefly introduced the computational diagram that was drafted by Ada Lovelace in 1842, often referred to the world's first computer program.[^first] The published diagram and Lovelace's extensive notes demonstrate the sophisticated step by step sequence of operations for solving mathematical problems. The instructions are executed by a machine automatically. As she puts it, "I want to put something about Bernoulli’s numbers, in one of my Notes, as an example of how the implicit function may be worked out by the engine without human head & hands first. Give me the necessary formulae."[^ada2] The formulae are expanded as algorithmic procedures in the diagram. In this chapter we build on ‘diagramming’, especially in the use of flowcharts to elaborate the practical and conceptual aspects of algorithmic procedures.
 
-Flow charts are considered to be a fundamental explanatory tool since the early days of computer programming. One of the common uses is to illustrate computational operations and data processing for programming by "converting the numerical method into a series of steps".[^Ferranti] But flow charts are also considered as a representational diagram which can be also used for communicating complex logics between programmers and organizational units (or even of course to outline a flow of ideas as we have used for each of the chapters of this book). It’s worth adding that philosophy has used diagrams to produce new kinds of thinking, what Deleuze and Guattari refer to as “abstract machine” as a means to read the "cartography of forces and relations".[^Guattari] 
-
-The diagram exists in space and time, and can be thought of as a material assemblage of relations - and we will return to these issues in more detail at the end of the chapter. Indeed programming is not necessarily a solitary activity, associated with anti-social and nerdy tasks, the myth of the typical hacker stereotype (male, bearded, unwashed)[^stereotype] but a social practice that can expose these relations. Furthermore, we understand that in many of the applications that are commonly used - as for instance in social media - are not developed by a single developer but are organized into tasks that are divided into different components that are shared by others, as for instance in maintaining or debugging a program made by someone else. This is good practice of course, and as a beginner especially in a classroom setting, essential for learning and sharing ideas for the common good.  
+Flowcharts are considered to be a fundamental explanatory tool since the early days of computer programming. One of the common uses is to illustrate computational operations and data processing for programming by "converting the numerical method into a series of steps".[^Ferranti] But flowcharts can also be considered to be representational diagrams which can be also used for communicating the complex logic between programmers and organizational units. This is good practice of course, especially for beginners in a learning context, and essential for communicating ideas in ways that can be easily understood by others. Indeed programming is not necessarily a solitary activity,[^stereotype] but a social and communicative practice that can expose relations exemplified by diagramming. Moreover most software applications are not developed by a single developer but are organized into tasks that are divided into different components that are shared by others, as for instance in maintaining or debugging a program made by someone else. The collaborative workflow lends itself to a flowchart as well. 
 
 ## Discussion in class
 
@@ -29,33 +27,33 @@ The diagram exists in space and time, and can be thought of as a material assemb
 
 - Based on the assigned reading from Taina Bucher, can you list some of the properties of algorithms? How is it both technical and social?
 
-- We discussed rule-based systems in Chapter 6 (Auto Generator), how is that different from the way we are dicussing procedure in this chapter?
+- We discussed rule-based systems in Chapter 6 (Auto Generator), how is that different from the way we are discussing procedure in this chapter?
 
 ## Flow Charts
 
-Conventionally, each step in a flow chart is represented by a symbol and connecting lines that guide the flow of logic progressively towards a certain output. The symbols that are used are shapes and each one carries a different meaning. Below we outline the basic components of drawing a typical flow chart:
+Conventionally, each step in a flowchart is represented by a symbol and connecting lines that guide the flow of logic progressively towards a certain output. The symbols that are used are shapes and each one carries a different meaning. Below we outline the basic components of drawing a typical flowchart:
 
 - **Oval**: Indicates the start or end point of a program/system. (But this requires further refection on whether all programs have an end.)
 - **Rectangle**: Represents the processual steps.
 - **Diamond**: Indicates the decision points with yes and no branches.
 - **Arrow**: Acts as a connector to show the relationship and sequence, but sometimes an arrow might be returned to a previous process, especially when showing repetition and loops.
 
-As we have covered the program *Vocable Code* in Chapter 7, Figure 9.1 below shows the corresponding flow chart, a different representation of the program. The original idea of this flow is to first demonstrate the high level logics and sequences, and second to elaborate the details in plain English. This flowchart does not follow conventional drawing strictly but using symbols, lines and text to communicate with wider audience like our readers.  
+As we have studied the program *Vocable Code* in Chapter 7, Figure 9.1 below shows the corresponding flowchart, a different representation of the program. The original idea is to demonstrate the high level logic and sequences, and to elaborate the details of this in plain English. This flowchart uses symbols, lines and text to communicate with a wider audience such as the readers oif this book.
 
 ![flowchart](ch9_1.png)
 *Figure 9.1: The flow chart of Vocable Code by Winnie Soon, graphic design by Anders Visti*
 
-Indeed flow charts are used beyond science disciplines, for example it is relatively common to use flowchart in business sector to understand and communicate how different processes or workflows are done, such as recruitment process flow and customer complaint handling. In humanities teaching, we also introduce flowcharts as a means to deconstructing a text as well as to formulating a structure of an essay idea. It is a tool that helps thinking different procedures and processes.   
+Indeed flowcharts are used across many disciplines, both technical and in the arts, for example it is relatively common to use them in the business sector to understand and communicate how different processes or workflows are organized for efficiency. In philosophy, diagrams have been used to produce new kinds of thinking, what Deleuze and Guattari refer to as an "abstract machine",[^Guattari] as a material assemblage of relations (and we will return to these issues in more detail at the end of the chapter). Similarly, in our past teaching, we have used flowcharts as a means to deconstruct written texts as well as to break down an argument and structure, as as a way to formulate ideas for new essays. It is a tool, or rather machine, that helps to think through different procedures and processes, and this approach has self-evidently informed our use of a flowchart to introduce each chapter of this book.  
 
-In the chapter's mini exercise, you will come up with a flow cart collaboratively for a new project idea. Especially it comes to this stage of the book where you may have more confident in building a slightly more complex program/project that incorporates different types of syntax. We found that one of the usual struggles of crafting a program's flow chart is about how to combine and link various functions as well as to break down a task into smaller steps in order to know what to do next. We see a flowchart can be used as a tool to formulate ideas, generate discussion, forseeing technical challenges and set the path for working together. If tasks need to be divided within a group, flowcharts can be used to identify how a smaller task can be linked to other without losing site of seeing the larger picture of a program.
+In the chapter's mini exercise, you are asked to produce a flowchart collaboratively for a new project idea. This comes at this stage of the book as you are probably more confident in building a more complex program that incorporates different types of syntax. We have found that one of the difficulties of this is commonly how to combine and link various functions and to break down a task into smaller sequential steps. We think a flowchart can be used as an effective means to formulate ideas, generate discussion, to predict technical challenges, and to set a direction for working together on a project. If tasks need to be divided within a group for instance, flowcharts can be used to identify how a smaller task can be linked to others without losing site of the larger purpose.
 
-But to turn an existing program into a flow chart for communication purpose, the challenges of drawing a flow chart at this stage would be:
-1. Turn programming syntax and function into understandable plain text.
-2. Decide the details level of showing the important operations that allow other people to understand your program.
+To turn an existing program into a flowchart, some challenges might be:
+1. To translate programming syntax and functions into understandable plain language.
+2. To decide the level of detail to show the important operations that allow other people to understand the logic of your program.
 
 ## Exercise in class
 
-Let's start with something seems to be very simple. Draw a flow chart based on the below program code:
+Let's start with something that appears to be relatively simple. Draw a flowchart based on the program code below:
 
 ```javascript
 function setup() {
@@ -75,7 +73,7 @@ o
 
 ```
 
-In our experience with this class exercise[^ex], every person comes up with a slightly different result and we think it is a good way of starting the discussion about the use of flow charts and the challenges of crafting them.
+In our previous experience of this class exercise,[^ex] every person comes up with a slightly different result and we think it is a good way of starting the discussion about the use of flowcharts and the challenge of effective communication.
 
 ## Discussion
 
@@ -152,31 +150,25 @@ Goffey, Andrew. "Algorithm." *Software Studies\ a lexicon*. Eds. Matthew Fuller.
 
 [^krysa]: See Joasia Krysa and Grzesiek Sedek, "Source Code", in Fuller, ed., *Software Studies: A Lexicon*, 236-243.
 
-[^knuth]:  1981: xv-xvi. 
+[^knuth]: Knuth, *The Art of Computer Programming*, xv-xvi. 
 
 [^bucher]: Taina Bucher, *If...Then: Algorithmic Power and Politics* (Oxford: Oxford University Press, 2018), 20.
 
 [^algo]: The term 'algorithm' has a historical relation to 'algorism' as the process of doing arithmetic using Arabic numerals (originating from the title of the book Kitab al jabr w'al-muqabala (Rules of restoration and reduction) written by the Persian author Abu Ja'far Mohammed ibn Musa al-Khowarizmi (c. 825).  
 
-[^knuth2]: 1981: v.
+[^knuth2]: Knuth, *The Art of Computer Programming*, v.
 
 [^first]: In particular to the complexity of the diagram for calculating Bernoulli numbers that includes the grouping of operations, the invention of the loop concept (repetition and cycle in Lovelace's term), the manipulation of symbols and variables in accordance with rules. Although such an algorithm was designed to be used in mechanical caluclating machines, Babbage Analytical Engine is conceptually close to a modern computer at the time as it was envisioned that it could do other things, such as music, beyond number calculation. See Menabrea, Luigi Federico, and Ada Lovelace. *Sketch of the analytical engine invented by Charles Babbage* (1842), 694. 
 
-[^ada2]: (Lovelace Papers, Bodleian Library, Oxford University, 42, folio 12 (6 Feb 1841). As quoted and cited in Dorothy Stein (ed.), 'This First Child of Mine', Ada: A Life and a Legacy (1985), 106-107.)
+[^ada2]: Lovelace Papers, Bodleian Library, Oxford University, 42, folio 12 (6 Feb 1841), as quoted and cited in Dorothy Stein, ed., "This First Child of Mine", in *Ada: A Life and a Legacy* (1985), 106-107.
 
 [^Ferranti]: Ferranti Limited, Ferranti Pegasus Computer,programming manual, Issue 1, List CS 50,September 1955.
 
 [^Guattari]: In Guattari’s terms, “the diagram is conceived as an autopoietic machine which not only gives it a functional and material consistency, but requires it to deploy its diverse registers of alterity, freeing it from an identity locked into simple structural relations.” Félix Guattari, “Machinic Heterogenesis,” in *Chaosmosis: An Ethico-Aesthetic Paradigm* (Bloomington, Indianapolis: Indiana University Press, 1995), 44. “Freeing” here applies to escaping a pre-determined “diagrammatic order” imposed on the machine - algorithmic perhaps.
 
-
-
-
-
-
-
 [^flowcharts2]: See Morris, Stephen, and Orlena Gotel. “The Role of Flow Charts in the Early Automation of Applied Mathematics.” *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44–52. https://doi.org/10.1080/17498430903449207 and Ensmenger, Nathan. “The Multiple Meanings of a Flowchart.” *Information & Culture: A Journal of History* 51, no. 3 (2016): 321–51. https://doi.org/10.1353/lac.2016.0013.
 
-[^stereotypes]: See Ho, Chih Wei, et al. Examining the impact of pair programming on female students. North Carolina State University. Dept. of Computer Science, 2004.
+[^stereotypes]: To see programming as a social activity undermines some of the predominant stereotypes associated with programming such as the image of the typical antisocial hacker (male, bearded, unwashed). For more on the benefits of collaborative working, see Chih Wei Ho, et al, "Examining the impact of pair programming on female students", North Carolina State University. Dept. of Computer Science (2004).
 
 
 
