@@ -73,19 +73,16 @@ o
 
 ```
 
-In our previous experience of this class exercise,[^ex] every person comes up with a slightly different result and we think it is a good way of starting the discussion about the use of flowcharts and the challenge of effective communication.
-
 ## Discussion
 
-We have selected two quotes from Nathan Ensmenger on his article titled "The Multiple Meanings of a Flowchart" for further discussion here. How would you perceive and understand them?
+In our previous experience of this class exercise,[^ex] people came up with slightly different results and we think it is a good way of beginning to talk about the use of flowcharts. We have selected some of Nathan Ensmenger's reflections from his article "The Multiple Meanings of a Flowchart" to spark discussion here: "To view the computer flowchart as having only one purpose is narrow and misleading, [because] every flowchart had multiple meanings and served several purposes simultaneously"; "Flowcharts allow us to 'see' software in ways that are otherwise impossible."[^Ensmenger] 
 
-1. "To view the computer flowchart as having only one purpose is narrow and misleading" as he suggests that "every flowchart had multiple meanings and served several purposes simultaneously" (p. 324)
+## Flowcharts as diagramming practice
 
-2. "Flowcharts allow us to "see" software in ways that are otherwise impossible" (p. 346)
+Beyond the more practical use of flowcharts to help with the development of software and in terms of peadgogy, they can also be aestehetic objects in their own right. A classic example is *Google will eat itself* (2005)[^GWEI] by UBERMORGEN, Alessandro Ludovico and Paolo Cirio. Here they illustrate how their artwork operates within the existing process of Google revene generation, and that addresses how information is being monopolized in the global advertisement system. The project's goal is to trigger advertising clicks on websites in order to receive micropayment from Google to buy their share (that is how Google will eat itself as an iterative loop).
 
-## Flow charts as diagramming practice
 
-Beyond the more practical usage of a flowchart, it is also an aesthetic diagramming practice as seen in software art. A classic example *Google will eat itself* (2005)[^GWEI] by UBERMORGEN, Alessandro Ludovico and Paolo Cirio illustrate how their artwork operates within the existing process of Google revene generation, and that addresses how information is being monopolized in the global advertisement system. The project's goal is to trigger advertising clicks on websites in order to receive micropayment from Google to buy their share (that is how Google will eat itself as an iterative loop).
+
 
 ![diagram1](ch9_2.gif)
 
@@ -170,7 +167,9 @@ Goffey, Andrew. "Algorithm." *Software Studies\ a lexicon*. Eds. Matthew Fuller.
 
 [^stereotypes]: To see programming as a social activity undermines some of the predominant stereotypes associated with programming such as the image of the typical antisocial hacker (male, bearded, unwashed). For more on the benefits of collaborative working, see Chih Wei Ho, et al, "Examining the impact of pair programming on female students", North Carolina State University. Dept. of Computer Science (2004).
 
+[^ex]: You can find one of the many possible ways of illustrating the simple program here: https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/source/9-ProceduralLogics/flow.png.
 
+[^Ensmenger]: Nathan Ensmenger, "The Multiple Meanings of a Flowchart", 324, 346.
 
 
 
@@ -185,4 +184,4 @@ Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Pres
 
 [^GWEI]: See http://www.gwei.org/index.php.
 
-[^ex]: You can find one of the many possible ways of illustrating the simple program here: https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/source/9-ProceduralLogics/flow.png
+
