@@ -75,36 +75,32 @@ o
 
 ## Discussion
 
-In our previous experience of this class exercise,[^ex] people came up with slightly different results and we think it is a good way of beginning to talk about the use of flowcharts. We have selected some of Nathan Ensmenger's reflections from his article "The Multiple Meanings of a Flowchart" to spark discussion here: "To view the computer flowchart as having only one purpose is narrow and misleading, [because] every flowchart had multiple meanings and served several purposes simultaneously"; "Flowcharts allow us to 'see' software in ways that are otherwise impossible."[^Ensmenger] 
+In our previous experience of this class exercise,[^ex] different results were produced and this becomes an excellent way to begin to discuss the use of flowcharts. We have selected some of Nathan Ensmenger's reflections from his article "The Multiple Meanings of a Flowchart" to spark discussion here: "To view the computer flowchart as having only one purpose is narrow and misleading, [because] every flowchart had multiple meanings and served several purposes simultaneously"; "Flowcharts allow us to 'see' software in ways that are otherwise impossible."[^Ensmenger] 
 
 ## Flowcharts as diagramming practice
 
-Beyond the more practical use of flowcharts to help with the development of software and in terms of peadgogy, they can also be artistic objects in their own right, as a "meta-medium for an aesthetics of social complexity" as Paolo Cirio puts it.[^Cirio] A good earlier example, by Cirio along with Alessandro Ludovico and UBERMORGEN is *Google Will Eat Itself* (2005),[^GWEI] an artwork to generate revenue by hacking the Google 'AdSense' initiative. The project automatically triggers advertising clicks on websites in order to receive micropayments from Google to then buy shares in Google: hence the auto-cannibalism of the title, and the iterative loop can be clearly displayed in the diagram below. 
+Beyond the more practical use of flowcharts to help with the development of software and in terms of peadgogy, they can also be artistic objects in their own right, as a "meta-medium for an aesthetics of social complexity" as Paolo Cirio puts it.[^Cirio] An earlier example from 2005, by Cirio in collaboration with Alessandro Ludovico and UBERMORGEN, is *Google Will Eat Itself*,[^GWEI] an artwork to auto-generate revenue by hacking the Google 'AdSense' initiative.[^pold] The project automatically triggers advertising clicks on websites in order to receive micropayments from Google to then buy shares in Google: "We buy Google via their own advertisment! Google eats itself - but in the end "we" own it!" The iterative loop - or auto-cannibalism - can be clearly seen in the diagram below. 
 
 ![diagram1](ch9_2.gif)
 
-*Figure 9.2: GWEI - Google Will Eat Itself / THE ATTACK*
+*Figure 9.2: GWEI - Google Will Eat Itself / THE ATTACK (2005)*
 
-In 2013, UBERMORGEN developed another project entitled *The Project Formerly Known as Kindle Forkbomb Printing Press* but this time they focus on another giant monopolistic corporation AMAZON. Similar to the previous project, they also built an internet robot, instead of clicking the advertisments on webpages, the program is based on, and collect, YouTube video comments to generate books automatically by uploading the generated e-books to Amazon's Kindle bookstore. Such a generative system, or an auto generator, comes without an end but with the aim to "continuously replicates itself, draining the system of its resources, ultimately causing the system to crash"[^pold] by exploiting the print-on-demand, publishing servies as well as the book e-commerce store.
+In 2012, UBERMORGEN developed *The Project Formerly Known as Kindle Forkbomb*, using a machine process that stripped comments from YouTube videos, then used an algorithm to compile the comments and add titles to make an e-book which was then uploaded to the Amazon Kindle e-commerce bookstore. It emulates Amazon's own system but allows us to reflect on the 'diagram' of e-book production and its commecrial exploitation.  
 
 ![diagram3](ch9_3.png)
 
-*Figure 9.3: The Project Formerly Known as Kindle Forkbomb Printing Press. Courtesy of UBERMORGEN and Kunsthal Aarhus, No Copyright, 2013*
+*Figure 9.3: The Project Formerly Known as Kindle Forkbomb. Courtesy of UBERMORGEN and Kunsthal Aarhus, No Copyright (2012)*
 [do you have a better picture/higher resolution of this? /w Yes I think so and it would be good to use an installation shot too. I will check. /G]
 
-Both works are always being displayed with the flow charts in exhibition settings, in which the artists do not only display them as an art object but to make clear the point that procedures and processes as the art.
+Reflected in the title of the project, a 'forkbomb' is a term used in computing to describe an attack in which a computer process continuously self-replicates until the machine's resources are depleted or the system crashes. This can be seen in the diagram, and further explored in the combination of diagram and physical books in the installation version at Kunsthal Aarhus in 2013. In all cases what is made apparent is the algorithmic procedure of the work. 
 
+![diagram4](??) [place installation shot here /g]
+
+*Figure 9.4: The Project Formerly Known as Kindle Forkbomb, installation view, at Kunsthal Aarhus, as part of the exhibition ?? curated by Joasia Krysa. Courtesy of UBERMORGEN and Kunsthal Aarhus, No Copyright (2013)*
 
 ## While()
 
-Although the concept of algorithm is rooted in Computer Science, scholars from other fields like cultural studies and media studies take on the technical concept of algorithm and explore the wider cultural consequences and political implications. The analogy of algorithms as receipes can be also seen here: Finn, Ed. What Algorithms Want: Imagination in the Age of Computing. Cambridge, MA: MIT Press, 2017, p. 17 and
-Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Press, 2018, p. 21.
-
-There is a growing interest on algorithms as objects of study for disciplines like sociology, media studies, science and technology studies, among others. In the humanities, the concern is not on building an efficient or optimized algorithm, but more into the social and cultural concerns of technology that is less visible or even as a blackbox. Accompanying with this book, students who work on this theme have to create and present a flow chart of a sorting problem, showing an algorithm with procedures to sort a series of unique random number. Sorting seems to be seen within mathematical discipline where there are different ways to approach such a problem,  and if we extend sorting to wider cultural context, such as the prioritization of a social media feeds, it is essentially far more complex that involves selecting, classifying and hierarchizing of time, tastes, objects, knowledge and other forms of metrics that are of business concerns.    
-
-
-.... next chapter is machine learning btw...wondering what you will say here :)
-
+TO ADD
 
 ## Mini_Exercise[9]:
 
@@ -172,7 +168,7 @@ Goffey, Andrew. "Algorithm." *Software Studies\ a lexicon*. Eds. Matthew Fuller.
 
 [^GWEI]: *GWEI* (2005) was part of the *Hacking Monopolism Trilogy* which also included *Amazon Noir* (2006) and *Face to Facebook* (2011). For more on *GWEI* ee http://www.gwei.org/index.php.
 
-
+[^pold]: For more on this project, see Christian Ulrik Anderden and Søren Bro Pold, Post-digital Books and Disruptive Literary Machines, in *Formules* 18 (2014), 164-183.
 
 
 [^fin]: Finn, Ed. *What Algorithms Want: Imagination in the Age of Computing*. Cambridge, MA: MIT Press, 2017, p. 34.
@@ -181,7 +177,7 @@ Goffey, Andrew. "Algorithm." *Software Studies\ a lexicon*. Eds. Matthew Fuller.
 Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Press, 2018, p. 21.
 
 
-[^pold]: Christian Ulrik Anderden and Søren Bro Pold, Post-digital Books and Disruptive Literary Machines, *Formules* 18, 164-183, 2014.
+
 
 
 
