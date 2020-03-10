@@ -168,10 +168,10 @@ Goffey, Andrew. "Algorithm." *Software Studies\ a lexicon*. Eds. Matthew Fuller.
 
 [^GWEI]: *GWEI* (2005) was part of the *Hacking Monopolism Trilogy* which also included *Amazon Noir* (2006) and *Face to Facebook* (2011). For more on *GWEI* ee http://www.gwei.org/index.php.
 
-[^pold]: For more on this project, see Christian Ulrik Anderden and Søren Bro Pold, Post-digital Books and Disruptive Literary Machines, in *Formules* 18 (2014), 164-183.
+[^pold]: For a reading of this project, see Christian Ulrik Andersen and Søren Bro Pold, "Post-digital Books and Disruptive Literary Machines", in *Formules* 18 (2014), 164-183.
 
 
-[^fin]: Finn, Ed. *What Algorithms Want: Imagination in the Age of Computing*. Cambridge, MA: MIT Press, 2017, p. 34.
+[^fin]: Ed Finn, *What Algorithms Want: Imagination in the Age of Computing* (Cambridge, MA: MIT Press, 2017), 34.
 
 [^recipe]: Although the concept of algorithm is rooted in Computer Science, scholars from other fields like cultural studies and media studies take on the technical concept of algorithm and explore the wider cultural consequences and political implications. The analogy of algorithms as receipes can be also seen here: Finn, Ed. What Algorithms Want: Imagination in the Age of Computing. Cambridge, MA: MIT Press, 2017, p. 17 and
 Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Press, 2018, p. 21.
