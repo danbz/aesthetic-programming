@@ -85,14 +85,14 @@ Beyond the more practical use of flowcharts to help with the development of soft
 
 *Figure 9.2: GWEI - Google Will Eat Itself / THE ATTACK (2005)*
 
-In 2012, UBERMORGEN developed *The Project Formerly Known as Kindle Forkbomb*, using a machine process that stripped comments from YouTube videos, then used an algorithm to compile the comments and add titles to make an e-book which was then uploaded to the Amazon Kindle e-commerce bookstore. It emulates Amazon's own system but allows us to reflect on the 'diagram' of e-book production and its commecrial exploitation.  
+In 2012, UBERMORGEN developed *The Project Formerly Known as Kindle Forkbomb*, using a machine process that stripped comments from YouTube videos, then used an algorithm to compile the comments and add titles to make an e-book which was then uploaded to the Amazon Kindle e-commerce bookstore. Reflected in the title of the project - a 'forkbomb' is a term used in computing to describe an attack in which a computer process - the process continuously self-replicates until the machine's resources are depleted or the system crashes. 
 
 ![diagram3](ch9_3.png)
 
 *Figure 9.3: The Project Formerly Known as Kindle Forkbomb. Courtesy of UBERMORGEN and Kunsthal Aarhus, No Copyright (2012)*
 [do you have a better picture/higher resolution of this? /w Yes I think so and it would be good to use an installation shot too. I will check. /G]
 
-Reflected in the title of the project, a 'forkbomb' is a term used in computing to describe an attack in which a computer process continuously self-replicates until the machine's resources are depleted or the system crashes. This can be seen in the diagram, and further explored in the combination of diagram and physical books in the installation version at Kunsthal Aarhus in 2013. In all cases what is made apparent is the algorithmic procedure of the work. 
+It 'diagrams' Amazon's own system but allows us to reflect critically on e-book production in contrast to traditional print. This can be seen in the diagram by the use of the printing press image (Figure 9.3), and further exploited in the combination of diagram and physical books in the installation version below (Figure 9.4). What is made apparent in both cases are the algorithmic procedures in operation. 
 
 ![diagram4](??) [place installation shot here /g]
 
