@@ -100,7 +100,45 @@ It 'diagrams' Amazon's own system but allows us to reflect critically on e-book 
 
 ## While()
 
-TO ADD
+The shift of critical attention in software studies from source code to algorithms reflects the broader context of big data and platform politics. The sorting algorithm makes a good example of a process by which elements from a collection are placed in some kind of order. For example, a list of numbers or words such as the ones you are reading could be sorted alphabetically or in some other way. It would be useful to create and present a flowchart of a sorting problem of this kind, showing how algorithic procedures re-organize relations between entities. Although the concept of algorithm is rooted in the discipline of computer science, the wider cultural field has taken on the concept of the algorithm to explore wider political consequences of sorting and classifying objects. The concern is not on building an efficient or optimized algorithm, but more an interest in the increased processes of automatization, and the infrastructures through which objects are ordered. Here algorithmic procedures seem analogous to curatorial practice.[^krysa2] 
+
+It becomes clear that algorithms do things in the world. They have effects, acting on themselves, on machines and on humans.[^goffey] In “Thinking Critically About and Researching Algorithms”, Rob Kitchin explains how Facebook’s EdgeRank works in tandem with each users’ inputs, ordering the results in tailored ways. It is not fixed and its operational parameters are contextual and fluid.[^Kitchin] They are part of larger socio-technical assemblages and infrastructures that are also constantly evolving and subject to variable conditions and contingencies. As such, although they appear to be act somewhat autonomously, algorithms need to be understood as “relational, contingent and contextual in nature”.[^Kitchin2] These relations might be diagrammed in order to understand their part in broader ecologies in order to understand their sense of agency and particular instances of power.
+
+The diagrams that we have introduced in this chapter give form to this power, and how apparently simple operations such as search or feeds (Google’s PageRank or Facebook’s EdgeRank) order data and reify information in ways that are determined by particular interests. The examples above help visualise these operations. Matteo Pasquinelli’s essay "Google’s PageRank Algorithm: A Diagram of the Cognitive Capitalism and the Rentier of the Common Intellect" provides more detail here in its close examination of the politics of PageRank - the hypertextual algorithm that calculates the importance of a given web page and its hierarchical position within the search engine results.[^Pasquinelli] His point is that the algorithm reverses the centralised panopticon model of surveillance and control, and instead offers a bio-political machine that captures time and living labour through dataveillance. That it is broadly based on citation indexes further emphasises its relevance for this book (or any academic book) and how value is produced through the quality of links (much like the attention value produced through social media's likes and friends). 
+Invoking diagram and abstract machine, the algorithm is a “value machine” according to Pasquinelli. 
+
+
+
+
+In *What Algorithms Want*, Ed Finn explores the concept of algorithm as a *culture machine* and argues that an algorithm "operates both within and beyond the reflexive barrier of effective computability, producing culture at a macro-social level at the same time as it produces cultural objects, processes, and experiences."[^fin] It becomes clear that algorithmic procedures play an important role in organizing culture, and subjectivities, and it is not very easy to see through or describe them because they operate beyond what we see and  experience directly. They produce wider effects in the ordering of life, more so even than a cooking recipe.
+
+
+
+///
+
+But what is a diagram then? Leaving aside the uses of diagrams as functional tools, or for didactic purposes that tend to simplify information (infographics is a case in point), they also feature as a form of expanded aesthetic practice as we hope our examples have somewhat demonstrated. In this chapter we have tried to to reflect these practices in our use of flowcharts as an experimental form. We already mentioned the idea of the diagram as an *abstract machine* in the introduction, and this is the phrase that Deleuze and Guattari use to reflect that matter and form is able to transform itself: abstract machines exhibit *morphogenesis* - a term that we also know from Turing (in chapter ?? - auto-generative). Diagrams instantiate future possibilities in this way that are not predetermined but open-ended and speculative fictions.[^deleuze] Such descriptions might sound themselves to be very abstract but the overall point is clear and scientific (following thermodynamics) in that there are morphogenetic possibilities in things, and systems are continuously traversed by flows (vectors) of energy and matter that do not cancel differences but instead maintain *differences*. What we end up with are speculative geometries, self-organizing forms, and diagrammatic processes that reflect dynamic forces. The diagram is an “image of thought”, in which thinking does not consist of problem-solving but on the contrary, *problem-posing*. We want to point to these special qualities in this chapter somewhat at odds to conventions of algorithmic procedures. 
+
+Figure ??. Dean Kenning - Jackson 5 flowchart.[^jackson5]
+
+But can we really think about flowcharts in similar terms to diagrams and abstract machines? The broad similarity we would claim is the ability to visualize problems and think them through in the process of that very visualization, a “picturing of thought”. In his “On the Diagram (and a Practice of Diagrammatics)”, Simon O’Sullivan provides a summary of this speculative approach:
+“The diagram here is a strategy of experimentation that scrambles narrative, figuration - the givens - and allows something else, at last, to step forward. This is the production of the unknown from within the known, the unseen from within the seen. The diagram, we might say, is a strategy for sidestepping intention from within intention; it involves the production of something that then ‘speaks back’ to its progenitor.”[^osullivan]     
+
+Although referring to the practice of drawing rather than programming, we might hope for something similar in the way that abstraction is invoked and the way that previously hidden aspects of programming might be “pictured”. Like diagramming perhaps, programming might be thought of as an abstract machine that does not function to merely represent, but rather constructs a real that is yet to come. As we discussed in previous chapters, programming is a form of abstraction that requires the selection of important details in which the implementation embodies the programmers' thinking and decision-making processes. 
+
+Leading on from this, 
+
+Decision and prediction
+
+What does machine learning want? 
+
+Also ML as diagram (find Mackenzie ref).
+
+LINK TO NEXT CHAPTER? ML
+World Building - diagrammatics announces a kind of nesting of fictions within fictions to produce a certain density, even an opacity, thus builds its own worlds and suggests the terms by which they could be approached.
+
+“Might this diagrammatics also involve a different take on relations among the past, present, and future? This is the “drawing” of lines between different times, the building of circuits and the following of feedback loops; it is to understand time as specific to any given system (or practice) and not as neutral background. This might involve diagramming the way a different kind of future can work back on the present (and determine how we act or make in the here and now). Or, indeed, diagramming how the present itself can involve a re-engineering of the past (understood as resource and living archive) that will then allow a different kind of future to emerge.”[^osullivan2] 
+
+Back to algorithmic procedure... Algorithms are emergent and reactive entities.
 
 ## Mini_Exercise[9]:
 
@@ -115,7 +153,7 @@ TO ADD
 
 Individual:
 * Revisit your previous mini exercises and select the most technically complex one
-* Draw an individual flow chart to present the program (Pay attention to: which items you select to present through a flow chart)
+* Draw an individual flow chart to present the program (pay attention to which items you select to present through a flow chart)
 
 Group:
 * Brainstorm two ideas for the final project
@@ -170,6 +208,7 @@ Goffey, Andrew. "Algorithm." *Software Studies\ a lexicon*. Eds. Matthew Fuller.
 
 [^pold]: For a reading of this project, see Christian Ulrik Andersen and Søren Bro Pold, "Post-digital Books and Disruptive Literary Machines", in *Formules* 18 (2014), 164-183.
 
+[^kyrsa2]: An example of this would be the upcoming project *The Next Biennial Should eb Curated by a Machine* (2020), by UBERMORGEN, Leonardo Impett and curator Joasia Krysa, working with Liverpool Biennial and Whitney Museum of Art, http?????????. 
 
 [^fin]: Ed Finn, *What Algorithms Want: Imagination in the Age of Computing* (Cambridge, MA: MIT Press, 2017), 34.
 
