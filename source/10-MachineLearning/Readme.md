@@ -24,7 +24,15 @@ Machine learning utilizes different algorithms to process the training data set.
 
 **Supervised Learning** - This type of supervised learning is based on the training dataset in the form of input/output pairs as expected answers. A classic example would be spam emails in which an algorithm would learn from the sample of emails that are labelled as "spam" or "not spam". The goal of this type of learning is to map input to output labels. For example, with the new email as the input, what would be the predicted output result? Can it be classified as a spam email and then put into the junk mailbox? In mathematical terms, it is expressed as Y=f(X), the goal is to predict the output variable Y from the new input data (X). But this prediction process relies on classification techniques, such as binary classification (such as yes/no, spam/not spam, male/female) and multi-classification (such as different object labellings like dog, cat, human in visual recognization), which is based on the process of data labelling and this is where the politics come in. Data is being categorized in a discrete manner, and there are many reasons that might lead to a 'normative' prediction on a more complex subject like gender, race and identity beyond a relatively discrete spam classification. 
 
-**Unsupervised Learning** - Unlike the previous learning model, the data input does not contain a clear labelling and relation. One of the common tasks with unsupervised learning is clustering. The goal of this technique is to find similiarities and patterns to group similar entities together.
+**Unsupervised Learning** - Unlike the previous learning model, the data input does not contain a predfined label and relation. One of the common tasks with unsupervised learning is clustering (algorithms such as K-mean and Hierarchical Clustering). The goal of this technique is to find similiarities and patterns to group similar entities together, providing insights into underlying patterns of different groups via exploratory analysis. The idea of clustering is to identify similar groups of data in a dataset, segregating groups with similar characteristics. It is commonly used in business and marketing sectors to understand customer preferences so as to do personalization and data marketing by grouping the customers based on their purchasing behavior on certain types of goods. Artists Joana Chicau and Jonathan Reus developed their project *Anatomies of Intelligence*[^AI] based on unsupervised learning model to develop an understanding of anatomical knowledge and computational learning. In their workshops[^workshop], they suggest the participants to think of two parameters for examining a small image dataset. One of the groups suggest 'cuteness' and 'curlyness', and each of the image will be rated according to these two dimensions (in the form of x and y axis). As a result, several clusters are formed and sorted, providing a different perspective when looking at images as a dataset.  
+
+![anatomies](https://cc.au.dk/typo3temp/_processed_/csm_Screen_Shot_2019-06-19_at_15.09.09_8396587104.png)
+
+*Figure 10.1: Anatomies of Intelligence by Joana Chicau and Jonathan Reus*
+
+![workshop](xxx.jpg)
+
+*Figure 10.2: Clustering and Sorting images based on the parameters of cutness and curlyness.*
 
 Reinforcement Learning -
 
@@ -128,3 +136,7 @@ The README should address at least the following questions with the help of your
 [^cox]: ref
 
 [^ml5]: See https://ml5js.org/.
+
+[^AI]: https://anatomiesofintelligence.github.io/
+
+[^workshop]: https://cc.au.dk/aktuelt/arrangementer/vis-arrangement/artikel/workshop-anatomies-of-intelligence/
