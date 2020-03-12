@@ -110,7 +110,7 @@ The diagrams that we have introduced in this chapter give form to this, and how 
 
 But what is a diagram? Leaving aside the uses of diagrams as functional tools, or for didactic purposes that tend to simplify information (infographics is a case in point), they also feature as a form of expanded aesthetic practice as we hope our examples have somewhat demonstrated. In this chapter we have tried to to reflect these practices in our use of flowcharts as an experimental form. We already mentioned the idea of the diagram as an *abstract machine* in the introduction, and this is the phrase that Deleuze and Guattari use to reflect that matter and form is able to transform itself: abstract machines exhibit *morphogenesis* - a term that we also know from Turing (in chapter ?? - auto-generation). Diagrams instantiate future possibilities in this way that are not predetermined but open-ended and speculative fictions.[^deleuze] Such descriptions might sound themselves to be very abstract but the overall point is clear and scientific (following thermodynamics) in that there are morphogenetic possibilities in things, and systems are continuously traversed by flows (vectors) of energy and matter that do not cancel differences but instead maintain *differences*. What we end up with are speculative geometries, self-organizing forms, and diagrammatic processes that reflect dynamic forces. The diagram is an “image of thought”, in which thinking does not consist of problem-solving but on the contrary, *problem-posing*. We want to point to these distinctive qualities in this chapter somewhat at odds to conventional descriptions of algorithmic procedures. 
 
-Figure ??. Dean Kenning, Jackson 5 Flowchart (2017) A4. Marker pen on paper.[^jackson5]
+Figure ??. Dean Kenning, *Jackson 5 Flowchart* (2017) A4. Marker pen on paper.[^jackson5]
 
 But can we really think about flowcharts in similar terms to diagrams and abstract machines? The broad similarity we would claim is the ability to visualize problems and think them through in the process of that very visualization, a “picturing of thought” as Deleuze would have it. In his “On the Diagram (and a Practice of Diagrammatics)”, Simon O’Sullivan provides a summary of this speculative approach:
 
@@ -207,7 +207,7 @@ Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Pres
 
 [^deleuze]: The specific interpretation of diagramming as offered by Deleuze and Guattari is far too complex to go into more detail here. In short, they use the idea of the diagram to model the dynamics of signification and of what escapes signification:  “The diagrammatic or abstract machine does not function to represent, even something real, but rather constructs a real that is yet to come, a new type of reality.” http://frequencies.ssrc.org/2011/12/19/diagrammic-thinking/. For more on these ideas, see Gilles Deleuze and Félix Guattari, *A Thousand Plateaus* (1980).
 
-[jackson5]: The flowchart is based on the opening lyrics of Jackson 5's "Blame It On the Boogie", released in 1978. 
+[^jackson5]: The flowchart is based on the opening lyrics of Jackson 5's "Blame It On the Boogie", released in 1978. 
 
 [^osullivan]: Simon O’Sullivan, “On the Diagram (and a Practice of Diagrammatics)” [13-25], in Karin Schneider and Begum Yasar, eds., *Situational Diagram* (New York: Dominique Lévy, 2016), 17.
 
