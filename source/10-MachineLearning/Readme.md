@@ -50,10 +50,14 @@ Machine learning utilizes different algorithms to process the training data set.
 
 ## Discussion in class
 
-Ths exercise is more returing to the Eliza chatbot as a mode to think about the notion of intelligence:
+![10_4](ch10_4.png)
+
+*Figure 10.4:  E.L.I.Z.A talking (2013) by Norbert Landsteiner*
+
+Ths exercise is more returing to the Eliza chatbot by using the works produced by Norbert Landsteiner from 2005-2013:
 
 1. Visit the Eliza Test by clicking the button 'Next step' from **https://www.masswerk.at/elizabot/eliza_test.html** to see the original example given by Joseph Weizenbaum in his article on ELIZA
-2. Then visit the work *E.L.I.Z.A talking* (2013) via the link **https://www.masswerk.at/eliza/** to explore and experience the conversation with a bot.[^bot]
+2. Then visit the work *E.L.I.Z.A talking* (2013) via the link **https://www.masswerk.at/eliza/** to explore and experience the conversation with your own words.[^bot]
 3. Share your experience about the original conversation given by Joseph Weizenbaum and your conversation with the bot: 
     - How do you feel when having a conversation with Eliza in response to the language, style, aesthetics and the social forms of interactions?
     - How to you see the ability and potential of technologies to capture and structure feelings and experiences? 
