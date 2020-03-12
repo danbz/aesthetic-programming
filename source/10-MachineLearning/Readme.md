@@ -20,6 +20,18 @@ There are many aesthetic and cultural aspects around machine learning, such as l
 ## start()
 In a nutshell, machine learning can be thought of three components: Input, Modelling and Output. Usually a large amount of data is needed to be collected, gathered, parsed, and this process is called data cleansing in computer science terms (data can be thought of text, video, images, gestures, etc). Pointing at this cleaning process, it involves decision making, in terms of identifying and accessing the datasets, how to structure the raw data and how to deal with inconsistencies. If data is coming from different places, then how to normalize the data by imposing a standard into structuring a cohesive data set? If we take the next bonus chapter - Machine Writing as the example, the raw data would be the gathering of markdowns in the form of characters and symbols from each chapter. We want to explore how a chapter is produced with different source code, image links, captions, texts, etc, and what does it mean by *generating* a chapter with and through a program, and what aesthetic programming is becoming as to what it is.
 
+## Exercise in class
+
+Try the first version of the Teachable Machine, an experiment to explore how machine learning works: https://teachablemachine.withgoogle.com/v1/
+
+![ch10_1.png](xxx.png)
+
+*Figure 10.1: The interface of the Teachable Machine (ver 1)* 
+
+This web application includes both input, learning and output. By capturing images from your own web camera, the program utilizes images as the input data. There are three training classifiers that you can build by simply click the colored train button. The three default output modes can be modified by searching for new set of images, text and sound. The most simpliest way to start is to train 3 different set of gestures and facial expressions, then observe the predictive results in various forms. This exercise is to get familiar with the three major components in machine learning: input, learning and output. Furthermore, this execise sets the scence of thinking about the agency of prediction.
+
+## Machine Learning
+
 Machine learning utilizes different algorithms to process the training data set. In an elementry and general way of understanding machine learning, there are 3 types of algorithms: Supervised Learning, Unsupervised Learning and Reinforcement Learning.
 
 **Supervised Learning** - This type of supervised learning is based on the training dataset in the form of input/output pairs as expected answers. A classic example would be spam emails in which an algorithm would learn from the sample of emails that are labelled as "spam" or "not spam". The goal of this type of learning is to map input to output labels. For example, with the new email as the input, what would be the predicted output result? Can it be classified as a spam email and then put into the junk mailbox? In mathematical terms, it is expressed as Y=f(X), the goal is to predict the output variable Y from the new input data (X). But this prediction process relies on classification techniques, such as binary classification (such as yes/no, spam/not spam, male/female) and multi-classification (such as different object labellings like dog, cat, human in visual recognization), which is based on the process of data labelling and this is where the politics come in. Data is being categorized in a discrete manner, and there are many reasons that might lead to a 'normative' prediction on a more complex subject like gender, race and identity beyond a relatively discrete spam classification. 
@@ -28,11 +40,11 @@ Machine learning utilizes different algorithms to process the training data set.
 
 ![anatomies](https://cc.au.dk/typo3temp/_processed_/csm_Screen_Shot_2019-06-19_at_15.09.09_8396587104.png)
 
-*Figure 10.1: Anatomies of Intelligence by Joana Chicau and Jonathan Reus*
+*Figure 10.2: Anatomies of Intelligence by Joana Chicau and Jonathan Reus*
 
 ![workshop](xxx.jpg)
 
-*Figure 10.2: Clustering and Sorting images based on the parameters of cutness and curlyness.*
+*Figure 10.3: Clustering and Sorting images based on the parameters of cutness and curlyness.*
 
 **Reinforcement Learning** - This type of learning technique is based on the interaction with the environment, mapping situations into actions.[^rl] The learner (or the agent) do not have any previous data to base on to determine or predict which action to take, rather, it learns by trian and error to yield the maximum rewards. The famous example computer program AlphaGo[^alphago] beats the world champions of the Go broad game in 2017. AlphaGo is able to evaluate positions and select movies via self-taught processes. The use of this type of reinforcement learning is to find the best possible behavior or path it should take in a specific environment, mapping state-action pairs to achieve the maximization of rewards. For the broad game Go, two players compete to control the most territory with the use of black/white stones. Unlike supervised learning that relies on input training data, the characteristics of reinforcement learning is that the program see the environment as a whole, and is able to learn from its own experience via evaluating the effectiveness of each action taken: the "trial-and-error search" and "delayed reward" via sequential decisions, computation, repeated attempts and feedback learning. Each action matters and that counts for the goal of maximizing the territory control as in the game of Go. In this way, reinforcement learning is performed via sequential decisions.
 
