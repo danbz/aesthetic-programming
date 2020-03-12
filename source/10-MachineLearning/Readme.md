@@ -36,22 +36,27 @@ Machine learning utilizes different algorithms to process the training data set.
 
 **Reinforcement Learning** - This type of learning technique is based on the interaction with the environment, mapping situations into actions.[^rl] The learner (or the agent) do not have any previous data to base on to determine or predict which action to take, rather, it learns by trian and error to yield the maximum rewards. The famous example computer program AlphaGo[^alphago] beats the world champions of the Go broad game in 2017. AlphaGo is able to evaluate positions and select movies via self-taught processes. The use of this type of reinforcement learning is to find the best possible behavior or path it should take in a specific environment, mapping state-action pairs to achieve the maximization of rewards. For the broad game Go, two players compete to control the most territory with the use of black/white stones. Unlike supervised learning that relies on input training data, the characteristics of reinforcement learning is that the program see the environment as a whole, and is able to learn from its own experience via evaluating the effectiveness of each action taken: the "trial-and-error search" and "delayed reward" via sequential decisions, computation, repeated attempts and feedback learning. Each action matters and that counts for the goal of maximizing the territory control as in the game of Go. In this way, reinforcement learning is performed via sequential decisions.
 
-Given the length and the cohesiveness of the book, this chapter will point to the machine learning library called ml5.js, which is a JavaScript framework again that can be run on a web browser like p5.js. With its objective to make machine learning approachable for a broad audience, the library is supported by extensive code examples and tutorials on the website[^ml5].
-
 ## Exercise in class
 
 Ths exercise is more returing to the Eliza chatbot as a mode to think about the notion of intelligence:
 
-elizabot.js version (2005) https://www.masswerk.at/elizabot/ by Norbert Landsteiner
-  - Eliza Test: https://www.masswerk.at/elizabot/eliza_test.html -> click the button 'Next step' to see the conversation that was stated in the original example given by Joseph Weizenbaum (1966)
-  - E.L.I.Z.A talking: https://www.masswerk.at/eliza/
+1. Visit the Eliza Test by clicking the button 'Next step' from **https://www.masswerk.at/elizabot/eliza_test.html** to see the original example given by Joseph Weizenbaum in his article on ELIZA
+3. Then visit the work *E.L.I.Z.A talking* (2013) via the link **https://www.masswerk.at/eliza/** to explore and experience the conversation with a bot.[^bot]
+
+2. Then Visit the work 
+
+«E.L.I.Z.A. Talking» is a project to explore the capabilities of client-side speech I/O in modern browsers.
+
+The project features Joseph Weizenbaum's famous ELIZA program, which demoed the thrills of a natural language conversation with a computer for the very first time. Joseph Weizenbaum (1923–2008) was an important pioneer in computer technologies and became later well known for his critique of technological progress. His program is presented here in the famous VT100 terminal, which was introduced in 1978 and became soon a universal standard. It provided many users their first ex­po­sure to interactive computing — an experience that might not have been far from what a real chat with a computer would mean today.
+
+All scripts by Norbert Landsteiner, mass:werk – media environments, www.masswerk.at.
+This page and embedded images © 2013 Norbert Landsteiner, mass:werk – media environments.
 
 Daniel Temkin | Drunk Eliza (2010): http://danieltemkin.com/DrunkEliza/
 
 
-##
-
-
+## Using ml5.js 
+Given the length and the cohesiveness of the book, this chapter will point to the machine learning library called ml5.js, which is a JavaScript framework again that can be run on a web browser like p5.js. With its objective to make machine learning approachable for a broad audience, the library is supported by extensive code examples and tutorials on the website[^ml5].
 
 ## Source Code
 
@@ -146,3 +151,5 @@ The README should address at least the following questions with the help of your
 [^pathmind]: https://pathmind.com/wiki/deep-reinforcement-learning
 
 [^rl]: Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction (1st Edition, 1998)
+
+[^bot]: The text-based conversational bot is developed by Norbert Landsteiner with JavaScript called ElizaBot(elizabot.js) in 2005. The source code can be downloaded here: https://www.masswerk.at/elizabot/ 
