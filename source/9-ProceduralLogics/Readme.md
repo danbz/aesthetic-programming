@@ -119,39 +119,41 @@ Although referring to the practice of drawing rather than programming, we might 
 
 We might follow this line of discussion in relation to the predictive practices of machine learning more specifically, and it is important to note that Adrian Mackenzie too, in his *Machine Learners*, uses diagrams as an experiment in critical thinking to address the operations of machine learning. We propose something similar with flowcharts. Mackenzie explains that when it comes to machine learning, “coding changes from what we might call symbolic logical diagrams to statistical algorithmic diagrams.” (23) He is relying on (and directly quoting) Deleuze’s suggestion that diagrams act "as a display of the relation between forces that constitute power [...] the diagram or abstract machine is the map of relations between forces, a map of destiny, or intensity."[^ML2] We will continue this topic in the next chapter but for now we might stress that analysing algorithms or source code for that matter is not particularly revealing in itself, unless the wider assemblage of relations are exposed. 
 
-## Mini_Exercise[9]:
+## Mini_Exercise[9]
 
 **Objective:**
 
-- To acquire the ability to decompose/break down a computer program into definable parts
-- To organize and structure a computer program through a flow chart
-- To understand flowchart as a means for communication and planning
+- To acquire the ability to decompose/break down a computer program into its definable parts and relations
+- To organize and structure a computer program through a flowchart
+- To understand flowchart as a means for communication and planning, and tool for critical thinking
 - To understand the concept of algorithms from both computer science and cultural perspectives
 
 **Tasks:**
 
 Individual:
 * Revisit your previous mini exercises and select the most technically complex one
-* Draw an individual flow chart to present the program (pay attention to which items you select to present through a flow chart)
+* Draw an individual flowchart to present the program (pay attention to which items you select to present through a flowchart)
 
 Group:
-* Brainstorm two ideas for the final project
-* Draw two flow charts to visualize the algorithmic process of the forthcoming final project's program
+* Brainstorm two ideas for your final project
+* Draw two flow charts to visualize the algorithmic processes of this project
 
-**Questions to think about as README:**
-- What's the challenges to get the balance between simplicity at the level of communication and complexity at the level of algorithmic logics?
-- What might be the possible technical challenges for the two ideas and how are you going to solve them?
-- What's the role of the individual and the group flow chart that you have done?
+**Questions to think about for the README:**
+- What are the challenges between simplicity at the level of communication and complexity at the level of algorithmic procedure?
+- What are the technical challenges for the two ideas and how are you going to address them?
+- What is the value of the individual and the group flowchart that you have produced?
 
-## Required reading:
+## Required reading
+
 - Ensmenger, Nathan. "The Multiple Meanings of a Flowchart." *Information & Culture: A Journal of History*, vol. 51 no. 3, 2016, pp. 321-351. Project MUSE, doi:10.1353/lac.2016.0013
-- Bucher, Taina. "The Multiplicity of Algorithimcs" in *If...THEN: Algorithmic Power and Politics*, Oxford University Press, 2018, pp. 19-40
-- Marcus du sautoy, The Secret Rules of Modern Living: Algorithms - Clips, BBC Four, 2015. Web. https://www.bbc.co.uk/programmes/p030s6b3/clips
+- Taina Bucher, Taina. "The Multiplicity of Algorithimcs" in *If...Then: Algorithmic Power and Politics* (Oxford: Oxford University Press, 2018), 19-40.
+- Marcus du Sautoy, The Secret Rules of Modern Living: Algorithms - Clips, *BBC Four* (2015), https://www.bbc.co.uk/programmes/p030s6b3/clips.
 
-## Further reading:
-- Ed Finn, “What is an Algorithm,” in *What Algorithms Want*, MIT Press, 2017, pp. 15-56.
-- Daniel Shiffman, [Multiple js Files - p5.js Tutorial](https://www.youtube.com/watch?v=Yk18ZKvXBj4), The Coding Train. Web.https://www.youtube.com/watch?v=Yk18ZKvXBj4
-Goffey, Andrew. "Algorithm." *Software Studies\ a lexicon*. Eds. Matthew Fuller. MIT Press, 2008. pp. 15-20.
+## Further reading
+
+- Ed Finn, “What is an Algorithm,” in *What Algorithms Want* (Cambridge, MA: MIT Press, 2017), 15-56.
+- Daniel Shiffman, [Multiple js Files - p5.js Tutorial](https://www.youtube.com/watch?v=Yk18ZKvXBj4), The Coding Train. Web.https://www.youtube.com/watch?v=Yk18ZKvXBj4.
+Andrew Goffey, "Algorithm", in Matthew Fuller, ed., *Software Studies: A Lexicon* (Cambridge, MA: MIT Press, 2008), 15-20.
 
 ## Notes
 
