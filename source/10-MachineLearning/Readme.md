@@ -36,24 +36,15 @@ Machine learning utilizes different algorithms to process the training data set.
 
 **Reinforcement Learning** - This type of learning technique is based on the interaction with the environment, mapping situations into actions.[^rl] The learner (or the agent) do not have any previous data to base on to determine or predict which action to take, rather, it learns by trian and error to yield the maximum rewards. The famous example computer program AlphaGo[^alphago] beats the world champions of the Go broad game in 2017. AlphaGo is able to evaluate positions and select movies via self-taught processes. The use of this type of reinforcement learning is to find the best possible behavior or path it should take in a specific environment, mapping state-action pairs to achieve the maximization of rewards. For the broad game Go, two players compete to control the most territory with the use of black/white stones. Unlike supervised learning that relies on input training data, the characteristics of reinforcement learning is that the program see the environment as a whole, and is able to learn from its own experience via evaluating the effectiveness of each action taken: the "trial-and-error search" and "delayed reward" via sequential decisions, computation, repeated attempts and feedback learning. Each action matters and that counts for the goal of maximizing the territory control as in the game of Go. In this way, reinforcement learning is performed via sequential decisions.
 
-## Exercise in class
+## Discussion in class
 
 Ths exercise is more returing to the Eliza chatbot as a mode to think about the notion of intelligence:
 
 1. Visit the Eliza Test by clicking the button 'Next step' from **https://www.masswerk.at/elizabot/eliza_test.html** to see the original example given by Joseph Weizenbaum in his article on ELIZA
-3. Then visit the work *E.L.I.Z.A talking* (2013) via the link **https://www.masswerk.at/eliza/** to explore and experience the conversation with a bot.[^bot]
-
-2. Then Visit the work 
-
-«E.L.I.Z.A. Talking» is a project to explore the capabilities of client-side speech I/O in modern browsers.
-
-The project features Joseph Weizenbaum's famous ELIZA program, which demoed the thrills of a natural language conversation with a computer for the very first time. Joseph Weizenbaum (1923–2008) was an important pioneer in computer technologies and became later well known for his critique of technological progress. His program is presented here in the famous VT100 terminal, which was introduced in 1978 and became soon a universal standard. It provided many users their first ex­po­sure to interactive computing — an experience that might not have been far from what a real chat with a computer would mean today.
-
-All scripts by Norbert Landsteiner, mass:werk – media environments, www.masswerk.at.
-This page and embedded images © 2013 Norbert Landsteiner, mass:werk – media environments.
-
-Daniel Temkin | Drunk Eliza (2010): http://danieltemkin.com/DrunkEliza/
-
+2. Then visit the work *E.L.I.Z.A talking* (2013) via the link **https://www.masswerk.at/eliza/** to explore and experience the conversation with a bot.[^bot]
+3. Share your experience about the original conversation given by Joseph Weizenbaum and your conversation with the bot: 
+    - How do you feel when having a conversation with Eliza in response to the language, style, aesthetics and the social forms of interactions?
+    - How to you see the ability and potential of technologies to capture and structure feelings and experiences? 
 
 ## Using ml5.js 
 Given the length and the cohesiveness of the book, this chapter will point to the machine learning library called ml5.js, which is a JavaScript framework again that can be run on a web browser like p5.js. With its objective to make machine learning approachable for a broad audience, the library is supported by extensive code examples and tutorials on the website[^ml5].
@@ -111,12 +102,13 @@ The README should address at least the following questions with the help of your
 - Open question: How do you see the project as a critical work in itself with some of the understanding of the inner workings of software and its material conditions?
 
 ## Required reading:
-- Geoff Cox. Machine ways of seeing. *Unthinking Photography*, 2016, web: https://unthinking.photography/articles/ways-of-machine-seeing
+- Christian Ulrik Andersen & Geoff Cox. FEELING, FAILURE, FALLACIES in *A Peer-Reviewed Journal About Machine Feelings*, vol(8)1, 2019. https://aprja.net//article/view/115409 
 
 ## Further reading:
 - Weizenbaum Joseph (1966) ELIZA - a computer program for the study of natural language communication between man and machine. *Commun ACM* 9(1):36–4
 - Kate Crawford and Vladan Joler. Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources, 2018. Web: https://anatomyof.ai/
 - Clemens Apprich, Wendy Hui Kyong Chun, Florian Cramer, Hito Steyerl, *[Pattern Discrimination: In Search of Media](https://meson.press/wp-content/uploads/2018/11/9783957961457-Pattern-Discrimination.pdf)*, Minneapolis, London: University of Minnesota Press, 2018.
+- Geoff Cox. Machine ways of seeing. *Unthinking Photography*, 2016, web: https://unthinking.photography/articles/ways-of-machine-seeing
 
 ## Notes
 
