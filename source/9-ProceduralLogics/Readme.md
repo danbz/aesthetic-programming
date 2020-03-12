@@ -85,7 +85,7 @@ Beyond the more practical use of flowcharts to help with the development of soft
 
 *Figure 9.2: GWEI - Google Will Eat Itself / THE ATTACK (2005)*
 
-The iterative loop can be clearly seen in the diagram and echoes the principle of the 'strange loop': forced "to eat its own tail" in Babbage's words, altering its own stored program and thus offering the potential to generate new technical and aesthetic forms (already mentioned in chapter ??, with reference to the operations of Babbage's Analytical Engine). Taken to its extreme, a 'forkbomb' is a term used in computing to describe a denial-of-service attack in which a computer process continuously replicates itself to deplete available system resources, slowing down or crashing the system due to resource starvation. Reflected this operation in the title of another project, UBERMORGEN developed *The Project Formerly Known as Kindle Forkbomb* (2012), using a machine process that stripped comments from YouTube videos, then used an algorithm to compile the comments and add titles to make an e-book which was then uploaded to the Amazon Kindle e-commerce bookstore. It 'diagrams' Amazon's own cannibalistic system but allows us to reflect critically on e-book production in contrast to traditional print. This can be seen in the diagram by the use of the printing press image (Figure 9.3), and further exploited in the combination of diagram and physical books in the installation version below (Figure 9.4). What is made apparent in both cases are the algorithmic procedures in operation.
+The iterative loop can be clearly seen in the diagram and echoes the principle of the 'strange loop': forced "to eat its own tail" in Babbage's words, altering its own stored program and thus offering the potential to generate new technical and aesthetic forms (already mentioned in chapter ??, with reference to the operations of Babbage's Analytical Engine). Taken to its extreme, a 'forkbomb' is a term used in computing to describe a denial-of-service attack in which a computer process continuously replicates itself to deplete available system resources, slowing down or crashing the system due to resource starvation. Reflected in the title of another project, UBERMORGEN's *The Project Formerly Known as Kindle Forkbomb* (2012), used a machine process that stripped comments from YouTube videos: an algorithm compiled the comments and added titles producing an e-book which was then uploaded to the Amazon Kindle e-commerce bookstore.[^pold] This can be seen in the diagram by the re-use of an image of a traditional printing press (Figure 9.3), and further exploited in the combination of diagram and physical books in the installation version (Figure 9.4). What is made apparent in both cases are the algorithmic procedures in operation and both mimics and mocks Amazon's post-Gutengerg e-book production and 'diagrams' their cannibalistic business model, the key principles of which are outlined on the Kindle website: "Get to market fast; Make more money. Keep control."[^kindle] 
 
 ![diagram3](ch9_3.png)
 
@@ -204,7 +204,9 @@ Goffey, Andrew. "Algorithm." *Software Studies\ a lexicon*. Eds. Matthew Fuller.
 
 [^GWEI]: *GWEI* (2005) was part of the *Hacking Monopolism Trilogy* which also included *Amazon Noir* (2006) and *Face to Facebook* (2011). For more on *GWEI* ee http://www.gwei.org/index.php.
 
-[^pold]: For a reading of this project, see Christian Ulrik Andersen and Søren Bro Pold, "Post-digital Books and Disruptive Literary Machines", in *Formules* 18 (2014), 164-183.
+[^pold]: For a close reading of this project, see Christian Ulrik Andersen and Søren Bro Pold, *The Metainterface: The Art of Platforms, Cities, and Clouds* (Cambridge, MA: MIT Press, 2018), 57-60.
+
+[^kindle]: A fuller description of the Kindle platform can be found at https://kdp.amazon.com/en_US/.
 
 [^fin]: Finn, *What Algorithms Want: Imagination in the Age of Computing*, 34.
 
