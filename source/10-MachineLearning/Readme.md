@@ -212,11 +212,13 @@ The load the ml5.js library, you need to following line in your index.html
 ```
 
 In the html file, it contains:
-1. a text input box with the default seed/starting text: Ch. 11 Auto Chapter Generator. The seed is required to predict the next character.
+1. A text input box with the default seed/starting text: Ch. 11 Auto Chapter Generator. The seed is required to predict the next character.
 2. A slider for selecting the number of characters to generate.
 3. A slider for setting the temperature (the value that control the amount of uncertainty of predictions)[^temp] with the range from 0 to 1.
 4. A button with the word 'generate'
 5. A result area that will display the generative text which is below the horizontal line `<hr>`
+
+**sketch.js**
 
 
 
