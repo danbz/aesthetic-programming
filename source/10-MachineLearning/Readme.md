@@ -64,9 +64,11 @@ Ths exercise is more returing to the Eliza chatbot by using the works produced b
     - How to you see the ability and potential of technologies to capture and structure feelings and experiences? 
 
 ## Using ml5.js 
-Given the length and the cohesiveness of the book, this chapter will point to the machine learning library called ml5.js, which is a JavaScript framework again that can be run on a web browser like p5.js. With its objective to make machine learning approachable for a broad audience, the library is supported by extensive code examples and tutorials on the website[^ml5].
+Given the length and maintaining the cohesiveness of the book, this chapter will point to the machine learning library called ml5.js, which is a JavaScript framework again that can be run on a web browser like p5.js. With its objective to make machine learning approachable for a broad audience, the library is supported by extensive code examples and tutorials on the website[^ml5].
 
-For this final human writing chapter, we re-appropriate the example from ml5 on the example *CharRNN_Text*. Instead of using the famous corpus Virginia Woolf, we offer another pre-trained model that is based on the collection on all the chapters' markdown in this book. The training model used Recurrent Neural Network (RNN) and Long Short Term Memory (LSTM) for working with sequential data, character by character. This machine learning model is based on supervised learning algorithm, in which the input text has already embeded the relation of each character/symbol sequence as a form of text classification. It is especially useful with the LSTM and RNN because the order and context of the words are important in the context of text generation and prediction (this is related to the area of natural language processing). This type of neural networks can capture long-term dependencies in a corpous in order to make sense of the text pattern through many iterations of training processes. 
+For this final human writing chapter, we re-appropriate the example from ml5: *CharRNN_Text*. Instead of using the famous corpus Virginia Woolf, we offer another pre-trained model that is based on the collection on all the chapters' markdown in this book. This is to demonstrate the idea of how the next bonus chapter might be generated with machine operations and learning algorithms. 
+
+The training model used Recurrent Neural Network (RNN) and Long Short Term Memory (LSTM) that analyze sequential data, character by character. This machine learning model is based on supervised learning algorithm, in which the input text has already embeded the relation of each character/symbol sequence as a form of text classification. Both LSTM and RNN are especially useful in terms of character by character training because the order and context of the words are important in the context of text generation and prediction (this is related to the area of natural language processing). This type of neural networks can capture long-term dependencies in a corpous in order to make sense of the text pattern through many iterations of training processes. 
 
 ![ch10_6](ch10_6.png)
 *Figure 10.6: Auto Chapter Generator*
@@ -74,11 +76,149 @@ For this final human writing chapter, we re-appropriate the example from ml5 on 
 ## Source Code
 
 ```javascript
-let
+//LSTM Generator example with p5.js
+
+let charRNN;
+let textInput;
+let lengthSlider;
+let tempSlider;
+let button;
+let runningInference = false;
+let status;
+
+let lengthText;
+let temperatureText;
+
+let resultText;
+
+
+function setup() {
+
+  // Create the LSTM Generator passing it the model directory
+  charRNN = ml5.charRNN('./models/AP_book/', modelReady);
+
+  // Grab the DOM elements
+  textInput = document.querySelector('#textInput');
+  lengthSlider = document.querySelector('#lenSlider');
+  tempSlider = document.querySelector('#tempSlider');
+  button = document.querySelector('#generate');
+  lengthText = document.querySelector('#length');
+  temperatureText = document.querySelector('#temperature');
+  status = document.querySelector('#status')
+  resultText = document.querySelector('#result')
+
+  // DOM element events
+  button.addEventListener('click', generate);
+  lengthSlider.addEventListener('change',updateSliders);
+  tempSlider.addEventListener('change',updateSliders);
+}
+
+setup();
+
+// Update the slider values
+function updateSliders() {
+  lengthText.innerHTML = lengthSlider.value;
+  temperatureText.innerHTML = tempSlider.value;
+}
+
+function modelReady() {
+  status.innerHTML = 'Model Loaded';
+}
+
+// Generate new text
+function generate() {
+  // prevent starting inference if we've already started another instance
+  // TODO: is there better JS way of doing this?
+ if(!runningInference) {
+    runningInference = true;
+
+    // Update the status log
+    status.innerHTML = 'Generating...';
+
+    // Grab the original text
+    let original = textInput.value;
+    // Make it to lower case
+    let txt = original.toLowerCase();
+
+    // Check if there's something to send
+    if (txt.length > 0) {
+      // This is what the LSTM generator needs
+      // Seed text, temperature, length to outputs
+      // TODO: What are the defaults?
+      let data = {
+        seed: txt,
+        temperature: tempSlider.value,
+        length: lengthSlider.value
+      };
+
+      // Generate text with the charRNN
+      charRNN.generate(data, gotData);
+
+      // When it's done
+      function gotData(err, result) {
+        // Update the status log
+        status.innerHTML = 'Ready!';
+        resultText.innerHTML = txt + result.sample;
+        runningInference = false;
+      }
+    }
+  }
+}
 
 ```
 
-##
+```html
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Auto Chapter Generator</title>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+  <style>
+  body {background-color: white;font-family:"Lucida Console", Monaco, monospace;font-size:10;color:grey;}
+  h1   {color: blue;}
+  p    {color: black;}
+</style>
+</head>
+
+<body>
+  <h1>Auto Chapter Generator</h1>
+  <h2>This example uses a pre-trained model on the collection of all the chapters (in the form of markdown) in the book Aesthetic Programming: A Handbook of Software Studies
+  <p>seed text:
+    <input id="textInput" value="Ch. 11 Auto Chapter Generator" size="30"/>
+  </p>
+  <p>length:
+    <input id="lenSlider" type="range" min="100" max="2000" value="100"/> <span id="length">2000</span></p>
+  <p>temperature:
+    <input id="tempSlider" type="range" min="0" max="1" step="0.01"/><span id="temperature">0.5</span></p>
+  <p id="status">Loading Model</p>
+  <button id="generate">generate</button>
+   <hr>
+  <p id="result"></p>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
+
+```
+
+## Auto Chapter Generator 
+
+**Index.html**
+
+The load the ml5.js library, you need to following line in your index.html
+```html
+<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+```
+
+In the html file, it contains:
+1. a text input box with the default seed/starting text: Ch. 11 Auto Chapter Generator. The seed is required to predict the next character.
+2. A slider for selecting the number of characters to generate.
+3. A slider for setting the temperature (the value that control the amount of uncertainty of predictions)[^temp] with the range from 0 to 1.
+4. A button with the word 'generate'
+5. A result area that will display the generative text which is below the horizontal line `<hr>`
+
+
 
 ## Exercise in class
 
@@ -171,3 +311,5 @@ The README should address at least the following questions with the help of your
 [^rl]: Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction (1st Edition, 1998)
 
 [^bot]: The text-based conversational bot is developed by Norbert Landsteiner with JavaScript called ElizaBot(elizabot.js) in 2005. The source code can be downloaded here: https://www.masswerk.at/elizabot/ 
+
+[^temp]: The value of temperature relates to the softmax function in mathematics, relating to probability distribution with the input numbers/characters. For high temperature, the probability will distribute evenly resulting in more random result. On the contrary, more expected/conservative result will be generated with low temperature. 
