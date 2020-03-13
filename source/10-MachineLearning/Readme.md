@@ -5,7 +5,7 @@ page_order: 10
 
 ## setup()
 
-![](ch10_1.png)
+![ch10_1](ch10_1.png)
 
 *Figure 10.1: The flow diagram of Eliza (1966) by Joseph Weizenbaum*
 
@@ -24,9 +24,9 @@ In a nutshell, machine learning can be thought of three components: Input, Model
 
 Try the first version of the Teachable Machine, an experiment to explore how machine learning works: https://teachablemachine.withgoogle.com/v1/
 
-![ch10_1.png](xxx.png)
+![ch10_2.png](ch10_2.png)
 
-*Figure 10.1: The interface of the Teachable Machine (ver 1)* 
+*Figure 10.2: The interface of the Teachable Machine (ver 1)* 
 
 This web application includes both input, learning and output. By capturing images from your own web camera, the program utilizes images as the input data. There are three training classifiers that you can build by simply click the colored train button. The three default output modes can be modified by searching for new set of images, text and sound. The most simpliest way to start is to train 3 different set of gestures and facial expressions, then observe the predictive results in various forms. This exercise is to get familiar with the three major components in machine learning: input, learning and output. Furthermore, this execise sets the stage of thinking about the agency of prediction and processes of machine learning.
 
@@ -39,21 +39,21 @@ Machine learning utilizes different algorithms to process the training data set.
 
 **Unsupervised Learning** - Unlike the previous learning model, the data input does not contain a set of labelled data. One of the common tasks with unsupervised learning is clustering (algorithms such as K-mean and Hierarchical Clustering). The goal of this technique is to find similiarities and patterns to group similar entities together, providing insights into underlying patterns of different groups via exploratory analysis. The idea of clustering is to identify similar groups of data in a dataset, segregating groups with similar characteristics. It is commonly used in business and marketing sectors to understand customer preferences so as to do personalization and data marketing by grouping the customers based on their purchasing behavior on certain types of goods. Artists Joana Chicau and Jonathan Reus developed their project *Anatomies of Intelligence*[^AI] based on unsupervised learning model to develop an understanding of anatomical knowledge and computational learning. In their workshops,[^workshop] they suggest the participants to think of two parameters for examining a small image dataset. One of the groups suggest 'cuteness' and 'curlyness' as the parameters, and each of the image will be rated according to these (in the form of x and y axis). As a result, several clusters are formed and sorted, providing a different perspective when looking at images at a glance and seeing their relations in terms of similaries and differences.  
 
-![anatomies](https://cc.au.dk/typo3temp/_processed_/csm_Screen_Shot_2019-06-19_at_15.09.09_8396587104.png)
+![anatomies](ch10_3.png)
 
-*Figure 10.2: Anatomies of Intelligence by Joana Chicau and Jonathan Reus*
+*Figure 10.3: Anatomies of Intelligence by Joana Chicau and Jonathan Reus*
 
-![workshop](xxx.jpg)
+![workshop](ch10_4.png)
 
-*Figure 10.3: Clustering and Sorting images based on the parameters of cutness and curlyness.*
+*Figure 10.4: Clustering and Sorting images based on the parameters of cutness and curlyness.*
 
 **Reinforcement Learning** - This type of learning technique is based on the interaction with the environment, mapping situations into actions.[^rl] The learner (or the agent) do not have any previous data to base on to determine or predict which action to take, rather, it learns by trian and error to yield the maximum rewards. The famous example computer program AlphaGo[^alphago] beats the world champions of the Go broad game in 2017. AlphaGo is able to evaluate positions and select movies via self-taught processes. The use of this type of reinforcement learning is to find the best possible behavior or path it should take in a specific environment, mapping state-action pairs to achieve the maximization of rewards. For the broad game Go, two players compete to control the most territory with the use of black/white stones. Unlike supervised learning that relies on input training data, the characteristics of reinforcement learning is that the program see the environment as a whole, and is able to learn from its own experience via evaluating the effectiveness of each action taken: the "trial-and-error search" and "delayed reward" via sequential decisions, computation, repeated attempts and feedback learning. Each action matters and that counts for the goal of maximizing the territory control as in the game of Go. In this way, reinforcement learning is performed via sequential learning and decisions.
 
 ## Discussion in class
 
-![10_4](ch10_4.png)
+![10_5](ch10_5.png)
 
-*Figure 10.4:  E.L.I.Z.A talking (2013) by Norbert Landsteiner*
+*Figure 10.5:  E.L.I.Z.A talking (2013) by Norbert Landsteiner*
 
 Ths exercise is more returing to the Eliza chatbot by using the works produced by Norbert Landsteiner from 2005-2013:
 
