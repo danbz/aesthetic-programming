@@ -28,7 +28,7 @@ Try the first version of the Teachable Machine, an experiment to explore how mac
 
 *Figure 10.1: The interface of the Teachable Machine (ver 1)* 
 
-This web application includes both input, learning and output. By capturing images from your own web camera, the program utilizes images as the input data. There are three training classifiers that you can build by simply click the colored train button. The three default output modes can be modified by searching for new set of images, text and sound. The most simpliest way to start is to train 3 different set of gestures and facial expressions, then observe the predictive results in various forms. This exercise is to get familiar with the three major components in machine learning: input, learning and output. Furthermore, this execise sets the scence of thinking about the agency of prediction.
+This web application includes both input, learning and output. By capturing images from your own web camera, the program utilizes images as the input data. There are three training classifiers that you can build by simply click the colored train button. The three default output modes can be modified by searching for new set of images, text and sound. The most simpliest way to start is to train 3 different set of gestures and facial expressions, then observe the predictive results in various forms. This exercise is to get familiar with the three major components in machine learning: input, learning and output. Furthermore, this execise sets the stage of thinking about the agency of prediction and processes of machine learning.
 
 ## Machine Learning
 
