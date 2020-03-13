@@ -41,7 +41,7 @@ Machine learning utilizes different algorithms to process the training data set.
 
 ![anatomies](ch10_3.png)
 
-*Figure 10.3: Anatomies of Intelligence by Joana Chicau and Jonathan Reus*
+*Figure 10.3: Anatomies of Intelligence by Joana Chicau and Jonathan Reus. Image courtesy of the artists.*
 
 ![workshop](ch10_4.png)
 
