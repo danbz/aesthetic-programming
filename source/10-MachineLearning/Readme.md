@@ -81,6 +81,7 @@ let
 ## While()
 
 Many of the ideas explored across the chapters of this book come together in relation to ML...
+And at the heart of this is the issue of *learning* (see Nicoilas Malevé on this)
 
 - The Borges story (classification)
 - g: you want to talk more image net? database? /w
