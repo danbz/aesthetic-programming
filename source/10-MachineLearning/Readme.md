@@ -79,6 +79,9 @@ let
 
 
 ## While()
+
+Many of the ideas explored across the chapters of this book come together in relation to ML...
+
 - The Borges story (classification)
 - g: you want to talk more image net? database? /w
 - "AI is a dicursive practice" (Agre - add notes from his paper "Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI" as this will refer back to the beginning of the book); will aslo add notes from Machine Learners by Mackenzie
