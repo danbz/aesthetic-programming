@@ -66,6 +66,11 @@ Ths exercise is more returing to the Eliza chatbot by using the works produced b
 ## Using ml5.js 
 Given the length and the cohesiveness of the book, this chapter will point to the machine learning library called ml5.js, which is a JavaScript framework again that can be run on a web browser like p5.js. With its objective to make machine learning approachable for a broad audience, the library is supported by extensive code examples and tutorials on the website[^ml5].
 
+For this final human writing chapter, we re-appropriate the example from ml5 on the example *CharRNN_Text*. Instead of using the famous corpus Virginia Woolf, we offer another pre-trained model that is based on the collection on all the chapters' markdown in this book. The training model used Recurrent Neural Network (RNN) and Long Short Term Memory (LSTM) for working with sequential data, character by character. This machine learning model is based on supervised learning algorithm, in which the input text has already embeded the relation of each character/symbol sequence as a form of text classification. It is especially useful with the LSTM and RNN because the order and context of the words are important in the context of text generation and prediction (this is related to the area of natural language processing). This type of neural networks can capture long-term dependencies in a corpous in order to make sense of the text pattern through many iterations of training processes. 
+
+![ch10_6](ch10_6.png)
+*Figure 10.6: Auto Chapter Generator*
+
 ## Source Code
 
 ```javascript
