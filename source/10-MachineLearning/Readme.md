@@ -63,7 +63,7 @@ Ths exercise is more returing to the Eliza chatbot by using the works produced b
     - How do you feel when having a conversation with Eliza in response to the language, style, aesthetics and the social forms of interactions?
     - How to you see the ability and potential of technologies to capture and structure feelings and experiences? 
 
-## Using ml5.js 
+## ml5.js library 
 Given the length and maintaining the cohesiveness of the book, this chapter will point to the machine learning library called ml5.js, which is a JavaScript framework again that can be run on a web browser like p5.js. With its objective to make machine learning approachable for a broad audience, the library is supported by extensive code examples and tutorials on the website[^ml5].
 
 For this final human writing chapter, we re-appropriate the example from ml5: *CharRNN_Text*. Instead of using the famous corpus Virginia Woolf, we offer another pre-trained model that is based on the collection on all the chapters' markdown in this book. This is to demonstrate the idea of how the next bonus chapter might be generated with machine operations and learning algorithms. 
@@ -206,7 +206,7 @@ function generate() {
 
 **Index.html**
 
-The load the ml5.js library, you need to following line in your index.html
+The load the ml5.js library as part of your overall sketch, you need to following line in your index.html
 ```html
 <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
 ```
@@ -216,11 +216,11 @@ In the html file, it contains:
 2. A slider for selecting the number of characters to generate.
 3. A slider for setting the temperature (the value that control the amount of uncertainty of predictions)[^temp] with the range from 0 to 1.
 4. A button with the word 'generate'
-5. A result area that will display the generative text which is below the horizontal line `<hr>`
+5. A result area that will display the generative text
 
 **sketch.js**
 
-Selected syntax that is used for loading the training model, submitting the input seed text and getting the result from the ML algorithm:
+Selected syntax that is used for loading the training model, submitting the input seed text and getting the result from the ML algorithm.
 
 ```javascript
 let charRNN;
@@ -229,7 +229,11 @@ function setup() {
     charRNN = ml5.charRNN('./models/AP_book/', modelReady);
     ...
 }
+```
+First is to load the trained model in your sketch with the path `./model/AP_book/`. The callback function `modelReady` will be executed when the model is successfully loaded in the sketch. 
 
+
+```javascript
 function generate() {
 ...
     let data = {
@@ -241,14 +245,19 @@ function generate() {
 ...
     
 }
+```
+Second, we will gather the data from the seed text (inside the text input), temperature value (from the slider) and the length of the predictive text (another slider). 
 
+These data will be passed to the charRNN's method: `charRNN.generate()` with the callback function `gotdata`. 
+
+```javascript
 function gotData(err, result) {
 ...
     resultText.innerHTML = txt + result.sample;
 ...
 }
 ```
-
+Finally, the result will be displayed on the screen within the `gotData` function. 
 
 ## Exercise in class
 
