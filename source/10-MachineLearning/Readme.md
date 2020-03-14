@@ -230,7 +230,7 @@ function setup() {
     ...
 }
 ```
-First is to load the trained model in your sketch with the path `./model/AP_book/`. The callback function `modelReady` will be executed when the model is successfully loaded in the sketch. 
+First is to load the trained model in your sketch with the path `./model/AP_book/` by using the method `charRNN` from the ml5 library. The callback function `modelReady` will be executed when the model is successfully loaded in the sketch. 
 
 
 ```javascript
@@ -248,7 +248,7 @@ function generate() {
 ```
 Second, we will gather the data from the seed text (inside the text input), temperature value (from the slider) and the length of the predictive text (another slider). 
 
-These data will be passed to the charRNN's method: `charRNN.generate()` with the callback function `gotdata`. 
+These data will be passed to the charRNN's method: `charRNN.generate()` in order to process the seed text with the pre-trained model. After the process is completed, then it will run the function `gotdata`. 
 
 ```javascript
 function gotData(err, result) {
