@@ -220,6 +220,29 @@ In the html file, it contains:
 
 **sketch.js**
 
+Indicate the training model:
+
+```javascript
+let charRNN;
+
+function setup() {
+    charRNN = ml5.charRNN('./models/AP_book/', modelReady);
+    ...
+}
+
+function generate() {
+    let data = {
+        seed: txt,
+        temperature: tempSlider.value,
+        length: lengthSlider.value
+    };
+    charRNN.generate(data, gotData);
+}
+
+function gotData(err, result) {
+    resultText.innerHTML = txt + result.sample;
+}
+```
 
 
 ## Exercise in class
