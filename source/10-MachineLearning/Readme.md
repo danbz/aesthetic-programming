@@ -220,7 +220,7 @@ In the html file, it contains:
 
 **sketch.js**
 
-Indicate the training model:
+Selected syntax that is used for loading the training model, submitting the input seed text and getting the result from the ML algorithm:
 
 ```javascript
 let charRNN;
@@ -231,16 +231,21 @@ function setup() {
 }
 
 function generate() {
+...
     let data = {
         seed: txt,
         temperature: tempSlider.value,
         length: lengthSlider.value
     };
     charRNN.generate(data, gotData);
+...
+    
 }
 
 function gotData(err, result) {
+...
     resultText.innerHTML = txt + result.sample;
+...
 }
 ```
 
