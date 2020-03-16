@@ -9,9 +9,9 @@ Following the previous discussion of abstraction concerning objects, this chapte
 
 More specifically, the Turing machine is capable of six types of fundamental operations (at that time there wasn't a thing named computer) — including read, write, move left, move right, change state and halt/stop. Turing suggested these operations could be performed via running an endless tape (like memory/storage in a modern computer) with instructions on what symbols to read and write, as well as how to move. These instructions are fundamental principles of the Turing machine,[^visualization] but also modern computing, with the capability to compute tasks in numbers and auto-generate various processes. These instructions in turn pervade digital culture and seem to underwrite the wider processes of production, consumption and distribution of contemporary (informational) capitalism as we already partly covered in Chapter 4 - Data Capture.    
 
-![turing](ch6_1.jpg)
+![turing](ch5_1.jpg)
 
-*Figure 6.1: An illustration of the Turing Machine*
+*Figure 5.1: An illustration of the Turing Machine*
 
 This chapter thus explores how instructions are fundamental elements of adaptive systems. Although the previous chapter was also about rules in terms of how objects (e.g. tofu) appear and could be interacted with, this chapter will be more about how rules are performed and how they might produce unexpected results.
 
@@ -21,16 +21,16 @@ Focusing on rules and instructions are not only something programmers do, but al
 2. Twelve lines from the midpoint of each of the sides
 3. Twelve lines from each corner 
 
-![drawing2](ch6_2.jpg)
-*Figure 6.2: Sol LeWitt, Wall drawing #289, 1976* [if copyright a problem then use a casey reas example maybe /g]
+![drawing2](ch5_2.jpg)
+*Figure 5.2: Sol LeWitt, Wall drawing #289, 1976* [if copyright a problem then use a casey reas example maybe /g]
 
 It becomes clear how conceptual practices combine idea and action in parallel to how performance works with scores and scripts, and in turn how programs work with instructions and their execution.[^McLean] LeWitt's work lends itself well to computation, and this was taken up by Casy Reas using Processing to render LeWitt's wall drawings from their instructions and thus to explore the parallels of interpretation and process in each case.[^Reas] Despite the quote above, in his accompanying text Reas makes an important distinction in that LeWitt's programs are to be executed and interpreted by people rather than machines as such. Yet it is the close connection and overlaps that interests him — also underlying the development of the Processing as a "software sketchbook" — wanting programming to be as immediate and fluid as the practice of drawing. 
  
 Another example is Joan Truckenbrod who has shown her work *Coded Algorithmic Drawing (#9)* in the same show. The piece with a number of squares of variations in size and angle was coded with the programming language Fortran in the 1970s, simulating moving substance in natural phenomena.[^joan] Simulating real world systems is one of the applications of generative art. The word 'natural' could be further extended to emergent naturally evolving phenomena in the real world. Recursive fractal trees[^tree] and flocking behaviors[^flock] are some of the examples that demonstrate generative and emergent qualities of simulating nature, which is based on the self organization of computation and autonomus agents that evolve over time.
 
-![drawing3](ch6_3.png)
+![drawing3](ch5_3.png)
 
-*Figure 6.3: Joan Truckenbrod, Coded Algorithmic Drawing, 1975* ]
+*Figure 5.3: Joan Truckenbrod, Coded Algorithmic Drawing, 1975* ]
 
 This kind of approach is important not only because of offering a different way to draw and author works by machines based on mathematical logic, but also to provide a sense of machinic creativity that — as in the previous chapter — questions the centrality of human (and more often than not, male) agency. In this chapter we aim to explore more complex combinations that combine people and machines (if not animals, considering our upcoming example is an ant). 
 
@@ -47,9 +47,9 @@ The second program is entitled *Langton's Ant* (1986), a two-dimensional univers
 
 ## Exercise in class (10 PRINT)
 
-![drawing4](ch6_4.png)
+![drawing4](ch5_4.png)
 
-*Figure 6.4: 10 PRINT in p5.js*
+*Figure 5.4: 10 PRINT in p5.js*
 
 [RUNME](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch6_Automatisms/index.html)
 
@@ -102,9 +102,9 @@ function draw() {
 
 This section presents sample code to simulate the cell states, presenting in a two-dimensional grid system in either the color black or white. Based on simple rules, an ant is considered to be the sensor that processes the cell's data as input, then the cell will change it's color by having the ant moving in four possible directions. Gradually, the ant will turn the grid into a more complex system that exhibits emergent behavior over time.
 
-![drawing5](ch6_5.gif)
+![drawing5](ch5_5.gif)
 
-*Figure 6.5: Langton's Ant - Initial steps*
+*Figure 5.5: Langton's Ant - Initial steps*
 
 With the initial direction of an ant pointed upwards (i.e. North position), figure 6.5 shows the initial 33 steps of  *Langton's Ant* in following the two general rules below:
 
@@ -113,15 +113,15 @@ With the initial direction of an ant pointed upwards (i.e. North position), figu
 
 At the beginning, the canvas displays only a grid system and all the individual cells are set in white color. The ant has  four possible directions — UP, RIGHT, DOWN, LEFT — and can turn 90° either left or right subject to the color of the cell. The ant's head is pointing in an UPWARD position at the start, and is located in the middle of the white grid. It then follows rule 1 above to rotate the head direction from UP to RIGHT, then it also changes the white cell to the black and moves forward one unit (pointing to the right as per the new head direction). Then the second step is to follow rule 1 again because the new cell is still white. The ant's head direction will turn right 90° and point from RIGHT to DOWN, and then changes the white cell to black and the ant moves forward one unit. Then the third and forth steps are similar to the previous ones until the ant meets a cell which is black, which is started in step 5. At this point, the ant will follow rule 2 instead to change back the cell's color to white and then turns left 90° instead of the right. The complexity builds. 
 
-![drawing6](ch6_6.gif)
+![drawing6](ch5_6.gif)
 
-*Figure 6.6: Langton's Ant - Process*
+*Figure 5.6: Langton's Ant - Process*
 
-Figure 6.6 shows how the ant starts building the emergent 'highway' pattern[^Moreira] after the first few hundred moves with simple symmetricial patterns. It is then followed by an additional 9000 steps[^Steps] with the seemingly random steps at the center. The highway pattern repeats indefinitely until most of cells are reconfigured, leading to something that is similar to Figure 6.7 at which point the ant is still constantly moving and changing the color of the cells.
+Figure 5.6 shows how the ant starts building the emergent 'highway' pattern[^Moreira] after the first few hundred moves with simple symmetricial patterns. It is then followed by an additional 9000 steps[^Steps] with the seemingly random steps at the center. The highway pattern repeats indefinitely until most of cells are reconfigured, leading to something that is similar to Figure 6.7 at which point the ant is still constantly moving and changing the color of the cells.
 
-![drawing7](ch6_7.png)
+![drawing7](ch5_7.png)
 
-*Figure 6.7: Langton's Ant - a snapshot of emergence*
+*Figure 5.7: Langton's Ant - a snapshot of emergence*
 
 [RUNME](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch6_Automatisms/sketch_6_1/index.html)
 
@@ -314,7 +314,7 @@ Artist David Link has since reconstructed a functional replica of both the hardw
 
 > M. U. C.
 
-## Mini_Exercise[6]: A generative program
+## Mini_Exercise[5]: A generative program
 
 **Objectives:**
 - To implement a rule-based generative program from scratch.
