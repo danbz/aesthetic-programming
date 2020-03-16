@@ -13,7 +13,7 @@ More specifically, the Turing machine is capable of six types of fundamental ope
 
 *Figure 5.1: An illustration of the Turing Machine*
 
-This chapter thus explores how instructions are fundamental elements of adaptive systems. Although the previous chapter was also about rules in terms of how objects (e.g. tofu) appear and could be interacted with, this chapter will be more about how rules are performed and how they might produce unexpected results.
+This chapter thus explores how instructions are fundamental elements of adaptive systems, focusing more about how rules are performed and how they might produce unexpected results.
 
 Focusing on rules and instructions are not only something programmers do, but also something you do when following a knitting pattern or recipe (as we will see with the preparation of tofu later). Artists have also produced artworks that are instruction-based as in the case of the Fluxus and the Conceptual Art movements of the 1960s and 1970s that set out to challenge art's object-ness, and its "dematerialisation".[^Lippard] There are many examples of commentators making the connections between these instruction-based works and computational art,[^Cox] for instance the survey exhibition *Programmed: Rules, Codes, and Choreographies in Art, 1965-2018*,[^exhibition], organized by Christiane Paul at the Whitney Museum of American Art (2018-19), explored how instruction-based practices have both responded to and been shaped by technologies. The work of artist Sol Le Witt is one of the obvious examples here, demonstrating how a concept is based on a set of instructions but the outcome might be different depending on the specific context and how the instructions are executed by other people. LeWitt explains: "The idea becomes a machine that makes the art".[^LeWitt] For example, the work *Wall Drawing #289* consists of three simple instructions but without specific detail on the angles and length of the lines:
 
@@ -106,7 +106,7 @@ This section presents sample code to simulate the cell states, presenting in a t
 
 *Figure 5.5: Langton's Ant - Initial steps*
 
-With the initial direction of an ant pointed upwards (i.e. North position), figure 6.5 shows the initial 33 steps of  *Langton's Ant* in following the two general rules below:
+With the initial direction of an ant pointed upwards (i.e. North position), figure 5.5 shows the initial 33 steps of  *Langton's Ant* in following the two general rules below:
 
 1. If the ant is at a white cell, it turns right 90° and changes to a black cell then moves forward one unit.
 2. If the ant is at a black cell, it turns left 90° and changes to a white cell then moves forward one unit. 
@@ -117,7 +117,7 @@ At the beginning, the canvas displays only a grid system and all the individual 
 
 *Figure 5.6: Langton's Ant - Process*
 
-Figure 5.6 shows how the ant starts building the emergent 'highway' pattern[^Moreira] after the first few hundred moves with simple symmetricial patterns. It is then followed by an additional 9000 steps[^Steps] with the seemingly random steps at the center. The highway pattern repeats indefinitely until most of cells are reconfigured, leading to something that is similar to Figure 6.7 at which point the ant is still constantly moving and changing the color of the cells.
+Figure 5.6 shows how the ant starts building the emergent 'highway' pattern[^Moreira] after the first few hundred moves with simple symmetricial patterns. It is then followed by an additional 9000 steps[^Steps] with the seemingly random steps at the center. The highway pattern repeats indefinitely until most of cells are reconfigured, leading to something that is similar to Figure 5.7 at which point the ant is still constantly moving and changing the color of the cells.
 
 ![drawing7](ch5_7.png)
 
