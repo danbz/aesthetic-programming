@@ -44,14 +44,14 @@ page_order: -2
 * Random(), Noise()
 * Rule-based and Emergent systems
 * Generators and other automatisms (genotypes), love letter generators
-* Mini-ex 6: A generative program
+* Mini-ex 5: A generative program
 
 ## Chapter 6: Object Orientation
 * Design work: TOFU GO by Francis Lam that inspires Winnie's simple version 
 * Objects, Class, Behaviors and Arguments
 * Play objects: with p5.play library
 * Object-oriented thinking: cooking and coding with class struggle (food and recipes, cultural difference)
-* Mini-ex 5: Games with objects
+* Mini-ex 6: Games with objects
 
 ## Chapter 7: Vocable Code
 * Artwork: Vocable Code by Winnie Soon
