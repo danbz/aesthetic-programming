@@ -333,7 +333,7 @@ Artist David Link has since reconstructed a functional replica of both the hardw
 
 **Tasks (RUNME):**
 1. Start with a blank paper. Think of at least two simple rules that you want to implement in a generative program. (You may take reference from Langton's ant (1986) and The Game of Life (1970))
-2. Based on the rules that you set in step 1, then design a generative program that utilizes at least one for-loop/while-loop and one conditional statement but without any direct interactivity. Just let the program run and emerges automatically. (You may also consider to use `noise()` and `random()` syntax if that helps)
+2. Based on the rules that you set in step 1, then design a generative program that utilizes **at least one for-loop/while-loop and one conditional statement** but without any direct interactivity. Just let the program run and emerges automatically. (You may also consider to use `noise()` and `random()` syntax if that helps)
 
 **Questions to think about as README:**
 - What are the rules in your generative program and describe how your program performs over time and how are the running of the rules contingently enabled emergent behaviors? 
