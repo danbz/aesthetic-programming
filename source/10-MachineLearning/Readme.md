@@ -71,6 +71,7 @@ For this final human writing chapter, we re-appropriate the example from ml5: *C
 The training model used Recurrent Neural Network (RNN) and Long Short Term Memory (LSTM) that analyze sequential data, character by character. This machine learning model is based on supervised learning algorithm, in which the input text has already embeded the relation of each character/symbol sequence as a form of text classification. Both LSTM and RNN are especially useful in terms of character by character training because the order and context of the words are important in the context of text generation and prediction (this is related to the area of natural language processing). This type of neural networks can capture long-term dependencies in a corpous in order to make sense of the text pattern through many iterations of training processes. 
 
 ![ch10_6](ch10_6.png)
+
 *Figure 10.6: Auto Chapter Generator*
 
 ## Source Code
