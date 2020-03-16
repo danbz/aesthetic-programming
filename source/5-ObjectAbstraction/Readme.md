@@ -493,12 +493,12 @@ If we apply this to a computational object and its abstraction (its properties a
 - [Eat Food Not Bombs by Ben Grosser](https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI)
 
 **Tasks (RUNME)**
-Think of a simple game that you want to design and implement, what are the objects required? What are their properties and behaviors? At the most basic level, you need to **use class-based object oriented approach** to design your game components that can exhibit certain behaviors (that means you need to at least have a class, constructor and method). If you can master objects and classes, you may further work on a mini game (with basic rules) and/or with p5.play that works with data input and interactive devices (such as keyboard and mouse) that you have learned from previous classes.
+Think of a simple game that you want to design and implement, what are the objects required? What are their properties and behaviors? At the most basic level, you need to **use class-based object oriented approach** to design your game components that can exhibit certain behaviors (that means you need to at least have a class, a constructor and a method). If you can master objects and classes, you may further work on a mini game (with basic rules) and/or with p5.play that works with data input and interactive devices (such as keyboard and mouse) that you have learned from previous classes.
 
 **Questions to think about as README:**
 - **Describe** how does your game/game objects work?
 - **Describe** how you program the objects and their related attributes and methods in your game.
-- **What** are the characteristics of object-oriented programming and the wider implications of abstraction? 
+- Draw upon the assigned reading(s), **what** are the characteristics of object-oriented programming and the wider implications of abstraction? 
 - **Extend/connect** your game project to wider digital culture context, can you think of a digital example and describe how complex details and operations are being **abstracted**?
 
 ## Required readings:
