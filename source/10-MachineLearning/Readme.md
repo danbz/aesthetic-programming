@@ -272,6 +272,7 @@ And at the heart of this is the issue of *learning* (see Nicoilas Malevé on thi
 - g: you want to talk more image net? database? /w
 - "AI is a dicursive practice" (Agre - add notes from his paper "Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI" as this will refer back to the beginning of the book); will aslo add notes from Machine Learners by Mackenzie
 - and paglan and Crawford + Nicolas Malevé. 
+- Are Robots Racist: Reimagining the Default Settings of Technology and Scoeity by Ruha Benjamin , https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4?dl=0
 
 ## Mini_Exercise[10]: Final Project
 
