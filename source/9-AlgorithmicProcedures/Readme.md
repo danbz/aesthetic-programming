@@ -87,12 +87,11 @@ Beyond the more practical use of flowcharts to help with the development of soft
 
 The iterative loop can be clearly seen in the diagram and echoes the principle of the 'strange loop': forced "to eat its own tail" in Babbage's words, altering its own stored program and thus offering the potential to generate new technical and aesthetic forms (already mentioned in chapter ??, with reference to the operations of the Analytical Engine). Taken to its extreme, a 'forkbomb' is a term used in computing to describe a denial-of-service attack in which a computer process continuously replicates itself to deplete available system resources, slowing down or crashing the system due to resource starvation. Reflected in the title of another project, UBERMORGEN's *The Project Formerly Known as Kindle Forkbomb* (2012), used a machine process that stripped comments from YouTube videos: an algorithm compiled the comments and added titles producing an e-book which was then uploaded to the Amazon Kindle e-commerce bookstore.[^pold] This can be seen in the diagram by the re-use of an image of a traditional printing press (Figure 9.3), and further exploited in the combination of diagram and physical books in the installation version (Figure 9.4). What is made apparent in both cases are the algorithmic procedures in operation which both mimics and mocks Amazon's post-Gutengerg e-book production. It thus 'diagrams' the cannibalistic business model, the key principles of which are outlined on the Kindle website: "Get to market fast; Make more money. Keep control."[^kindle] 
 
-![diagram3](ch9_3.png)
+![diagram3](ch9_3.gif)
 
 *Figure 9.3: The Project Formerly Known as Kindle Forkbomb. Courtesy of UBERMORGEN and Kunsthal Aarhus, No Copyright (2012)*
-[do you have a better picture/higher resolution of this? /w Yes I think so and it would be good to use an installation shot too. I will check. /G]
 
-![diagram4](??) [place installation shot here /g]
+![diagram4](ch9_4.jpg) 
 
 *Figure 9.4: The Project Formerly Known as Kindle Forkbomb, installation view, at Kunsthal Aarhus, as part of the exhibition ?? curated by Joasia Krysa. Courtesy of UBERMORGEN and Kunsthal Aarhus, No Copyright (2013)*
 
@@ -110,7 +109,9 @@ The diagrams that we have introduced in this chapter give form to this, and how 
 
 But what is a diagram? Leaving aside the uses of diagrams as functional tools, or for didactic purposes that tend to simplify information (infographics is a case in point), they also feature as a form of expanded aesthetic practice as we hope our examples have somewhat demonstrated. In this chapter we have tried to to reflect these practices in our use of flowcharts as an experimental form. We already mentioned the idea of the diagram as an *abstract machine* in the introduction, and this is the phrase that Deleuze and Guattari use to reflect that matter and form is able to transform itself: abstract machines exhibit *morphogenesis* - a term that we also know from Turing (in chapter ?? - auto-generation). Diagrams instantiate future possibilities in this way that are not predetermined but open-ended and speculative fictions.[^deleuze] Such descriptions might sound themselves to be very abstract but the overall point is clear and scientific (following thermodynamics) in that there are morphogenetic possibilities in things, and systems are continuously traversed by flows (vectors) of energy and matter that do not cancel differences but instead maintain *differences*. What we end up with are speculative geometries, self-organizing forms, and diagrammatic processes that reflect dynamic forces. The diagram is an “image of thought”, in which thinking does not consist of problem-solving but on the contrary, *problem-posing*. We want to point to these distinctive qualities in this chapter somewhat at odds to conventional descriptions of algorithmic procedures. 
 
-Figure ??. Dean Kenning, *Jackson 5 Flowchart* (2017) A4. Marker pen on paper.[^jackson5]
+![diagram5](ch9_5.jpg)
+
+*Figure 9.5. Dean Kenning, Jackson 5 Flowchart (2017) A4. Marker pen on paper.*[^jackson5]
 
 But can we really think about flowcharts as diagrams in Deleuzian terms, as abstract machines? The broad similarity we would claim is the ability to visualize problems and think them through in the process of that very visualization, a “picturing of thought” as Deleuze would have it. In his “On the Diagram (and a Practice of Diagrammatics)”, Simon O’Sullivan provides a summary of this speculative approach:
 
