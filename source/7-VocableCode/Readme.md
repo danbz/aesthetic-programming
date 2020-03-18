@@ -386,9 +386,9 @@ function notNew(getQueer) {
 *Figure 7.9: Full source code for Vocable Code*
 
 ## 7.8 Exercise in class
-1. Work in a group of 3-4.
-2. Download the *Vocable Code* sketch, and run it in your own computer.
-3. Discuss the various computational structures and syntax to understand how things work, and specifically on the relationship between the voice file naming and JSON file structure.
+1. Work as a group.
+2. Download the *Vocable Code* sketch, and run it on your own computer.
+3. Briefly discuss the various computational structures and syntax to understand how things work, and specifically on the relationship between the voice file naming and JSON file structure.
 4. Follow the instruction and record your own voice with your computer or mobile phone. (The program takes wav file format only.)
     - Find a blank paper and prepare to write a sentence.
     - Complete the sentence with the starting words: “Queer is ...”
@@ -403,7 +403,7 @@ function notNew(getQueer) {
     - You may speak on a certain part (phonetics) of the word or sentence. In other words, the word / sentence doesn’t need ot be fully prounced.
     - The first words “queer is” can be omitted.
     - Record your voice, and convert your voice file into wav file format. (The free software audicity could be considered to do the file conversion.)
-5. Add your voice/s and update the program with your own voice/s.
+5. Add your voice/s and update the program with your own voice/s (update the JSON file and put your voice files under the voices folder). Refresh the program and see if you can hear your own voice in connection with other voices.
 6. Advanced: Try to change the presentation of the text, e.g. its color and the animated behavior of the text.
 7. Discuss the different critical and aesthetic aspects of queer code with others.
 
