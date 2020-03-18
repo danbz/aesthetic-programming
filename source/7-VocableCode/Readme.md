@@ -383,10 +383,31 @@ function notNew(getQueer) {
 }
 ```
 
-*Figure 7: Full source code for Vocable Code*
+*Figure 7.9: Full source code for Vocable Code*
 
+## 7.8 Exercise in class
+1. Work in a group of 3-4.
+2. Download the *Vocable Code* sketch, and run it in your own computer.
+3. Discuss the various computational structures and syntax to understand how things work, and specifically on the relationship between the voice file naming and JSON file structure.
+4. Follow the instruction and record your own voice with your computer or mobile phone. (The program takes wav file format only.)
+    - Find a blank paper and prepare to write a sentence.
+    - Complete the sentence with the starting words: “Queer is ...”
+    - Each sentence contains no more than 5 words (the first words - “queer is” - are not included).
+    - It is ok to have just one word in a sentence.
+    - Maximum two sentences/voices.
+    - Download/locate a voice recording app on your smartphone (e.g “Voice Recorder” on Android or "Voice Memos app” on iOS).
+    - Try to find a quiet environment and record your voice, and see if the app works (controlling the start and end of the recording button).
+    - Prepare to record your voice with your written sentence(s).
+    - You may decide the temporality and rhythm of speaking the text.
+    - You may either speak the full word or full sentence with different pitch/tempo/rhythm.
+    - You may speak on a certain part (phonetics) of the word or sentence. In other words, the word / sentence doesn’t need ot be fully prounced.
+    - The first words “queer is” can be omitted.
+    - Record your voice, and convert your voice file into wav file format. (The free software audicity could be considered to do the file conversion.)
+5. Add your voice/s and update the program with your own voice/s.
+6. Advanced: Try to change the presentation of the text, e.g. its color and the animated behavior of the text.
+7. Discuss the different critical and aesthetic aspects of queer code with others.
 
-## 7.8 While()
+## 7.9 While()
 
 In high-level programming languages like javascript, the source code both sends instructions to machines as well as communicates to humans. In this way, writing source code involves the use of signs and symbols, both semantics and syntactics, and operates across both programming and so-called natural languages. We have also learnt from the previous chapter (Object Orientation) that abstraction is a fundamental concept to software development, which is different from machine operations, and thus puts focus on building abstractions as objects. The use of class/object structures (text as object instances), conditional structures, procedures and subroutines, such as the for-loop, are some of the ways to present and execute the source code. However, in the context of machine execution, those variable names - the semantic layer - are stripped away and this kind of human-readable information is avoided. This 'secondary notation' does not have any effect on the execution of the program apart from memory size but provides other potential uses. In this way, choosing meaningful identifier names is more for the purpose of expression and communication, and our example above demonstrates this purpose clearly. This is where we hear the voice of the programmer.
 
@@ -411,28 +432,6 @@ Although it takes two to make a binary (and set up the heterosexist paradigm), c
 The biography of Turing as a gay man at a time when homosexuality was still a criminal offense in the UK adds weight to these claims.[^Hodges] Humans do not necessarily follow or agree with rules as prescribed by society, and although Turing's sexuality was tolerated in the context of the war effort, under 'normal' (peaceful) conditions it was perceived to be a problem and he was found guiltly of gross indecency in 1952.<[^Plant3] Here, as Plant describes, the historical facts collapse into bizarre allegory. First of all, he was proscribed oestrogen to reduce his sexual urge, under the dubious logic that to all intensive purposes he was female; this was a reversal of earlier judgements to give gay men testosterone to make them more male, yet ironically making them sex machines. Plant concludes the Turing story: "Two years later he was dead [...] 'By the side of the table was an apple, out of which several bites had been taken.' And this queer tale does not end here. There are rainbow logos with Turing's missing bytes on every Apple Macintosh machine."[^Plant4]
 
 To conclude this chapter, through exploring the making of *Vocable Code* with its strange syntax - such as notFalse and notTrue - and its many repetitive decimals, we would like to emphasise our central point: Queer is... making binaries strange.  
-
-## 7.9 Exercise in class
-1. Work in a group of 3-4.
-2. Download the *Vocable Code* sketch, and run it in your own computer.
-3. Discuss the various computational structures and syntax to understand how things work, and specifically on the relationship between the voice file naming and JSON file structure.
-4. Follow the instruction and record your own voice with your computer or mobile phone. (The program takes wav file format only.)
-    - Find a blank paper and prepare to write a sentence.
-    - Complete the sentence with the starting words: “Queer is ...”
-    - Each sentence contains no more than 5 words (the first words - “queer is” - are not included).
-    - It is ok to have just one word in a sentence.
-    - Maximum two sentences/voices.
-    - Download/locate a voice recording app on your smartphone (e.g “Voice Recorder” on Android or "Voice Memos app” on iOS).
-    - Try to find a quiet environment and record your voice, and see if the app works (controlling the start and end of the recording button).
-    - Prepare to record your voice with your written sentence(s).
-    - You may decide the temporality and rhythm of speaking the text.
-    - You may either speak the full word or full sentence with different pitch/tempo/rhythm.
-    - You may speak on a certain part (phonetics) of the word or sentence. In other words, the word / sentence doesn’t need ot be fully prounced.
-    - The first words “queer is” can be omitted.
-    - Record your voice, and convert your voice file into wav file format. (The free software audicity could be considered to do the file conversion.)
-5. Add your voice/s and update the program with your own voice/s.
-6. Advanced: Try to change the presentation of the text, e.g. its color and the animated behavior of the text.
-7. Discuss the different critical and aesthetic aspects of queer code with others.
 
 ## 7.10 Mini_Exercise[7]: E-lit
 **Task and Objective:**
