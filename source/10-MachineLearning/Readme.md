@@ -272,7 +272,7 @@ And at the heart of this is the issue of *learning* (see Nicoilas Malevé on thi
 - g: you want to talk more image net? database? /w
 - "AI is a dicursive practice" (Agre - add notes from his paper "Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI" as this will refer back to the beginning of the book); will aslo add notes from Machine Learners by Mackenzie
 - and paglan and Crawford + Nicolas Malevé. 
-- Are Robots Racist: Reimagining the Default Settings of Technology and Scoeity by Ruha Benjamin , https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4?dl=0
+- Are Robots Racist: Reimagining the Default Settings of Technology and Scoeity by Ruha Benjamin , 2019 https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4?dl=0
 
 ## Mini_Exercise[10]: Final Project
 
@@ -310,6 +310,7 @@ The README should address at least the following questions with the help of your
 
 ## Required reading:
 - Christian Ulrik Andersen & Geoff Cox. FEELING, FAILURE, FALLACIES in *A Peer-Reviewed Journal About Machine Feelings*, vol(8)1, 2019. https://aprja.net//article/view/115409 
+- Ruha Benjamin. Are Robots Racist: Reimagining the Default Settings of Technology and Society, 2019, lecture video: https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4
 
 ## Further reading:
 - Weizenbaum Joseph (1966) ELIZA - a computer program for the study of natural language communication between man and machine. *Commun ACM* 9(1):36–4
