@@ -283,8 +283,8 @@ Therefore, each divided cell is presented in the structure of a 2-dimensional ar
 
 3. It is clear that in simulating and abstracting living systems — such as the complex behaviour of insects — there is a focus on emergent and generative process over end-result. In terms of creative process this allows us to think about how rules and instructions can produce complexity and other forms of control and agency. 
 Let's discuss the following questions:
-- Can you think of, and describe, other systems and processes that exhibit emergent behaviour? 
-- How would you understand autonomy in this context?[^Watz] To what extent do you consider the machine to be an active agent in generative systems? What are the implications for wider culture?
+    - Can you think of, and describe, other systems and processes that exhibit emergent behaviour? 
+    - How would you understand autonomy in this context?[^Watz] To what extent do you consider the machine to be an active agent in generative systems? What are the implications for wider culture?
 
 ## While()
 
