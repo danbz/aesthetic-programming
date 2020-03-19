@@ -34,7 +34,7 @@ Such practice of algorithmic drawing has been explored by pioneer artist Joan Tr
 
 This kind of approach is important not only because of offering a different way to draw and author works by machines based on mathematical logic, but also to provide a sense of machinic creativity that — as in the previous chapter — questions the centrality of human (and more often than not, male) agency. In this chapter we aim to explore more complex combinations that combine people and machines (if not animals, considering our upcoming example is an ant). 
 
-If we were to draw an ellipse in white color at the x and y coordinate 100 and 120, there is a direct correspondance to the instruction. The outcome is predictable as the instruction is followed to the rule, but this need not be the case as certain kinds of instructions or combinations of instructions can generate unruly results. This *generative* capacity throws into question the extent of control and autonomy over the creative process, made clear in the following definition of generative art:[^galanter]
+If we were to draw an ellipse in white color at the x and y coordinate 100 and 120, there is a direct correspondance to the instruction. The outcome is predictable as the instruction is followed to the rule, but this need not be the case as certain kinds of instructions or combinations of instructions can generate unruly results. As this is described in the book *10 PRINT CHR$(205.5+RND(1)); : GOTO 10*, the 10 Print program utilizes randomness to generate unpredictable processes and outcomes as perceived by human. This *generative* capacity throws into question the extent of control and autonomy over the creative process, made clear in the following definition of generative art:[^galanter]
 > Generative art refers to any art practice where artists use a system, such as a set of natural languages, rules, a computer program, a machine, or other procedural invention, which is set into motion with some degree of autonomy contributing to or resulting in a completed work of art.
 
 As we can see this definition does not limit itself to the use of computers and this is important to bear in mind as we proceed to focus on our sample code. In the following two examples we explore rule-based programs that unfold some of these issues of auto-generation, but as with previous ones we are interested in the wider implications. 
@@ -53,7 +53,7 @@ The second program is entitled *Langton's Ant* (1986), a two-dimensional univers
 
 [RUNME](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch6_Automatisms/index.html)
 
-1. Read the source code of *10 PRINT* then copy it and run it on your own computer.
+1. **Read** the source code of *10 PRINT* then copy it and run it on your own computer.
 
 ```javascript
 let x = 0;
@@ -81,26 +81,27 @@ function draw() {
 }
 ```
 
-2. Discuss the following rules of *10 PRINT* and map them to the related lines of code:
+2. **Discuss** the following rules of *10 PRINT* and map them to the related lines/blocks of code:
     - Throw a dice randomly and half of the time print a backward slash
     - The other half of the time will print a forward slash
 
-3. Discuss the use and the role of randomness in *10 PRINT* and in the arts, literature, and games? What is randomness to a computer?[^Haahr] 
-
+3. Drawing upon the text *Randomness*:
+    - **How** is the flow of control being implemented in *10 PRINT*? 
+    - **What** might be the (un)predictability of regularity? 
+    - **What** is randomness to a computer?[^Haahr] 
+    - **Discuss** the use and the role of randomness in *10 PRINT* and in the arts, literature, and games? 
+    
 4. Try to modify the existing rules, for example: 
-    - Can we have other outputs than just the backward and forward slash?
-    - Can we chnage the size and color of the slashes? 
+    - Can we change the size, color and spacing of the slashes? 
+    - Can we have other outputs beyond just the backward and forward slash?
 
 5. *10 PRINT* has been appropriated by many artists, designers and students. Take a look at some of the different possibilities for [*10 PRINT*](https://twitter.com/search?q=%2310print&src=typd) that are documented on Twitter. Your in-class task is to create a sketch with a clear set of rules and that operates as a modified version of *10 PRINT*.  
 
-## Randomness 
-[w: add randomness here /w]
-
 ## Langton's Ant 
 
-*Langton's Ant* is a classical mathematical game that simulates the molecular logic of a living ant. The simulation of the cell's state is inspired by the classical Turing machine that can perform computational tasks with the manipulation of symbols on a strip of tape according to a set of rules. 
+While 10 Print focuses both on instructions and randomness in terms of generative processes, we want to further look into the concept on *emergence* in the context of automated and generative program which is heavily based on simple rules that generate complex patterns/outcomes. *Langton's Ant* is a classical mathematical game that simulates the molecular logic of a living ant. The simulation of the cell's state is inspired by the classical Turing machine that can perform computational tasks with the manipulation of symbols on a strip of tape according to a set of rules. 
 
-This section presents sample code to simulate the cell states, presenting in a two-dimensional grid system in either the color black or white. Based on simple rules, an ant is considered to be the sensor that processes the cell's data as input, then the cell will change it's color by having the ant moving in four possible directions. Gradually, the ant will turn the grid into a more complex system that exhibits emergent behavior over time.
+This section presents the sample code to simulate the cell states, presenting in a two-dimensional grid system in either the color black or white. Based on simple rules, an ant is considered to be the sensor that processes the cell's data as input, then the cell will change it's color by having the ant moving in four possible directions. Gradually, the ant will turn the grid into a more complex system that exhibits emergent behavior over time.
 
 ![drawing5](ch5_5.gif)
 
@@ -227,9 +228,10 @@ Based on the above example, there are three areas can help in slowing down or zo
 2. `frameRate(20);`: Lower the frame rate value can help slower down the program
 3.  `draw()`: This function contains a for-loop where n is the number of steps of the ant so if desired you can reduce the `n < 100` to `n < 1` in the line `for (let n = 0; n < 100; n++) {` thus instructing the program to only process n steps per frame.
 
-Intead of going through the code line by line, this next part is more to show what each function does. 
+Intead of going through the code line by line, this following is more to show what each function does. 
 
-- `function setup()`: This is more to setup the canvas size, initiate the ant's head direction, frame rate, color and to prepare drawing the background grid structure. 
+- `function setup()`: This is more to setup the canvas size, initiate the ant's head direction, frame rate, color and to prepare drawing the background grid structure.
+
 - `function drawGrid()`: To divide the canvas into a grid structure with lines.
 
 - `function draw()`: This is the main function to check against the two rules of Langton's Ant and change the color of cells. 
@@ -278,6 +280,7 @@ Therefore, each divided cell is presented in the structure of a 2-dimensional ar
 1. Give yourself sometime to read and tinker with the code, as well as to observe the different stages of *Langton's Ant*. 
 
 2. Right now the *Langton's Ant* program is more about representing the world of an ant through abstraction, such as limited cell color, as well as only being able to move in four directions and turn 90°. Rethink the rules that have been implemented. Can you try changing the existing rules or adding new rules so that the ant behaves differently? (Recall what you have changed in the previous exercise on *10 PRINT*.) 
+
 3. It is clear that in simulating and abstracting living systems — such as the complex behaviour of insects — there is a focus on emergent and generative process over end-result. In terms of creative process this allows us to think about how rules and instructions can produce complexity and other forms of control and agency. 
 Let's discuss the following questions:
 - Can you think of, and describe, other systems and processes that exhibit emergent behaviour? 
