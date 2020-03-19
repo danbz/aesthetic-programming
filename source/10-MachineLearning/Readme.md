@@ -11,7 +11,7 @@ page_order: 10
 
 This chapter begins with a diagram that describes how a chatbot works procedurally. *Eliza*, a computer program but it also often describes  as a computer therapist, was considered as one of the first chatbot created in the mid-1960s by Joseph Weizenbaum at MIT. Involving natural language processing, *Eliza* implements keywords recognition in which it takes in textual input from a patient and output responses that simulate a doctor therapist by following certain language rules with psycological considerations. Such conversations involve an "illusion" [^Weizenbaum] in order to make machines behave/respond more like a human. Evidently, *Eliza* exhibits some kinds of intelligence, with reference to the Turing Test[^Turing], not only it is able to maintain a relevant and personalized dialogue over time but also as Weizenbaum notes, "[s]ome subjects have been very hard to convince that ELIZA is not human."[^Weizenbaum2]  
 
-This kind of artificial intelligence deals with expectation, and in computer science terms it is called prediction. What do you expect when you are interacting with a device/screen interface that is based on the experience, in terms of human interactions, that you have in the past? Latest technology of voice assistants in particular demonstrates the smoothness of conversations, such as asking the assistant to switch on/off a light, to play a certain style of music, to reserve a table at a restaurant and to seek help from customer services, these assistants are able to *learn the style* of human behaviors mostly based on the training datasets, techniques to process and analyze large amounts of natural language data, as well as recognizing patterns through machine learning models.
+This kind of artificial intelligence deals with expectation, and in computer science terms it is called prediction. What do you expect when you are interacting with a device/screen interface (in terms of human interactions that are based on past experience)? Latest technology of voice assistants in particular demonstrates the smoothness of conversations, such as asking the assistant to switch on/off a light, to play a certain style of music, to reserve a table at a restaurant and to seek help from customer services, these assistants are able to *learn the style* of human behaviors mostly based on the training datasets, techniques to process and analyze large amounts of natural language data, as well as recognizing patterns through machine learning models.
 
 However, pattern recognization is a political issue as argued by Clemens Apprich, and it is not a neutral process as it involves the identification of input data and the *discrimination* of information.[^clemens] We have experienced inherent ideologies in machine learning processes, such as gender stereotypes as found in the online translation tool,[^online] the AI chatbot that was regarded as racist,[^tay] racial bias as found in facial recognization regarding border control and criminal identification [^face], and many others. In this way, machine learning or pattern recognition is not only about smoothening tasks and accurate predictions in terms of technical operation but also as what Hito Steyerl would describe as "political operation" as it creates "subjects and subjection, knowledge, authority" as well as classification and categorization.[^hito]
 
@@ -32,7 +32,7 @@ This web application includes both input, learning and output. By capturing imag
 
 Prepare three set of gestures that can be captured by a web camera. Each gesture has to be repeatedly trained by long pressing the colored 'TRAIN' button to generate the machine learning model based on the sample captured images as input data (also called training dataset) (see figure 10.2). This process is to train a computer to recognize the specific gestures/images/poses so that when there is new image input (as test dataset), the teachable machine can classify those gestures with various confidence levels, and then predict the corresponding output results.The three default output modes (GIF, Sound, Speech) can be further modified by searching for other set of images, sound and text.
 
-The most simpliest way to start is:
+The most simpliest ways to start are:
 
 1. Train 3 different set of gestures/facial expressions, then observe the predictive results as being shown in the various output forms.
 2. Test the boundary of recognition or classification problems, such as havng different test dataset with various marginal gestures or under different conditions:  What can(not) be recognized?
@@ -42,12 +42,12 @@ This exercise is to get familiar with the three major components in machine lear
 
 ## Machine Learning
 
-Machine learning utilizes different algorithms to process the training data set. In an elementry and general way of understanding machine learning, there are 3 types of algorithms: Supervised Learning, Unsupervised Learning and Reinforcement Learning.
+Machine learning utilizes different statistical algorithms to process the training data set. In a general way of understanding machine learning, there are 3 types of algorithms: Supervised Learning, Unsupervised Learning and Reinforcement Learning.
 
-**Supervised Learning** - This type of supervised learning is based on the training dataset in the form of input/output pairs as expected answers. A classic example would be spam emails in which an algorithm would learn from the sample of emails that are labelled as "spam" or "not spam". The goal of this type of learning is to map input to output labels. For example, with the new email as the input, what would be the predicted output result? Can it be classified as a spam email and then put into the junk mailbox? In mathematical terms, it is expressed as Y=f(X), the goal is to predict the output variable Y from the new input data (X). But this prediction process relies on classification techniques, such as binary classification (such as yes/no, spam/not spam, male/female) and multi-classification (such as different object labellings like dog, cat, human in visual recognization), which is based on the process of data labelling and this is where the politics come in. Data is being categorized in a discrete manner, and there are many reasons that might lead to a 'normative' prediction on a more complex subject like gender, race and identity beyond a relatively discrete spam classification.
+**Supervised Learning** - This type of supervised learning is based on the training dataset in the form of input/output pairs as expected answers. A classic example would be spam emails in which an algorithm would learn from the sample of emails that are labelled as "spam" or "not spam". The goal of this type of learning is to map the data input to output labels. For example, with the new email as the input, what would be the predicted output result? Can it be classified as a spam email and then put into a junk mailbox? In mathematical terms, it is expressed as Y=f(X), the goal is to predict the output variable Y from the new input data (X). But this prediction process relies on classification techniques, for example binary classification (such as yes/no, spam/not spam, male/female) and multi-classification (such as different object labellings like dog, cat, human in visual recognization), which is based on the process of data labelling and this is where the politics come in. Data is being categorized in a discrete manner, and there are many reasons that might lead to a 'normative' prediction and this is especially problematic on complex subjects like gender, race and identity, because these are operated beyond binary and discrete type of classification.
 [g: show either the Nicolai's work on imageNet or Anna Ridler in relation to image classification here? a screenshot with a captioned then more explanation in the footnotes? /w]
 
-**Unsupervised Learning** - Unlike the previous learning model, the data input does not contain a set of labelled data. One of the common tasks with unsupervised learning is clustering (algorithms such as K-mean and Hierarchical Clustering). The goal of this technique is to find similiarities and patterns to group similar entities together, providing insights into underlying patterns of different groups via exploratory analysis. The idea of clustering is to identify similar groups of data in a dataset, segregating groups with similar characteristics. It is commonly used in business and marketing sectors to understand customer preferences so as to do personalization and data marketing by grouping the customers based on their purchasing behavior on certain types of goods. Artists Joana Chicau and Jonathan Reus developed their project *Anatomies of Intelligence*[^AI] based on unsupervised learning model to develop an understanding of anatomical knowledge and computational learning. In their workshops,[^workshop] they suggest the participants to think of two parameters for examining a small image dataset. One of the groups suggest 'cuteness' and 'curlyness' as the parameters, and each of the image will be rated according to these (in the form of x and y axis). As a result, several clusters are formed and sorted, providing a different perspective when looking at images at a glance and seeing their relations in terms of similaries and differences.  
+**Unsupervised Learning** - Unlike the previous learning model, the training dataset does not contain a set of labelled data. One of the common tasks with unsupervised learning is clustering (algorithms such as K-mean and Hierarchical Clustering). The goal of this technique is to find similiarities and patterns, providing insights into underlying patterns of different groups via exploratory analysis. The idea of clustering is to identify similar groups of data in a dataset, segregating groups with similar characteristics. It is commonly used in business and marketing sectors to understand customer preferences so as to do personalization and data marketing by grouping the customers based on their purchasing behavior on certain types of goods. Artists Joana Chicau and Jonathan Reus developed their project *Anatomies of Intelligence*[^AI] based on unsupervised learning model to develop an understanding of anatomical knowledge and computational learning. In their workshops,[^workshop] they suggest the participants to think of two parameters for examining a small image dataset. One of the groups suggest 'cuteness' and 'curlyness' as the parameters, and each of the image will be rated and sorted according to these (in the form of x and y axis). As a result, several clusters are formed, providing a different perspective when looking at images at a glance and seeing their relations in terms of similaries and differences.  
 
 ![anatomies](ch10_3.png)
 
@@ -55,9 +55,9 @@ Machine learning utilizes different algorithms to process the training data set.
 
 ![workshop](ch10_4.png)
 
-*Figure 10.4: Clustering and Sorting images based on the parameters of cutness and curlyness.*
+*Figure 10.4: Clustering and Sorting images based on the parameters of cuteness and curlyness.*
 
-**Reinforcement Learning** - This type of learning technique is based on the interaction with the environment, mapping situations into actions.[^rl] The learner (or the agent) do not have any previous data to base on to determine or predict which action to take, rather, it learns by trian and error to yield the maximum rewards. The famous example computer program AlphaGo[^alphago] beats the world champions of the Go broad game in 2017. AlphaGo is able to evaluate positions and select movies via self-taught processes. The use of this type of reinforcement learning is to find the best possible behavior or path it should take in a specific environment, mapping state-action pairs to achieve the maximization of rewards. For the broad game Go, two players compete to control the most territory with the use of black/white stones. Unlike supervised learning that relies on input training data, the characteristics of reinforcement learning is that the program see the environment as a whole, and is able to learn from its own experience via evaluating the effectiveness of each action taken: the "trial-and-error search" and "delayed reward" via sequential decisions, computation, repeated attempts and feedback learning. Each action matters and that counts for the goal of maximizing the territory control as in the game of Go. In this way, reinforcement learning is performed via sequential learning and decisions.
+**Reinforcement Learning** - This type of learning technique is based on the interaction with the environment, mapping situations into actions.[^rl] The learner (or the agent) do not have any previous data to base on to determine or predict which action to take, rather, it learns by trial and error to yield the maximum rewards. The famous example computer program AlphaGo[^alphago] beats the world champions of the Go broad game in 2017. AlphaGo is able to evaluate positions and select moves via self-taught processes. The use of this type of reinforcement learning is to find the best possible behavior or path it should take in a specific environment, mapping state-action pairs to achieve the maximization of rewards. For the broad game Go, two players compete to control the most territory with the use of black/white stones. Unlike supervised learning that relies on input training data, the characteristics of reinforcement learning is that the program see the environment as a whole, and is able to learn from its own experience via evaluating the effectiveness of each action taken: the "trial-and-error search" and "delayed reward" via sequential decisions, computation, repeated attempts and feedback learning. Each action matters and that counts for the goal of maximizing the territory control as in the game of Go. In this way, reinforcement learning is performed via sequential learning and decisions.
 
 ## Discussion in class
 
@@ -65,20 +65,20 @@ Machine learning utilizes different algorithms to process the training data set.
 
 *Figure 10.5:  E.L.I.Z.A talking (2013) by Norbert Landsteiner*
 
-Ths exercise is more returing to the Eliza chatbot by using the works produced by Norbert Landsteiner from 2005-2013:
+Ths exercise is more returning to the Eliza chatbot by using the works produced by Norbert Landsteiner from 2005-2013:
 
-1. Visit the Eliza Test by clicking the button 'Next step' from **https://www.masswerk.at/elizabot/eliza_test.html** to see the original example given by Joseph Weizenbaum in his article on ELIZA
-2. Then visit the work *E.L.I.Z.A talking* (2013) via the link **https://www.masswerk.at/eliza/** to explore and experience the conversation with your own words.[^bot]
+1. Visit the Eliza Test by clicking the button 'Next step' via the link **https://www.masswerk.at/elizabot/eliza_test.html** to see the original example given by Joseph Weizenbaum in his article on ELIZA
+2. Then visit the work *E.L.I.Z.A talking* (2013) via the link **https://www.masswerk.at/eliza/** to explore and experience the conversation with your own interactions.[^bot]
 3. Share your experience about the original conversation given by Joseph Weizenbaum and your conversation with the bot:
     - How do you feel when having a conversation with Eliza in response to the language, style, aesthetics and the social forms of interactions?
-    - How to you see the ability and potential of technologies to capture and structure feelings and experiences?
+    - How to you see the ability, potential and limitation of technologies to capture and structure feelings and experiences?
 
 ## ml5.js library
 Given the length and maintaining the cohesiveness of the book, this chapter will point to the machine learning library called ml5.js, which is a JavaScript framework again that can be run on a web browser like p5.js. With its objective to make machine learning approachable for a broad audience, the library is supported by extensive code examples and tutorials on the website[^ml5].
 
-For this final human writing chapter, we re-appropriate the example from ml5: *CharRNN_Text*. Instead of using the famous corpus Virginia Woolf, we offer another pre-trained model that is based on the collection on all the chapters' markdown in this book. This is to demonstrate the idea of how the next bonus chapter might be generated with machine operations and learning algorithms.
+For this final human writing chapter, we re-appropriate the example from ml5: *CharRNN_Text*. Instead of using the famous corpus Virginia Woolf that is provided via the original example, we offer another pre-trained model[^training] that is based on the collection on all the chapters' markdown on this book. This is to demonstrate the idea of how the next bonus chapter could be generated with training data, machine operations and learning algorithms.
 
-The training model used Recurrent Neural Network (RNN) and Long Short Term Memory (LSTM) that analyze sequential data, character by character. This machine learning model is based on supervised learning algorithm, in which the input text has already embeded the relation of each character/symbol sequence as a form of text classification. Both LSTM and RNN are especially useful in terms of character by character training because the order and context of the words are important in the context of text generation and prediction (this is related to the area of natural language processing). This type of neural networks can capture long-term dependencies in a corpous in order to make sense of the text pattern through many iterations of training processes.
+The training model used Recurrent Neural Network (RNN) and Long Short Term Memory (LSTM) that analyze sequential data, character by character. This machine learning model is based on supervised learning algorithm, in which the input text has already embeded the relation of each character/symbol sequence as a form of text classification. Both LSTM and RNN are especially useful in terms of character by character training because the order and context of the text are important in order to generate sentences that made sense to readers (this is related to the area of natural language processing). This type of neural networks can capture long-term dependencies in a corpus in order to make sense of the text pattern through many iterations of training processes.
 
 ![ch10_6](ch10_6.png)
 
@@ -199,7 +199,7 @@ function generate() {
     <input id="textInput" value="Ch. 11 Auto Chapter Generator" size="30"/>
   </p>
   <p>length:
-    <input id="lenSlider" type="range" min="100" max="2000" value="100"/> <span id="length">2000</span></p>
+    <input id="lenSlider" type="range" min="100" max="2000" value="1000"/> <span id="length">1000</span></p>
   <p>temperature:
     <input id="tempSlider" type="range" min="0" max="1" step="0.01"/><span id="temperature">0.5</span></p>
   <p id="status">Loading Model</p>
@@ -210,29 +210,30 @@ function generate() {
 </body>
 
 </html>
-
 ```
 
 ## Auto Chapter Generator
 
 **Index.html**
 
-The load the ml5.js library as part of your overall sketch, you need to following line in your index.html
+To load the ml5.js library as part of the overall sketch, you need the following line in your index.html just like importing other libriaries as discussed in Chapter 4 - Data Capture with the clmtrackr library.
 ```html
 <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
 ```
 
-In the html file, it contains:
-1. A text input box with the default seed/starting text: Ch. 11 Auto Chapter Generator. The seed is required to predict the next character.
-2. A slider for selecting the number of characters to generate.
-3. A slider for setting the temperature (the value that control the amount of uncertainty of predictions)[^temp] with the range from 0 to 1.
-4. A button with the word 'generate'
-5. A result area that will display the generative text
+Apart from the new ml5.js, the html file contains the following:
+1. A text input box with the default seed/input text: Ch. 11 Auto Chapter Generator. The seed text is required as a sequence input to generate the next character, continuously forming a new seed sequence for next character prediction.
+2. A slider for selecting the number of generated characters.
+3. A slider for setting the temperature (the value that control the amount of the uncertainty of predictions)[^temp] with the range from 0 to 1.
+4. The text that shows the status of the program e.g "Loading Model", "Model Loaded", "Generating...", "Ready!".
+5. A button with the word 'generate'
+6. A result area that will display the generative text
 
 **sketch.js**
 
-Selected syntax that is used for loading the training model, submitting the input seed text and getting the result from the ML algorithm.
+The sketch loads the pre-trained model and generates text based on the collected data (in terms of the seed text, length and temperature value).
 
+First is to load the trained model in your sketch with the path `./model/AP_book/` by using the method `charRNN` from the ml5 library. The callback function `modelReady` will be executed when the model is successfully loaded in the sketch, turning the status from "Loading Model" to "Model Loaded".
 ```javascript
 let charRNN;
 
@@ -241,8 +242,8 @@ function setup() {
     ...
 }
 ```
-First is to load the trained model in your sketch with the path `./model/AP_book/` by using the method `charRNN` from the ml5 library. The callback function `modelReady` will be executed when the model is successfully loaded in the sketch.
 
+Second, the program then gathers the data from the seed text (based on the text input), the length of the predictive text (based on the slider), as well as the temperature value (based on the other slider). These data will be passed to the charRNN's method: `charRNN.generate()` in order to process the seed text with the pre-trained model (with a callback function `gotdata()`).
 
 ```javascript
 function generate() {
@@ -254,12 +255,10 @@ function generate() {
     };
     charRNN.generate(data, gotData);
 ...
-
 }
 ```
-Second, we will gather the data from the seed text (inside the text input), temperature value (from the slider) and the length of the predictive text (another slider).
 
-These data will be passed to the charRNN's method: `charRNN.generate()` in order to process the seed text with the pre-trained model. After the process is completed, then it will run the function `gotdata`.
+Finally, the result will be displayed on the screen with the `gotData()` function.
 
 ```javascript
 function gotData(err, result) {
@@ -268,10 +267,11 @@ function gotData(err, result) {
 ...
 }
 ```
-Finally, the result will be displayed on the screen within the `gotData` function.
 
 ## Exercise in class
 
+1. Work with the Auto Chapter Generator program and try to generate text based on different length and temperature values.
+2. The example also links to the earlier chapter "Auto Generator", in terms of nonhuman agency, unpredictability, control and generativtiy, but this chapter adds the elements of predictability and learning. Then what is learning in Machine Learning? What does it know? what is being learnt? 
 
 ## While()
 
@@ -292,13 +292,13 @@ By drawing upon different theoretical and conceptual texts from Aesthetic Progra
 
 To begin with, there are few tips may help you to come up with a project idea:
 
-1. You may take a look again on the themes that we have used and structured for inspiration, including literacy, variable geometry, infinite loops, data capture, object abstraction, auto generator, que(e)ry data, algorithmic procedures, machine learning and the relations to topics like writing and coding, faces, emojis, (micro)temporalities, capture all, interactivity, object orientation, rule-based systems, language, expressivity, electronic literature, algorithms, politics of data processing.
+1. You may take a look again on the themes that we have used and structured for inspiration, including literacy, variable geometry, infinite loops, data capture, object abstraction, auto generator, que(e)ry data, algorithmic procedures, machine learning and the relations to topics like writing and coding, faces, emojis, (micro)temporalities, capture all, interactivity, object orientation, rule-based systems, language and speech, expressivity, electronic literature, algorithms, politics of data processing.
 
-2. Take a look again on all the previous mini exercises and all the questions that were set. Is there any one that you want to explore further?
+2. Take a look again on all the previous mini exercises and all the questions that were set. Are there any that you want to explore further?
 
-3. Is there any assigned/suggested text that you are especially connected with and you want to explore in a deeper way?
+3. Are there any assigned/suggested text that you are especially connected with and you want to explore in a deeper way?
 
-4. Is there any particular technical area that you want to explore and employ in this project such as games, data visualization, 2D/3D objects, and among others.
+4. Are there any particular technical areas that you want to explore and employ in this project such as games, data visualization, 2D/3D objects, and among others.
 
 **RUNME:**
 A piece of software written in p5.js (or a combination of HTML/CSS/JS/P5/node.js).
@@ -367,3 +367,5 @@ The README should address at least the following questions with the help of your
 [^bot]: The text-based conversational bot is developed by Norbert Landsteiner with JavaScript called ElizaBot(elizabot.js) in 2005. The source code can be downloaded here: https://www.masswerk.at/elizabot/
 
 [^temp]: The value of temperature relates to the softmax function in mathematics, relating to probability distribution with the input numbers/characters. For high temperature, the probability will distribute evenly resulting in more random result. On the contrary, more expected/conservative result will be generated with low temperature.
+
+[^training]: The training process is run on a python environment with tensorflow installed. It is developed as multi-layer recurrent neural networks for character-level language models, and it works well with ml5.js. See the open source code by Cristóbal Valenzuela, https://github.com/Paperspace/training-lstm.
