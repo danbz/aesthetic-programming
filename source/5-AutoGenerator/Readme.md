@@ -51,7 +51,7 @@ The second program is entitled *Langton's Ant* (1986), a two-dimensional univers
 
 *Figure 5.4: 10 PRINT in p5.js*
 
-[RUNME](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch6_Automatisms/index.html)
+[RUNME](https://editor.p5js.org/siusoon/sketches/pQlol8qc)
 
 1. **Read** the source code of *10 PRINT* then copy it and run it on your own computer.
 
@@ -124,7 +124,7 @@ Figure 5.6 shows how the ant starts building the emergent 'highway' pattern[^Mor
 
 *Figure 5.7: Langton's Ant - a snapshot of emergence*
 
-[RUNME](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch6_Automatisms/sketch_6_1/index.html)
+[RUNME](https://siusoon.gitlab.io/aesthetic-programming/sketch07/)
 
 ## Source code (Langton's Ant)
 ```javascript
