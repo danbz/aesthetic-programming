@@ -38,20 +38,20 @@ page_order: -2
 * Tracking: The datafication of everything, including your habits (datafied research).
 * Mini-ex 4: CAPTURE ALL: Feedback machines
 
-## Chapter 5: Object Orientation
-* Design work: TOFU GO by Francis Lam that inspires Winnie's simple version 
-* Objects, Class, Behaviors and Arguments
-* Play objects: with p5.play library
-* Object-oriented thinking: cooking and coding with class struggle (food and recipes, cultural difference)
-* Mini-ex 5: Games with objects
-
-## Chapter 6: Automatisms
+## Chapter 5: Auto Generator
 * The Game of Life (1970) by John Horton Conway / Langton's ant (1986) by Chris Langton + [automata I](https://isohale.com/Development-1) by Catherine Griffiths  
 * (Commodore 64 Basic program: 10 PRINT)
 * Random(), Noise()
 * Rule-based and Emergent systems
 * Generators and other automatisms (genotypes), love letter generators
-* Mini-ex 6: A generative program
+* Mini-ex 5: A generative program
+
+## Chapter 6: Object Orientation
+* Design work: TOFU GO by Francis Lam that inspires Winnie's simple version 
+* Objects, Class, Behaviors and Arguments
+* Play objects: with p5.play library
+* Object-oriented thinking: cooking and coding with class struggle (food and recipes, cultural difference)
+* Mini-ex 6: Games with objects
 
 ## Chapter 7: Vocable Code
 * Artwork: Vocable Code by Winnie Soon
@@ -61,21 +61,21 @@ page_order: -2
 * Speaking and Queer Code
 * Mini-ex 7: Write and Generate an electronic literature
 
-## Chapter 8: Que(e)ries
+## Chapter 8: Que(e)ry Data
 * Artwork: Net Art Generator by Cornelia Sollfrank (authorship and copyright, image encryption)
 * Image processing: fetching, loading and display
 * Application Programming Interfaces
 * Data, Archives, Repositories, Libraries, Databases / Critical APIs across time (googlification of everything, literacy)
 * Mini-ex 8: Working with APIs
 
-## Chapter 9: Flow Chart and Diagramming
+## Chapter 9: Algorithmic Procedures
 * Projects: The Status Project by Heath Bunting (in passing) + a series of flow charts (inc. vocable code)
 * cf. table of contents and other drawn diagrams (dean kenning's jackson 5 flowchart)
 * Receipts,  Procedures, Algorithms
 * Mini-ex 9: Representing a program with a flowchart (check algorithm by Goffey is in refs)
 
 ## Chapter 10: Machine Learning
-* Personal assistants: Eliza (1964-1966) + elizabot.js version (2005) by Norbert Landsteiner  
+* Personal assistants: Eliza (1964-1966) + elizabot.js version (2005) by Norbert Landsteiner
 * What is Machine Learning?
 * Machine prediction: Classification and Text generation
 * Experimenting ml5.js library

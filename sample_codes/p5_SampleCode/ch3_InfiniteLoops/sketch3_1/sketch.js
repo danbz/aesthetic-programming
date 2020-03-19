@@ -5,9 +5,7 @@ function setup() {
 }
 
 function draw() {
-  fill(255, 255, 255, 100);  //check this syntax with alpha value
-  noStroke();
-  rect(0, 0, width, height);
+  background(70, 80);  //check this syntax with alpha value
   drawElements();
 }
 
@@ -22,8 +20,13 @@ function drawElements() {
   fill(0,0,0);
   ellipse(35,0,22,22);  //the moving dot(s), the x is the distance from the center
   pop();
+  stroke(255,255,0, 18);
+  //static lines
+  line(60,0,60,height);
+  line(width-60,0,width-60,height);
+  line(0,60,width,60);
+  line(0,height-60,width,height-60);
 
-  stroke(0,0,0, 18);
 }
 
 function windowResized() {
