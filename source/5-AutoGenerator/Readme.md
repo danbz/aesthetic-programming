@@ -321,7 +321,7 @@ Artist David Link has since reconstructed a functional replica of both the hardw
 **Objectives:**
 - To implement a rule-based generative program from scratch.
 - To strengthen the computational use of loops and conditional statements in a program.
-- To reflect upon the concept of automatism conceptually and practically.
+- To reflect upon the concept of auto generator conceptually and practically.
 
 **Get some additional inspiration here:**
 - [{Software} Structure #003 A by Casey Reas](https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks)
