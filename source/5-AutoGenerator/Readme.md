@@ -277,14 +277,13 @@ Therefore, each divided cell is presented in the structure of a 2-dimensional ar
 
 ## Exercise in class
 
-1. Give yourself sometime to read and tinker with the code, as well as to observe the different stages of *Langton's Ant*. 
+1. Give yourself sometime to **read and tinker** with the code, as well as to **observe** the different stages of *Langton's Ant*. 
 
-2. Right now the *Langton's Ant* program is more about representing the world of an ant through abstraction, such as limited cell color, as well as only being able to move in four directions and turn 90°. Rethink the rules that have been implemented. Can you try changing the existing rules or adding new rules so that the ant behaves differently? (Recall what you have changed in the previous exercise on *10 PRINT*.) 
+2. Right now the *Langton's Ant* program is more about representing the world of an ant through abstraction, such as limited cell color, as well as only being able to move in four directions and turn 90°. Rethink the rules that have been implemented. Can you try **changing the existing rules or adding new rules** so that the ant behaves differently? (Recall what you have changed in the previous exercise on *10 PRINT*.) 
 
-3. It is clear that in simulating and abstracting living systems — such as the complex behaviour of insects — there is a focus on emergent and generative process over end-result. In terms of creative process this allows us to think about how rules and instructions can produce complexity and other forms of control and agency. 
-Let's discuss the following questions:
-    - Can you think of, and describe, other systems and processes that exhibit emergent behaviour? 
-    - How would you understand autonomy in this context?[^Watz] To what extent do you consider the machine to be an active agent in generative systems? What are the implications for wider culture?
+3. It is clear that in simulating and abstracting living systems — such as the complex behaviour of insects — there is a focus on emergent and generative process over end-result. In terms of creative process this allows us to think about how rules and instructions can produce complexity and other forms of control and agency. Let's discuss the following questions:
+    - Can you **think of, and describe**, other systems and processes that exhibit emergent behaviour? 
+    - How would you **understand autonomy** in this context?[^Watz] To what extent do you consider **the machine to be an active agent** in generative systems? **What** are the implications for wider culture?
 
 ## While()
 
