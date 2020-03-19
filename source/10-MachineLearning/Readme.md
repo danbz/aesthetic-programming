@@ -22,19 +22,29 @@ In a nutshell, machine learning can be thought of three components: Input, Model
 
 ## Exercise in class
 
-Try the first version of the Teachable Machine, an experiment to explore how machine learning works: https://teachablemachine.withgoogle.com/v1/
+Try the first version of the Teachable Machine,[^tm1] an experiment to explore how machine learning works: https://teachablemachine.withgoogle.com/v1/
 
 ![ch10_2.png](ch10_2.png)
 
-*Figure 10.2: The interface of the Teachable Machine (ver 1)* 
+*Figure 10.2: The interface of the Teachable Machine (ver 1)*
 
-This web application includes both input, learning and output. By capturing images from your own web camera, the program utilizes images as the input data. There are three training classifiers that you can build by simply click the colored train button. The three default output modes can be modified by searching for new set of images, text and sound. The most simpliest way to start is to train 3 different set of gestures and facial expressions, then observe the predictive results in various forms. This exercise is to get familiar with the three major components in machine learning: input, learning and output. Furthermore, this execise sets the stage of thinking about the agency of prediction and processes of machine learning.
+This web application includes both input, learning and output. By capturing images from your own web camera, the program utilizes images as the input data. There are three training classifiers that you can play with.
+
+Prepare three set of gestures that can be captured by a web camera. Each gesture has to be repeatedly trained by long pressing the colored 'TRAIN' button to generate the machine learning model based on the sample captured images as input data (also called training dataset) (see figure 10.2). This process is to train a computer to recognize the specific gestures/images/poses so that when there is new image input (as test dataset), the teachable machine can classify those gestures with various confidence levels, and then predict the corresponding output results.The three default output modes (GIF, Sound, Speech) can be further modified by searching for other set of images, sound and text.
+
+The most simpliest way to start is:
+
+1. Train 3 different set of gestures/facial expressions, then observe the predictive results as being shown in the various output forms.
+2. Test the boundary of recognition or classification problems, such as havng different test dataset with various marginal gestures or under different conditions:  What can(not) be recognized?
+3. What happens when you just do the training with only a few images? How does this amount of training input data change the way of machine prediction?
+
+This exercise is to get familiar with the three major components in machine learning: input, learning and output and the relation between data and these components. Furthermore, this execise sets the stage of thinking about the agency of prediction and processes of machine learning.
 
 ## Machine Learning
 
 Machine learning utilizes different algorithms to process the training data set. In an elementry and general way of understanding machine learning, there are 3 types of algorithms: Supervised Learning, Unsupervised Learning and Reinforcement Learning.
 
-**Supervised Learning** - This type of supervised learning is based on the training dataset in the form of input/output pairs as expected answers. A classic example would be spam emails in which an algorithm would learn from the sample of emails that are labelled as "spam" or "not spam". The goal of this type of learning is to map input to output labels. For example, with the new email as the input, what would be the predicted output result? Can it be classified as a spam email and then put into the junk mailbox? In mathematical terms, it is expressed as Y=f(X), the goal is to predict the output variable Y from the new input data (X). But this prediction process relies on classification techniques, such as binary classification (such as yes/no, spam/not spam, male/female) and multi-classification (such as different object labellings like dog, cat, human in visual recognization), which is based on the process of data labelling and this is where the politics come in. Data is being categorized in a discrete manner, and there are many reasons that might lead to a 'normative' prediction on a more complex subject like gender, race and identity beyond a relatively discrete spam classification. 
+**Supervised Learning** - This type of supervised learning is based on the training dataset in the form of input/output pairs as expected answers. A classic example would be spam emails in which an algorithm would learn from the sample of emails that are labelled as "spam" or "not spam". The goal of this type of learning is to map input to output labels. For example, with the new email as the input, what would be the predicted output result? Can it be classified as a spam email and then put into the junk mailbox? In mathematical terms, it is expressed as Y=f(X), the goal is to predict the output variable Y from the new input data (X). But this prediction process relies on classification techniques, such as binary classification (such as yes/no, spam/not spam, male/female) and multi-classification (such as different object labellings like dog, cat, human in visual recognization), which is based on the process of data labelling and this is where the politics come in. Data is being categorized in a discrete manner, and there are many reasons that might lead to a 'normative' prediction on a more complex subject like gender, race and identity beyond a relatively discrete spam classification.
 [g: show either the Nicolai's work on imageNet or Anna Ridler in relation to image classification here? a screenshot with a captioned then more explanation in the footnotes? /w]
 
 **Unsupervised Learning** - Unlike the previous learning model, the data input does not contain a set of labelled data. One of the common tasks with unsupervised learning is clustering (algorithms such as K-mean and Hierarchical Clustering). The goal of this technique is to find similiarities and patterns to group similar entities together, providing insights into underlying patterns of different groups via exploratory analysis. The idea of clustering is to identify similar groups of data in a dataset, segregating groups with similar characteristics. It is commonly used in business and marketing sectors to understand customer preferences so as to do personalization and data marketing by grouping the customers based on their purchasing behavior on certain types of goods. Artists Joana Chicau and Jonathan Reus developed their project *Anatomies of Intelligence*[^AI] based on unsupervised learning model to develop an understanding of anatomical knowledge and computational learning. In their workshops,[^workshop] they suggest the participants to think of two parameters for examining a small image dataset. One of the groups suggest 'cuteness' and 'curlyness' as the parameters, and each of the image will be rated according to these (in the form of x and y axis). As a result, several clusters are formed and sorted, providing a different perspective when looking at images at a glance and seeing their relations in terms of similaries and differences.  
@@ -59,16 +69,16 @@ Ths exercise is more returing to the Eliza chatbot by using the works produced b
 
 1. Visit the Eliza Test by clicking the button 'Next step' from **https://www.masswerk.at/elizabot/eliza_test.html** to see the original example given by Joseph Weizenbaum in his article on ELIZA
 2. Then visit the work *E.L.I.Z.A talking* (2013) via the link **https://www.masswerk.at/eliza/** to explore and experience the conversation with your own words.[^bot]
-3. Share your experience about the original conversation given by Joseph Weizenbaum and your conversation with the bot: 
+3. Share your experience about the original conversation given by Joseph Weizenbaum and your conversation with the bot:
     - How do you feel when having a conversation with Eliza in response to the language, style, aesthetics and the social forms of interactions?
-    - How to you see the ability and potential of technologies to capture and structure feelings and experiences? 
+    - How to you see the ability and potential of technologies to capture and structure feelings and experiences?
 
-## ml5.js library 
+## ml5.js library
 Given the length and maintaining the cohesiveness of the book, this chapter will point to the machine learning library called ml5.js, which is a JavaScript framework again that can be run on a web browser like p5.js. With its objective to make machine learning approachable for a broad audience, the library is supported by extensive code examples and tutorials on the website[^ml5].
 
-For this final human writing chapter, we re-appropriate the example from ml5: *CharRNN_Text*. Instead of using the famous corpus Virginia Woolf, we offer another pre-trained model that is based on the collection on all the chapters' markdown in this book. This is to demonstrate the idea of how the next bonus chapter might be generated with machine operations and learning algorithms. 
+For this final human writing chapter, we re-appropriate the example from ml5: *CharRNN_Text*. Instead of using the famous corpus Virginia Woolf, we offer another pre-trained model that is based on the collection on all the chapters' markdown in this book. This is to demonstrate the idea of how the next bonus chapter might be generated with machine operations and learning algorithms.
 
-The training model used Recurrent Neural Network (RNN) and Long Short Term Memory (LSTM) that analyze sequential data, character by character. This machine learning model is based on supervised learning algorithm, in which the input text has already embeded the relation of each character/symbol sequence as a form of text classification. Both LSTM and RNN are especially useful in terms of character by character training because the order and context of the words are important in the context of text generation and prediction (this is related to the area of natural language processing). This type of neural networks can capture long-term dependencies in a corpous in order to make sense of the text pattern through many iterations of training processes. 
+The training model used Recurrent Neural Network (RNN) and Long Short Term Memory (LSTM) that analyze sequential data, character by character. This machine learning model is based on supervised learning algorithm, in which the input text has already embeded the relation of each character/symbol sequence as a form of text classification. Both LSTM and RNN are especially useful in terms of character by character training because the order and context of the words are important in the context of text generation and prediction (this is related to the area of natural language processing). This type of neural networks can capture long-term dependencies in a corpous in order to make sense of the text pattern through many iterations of training processes.
 
 ![ch10_6](ch10_6.png)
 
@@ -203,7 +213,7 @@ function generate() {
 
 ```
 
-## Auto Chapter Generator 
+## Auto Chapter Generator
 
 **Index.html**
 
@@ -231,7 +241,7 @@ function setup() {
     ...
 }
 ```
-First is to load the trained model in your sketch with the path `./model/AP_book/` by using the method `charRNN` from the ml5 library. The callback function `modelReady` will be executed when the model is successfully loaded in the sketch. 
+First is to load the trained model in your sketch with the path `./model/AP_book/` by using the method `charRNN` from the ml5 library. The callback function `modelReady` will be executed when the model is successfully loaded in the sketch.
 
 
 ```javascript
@@ -244,12 +254,12 @@ function generate() {
     };
     charRNN.generate(data, gotData);
 ...
-    
+
 }
 ```
-Second, we will gather the data from the seed text (inside the text input), temperature value (from the slider) and the length of the predictive text (another slider). 
+Second, we will gather the data from the seed text (inside the text input), temperature value (from the slider) and the length of the predictive text (another slider).
 
-These data will be passed to the charRNN's method: `charRNN.generate()` in order to process the seed text with the pre-trained model. After the process is completed, then it will run the function `gotdata`. 
+These data will be passed to the charRNN's method: `charRNN.generate()` in order to process the seed text with the pre-trained model. After the process is completed, then it will run the function `gotdata`.
 
 ```javascript
 function gotData(err, result) {
@@ -258,7 +268,7 @@ function gotData(err, result) {
 ...
 }
 ```
-Finally, the result will be displayed on the screen within the `gotData` function. 
+Finally, the result will be displayed on the screen within the `gotData` function.
 
 ## Exercise in class
 
@@ -271,7 +281,7 @@ And at the heart of this is the issue of *learning* (see Nicoilas Malevé on thi
 - The Borges story (classification)
 - g: you want to talk more image net? database? /w
 - "AI is a dicursive practice" (Agre - add notes from his paper "Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI" as this will refer back to the beginning of the book); will aslo add notes from Machine Learners by Mackenzie
-- and paglan and Crawford + Nicolas Malevé. 
+- and paglan and Crawford + Nicolas Malevé.
 - Are Robots Racist: Reimagining the Default Settings of Technology and Scoeity by Ruha Benjamin , 2019 https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4?dl=0
 
 ## Mini_Exercise[10]: Final Project
@@ -309,7 +319,7 @@ The README should address at least the following questions with the help of your
 - Open question: How do you see the project as a critical work in itself with some of the understanding of the inner workings of software and its material conditions?
 
 ## Required reading:
-- Christian Ulrik Andersen & Geoff Cox. FEELING, FAILURE, FALLACIES in *A Peer-Reviewed Journal About Machine Feelings*, vol(8)1, 2019. https://aprja.net//article/view/115409 
+- Christian Ulrik Andersen & Geoff Cox. FEELING, FAILURE, FALLACIES in *A Peer-Reviewed Journal About Machine Feelings*, vol(8)1, 2019. https://aprja.net//article/view/115409
 - Ruha Benjamin. Are Robots Racist: Reimagining the Default Settings of Technology and Society, 2019, lecture video: https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4
 
 ## Further reading:
@@ -342,6 +352,8 @@ The README should address at least the following questions with the help of your
 
 [^ml5]: See https://ml5js.org/.
 
+[^tm1]: Teachable Machine 2.0 allows user to train their models and export them for further use. Teachable Machine built upon the free and open source tensorflow.js library, developed by Google Brain team, to preprocessing data, building machine learning models and structures.
+
 [^AI]: https://anatomiesofintelligence.github.io/
 
 [^workshop]: https://anatomiesofintelligence.github.io/workshop_presentation.html
@@ -352,6 +364,6 @@ The README should address at least the following questions with the help of your
 
 [^rl]: Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction (1st Edition, 1998)
 
-[^bot]: The text-based conversational bot is developed by Norbert Landsteiner with JavaScript called ElizaBot(elizabot.js) in 2005. The source code can be downloaded here: https://www.masswerk.at/elizabot/ 
+[^bot]: The text-based conversational bot is developed by Norbert Landsteiner with JavaScript called ElizaBot(elizabot.js) in 2005. The source code can be downloaded here: https://www.masswerk.at/elizabot/
 
-[^temp]: The value of temperature relates to the softmax function in mathematics, relating to probability distribution with the input numbers/characters. For high temperature, the probability will distribute evenly resulting in more random result. On the contrary, more expected/conservative result will be generated with low temperature. 
+[^temp]: The value of temperature relates to the softmax function in mathematics, relating to probability distribution with the input numbers/characters. For high temperature, the probability will distribute evenly resulting in more random result. On the contrary, more expected/conservative result will be generated with low temperature.
