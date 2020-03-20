@@ -267,7 +267,7 @@ function gotData(err, result) {
 ## While()
 
 Many of the ideas explored across the chapters of this book come together in relation to ML...
-And at the heart of this is the issue of *learning* (see Nicoilas Malevé on this)
+And at the heart of this is the issue of *learning* (see Nicoilas Malevé on this) -> also A.L. Samuel's 1959 paper with detailed discussion of learning which i think is quite useful to understand the groundworks. 
 
 - The Borges story (classification)
 - g: you want to talk more image net? database? /w
