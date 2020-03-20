@@ -3,7 +3,7 @@ page_order: 10
 
 ## Machine Learning
 
-[g: in reality, this chapter will be lightly introduced because it is quite overwelmned with machine learning terms and processes given the previous difficult chapters and principles like loops, oop, api etc. Also towards the end, we are more focused on their final project. that's why i take an approach to talk about machine feeling w/ Eliza first for the ex /w] 
+[g: in reality, this chapter will be lightly introduced because it is quite overwelmned with machine learning terms and processes given the previous difficult chapters and principles like loops, oop, api etc. Also towards the end, we are more focused on their final project. that's why i take an approach to talk about machine feeling w/ Eliza first for the ex /w]
 
 ## setup()
 
@@ -350,8 +350,6 @@ The README should address at least the following questions with the help of your
 [^workshop]: The workshop is based on the project Anatonmies of Intelligence with a focus on data classification and clustering: https://anatomiesofintelligence.github.io/workshop_presentation.html
 
 [^alphago]: Silver, David, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert, et al. ‘Mastering the Game of Go without Human Knowledge’. *Nature* 550, no. 7676 (October 2017): 354–59. https://doi.org/10.1038/nature24270.
-
-[^pathmind]: https://pathmind.com/wiki/deep-reinforcement-learning
 
 [^rl]: Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction (1st Edition, 1998)
 
