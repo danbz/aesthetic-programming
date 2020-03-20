@@ -79,7 +79,7 @@ Given the length limitation and maintaining the cohesiveness of the book, this c
 
 For this final human writing chapter, we re-appropriate the example from ml5: *CharRNN_Text*. Instead of using the famous corpus Virginia Woolf that is provided via the original example, we offer another pre-trained model[^training] that is based on the collection on all the chapters' markdown on this book. This is to demonstrate the idea of how the next bonus chapter could be generated with training data, machine operations and learning algorithms.
 
-The training model used Recurrent Neural Network (RNN) and Long Short Term Memory (LSTM) that analyze sequential data, character by character. This machine learning model is based on supervised learning algorithm, in which the input text has already embeded the relation of each character/symbol sequence as a form of text classification. Both LSTM and RNN are especially useful in terms of character by character training because the order and context of the text are important in order to generate sentences that make sense to readers (this is related to the area of natural language processing). This type of neural networks can capture long-term dependencies in a corpus in order to make sense of the text pattern through many iterations of training processes.
+The training process has used Recurrent Neural Network (RNN) and Long Short Term Memory (LSTM) that analyze and model sequential data, character by character. This machine learning model is based on supervised learning algorithm in order to calculate the statistical relation of each character/symbol as sequences in terms of text classification. Both LSTM and RNN are especially useful in terms of character by character training because the order and context of the text are important in order to generate sentences that make sense to readers (this is related to the area of natural language processing). This type of neural networks can capture long-term dependencies in a corpus in order to make sense of the text pattern through many iterations of training processes.
 
 ![ch10_6](ch10_6.png)
 
@@ -234,7 +234,7 @@ function setup() {
 }
 ```
 
-Second, the program then gathers the data from the seed text (based on the text input), the length of the predictive text (based on the slider), as well as the temperature value (based on the other slider). These data will be passed to the charRNN's method: `charRNN.generate()` in order to process the seed text with the pre-trained model (with a callback function `gotdata()`).
+Second, the program then collects the data of the seed text (based on the text input), the length of the predictive text (based on the slider), as well as the temperature value (based on the other slider). These data will be passed to the charRNN's method: `charRNN.generate()` in order to process the seed text with the pre-trained model (with a callback function `gotdata()`). Theoretically, the predictive text learnt the style from all the chapters and then generate new text.
 
 ```javascript
 function generate() {
@@ -317,7 +317,7 @@ The README should address at least the following questions with the help of your
 - Weizenbaum Joseph (1966) ELIZA - a computer program for the study of natural language communication between man and machine. *Commun ACM* 9(1):36–4
 - Kate Crawford and Vladan Joler. Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources, 2018. Web: https://anatomyof.ai/
 - Clemens Apprich, Wendy Hui Kyong Chun, Florian Cramer, Hito Steyerl, *[Pattern Discrimination: In Search of Media](https://meson.press/wp-content/uploads/2018/11/9783957961457-Pattern-Discrimination.pdf)*, Minneapolis, London: University of Minnesota Press, 2018.
-- Geoff Cox. Machine ways of seeing. *Unthinking Photography*, 2016, web: https://unthinking.photography/articles/ways-of-machine-seeing
+- Geoff, Cox. “Ways of Machine Seeing.” *A Peer-Reviewed Journal About* 6, no. 1 (April 1, 2017): 8–15. https://doi.org/10.7146/aprja.v6i1.116007.
 
 ## Notes
 
