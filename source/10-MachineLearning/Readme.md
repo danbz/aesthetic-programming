@@ -86,8 +86,6 @@ The training model used Recurrent Neural Network (RNN) and Long Short Term Memor
 ## Source Code
 
 ```javascript
-//LSTM Generator example with p5.js
-
 let charRNN;
 let textInput;
 let lengthSlider;
@@ -138,7 +136,6 @@ function modelReady() {
 // Generate new text
 function generate() {
   // prevent starting inference if we've already started another instance
-  // TODO: is there better JS way of doing this?
  if(!runningInference) {
     runningInference = true;
 
@@ -146,15 +143,10 @@ function generate() {
     status.innerHTML = 'Generating...';
 
     // Grab the original text
-    let original = textInput.value;
-    // Make it to lower case
-    let txt = original.toLowerCase();
-
+    let txt = textInput.value + " ";
     // Check if there's something to send
     if (txt.length > 0) {
-      // This is what the LSTM generator needs
       // Seed text, temperature, length to outputs
-      // TODO: What are the defaults?
       let data = {
         seed: txt,
         temperature: tempSlider.value,
@@ -166,7 +158,6 @@ function generate() {
 
       // When it's done
       function gotData(err, result) {
-        // Update the status log
         status.innerHTML = 'Ready!';
         resultText.innerHTML = txt + result.sample;
         runningInference = false;
@@ -174,7 +165,6 @@ function generate() {
     }
   }
 }
-
 ```
 
 ```html
@@ -220,7 +210,7 @@ To load the ml5.js library as part of the overall sketch, you need the following
 <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
 ```
 
-Apart from the new ml5.js, the html file contains the following:
+Apart from the new ml5.js, the html file contains the following DOM elements:
 1. A text input box with the default seed/input text: Ch. 11 Auto Chapter Generator. The seed text is required as a sequence input to generate the next character, continuously forming a new seed sequence for next character prediction.
 2. A slider for selecting the number of generated characters.
 3. A slider for setting the temperature (the value that control the amount of the uncertainty of predictions)[^temp] with the range from 0 to 1.
@@ -345,17 +335,17 @@ The README should address at least the following questions with the help of your
 
 [^hito]: Hito Steyerl, "A Sea of Data: Pattern Recognition and Corporate Animism )Forked Version)" in *Pattern Discrimination* (Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl), Minnesota: meason press, 2018, p.3
 
-[^john]: ref
+[^john]: John, Berger. *Ways of Seeing*. London: Penguin, 1972. Print
 
-[^cox]: ref
+[^cox]: Geoff, Cox. “Ways of Machine Seeing.” *A Peer-Reviewed Journal About* 6, no. 1 (April 1, 2017): 8–15. https://doi.org/10.7146/aprja.v6i1.116007.
 
 [^ml5]: See https://ml5js.org/.
 
 [^tm1]: Teachable Machine 2.0 allows user to train their models and export them for further use. Teachable Machine built upon the free and open source tensorflow.js library, developed by Google Brain team, to preprocessing data, building machine learning models and structures.
 
-[^AI]: https://anatomiesofintelligence.github.io/
+[^AI]: The project Anatomies of Intelligence: https://anatomiesofintelligence.github.io/
 
-[^workshop]: https://anatomiesofintelligence.github.io/workshop_presentation.html
+[^workshop]: The workshop is based on the project Anatonmies of Intelligence with a focus on data classification and clustering: https://anatomiesofintelligence.github.io/workshop_presentation.html
 
 [^alphago]: Silver, David, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert, et al. ‘Mastering the Game of Go without Human Knowledge’. *Nature* 550, no. 7676 (October 2017): 354–59. https://doi.org/10.1038/nature24270.
 
