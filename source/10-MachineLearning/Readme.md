@@ -267,13 +267,15 @@ function gotData(err, result) {
 ## While()
 
 Many of the ideas explored across the chapters of this book come together in relation to ML...
-And at the heart of this is the issue of *learning* (see Nicoilas Malevé on this) -> also A.L. Samuel's 1959 paper with detailed discussion of learning which i think is quite useful to understand the groundworks. 
+And at the heart of this is the issue of *learning* (see Nicoilas Malevé on this) -> also A.L. Samuel's 1959 paper with detailed discussion of learning which i think is quite useful to understand the groundworks.
 
 - The Borges story (classification)
 - g: you want to talk more image net? database? /w
 - "AI is a dicursive practice" (Agre - add notes from his paper "Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI" as this will refer back to the beginning of the book); will aslo add notes from Machine Learners by Mackenzie
 - and paglan and Crawford + Nicolas Malevé.
 - Are Robots Racist: Reimagining the Default Settings of Technology and Scoeity by Ruha Benjamin , 2019 https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4?dl=0
+- environmental issue with ML training models: https://www.technologyreview.com/s/613630/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes/
+- 
 
 ## Mini_Exercise[10]: Final Project
 
