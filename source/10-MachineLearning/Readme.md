@@ -5,6 +5,12 @@ page_order: 10
 
 [g: in reality, this chapter will be lightly introduced because it is quite overwelmned with machine learning terms and processes given the previous difficult chapters and principles like loops, oop, api etc. Also towards the end, we are more focused on their final project. that's why i take an approach to talk about machine feeling w/ Eliza first for the ex /w]
 
+note for next iteration:
+1/ emphasis more on pre-trained models and the politics there
+2/ sequence of exercise > need rearrange
+3/ environmental issue and monopoly of resources
+4/ a little more on tensorflow.js <-> ml5.js
+
 ## setup()
 
 ![ch10_1](ch10_1.png)
@@ -275,7 +281,7 @@ And at the heart of this is the issue of *learning* (see Nicoilas Malevé on thi
 - and paglan and Crawford + Nicolas Malevé.
 - Are Robots Racist: Reimagining the Default Settings of Technology and Scoeity by Ruha Benjamin , 2019 https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4?dl=0
 - environmental issue with ML training models: https://www.technologyreview.com/s/613630/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes/
-- 
+
 
 ## Mini_Exercise[10]: Final Project
 
