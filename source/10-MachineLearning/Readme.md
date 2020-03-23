@@ -318,7 +318,7 @@ The README should address at least the following questions with the help of your
 - Open question: How do you see the project as a critical work in itself with some of the understanding of the inner workings of software and its material conditions?
 
 ## Required reading:
-- Christian Ulrik Andersen & Geoff Cox. FEELING, FAILURE, FALLACIES in *A Peer-Reviewed Journal About Machine Feelings*, vol(8)1, 2019. https://aprja.net//article/view/115409
+- Nathan Allen, Jones. “My Monstituces Composer: Looking for the Pre-Emergent Social Consciousness of AI in Small Data Literary Synthesis.” *Media-N* 16, no. 1 (March 19, 2020): 45–66. https://doi.org/10.21900/j.median.v16i1.222.
 - Ruha Benjamin. Are Robots Racist: Reimagining the Default Settings of Technology and Society, 2019, lecture video: https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4
 
 ## Further reading:
