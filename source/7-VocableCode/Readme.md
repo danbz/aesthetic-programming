@@ -434,9 +434,8 @@ The biography of Turing as a gay man at a time when homosexuality was still a cr
 To conclude this chapter, through exploring the making of *Vocable Code* with its strange syntax - such as notFalse and notTrue - and its many repetitive decimals, we would like to emphasise our central point: Queer is... making binaries strange.  
 
 ## 7.10 Mini_Exercise[7]: E-lit
-**Task and Objective:**
-- To design a piece of electronic literature that utilizes text as the main medium (but in recognition that text can take various forms, including code and voice).
-- To implement JSON files for text organization, storage and retrieval.  
+**Objective:**
+- To understand how JSON works technically, in terms of storing data and how data can be retrieved via code.
 - To reflect upon the aesthetics of code and language, as well as the multiple aural dimensions of an e-lit.
 
 **Get some additional inspiration here:**
@@ -448,7 +447,12 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
 - [A House of Dust, 1967 by Alison Knowles and James Tenney, reimplemented by Nick Montfort](https://nickm.com/memslam/a_house_of_dust.html)
 - [Rita library by Daniel Howe](http://rednoise.org/rita/) 
 
-**Questions to think about:**
+**Tasks (RUNME):**
+
+1. To design a piece of electronic literature that utilizes text as the main medium (but in recognition that text can take various forms, including code and voice).
+2. To implement JSON file(s) for text organization, storage and retrieval.  
+
+**Questions to think about as README:**
 - **Provide** a title of your work and a short description of the work (within 1000 characters).
 - **Describe** your program in terms of how it works, and what you have used and learnt?
 - **Analyze and articulate** your work:
