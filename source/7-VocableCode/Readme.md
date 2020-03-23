@@ -449,9 +449,10 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
 - [Rita library by Daniel Howe](http://rednoise.org/rita/) 
 
 **Questions to think about:**
-- Describe what is the program about and how it works?
-- Try to contextualize your sketch:
-  - Analyze your own e-lit work by using the text *Vocable Code* or other texts that address code/voice/language.
+- **Provide** a title of your work and a short description of the work (within 1000 characters).
+- **Describe** your program in terms of how it works, and what you have used and learnt?
+- **Analyze and articulate** your work:
+  - Analyze your own e-lit work by using the text *Vocable Code* and/or *The Aesthetics of Generative Code* (or other texts that address code/voice/language) in relation to code and language.
   - How would you reflect upon various layers of voices and/or the performativity of code in your program?
 
 ## Required reading:
