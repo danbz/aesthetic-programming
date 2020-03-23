@@ -6,10 +6,10 @@ page_order: 10
 [g: in reality, this chapter will be lightly introduced because it is quite overwelmned with machine learning terms and processes given the previous difficult chapters and principles like loops, oop, api etc. Also towards the end, we are more focused on their final project. that's why i take an approach to talk about machine feeling w/ Eliza first for the ex /w]
 
 note for next iteration:
-1/ emphasis more on pre-trained models and the politics there
-2/ sequence of exercise > need rearrange
-3/ environmental issue and monopoly of resources
-4/ a little more on tensorflow.js <-> ml5.js
+1. emphasis more on pre-trained models and the politics there
+2. sequence of exercise > need rearrange
+3. environmental issue and monopoly of resources
+4. a little more on tensorflow.js <-> ml5.js
 
 ## setup()
 
