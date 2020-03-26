@@ -16,7 +16,7 @@ To make some of these inter-acting entities tangible, and to offer a less-determ
 
 *net.art generator* (nag)[^nag] - an application that runs on a web browser to generate new images - was first produced by artist Cornelia Sollfrank in 1997, and the latest version 5b has been updated by Winnie Soon in 2017. The interface requires the user to enter a title which then functions as the search term, and to enter a name as author. Sollfrank's initial idea was to 'hack' a net.art competition called *Extension* by generating several hundred submission entries with fake international female artist profiles. The program that generated the entries was called *Female Extension* - an undercover example of net.art in itself - to make ironic feminist comment on the under-representation of women artists in the media art scene at that time.[^extension] Sollfrank created not only fictitious names, but also email addresses, phone numbers, and addresses for each applicant, along with an example of original net.art work.
 
-Preconceptions of geeky male hacker culture are challenged in this work, as well as in earlier documentaries where fake female hackers were interviewed, further emphasized in the naming of the cyberfeminist group she was part of: "Old Boys Network".[^obn] Sollfrank's ironic claim that "a smart artist makes the machine do the work" (itself a hack of Lewitt's maxim, as referred in in Chapter 5) has relevance here too as a clarification of "hacking the art operating system", as she puts it.[^hack]
+Preconceptions of geeky male hacker culture are challenged in this work, as well as in earlier documentaries where fake female hackers were interviewed, further emphasized in the naming of the cyberfeminist group she was part of: "Old Boys Network".[^obn] Sollfrank's ironic claim that "a smart artist makes the machine do the work" (itself a hack of Lewitt's maxim, as referred in Chapter 5) has relevance here too as a clarification of "hacking the art operating system", as she puts it.[^hack]
 
 *Female Extension* was later developed into *nag* as a web application and a functional tool for generating images from available data on the fly to further question normative authorship, copyright and some of the underlying infrastructures of artistic production. The latest version of *nag* generates images by combining the data that is sent from Google via the web search API. Interestingly there is a daily limit set at one hundred API requests, which means that once exceeded users will experience a customized error page and images can no longer be retrieved. The issue of visibility thus shifts from a politics of representation (data on female artists) to the nonrepresentational realm of APIs and to what extent we are allowed access to hidden layers of software that queries the available data and generates new arrangements.  
 
@@ -30,7 +30,7 @@ Go to *net.art generator* (https://nag.iap.de/) and explore the generation of im
 
 ## Image processing: Fetching, Loading and Display
 
-The following sample code is a snippet from *nag* showing the web API's logic of request and response: requested data passes via a Web API and then Google returns the corresponding data using the key syntax `loadJSON()`. The major differences of using JSON between this and the previous chapter is that the JSON file is not located in your computer but in the Internet instead. Secondly, the JSON file is in much complex data and organizational structure.  
+The following source code of this chapter is a snippet from *nag* showing the web API's logic of request and response: requested data passes via a Web API and then Google returns the corresponding data using the key syntax `loadJSON()`. The major differences of using JSON between this and the previous chapter is that the JSON file is not located in your computer but in the Internet instead. Secondly, the JSON file is in much complex data and organizational structure.  
 
 [RUNME](https://editor.p5js.org/undefined/present/eeXoeImWT)
 
@@ -45,13 +45,13 @@ The following sample code is a snippet from *nag* showing the web API's logic of
 
 For this chapter's sample code, we are focused on images. The image that we will get from a search engine and we will also demonstrate how to process and display image and pixel data on the screen in a similar manner to *nag*. Here are the key examples of syntax:
 
-* `loadJSON()`[^json]: As discussed in the last chapter, this is a function to load a JSON file (from a file or a URL). In this specific sample code, the function is used to send the web API (in the form of a URL) request and receive the response in the format of JSON. The callback function is to turn the returned data into an object: `loadJSON(request,gotData);`.
+* `loadJSON()`:[^json] As discussed in the last chapter, this is the function to load a JSON file (from a file or a URL). In this specific sample code, the function is used to send the web API (in the form of a URL) request and receive the response in the format of JSON. The callback function is to turn the returned data into an object: `loadJSON(request,gotData);`.
 
-* `loadImage()`[^img1] and `image()`[^img2]: They both are used to load and display images. Data such as sound, files, images, videos are objects that need to be loaded before they can be processed. For this specific sample code, we do not know the location of the file in advance, therefore this cannot be loaded in the function `preload()`. As such, it has to go with the use of the callback function to handle the timegap in relation to availability of the image e.g `loadImage(getImg, img=> {}});`
+* `loadImage()`[^img1] and `image()`:[^img2] They both are used to load and display images. Data such as sound, files, images, videos are objects that need to be loaded before they can be processed. For this specific sample code, we do not know the location of the file in advance, therefore this cannot be loaded in the function `preload()`. As such, it has to go with the use of the callback function to handle the timegap in relation to image availability e.g `loadImage(getImg, img=> {}});`
 
-* `loadPixels()`[^pixel]: If you want to manipulate or analyze the data from an image, this is a function that can extract and manipulate information of each image pixel, loading the data into the pixels[] array.
+* `loadPixels()`:[^pixel] If you want to manipulate or analyze the data from an image, this is a function that can extract and manipulate information of each image pixel, loading the data into the pixels[] array. We will look into this in more details later in the chapter.
 
-* `line()`: This is used in the sample code to visualize the particular color that is extracted from the image's pixels.
+* `line()`: This is used to visualize the color that is extracted from the selected image's pixels over time.
 
 ## Source Code
 
@@ -79,7 +79,7 @@ function setup() {
 }
 
 function fetchImage() {
-	request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&q=" + query + "&searchType=" + searchType;
+	request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&searchType=" + searchType + "&q=" + query;
 	console.log(request);
 	loadJSON(request, gotData); //this is the key syntax and line of code to make a query request and get a query response
 }
@@ -100,13 +100,13 @@ function draw() {
           fill(239);
           rect(0,0,img.width+frameBorder*2, img.height+frameBorder*2);
           //image + status
-	        image(img,0+frameBorder,0+frameBorder);
+					image(img,0+frameBorder,0+frameBorder);
           imgLoaded = true;
         } else {
         //draw lines
           img.loadPixels();
           img_x = floor(random(0,img.width));
-	        img_y = floor(random(0,img.height));
+					img_y = floor(random(0,img.height));
           loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values - 4) can see more here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
           stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
           line(frameBorder+img_x,frameBorder+img_y,frameBorder+img_x,frameBorder+img.height);
@@ -148,21 +148,14 @@ This execise's task is to get the *key ID* and *Engine ID* from Google so that y
 
 4. **Step 4:** Configuration in the control panel
 
-![ch8_3b](ch8_3b.png)
-
-*Figure 8.5: Google Custom Search Interface - search setting configuration*
-
 - Make sure the "Image search" is ON indicated by the blue color
 - Make sure the "Search the entire web" is ON indicated by the blue color
 
 You should now finish the setting and able to run the sample code with your own set of API Key and engine ID.
 
-From Step 1 to Step 4, we can summarize the common process of working with web APIs:
+![ch8_3b](ch8_3b.png)
 
-* Understand the web API's workflow
-* Understand the API specification that indicates what data and parameters are available
-* Understand the returned JSON file format from the web API
-* Registering and getting the API key(s) and may be additional configuration of the setting is needed.
+*Figure 8.5: Google Custom Search Interface - search setting configuration*
 
 ## APIs
 
@@ -181,7 +174,7 @@ function setup() {
 }
 
 function fetchImage() {
-	request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&q=" + query + "&searchType=" + searchType;
+	request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&searchType=" + searchType + "&q=" + query;
 	console.log(request);
 	loadJSON(request, gotData); //this is the key syntax and line of code to make a query request and get a query response
 }
@@ -205,17 +198,24 @@ Figure 8.6 below shows the JSON file format, but it includes a lot of informatio
 
 *Figure 8.6: Data structure in the web API*
 
-In the web console, look for a URL (with your own API key and search engine ID) that starts with "https" and ends with "warhol+flowers" (something like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image). Just simply click it and you will see how data is being structured in the JSON file format on a web browser (see Figure 8.6). You will see that there are more parameters that you can set in order to select more specific forms of data such as image size, image color type, and image dominant color, and so on. The API that we have used in the sample code demonstrates minimal settings.[^setting]
+In the web console, look for a URL (with your own API key and search engine ID) that starts with "https" and ends with "warhol+flowers" (something like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers). Just simply click it and you will see how data is being structured in the JSON file format on a web browser (see Figure 8.6). Additionally, there are more parameters that you can set in order to select more specific forms of data such as image size, image color type, and image dominant color, and so on. The API that we have used in the sample code demonstrates minimal settings.[^setting]
 
 **Cross-Origin Resource Sharing**
 
-Apart from text, requesting, getting and loading images (and other multimedia forms like video and fonts) from a web domain will incure security issues, known in the field as Cross-Origin Resource Sharing (CORS). For this chapter and the corresponding example, the sample code is hosted on a local machine with a local server to run via the *ATOM* code editor, but the API request and the corresponding data is hosted outside of this. The CORS issue related to network requests is designed to prevent "unsafe HTTP requests" (^w3). In the industry environment, it is usually configured at the web server side setting, specifically with the parameter *Access-Control-Allow-Origin* that specifies how network requests can be made and shared.[^http] But for testing purposes, and convenience, we have used a proxy to bypass the issue of CORS as seen in the use of global variable `let imgCORSproxy`, yet it is important to note that this is not a long term solution because the CORS proxy is not always reliable and usually it comes with a file size limitation.[^add-on]
+Apart from text, requesting, getting and loading images (and other multimedia forms like video and fonts) from a web domain will incure security issues, known in the field as Cross-Origin Resource Sharing (CORS). For this chapter and the corresponding example, the sample code is hosted on a local machine with a local server to run via the *ATOM* code editor, but the API request and the corresponding data is hosted outside of this. The CORS issue related to network requests is designed to prevent "unsafe HTTP requests".[^w3] In the industry environment, it is usually configured at the web server side setting, specifically with the parameter *Access-Control-Allow-Origin* that specifies how network requests can be made and shared.[^http] But for testing purposes, and convenience, we have used a proxy to bypass the issue of CORS as seen in the use of global variable `let imgCORSproxy`, yet it is important to note that this is not a long term solution because the CORS proxy is not always reliable and usually it comes with a file size limitation.[^add-on]
 
 **Data Structure**
 
 By adding the proxy URL in front of the image URL, it allows us to retrieve the image outside of the local server. Figure 8.6 demonstrates how one can point at specific data in the whole JSON file. Specifically, we have the line `getImg = imgCORSproxy + data.items[0].link;` and the second part of the code `data.items[0].link` gets the specified returned object (the image URL) from the JSON file. The name `data` refers to all the returned objects via the callback function `function gotData(data){}`. Then `items[0]` points at the first data object (using the array concept with the first index as 0). The dot syntax allows you to navigate to the object `link` under `items[0]`. Note that this hierarchy is specific to this API because other web APIs might structure their data and its organization differently.
 
 To learn more about the JSON file, you can navigate other data objects such as queries > request > 0 that shows, for example, how many results are found on the image search, what search terms have been processed and how many data objects are returned. In the sample code, we only start with the top 10 search items, but you can configure the parameter 'startIndex' to get the last 10 images out of 110 million. Furthermore, under `items` in the JSON file you will find the specific image data returned in the form of an array, such as the title and the corresponding snippet of the page content. Although Google has provided the API to access the data, it should be remembered that the actual data is collected from the public and people have no access to the specific algorithm by which the data is selected, prioritized and presented.
+
+We can now summarize the common process of working with web APIs and getting data from online platform:
+
+* Understand the web API's workflow
+* Understand the API specification that indicates what data and parameters are available
+* Understand the returned JSON file format from the web API
+* Registering and getting the API key(s) and may be additional configuration of the setting is needed.
 
 <div class="exercise" markdown="true">
 
@@ -226,9 +226,9 @@ To learn more about the JSON file, you can navigate other data objects such as q
 
 1. According to Figure 8.7, can you recap what has been **requested and received** through the web API?
 2. Change your own query strings: The current keywords are 'warhol flowers' but note that the program doesn't understand space between text and therefore it needs to be written as "warhol+flowers"
-3. Refer back to the section of APIs above, add more search filtering rules[different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters)[^setting], such as adding image color type. (The URL parameters are seperated by a "&" sign like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&q=warhol+flowers&searchType=image)
+3. Refer back to the section of APIs above, add more search filtering rules with [different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters),[^setting] such as adding image color type. (The URL parameters are seperated by a "&" sign like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers)
 4. Study the JSON file and modify the sketch to get other data such as the text by showing that onto the web console.
-5. To process the image data and to visualize the pixel's color through lines is mainly done within the `function draw()`. Think about and discuss why there is an error message in the web console: `TypeError: "path is undefined"`.
+5. To process the image data and to visualize the pixel's color through drawing lines is mainly done within the `function draw()`. Think about and discuss why there is an error message in the web console: `TypeError: "path is undefined"`.
 
 </div>
 
@@ -238,9 +238,9 @@ To learn more about the JSON file, you can navigate other data objects such as q
 
 *Figure 8.8: An illustration on how an image is made up of pixels*
 
-For this sample sketch, only one color within the image will be picked and processed. This means that the program will randomly pick any pixel from the image according to the x and y coordinates. Furthermore, the function of `pixels` analyze and retrieve the color of the selected pixel, specifically the RGB color values that are further used to draw the line (see Figure 8.8 above as an illustration and in reality the pixel size is much smaller).
+For this sample sketch, only one color within the image will be picked and processed. This means that the program will randomly pick any pixel from the image according to the x and y coordinates. Furthermore, the function `pixels` analyzes and retrieves the color of the selected pixel, specifically the RGB color values that are further used to draw the line (see Figure 8.8 above as an illustration and in reality the pixel size is much smaller).
 
-The line is not randomly drawn, but it is based on the x and y coordinates of the selected pixel and is drawn along the whole y axes from that point. Apart from the position, the color of the line is based on the color values of the selected pixel too. Combining both the position and the color, this will lead to something like a color visualization of the image, an abstract painting over time as shown in Figure 8.3.
+The line is not randomly drawn, but it is based on the x and y coordinates of the selected pixel and is drawn along the whole y axes from that point. Apart from the position, the color of the line is based on the rgb values of the selected pixel too. Combining both the position and the color, this will lead to something like a color visualization of the image, an abstract painting over time as shown in Figure 8.3.
 
 Each selected pixel contains color information, that is the R (red), G (green), B (blue) and A (alpha) values. This is how the data is being stored in the pixels' one dimensional array:
 
@@ -248,7 +248,7 @@ Each selected pixel contains color information, that is the R (red), G (green), 
 
 *Figure 8.9: An illustration on the breakdown of each pixel*
 
-`loc` is set as a variable to store the pixel information. Each pixel position of an image needs to be clearly *located* so that a line can be drawn at the right position. Each pixel takes up 4 locations: The first pixel with the 4 rgba values, then the second pixel with another 4 rgba values, and this continues for all the pixels:
+`loc` is set as a variable to store the pixel information. Each pixel position needs to be clearly *located* so that a line can be drawn at the right position. Following the function `Pixels()`, each pixel takes up 4 locations: The first pixel with the 4 rgba values, then the second pixel with another 4 rgba values, and this continues for all the pixels:
 
 **Pixel 1:** r value(location 1),g value(location 2), b value(location 3), a value(location 4)
 
@@ -256,7 +256,7 @@ Each selected pixel contains color information, that is the R (red), G (green), 
 
 **...**
 
-Therefore, it is understood as 4 different locations and each storing one value. In order to locate a specific pixel, the formula would be: `loc = (img_x+img_y * img.width)*4;`. The use of `img.pixels[loc]`, `img.pixels[loc+1]`, `img.pixels[loc+2]` is to locate the RGB values respectively by using the function of pixel array `pixels[]`.
+Therefore, it is understood as 4 different locations and each storing one value in relation to one single pixel. In order to locate a specific pixel, the formula would be: `loc = (img_x+img_y * img.width)*4;`. The use of `img.pixels[loc]`, `img.pixels[loc+1]`, `img.pixels[loc+2]` is to locate the RGB values respectively by using the function `pixels[]` with the array nature to store all the corresponding rgba values.
 
 ```javascript
 function draw() {
@@ -270,13 +270,13 @@ function draw() {
           fill(239);
           rect(0,0,img.width+frameBorder*2, img.height+frameBorder*2);
           //image + status
-	        image(img,0+frameBorder,0+frameBorder);
+					image(img,0+frameBorder,0+frameBorder);
           imgLoaded = true;
         } else {
         //draw lines
           img.loadPixels();
           img_x = floor(random(0,img.width));
-	        img_y = floor(random(0,img.height));
+					img_y = floor(random(0,img.height));
           loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values - 4) can see more here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
           stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
           line(frameBorder+img_x,frameBorder+img_y,frameBorder+img_x,frameBorder+img.height);
@@ -288,7 +288,7 @@ function draw() {
   }
  }
 ```
-The logic in the `draw()` function then is simply tried to draw the grey painting frame and load the image. But once the image is successfully loaded, it will then start analyzing the image pixel by using the syntax `loadPixels()`, picking the random pixel and getting the corresponding pixel's x and y coordinates. From this selected pixel we can also get the rgb color values to further draw the line.
+The logic in the `draw()` function then is simply tried to draw the grey outter frame and load the image. But once the image is successfully loaded, it will then start analyzing the image pixel by using the syntax `loadPixels()`, picking the random pixel and getting the corresponding pixel's x and y coordinates. From this selected pixel we can also get the rgb color values through `pixels[]` to further draw the line.
 
 This section with the pixel and color elements is to show how a computer processes and stores an image as a piece of data which is fundamentally different from how humans see and perceive it. It is also a way to demonstrate how an image object is being translated into numbers for computation, which is somewhat similar to the example of face tracking in Chapter 4 (Data Capture) in which a pixel can be clearly located at a scale beyond human perception. These machine ways of seeing may help to understand more contemporary applications like tracking technology and even computer vision that employs machine learning techniques in which images are regarded as training data.
 
@@ -316,13 +316,15 @@ TypeError: Cannot read property 'indexOf' of undefined
     at e.<anonymous> (p5.min.js:8)
 ```
 
-Exception handling is normally used to do something (or even stop the process) when the program, or more specifically a function, cannot run as it should. It has a wide range of use because the syntax of `Try & Catch`[^catch] is simply to try to do something and catch the errors if there are any.
+**Exception handling** is normally used to do something (or even stop the process) when the program, or more specifically a function, cannot run as it should. It has a wide range of use because the syntax of `Try & Catch`[^catch] is simply to try to do something and catch the errors if there are any. For real-time situations, especially when dealing with files or other input/output devices, Try/Catch/Finally/Throw exceptions can be useful to impose more control on the program.
 
-In this chapter's sample code, we use `Try` and `Catch`[^catch] exceptions to keep the code running in the function `draw()`. Usually a programmer tries to anticipate possible errors as in this case but no one knows exactly when they will occur and when will stop. In this case, it depends on the computer and network speed to handle the API request and image loading. The use of exception handling, then, is to allow the program to "recover from errors and continue execution".[^louden] The `catch` syntax prevents the program from stopping from critical errors in this case. This is why a runtime error message appeared on the web console log `TypeError: "path is undefined"` but is still able to continue running the sample code. The program takes time to load the specific image from JSON parsing in real-time, which is not something preloaded. Therefore, `Try` and `Catch` exceptions is used to keep the code running until the image is loaded sucessfully, and further continue the line color visualization.
+In this chapter's sample code, we use `Try` and `Catch`[^catch] exceptions to keep the code running in the function `draw()`. Usually a programmer tries to anticipate possible errors as in this case but no one knows exactly when they will occur and when will stop. In this case, it depends on the computer and network speed to handle the API request and image loading. Of course in this specific example, if we already know the image URL before the program starts we can even program the link in the `preload()` function. However, the web API only returns the image URL in the form of a JSON file when the program is executed. No pixel information can be extracted if the program hasn't loaded the image fully. In that sense, it is necessary to find ways to deal with this situation: both getting and then loading the image before extracting the pixel's color values.   
 
-C. **Logical errors** are arguably the hardest errors to locate as they deal with logic not syntax. The code may still run perfectly but the result is not what was expected.
+The use of exception handling, then, is to allow the program to "recover from errors and continue execution".[^louden] The `catch` syntax prevents the program from stopping from critical errors in this case. This is why a runtime error message appeared on the web console log `TypeError: "path is undefined"` but is still able to continue running the sample code. Therefore, `Try` and `Catch` exceptions is used in this case to keep the code running until the image is loaded sucessfully, and further continue the line color visualization.
 
-The web console is a good place to be notified of errors. When countering errors, try to identify exactly where they might occur down to which block or line of code. Then try to identify the error types and fix them accordingly. For real-time situations, especially when dealing with files or other input/output devices, Try/Catch/Finally/Throw exceptions can be useful to impose more control on the program. Of course in this specific example, if we already know the image URL before the program starts we can even program the link in the `preload()` function. However, the web API only returns the image URL in the form of a JSON file when the program is executed. No pixel information can be extracted if the program hasn't loaded the image fully. In that sense, it is necessary to find ways to deal with this situation: both getting and then loading the image before extracting the pixel's color values.   
+C. **Logical errors** are arguably the hardest errors to locate as they deal with logic not syntax. The code may still run perfectly but the result is not what was expected. This indicates a discrepancy between what we think and how the computer actually processes the instructions.
+
+The web console is a good place to be notified of errors or test out if the code is running as what we are expected. When countering errors, try to identify exactly where they might occur down to which block or line of code by using `console.log()`. Step by step to test and run the different parts of the whole program, then try to identify the error types and fix them accordingly.
 
 ## While()
 
