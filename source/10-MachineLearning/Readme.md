@@ -10,6 +10,7 @@ note for next iteration:
 2. sequence of exercise > need rearrange
 3. environmental issue and monopoly of resources
 4. a little more on tensorflow.js <-> ml5.js
+5. read nathan's article
 
 ## setup()
 
