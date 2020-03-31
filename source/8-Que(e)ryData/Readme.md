@@ -32,7 +32,7 @@ Go to *net.art generator* (https://nag.iap.de/) and explore the generation of im
 
 The following source code of this chapter is a snippet from *nag* showing the web API's logic of request and response: requested data passes via a Web API and then Google returns the corresponding data using the key syntax `loadJSON()`. The major differences of using JSON between this and the previous chapter is that the JSON file is not located in your computer but in the Internet instead. Secondly, the JSON file is in much complex data and organizational structure.  
 
-[RUNME](https://editor.p5js.org/undefined/present/eeXoeImWT)
+[RUNME](https://editor.p5js.org/siusoon/present/rhSDlokun)
 
 ![ch8_2](ch8_2.gif)
 
@@ -67,8 +67,7 @@ let request; //full API
 let getImg;
 let loc;
 let img_x, img_y;
-let imgCORSproxy = "https://cors-anywhere.herokuapp.com/"; //CORS problem
-let frameBorder = 60;  //each side
+let frameBorder = 25;  //each side
 let imgLoaded = false;
 
 function setup() {
@@ -79,42 +78,41 @@ function setup() {
 }
 
 function fetchImage() {
-	request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&searchType=" + searchType + "&q=" + query;
+	request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&q=" + query + "&searchType=" + searchType;
 	console.log(request);
 	loadJSON(request, gotData); //this is the key syntax and line of code to make a query request and get a query response
 }
 
 function gotData(data) {
-	getImg = imgCORSproxy + data.items[0].link;  //add the CORS proxy to bypass browser's security
+	getImg = data.items[0].image.thumbnailLink;
 	console.log(getImg);
 }
 
 function draw() {
-  try {	//takes time to get the path of the image from the JSON file via the web API
-    loadImage(getImg, img=> { //callback function
+	if (getImg){	//takes time to retrieve the API data
+		loadImage(getImg, img=> { //callback function
         //frame + image
-        push();
-        translate(width/2-img.width/2-frameBorder, height/2-img.height/2-frameBorder);
-        if (!imgLoaded) {
-          noStroke();
-          fill(239);
-          rect(0,0,img.width+frameBorder*2, img.height+frameBorder*2);
-          //image + status
+				push();
+				translate(width/2-img.width-frameBorder, height/2-img.height-frameBorder);
+				scale(2);
+				if (!imgLoaded) {
+					noStroke();
+					fill(220);
+					rect(0,0,img.width+frameBorder*2, img.height+frameBorder*2);
 					image(img,0+frameBorder,0+frameBorder);
-          imgLoaded = true;
-        } else {
-        //draw lines
-          img.loadPixels();
-          img_x = floor(random(0,img.width));
+					imgLoaded = true;
+				}else{
+					//draw lines
+					img.loadPixels();
+					img_x = floor(random(0,img.width));
 					img_y = floor(random(0,img.height));
-          loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values - 4) can see more here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
-          stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
-          line(frameBorder+img_x,frameBorder+img_y,frameBorder+img_x,frameBorder+img.height);
+					loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values - 4) can see more here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
+					strokeWeight(0.7);
+					stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
+					line(frameBorder+img_x,frameBorder+img_y,frameBorder+img_x,frameBorder+img.height);
         }
         pop();
     });
- }catch(error) {
-    console.error(error);
  }
 }
 ```
@@ -167,7 +165,6 @@ let query = "warhol+flowers";  //search keywords
 let searchType = "image";
 let imgSize ="medium"; //check here: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
 let request; //full API
-let imgCORSproxy = "https://cors-anywhere.herokuapp.com/"; //check top comment
 
 function setup() {
 	fetchImage();
@@ -180,7 +177,7 @@ function fetchImage() {
 }
 
 function gotData(data) {
-	getImg = imgCORSproxy + data.items[0].link;
+	getImg = data.items[0].image.thumbnailLink;
 	console.log(getImg);
 }
 ```
@@ -202,11 +199,11 @@ In the web console, look for a URL (with your own API key and search engine ID) 
 
 **Cross-Origin Resource Sharing**
 
-Apart from text, requesting, getting and loading images (and other multimedia forms like video and fonts) from a web domain will incure security issues, known in the field as Cross-Origin Resource Sharing (CORS). For this chapter and the corresponding example, the sample code is hosted on a local machine with a local server to run via the *ATOM* code editor, but the API request and the corresponding data is hosted outside of this. The CORS issue related to network requests is designed to prevent "unsafe HTTP requests".[^w3] In the industry environment, it is usually configured at the web server side setting, specifically with the parameter *Access-Control-Allow-Origin* that specifies how network requests can be made and shared.[^http] But for testing purposes, and convenience, we have used a proxy to bypass the issue of CORS as seen in the use of global variable `let imgCORSproxy`, yet it is important to note that this is not a long term solution because the CORS proxy is not always reliable and usually it comes with a file size limitation.[^add-on]
+Apart from text, requesting, getting and loading images (and other multimedia forms like video and fonts) from a web domain will incure security issues, known in the field as Cross-Origin Resource Sharing (CORS). For this chapter and the corresponding example, the sample code is hosted on a local machine with a local server to run via the *ATOM* code editor, but the API request and the corresponding data is hosted outside of this. The CORS issue related to network requests is designed to prevent "unsafe HTTP requests".[^w3] In the industry environment, it is usually configured at the web server side setting and used server side programming/scripting languages such as node.js to handle the network requests. But for demonstration purposes, and convenience, we have used the thumbnail images (`data.items[0].image.thumbnailLink;`) that are generated via the search provider instead of loading original web images that are hosted at different servers with various settings. Although the thumbnail images with much lower resolution it does not have the specific CROS setting that fits the scope of p5.js to load those cross-domains content by using `createImg()` or `loadImage()`.
 
 **Data Structure**
 
-By adding the proxy URL in front of the image URL, it allows us to retrieve the image outside of the local server. Figure 8.6 demonstrates how one can point at specific data in the whole JSON file. Specifically, we have the line `getImg = imgCORSproxy + data.items[0].link;` and the second part of the code `data.items[0].link` gets the specified returned object (the image URL) from the JSON file. The name `data` refers to all the returned objects via the callback function `function gotData(data){}`. Then `items[0]` points at the first data object (using the array concept with the first index as 0). The dot syntax allows you to navigate to the object `link` under `items[0]`. Note that this hierarchy is specific to this API because other web APIs might structure their data and its organization differently.
+Figure 8.6 demonstrates how one can point at specific data in the whole JSON file. Specifically, we have the line `data.items[0].image.thumbnailLink;`, which gets the specified returned object (the image URL) from the JSON file. The name `data` refers to all the returned objects via the callback function `function gotData(data){}`. Then `items[0]` points at the first data object (using the array concept with the first index as 0). The dot syntax allows you to navigate to the object `image` and `thumbnailLink` under `items[0]`. Note that this hierarchy is specific to this API because other web APIs might structure their data and its organization differently.
 
 To learn more about the JSON file, you can navigate other data objects such as queries > request > 0 that shows, for example, how many results are found on the image search, what search terms have been processed and how many data objects are returned. In the sample code, we only start with the top 10 search items, but you can configure the parameter 'startIndex' to get the last 10 images out of 110 million. Furthermore, under `items` in the JSON file you will find the specific image data returned in the form of an array, such as the title and the corresponding snippet of the page content. Although Google has provided the API to access the data, it should be remembered that the actual data is collected from the public and people have no access to the specific algorithm by which the data is selected, prioritized and presented.
 
@@ -228,7 +225,7 @@ We can now summarize the common process of working with web APIs and getting dat
 2. Change your own query strings: The current keywords are 'warhol flowers' but note that the program doesn't understand space between text and therefore it needs to be written as "warhol+flowers"
 3. Refer back to the section of APIs above, add more search filtering rules with [different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters),[^setting] such as adding image color type. (The URL parameters are seperated by a "&" sign like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers)
 4. Study the JSON file and modify the sketch to get other data such as the text by showing that onto the web console.
-5. To process the image data and to visualize the pixel's color through drawing lines is mainly done within the `function draw()`. Think about and discuss why there is an error message in the web console: `TypeError: "path is undefined"`.
+5. To process the image data and to visualize the pixel's color through drawing lines is mainly done within the `function draw()`. Think about and discuss why the conditional statement `if(getImg){}` is used?
 
 </div>
 
@@ -242,53 +239,54 @@ For this sample sketch, only one color within the image will be picked and proce
 
 The line is not randomly drawn, but it is based on the x and y coordinates of the selected pixel and is drawn along the whole y axes from that point. Apart from the position, the color of the line is based on the rgb values of the selected pixel too. Combining both the position and the color, this will lead to something like a color visualization of the image, an abstract painting over time as shown in Figure 8.3.
 
-Each selected pixel contains color information, that is the R (red), G (green), B (blue) and A (alpha) values. This is how the data is being stored in the pixels' one dimensional array:
+Each selected pixel contains color information, that is the r (red), g (green), b (blue) and a (alpha) values. This is how the data is being stored in the pixels' one dimensional array:
 
-![pixel](ch8_7.png)
+![pixel](ch8_7.jpg)
 
-*Figure 8.9: An illustration on the breakdown of each pixel*
+*Figure 8.9: An illustration on the breakdown of each pixel by Integrated Digital Media, NYU*[^nyu]
 
 `loc` is set as a variable to store the pixel information. Each pixel position needs to be clearly *located* so that a line can be drawn at the right position. Following the function `Pixels()`, each pixel takes up 4 locations: The first pixel with the 4 rgba values, then the second pixel with another 4 rgba values, and this continues for all the pixels:
 
-**Pixel 1:** r value(location 1),g value(location 2), b value(location 3), a value(location 4)
+pixels = [p1, p1, p1, p1, p2, p2, p2, p2, p3, p3, p3, p3...]
 
-**Pixel 2:** r value(location 5), g value(location 6), b value(location 7), a value(location 8)
-
-**...**
 
 Therefore, it is understood as 4 different locations and each storing one value in relation to one single pixel. In order to locate a specific pixel, the formula would be: `loc = (img_x+img_y * img.width)*4;`. The use of `img.pixels[loc]`, `img.pixels[loc+1]`, `img.pixels[loc+2]` is to locate the RGB values respectively by using the function `pixels[]` with the array nature to store all the corresponding rgba values.
 
 ```javascript
 function draw() {
-  try {	//takes time to get the path of the image from the JSON file via the web API
+	if (getImg){	//takes time to retrieve the API data
     loadImage(getImg, img=> { //callback function
-        //frame + image
-        push();
-        translate(width/2-img.width/2-frameBorder, height/2-img.height/2-frameBorder);
-        if (!imgLoaded) {
-          noStroke();
-          fill(239);
-          rect(0,0,img.width+frameBorder*2, img.height+frameBorder*2);
-          //image + status
-					image(img,0+frameBorder,0+frameBorder);
-          imgLoaded = true;
-        } else {
-        //draw lines
-          img.loadPixels();
-          img_x = floor(random(0,img.width));
-					img_y = floor(random(0,img.height));
-          loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values - 4) can see more here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
-          stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
-          line(frameBorder+img_x,frameBorder+img_y,frameBorder+img_x,frameBorder+img.height);
-        }
-        pop();
-    });
-	}catch(error) {
-     console.error(error);
-  }
- }
+			//frame + image
+			push();
+			translate(width/2-img.width-frameBorder, height/2-img.height-frameBorder);
+			scale(2);
+			if (!imgLoaded) {
+				noStroke();
+				fill(220);
+				rect(0,0,img.width+frameBorder*2, img.height+frameBorder*2);
+				image(img,0+frameBorder,0+frameBorder);
+				imgLoaded = true;
+			}else{
+				//draw lines
+				img.loadPixels();
+				img_x = floor(random(0,img.width));
+				img_y = floor(random(0,img.height));
+				loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values - 4) can see more here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
+				strokeWeight(0.7);
+				stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
+				line(frameBorder+img_x,frameBorder+img_y,frameBorder+img_x,frameBorder+img.height);
+			}
+			pop();
+		});
+	}
+}
+
 ```
-The logic in the `draw()` function then is simply tried to draw the grey outter frame and load the image. But once the image is successfully loaded, it will then start analyzing the image pixel by using the syntax `loadPixels()`, picking the random pixel and getting the corresponding pixel's x and y coordinates. From this selected pixel we can also get the rgb color values through `pixels[]` to further draw the line.
+The logic in the `draw()` function then is simply tried to draw the grey outter frame and load the image at the center by using the function `translate()`.
+
+To allow sufficient time to load the JSON file and able to get the file path, the conditional structure `if (getImg){}` is used. Upon the successful loading of an image (with the function `loadImage` and the corresponding callback `img`), Both the outter frame and the image are drawn on a canvas.
+
+The outter frame and the image are only drawn once with the update of the status `imgLoaded`. For each draw frame, the program will analyze the image pixel by using the syntax `loadPixels()`, picking the random pixel and getting the corresponding pixel's x and y coordinates. From this selected pixel we can also get the rgb color values through `pixels[]` to further draw the colored line with the syntax `stroke()` and `line()`.
 
 This section with the pixel and color elements is to show how a computer processes and stores an image as a piece of data which is fundamentally different from how humans see and perceive it. It is also a way to demonstrate how an image object is being translated into numbers for computation, which is somewhat similar to the example of face tracking in Chapter 4 (Data Capture) in which a pixel can be clearly located at a scale beyond human perception. These machine ways of seeing may help to understand more contemporary applications like tracking technology and even computer vision that employs machine learning techniques in which images are regarded as training data.
 
@@ -296,7 +294,7 @@ This section with the pixel and color elements is to show how a computer process
 
 At this stage, when you have developed your programming skills and your programs are becoming more complex, it is important to understand, identify and locate errors (as part of the process often describe as debugging[^debug]) so that you can build a workable sketch, and to experience how a program works at a very logical, computational and accurate manner.
 
-Close attention to errors are an important part of learning to program. When you are debugging your sketch, are you able to identity whether the errors come from your own code, or come from parsing the data while it is running, or from other third party like Google? Are they minor errors or critical errors (that stop your program from running)? Do they belong to syntactic, runtime or logical errors (explained in detail below)? For example, if you encounter error 403 in your console with the sample code, this likely means that Google has barred your API as the requests exceed the limit of 100 times per day.
+Close attention to errors are an important part of learning to program. When you are debugging your sketch, are you able to identity whether the errors come from your own code, or come from parsing the data while it is running, or from other third party like Google? Are they minor errors or critical errors (that stop your program from running)? Do they belong to syntactic, runtime or logical errors (explained in detail below)?
 
 In a broad sense, errors can be categorized in three types:
 
@@ -306,21 +304,13 @@ A. **Syntax errors** are problems with the syntax, also known as parsing errors.
 SyntaxError: missing ) after argument list
 ```
 
-B. **Runtime errors** happen during the execution of a program and can cause a program to terminate unexpectedly if an exception is not thrown while the syntax is correct. This is why they are also called exceptions (e.g. TypeError or ReferenceError in the Firefox browser).
+B. **Runtime errors** happen during the execution of a program and can cause a program to terminate unexpectedly if an exception is not thrown while the syntax is correct.  
+
+The web browser console is the place to understand the errors. Below shows an example of the runtime error in relation to the wrong API key sent to the server:
 
 ```
-TypeError: Cannot read property 'indexOf' of undefined
-    at e.loadImage (p5.min.js:10)
-    at draw (sketch09.js:43)
-    at e.d.redraw (p5.min.js:9)
-    at e.<anonymous> (p5.min.js:8)
+> p5.js says: It looks like there was a problem loading your json. Try checking if the file path is correct, or running a local server.
 ```
-
-**Exception handling** is normally used to do something (or even stop the process) when the program, or more specifically a function, cannot run as it should. It has a wide range of use because the syntax of `Try & Catch`[^catch] is simply to try to do something and catch the errors if there are any. For real-time situations, especially when dealing with files or other input/output devices, Try/Catch/Finally/Throw exceptions can be useful to impose more control on the program.
-
-In this chapter's sample code, we use `Try` and `Catch`[^catch] exceptions to keep the code running in the function `draw()`. Usually a programmer tries to anticipate possible errors as in this case but no one knows exactly when they will occur and when will stop. In this case, it depends on the computer and network speed to handle the API request and image loading. Of course in this specific example, if we already know the image URL before the program starts we can even program the link in the `preload()` function. However, the web API only returns the image URL in the form of a JSON file when the program is executed. No pixel information can be extracted if the program hasn't loaded the image fully. In that sense, it is necessary to find ways to deal with this situation: both getting and then loading the image before extracting the pixel's color values.   
-
-The use of exception handling, then, is to allow the program to "recover from errors and continue execution".[^louden] The `catch` syntax prevents the program from stopping from critical errors in this case. This is why a runtime error message appeared on the web console log `TypeError: "path is undefined"` but is still able to continue running the sample code. Therefore, `Try` and `Catch` exceptions is used in this case to keep the code running until the image is loaded sucessfully, and further continue the line color visualization.
 
 C. **Logical errors** are arguably the hardest errors to locate as they deal with logic not syntax. The code may still run perfectly but the result is not what was expected. This indicates a discrepancy between what we think and how the computer actually processes the instructions.
 
@@ -419,10 +409,6 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 
 [^setting]: There are other optional parameters, see https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters.
 
-[^catch]: See https://www.w3schools.com/js/js_errors.asp.
-
-[^louden]: Kenneth C. Louden & Kenneth A. Lambert, *Programming Languages: Principles and Practice* (3rd ed.) (Boston: Cengage Learning, 2012), 432-4.
-
 [^forensis]: Thomas Keenan & Eyal Weizman, *Mengele's Skull: The Advent of a Forensic Aesthetics* (Berlin: Sternberg Press, 2012); see also Matthew Kirschenbaum, *Mechanisms: New Media and the Forensic Imagination* (Cambridge, Mass.: MIT Press, 2008).
 
 [^FA]: Forensic Architecture, directed by Weizman, is a research agency based at Goldsmiths, University of London, who undertake advanced spatial and media investigations into cases of human rights violations, with and on behalf of communities affected by political violence, human rights organisations, international prosecutors, environmental justice groups, and media organisations. See https://forensic-architecture.org/.
@@ -441,10 +427,8 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 
 [^feminist]: Cornelia Sollfrank, ed. *Beautiful Warriors: Technofeminist Praxis in the Twenty-First Century* (New York: Autonomedia/Minor Compositions, 2019), 6.
 
-[^http]: HTTP headers let the client and the server pass additional information, such as the Access-Control-Allow-Origin parameter, with an HTTP request or response. Such a configuration is critical to resource security and it is part of how networks, web browsers and code communicate with different parties. See the different values of parameters at  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin.
-
 [^wc]: See the recommendation of CORS by W3C, https://www.w3.org/TR/cors/.
 
-[^add-on]: Other than having a CORS proxy, we can also install browser add-ons to bypass the issue of CORS. Just simply search in the extension/add on site for the specific web browser with the keyword "CORS".
-
 [^debug]: There is a debugging tutorial has been made as part of the p5.js contributer conference, involving Jason Alderman, Tega Brain, Taeyoon Choi and Luisa Pereira, see: https://p5js.org/learn/debugging.html
+
+[^nyu]: A tutorial on Image Processing in p5.js, see https://idmnyu.github.io/p5.js-image/
