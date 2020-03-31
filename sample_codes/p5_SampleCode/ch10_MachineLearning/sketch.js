@@ -1,13 +1,11 @@
 /**
  * @Author: siusoon
- * @Date:   2020-03-13T21:35:06+01:00
+ * @Date:   2020-03-19T18:39:09+01:00
  * @Last modified by:   siusoon
- * @Last modified time: 2020-03-13T23:23:28+01:00
+ * @Last modified time: 2020-03-20T19:21:21+01:00
  */
 
-
-
-//LSTM Generator example with p5.js
+//Modified LSTM Generator example with p5.js
 
 let charRNN;
 let textInput;
@@ -59,7 +57,6 @@ function modelReady() {
 // Generate new text
 function generate() {
   // prevent starting inference if we've already started another instance
-  // TODO: is there better JS way of doing this?
  if(!runningInference) {
     runningInference = true;
 
@@ -67,15 +64,10 @@ function generate() {
     status.innerHTML = 'Generating...';
 
     // Grab the original text
-    let original = textInput.value;
-    // Make it to lower case
-    let txt = original.toLowerCase();
-
+    let txt = textInput.value + " ";
     // Check if there's something to send
     if (txt.length > 0) {
-      // This is what the LSTM generator needs
       // Seed text, temperature, length to outputs
-      // TODO: What are the defaults?
       let data = {
         seed: txt,
         temperature: tempSlider.value,
@@ -87,7 +79,6 @@ function generate() {
 
       // When it's done
       function gotData(err, result) {
-        // Update the status log
         status.innerHTML = 'Ready!';
         resultText.innerHTML = txt + result.sample;
         runningInference = false;
