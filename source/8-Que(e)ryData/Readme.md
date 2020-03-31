@@ -99,7 +99,7 @@ function draw() {
 				noStroke();
 				fill(220);
 				rect(0,0,img.width+frameBorder*2,img.height+frameBorder*2);
-				image(img,0+frameBorder,0+frameBorder);
+				image(img,frameBorder,frameBorder);
 				imgLoaded = true;
 			}else{
 				//draw lines
@@ -264,7 +264,7 @@ function draw() {
 				noStroke();
 				fill(220);
 				rect(0,0,img.width+frameBorder*2, img.height+frameBorder*2);
-				image(img,0+frameBorder,0+frameBorder);
+				image(img,frameBorder,frameBorder);
 				imgLoaded = true;
 			}else{
 				//draw lines
