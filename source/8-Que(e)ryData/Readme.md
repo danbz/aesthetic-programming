@@ -57,8 +57,8 @@ For this chapter's sample code, we are focused on images. The image that we will
 
 ```javascript
 let url = "https://www.googleapis.com/customsearch/v1?";
-let apikey = "AIzaSyBRE6L4ohm4c2rAxZqpbFSUbSc8w6ZOg-w";//"INPUT YOUR OWN KEY";  //register API key here: https://developers.google.com/custom-search/json-api/v1/overview
-let engineID = "012341178072093258148:xebpi6c3ibg";//"INPUT YOUR OWN"; //https://cse.google.com/all  | create search engine, then get the searchengine ID - make sure image is on
+let apikey = "INPUT YOUR OWN KEY";  //register API key here: https://developers.google.com/custom-search/json-api/v1/overview
+let engineID = "INPUT YOUR OWN"; //https://cse.google.com/all  | create search engine, then get the searchengine ID - make sure image is on
 let query = "warhol+flowers";  //search keywords
 let searchType = "image";
 let imgSize ="medium"; //check here: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
