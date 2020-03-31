@@ -57,8 +57,8 @@ For this chapter's sample code, we are focused on images. The image that we will
 
 ```javascript
 let url = "https://www.googleapis.com/customsearch/v1?";
-let apikey = "INPUT YOUR OWN KEY";  //register API key here: https://developers.google.com/custom-search/json-api/v1/overview
-let engineID = "INPUT YOUR OWN"; //https://cse.google.com/all  | create search engine, then get the searchengine ID - make sure image is on
+let apikey = "AIzaSyBRE6L4ohm4c2rAxZqpbFSUbSc8w6ZOg-w";//"INPUT YOUR OWN KEY";  //register API key here: https://developers.google.com/custom-search/json-api/v1/overview
+let engineID = "012341178072093258148:xebpi6c3ibg";//"INPUT YOUR OWN"; //https://cse.google.com/all  | create search engine, then get the searchengine ID - make sure image is on
 let query = "warhol+flowers";  //search keywords
 let searchType = "image";
 let imgSize ="medium"; //check here: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
@@ -91,29 +91,29 @@ function gotData(data) {
 function draw() {
 	if (getImg){	//takes time to retrieve the API data
 		loadImage(getImg, img=> { //callback function
-        //frame + image
-				push();
-				translate(width/2-img.width-frameBorder, height/2-img.height-frameBorder);
-				scale(2);
-				if (!imgLoaded) {
-					noStroke();
-					fill(220);
-					rect(0,0,img.width+frameBorder*2, img.height+frameBorder*2);
-					image(img,0+frameBorder,0+frameBorder);
-					imgLoaded = true;
-				}else{
-					//draw lines
-					img.loadPixels();
-					img_x = floor(random(0,img.width));
-					img_y = floor(random(0,img.height));
-					loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values - 4) can see more here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
-					strokeWeight(0.7);
-					stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
-					line(frameBorder+img_x,frameBorder+img_y,frameBorder+img_x,frameBorder+img.height);
-        }
-        pop();
-    });
- }
+			//frame + image
+			push();
+			translate(width/2-img.width-frameBorder, height/2-img.height-frameBorder);
+			scale(2);
+			if (!imgLoaded) {
+				noStroke();
+				fill(220);
+				rect(0,0,img.width+frameBorder*2,img.height+frameBorder*2);
+				image(img,0+frameBorder,0+frameBorder);
+				imgLoaded = true;
+			}else{
+				//draw lines
+				img.loadPixels();
+				img_x = floor(random(0,img.width));
+				img_y = floor(random(0,img.height));
+				loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values - 4) can see more here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
+				strokeWeight(0.7);
+				stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
+				line(frameBorder+img_x,frameBorder+img_y,frameBorder+img_x,frameBorder+img.height);
+			}
+			pop();
+		});
+	}
 }
 ```
 
