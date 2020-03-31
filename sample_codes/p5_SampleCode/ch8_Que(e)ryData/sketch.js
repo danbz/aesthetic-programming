@@ -1,12 +1,3 @@
-/**
- * @Author: siusoon
- * @Date:   2020-03-31T18:09:53+02:00
- * @Last modified by:   siusoon
- * @Last modified time: 2020-03-31T21:52:01+02:00
- */
-
-
-
 /*
 - There is Cross-Origin Resource Sharing (CORS) issue with the bigger image, so here we are using thumbnailLink instead.
 - credit: Image Lines in Processing by Anna the Crow https://www.openprocessing.org/sketch/120964
