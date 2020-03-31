@@ -255,7 +255,7 @@ Therefore, it is understood as 4 different locations and each storing one value 
 ```javascript
 function draw() {
 	if (getImg){	//takes time to retrieve the API data
-    loadImage(getImg, img=> { //callback function
+		loadImage(getImg, img=> { //callback function
 			//frame + image
 			push();
 			translate(width/2-img.width-frameBorder, height/2-img.height-frameBorder);
