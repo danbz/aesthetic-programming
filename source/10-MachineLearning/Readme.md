@@ -74,37 +74,38 @@ The artist and researcher Nicolas Malevé has developed a program to show the ma
 
 ![cock][ch10_7.png]
 
-*Figure 10.4: The categorization of cock in the work 12 Hours of ImageNet by Nicolas Malevé *
+*Figure 10.4: The categorization of cock in the work 12 Hours of ImageNet by Nicolas Malevé*
 
 **Unsupervised Learning** - Unlike the previous learning model, the training dataset does not contain a set of labelled data. One of the common tasks with unsupervised learning is clustering (algorithms such as K-mean and Hierarchical Clustering). The goal of this technique is to find similarities and patterns, providing insights into underlying patterns of different groups via exploratory analysis. The idea of clustering is to identify similar groups of data in a dataset, segregating groups with similar characteristics. It is commonly used in business and marketing sectors to understand customer preferences so as to perform personalization and data marketing by grouping the customers based on their purchasing behavior on certain types of goods.
 
 ![k-means](ch10_4.gif)
-*Figure 10.4: An illustration of Unsupervised Learning with k-means clustering. Image Courtest of Joana Chicau and Jonathan Reus.*
 
-Artists Joana Chicau and Jonathan Reus produced their project *Anatomies of Intelligence*[^AI] based on unsupervised learning model to develop an understanding of anatomical knowledge and computational learning. In their AI workshop,[^workshop] they suggest the participants to think of two parameters for examining a small image dataset (around 15 images). One of the groups suggest 'cuteness' and 'curliness' as the parameters, and each of the images will be rated and sorted according to these (in the form of x and y axis). As a result, several clusters are formed, providing a different perspective when looking at images at a glance and seeing their relations in terms of similarities and differences.  
+*Figure 10.5: An illustration of Unsupervised Learning with k-means clustering. Image Courtest of Joana Chicau and Jonathan Reus.*
+
+Artists Joana Chicau and Jonathan Reus produced their project *Anatomies of Intelligence*[^AI] based on unsupervised learning model to develop an understanding of anatomical knowledge and computational learning. In their AI workshop,[^workshop] they suggest the participants to think of two parameters for examining a small image dataset (around 15 images). One of the groups suggests 'cuteness' and 'curliness' as the parameters, and each of the images will be rated and sorted according to these (in the form of x and y axis). As a result, several clusters are formed, providing a different perspective when looking at images at a glance and seeing their relations in terms of similarities and differences.  
 
 ![anatomies](ch10_3.png)
 
-*Figure 10.5: Anatomies of Intelligence by Joana Chicau and Jonathan Reus. Image courtesy of the artists.*
+*Figure 10.6: Anatomies of Intelligence by Joana Chicau and Jonathan Reus. Image courtesy of the artists.*
 
 ![anatomies2](ch10_4.png)
 
-*Figure 10.6: The clustering of images based on "cuteness" and curliness" in the workshop Anatomies of Intelligence by Joana Chicau and Jonathan Reus.*
+*Figure 10.7: The clustering of images based on "cuteness" and curliness" in the workshop Anatomies of Intelligence by Joana Chicau and Jonathan Reus.*
 
 **Reinforcement Learning** - This type of learning technique is based on the interaction with the environment, mapping situations into actions.[^rl] The learner (or the agent) do not have any previous data to base on to determine or predict which action to take, rather, it learns by trial and error to yield the maximum rewards. The famous example computer program AlphaGo[^alphago] beats the world champions of the Go broad game in 2017. AlphaGo is able to evaluate positions and select moves via self-taught processes. The use of this type of reinforcement learning is to find the best possible behavior or path it should take in a specific environment, mapping state-action pairs to achieve the maximization of rewards. For the broad game Go, two players compete to control the most territory with the use of black/white stones. Unlike supervised learning that relies on input training data, the characteristics of reinforcement learning are that the program sees the environment as a whole, and is able to learn from its own experience via evaluating the effectiveness of each action taken: the "trial-and-error search" and "delayed reward"[^rl2] via sequential decisions, computation, repeated attempts and feedback learning. Each action matters and that counts for the goal of maximizing the territory control as in the game of Go. In this way, reinforcement learning is performed via sequential learning and decisions.
 
 ## ml5.js library
-Given the length limitation and maintaining the cohesiveness of the book, this chapter will point to the machine learning library called ml5.js, which is a JavaScript framework again that can be run on a web browser like p5.js. With its objectives to make machine learning approachable for a broad audience, it builts on top of the more complex JavaScript library called TensorFlow[^tensor] to provide easier access with new function calls and the site of ml5.js consists of extensive code examples and tutorials.[^ml5]
+Given the length limitation and maintaining the cohesiveness of the book, this chapter will point to the machine learning library called ml5.js, which is a JavaScript framework again that can be run on a web browser like p5.js. With its objectives to make machine learning approachable for a broad audience especially beginners, it builts on top of the more complex JavaScript library called TensorFlow[^tensor] to provide easier access with new function calls technically. Furthermore, the site of ml5.js consists of extensive code examples and tutorials with pre-trained models that have been created via prior training processes.[^ml5]
 
-For this final human writing chapter, we re-appropriate the example from ml5: *CharRNN_Text*. Instead of using the pre-trained model provided by ml5 that has been trained from the famous corpus Virginia Woolf, we offer another pre-trained model[^training] that is based on the collection on all the chapters' markdown from this book. As the final example is about text learning and generation, it makes more sense to generate the text that is based on the previously written chapters to see how the style is learnt. From this, one can also start to see the relation between input and output and to raise questions such as why a specific style of text is displayed, and further to examine wider cultural issues such as why black people are more difficult to get recognized than white when using contemporary facial recognization technologies?[^issues]
+For this final human writing chapter, we have re-appropriated the example from ml5: *CharRNN_Text*. Instead of using the pre-trained model provided by ml5 that has been trained from the famous corpus Virginia Woolf, we offer another pre-trained model[^training] that is based on the collection of all the chapters' markdown from this book. The final example in this book is about text learning and generation, and it makes more sense to generate the text that is based on the previously written chapters to see how the style is learnt. From this, one can also start to see the relation between input and output and to raise questions such as why a specific style of text is displayed, and extend further to examine wider cultural issues such as why black people are more difficult to get recognized than white when using contemporary facial recognization technologies.[^issues]
 
-Our example demonstrates the idea of how the next bonus chapter could be generated with training data, machine operations and learning algorithms. The training process has used Recurrent Neural Network (RNN) and Long Short Term Memory (LSTM) that analyze and model sequential data, character by character. This machine learning model is based on supervised learning algorithm in order to calculate the statistical relation of each character/symbol as sequences in terms of text classification. Both LSTM and RNN are especially useful in terms of character by character training because the order and context of the text are important in order to generate sentences that make sense to readers (this is related to the area of natural language processing). This type of neural networks can capture long-term dependencies in a corpus in order to make sense of the text pattern through many iterations of training processes.
+Our example demonstrates the idea of how the next bonus chapter could be generated with training data, machine operations and learning algorithms. The training process has used Recurrent Neural Network (RNN) and Long Short Term Memory (LSTM) that analyze and model sequential data, character by character. They are especially useful in terms of character by character training because the order and context of the text are important in order to generate sentences that make sense to readers (this is related to the area of natural language processing). This type of neural networks can capture long-term dependencies in a corpus in order to make sense of the text pattern through many iterations of training processes.
 
 If we take the next bonus chapter - Machine Writing as the example, the raw data would be the gathering of markdowns in the form of characters and symbols from each chapter. We want to explore how a chapter is being generated by machine learning algorithms in which the process analyzes different source code, image links, captions, texts, etc. What does it mean by *generating* a chapter with and through a program, and what aesthetic programming is becoming as to what it is.
 
 ![ch10_7](ch10_6.png)
 
-*Figure 10.7: Auto Chapter Generator*
+*Figure 10.8: Auto Chapter Generator*
 
 ## Source Code
 
@@ -121,7 +122,6 @@ let lengthText;
 let temperatureText;
 
 let resultText;
-
 
 function setup() {
 
@@ -181,9 +181,13 @@ function generate() {
 
       // When it's done
       function gotData(err, result) {
-        status.innerHTML = 'Ready!';
-        resultText.innerHTML = txt + result.sample;
-        runningInference = false;
+        if (err) {
+          console.log("error: " + err);
+        }else{
+          status.innerHTML = 'Ready!';
+          resultText.innerHTML = txt + result.sample;
+          runningInference = false;
+        }
       }
     }
   }
@@ -224,9 +228,9 @@ function generate() {
 </html>
 ```
 
-## Auto Chapter Generator
+## Reading Auto Chapter Generator
 
-**Index.html**
+**index.html**
 
 To load the ml5.js library as part of the overall sketch, you need the following line in your index.html just like importing other libriaries as discussed in Chapter 4 - Data Capture with the clmtrackr library.
 ```html
@@ -234,13 +238,14 @@ To load the ml5.js library as part of the overall sketch, you need the following
 ```
 
 Apart from the new ml5.js, the html file contains the following DOM elements:
+
 1. A text input box with the default seed/input text: Ch. 11 Auto Chapter Generator. The seed text is required as a sequence input to generate the next character, continuously forming a new seed sequence for next character prediction: `<input id="textInput" value="Ch. 11 Auto Chapter Generator" size="30"/>`
 
 2. A slider for selecting the number of generated characters with the range from 100 to 2000: `<input id="lenSlider" type="range" min="100" max="2000" value="1000"/>`
 
 3. A slider for setting the temperature (the value that control the amount of the uncertainty of predictions)[^temp] with the range from 0 to 1: `<input id="tempSlider" type="range" min="0" max="1" step="0.01"/>`
 
-4. The text that shows the status of the program e.g "Loading Model", "Model Loaded", "Generating...", "Ready!": `<p id="status">Loading Model</p>`
+4. The text shows the status of the program e.g "Loading Model", "Model Loaded", "Generating...", "Ready!": `<p id="status">Loading Model</p>`
 
 5. A clickable button with the word 'generate'. `<button id="generate">generate</button>`
 
@@ -261,7 +266,7 @@ function setup() {
 }
 ```
 
-Second, the program then collects the data in the form of objects: the seed text (based on the text input), the length of the predictive text (based on the slider), as well as the temperature value (based on the other slider). These data objects will be passed to the charRNN's method: `charRNN.generate()` in order to process the seed text via the pre-trained model (with a callback function `gotdata()`). This `.generate()` method returns an object `{sample:generated, state:this.state}`. Theoretically, the predictive text learnt the style from all the chapters and then generate new text.
+Second, the program then collects the data in the form of objects: the seed text (based on the text input), the length of the predictive text (based on the slider), as well as the temperature value (based on the other slider). These data objects will be passed to the charRNN's method: `charRNN.generate()` in order to process the seed text via the pre-trained model (with a callback function `gotdata()`). This `.generate()` method returns the text object `sample` as sample output. Theoretically, the predictive text learnt the style from all the chapters and then generate new text.
 
 ```javascript
 function generate() {
@@ -276,7 +281,7 @@ function generate() {
 }
 ```
 
-Finally, the result will be displayed on the screen with the `gotData()` function.
+Finally, the result will be displayed on the screen with the `gotData()` function. (ml5 library also checks for errors with the argument `err`.
 
 ```javascript
 function gotData(err, result) {

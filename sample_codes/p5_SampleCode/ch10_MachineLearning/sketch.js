@@ -1,10 +1,3 @@
-/**
- * @Author: siusoon
- * @Date:   2020-03-19T18:39:09+01:00
- * @Last modified by:   siusoon
- * @Last modified time: 2020-03-20T19:21:21+01:00
- */
-
 //Modified LSTM Generator example with p5.js
 
 let charRNN;
@@ -79,9 +72,13 @@ function generate() {
 
       // When it's done
       function gotData(err, result) {
-        status.innerHTML = 'Ready!';
-        resultText.innerHTML = txt + result.sample;
-        runningInference = false;
+        if (err) {
+          console.log("error: " + err);
+        }else{
+          status.innerHTML = 'Ready!';
+          resultText.innerHTML = txt + result.sample;
+          runningInference = false;
+        }
       }
     }
   }
