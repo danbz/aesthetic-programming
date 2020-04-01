@@ -22,7 +22,7 @@ Focusing on rules and instructions are not only something programmers do, but al
 3. Twelve lines from each corner
 
 ![drawing2](ch5_2.png)
-*Figure 5.2: This image is the software version of the work Wall drawing #289, 1976 by Sol LeWitt, and coded by Chuck Grimmett[^walldrawing]*
+*Figure 5.2: This image is the software version of the work Wall drawing #289, 1976 by Sol LeWitt, and coded by Chuck Grimmett*[^walldrawing]
 
 
 It becomes clear how conceptual practices combine idea and action in parallel to how performance works with scores and scripts, and in turn how programs work with instructions and their execution.[^McLean] LeWitt's work lends itself well to computation, and this was taken up by Casy Reas using Processing to render LeWitt's wall drawings from their instructions and thus to explore the parallels of interpretation and process in each case.[^Reas] Despite the quote above, in his accompanying text Reas makes an important distinction in that LeWitt's programs are to be executed and interpreted by people rather than machines as such. Yet it is the close connection and overlaps that interests him — also underlying the development of the Processing as a "software sketchbook" — wanting programming to be as immediate and fluid as the practice of drawing.
