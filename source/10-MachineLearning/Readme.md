@@ -72,7 +72,7 @@ Machine learning utilizes different statistical algorithms to process (training)
 
 The artist and researcher Nicolas Malevé has developed a program to show the massive dataset called ImageNet,[^imagenet] a project led by Stanford University Professor Dr Fei-Fei Li in 2009 for machine learning and computer vision studies. The dataset contains 1.2 million images in which they were labelled by 25,000 workers from Amazon Mechanical Turk, a crowdsourcing platform, in two-year time. The artwork *'12 Hours of ImageNet'*[^nicolas] cycles through the dataset, showing the sheer scale of image data and categorization, as well as exposing the hidden labour and human attention that are required as part of the machine learning process.
 
-!(cock)[ch10_7.png]
+![cock](ch10_7.png)
 
 *Figure 10.4: The categorization of cock in the work 12 Hours of ImageNet by Nicolas Malevé*
 
