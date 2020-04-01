@@ -394,4 +394,4 @@ Artist David Link has since reconstructed a functional replica of both the hardw
 [^tree]: An example of the recursive fractal tree in p5.js by Martin Žilák, https://editor.p5js.org/marynotari/sketches/BJVsL5ylz
 [^flock]: See Craig Reynold's flocking behavior with the p5.js source code, https://p5js.org/examples/simulate-flocking.html
 [^joan1]: See Truckenbrod's interview Motion Through Series, https://vimeo.com/286993496.
-[^289]: This is a version that is programmed with Javascript with the use of d3 and jquery libraries: https://github.com/wholepixel/solving-sol/blob/master/289/cagrimmett/index.html
+[^289]: This is a version programmed with Javascript, using D3 and jquery libraries: https://github.com/wholepixel/solving-sol/blob/master/289/cagrimmett/index.html
