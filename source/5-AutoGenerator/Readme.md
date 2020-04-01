@@ -328,12 +328,11 @@ Artist David Link has since reconstructed a functional replica of both the hardw
 - [{Software} Structure #003 A by Casey Reas](https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks)
 - [Generative Design - sketches](http://www.generative-gestaltung.de/2/), [source code](https://github.com/generative-design/Code-Package-p5.js)
 - [GenArt (with source code)](https://github.com/JosephFiola/GenArt) by JosephFiola, see ch.1-4
-- [Open Processing with the search keyword 'generative'](https://www.openprocessing.org/browse/?q=generative&time=anytime&type=all#)
 - [Generative Artistry by Ruth John and Tim Holman ](https://generativeartistry.com/tutorials/)
 - [John Conway's Game of Life](http://web.stanford.edu/~cdebs/GameOfLife/)
 - [John F. Simon Jr.'s Every Icon, from 1996](http://www.numeral.com/panels/everyicon.html)
-- [The recode project](http://recodeproject.com/) or https://web.archive.org/web/20181227225001/http://www.recodeproject.com/
-- [WUOUS by Anders Visti and Tobias Stenberg](https://andersvisti.dk/work/wuos-2019) (with an implementation of the Langton's Ant)
+- [The recode project](http://recodeproject.com/)
+- [Solving Sol project - An open project to implement Sol LeWitt's instructions in JavaScript by Brad Bouse](https://github.com/wholepixel/solving-sol)
 
 **Tasks (RUNME):**
 1. Start with a blank paper. Think of at least two simple rules that you want to implement in a generative program. (You may take reference from Langton's ant (1986) and The Game of Life (1970))
