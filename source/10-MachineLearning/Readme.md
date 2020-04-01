@@ -72,7 +72,7 @@ Machine learning utilizes different statistical algorithms to process (training)
 
 The artist and researcher Nicolas Malevé has developed a program to show the massive dataset called ImageNet,[^imagenet] a project led by Stanford University Professor Dr Fei-Fei Li in 2009 for machine learning and computer vision studies. The dataset contains 1.2 million images in which they were labelled by 25,000 workers from Amazon Mechanical Turk, a crowdsourcing platform, in two-year time. The artwork *'12 Hours of ImageNet'*[^nicolas] cycles through the dataset, showing the sheer scale of image data and categorization, as well as exposing the hidden labour and human attention that are required as part of the machine learning process.
 
-![cock][ch10_7.png]
+!(cock)[ch10_7.png]
 
 *Figure 10.4: The categorization of cock in the work 12 Hours of ImageNet by Nicolas Malevé*
 
@@ -239,17 +239,17 @@ To load the ml5.js library as part of the overall sketch, you need the following
 
 Apart from the new ml5.js, the html file contains the following DOM elements:
 
-1. A text input box with the default seed/input text: Ch. 11 Auto Chapter Generator. The seed text is required as a sequence input to generate the next character, continuously forming a new seed sequence for next character prediction: `<input id="textInput" value="Ch. 11 Auto Chapter Generator" size="30"/>`
+1. **A text input box** with the default seed/input text: Ch. 11 Auto Chapter Generator. The seed text is required as a sequence input to generate the next character, continuously forming a new seed sequence for next character prediction: `<input id="textInput" value="Ch. 11 Auto Chapter Generator" size="30"/>`
 
-2. A slider for selecting the number of generated characters with the range from 100 to 2000: `<input id="lenSlider" type="range" min="100" max="2000" value="1000"/>`
+2. **A slider for selecting the number of generated characters** with the range from 100 to 2000: `<input id="lenSlider" type="range" min="100" max="2000" value="1000"/>`
 
-3. A slider for setting the temperature (the value that control the amount of the uncertainty of predictions)[^temp] with the range from 0 to 1: `<input id="tempSlider" type="range" min="0" max="1" step="0.01"/>`
+3. **A slider for setting the temperature** (the value that control the amount of the uncertainty of predictions)[^temp] with the range from 0 to 1: `<input id="tempSlider" type="range" min="0" max="1" step="0.01"/>`
 
-4. The text shows the status of the program e.g "Loading Model", "Model Loaded", "Generating...", "Ready!": `<p id="status">Loading Model</p>`
+4. **The text shows the status** of the program e.g "Loading Model", "Model Loaded", "Generating...", "Ready!": `<p id="status">Loading Model</p>`
 
-5. A clickable button with the word 'generate'. `<button id="generate">generate</button>`
+5. **A clickable button** with the word 'generate'. `<button id="generate">generate</button>`
 
-6. A result area that will display the generative text: `<p id="result"></p>`
+6. **A result area** that will display the generative text: `<p id="result"></p>`
 
 **sketch.js**
 
