@@ -9,7 +9,7 @@ Following the previous discussion of abstraction concerning objects, this chapte
 
 More specifically, the Turing machine is capable of six types of fundamental operations (at that time there wasn't a thing named computer) — including read, write, move left, move right, change state and halt/stop. Turing suggested these operations could be performed via running an endless tape (like memory/storage in a modern computer) with instructions on what symbols to read and write, as well as how to move. These instructions are fundamental principles of the Turing machine,[^visualization] but also modern computing, with the capability to compute tasks in numbers and auto-generate various processes. These instructions in turn pervade digital culture and seem to underwrite the wider processes of production, consumption and distribution of contemporary (informational) capitalism as we already partly covered in Chapter 4 - Data Capture.    
 
-![turing](ch5_1.jpg)
+![turing](ch5_1.png)
 
 *Figure 5.1: An illustration of the Turing Machine*
 
