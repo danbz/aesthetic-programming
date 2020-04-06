@@ -75,7 +75,11 @@ o
 
 ## Discussion
 
-In our previous experience of this class exercise,[^ex] different results were produced and this becomes an excellent way to begin to discuss the use of flowcharts. We have selected some of Nathan Ensmenger's reflections from his article "The Multiple Meanings of a Flowchart" to spark discussion here: "To view the computer flowchart as having only one purpose is narrow and misleading, [because] every flowchart had multiple meanings and served several purposes simultaneously"; "Flowcharts allow us to 'see' software in ways that are otherwise impossible."[^Ensmenger] 
+In our previous experience of this class exercise,[^ex] different results were produced and this becomes an excellent way to begin to discuss the use of flowcharts. We have selected some of Nathan Ensmenger's reflections from his article "The Multiple Meanings of a Flowchart" to spark discussion here: 
+
+"To view the computer flowchart as having only one purpose is narrow and misleading, [because] every flowchart had multiple meanings and served several purposes simultaneously"; 
+
+"Flowcharts allow us to 'see' software in ways that are otherwise impossible."[^Ensmenger] 
 
 ## Flowcharts as artistic medium
 
