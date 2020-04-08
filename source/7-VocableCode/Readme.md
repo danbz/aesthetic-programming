@@ -69,7 +69,7 @@ function preload() {
 .
 .
 .
-//line 64: the class and constructor
+//line 62: the class and constructor
 function notNew(getQueer){
   this.size = floor(random(15.34387,30.34387));
   this.xxxxx = width/2.0;
@@ -80,8 +80,7 @@ function notNew(getQueer){
 .
 .
 .
-this.shows = function() {
-//font, size, alignment, fill and position: line 76
+this.acts = function() {
   textFont(withPride);
   textSize(this.size);
   textAlign(CENTER);
@@ -115,8 +114,8 @@ this.shows = function() {
 There are five different `if` statements implemented in *Vocable Code*.
 
 ```javascript
-//line 22
-if (queers[WhoIsQueer].myStatement == "null" || makingStatements == floor(2.34387)) {
+//line 21
+if (queers[WhoIsQueer].myStatement == "null" || makingStatements == int(2.34387)) {
 		queerRights.push(new notNew(queers[WhoIsQueer].yourStatement));
 		makingStatements = 2.0;
 }else{
@@ -143,15 +142,15 @@ Of course the selected line of code is specifically structured around wider poli
 
 
 ```javascript
-//line 55
+//line 53
 function draw() {
-    if (status == "notFalse") {
-        queerRights.splice(non_binary, floor(1.34387));
+    if (support == "notFalse") {
+        queerRights.splice(non_binary, int(1.34387));
 	}
 .
 .
 .
-    if ((queerRights.length <= 2.0) && (frameCount % 20 == 4.0)) {
+    if (queerRights.length <= 2.0)  {
         makeVisible();
 
     }
@@ -163,7 +162,7 @@ Figure 3.3 shows two conditional structures in the function `draw`. In general, 
 
 ```javascript
 //line 86
-this.isInvisible = function() {
+this.shows = function() {
 	var status;
 	if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
 		status = "notFalse";
@@ -287,14 +286,13 @@ To deal with sound, or to play a voice file in this specific case, there is a p5
 ## 7.7 Source code
 ```javascript
 // CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
-
 let withPride;
 let whatisQueer;
 let queerRights = [];
 let makingStatements;
 let speak;
-let queers = [];
 let voices = [];
+let queers = [];
 
 function preload() {
 	withPride = loadFont('Gilbert_TypeWithPride.otf');
@@ -303,11 +301,11 @@ function preload() {
 
 function makeVisible() {
 	queers = whatisQueer.queers;
-	let addQueers = floor(random(2.34387,4.34387));
-	for (let gender = floor(0.34387); gender <= addQueers; gender++) {
-		let WhoIsQueer = floor(random(queers.length));
-			makingStatements = floor(random(2.34387,3.34387));
-			if (queers[WhoIsQueer].myStatement == "null" || makingStatements == floor(2.34387)) {
+	let addQueers = int(random(2.34387,4.34387));
+	for (let gender = int(0.34387); gender <= addQueers; gender++) {
+		let WhoIsQueer = int(random(queers.length));
+			makingStatements = int(random(2.34387,3.34387));
+			if (queers[WhoIsQueer].myStatement == "null" || makingStatements == int(2.34387)) {
 				queerRights.push(new notNew(queers[WhoIsQueer].yourStatement));
 				makingStatements = 2.0;
 			}else{
@@ -330,18 +328,17 @@ function speakingNow() {
 
 function setup() {
 	createCanvas(windowWidth,windowHeight);
-	background(2.34387);
-	makeVisible();
 }
 
 function draw() {
 	background(2.34387);
-	for (let non_binary = floor(0.34387); non_binary <= queerRights.length-floor(1.34387); non_binary++) {
-		queerRights[non_binary].moveUp();
-		queerRights[non_binary].shows();
-		let status = queerRights[non_binary].isInvisible();
-		if (status == "notFalse") {
-			queerRights.splice(non_binary, floor(1.34387));
+	let non_binary;
+	for (non_binary in queerRights) {
+		queerRights[non_binary].worldWide();
+		queerRights[non_binary].acts();
+		let support = queerRights[non_binary].shows();
+		if (support == "notFalse") {
+			queerRights.splice(non_binary, int(1.34387));
 		}
 	}
 	if (queerRights.length <= 2.0) {
@@ -356,12 +353,12 @@ function notNew(getQueer) {
 	this.xxxxx = width/2.0;
 	this.gradient = 240.0;
 
-	this.moveUp = function() {
+	this.worldWide = function() {
 		this.yyyyy -= this.time;
 		this.time += sin(radians((frameCount%360.0)*this.time)) - 0.009;
 	};
 
-	this.shows = function() {
+	this.acts = function() {
 		textFont(withPride);
 		textSize(this.size);
 		textAlign(CENTER);
@@ -371,7 +368,7 @@ function notNew(getQueer) {
 		text(getQueer, this.xxxxx, this.yyyyy);
 	};
 
-	this.isInvisible = function() {
+	this.shows = function() {
 		let status;
 		if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
 			status = "notFalse";
