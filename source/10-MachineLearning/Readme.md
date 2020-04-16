@@ -9,7 +9,7 @@ page_order: 10
 
 *Figure 10.1: The basic flow diagram of keyword detection in Eliza (1966) by Joseph Weizenbaum*
 
-This chapter begins with a simplified diagram that describes how a chatbot works - procedurally and logically. 
+This chapter begins with a simplified diagram that describes how a chatbot works - both in terms of procedure and logic. 
 G - to add some nofes on eliza here 
 
 *Eliza*, a computer program but it also often describes as a computer therapist, is considered as one of the first chatbots created in the mid-1960s by Joseph Weizenbaum at MIT. Involving natural language processing,[^nlp] *Eliza* implements keywords recognition in which it takes in textual input from a patient and output responses that simulate a doctor therapist by following certain language rules with psychological considerations. Such conversations involve an "illusion" [^Weizenbaum] in order to make machines behave/respond as if a human. Evidently, *Eliza* exhibits some kinds of intelligence, with reference to the Turing Test,[^Turing] not only it is able to maintain a relevant and personalized dialogue over time but also as Weizenbaum notes, "[s]ome subjects have been very hard to convince that ELIZA is not human."[^Weizenbaum2]  
@@ -22,7 +22,9 @@ Such technical and political operations further point to many aesthetic and cult
 
 ## start()
 
-This chapter starts by an examination and reflection on the earlier ELIZA chatbot by using the works produced by Norbert Landsteiner from 2005-2013:
+This chapter draws many of the previous discussions together in this sense...
+
+starts by an examination and reflection on the earlier ELIZA chatbot by using the works produced by Norbert Landsteiner from 2005-2013:
 
 ![10_2](ch10_5.png)
 
