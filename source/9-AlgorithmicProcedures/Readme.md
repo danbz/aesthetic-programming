@@ -151,8 +151,8 @@ Group:
 
 ## Required reading
 
-- Ensmenger, Nathan. "The Multiple Meanings of a Flowchart." *Information & Culture: A Journal of History*, vol. 51 no. 3, 2016, pp. 321-351. Project MUSE, doi:10.1353/lac.2016.0013
-- Taina Bucher, Taina. "The Multiplicity of Algorithimcs" in *If...Then: Algorithmic Power and Politics* (Oxford: Oxford University Press, 2018), 19-40.
+- Nathan Ensmenger, "The Multiple Meanings of a Flowchart." *Information & Culture: A Journal of History*, vol. 51 no. 3, 2016, pp. 321-351. Project MUSE, doi:10.1353/lac.2016.0013.
+- Taina Bucher, "The Multiplicity of Algorithimcs" in *If...Then: Algorithmic Power and Politics* (Oxford: Oxford University Press, 2018), 19-40.
 - Marcus du Sautoy, The Secret Rules of Modern Living: Algorithms - Clips, *BBC Four* (2015), https://www.bbc.co.uk/programmes/p030s6b3/clips.
 
 ## Further reading
@@ -202,7 +202,7 @@ Group:
 [^recipe]: Although the concept of algorithm is rooted in Computer Science, scholars from other fields like cultural studies and media studies take on the technical concept of algorithm and explore the wider cultural consequences and political implications. The analogy of algorithms as receipes can be also seen here: Finn, Ed. What Algorithms Want: Imagination in the Age of Computing. Cambridge, MA: MIT Press, 2017, p. 17 and
 Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Press, 2018, p. 21.
 
-[^goffey]: Andyrew Goffey, “Algorithm”, in Fuller, ed. *Software Studies*, 19.
+[^goffey]: Andrew Goffey, “Algorithm”, in Fuller, ed. *Software Studies*, 19.
 
 [^Kitchin]: Rob Kitchin, "Thinking Critically About and Researching Algorithms”, in *Information, Communication & Society* (2016), 16. 
 
