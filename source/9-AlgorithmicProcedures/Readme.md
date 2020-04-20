@@ -41,6 +41,7 @@ Conventionally, each step in a flowchart is represented by a symbol and connecti
 As we have studied the program *Vocable Code* in Chapter 7, Figure 9.1 below shows the corresponding flowchart, a different representation of the program. The original idea is to demonstrate the high level logic and sequences, and to elaborate the details of this in plain English. This flowchart uses symbols, lines and text to communicate with a wider audience such as the readers oif this book.
 
 ![flowchart](ch9_1.png)
+
 *Figure 9.1: The flow chart of Vocable Code by Winnie Soon, graphic design by Anders Visti*
 
 Indeed flowcharts are used across many disciplines, both technical and in the arts, for example it is relatively common to use them in the business sector to understand and communicate how different processes or workflows are organized for efficiency. In philosophy, diagrams have been used to produce new kinds of thinking, what Deleuze and Guattari refer to as an "abstract machine",[^Guattari] as a material assemblage of relations (and we will return to these issues in more detail at the end of the chapter). Similarly, in our past teaching, we have used flowcharts as a means to deconstruct written texts as well as to break down an argument and structure, as as a way to formulate ideas for new essays. It is a tool, or rather machine, that helps to think through different procedures and processes, and this approach has self-evidently informed our use of a flowchart to introduce each chapter of this book.  
