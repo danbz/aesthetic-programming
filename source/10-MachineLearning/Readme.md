@@ -11,27 +11,19 @@ page_order: 10
 
 This chapter begins with a diagram that describes how a chatbot works - both in terms of procedure and logic - following on neatly from the previous chapter. We use this example of artificial intelligence as a way to introduce this final chapter of the book about machine learning, broadly defined as a collection of models, statistical methods and operational algorithms that are used to analyse experimental or observational data. Given the prevalence and large volume of data being mined (as discussed in previous chapters) - and its widespread application in everyday devices such as Google Search and Apple’s Siri, to more sinister applications in border control face recognition software or military robots - it is hardly surprising that machine learning has become big news. 
 
-Its roots lie in older discussions of whether computers can demonstrate intelligent responses to inputs, such as the relatively simple chatbot example that uses keywords to produce a 'knowing' response or follow up question. *ELIZA* is one of the first chatbots, created by Joseph Weizenbaum at MIT between 1964 and 1966. It simulates a conversation between a Rogerian psychotherapist and their patient, prompting for user input, and then using primitive 'natural language processing'[^nlp] transforming this input using a simple script based on keyword association and language patterns into what seems to be a meaningful output, often in the form of a return question. Despite its apparent simplicity, it can be quite convincing.
+Its roots lie in older discussions of whether computers can demonstrate intelligent responses to inputs, such as the relatively simple chatbot example that uses keywords to produce a 'knowing' response or follow up question. *ELIZA* is one of the first chatbots, created by Joseph Weizenbaum at MIT between 1964 and 1966. It simulates a conversation between a Rogerian psychotherapist and their patient, prompting for user input, and then using primitive 'natural language processing'[^nlp] transforming this input using a simple script based on keyword association and language patterns into what seems to be a meaningful output, often in the form of a return question. Despite its apparent simplicity, it can be quite convincing (as you will see later).
 
-> ELIZA: How do you do. Please tell me your problem.
-> YOU:   I am trying to explain the Eliza chatbot.
-> ELIZA: Do you know anyone else who is trying to explain the Eliza chatbot?
-> YOU:   Yes plenty.
-> ELIZA: I understand.
-> YOU:   So can you help?
-> ELIZA: We were discussing you -- not me.
-
-Such conversations involve an "illusion"[^Weizenbaum] in order to make machines respond as if they were human entities. Evidently, *Eliza* exhibits some artificial intelligence but also relies on our willingness to anthropomorphize technology, as not only it is able to maintain a seemingly relevant and personalized dialogue over time but also as Weizenbaum notes, "[s]ome subjects have been very hard to convince that ELIZA is not human."[^Weizenbaum2] Here we make reference once more to the Turing Test,[^Turing] and whether a machine is able to respond convincingly to an input with an output similar to a human's, or more precisely the human capacity for rational thinking. It's also interesting to note that Eliza is named after Eliza Doolittle - from the George Bernard Shaw play *Pygmalion*[^Pygmalion] - the working class Cockney flower girl, and subject of a bet by a professor of phonetics that he is able to teach her gentility through the acquisition of proper speech. The current technology of voice assistants operates on similar principles but rather than simply returning a convincing response based on key words alone, these assistants are able to not only process content but *learn the style* of human behavior. 
+The flow of conversation involves an "illusion"[^Weizenbaum] in order to make machines respond as if they were human entities. Evidently, *ELIZA* exhibits our willingness to anthropomorphize technology and what passes for intelligence, as not only it is able to maintain a seemingly relevant and personalized dialogue but also as Weizenbaum notes, "[s]ome subjects have been very hard to convince that ELIZA is not human."[^Weizenbaum2] Here we make reference once more to the Turing Test,[^Turing] and whether a machine is able to respond convincingly to an input with an output similar to a human's, or more precisely the human capacity for rational thinking. It's also interesting to note that ELIZA is named after Eliza Doolittle - from the George Bernard Shaw play *Pygmalion*[^Pygmalion] - the working class Cockney flower girl, and subject of a bet by a professor of phonetics that he is able to teach her gentility through the acquisition of proper speech. The current technology of voice assistants operates on similar principles but rather than simply returning a convincing response based on key words alone, these assistants are able to not only process content but *learn the style* of human behavior. 
 
 In machine learning, it is commonly understood that the style is learnt from training datasets through techniques to process and analyze large amounts of natural language data. As such, machine learning techniques such as style transfer relies on identifying patterns. This *pattern recognition* however is clearly not a neutral process as it involves the identification of input data and the *discrimination* of information.[^clemens] It is clear that there is human ideology in such processes, such as inherent stereotypes in voice assistants or in online translation tools,[^online] and other examples that might include the AI chatbot that was regarded as racist,[^tay] or how facial recognization in Amazon software and other smart systems demonstrate gender and racial bias.[^face] Understood this way, pattern recognition is not only about smoothing tasks and making accurate predictions in terms of technical operations but also political ones as it creates "subjects and subjection, knowledge, authority" as well as classification and categorization.[^hito] The example of Eliza - both program and person - comes to mind once more. 
 
 Appropriately for the last chapter of our book, many of the critical-technical issues we have discussed through previous chapters seem to come together in the examination of machine learning, such as labour practices, bias, data collection, environmental concerns, creativity and authorship, transparency, and so on. Perhaps we even need to write another book to continue this thread of critical discussion and even with this one we might speculate on whether we have been writing a teaching or a learning book if we assume that you have to learn something before you can actually teach it and that the act of teaching can make you learn something. 
 
-More to the point, the proiduction of knowledge lies at the core of this discussion, and the worry about machine learning is that what is being learnt is compromised or inflected with dubious ideas of how the world operates. Mackenzie’s focus on “machine learners” (also the title of his book) refers to humans and machines, and to human-machine relations. He asks "Does the somewhat unruly generalization of machine learning [...] attest to a redefinition of knowledge, decision, and control, a new operational formation in which a ‘system is transformed’?"[^Learners] Learning itself is implicated, in terms of new forms of control. Here he is building on Foucault to understand machine learning as as a form (or technique) of knowledge production and as a strategy of power. His point is to understand how machine learners produce knowledge through their differences, for instance through the ways they classify and categorize data (e.g. this image of a person is a specific gender, race, etc.). In other words, and this seems self-evident, there are some serious worries about the forms of knowledge produced through machine learning given the broader context in which it arises. More to the point, we need to begin to understand its operations better. 
+More to the point, the proiduction of knowledge lies at the core of this discussion, and the worry about machine learning is that what is being learnt is compromised or inflected with dubious ideas of how the world operates. Mackenzie’s focus on “machine learners” (also the title of his book) refers to humans and machines, and to human-machine relations. He asks "Does the somewhat unruly generalization of machine learning [...] attest to a redefinition of knowledge, decision, and control, a new operational formation in which a ‘system is transformed’?"[^Learners] Learning itself is implicated, in terms of new forms of control. Here he is building on Foucault to understand machine learning as as a form (or technique) of knowledge production and as a strategy of power. His point is to understand how machine learners produce knowledge through their differences, for instance through the ways they classify and categorize data (e.g. this image of a person is a specific gender, race, etc.). In other words, and this is self-evident from the examples, there are some serious worries about the forms of knowledge produced through machine learning given the broader context in which it arises. More to the point, we need to begin to understand its operations better. 
 
 ## start()
 
-We start with an examination and reflection on the earlier ELIZA chatbot by using the works produced by Norbert Landsteiner from 2005-2013:
+Let's start with an examination and reflection on the ELIZA chatbot by using the test application produced by Norbert Landsteiner, between 2005 and 2013:
 
 ![10_2](ch10_5.png)
 
@@ -39,7 +31,7 @@ We start with an examination and reflection on the earlier ELIZA chatbot by usin
 
 Tasks:
 
-1. Visit the Eliza Test by clicking the button 'Next step' via the link **https://www.masswerk.at/elizabot/eliza_test.html**. This is to see the original example given by Joseph Weizenbaum in his article on the ELIZA.
+1. Visit the ELIZA Test by clicking the button 'Next step' via the link **https://www.masswerk.at/elizabot/eliza_test.html**. This is to see the original example given by Joseph Weizenbaum in his published article.[^Weizenbaum3]
 
 2. Then visit the work *E.L.I.Z.A talking* (2013) via the link **https://www.masswerk.at/eliza/**, and to explore and experience the conversation with your own interactions.[^bot]
 
@@ -366,11 +358,11 @@ The README should address at least the following questions with the help of your
 ## Further reading:
 - Weizenbaum Joseph (1966) ELIZA - a computer program for the study of natural language communication between man and machine. *Commun ACM* 9(1):36–4
 - Kate Crawford and Vladan Joler. Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources, 2018. Web: https://anatomyof.ai/
-- Clemens Apprich, Wendy Hui Kyong Chun, Florian Cramer, Hito Steyerl, *[Pattern Discrimination: In Search of Media](https://meson.press/wp-content/uploads/2018/11/9783957961457-Pattern-Discrimination.pdf)*, Minneapolis, London: University of Minnesota Press, 2018.
+- Clemens Apprich, Wendy Hui Kyong Chun, Florian Cramer, Hito Steyerl, *[Pattern Discrimination: In Search of Media](https://meson.press/wp-content/uploads/2018/11/9783957961457-Pattern-Discrimination.pdf)* (Minneapolis, London: University of Minnesota Press, 2018).
 
 ## Notes
 
-[^Weizenbaum]: Joseph, Weizenbaum. “ELIZA—a Computer Program for the Study of Natural Language Communication between Man and Machine,” *Communications of the ACM* 9(1), 1996: 36-45.
+[^Weizenbaum]: Joseph Weizenbaum. “ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine,” *Communications of the ACM* 9 (1), 1996: 36-45.
 
 [^Weizenbaum2]: Ibid, 42.
 
@@ -379,7 +371,7 @@ Venus grants it the breath of life.
 
 [^Turing]: See Alan, M. Turing. "Computing machinery and intelligence," *Mind* 49, 1950: 433-460.
 
-[^clemens]:Clemens, Apprich, "Introduction" in *Pattern Discrimination* (Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl), Minnesota: meason press, 2018, p.x
+[^clemens]:Clemens, Apprich, "Introduction" in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination* (Minnesota: Meson Press, 2018), p.x.
 
 [^online]: See the example of Google web translation service that assumes and carries the gender sterotypes of certain society roles: https://twitter.com/mit_csail/status/916032004466122758
 
@@ -389,11 +381,13 @@ Venus grants it the breath of life.
 
 [^hito]: Hito Steyerl, "A Sea of Data: Pattern Recognition and Corporate Animism (Forked Version)" in *Pattern Discrimination* (Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl), Minnesota: meason press, 2018, p.3
 
-[^learners]: Adrian Mackenzie, *Machine Learners: Archaeology of a Data Practice* (Cambridge, Mass.: MIT Press, 2017) 6. 
+[^Learners]: Adrian Mackenzie, *Machine Learners: Archaeology of a Data Practice* (Cambridge, Mass.: MIT Press, 2017) 6. 
+
+[^Weizenbaum3]: Weizenbaum, “ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine.”
 
 [^john]: John, Berger. *Ways of Seeing*. London: Penguin, 1972. Print
 
-[^cox]: Geoff, Cox. “Ways of Machine Seeing.” *A Peer-Reviewed Journal About* 6, no. 1 (April 1, 2017): 8–15. https://doi.org/10.7146/aprja.v6i1.116007.
+[^cox]: Geoff Cox. “Ways of Machine Seeing.” *A Peer-Reviewed Journal About* 6, no. 1 (April 1, 2017): 8–15. https://doi.org/10.7146/aprja.v6i1.116007.
 
 [^ml5]: See the ml5.js library: https://ml5js.org/ and Daniel Shiffman's The Coding Train series specifically on ml5.js: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y
 
