@@ -39,25 +39,19 @@ Tasks:
     - How would you describe your experience of ELIZA (e.g. the use of language, style of conversation and quality of social interaction)?
     - How would you assess the ability of technology such as this to capture and structure feelings and experiences; what are the limitations?
 
-## Input, Modelling, Output
+## Input and output / or Datasets
 
-We have already briefly introduced machine learning but let's clarify how this works. In a contemporary context, it refers to various techniques of "data-handling",[^samuel1] or more precisely statistics and data analysis. It is commonly described by three components: Input, Modelling and Output. Usually, a large amount of data is needed to be collected, parsed and cleaned. Data cleansing is a term often used in Computer or Data Science to describe the process of preparing data (data can be thought of text, video, images, gestures, etc.) as input data by adjusting data inconsistency in terms of removing or modifying data that is irrelevant, duplicated, or improperly formatted. These various data preparation processes involve decision-making in terms of identifying and accessing the datasets, and how to structure the raw data and how to deal with inconsistencies. As in chapter 4 (DataCapture) we can already see how this process is fraught with problems, around what gets included and excluded. If data is coming from different places, then the question arises of how to normalize the data to structure a cohesive dataset.[^dataset]
-
-.////// NM: But these datasets do not appear by magic, they need to be curated, assembled, maintained and annotated. Concretely, the modelling is outsourced to those who curate and annotate the dataset. The annotators and curators are in fact implicitly coding the model that will be discovered algorithmically. The engineers say the model is learned end to end. This means in fact that it doesn't learn from them any more. In the current machine learning paradigm, the engineer doesn't need to be a feline expert to produce a cat detector, but the engineer relies on a population of curators and annotators actively engaged in defining what counts as photographs of cats. The paradigm change in machine learning has externalised the modelling process and, by doing so, has brought up a new division of labour.
-
-///////With ELIZA in mind, it's worth adding that cleaning data also comes close to how language is also cleaned. ADD MORE from History of Shit end on input output
-
-In the following exercise, we will use the project *Teachable Machine* to engage with machine learning processes, involving input and output as a way to see the relation between the two.
+We have already briefly introduced machine learning but let's clarify how this works. In a contemporary context, it refers to various techniques of "data-handling",[^samuel1] or more precisely statistics and data analysis. It is commonly described by three components: Input, Modelling, and Output. Usually, a large amount of data is needed to be collected, parsed and cleaned.[^shit] Data cleansing is a term often used in Computer or Data Science to describe the process of preparing data (data can be thought of text, video, images, gestures, etc.) as input data by adjusting data inconsistency in terms of removing or modifying data that is irrelevant, duplicated, or improperly formatted. These various data preparation processes involve decision-making in terms of identifying and accessing the datasets, and how to structure the raw data and deal with inconsistencies. If data is coming from different places, then the question arises of how to normalize the data to structure a cohesive dataset. As in chapter 4 (DataCapture) we can already see how this process is fraught with problems, around what gets included and excluded, and how this is decided and done, and by whom. The dataset becomes a hugely significant cultural artifact that we need to know better.[^dataset] 
 
 ## Exercise in class
 
-Try the first version of the Teachable Machine,[^tm1] an experiment to explore how machine learning works: https://teachablemachine.withgoogle.com/v1/
+In the following exercise, we will use the project *Teachable Machine* to engage more closely with machine learning processes involving input and output, as a way to understand the relation between the two. Try the first version[^tm1] to explore how machine learning works: https://teachablemachine.withgoogle.com/v1/
 
 ![ch10_2.png](ch10_2.png)
 
 *Figure 10.3: The interface of the Teachable Machine (ver 1)*
 
-This web application includes both input, learning and output. By capturing images via your own web camera, the program utilizes images as the input data. There are three training classifiers that you can play with.
+This web application includes both input, learning and output. By capturing images via your own web camera, the program utilizes images as input data. There are three training classifiers that you can play with.
 
 **What to do:**
 Prepare three set of gestures that can be captured by a web camera. Each gesture has to be repeatedly trained by long-pressing the colored 'TRAIN' button, and this will generate the machine learning model that is based on the captured images as input data (also called training dataset) (see figure 10.2). This process is to train a computer to recognize the specific gestures/images/poses so that when there is a new image input (as test dataset), the teachable machine can classify those gestures with various confidence levels, and then predict the corresponding output results. The three default output modes (GIF, Sound, Speech) can be further modified by searching for other sets of images, sound and text.
@@ -396,6 +390,8 @@ Venus grants it the breath of life.
 [^cox]: Geoff Cox. “Ways of Machine Seeing.” *A Peer-Reviewed Journal About* 6, no. 1 (April 1, 2017): 8–15. https://doi.org/10.7146/aprja.v6i1.116007.
 
 [^ml5]: See the ml5.js library: https://ml5js.org/ and Daniel Shiffman's The Coding Train series specifically on ml5.js: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y
+
+[^shit]: With ELIZA in mind, it's worth adding that cleaning data also comes close to the regulation of proper speech with the removal of dirty words. Dominique Laporte's wonderful book *A History of Shit* has more detail on this and the further parallel to public hygiene. ADD DETAIL
 
 [^dataset]: For more on the problems related to datasets, see Nicolas Malevé's' "An Introduction to Image Datasets", Unthinking Photography, https://unthinking.photography/articles/an-introduction-to-image-datasets.
 
