@@ -31,17 +31,17 @@ Let's start with a closer examination and reflection on the ELIZA chatbot by usi
 
 Tasks:
 
-1. Visit the ELIZA Test by clicking the button 'Next step' via the link **https://www.masswerk.at/elizabot/eliza_test.html**. This is to see the original example given by Weizenbaum in his published article.[^Weizenbaum3]
+1. Visit the ELIZA Test by clicking the button 'Next step' via **https://www.masswerk.at/elizabot/eliza_test.html**. This is to see the original example given by Weizenbaum in his published article.[^Weizenbaum3]
 
-2. Then visit the work *E.L.I.Z.A talking* (2013) via the link **https://www.masswerk.at/eliza/**, and to explore and experience the conversation with your own interactions.[^bot]
+2. Then visit the work *E.L.I.Z.A talking* (2013) via the link **https://www.masswerk.at/eliza/**, and try your own conversation.[^bot]
 
-3. Share your experience of the original conversation given by Weizenbaum and your conversation with the chatbot:
-    - How do you feel when having a conversation with ELIZA in response to the language, style, aesthetics and the social forms of interactions?
-    - How to you see the ability, potential and limitation of technologies to capture and structure feelings and experiences?
+3. Share your experience of the original conversation given by Weizenbaum and your conversation with the chatbot with others:
+    - How would you describe your experience of ELIZA (e.g. the use of language, style of conversation, the social interaction)?
+    - How would you assess the ability of technology such as this to capture and structure feelings and experiences; what are the limitations?
 
-## What's learning?
+## What is (machine) learning?
 
-Machine learning, a term coined by Arthur Samuel in 1959 via his research at IBM in the context of game, with the ultimate goal to reduce or even eliminate the need for "detailed programming effort," involving learning through generalization in order to achieve pattern recognition.[^samuel] To use machine learning in the contemporary context, it refers to such learning techniques by means of "data-handling",[^samuel1] or more precisely statistics and data analysis. It is commonly described in three components: Input, Modelling and Output. Usually, a large amount of data is needed to be collected, parsed and cleaned. Data cleansing is a term often used in Computer or Data Science to describe the process of preparing data (data can be thought of text, video, images, gestures, etc) as input data by adjusting data inconsistency in terms of removing or modifying data that is irrelevant, duplicated, or improperly formatted. Pointing at various data preparation processes, they involve decision making in terms of identifying and accessing the datasets, and how to structure the raw data and how to deal with inconsistencies. If data is coming from different places, then how to normalize the data to structure a cohesive dataset? In the following exercise, we will use the project *Teachable Machine* to engage with machine learning processes, involving input and output as a way to see the relation between the two.  
+Machine learning is a term coined by Arthur Samuel in 1959 via his research at IBM in the context of game developent, with the ultimate goal to reduce or even eliminate the need for "detailed programming effort", involving learning through generalization in order to achieve pattern recognition.[^samuel] To use machine learning in the contemporary context, it refers to such learning techniques by means of "data-handling",[^samuel1] or more precisely statistics and data analysis. It is commonly described in three components: Input, Modelling and Output. Usually, a large amount of data is needed to be collected, parsed and cleaned. Data cleansing is a term often used in Computer or Data Science to describe the process of preparing data (data can be thought of text, video, images, gestures, etc) as input data by adjusting data inconsistency in terms of removing or modifying data that is irrelevant, duplicated, or improperly formatted. Pointing at various data preparation processes, they involve decision making in terms of identifying and accessing the datasets, and how to structure the raw data and how to deal with inconsistencies. If data is coming from different places, then how to normalize the data to structure a cohesive dataset? In the following exercise, we will use the project *Teachable Machine* to engage with machine learning processes, involving input and output as a way to see the relation between the two.  
 
 ## Exercise in class
 
