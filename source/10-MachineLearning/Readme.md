@@ -39,11 +39,13 @@ Tasks:
     - How would you describe your experience of ELIZA (e.g. the use of language, style of conversation and quality of social interaction)?
     - How would you assess the ability of technology such as this to capture and structure feelings and experiences; what are the limitations?
 
-## Input/output
+## Input, Modelling, Output
 
-We have already briefly introduced machine learning but let's clarify how this works technically. In a contemporary context, it refers to various techniques of "data-handling",[^samuel1] or more precisely statistics and data analysis. It is commonly described by three components: Input, Modelling and Output. Usually, a large amount of data is needed to be collected, parsed and cleaned. Data cleansing is a term often used in Computer or Data Science to describe the process of preparing data (data can be thought of text, video, images, gestures, etc.) as input data by adjusting data inconsistency in terms of removing or modifying data that is irrelevant, duplicated, or improperly formatted. These various data preparation processes involve decision-making in terms of identifying and accessing the datasets, and how to structure the raw data and how to deal with inconsistencies. As in chapter ?? we can already see how this process is fraught with problems, around what gets included and what is excluded. If data is coming from different places, then the question arises of how to normalize the data to structure a cohesive dataset.  
+We have already briefly introduced machine learning but let's clarify how this works. In a contemporary context, it refers to various techniques of "data-handling",[^samuel1] or more precisely statistics and data analysis. It is commonly described by three components: Input, Modelling and Output. Usually, a large amount of data is needed to be collected, parsed and cleaned. Data cleansing is a term often used in Computer or Data Science to describe the process of preparing data (data can be thought of text, video, images, gestures, etc.) as input data by adjusting data inconsistency in terms of removing or modifying data that is irrelevant, duplicated, or improperly formatted. These various data preparation processes involve decision-making in terms of identifying and accessing the datasets, and how to structure the raw data and how to deal with inconsistencies. As in chapter 4 (DataCapture) we can already see how this process is fraught with problems, around what gets included and excluded. If data is coming from different places, then the question arises of how to normalize the data to structure a cohesive dataset.[^dataset]
 
-///////The process of cleaning data comes close to how language is also cleaned. ADD MORE from History of Shit end on input output
+.////// NM: But these datasets do not appear by magic, they need to be curated, assembled, maintained and annotated. Concretely, the modelling is outsourced to those who curate and annotate the dataset. The annotators and curators are in fact implicitly coding the model that will be discovered algorithmically. The engineers say the model is learned end to end. This means in fact that it doesn't learn from them any more. In the current machine learning paradigm, the engineer doesn't need to be a feline expert to produce a cat detector, but the engineer relies on a population of curators and annotators actively engaged in defining what counts as photographs of cats. The paradigm change in machine learning has externalised the modelling process and, by doing so, has brought up a new division of labour.
+
+///////With ELIZA in mind, it's worth adding that cleaning data also comes close to how language is also cleaned. ADD MORE from History of Shit end on input output
 
 In the following exercise, we will use the project *Teachable Machine* to engage with machine learning processes, involving input and output as a way to see the relation between the two.
 
@@ -394,6 +396,8 @@ Venus grants it the breath of life.
 [^cox]: Geoff Cox. “Ways of Machine Seeing.” *A Peer-Reviewed Journal About* 6, no. 1 (April 1, 2017): 8–15. https://doi.org/10.7146/aprja.v6i1.116007.
 
 [^ml5]: See the ml5.js library: https://ml5js.org/ and Daniel Shiffman's The Coding Train series specifically on ml5.js: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y
+
+[^dataset]: For more on the problems related to datasets, see Nicolas Malevé's' "An Introduction to Image Datasets", Unthinking Photography, https://unthinking.photography/articles/an-introduction-to-image-datasets.
 
 [^tm1]: Teachable Machine 2.0 allows user to train their models and export them for further use. Teachable Machine built upon the free and open source tensorflow.js library, developed by Google Brain team, to preprocessing data, building machine learning models and structures.
 
