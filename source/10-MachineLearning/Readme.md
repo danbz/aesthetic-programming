@@ -72,15 +72,22 @@ This initial exercise is to become familiar with the three components in machine
 
 Machine learning utilizes different statistical algorithms to process (training) datasets. An image of a person, for instance, is identified as such by measuring a set of gradients of known images derived from its training data, in which learning algorithms learn what constitutes a person. Broadly there are three types of algorithms: Supervised Learning, Unsupervised Learning and Reinforcement Learning. 
 
-**Supervised Learning** - This is based on the training dataset in the form of input/output pairs as expected answers. A classical example would be spam emails in which an algorithm learns from the sample of emails that are labelled as "spam" or "not spam". The goal of this type of learning is to map the data input to output labels. For example, with new email as the input, what would be the predicted output result? Can it be classified as a spam email and then further placed into a junk mailbox? In mathematical terms, it is expressed as Y=f(X) and the goal is to predict the output variable Y from the new input data (X). But this prediction process relies on classification techniques, for example binary classification (such as yes/no, spam/not spam, male/female) and multi-classification (such as different object labellings like dogs, cats, humans in visual recognization), which is based on the process of data labelling and this is where inconsistencies arise. Data is being categorized in a discrete manner, and there are many reasons that might lead to a 'normative' prediction and this is especially problematic on complex subjects like gender, race and identity, because these are operated beyond the binary and discrete type of classification.
+**Supervised Learning** - This is based on the training dataset in the form of input/output pairs as expected answers. A classical example would be spam emails in which an algorithm learns from the sample of emails that are labelled as "spam" or "not spam". The goal of this type of learning is to map the data input to output labels. For example, with new email as the input, what would be the predicted output result? Can it be classified as a spam email and then further placed into a junk mailbox? In mathematical terms, it is expressed as Y=f(X) and the goal is to predict the output variable Y from the new input data (X). But this prediction process relies on classification techniques, for example binary classification (such as yes/no, spam/not spam, male/female) and multi-classification (such as different object labels like dogs, cats, humans in visual recognition), which is based on the process of data labelling and this is where inconsistencies arise. Data is being categorized in a discrete manner, and there are many reasons that might lead to a 'normative' prediction and this is especially problematic on complex subjects like gender, race and identity, because these are operated beyond the binary and discrete type of classification.
 
-The artist Nicolas Malevé has doen extensive research on this topic in relation to the dataset ImageNet.
-///////////////////
-developed a program to show the massive dataset called ImageNet,[^imagenet] a project led by Stanford University Professor Dr Fei-Fei Li in 2009 for machine learning and computer vision studies. The dataset contains 1.2 million images in which they were labelled by 25,000 workers from Amazon Mechanical Turk, a crowdsourcing platform, in two-year time. The artwork *'12 Hours of ImageNet'*[^nicolas] cycles through the dataset, showing the sheer scale of image data and categorization, as well as exposing the hidden labour and human attention that are required as part of the machine learning process.
+The artist Nicolas Malevé has done extensive research on this topic in relation to the dataset ImageNet,[^imagenet] a hugely influential project developed by Stanford University Professor Dr Fei-Fei Li in 2009 for machine learning and computer vision studies. The dataset is vast and contains 14,197,122 photographs which are organized into 21,841 synsets (categories), taken from a lexical database called WordNet.[^wordnet] This work was completed by over 25,000 workers over a two-year period using Amazon Mechanical Turk, a crowdsourcing platform. The script pauses at random points to enable the viewer to ‘see’ some of the images and how they are categorized, thus raising questions about the relation of scale between the overwhelming quantities of images needed to train algorithms and the human attention and labour required to annotate and categorize the images.[^TPG]
+
+
+
+His script cycles through the entire contents of ImageNet at a speed of 90 milliseconds per image, across two months. The script pauses at random points to enable the viewer to ‘see’ some of the images. 
+
+
+Artist and CSNI researcher Nicolas Malevé has written a computer script that cycles through ImageNet — a vast dataset of  — at a speed of 90 milliseconds per image. To exhibit all images, this runs over a two month period (until 01 Sep 2019) as a live stream on the web and on the Media Wall at The Photographers Gallery (12 hours of this can be viewed below). The script pauses at random points to enable the viewer to ‘see’ some of the images and how they are categorized, thus raising questions about the relation of scale between the overwhelming quantities of images needed to train algorithms and the human attention and labour required to annotate and categorize the images.
+
+The artwork *'12 Hours of ImageNet'*[^nicolas] cycles through the dataset, showing the sheer scale of image data and categorization, as well as exposing the hidden labour and human attention that are required as part of the machine learning process.
 
 ![cock](ch10_7.png)
 
-*Figure 10.4: The categorization of cock in the work 12 Hours of ImageNet by Nicolas Malevé*
+*Figure 10.4: The categorization of cock in the work 12 Hours of ImageNet by Nicolas Malevé* [G: I think we can find a better image and from the larger project Exhibiting ImageNet]
 
 **Unsupervised Learning** - Unlike the previous learning model, the training dataset does not contain a set of labelled data. One of the common tasks with unsupervised learning is clustering (algorithms such as K-mean and Hierarchical Clustering). The goal of this technique is to find similarities and patterns, providing insights into underlying patterns of different groups via exploratory analysis. The idea of clustering is to identify similar groups of data in a dataset, segregating groups with similar characteristics. It is commonly used in business and marketing sectors to understand customer preferences so as to perform personalization and data marketing by grouping the customers based on their purchasing behavior on certain types of goods.
 
@@ -377,39 +384,41 @@ Venus grants it the breath of life.
 
 [^Turing]: See Alan, M. Turing. "Computing machinery and intelligence," *Mind* 49, 1950: 433-460.
 
-[^clemens]:Clemens, Apprich, "Introduction" in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination* (Minnesota: Meson Press, 2018), p.x.
+[^clemens]:Clemens, Apprich, "Introduction", in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination* (Minnesota: Meson Press, 2018), p.x.
 
-[^online]: See the example of Google web translation service that assumes and carries the gender sterotypes of certain society roles: https://twitter.com/mit_csail/status/916032004466122758
+[^online]: See the example of Google web translation service that assumes and carries the gender sterotypes of certain society roles, https://twitter.com/mit_csail/status/916032004466122758.
 
-[^tay]: For example the Microsoft chat bot called Tay that was released via Twitter in 2016, but it was being shut down in 16 hours due to "unintended offensive and hurtful tweets from Tay" as announced by Microsoft. See https://en.wikipedia.org/wiki/Tay_(bot)
+[^tay]: For example the Microsoft chatbot called Tay that was released via Twitter in 2016, but it was being shut down in 16 hours due to "unintended offensive and hurtful tweets from Tay" as announced by Microsoft. See https://en.wikipedia.org/wiki/Tay_(bot)
 
-[^face]: Research has shown that existing commercial recognization systems exhibit gender and racial bias. See Joy Buolamwini, "Response: racial and Gender bias in Amazon Rekognition - Commercial AI System for Analyzing Faces", Medium, 2019, web: https://medium.com/@Joy.Buolamwini/response-racial-and-gender-bias-in-amazon-rekognition-commercial-ai-system-for-analyzing-faces-a289222eeced; Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society", 2019, lecture video: https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4
+[^face]: Research has shown that existing commercial recognization systems exhibit gender and racial bias. See Joy Buolamwini, "Response: Racial and Gender Bias in Amazon Recognition - Commercial AI System for Analyzing Faces", *Medium* (2019),  https://medium.com/@Joy.Buolamwini/response-racial-and-gender-bias-in-amazon-rekognition-commercial-ai-system-for-analyzing-faces-a289222eeced; Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society" (2019), lecture video: https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4
 
-[^hito]: Hito Steyerl, "A Sea of Data: Pattern Recognition and Corporate Animism (Forked Version)" in *Pattern Discrimination* (Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl), Minnesota: meason press, 2018, p.3
+[^hito]: Hito Steyerl, "A Sea of Data: Pattern Recognition and Corporate Animism (Forked Version)", in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination*, 3.
 
 [^Learners]: Adrian Mackenzie, *Machine Learners: Archaeology of a Data Practice* (Cambridge, Mass.: MIT Press, 2017), 6. 
 
 [^Weizenbaum3]: Weizenbaum, “ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine.”
 
-[^john]: John, Berger. *Ways of Seeing*. London: Penguin, 1972. Print
+[^ml5]: See the ml5.js library: https://ml5js.org/ and Daniel Shiffman's *The Coding Train* series specifically on ml5.js: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y
 
-[^cox]: Geoff Cox. “Ways of Machine Seeing.” *A Peer-Reviewed Journal About* 6, no. 1 (April 1, 2017): 8–15. https://doi.org/10.7146/aprja.v6i1.116007.
+[^shit]: With ELIZA in mind, it's worth adding that cleaning data also comes close to the regulation of proper speech with the removal of 'dirty' words. Dominique Laporte's wonderful book *A History of Shit* (Cambridge, Mass.: MIT Press, 2002) has more detail on this and the further parallel to public hygiene. 
 
-[^ml5]: See the ml5.js library: https://ml5js.org/ and Daniel Shiffman's The Coding Train series specifically on ml5.js: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y
-
-[^shit]: With ELIZA in mind, it's worth adding that cleaning data also comes close to the regulation of proper speech with the removal of dirty words. Dominique Laporte's wonderful book *A History of Shit* (Cambridge, Mass.: MIT Press, 2002) has more detail on this and the further parallel to public hygiene. ADD DETAIL
-
-[^dataset]: For more on the problems related to datasets, see Nicolas Malevé's' "An Introduction to Image Datasets", Unthinking Photography, https://unthinking.photography/articles/an-introduction-to-image-datasets.
+[^dataset]: For more on the problems related to datasets, see Nicolas Malevé's "An Introduction to Image Datasets", *Unthinking Photography* (2019), https://unthinking.photography/articles/an-introduction-to-image-datasets.
 
 [^tm1]: Teachable Machine 2.0 allows user to train their models and export them for further use. Teachable Machine built upon the free and open source tensorflow.js library, developed by Google Brain team, to preprocessing data, building machine learning models and structures.
+
+[^imagenet]: 
+
+[^wordnet]:
+
+[^TPG]: Here we largely summarize the description of the project on The Photographers Gallery, https://thephotographersgallery.org.uk/whats-on/digital-project/exhibiting-imagenet   
 
 [^AI]: The project *Anatomies of Intelligence*: https://anatomiesofintelligence.github.io/
 
 [^workshop]: The workshop is based on the project *Anatomies of Intelligence* with a focus on data classification and clustering: https://anatomiesofintelligence.github.io/workshop_presentation.html
 
-[^alphago]: Silver, David, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert, et al. ‘Mastering the Game of Go without Human Knowledge’. *Nature* 550, no. 7676 (October 2017): 354–59. https://doi.org/10.1038/nature24270.
+[^alphago]: Silver, David, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert, et al. "Mastering the Game of Go without Human Knowledge". *Nature* 550, no. 7676 (October 2017): 354–59. https://doi.org/10.1038/nature24270.
 
-[^rl]: Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction (1st Edition, 1998).
+[^rl]: Richard Sutton and Andrew Barto, *Reinforcement Learning: An Introduction* (1st Edition, 1998).
 
 [^rl2]: Richard S. Sutton, Introduction: The Challenge of Reinforcement Learning. In: Sutton R.S. (eds) *Reinforcement Learning*. The Springer International Series in Engineering and Computer Science (Knowledge Representation, Learning and Expert Systems), vol 173. Springer, Boston, MA, 1992.
 
@@ -432,3 +441,8 @@ Venus grants it the breath of life.
 [^issues]: See Buolamwini, 2019 and Benjamin, 2019.
 
 [^tensor]: ml5 builts on top of tensorflow.js, another free and open source machine learning library developed by engineers and researchers of Google. See https://www.tensorflow.org/.
+
+[^john]: John, Berger. *Ways of Seeing*. London: Penguin, 1972. Print
+
+[^cox]: Geoff Cox. “Ways of Machine Seeing.” *A Peer-Reviewed Journal About* 6, no. 1 (April 1, 2017): 8–15. https://doi.org/10.7146/aprja.v6i1.116007.
+
