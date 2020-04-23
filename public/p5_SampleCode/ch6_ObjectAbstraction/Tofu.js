@@ -1,11 +1,11 @@
 class Tofu { //create a class: template/blueprint of objects with properties and behaviors
     constructor()
     { //initalize the objects
-    this.speed = floor(random(2,5));
+    this.speed = floor(random(3,6));
     this.pos = new createVector(width+5, random(12,height/1.7));  //check this feature: https://p5js.org/reference/#/p5/createVector
     this.size = floor(random(15,35));
     this.toFu_rotate = random(0,PI/20); //rotate in clockwise for +ve no
-    this.emoji_size = this.size/1.5;
+    this.emoji_size = this.size/1.8;
     }
   move() {  //moving behaviors
     this.pos.x-=this.speed;  //i.e, this.pos.x = this.pos.x - this.speed;
@@ -34,10 +34,11 @@ class Tofu { //create a class: template/blueprint of objects with properties and
     vertex(0,0+this.size);
     endShape(CLOSE);
     fill(80); //face
+    textStyle(BOLD);
     textSize(this.emoji_size);
     text('*',0+this.size/6, 0+this.size/1.5);
     text('-',0+this.size/1.7, 0+this.size/1.9);
-    text('。',0+this.size/8, 0+this.size/1.15);
+    text('。',0+this.size/2.5, 0+this.size/1.3);
     pop();
  }
 }
