@@ -9,7 +9,7 @@ page_order: 10
 
 *Figure 10.1: The basic flow diagram of keyword detection in ELIZA (1966) by Joseph Weizenbaum*
 
-This chapter begins with a diagram that describes how a chatbot works - both in terms of procedure and logic - following on neatly from the previous chapter. We use this example of artificial intelligence as a way to introduce this final chapter of the book about machine learning,[^pathmind] broadly defined as a collection of models, statistical methods and operational algorithms that are used to analyse experimental or observational data. Given the prevalence and large volume of data being mined (as discussed in previous chapters) - and its widespread application in everyday devices such as Apple's Siri to more sinister applications in border control face recognition software - it is hardly surprising that machine learning has become big business. 
+This chapter begins with a diagram that describes how a chatbot works - both in terms of procedure and logic - following on neatly from the previous chapter. We use this example of artificial intelligence as a way to introduce this final chapter of the book about machine learning,[^pathmind] broadly defined as a collection of models, statistical methods and operational algorithms (sometimes referred to as 'neural nets'[^neuralnets) that are used to analyse experimental or observational data. Given the prevalence and large volume of data being mined (as discussed in previous chapters) - and its widespread application in everyday devices such as Apple's Siri to more sinister applications in border control face recognition software - it is hardly surprising that machine learning has become big business. 
 
 Machine learning is a term coined by Arthur Samuel in 1959 through his research at IBM on game development, with the ultimate goal to reduce or even eliminate the need for "detailed programming effort".[^samuel] the roots of how computers might begin to write their own programs lie in older discussions of artifical intelligence and whether computers can demonstrate credible responses to inputs, such as the relatively simple chatbot example that uses keywords to produce a *knowing* response or follow up question. ELIZA is one of the first chatbots, created by Joseph Weizenbaum at MIT between 1964 and 1966. It simulates a conversation between a Rogerian psychotherapist and their patient, prompting for user input, and then using primitive 'natural language processing'[^nlp] transforming this input using a simple script based on keyword association and language patterns into what seems to be a meaningful output, often in the form of a return question. Despite its apparent simplicity, it can be quite convincing (as you will experience later).
 
@@ -41,9 +41,9 @@ Tasks:
     - How would you describe your experience of ELIZA (e.g. the use of language, style of conversation and quality of social interaction)?
     - How would you assess the ability of technology such as this to capture and structure feelings and experiences; what are the limitations?
 
-## Input and output / or datasets
+## Between input and output
 
-We have already briefly introduced machine learning but let's clarify how this works. In a contemporary context, it refers to various techniques of "data-handling",[^samuel1] or more precisely statistics and data analysis. It is commonly described by three components: input, modelling (or learning), and output. Usually, a large amount of data is needed to be collected, parsed and cleaned.[^shit] Data cleansing is a term often used in Computer or Data Science to describe the process of preparing data (data can be thought of text, video, images, gestures, etc.) as input data by adjusting data inconsistency in terms of removing or modifying data that is irrelevant, duplicated, or improperly formatted. These various data preparation processes involve decision-making in terms of identifying and accessing the datasets, and how to structure the raw data and deal with inconsistencies. If data is coming from different places, then the question arises of how to normalize the data to structure a cohesive dataset. As in chapter 4 (DataCapture) we can already see how this process is fraught with problems, around what gets included and excluded, and how this is decided and done, and by whom. Rather than simply a measn to an end, the dataset becomes a hugely significant cultural object that we need to understand better.[^dataset] 
+We have already briefly introduced machine learning but let's clarify how this works. In a contemporary context, it refers to various techniques of "data-handling",[^samuel1] or more precisely statistics and data analysis. It is commonly described by three components: input, modelling (or learning), and output. Usually, a large amount of data is needed to be collected, parsed and cleaned.[^shit] Data cleansing is a term often used in Computer or Data Science to describe the process of preparing data (data can be thought of text, video, images, gestures, etc.) as input data by adjusting data inconsistency in terms of removing or modifying data that is irrelevant, duplicated, or improperly formatted. These various data preparation processes involve decision-making in terms of identifying and accessing the datasets, and how to structure the raw data and deal with inconsistencies. If data is coming from different places, then the question arises of how to normalize the data to structure a cohesive dataset. As in chapter 4 (DataCapture) we can already see how this process is fraught with problems, around what gets included and excluded, and how this is decided and done, and by whom. Rather than simply a means to an end, the dataset becomes a hugely significant cultural object that we need to understand better.[^dataset] 
 
 ## Exercise in class
 
@@ -80,13 +80,13 @@ The artist=researcher Nicolas Malevé has done extensive work on this topic in r
 
 *Figure 10.4: The categorization of cock in the work 12 Hours of ImageNet by Nicolas Malevé* [G: I think we can find a better image and from the larger project Exhibiting ImageNet - I have explained this above]
 
-**Unsupervised Learning** - Unlike the previous learning model, the training dataset does not contain a set of labelled data. One of the common tasks with unsupervised learning is clustering (algorithms such as K-mean and Hierarchical Clustering). The goal of this technique is to find similarities and patterns, providing insights into underlying patterns of different groups via exploratory analysis. The idea of clustering is to identify similar groups of data in a dataset, segregating groups with similar characteristics. It is commonly used in business and marketing sectors to understand customer preferences so as to perform personalization and data marketing by grouping the customers based on their purchasing behavior on certain types of goods.
+**Unsupervised Learning** - Unlike the previous learning model, the training dataset does not contain a set of labelled data. One of the common tasks with unsupervised learning is clustering (algorithms such as K-mean and Hierarchical Clustering). The goal of this technique is to find similarities, providing insights into underlying patterns of different groups via exploratory analysis. The idea of clustering is to identify similar groups of data in a dataset, segregating groups with similar characteristics. It is commonly used in business and marketing sectors to understand customer preferences so as to perform personalization and data marketing by grouping the customers based on their purchasing behavior of certain types of goods.
 
 ![k-means](ch10_4.gif)
 
-*Figure 10.5: An illustration of Unsupervised Learning with k-means clustering. Image Courtest of Joana Chicau and Jonathan Reus.*
+*Figure 10.5: An illustration of Unsupervised Learning with k-means clustering. Image Courtesy of Joana Chicau and Jonathan Reus.*
 
-Artists Joana Chicau and Jonathan Reus produced their project *Anatomies of Intelligence*[^AI] based on unsupervised learning model to develop an understanding of anatomical knowledge and computational learning. In their AI workshop,[^workshop] they suggest the participants to think of two parameters for examining a small image dataset (around 15 images). One of the groups suggests 'cuteness' and 'curliness' as the parameters, and each of the images will be rated and sorted according to these (in the form of x and y axis). As a result, several clusters are formed, providing a different perspective when looking at images at a glance and seeing their relations in terms of similarities and differences.  
+Artists Joana Chicau and Jonathan Reus produced *Anatomies of Intelligence*[^AI] based on an unsupervised learning model to develop an understanding of anatomical knowledge and computational learning. In their AI workshop,[^workshop] they suggest that participants think of two parameters for examining a small image dataset (around 15 images) - such as 'cuteness' and 'curliness' - and each of the images are rated and sorted according to these parameters (in the form of x and y axis). As a result, several clusters are formed, providing a new perspective on the relations between images in terms of similarities and differences. It's a simple exercise that can be evidently scaled up and automated. This also helps to reinforce how neural networks - algorithms designed to recognize patterns - operate from a loose model of the human brain and how it differentiates certain objects from other objects.
 
 ![anatomies](ch10_3.png)
 
@@ -94,9 +94,7 @@ Artists Joana Chicau and Jonathan Reus produced their project *Anatomies of Inte
 
 ![anatomies2](ch10_4.png)
 
-*Figure 10.7: The clustering of images based on "cuteness" and curliness" in the workshop Anatomies of Intelligence by Joana Chicau and Jonathan Reus.*
-
-[g: what about GANs?]
+*Figure 10.7: The clustering of images based on "cuteness" and curliness" in the Anatomies of Intelligence workshop by Joana Chicau and Jonathan Reus.*
 
 **Reinforcement Learning** - This type of learning technique is based on the interaction with the environment, mapping situations into actions.[^rl] The learner (or the agent) do not have any previous data to base on to determine or predict which action to take, rather, it learns by trial and error to yield the maximum rewards. The famous example computer program AlphaGo[^alphago] beats the world champions of the Go broad game in 2017. AlphaGo is able to evaluate positions and select moves via self-taught processes. The use of this type of reinforcement learning is to find the best possible behavior or path it should take in a specific environment, mapping state-action pairs to achieve the maximization of rewards. For the broad game Go, two players compete to control the most territory with the use of black/white stones. Unlike supervised learning that relies on input training data, the characteristics of reinforcement learning are that the program sees the environment as a whole, and is able to learn from its own experience via evaluating the effectiveness of each action taken: the "trial-and-error search" and "delayed reward"[^rl2] via sequential decisions, computation, repeated attempts and feedback learning. Each action matters and that counts for the goal of maximizing the territory control as in the game of Go. In this way, reinforcement learning is performed via sequential learning and decisions.
 
@@ -316,6 +314,8 @@ And at the heart of this is the issue of *learning* (see Nicoilas Malevé on thi
 
 In many ways, we might say that in beginning to think about the operations of machine learning in this way, we follow its logic in drawing upon the what we have learnt thus far and then speculate, or predict, future possibilities. We use this last chapter as a way to point to further work to be undertaken in this way and to reflect on machine learning as a set of methods that learn from data in parallel to our own experience of learning. 
 
+GANs ????
+
 END WITH BERGER:
 
 In view of the last chapter of this book, we take the advice from John Berger who is an art critic and wrote the infamous book *Ways of Seeing* in 1972, which is to call for an attitude of skepticism, to "remain skeptical",[^john] about what and how we read, see and know, extending from visual culture to machine learning processes and software production in general. Gathering, arranging, producing and generalizing knowledge automatically via machine operations are further bounded together with "systems of power".[^cox] Instead of following the common objectives of achieving accurate prediction and efficient generalization in using machine learning, perhaps we need to first unsettle the relations between seeing and knowing. By knowing how/what machine senses and under what conditions, and we hope this chapter may illuminate the entanglement of knowledge and power, human and nonhuman operations.
@@ -405,15 +405,17 @@ Venus grants it the breath of life.
 
 [^wordnet]: Wordnet is a lexical database of semantic relations between words, see https://wordnet.princeton.edu/.
 
-[^TPG]: Here we are largely paraphrasing the description of the project on The Photographers Gallery website, https://thephotographersgallery.org.uk/whats-on/digital-project/exhibiting-imagenet.   
+[^TPG]: Here we are largely paraphrasing the description of Malevé's *Exhibiting ImageNet* project on The Photographers Gallery website, https://thephotographersgallery.org.uk/whats-on/digital-project/exhibiting-imagenet.   
 
-[^AI]: The project *Anatomies of Intelligence*: https://anatomiesofintelligence.github.io/
+[^AI]: The project *Anatomies of Intelligence* can be found at https://anatomiesofintelligence.github.io/.
 
-[^workshop]: The workshop is based on the project *Anatomies of Intelligence* with a focus on data classification and clustering: https://anatomiesofintelligence.github.io/workshop_presentation.html
+[^neuralnets]: A deinition can be found on pathmind's "AI Wiki", https://pathmind.com/wiki/neural-network#define.  
 
-[^alphago]: Silver, David, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert, et al. "Mastering the Game of Go without Human Knowledge". *Nature* 550, no. 7676 (October 2017): 354–59. https://doi.org/10.1038/nature24270.
+[^workshop]: The workshop is based on the project *Anatomies of Intelligence* with a focus on data classification and clustering, https://anatomiesofintelligence.github.io/workshop_presentation.html.
 
-[^rl]: Richard Sutton and Andrew Barto, *Reinforcement Learning: An Introduction* (1st Edition, 1998).
+[^alphago]: David Silver, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert, et al. "Mastering the Game of Go without Human Knowledge", *Nature* 550, no. 7676 (October 2017): 354–59, https://doi.org/10.1038/nature24270.
+
+[^rl]: Richard S. Sutton and Andrew Barto, *Reinforcement Learning: An Introduction* (1st Edition, 1998).
 
 [^rl2]: Richard S. Sutton, Introduction: The Challenge of Reinforcement Learning. In: Sutton R.S. (eds) *Reinforcement Learning*. The Springer International Series in Engineering and Computer Science (Knowledge Representation, Learning and Expert Systems), vol 173. Springer, Boston, MA, 1992.
 
@@ -429,9 +431,7 @@ Venus grants it the breath of life.
 
 [^samuel1]: Samuel, "Some studies in machine learning using the game of checkers," 211.
 
-[^imagenet]: http://image-net.org/about-stats
-
-[^nicolas]: The artwork was shown at the Photographer's Gallery in 2019, and the work has been documented as an online video link: https://thephotographersgallery.org.uk/whats-on/digital-project/exhibiting-imagenet
+[^imagenet2]: http://image-net.org/about-stats
 
 [^issues]: See Buolamwini, 2019 and Benjamin, 2019.
 
