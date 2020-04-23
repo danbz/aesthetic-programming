@@ -113,6 +113,8 @@ If we take the next bonus chapter - Machine Writing as the example, the raw data
 
 *Figure 10.8: Auto Chapter Generator*
 
+[g: a dummy image as of now, as we will have the model train again after we have the final version on ml5. Meanwhile we need to think of the length that we want to generate the next chapter. I need to budget in time for this..we will use the other python program to do the actual training and output result.]
+
 ## Source Code
 
 ```javascript
