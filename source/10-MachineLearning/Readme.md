@@ -249,13 +249,13 @@ Apart from the new ml5.js, the html file contains the following DOM elements:
 
 4. **The text shows the status** of the program, e.g. "Loading Model", "Model Loaded", "Generating...", "Ready!": `<p id="status">Loading Model</p>`
 
-5. **A clickable button** with the word 'generate'. `<button id="generate">generate</button>`
+5. **A clickable button** with the word 'generate': `<button id="generate">generate</button>`
 
 6. **A result area** that will display the generative text: `<p id="result"></p>`
 
 **sketch.js**
 
-The sketch loads the pre-trained model and generates text based on the collected data (in terms of the seed text, its length and temperature value).
+The sketch loads the pre-trained model and generates text based on the collected data (in terms of the seed text, its length, its and temperature value).
 
 The first step is to initialize and load the trained model in your sketch with the path `./model/AP_book/` by using the method `charRNN` from the ml5 library. The callback function `modelReady` will be executed when the model is successfully loaded in the sketch and thereby turning the status from "Loading Model" to "Model Loaded".
 
@@ -268,7 +268,7 @@ function setup() {
 }
 ```
 
-Secondly, the program collects the data in the form of objects: the seed text (based on the text input), the length of the predictive text (based on the slider), as well as the temperature value (based on the other slider). These data objects will be passed to the charRNN's method: `charRNN.generate()` in order to process the seed text via the pre-trained model (with a callback function `gotdata()`). This `.generate()` method returns the text object `sample` as sample output. Theoretically, the predictive text will have learnt the style from all the chapters and then generates the new text accordingly.
+Secondly, the program collects the data in the form of objects: the seed text (based on the text input), the length of the predictive text (based on the slider), as well as the temperature value (based on the other slider). These data objects will be passed to the charRNN's method: `charRNN.generate()` in order to process the seed text via the pre-trained model (with a callback function `gotdata()`). This `.generate()` method returns the text object `sample` as sample output. Theoretically, the predictive text will have learnt the style from all the chapters (if only crudely) and then generates the new text accordingly.
 
 ```javascript
 function generate() {
@@ -283,7 +283,7 @@ function generate() {
 }
 ```
 
-Finally, the result will be displayed on the screen with the `gotData()` function. Note that the ml5 library also checks for errors with the argument `err`.
+Finally, the result will be displayed on the screen with the `gotData()` function. (Note that the ml5 library also checks for errors with the argument `err`.)
 
 ```javascript
 function gotData(err, result) {
@@ -297,12 +297,12 @@ function gotData(err, result) {
 
 1. Work with the Auto Chapter Generator program and try to generate a text based on different length and temperature values.
 
-2. The example also links to the earlier chapter "Auto Generator", in terms of agency, unpredictability, and generativity, but how does this chapter change our understanding of these terms given what we know about machine learning? What is learning in this context, and prediction? What does it know? 
+2. The example also links to the earlier chapter "Auto Generator", in terms of agency, unpredictability, and generativity, but how does this chapter change our understanding of these terms given what we know about machine learning? What is learning in this context, and prediction? What does it know?[^predict] 
 
 ## While()
 
 Many of the ideas explored across the chapters of this book come together in relation to ML...
-And at the heart of this is the issue of *learning* (see Nicoilas Malevé on this) -> also A.L. Samuel's 1959 paper with detailed discussion of learning which i think is quite useful to understand the groundworks.
+And at the heart of this is the issue of *learning* (see Nicolas Malevé on this) -> also A.L. Samuel's 1959 paper with detailed discussion of learning which i think is quite useful to understand the groundworks.
 
 
 - "AI is a dicursive practice" (Agre - add notes from his paper "Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI" as this will refer back to the beginning of the book); will aslo add notes from Machine Learners by Mackenzie
@@ -433,6 +433,8 @@ Venus grants it the breath of life.
 [^issues]: For instance, the generalization here leads to inherent bias such as the privileging of white people in facial recognition technologies. See Buolamwini (2019) and Benjamin (2019).
 
 [^tensor]: ml5 builts on top of tensorflow.js, another free and open source machine learning library developed by engineers and researchers of Google. See https://www.tensorflow.org/.
+
+[^predict]: In asking this question, we make reference to Adrian Mackenzie's essay "", referred to in the previous chapter. 
 
 [^john]: John, Berger. *Ways of Seeing*. London: Penguin, 1972. Print
 
