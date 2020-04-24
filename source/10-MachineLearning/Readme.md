@@ -297,7 +297,7 @@ function gotData(err, result) {
 
 1. Work with the Auto Chapter Generator program and try to generate a text based on different length and temperature values.
 
-2. The example also links to the earlier chapter "Auto Generator", in terms of agency, unpredictability, control and generativity, but how does this chapter change our understanding of these terms given what we know about machine learning. What is learning in this context? What does it know? How about prediction? 
+2. The example also links to the earlier chapter "Auto Generator", in terms of agency, unpredictability, and generativity, but how does this chapter change our understanding of these terms given what we know about machine learning? What is learning in this context, and prediction? What does it know? 
 
 ## While()
 
