@@ -403,7 +403,7 @@ Venus grants it the breath of life.
 
 [^dataset]: For more on the significance of, and problems related to, datasets, see Nicolas Malevé's "An Introduction to Image Datasets", *Unthinking Photography* (2019), https://unthinking.photography/articles/an-introduction-to-image-datasets.
 
-[^tm1]: Teachable Machine 2.0 allows user to train their models and export them for further use. It built upon the free and open source tensorflow.js library, developed by the Google Brain team, for preprocessing data, building machine learning models and structures. The previous 1.0 version is developed in 2017 as an experimental project by Støg, Use All Five and Creative Lab and PAIR teams at Google.
+[^tm1]: Inspired by Rebecca Fiebrink's Wekinator, the Teachable Machine 1.0 is developed in 2017 as an experimental project, not a Google product, by Støg, Use All Five and Creative Lab and PAIR teams at Google. It built upon the free and open source tensorflow.js library, developed by the Google Brain team, for preprocessing data, building machine learning models and structures. Teachable Machine 2.0 allows user to train their models and export them for further use. 
 
 [^imagenet]: More information about ImageNet can be found at http://image-net.org/about-overview.
 
