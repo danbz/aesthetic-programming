@@ -216,7 +216,7 @@ function generate() {
   <h1>Auto Chapter Generator</h1>
   <h2>This example uses a pre-trained model on the collection of all the chapters (in the form of markdown) of the book Aesthetic Programming: A Handbook of Software Studies
   <p>seed text:
-    <input id="textInput" value="Chapter 11 - Recurrent Imaginaries" size="30"/> 
+    <input id="textInput" value="Chapter 11 - Recurrent Imaginaries" size="30"/>
   </p>
   <p>length:
     <input id="lenSlider" type="range" min="100" max="2000" value="1000"/> <span id="length">1000</span></p>
