@@ -10,3 +10,10 @@
 Some inspirations:
 - <https://www.sqlite.org/lang_createtable.html>
 - <https://macintoshnotes.files.wordpress.com/2013/09/meldscreenshot2.jpg>
+
+## Issues (by Winnie)
+- some markdowns are not working (leaving the [^xxx] in the text and not able to turn into citation no)
+- some images need to resize but existing markdown syntax cannot support That
+- need to think about how to present the duplicate code (markdown)
+- need to think about how to present the executed / source code (markdown/interface - web+print)
+- book cover - script to generate? (or using Langton's ant one) 
