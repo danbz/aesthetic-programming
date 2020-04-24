@@ -13,7 +13,7 @@ We will come back to some of these issues later in the book (Chapter 10 - Machin
 With these ideas in mind, the next section will introduce the sample code for a customizable *Like* button in order to demonstrate the potential of simple interactions like button-press, and how you might begin to consider how data is captured through such processes for specific ends. As with previous chapters we will work through the examples and then see where this takes up in terms of reflecting on the wider implications.
 
 ## 4.1.1 Start()
-![datacapture](https://gitlab.com/siusoon/aesthetic-programming/raw/master/Ap2019/class04/sketch04.gif)
+![datacapture](ch4_10.gif)
 
 *Figure 4.1 The web interface and interaction of Data Capture*
 
