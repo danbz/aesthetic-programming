@@ -379,7 +379,7 @@ The README should address at least the following questions with the help of your
 
 ## Notes
 
-[^pathmind]: it should be pointed out that although machine learning is part of AI, AI is a broader concept. AI, machine learning and deep learning are terms that are often used interchangeably but there are the key distinctions to be made. This is summarised nealy as follows: "You can think of deep learning, machine learning and artificial intelligence as a set of Russian dolls nested within each other, beginning with the smallest and working out. Deep learning is a subset of machine learning, and machine learning is a subset of AI, which is an umbrella term for any computer program that does something smart. In other words, all machine learning is AI, but not all AI is machine learning, and so forth." See pathmind's "A.I. Wiki: A Beginner’s Guide to Important Topics in AI, Machine Learning, and Deep Learning", https://pathmind.com/wiki/ai-vs-machine-learning-vs-deep-learning.
+[^pathmind]: it should be pointed out that although machine learning is part of AI, AI is a broader concept. AI, machine learning and deep learning are terms that are often used interchangeably but there are the key distinctions to be made. To explain: "You can think of deep learning, machine learning and artificial intelligence as a set of Russian dolls nested within each other, beginning with the smallest and working out. Deep learning is a subset of machine learning, and machine learning is a subset of AI, which is an umbrella term for any computer program that does something smart. In other words, all machine learning is AI, but not all AI is machine learning, and so forth." See pathmind's "A.I. Wiki: A Beginner’s Guide to Important Topics in AI, Machine Learning, and Deep Learning", https://pathmind.com/wiki/ai-vs-machine-learning-vs-deep-learning.
 
 [^Weizenbaum]: Joseph Weizenbaum. “ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine,” *Communications of the ACM* 9 (1), 1996: 36-45.
 
@@ -388,29 +388,29 @@ The README should address at least the following questions with the help of your
 [^Pygmalion]: The title of the play makes reference to the Greek myth in which Pygmalion, a sculptor, falls in love with a statue he carves, and
 Venus grants it the breath of life.
 
-[^Turing]: See Alan, M. Turing. "Computing machinery and intelligence," *Mind* 49, 1950: 433-460.
+[^Turing]: See Alan, M. Turing. "Computing machinery and intelligence," *Mind* 49 (1950): 433-460.
 
 [^clemens]:Clemens, Apprich, "Introduction", in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination* (Minnesota: Meson Press, 2018), p.x.
 
-[^online]: See the example of Google web translation service that assumes and carries the gender sterotypes of certain society roles, https://twitter.com/mit_csail/status/916032004466122758.
+[^online]: See the example of Google web translation service that perpetuatess gender stereotypes, https://twitter.com/mit_csail/status/916032004466122758.
 
-[^tay]: For example the Microsoft chatbot called Tay that was released via Twitter in 2016, but it was being shut down in 16 hours due to "unintended offensive and hurtful tweets from Tay" as announced by Microsoft. See https://en.wikipedia.org/wiki/Tay_(bot)
+[^tay]: For example, the Microsoft chatbot called Tay was released via Twitter in 2016 but was shut down 16 hours later due to "unintended offensive and hurtful tweets from Tay", as announced by Microsoft. See https://en.wikipedia.org/wiki/Tay_(bot).
 
-[^face]: Research has shown that existing commercial recognization systems exhibit gender and racial bias. See Joy Buolamwini, "Response: Racial and Gender Bias in Amazon Recognition - Commercial AI System for Analyzing Faces", *Medium* (2019),  https://medium.com/@Joy.Buolamwini/response-racial-and-gender-bias-in-amazon-rekognition-commercial-ai-system-for-analyzing-faces-a289222eeced; Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society" (2019), lecture video: https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4
+[^face]: Research has shown that existing commercial recognization systems exhibit gender and racial bias. See Joy Buolamwini, "Response: Racial and Gender Bias in Amazon Recognition - Commercial AI System for Analyzing Faces", *Medium* (2019),  https://medium.com/@Joy.Buolamwini/response-racial-and-gender-bias-in-amazon-rekognition-commercial-ai-system-for-analyzing-faces-a289222eeced; Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society" (2019), lecture video: https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4.
 
 [^hito]: Hito Steyerl, "A Sea of Data: Pattern Recognition and Corporate Animism (Forked Version)", in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination*, 3.
 
 [^Learners]: Adrian Mackenzie, *Machine Learners: Archaeology of a Data Practice* (Cambridge, Mass.: MIT Press, 2017), 6.
 
-[^Weizenbaum3]: Weizenbaum, “ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine.”
+[^Weizenbaum3]: Weizenbaum, "ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine".
 
-[^ml5]: See the ml5.js library: https://ml5js.org/ and Daniel Shiffman's *The Coding Train* series specifically on ml5.js: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y
+[^ml5]: See the ml5.js library: https://ml5js.org/; and Daniel Shiffman's *The Coding Train* series specifically on ml5.js: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y.
 
-[^shit]: With ELIZA in mind, it's worth adding that cleaning data also comes close to the regulation of proper speech with the removal of 'dirty' words. Dominique Laporte's wonderful book *A History of Shit* (Cambridge, Mass.: MIT Press, 2002) has more detail on this and the further parallel to public hygiene.
+[^shit]: With ELIZA in mind, it's worth adding that cleaning data also comes close to the regulation of proper speech with the removal of 'dirty' words. Dominique Laporte's wonderful book *A History of Shit* (Cambridge, Mass.: MIT Press, 2002) has more detail on this and its core parallel to the development of public hygiene.
 
 [^dataset]: For more on the significance of, and problems related to, datasets, see Nicolas Malevé's "An Introduction to Image Datasets", *Unthinking Photography* (2019), https://unthinking.photography/articles/an-introduction-to-image-datasets.
 
-[^tm1]: [^tm1]: Inspired by Rebecca Fiebrink's Wekinator, the Teachable Machine 1.0 is developed in 2017 as an experimental project, not a Google product, by Støg, Use All Five and Creative Lab and PAIR teams at Google. It built upon the free and open source tensorflow.js library, developed by the Google Brain team, for preprocessing data, building machine learning models and structures. Teachable Machine 2.0 allows user to train their models and export them for further use.
+[^tm1]: [^tm1]: Inspired by Rebecca Fiebrink's Wekinator, the Teachable Machine 1.0 is developed in 2017 as an experimental project, not a Google product, by Støg, Use All Five and Creative Lab and PAIR teams at Google. It is built upon the free and open source tensorflow.js library, developed by the Google Brain team within Google’s AI organization, for preprocessing data, building machine learning models and structures. Teachable Machine 2.0 allows users to train their models and export them for further use.
 
 [^imagenet]: More information about ImageNet can be found at http://image-net.org/about-overview.
 
@@ -420,7 +420,7 @@ Venus grants it the breath of life.
 
 [^AI]: The project *Anatomies of Intelligence* can be found at https://anatomiesofintelligence.github.io/.
 
-[^neuralnets]: A deinition can be found on pathmind's "AI Wiki", https://pathmind.com/wiki/neural-network#define.  
+[^neuralnets]: A definition of neural nets can be found on pathmind's "AI Wiki", https://pathmind.com/wiki/neural-network#define.  
 
 [^workshop]: The workshop is based on the project *Anatomies of Intelligence* with a focus on data classification and clustering, https://anatomiesofintelligence.github.io/workshop_presentation.html.
 
@@ -428,17 +428,17 @@ Venus grants it the breath of life.
 
 [^rl]: Richard S. Sutton and Andrew Barto, *Reinforcement Learning: An Introduction* (1st Edition, 1998).
 
-[^rl2]: Richard S. Sutton, Introduction: The Challenge of Reinforcement Learning. In: Sutton R.S. (eds) *Reinforcement Learning*. The Springer International Series in Engineering and Computer Science (Knowledge Representation, Learning and Expert Systems), vol 173. Springer, Boston, MA, 1992.
+[^rl2]: Richard S. Sutton, Introduction: The Challenge of Reinforcement Learning, in Richard S. Sutton, eds. *Reinforcement Learning*. The Springer International Series in Engineering and Computer Science (Knowledge Representation, Learning and Expert Systems), vol 173. Springer (1992).
 
 [^environment]: Whist mentioning environment, it is important to mention that there are worrying environmental costs associated with machine learning. See, for instance, Karen Hao, "Training a single AI model can emit as much carbon as five cars in their lifetimes", MIT Technology Review (June 6, 2019), https://www.technologyreview.com/s/613630/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes/.
 
-[^bot]: The text-based conversational bot is developed by Norbert Landsteiner with JavaScript called ElizaBot(elizabot.js) in 2005. The source code can be downloaded here: https://www.masswerk.at/elizabot/
+[^bot]: The text-based conversational  ElizaBot (elizabot.js) was developed using JavaScript by Norbert Landsteiner in 2005. The source code can be downloaded from https://www.masswerk.at/elizabot/.
 
-[^temp]: The value of temperature relates to the softmax function in mathematics, relating to probability distribution with the input numbers/characters. For high temperature, the probability will distribute evenly resulting in more random result. On the contrary, more expected/conservative result will be generated with low temperature.
+[^temp]: The value of temperature relates to the softmax function in mathematics, relating to probability distribution with the input numbers/characters. For high temperature, the probability will distribute evenly resulting in more random result. On the contrary, more expected/conservative results will be generated with low temperature.
 
-[^training]: The training process is run on a python environment with tensorflow installed. It is developed as multi-layer recurrent neural networks for character-level language models, and it works well with ml5.js. See the open source code by Cristóbal Valenzuela, https://github.com/Paperspace/training-lstm.
+[^training]: The training process is run on a python environment with tensorflow installed. It is developed as a multi-layer recurrent neural network for character-level language models, and it works well with ml5.js. See the open source code by Cristóbal Valenzuela at https://github.com/Paperspace/training-lstm.
 
-[^nlp]: Natural language processing is the study of how a computer understands the meaning of human language, and it deals iwth the interaction beteen computers and humans using the natural language. This area relates to the fields of Artificial Intellengence, Computer Science and Linguistics with applications such as text-to-speech, voice assistants and language translation programs.
+[^nlp]: Natural language processing is the study of how a computer understands the meaning of human language, and it deals iwth the interaction between computers and humans using the natural language. This area relates to the fields of Artificial Intellengence, Computer Science and Linguistics with applications such as text-to-speech, voice assistants and language translation programs.
 
 [^samuel]: Machine learning is a term coined by Arthur Samuel in 1959 via his research at IBM in the context of game development, with the ultimate goal to reduce or even eliminate the need for "detailed programming effort", involving learning through generalization in order to achieve pattern recognition. See Arthur L. Samuel, "Some studies in machine learning using the game of checkers." *IBM Journal of research and development* 3.3 (1959): 210-229.
 
@@ -448,13 +448,13 @@ Venus grants it the breath of life.
 
 [^issues]: For instance, the generalization here leads to inherent bias such as the privileging of white people in facial recognition technologies. See Buolamwini (2019) and Benjamin (2019).
 
-[^tensor]: ml5 builts on top of tensorflow.js, another free and open source machine learning library developed by engineers and researchers from the Google Brain team within Google’s AI organization. See https://www.tensorflow.org/.
+[^tensor]: ml5 builts on top of tensorflow.js, as mentioned in an earlier note.
 
-[^predict]: In asking this question, we make furtehr reference to Adrian Mackenzie's essay "The Production of Prediction: What Does Machine Learning Want?", in  *European Journal of Cultural Studies* (Sage, 2015).
+[^predict]: In asking this question, we make furtehr reference to Adrian Mackenzie's aforementioned essay "The Production of Prediction: What Does Machine Learning Want?", in  *European Journal of Cultural Studies* (Sage, 2015).
 
 [^Learners2]: Given that machine learning is derived from the logic of calculation, Mackenzie makes a useful intervention in terms of our understanding of the key terms: "We cannot conduct critical enquiry into how calculation will automate future decisions without putting the notions of calculation and automation into question." Mackenzie, *Machine Learners*, 8.
 
-[^Learners3]: “The altered human-machine relations we see as machine learners might shift and be redrawn through experiments in empiricism and theory.” Mackenzie, *Machine Learners*, 14.
+[^Learners3]: Mackenzie, *Machine Learners*, 14.
 
 [^john]: John, Berger. *Ways of Seeing*. London: Penguin, 1972. Print
 
