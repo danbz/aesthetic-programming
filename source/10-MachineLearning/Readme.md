@@ -322,6 +322,7 @@ And at the heart of this is the issue of *learning* (see Nicolas Malevé on this
 
 - "AI is a dicursive practice" (Agre - add notes from his paper "Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI" as this will refer back to the beginning of the book); will aslo add notes from Machine Learners by Mackenzie
 - and paglan and Crawford + Nicolas Malevé.
+- crawford and joler diagram
 
 In many ways, we might say that in beginning to think about the operations of machine learning in this way, we follow its logic in drawing upon the what we have learnt thus far and then speculate, or predict, future possibilities. We use this last chapter as a way to point to further work to be undertaken in this way and to reflect on machine learning as a set of methods that learn from data in parallel to our and your own experience of learning through practice.
 
