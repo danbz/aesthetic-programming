@@ -423,7 +423,7 @@ Venus grants it the breath of life.
 
 [^neuralnets]: A definition of neural nets can be found on pathmind's "AI Wiki", https://pathmind.com/wiki/neural-network#define.  
 
-[^workshop]: The workshop is based on the project *Anatomies of Intelligence* with a focus on data classification and clustering, https://anatomiesofintelligence.github.io/workshop_presentation.html.
+[^workshop]: The workshop was conducted at Aarhus University in 2019, which is based on the art project *Anatomies of Intelligence* with a focus on data classification and clustering, https://anatomiesofintelligence.github.io/workshop_presentation.html.
 
 [^alphago]: David Silver, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert, et al. "Mastering the Game of Go without Human Knowledge", *Nature* 550, no. 7676 (October 2017): 354–59, https://doi.org/10.1038/nature24270.
 
