@@ -303,33 +303,51 @@ function gotData(err, result) {
 
 ## While()
 
-Many of the ideas explored across the chapters of this book come together in the discussion of machine learning and what this means for critical-technical practice. There is paradigm shift that deserves longer discussion, on that we simply don't have space for in these closing remarks. At this same time this allows us to point beyond this book - perhaps to another yet to be written - as if various processes are becoming automated then our work as writers, editors, designers and teachers too. The worry is that our decision-making, thinking and creativity are being somewhat automated, and our ability to determine our potential futures becomes compromised by predictive algorithms.[^Learners2] It is this sense of control and power of algorithms that we hope we have managed to provide some insight into here. This is alluded to in the naming of the bonus chapter of course: recurrent imaginaries.    
+Many of the ideas explored across the chapters of this book come together in the discussion of machine learning and what this means for critical-technical practice. We reference Agre again here quite deliberately, from his essay "Toward a Critical Technical Practice",[^agre] who argued for the importance of social and political aspects of AI as well as other technical fields to expand their narrow 'worldviews'. His assertion is that AI is a discursive practice, thinking of the way the technical terminology demonstrates intellectual generativity, drawing deep analogies across fields and between otherwise disparate technical and critical activities and intellectual traditions. The problem is rooted in the tendency to conflate representations with the things that they represent. On the one hand we have technical tradition that looks for precision and on the other a critical tradition that looks for ambiguity of meaning. It make little sense to deny any one or the other approach. 
 
-This sense of future possibilities/imaginaries is also where we would say Mackenzie’s work is particularly valuable as he grants attention to specific algorithms and data practices to understand the particularity of human-machine relations and their transformations, and not least to emphasise the uncertainties and contingencies at work in these processes. In other words, machine learning is by no means simply deterministic as we have seen in the above exercises too, but is endlessly subject to revision and modification, and by its very nature is process-driven. It is also variably applied across disciplines and fields of practice, across open source platforms and communities of interest, endlessly tranforming itself and being transformed along the way.[^Learners3] An example like this demonstrates how there is more to a program than simply its source code, and rather there is a whole range of recursive operations that render the various processes transformative in multiple ways.[^Learners4] For Mackenzie, the question becomes to what extent this different mode of coding involved with machine learning leads to a different mode of knowledge production and human-machine relations. The question for us is what alternative knowledge and aesthetic practices might emerge as a consequence? 
+We come back to the word 'learning' perhaps as a pertinent example. In first defining machine learning as a "field of study that gives computers the ability to learn without being explicitly programmed", Samuel also goes into some detail in his 1959 paper on the parallel between human and machine learning, comparing how books speed up human learning to the success of machine-learning in playing games. It is of course quite common to draw the analogy between machine intelligence and cognitive development in humans, especially children, broadly employing an idea of learning that is informed by experience of the world. It appears as a reductive notion for the most part, as for example, in the following example of Fei fei Li describing her insight into teaching a machine to see: 
 
-What is meant by learning seems key to this. In first defining machine learning as a "field of study that gives computers the ability to learn without being explicitly programmed", Samuel also gies into some detail on the parallel between human and machine learning, comparing how books speed up human learning to machine-learning speed involved in successfully playing games. Going further again, we might begin to think about qualitative comparisons and how machine learning might be directed to radical pedagogy?[^pedagogy] THis is something that Malevé also has tentatively explored  
+"If you consider a child’s eyes as a pair of biological cameras, they take one picture about every two hundred milliseconds, the average time an eye movement is made. So by age three, a child would have hundreds of millions of pictures of the real world. That's a lot of training examples. So instead of focusing on solely better and better algorithms, my insight was to give the algorithms the kind of training data that a child was given by experiences, in both quantity and quality."[^pedagogy1]
+
+The example may draw a crude equivalence between human and machine vision but it also points to our complicity in the training. We are all already - in our use of everyday technologies, involved in te process of teaching machine to look at images. Nicolas Malevé makes this clear: "If we consider the extent of our relationship with algorithms, we realise the magnitude of the effort of teaching and learning that is taking place. This vast operation of photographic learning is happening outside of the institutions of education: on our phones, tablets, and computers. And it is not about training students in the art of visual literacy, but machines."[^pedagogy2]
+
+//////
+If we acknowledge this fact, several questions may be asked. If we are recruited as teachers, what is our responsibility towards our trainees? And as instructors of machines, how are we able to question the pedagogical methods that are in place? And as photography is being learned by machines, what should be the role of the institutions dedicated traditionally to photographic education? What can they learn about the dynamics of machine image learning? How can they contribute to it? Transform it and be transformed by it? Or, to formulate this in terms even closer to Fei-Fei Li's, how can we think productively about the fact that a generation of humans and algorithms are learning together to look at images?
+
+//////////
 
 
+educational processes  Going further again, we might begin to think about qualitative comparisons and how machine learning might be directed to radical pedagogy?[^pedagogy] This is something that Malevé also has tentatively explored and this deserves far more space, especially for a book like this which is largely pedagogic.    
+
+All these ideas provide starting points for further work. Agre puts it like this: "A critical technical practice will, at least for the foreseeable future, require a split identity -- one foot planted in the craft work of design and the other foot planted in the reflexive work of critique."[^agre2] The challenge is to works across and between these modes.
 
 
-And at the heart of this is the issue of *learning* (see Nicolas Malevé on this) -> also A.L. Samuel's 1959 paper with detailed discussion of learning which i think is quite useful to understand the groundworks.
-
-- "AI is a dicursive practice" (Agre - add notes from his paper "Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI" as this will refer back to the beginning of the book)
-- and paglan and Crawford + Nicolas Malevé.
-- crawford and joler diagram
+from the example of how to teach a machine to see - to berger. 
 
 In many ways, we might say that in beginning to think about the operations of machine learning in this way, we follow its logic in drawing upon the what we have learnt thus far and then speculate, or predict, future possibilities. We use this last chapter as a way to point to further work to be undertaken in this way and to reflect on machine learning as a set of methods that learn from data in parallel to our and your own experience of learning through practice.
 
 GANs ????
 
-END WITH BERGER:
+END WITH BERGER?
 
 In view of the last chapter of this book, we take the advice from John Berger who is an art critic and wrote the infamous book *Ways of Seeing* in 1972, which is to call for an attitude of skepticism, to "remain skeptical",[^john] about what and how we read, see and know, extending from visual culture to machine learning processes and software production in general. Gathering, arranging, producing and generalizing knowledge automatically via machine operations are further bounded together with "systems of power".[^cox] Instead of following the common objectives of achieving accurate prediction and efficient generalization in using machine learning, perhaps we need to first unsettle the relations between seeing and knowing. By knowing how/what machine senses and under what conditions, and we hope this chapter may illuminate the entanglement of knowledge and power, human and nonhuman operations.
 
+////////
+
+- and paglan and Crawford + Nicolas Malevé.
+- crawford and joler diagram
+
+////////
+
+There is paradigm shift that deserves longer discussion, on that we simply don't have space for in these closing remarks. At this same time this allows us to point beyond this book - perhaps to another yet to be written - as if various processes are becoming automated then our work as writers, editors, designers and teachers too. The worry is that our decision-making, thinking and creativity are being somewhat automated, and our ability to determine our potential futures becomes compromised by predictive algorithms. Given that machine learning is derived from the logic of calculation, like Agre, Mackenzie makes a useful intervention in terms of our understanding of the key terms: "We cannot conduct critical enquiry into how calculation will automate future decisions without putting the notions of calculation and automation into question."[^Learners2] It is this sense of control and power of algorithms that we hope we have managed to provide some insight into here. (This is reflected in the naming of the bonus chapter of course: recurrent imaginaries.)    
+
+This sense of future possibilities/imaginaries is also where we would say Mackenzie’s work is particularly valuable as he grants attention to specific algorithms and data practices to understand the particularity of human-machine relations and their transformations, and not least to emphasise the uncertainties and contingencies at work in these processes. In other words, machine learning is by no means simply deterministic as we have seen in the above exercises too, but is endlessly subject to revision and modification, and by its very nature is process-driven. It is also variably applied across disciplines and fields of practice, across open source platforms and communities of interest, endlessly tranforming itself and being transformed along the way.[^Learners3] An example like this demonstrates how there is more to a program than simply its source code, and rather there is a whole range of recursive operations that render the various processes transformative in multiple ways.[^Learners4] For Mackenzie, the question becomes to what extent this different mode of coding involved with machine learning leads to a different mode of knowledge production and human-machine relations. 
+
+The question for us is what alternative knowledge and aesthetic practices emerge as a consequence? 
 
 ## Mini_Exercise[10]: Final Project
 
-Aesthetic Programming introduces computer coding as an aesthetic, expressive, creative and critical endeavour beyond its functional application. It explores coding as a practice of reading, writing and building, as well as thinking with and in the world, and understanding the complex computational procedures that underwrite our experiences and realities in digital culture. To address these intersections we have been working with fundamental concepts of programming as the starting point for further aesthetic reflection — such as geometry and object abstraction; variable, data type, functions and namings as well as data capturing, processing and automation — thereby the technical functionings are setting the ground works for further understanding of how cultural phenomena is constructed and operationalized.
+Aesthetic Programming introduces computer coding as an aesthetic-critical-technical practice. It explores coding as a practice of reading, writing and building, as well as thinking with and in the world, and understanding the complex computational procedures that underwrite our experiences and realities in digital culture. To address these intersections we have been working with fundamental concepts of programming as the starting point for further aesthetic reflection — such as geometry and object abstraction; variable, data type, functions and namings as well as data capturing, processing and automation — thereby the technical functionings are setting the ground works for further understanding of how cultural phenomena is constructed and operationalized.
 
 By drawing upon different theoretical and conceptual texts from Aesthetic Programming, your task (as a group) is required to conceptualize, design, implement and articulate a computational artifact. Your work should demonstrate the ability to integrate practical programming skills and theoretical/aesthetic understandings to articulate and develop critical computational artifacts, examining the aesthetic, cultural, social and political aspects of software.
 
@@ -447,13 +465,21 @@ Venus grants it the breath of life.
 
 [^predict]: In asking this question, we make furtehr reference to Adrian Mackenzie's aforementioned essay "The Production of Prediction: What Does Machine Learning Want?", in  *European Journal of Cultural Studies* (Sage, 2015).
 
-[^Learners2]: Given that machine learning is derived from the logic of calculation, Mackenzie makes a useful intervention in terms of our understanding of the key terms: "We cannot conduct critical enquiry into how calculation will automate future decisions without putting the notions of calculation and automation into question." Mackenzie, *Machine Learners*, 8.
+[^agre]: Philip E. Agre, "Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI", in Geoff Bowker, Les Gasser, Leigh Star, and Bill Turner, eds, *Bridging the Great Divide: Social Science, Technical Systems, and Cooperative Work* (Erlbaum, 1997). 
+
+[^pedagogy1]: The Fei Fei Li quote is taken from Nicolas Malevé's article, "'The cat sits on the bed', Pedagogies of vision in human and machine learning", Unthinking Photography (2016), https://unthinking.photography/articles/the-cat-sits-on-the-bed-pedagogies-of-vision-in-human-and-machine-learning.
+
+[pedagogy2]: Malevé, "'The cat sits on the bed', Pedagogies of vision in human and machine learning".
+
+[^Learners2]: Mackenzie, *Machine Learners*, 8.
 
 [^Learners3]: Mackenzie, *Machine Learners*, 14.
 
 [^Learners4]: Mackenzie, *Machine Learners*, 27.
 
 [^samuel2]: Samuel, "Some studies in machine learning using the game of checkers".
+
+[^agre2]: Agre, "Toward a Critical Technical Practice". 
 
 [^pedagogy]: Malevé, Friere. //////////
 
