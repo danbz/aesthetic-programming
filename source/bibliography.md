@@ -2,6 +2,8 @@
 
 ## Ch4. Data Capture
 
+- Shoshana Zuboff, *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power.* First edition. New York: PublicAffairs, 2019.
+- Søren Pold, "Button", in Matthew Fuller, ed. *Software Studies* (Cambridge, Mass.: MIT Press 2008).
 - Christian Ulrik Andersen and Geoff Cox, eds. , [A Peer-Reviewed Journal About Datafied Research](https://tidsskrift.dk/APRJA/issue/view/8402), *APRJA* 4.1 (2015).
 - Rena Bivens, "The Gender Binary Will Not be Deprogrammed: Ten Years of Coding Gender on Facebook", *New Media & Society* 19(6) (2017): 880–898, https://doi.org/10.1177/1461444815621527.
 - Kenneth Cukier and Victor Mayer-Schöenberger, "The Rise of Big Data", *Foreign Affairs* (May/June 2013): 28–40.
