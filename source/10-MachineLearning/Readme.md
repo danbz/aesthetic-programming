@@ -299,21 +299,38 @@ function gotData(err, result) {
 
 ## While()
 
-Many of the ideas explored across the chapters of this book come together in the discussion of machine learning and what this means for critical-technical practice. We reference Agre again here quite deliberately, from his essay "Toward a Critical Technical Practice",[^agre] who argued for the importance of social and political aspects of AI as well as other technical fields to expand their narrow 'worldviews'. His assertion is that AI is a discursive practice, thinking of the way the technical terminology demonstrates intellectual generativity, drawing deep analogies across fields and between otherwise disparate technical and critical activities and intellectual traditions. The problem is rooted in the tendency to conflate representations with the things that they represent. On the one hand we have technical tradition that looks for precision and on the other a critical tradition that looks for ambiguity of meaning. It make little sense to deny any one or the other approach. 
+Many of the ideas explored across the chapters of this book come together in the discussion of machine learning and what this means for critical-technical practice. We reference Agre again here quite deliberately, his essay "Toward a Critical Technical Practice",[^agre] in arguing for the importance of social and political aspects of AI as well as other technical fields to expand their narrow 'worldviews'. His assertion is that AI is a discursive practice, thinking of the way the technical terminology demonstrates intellectual generativity, drawing deep analogies across fields and between otherwise disparate technical and critical activities and intellectual traditions. The problem here is rooted in the tendency to conflate representations with the things that they represent: on the one hand we have technical tradition that looks for precision and on the other a critical tradition that looks for ambiguity of meaning. It make little sense to deny any one or other of approach. 
 
-We come back to the word 'learning' perhaps as a pertinent example. In first defining machine learning as a "field of study that gives computers the ability to learn without being explicitly programmed", Samuel also goes into some detail in his 1959 paper on the parallel between human and machine learning, comparing how books speed up human learning to the success of machine-learning in playing games. It is of course quite common to draw the analogy between machine intelligence and cognitive development in humans, especially children, broadly employing an idea of learning that is informed by experience of the world. It appears as a reductive notion for the most part, as for example, in the following example of Fei fei Li describing her insight into teaching a machine to see: 
+We come back to the word 'learning' as a pertinent example. In defining machine learning as a "field of study that gives computers the ability to learn without being explicitly programmed" in 1959, Samuel draws the parallel between human and machine learning, comparing how books speed up human learning to the success of machines in playing games. It is of course quite common to draw the analogy between machine intelligence and cognitive development in humans, especially children, broadly employing an idea of learning that is informed by, and learns from, their experience of the world. Yet can also appear reductive, as for example, in the following example of Fei-Fei Li describing her insight into teaching a machine to see: 
 
 "If you consider a child’s eyes as a pair of biological cameras, they take one picture about every two hundred milliseconds, the average time an eye movement is made. So by age three, a child would have hundreds of millions of pictures of the real world. That's a lot of training examples. So instead of focusing on solely better and better algorithms, my insight was to give the algorithms the kind of training data that a child was given by experiences, in both quantity and quality."[^pedagogy1]
 
-The example may draw a crude equivalence between human and machine vision but it also points to our complicity in the training. We are all already - in our use of everyday technologies, involved in te process of teaching machine to look at images. Nicolas Malevé makes this clear: "If we consider the extent of our relationship with algorithms, we realise the magnitude of the effort of teaching and learning that is taking place. This vast operation of photographic learning is happening outside of the institutions of education: on our phones, tablets, and computers. And it is not about training students in the art of visual literacy, but machines."[^pedagogy2]
+The example, although informing the development of ImageNet, makes a rather crude equivalence between human and machine vision. But what is implied about training more broadly, about teaching and learning? We are all, in our use of everyday technologies, involved in the process of teaching machine to look at images, and Nicolas Malevé makes this clear in describing the enormous amounts of training through our use of everyday devices such as phones and computers. When it comes to visual literacy this is no longer simply a educational task for teachers of children but also for machines. The issue for Malevé is not simply our complicity in these processes but to ask what pedagogical methods might be used? What can we learn about learning from the dynamics of machine learning? "Transform it and be transformed by it? Or, to formulate this in terms even closer to Fei-Fei Li's, how can we think productively about the fact that a generation of humans and algorithms are learning together to look at images?"[^pedagogy2] His speculation is to ask to what extent machine learning and radical pedagogy might learn from eachother and move beyond oppressive subject-object relations in which learners can become more active participants in their own learning.[^radical] This is a question of human-machine literacy in its broadest sense. 
 
-//////
-NM: If we acknowledge this fact, several questions may be asked. If we are recruited as teachers, what is our responsibility towards our trainees? And as instructors of machines, how are we able to question the pedagogical methods that are in place? And as photography is being learned by machines, what should be the role of the institutions dedicated traditionally to photographic education? What can they learn about the dynamics of machine image learning? How can they contribute to it? Transform it and be transformed by it? Or, to formulate this in terms even closer to Fei-Fei Li's, how can we think productively about the fact that a generation of humans and algorithms are learning together to look at images?
+In many ways, and when it comes to literacy - something we began this book with - John Berger's *Ways of Seeing* continues to be a useful reference point. Of course much has changed since Berger wrote, "The relation between what we see and what we know is never settled."[^john] Furthermore, the reminder that 
+
+these 
+
+
+
+
+
+
+Berger further reminded the viewer of the specifics of the technical reproduction in use and its ideological force in a similar manner: "But remember that I am controlling and using for my own purposes the means of reproduction needed for these programmes [...] with this programme as with all programmes, you receive images and meanings which are arranged. I hope you will consider what I arrange but please remain skeptical of it." 
+
+
+
+
+
+Gathering, arranging, producing and generalizing knowledge automatically via machine operations are further bounded together with "systems of power".[^cox] Instead of following the common objectives of achieving accurate prediction and efficient generalization in using machine learning, perhaps we need to first unsettle the relations between seeing and knowing. By knowing how/what machine senses and under what conditions, and we hope this chapter may illuminate the entanglement of knowledge and power, human and nonhuman operations.
+ 
+
+More to the point, the production of knowledge lies at the core of this discussion, and the worry about what is being learnt is compromised or inflected with reductive ideas of how the world operates. Mackenzie’s focus on “machine learners” (also the title of his book) refers to both humans and machines, and to human-machine relations. He asks "Does the somewhat unruly generalization of machine learning [...] attest to a redefinition of knowledge, decision, and control, a new operational formation in which a ‘system is transformed’?"[^Learners] The interconnections between human and machine learning become blurry. The overall idea of learning is implicated in terms of new forms of control over what and how something becomes known. Here he is building on Foucault to understand machine learning as as a form (or technique) of knowledge production and as a strategy of power. His point is to understand how machine learners produce knowledge through their differences, for instance through the ways they classify and categorize data (e.g. this image of a person is a specific gender, race, etc.). Knowledge often becomes set at the lowest common denominator in such cases backed up by the enormous infrastructural power of the companies that profit from this such as in the case of the platform-based media empires of Amazon and Google who have invested massively in this technology (such that users can learn to be better consumers). In summary there are some serious worries about the forms of knowledge produced through machine learning given the broader context in which it arises. 
+
 
 //////////
 
 
-educational processes  Going further again, we might begin to think about qualitative comparisons and how machine learning might be directed to radical pedagogy?[^pedagogy] This is something that Malevé also has tentatively explored and this deserves far more space, especially for a book like this which is largely pedagogic.    
 
 All these ideas provide starting points for further work. Agre puts it like this: "A critical technical practice will, at least for the foreseeable future, require a split identity -- one foot planted in the craft work of design and the other foot planted in the reflexive work of critique."[^agre2] The challenge is to works across and between these modes.
 
@@ -324,9 +341,6 @@ In many ways, we might say that in beginning to think about the operations of ma
 
 GANs ????
 
-END WITH BERGER?
-
-In view of the last chapter of this book, we take the advice from John Berger who is an art critic and wrote the infamous book *Ways of Seeing* in 1972, which is to call for an attitude of skepticism, to "remain skeptical",[^john] about what and how we read, see and know, extending from visual culture to machine learning processes and software production in general. Gathering, arranging, producing and generalizing knowledge automatically via machine operations are further bounded together with "systems of power".[^cox] Instead of following the common objectives of achieving accurate prediction and efficient generalization in using machine learning, perhaps we need to first unsettle the relations between seeing and knowing. By knowing how/what machine senses and under what conditions, and we hope this chapter may illuminate the entanglement of knowledge and power, human and nonhuman operations.
 
 ////////
 
@@ -335,7 +349,6 @@ In view of the last chapter of this book, we take the advice from John Berger wh
 
 ////////
 
-More to the point, the production of knowledge lies at the core of this discussion, and the worry about what is being learnt is compromised or inflected with reductive ideas of how the world operates. Mackenzie’s focus on “machine learners” (also the title of his book) refers to both humans and machines, and to human-machine relations. He asks "Does the somewhat unruly generalization of machine learning [...] attest to a redefinition of knowledge, decision, and control, a new operational formation in which a ‘system is transformed’?"[^Learners] The interconnections between human and machine learning become blurry. The overall idea of learning is implicated in terms of new forms of control over what and how something becomes known. Here he is building on Foucault to understand machine learning as as a form (or technique) of knowledge production and as a strategy of power. His point is to understand how machine learners produce knowledge through their differences, for instance through the ways they classify and categorize data (e.g. this image of a person is a specific gender, race, etc.). Knowledge often becomes set at the lowest common denominator in such cases backed up by the enormous infrastructural power of the companies that profit from this such as in the case of the platform-based media empires of Amazon and Google who have invested massively in this technology (such that users can learn to be better consumers). In summary there are some serious worries about the forms of knowledge produced through machine learning given the broader context in which it arises. 
 
 //////////
 
@@ -483,7 +496,7 @@ Venus grants it the breath of life.
 
 [^agre2]: Agre, "Toward a Critical Technical Practice". 
 
-[^pedagogy]: Malevé, Friere. //////////
+[^radical]: By radical pedagogy we make reference to a Marxist philosophy of education which sets out to make students aware of their oppressive conditions. Paolo Friere's' *Pedagogy of the Oppressed* (New York: Continuum, 1970), for example, highlights the contrasts between education forms that treat people as objects rather than subjects, and explores education as cultural action. 
 
 [^john]: John, Berger. *Ways of Seeing*. London: Penguin, 1972. Print
 
