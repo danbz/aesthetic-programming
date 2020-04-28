@@ -459,7 +459,7 @@ Venus grants it the breath of life.
 
 [^agre2]: Agre, "Toward a Critical Technical Practice".
 
-[^radical]: By 'radical pedagogy' we make reference to a Marxist philosophy of education which sets out to make students aware of their oppressive conditions, and to critique education as a form of domination. Paolo Friere's' *Pedagogy of the Oppressed* (New York: Continuum, 1970), for example, highlights the contrasts between education forms that treat people as objects rather than subjects, and explores education as cultural action.
+[^radical]: By 'radical pedagogy' we make reference to a Marxist philosophy of education which sets out to make students aware of their oppressive conditions, and to critique education as a form of domination. Paolo Friere's *Pedagogy of the Oppressed* (New York: Continuum, 1970), for example, highlights the contrasts between education forms that treat people as objects rather than subjects, and explores education as cultural action.
 
 [^Berger]: John Berger, *Ways of Seeing* (London: Penguin, 1972). Berger's line of argument is based on Walter Benjamin's essay "The Work of Art in the Age of Mechanical Reproduction" (1936), https://www.marxists.org/reference/subject/philosophy/works/ge/benjamin.htm.
 
