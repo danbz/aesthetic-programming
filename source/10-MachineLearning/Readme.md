@@ -358,13 +358,7 @@ The README should address the following questions with the help of your source c
 ## Required reading:
 - Geoff Cox. “Ways of Machine Seeing.” *A Peer-Reviewed Journal About* 6, no. 1 (April 1, 2017): 8–15. https://doi.org/10.7146/aprja.v6i1.116007.
 - Ruha Benjamin. Are Robots Racist: Reimagining the Default Settings of Technology and Society, 2019, lecture video: https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4
-
-## Further reading:
-- Weizenbaum Joseph (1966) ELIZA - a computer program for the study of natural language communication between man and machine. *Commun ACM* 9(1):36–4
-- Kate Crawford and Vladan Joler. Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources, 2018. Web: https://anatomyof.ai/
-- Clemens Apprich, Wendy Hui Kyong Chun, Florian Cramer, Hito Steyerl, *[Pattern Discrimination: In Search of Media](https://meson.press/wp-content/uploads/2018/11/9783957961457-Pattern-Discrimination.pdf)* (Minneapolis, London: University of Minnesota Press, 2018).
-- Adrian Mackenzie, *Machine Learners: Archaeology of a Data Practice* (Cambridge, Mass.: MIT Press, 2017).
-- Adrian Mackenzie, and Anna Munster, “Platform Seeing: Image Ensembles and Their Invisualities”, *Theory, Culture & Society*, vol. 26, issue 5, 2019, 3-22.
+- Adrian Mackenzie, first chapter to *Machine Learners: Archaeology of a Data Practice* (Cambridge, Mass.: MIT Press, 2017).
 
 ## Notes
 
