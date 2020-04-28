@@ -329,7 +329,7 @@ By drawing upon the shared curriculum, including the various theoretical and con
 
 To begin, here are few tips may help you to come up with a project idea:
 
-1. You may take a look again on the themes that we have used and structured for inspiration, including: literacy, variable geometry, infinite loops, data capture, object abstraction, auto generator, que(e)ry data, algorithmic procedures, machine learning; and the relations to topics like writing and coding, facial recognition, emojis, (micro)temporalities, capture all, interactivity, object orientation, rule-based systems, language and speech, expressivity, algorithmic literature, politics of data processing and learning; all underwritten by an attentiveness to a politics of race and gender, and other oppressive ideologies.
+1. You may take a look again on the themes that we have used and structured for inspiration, including: literacy, variable geometry, infinite loops, data capture, object abstraction, vocable code, auto generator, que(e)ry data, algorithmic procedures, machine learning; and the relations to topics like writing and coding, facial recognition, emojis, (micro)temporalities, capture all, interactivity, object orientation, rule-based systems, language and speech, expressivity, algorithmic literature, politics of data processing and learning; all underwritten by an attentiveness to a politics of race and gender, and other oppressive ideologies.
 
 2. Take a look again at all the previous mini exercises and the questions that were posed. Are there any that you want to explore further?
 
@@ -343,7 +343,7 @@ Produce a software artifact written in p5.js (or a combination of HTML/CSS/JS/P5
 Remember to include all external libraries and data/assets such as images, font, text file, sound file, etc. Furthermore, if you have borrowed other sample code or ideas, please cite your sources in the code comments.
 
 **README:**
-Write a single word document of 6-8 pages (max characters: 2400 per page including spaces) which has to be presented with academic sources (exclude images, references and notes from the charcater count).
+Write a single word document of 6-8 pages (max characters: 2400 per page including spaces) which has to be presented with academic sources (exclude images, references and notes from the character count).
 
 The document should include a title, a screen shot, a flow chart, references, a link to your final project's RUNME, with links to related projects (if there are any), as well as the links of all your previous mini exercises (as an appendix).
 
