@@ -463,6 +463,6 @@ Venus grants it the breath of life.
 
 [^Berger]: John Berger, *Ways of Seeing* (London: Penguin, 1972). Berger's line of argument is based on Walter Benjamin's essay "The Work of Art in the Age of Mechanical Reproduction" (1936), https://www.marxists.org/reference/subject/philosophy/works/ge/benjamin.htm.
 
-[^Berger2]: Berger, *Ways of Seeing*
+[^Berger2]: Berger, *Ways of Seeing*.
 
 [^cox]: Geoff Cox, "Ways of Machine Seeing", *Unthinking Photography* (2016), https://unthinking.photography/articles/ways-of-machine-seeing. The title is taken from a workshop organised by the Cambridge Digital Humanities Network, convened by Anne Alexander, Alan Blackwell, Geoff Cox and Leo Impett, and held at Darwin College, University of Cambridge, 11 July 2016. The essay is also published with source code in *A Peer-Reviewed Journal About* 6, no. 1 (April 1, 2017): 8–15. https://doi.org/10.7146/aprja.v6i1.116007.
