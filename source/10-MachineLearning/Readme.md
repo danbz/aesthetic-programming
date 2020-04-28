@@ -447,7 +447,7 @@ Venus grants it the breath of life.
 
 [^pedagogy1]: The Fei Fei Li quote is taken from Nicolas Malevé's article, "'The cat sits on the bed', Pedagogies of vision in human and machine learning", Unthinking Photography (2016), https://unthinking.photography/articles/the-cat-sits-on-the-bed-pedagogies-of-vision-in-human-and-machine-learning.
 
-[pedagogy2]: Malevé, "'The cat sits on the bed', Pedagogies of vision in human and machine learning".
+[^pedagogy2]: Malevé, "'The cat sits on the bed', Pedagogies of vision in human and machine learning".
 
 [^Learners2]: Mackenzie, *Machine Learners*, 8.
 
