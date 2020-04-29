@@ -2,6 +2,7 @@ Title: 4. Data Capture
 page_order: 4
 
 ## 4. Data Capture
+![flowchart](ch4_0.svg)
 
 ## 4.1 setup()
 This chapter focuses on how a program captures and processes input data. In some programming books, this would fall under the topic of interactivity, such as interacting with physical devices like a mouse and a keyboard. This is already familiar in earlier chapters where we already introduced the functions `mouseX` and `mouseY` (see Chapter 2 - Variable Geometry), as well as the idea of listening events via the functions `mouseIsPressed()` and `windowResized()` (see Chapter 3 - Infinite Loops).
@@ -12,7 +13,7 @@ We will come back to some of these issues later in the book (Chapter 10 - Machin
 
 With these ideas in mind, the next section will introduce the sample code for a customizable *Like* button in order to demonstrate the potential of simple interactions like button-press, and how you might begin to consider the specificity and affordances of a button, and how the like button becomes a "social button", creating economic values as what Carolin Gerlitz and Anne Helmond describe as "the like economy" [^helmond]. As with previous chapters we will work through different types of capture examples with buttons as a starting point, and then see where this takes up in terms of reflecting on the wider implications.
 
-## 4.1.1 Start()
+## 4.1.1 start()
 ![datacapture](ch4_10.gif)
 
 *Figure 4.1 The web interface and interaction of Data Capture*
