@@ -11,7 +11,7 @@ More specifically, the Turing machine is capable of six types of fundamental ope
 
 ![turing](ch5_1.png)
 
-*Figure 5.1: An illustration of the Turing Machine*
+*Figure 5.1: An illustration of the Turing Machine[^TM_graph]*
 
 This chapter thus explores how instructions are fundamental elements of adaptive systems, focusing more about how rules are performed and how they might produce unexpected results.
 
@@ -397,3 +397,4 @@ Artist David Link has since reconstructed a functional replica of both the hardw
 [^joan1]: See Truckenbrod's interview Motion Through Series, https://vimeo.com/286993496.
 [^joan0]: See the Coded Algorithmic Drawings series here: https://joantruckenbrod.com/gallery/#(grid|filter)=.coded;
 [^289]: This is a version programmed with Javascript, using D3 and jquery libraries: https://github.com/wholepixel/solving-sol/blob/master/289/cagrimmett/index.html
+[^TM_graph]: The image an adaptation of a found online image, see : http://storyofmathematics.lukemastin.com/20th_turing.html
