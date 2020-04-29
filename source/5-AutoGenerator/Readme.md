@@ -2,6 +2,7 @@ Title: Automatisms
 page_order: 6
 
 ## Auto Generator
+![flowchart](ch5_0.svg)
 
 ## setup()
 
