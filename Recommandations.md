@@ -17,3 +17,10 @@ Some inspirations:
 - need to think about how to present the duplicate code (markdown)
 - need to think about how to present the executed / source code (markdown/interface - web+print)
 - book cover - script to generate? (or using Langton's ant one) 
+
+## Issues (by Geoff)
+- copyedit text for flow and accessibility of language
+- decide on US or UK spelling? make consistent throughout
+- add further reading and/or bibliography, ideally both
+- indexing?
+- peer review
