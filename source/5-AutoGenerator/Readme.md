@@ -397,4 +397,4 @@ Artist David Link has since reconstructed a functional replica of both the hardw
 [^joan1]: See Truckenbrod's interview Motion Through Series, https://vimeo.com/286993496.
 [^joan0]: See the Coded Algorithmic Drawings series here: https://joantruckenbrod.com/gallery/#(grid|filter)=.coded;
 [^289]: This is a version programmed with Javascript, using D3 and jquery libraries: https://github.com/wholepixel/solving-sol/blob/master/289/cagrimmett/index.html
-[^TuringGraph]: The image an adaptation of a found online image, see : http://storyofmathematics.lukemastin.com/20th_turing.html
+[^TuringGraph]: This is an adaptation of the found online image, see : http://storyofmathematics.lukemastin.com/20th_turing.html
