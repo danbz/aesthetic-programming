@@ -18,6 +18,12 @@ Some inspirations:
 - need to think about how to present the executed / source code (markdown/interface - web+print)
 - book cover - script to generate? (or using Langton's ant one) 
 
+**Outstanding from me:**
+- Revisit Aesterik Painting ch. 3
+- Flowcharts on every chapter 
+- a different for loop on checking array -> think where to place it
+- getting started -> add web IDE for gitlab + remove short cuts as each OS is slightly different
+
 ## Issues (by Geoff)
 - copyedit text for flow and accessibility of language
 - decide on US or UK spelling? make consistent throughout
