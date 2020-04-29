@@ -1,7 +1,8 @@
 Title: 2. VariableGeometry
 page_order: 2
 
-## 2. VariableGeometry
+## 2. Variable Geometry
+![flowchart](ch2_0.svg)
 
 ## 2.1 setup()
 
@@ -113,7 +114,7 @@ You should notice from the responses of the console area (see Figure 2.2) that i
 
 ## 2.3 Variables
 
-In programming, both width and height are called *variables*, which is another important concept. Variables are used to store data and information in a computer program. You can think of variables as a kitchen container, and you can put things (like food, forks, etc) in a given container, replace them with other things, and store them for later retrieval. Two main types of variables: Local variables are defined within a structure or a function, and then can only be used within that block of code. On the contrary, a 'global variable' is something you can use in any parts of your code. To define a global variable, you need to define it before the setup of the program, usually in the first few lines of the program. 
+In programming, both width and height are called *variables*, which is another important concept. Variables are used to store data and information in a computer program. You can think of variables as a kitchen container, and you can put things (like food, forks, etc) in a given container, replace them with other things, and store them for later retrieval. Two main types of variables: Local variables are defined within a structure or a function, and then can only be used within that block of code. On the contrary, a 'global variable' is something you can use in any parts of your code. To define a global variable, you need to define it before the setup of the program, usually in the first few lines of the program.
 
 To use the sample code example, the value behind `windowWidth` is the width of the window that set as the canvas width (as illustrated in line 2). To continue with the analogy, a container with the name 'width' (as we have just typed in the web console) is being labeled and has stored the value. The program is able to retrieve the measurement of the canvas by using the variable `width` and this value can be changed according to your window width and being retrieved and display by using the web console (You may also use the variable `width` and `height` with other functions and for other purposes.)
 
@@ -190,11 +191,11 @@ print("hello" + "world");
 "hello world"
 
 ## 2.6 Conditional Structure
-Conditional statements are very useful as they allow you to set a different decision path by specifying conditions. Indeed, a conditional decision is something not only specific to programming. In the everyday life, for instance, you might say "If I am hungry, then I'll eat some food, otherwise if I am thirsty, then I will drink some water, else I will just take a nap". 
+Conditional statements are very useful as they allow you to set a different decision path by specifying conditions. Indeed, a conditional decision is something not only specific to programming. In the everyday life, for instance, you might say "If I am hungry, then I'll eat some food, otherwise if I am thirsty, then I will drink some water, else I will just take a nap".
 
 ```javascript
 //example in human language
-if (I am hungry) { 
+if (I am hungry) {
   eat some food;
 } else if(thirsty) {
   drink some water;
@@ -205,7 +206,7 @@ if (I am hungry) {
 
 The above is *pseudocode* to demonstrate what making an everyday decision to eat or drink might look like in programming. The keyword and syntax `if` is then followed by the condition and checks whether a certain condition holds. As such, the whole if statement is a *Boolean expression* — one of two possible values is possible, true or false, leading to a different path and action. In computer science, the Boolean data type is a data type that has one of two possible values which is intended to represent the two truth values of logic.
 
-In our sample code, we have implemented a conditional logic to constantly check if there is any mousepressed actions. This is why the size of the ellipse changes when a mouse is pressed. 
+In our sample code, we have implemented a conditional logic to constantly check if there is any mousepressed actions. This is why the size of the ellipse changes when a mouse is pressed.
 
 ```javascript
   if (mouseIsPressed) {
@@ -213,20 +214,20 @@ In our sample code, we have implemented a conditional logic to constantly check 
  }
 ```
 
-## 2.7 Relational operators 
-When you have to create your own conditional statement with the if-then format, there are multiple combinations you can work on to form a more complex expression. For example, you can have many different cases using the syntax `else if`, or a combinaton of logical operators, such as the AND case here in another pseudocode example: 
+## 2.7 Relational operators
+When you have to create your own conditional statement with the if-then format, there are multiple combinations you can work on to form a more complex expression. For example, you can have many different cases using the syntax `else if`, or a combinaton of logical operators, such as the AND case here in another pseudocode example:
 
-```javascript 
+```javascript
 if (I am hungry) && (I am in a good mood) {
     print("go out");
 }
 ```
 
-Here is a list of relational operators and logical symbols that can be used in conditional statements. 
+Here is a list of relational operators and logical symbols that can be used in conditional statements.
 
 ```
-/* 
-Relational Operators: 
+/*
+Relational Operators:
 >   Greater than
 <   Less than
 >=  greater than or equal to
@@ -245,7 +246,7 @@ Logical Operators: boolean logic:
 */
 
 /*
-Example: 
+Example:
 if () {
   //something here
 }else if() {
@@ -256,7 +257,7 @@ if () {
 */
 ```
 
-Below is an example of a small sketch with the use of a conditional structure and operators. Although all the conditional if or else-if statements are true, the web console will only print out "one". It is because the program will exit the structure when the first condition is met. In other words, sequence matters and the program will not run the other else-if statements and will take the first true statement to execute. 
+Below is an example of a small sketch with the use of a conditional structure and operators. Although all the conditional if or else-if statements are true, the web console will only print out "one". It is because the program will exit the structure when the first condition is met. In other words, sequence matters and the program will not run the other else-if statements and will take the first true statement to execute.
 
 ```javascript
 let x = 18;
