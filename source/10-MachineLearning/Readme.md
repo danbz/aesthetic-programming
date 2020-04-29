@@ -3,8 +3,6 @@ page_order: 10
 
 ## Machine Learning
 
-[G: should we rename the chapter?]
-
 ## setup()
 
 ![ch10_1](ch10_1.png)
