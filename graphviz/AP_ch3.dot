@@ -1,0 +1,47 @@
+digraph G {
+//labels
+GS [
+label="Ch.3 - Infinite Loops",
+style=bold,
+color=grey,
+]
+
+SU [label="setup()"]
+ST [label="start()"]
+DE [label="Decode"]
+SC [label="Source Code"]
+FN [label="Function"]
+EiC [label="Exercise in class"]
+TR [label="Transform"]
+EiC2 [label="Exercise in class"]
+AP [label="Reading \nAsterisk Painting"]
+SC2 [label="Source Code"]
+EiC3 [label="Exercise in class"]
+AR [label="Arrays"]
+CS [label="Conditional Statements"]
+LO [label="Loops"]
+WL [label="While Loop"]
+MW [label="While()"]
+MX [label="MiniX 3: \nDesigning a throbber"]
+RR [label="Required reading"]
+Notes [label="Notes"]
+
+//rank
+{rank = same; SU, ST}
+{rank = same; SC2, EiC3}
+{rank = same; MX, AP}
+{rank = same; RR, SC}
+
+//graph
+GS -> SU -> ST -> SC -> DE;
+GS -> RR, MX;
+RR -> MX, SU;
+SC -> FN -> EiC;
+SC -> TR -> EiC2;
+EiC, EiC2 -> AP -> SC2 -> EiC3
+SC2 -> AR;
+SC2 -> CS;
+SC2 -> LO -> WL;
+ST, LO -> MW -> Notes;
+MW -> MX;
+}

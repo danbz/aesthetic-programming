@@ -1,0 +1,41 @@
+digraph G {
+//labels
+GS [
+label="Ch.2 - Variable Geometry",
+style=bold,
+color=grey,
+]
+
+SU [label="setup()"]
+ST [label="start()"]
+SC [label="Source Code"]
+CO [label="Coordination"]
+EiC [label="Exercise in class"]
+VB [label="Variables"]
+YVB [label="Why use variables?"]
+OF [label="Other functions"]
+BAO [label="Basic Arithmetic Operators"]
+CS [label="Conditional Structure"]
+RO [label="Relational operators"]
+DiC [label="Discussion in class"]
+MW [label="While()"]
+MX [label="MiniX 2: \nGeometric emoji"]
+RR [label="Required reading"]
+Notes [label="Notes"]
+
+//rank
+{rank = same; SU, ST}
+
+//graph
+GS -> RR, MX;
+GS -> SU -> ST -> SC;
+SC -> CO -> EiC;
+SC -> VB -> YVB;
+SC -> OF -> BAO;
+SC -> CS -> RO;
+EiC, VB, CS, OF -> DiC;
+ST -> MW -> Notes;
+MW -> MX;
+RR -> MX, SU;
+
+}
