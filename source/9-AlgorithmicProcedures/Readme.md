@@ -2,6 +2,7 @@ Title: 9. Algorithmic Procedures
 page_order: 9
 
 ## Algorithmic Procedures
+![flowchart](ch9_0.svg)
 
 ## setup()
 
@@ -75,14 +76,6 @@ o
 
 ```
 
-## Discussion
-
-In our previous experience of this class exercise,[^ex] different results were produced and this becomes an excellent way to begin to discuss the use of flowcharts. We have selected some of Nathan Ensmenger's reflections from his article "The Multiple Meanings of a Flowchart" to spark discussion here:
-
-"To view the computer flowchart as having only one purpose is narrow and misleading, [because] every flowchart had multiple meanings and served several purposes simultaneously";
-
-"Flowcharts allow us to 'see' software in ways that are otherwise impossible."[^Ensmenger]
-
 ## Flowcharts as artistic medium
 
 Beyond the more practical use of flowcharts to help with the development of software and in terms of peadgogy, they can also be artistic objects in their own right, as a "meta-medium for an aesthetics of social complexity" as Paolo Cirio puts it.[^Cirio] An earlier example from 2005, by Cirio in collaboration with Alessandro Ludovico and UBERMORGEN, is *Google Will Eat Itself*,[^GWEI] an artwork to auto-generate revenue by hacking the Google 'AdSense' initiative.[^pold] The project automatically triggers advertising clicks on websites in order to receive micropayments from Google to then buy shares in Google: "We buy Google via their own advertisment! Google eats itself - but in the end 'we' own it!"   
@@ -127,7 +120,7 @@ Although referring to the practice of drawing rather than programming, we might 
 
 We might follow this line of discussion in relation to the predictive practices of machine learning more specifically, and it is important to note that Adrian Mackenzie too, in his *Machine Learners: Archaeology of a Data Practice*, uses diagrams as an experiment in critical thinking to address the operations of machine learning. We are suggesting something similar with flowcharts as an experiemnet in critical thinking but one that is productive of thinking with the act of programming. Mackenzie explains that when it comes to machine learning, “coding changes from what we might call symbolic logical diagrams to statistical algorithmic diagrams.”[^ML1] He is relying on (and directly quoting) Deleuze’s suggestion that diagrams act "as a display of the relation between forces that constitute power [and moreover,] the diagram or abstract machine is the map of relations between forces, a map of destiny, or intensity."[^ML2] We will continue to work with this topic in the next chapter but for now we might further stress that analysing algorithms or source code for that matter is not particularly revealing in itself, unless the wider assemblage of relations are exposed.
 
-## Mini_Exercise[9]
+## Mini_Exercise[9]: Flowcharts
 
 **Objective:**
 
@@ -143,7 +136,7 @@ Individual:
 * Draw an individual flowchart to present the program (pay attention to which items you select to present through a flowchart)
 
 Group:
-* Brainstorm two ideas for your final project
+* Brainstorm two ideas for your final project (see next chapter's Mini_Exercise)
 * Draw two flow charts to visualize the algorithmic processes of this project
 
 **Questions to think about for the README:**

@@ -1,0 +1,42 @@
+digraph G {
+//labels
+GS [
+label="Ch.8 - Que(e)ry Data",
+style=bold,
+color=grey,
+]
+
+SU [label="setup()"]
+ST [label="start()"]
+EiC [label="Exercise in class"]
+IP [label="Image Processing: \nFetching, Loading and Display"]
+SC [label="Source Code"]
+EiC2 [label="Exercise: \nAccesing Web APIs"]
+API [label="APIs"]
+QD [label="Que(e)rying Data"]
+EiC3 [label="Exercise in class"]
+LP [label="LoadPixels()"]
+ER [label="Different types of errors"]
+MW [label="While()"]
+MX [label="MiniX 8: \nWorking with APIs"]
+RR [label="Required reading"]
+Notes [label="Notes"]
+
+//rank
+{rank = same; SU, ST, EiC}
+{rank = same; MW, Notes, ER}
+{rank = same; SC, LP}
+{rank = same; MX, EiC2}
+{rank = same; QD, EiC3}
+
+//graph
+GS -> SU -> ST -> EiC;
+GS -> RR, MX;
+RR -> MX, SU;
+ST -> IP -> SC -> LP;
+IP -> LP;
+SC -> EiC2 -> API -> QD -> EiC3;
+QD -> ER -> MW;
+ST -> MW -> Notes;
+MW -> MX;
+}
