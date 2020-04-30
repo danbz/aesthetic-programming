@@ -16,13 +16,14 @@ Some inspirations:
 - some images need to resize but existing markdown syntax cannot support That
 - need to think about how to present the duplicate code (markdown)
 - need to think about how to present the executed / source code (markdown/interface - web+print)
-- book cover - script to generate? (or using Langton's ant one) 
+- book cover - script to generate? (or using Langton's ant one)
 
 **Outstanding from me:**
 - Revisit Aesterik Painting ch. 3
-- Flowcharts on every chapter 
+- Flowcharts on every chapter
 - a different for loop on checking array -> think where to place it
 - getting started -> add web IDE for gitlab + remove short cuts as each OS is slightly different
+- update the auto chapter generator both models + screenshots when we have a more finalized text
 
 ## Issues (by Geoff)
 - copyedit text for flow and accessibility of language
