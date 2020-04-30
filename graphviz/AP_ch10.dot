@@ -1,0 +1,38 @@
+digraph G {
+//labels
+GS [
+label="Ch.10 - Machine Learning",
+style=bold,
+color=grey,
+]
+
+SU [label="setup()"]
+ST [label="start()"]
+IO [label="Between input and output"]
+EiC [label="Exercise in class"]
+LA [label="Learning Algorithms"]
+ml5 [label="ml5.js library"]
+SC [label="Source Code"]
+RAG [label="Reading \nAuto Chapter Generator"]
+EiC2 [label="Exercise in class"]
+MW [label="While()"]
+MX [label="MiniX 7: \nE-lit"]
+RR [label="Required reading"]
+Notes [label="Notes"]
+
+//rank
+{rank = same; SU, ST}
+{rank = same; MX, ml5}
+{rank = same; MW, RAG}
+{rank = same; EiC, LA}
+
+//graph
+GS -> SU -> ST -> IO -> EiC;
+GS -> RR, MX;
+RR -> MX, SU;
+EiC -> LA;
+IO -> LA -> ml5 -> SC;
+ST -> SC -> RAG -> EiC2;
+ST -> MW -> Notes;
+MW -> MX;
+}
