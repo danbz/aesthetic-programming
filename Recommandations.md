@@ -29,5 +29,5 @@ Some inspirations:
 - copyedit text for flow and accessibility of language
 - decide on US or UK spelling? make consistent throughout
 - add further reading and/or bibliography, ideally both
-- indexing?
+- indexing? (ask osp)
 - peer review
