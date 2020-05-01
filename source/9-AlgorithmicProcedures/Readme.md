@@ -72,6 +72,7 @@ function setup() {
 🐱
 */
 ```
+In our previous experience of this exercise,[^ex] different results were produced and this becomes an excellent way to begin to discuss the multiple purposes and meanings of flowcharts.[^Ensmenger]
 
 ## Flowcharts as artistic medium
 
