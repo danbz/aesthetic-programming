@@ -55,13 +55,13 @@ To turn an existing program into a flowchart, some challenges might be:
 
 ## Exercise in class
 
-Let's start with something that appears to be relatively simple. Draw a flowchart based on the program code below:
+Let's start with something that appears to be relatively simple. Incorporating emojis and paying attention to the variable names, below program code makes reference to the works *Multi* from ch.2 (Variable Geometry) and *Vocable Code* from ch. 7 (Vocable Code) to print various multispecies' emoticon one after another via a for-loop on the browser console. The task is to draw a flowchart based on this program:
 
 ```javascript
 function setup() {
   let multi = ['🐵','🐭','🐮','🐱'];
   let species;
-  for (let species =0; species < multi.length; species++) {
+  for (let species = 0; species < multi.length; species++) {
     console.log(multi[species]);
   }
 }
@@ -72,7 +72,7 @@ function setup() {
 🐱
 */
 ```
-In our previous experience of this exercise,[^ex] different results were produced and this becomes an excellent way to begin to discuss the multiple purposes and meanings of flowcharts.[^Ensmenger]
+In our previous experience of this exercise in a classroom setting,[^ex] different drawing results were produced and they became a resource to open up the discussion around the multiple purposes and meanings of flowcharts.[^Ensmenger]
 
 ## Flowcharts as artistic medium
 
