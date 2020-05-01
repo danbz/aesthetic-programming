@@ -59,21 +59,18 @@ Let's start with something that appears to be relatively simple. Draw a flowchar
 
 ```javascript
 function setup() {
-  let sometext = ['h','e','l','l','o'];
-  let i;
-  for (i in sometext) {
-    console.log(sometext[i]);
+  let multi = ['🐵','🐭','🐮','🐱'];
+  let species;
+  for (let species =0; species < multi.length; species++) {
+    console.log(multi[species]);
   }
 }
-
 /*output
-h
-e
-l
-l
-o
+🐵
+🐭
+🐮
+🐱
 */
-
 ```
 
 ## Flowcharts as artistic medium
@@ -174,7 +171,7 @@ Group:
 
 [^stereotypes]: To see programming as a social activity undermines some of the predominant stereotypes associated with programming such as the image of the typical antisocial hacker (male, bearded, unwashed). For more on the benefits of collaborative working, see Chih Wei Ho, et al, "Examining the impact of pair programming on female students", North Carolina State University. Dept. of Computer Science (2004).
 
-[^ex]: You can find one of the many possible ways of illustrating the simple program here: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/blob/master/source/9-AlgorithmicProcedures/flow.png.
+[^ex]: You can find one of the many possible ways of illustrating the simple program here: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/blob/master/source/9-AlgorithmicProcedures/emoji_flowchart.svg.
 
 [^Ensmenger]: Nathan Ensmenger, "The Multiple Meanings of a Flowchart", in *Information & Culture: A Journal of History*, vol. 51 no. 3 (2016), 324 & 346.
 
