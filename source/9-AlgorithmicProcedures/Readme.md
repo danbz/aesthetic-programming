@@ -60,7 +60,6 @@ Let's start with something that appears to be relatively simple. Incorporating e
 ```javascript
 function setup() {
   let multi = ['🐵','🐭','🐮','🐱'];
-  let species;
   for (let species = 0; species < multi.length; species++) {
     console.log(multi[species]);
   }
