@@ -24,6 +24,7 @@ Some inspirations:
 - getting started -> add web IDE for gitlab + remove short cuts as each OS is slightly different
 - update ML - TM image -> screenshot
 - update the auto chapter generator both models + screenshots when we have a more finalized text
+- adjust flowcharts, more on arrows and relations
 
 ## Issues (by Geoff)
 - copyedit text for flow and accessibility of language
@@ -32,3 +33,6 @@ Some inspirations:
 - add further reading and/or bibliography, ideally both
 - indexing? (ask osp)
 - peer review
+- Check oout 
+    - setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/5-AutoGenerator
+    - except setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/8-Que(e)ryData
