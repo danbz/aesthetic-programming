@@ -27,6 +27,7 @@ Some inspirations:
 
 ## Issues (by Geoff)
 - copyedit text for flow and accessibility of language
+- adjust references
 - decide on US or UK spelling? make consistent throughout
 - add further reading and/or bibliography, ideally both
 - indexing? (ask osp)
