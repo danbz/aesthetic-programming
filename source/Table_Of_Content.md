@@ -21,7 +21,7 @@ page_order: -2
 ## Chapter 2: Variable Geometry
 * setup() and start()
 * Source code
-* Coordination
+* Coordinate
 * Exercise in class
 * Variables
 * Why use variables

@@ -82,7 +82,7 @@ The above code draws various shapes and performs simple interactions:
 - when you move the mouse, an outlined ellipse in grey color follows the movement
 - you can also click on the mouse to change the size of the grey ellipse
 
-## 2.2 Coordination
+## 2.2 Coordinate
 In the last chapter, we briefly talked about x and y coordinates, which is a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(windowWidth,windowHeight)` refers to the action of creating a canvas with the width and height according to your window size. Unlike the previous chapter with the setting of the exact pixel dimension like `createCanvas(640,480);`, this approach gives you a flexibility of no fixed canvas size. Therefore, the background color of the sample code fills the whole window screen. It should be reminded that in mathematics the origin [0,0] is positioned in the middle of a grid paper/screen, but in computing the origin is drawn at the upper left corner (see Figure 1.11 in the previous chapter).
 
 ## 2.2.1 Exercise in class
