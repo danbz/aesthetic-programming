@@ -17,6 +17,7 @@ Some inspirations:
 - need to think about how to present the duplicate code (markdown)
 - need to think about how to present the executed / source code (markdown/interface - web+print)
 - book cover - script to generate? (or using Langton's ant one)
+- include students' work?
 
 **Outstanding from me:**
 - Revisit Aesterik Painting ch. 3
