@@ -17,27 +17,32 @@ RC [label="Reading code:  \n'Hello World'"]
 RG [label="Reading: \nreference guide"]
 Git [label="Git"]
 MW [label="While()"]
-MX [label="MiniX 1: \nMy First Program"]
+MX [label="MiniX 1: \nRUNME and README"]
 RR [label="Required reading"]
 Notes [label="Notes"]
 
 {rank = same; ST, SU}
 {rank = same; WE, SU}
-{rank = same; RC, RR}
-{rank = same; MX, EiC}
+{rank = same; MFP, EiC}
+{rank = same; Git, EiC}
+{rank = same; MFP, RR}
+
 
 //graph
 GS -> SU -> ST;
-GS -> RR, MX;
 ST -> WE;
+GS -> RR[dir=both,minlen=2];
 WE -> p5;
 WE -> CE;
 WE -> Git;
 ST -> MFP;
-MFP -> EiC;
+MFP -> EiC[minlen=2];
 MFP -> RC;
 MFP -> RG;
-ST -> MW -> Notes;
-MW -> MX;
+ST -> MW [dir=both];
+MW -> MX, Notes;
 RR -> MX, SU;
+Git -> MW;
+RG -> MX;
+p5 -> CE [dir=both];
 }
