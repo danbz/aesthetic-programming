@@ -1,8 +1,16 @@
 ## Further readings
 
-## Chapter 1 - Getting Started 
+## Chapter 1 - Getting Started
 
 - Brian Lennon, "JavaScript Affogato: Programming a Culture of Improvised Expertise", *Configurations*, Volume 26, Number 1, Winter 2018, 47-72.
+
+## Chapter 2 - Variable Geometry
+
+- Crystal Abidin and Joel Gn, eds., "Histories and Cultures of Emoji Vernaculars", *First Monday*, 23(9), September, 2018, https://firstmonday.org/ojs/index.php/fm/issue/view/607
+- Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-reviewed Journal About Machine Feeling*, 8(1), 2019, https://tidsskrift.dk/APRJA/issue/view/8133.
+- Olga Goriunova, Olga, "Introduction", *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing*, New York, London: Bloomsbury, 2014, 1-19.
+- Derek Robinson, "Variables", in Matthew Fuller, ed., *Software Studies*, Cambridge, Mass.: MIT Press, 2008.
+- Femke Snelting, [Modifying the Universal](https://www.youtube.com/watch?v=ZP2bQ_4Q7DY), MedeaTV, 2016 [Video, 1 hr 15 mins].
 
 ## Chapter 4 - Data Capture
 

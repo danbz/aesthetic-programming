@@ -1,10 +1,10 @@
 Title: 2. VariableGeometry
 page_order: 2
 
-## 2. Variable Geometry
+## Variable Geometry
 ![flowchart](ch2_0.svg)
 
-## 2.1 setup()
+## setup()
 
 Aside from the difficulties of learning anything new and complex, learning to code can be enjoyable and rewarding (we hope!). That fun can be had with programming would seem to be demonstrated in the numerous titles that make explicit reference to it such as Linus Torvalds's book *Just for Fun: The Story of an Accidental Revolutionary*, written with David Diamond, part autobiography and part story of the development of Linux.[^Fun] Fun in this case combines with the serious effort of making source code freely available and open to further modification. Like sharing a joke (or indeed recipe), programmming is indeed a social activity and relies on collective understanding in order to *get it*.
 
@@ -18,13 +18,13 @@ Much like the utopian project of developing a universal language to be spoken an
 
 Our point is that using emojis may be fun and expressive but they also tend to oversimplify and universalise differences, and thereby perpetuate normative ideologies within already "violent power structures",[^ideology] such that only selected people, those with specific skin tones for instance, are represented while others are not. There is a distinct inequality as to how people are represented, and who sets the standards for these representations? That these operations can be characterised as fun is part of the problem and masks other processes that monitor our emotional states not least in the workplace (we will return to this issue in Chapter 4 - DataCapture). These are some of the issues we want to explore in this chapter by introducing variable geometry and learning to be able to produce alternatives, more politically-correct ones perhaps. We start with the work *Multi* by David Reinfurt which will be used to demonstrate the basis of geometry and the variations of facial expression and composition that can be generated from simple typographic elements.
 
-## 2.1.1 Start()
+### start()
 <img src="http://o-r-g.com/media/00004.gif" height="400"><br>
 *Figure 2.1: Multi by David Reinfurt*
 
 *[Multi](http://www.o-r-g.com/apps/multi)*,[^Multi] is inspired by another designer Enzo Mari who spent a whole year in 1957 exploring the essential form of an object (an apple, the universal apple we might add). Reinfurt explains that "He was not looking to draw AN apple, but rather THE apple — a perfect symbol designed for the serial logic of industrial reproduction." *Multi* develops a variation of this idea for informational reproduction in the form of a mobile app with 1,728 possible arrangements, or facial compositions, built from minimal punctuation glyphs. But instead of using preset typographic characters, which admittedly is the conceptual charm of *Multi*, for our purpose we will draw these from scratch with foundational elements of geometry.
 
-## 2.1.2 Source Code
+## Source Code
 ![](ch2_2.gif)<br>
 *Figure 2.2: The screenshot of the remix of Multi*
 
@@ -82,10 +82,10 @@ The above code draws various shapes and performs simple interactions:
 - when you move the mouse, an outlined ellipse in grey color follows the movement
 - you can also click on the mouse to change the size of the grey ellipse
 
-## 2.2 Coordinate
+### Coordinate
 In the last chapter, we briefly talked about x and y coordinates, which is a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(windowWidth,windowHeight)` refers to the action of creating a canvas with the width and height according to your window size. Unlike the previous chapter with the setting of the exact pixel dimension like `createCanvas(640,480);`, this approach gives you a flexibility of no fixed canvas size. Therefore, the background color of the sample code fills the whole window screen. It should be reminded that in mathematics the origin [0,0] is positioned in the middle of a grid paper/screen, but in computing the origin is drawn at the upper left corner (see Figure 1.11 in the previous chapter).
 
-## 2.2.1 Exercise in class
+#### Exercise in class
 ```javascript
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -112,7 +112,7 @@ Remember the structure of a web page should include the html, working javascript
 
 You should notice from the responses of the console area (see Figure 2.2) that it displays the actual width in pixel unit when you type the functions `print(width);`. Additionally, if you use `console.log(width, height);`, which is the equivalent of the print function in JavaScript (not a p5.js function), the screen displays two numbers according to your screen size (you may adjust the screen and try again to get a different number). With just two lines in the console area, you have asked the program to give you the values of the width and height of the canvas. The program understands the two names 'width' and 'height'. They are the pre-set names in p5.js which you can use specifically for asking the dimensions of the canvas.
 
-## 2.3 Variables
+### Variables
 
 In programming, both width and height are called *variables*, which is another important concept. Variables are used to store data and information in a computer program. You can think of variables as a kitchen container, and you can put things (like food, forks, etc) in a given container, replace them with other things, and store them for later retrieval. Two main types of variables: Local variables are defined within a structure or a function, and then can only be used within that block of code. On the contrary, a 'global variable' is something you can use in any parts of your code. To define a global variable, you need to define it before the setup of the program, usually in the first few lines of the program.
 
@@ -153,14 +153,14 @@ There are two more variables in the example: `mouseX` and `mouseY`. These are ch
 
 Although it is commonplace to use the metaphor of a container to illustrate the concept of variable, it is important to add that there is an address for each container (for instance, it is in a particular place on a shelf if you like, and the computer needs to know it's there). Technically speaking, by declaring a variable, it also declares an address at which the computer memory can hold the value. In short, each variable is stored in a block of computer memory which is located inside physical and concrete memory like RAM. Each block has a identification which is called the memory address so that the computer knows where to store it and retrieve it while the program is running. As such, software and hardware is not separable, and it is just we can't able to see the inner micro-workings of a computer whilst it is handling data.
 
-## 2.3.1 Why use variables?
+#### Why use variables?
 As you learn to program more complex software, you will discover it is very common to use variables to store values and data. More importantly, the value of variables can be changed while a program is being run in real-time. The earlier variables: mouseX and mouseY may serve the purpose of illustrating the point because the coordinates of the mouse will change according to its movement. We will also discuss variables again in the next chapter when we introduce the concepts of array, loop and repetition.
 
 Another reason for variables is that if you have longer lines of code, it is easier to have all the variables that you have declared for the program in an overview. As such you can change the value for testing, for example defining different sizes of shapes without locating the specific line of code. Morever, it is also easier for others to read your code with a well-chosen variable name when you have to use it in different parts of your program.
 
 This leads to the reusability of variables. Variables can be used in different functions and more than one time (and also as arguments passed to a function subroutine, something we will also discuss in the next chapter), just like the `static_size` variable in the sample code that is used for drawing both the ellipse and the rectangle.
 
-## 2.4 Other functions
+### Other functions
 This section is to briefly introduce some other new functions in the sample code, as drawing and designing an emoji requires different decisions, in terms of shapes, color and spatial composition.
 
 - `noStroke()`, `strokeWeight()`: These functions refer to the settings of the shape, whether it has an outline, and the weight of the border.
@@ -170,7 +170,7 @@ This section is to briefly introduce some other new functions in the sample code
 - `floor()`: Since the random function returns a floating-point number, `floor()` is used to calculate the closest integer value.
 - `if (mouseIsPressed) {}`: This is a conditional structure for a program, constantly referring to mouse press actions. This is discussed in more detail below.
 
-## 2.5 Basic Arithmetic Operators
+#### Basic Arithmetic Operators
 You can also do arithmetic operations in programming, and this is commonly done in arguments of a function. Here is a list of basic arithmetic operators:
 - add(+): For addition and concatenation, which is applicable for both numbers and text/characters.
 - subtract(-)
@@ -214,7 +214,7 @@ In our sample code, we have implemented a conditional logic to constantly check 
  }
 ```
 
-## 2.7 Relational operators
+### Relational operators
 When you have to create your own conditional statement with the if-then format, there are multiple combinations you can work on to form a more complex expression. For example, you can have many different cases using the syntax `else if`, or a combinaton of logical operators, such as the AND case here in another pseudocode example:
 
 ```javascript
@@ -272,13 +272,13 @@ if (x > 10 || x <= 20 ) {
 }
 ```
 
-## 2.8 Discussion in class
+#### Discussion in class
 1. Examine [existing emojis](https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg) or those available on your handset, and reflect upon the complexity of human emotions and their caricature.  What's your experience in using emojis? What are the cultural and political implications of emojis (perhaps yopu can refer to the readings and introduction above)?
 2. Discuss what constitutes a face? What essential elements do you need for a particular facial expression, and why? What has been lost in translation?
 3. Beyond the face, take a look at [more emojis](https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/).[^emojis2] Is there anything you want to add?
 4. Experiment with p5.js. How do you translate your thoughts into lines of code? You may want to print out the coordinates of the mouse press on the console area to get a more accurate position for your shapes.
 
-## 2.9 While()
+## While()
 
 The human face make a good starting point here as we recognise it even in its simplest form, something *Multi* seems to verify with its minimal rendering of three elements. The face clearly occupies a central position in everyday life and social interaction, and it almost goes without saying that its features are perceived to display our uniqueness and individuality. But this is a surface reading only. Emojis operate in this way and seem to occlude the face of experience and it ability to express complex feelings. It would be tempting to think that emojis, despite their name, stop short of emotions altogether.
 
@@ -296,7 +296,7 @@ Snelting is looking for other geometries that can escape normative configuration
 
 The challenge is to rethink normative geometries, to turn them upside down and inside out. Herein lies the challenge of the chapter, in having fun with programming, to escape the face's overcoding and to develop alternatives. Fun in this sense means the ability to be able to modify forms and to diverge from established rules - like a good joke. In the case of programming the rules can be applied differently, adapted and modified, and even transformed altogether.
 
-## 3.0 Mini_Exercise[2]: Geometric emoji
+## MiniX[2]: Geometric emoji
 **Objective:**
 - To experiment with various geometric drawings, explore possibilites, especially on shapes and drawing with colors.
 - To reflect on the politics/aesthetics of emojis via the assigned texts.
@@ -320,13 +320,6 @@ Explore different shape, geometric and other related syntax (via p5.js [referenc
 - p5.js. p5.js | Simple Shapes. [Web] Available at: https://p5js.org/examples/hello-p5-simple-shapes.html [Accessed 09 Sep. 2019].
 - Shiffman, Daniel. (2018) 1.3,1.4,2.1,2.2: Code! Programming with p5.js [online] Available at: https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2 [Accessed 09 Sep. 2019].
 - Femke Snelting, "Other Geometries", *transmediale journal*, Issue#3, 31 October 2019, https://transmediale.de/content/other-geometries
-
-## Further reading:
-- Crystal Abidin and Joel Gn, eds., "Histories and Cultures of Emoji Vernaculars", *First Monday*, 23(9), September, 2018, https://firstmonday.org/ojs/index.php/fm/issue/view/607
-- Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-reviewed Journal About Machine Feeling*, 8(1), 2019, https://tidsskrift.dk/APRJA/issue/view/8133.
-- Olga Goriunova, Olga, "Introduction", *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing*, New York, London: Bloomsbury, 2014, 1-19.
-- Derek Robinson, "Variables", in Matthew Fuller, ed., *Software Studies*, Cambridge, Mass.: MIT Press, 2008.
-- Femke Snelting, [Modifying the Universal](https://www.youtube.com/watch?v=ZP2bQ_4Q7DY), MedeaTV, 2016 [Video, 1 hr 15 mins].
 
 ## Notes
 
