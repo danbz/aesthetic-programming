@@ -21,8 +21,9 @@ MX [label="MiniX 1: \nRUNME and README"]
 RR [label="Required reading"]
 Notes [label="Notes"]
 
-{rank = same; ST, SU}
-{rank = same; WE, SU}
+
+{rank = same; WE, ST}
+{rank = same; GS, SU}
 {rank = same; MFP, EiC}
 {rank = same; Git, EiC}
 {rank = same; MFP, RR}
@@ -31,15 +32,15 @@ Notes [label="Notes"]
 //graph
 GS -> SU -> ST;
 ST -> WE;
-GS -> RR[dir=both,minlen=2];
+GS -> RR[dir=both];
 WE -> p5;
 WE -> CE;
 WE -> Git;
 ST -> MFP;
-MFP -> EiC[minlen=2];
+MFP -> EiC;
 MFP -> RC;
 MFP -> RG;
-ST -> MW [dir=both];
+SU -> MW [dir=both];
 MW -> MX, Notes;
 RR -> MX, SU;
 Git -> MW;
