@@ -1,10 +1,10 @@
 Title: 4. Data Capture
 page_order: 4
 
-## 4. Data Capture
+## Data Capture
 ![flowchart](ch4_0.svg)
 
-## 4.1 setup()
+## setup()
 This chapter focuses on how a program captures and processes input data. In some programming books, this would fall under the topic of interactivity, such as interacting with physical devices like a mouse and a keyboard. This is already familiar in earlier chapters where we already introduced the functions `mouseX` and `mouseY` (see Chapter 2 - Variable Geometry), as well as the idea of listening events via the functions `mouseIsPressed()` and `windowResized()` (see Chapter 3 - Infinite Loops).
 
 This chapter extends these ideas and presents different types of data capture, including mouse movement, keyboard press, audio volume and face tracking with a web camera. Putting it like this allows us to move from immediate interactions to question what kinds of data is being captured, how it is being processed,[^Tufte] and the wider consequences of this as part of a broader cultural tendency that tends to be referred to as *datafication*.[^datafication] The term (a hack of commodification) refers to the ways in which all aspects of our life seem to be turned into data which is subsequently transferred into information realised as a new form of value. This tendency is what Kenneth Cukier and Victor Mayer-Schöenberger describe in their article "The Rise of Big Data"[^Bigdata] and consequently our data, "the patterns of human bahaviors", is extracted and circulated within the logic of what Shoshana Zuboff terms as "surveillance capitalism".[^zuboff] The need for large amounts of various kinds of data to be harvested for computational purposes, so as to perform predictive analytics (e.g. you like this book and we think you might like these books too).  
@@ -13,7 +13,7 @@ We will come back to some of these issues later in the book (Chapter 10 - Machin
 
 With these ideas in mind, the next section will introduce the sample code for a customizable *Like* button in order to demonstrate the potential of simple interactions like button-press, and how you might begin to consider the specificity and affordances of a button, and how the like button becomes a "social button", creating economic values as what Carolin Gerlitz and Anne Helmond describe as "the like economy" [^helmond]. As with previous chapters we will work through different types of capture examples with buttons as a starting point, and then see where this takes up in terms of reflecting on the wider implications.
 
-## 4.1.1 start()
+### start()
 ![datacapture](ch4_10.gif)
 
 *Figure 4.1 The web interface and interaction of Data Capture*
@@ -30,14 +30,14 @@ The button is customized using CSS (Cascading Style Sheets), which describes the
 
 <div class="exercise" markdown="true">
 
-## 4.1.2 Exercise in class (Decode)
+## Exercise in class (Decode)
 By looking at the Like button closely in the RUNME, can you come up with a list of potential customizations that have been introduced in the sample code?
 
 Then look at the source code in the next section (lines 67-83) and describe some of the button's styling in your own words.
 
 </div>
 
-## 4.2 Source Code
+## Source Code
 ```javascript
 /*Data Capture for Chapter 4
 Interacting with captured data: Mouse, Keyboard, Audio, Web Camera
@@ -125,7 +125,7 @@ function keyPressed() {
   }
 }
 ```
-## 4.3 DOM elements: Creating and styling a button
+## DOM elements: Creating and styling a button
 
 DOM stands for Document Object Model, considering a document like HTML as a tree structure that allows programs to dynamically access and update the content, structure and style of it. Instead of focusing different tree structure of a document, this chapter will focus on form elements as part of the DOM. These form elements include button, radio button, checkbox, text input and among others, which are commonly seen when one has to fill in an online form. The basic structure for creating form elements is relatively simple. In the p5.js reference guide under the DOM category,[^DOM] there are different form creation syntaxes, e.g. `createCheckbox()`, `createSlider()`, `createRadio()`, `createSelect()`, `createFileInput()`, and so on. The one that we need for creating a button is called `createButton()`.
 
@@ -138,7 +138,7 @@ First you need to assign an object name for the button, and of course different 
 - `button.size();`: This sets the size of the button in terms of its width and height.
 - `button.position();` This sets the position of the button.
 
-## 4.4 Mouse capture
+## Mouse capture
 In the previous chapter the program listened to the mouse movement and captured the corresponding x and y coordinates by using the built-in syntaxes `mouseX` and `mouseY`. This sample code incorporates a specific `mousePressed()` function which is called once every time the user presses a mouse button. See the excerpt of code below:
 
 ```javascript
@@ -151,7 +151,7 @@ function clearance() {
 ```
 The function `mousePressed()` is attached to the button you want to trigger actions. There are other mouse related mouseEvents,[^event] such as `mouseClicked()`, `mouseReleased()`, `doubleClicked()`, `mouseMoved()`, and so on.
 
-## 4.5 Keyboard capture
+## Keyboard capture
 ```javascript
 function keyPressed() {
   if (keyCode === 32) { //spacebar - check here: http://keycode.info/
@@ -172,7 +172,7 @@ Capital and lower case letters do not make any difference as they are using the 
 
 Similar to `mouseEvents`, there are also many other `keyboardEvents`,[^Key] such as `keyReleased()`, `keyTyped()`, `keyIsDown()`.
 
-## 4.6 Audio capture
+## Audio capture
 ```javascript
 let mic;
 
@@ -207,7 +207,7 @@ The sample code refers to methods under `p5.AudioIn()`, which reads the amplitud
 
 A new function `map()` is introduced to map a number across a range. Since the return of the volume is set between a range of 0 to 1.0, the corresponding number will not make a significant difference in terms of the size of the button. As such, the range of the audio input will then map to the size range of the button dynamically.
 
-## 4.7 Face tracker
+## Face tracker
 ```javascript
 let ctracker;
 
@@ -258,7 +258,7 @@ What the program does in terms of face capture and facial recognition via using 
 
 <div class="exercise" markdown="true">
 
-## 4.8 Exercise in class
+### Exercise in class
 
 To familiar yourself with different modes of capture, try the following:
 
@@ -274,10 +274,10 @@ It would be worth checking back to Chapter 2 (Variable Geometry) for a reminder 
 
 </div>
 
-## 4.9 The concept of capture
+## The concept of capture
 After the demonstration of different inputs for data capture, this next section discusses various examples. The intention is to showcase some other possibilities of its application, and more importantly how this relates to datafication, commodification, surveillance and personalization. This is an attempt to discuss data politics more broadly: to question how our personal data is being captured, quantified, archived and used, and to what purpose? What are the implications and who has the power to access the captured data and derive profit from it? Few people know exactly what data is being captured nor how it will be used?[^GDPR] But, despite the term capture, we should also point out that this is not total incarceration, and there are escape routes too. More on this later.  
 
-### 4.9.1 Web Analytics and Heatmap
+### Web Analytics and Heatmap
 The most widely used web analytics service is currently offered by Google to track tremendous amount of data on website traffic and browsing behaviors, including the number of unique visits, average time on sites, browser and operating system information, traffic sources and users' geographic locations, amongst other things. These information would be further used for analysing customers' profile and user bahaviors.
 
 ![](ch4_4.png)
@@ -292,14 +292,14 @@ Among different visualization tools, Heatmap is a feature which shows a graphica
 
 Big companies like Facebook,[^Facebook] constantly explore new methods for data capture in order to optimize screen presentation.
 
-### 4.9.2 Form elements
+### Form elements
 As we argued with interaction, the choices are limited. Each form elements like a dropdown menu and a button signals different affordances. Researcher Rena Bivens made a thorough analysis of Facebook's registration page in relation to the gender options available.[^Bivens] When Facebook was first launched in 2004 there was no gender field, but things changed in 2008 when a drop-down list was introduced that included only the options of Male or Female, further changed with the use of radio buttons to emphasize the binary choice. The breakthrough was in 2014 when Facebook allowed users to customize the gender field and as a result one can now select from a list of more than 50 custom gender options. According to Facebook, they wanted to enhance "personalized experiences" with "authetic identity",[^Facebook2] but it remains arguable whether this personalization (not only in the case of Facebook but broader society) actually serves to enforce categorisation, and of course is ultimately serves the purpose of market segmentation (dividing users into ever more sub-groups).
 
 ![](ch4_8.png)
 
 *Figure 4.7: The custom gender field of Facebook as of Feb. 2020*
 
-### 4.9.3 Metrics of likes
+### Metrics of likes
 The use of a single Like button provides a good example of how our feelings are captured. The aptly named company *Happy or Not* who produce push button technology and analytics software — the kind found in supermarkets for instance, with happy or sad faces — also provide feedback technologies for the workplace, as indicated by their strapline: "Creating happiness in every business, worldwide".[^Leslie] The six emoticons launched in 2016 by Facebook including *Like*, *Love*, *Haha*, *Wow*, *Sad* and *Angry* mark our standardised experience of work and play more precisely. All clicks are *categorized* into emotional metrics, displayed publicly on the web, and used for algorithmic calculation to prioritize feeds to users. It is fairly clear how the clicks serve the interests of platform owners foremost, and as if to prove the point, Facebook and Instagram have tested the idea of hiding the metrics on posts in order to shift attention to what they prefer to call "connecting people"[^Hide] — as if their interests were altruistic.
 
 This practice of quantification is something the artist Benjamin Grosser has parodied in his *Demetricator* series,[^Grosser] first published in 2012, in which all the numbers associated with the metadata has disappeared. The associated *value* of numbers associated with notifications, replies, favorites and feeds, have all been nullified. Or rather it becomes clear that the clicking produces *value* and the proof of this is conspicuous by its absence.
@@ -310,14 +310,14 @@ This practice of quantification is something the artist Benjamin Grosser has par
 
 Tracking is clearly big business and comes with its own invisibility cloak. In 2013, Facebook conducted a research project about last-minute self-censorship,[^Facebook3] revealing their capability of being able to track even unposted status updates/posts/comments, including erased texts or images. This is called "residual data", which might be considered as "waste material", "digital exhaust" or data exhaust" but these data have rich and predictive values[^zuboff2]. The implication is that Facebook is not only interested in capturing what you have posted but thinking processes via your residual data. It is sobering to think that data capture extends to the imaginative realm.
 
-### 4.9.4 Voice and audio data
+### Voice and audio data
 So-called smart devices like our computers, phones and other gadgets are commonly equiped with the feature of voice recognition — as, for instance, through Siri, Google Assistant or Alexa — turning an audio input into a command for software processing, and feedback with "more personalised experiences" to assist in the delivery of everyday tasks. You can find these voice assistants in just about everything now — including, everyday objects like a microwave — and they become more and more conversational and 'smart', one might say 'intelligent' with machine learning improvements. But here lies another good example of duplicity once more, as they can carry out simple tasks very well and become smarter, and at the same time are used to capture voices for machine learning applications more widely. Placing these tangible voice assistants at home is to allow the capturing of your taste beyond the online screen-facing mode. In the internet of things, the device serves you and you serve the device. Indeed we become the devices that generate value for others.[^Leslie2]    
 
 ![](ch4_6.png)
 
 *Figure 4.9: Screenshot of Voice & Audio activity*
 
-### 4.9.5 Health tracker
+### Health tracker
 Fitness and well-being becomes datafied and gamified to set personal targets. As the welfare state and social care are dismantled, personal well-being becomes individualised and one can find a growing trend of *self-tracking* apps. Movement, steps, heart rate and even sleep patterns can be tracked and analyzed easily with wearable devices and gadgets, such as the Fitbit or the Apple Watch. These practices of the *quantified self* — sometimes referred to as body hacking or self-surveillance — overlap with other trends that incorporate capture and data acquisition into all aspects of daily life.
 
 Under late capitalism, temporality itself seems to have been captured, and "there is a relentless incursion of the non-time of 24/7 into every aspect of social or personal life. There are, for example, almost no circumstances now that cannot be recorded or archived as digital imagery or information."[^Crary] We quote from Jonathan Crary's book *24/7: Late Capitalism and the Ends of Sleep* which describes the collapse of the distinction between day and night, meaning we are destined to produce data at all times. If sleep was once thought to be the last refuge from capitalism where no value could be extracted,[^Crary2] then this no longer seems to be the case and many of us happily monitor our sleep.
@@ -327,7 +327,7 @@ Under late capitalism, temporality itself seems to have been captured, and "ther
 *Figure 4.10: Screenshot of sleep tracker*
 [need smaller the image]
 
-## 4.10 While()
+## While()
 
 That even sleep becomes datafied seems to point to the extent to which our subjectivities have been captured too. We produce, share, collect, archive, use and misuse, knowingly or not, massive amounts of data, but what does its capture do to us? What are the inter-subjective relations between data-commodity and human subjects? As we have discussed in this chapter our personal and professional lives seem to be fully enmeshed in various processes of *datafication* — to refer to how data is subsequently transferred into information as a new form of value — but does this simply mean that we are trapped in a prison-house of data unwittingly producing value for others? In this last section we will try to unpack these ideas a little more and in particular the idea of value in the context of the flow of data (that we call big data) and our position within these datafied structures as not entirely without agency.
 
@@ -339,7 +339,7 @@ We can find some evidence of this in the social energies of the free and open so
 
 This is a reference to the philosophy of Gilbert Simondon, to the transformational process by which individuation — how a person or thing is identified as distinguished from other persons or things — is caught up with other individuations. There is no space (or need) to go into this in detail in this publication but for now simply to say that *transindividuation* describes this shift between the individual 'I' and collective 'We' and how they are transformed through one another.[^Stiegler] We hope something of this happens with this book project, already collective by design, but also one that opens up further possibilities to produce new versions and socialities in its reworking. Of course this involves tinkering with the underlying codes and values associated with data capture and our ability to reinvent its main purpose. This is an open invitation to not only capture data but to unleash its potential otherwise.  
 
-## 4.11 Mini_Exercise[4]: Capture All
+## MiniX[4]: Capture All
 
 **Objective:**
 - To experiment with various data capturing inputs, including audio, mouse, keyboard, web camera, and more.
