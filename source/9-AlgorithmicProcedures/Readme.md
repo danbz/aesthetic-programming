@@ -85,11 +85,11 @@ The iterative loop can be clearly seen in the diagram and echoes the principle o
 
 ![diagram3](ch9_3.gif)
 
-*Figure 9.3: The Project Formerly Known as Kindle Forkbomb. Courtesy of UBERMORGEN and Kunsthal Aarhus, No Copyright (2012)*
+*Figure 9.3: UBERMORGEN, The Project Formerly Known As Kindle Forkbomb (2013). Courtesy of the artists*
 
 ![diagram4](ch9_4.jpg)
 
-*Figure 9.4: The Project Formerly Known as Kindle Forkbomb, installation view, at Kunsthal Aarhus, as part of the exhibition ?? curated by Joasia Krysa. Courtesy of UBERMORGEN and Kunsthal Aarhus, No Copyright (2013)*
+*Figure 9.4: UBERMORGEN, The Project Formerly Known as Kindle Forkbomb (2013), mixed media installation at Kunsthal Aarhus, as part of the exhibition "Systemics #2: As we may think (or, the next world library)" curated by Joasia Krysa. Courtesy of the artists and Kunsthal Aarhus*
 
 ## While()
 
