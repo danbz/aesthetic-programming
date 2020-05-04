@@ -30,7 +30,7 @@ The core method in structuring the artwork *Vocable Code* is the use of constrai
 - For each specific voice, the sentence starts with the phrase: "Queer is".
 - For each specific voice, each sentence contains the minimum of 1 word but no more than 5.
 
-## 7.3 Exercise in Class (Decode)
+## 7.3 Exercise in class (Decode)
 
 [RUNME](https://siusoon.github.io/VocableCode/vocablecode_program/)
 
@@ -431,7 +431,7 @@ The biography of Turing as a gay man at a time when homosexuality was still a cr
 
 To conclude this chapter, through exploring the making of *Vocable Code* with its strange syntax - such as notFalse and notTrue - and its many repetitive decimals, we would like to emphasise our central point: Queer is... making binaries strange.  
 
-## 7.10 Mini_Exercise[7]: E-lit
+## 7.10 MiniX[7]: E-lit
 **Objective:**
 - To understand how JSON works technically, in terms of storing data and how data can be retrieved via code.
 - To reflect upon the aesthetics of code and language, as well as the multiple aural dimensions of an e-lit.

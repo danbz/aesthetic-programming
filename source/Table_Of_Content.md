@@ -8,81 +8,138 @@ page_order: -2
 ## 0. Preface
 
 ## Chapter 1: Getting started
-* What is Javascript and why p5.js?
-* Setting up and Reading code and syntax
-* Hello world syntax
-* Free and Open-source software and culture
-* Mini-ex 1: Think About My First Program
+* setup() and start()
+* Working environment: p5.js, code editor
+* My first program
+* Exercise in class
+* Reading the web console "Hello World"
+* Reading the reference guide
+* Git
+* While()
+* MiniX[1]: RUNME and README
 
 ## Chapter 2: Variable Geometry
-* Multi by David Reinfurt (cf. sundial project for next chapter)
-* Basics: coordination, variables, geometry, shapes/patterns, faces (with p5.playground)
-* Having fun, and not just for fun, with software, free speech and injurious words, bad jokes
-* Politics of emoticons, politics of representation, background of unicode and universal languages
-* Mini-ex 2: A fun face
+* setup() and start()
+* Source code
+* Coordination
+* Exercise in class
+* Variables
+* Why use variables
+* Other functions
+* Basic Arithmetic Operators
+* Conditional Structure
+* Relational operators
+* Discussion in classes
+* While()
+* MiniX[2]: Geometric emoji
 
 ## Chapter 3: Infinite loops
-* Artwork: Asterisk Painting (2013) by Bell John
-* Iterations: For/ While Loops
-* Conditional statements and Functions
-* Time related syntax, machine and human time (unix-epoch), clocks
-* Transform: translate(), rotate(), push/pop()
-* Temporalities: real-time, machine time, micro-time and just-in-time (live) coding (Ernst's essay - if... then - loop forever)
-* Mini-ex 3: Design a Throbber differently
+* setup() and start()
+* Decode
+* Source Code
+* Function
+* Exercise in class
+* Transform
+* Exercise in class  
+* Asterisk Painting
+* Source Code
+* Exercise in class
+* Arrays
+* Conditional statements
+* Loops
+* While Loop
+* While()
+* MiniX[3]: Designing a Throbber
 
 ## Chapter 4: Data Capture
-* Artwork: How We Act Together (2016) by Lauren McCarthy and Kyle McDonald (mention more in passing, not too much emphasis)
-* Mouse and Keyboard events
-* Web camera inputs: with clmtrackr.js library
-* Audio inputs: with p5.sound library
-* Tracking: The datafication of everything, including your habits (datafied research).
-* Mini-ex 4: CAPTURE ALL: Feedback machines
+* setup() and start()
+* Exercise in clas (Decode)
+* Source Code
+* DOM elements: Creating and styling a button
+* Mouse capture
+* Keyboard capture
+* Audio capture
+* Face tracker
+* Exercise in class
+* The concept of capture
+* Web Analytics and Heatmap
+* Form elements
+* Metrics of likes
+* Voice and audio data
+* Health tracker
+* While()
+* MiniX[4]: CAPTURE ALL
 
 ## Chapter 5: Auto Generator
-* The Game of Life (1970) by John Horton Conway / Langton's ant (1986) by Chris Langton + [automata I](https://isohale.com/Development-1) by Catherine Griffiths  
-* (Commodore 64 Basic program: 10 PRINT)
-* Random(), Noise()
-* Rule-based and Emergent systems
-* Generators and other automatisms (genotypes), love letter generators
-* Mini-ex 5: A generative program
+* setup() and start()
+* Exercise in class (10 PRINT)
+* Langton's Ant
+* Source Code (Langton's Ant)
+* Reading Langton's Ant
+* Two-dimensional arrays & nested for-Loops
+* Exercise in class
+* While()
+* MiniX[5]: A generative program
 
 ## Chapter 6: Object Orientation
-* Design work: TOFU GO by Francis Lam that inspires Winnie's simple version 
-* Objects, Class, Behaviors and Arguments
-* Play objects: with p5.play library
-* Object-oriented thinking: cooking and coding with class struggle (food and recipes, cultural difference)
-* Mini-ex 6: Games with objects
+* setup() and start()
+* Exercise in class (Decode)
+* Source Code
+* class
+* Objects
+* Class-Object creation
+* Exercise in class
+* Further notes
+* While()
+* MiniX[6]: Games with objects
 
 ## Chapter 7: Vocable Code
-* Artwork: Vocable Code by Winnie Soon
-* Textuality: typography, text size, alignment and style
-* Parsing JSON text files
-* Codework: attention to names and poetics
-* Speaking and Queer Code
-* Mini-ex 7: Write and Generate an electronic literature
+* setup() and start()
+* Exercise in class (Decode)
+* Texuality & Type
+* Conditions
+* JSON
+* Source Code
+* Exercise in class
+* While()
+* MiniX[7]: E-lit
 
 ## Chapter 8: Que(e)ry Data
-* Artwork: Net Art Generator by Cornelia Sollfrank (authorship and copyright, image encryption)
-* Image processing: fetching, loading and display
-* Application Programming Interfaces
-* Data, Archives, Repositories, Libraries, Databases / Critical APIs across time (googlification of everything, literacy)
-* Mini-ex 8: Working with APIs
+* setup() and start()
+* Exercise in class
+* Image processing: Fetching, Loading and Display
+* Source Code
+* Exercise: Accessing Web APIs (Step by Step)
+* APIs
+* Que(e)rying data
+* Exercise in class
+* LoadPixels()
+* Different types of errors
+* While()
+* MiniX[8]: Working with APIs
 
 ## Chapter 9: Algorithmic Procedures
-* Projects: The Status Project by Heath Bunting (in passing) + a series of flow charts (inc. vocable code)
-* cf. table of contents and other drawn diagrams (dean kenning's jackson 5 flowchart)
-* Receipts,  Procedures, Algorithms
-* Mini-ex 9: Representing a program with a flowchart (check algorithm by Goffey is in refs)
+* setup() and start()
+* Discussion in class
+* Flow Charts
+* Exercise in class
+* Flowcharts as artistic medium
+* While()
+* MiniX[9]: Flowcharts
 
 ## Chapter 10: Machine Learning
-* Personal assistants: Eliza (1964-1966) + elizabot.js version (2005) by Norbert Landsteiner
-* What is Machine Learning?
-* Machine prediction: Classification and Text generation
-* Experimenting ml5.js library
-* Ways of Machine Seeing, Reading and Processing
+* setup() and start()
+* Between input and output
+* Exercise in class
+* Learning Algorithms
+* ml5.js library
+* Source Code
+* Reading Auto Chapter Generator
+* Exercise in class
+* While()
+* MiniX[10]: Final Project
 
-## Bonus chapter
-* Machine learning generated text – based on the text in this book
+## Chapter 11: Recurrent Imaginaries
 
 ## Indexing
 reference to: https://monoskop.org/media/text/? and Linda's work in Exe practice
