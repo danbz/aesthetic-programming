@@ -46,4 +46,6 @@ RR -> MX, SU;
 Git -> MW;
 RG -> MX;
 p5 -> CE [dir=both];
+WE -> MFP;
+p5 -> RG;
 }
