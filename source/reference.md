@@ -12,6 +12,13 @@
 - Derek Robinson, "Variables", in Matthew Fuller, ed., *Software Studies*, Cambridge, Mass.: MIT Press, 2008.
 - Femke Snelting, [Modifying the Universal](https://www.youtube.com/watch?v=ZP2bQ_4Q7DY), MedeaTV, 2016 [Video, 1 hr 15 mins].
 
+## Chapter 3 - Infinite Loops
+
+- Wilfried Hou Je Bek, "Loop", *Software Studies* (Fuller, Matthew, ed.), MIT Press, 2008.
+- Robinson, Derek. "Function", *Software Studies* (Fuller, Matthew, ed.), MIT Press, 2008.
+- Farman, Jason. "[Fidget Spinners](https://reallifemag.com/fidget-spinners/#!)", *Real Life*, 2017.
+- Wolfgang Ernst, “‘... Else Loop Forever’. The Untimeliness of Media” (2009). Available at [https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf](https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf).
+
 ## Chapter 4 - Data Capture
 
 - Shoshana Zuboff, *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power.* First edition. New York: PublicAffairs, 2019.
@@ -23,6 +30,17 @@
 - Daniel Shiffman, (2017) 8. HTML / CSS/DOM - p5.js Tutorial [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX [Accessed 09 Sep. 2019].
 - Tiziana Terranova, "Red Stack Attack! Algorithms, Capital and the Automation of the Common", *EuroNomade*, 2014. Available at http://www.euronomade.info/?p=2268
 
+## Chapter 5 - Auto Generator
+
+- Langton, Chris G. (1986). "[Studying artificial life with cellular automata](https://deepblue.lib.umich.edu/bitstream/2027.42/26022/1/0000093.pdf)". Physica D: Nonlinear Phenomena. 22 (1–3): 120–149.
+- [The Game of Life (1970)](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) by John Horton Conway
+- [The Recode Project](http://recodeproject.com/) and [Memory Slam](http://nickm.com/memslam/) by Nick Montfort
+- Galanter, Philip. "[Generative Art Theory](http://cmuems.com/2016/60212/resources/galanter_generative.pdf)". *A Companion to Digital Art*. Eds. Christiane P, 2016.
+- [How to Draw with Code by Casey Reas](https://www.youtube.com/watch?v=_8DMEHxOLQE)
+- [p5.js Coding Challenge #14: Fractal Trees - Recursive by Daniel Shiffman](https://www.youtube.com/watch?v=0jjeOYMjmDU)
+- [p5.js Coding Challenge #76: Recursion by Daniel Shiffman](https://www.youtube.com/watch?v=jPsZwrV9ld0)
+- [noise() vs random() - Perlin Noise and p5.js Tutorial by Daniel Shiffman](https://www.youtube.com/watch?v=YcdldZ1E9gU)
+
 ## Chapter 6 - Object Abstraction
 
 - Lee, Roger Y. *Software Engineering: A Hands-On Approach*. Springer, 2013. 17-24, 35-37 (ch. 2 Object-Oriented concepts)
@@ -30,6 +48,15 @@
 - Black, Andrew P. [Object-oriented Programming: some history, and challenges for the next fifty years](https://arxiv.org/abs/1303.0427). 2013.
 - Dahl OJ, "[The Birth of Object Orientation: the Simula Languages](https://link.springer.com/chapter/10.1007/978-3-540-39993-3_3)", in Owe O., Krogdahl S., Lyche T, eds. * Object-Orientation to Formal Methods* Lecture Notes in Computer Science, vol 2635. (Berlin, Heidelberg: Springer, 2004.
 - [16.17 Inheritance in JavaScript - Topics of JavaScript/ES6 by Daniel Shiffman](https://www.youtube.com/watch?v=MfxBfRD0FVU&feature=youtu.be&fbclid=IwAR14JwOuRnCXYUIKV7DxML3ORwPIttOPPKhqTCKehbq4EcxbtdZDXJDr4b0)
+
+## Chapter 7 - Vocable Code
+
+- Parrish, Allison. (2018) Text and Type. [online] Available at: https://creative-coding.decontextualize.com/text-and-type/ [Accessed 13 Mar. 2019].  
+- Plant, Sadie. (1998) Zeros + Ones: Digital Women and the New Technoculture. London: Forth Estate.
+- Queneau, Ramond, et al. Six Selections by the Oulipo. The New Media Reader. Eds. Noah W-F and Nick M. The MIT Press, 2003. 147-189.
+- Raley, Rita. [Interferences: [Net.Writing] and the Practice of Codework](http://electronicbookreview.com/essay/interferences-net-writing-and-the-practice-of-codework/). electronic book review, 2002.
+- Rhee, Margaret. “[Reflecting on Robots, Love, and Poetry](https://dl.acm.org/doi/pdf/10.1145/3155126?download=true).” XRDS: Crossroads 24, no. 2 (December 2017): 44–46.
+- Shiffman, Daniel. (2017) 10.1: Introduction to Data and APIs in Javascript. [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r [Accessed 13 Mar. 2019].  
 
 ## Chapter 9 - Algorithmic Procedures
 

@@ -4,7 +4,7 @@ page_order: 3
 ## 3. Infinite Loops
 ![flowchart](ch3_0.svg)
 
-### 3.1 setup()
+## setup()
 
 ![Ouroboros](ch3_0.png)
 
@@ -22,10 +22,10 @@ The idea of a loop in contemporary programming is highly influenced by these ear
 
 The example we use centrally in this chapter is the graphical spinning wheel icon of a preloader or so-called 'throbber'[^throbber] that indicates when a computer program is performing an action such as downloading content or performing intensive calculations. We find this to be an evocative symbol as it illuminates the discrepancy between what we seems to know and what we don't know behind this icon with hidden human-machine labour processes and the complexity of multiple temporalities that are running during any given computational operation.[^screensaver] It is also a good visual icon that is running repeatedly in a loop for us to contemplate how perceptible streams and computational logics are entangled, and that changes the way how we experience the now via digital medium.[^soon] As we are moving away from static objects to moving pieces, we use this animated throbber to guide the programming tasks in thinking about transformation (such as rotation and translation) but also because it acts as a suitable cultural object for us to think through the idea of loops and the related temporal elements and syntax more conceptually.
 
-#### 3.1.1 start()
+### start()
 We usually encounter the ubiquitous spinning icon during the loading and streaming of data content. It shows that a certain operation is in progress, but what exactly is happening and how long this will take is not at all clear. There is no indication of progress or status — as with a progress bar for instance. We see the icon spinning but it explains little about the background activities or timespan. By learning to program a throbber — and in turn *Asterisk Painting* by John P. Bell that creates a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started — the idea is to gain insight into the way programming employs transformational movement and loop structures, and at the same time better understand some of the temporal operations of computational processes.  
 
-### 3.2 Decode
+### Decode
 In this chapter we move from programming static objects such as shapes to a mixture of both static and moving objects. If we assume the shape to be a circle we join it up here, and spin it, as if it were eating its own tail.
 
 ![2.3](ch3_2.png)
@@ -60,7 +60,7 @@ Can you describe the different elements and imagine how they operate computation
     - What do you know about this icon?
     - What can't you see?
 
-#### 3.2.1 Source Code
+## Source Code
 
 ```javascript
 //ch3_1
@@ -99,7 +99,7 @@ function windowResized() {
 }
 ```
 
-### 3.3 Function
+### Function
 
 A function of code in p5.js starts with the syntax `function() {}`, containing "a self-contained section of code"[^Robinson] to peform a certain task. For the most basic built-in functions in p5.js are `setup()` and `draw()`, specifying the contained code in relation to a particular purpose as setting up the environment for running the program, as well as doing things over time. Other built-in functions such as `windowResized()` in the provided sample code serves the purpose of re-adjusting the canvas size if there is any event of window resizing. The canvas size is not set in a fixed dimension but it is subjected to the window that you have adjusted as illustrated in the code, which has been also discussed in the previous chapter: `createCanvas(windowWidth, windowHeight);`. The function of `winowResized()` suggests that an event listener implements at the code level to not only run once, but *constantly*, listening to events of window resizing specifically and similar to other listening events such as `mouseIsPressed()` that has been introduced in the last chapter. This function of `windowResized()` is considered as asynchronous, which means some other events occur concurrently with the main program flow such as drawing shapes in this case.
 
@@ -122,11 +122,11 @@ function sum(a, b, c) { //passing values 4 as a, 3 as b, 2 as c to the function 
 
 <div class="exercise" markdown="true">
 
-#### 3.3.1 Exercise in class
+### Exercise in class
 You can also try to type/copy the above code in your own sketch and it will return the number "9" as the output because this is the result of the sum of the values 4, 3 and 2. The arguments a, b and c are parameter variables. The function "sum" can be reused if you pass other values as for instance another line of code `let y = sum(5,6,7);` and the return value of y would be 18. You can try to come up with your new functions and arguments.
 </div>
 
-### 3.4 Transform
+### Transform
 In general, the transform-related functions apply a 2D or 3D transformation to an element or object. For the provided sample code, there are two specific transformational functions have been used to move the canvas and created an illusion of objects transformation. (This is important to know the transformation is done at the level of canvas background but not at the individual shape/object).
 
 ![3.3](ch3_3.png)
@@ -168,7 +168,7 @@ The last four lines describe the drawing of the static four yellow lines. Logica
 
 <div class="exercise" markdown="true">
 
-### 3.5 Exercises in class
+### Exercises in class
 1. Change the parameters and values, as well as the position/sequence of the sample code to understand the functions and syntaxes like the variable `num`, the transformational functions like `translate()` and `rotate()`, as well as holding and restoring current style and transformations like `push()` and `pop()`.
 
 2. We have explained how to use `rotate()` to displace the ellipse in different angles, but how about the fading in and out of each ellipse in the sketch? (Hints: Since this is repeatedly faded in and out, the `background()` syntax under the function `draw()` as the key element to produce such effects.)
@@ -178,7 +178,7 @@ The last four lines describe the drawing of the static four yellow lines. Logica
     - Instead of having `drawElements()`, you might have something like `drawThrobber()` and `drawLines()`?
 </div>
 
-### 3.6 Asterisk Painting
+## Asterisk Painting
 
 The following section will move from repetition and regularity to repetition and difference. Artist and software developer John P. Bell has made an artwork called *Asterisk Painting*,[^Bell] containing a number of throbber-like spinning patterns, but each throbber (or what he calls asterisk) is spinning differently, with variations of color and texture. Many syntaxes that Bell has used are related to time and temporality, for example the setting up of a timer, the calculation of current milliseconds, the speed of rotation, the waiting time for starting a new cycle, and so on. Even for the visual outcome, what constitutes an asterisk is not a geometric shape, but a series of numbers which refer to the milliseconds counter that lines up as a straight line.
 
@@ -188,7 +188,7 @@ The following section will move from repetition and regularity to repetition and
 According to Bell,
 >  “Asterisk Painting is programmed to create a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started. If left to run by itself it will do so; however, when started on a system with other threads running in the background delays external to my artwork may make the asterisks look more like spots and the painting may resemble the work of certain other overly-litigious artists.”
 
-### 3.7 Source code
+### Source code
 The original piece was written in Processing and has been modified and ported to p5.js. It is a much more complex program from the first one but we still want to include this as an addition to this chapter, and be able to see the potential to further develop a looping sketch and reflect deeper on the notion of infinite loops.
 
 ```javascript
@@ -264,7 +264,7 @@ function draw(){
 }
 ```
 
-### 3.8 Exercise in class
+### Exercise in class
 
 - Run the *Asterisk Painting* [here](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch3_InfiniteLoops/index.html)
 - Read the source code above.
@@ -280,7 +280,7 @@ function draw(){
         - What are the new syntax and functions that you did not know? (check them out in the p5.js reference)
     - *Mapping:* Map the elements from the speculation to the source code level
 
-### 3.9 Arrays
+### Arrays
 
 To be able to fully understand the source code, you only need a few more fundamental concepts of programming. The first one is *Array*, which is commonly understood as a list of data and is related to previous concepts such as variable and data types. If we need to work with a chunk of data, such as a collection of words, you can use arrays instead of making a number of separate variables. For example:
 
@@ -326,7 +326,7 @@ Other methods for adding or removing an array index might be useful to know:
 - `array.push(value)`:[^push] To add a value to the end of the array. Example: `xPos.push(6)` - this will extend the index to xPos[5] = 6.
 - `array.splice()`:[^spliace] This is to remove a range of an array index, or remove the existing index and replace with new indexes with other values.
 
-### 3.10 Conditional statements
+### Conditional statements
 As we have already discussed conditional statements in the previous chapter, it may be easier to follow the code of *Asterisk Painting* (especially line 61). It follows the conditional logic (if-then) built into the program in order to know when to move from one asterisk to the other.
 
 ```javascript
@@ -338,7 +338,7 @@ if(sentences >= maxSentences){  //if the existing sentence count reaches the max
 
 The value of the variable `maxSentences` is 77 (refer to line 22 from the source code), therefore each asterisk contains 77 sentences (which is in the form of a line that contains numbers). The other variable `sentences` counts for each line and the program will check if the current `sentences` has reached its maximum scope. **If** the asterisk reaches 77 sentences **then** it will move to the next one and the `sentences` counter will be reset to 0 (line 82) and count again. The logic repeats and loops again within the `draw()` function.
 
-### 3.11 Loops
+### Loops
 The core concept of a loop is that you can execute a block of code many times. For example, if you have to draw 100 lines that are placed vertically one after the other, you can of course write 100 lines of code using the syntax: `line()`. A *for-loop* provides an efficient way to draw the line 100 times by setting up a conditional structure, counting the number of lines that have been drawn and counting the maximum lines. Similarly in this sketch, there are something needed to be repeatedly run but there is an end, such as calculating the center point in the exact x and y coordinates for each asterisk which are based on the width and height of the canvas. By knowing the number of columns and rows on a canvas, then we will Know the values of the center point for drawing each asterisk.
 
 To structure a for-loop, you need to ask yourself:
@@ -399,7 +399,7 @@ function setup() {
 
 In this sample code, the key is the local variable `i` (which is used to set the starting count of the lines: `let i = 0;`, as well as setting the condition of how many lines should be drawn: `i < 20` and to do the actual counting of lines for each iteration: `i++`) and the global variable `y` is to determine the y position of each line and make sure it will increment 20 pixels for each iteration: `y+=20`. This is how we can use a for-loop to draw multiple lines.
 
-#### 3.11.1 While Loop
+#### While Loop
 While loop is another type of loop for executing iterations. The statement is executed until the condition is true, it will stop as soon as it is false.
 
 For example, `while(millis() < wait){}` in line 76 of the work *Asterisk Painting* tells the computer to do nothing if the value of `millis()`[^milis] is less than the value of the `wait` variable. `millis()` is a time-related sytax to return the number of milliseconds since starting the program and it is similar to `frameCount()` but just return the timein the form of milliseconds other than the actual frame count. Once the condition is false (i.e `millis()` is no longer less than `wait`), the loop will be ended and the program can proceed to the next line. This example is located towards the end of the program when all the asterisks are drawn but need to wait for a certain time to reset(clear) the canvas and restart drawing again. Therefore, this while-loop serves the purpose of a pause sign, freezing the program from running because there is literally nothing between the opening and closing brackets.  
@@ -418,7 +418,7 @@ Making reference to Martin Heidegger’s ‘being-in-time’,[^Heidegger] and th
 
 <div class="exercise" markdown="true">
 
-## Mini_Exercise[3]: Designing a throbber
+## MiniX[3]: Designing a throbber
 **Objective:**
 
 - To reflect upon temporality in digital culture with the throbber icon.
@@ -446,18 +446,11 @@ Check out other works that refer to the throbber and how other people contextual
 </div>
 
 
-## 3.12 Required reading
+## Required reading
 
 - Shiffman, Daniel. Courses 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2, *Code! Programming with p5.js* on [YouTube](https://www.youtube.com/watch?v=1Osb_iGDdjk), 2018 [Accessed 9 Sep. 2019]. (practical usage on conditional statements, loops, functions and arrays)
 - Winnie Soon. “Throbber: Executing Micro-temporal Streams.” Computational Culture 7 (21st October 2019). http://computationalculture.net/throbber-executing-micro-temporal-streams/.
 - Close reading on the artwork *Asterisk Painting* by John P. Bell, ported to p5.js, and modified, by Winnie Soon. https://editor.p5js.org/siusoon/sketches/YAk1ZCieC
-
-## 3.13 Further reading
-
-- Wilfried Hou Je Bek, "Loop", *Software Studies* (Fuller, Matthew, ed.), MIT Press, 2008.
-- Robinson, Derek. "Function", *Software Studies* (Fuller, Matthew, ed.), MIT Press, 2008.
-- Farman, Jason. "[Fidget Spinners](https://reallifemag.com/fidget-spinners/#!)", *Real Life*, 2017.
-- Wolfgang Ernst, “‘... Else Loop Forever’. The Untimeliness of Media” (2009). Available at [https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf](https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf).
 
 ## Notes:
 [^Hofstadter]: Further examples of paradox, recursion and strange loops can be found in Douglas R. Hofstadter's' *Gödel, Escher, Bach: An Eternal Golden Braid* (New York: Basic Books, 1999).
