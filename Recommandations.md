@@ -28,13 +28,13 @@ Some inspirations:
 - adjust flowcharts, more on arrows and relations
 
 ## Issues (by Geoff)
-- copyedit text for flow and accessibility of language
-- adjust references
+- copyedit text for flow and accessibility of language. Sternberg style guide?
+- adjust references. Sternberg style guide?
 - decide on US or UK spelling? make consistent throughout
 - add further reading and/or bibliography, ideally both
-- indexing? (ask osp)
+- indexing? (ask OSP for automated version + code)
 - peer review
-- Check oout
+- Check out
     - setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/5-AutoGenerator - DONE
     - except setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/8-Que(e)ryData
-    - Exercise in class - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/9-AlgorithmicProcedures (new emoji example :D)
+    - Exercise in class - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/9-AlgorithmicProcedures DONE
