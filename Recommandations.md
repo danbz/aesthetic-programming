@@ -37,5 +37,5 @@ x - getting started -> add web IDE for gitlab + remove short cuts as each OS is 
 - peer review
 - Check out
     - setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/5-AutoGenerator - DONE
-    - except setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/8-Que(e)ryData
+    - except setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/8-Que(e)ryData - NOT sure what I am looking at, but all the same added Big Dick Data reference.
     - Exercise in class - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/9-AlgorithmicProcedures DONE
