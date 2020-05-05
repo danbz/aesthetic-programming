@@ -22,14 +22,16 @@ Notes [label="Notes"]
 
 //rank
 {rank = same; RR, ST}
-{rank = same; LA, EiC}
+//{rank = same; LA, EiC}
 {rank = same; RLA, SC}
-{rank = same; MX, LA}
-{rank = same; MW, Notes}
+{rank = same; MX, EiC}
+{rank = same; MW, LA}
+
 
 //graph
 GS -> SU -> ST -> EiC;
 EiC-> LA[minlen=2];
+LA -> SU [dir=both];
 GS -> MX;
 GS -> RR[dir=both];
 SU -> MW [dir=both];

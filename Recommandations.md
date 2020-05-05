@@ -17,6 +17,8 @@ Some inspirations:
 - need to think about how to present the duplicate code (markdown)
 - need to think about how to present the executed / source code (markdown/interface - web+print)
 - book cover - script to generate? (or using Langton's ant one)
+
+**Questions**
 - include students' work?
 - how about list of artworks/projects and list of figures?
 
