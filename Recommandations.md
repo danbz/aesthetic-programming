@@ -35,6 +35,6 @@ Some inspirations:
 - indexing? (ask osp)
 - peer review
 - Check oout
-    - setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/5-AutoGenerator
+    - setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/5-AutoGenerator - DONE
     - except setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/8-Que(e)ryData
     - Exercise in class - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/9-AlgorithmicProcedures (new emoji example :D)
