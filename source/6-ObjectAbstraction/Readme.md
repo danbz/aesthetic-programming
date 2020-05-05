@@ -473,7 +473,7 @@ To explain with some more Marxism, if we begin with the idea that there is a rea
 
 If we apply this to a computational object and its abstraction (its properties and behaviour), it only makes sense in terms of its wider relations and recognition of its conditions of operation (program, labour of the programmer, operating system, etc), and only then if there is a point to expose these conditions such that they can be improved, not least with better abstractions. Computational objects allow for a different perspective on lived conditions in this way and how we perceive the world. The worldviews on offer are often quite unethical, and we only need to think of game-worlds to see poor examples of racial and gendered abstraction. Therein lies the motivation for this chapter, to make better object abstractions and ones with a clear sense of purpose.
 
-## Mini_Exercise[6]: Games with objects
+## MiniX[6]: Games with objects
 
 **Objective:**
 - To implement a class-based object oriented sketch via abstracting and designing objects' properties and behaviors.
