@@ -117,7 +117,7 @@ Although referring to the practice of drawing rather than programming, we might 
 
 We might follow this line of discussion in relation to the predictive practices of machine learning more specifically, and it is important to note that Adrian Mackenzie too, in his *Machine Learners: Archaeology of a Data Practice*, uses diagrams as an experiment in critical thinking to address the operations of machine learning. We are suggesting something similar with flowcharts as an experiemnet in critical thinking but one that is productive of thinking with the act of programming. Mackenzie explains that when it comes to machine learning, “coding changes from what we might call symbolic logical diagrams to statistical algorithmic diagrams.”[^ML1] He is relying on (and directly quoting) Deleuze’s suggestion that diagrams act "as a display of the relation between forces that constitute power [and moreover,] the diagram or abstract machine is the map of relations between forces, a map of destiny, or intensity."[^ML2] We will continue to work with this topic in the next chapter but for now we might further stress that analysing algorithms or source code for that matter is not particularly revealing in itself, unless the wider assemblage of relations are exposed.
 
-## Mini_Exercise[9]: Flowcharts
+## MiniX[9]: Flowcharts
 
 **Objective:**
 
