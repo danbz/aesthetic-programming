@@ -21,15 +21,24 @@ RR [label="Required reading"]
 Notes [label="Notes"]
 
 //rank
-{rank = same; SU, ST}
-{rank = same; MW, EiC}
+{rank = same; RR, ST}
+{rank = same; LA, EiC}
+{rank = same; RLA, SC}
+{rank = same; MX, LA}
+{rank = same; MW, Notes}
 
 //graph
-GS -> SU -> ST -> EiC -> LA;
-GS -> RR, MX;
+GS -> SU -> ST -> EiC;
+EiC-> LA[minlen=2];
+GS -> MX;
+GS -> RR[dir=both];
+SU -> MW [dir=both];
+SC -> RLA [dir=none];
 RR -> MX, SU;
 LA -> SC, RLA -> EiC2;
 SC -> AL;
 ST -> MW -> Notes;
 MW -> MX;
+LA -> MW;
+
 }

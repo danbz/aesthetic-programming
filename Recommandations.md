@@ -18,13 +18,14 @@ Some inspirations:
 - need to think about how to present the executed / source code (markdown/interface - web+print)
 - book cover - script to generate? (or using Langton's ant one)
 - include students' work?
+- how about list of artworks/projects and list of figures?
 
 **Outstanding from me:**
 - Revisit Aesterik Painting ch. 3
-- Revisit ch.9 -> add the intext ref + the emoji EiC + new for loop structure
-- getting started -> add web IDE for gitlab + remove short cuts as each OS is slightly different
+x - Revisit ch.9 -> add the intext ref + the emoji EiC + new for loop structure
+x - getting started -> add web IDE for gitlab + remove short cuts as each OS is slightly different
 - update ML - TM image -> screenshot
-- update the auto chapter generator both models + screenshots when we have a more finalized text
+- ML chapter: update the auto chapter generator both models + screenshots when we have a more finalized text
 - adjust flowcharts, more on arrows and relations
 
 ## Issues (by Geoff)
