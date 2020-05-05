@@ -22,15 +22,24 @@ Notes [label="Notes"]
 
 //rank
 {rank = same; SU, ST}
-{rank = same; MX, SC}
+{rank = same; DE, TX}
+{rank = same; MW, DE}
+{rank = same; RR, SC}
 
 //graph
 GS -> SU -> ST -> DE;
-GS -> RR, MX;
+GS -> MX;
+GS -> RR[dir=both, minlen=2];
+SU -> MW [dir=both];
 RR -> MX, SU;
-ST -> TX -> TP;
-ST -> CO, JS;
-TX, TP, CO, JS -> SC -> EiC
-ST -> MW -> Notes;
-MW -> MX;
+DE -> TX -> TP;
+TX, TP -> SC[dir=both];
+SC -> EiC;
+SC -> CO, JS[dir=both];
+ST -> MW [dir=both];
+JS -> MX;
+MW -> MX, Notes;
+DE -> SC[dir=none];
+CO -> MW[dir=both];
+ST -> EiC;
 }
