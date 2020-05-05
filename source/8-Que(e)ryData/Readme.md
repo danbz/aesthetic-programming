@@ -349,7 +349,7 @@ When working with data there is a danger of simply perpetuating 'norms' through 
 
 To que(e)ry data in this way throws into further question how data is collected, stored, analyzed, recommended, ranked, selected and curated in order to understand the broader social and political implications, not least how categorizations such as gender are normalized. To query the power structures of materials with a feminist standpoint is to understand "the mechanisms that shape reality"[^feminist] and how they might be recoded.
 
-## Mini_Exercise[8]: Working with APIs in a group
+## MiniX[8]: Working with APIs (in a group)
 
 **Objectives:**
 - To design and implement a program that utilizes web API(s).
@@ -388,13 +388,6 @@ This is a relatively complex exercise that requires you to:
 - Daniel Shiffman, "Working with data, The Coding Train", available at https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r (watch 10.4-10.10).
 - David Gauthier, Audrey Samson, Eric Snodgrass, Winnie Soon & Magda Tyżlik-Carver, "Executing," in *Uncertain Archives*, eds. Nanna Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio and Kristin Veel, MIT Press, 2020.
 - Eric Snodgrass & Winnie Soon. "[API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange](https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721)." *First Monday* [Online], 24.2 (2019): n. pag. Web. 13 Jan. 2020.
-
-
-## Further reading:
-- Kirschenbaum, Matthew G. Mechanisms: New Media and the Forensic Imagination, MIT Press, 2007, 25-71.
-Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City APIs as Elements of Infrastructures.](https://journals.sagepub.com/doi/full/10.1177/2053951719827619)” Big Data & Society, Jan. 2019, doi:10.1177/2053951719827619.
-- Albright, Jonathan. "[The Graph API: Key Points in the Facebook and Cambridge Analytica Debacle](https://medium.com/tow-center/the-graph-api-key-points-in-the-facebook-and-cambridge-analytica-debacle-b69fe692d747)". Medium, 2018. (check out the recent hot topic around Cambridge Analytica online)
-- Bucher, Taina, “Objects of intense feeling: The case of the Twitter API”, in Computational Culture: a journal of software studies. 2013. Web. 27 Nov. 2013. http://computationalculture.net/article/objects-of-intense-feeling-the-case-of-the-twitter-api
 
 ## Notes
 
