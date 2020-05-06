@@ -134,7 +134,7 @@ In the sample code above, you can see that line 4 prints 'hello world'. But to s
 ![](ch1_8.png) <br>
 *Figure 1.8: The console area*
 
-At the bottom of figure 1.8, the web console area shows 'hello world'. What you know from this is that the sketch is running properly and it is able to read the print's function line. As you progress through this book, you will find that the web console area is very important, because you can also see error messages when, for example, the syntax is wrong. In such cases the browser will give you some good hints to bug fix your own code. Figure 1.9 shows that the web console area is able to specify which file (sketch.js) and which line of code (line 8) has a problem (the syntax background was spelled wrong intentionally).
+At the bottom of figure 1.8, the web console area shows 'hello world'. What you know from this is that the sketch is running properly and it is able to read the print's function line. As you progress through this book, you will find that the web console area is very important, because you can also see error messages when, for example, the syntax is wrong (we will have more discussion about errors in Chapter 8, "Que(e)ry data") In such cases the browser will give you some good hints to bug fix your own code. Figure 1.9 shows that the web console area is able to specify which file (sketch.js) and which line of code (line 8) has a problem (the syntax background was spelled wrong intentionally).
 
 <br><!-- <img src="ch1_9.png" width="500"> -->
 ![](ch1_9.png) <br>
