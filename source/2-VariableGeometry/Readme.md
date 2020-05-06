@@ -19,8 +19,9 @@ Much like the utopian project of developing a universal language to be spoken an
 Our point is that using emojis may be fun and expressive but they also tend to oversimplify and universalise differences, and thereby perpetuate normative ideologies within already "violent power structures",[^ideology] such that only selected people, those with specific skin tones for instance, are represented while others are not. There is a distinct inequality as to how people are represented, and who sets the standards for these representations? That these operations can be characterised as fun is part of the problem and masks other processes that monitor our emotional states not least in the workplace (we will return to this issue in Chapter 4 - DataCapture). These are some of the issues we want to explore in this chapter by introducing variable geometry and learning to be able to produce alternatives, more politically-correct ones perhaps. We start with the work *Multi* by David Reinfurt which will be used to demonstrate the basis of geometry and the variations of facial expression and composition that can be generated from simple typographic elements.
 
 ### start()
-<img src="http://o-r-g.com/media/00004.gif" height="400"><br>
-*Figure 2.1: Multi by David Reinfurt*
+![multi](ch2_1.gif)
+
+*Figure 2.1: Multi by David Reinfurt. Image Courtesy of the artist.* [need to adjust image size]
 
 *[Multi](http://www.o-r-g.com/apps/multi)*,[^Multi] is inspired by another designer Enzo Mari who spent a whole year in 1957 exploring the essential form of an object (an apple, the universal apple we might add). Reinfurt explains that "He was not looking to draw AN apple, but rather THE apple — a perfect symbol designed for the serial logic of industrial reproduction." *Multi* develops a variation of this idea for informational reproduction in the form of a mobile app with 1,728 possible arrangements, or facial compositions, built from minimal punctuation glyphs. But instead of using preset typographic characters, which admittedly is the conceptual charm of *Multi*, for our purpose we will draw these from scratch with foundational elements of geometry.
 
