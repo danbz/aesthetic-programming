@@ -25,11 +25,11 @@ Some inspirations:
 
 **Outstanding from me:**
 - Revisit Aesterik Painting ch. 3
-x - Revisit ch.9 -> add the intext ref + the emoji EiC + new for loop structure
-x - getting started -> add web IDE for gitlab + remove short cuts as each OS is slightly different
-x - update ML - TM image -> screenshot
-x - adjust flowcharts, more on arrows and relations
-X - add reference + bibliography + projects.md
+- [x] Revisit ch.9 -> add the intext ref + the emoji EiC + new for loop structure
+- [x] getting started -> add web IDE for gitlab + remove short cuts as each OS is slightly different
+- [x] update ML - TM image -> screenshot
+- [x] adjust flowcharts, more on arrows and relations
+- [x] add reference + bibliography + projects.md
 - ML chapter: update the auto chapter generator both models + screenshots when we have a finalized text
 
 ## Issues (by Geoff)
