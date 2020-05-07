@@ -40,9 +40,8 @@ Some inspirations:
 - indexing? (ask OSP for automated version + code)
 - peer review
 - Check out
-    - setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/5-AutoGenerator - DONE
+    - Add notes on care and data cleaning to chapters of AP book.
     - except setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/8-Que(e)ryData - NOT sure what I am looking at, but all the same added Big Dick Data reference. -> everything la..as i have changed quite a lot..i guess is whether it can be understand the process from an ordinary person
-    - Exercise in class - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/9-AlgorithmicProcedures DONE
     - there is a line on adding literate programming in ch.7: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/7-VocableCode
     - infinite loops > check references and add additional ^Bergson: ADD EXAMPLE. and ^End: ADD NOTE ^Heidegger: ADD NOTE.
     - infinite loops > check while() -> add linkage to throbber and example in the chapter
