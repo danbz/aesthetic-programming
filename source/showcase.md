@@ -29,6 +29,7 @@ The list will continuously update in the online version.
 #### MiniX[6]: Games with objects
 
 - [Work](https://gitlab.com/Adeve_/ap2020/-/tree/master/public/MiniEx_6) by Andreas Frederiksen, 2020
+- [Work](https://gitlab.com/M.Marschall/ap2020/-/tree/master/public/AllMiniEx/MiniEX6) by Mads Marschall, 2020
 
 #### MiniX[7]: E-lit
 
