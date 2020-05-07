@@ -304,7 +304,7 @@ Make a RUNME and a README.
 
 [^GNUGPL]: See https://www.gnu.org/licenses/lgpl-3.0.txt.
 
-[^Spender] Foundational reading in this direction would be Dale Spender, *Man-Made Language* (add ref).
+[^Spender]: Foundational reading in this direction would be Dale Spender's' *Man-Made Language* (1980), https://www.marxists.org/reference/subject/philosophy/works/ot/spender.htm.
 
 [^Butler]: Judith Butler, *Excitable Speech: A Politics of the Performative* (London: Routledge, 1997).
 
