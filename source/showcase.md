@@ -4,7 +4,7 @@ The list will continuously update in the online version.
 
 ### MiniX[1]: RUNME and README
 
-[Work](https://gitlab.com/JaneCl/ap-2020/-/blob/master/public/MiniEx1/READMEMiniX1.md) by Jane Clausen, 2020
+- [Work](https://gitlab.com/JaneCl/ap-2020/-/blob/master/public/MiniEx1/READMEMiniX1.md) by Jane Clausen, 2020
 
 ### MiniX[2]:Geometric emoji
 
