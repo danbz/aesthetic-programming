@@ -34,7 +34,6 @@ The list will continuously update in the online version.
 #### MiniX[7]: E-lit
 
 - [Recipe](https://gitlab.com/OliviaSP/ap2020/-/blob/master/public/MiniEx8/README_MiniEx8.md) by Olivia Smedegaard Peray and Stine Mygind, 2020
-
 - [Words_](https://gitlab.com/SimonVanNguyen/aestetic-programming-2020/-/tree/master/public/miniEx8) by Simon Van Nguyen and Torvald Pockel, 2020
 
 #### MiniX[8]: Working with APIs

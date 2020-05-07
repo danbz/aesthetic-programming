@@ -27,7 +27,7 @@ Some inspirations:
 - - Revisit Aesterik Painting ch. 3
 - ML chapter: update the auto chapter generator both models + screenshots when we have a finalized text
 - include students' work? (put it up online only)
-- TOC - flowchart 
+- TOC - flowchart
 
 ## Issues (by Geoff)
 - [x] copyedit text for flow and accessibility of language. Sternberg style guide?
@@ -36,9 +36,9 @@ Some inspirations:
 - [x] add further reading and/or bibliography, ideally both
 - OSP: indexing? (ask OSP for automated version + code)
 - peer review (lauren+matthew)
-- Check out 
+- Check out
     - Add notes on care and data cleaning to chapters of AP book.
     - except setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/8-Que(e)ryData - NOT sure what I am looking at, but all the same added Big Dick Data reference. -> everything la..as i have changed quite a lot..i guess is whether it can be understand the process from an ordinary person
     - there is a line on adding literate programming in ch.7: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/7-VocableCode
     - infinite loops > check references and add additional ^Bergson: ADD EXAMPLE. and ^End: ADD NOTE ^Heidegger: ADD NOTE.
-    - infinite loops > check while() -> add linkage to throbber and example in the chapter
+    - infinite loops > check while() 
