@@ -18,28 +18,25 @@ Some inspirations:
 - OSP: need to think about how to present the executed / source code (markdown/interface - web+print)
 - OSP: book cover - script to generate? (or using Langton's ant one)
 
-**Questions**
-- include students' work?
-- how about list of artworks/projects and list of figures?
-- TOC
-
 **Outstanding from me:**
-- Revisit Aesterik Painting ch. 3
 - [x] Revisit ch.9 -> add the intext ref + the emoji EiC + new for loop structure
 - [x] getting started -> add web IDE for gitlab + remove short cuts as each OS is slightly different
 - [x] update ML - TM image -> screenshot
 - [x] adjust flowcharts, more on arrows and relations
-- [x] add reference + bibliography + projects.md
+- [x] add ch reference + bibliography/projects.md
+- - Revisit Aesterik Painting ch. 3
 - ML chapter: update the auto chapter generator both models + screenshots when we have a finalized text
+- include students' work? (put it up online only)
+- TOC - flowchart 
 
 ## Issues (by Geoff)
-- copyedit text for flow and accessibility of language. Sternberg style guide?
-- adjust references. Sternberg style guide?
-- decide on US or UK spelling? make consistent throughout
-- add further reading and/or bibliography, ideally both
-- indexing? (ask OSP for automated version + code)
-- peer review
-- Check out
+- [x] copyedit text for flow and accessibility of language. Sternberg style guide?
+- [x] adjust references. Sternberg style guide?
+- [x] decide on US or UK spelling? make consistent throughout -> US
+- [x] add further reading and/or bibliography, ideally both
+- OSP: indexing? (ask OSP for automated version + code)
+- peer review (lauren+matthew)
+- Check out 
     - Add notes on care and data cleaning to chapters of AP book.
     - except setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/8-Que(e)ryData - NOT sure what I am looking at, but all the same added Big Dick Data reference. -> everything la..as i have changed quite a lot..i guess is whether it can be understand the process from an ordinary person
     - there is a line on adding literate programming in ch.7: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/7-VocableCode
