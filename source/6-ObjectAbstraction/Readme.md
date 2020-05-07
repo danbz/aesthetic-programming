@@ -481,9 +481,10 @@ If we apply this to a computational object and its abstraction (its properties a
 
 **Get some additional inspiration here:**
 - [p5.js - Array Objects](https://p5js.org/examples/arrays-array-objects.html)
+- [daily coding ](https://twitter.com/nagayama/status/1246086230497845250?s=19) by Nagayama, with source code: https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html
+- [Eat Food Not Bombs by Ben Grosser](https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI)
 - [p5.js coding challenge #31: Flappy Bird by Daniel Shiffman](https://www.youtube.com/watch?v=cXgA1d_E-jY)
 - [p5.js coding challenge #3: The Snake Game by Daniel Shiffman](https://www.youtube.com/watch?v=AaGK-fj-BAM)
-- [Eat Food Not Bombs by Ben Grosser](https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI)
 
 **Tasks (RUNME)**
 Think of a simple game that you want to design and implement, what are the objects required? What are their properties and behaviors? At the most basic level, you need to **use class-based object oriented approach** to design your game components that can exhibit certain behaviors (that means you need to at least have a class, a constructor and a method).
