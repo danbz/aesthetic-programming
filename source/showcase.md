@@ -6,7 +6,7 @@ The list will continuously update in the online version.
 
 - [Work](https://gitlab.com/JaneCl/ap-2020/-/blob/master/public/MiniEx1/READMEMiniX1.md) by Jane Clausen, 2020
 
-### MiniX[2]:Geometric emoji
+### MiniX[2]: Geometric emoji
 
 - [Work](https://gitlab.com/Adeve_/ap2020/-/tree/master/public/MiniEx_2) by Andreas Frederiksen, 2020
 - [Work](https://gitlab.com/clara.j.lassen/ap-2020/-/blob/master/public/Mini%20Exercises/miniEx2/Readme%20miniEx2.md) by Clara Josefine Jassan Lassen, 2020
@@ -35,7 +35,7 @@ The list will continuously update in the online version.
 
 - [Recipe](https://gitlab.com/OliviaSP/ap2020/-/blob/master/public/MiniEx8/README_MiniEx8.md) by Olivia Smedegaard Peray and Stine Mygind, 2020
 
-- [Work](https://gitlab.com/SimonVanNguyen/aestetic-programming-2020/-/tree/master/public/miniEx8) by Simon Van Nguyen and Torvald Pockel, 2020
+- [Words_](https://gitlab.com/SimonVanNguyen/aestetic-programming-2020/-/tree/master/public/miniEx8) by Simon Van Nguyen and Torvald Pockel, 2020
 
 #### MiniX[8]: Working with APIs
 
