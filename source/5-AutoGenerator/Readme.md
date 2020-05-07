@@ -329,12 +329,11 @@ Artist David Link reconstructed a functional replica of both the hardware and th
 
 **Get some additional inspiration here:**
 - [{Software} Structure #003 A by Casey Reas](https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks)
-- [Generative Design - sketches](http://www.generative-gestaltung.de/2/), [source code](https://github.com/generative-design/Code-Package-p5.js)
-- [GenArt (with source code)](https://github.com/JosephFiola/GenArt) by JosephFiola, see ch.1-4
 - [Daily Art](http://www.sasj.nl/daily/) by Saskia Freeke
 - [Generative Artistry by Ruth John and Tim Holman ](https://generativeartistry.com/tutorials/)
+- [Generative Design - sketches](http://www.generative-gestaltung.de/2/), [source code](https://github.com/generative-design/Code-Package-p5.js)
+- [GenArt (with source code)](https://github.com/JosephFiola/GenArt) by JosephFiola, see ch.1-4
 - [John Conway's Game of Life](https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/)
-- [John F. Simon Jr.'s Every Icon, from 1996](http://www.numeral.com/panels/everyicon.html)
 - [The recode project](http://recodeproject.com/)
 - [Solving Sol project - An open project to implement Sol LeWitt's instructions in JavaScript by Brad Bouse](https://github.com/wholepixel/solving-sol)
 
