@@ -385,7 +385,7 @@ This is a relatively complex exercise that requires you to:
 - Try to formulate a question in relation to web APIs or querying/parsing processes that you want to investigate further if you have more time.  
 
 ## Required reading:
-- Daniel Shiffman, "Working with data, The Coding Train", available at https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r (watch 10.4-10.10).
+- Daniel Shiffman, "Working with data, The Coding Train", available at https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r (10.4-10.10).
 - David Gauthier, Audrey Samson, Eric Snodgrass, Winnie Soon & Magda Tyżlik-Carver, "Executing," in *Uncertain Archives*, eds. Nanna Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio and Kristin Veel, MIT Press, 2020.
 - Eric Snodgrass & Winnie Soon. "[API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange](https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721)." *First Monday* [Online], 24.2 (2019): n. pag. Web. 13 Jan. 2020.
 

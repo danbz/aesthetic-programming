@@ -38,7 +38,7 @@ In the same token, we can *reuse* the same properties and behavior to create ano
 |-------------------------------|---------------------------|
 | Name = Winnie                 | Name = Geoff              |
 | HairColor = Black             | HairColor = Brown         |
-| withGlasses = Yes              | withGlasses = No         |
+| withGlasses = Yes             | withGlasses = No         |
 | Height = 164 cm               | Height = 183 cm           |
 | FavoriteColor = Black         | favoriteColor = Green     |
 | FavoriteFood = Tofu           | FavoriteFood = Avocado    |
@@ -66,7 +66,7 @@ In the following, we will introduce the sample code as a simple game (the recipe
 
 ![ch6_3](ch6_3.gif)
 
-*Figure 6.2: A screenshot of a Pacman-Tofu game*
+*Figure 6.2: A screenshot of the Pacman-Tofu game*
 
 [RUNME](https://siusoon.gitlab.io/Aesthetic_Programming_Book/)
 
@@ -74,30 +74,30 @@ In the following, we will introduce the sample code as a simple game (the recipe
 
 Based on what you see/experience on the screen, describe:
 
-- What are the instructions/rules to play the game?
-- Tofu is constructed as a class, and each tofu is an object instance. Can you describe the properties of tofus and their behaviors?
-- Can you describe the algorithmic procedures and sequences of the game with the following components: tofus, the pacman, keypress events, movements
+- **What** are the instructions/rules to play the game?
+- Tofu is constructed as a class, and each tofu is an object instance. Can you **describe the properties of tofus and their behaviors**?
+- Can you **describe the algorithmic procedures and sequences of the game** with the following components: tofus, the pacman, keypress events, movements
 
 **Further questions to think about:**
-- How to add tofu continuously in the screen and what's the condition?
-- How to check if the pacman has eaten the tofu?
+- **How** to add tofu continuously in the screen and what's the condition?
+- **How to check** if the pacman has eaten the tofu?
 - Under what conditions the game will be ended?
 
 **MAPPING with the source code**
-- Map some of the findings/features from the speculation that you have done with the source code. Which block of code relates to your findings?
-- Can you identify the part/block of code that responds to the elements that you have speculated on earlier?
+- **Map** some of the findings/features from the speculation that you have done with the source code. Which block of code relates to your findings?
+- Can you **identify** the part/block of code that responds to the elements that you have speculated on earlier?
 - Identify the syntax and function that you might not know and check out on p5.js reference site: https://p5js.org/reference/
 
 ## Source Code
 
-The source code is divided into two, one with all the core functions in `sketch.js`, and the other `Tofu.js` that specifies the class/object relationship. Sometimes it can help to give a clearer overview if you separate the program into different functions and files. You can imagine an additional js file is just a continuation of your core sketch, therefore you don't have to repeatedly write the `function setup()` or `function draw()` in the new files (imagine your program will become longer and more complex, so you might have more than 2 js files to hold the program together). To enable the two js files in a program, you need to add the following into the index.html file:
+The source code is divided into two, one with all the core functions in "sketch.js", and the other "Tofu.js"" that specifies the class/object relationship. Sometimes it can help to give a clearer overview if you separate the program into different functions and files. You can imagine an additional js file is just a continuation of your core sketch, therefore you don't have to repeatedly write the `function setup()` or `function draw()` in the new files (imagine your program will become longer and more complex, so you might have more than 2 js files to hold the program together). To enable the two js files in a program, you need to add the following into the index.html file:
 
 ```html
   <script language="javascript" type="text/javascript" src="sketch.js"></script>
   <script language="javascript" type="text/javascript" src="Tofu.js"></script>
 ```
 
-sketch.js:
+**sketch.js:**
 
 ```javascript
 let pacmanSize = {
@@ -192,7 +192,7 @@ function keyPressed() {
   }
 }
 ```
-Tofu.js:
+**Tofu.js:**
 
 ```javascript
 class Tofu { //create a class: template/blueprint of objects with properties and behaviors
@@ -428,10 +428,10 @@ It is by no means saying the steps should be in the exact sequence as stated. Of
 
 ## Exercise in class
 
-1. Tinkering
+**1. Tinkering**
 - Modify the different values to understand the function/syntax
 
-2. Discussion in groups:
+**2. Discussion in groups:**
 - Identify a game that you are familiar with, and describe the characters/objects by using the concept and vocabulary of class and object. Can you identify the classes and objects within the chosen example?
 - Given that the creation of objects requires the concept of abstraction, and following some of the introductory ideas for this chapter, can you use the sample code or your game as an example to think through some of the political implications of class/object abstraction? Does the fact that this is a game allow for further reflection on the way everyday activities (such as enjoying tofu) become object-oriented?
 
@@ -499,11 +499,11 @@ If you can master objects and classes, you may further work on a mini game step 
 - **Extend/connect** your game project to wider digital culture context, can you think of a digital example and describe how complex details and operations are being **abstracted**?
 
 ## Required readings:
-- Matthew Fuller & Andrew Goffey, "The Obscure Objects of Object Orientation", in Matthew Fuller, ed. *How to be a Geek: Essays on the Culture of Software* (Cambridge: Polity, 2017).
 - [p5.js examples - Objects](https://p5js.org/examples/objects-objects.html)
 - [p5.js examples - Array of Objects](https://p5js.org/examples/objects-array-of-objects.html)
 - Daniel Shiffman, Code! Programming with p5.js on YouTube, The Coding Train. (watch: 2.3, 6.1, 6.2, 6.3, 7.1, 7.2, 7.3). Web. https://www.youtube.com/watch?v=8j0UDiN7my4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA
 - Daniel Shiffman, Multiple js Files - p5.js Tutorial, The Coding Train. Web. https://www.youtube.com/watch?v=Yk18ZKvXBj4.
+- Matthew Fuller & Andrew Goffey, "The Obscure Objects of Object Orientation", in Matthew Fuller, ed. *How to be a Geek: Essays on the Culture of Software* (Cambridge: Polity, 2017).
 
 ## Notes:
 
