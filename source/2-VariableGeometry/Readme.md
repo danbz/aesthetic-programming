@@ -303,7 +303,6 @@ The challenge is to rethink normative geometries, to turn them upside down and i
 - To reflect on the politics/aesthetics of emojis via the assigned texts.
 
 **Get some additional inspiration here:**
-- [Multi](http://o-r-g.com/apps/multi) by David Reinfurt.
 - [Chinese Characters as Ancient Emoji](https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/)[^Witt] by Steve Witt.
 - [Women finally get a menstruation emoji](https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji)[^Grot] by Michael Grothaus.
 - [Between Art and Application by Crystal Abidin and Joel Gn](https://firstmonday.org/ojs/index.php/fm/article/view/9410)[^Abidin] (short text about emoji culture)

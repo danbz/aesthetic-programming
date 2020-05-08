@@ -144,7 +144,7 @@ Group:
 ## Required reading
 
 - Nathan Ensmenger, "The Multiple Meanings of a Flowchart." *Information & Culture: A Journal of History*, vol. 51 no. 3, 2016, pp. 321-351. Project MUSE, doi:10.1353/lac.2016.0013.
-- Taina Bucher, "The Multiplicity of Algorithimcs", in *If...Then: Algorithmic Power and Politics* (Oxford: Oxford University Press, 2018), 19-40.
+- Taina Bucher, "The Multiplicity of Algorithims", in *If...Then: Algorithmic Power and Politics* (Oxford: Oxford University Press, 2018), 19-40.
 - Marcus du Sautoy, "The Secret Rules of Modern Living: Algorithms" - Clips, *BBC Four* (2015), https://www.bbc.co.uk/programmes/p030s6b3/clips.
 
 ## Notes

@@ -39,7 +39,7 @@ This kind of approach is important not only because of offering a different way 
 If we were to draw an ellipse in white color at the x and y coordinate 100 and 120, there is a direct correspondance to the instruction. The outcome is predictable as the instruction is followed to the rule, but this need not be the[^drawings] case as certain kinds of instructions or combinations of instructions can generate unruly results. As this is described in the book *10 PRINT CHR$(205.5+RND(1)); : GOTO 10*, the 10 Print program utilizes randomness to generate unpredictable processes and outcomes as perceived by human. This *generative* capacity throws into question the extent of control and autonomy over the creative process, made clear in the following definition of generative art:[^galanter]
 > Generative art refers to any art practice where artists use a system, such as a set of natural languages, rules, a computer program, a machine, or other procedural invention, which is set into motion with some degree of autonomy contributing to or resulting in a completed work of art.
 
-As we can see this definition does not limit itself to the use of computers and this is important to bear in mind as we proceed to focus on our sample code. In the following two examples we explore rule-based programs that unfold some of these issues of auto-generation, but as with previous ones we are interested in the wider implications that include hidden labour, and other standpoints. 
+As we can see this definition does not limit itself to the use of computers and this is important to bear in mind as we proceed to focus on our sample code. In the following two examples we explore rule-based programs that unfold some of these issues of auto-generation, but as with previous ones we are interested in the wider implications that include hidden labour, and other standpoints.
 
 ## start()
 
@@ -346,8 +346,8 @@ Artist David Link reconstructed a functional replica of both the hardware and th
 
 ## Required reading:
 - Montfort, N, et al. "Randomness". *[10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org/)*, The MIT Press, 2012, pp. 119-146 (The chapter: Randomness)
-- [6 mins video] [Langton's Ant Colonies](https://www.youtube.com/watch?v=w6XQQhCgq5c)
-- [1 hour video] Marius Watz, "Beautiful Rules: Generative Models of Creativity", in *The Olhares de Outono* (2007), https://vimeo.com/26594644.
+- [Langton's Ant Colonies](https://www.youtube.com/watch?v=w6XQQhCgq5c)
+- Marius Watz, "Beautiful Rules: Generative Models of Creativity", in *The Olhares de Outono* (2007), https://vimeo.com/26594644.
 - [p5.js - 2D Arrays in Javascript by Daniel Shiffman](https://www.youtube.com/watch?v=OTNpiLUSiB4)
 
 ## Notes

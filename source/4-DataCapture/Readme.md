@@ -346,9 +346,9 @@ This is a reference to the philosophy of Gilbert Simondon, to the transformation
 - To critically reflect upon the activity of data capture and datafication.
 
 **To get some additional inspiration here:**
-- [Facebook Demetricator](https://bengrosser.com/projects/facebook-demetricator/) or [Instagram Demetricator](https://bengrosser.com/projects/instagram-demetricator/) or [Twitter Demetricator](https://bengrosser.com/projects/twitter-demetricator/) by Benjamin Grosser
-- [nonsense](http://siusoon.net/nonsense/) (2015) by Winnie Soon (look at the comment in the source code to get a sense of the intentions of this project)
 - [LAUREN](http://lauren-mccarthy.com/LAUREN) by Lauren McCarthy
+- [nonsense](http://siusoon.net/nonsense/) (2015) by Winnie Soon (look at the comment in the source code to get a sense of the intentions of this project)
+- [Facebook Demetricator](https://bengrosser.com/projects/facebook-demetricator/) or [Instagram Demetricator](https://bengrosser.com/projects/instagram-demetricator/) or [Twitter Demetricator](https://bengrosser.com/projects/twitter-demetricator/) by Benjamin Grosser
 
 **Tasks (RUNME):**
 1. Experiment with various data capturing input and interactive devices, such as audio, mouse, keyboard, web camera, etc.
