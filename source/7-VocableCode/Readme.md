@@ -439,17 +439,19 @@ The biography of Turing as a gay man at a time when homosexuality was still a cr
 To conclude this chapter, through exploring the making of *Vocable Code* with its strange syntax - such as notFalse and notTrue - and its many repetitive decimals, we would like to emphasise our central point: Queer is... making binaries strange.  
 
 ## MiniX[7]: E-lit
+
 **Objective:**
 - To understand how JSON works technically, in terms of storing data and how data can be retrieved via code.
 - To reflect upon the aesthetics of code and language, as well as the multiple aural dimensions of an e-lit.
 
 **Get some additional inspiration here:**
+- [Dial (2020) by Lai-Tze Fan & Nick Montfort](http://thenewriver.us/dial/), with JavaScript [source code](view-source:https://nickm.com/fan_montfort/dial/)
+- [mexicans in canada (2020) by Amira Hanafi](http://amiraha.com/mexicansincanada/)
+- [A House of Dust, 1967 by Alison Knowles and James Tenney, reimplemented by Nick Montfort](https://nickm.com/memslam/a_house_of_dust.html)
 - [Corpora - A repository of JSON files by Darius Kazemi](https://github.com/dariusk/corpora/tree/master/data)
 - [e-lit collection1](http://collection.eliterature.org/1/)
 - [e-lit collection2](http://collection.eliterature.org/2/)
 - [e-lit collection3](http://collection.eliterature.org/3/)
-- [Digital Poetry by David Jhave Johnston](http://glia.ca/)
-- [A House of Dust, 1967 by Alison Knowles and James Tenney, reimplemented by Nick Montfort](https://nickm.com/memslam/a_house_of_dust.html)
 - [Rita library by Daniel Howe](http://rednoise.org/rita/)
 
 **Tasks (RUNME):**
@@ -465,10 +467,11 @@ To conclude this chapter, through exploring the making of *Vocable Code* with it
   - How would you reflect upon various layers of voices and/or the performativity of code in your program?
 
 ## Required reading:
-- Cox, Geoff, and Alex McLean. *Speaking Code*. Cambridge, Mass.: MIT Press, 2013. 17-38.
-- Cox, Geoff, Alex McLean, and Adrian Ward. "The Aesthetics of Generative Code." Proc. of Generative Art. 2001.
+
+- Parrish, Allison. (2019) Text and Type [online] Available at: https://creative-coding.decontextualize.com/text-and-type/
 - Shiffman, Daniel. (2017) 10.2: What is JSON? Part I - p5.js Tutorial [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r [Accessed 13 Mar. 2019].
 - Shiffman, Daniel. (2017) 10.2: What is JSON? Part II - p5.js Tutorial [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r [Accessed 13 Mar. 2019].
+- Cox, Geoff, and Alex McLean. "Vocable Code" in *Speaking Code*. Cambridge, Mass.: MIT Press, 2013. 17-38.
 
 ## Notes
 
