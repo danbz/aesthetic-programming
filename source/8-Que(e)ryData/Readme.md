@@ -49,9 +49,9 @@ For this chapter's sample code, we are focused on images. The image that we will
 
 * `loadJSON()`:[^json] As discussed in the last chapter, this is the function to load a JSON file (from a file or a URL). In this specific sample code, the function is used to send the web API (in the form of a URL) request and receive the response in the format of JSON. The callback function is to turn the returned data into an object: `loadJSON(request, gotData);`.
 
-* `loadImage()`[^img1] and `image()`:[^img2] They both are used to load and display images. Data such as sound, files, images, videos are objects that need to be loaded before they can be processed. For this specific sample code, we do not know the location of the file in advance, therefore this cannot be loaded in the function `preload()`. As such, it has to go with the use of the callback function to handle the timegap in relation to image availability e.g `loadImage(getImg, img=> {}});`
+* `loadImage()`[^img1] and `image()`:[^img2] They both are used to load and display images. Data such as sound, files, images, videos are objects that need to be loaded before they can be processed. For this specific sample code, we do not know the location of the file in advance, therefore this cannot be loaded in the function `preload()`. As such, it has to go with the use of the callback function to handle the timegap in relation to image availability e.g. `loadImage(getImg, img=> {}});`
 
-* `loadPixels()`:[^pixel] If you want to manipulate or analyze the data from an image, this is a function that can extract and manipulate information of each image pixel, loading the data into the pixels[] array. We will look into this in more details later in the chapter.
+* `loadPixels()`:[^pixel] If you want to manipulate or analyze the data from an image, this is a function that can extract and manipulate information of each image pixel, loading the data into the pixels[] array. We examine this in more detail later in the chapter.
 
 * `line()`: This is used to visualize the color that is extracted from the selected image's pixels over time.
 
@@ -121,9 +121,9 @@ function draw() {
 
 ## Exercise: Accessing Web APIs (Step by Step)
 
-The above source code describes getting a static image from Google image search API (via parsing JSON), and then displaying it on a screen. Similar to many other web APIs, you need to have an API key so the platforms can identify who is getting the data and track its usage.[^key]
+The above source code describes how to get a static image from Google image search API (via parsing JSON), and then display it on a screen. Similar to many other web APIs, you need to have an API key so the platforms can identify who is getting the data and track its usage.[^key]
 
-This execise's task is to get the *key ID* and *Engine ID* from Google so that you can input your own set of IDs and run the program successfully. This requires to provide all necessary information so that the program can run and fetch a networked image on the fly.
+This exercise is to get the *key ID* and *Engine ID* from Google so that you can input your own set of IDs and run the program successfully. This is necessary information so that the program can run and fetch a networked image on the fly.
 
 1. **Step 1:** Create a p5 sketch, then copy and paste the source code to your code editor (assuming you have the html file and the p5 library).
 
@@ -148,10 +148,10 @@ This execise's task is to get the *key ID* and *Engine ID* from Google so that y
 
 4. **Step 4:** Configuration in the control panel
 
-- Make sure the "Image search" is ON indicated by the blue color
-- Make sure the "Search the entire web" is ON indicated by the blue color
+- Make sure the "Image search" is ON, indicated by the blue color
+- Make sure the "Search the entire web" is ON, indicated by the blue color
 
-You should now finish the setting and able to run the sample code with your own set of API Key and engine ID.
+You should now finish the setting and be able to run the sample code with your own set of API Key and engine ID.
 
 ![ch8_3b](ch8_3b.png)
 
@@ -183,41 +183,40 @@ function gotData(data) {
 	console.log(getImg);
 }
 ```
-In order for easy modification, we have put the search parameters as global variable, such as the required URL, API key, search engine ID, search type, image size and query. These are the parameters used to filter the search results, and there are more we can use and add the variables accordingly.
+In order for easy modification, we have put the search parameters as a global variable, which includes the required URL, API key, search engine ID, search type, image size and query. These are the parameters used to filter the search results, and more variables can be added if required. 
 
-By what it means by a web API, it is simply a long URL `request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&searchType=" + searchType + "&q=" + query;` that includes all the credentials and items that you want to search and filter (it looks like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers).
+A web API is simply a long URL `request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&searchType=" + searchType + "&q=" + query;` that includes all the credentials and items that you want to search and filter (it looks like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers).
 
-The key syntax is `loadJSON()` (within the function `fetchImage()` to submit a `request` in the form of a URL to the image provider and then wait for the returned JSON file with a list of results. The callback function `gotData()` is to further process and que(e)ry the data that is responded.
+The key syntax is `loadJSON()` (within the function `fetchImage()` to submit a `request` in the form of a URL to the image provider and then you need to wait for the returned JSON file with a list of results. The callback function `gotData()` is to further process and que(e)ry the data that is returned.
 
 ## Que(e)rying data
 
-Figure 8.6 below shows the JSON file format, but it includes a lot of information that you might not need. Therefore, you need to understand the file structure and locate the data that you want to further process (understanding the returned data file is part of the process of que(e)rying data as different providers and platforms they structure their data differently).
+Figure 8.6 below shows the JSON file format, but it includes a lot of information that you might not need. Therefore, you need to understand the file structure and locate the data that you want to further process (understanding the returned data file is part of the process of que(e)rying data as different providers and platforms structure their data differently).
 
 ![google2](ch8_4.png)
 
 *Figure 8.6: Data structure in the web API*
 
-In the web console, look for a URL (with your own API key and search engine ID) that starts with "https" and ends with "warhol+flowers" (something like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers). Just simply click it and you will see how data is being structured in the JSON file format on a web browser (see Figure 8.6). Additionally, there are more parameters that you can set in order to select more specific forms of data such as image size, image color type, and image dominant color, and so on. The API that we have used in the sample code demonstrates minimal settings.[^setting]
+In the web console, look for a URL (with your own API key and search engine ID) that starts with "https" and ends with "warhol+flowers" (something like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers). Just simply click it and you will see how the data is being structured in the JSON file format on a web browser (see Figure 8.6). Additionally, there are more parameters that you can set in order to select more specific forms of data such as image size, image color type, and image dominant color, and so on. The API that we have used in the sample code demonstrates minimal settings.[^setting]
 
 **Cross-Origin Resource Sharing**
 
-Apart from text, requesting, getting and loading images (and other multimedia forms like video and fonts) from a web domain will incure security issues, known in the field as Cross-Origin Resource Sharing (CORS). For this chapter and the corresponding example, the sample code is hosted on a local machine with a local server to run via the *ATOM* code editor, but the API request and the corresponding data is hosted outside of this. The CORS issue related to network requests is designed to prevent "unsafe HTTP requests".[^w3] In the industry environment, it is usually configured at the web server side setting and used server side programming/scripting languages such as node.js to handle the network requests. But for demonstration purposes, and convenience, we have used the thumbnail images (`data.items[0].image.thumbnailLink;`) that are generated via the search provider instead of loading original web images that are hosted at different servers with various settings. Although the thumbnail images with much lower resolution it does not have the specific CORS setting that fits the scope of p5.js to load those cross-domains content by using `createImg()` or `loadImage()`.
+Apart from text, requesting, getting and loading images from a web domain (and other multimedia forms like video and fonts) will incur security issues, known in the field as Cross-Origin Resource Sharing (CORS). For this chapter, and the corresponding example, the sample code is hosted on a local machine with a local server to run via the *ATOM* code editor, but the API request and the corresponding data is hosted outside of this. The CORS issue related to network requests is designed to prevent "unsafe HTTP requests".[^w3] In an industry environment, it is usually configured at the web server side setting with server side programming/scripting languages such as node.js to handle the network requests. But for demonstration purposes, we have used the thumbnail images (`data.items[0].image.thumbnailLink;`) that are generated via the search provider instead of loading original web images that are hosted by different servers with various settings. Although the thumbnail images come with much lower resolution it does not have the specific CORS setting that fits the scope of p5.js to load those cross-domains content by using `createImg()` or `loadImage()`.
 
 **Data Structure**
 
-Figure 8.6 demonstrates how one can point at specific data in the whole JSON file. Specifically, we have the line `data.items[0].image.thumbnailLink;`, which gets the specified returned object (the image URL) from the JSON file. The name `data` refers to all the returned objects via the callback function `function gotData(data){}`. Then `items[0]` points at the first data object (using the array concept with the first index as 0). The dot syntax allows you to navigate to the object `image` and `thumbnailLink` under `items[0]`. Note that this hierarchy is specific to this API because other web APIs might structure their data and its organization differently.
+Figure 8.6 demonstrates how one can point at specific data in the whole JSON file. Specifically, we have the line `data.items[0].image.thumbnailLink;`, which gets the specified returned object (the image URL) from the JSON file. The name `data` refers to all the returned objects via the callback function `function gotData(data){}`. Then `items[0]` points at the first data object (using the array concept with the first index as 0). The dot syntax allows you to navigate to the object `image` and `thumbnailLink` under `items[0]`. Note that this hierarchy is specific to this API because other web APIs might structure their data and their organization differently.
 
-To learn more about the JSON file, you can navigate other data objects such as queries > request > 0 that shows, for example, how many results are found on the image search, what search terms have been processed and how many data objects are returned. In the sample code, we only start with the top 10 search items, but you can configure the parameter 'startIndex' to get the last 10 images out of 110 million. Furthermore, under `items` in the JSON file you will find the specific image data returned in the form of an array, such as the title and the corresponding snippet of the page content.
+To learn more about the JSON file, you can navigate other data objects such as queries > request > 0 that would show, for example, how many results are found on the image search, what search terms have been processed and how many data objects are returned. In the sample code, we only start with the top 10 search items, but you can configure the parameter 'startIndex' to get the last 10 images out of 110 million. Furthermore, under `items` in the JSON file you will find the specific image data returned in the form of an array, such as the title and the corresponding snippet of the page content.
 
-We can now summarize the common process of working with web APIs and getting data from online platform:
+We can now summarize the common process of working with web APIs and getting data from an online platform:
 
-* Understand the web API's workflow
-* Understand the API specification that indicates what data and parameters are available
-* Understand the returned JSON file format from the web API
+* Understanding the web API's workflow
+* Understanding the API specification that indicates what data and parameters are available
+* Understanding the returned JSON file format from the web API
 * Registering and getting the API key(s) and may be additional configuration of the setting is needed.
 
-Given this specific example of *nag* and the sample code, we want to also reflect on the increasingly prevalent API practices at present. Although Google has provided the API to access the data, it should be remembered that the amount is limited to 100 free API requests for all units from business to non-profit organizations, and the actual data is collected from the public and people have no access to the specific algorithm by which the data is selected, prioritized and presented. This brings in the question of "sociotechnical elements" in regards to the parameters of openness, accessbility and terms of inclusivity of API practices.[^soon]
-
+Given our specific example of *nag* and the sample code, we want to also reflect on increasingly prevalent API practices. Although Google has provided the API to access the data, it should be remembered that the amount is limited to 100 free API requests for all units from business to non-profit organizations, and the actual data is collected from the public, and people have no access to the specific algorithm by which the data is selected, prioritized or presented. This raises serious questions about degrees of openness, accessbility, and inclusivity of API practices.[^soon]
 
 <div class="exercise" markdown="true">
 
@@ -226,13 +225,13 @@ Given this specific example of *nag* and the sample code, we want to also reflec
 
 *Figure 8.7: The API's logic of request and response*
 
-1. According to Figure 8.7, can you recap what has been **requested and received** through the web API? (or more conceptually, what forms of control and exchange are being undermined?)
+1. Referring to Figure 8.7, can you recap what has been **requested and received** through the web API? (or more conceptually, what forms of control and exchange are being performed?)
 
 2. Change your own query strings: The current keywords are 'warhol flowers' but note that the program doesn't understand space between text and therefore it needs to be written as "warhol+flowers"
 
-3. Refer back to the section of APIs above, add more search filtering rules with [different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters),[^setting] such as adding image color type. (The URL parameters are seperated by a "&" sign like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers)
+3. Refer back to the section on APIs above, add more search filtering rules with [different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters),[^setting] such as adding an image color type. (The URL parameters are seperated by a "&" sign like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers)
 
-4. Study the JSON file and modify the sketch to get other data such as the text by showing that onto the web console.
+4. Study the JSON file and modify the sketch to get other data such as the text by showing that in the web console.
 
 </div>
 
@@ -244,7 +243,7 @@ Given this specific example of *nag* and the sample code, we want to also reflec
 
 For this sample sketch, only one color within the image will be picked and processed. This means that the program will randomly locate and pick any pixel from the image. Furthermore, the function `pixels` analyzes and retrieves the color of the selected pixel, specifically the RGB color values that are further used to draw the line (see Figure 8.8 above as an illustration and in reality the pixel size is much smaller).
 
-The line is not randomly drawn, but it is based on the x and y coordinates of the selected pixel and is drawn along the whole y axes from that point. Apart from the position, the color of the line is based on the rgb values of the selected pixel too. Combining both the position and the color, this will lead to something like a color visualization of the image, an abstract painting over time as shown in Figure 8.3.
+The line is not randomly drawn, but it is based on the x and y coordinates of the selected pixel and is drawn along the whole y axes from that point. Apart from the position, the color of the line is based on the RGB values of the selected pixel too. Combining both the position and the color, this will lead to something like a color visualization of the image, an abstract painting over time as shown in Figure 8.3.
 
 Each selected pixel contains color information, that is the r (red), g (green), b (blue) and a (alpha) values. This is how the data is being stored in the pixels' one dimensional array:
 
@@ -252,12 +251,11 @@ Each selected pixel contains color information, that is the r (red), g (green), 
 
 *Figure 8.9: An illustration on the breakdown of each pixel by Integrated Digital Media, NYU*[^nyu]
 
-`loc` is a variable to store the pixel information. Each pixel position needs to be clearly *located* so that a line can be drawn at the right position. Following the function `Pixels()`, each pixel takes up 4 locations: The first pixel with the 4 rgba values, then the second pixel with another 4 rgba values, and this continues for all the pixels:
+`loc` is a variable to store the pixel information. Each pixel position needs to be clearly *located* so that a line can be drawn at the right position. Following the function `Pixels()`, each pixel takes up four locations: The first pixel with the four rgba values, then the second pixel with another four rgba values, and this continues for all the pixels:
 
 pixels = [p1, p1, p1, p1, p2, p2, p2, p2, p3, p3, p3, p3...]
 
-
-Therefore, it is understood as 4 different locations and each stored one value in relation to one single pixel. In order to locate a specific pixel, the formula would be: `loc = (img_x+img_y * img.width)*4;`. The use of `img.pixels[loc]`, `img.pixels[loc+1]`, `img.pixels[loc+2]` is to locate the RGB values respectively by using the function `pixels[]`.
+Therefore, it is understood as four different locations and each stored one value in relation to one single pixel. In order to locate a specific pixel, the formula would be: `loc = (img_x+img_y * img.width)*4;`. The use of `img.pixels[loc]`, `img.pixels[loc+1]`, `img.pixels[loc+2]` is to locate the RGB values respectively by using the function `pixels[]`.
 
 ```javascript
 function draw() {
@@ -289,19 +287,19 @@ function draw() {
 }
 
 ```
-The logic in the `draw()` function then is simply tried to draw the grey outter frame and load the image at the center by using the function `translate()`.
+The logic in the `draw()` function is simply to try to draw the grey outer frame and load the image at the center by using the function `translate()`.
 
-To allow sufficient time to load the JSON file and able to get the file path, the conditional structure `if (getImg){}` is used. Upon the successful loading of an image (with the function `loadImage` and the corresponding callback `img`), Both the outter frame and the image are drawn on the canvas.
+To allow sufficient time to load the JSON file and able to get the file path, the conditional structure `if (getImg){}` is used. Upon the successful loading of an image (with the function `loadImage` and the corresponding callback `img`), both the outer frame and the image are drawn on the canvas.
 
-The outter frame and the image are only drawn once with the update of the status `imgLoaded`. For each draw frame, the program will analyze the image pixel by using the syntax `loadPixels()`, picking the random pixel and getting the corresponding pixel's x and y coordinates (using the variables `img_x` and `img_y`). From this selected pixel we can also get the rgb color values through `pixels[]` to further draw the colored line with the syntax `strokeWeight()`, `stroke()` and `line()`.
+The outer frame and the image are only drawn once with the update of the status `imgLoaded`. For each draw frame, the program will analyze the image pixel by using the syntax `loadPixels()`, picking the random pixel and getting the corresponding pixel's x and y coordinates (using the variables `img_x` and `img_y`). From this selected pixel we can also get the RGB color values through `pixels[]` to further draw the colored line with the syntax `strokeWeight()`, `stroke()` and `line()`.
 
-This section with the pixel and color elements is to show how a computer processes and stores an image as a piece of data which is fundamentally different from how humans see and perceive it. It is also a way to demonstrate how an image object is being translated into numbers for computation, which is somewhat similar to the example of face tracking in Chapter 4 (Data Capture) in which a pixel can be clearly located at a scale beyond human perception. These machine ways of seeing may help to understand more contemporary applications like tracking technology and even computer vision that employs machine learning techniques in which images are regarded as training data.
+This section with the pixel and color elements is to show how a computer processes and stores an image as a piece of data which is fundamentally different from how humans see and perceive it. It is also a way to demonstrate how an image object is being translated into numbers for computation, which is somewhat similar to the example of face tracking in chapter 4 (Data Capture) in which a pixel can be clearly located at a scale beyond human perception. These machine ways of seeing may help to understand more contemporary applications like tracking technology and even computer vision that employs machine learning techniques in which images are regarded as training data (and we return to this in chapter 10).
 
 ## Different types of errors
 
-At this stage, when you have developed your programming skills and your programs are becoming more complex, it is important to understand, identify and locate errors (as part of the process often describe as debugging[^debug]) so that you can build a workable sketch, and to experience how a program works at a very logical, computational and accurate manner.
+At this stage – as you have developed your programming skills and your programs are becoming more complex – it is important to understand, identify and locate errors (as part of the process often described as debugging[^debug]) so that you can build a workable sketch, and to experience how a program works in a very logical, computational and accurate manner.
 
-Paying close attention to errors is an important part of learning to program. When you are debugging your sketch, are you able to identity whether the errors come from your own code, or come from parsing the data while it is running, or from other third party like the image search engine? Are they minor errors or critical errors (that stop your program from running)? Do they belong to syntactic, runtime or logical errors (explained in detail below)?
+Paying close attention to errors is an important part of learning to program. When you are debugging your sketch, are you able to identity whether the errors come from your own code, or come from parsing the data while it is running, or from other third party like the image search engine? Are they minor errors or critical errors (that stop your program from running)? Do they belong to syntactic, runtime or logical errors (as explained below)?
 
 In a broad sense, errors can be categorized in three types:
 
@@ -345,9 +343,9 @@ The highlighted project by Cornelia Sollfrank become all the more powerful with 
 
 "The more effectively the models operate in the world, the more they tend to normalize the situations in which they are entangled. This normalization can work in very different ways, but it nearly always will stem from the ways in which differences have been measured and approximated within the model."[^Mackenzie]
 
-When working with data there is a danger of simply perpetuating 'norms' through the process of generalization. Following advanced data-mining processes, Adrian Mackenzie speaks of the various kinds of generalization at work that allow for the development of machine learning.[^Mackenzie1] We will return to machine learning in Chapter 10 in more detail, but for now it is important to recognize how all techniques of pattern recognition and statistics "generate statements and prompt actions in relation to instances of individual desire" and they transform, construct and impose shape on data, in order to then “discover, decide, classify, rank, cluster, recommend, label or predict” something or other.[^Mackenzie2] The assumption, as Mackenzie points out, is that everything that exists is reducible to stable and distinct categorisation: “In all cases, prediction depends on classification, and classification itself presumes the existence of classes, and attributes that define membership of classes."[^Mackenzie3] This presumption of stable classes and classifications is one of the main problems here that we wish to query - as if the world was organised in such a way. The difficulty lies as to what extent any model is accurate or valid.
+When working with data there is a danger of simply perpetuating 'norms' through the process of generalization. Following advanced data-mining processes, Adrian Mackenzie speaks of the various kinds of generalization at work that allow for the development of machine learning.[^Mackenzie1] We will return to machine learning in Chapter 10 in more detail, but for now it is important to recognize how all techniques of pattern recognition and statistics "generate statements and prompt actions in relation to instances of individual desire" and they transform, construct and impose shape on data, in order to then “discover, decide, classify, rank, cluster, recommend, label or predict” something or other.[^Mackenzie2] The assumption, as Mackenzie points out, is that everything that exists is reducible to stable and distinct categorization: “In all cases, prediction depends on classification, and classification itself presumes the existence of classes, and attributes that define membership of classes."[^Mackenzie3] This presumption of stable classes and classifications is one of the main problems here that we wish to query - as if the world was organised in such a way. The difficulty lies as to what extent any model is accurate or valid.
 
-To que(e)ry data in this way throws into further question how data is collected, stored, analyzed, recommended, ranked, selected and curated in order to understand the broader social and political implications, not least how categorizations such as gender are normalized. To query the power structures of materials with a feminist standpoint is to understand "the mechanisms that shape reality"[^feminist] and how they might be recoded.
+To que(e)ry data in this way throws into further question how data is collected, stored, analyzed, recommended, ranked, selected and curated in order to understand the broader social and political implications, not least how categorizations such as gender are normalized. To query the power structures of materials from a feminist standpoint is to understand "the mechanisms that shape reality"[^feminist] and how they might be recoded.
 
 ## MiniX[8]: Working with APIs (in a group)
 
