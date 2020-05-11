@@ -37,6 +37,6 @@ Some inspirations:
 - OSP: indexing? (ask OSP for automated version + code)
 - peer review (lauren+matthew)
 - Check out
-    - except setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/8-Que(e)ryData - NOT sure what I am looking at, but all the same added Big Dick Data reference. -> everything la..as i have changed quite a lot..i guess is whether it can be understand the process from an ordinary person
+    - except setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/8-Que(e)ryData - DONE but needs copyediting
     - literate programming in ch.7 > DONE I think
     - infinite loops > DONE I think
