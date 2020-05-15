@@ -24,11 +24,17 @@ Flowcharts are considered to be a fundamental explanatory tool since the early d
 
 - Can you give an everyday example, with details of (computational) logic, about an algorithm that you have used or experienced?
 
-- Can you sketch an algorithic procedure such as how your social media feeds are being organized?
+- Can you sketch an algorithmic procedure such as how your social media feeds are being organized?
 
 - Based on the assigned reading from Taina Bucher, can you list some of the properties of algorithms? How is it both technical and social?
 
 - We discussed rule-based systems in Chapter 6 (Auto Generator), how is that different from the way we are discussing procedure in this chapter?
+
+## Exercise in class
+
+Sorting is a commonly seen and experienced algorithms in digital culture, such as predictive tastes and recommendation lists on Spotify, Amazon and Netflix, as well as search engine results as we have mentioned in the previous chapter. Without the need to program it technically,[^program] think about the **algorithmic procedures** on below brief:
+
+> Generate a list of 1000 unique and random integer between two number ranges. Then implement a sorting algorithm and display them in a chronological order (You can't use the existing sort function in p5.js or JavaScript). How you would approach this problem? (Perhaps draw it out as a flowchart - the focus is on procedures/steps but not the actual syntax)
 
 ## Flow Charts
 
@@ -169,7 +175,7 @@ Group:
 
 [^flowcharts2]: See Morris, Stephen, and Orlena Gotel. “The Role of Flow Charts in the Early Automation of Applied Mathematics.” *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44–52. https://doi.org/10.1080/17498430903449207 and Ensmenger, Nathan. “The Multiple Meanings of a Flowchart.” *Information & Culture: A Journal of History* 51, no. 3 (2016): 321–51. https://doi.org/10.1353/lac.2016.0013.
 
-[^stereotypes]: To see programming as a social activity undermines some of the predominant stereotypes associated with programming such as the image of the typical antisocial hacker (male, bearded, unwashed). For more on the benefits of collaborative working, see Chih Wei Ho, et al, "Examining the impact of pair programming on female students", North Carolina State University. Dept. of Computer Science (2004).
+[^stereotype]: To see programming as a social activity undermines some of the predominant stereotypes associated with programming such as the image of the typical antisocial hacker (male, bearded, unwashed). For more on the benefits of collaborative working, see Chih Wei Ho, et al, "Examining the impact of pair programming on female students", North Carolina State University. Dept. of Computer Science (2004).
 
 [^ex]: You can find one of the many possible ways of illustrating the simple program here: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/blob/master/source/9-AlgorithmicProcedures/emoji_flowchart.svg.
 
@@ -211,3 +217,5 @@ Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford University Pres
 [^ML1]: Adrian Mackenzie, *Machine Learners: Archaeology of a Data Practice* (Cambridge, MA: MIT Press, 2017), 23.
 
 [^ML2]: Mackenzie, *Machine Learners: Archaeology of a Data Practice*, 17.
+
+[^program]: In the actual teaching setting, we have a group prepared to present this problem and how they approach this both technical and conceptually to think about the signifiance of sorting in a wider cultural context. The other remaining students then will start with the class with this exercise and keep the focus on algorithmic procedures. But here is one of the many ways of implementing the sorting problem. See https://editor.p5js.org/siusoon/sketches/7g1F594D5
