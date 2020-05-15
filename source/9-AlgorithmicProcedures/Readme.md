@@ -139,7 +139,7 @@ Individual:
 * Draw an individual flowchart to present the program (pay attention to which items you select to present through a flowchart)
 
 Group:
-* Brainstorm two ideas for your final project (see next chapter's Mini_Exercise)
+* Brainstorm two ideas for your final project (see next chapter's MiniX)
 * Draw two flow charts to visualize the algorithmic processes of this project
 
 **Questions to think about for the README:**
