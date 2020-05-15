@@ -35,7 +35,7 @@ The list will continuously update in the online version.
 
 - [Recipe](https://gitlab.com/OliviaSP/ap2020/-/blob/master/public/MiniEx8/README_MiniEx8.md) by Olivia Smedegaard Peray and Stine Mygind, 2020
 - [Words_](https://gitlab.com/SimonVanNguyen/aestetic-programming-2020/-/tree/master/public/miniEx8) by Simon Van Nguyen and Torvald Pockel, 2020
-- [wordsOfMyFeelings](https://gitlab.com/annika.nh1/ap-2020/-/tree/master/public/MiniEx8) by Annika Hoffmann and Helene Boeriis 
+- [wordsOfMyFeelings](https://gitlab.com/annika.nh1/ap-2020/-/tree/master/public/MiniEx8) by Annika Hoffmann and Helene Boeriis, 2020
 
 #### MiniX[8]: Working with APIs
 
