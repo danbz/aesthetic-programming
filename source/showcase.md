@@ -38,6 +38,6 @@ The list will continuously update in the online version.
 
 #### MiniX[8]: Working with APIs
 
-- [Corona bar](https://gitlab.com/SimonVanNguyen/aestetic-programming-2020/-/tree/master/public/miniEx9) by Simon Van Nguyen and Pernille P.W. Johansen, 2020
+- [Corona bar](https://gitlab.com/pernwn/ap2020/-/tree/master/public/MX9) by Simon Van Nguyen and Pernille P.W. Johansen, 2020
 
 #### MiniX[10]: Final Project
