@@ -129,4 +129,4 @@ This is exactly our point. The book expresses itself as a dynamic object not fix
 
 [^papert]: A concept was first formulated by mathematician, computer scientist, and educator Seymour Papert who was a MIT Professor and created a design principle for a programming language called Logo. See Seymour Papert, Mindstorms: Children, Computers, and Powerful Ideas (New York, NY: Basic Books, 1980)
 
-[^decolonial]: Syed Mustafa Ali, A Brief Introduction to Decolonial Computing, XRDS: Crossroads, The ACM Magazine for Students, 22(4) (2016): 16–21. 
+[^decolonial]: See, for instance, Syed Mustafa Ali's A Brief Introduction to Decolonial Computing, XRDS: Crossroads, The ACM Magazine for Students, 22(4) (2016): 16–21. 
