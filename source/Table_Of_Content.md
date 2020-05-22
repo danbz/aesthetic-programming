@@ -139,7 +139,7 @@ page_order: -2
 * While()
 * MiniX[10]: Final Project
 
-## Chapter 11: Recurrent Imaginaries
+## Chapter 11: Afterword: Recurrent Imaginaries
 
 ## Indexing
 reference to: https://monoskop.org/media/text/? and Linda's work in Exe practice
