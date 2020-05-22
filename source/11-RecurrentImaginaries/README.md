@@ -3,7 +3,7 @@ page_order: 11
 
 ## Recurrent Imaginaries[^title]
 
-//machine generated text
+//machine generated text [discuss change title to Afterword: Recurrent Imaginaries /g]
 
 ## Notes
 
