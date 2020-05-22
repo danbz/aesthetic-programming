@@ -38,6 +38,7 @@ Some inspirations:
 - [x] decide on US or UK spelling? make consistent throughout -> US
 - [x] add further reading and/or bibliography, ideally both
 - peer review (lauren+matthew)
+- change chap. 11 title to afterword?? discuss with winnie
 - Check out
     - except setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/8-Que(e)ryData - DONE but needs copyediting
     - literate programming in ch.7 > DONE I think
