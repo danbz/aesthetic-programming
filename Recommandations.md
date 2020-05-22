@@ -17,7 +17,7 @@ Some inspirations:
 - OSP: need to think about how to present the duplicate code (markdown)
 - OSP: need to think about how to present the executed / source code (markdown/interface - web+print)
 - OSP: book cover - script to generate? (or using Langton's ant one)
-- OSP: added showcase.md (only available for online book), also bibliography, projects, reference(further reading) etc.
+- OSP: added bibliography, projects, reference(further reading) etc. + showcase.md (this is only available for online book)
 - OSP: indexing? (ask OSP for automated version + code) => possibly need manual marking e.g %xxx%
 
 ## Issues (by Winnie)
