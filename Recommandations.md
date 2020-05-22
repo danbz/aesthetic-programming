@@ -17,20 +17,21 @@ Some inspirations:
 - OSP: need to think about how to present the duplicate code (markdown)
 - OSP: need to think about how to present the executed / source code (markdown/interface - web+print)
 - OSP: book cover - script to generate? (or using Langton's ant one)
-- OSP: added showcase.md (only available for online book), also bibliography, projects, reference(further reading) etc. 
-- OSP: indexing? (ask OSP for automated version + code)
- 
+- OSP: added showcase.md (only available for online book), also bibliography, projects, reference(further reading) etc.
+- OSP: indexing? (ask OSP for automated version + code) => possibly need manual marking e.g %xxx%
+
 ## Issues (by Winnie)
 
 - [x] Revisit ch.9 -> add the intext ref + the emoji EiC + new for loop structure
 - [x] getting started -> add web IDE for gitlab + remove short cuts as each OS is slightly different
 - [x] update ML - TM image -> screenshot
 - [x] adjust flowcharts, more on arrows and relations
-- [x] add ch reference + bibliography/projects.md
-- - Revisit Aesterik Painting ch. 3
-- ML chapter: update the auto chapter generator both models + screenshots when we have a finalized text
-- include students' work? (put it up online only)
+-  add ch reference + bibliography/projects.md
+- Revisit Aesterik Painting ch. 3
 - TOC - flowchart
+- ML chapter: update the auto chapter generator both models + screenshots when we have a finalized text
+- [x] include students' work? (put it up online only)
+- [] hosting of the web book -> OHP? (need to check with Gary Hall)
 
 ## Issues (by Geoff)
 - [x] copyedit text for flow and accessibility of language. Sternberg style guide?
@@ -38,8 +39,16 @@ Some inspirations:
 - [x] decide on US or UK spelling? make consistent throughout -> US
 - [x] add further reading and/or bibliography, ideally both
 - peer review (lauren+matthew)
-- change chap. 11 title to afterword?? discuss with winnie
+- [x]change chap. 11 title to afterword?? discuss with winnie
 - Check out
     - except setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/8-Que(e)ryData - DONE but needs copyediting
     - literate programming in ch.7 > DONE I think
     - infinite loops > DONE I think
+
+## Overall timeline
+- Early Jul: Finished editing by Loren
+- Mid Jul: Revision by Geoff and Winnie -> send off to reviewer
+- End Jul: First iterature of web interactive by OSP
+- End Aug: Reviewer's feedback
+- Fine tuning and prepare for the final pdf, web for production - ALL
+- Tentative ready for launch at OHP: End Sep to Oct
