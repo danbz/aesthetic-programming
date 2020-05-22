@@ -28,7 +28,7 @@ We usually encounter the ubiquitous spinning icon during the loading and streami
 ### Decode
 In this chapter we move from programming static objects such as shapes to a mixture of both static and moving objects. If we assume the shape to be a circle we join it up here, and spin it, as if it were eating its own tail.
 
-![2.3](ch3_2.png)
+![3.2](ch3_2.png)
 
 *Figure 3.3: The runme of sample code - sketch 3_1*
 
@@ -324,7 +324,7 @@ The above two arrays store each asterisk's center position in the form of x and 
 
 Other methods for adding or removing an array index might be useful to know:
 - `array.push(value)`:[^push] To add a value to the end of the array. Example: `xPos.push(6)` - this will extend the index to xPos[5] = 6.
-- `array.splice()`:[^spliace] This is to remove a range of an array index, or remove the existing index and replace with new indexes with other values.
+- `array.splice()`:[^splice] This is to remove a range of an array index, or remove the existing index and replace with new indexes with other values.
 
 ### Conditional statements
 As we have already discussed conditional statements in the previous chapter, it may be easier to follow the code of *Asterisk Painting* (especially line 61). It follows the conditional logic (if-then) built into the program in order to know when to move from one asterisk to the other.
@@ -401,7 +401,7 @@ In this simple line drawing, the key is the local variable `i` (which is used to
 #### While Loop
 While loop is another type of loop for executing iterations. The statement is executed until the condition is true, it will stop as soon as it is false.
 
-For example, `while(millis() < wait){}` in line 76 of the work *Asterisk Painting* tells the computer to do nothing if the value of `millis()`[^milis] is less than the value of the `wait` variable. `millis()` is a time-related sytax to return the number of milliseconds since starting the program and it is similar to `frameCount()` but just return the timein the form of milliseconds other than the actual frame count. Once the condition is false (i.e `millis()` is no longer less than `wait`), the loop will be ended and the program can proceed to the next line. This example is located towards the end of the program when all the asterisks are drawn but need to wait for a certain time to reset(clear) the canvas and restart drawing again. Therefore, this while-loop serves the purpose of a pause sign, freezing the program from running because there is literally nothing between the opening and closing brackets.  
+For example, `while(millis() < wait){}` in line 76 of the work *Asterisk Painting* tells the computer to do nothing if the value of `millis()`[^millis] is less than the value of the `wait` variable. `millis()` is a time-related sytax to return the number of milliseconds since starting the program and it is similar to `frameCount()` but just return the timein the form of milliseconds other than the actual frame count. Once the condition is false (i.e `millis()` is no longer less than `wait`), the loop will be ended and the program can proceed to the next line. This example is located towards the end of the program when all the asterisks are drawn but need to wait for a certain time to reset(clear) the canvas and restart drawing again. Therefore, this while-loop serves the purpose of a pause sign, freezing the program from running because there is literally nothing between the opening and closing brackets.  
 
 ## While()
 
@@ -472,7 +472,7 @@ Check out other works that refer to the throbber and how other people contextual
 [^End]: "The end of history" is a reference to Francis Fukuyama's *The End of History and the Last Man* (New York: Free Press, 1992), which proposes the ascendancy of Western liberal democracy after the dissolution of the Soviet Union, post-1989.
 [^Else3]: Ernst, “‘... Else Loop Forever’. The Untimeliness of Media”.
 [^Heidegger]: Martin Heidegger, *Being in Time* (1927). For a useful summary, see https://plato.stanford.edu/entries/heidegger/#BeiTim.
-[^Else4]: Ernst, “‘... Else Loop Forever’. The Untimeliness of Media”.
+[^Ernst4]: Ernst, “‘... Else Loop Forever’. The Untimeliness of Media”.
 [^soon]: Winnie Soon. “Throbber: Executing Micro-temporal Streams.” *Computational Culture* 7 (21st October 2019). http://computationalculture.net/throbber-executing-micro-temporal-streams/.
 [^soon2]: Soon, “Throbber."
 [^modulo]: Artist Golan Levin has given an online tutorial on modulo operator as part of the coding train series, see: https://www.youtube.com/watch?v=r5Iy3v1co0A.
