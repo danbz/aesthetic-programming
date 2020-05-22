@@ -3,6 +3,7 @@
 ## Chapter 1 - Getting Started
 
 - Brian Lennon, "JavaScript Affogato: Programming a Culture of Improvised Expertise", *Configurations*, Volume 26, Number 1, Winter 2018, 47-72.
+- Chun, Wendy Hui Kyong. “On Software, or the Persistence of Visual Knowledge.” Grey Room 18 (January 2005): 26–51. https://doi.org/10.1162/1526381043320741.
 
 ## Chapter 2 - Variable Geometry
 
@@ -60,10 +61,12 @@
 
 ## Chapter 8 - Que(e)ry Data
 
+- Bucher, Taina, “Objects of intense feeling: The case of the Twitter API”, in Computational Culture: a journal of software studies. 2013. Web. 27 Nov. 2013. http://computationalculture.net/article/objects-of-intense-feeling-the-case-of-the-twitter-api
+
 - Kirschenbaum, Matthew G. Mechanisms: New Media and the Forensic Imagination, MIT Press, 2007, 25-71.
 Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City APIs as Elements of Infrastructures.](https://journals.sagepub.com/doi/full/10.1177/2053951719827619)” Big Data & Society, Jan. 2019, doi:10.1177/2053951719827619.
 - Albright, Jonathan. "[The Graph API: Key Points in the Facebook and Cambridge Analytica Debacle](https://medium.com/tow-center/the-graph-api-key-points-in-the-facebook-and-cambridge-analytica-debacle-b69fe692d747)". Medium, 2018. (check out the recent hot topic around Cambridge Analytica online)
-- Bucher, Taina, “Objects of intense feeling: The case of the Twitter API”, in Computational Culture: a journal of software studies. 2013. Web. 27 Nov. 2013. http://computationalculture.net/article/objects-of-intense-feeling-the-case-of-the-twitter-api
+
 
 ## Chapter 9 - Algorithmic Procedures
 
@@ -80,5 +83,3 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 - Adrian Mackenzie, and Anna Munster, “Platform Seeing: Image Ensembles and Their Invisualities”, *Theory, Culture & Society*, vol. 26, issue 5, 2019, 3-22.
 - Matteo Pasquinelli, “How a Machine Learns and Fails: A Grammar of Error for Artificial Intelligence”, *Spheres*, no. 5 (2019), http://matteopasquinelli.com/grammar-of-error-for-artificial-intelligence/.
 - Joseph Weizenbaum, "ELIZA - a computer program for the study of natural language communication between man and machine", in *Commun ACM* 9(1) (1966): 36–4.
-
-
