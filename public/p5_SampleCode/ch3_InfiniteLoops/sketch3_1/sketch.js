@@ -17,7 +17,7 @@ function drawElements() {
   let cir = 360/num*(frameCount%num);  //to know which one among 8 possible positions.
   rotate(radians(cir));
   noStroke();
-  fill(0,0,0);
+  fill(255,255,0);
   ellipse(35,0,22,22);  //the moving dot(s), the x is the distance from the center
   pop();
   stroke(255,255,0, 18);

@@ -18,7 +18,7 @@ It was mathematician and writer Augusta Ada Byron Lovelace who is one of the fir
 
 *Figure 3.2: Diagram for the computation by the Engine of the Numbers of Bernoulli, from "Note G" by Ada Lovelace*
 
-The idea of a loop in contemporary programming is highly influenced by these early insights into the handling of repeated machine operations expressed in a diagramatic manner. High-level programming languages such as `p5.js` include this loop concept, allowing a fragment of source code to be repeatedly executed, as in the example of the `draw()` function that will run continuously until the program is stopped or using the syntax `noLoop()`. We will continue with further examples but suffice to say that loops are among the most basic and powerful of programming concepts.
+The idea of a loop in contemporary programming is highly influenced by these early insights into the handling of repeated machine operations expressed in a diagramatic manner. High-level programming languages such as p5.js include this loop concept, allowing a fragment of source code to be repeatedly executed, as in the example of the `draw()` function that will run continuously until the program is stopped or using the syntax `noLoop()`. We will continue with further examples but suffice to say that loops are among the most basic and powerful of programming concepts.
 
 The example we use centrally in this chapter is the graphical spinning wheel icon of a preloader or so-called "throbber"[^throbber] that indicates when a computer program is performing an action such as downloading content or performing intensive calculations. We find this to be an evocative symbol as it illuminates the discrepancy between what we seems to know and what we don't know behind this icon with hidden human-machine labour processes and the complexity of multiple temporalities that are running during any given computational operation.[^screensaver] It is also a good visual icon that is running repeatedly in a loop for us to contemplate how perceptible streams and computational logics are entangled, and that changes the way how we experience the now via digital medium.[^soon] As we are moving away from static objects to moving pieces, we use this animated throbber to guide the programming tasks in thinking about transformation (such as rotation and translation) but also because it acts as a suitable cultural object for us to think through the idea of loops and the related temporal elements and syntax more conceptually.
 
@@ -32,7 +32,7 @@ In this chapter we move from programming static objects such as shapes to a mixt
 
 *Figure 3.3: The runme of sample code - sketch 3_1*
 
-RUNME
+[RUNME](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch3_InfiniteLoops/sketch3_1/)
 
 Can you describe the different elements and imagine how they operate computationally in your own words.
 
