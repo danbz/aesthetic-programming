@@ -1,5 +1,9 @@
 ## Further readings
 
+## Preface
+
+- Syed Mustafa Ali, A Brief Introduction to Decolonial Computing, XRDS: Crossroads, The ACM Magazine for Students, 22(4) (2016): 16–21.
+
 ## Chapter 1 - Getting Started
 
 - Brian Lennon, "JavaScript Affogato: Programming a Culture of Improvised Expertise", *Configurations*, Volume 26, Number 1, Winter 2018, 47-72.
@@ -80,3 +84,6 @@ Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City AP
 - Adrian Mackenzie, and Anna Munster, “Platform Seeing: Image Ensembles and Their Invisualities”, *Theory, Culture & Society*, vol. 26, issue 5, 2019, 3-22.
 - Matteo Pasquinelli, “How a Machine Learns and Fails: A Grammar of Error for Artificial Intelligence”, *Spheres*, no. 5 (2019), http://matteopasquinelli.com/grammar-of-error-for-artificial-intelligence/.
 - Joseph Weizenbaum, "ELIZA - a computer program for the study of natural language communication between man and machine", in *Commun ACM* 9(1) (1966): 36–4.
+
+## Afterword
+
