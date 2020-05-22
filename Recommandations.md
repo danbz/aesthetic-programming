@@ -26,12 +26,11 @@ Some inspirations:
 - [x] getting started -> add web IDE for gitlab + remove short cuts as each OS is slightly different
 - [x] update ML - TM image -> screenshot
 - [x] adjust flowcharts, more on arrows and relations
--  add ch reference + bibliography/projects.md
-- Revisit Aesterik Painting ch. 3
+- [x] Revisit Aesterik Painting ch. 3
+- [x] include students' work? (put it up online only)
+- [ ] hosting of the web book -> OHP? (need to check with Gary Hall)
 - TOC - flowchart
 - ML chapter: update the auto chapter generator both models + screenshots when we have a finalized text
-- [x] include students' work? (put it up online only)
-- [] hosting of the web book -> OHP? (need to check with Gary Hall)
 
 ## Issues (by Geoff)
 - [x] copyedit text for flow and accessibility of language. Sternberg style guide?
