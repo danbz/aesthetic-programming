@@ -127,20 +127,19 @@ You can also try to type/copy the above code in your own sketch and it will retu
 </div>
 
 ### Transform
-In general, the transform-related functions apply a 2D or 3D transformation to an element or object. For the provided sample code, there are two specific transformational functions have been used to move the canvas and created an illusion of objects transformation. (This is important to know the transformation is done at the level of canvas background but not at the individual shape/object).
+In general, the transform-related functions[^ref2] apply a 2D or 3D transformation to an element or object. For the provided sample code, there are two specific transformational functions have been used to move the canvas and created an illusion of objects transformation. (This is important to know the transformation is done at the level of canvas background but not at the individual shape/object).
 
 ![3.3](ch3_3.png)
 
 *Figure 3.4: Moving the coordinate system at the canvas level (image from processing.org)*
 
-1. `translate()`: This function displaces/moves objects within the display window. For example, moving the canvas to the center will position the whole sketch at the center too (`translate(width/2, height/2);`). The ellipse is drawn as `ellipse(35,0,22,22)` which takes in (35,0) as the x and y coordinates, where 22 is the size. If we don't have the upfront `translate()` function, the ellipse will be placed at the top left corner instead (while the x coordinate value "35" is the distance of the circulating ellipses from the center position). By moving the coordinate origin to the middle via the `translate()` function, then you see the ellipses now place in the middle of the canvas, in which the coordinate orign (0,0) has moved to the center of the screen instead.  
-2. `rotate()`: By using the function `rotate()`, in this sample code, the object ellipse will rotate at a certain angle. The default unit for rotation is radians. As such, the code is written as `rotate(radians(cir));`. The function `rotate()` takes in radians as the default mode, and if you want to change to the degree mode, you add the code `angleMode(DEGREES)`.
+1. `translate()`: This function displaces/moves objects within the display window. For example, moving the canvas to the center will position the whole sketch at the center too (`translate(width/2, height/2);`). The ellipse is drawn as `ellipse(35,0,22,22)` which takes in (35,0) as the x and y coordinates, where 22 is the size. If we don't have the upfront `translate()` function, the ellipse will be placed at the top left corner instead (while the x coordinate value "35" is the distance of the circulating ellipses from the center position). By moving the coordinate origin to the middle via the `translate()` function, then you see the ellipses now place in the middle of the canvas, in which the coordinate orign (0,0) has moved to the center of the screen instead. Building upon the previous chapter around the spatial dimension of a coordinate system, translate adds another layer to think about moving and positioning objects via canvas.
+2. `rotate()`: By using the function `rotate()`, in this sample code, the object ellipse will rotate at a certain angle over time. The default unit for rotation is radians. As such, the code is written as `rotate(radians(cir));`. The function `rotate()` takes in radians as the default mode, and if you want to change to the degree mode, you add the code `angleMode(DEGREES)`.
 
-There are in total 9 ellipses (which is indicated as `let num=9;`), and each comes with a separation of 40 degrees (i.e 0.968 rad) which is derived from 360/9. A circle has 360 degrees and to rotate the ellipse over time, it requires the time element to calculate when, how and where to move. This is how the function `frameCount()` comes in, which counts the number of frames that have been displayed since the program started.[^ref] The line `let cir = 360/num*(frameCount%num);` illustrates the use of a modulo operation to find the remainder after the division of one number by another. As such the value of the variable `cir` is only limited to the multiples of 40: 0, 40, 80, 120, 160, 240, 280 and 320. With the `cir` value, then the program will follow such a sequence over time to rotate one after the other based on the original position and repeats continously.  
+In order to continue the building of spatial relationship, the entanglement of time and space is made apparent in this example by using the `rotate()` function that is operated alongside other time related syntax within `draw()`. There are in total 9 ellipses (which is indicated as `let num=9;`), and each comes with a separation of 40 degrees (i.e 0.968 rad) which is derived from 360/9. A circle has 360 degrees and to rotate the ellipse over time, it requires the time element to calculate when, how and where to move. This is how the function `frameCount()` comes in, which counts the number of frames that have been displayed since the program started.[^ref] The line `let cir = 360/num*(frameCount%num);` illustrates the use of a modulo operation to find the remainder after the division of one number by another. As such the value of the variable `cir` is only limited to the multiples of 40: 0, 40, 80, 120, 160, 240, 280 and 320. With the `cir` value, then the program will follow such a sequence over time to rotate one after the other based on the original position and repeats continously.
 
-There are also other transform-related functions such as `scale()`, `shearX()`, `shearY()`.[^ref2]
-
-In addition `push()` and `pop()` functions are commonly used to save the current style and restore settings respectively. Style such as color and a setting such as rotate and translate. The following excerpt of code will help to explain:
+#### push() and pop()
+Functions of `push()` and `pop()` are commonly used to save the current style and restore settings respectively. Style such as color and a setting such as rotate and translate. In the sample code, rotation is only applied to the centered ellipses while there are four lines at each side are fixed. The following excerpt of code will help to explain:
 
 ```javascript
 function drawElements() {
@@ -164,7 +163,7 @@ function drawElements() {
 }
 ```
 
-The last four lines describe the drawing of the static four yellow lines. Logically speaking, the translate and rotate functions should also apply to these lines but because the `pop()` function is placed right after all the drawing of ellipses and as such it does not impact the lines. But if you move the line `pop()` to the end, then the lines will also rotate and translate. This illustrates how `push()` and `pop()` might be used and how their placement matters.[^ref3]
+The last four lines describe the drawing of the static four yellow lines. Logically speaking, the translate and rotate functions should also apply to these lines but because the `pop()` function is placed right after all the drawing of ellipses and as such it does not impact the lines. But if you move the line `pop()` to the end, then the lines will also rotate and translate. This illustrates how `push()` and `pop()` might be used to save and restore styles, and their placement matters.[^ref3]
 
 <div class="exercise" markdown="true">
 
@@ -266,7 +265,7 @@ function draw(){
 
 ### Exercise in class
 
-- Run the *Asterisk Painting* [here](https://gitlab.com/siusoon/Aesthetic_Programming_Book/blob/master/sample_codes/p5_SampleCode/ch3_InfiniteLoops/index.html)
+- Run the *Asterisk Painting* [here](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch3_InfiniteLoops/)
 - Read the source code above.
 - Use the decoding method that we have introduced earlier in this chapter, try to speculate, experiment and map your thoughts with the source code.  
     - *Speculation:* Describe what you see/experience on the screen?
@@ -413,14 +412,14 @@ Loops offer alternative perspectives and imaginaries on time. In his conference 
 
 Contrary to any traditional narrative — with its beginning, middle and end – Ernst points out that a computational recording can be re-enacted endlessly: "with no internal sense of ending"; as a "time-critical condition".[^Else2] That there can be "no happy ending" allows Ernst to elaborate on new temporal structures that no longer are aligned to traditional narrative structures or the terminal logic of the *end of history*.[^End] Our first example of the throbber alludes to this blurring of start and end. Temporal complexity is further developed by referring back to Turing’s speculation on artificial intelligence and whether a finite-state machine can be aware of its "conscious" state at a given time and whether a sense of ending is necessary in order to be functional. It is clear that finite state machines are procedural, in that they operate linear sequences of discrete events in time like clockwork, but as Ernst reminds us: "There is no automatic procedure which can decide for any program, if it contains an endless loop or not."[^Else3]
 
-Making reference to Martin Heidegger’s "being-in-time,"[^Heidegger] and the knowledge of the end of life that inscribes a temporal sense of what it means to be a human being, Ernst says: “Humans live with the implicit awareness that their death is already future in the past.”[^Ernst4] This looped deferral of ending is ontologically exacerbated with computation, unfolding the ending of being as a time-critical condition for both humans and machines alike. Leaving aside a deeper discussion of the philosophy of Heidegger, the importance of this for the discussion of loops seem to activate the complexity of lived time. Programming manages to provides insights here and creative opportunities such as in the case of live coding where programmers interact with a running system that is not stopped while waiting for new program statements. We can even begin to speculate on how software is not only synchronized with lived time but actually produces it, and we hope the two examples in the chapter help us to think through the intersection of endlessness, loops and conditions in both conceptual and technical ways. We might go as far as to say that programming allows for a time-critical understanding of how technologies play a crucial role in our experience of time, not only how we model it, but how we can forge new beginnings and endings.
+Making reference to Martin Heidegger’s "being-in-time,"[^Heidegger] and the knowledge of the end of life that inscribes a temporal sense of what it means to be a human being, Ernst says: “Humans live with the implicit awareness that their death is already future in the past.”[^Ernst4] This looped deferral of ending is ontologically exacerbated with computation, unfolding the ending of being as a time-critical condition for both humans and machines alike. Leaving aside a deeper discussion of the philosophy of Heidegger, the importance of this for the discussion of loops seem to activate the complexity of lived time. Programming manages to provides insights here and creative opportunities such as in the case of live coding where programmers interact with a running system that is not stopped while waiting for new program statements. We can even begin to speculate on how software is not only synchronized with lived time but actually produces it, and we hope the two examples in the chapter help us to think through the intersection of endlessness, loops, conditions and temporalities in both conceptual and technical ways. We might go as far as to say that programming allows for a time-critical understanding of how technologies play a crucial role in our experience of time, not only how we model it, but how we can forge new beginnings and endings.
 
 <div class="exercise" markdown="true">
 
 ## MiniX[3]: Designing a throbber
 **Objective:**
 
-- To reflect upon temporality in digital culture with the throbber icon.
+- To reflect upon temporality in digital culture through designing a throbber icon.
 - To experiment with various computational syntax and effects of animation and transformation.
 
 **Get some additional inspiraton here:**
@@ -435,7 +434,7 @@ Check out other works that refer to the throbber and how other people contextual
 - [Throb 2018/2019](http://siusoon.net/throb/) by Winnie Soon.
 
 **Task (RUNME):**
-- Redesign and program an *animated* throbber.
+- With the use of loops and any one of the transformational functions, redesign and program an *animated* throbber.
 
 **Questions to think about (README):**
 - **Describe** your throbber design, both conceptually and technically.
@@ -459,7 +458,7 @@ Check out other works that refer to the throbber and how other people contextual
 [^throbber]: It is also interesting to note that the term 'throbber' is a derogatory term, meaning a stupid person, not unlike 'git' as described in the opening chapter.
 [^Robinson]: Derek Robinson, "Function", in Matthew Fuller, ed. *Software Studies* (London: MIT Press, 2008), 101.
 [^ref]: https://p5js.org/reference/#/p5/frameCount.
-[^ref2]: https://p5js.org/reference/#group-Transform.
+[^ref2]: To stick with the provided examples, we only offer two syntax that are related to transformation. Beyond `translate()` and `rotate()`, there are also other transform-related functions such as `scale()`, `shearX()`, `shearY()`. See https://p5js.org/reference/#group-Transform.
 [^ref3]: https://p5js.org/reference/#/p5/push.
 [^Bell]: http://www.johnpbell.com/asterisk-painting/.
 [^millis]: https://p5js.org/reference/#/p5/millis. This is a p5.js syntax, returning the number of milliseconds since starting the program, similar to frameCount but counted in miniseconds.
