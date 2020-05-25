@@ -260,9 +260,9 @@ Make a RUNME and a README.
 
 [^Moon]: Seong-Won Lee and Soo-Mook Moon, "Selective Just-in-time Compilation for Client-side Mobile Javascript Engine", in *Proceedings of the 14th International Conference on Compilers, Architectures and Synthesis for Embedded Systems (CASES '11)* (New York: ACM, 2011), 5-14. DOI: https://doi.org/10.1145/2038698.2038703
 
-[^IDE]: explain IDE.
+[^IDE]: IDE is a software application that provides a more comprehensive and intergrated environment for software development. It usually consists of a source code editor, build automation tools and a debugger. In this book we use ATOM as the code editor, but it requires the other tool for debugging such as the browser's web console. One of the examples of IDE would be Processing, an open source standalone application built for the visual and electronic art communities. See https://en.wikipedia.org/wiki/Integrated_development_environment.
 
-[^JVM]: explain JVM.
+[^JVM]: JVM refers to a virtual environment in a machine (usually a computer) that can run and execute programs in the form of Java bytecode written in programming languages such as Java. JVM performs opertions such as loading, verifying, executing code, offering a runtime environment. See https://en.wikipedia.org/wiki/Java_virtual_machine.
 
 [^Minecraft]: See https://minecraft.gamepedia.com/Development_resources.
 
