@@ -29,7 +29,7 @@ Our point is that using emojis may be fun and expressive but they also tend to o
 ![](ch2_2.gif)<br>
 *Figure 2.2: The screenshot of the remix of Multi*
 
-[RunMe]()
+[RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch2_VariableGeometry/)
 
 ```javascript
 /*Inspired by David Reinfurt's work - Multi*/
