@@ -410,7 +410,7 @@ function notNew(getQueer) {
 
 ## While()
 
-In high-level programming languages like JavaScript, the source code both sends instructions to machines as well as communicates to humans. In this way, writing source code involves the use of signs and symbols, both semantics and syntactics, and operates across both programming and so-called natural languages. Beyond the mentioned poetry, Lingdong Huang has developed the first programming language called *wenyan-lang* based on classical Chinese literature. Although programming language and syntax are not displayed in English, the form of displaying ancient Chinese texts has utitlized both traditional Chinese characters and classical Chinese grammer.[^wenyan] Using signs and symbols as well as combining formal logic and poetic expression are the starting points to understand the double logic of vocable code.
+In high-level programming languages like JavaScript, the source code both sends instructions to machines as well as communicates to humans. In this way, writing source code involves the use of signs and symbols, both semantics and syntactics, and operates across both programming and so-called natural languages. Beyond the mentioned poetry, Lingdong Huang has developed the first programming language called *wenyan-lang* based on classical Chinese literature. Although programming language and syntax are not displayed in English, the form of displaying ancient Chinese texts has utitlized both traditional Chinese characters and classical Chinese grammer.[^wy] Using signs and symbols as well as combining formal logic and poetic expression are the starting points to understand the double logic of vocable code.
 
  We have also learnt from the previous chapter (Object Orientation) that abstraction is a fundamental concept to software development, which is different from machine operations, and thus puts focus on building abstractions as objects. The use of class/object structures (text as object instances), conditional structures, procedures and subroutines, such as the for-loop, are some of the ways to present and execute the source code. However, in the context of machine execution, those variable names - the semantic layer - are stripped away and this kind of human-readable information is avoided. This 'secondary notation' does not have any effect on the execution of the program apart from memory size but provides other potential uses. In this way, choosing meaningful identifier names is more for the purpose of expression and communication, and our example above demonstrates this purpose clearly. This is where we hear the voice of the programmer.
 
@@ -500,7 +500,7 @@ See: Parrish, A (2015) https://vimeo.com/134734729; Cramer, F (2008) Language in
 
 [^Plant4]: Plant, *Zeros + Ones*, 102.
 
-[^wenyan]: The project 文言 wenyan-lang about a programming language for the ancient Chinese https://wy-lang.org/
+[^wy]: The project 文言 wenyan-lang is an esoteric programming language that closely follows the grammar and tone of classical Chinese literature. See https://wy-lang.org/
 
 [^cox2]: Cox, Speaking Code, 24.
 
