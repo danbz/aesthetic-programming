@@ -42,3 +42,5 @@ The list will continuously update in the online version.
 - [Corona bar](https://gitlab.com/pernwn/ap2020/-/tree/master/public/MX9) by Simon Van Nguyen and Pernille P.W. Johansen, 2020
 
 #### MiniX[10]: Final Project
+
+- [4-card Monte](https://sophiamcculloch.gitlab.io/ap2020/Eksamen/) by Jonas Paaske Ditlevsen, sophia McCulloch, Mads Lindgaard, 2020
