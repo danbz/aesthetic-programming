@@ -133,7 +133,7 @@ First you need to assign an object name for the button, and of course different 
 
 - `let button;`: First step is to declare the object by assigning a name.
 - `button = createButton('like');`: Create a button and consider what text is to be displayed.
-- `button.style("xxx","xxxx");`: This is the CSS standard, where the first argument is a selection and the second is a declaration block. For example if you want to set the font color, then you can put in "color" and "#fff" respectively.[^Style] For this specific sample code, all the styling is copied from the Facebook interface directly (as of 2015) by looking into their CSS source code. Styling includes `display`, `color`, `padding`, `text-decoration`, `font-size`, `font-weight`, `border-radius`, `border`, `text-shadow`, `background` and `filter`, with the addition of `transform`.  
+- `button.style("xxx","xxxx");`: This is the CSS standard, where the first argument is a selection/selector and the second is a declaration block/attributes. For example if you want to set the font color, then you can put in "color" and "#fff" respectively.[^Style] For this specific sample code, all the styling is copied from the Facebook interface directly (as of 2015) by looking into their CSS source code. Styling includes `display`, `color`, `padding`, `text-decoration`, `font-size`, `font-weight`, `border-radius`, `border`, `text-shadow`, `background` and `filter`, with the addition of `transform`.  
 - `button.mousePressed(clearance());`: This specifies what to do (which function to call) when the program listens to the mousePressed event. Within the customized function `clearance()`, the `clear()` is a JavaScript built-in function and in this case is included to clear the screen.    
 - `button.size();`: This sets the size of the button in terms of its width and height.
 - `button.position();` This sets the position of the button.
@@ -375,7 +375,7 @@ This is a reference to the philosophy of Gilbert Simondon, to the transformation
 [^Pold]: Søren Pold, "Button", in Matthew Fuller ed., *Software Studies* (Cambridge, Mass.: MIT Press, 2008), 34. Users are seduced by the wording not least, and Pold suggests that a button is developed with distinct functionality and signification (Ibid., 31).
 [^DOM]: https://p5js.org/reference/#group-DOM.
 [^Element]: See the method list of p5.Element here, https://p5js.org/reference/#/p5.Element.
-[^Style]: For possible styling of a button, some examples can be found here: https://www.w3schools.com/csS/css3_buttons.asp.
+[^Style]: Styling a button follows the syntax of CSS that controls how a DOM element like a button should be displayed. The provided example shows that the CSS is incorporated into the Javascript file by using the syntax `button.style('xxx:xxxx');`. Another way of doing this is to follow the convention of having a css file that lists the `.class` selector. In this way, we need to have the syntax in the JavaScript file to mark the .class name: `button.class('class_name');`, and then list out the CSS elements and class attributes in the css file. More examples can be found here: https://www.w3schools.com/csS/css3_buttons.asp.
 [^event]: See the related function in the reference page, which is under Events > Mouse> https://p5js.org/reference/.
 [^Key]: See the related function in the reference page, which is under Events > Keyboard> https://p5js.org/reference/.
 [^Audio]: See the different features of the sound library: https://p5js.org/reference/#/libraries/p5.sound.
