@@ -141,9 +141,10 @@ First you need to assign an object name for the button, and of course different 
 - `let button;`: First step is to declare the object by assigning a name.
 - `button = createButton('like');`: Create a button and consider what text is to be displayed.
 - `button.style("xxx","xxxx");`: This is the CSS standard, where the first argument is a selection/selector and the second is a declaration block/attributes. For example if you want to set the font color, then you can put in "color" and "#fff" respectively.[^Style] For this specific sample code, all the styling is copied from the Facebook interface directly (as of 2015) by looking into their CSS source code. Styling includes `display`, `color`, `padding`, `text-decoration`, `font-size`, `font-weight`, `border-radius`, `border`, `text-shadow`, `background` and `filter`, with the addition of `transform`.  
-- `button.mousePressed(clearance());`: This specifies what to do (which function to call) when the program listens to the mousePressed event. Within the customized function `clearance()`, the `clear()` is a JavaScript built-in function and in this case is included to clear the screen.    
 - `button.size();`: This sets the size of the button in terms of its width and height.
 - `button.position();` This sets the position of the button.
+- `button.mousePressed(clearance());`: This specifies what to do (which function to call) when the program listens to the mousePressed event. Within the customized function `clearance()`, the button will first change the color and then clear the screen with the JavaScript built-in function `clear()`.
+- `button.mouseOut(revertStyle);`: This reverts the original button's color.    
 
 ## Mouse capture
 In the previous chapter the program listened to the mouse movement and captured the corresponding x and y coordinates by using the built-in syntaxes `mouseX` and `mouseY`. This sample code incorporates specific mouse listening events, such as `mouseOut` and `mousePressed()` functions which will be called once every time the user moves the mouse pointer out of the button, as well as presses a mouse button. See the excerpt of code below:
@@ -163,7 +164,7 @@ function revertStyle(){
 }
 
 ```
-The function `mousePressed()` is attached to the button that trigger further actions. In this example, the actions are changing the button's background color and clear the screen, especially with the face tracker points. There are other mouse related mouseEvents,[^event] such as `mouseClicked()`, `mouseReleased()`, `doubleClicked()`, `mouseMoved()`, and so on. Lastly, the function `mouseOut` is mainly used to do revert the button's color back to the original state. 
+Beyond the functions `mousePressed()` and `mouseOut()`, there are other mouse related mouseEvents,[^event] such as `mouseClicked()`, `mouseReleased()`, `doubleClicked()`, `mouseMoved()`, and so on. 
 
 ## Keyboard capture
 ```javascript
