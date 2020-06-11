@@ -44,5 +44,5 @@ The list will continuously update in the online version.
 #### MiniX[10]: Final Project
 
 - [4-card Monte](https://sophiamcculloch.gitlab.io/ap2020/Eksamen/) by Jonas Paaske Ditlevsen, sophia McCulloch, Mads Lindgaard, 2020
-- [Consealed data capture](https://oliviasp.gitlab.io/ap2020/FP/) by Olivia Smedegaard Peray, Freyja Viskum Madsen,
+- [Question Room](https://oliviasp.gitlab.io/ap2020/FP/) by Olivia Smedegaard Peray, Freyja Viskum Madsen,
 Agnete Lystbæk Gjesse & Stine Frydendahl Mygind, 2020
