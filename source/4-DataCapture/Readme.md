@@ -21,7 +21,7 @@ With these ideas in mind, the next section will introduce the sample code for a 
 [RUNME](https://siusoon.gitlab.io/Aesthetic_Programming_Book/)    
 
 Starting with this sample code, the sketch incorporates four data inputs for a customizable Like button:
-1. The button is clickable through the mouse to clear the screen.
+1. The button is clickable through the mouse to change the color and clear the screen.
 2. The button will rotate 180 degrees when you click on the spacebar of your keyboard.
 3. The button will change its size according to the volume of the audio/mic input.
 4. The button will move according to the facial recognization software, following what it considers to be the mouth of the face.
@@ -90,6 +90,7 @@ function setup() {
   button.style("background","-ms-linear-gradient(top, #4c69ba 0%, #3b55a0 100%)");
   button.style("background","linear-gradient(to bottom, #4c69ba 0%, #3b55a0 100%)");
   button.style("filter","progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c69ba', endColorstr='#3b55a0', GradientType=0 )");
+  button.mouseOut(revertStyle);
 
   //mouse capture
   button.mousePressed(clearance);  //click the button to clear the screen
@@ -113,8 +114,14 @@ function draw() {
 }
 
 function clearance() {
+  button.style("background","#2d3f74");
   clear();
 }
+
+function revertStyle(){
+    button.style("background","#4c69ba");
+}
+
 
 //keyboard capture
 function keyPressed() {
@@ -139,17 +146,24 @@ First you need to assign an object name for the button, and of course different 
 - `button.position();` This sets the position of the button.
 
 ## Mouse capture
-In the previous chapter the program listened to the mouse movement and captured the corresponding x and y coordinates by using the built-in syntaxes `mouseX` and `mouseY`. This sample code incorporates a specific `mousePressed()` function which is called once every time the user presses a mouse button. See the excerpt of code below:
+In the previous chapter the program listened to the mouse movement and captured the corresponding x and y coordinates by using the built-in syntaxes `mouseX` and `mouseY`. This sample code incorporates specific mouse listening events, such as `mouseOut` and `mousePressed()` functions which will be called once every time the user moves the mouse pointer out of the button, as well as presses a mouse button. See the excerpt of code below:
 
 ```javascript
-button.mousePressed(clearance);  
-//click the button to clear the screen
+button.mouseOut(revertStyle);
+
+button.mousePressed(clearance);  //click the button to clear the screen
 
 function clearance() {
+  button.style("background","#2d3f74");
   clear();
 }
+
+function revertStyle(){
+    button.style("background","#4c69ba");
+}
+
 ```
-The function `mousePressed()` is attached to the button you want to trigger actions. There are other mouse related mouseEvents,[^event] such as `mouseClicked()`, `mouseReleased()`, `doubleClicked()`, `mouseMoved()`, and so on.
+The function `mousePressed()` is attached to the button that trigger further actions. In this example, the actions are changing the button's background color and clear the screen, especially with the face tracker points. There are other mouse related mouseEvents,[^event] such as `mouseClicked()`, `mouseReleased()`, `doubleClicked()`, `mouseMoved()`, and so on. Lastly, the function `mouseOut` is mainly used to do revert the button's color back to the original state. 
 
 ## Keyboard capture
 ```javascript
