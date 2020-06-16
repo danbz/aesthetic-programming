@@ -49,7 +49,7 @@ function setup() {
   button.style("background","-ms-linear-gradient(top, #4c69ba 0%, #3b55a0 100%)");
   button.style("background","linear-gradient(to bottom, #4c69ba 0%, #3b55a0 100%)");
   button.style("filter","progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c69ba', endColorstr='#3b55a0', GradientType=0 )");
-
+  button.mouseOut(revertStyle);
   //mouse capture
   button.mousePressed(clearence);  //click the button to clear the screen
 }
@@ -72,9 +72,13 @@ function draw() {
 }
 
 function clearence() {
+  button.style("background","#2d3f74");
   clear();
 }
 
+function revertStyle(){
+  button.style("background","#4c69ba");
+}
 //keyboard capture
 function keyPressed() {
   if (keyCode === 32) { //spacebar - check here: http://keycode.info/
