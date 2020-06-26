@@ -149,7 +149,7 @@ The above is the excerpt from the full code required to draw two different sized
     1. *number* for numbers of any kind: integer or floating-point.
     2. *string* for strings. A string may have one or more characters and it has to be used with double or single quotation marks. For example: `let moving_size = "sixty";`
     3. *boolean* for true/false. For example: `let moving_size = true;`
-    4. *color* for color values. This accepts Red Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` (see more from the [p5.js color reference](https://p5js.org/reference/#/p5/color)[^color]
+    4. *color* for color values. This accepts Red, Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` (see more from the [p5.js color reference](https://p5js.org/reference/#/p5/color)[^color]
 
 3. **(Re)Use:** How and when do you want to retrieve the stored data?
 
