@@ -451,7 +451,7 @@ Check out other works that refer to the throbber and how other people contextual
 - Close reading of the artwork *Asterisk Painting* by John P. Bell, ported to p5.js, and modified by Winnie Soon, https://editor.p5js.org/siusoon/sketches/YAk1ZCieC.
 
 ## Notes:
-[^Hofstadter]: Further examples of paradox, recursion and strange loops can be found in Douglas R. Hofstadter's' *Gödel, Escher, Bach: An Eternal Golden Braid* (New York: Basic Books, 1999).
+[^Hofstadter]: Further examples of paradox, recursion, and strange loops can be found in Douglas R. Hofstadter's' *Gödel, Escher, Bach: An Eternal Golden Braid* (New York: Basic Books, 1999).
 [^Ada]: For an account of "Note G", see Joasia Krysa's *Ada Lovelace* 100 Notes-100 Thoughts Documenta 13 (Berlin: Hatje Cantz Verlag, 2011).
 [^screensaver]: There is much we could add here also about screensavers as cultural form in the broader context of productive labor-time, and the attention economy. Alexandra Anikina's PhD *Procedural Films* (Goldsmiths, University of London, 2020) contains a chapter on the aesthetic form of screensavers in relation to the discussion of idle time/sleep, and cognitive labor; her lecture-performance *Chronic Film* from 2017 can be seen at http://en.mieff.com/2017/alexandra_anikina. See also Rafaël Rozendaal's installation *Sleep Mode: The Art of the Screensaver* at Het Nieuwe Instituut (2017), https://hetnieuweinstituut.nl/en/press-releases/sleep-mode-art-screensaver.
 [^Kim]: Eugene Eric Kim and Betty Alexandra Toole, "Ada and the First Computer", *Scientific American* 280, no. 5 (1999), 78.
