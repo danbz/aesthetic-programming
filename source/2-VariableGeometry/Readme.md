@@ -375,4 +375,4 @@ Explore shapes, geometries and other related syntax (via p5.js [references](http
 
 [^Abidin]: Abidin and Gn, "Between Art and Application".
 
-[^chun]: Chun discusses symbolic programming languages (as higher-level one) hide the computational processes. On the one hand it empowers users to create, but on the other hand it mystified the interior workings of machines. Here variables is one of the many examples that abstract computer operations. We will discuss this in Chapter 6 - "Object Abstraction". See Chun, Wendy Hui Kyong. “On Software, or the Persistence of Visual Knowledge,” *Grey Room* 18 (January 2005): 38. https://doi.org/10.1162/1526381043320741.
+[^chun]: Chun discusses symbolic programming languages (as higher-level one) that hide the computational processes. This both empowers users to create, but conversely mystifies the inner workings of machines. Here variables are one of the many examples that abstract computer operations. We will discuss this in Chapter 6 - "Object Abstraction". See Chun, Wendy Hui Kyong. “On Software, or the Persistence of Visual Knowledge,” *Grey Room* 18 (January 2005): 38. https://doi.org/10.1162/1526381043320741.
