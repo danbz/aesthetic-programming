@@ -338,23 +338,25 @@ if(sentences >= maxSentences){  //if the existing sentence count reaches the max
 The value of the variable `maxSentences` is seventy-seven (refer to Line 22 from the source code), therefore each asterisk contains seventy-seven sentences (in the form of a line that contains numbers). The other variable `sentences` counts each line and the program checks whether the current `sentences` count has reached its maximum. **If** the asterisk reaches seventy-seven sentences **then** it will move to the next one and the `sentences` counter will be reset to zero (Line 82) and start counting again. The logic repeats within the `draw()` function.
 
 ### Loops
-The core concept of a loop is that it enables you to execute a block of code many times. For example, if you have to draw one hundred lines that are placed vertically one after the other, you can of course write one hundred lines of code using the syntax: `line()`. A *for-loop* provides an efficient way to draw the line 100 times by setting up a conditional structure, counting the number of lines that have been drawn and counting the maximum lines. Similarly in this sketch, there are something needed to be repeatedly run but there is an end, such as calculating the center point in the exact x and y coordinates for each asterisk which are based on the width and height of the canvas. By knowing the number of columns and rows on a canvas, then we will Know the values of the center point for drawing each asterisk.
+The core concept of a loop is that it enables you to execute a block of code many times. For example, if you have to draw one hundred lines that are placed vertically one after the other, you can of course write one hundred lines of code using the syntax: `line()`. 
+
+A *for-loop* allows code to be executed repeatedly, and so provides an efficient way to draw the line one hundred times by setting up a conditional structure, counting the number of lines that have been drawn and counting the maximum lines. Similarly, in this sketch, there are some elements needed to run repeatedly, but there is an end, such as calculating the center point using the exact x and y coordinates for each asterisk which are based on the width and height of the canvas. Knowing how many columns and rows make up a canvas, allows us to know the values of the center point for drawing each asterisk.
 
 To structure a for-loop, you need to ask yourself:
 
-- What are the things/actions that you want to loop, to repeat in a sequence or pattern?
-- More specifically, what is the conditional logic, and when do you want to exit/stop the loop?
+- What are the things/actions that you want to repeat in a sequence or pattern?
+- More specifically, what is the conditional logic and when do you want to end the loop?
 - What do you want to do when this condition is or is not met?
 
-See below an excerpt of *Asterisk Painting* (lines 37-42):
+The following is an excerpt from *Asterisk Painting* (Lines 37-42):
 
 ```javascript
   for(let i=0; i< xPos.length; i++) {
-    //calculate the position of each asterisk horizontally as an array that starts with an array index[0]
+    //calculate the position of each asterisk horizontally that starts with an array index[0]
     xPos[i] = xPos[i] * (xDim / (xPos.length+1));
   }
   for(let i=0; i< yPos.length; i++) {  
-   //calculate the position of each asterisk vertically as an array that starts with an array index[0]
+   //calculate the position of each asterisk vertically that starts with an array index[0]
     yPos[i] = yPos[i] * (yDim / (yPos.length+1));
   }
 ```
@@ -364,23 +366,23 @@ See the structure of a for-loop:<br>
 ![](ch3_4.png) <br>
 *Figure 3.6 A for-loop*
 
-From Figure 3.6, you can see what a for-loop contains:
+Figure 3.6 shows you what a for-loop consists of:
 
 1. *A variable declaration and initialization*: Usually starts with 0
 2. *A specificed condition*: The criteria to meet the condition
-3. *Action*: The things that you want to process/compute when the condition is met
-4. *Loop for next*: For the next iteration (usually incremental/decremental)
+3. *Action*: What you want to happen when the condition is met
+4. *Loop for next*: For the next iteration (usually incremental/decremental).
 
-For this specific case, this block of code from the above example describes the position of each asterisk in terms of its x and y coordinates (the center point [x,y] of each asterisk). Since there are 5 columns (xPos) and 4 rows (yPos) which have been defined in global variables, the program needs to know the coordinates precisely. The overall formula to locate the position, for example xPos, is to get the width of the canvas to divide by the number of asterisks horizontally and add 1. As such, the code can be understood in this way: For each count with the starting point as 0, calculate the `xPos[i]`. Additionally, each iteration will increase the count by one until it reaches the maximum number of asterisks in a row (`i < xPos.length`).
+This block of code from the above example describes the position of each asterisk in terms of its x and y coordinates (the center point [x,y] of each asterisk). Since there are five columns (xPos) and four rows (yPos) which have been defined in global variables, the program needs to know the coordinates precisely. The overall formula to locate the position, for example xPos, is to get the width of the canvas by the number of asterisks horizontally, and add 1. As such, the code can be understood as follows: calculate the `xPos[i]` for each iteration with the starting point 0. Additionally, each iteration will increase the count by one until it reaches the maximum number of asterisks in a row (`i < xPos.length`).
 
 <!-- <img src="ch3_5.png" width="750"> -->
 ![](ch3_5.png) <br>
 *Figure 3.7 The xPos of each* </br>
 
-In our teaching, we offer another example of the use of a for-loop to further clarify the use and demonstrate the drawing of things repeatedly.
+In our teaching, we describe another example of the use of a for-loop to further clarify its use and to demonstrate the repeated drawing of objects.
 
 ![](ch3_8.png) <br>
-*Figure 3.8 Drawing 20 lines on a canvas by using a for-loop* </br>
+*Figure 3.8 Drawing twenty lines on a canvas using a for-loop* </br>
 
 ```javascript
 let y = 20;
@@ -395,12 +397,11 @@ function setup() {
 }
 ```
 
-In this simple line drawing, the key is the local variable `i` (which is used to set the starting count of the lines: `let i = 0;`, as well as setting the condition of how many lines should be drawn: `i < 20` and to do the actual counting of lines for each iteration: `i++`). The global variable `y` is to determine the position (in terms of y axis - the height) of each line and make sure it will increment 20 pixels for each iteration: `y+=20`. This is how we can use a for-loop to draw multiple lines, instead of having 20 lines with fixed x and y coordinates.
+In this simple line drawing, the key is the local variable `i` (which is used to set the start of the counting of the lines: `let i = 0;`, as well as setting the condition of how many lines should be drawn: `i < 20`, and counting the lines for each iteration: `i++`). The global variable `y` is used to determine the position (in terms of y axis or what could be described as the height) of each line and make sure the program will increment 20 pixels for each iteration: `y+=20`. In this way we use a for-loop to draw multiple lines, instead of having twenty lines with fixed x and y coordinates.
 
-#### While Loop
-While loop is another type of loop for executing iterations. The statement is executed until the condition is true, it will stop as soon as it is false.
+The *while loop* is another type of loop for executing iterations. The statement is executed until the condition is true and stops as soon as it is false.
 
-For example, `while(millis() < wait){}` in line 76 of the work *Asterisk Painting* tells the computer to do nothing if the value of `millis()`[^millis] is less than the value of the `wait` variable. `millis()` is a time-related sytax to return the number of milliseconds since starting the program and it is similar to `frameCount()` but just return the timein the form of milliseconds other than the actual frame count. Once the condition is false (i.e `millis()` is no longer less than `wait`), the loop will be ended and the program can proceed to the next line. This example is located towards the end of the program when all the asterisks are drawn but need to wait for a certain time to reset(clear) the canvas and restart drawing again. Therefore, this while-loop serves the purpose of a pause sign, freezing the program from running because there is literally nothing between the opening and closing brackets.  
+For example, `while(millis() < wait){}` in Line 76 of *Asterisk Painting* tells the computer to do nothing if the value of `millis()`[^millis] is less than the value of the `wait` variable. `millis()` is a time-related syntax and returns the number of milliseconds since the program started which makes it similar to `frameCount()`. Once the condition is false (i.e. `millis()` is no longer less than `wait`), the loop will end, and the program can proceed to the next line. This example is located towards the end of the program when all the asterisks have been drawn, but the program needs to wait a certain amount of time before resetting (clearing) the canvas and starting again. This while-loop therefore serves as a purpose, freezing the program from running because there is literally nothing between the opening and closing brackets.  
 
 ## While()
 
