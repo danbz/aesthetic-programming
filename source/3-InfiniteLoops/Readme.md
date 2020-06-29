@@ -426,7 +426,7 @@ Making reference to Martin Heidegger’s "being-in-time,"[^Heidegger] and the kn
 - To reflect upon temporality in digital culture b desigyning a throbber icon.
 - To experiment with various computational syntaxes and the effects of animation, and transformation.
 
-**Get some additional inspiraton here:**
+**For additional inspiration:**
 
 Check out other works that refer to the throbber and how other people contextualize their thinking:  
 
