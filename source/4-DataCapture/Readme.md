@@ -412,8 +412,8 @@ This makes a reference to the philosophy of Gilbert Simondon, to the transformat
 [^Crary2]: Crary, *24/7*, 10-11.
 [^transmediale]: transmediale, *Capture All*, https://transmediale.de/content/call-for-works-2015.
 [^Terranova]: Tiziana Terranova, "Red Stack Attack! Algorithms, Capital and the Automation of the Common," *EuroNomade*, 2014. Available at http://www.euronomade.info/?p=2268
-[^Terranova2]: Ibid.
-[^Terranova3]: Ibid.
+[^Terranova2]: Terranova, "Red Stack Attack!"
+[^Terranova3]: Terranova, "Red Stack Attack!"
 [^Stiegler]: For Bernard Stiegler, explains Irit Rogoff, "The concept of 'transindividuation' is one that does not rest with the individuated 'I' or with the interindividuated 'We', but "is the process of co-individuation within a preindividuated milieu and in which both the 'I' and the 'We' are transformed through one another". See Bernard Stiegler and Irit Rogoff, "Transindividuation," *e-flux* #14 (March 2010), https://www.e-flux.com/journal/14/61314/transindividuation/. 
 [^datafication]: Christian Ulrik Andersen and Geoff Cox, eds., [A Peer-Reviewed Journal About Datafied Research](https://tidsskrift.dk/APRJA/issue/view/8402), *APRJA* 4.1 (2015).
 [^fb]: The styling of the button is exactly the same as how Facebook's like button styling in 2015.
