@@ -16,7 +16,7 @@ More specifically, the Turing machine is capable of six types of fundamental ope
 
 This chapter will explore how instructions are fundamental elements of adaptive systems, focusing on how rules are performed and how they might produce unexpected and/or complex results.
 
-Focusing on rules and instructions is not only something programmers do, but also something you do when following a knitting pattern or recipe (as we will see with the preparation of tofu below). Artists have also produced instruction-based works of art, as is the case of the Fluxus and the Conceptual Art movements of the 1960s and 1970s that set out to challenge art's object-ness, and encourage its "dematerialization".[^Lippard] There are many examples of commentators making the connection between these instruction-based works and computational art.[^Cox] For instance, the survey exhibition *Programmed: Rules, Codes, and Choreographies in Art, 1965-2018*,[^exhibition], organized by Christiane Paul at the Whitney Museum of American Art (2018-19), explored how instruction-based practices have both responded to, and been shaped by technologies. The work of artist Sol Le Witt is one of the obvious examples here, demonstrating how even though a concept is based on a set of instructions, the outcome might be different depending on how the instructions are interpreted by others. LeWitt explains: "The idea becomes a machine that makes the art".[^LeWitt] For example, the work *Wall Drawing #289* consists of three simple instructions, but does not specify the angles and length of the lines:
+Focusing on rules and instructions is not only something programmers do, but also something you do when following a knitting pattern or recipe (as we will see with the preparation of tofu below). Artists have also produced instruction-based works of art, as is the case of the Fluxus and the Conceptual Art movements of the 1960s and 1970s that set out to challenge art's object-ness, and encourage its "dematerialization".[^Lippard] There are many examples of commentators making the connection between these instruction-based works and computational art.[^Cox] For instance, the survey exhibition *Programmed: Rules, Codes, and Choreographies in Art, 1965-2018*,[^exhibition], organized by Christiane Paul at the Whitney Museum of American Art (2018-19), explored how instruction-based practices have both responded to, and been shaped by technologies. The work of artist Sol Le Witt is one of the obvious examples here, demonstrating how even though a concept is based on a set of instructions, the outcome might be different depending on how the instructions are interpreted by others. For example, the work *Wall Drawing #289* consists of three simple instructions, but does not specify the angles and length of the lines:
 
 1. Twenty-four lines from the center.
 2. Twelve lines from the midpoint of each of the sides.
@@ -26,26 +26,26 @@ Focusing on rules and instructions is not only something programmers do, but als
 
 *Figure 5.2: This image is the software version of the work Wall drawing #289 (1976) by Sol LeWitt, and is further coded by Chuck Grimmett[^289]*
 
-LeWitt's work lends itself well to computation, and this was taken up by Casy Reas using Processing to render LeWitt's wall drawings from their instructions and thus to explore the parallels of interpretation and process in each case.[^Reas] In his accompanying text Reas makes an important distinction in that LeWitt's programs are to be executed and interpreted by people rather than machines. Yet it is the close connection and overlaps that interests him — also underlying the development of the Processing as a "software sketchbook" — wanting programming to be as immediate and fluid as the practice of drawing.
+"The idea becomes a machine that makes the art," as LeWitt explains.[^LeWitt] Using the programming language Processing[^processing], this is taken as an invitation by Casey Reas to render LeWitt's wall drawings on the basis of their instructions, thereby exploring the parallels of interpretation and process for each of them.[^Reas] In his accompanying text, Reas makes the important distinction that LeWitt's programs are to be carried out by people rather than machines. Yet it is the close connection and overlap that interests him, and underlies the development of Processing as a "software sketchbook" as Reas wanted programming to be as immediate and fluid as drawing.
 
-This is not without precedence. Algorithmic drawing has been explored by artist Joan Truckenbrod, as for example in her series of *Coded Algorithmic Drawings* of the 1970s and 80s.[^joan0] *Entropic Tangle* (see Figure 5.3) was coded with the programming language Fortran in 1975, using the mainframe computer with a keypunch machine and magnetic storage media as part of the production. The work presents a number of polygons of variations in size and in rotated angles, simulating invisible natural forces with the creation of continuity and fluctuations by using variables, mathematical modulation and code. Simulating real world systems is a common approach for generative art, but Truckenbrod is interested in how 'natural' forces get re-interpreted by ideas, symbols and numbers that demonstrate the nature of ambiguity and spontaneity.[^joan1] Recursive fractal trees[^tree] and flocking behaviors[^flock] are examples that demonstrate these emergent qualities based on the self-organization of computation and autonomus agents that evolve over time.
+This is not without precedence. Algorithmic drawing has been explored by artists including Joan Truckenbrod, for example in her series *Coded Algorithmic Drawings* that dates back to the 1970s and 80s.[^joan0] *Entropic Tangle* (see Figure 5.3) was coded in the Fortran programming language in 1975, using a mainframe computer with keypunch machine, and magnetic storage media. The work presents a number of polygons that vary in size, and angles of rotation that simulate invisible natural forces and incorporate continuity as well as fluctuations by using variables and mathematical modulation. Truckenbrod is interested in how 'natural' forces get re-interpreted by symbols and numbers that further demonstrate the nature of ambiguity and spontaneity in systems.[^joan1] Recursive fractal trees[^tree] and flocking behaviors[^flock] are examples that demonstrate entropic qualities (lack of order or predictability) based on the self-organization of computation and autonomous agents that evolve over time.
 
 ![drawing3](ch5_8.jpg)
 
 *Figure 5.3: Joan Truckenbrod, Entropic Tangle, 1975. Image courtesy of the artist.*
 
-This kind of approach is important not only because of offering a different way to draw and author works by machines based on mathematical logic, but also to provide a sense of machinic creativity that — as in the previous chapter — questions the centrality of human (and more often than not, masculinist) agency. In this chapter we aim to explore more complex combinations that combine humans and machines, or nonhumans, which would include animals, considering our upcoming example is an ant (and also if we were to make reference to inter-species relations[^haraway]).
+This kind of approach is important, not only because it offers a different way of drawing and authoring works by machines based on mathematical logic, but also to provide a sense of machine creativity that — as in the previous chapter — questions the centrality of human (more often than not, masculinist) agency. In this chapter we aim to explore more complex combinations or inter-species relations[^haraway] between humans and machines, nonhumans or animals, and our next example is an ant.
 
-If we were to draw an ellipse in white color at the x and y coordinate 100 and 120, there is a direct correspondance to the instruction. The outcome is predictable as the instruction is followed to the rule, but this need not be the[^drawings] case as certain kinds of instructions or combinations of instructions can generate unruly results. As this is described in the book *10 PRINT CHR$(205.5+RND(1)); : GOTO 10*, the 10 Print program utilizes randomness to generate unpredictable processes and outcomes as perceived by human. This *generative* capacity throws into question the extent of control and autonomy over the creative process, made clear in the following definition of generative art:[^galanter]
-> Generative art refers to any art practice where artists use a system, such as a set of natural languages, rules, a computer program, a machine, or other procedural invention, which is set into motion with some degree of autonomy contributing to or resulting in a completed work of art.
+If we were to draw an ellipse in white color at the x and y coordinate 100 and 120, the outcome of the instruction is predictable. But this need not be the[^drawings] case as certain kinds of instructions or combinations of instructions can generate unruly results. As described in the book *10 PRINT CHR$(205.5+RND(1)); : GOTO 10*, the 10 Print program utilizes randomness to generate unpredictable processes and outcomes that seem random to humans. This *generative* capacity questions the extent of control over the creative process, as the following definition of generative art reveals:[^galanter]
+> Generative art refers to any art practice where [sic] artists use a system, such as a set of natural languages, rules, a computer program, a machine, or other procedural invention, which is set into motion with some degree of autonomy contributing to or resulting in a completed work of art.
 
-As we can see this definition does not limit itself to the use of computers and this is important to bear in mind as we proceed to focus on our sample code. In the following two examples we explore rule-based programs that unfold some of these issues of auto-generation, but as with previous ones we are interested in the wider implications that include hidden labour, and other standpoints.
+As we can see this definition does not limit itself to the use of computers and this is important to bear in mind as we proceed to focus on our sample code. The following two examples explore rule-based programs that address some of these issues of auto-generation, but as with previous examples we are interested in the wider implications that include hidden labor, and other issues concerning autonomy.
 
 ## start()
 
-The first program is called *10 PRINT* based on one line of program code `10 PRINT CHR$(205.5+RND(1));: GOTO 10`, written in the BASIC programming language and executed on a Commodore 64 home computer. It generates an endless pattern on the screen. It is printed in the 1982 *Commodore 64 User's Guide* and later published on the web. This line of code has become an important example in the field of software studies to demonstrate the history and culture of creative computing.[^10print] *10 PRINT* in p5.js below is used to help us become familiar with rules and its creative potential to demonstrate some degree of autonomy within a system.  
+The first program is called *10 PRINT* referring to one line of program code `10 PRINT CHR$(205.5+RND(1));: GOTO 10`, written in the BASIC programming language and executed on a Commodore 64 (a popular home computer during the 1980s). The program generates an endless pattern on the screen. The line of code was printed in the 1982 *Commodore 64 User's Guide* and was later published online, and has become an important example in the field of software studies to demonstrate the history and culture of creative computing.[^10print] *10 PRINT* in p5.js below is used to help familiarize us with the rules and its creative potential as it demonstrates some degree of autonomy within a system.  
 
-The second program is entitled *Langton's Ant* (1986), a two-dimensional universal Turing machine invented in 1986 by the computer scentist Christopher Langton who is considered to be one of the founders of field of artificial life.[^Langton] The core difference with *10 PRINT* is the way that complex emergent behavior is generated with only a simple set of rules.
+The second program is entitled *Langton's Ant* (1986). It is a two-dimensional universal Turing machine invented in 1986 by the computer scentist Christopher Langton who is considered to be one of the founders of the artificial life field.[^Langton] The core difference with *10 PRINT* is the way in which is generates complex emergent behavior using only a simple set of rules.
 
 ## Exercise in class (10 PRINT)
 
@@ -55,7 +55,7 @@ The second program is entitled *Langton's Ant* (1986), a two-dimensional univers
 
 [RUNME](https://editor.p5js.org/siusoon/sketches/pQlol8qc)
 
-1. **Read** the source code of *10 PRINT* then copy it and run it on your own computer.
+1. **Read** the source code of *10 PRINT*, then copy it, and run it on your own computer.
 
 ```javascript
 let x = 0;
@@ -83,44 +83,44 @@ function draw() {
 }
 ```
 
-2. **Discuss** the following rules of *10 PRINT* and map them to the related lines/blocks of code:
-    - Throw a dice randomly and half of the time print a backward slash
-    - The other half of the time will print a forward slash
+2. **Discuss** the following *10 PRINT* rules and map them to the related lines/blocks of code:
+    - Throw a dice and print a backslash half the time
+    - Print a forward slash the other half of the time
 
-3. Drawing upon the text *Randomness*:
-    - **How** is the flow of control being implemented in *10 PRINT*?
-    - **What** might be the (un)predictability of regularity?
+3. Drawing upon the set text *Randomness*:
+    - **How** is control being implemented in *10 PRINT*?
+    - **What** might the (un)predictability of regularity be?
     - **What** is randomness to a computer?[^Haahr]
-    - **Discuss** the use and the role of randomness in *10 PRINT* and in the arts, literature, and games?
+    - **Discuss** the use and the role of randomness in *10 PRINT*, and in the arts, literature, and in games?
 
 4. Try to modify the existing rules, for example:
-    - Can we change the size, color and spacing of the slashes?
-    - Can we have other outputs beyond just the backward and forward slash?
+    - Can we change the size, color, and spacing of the slashes?
+    - Can we have outputs other than just the backward and forward slashes?
 
-5. *10 PRINT* has been appropriated by many artists, designers and students. Take a look at some of the different possibilities for [*10 PRINT*](https://twitter.com/search?q=%2310print&src=typd) that are documented on Twitter. Your in-class task is to create a sketch with a clear set of rules and that operates as a modified version of *10 PRINT*.  
+5. *10 PRINT* has been appropriated by many artists, designers and students. Take a look at some of the different options it provides [*10 PRINT*](https://twitter.com/search?q=%2310print&src=typd) that are documented on Twitter. Your task in class is to create a sketch with a clear set of rules that operates like a modified version of *10 PRINT*.    
 
 ## Langton's Ant
 
-While *10 Print* focuses both on instructions and randomness in terms of generative processes, we want to further look into the concept of *emergence* in the context of automated and generative programs in which  complex patterns/outcomes are generated by simple rules. *Langton's Ant* is a classical mathematical game that simulates the molecular logic of a living ant. The simulation of the cell's state is inspired by the classical Turing machine that can perform computational tasks with the manipulation of symbols on a strip of tape according to a set of rules.
+While *10 Print* focuses both on instructions and randomness as generative processes, we want to look at the concept of *emergence* in the context of automated and generative programs in which complex patterns/outcomes are generated by simple rules. *Langton's Ant* is a classic mathematical game that simulates the molecular logic of an ant. The simulation of the cell's state is inspired by the Turing machine that can be instructed to perform computational tasks by reading symbols fed to it on a strip of tape that were drawn up according to a set of rules.
 
-This section presents the sample code to simulate the cell states, presenting in a two-dimensional grid system in either the color black or white. Based on simple rules, an ant is considered to be the sensor that processes the cell's data as input, then the cell will change it's color by having the ant moving in four possible directions. Gradually, the ant will turn the grid into a more complex system that exhibits emergent behavior over time.
+This next section provides the sample code that simulates the cell states, presented as a two-dimensional grid system in either black or white. Gradually, the ant will turn the grid into a more complex system that exhibits emergent behavior.
 
 ![drawing5](ch5_5.gif)
 
 *Figure 5.5: Langton's Ant - Initial steps*
 
-With the initial direction of an ant pointed upwards (i.e. North position), figure 5.5 shows the initial 33 steps of  *Langton's Ant* in following the two general rules below:
+With the ant initially facing up, Figure 5.5 shows the initial 33 steps of *Langton’s Ant* when it follows the two general rules below:
 
-1. If the ant is at a white cell, it turns right 90° and changes to a black cell then moves forward one unit.
-2. If the ant is at a black cell, it turns left 90° and changes to a white cell then moves forward one unit.
+1. If the ant is at a white cell, it turns right 90 degrees and changes to black, then moves forward one cell.
+2. If the ant is at a black cell, it turns left 90 degrees and changes to white, then moves forward one cell.
 
-At the beginning, the canvas displays only a grid system and all the individual cells are set in white color. The ant has  four possible directions — UP, RIGHT, DOWN, LEFT — and can turn 90° either left or right subject to the color of the cell. The ant's head is pointing in an UPWARD position at the start, and is located in the middle of the white grid. It then follows rule 1 above to rotate the head direction from UP to RIGHT, then it also changes the white cell to the black and moves forward one unit (pointing to the right as per the new head direction). Then the second step is to follow rule 1 again because the new cell is still white. The ant's head direction will turn right 90° and point from RIGHT to DOWN, and then changes the white cell to black and the ant moves forward one unit. Then the third and forth steps are similar to the previous ones until the ant meets a cell which is black, which is started in step 5. At this point, the ant will follow rule 2 instead to change back the cell's color to white and then turns left 90° instead of the right. The complexity builds.
+In the beginning, the canvas only displays a grid system and all the individual cells are set to white. The ant has four possible directions it can move in — UP, RIGHT, DOWN, and LEFT — turning 90 degrees either left or right subject to the color of the cell it is on. The ant, located in the center of the white grid has its head pointing UP at the start. It then follows Rule 1 above to rotate the head direction from UP to RIGHT, thereby changing the white cell to black, and moving forward one cell. The second step is to follow Rule 1 again, because the new cell is still white. The ant's head direction will turn right 90 degrees and point from RIGHT to DOWN, and then changes the white cell to black and the ant moves forward one cell. The third and forth steps are similar to the previous ones, until the ant encounters a black cell. At this point, the ant will follow Rule 2 and change the cell's color back to white, and then turn left 90 degrees instead of right. The complexity increases.
 
 ![drawing6](ch5_6.gif)
 
 *Figure 5.6: Langton's Ant - Process*
 
-Figure 5.6 shows how the ant starts building the emergent 'highway' pattern[^Moreira] after the first few hundred moves with simple symmetricial patterns. It is then followed by an additional 9000 steps[^Steps] with the seemingly random steps at the center. The highway pattern repeats indefinitely until most of cells are reconfigured, leading to something that is similar to Figure 5.7 at which point the ant is still constantly moving and changing the color of the cells.
+Figure 5.6 shows how the ant starts building the emergent 'highway' pattern[^Moreira] after the first few hundred moves with simple symmetrical patterns. It is then followed by an additional 9000 steps[^Steps] [winnie: why 9000? /g] with the seemingly random steps at the center. The pattern repeats indefinitely until most of the cells are reconfigured, leading to something that is similar to Figure 5.7, while the ant continues to move and change the color of cells.
 
 ![drawing7](ch5_7.png)
 
@@ -132,8 +132,8 @@ Figure 5.6 shows how the ant starts building the emergent 'highway' pattern[^Mor
 ```javascript
 let grid_space = 5; //e.g. 4, 5, 10 need to be dividable as an integer by the width and height of the canvas
 let grid =[]; //on/off state
-let cols, rows; //for drawing the grid purpose
-let xPos, yPos; //current position in terms of rows and cols, not actual pixel
+let cols, rows; //for drawing the grid 
+let xPos, yPos; //current position in terms of rows and columns, not actual pixels
 let dir; //current direction of the ant
 const antUP = 0;
 const antRIGHT = 1;
@@ -159,14 +159,14 @@ function draw() {
    checkEdges();
    let state = grid[xPos][yPos]; //check the current cell's state
    if (state == 0) { //rule 1
-    dir++; // turn right 90°
+    dir++; // turn right 90 degrees
     grid[xPos][yPos] = 1; //change the currect cell's state to 'on'
     fill(onColor); //subsequent color change
     if (dir > antLEFT) {
       dir = antUP; //reset the counter
     }
    }else{ //rule 2
-    dir--; //turn left 90°
+    dir--; //turn left 90 degrees
     grid[xPos][yPos] = 0; //change the current cell's state to 'off'
     fill(offColor); //subsequent color change
     if (dir < antUP) {
@@ -359,6 +359,7 @@ Artist David Link reconstructed a functional replica of both the hardware and th
 [^Cox]: One example of many, and also connected to an exhibition, is Geoff Cox's' "Generator: The Value of Software Art", in Judith Rugg and Michèle Sedgwick, eds., *Issues in Curating Contemporary Art and Performance* (Bristol: Intellect, 2007), 147-162; available at https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf. Interestingly, this includes a description of Adrian Ward's *Auto-Illustrator*, released as a boxed version for the exhibition "Generator" (2002-3) with an accompanying "User’s  Manual" that contained both technical detail and critical essays. In many ways this sets a precedent for the publication you are reading. It can also be seen how conceptual art practices combine idea and action much like how performance art works with scores and scripts, and in turn how programs work with instructions and execution. For more on the aesthetic dimension of this see Geoff Cox, Alex McLean, and Adrian Ward, "The Aesthetics of Generative Code", Generative Art 00, international conference, Politecnico di Milano, 2001, https://www.academia.edu/10519146/The_Aesthetics_of_Generative_Code.  
 [^exhibition]: The exhibition "Programmed: Rules, Codes, and Choreographies in Art, 1965–2018" was held at the Whitney Museum of American Art, New York (28 Sep 2018 – 14 Apr 2019), and organized by Christiane Paul and Carol Mancusi-Ungaro, with Clémence White. See https://whitney.org/exhibitions/programmed. An earlier well-cited example would be the 1970 exhibition “Software — Information Technology: Its New Meaning for Art” at the Jewish Museum in New York, curated by Jack Burnham. For Burnham, the exhibition "Software" encouraged an understanding of underlying structures in art and information systems, and by drawing together practices in computer technology with conceptual art, software was to be seen as a metaphor for information exchange.
 [^LeWitt]: Sol LeWitt cited in Lippard, ed. *Six Years: The Dematerialization of the Art Object from 1966 to 1972*.
+[^processing]: Processing is a flexible software sketchbook and programming language, initiated by Casey Reas and Ben Fry in 2001, for learning how to code within the context of the visual arts. See https://processing.org/. 
 [^Reas]: For an explanation of this work, and linked docuementation, see Casey Reas, "{Software} Structures",  https://artport.whitney.org/commissions/softwarestructures/text.html
 [^galanter]: Philip Galanter, *What is Generative Art? Complexity theory as a context for art theory*. In GA2003-6th Generative Art Conference, Milan (2003).
 [^suchman]: Lucy Suchman, *Human-Machine Reconfigurations: Plans and Situated Actions* (Cambridge: Cambridge University Press, 2007), 217-220.
