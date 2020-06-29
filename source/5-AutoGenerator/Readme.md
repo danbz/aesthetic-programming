@@ -1,4 +1,4 @@
-Title: Automatisms
+Title: Auto Generator
 page_order: 6
 
 ## Auto Generator
