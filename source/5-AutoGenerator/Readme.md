@@ -132,7 +132,7 @@ Figure 5.6 shows how the ant starts building the emergent 'highway' pattern[^Mor
 ```javascript
 let grid_space = 5; //e.g. 4, 5, 10 need to be dividable as an integer by the width and height of the canvas
 let grid =[]; //on/off state
-let cols, rows; //for drawing the grid 
+let cols, rows; //for drawing the grid
 let xPos, yPos; //current position in terms of rows and columns, not actual pixels
 let dir; //current direction of the ant
 const antUP = 0;
@@ -327,7 +327,7 @@ Artist David Link built a functional replica of both the hardware and the origin
 - To strengthen the computational use of loops and conditional statements.
 - To conceptually and practically reflect upon the idea of auto-generator.
 
-**Get some additional inspiration here:**
+**For additional inspiration:**
 - [{Software} Structure #003 A by Casey Reas](https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks)
 - [Daily Art](http://www.sasj.nl/daily/) by Saskia Freeke
 - [Generative Artistry by Ruth John and Tim Holman ](https://generativeartistry.com/tutorials/)
@@ -361,7 +361,7 @@ Artist David Link built a functional replica of both the hardware and the origin
 [^Cox]: One example of many is Geoff Cox's "Generator: The Value of Software Art", in Judith Rugg and Michèle Sedgwick, eds., *Issues in Curating Contemporary Art and Performance* (Bristol: Intellect, 2007), 147-162; available at https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf. This includes a description of Adrian Ward's *Auto-Illustrator*, released as a boxed version for the exhibition "Generator" (2002-3) with an accompanying "User’s  Manual" that contained both technical detail and critical essays, and in many ways this can be seen as a precedent for the publication you are reading. For more on the aesthetic dimension of the parallels between scores, scripts, and programs, see Geoff Cox, Alex McLean, and Adrian Ward, "The Aesthetics of Generative Code," Generative Art 00, international conference, Politecnico di Milano, (2001), https://www.academia.edu/10519146/The_Aesthetics_of_Generative_Code.  
 [^exhibition]: The exhibition "Programmed: Rules, Codes, and Choreographies in Art, 1965–2018" was held at the Whitney Museum of American Art, New York (28 Sep 2018 – 14 Apr 2019), and organized by Christiane Paul and Carol Mancusi-Ungaro, with Clémence White, https://whitney.org/exhibitions/programmed. An earlier example is the 1970 exhibition “Software — Information Technology: Its New Meaning for Art,” at the Jewish Museum in New York, curated by Jack Burnham. For Burnham, the exhibition "Software" encouraged an understanding of underlying structures in art and information systems, and by drawing together practices in computer technology with conceptual art, software was to be seen as a metaphor for information exchange.
 [^LeWitt]: Sol LeWitt cited in Lippard, ed. *Six Years: The Dematerialization of the Art Object from 1966 to 1972*.
-[^processing]: Processing is a flexible software sketchbook and programming language, initiated by Casey Reas and Ben Fry in 2001, for users to learn how to code within the context of the visual arts. See https://processing.org/. 
+[^processing]: Processing is a flexible software sketchbook and programming language, initiated by Casey Reas and Ben Fry in 2001, for users to learn how to code within the context of the visual arts. See https://processing.org/.
 [^Reas]: For an explanation of this work, and linked docuementation, see Casey Reas, "{Software} Structures,"  https://artport.whitney.org/commissions/softwarestructures/text.html.
 [^galanter]: Philip Galanter, *What is Generative Art? Complexity theory as a context for art theory,* in GA2003-6th Generative Art Conference, Milan (2003).
 [^suchman]: Lucy Suchman, *Human-Machine Reconfigurations: Plans and Situated Actions* (Cambridge: Cambridge University Press, 2007), 217-220.
@@ -381,7 +381,7 @@ Artist David Link built a functional replica of both the hardware and the origin
 [^morpho]: Alan Mathison Turing, "The Chemical Basis of Morphogenesis," *Philosophical Transactions of the Royal Society of London B,* 237, no.641 (1952): 37–72, doi:10.1098/rstb.1952.0012. JSTOR 92463.
 [^eflux]: Franco “Bifo” Berardi, "The Neuroplastic Dilemma: Consciousness and Evolution," in *e-flux* journal #60 (December 2014), https://www.e-flux.com/journal/60/61034/the-neuroplastic-dilemma-consciousness-and-evolution/. "General Intellect" is a key concept taken from Marx's *Grundrisse,* in the passage "Fragment on Machines," used to indicate the coming together of technological expertise and social intellect. Terranova is also drawing upon this concept when she argues that the evolution of machinery also unleashes productive powers, as referenced in Chapter 4 — DataCapture.
 [^Bifo]: Franco “Bifo” Berardi, *Precarious Rhapsody: Semiocapitalism and the Pathologies of the Post-Alpha Generation* (London: Minor Compositions, 2009), 9.
-[^mother]: To Berardi, this is partly because we no longer learn words from our mothers, which sets up a neat paradox if we invoke Katherine Hayles’ *My Mother Was a Computer*, in which she charts how in the 1930s and 1940s, mostly women were employed to do calculations and were referred to as computers. See N. Katherine Hayles, *My Mother Was a Computer* (Chicago: University of Chicago Press, 2005). 
+[^mother]: To Berardi, this is partly because we no longer learn words from our mothers, which sets up a neat paradox if we invoke Katherine Hayles’ *My Mother Was a Computer*, in which she charts how in the 1930s and 1940s, mostly women were employed to do calculations and were referred to as computers. See N. Katherine Hayles, *My Mother Was a Computer* (Chicago: University of Chicago Press, 2005).
 [^Noah]: Noah Wardrip-Fruin, "Christopher Strachey: The First Digital Artist?" *Grand Text Auto*, School of Engineering, University of California Santa Cruz (August 1, 2005).
 [^Gaboury]: Jacob Gaboury, "A Queer History of Computing," *Rhizome* (April 9, 2013). We return to the issue of Turing's sexuality in the following chapter.
 [^bellacasa]: Maria Puig de la Bellacasa, "Matters of Care in Technoscience: Assembling Neglected Things," in *Social Studies of Science* 41, no.1 (2010), 99.

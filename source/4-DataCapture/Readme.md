@@ -362,7 +362,7 @@ This makes a reference to the philosophy of Gilbert Simondon, to the transformat
 - To experiment with various data capture inputs, including audio, mouse, keyboard, web camera, and more.
 - To critically reflect upon the activity of data capture and datafication.
 
-**To additional inspiration:**
+**For additional inspiration:**
 - [LAUREN](http://lauren-mccarthy.com/LAUREN) by Lauren McCarthy
 - [nonsense](http://siusoon.net/nonsense/) (2015) by Winnie Soon (read the comment in the source code for this project's intentions)
 - [Facebook Demetricator](https://bengrosser.com/projects/facebook-demetricator/) or [Instagram Demetricator](https://bengrosser.com/projects/instagram-demetricator/) or [Twitter Demetricator](https://bengrosser.com/projects/twitter-demetricator/) by Benjamin Grosser
