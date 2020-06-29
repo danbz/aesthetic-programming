@@ -58,7 +58,7 @@ When tofu becomes a computational object — as in *Tofu Go!* — abstraction is
 
 [embeded video](https://www.youtube.com/watch?v=V9NirY55HfU])
 
-Below we will introduce the sample code for *Pacman-Tofu*, a simple game inspired by: *ToFu Go!* (available for free download[^App]), the prior project *Multi* (introduced in Chapter 2), and the popular Japanese eating game *Pac-Man*.[^pacman] The remaining parts unfold the computational logic and modeling required to understand the basics of OOP.
+Below we will introduce the sample code for *Pacman-Tofu*, a simple game inspired by: *ToFu Go!* (available for free download), the prior project *Multi* (introduced in Chapter 2), and the popular Japanese eating game *Pac-Man*.[^pacman] The remaining parts unfold the computational logic and modeling required to understand the basics of OOP.
 
 ## Exercise in class (Decode)
 
@@ -386,15 +386,15 @@ function checkEating() {
 
 `checkEating()` is a customized function for deleting tofus under certain conditions, and consequently leading to the calculation of the scores, i.e. the amount of tofus eaten or wasted by Pacman.
 
-We start with a for-loop to cycle through all the tofu object instances. The first task is to check if Pacman has eaten any of them. This means we need to think about what it means to 'be eaten' in a computational sense. The program continuously checks the distance between each tofu and Pacman. The `dist();` function takes four arguments to calculate the distance between two points (x1, y1, x2, y2). x1 and y1 mark Pacman's position (the center point) and the x2, y2, each tofu's position. If the calulated distance is less than half of Pacman's image width, then the variable `score` increases by one, and the object concerned will be deleted (`tofu.splice(i,1);`).
+We start with a for-loop to cycle through all the tofu object instances. The first step is to check if Pacman has eaten any of them. This means we need to think about what it means to 'be eaten' in a computational sense. The program continuously checks the distance between each tofu and Pacman. The `dist();` function takes four arguments to calculate the distance between two points (x1, y1, x2, y2). x1 and y1 mark Pacman's position (the center point) and the x2, y2, each tofu's position. If the calulated distance is less than half of Pacman's image width, then the variable `score` increases by one, and the object concerned will be deleted (`tofu.splice(i,1);`).
 
-Secondly, any specific tofu objects that reach the end of the canvas will no longer be used. Objects with the x position less than the value three (`tofu[i].pos.x < 3`) are removed. The two parts matter because we need to make sure the deleted tofus are missed by Pacman. [winnie: I have carried on replacing 'logics' as agree with L that it's confusing. check this /g] 
+Secondly, any specific tofu objects that reach the end of the canvas will no longer be used. Objects with the x position less than the value three (`tofu[i].pos.x < 3`) are removed. The two steps matter because we need to make sure the deleted tofus are missed by Pacman. [winnie: I have carried on replacing 'logics' as agree with L that it's confusing. check this /g] 
 
 Up to now, the function `checkTofuNum()` makes more sense to reflect the numbers of active objects, i.e. the number of visible objects on screen, and this will create new object instances if the minimum numbers are not met. This is implemented in the `draw()` function and as a result, new objects are continuously moved, and new object instances are continuously created.   
 
 **Interacting with the key**
 
-To control Pacman and play the game, users use the UP_ARROW and the DOWN_ARROW to control Pacman's position. There is a boundary to set the max height and mini height of the pacman by implementing a conditional structure so as to make sure the pacman is able to eat the tofus from different y positions.
+To control Pacman and play the game, users use the UP_ARROW and the DOWN_ARROW to control its position. A boundary has been set for the maximum and minimum height of Pacman by implementing a conditional structure to make sure it is able to eat the tofus from different y positions.
 
 ```javascript
 function keyPressed() {
@@ -403,7 +403,7 @@ function keyPressed() {
   } else if (keyCode === DOWN_ARROW) {
     pacPosY+=30;
   }
-  //reset if the pacman moves out of range
+  //reset if Pacman moves out of range
   if (pacPosY > mini_height) {
     pacPosY = mini_height;
   } else if (pacPosY < 0 - pacmanSize.w/2) {
@@ -412,38 +412,38 @@ function keyPressed() {
 }
 ```
 
-For classroom teaching purpose, we have created a much simplier version[^tofu2] of the moving tofus (just simple squares) aiming to walkthrough the class-object creation in a live coding environment by using the first 4 steps guidelines.
+For teaching purposes, we have created a much more simple version[^tofu2] for moving tofus (using simple squares) aiming to walkthrough the class-object creation in a live coding environment by using the first four steps as guidelines.[winnie: this needs explaining better - see L's comments /g]
 
 ## Class-Object creation
 
-It requires some planning before you start coding if you want to implement a class-object in your own program. In a nutshell, an object consists of attributes/properties and actions/behaviors, and all these hold and manage data in which the data can be used and operation can be performed.
+Implementing a class-object in your program needs some planning. Objects consist of attributes/properties and actions/behaviors, and all these hold and manage data so it can be used and operations can be performed. [winnie: check this to /g]
 
-- **(Step 1) Naming**: Give a name for your class.
-- **(Step 2) Properties**: What are the attributes/properties of tofu?
-- **(Step 3) Behaviors**: What are the actions/behaviors of tofu?
-- **(Step 4) Object creation & usage**: After the basic setup of the class structure, next is to create a tofu object that can display on a screen.
-- **(Step 5) Trigger point & logic**: Think with the holistic logic.
+- **(Step 1) Naming**: Name your class.
+- **(Step 2) Properties**: What are tofu's attributes/properties?
+- **(Step 3) Behaviors**: What are tofu's actions/behaviors?
+- **(Step 4) Object creation & usage**: After setting up the class structure, the next step is is to create a tofu object that can be displayed on screen.
+- **(Step 5) Trigger point & logic**: Think holistically.
 
-It is by no means saying the steps should be in the exact sequence as stated. Of course one might think about a program or a game in a holistic way at the beginning and come up with the different object instances afterwards. As such, the steps is just a suggested guideline especially for beginners who are encountering class-object creation in their first time. Based on our teaching experience, students usually found difficult to implement their own objects and we hope it is useful to have some steps, keywords and questions to facilitate the crafting of objects.
+By no means do the steps need to be exactly as listed. Of course, you could think about a program or game in a holistic way from the beginning, and come up with the various object instances later. As such, the steps are just a suggestion, particularly for beginners encountering class-object creation for the first time. Our teaching experience has shown us that students generally find it difficult to implement their own objects, and we hope it is useful to have some steps, keywords, and questions to facilitate the crafting of objects.
 
 ## Exercise in class
 
 **1. Tinkering**
-- Modify the different values to understand the function/syntax
+- Modify the different values to understand their function/syntax.
 
 **2. Discussion in groups:**
-- Identify a game that you are familiar with, and describe the characters/objects by using the concept and vocabulary of class and object. Can you identify the classes and objects within the chosen example?
-- Given that the creation of objects requires the concept of abstraction, and following some of the introductory ideas for this chapter, can you use the sample code or your game as an example to think through some of the political implications of class/object abstraction? Does the fact that this is a game allow for further reflection on the way everyday activities (such as enjoying tofu) become object-oriented?
+- Identify a game that you are familiar with and describe the characters/objects using the class, and object concepts and vocabulary. Can you identify the classes and objects within the chosen example?
+- Given that the creation of objects requires the concept of abstraction, and in line with some of the introductory ideas for this chapter, can you use sample code from your game as an example to think through some of the political implications of class/object abstraction? Does the fact that this is a game allow for further reflection on the way everyday activities (such as enjoying tofu) become object-oriented?
 
 ## Further notes
 
-**`function preload(){}`:** In this game we have used an animated gif - pacman that can be controlled by pressing certain keycodes. To have the image draw on a canvas, you need to use the function `loadImage()` to load the image file before the program runs the `setup()` and `draw()`.
+**`function preload(){}`:** In this game we have used an animated gif, i.e. Pacman that can be controlled by pressing certain key codes. To have the image drawn on the canvas, you need to use the function `loadImage()` to load the image file before the program runs `setup()` and `draw()`.
 
-**`image()`:** To use, dislay and technically draw the image onto the p5.js canvas, `image()` is used and take arguments on which image, x position, y position, the width of an image and the height of it.
+**`image()`:** To use, dislay, and technically draw the image on the p5.js canvas, `image()` is used to take arguments on which image, x position, y position, the width of an image and the height of it. [winnie: this doesn't make sense, rewrite /g]
 
-**Tofu's shape:** As already introduced in chapter 2 - Variable Geometry, we have reused the related syntaxes such as `rect()`, `vertex()`, `beingShape()` and `endShape()`. But this time we use the typographic characters for the emoji by using the `text()` and `textSize()` functions.
+**The tofu's shape:** As introduced in chapter 2 - Variable Geometry, we have reused the related syntax such as `rect()`, `vertex()`, `beingShape()` and `endShape()`. We will now also use  typographic characters by using the `text()` and `textSize()` functions.
 
-**A game:** The program is a typical game with an end point (eating tofu is gamified). Functions `checkEating()` and `checkResult()` are used to count how many tofus are eaten (with the variable `score`) and how many tofus have not been eated and regarded as wastage (with the variable `lose`). In the end, these two variables are compared. A game over message will be shown if the wastage is bigger than the eaten tofus (`lose > score`), and (by using the symbol `&&`) the game provides two chances of tofu's wastage. `noLoop()` is used to stop the program from looping, and as such the canvas is freezed.
+**A game:** The program is a typical game with an end result. The functions `checkEating()` and `checkResult()` are used to count how many tofus have been eaten (using the variable `score`) and how many tofus have not been eaten, and are regarded as wastage (with the variable `lose`). These two variables are compared in the end. A 'game over' message is shown if the wastage is bigger than the eaten tofus (`lose > score`), and (by using the symbol `&&`) the game provides two chances.[winnie: explain? /g] `noLoop()` is used to stop the program from looping, and as such the canvas is frozen.
 
 **Arithmetic operators:** There is new arithmetic syntax beyond simply `=`, `+`, `-`, `*`, `/`, such as `+=` in `tableX+=texture_width;` and `edgeX+=texture_width;`. See the list below:
 
@@ -455,79 +455,77 @@ It is by no means saying the steps should be in the exact sequence as stated. Of
 
 ## While()
 
-By going through the tofu example, we can see object-oriented programming is highly organized and concrete even though objects are abstracted from the world. It's also worth adding here that OOP is designed to reflect the way the world itself is organised, at least from the perspective of computer programmers; that is, an understanding of the ways in which relatively independent objects operate through their relation to other objects.
+Examining the tofu example that object-oriented programming is highly organized and concrete even though objects are abstractions. It's also worth adding here that OOP is designed to reflect the way the world itself is organized, at least from the perspective of computer programmers. It provides an understanding of the ways in which relatively independent objects operate through their relation to other objects.
 
-The academic and video game designer Ian Bogost refers to these interacting processes as *unit operations*, "characterized by their increased compression of representation, a tendency common over the course of the twentieth century, from structuralist anthropology to computation. [He continues] I use this term to refer to processes in the general sense, for example, the coupling of a cultural process and its computational representation."[^Bogost] Taking his cue from a combination of literary theory and computing, he argues that cultural phenomena (not just computer games) can be read as a configurative system of discrete, interlocking units of meaning. There are numerous implications here. As we have seen in this chapter, each object includes both data and functions, and in addition, programmers can create relationships between different objects, and can inherit characteristics from other objects.
+Academic and video game designer Ian Bogost refers to these interacting processes as *unit operations*, "characterized by their increased compression of representation, a tendency common over the course of the twentieth century, from structuralist anthropology to computation. I use this term to refer to processes in the general sense, for example, the coupling of a cultural process and its computational representation."[^Bogost] Taking his cue from a combination of literary theory and computing, he argues that cultural phenomena (not just computer games) can be read as a configurative system of discrete, interlocking units of meaning. There are numerous implications here. As we have seen in this chapter, each object includes both data and functions — and in addition — programmers can create relationships between different objects, and objects can inherit characteristics from other objects.
 
-As mentioned above, this object-oriented approach comes close to the ways that many other disciplines also understand discrete objects and their inter-actions. The most obvious connection here, not least in its naming, is with object-oriented ontology (OOO), a philosophical 'speculation' on how objects exist and interact. But we should be wary of making too-easy a connection here between OOP and OOO (made even more confusing by the earlier descriptor OOP, object-oriented philosophy). In brief, OOO rejects the idea that objects come into being through the perception of the human subject, and promotes that idea that objects — whether human or nonhuman — are thus mutually autonomous.[^Harman]
+As mentioned above, this object-oriented approach comes close to the ways that many other disciplines also understand discrete objects and their interactions. The most obvious connection here, not least in its naming, is with object-oriented ontology (OOO), a philosophical 'speculation' on how objects exist and interact. But we should be wary of making too-easy a connection here between OOP and OOO (made even more confusing by its earlier descriptor OOP, object-oriented philosophy). In brief, OOO rejects the idea that objects come into being through the perception of the human subject, and promotes that idea that objects, whether human or nonhuman, are autonomous.[^Harman]
 
-Again, it should be pointed out that a book like ours is not the place for a deep discussion of this, nor its critique, but it should be noted that this is a Heidegger-influenced critique of Kantian metaphysics, and a rejection of the privileging of human existence over the existence of nonhuman objects. The connection to Heidegger's ideas is made explicit in Harman's *Tool-Being: Heidegger and the Metaphysics of Objects* that builds on the oft-cited distinction between *present-at-hand* and the *ready-to-hand*.[^Harman2] The former refers to our theoretical apprehension of a world made up of objects, and the latter describes our practical relation to things that are handy or useful. The claim is that practice precedes theory, and that the ready-to-hand of human practice is prior to the present-at-hand, which Harman extends to the practice of objects, to articulate his ontology of objects. It is perhaps useful to think of programming in this way, as a tool-based practice where the objects themselves exist independently of human activity and, as Harman would put it, are not ontologically exhausted by their relations with humans or other objects.       
+Again, a book like ours is not the place for a deep discussion of philosophy, but it should be noted that OOO is a Heidegger-influenced critique of Kantian metaphysics, and a rejection of the privileging of human existence over the existence of nonhuman objects. The connection to Heidegger's ideas is made explicit in Harman's *Tool-Being: Heidegger and the Metaphysics of Objects* that builds on the oft-cited distinction between *present-at-hand* and the *ready-to-hand*.[^Harman2] The former refers to our theoretical apprehension of a world made up of objects, and the latter describes our practical relation to things that are handy or useful. The claim is that practice precedes theory, and that the ready-to-hand of human practice is prior to the present-at-hand, which Harman extends to the practice of objects themselves, to articulate his 'ontology of objects'. It is perhaps useful to think of programming in this way, as a tool-based practice where the objects themselves exist independently of human activity and, as Harman would put it, are not ontologically exhausted by their relations with humans or other objects.       
 
-One of the difficulties is how to build a politics into this. Jane Bennett’s *Vibrant Matter* is one such attempt to take a political position on more-than-human assemblages that question human (too often male) sovereignty over the world, even including the agency of food in the chapter "Edible Matter".[^Bennett] The aim, she writes "is to articulate a vibrant materiality that runs alongside and inside humans to see how analyses of political events might change if we gave the force of things more due".[^Bennett2] She is partly drawing on the work of Bruno Latour here, and his idea of *actants*, a phrase which emphasises a coming together — assemblage — of complex, diverse, and interlinking agencies.[^Latour] Objects have become things again, as he puts it.
+One of the perceived difficulties is how to incorporate politics into this. Jane Bennett’s *Vibrant Matter* is an example of ah attempt to take a political position on the more-than-human assemblages that question human (more often than not, male) sovereignty over the world, even including the agency of food in the chapter "Edible Matter."[^Bennett] The aim, she writes "is to articulate a vibrant materiality that runs alongside and inside humans to see how analyses of political events might change if we gave the force of things more due."[^Bennett2] Here, she partly draws on the work of Bruno Latour, and his idea of *actants*, a phrase which emphasizes a coming together — assemblage — of complex, diverse, interlinking agencies.[^Latour] Objects have become things again, as he puts it.
 
-If we extend this to ideas of operating systems, even society as Latour does, then questions arise as to how best facilitate the production of objects, and their actions. Free and open source software production, for instance, rests on certain principles of distribution and mutual exchange of its objects, as does the ways that computational objects interact in programming environments. There's a politics here in the way that objects operate in computational and cultural models of decision-making and representation. Matthew Fuller and Andrew Goffey suggest that this object-oriented modeling of the world is a social-technical practice, "compressing and abstracting relations operative at different scales of reality, composing new forms of agency",[^FullerGoffey] an agency that lies across the computational and material arrangement of everyday encounters they add.
+If we extend this line of argument to operating systems, and society as Latour does, then questions arise as to how best facilitate the production of objects, and their actions. Free, open source software production, for instance, is based on certain principles of distribution and the mutual exchange of its objects, similar to the interactions of objects in programming environments. The way that objects operate in computational and cultural decision-making and representation models is political. Matthew Fuller and Andrew Goffey suggest that this object-oriented modeling of the world is a social-technical practice, "compressing and abstracting relations operative at different scales of reality, composing new forms of agency."[^FullerGoffey] In their opinion, this agency operates across the computational and material arrangement of everyday encounters.
 
-In establishing this possibility of new forms of agency, aside from the connections to the above ideas of objects, there is an interplay at work between abstract and concrete reality they reflect. To explain broadly, the classifications abstract and concrete indicate whether the object that each term describes has physical properties. This was taken up by Marx in his critique of capitalist working conditions to distinguish between abstract labour and living labour; where abstract labour is labor-power spent producing goods, services, and commodities that uphold capital, and living labor the capacity to work. This abstraction is the process by which labour is *subsumed* under Capital (somewhat like data capture) but maybe we are straying too far from the main point here. What we want to emphasise more firmly is that knowledge of these ideas, and of programming, itself is subject to the movement between concrete and abstract states.
+With the abstraction of relations, there is an interplay between abstract and concrete reality. The classifications abstract and concrete were taken up by Marx in his critique of capitalist working conditions to distinguish between abstract labor and living labor. Whereas abstract labor is labor-power exerted producing commodities that uphold capitalism, living labor is the capacity to work. This abstraction is the process by which labor is *subsumed* under capitalism (somewhat like data capture). For brevity, what we want to emphasize more firmly is that knowledge of these ideas, and of programming, is subject to the movement between concrete and abstract states.
 
-To explain with some more Marxism, if we begin with the idea that there is a real and concrete thing in the world, that once put under pressure by critique, reveals itself to be false, an abstraction. The relation between the concrete and abstract in Marx thus is the dialectical movement between these states in order to reduce the abstractions and arrive at a reality that represents a rich totality of relations (such as class struggle). What Marx refers to as abstract determinations leads towards a reproduction of the concrete by way of critical thinking which itself is grounded in reality and lived conditions. The politics of this, as distinct from Hegel’s idealism, is that abstractions are reliant on the concrete, and they return to it. His example of the abstraction of exchange value (through abstract labour), which can only exist in a dialectical relationship with the concrete social relations found in society.[^Manifesto]
+Let's explain using some more Marxism: we might assume that there is a real and concrete thing in the world, that once put under pressure by critique, reveals itself to be false, an abstraction. The relation between the concrete and abstract in Marx thus is a dialectical movement between states in order to reduce the abstractions and arrive at a reality that represents a rich totality of relations (such as class struggle). What Marx refers to as abstract determinations leads towards a reproduction of the concrete by way of critical thinking, which itself is grounded in reality and lived conditions. The politics of this (distinct from Hegel’s idealism) is that abstractions are reliant on the concrete, and return to it. This should be repeatable. His example is the abstraction of exchange value (through abstract labor), as it can only exist in a dialectical relationship with the concrete social relations found in society.[^Manifesto]
 
-If we apply this to a computational object and its abstraction (its properties and behaviour), it only makes sense in terms of its wider relations and recognition of its conditions of operation (program, labour of the programmer, operating system, etc), and only then if there is a point to expose these conditions such that they can be improved, not least with better abstractions. Computational objects allow for a different perspective on lived conditions in this way and how we perceive the world. The worldviews on offer are often quite unethical, and we only need to think of game-worlds to see poor examples of racial and gendered abstraction. Therein lies the motivation for this chapter, to make better object abstractions and ones with a clear sense of purpose.
+If we apply this to a computational object and its abstraction (the identification of properties and behaviour), it would only makes sense in terms of wider relations, and recognition of the conditions of operation (program, the programmer's labor, operating system, etc.), and only then if the purpose is to expose these conditions such that they can be improved, not least with better abstractions, that allow us to return to the concrete once more. In this way, computational objects allow for a different perspective on lived conditions in this way and how we perceive the world. Worldviews can often be unethical, and we only need to think of game-worlds to see poor examples of racial and gendered abstraction. Therein lies part of the motivation for this chapter, to make better object abstractions and ones with a clearer sense of purpose.
 
 ## MiniX[6]: Games with objects
 
 **Objective:**
-- To implement a class-based object oriented sketch via abstracting and designing objects' properties and behaviors.
-- To reflect upon object abstraction under the conditions of digital culture
+- To implement a class-based, object-oriented sketch via abstracting and designing objects' properties and behaviors.
+- To reflect upon object abstraction under the lived conditions of digital culture.
 
 **Get some additional inspiration here:**
 - [p5.js - Array Objects](https://p5js.org/examples/arrays-array-objects.html)
-- [daily coding ](https://twitter.com/nagayama/status/1246086230497845250?s=19) by Nagayama, with source code: https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html
+- [daily coding ](https://twitter.com/nagayama/status/1246086230497845250?s=19) by @nagayama, with source code: https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html
 - [Eat Food Not Bombs by Ben Grosser](https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI)
 - [lifeline (2020)](https://www.openprocessing.org/sketch/891619) by Junichiro Horikawa
 - [p5.js coding challenge #31: Flappy Bird by Daniel Shiffman](https://www.youtube.com/watch?v=cXgA1d_E-jY)
 - [p5.js coding challenge #3: The Snake Game by Daniel Shiffman](https://www.youtube.com/watch?v=AaGK-fj-BAM)
 
 **Tasks (RUNME)**
-Think of a simple game that you want to design and implement, what are the objects required? What are their properties and behaviors? At the most basic level, you need to **use class-based object oriented approach** to design your game components that can exhibit certain behaviors (that means you need to at least have a class, a constructor and a method).
+Think of a simple game that you want to design and implement. Which objects are required? What are their properties and behaviors? At the most basic level, you need to **use a class-based object-oriented approach** to design your game components. These can exhibit certain behaviors which means you need to at least have a class, a constructor, and a method.
 
-If you can master objects and classes, you may further work on a mini game step by step in terms of the interaction with objects. Start with something simple in terms of thinking or reappropriating the rules, interactions and checking logics, the pacman-tofu sample code and other games that are stated above would be useful to practice the building and combining smaller logics.
+Once you understand objects and classes, you can continue to work on a mini game implementing interaction with objects. Start with something simple in terms of thinking or reappropriating the rules, interactions and checking steps. The Pacman-tofu sample code and other games that mentioned above are useful for practicing building and combining smaller steps.[winnie: check use of steps rather than logics here /g]
 
-**Questions to think about as README:**
+**Questions to think about (README):**
 
-- **Describe** how does your game/game objects work?
-- **Describe** how you program the objects and their related attributes and methods in your game.
-- Draw upon the assigned reading(s), **what** are the characteristics of object-oriented programming and the wider implications of abstraction?
-- **Extend/connect** your game project to wider digital culture context, can you think of a digital example and describe how complex details and operations are being **abstracted**?
+- **Describe** how does/do your game/game objects work?
+- **Describe** how you program the objects and their related attributes, and the methods in your game.
+- Draw upon the assigned reading, **what** are the characteristics of object-oriented programming and the wider implications of abstraction?
+- **Connect** your game project to a wider cultural context, and think of an example to describe how complex details and operations are being **abstracted**?
 
 ## Required readings:
 - [p5.js examples - Objects](https://p5js.org/examples/objects-objects.html)
 - [p5.js examples - Array of Objects](https://p5js.org/examples/objects-array-of-objects.html)
-- Daniel Shiffman, Code! Programming with p5.js on YouTube, The Coding Train. (watch: 2.3, 6.1, 6.2, 6.3, 7.1, 7.2, 7.3). Web. https://www.youtube.com/watch?v=8j0UDiN7my4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA
-- Daniel Shiffman, Multiple js Files - p5.js Tutorial, The Coding Train. Web. https://www.youtube.com/watch?v=Yk18ZKvXBj4.
-- Matthew Fuller & Andrew Goffey, "The Obscure Objects of Object Orientation", in Matthew Fuller, ed. *How to be a Geek: Essays on the Culture of Software* (Cambridge: Polity, 2017).
+- Daniel Shiffman, "Code! Programming with p5.js," *The Coding Train* (watch: 2.3, 6.1, 6.2, 6.3, 7.1, 7.2, 7.3), https://www.youtube.com/watch?v=8j0UDiN7my4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA
+- Daniel Shiffman, "Multiple js Files - p5.js Tutorial,"" *The Coding Train*,  https://www.youtube.com/watch?v=Yk18ZKvXBj4.
+- Matthew Fuller & Andrew Goffey, "The Obscure Objects of Object Orientation," in Matthew Fuller, ed. *How to be a Geek: Essays on the Culture of Software* (Cambridge: Polity, 2017).
 
 ## Notes:
 
-[^history]: Simula, developed in the 1960s by Ole-Johan Dahl and Kristen Nygaard at the Norwegian Computing Center in Oslo, is considered to be the first object-oriented programming language. Despite being first, Smalltalk is more often cited, first developed for educational use at Xerox Corporation's Palo Alto Research Center in the late 1960s and released in 1972. For more on the history of this, see Ole-Johan Dahl, [The Birth of Object Orientation: the Simula Languages](https://link.springer.com/chapter/10.1007/978-3-540-39993-3_3). *Object-Orientation to Formal Methods*, Owe O., Krogdahl S., Lyche T.Eds. *Lecture Notes in Computer Science*, vol 2635 (Berlin/Heidelberg: Springer, 2004).
-[^Fazi]: Beatrice M. Fazi and Matthew Fuller, "Computational Aesthetics", in Christiane Paul, ed., *A Companion to Digital Art* (Hoboken, NJ: Wiley Blackwell, 2016), 281-296.
-[^Fuller]: Matthew Fuller & Andrew Goffey, "The Obscure Objects of Object Orientation", in Matthew Fuller, ed., *How to be a Geek: Essays on the Culture of Software* (Cambridge, UK: Polity, 2017).
-[^binary]: Limor Fried & Federico Gomez Suarez (n.d). "Binary & Data". Khan Academy. Available at: https://www.khanacademy.org/computing/computer-science/how-computers-work2/v/khan-academy-and-codeorg-binary-data.
-[^Madsen]: Madsen, Ole & Møller-Pedersen, Birger & Nygaard, Kristen. (1993). Object-Oriented Programming in the BETA Programming Language, pp. 16-18.
-[^francis]: *ToFu Go!* is freely available on the App store for iphone and iPad, see: https://apps.apple.com/us/app/tofu-go/id441704812.
+[^history]: Simula, developed in the 1960s by Ole-Johan Dahl and Kristen Nygaard at the Norwegian Computing Center in Oslo, is considered to be the first object-oriented programming language. Smalltalk, first developed for educational use at Xerox Corporation's Palo Alto Research Center in the late 1960s and released in 1972, is cited more often. For more on the history of object-oriented programming languages, see Ole-Johan Dahl, [The Birth of Object Orientation: the Simula Languages](https://link.springer.com/chapter/10.1007/978-3-540-39993-3_3). *Object-Orientation to Formal Methods*, Owe O., Krogdahl S., Lyche T.Eds. *Lecture Notes in Computer Science*, vol 2635 (Berlin/Heidelberg: Springer, 2004).
+[^Fazi]: Beatrice M. Fazi and Matthew Fuller, "Computational Aesthetics," in Christiane Paul, ed., *A Companion to Digital Art* (Hoboken, NJ: Wiley Blackwell, 2016), 281-296.
+[^Fuller]: Matthew Fuller & Andrew Goffey, "The Obscure Objects of Object Orientation," in Matthew Fuller, ed., *How to be a Geek: Essays on the Culture of Software* (Cambridge, UK: Polity, 2017).
+[^binary]: Limor Fried & Federico Gomez Suarez (n.d). "Binary & Data," Khan Academy. Available at https://www.khanacademy.org/computing/computer-science/how-computers-work2/v/khan-academy-and-codeorg-binary-data.
+[^Madsen]: Ole Madsen, Birger Møller-Pedersen, and Kirsten Nygaard, Kristen, "Object-Oriented Programming in the BETA Programming Language,"" (1993), 16-18.
+[^francis]: *ToFu Go!* is freely available on the Apple App store for iPhone and iPad, see https://apps.apple.com/us/app/tofu-go/id441704812.
 [^francis2]: See the interview of Francis Lam in 2012 here: https://www.design-china.org/post/35833433475/francis-lam.
-[^App]: *ToFu Go!* is freely available on the Apple App store for iphone and iPad, see: https://apps.apple.com/us/app/tofu-go/id441704812.
-[^splice]: `splice()` is a p5.js function, see here: https://p5js.org/reference/#/p5/splice.
-[^push]: `push()` is a JavaScript function that is used in an array to add one or more elements to the end of an array, see here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push.
-[^Bogost]: Ian Bogost, *Persuasive Games: The Expressive Power of Videogames* (Cambridge, Mass.: MIT Press, 2007) 8. Also, see his *Unit Operations: An Approach to Videogame Criticism* (Cambridge, Mass.: MIT Press, 2006).
+[^splice]: `splice()` is a p5.js function, see https://p5js.org/reference/#/p5/splice.
+[^push]: `push()` is a JavaScript function that is used in an array to add one or more elements to the end of an array, see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push.
+[^Bogost]: Ian Bogost, *Persuasive Games: The Expressive Power of Videogames* (Cambridge, MA: MIT Press, 2007), 8. Also, see his *Unit Operations: An Approach to Videogame Criticism* (Cambridge, MA: MIT Press, 2006).
 [^Harman]: Graham Harman, *Object-Oriented Ontology: A New Theory of Everything* (London: Pelican/Penguin, 2018).
 [^Harman2]: Graham Harman, *Tool-Being: Heidegger and the Metaphysics of Objects* (Chicago: Open Court Publishing, 2002).
 [^Bennett]: Jane Bennett, *Vibrant Matter: A Political Ecology of Things* (Durham, NC: Duke University Press, 2009).
-[^Bennett2]: Ibid., viii.
-[^Latour]: This is a description of the "actor-network". Bruno Latour, *Reassembling the Social: An Introduction to Actor-Network-Theory* (Oxford: Oxford University Press, 2005).
-[^FullerGoffey]: Matthew Fuller & Andrew Goffey, "The Obscure Objects of Object Orientation", in Matthew Fuller, ed., *How to be a Geek: Essays on the Culture of Software* (Cambridge, UK: Polity, 2017), 21.
+[^Bennett2]: Bennett, *Vibrant Matter*, viii.
+[^Latour]: This is a description of the "actor-network". See Bruno Latour, *Reassembling the Social: An Introduction to Actor-Network-Theory* (Oxford: Oxford University Press, 2005).
+[^FullerGoffey]: Fuller and Goffey, "The Obscure Objects of Object Orientation," 21.
 [^Manifesto]: "Hitherto, philosophers have sought to understand the world; the point, however, is to change it." Marx and Engels, *The Communist Manifesto* (1848), https://www.marxists.org/archive/marx/works/1848/communist-manifesto/.
 [^tofu2]: See https://editor.p5js.org/siusoon/sketches/HAYWF3gv.
-[^color]: The way a computer understands color provides an example of numeric logic. A range of each individual color is 0-255 with the total of 256 possible values. Each color (R, G and B) has 8-bit color graphics regarding the storage of image information in a computer's memory. To put this concretely, the red color is in the form of 8-bit color graphics, then each bit has two binary possibilities, and therefore the number of possible values is calculated as  2^8 which is 256. 
-[^pacman]: The original name of the game *Pac-Man* was called "PuckMan" that has a strong food and eating reference. The original name refers to a popular Japanese phrase "Paku paku taberu", where "paku paku" simulates the sound of a snapping mouth and taberu means "to eat". See Jacopo Prisco, "Pac-Man at 40: The eating icon that changed gaming history", CNN. Available at: https://edition.cnn.com/style/article/pac-man-40-anniversary-history/
-[^chun]: As previously discussed in Chapter 1, "Getting started" on the usual understanding of high-level programming languages, Chun sharply points to the politics of programmable software in terms of erasure and reusability. Higher-level programming languages does not expose detailed machine operations/instructions, and hence enforcing the binary seperation of soft/hardware and forgetting the physicality and concreteness of machines. The professionalization of programming is in part built upon the hiding of the machine. Besides, the desire of reusability of code (instead of performing manual wiring as the early days of the so-called computer programming) as well as having the ability to run on more than one machine, or in the contemporary term as supporting cross platforms, is the key to the commodification of software. See,
-Chun, Wendy Hui Kyong. “On Software, or the Persistence of Visual Knowledge.” Grey Room 18 (January 2005): 26–51. https://doi.org/10.1162/1526381043320741.
+[^color]: The way a computer understands color provides an example of numeric logic. A range of each individual color is 0-255 with the total of 256 possible values. Each color (R, G and B) has 8-bit color graphics regarding the storage of image information in a computer's memory. To put this concretely, the red color is in the form of 8-bit color graphics, then each bit has two binary possibilities, and therefore the number of possible values is calculated as 2^8 which is 256. 
+[^pacman]: The original name of the game *Pac-Man* was called "PuckMan" and refers to a popular Japanese phrase "Paku paku taberu", where "paku paku" simulates the sound of a snapping mouth and taberu means "to eat." See Jacopo Prisco, "Pac-Man at 40: The eating icon that changed gaming history," *CNN*, https://edition.cnn.com/style/article/pac-man-40-anniversary-history/.
+[^chun]: As discussed in Chapter 1, concerning the usual understanding of high-level programming languages, Chun sharply points to the politics of software in terms of erasure and reusability. Higher-level programming languages do not expose detailed machine operations/instructions, and hence enforce the binary seperation of soft/hardware and forget the physicality and concreteness of machines. The professionalization of programming is in part built upon the hiding of the machine. See Wendy Hui Kyong Chun, “On Software, or the Persistence of Visual Knowledge,” *Grey Room* 18 (January 2005): 26–51, https://doi.org/10.1162/1526381043320741.
