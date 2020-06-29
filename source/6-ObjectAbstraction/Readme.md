@@ -522,7 +522,7 @@ Once you understand objects and classes, you can continue to work on a mini game
 [^Harman2]: Graham Harman, *Tool-Being: Heidegger and the Metaphysics of Objects* (Chicago: Open Court Publishing, 2002).
 [^Bennett]: Jane Bennett, *Vibrant Matter: A Political Ecology of Things* (Durham, NC: Duke University Press, 2009).
 [^Bennett2]: Bennett, *Vibrant Matter*, viii.
-[^Latour]: This is a description of the "actor-network". See Bruno Latour, *Reassembling the Social: An Introduction to Actor-Network-Theory* (Oxford: Oxford University Press, 2005).
+[^Latour]: This is a description of the "actor-network." See Bruno Latour, *Reassembling the Social: An Introduction to Actor-Network-Theory* (Oxford: Oxford University Press, 2005).
 [^FullerGoffey]: Fuller and Goffey, "The Obscure Objects of Object Orientation," 21.
 [^Manifesto]: "Hitherto, philosophers have sought to understand the world; the point, however, is to change it." Marx and Engels, *The Communist Manifesto* (1848), https://www.marxists.org/archive/marx/works/1848/communist-manifesto/.
 [^tofu2]: See https://editor.p5js.org/siusoon/sketches/HAYWF3gv.
