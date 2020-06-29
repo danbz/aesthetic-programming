@@ -5,27 +5,27 @@ page_order: 5
 ![flowchart](ch6_0.svg)
 
 ## setup()
-The idea of an object is a key concept in programming but also more broadly understood as a thing with properties that can be identified in relation to the term subject. Put simply, and following philosophical conventions, a subject is an observer (we might say programmer) and an object is a thing outside of this, a thing observed (the program). In this chapter we will learn to further manipulate objects and understand their complexity in keeping with those that think we need to place more importance on nonhuman things so as to understand better how objects exist and interact, both with other objects but also with subjects.
+In programming an object is a key concept, but also more broadly understood as a thing with properties that can be identified in relation to the term subject. Put simply, and following philosophical conventions, a subject is an observer (we might say programmer) and an object is a thing outside of this, something observed (the program). In this chapter we will learn to further manipulate objects and understand their complexity in keeping with those that think we need to place more importance on nonhuman things so as to understand better how objects exist and interact, both with other objects, but also with subjects.
 
-In the previous chapters, we have worked with different objects such as geometric shapes like ellipses, rectangles and polygons. You can apply different attributes to these objects, such as color, size and position, and additionally objects can exhibit certain behaviors such as movement, animation and rotation (as seen in Chapter 3 — Infinite Loops, and Chapter 4 — Data Capture). These geometric objects use functions that are already built-in within p5.js as a set of pre-defined arguments and attributes. In this chapter, we will work on constructing our own objects, attributes and behaviors, that represent aspects of the real world. There is a process of abstraction here, because physical objects need to be translated into the idea of an object, and in doing this certain details and contextual information is inevitably left out. We will return to this issue later.
+In the preceding chapters we have worked with different objects such as ellipses, rectangles, and polygons. You can apply different attributes to these objects, such as color, size, and position, and – additionally – objects can exhibit certain behaviors such as movement (see Chapters 3 and 4). These geometric objects use functions built-in within p5.js as a set of pre-defined arguments and attributes. In this chapter, we will work on constructing our own objects, attributes and behaviors to represent aspects of the real world. There is a process of abstraction here, because physical objects need to be translated into the idea of an object, and in doing so, certain details and contextual information are inevitably left out. We will return to this issue later.
 
-Abstraction is one of the key concepts of Object-Oriented Programming (OOP), a model of programming in which programs are organized around data, or objects, rather than functions and logic.[^history] The main goal is to handle an object's complexity by abstracting certain details and representing a concrete model. Beatrice Fazi and Matthew Fuller discuss the wider significance of this and the relations between concrete and abstracted computation: "Computation not only abstracts from the world in order to model and represent it; through such abstractions, it also partakes in it".[^Fazi] If we recall the previous chapters and the many examples of data capture and gamification, it becomes clear that computation can begin to shape certain behaviours and actions. In other words, objects in OOP are not only about negotiating with the real world as a form of realism and representation, nor the functions and logic that compose the objects, but the wider relations and "interactions between and with the computational".[^Fuller]
+Abstraction is one of the key concepts of Object-Oriented Programming (OOP), a model of programming in which programs are organized around data, or objects, rather than functions and logic.[^history] The main goal is to handle an object's complexity by abstracting certain details and presenting a concrete model. Beatrice Fazi and Matthew Fuller have outlined the wider significance of this and the relations between concrete and abstracted computation: "Computation not only abstracts from the world in order to model and represent it; through such abstractions, it also partakes in it."[^Fazi] If we recall the previous chapters and the many examples of data capture and gamification, it becomes clear that computation can shape certain behaviors, and actions. In other words, objects in OOP are not only about negotiating with the real world as a form of realism and representation, nor the functions and logic that compose the objects, but the wider relations and "interactions between and with the computational".[^Fuller]
 
-Indeed, abstraction exists at many different layers and scales of computing. At the lowest level of abstraction, the flow of information is stored, processed and represented in the form of binary (base 2 number system) numbers — zeros and ones.[^binary] In other words, the way we understand all multimedia formats (whether texts, images, video or sound) is quite different from how a computer understands them as data, or more precisely as binary numbers, including pixels, color values[^color] and waveforms. In this way, we can move from low-level abstraction in the form of machine code and the switching of electric circuits to high-levels of abstraction such as the graphical user interface or the high-level programming language p5.js that we use in the book which "allows the production of computer-enabled human-readable code."[^chun]
+Indeed, abstraction exists in many different layers and at many different scales of computing. At the lowest level of abstraction, the flow of information is stored, processed and represented in the form of binary (base 2 number system) numbers: zeros and ones.[^binary] In other words, the way we understand all media formats (whether texts, images, video or sound) is quite different from how a computer understands them as data, or — more precisely — as binary numbers.[^color] In this way, we can move from low-level abstraction in the form of machine code and the switching of electric circuits to high-levels of abstraction such as graphical user interfaces or the high-level programming language p5.js that we use in the book which "allows the production of computer-enabled human-readable code."[^chun]
 
-Recognition of the levels of abstraction are important to understand that the specific details of how a computer actually works are largely hidden from view or substituted by desktop metaphors (such as deleting a file by throwing it in the bin). That the complexity is reduced is useful of course for a number of reasons including accessability, but we also need to bear in mind that there is more at stake here. In learning to program, even at the higher level, we engage the politics of this movement between abstract and concrete reality. More specically, for this chapter, we focus on object abstraction, which is an approach in OOP, to think conceptually about how objects model the world and what this suggests in terms of an understanding of its hidden layers.
+Recognizing the various levels of abstraction is important to understanding that the specific details of how a computer actually works are largely hidden from view and/or substituted by desktop metaphors (e.g. deleting a file by throwing it in the bin). Naturally, the reduction of complexity is useful for a number of reasons including accessibility, but we also need to bear in mind that there is more at stake here. In learning to program, even at the higher level, we engage in the politics of this movement between abstract and concrete reality. More specifically, in this chapter, we will focus on object abstraction (an approach in OOP) to consider how objects model the world, and what this suggests in terms of an understanding of hidden layers of operation and meaning.
 
 ### start()
 
-Object Abstraction in computing is about representation. Certain attributes and relations are abstracted from the real world, but at the same time details and contexts are left out. Let's imagine a person as an object (rather than a subject) and consider what properties and behaviors that person might have. We use the name **class** to give an overview of the object's properties and behaviors.
+Object Abstraction in computing is about representation. Certain attributes and relations are abstracted from the real world, whilst simultaneously leaving details and contexts out. Let's imagine a person as an object (rather than a subject) and consider which properties and behaviors that person might have. We use the name **class** to give an overview of the object's properties and behaviors.
 
 For example:
 
-**Properties**: A person with the **name** Winnie, has black **hair color**, **wears** lasses with **height** as 164 cm. Their **favorite color** is black and their **favorite food** is Tofu.  
+**Properties**: A person with the name Winnie, has black hair, wears glasses and their height is 164 cm. Their favorite color is black and their favorite food is tofu.  
 
-**Behavior**: A person can run from location A (Home) to location B (University).
+**Behavior**: A person can run from location A (home) to location B (university).
 
-From the above, we can construct a pseudo class that can use to create another object with the following properties and behaviors:
+From the above, we can construct a pseudo class that we can use to create another object with the following properties and behaviors:
 
 |Person                  |
 | ---------------------- |
@@ -38,7 +38,7 @@ In the same token, we can *reuse* the same properties and behavior to create ano
 |-------------------------------|---------------------------|
 | Name = Winnie                 | Name = Geoff              |
 | HairColor = Black             | HairColor = Brown         |
-| withGlasses = Yes             | withGlasses = No         |
+| withGlasses = Yes             | withGlasses = Yes         |
 | Height = 164 cm               | Height = 183 cm           |
 | FavoriteColor = Black         | favoriteColor = Green     |
 | FavoriteFood = Tofu           | FavoriteFood = Avocado    |
@@ -46,11 +46,11 @@ In the same token, we can *reuse* the same properties and behavior to create ano
 | ToLocation = University       | ToLocation = Home         |
 | run()                         | run()                     |
 
-From the pseudo object, we can begin to see how abstraction takes place in computation as *computerized material*, in which we only select properties and behaviors that we think are important to be represented in a program and ignore others. This is a way of modeling physical phenomena and simulating the behaviors of real or imaginary entities.[^Madsen] The understanding is that objects in the real world are highly complex and nonlinear. After the brief example of modeling the person-object, we now move to another example, tofu, that informs the sample code for this chapter, inspired by the game [Tofu Go!](https://www.dbdbking.com/Tofu-Go) (2018), a game developed and designed by Francis Lam (HK/CN).[^francis]
+From the pseudo object, we can begin to see how abstraction takes place in computation resulting in *computerized material*, in which we only select properties and behaviors that we think are important to be represented in a program, and ignore others. This is a way of modeling physical phenomena and simulating the behaviors of real, or imaginary entities.[^Madsen] The understanding is that objects in the real world are highly complex and nonlinear. After the brief example of modeling the person-object, we now move to another example, tofu, which informs the sample code for this chapter, inspired by [Tofu Go!](https://www.dbdbking.com/Tofu-Go) (2018), a game developed and designed by Francis Lam (HK/CN).[^francis]
 
-Tofu, or bean curd, is a popular food derived from soya orginating from China 2000 years ago. Through soaking and grinding soybeans, as well as filtering out remaining particulates, it becomes something known as soymilk, containing stable emulsion of oil, water, and protein. This is then pressed into solid white blocks with varying softness as tofu in a process similar to cheesemaking. It is an important food product specifically in the East, not only because of its protein richness but also as a cultural symbol.
+Tofu, or bean curd, is a popular food derived from soya beans and originated from China two-thousand years ago. Soaking, then grinding soya beans, then filtering out the particulate matter results in soya milk, that contains a stable emulsion of oil, water, and protein. Then a coagulant is added after which the solidified milk is pressed into solid white blocks of varying softness called tofu. It is an important food product specifically in Asia, not only because of its high protein content, but also as a cultural symbol.
 
-When tofu becomes a computational object, as in *Tofu Go!*, abstraction is required to capture the complexity of processes and relations, and to represent what are thought to be essential and desired properties and behaviours. In the game, tofu is designed as a simple white three-dimensional cube form with an emoticon, and the ability to move and jump. Of course in the real world tofu cannot behave in that way, but one can imagine how objects can perform differently when you program your own software, and if you love tofu as Lam does: "*Tofu Go!* is a game dedicated to my love for tofu and hotpot" as he puts it.[^francis2] You need to save the tofu from the chopsticks.
+When tofu becomes a computational object — as in *Tofu Go!* — abstraction is required to capture the complexity of processes, and relations, and to represent what are thought to be essential or desirable properties, and behaviors. In the game, tofu is designed as a simple three-dimensional white cube with a range of emotive expressions, and the ability to move, and jump. Of course real tofu cannot behave this way, but you can imagine how objects perform if you have programmed your own game, and if you love tofu as Lam does. "*Tofu Go!* is a game dedicated to my love for tofu and hotpot," as he puts it.[^francis2] The aim of the game is to save the tofu from the chopsticks.
 
 ![tofu go](ch6_1.png)
 
@@ -58,7 +58,7 @@ When tofu becomes a computational object, as in *Tofu Go!*, abstraction is requi
 
 [embeded video](https://www.youtube.com/watch?v=V9NirY55HfU])
 
-In the following, we will introduce the sample code *Pacman-Tofu* as a simple game (the recipe if you like), inspired by *ToFu Go!* (freely available to download on App Store[^App]), earlier project *Multi* as we have introduced in Chapter 2 - Variable Geometry, and the profound Japanese eating game *Pac-Man*.[^pacman] The remaining parts unfold the computational logic and modeling required to understand the basics of OOP.
+Below we will introduce the sample code for *Pacman-Tofu*, a simple game inspired by: *ToFu Go!* (available for free download[^App]), the prior project *Multi* (introduced in Chapter 2), and the popular Japanese eating game *Pac-Man*.[^pacman] The remaining parts unfold the computational logic and modeling required to understand the basics of OOP.
 
 ## Exercise in class (Decode)
 
@@ -74,23 +74,23 @@ In the following, we will introduce the sample code *Pacman-Tofu* as a simple ga
 
 Based on what you see/experience on the screen, describe:
 
-- **What** are the instructions/rules to play the game?
+- **What** are the instructions/rules for playing the game?
 - Tofu is constructed as a class, and each tofu is an object instance. Can you **describe the properties of tofus and their behaviors**?
-- Can you **describe the algorithmic procedures and sequences of the game** with the following components: tofus, the pacman, keypress events, movements
+- Can you **describe the algorithmic procedures and sequences of the game** using the following components: tofu, Pacman, keypress events, movements?
 
 **Further questions to think about:**
-- **How** to add tofu continuously in the screen and what's the condition?
-- **How to check** if the pacman has eaten the tofu?
-- Under what conditions the game will be ended?
+- **How** to add tofu continuously in the screen and what's the condition? [winnie: see Loren's query /g]
+- **How do you check** if Pacman has eaten the tofu?
+- Under what conditions will the game end?
 
 **MAPPING with the source code**
 - **Map** some of the findings/features from the speculation that you have done with the source code. Which block of code relates to your findings?
-- Can you **identify** the part/block of code that responds to the elements that you have speculated on earlier?
-- Identify the syntax and function that you might not know and check out on p5.js reference site: https://p5js.org/reference/
+- Can you **identify** the part/block of code that responds to the elements that you speculated about above?
+- Identify the syntaxes and functions that you are unfamiliar with, and check out the p5.js reference site: https://p5js.org/reference/
 
 ## Source Code
 
-The source code is divided into two, one with all the core functions in "sketch.js", and the other "Tofu.js"" that specifies the class/object relationship. Sometimes it can help to give a clearer overview if you separate the program into different functions and files. You can imagine an additional js file is just a continuation of your core sketch, therefore you don't have to repeatedly write the `function setup()` or `function draw()` in the new files (imagine your program will become longer and more complex, so you might have more than 2 js files to hold the program together). To enable the two js files in a program, you need to add the following into the index.html file:
+The source code is divided in two, one part with all the core functions, "sketch.js," and the other "Tofu.js" that specifies the class/object relationship. Sometimes subdividing the program into various functions and files can help provide clarity. You can understand an additional js file to be a continuation of your core sketch, therefore you don't have to repeatedly write `function setup()` or `function draw()` in the new files (when your programs become longer, and more complex, you might have more than two js files to hold the program together). To enable the two js files in a program, you need to add the following into the index.html file:
 
 ```html
   <script language="javascript" type="text/javascript" src="sketch.js"></script>
@@ -150,7 +150,7 @@ function checkEating() {
   //calculate the distance between each tofu
   for (let i = 0; i < tofu.length; i++) {
     let d = int(dist(pacmanSize.w/2, pacPosY+pacmanSize.h/2, tofu[i].pos.x, tofu[i].pos.y));
-    if (d < pacmanSize.w/2.5) { //close enough as if eating the tofu
+    if (d < pacmanSize.w/2.5) { //close enough to be eating the tofu
       score++;
       tofu.splice(i,1);
     }else if (tofu[i].pos.x < 3) { //pacman missed the tofu
@@ -173,7 +173,7 @@ function checkResult() {
   if (lose > score && lose > 2) {
     fill(keyColor,255);
     textSize(26);
-    text("Too Much WASTAGE...GAME OVER", width/3, height/1.4);
+    text("Too Much WASTAGE... GAME OVER", width/3, height/1.4);
     noLoop();
   }
 }
@@ -201,7 +201,7 @@ class Tofu { //create a class: template/blueprint of objects with properties and
     this.speed = floor(random(3,6));
     this.pos = new createVector(width+5, random(12,height/1.7));  //check this feature: https://p5js.org/reference/#/p5/createVector
     this.size = floor(random(15,35));
-    this.toFu_rotate = random(0,PI/20); //rotate in clockwise for +ve no
+    this.toFu_rotate = random(0,PI/20); //rotate clockwise for +ve no
     this.emoji_size = this.size/1.8;
     }
   move() {  //moving behaviors
@@ -243,18 +243,18 @@ class Tofu { //create a class: template/blueprint of objects with properties and
 
 ## class
 
-To first construct objects in OOP, it is important to have a blueprint. A class specifies the structure of its objects' attributes and the possible behaviors/actions of its objects. Thus, class can be understood as a template and blueprint of things.  
+To first construct objects in OOP it is important to have a template/blueprint. A class specifies the structure of its objects' attributes and the possible behaviors/actions of these objects. Class can therefore be understood as a template for and blueprint of things.  
 
 Similar to the template that we had for a person-object, we have the following:
 
 |Tofu                                              |
 | ------------------------------------------------ |
-| speed, xpos, ypos, size, toFu_rotate, emoji_size |
+| speed, xpos, ypos, size, tofu_rotate, emoji_size |
 | move(), show()                                   |
 
 You may refer to `Tofu.js` with the full source code for how the Tofu class is constructed.
 
-**(Step 1) Naming**: Give a name of your class
+**(Step 1) Naming**: name your class
 
 ```javascript
 class Tofu {
@@ -262,55 +262,55 @@ class Tofu {
 }
 ```
 
-In the sample code above, we have Tofu as the class name and tofu as the name of object instances. The things within a class describes what it means to be the object, such as what the properties are, the data values, and behaviors and functionalies. In computer science, this is called *encapsulation*.  
+In the sample code above, we have tofu as the class name and tofu as the name for the object instances. The things within a class describes what it means to be the object, such as what the properties are, the data values, and behaviors and functionalities. In computer science, this is called *encapsulation*.  
 
 **(Step 2) Properties**: What are the (varying) attributes/properties of tofu?
 
 ```javascript
 class Tofu { //create a class: template/blueprint of objects with properties and behaviors
   constructor()
-  { //initalize the objects
+  { //initialize the objects
   this.speed = floor(random(3,6));
   this.pos = new createVector(width+5, random(12,height/1.7));  //check this feature: https://p5js.org/reference/#/p5/createVector
   this.size = floor(random(15,35));
-  this.toFu_rotate = random(0,PI/20); //rotate in clockwise for +ve no
+  this.toFu_rotate = random(0,PI/20); //rotate clockwise for +ve no
   this.emoji_size = this.size/1.8;
   }
   //something more here
 }
 ```
 
-The above is to prepare the object construction. As such we have a function called constructor to initialize a (tofu) object with the following attributes in the form of a list of variables that indicate the properties of speed, position, size, rotating angle and the emoji's size. All these properties are defined with the keyword `this`, which refers to the current object instance, e.g. `this.speed = floor(random(3,6));`. It can be translated roughly as: when the object instance tofu is created, that particular tofu's speed value will be a random integer between 3 to 5.
+The above prepares the object construction. There is a function called *constructor* to initialize an (tofu) object with the following attributes which takes the form of a list of variables that indicate the properties of speed, position, size, rotating angle and size. All these properties are defined with the keyword `this`, which refers to the current object instance, e.g. `this.speed = floor(random(3,6));`. It can be translated roughly as: when the object instance tofu is created, that particular tofu's speed value will be a random integer between three and five.
 
-For the other variable `this.pos`, we have used the function `new createVector` to create the new p5 vector which contains the x and y components. With the `createVector()` function, we can then use `pos.x` and `pos.y` to specify the x and y coordinates of a tofu.
+For the other variable, `this.pos`, we have used the function `new createVector` to create the new p5 vector which contains the x and y components. With the `createVector()` function, we can then use `pos.x` and `pos.y` to specify the x and y coordinates of a tofu.
 
 > this.pos = new createVector(x, y); => this.pos.x and this.pos.y
 
-**(Step 3) Behaviors**: What are the behaviors of the tofu?
+**(Step 3) Behaviors**: What are the tofu's behaviors?
 
 ```javascript
 class Tofu {
-  constructor() { //initalize the objects
+  constructor() { //initialize the objects
     // something here
   }
   move() { //moving behaviors
     this.pos.x-=this.speed; //i.e, this.pos.x = this.pos.x - this.speed;
   }
   show() {
-      //show Tofu as a cube by using vertex
+      //show tofu as a cube by using vertex
       //show the emoji on the one of the surfaces
   }
 }
 ```
 The two behaviors `move()` and `show()` are the functions that can be used by each object instance. Each object can move differently with variations of speed, size, etc.
 
-This is often a difficult concept for beginners because to show or display the object is also considered as a behavior in OOP. To explain further, the object is only created in the background but you need to decide where and how to display the object, and in what forms.   
+This is often a difficult concept for beginners because to display the object is also considered as a behavior in OOP. The object is created in the background, but you need to decide where and how to display the object, and in what forms.   
 
 ## Objects
 
-For this section, we will illustrate how to create an object instance, which is coded in the file `sketch.js`.
+We will now illustrate how to create an object instance, which is coded in the file `sketch.js`.
 
-**(Step 4) Object creation and usage**: After the basic setup of the class structure, the next step is to create a tofu object that can display on a screen.
+**(Step 4) Object creation and usage**: After the basic setup of the class structure, the next step is to create a tofu object that can be displayed on a screen.
 
 ```javascript
 let min_tofu = 5;  //min tofu on the screen
@@ -336,32 +336,32 @@ function showTofu() {
  }
 }
 ```
-The above shows that the program has the minimum amount of tofu on the screen (with the variable `min_tofu`). Tofus are created through the `checkTofuNum()` function with the conditional statement to check if the the amount of tofu objects meets the minimum value. The function `push()` means to create a **new** object instance via the class Tofu (`tofu.push(new Tofu());`). Therefore, all the object instances have the same properties and behaviors, where code can be reused to create similar objects.
+The above shows that the program has the minimum amount of tofu on the screen (with the variable `min_tofu`). Tofus are created through the `checkTofuNum()` function with the conditional statement to check if the the amount of tofu objects meets the minimum value. The function `push()` creates a **new** object instance using the Tofu class (`tofu.push(new Tofu());`). Therefore, all the object instances have the same properties and behaviors, and the code can be reused to create similar objects.
 
-Objects are like arrays, and it starts with index 0, and if you push for more, then it will create `tofu[0]` and `tofu[1]`. Using the syntax `tofu.length()` will get the result of the amount of active objects. As such, we can then use a for-loop to cyling all the tofu objects, moving and showing them on the canvas (with the earlier defined class behavior `move()` and `show()`).
+Objects are like arrays, and start with index 0, and if you push for more, it will create `tofu[0]` and `tofu[1]`. [winnie: what is it? /g] Using the syntax `tofu.length()` will result in the number of active objects. We can then use a for-loop to cycle through all the tofu objects, moving, and displaying them on the canvas (using the class behaviors `move()` and `show()` defined above).
 
-This small snippets of code shows that objects can be duplicated and relatively easy to manage, demonstrating one the advantages of using OOP which is the reusability of objects.
+This small snippets of code shows that objects can be duplicated and are relatively easy to manage, which is one of OOP's advantages.
 
-**(Step 5) Trigger point and logics**: Think with the holistic logic
+**(Step 5) Trigger point and logics**: Consider this holistically
 
-The basic structure of the class-object relationship has been created at this point, but still several logics are needed such as implementing the game rules:
+The basic structure of the class-object relationship has been created at this point, but several additional parts are needed, such as implementing the game rules: [winnie: check this, see L's comment /g]
 
-1. Pacman placement and how it interacts with the tofus
+1. Pacman placement and how it interacts with the tofu
 2. Check if each of the tofu has been eaten or wasted
-3. If the game with an end, what are the conditions and consequences?
+3. If the game has ended, what are the conditions for this, and consequences? [winnie: cehck this too /g]
 
-Since the program is running all the time in the `draw()` function, which means the tofu(s) will be continuously creating, moving and displaying. It is required to break a bigger task into smaller tasks.
+Since the program runs continuously in the `draw()` function, this means tofu(s) will continuously be created, moved and displayed. This necessitates breaking a bigger task down into smaller tasks.
 
 **Deleting tofus**
 
-One of the important thing to note is that once an object is created, it will be stayed in the program even it is no longer visible on a screen until you delete them. In this game, tofus disappear on a screen in two ways:
+One of the important things to note is that once an object is created, it will stay in the program even it is no longer visible on a screen, until you delete it. In this game, tofus disappear from the screen in two ways:
 
-1. A tofu is without being eaten and moved over the edge of the width.
-2. A tofu is being eaten.
+1. A tofu is uneaten and moves out of frame. 
+2. A tofu is eaten.
 
-Although the tofus may disappear on the screen, we need to delete them via code or otherwise they will continue move beyond the screen.
+Although the tofus may disappear on the screen, we need to delete them via code or otherwise they will continue to move off screen.
 
-Since we use the syntax `tofu.length` to check the minimum amount of tofus, the deletion of tofus become essential so that the screen can check and refill the amount of tofus. We have `push()` for adding new objects, and we have `splice()` for deleting them.
+Since we use the syntax `tofu.length` to check the minimum amount of tofus, the deletion of tofus becomes essential so that the screen can check and then adjust the amount of tofus. We have `push()` for adding new objects, and we have `splice()` for deleting them.
 
 ```javascript
 function draw() {
@@ -372,7 +372,7 @@ function checkEating() {
   //calculate the distance between each tofu
   for (let i = 0; i <tofu.length; i++) {
     let d = int(dist(pacmanSize.w/2, pacPosY+pacmanSize.h/2,tofu[i].pos.x, tofu[i].pos.y));
-    if (d < pacmanSize.w/2.5) { //close enough as if eating the tofu
+    if (d < pacmanSize.w/2.5) { //close enough to eat the tofu
       score++;
       tofu.splice(i,1);
     }else if (tofu[i].pos.x < 3) { //pacman missed the tofu
@@ -384,17 +384,17 @@ function checkEating() {
 
 ```
 
-`checkEating()` is a customed function to delete the tofus under certain conditions, and consequently leading to the calculation of the scores, i.e the amount of tofus is being eaten or wasted by the Pacman.
+`checkEating()` is a customized function for deleting tofus under certain conditions, and consequently leading to the calculation of the scores, i.e. the amount of tofus eaten or wasted by Pacman.
 
-First we start with a for-loop to cycle through all the tofu object instances. The first logic is to check if the Pacman has eaten any of them. Up to here, we need to think about what it means by 'being eaten' in a computational sense. The program will continuously check against the distance between each tofu and the pacman. The `dist();` function takes in 4 arguments to calculate the distance between two points (x1, y1, x2, y2), which is the x1 and y1 position of the pacman (the center point) and the x2, y2 of each of the tofu's position. If the calulated distance is less than around more than half of the pacman's image width, then the variable `score` increase by 1 and the matched object will be deleted (`tofu.splice(i,1);`).
+We start with a for-loop to cycle through all the tofu object instances. The first task is to check if Pacman has eaten any of them. This means we need to think about what it means to 'be eaten' in a computational sense. The program continuously checks the distance between each tofu and Pacman. The `dist();` function takes four arguments to calculate the distance between two points (x1, y1, x2, y2). x1 and y1 mark Pacman's position (the center point) and the x2, y2, each tofu's position. If the calulated distance is less than half of Pacman's image width, then the variable `score` increases by one, and the object concerned will be deleted (`tofu.splice(i,1);`).
 
-Secondly, any specific tofu object will no longer be used when it reaches the end of the canvas, so we will remove those objects with the x position less than the value 3 (`tofu[i].pos.x < 3`). The two logics' sequence matters here because we need to make sure those delete tofus are missed by the pacman.  
+Secondly, any specific tofu objects that reach the end of the canvas will no longer be used. Objects with the x position less than the value three (`tofu[i].pos.x < 3`) are removed. The two parts matter because we need to make sure the deleted tofus are missed by Pacman. [winnie: I have carried on replacing 'logics' as agree with L that it's confusing. check this /g] 
 
-Up to now, the function `checkTofuNum()` makes more sense to reflect the numbers of active objects which is the same as the number of visible objects on a screen, and this will create new object instances if not meeting the minimum numbers. This is implemented within the `draw()` function and therefore new objects are continously moved and new object instances are continously created.   
+Up to now, the function `checkTofuNum()` makes more sense to reflect the numbers of active objects, i.e. the number of visible objects on screen, and this will create new object instances if the minimum numbers are not met. This is implemented in the `draw()` function and as a result, new objects are continuously moved, and new object instances are continuously created.   
 
 **Interacting with the key**
 
-To control the pacman and play the game, users will use the UP_ARROW and the DOWN_ARROW to control the pacman's image position. There is a boundary to set the max height and mini height of the pacman by implementing a conditional structure so as to make sure the pacman is able to eat the tofus from different y positions.
+To control Pacman and play the game, users use the UP_ARROW and the DOWN_ARROW to control Pacman's position. There is a boundary to set the max height and mini height of the pacman by implementing a conditional structure so as to make sure the pacman is able to eat the tofus from different y positions.
 
 ```javascript
 function keyPressed() {
@@ -515,7 +515,7 @@ If you can master objects and classes, you may further work on a mini game step 
 [^Madsen]: Madsen, Ole & Møller-Pedersen, Birger & Nygaard, Kristen. (1993). Object-Oriented Programming in the BETA Programming Language, pp. 16-18.
 [^francis]: *ToFu Go!* is freely available on the App store for iphone and iPad, see: https://apps.apple.com/us/app/tofu-go/id441704812.
 [^francis2]: See the interview of Francis Lam in 2012 here: https://www.design-china.org/post/35833433475/francis-lam.
-[^App]: *ToFu Go!* is freely available on the App store for iphone and iPad, see: https://apps.apple.com/us/app/tofu-go/id441704812.
+[^App]: *ToFu Go!* is freely available on the Apple App store for iphone and iPad, see: https://apps.apple.com/us/app/tofu-go/id441704812.
 [^splice]: `splice()` is a p5.js function, see here: https://p5js.org/reference/#/p5/splice.
 [^push]: `push()` is a JavaScript function that is used in an array to add one or more elements to the end of an array, see here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push.
 [^Bogost]: Ian Bogost, *Persuasive Games: The Expressive Power of Videogames* (Cambridge, Mass.: MIT Press, 2007) 8. Also, see his *Unit Operations: An Approach to Videogame Criticism* (Cambridge, Mass.: MIT Press, 2006).
@@ -527,7 +527,7 @@ If you can master objects and classes, you may further work on a mini game step 
 [^FullerGoffey]: Matthew Fuller & Andrew Goffey, "The Obscure Objects of Object Orientation", in Matthew Fuller, ed., *How to be a Geek: Essays on the Culture of Software* (Cambridge, UK: Polity, 2017), 21.
 [^Manifesto]: "Hitherto, philosophers have sought to understand the world; the point, however, is to change it." Marx and Engels, *The Communist Manifesto* (1848), https://www.marxists.org/archive/marx/works/1848/communist-manifesto/.
 [^tofu2]: See https://editor.p5js.org/siusoon/sketches/HAYWF3gv.
-[^color]: The range of each individual color is 0-255 with the total of 256 possible values. Each color (R, G and B) has 8-bit color graphics regarding the storage of image information in a computer's memory. To put this concretely, the red color is in the form of 8-bit color graphics, then each bit has two binary possibilities, and therefore the number of possible values is calculated as  2^8 which is 256.  
+[^color]: The way a computer understands color provides an example of numeric logic. A range of each individual color is 0-255 with the total of 256 possible values. Each color (R, G and B) has 8-bit color graphics regarding the storage of image information in a computer's memory. To put this concretely, the red color is in the form of 8-bit color graphics, then each bit has two binary possibilities, and therefore the number of possible values is calculated as  2^8 which is 256. 
 [^pacman]: The original name of the game *Pac-Man* was called "PuckMan" that has a strong food and eating reference. The original name refers to a popular Japanese phrase "Paku paku taberu", where "paku paku" simulates the sound of a snapping mouth and taberu means "to eat". See Jacopo Prisco, "Pac-Man at 40: The eating icon that changed gaming history", CNN. Available at: https://edition.cnn.com/style/article/pac-man-40-anniversary-history/
 [^chun]: As previously discussed in Chapter 1, "Getting started" on the usual understanding of high-level programming languages, Chun sharply points to the politics of programmable software in terms of erasure and reusability. Higher-level programming languages does not expose detailed machine operations/instructions, and hence enforcing the binary seperation of soft/hardware and forgetting the physicality and concreteness of machines. The professionalization of programming is in part built upon the hiding of the machine. Besides, the desire of reusability of code (instead of performing manual wiring as the early days of the so-called computer programming) as well as having the ability to run on more than one machine, or in the contemporary term as supporting cross platforms, is the key to the commodification of software. See,
 Chun, Wendy Hui Kyong. “On Software, or the Persistence of Visual Knowledge.” Grey Room 18 (January 2005): 26–51. https://doi.org/10.1162/1526381043320741.
