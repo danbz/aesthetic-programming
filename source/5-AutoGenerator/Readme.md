@@ -1,7 +1,7 @@
-Title: Auto Generator
+Title: Auto-Generator
 page_order: 6
 
-## Auto Generator
+## Auto-Generator
 ![flowchart](ch5_0.svg)
 
 ## setup()
@@ -225,28 +225,28 @@ function checkEdges() { //check width and height boundary
 
 ## Reading Langton's Ant
 
-Based on the above example, there are three areas can help in slowing down or zooming in on the program.
-1. `let grid_space = 5;`: You can change the value to 10 then you are able to see it at a larger size.   
-2. `frameRate(20);`: Lower the frame rate value can help slower down the program
-3.  `draw()`: This function contains a for-loop where n is the number of steps of the ant so if desired you can reduce the `n < 100` to `n < 1` in the line `for (let n = 0; n < 100; n++) {` thus instructing the program to only process n steps per frame.
+There are three areas that can help you to change the program.
+1. `let grid_space = 5;`: If you can change the value to 10, everything will be enlarged.      
+2. `frameRate(20);`: Lower the frame rate value to help slow down the program.
+3. `draw()`: This function contains a for-loop where *n* is the ant's number of steps. If so desired you can reduce the `n < 100` to `n < 1` in the line `for (let n = 0; n < 100; n++) {` instructing the program to only process n steps per frame.
 
-Intead of going through the code line by line, this following is more to show what each function does.
+Instead of going through the code line by line, the following shows what each function does.
 
-- `function setup()`: This is more to setup the canvas size, initiate the ant's head direction, frame rate, color and to prepare drawing the background grid structure.
+- `function setup()`: This is to setup the canvas size, initiate the ant's head direction, frame rate, color, and to prepare drawing the background grid structure.
 
-- `function drawGrid()`: To divide the canvas into a grid structure with lines.
+- `function drawGrid()`: To divide the canvas into a grid.
 
-- `function draw()`: This is the main function to check against the two rules of Langton's Ant and change the color of cells.
+- `function draw()`: This main function checks the two rules of Langton's Ant and change the color of cells.
 
-- `function nextMove()`: The four directions are structured in a number format so that the variable `dir++` can be used for incrementing or decrementing the ant's direction. Each different direction of *UP, RIGHT, DOWN, LEFT* corresponds to moving forward in either horizontal (xPos) or vertical (yPos) steps on the canvas.
+- `function nextMove()`: The four directions are structured in a number format so that the variable `dir++` can be used to change the ant's direction. Each possible direction (*UP, RIGHT, DOWN, LEFT*) corresponds to moving forward in either horizontal (xPos) or vertical (yPos) steps on the canvas.
 
-- `function checkEdges()`: This function is to check if the ant moves out of the four edges, then it will continue at the other end.
+- `function checkEdges()`: This function is to check if the ant moves out of frame. When it does, the program is written in such a way that it appears on the opposite side and continues.
 
-Technically speaking, there is no new syntax here as the 2-dimensional arrays have already been covered briefly in Chapter 4 - Data Capture. However, there is the new use of 2-dimensional arrays and nested for-loops in the sample code.
+Technically speaking, there is no new syntax here as the 2-dimensional arrays have already been covered briefly in the previous chapter. However, there is a new use of 2-dimensional arrays and nested for-loops in the sample code.
 
 ## Two-dimensional arrays & nested for-loops
 
-Daniel Shiffman has created a tutorial (both in written[^shiffman1] and video[^shiffman2] formats) to discuss how a 2-dimensional array is essentially an array of other arrays. He also suggests that it is useful to think about 2-dimensional arrays with a grid structure which aligns nicely with the background of *Langton's Ant* designed as a grid in two dimensions with both columns and rows. Since we need to identify the state of each cell, we need to know the exact x and y position of each cell.
+Daniel Shiffman has created a tutorial (both in written[^shiffman1] and video[^shiffman2] forms) to discuss how a 2-dimensional array is essentially an array of other arrays. He also suggests that it is useful to think about 2-dimensional arrays with a grid structure which aligns nicely with the background of *Langton's Ant* which is designed as a grid in two dimensions with both columns and rows. Since we need to identify the state of each cell, we need to know the exact x and y position of each cell.
 
 Let's examine the source code again for the grid drawing:
 
@@ -255,9 +255,9 @@ function drawGrid() {
   cols = width/grid_space;
   rows = height/grid_space;
   let arr = new Array(cols);
-  for (let i=0; i < cols; i++) { //no of cols
+  for (let i=0; i < cols; i++) { //number of columns
     arr[i] = new Array(rows); //2D array
-    for (let j=0; j < rows; j++){ //no of rows
+    for (let j=0; j < rows; j++){ //number of rows
       let x = i * grid_space; //actual x coordinate
       let y = j * grid_space; //actual y coordinate
       stroke(0);
@@ -271,44 +271,46 @@ function drawGrid() {
 }
 ```
 
-To create an array, we use the syntax `let arr = new Array(cols);` and this line indicates the grid in columns and the length of the array is the number of columns. Since we also need to cater for the number of rows, we create another array out of each existing array in the column with the line `arr[i] = new Array(rows);`. This syntax is put under a for-loop to loop through each of the columns but then with the addition of number of rows (which is derived from the canvas' height). Therefore, 2-dimensional arrays are structured in this way: `arr[][]`.
+To create an array, we use the syntax `let arr = new Array(cols);` and this line indicates the grid in columns and the length of the array is the same as the number of columns. Since we also need to indicate the number of rows, we create another array out of each existing array in the column using the line `arr[i] = new Array(rows);`. This syntax is put under a for-loop to loop through each of the columns, but then with the addition of number of rows (which is derived from the canvas height). 2-dimensional arrays are structured in this way: `arr[][]`.
 
-In order to know the exact x and y coordinates of each cell within a grid structure, it depends on which columns and which rows you are pointing at with the formular `x = i * grid_space;` and `y= j * grid_space;` respectively. By using two nested for-loops, the program will loop through each column and each row (under the same column) until the program runs to the last column. Ultimately, we are able to get the x and y coordinates with the syntax `array[i][j]`, which is applied to columns (with the variable i) and rows (with the variable j).
+To know the exact x and y coordinates of each cell within a grid, we use the formula `x = i * grid_space;` and `y= j * grid_space;`. By using two nested for-loops, the program loops through each column and each row until the program reaches the last column. We are able to get the x and y coordinates with the syntax `array[i][j]`, which is applied to columns (with the variable i) and rows (with the variable j).
 
-Therefore, each divided cell is presented in the structure of a 2-dimensional array. It depends on the width and height of the canvas and how you want to distribute the space. Each cell represents a possibility that an ant can move as a unit and demonstrate an on or off state that is represented in the color black or white.
+Therefore, each cell is represented in the structure of a 2-dimensional array. Each cell represents a possibility that an ant can move to another cell in the overall grid. [winnie: made some changes here following Loren's comments, please check /g]
 
 ## Exercise in class
 
 1. Give yourself sometime to **read and tinker** with the code, as well as to **observe** the different stages of *Langton's Ant*.
 
-2. Right now the *Langton's Ant* program is more about representing the world of an ant through abstraction, such as limited cell color, as well as only being able to move in four directions and turn 90°. Rethink the rules that have been implemented. Can you try **changing the existing rules or adding new rules** so that the ant behaves differently? (Recall what you have changed in the previous exercise on *10 PRINT*.)
+2. The *Langton's Ant* program represents the world of an ant through abstraction, and sets limits on cell color, movement and direction. Rethink the rules that have been implemented. Try **changing the existing rules or adding new rules** so that the ant behaves differently? (Recall what you have changed in the previous exercise with *10 PRINT*.)
 
-3. It is clear that in simulating and abstracting living systems — such as the complex behaviour of insects — there is a focus on emergent and generative process over end-result. In terms of creative process this allows us to think about how rules and instructions can produce complexity and other forms of control and agency. Let's discuss the following questions:
+3. In simulating living systems — such as the complex behavior of insects — there seems to be a focus on process over outcome. Let's discuss the following questions:
     - Can you **think of, and describe**, other systems and processes that exhibit emergent behaviour?
     - How would you **understand autonomy** in this context?[^Watz] To what extent do you consider **the machine to be an active agent** in generative systems? **What** are the implications for wider culture?
 
 ## While()
 
-We already have discussed the idea of unleashing potential in the previous chapter and it would seem that generative systems promise something similar as a means to change an existing system. The parallel to living systems is made clear in *Game of Life* — developed by the mathematician Jon Conway in 1970[^Conway] — a further example of a Turing machine and how an evolutionary process is determined by its initial state, requiring no further input, and producing emergent forms. Langton's Ant — our earlier example — is also based on principles of *cellular automata* in which there is a regular grid of cells, each in one of a finite number of states, such as on and off, or alive and dead in this case. We have already explored the reductive logic of this somewhat in this chapter but this example[^game_eg] is also troubling for its 'necropolitical' dimension[^necro]: articulating life and death in terms of populations and neighbourhoods, as if part of a social cleansing programme (or dystopian smart city[^smart]).
+We already have discussed the idea of unleashing potential for change in the previous chapter, and it would seem that generative systems promise something similar as a way to envisage existing systems as changeable or adaptive. The parallel to living systems is made clear in *Game of Life* — developed by the mathematician Jon Conway in 1970[^Conway] — another example of a Turing machine and how an evolutionary process is determined by its initial state, requires no further input, and produces emergent forms.[^game_eg] Like Langton's Ant, it is similarly based on principles of *cellular automata*, i.e. a regular grid of cells, each in one of a finite number of states, such as on or off, or alive or dead, in this case. These are powerful metaphors with real-world applications.
 
-Every cell interacts with other cells that are directly adjacent, and the following transitions occur:
+Every cell interacts with other, directly adjacent, cells, and the following transitions occur:
 
- - Any live cell with fewer than two live neighbours dies, as if by underpopulation.
- - Any live cell with two or three live neighbours lives on to the next generation.
- - Any live cell with more than three live neighbours dies, as if by overpopulation.
- - Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+ - Any live cell with fewer than two live neighbors dies, as if by underpopulation.
+ - Any live cell with two or three live neighbors lives on to the next generation.
+ - Any live cell with more than three live neighbors dies, as if by overpopulation.
+ - Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
-Perhaps this is simply a poor example of abstraction. That said, there is an alternative political potential here in the way an adaptive complex organism can assemble itself *bottom-up*, without a central *top-down* command and control mechanism.[^emergence] This is referred to a *revolutionary* moment where it becomes impossible to predict the direction change will take, and whether it will fall into a higher level of order or disintegrate into chaos. We return to ants again here as the study of ant colonies reveal that there is no discernible hierarchy at work, and although humans have named the ants in provocative terms, the 'queen' is not an authority figure at all but an egg-laying functionary, and the workers operate in a cooperative rather than feudal structure (as an aside, the workers are all female, but the gender politics of ants is outside our scope).
+If the evolutionary neo-Darwinian logic of this - where the fittest survive - were not worrying enough, *Game of Life* is further troubling for its 'necropolitical' dimension[^necro]: articulating life and death in terms of populations and neighborhoods, as if part of a social cleansing program (or dystopian smart city[^smart] project). Is this simply an example of poor abstraction?
 
-To be more precise, and according to complexity theory, all systems contain subsystems that are continually fluctuating. It is possible that one or more fluctuations, as a result of feedback, may change the preexisting organisation of the system, and as such the multiple interacting elements of a system cannot be governed and the collective behaviour cannot be predicted, as Ilya Prigogine and Isabelle Stengers explain in *Order Out of Chaos*:
+That said, there is an alternative political potential here in the way an adaptive complex organism can assemble itself *bottom-up*, without a central *top-down* command and control mechanism.[^emergence] This demonstrates *revolutionary* potential when it becomes impossible to predict the direction change will take, and whether it will fall into a higher level of order or disintegrate into chaos. Returning to ants, the study of ant colonies reveal there is no discernible hierarchy at work, and although humans have named the ants in provocative terms, the 'queen' is not an authority figure at all but an egg-laying functionary, and the ant-workers operate a cooperatively rather than feudally (incidentally, the worker ants are all female, however the sexual politics of ants are outside our scope).
 
-> "A society defined entirely in terms of a functional model would correspond to the Aristotelian idea of natural hierarchy and order. Each official would perform the duties for which he [sic] has been appointed. These duties would translate at each level the different aspects of the organization of the society as a whole. The king gives orders to the architect, the architect to the contractor, the contractor to the worker. On the contrary, termites and other social insects seem to approach the 'statistical' model. As we have seen, there seems to be no mastermind behind the construction of the termites' nest, when interactions among individuals produce certain types of collective behaviour in some circumstances, but none of these interactions refer to any global task, being all purely local."[^chaos]
+To be more precise, and according to complexity theory, all systems contain subsystems that continually fluctuate. One or more fluctuations, resulting from feedback, could change the preexisting organization, and as such the multiple interacting elements of a system cannot be governed, and the collective behavior cannot be predicted. As Ilya Prigogine and Isabelle Stengers explain in *Order Out of Chaos*:
 
-If we return to a history of computing for an understanding of emergent behaviour, we might turn to Turing's article of 1952 "The Chemical Basis of Morphogenesis" for its description of the way in which natural patterns naturally arise from a homogeneous, uniform state.[^morpho] This idea of morphogenesis is something that the political theorist and activist Franco 'Bifo' Berardi has utilised to describe social and political mutation, or when new form emerges and takes shape. He is thinking of how processes of automation have not only replaced physical acts of production with information technology, but how automation has transformed cognitive activity itself. The effect "implies the reduction of cognitive activity to algorithmic procedures, and the insertion of "automatisms into the social existence of the general intellect".[^eflux] One of the consequences of this is that automation is taking the place of political decision — "Yes or no... no nuances, no ambiguity" — and for Berardi this implies the end of political democracy, and the establishment of an automatic chain of logical procedures intended to replace conscious voluntary choices and decision-making. Not only has the human capacity for thinking been captured by the machine in this way, according to Berardi, but our feelings too.[^Bifo] Part of the problem is that we have been learning words from machines, not from other humans — the mother, he says (and clearly his mother wasn't a computer[^mother]) — the consequence of which is that our capacity for love, tenderness, and compassion are lessened. We might add *care* to this list, to invoke feminist technoscience, such as the work of Maria Puig de la Bellacasa's for example. For Bellacasa, care is important to draw attention to how things are held together, to their relationalities, to understand that "transforming things into matters of care is a way of relating to them, of inevitably becoming affected by them, and of modifying their potential to affect others."[^bellacasa]
+> "A society defined entirely in terms of a functional model would correspond to the Aristotelian idea of natural hierarchy and order. Each official would perform the duties for which he [sic] has been appointed. These duties would translate at each level the different aspects of the organization of the society as a whole. The king gives orders to the architect, the architect to the contractor, the contractor to the worker. On the contrary, termites and other social insects seem to approach the 'statistical' model. As we have seen, there seems to be no mastermind behind the construction of the termites' nest, when interactions among individuals produce certain types of collective behavior in some circumstances, but none of these interactions refer to any global task, being all purely local."[^chaos]
 
-This brings us neatly to our last example, the generative *love-letters* that appeared on the notice board of Manchester University’s Computer Department in 1953. These auto computer-generated declarations were produced by a program written by the programmer Christopher Strachey using the built-in random generator of the Manchester University Computer (the Ferranti Mark I), the earliest programmable computer. Regarded by some as the first example of a digital artwork,[^Noah] and by Jacob Gaboury as a critique of hetero-normative love, not least as Strachey like Turing was queer.[^Gaboury] Moreover this is arguably more than a longing for same sex love but something more queer such as human-machine love.
+To help understand emergent behavior, we might turn to Turing's article of 1952 "The Chemical Basis of Morphogenesis" for its description of the way in which natural patterns naturally arise from a homogeneous, uniform states.[^morpho] This idea of morphogenesis is something that the political theorist and activist Franco 'Bifo' Berardi has utilized to describe social and political mutation, or when new form emerges and takes shape. Processes of automation have not only replaced physical acts of production with information technology, but automation has transformed cognitive activity itself. To Berardi, this "implies the reduction of cognitive activity to algorithmic procedures,"" and the insertion of "automatisms into the social existence of the general intellect."[^eflux] One of the consequences of this is that automation is taking the place of political decision-making — "Yes or no... no nuances, no ambiguity" — and to Berardi this implies the end of democracy, and the establishment of an automatic chain of logical procedures intended to replace conscious voluntary choices, and decision-making. Not only have machines captured the human capacity for thinking, according to Berardi, but our feelings too.[^Bifo] Part of the problem is that we have been learning words from machines, not from other humans,[^mother] the consequence of which is that our capacity for love, tenderness, and compassion are lessened. We might add *care* to this list, thereby invoking feminist technoscience, such as Maria Puig de la Bellacasa's work. For Bellacasa, care is important as it draws attention to how things are held together, to their relationalities, "transforming things into matters of care is a way of relating to them, of inevitably becoming affected by them, and of modifying their potential to affect others."[^bellacasa]
 
-Artist David Link reconstructed a functional replica of both the hardware and the original program, following meticulous research on the functional aspects.[^loveletters] The main program is relatively simple, using loops and a random variable to follow the sentence structure: "You are my — Adjective — Substantive,” and “My — [Adjective] — Substantive — [Adverb] — Verb — Your — [Adjective] — Substantive." Some words are fixed and some optional, indicated by the square brackets. The program selects from the list of options—adjectives, adverbs, and verbs — and loops are configured to avoid repetition. The software could generate over 318 billion variations. In terms of effect, the dialogic structure is important too in setting up an exchange between *Me* (the program writer) and *You* (the human reader), such that you feel addressed directly. The resultant declarations suggest a surprising tenderness of expression that runs contrary to what we consider the standard functional outcomes of computational procedures. This is far from a reductionist view of love, and perhaps the challenge for those making programs is to generate queer recombinant forms in which neither sender or receiver are predetermined by specific gender, species, or form. We end this chapter with a sample output:
+This brings us to our last example, the generative *love-letters* that appeared on the Manchester University Computer Department’s noticeboard in 1953. These computer-generated declarations of love were produced by a program written by Christopher Strachey using the built-in random generator function of the M. U. C. (Manchester University Computer, the Ferranti Mark I), the earliest programmable computer. Regarded by some as the first example of digital art,[^Noah] and by Jacob Gaboury as a critique of hetero-normative love, not least as Strachey like Turing was queer.[^Gaboury] Moreover these letters are arguably more than a longing for same sex love but something more queer such as human-machine love.
+
+Artist David Link built a functional replica of both the hardware and the original program, following meticulous research into the functional aspects.[^loveletters] The main program is relatively simple, and uses loops and a random variable to follow the sentence structure: "You are my — Adjective — Substantive," and "My — [Adjective] — Substantive — [Adverb] — Verb — Your — [Adjective] — Substantive." Some words are fixed and some are optional, as indicated by the square brackets. The program selects from a list of options — adjectives, adverbs, and verbs — and loops are configured to avoid repetition. The software can generate over 318 billion variations. In terms of effect, the dialogic structure is important in setting up an exchange between *Me* (the program writer) and *You* (human reader), so you feel personally addressed. The resulting love letters provide a surprising tenderness of expression that runs contrary to what we consider the standard functional outcomes of computational procedures. This is far from a reductionist view of love, and perhaps the challenge for those making programs is to generate queer recombinant forms in which neither sender or receiver are predetermined by specifying gender, species, or form. We end this chapter with sample output:
 
 > DEAR DARLING
 
@@ -321,9 +323,9 @@ Artist David Link reconstructed a functional replica of both the hardware and th
 ## MiniX[5]: A generative program
 
 **Objectives:**
-- To implement a rule-based generative program from scratch.
-- To strengthen the computational use of loops and conditional statements in a program.
-- To reflect upon the concept of auto generator conceptually and practically.
+- To implement a rule-based, generative program from scratch.
+- To strengthen the computational use of loops and conditional statements.
+- To conceptually and practically reflect upon the idea of auto-generator.
 
 **Get some additional inspiration here:**
 - [{Software} Structure #003 A by Casey Reas](https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks)
@@ -336,59 +338,59 @@ Artist David Link reconstructed a functional replica of both the hardware and th
 - [Solving Sol project - An open project to implement Sol LeWitt's instructions in JavaScript by Brad Bouse](https://github.com/wholepixel/solving-sol)
 
 **Tasks (RUNME):**
-1. Start with a blank paper. Think of at least two simple rules that you want to implement in a generative program. (You may take reference from Langton's ant (1986) and The Game of Life (1970))
-2. Based on the rules that you set in step 1, then design a generative program that utilizes **at least one for-loop/while-loop and one conditional statement** but without any direct interactivity. Just let the program run and emerges automatically. (You may also consider to use `noise()` and `random()` syntax if that helps)
+1. Start with a blank sheet of paper. Think of at least two simple rules that you want to implement in a generative program. You can reference *Langton's Ant* (1986) and *The Game of Life* (1970).
+2. Based on the rules that you set in Step 1, design a generative program that utilizes **at least one for-loop/while-loop and one conditional statement**, but without any direct interactivity. Just let the program run. You can also consider using `noise()` and `random()` syntax if that helps.
 
 **Questions to think about as README:**
-- What are the rules in your generative program and describe how your program performs over time and how are the running of the rules contingently enabled emergent behaviors?
-- What's the role of rules and processes in your work?
-- Draw upon the assigned reading(s), how does this mini-exericse help you to understand auto generator (e.g control, autonomy, instructions/rules)? Do you have any further thoughts about the theme of this chapter?
+- What are the rules in your generative program? Describe how your program performs over time? How do the rules produce emergent behavior?
+- What role do rules and processes have in your work?
+- Draw upon the assigned reading, how does this mini-exercise help you to understand the idea of auto-generator (e.g. levels of control, autonomy)? Do you have any further thoughts?
 
 ## Required reading:
-- Montfort, N, et al. "Randomness". *[10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org/)*, The MIT Press, 2012, pp. 119-146 (The chapter: Randomness)
+- Nick Montfort et al. "Randomness," *[10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org/)* (Cambridge, MA: MIT Press, 2012), 119-146.
 - [Langton's Ant Colonies](https://www.youtube.com/watch?v=w6XQQhCgq5c)
-- Marius Watz, "Beautiful Rules: Generative Models of Creativity", in *The Olhares de Outono* (2007), https://vimeo.com/26594644.
-- [p5.js - 2D Arrays in Javascript by Daniel Shiffman](https://www.youtube.com/watch?v=OTNpiLUSiB4)
+- Marius Watz, "Beautiful Rules: Generative Models of Creativity," in *The Olhares de Outono* (2007), https://vimeo.com/26594644.
+- Daniel Shiffman,  [p5.js - 2D Arrays in Javascript](https://www.youtube.com/watch?v=OTNpiLUSiB4).
 
 ## Notes
 
-[^Turing]: Alan Mathison Turing, "On Computable Numbers, with an Application to the Entscheidungsproblem", *Proceedings of the London Mathematical Society* 2.1 (1937): 230-265.
-[^Turing1]: Ibid., 241.
+[^Turing]: Alan Mathison Turing, "On Computable Numbers, with an Application to the Entscheidungsproblem," *Proceedings of the London Mathematical Society* 2, no.1 (1937): 230-265.
+[^Turing1]: Turing, "On Computable Numbers," 241.
 [^visualization]: A visualization of the Turing Machine can be found here: https://turingmachine.io/.
 [^Lippard]: Reference to Lucy Lippard, ed. *Six Years: The Dematerialization of the Art Object from 1966 to 1972* (London: University of California Press, 1997).
-[^Cox]: One example of many, and also connected to an exhibition, is Geoff Cox's' "Generator: The Value of Software Art", in Judith Rugg and Michèle Sedgwick, eds., *Issues in Curating Contemporary Art and Performance* (Bristol: Intellect, 2007), 147-162; available at https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf. Interestingly, this includes a description of Adrian Ward's *Auto-Illustrator*, released as a boxed version for the exhibition "Generator" (2002-3) with an accompanying "User’s  Manual" that contained both technical detail and critical essays. In many ways this sets a precedent for the publication you are reading. It can also be seen how conceptual art practices combine idea and action much like how performance art works with scores and scripts, and in turn how programs work with instructions and execution. For more on the aesthetic dimension of this see Geoff Cox, Alex McLean, and Adrian Ward, "The Aesthetics of Generative Code", Generative Art 00, international conference, Politecnico di Milano, 2001, https://www.academia.edu/10519146/The_Aesthetics_of_Generative_Code.  
-[^exhibition]: The exhibition "Programmed: Rules, Codes, and Choreographies in Art, 1965–2018" was held at the Whitney Museum of American Art, New York (28 Sep 2018 – 14 Apr 2019), and organized by Christiane Paul and Carol Mancusi-Ungaro, with Clémence White. See https://whitney.org/exhibitions/programmed. An earlier well-cited example would be the 1970 exhibition “Software — Information Technology: Its New Meaning for Art” at the Jewish Museum in New York, curated by Jack Burnham. For Burnham, the exhibition "Software" encouraged an understanding of underlying structures in art and information systems, and by drawing together practices in computer technology with conceptual art, software was to be seen as a metaphor for information exchange.
+[^Cox]: One example of many is Geoff Cox's "Generator: The Value of Software Art", in Judith Rugg and Michèle Sedgwick, eds., *Issues in Curating Contemporary Art and Performance* (Bristol: Intellect, 2007), 147-162; available at https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf. This includes a description of Adrian Ward's *Auto-Illustrator*, released as a boxed version for the exhibition "Generator" (2002-3) with an accompanying "User’s  Manual" that contained both technical detail and critical essays, and in many ways this can be seen as a precedent for the publication you are reading. For more on the aesthetic dimension of the parallels between scores, scripts, and programs, see Geoff Cox, Alex McLean, and Adrian Ward, "The Aesthetics of Generative Code," Generative Art 00, international conference, Politecnico di Milano, (2001), https://www.academia.edu/10519146/The_Aesthetics_of_Generative_Code.  
+[^exhibition]: The exhibition "Programmed: Rules, Codes, and Choreographies in Art, 1965–2018" was held at the Whitney Museum of American Art, New York (28 Sep 2018 – 14 Apr 2019), and organized by Christiane Paul and Carol Mancusi-Ungaro, with Clémence White, https://whitney.org/exhibitions/programmed. An earlier example is the 1970 exhibition “Software — Information Technology: Its New Meaning for Art,” at the Jewish Museum in New York, curated by Jack Burnham. For Burnham, the exhibition "Software" encouraged an understanding of underlying structures in art and information systems, and by drawing together practices in computer technology with conceptual art, software was to be seen as a metaphor for information exchange.
 [^LeWitt]: Sol LeWitt cited in Lippard, ed. *Six Years: The Dematerialization of the Art Object from 1966 to 1972*.
-[^processing]: Processing is a flexible software sketchbook and programming language, initiated by Casey Reas and Ben Fry in 2001, for learning how to code within the context of the visual arts. See https://processing.org/. 
-[^Reas]: For an explanation of this work, and linked docuementation, see Casey Reas, "{Software} Structures",  https://artport.whitney.org/commissions/softwarestructures/text.html
-[^galanter]: Philip Galanter, *What is Generative Art? Complexity theory as a context for art theory*. In GA2003-6th Generative Art Conference, Milan (2003).
+[^processing]: Processing is a flexible software sketchbook and programming language, initiated by Casey Reas and Ben Fry in 2001, for users to learn how to code within the context of the visual arts. See https://processing.org/. 
+[^Reas]: For an explanation of this work, and linked docuementation, see Casey Reas, "{Software} Structures,"  https://artport.whitney.org/commissions/softwarestructures/text.html.
+[^galanter]: Philip Galanter, *What is Generative Art? Complexity theory as a context for art theory,* in GA2003-6th Generative Art Conference, Milan (2003).
 [^suchman]: Lucy Suchman, *Human-Machine Reconfigurations: Plans and Situated Actions* (Cambridge: Cambridge University Press, 2007), 217-220.
-[^10print]: Nick Montfort, et al, *10 PRINT CHR $(205.5+ RND (1));: GOTO 10* (Cambridge, Mass., MIT Press, 2012_.
-[^Haahr]: See Mads Haahr, "Introduction to Randomness and Random Numbers", https://www.random.org/randomness/ and Montfort, N, et al. "Randomness". *[10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org/)*, The MIT Press, 2012, pp. 119-146.
-[^Langton]: Christopher G. Langton, “Studying Artificial Life with Cellular Automata”, *Physica D: Nonlinear Phenomena* 22, no. 1–3 (October 1986): 120–49. https://doi.org/10.1016/0167-2789(86)90237-X.
-[^shiffman1]: See "Two-dimensional Arrays" written for the Processing Community: https://processing.org/tutorials/2darray/.
-[^shiffman2]: See the video intruction on 2D Arrays in p5.js: https://www.youtube.com/watch?v=OTNpiLUSiB4.
-[^emergence]: For more on emergent behaviour, eee Steven Johnson, *Emergence: The Connected Lives of Ants, Brains, Cities and Software* (London: Penguin, 2001), 20).
-[^Moreira]: Andrés Moreira, Anahí Gajardo and Eric Goles. “Dynamical Behavior and Complexity of Langton’s Ant”, *Complexity* 6, no. 4 (March 2001): 46–52. https://doi.org/10.1002/cplx.1042.
+[^10print]: Nick Montfort, et al, *10 PRINT CHR $(205.5+ RND (1));: GOTO 10* (Cambridge, MA: MIT Press, 2012).
+[^Haahr]: See Mads Haahr, "Introduction to Randomness and Random Numbers," https://www.random.org/randomness/; and Montfortet al, "Randomness," 119-146.
+[^Langton]: Christopher G. Langton, "Studying Artificial Life with Cellular Automata," *Physica D: Nonlinear Phenomena* 22, no.1–3 (October 1986): 120–49, https://doi.org/10.1016/0167-2789(86)90237-X.
+[^shiffman1]: See "Two-dimensional Arrays" written for the Processing Community, https://processing.org/tutorials/2darray/.
+[^shiffman2]: See the video instruction on 2D Arrays in p5.js at https://www.youtube.com/watch?v=OTNpiLUSiB4.
+[^emergence]: For more on emergent behaviour, see Steven Johnson, *Emergence: The Connected Lives of Ants, Brains, Cities and Software* (London: Penguin, 2001), 20.
+[^Moreira]: Andrés Moreira, Anahí Gajardo and Eric Goles, "Dynamical Behavior and Complexity of Langton’s Ant,"" *Complexity* 6, no.4 (March 2001): 46–52, https://doi.org/10.1002/cplx.1042.
 [^Steps]: See the web-based step by step running of the Langton's Ant implemented by Barend Köbben in 2014, https://kartoweb.itc.nl/kobben/D3tests/LangstonsAnt/.
 [^Watz]: For instance, generative artist Marius Watz would suggest that "autonomy is the ultimate goal", from his talk "Beautiful Rules: Generative Models of Creativity", in *The Olhares de Outono* (2007), https://vimeo.com/26594644.
 [^Conway]: More information on Conway's *Game of Life* and related cellular automata can be found at https://www.conwaylife.com/.
-[^necro]: As a further developement of 'biopolitics' (a term from Michel Foucault to indicate the use of power to control people's lives), 'necropolitics' is the use of social and political power to dictate how some people may live and how some must die. See Achille Mbembe, "Necropolitics", *Public Culture* 15 (1) (2003): 11–40.
+[^necro]: As a further development of 'biopolitics' (a term from Michel Foucault to indicate the use of power to control people's lives); 'necropolitics' is the use of social and political power to dictate how some people may live and how some must die. See Achille Mbembe, "Necropolitics," *Public Culture* 15, no.1 (2003): 11–40.
 [^smart]: See the artwork *WUOUS* by Anders Visti and Tobias Stenberg with an implementation of *Langton's Ant* to question the procedural logic of so-called 'smart cities': https://andersvisti.dk/work/wuos-2019.
 [^chaos]: Ilya Prigogine and Isabelle Stengers, *Order Out of Chaos: Man’s New Dialogue With Nature* (London: Fontana, 1985), 205.
-[^morpho]: Alan Mathison Turing, "The Chemical Basis of Morphogenesis" (PDF). *Philosophical Transactions of the Royal Society of London B*, 237 (641) (1952): 37–72. doi:10.1098/rstb.1952.0012. JSTOR 92463.
-[^eflux]: Franco “Bifo” Berardi, "The Neuroplastic Dilemma: Consciousness and Evolution", in *e-flux* jouurnal #60 (December 2014), https://www.e-flux.com/journal/60/61034/the-neuroplastic-dilemma-consciousness-and-evolution/. "General Intellect" is a key concept taken from Marx's *Grundrisse*, in the passage "Fragment on Machines", used to indiacte the coming together of technological expertise and social intellect. Terranova is also drawing upon this concept when she argues that the evolution of machinery also unleashes productive powers, as referenced in Chapter 4 — DataCapture.
+[^morpho]: Alan Mathison Turing, "The Chemical Basis of Morphogenesis," *Philosophical Transactions of the Royal Society of London B,* 237, no.641 (1952): 37–72, doi:10.1098/rstb.1952.0012. JSTOR 92463.
+[^eflux]: Franco “Bifo” Berardi, "The Neuroplastic Dilemma: Consciousness and Evolution," in *e-flux* journal #60 (December 2014), https://www.e-flux.com/journal/60/61034/the-neuroplastic-dilemma-consciousness-and-evolution/. "General Intellect" is a key concept taken from Marx's *Grundrisse,* in the passage "Fragment on Machines," used to indicate the coming together of technological expertise and social intellect. Terranova is also drawing upon this concept when she argues that the evolution of machinery also unleashes productive powers, as referenced in Chapter 4 — DataCapture.
 [^Bifo]: Franco “Bifo” Berardi, *Precarious Rhapsody: Semiocapitalism and the Pathologies of the Post-Alpha Generation* (London: Minor Compositions, 2009), 9.
-[^mother]: In N. Katherine Hayles’ *My Mother Was a Computer*, she charts how in the 1930s and 1940s, mostly women were employed to do calculations and were referred to as computers. N. Katherine Hayles, *My Mother Was a Computer* (Chicago: University of Chicago Press, 2005). Hayles takes her title from a chapter in the book *Technologies of the Gendered Body* by Anne Balsamo, whose mother was one of these computers.
-[^Noah]: Noah Wardrip-Fruin, "Christopher Strachey: The First Digital Artist?". *Grand Text Auto*, School of Engineering, University of California Santa Cruz (1 August 2005).
-[^Gaboury]: Jacob Gaboury, "A Queer History of Computing", *Rhizome* (9 April 2013). We return to the issue of Turing's sexuality in the next chapter — VocableCode.
-[^bellacasa]: Maria Puig de la Bellacasa, "Matters of Care in Technoscience: Assembling Neglected Things," in *Social Studies of Science* 41, no. 1 (2010), 99.
-[^loveletters]: David Link's *LoveLetters_1.0: MUC=Resurrection* was first exhibited in 2009, and was part of dOCUMENTA(13), Kassel, in 2012. A detailed description and documentation can be found at http://www.alpha60.de/art/love_letters/. Also see Geoff Cox, Introduction" to David Link, *Das Herz der Maschine* (dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 037) (Berlin: Hatje Cantz, 2012).  
-[^tree]: An example of the recursive fractal tree in p5.js by Martin Žilák, https://editor.p5js.org/marynotari/sketches/BJVsL5ylz
-[^flock]: See Craig Reynold's flocking behavior with the p5.js source code, https://p5js.org/examples/simulate-flocking.html
-[^joan1]: See Truckenbrod's interview Motion Through Series, https://vimeo.com/286993496.
-[^haraway]: Clearly much more could be said on this, but we refer, for example, to Donna Haraway's *When Species Meet* (Minneapolis: Uiversity of Minnesota Press, 2007).
-[^joan0]: See the Coded Algorithmic Drawings series here: https://joantruckenbrod.com/gallery/#(grid|filter)=.coded;
-[^289]: This is a version programmed with Javascript, using D3 and jquery libraries: https://github.com/wholepixel/solving-sol/blob/master/289/cagrimmett/index.html
-[^TuringGraph]: This is an adaptation of the found online image, see : http://storyofmathematics.lukemastin.com/20th_turing.html
-[^game_eg]: For further discusion and the source code of *The Game of Life*, see: https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/
+[^mother]: To Berardi, this is partly because we no longer learn words from our mothers, which sets up a neat paradox if we invoke Katherine Hayles’ *My Mother Was a Computer*, in which she charts how in the 1930s and 1940s, mostly women were employed to do calculations and were referred to as computers. See N. Katherine Hayles, *My Mother Was a Computer* (Chicago: University of Chicago Press, 2005). 
+[^Noah]: Noah Wardrip-Fruin, "Christopher Strachey: The First Digital Artist?" *Grand Text Auto*, School of Engineering, University of California Santa Cruz (August 1, 2005).
+[^Gaboury]: Jacob Gaboury, "A Queer History of Computing," *Rhizome* (April 9, 2013). We return to the issue of Turing's sexuality in the following chapter.
+[^bellacasa]: Maria Puig de la Bellacasa, "Matters of Care in Technoscience: Assembling Neglected Things," in *Social Studies of Science* 41, no.1 (2010), 99.
+[^loveletters]: David Link's *LoveLetters_1.0: MUC=Resurrection* was first exhibited in 2009, and as part of dOCUMENTA(13), Kassel, in 2012. Detailed description and documentation can be found at http://www.alpha60.de/art/love_letters/. Also, see Geoff Cox, "Introduction" to David Link, *Das Herz der Maschine*, dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 037 (Berlin: Hatje Cantz, 2012).  
+[^tree]: An example of the recursive fractal tree in p5.js by Martin Žilák, https://editor.p5js.org/marynotari/sketches/BJVsL5ylz.
+[^flock]: See Craig Reynold's flocking behavior with the p5.js source code, https://p5js.org/examples/simulate-flocking.html.
+[^joan1]: See Joan Truckenbrod's interview *Motion Through Series", https://vimeo.com/286993496.
+[^haraway]: Clearly much more could be said on this, but in passing we refer to Donna Haraway's *When Species Meet* (Minneapolis: Uiversity of Minnesota Press, 2007).
+[^joan0]: For more on the *Coded Algorithmic Drawings* series, see https://joantruckenbrod.com/gallery/#(grid|filter)=.coded;.
+[^289]: This is a version programmed with Javascript, using D3 and jquery libraries: https://github.com/wholepixel/solving-sol/blob/master/289/cagrimmett/index.html.
+[^TuringGraph]: This is an adaptation of the found online image, see http://storyofmathematics.lukemastin.com/20th_turing.html.
+[^game_eg]: For further discusion and the source code of Conway's *The Game of Life*, see: https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/.
