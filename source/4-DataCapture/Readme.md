@@ -407,14 +407,14 @@ This makes a reference to the philosophy of Gilbert Simondon, to the transformat
 [^Hide]: Laurie Clarke, "Why hiding likes won’t make Instagram a happier place to be," *Wired*, 19 July 2019, https://www.wired.co.uk/article/instagram-hides-likes.  
 [^Grosser]: See Ben Grosser's Demetricator series of artworks: *Facebook Demetricator*, https://bengrosser.com/projects/facebook-demetricator/; *Instagram Demetricator*, https://bengrosser.com/projects/instagram-demetricator/; *Twitter Demetricator*, https://bengrosser.com/projects/twitter-demetricator/.
 [^Facebook3]: Sauvik Das and Adam D. I. Kramer, "Self-censorship on Facebook," AAAI Conference on Weblogs and Social Media (ICWSM), 2 July 2013, https://research.fb.com/publications/self-censorship-on-facebook/.
-[^Leslie2]: Paraphrasing: "The workers become their own devices. They becomes devices of communicative capitalism," the final lines of Leslie's essay "The Other Atmosphere: Against Human Resources, Emoji, and Devices."   
+[^Leslie2]: We are paraphrasing the following: "The workers become their own devices. They becomes devices of communicative capitalism," the final lines of Leslie's essay "The Other Atmosphere: Against Human Resources, Emoji, and Devices."   
 [^Crary]: Jonathan Crary, *24/7: Late Capitalism and the Ends of Sleep* (London: Verso, 2013), 30–31.
 [^Crary2]: Crary, *24/7*, 10-11.
 [^transmediale]: transmediale, *Capture All*, https://transmediale.de/content/call-for-works-2015.
 [^Terranova]: Tiziana Terranova, "Red Stack Attack! Algorithms, Capital and the Automation of the Common," *EuroNomade*, 2014. Available at http://www.euronomade.info/?p=2268
 [^Terranova2]: Terranova, "Red Stack Attack!"
 [^Terranova3]: Terranova, "Red Stack Attack!"
-[^Stiegler]: For Bernard Stiegler, explains Irit Rogoff, "The concept of 'transindividuation' is one that does not rest with the individuated 'I' or with the interindividuated 'We', but "is the process of co-individuation within a preindividuated milieu and in which both the 'I' and the 'We' are transformed through one another". See Bernard Stiegler and Irit Rogoff, "Transindividuation," *e-flux* #14 (March 2010), https://www.e-flux.com/journal/14/61314/transindividuation/. 
+[^Stiegler]: To Bernard Stiegler, explains Irit Rogoff, "The concept of 'transindividuation' is one that does not rest with the individuated 'I' or with the interindividuated 'We', but "is the process of co-individuation within a preindividuated milieu and in which both the 'I' and the 'We' are transformed through one another". See Bernard Stiegler and Irit Rogoff, "Transindividuation," *e-flux* #14 (March 2010), https://www.e-flux.com/journal/14/61314/transindividuation/. 
 [^datafication]: Christian Ulrik Andersen and Geoff Cox, eds., [A Peer-Reviewed Journal About Datafied Research](https://tidsskrift.dk/APRJA/issue/view/8402), *APRJA* 4.1 (2015).
 [^fb]: The styling of the button is exactly the same as how Facebook's like button styling in 2015.
 [^helmond]: Carolin Gerlitz and Anne Helmond, "The Like Economy: Social Buttons and the Data-Intensive Web," *New Media & Society* 15: 8 (December 1, 2013): 1348–65.
