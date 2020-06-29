@@ -34,10 +34,10 @@ let fillColor;
 function setup(){
   createCanvas(xDim, yDim);
   background(240);
-  for(let i=0; i<xPos.length; i++) {  //calculate the position of each asterisk horizontally as an array that starts with an array index[0]
+  for(let i=0; i<xPos.length; i++) { //calculate the position of each asterisk horizontally that starts with an array index[0]
     xPos[i] = xPos[i] * (xDim / (xPos.length+1));
   }
-  for(let i=0; i<yPos.length; i++) {  //calculate the position of each asterisk vertically as an array that starts with an array index[0]
+  for(let i=0; i<yPos.length; i++) { //calculate the position of each asterisk vertically that starts with an array index[0]
     yPos[i] = yPos[i] * (yDim / (yPos.length+1));
   }
   fill(0);  //counter color at the bottom left
