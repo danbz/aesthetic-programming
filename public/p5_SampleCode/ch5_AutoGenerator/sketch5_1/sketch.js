@@ -16,7 +16,7 @@ learning: 2d array- https://www.youtube.com/watch?v=OTNpiLUSiB4
 let grid_space = 5;  //e.g 4, 5, 10 need to be dividable as an integer by the width and height of the canvas
 let grid =[]; //on/off state
 let cols, rows;  //for drawing the grid purpose
-let xPos, yPos; //current position in terms of rows and cols, not actual pixel
+let xPos, yPos; //current position in terms of rows and columns, not actual pixels
 let dir; //current direction of the ant
 const antUP = 0;
 const antRIGHT = 1;
