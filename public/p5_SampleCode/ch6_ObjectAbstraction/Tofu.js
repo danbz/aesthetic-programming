@@ -4,7 +4,7 @@ class Tofu { //create a class: template/blueprint of objects with properties and
     this.speed = floor(random(3,6));
     this.pos = new createVector(width+5, random(12,height/1.7));  //check this feature: https://p5js.org/reference/#/p5/createVector
     this.size = floor(random(15,35));
-    this.toFu_rotate = random(0,PI/20); //rotate in clockwise for +ve no
+    this.tofu_rotate = random(0,PI/20); //rotate in clockwise for +ve no
     this.emoji_size = this.size/1.8;
     }
   move() {  //moving behaviors
@@ -13,7 +13,7 @@ class Tofu { //create a class: template/blueprint of objects with properties and
   show() { //show tofu as a cube
     push()
     translate(this.pos.x, this.pos.y);
-    rotate(this.toFu_rotate);
+    rotate(this.tofu_rotate);
     noStroke();
     fill(130, 120);//shadow
     rect(0,this.size, this.size, 1);
