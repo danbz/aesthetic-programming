@@ -481,7 +481,7 @@ If we apply this to a computational object and its abstraction (the identificati
 
 **For additional inspiration**
 - [p5.js - Array Objects](https://p5js.org/examples/arrays-array-objects.html)
-- [daily coding ](https://twitter.com/nagayama/status/1246086230497845250?s=19) by @nagayama, with source code: https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html
+- [daily coding ](https://twitter.com/nagayama/status/1246086230497845250?s=19) by Tomokazu Nagayama , with source code: https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html
 - [Eat Food Not Bombs by Ben Grosser](https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI)
 - [lifeline (2020)](https://www.openprocessing.org/sketch/891619) by Junichiro Horikawa
 - [p5.js coding challenge #31: Flappy Bird by Daniel Shiffman](https://www.youtube.com/watch?v=cXgA1d_E-jY)
