@@ -11,7 +11,7 @@ This chapter expands on these ideas and presents different types of data capture
 
 We will return to some of these issues in Chapter 10 - "Machine Learning", but suffice to say, for now, that in the era of big data, there appears to be a need to capture data on everything, even from the most mundane actions like button pressing. This chapter begins with this example, a relatively simple action like switching a device on or off — light, a kitchen appliance, and so on. A button is "seductive,"[^Pold] with its immediate feedback and instantaneous gratification. It compels you to press it. Similarly in software and online platforms like Facebook, a button calls for inter-action, inviting the user to click, and interact with it in binary states: like or not-like, accept or cancel. The functionality is simple — on or off — and gives the impression of meaningful *interaction* despite the limited choices on on offer. Indeed this binary option might be considered to be more *interpassive* than interactive, like accepting the terms of conditions of a social media platform like Facebook without bothering to read the details, or *liking* something as a way of registering our engagement however superficial or fleeting. Permission for capture data is provided, and as such our friendships, thoughts, and experiences all become *datafied*. Even our emotional states are monitored when it come to the use of emoticons (discussed in Chapter 2 - "Variable Geometry").
 
-With these ideas in mind, the next section will introduce the sample code for a customizable *Like* button in order to demonstrate the potential of simple interactions such as pressing a button. How the specificity and affordances of buttons can be considered, as well as how the like button becomes a "social button", creating economic values in what Carolin Gerlitz and Anne Helmond describe as "the like economy". [^helmond] As in previous chapters we will work through the various types of capture using buttons as a starting point. Subsequently, we will reflect on the wider implications.
+With these ideas in mind, the next section will introduce the sample code for a customizable *Like* button in order to demonstrate the potential of simple interactions such as pressing a button. How the specificity and affordances of buttons can be considered, as well as how the like button becomes a "social button," creating economic values in what Carolin Gerlitz and Anne Helmond describe as "the like economy." [^helmond] As in previous chapters we will work through the various types of capture using buttons as a starting point. Subsequently, we will reflect on the wider implications.
 
 ### start()
 ![datacapture](ch4_10.gif)
@@ -379,7 +379,7 @@ This makes a reference to the philosophy of Gilbert Simondon, to the transformat
 
 ## Required reading:
 
-- Carolin Gerlitz and Anne Helmond, "The Like Economy: Social Buttons and the Data-Intensive Web", *New Media & Society* 15: 8 (December 1, 2013): 1348–65.
+- Carolin Gerlitz and Anne Helmond, "The Like Economy: Social Buttons and the Data-Intensive Web," *New Media & Society* 15: 8 (December 1, 2013): 1348–65.
 - Shoshana Zuboff, "Surveillance Capitalism | VPRO Documentary". Accessed April 26, 2020. https://youtu.be/hIXhnWUmMvw.
 - [p5.js examples - Interactivity 1](https://p5js.org/examples/hello-p5-interactivity-1.html).
 - [p5.js examples - Interactivity 2](https://p5js.org/examples/hello-p5-interactivity-2.html).
@@ -418,6 +418,6 @@ This makes a reference to the philosophy of Gilbert Simondon, to the transformat
 [^datafication]: Christian Ulrik Andersen and Geoff Cox, eds., [A Peer-Reviewed Journal About Datafied Research](https://tidsskrift.dk/APRJA/issue/view/8402), *APRJA* 4.1 (2015).
 [^fb]: The styling of the button is exactly the same as how Facebook's like button styling in 2015.
 [^helmond]: Carolin Gerlitz and Anne Helmond, "The Like Economy: Social Buttons and the Data-Intensive Web," *New Media & Society* 15: 8 (December 1, 2013): 1348–65.
-[^zuboff]: Shoshana Zuboff, "Surveillance Capitalism,"" VPRO Documentary. Accessed April 26, 2020. https://youtu.be/hIXhnWUmMvw.
+[^zuboff]: Shoshana Zuboff, "Surveillance Capitalism," VPRO Documentary. Accessed April 26, 2020. https://youtu.be/hIXhnWUmMvw.
 [^zuboff2]: Zuboff, *Surveillance Capitalism*.
-[^gibson]: James J Gibson's notion of affordance refers to the action capabilities and possibilities in the context of cognitive psycohology. See James J. Gibson, The Theory of Affordances,"" in Robert Shaw and John Bransford , eds. *Perceiving, Acting, and Knowing* (Hillsdale, NJ: Lawrence Erlbaum Associates, 1977), 127–143.
+[^gibson]: James J. Gibson's notion of affordance refers to the action capabilities and possibilities in the context of cognitive psycohology. See James J. Gibson, The Theory of Affordances,"" in Robert Shaw and John Bransford, eds. *Perceiving, Acting, and Knowing* (Hillsdale, NJ: Lawrence Erlbaum Associates, 1977), 127–143.
