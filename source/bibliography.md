@@ -1,4 +1,3 @@
 ## Bibliography
 
 
-## Full project list
