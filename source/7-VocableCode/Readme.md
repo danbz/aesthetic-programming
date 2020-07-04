@@ -37,7 +37,7 @@ The core method for structuring *Vocable Code* is the use of constraints or rule
 
 *Figure 7.2: The live coding/educational version of Vocable Code*
 
-**Task 1: Reading text objects**
+**Task 1: Decoding text objects**
 
 Look at the education version of Vocable Code and focus on the right-hand side with the dynamic text display in which the program operates mainly around text. Observe some of the characteristics of the text objects:
 
