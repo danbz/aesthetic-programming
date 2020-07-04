@@ -430,9 +430,8 @@ Making reference to Martin Heidegger’s "being-in-time,"[^Heidegger] and the kn
 
 Check out other works that refer to the throbber and how other people contextualize their thinking:  
 
-- [Loading](https://festivalenter.wordpress.com/2009/04/09/electroboutique-by-alexei-shulgin-roman-minaev-aristarkh-chernyshev/) by Electroboutique.
+- [Tanabata(七夕)](https://www.openprocessing.org/sketch/926326) by Yurika Sayo (with source code).
 - [LOADING (THE BEAST 6:66/20:09)](https://www.yugo.at/processing/archive/index.php?what=loading) by Gordan Savičić.
-- [Fedora’s artwork team](https://fedoraproject.org/wiki/Artwork/ArtTeamProjects/Fedora7Remix/Rhgb/Throbber) produces a series of throbber images that put emphasis on the design of spinning icons.
 - [The Best is Yet to Come](https://silviolorusso.com/work/the-best-is-yet-to-come/) by Silvio Lorusso, preloaders follow one another randomly and endlessly.
 - [DVD guy by Constant Dullaart](https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB), with the contextualization by Panke Gallery in Berlin http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin.
 - [Throb 2018/2019](http://siusoon.net/throb/) by Winnie Soon.
