@@ -53,7 +53,7 @@ function draw() {
 				img.loadPixels();
 				img_x = floor(random(0,img.width));
 				img_y = floor(random(0,img.height));
-				loc = (img_x+img_y * img.width)*4; // The formular to locate the no: x+y*width, indicating which pixel of the image in a grid (and each pixel array holds red, green, blue and alpha values - 4) can see more here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
+				loc = (img_x+img_y * img.width)*4; // The formula to locate the no: x+y*width, indicating a pixel from the image on a grid (and each pixel array holds red, green, blue, and alpha values), for more see here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
 				strokeWeight(0.7);
 				stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
 				line(frameBorder+img_x,frameBorder+img_y,frameBorder+img_x,frameBorder+img.height);
