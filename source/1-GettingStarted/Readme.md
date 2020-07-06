@@ -339,6 +339,6 @@ Make a RUNME and a README.
 
 [^webeditor]: Processing Foundation has announced the official release of the p5.js Web Editor in 2018, which is an online platform for learning and running code, and it is easy to get started with no additional installation of software. See https://medium.com/processing-foundation/hello-p5-js-web-editor-b90b902b74cf.
 
-[^term]: Many software communities have decided to stop using "master-slave," such as Django and Python, and have replaced with alternative terms. See, https://tools.ietf.org/id/draft-knodel-terminology-00.html#rfc.section.1.1 and Ron Eglash, "Broken Metaphor: The Master-Slave Analogy in Technical Literature," *Technology and Culture* 48, no.2 (2007): 360–69. https://doi.org/10.1353/tech.2007.0066.
+[^term]: Not before time many software communities have decided to stop using "master-slave," such as Django and Python, and have replaced with alternative terms. See, https://tools.ietf.org/id/draft-knodel-terminology-00.html#rfc.section.1.1 and Ron Eglash, "Broken Metaphor: The Master-Slave Analogy in Technical Literature," *Technology and Culture* 48, no.2 (2007): 360–69. https://doi.org/10.1353/tech.2007.0066.
 
 [^class]: See, https://p5js.org/reference/#/p5/class.
