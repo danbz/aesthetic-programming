@@ -15,6 +15,7 @@
 
 ## Chapter 3 - Infinite Loops
 
+- Winnie Soon, “Throbber: Executing Micro-temporal Streams.” *Computational Culture* 7 (October 21, 2019), http://computationalculture.net/throbber-executing-micro-temporal-streams/.
 - Wilfried Hou Je Bek, "Loop", *Software Studies* (Fuller, Matthew, ed.), MIT Press, 2008.
 - Robinson, Derek. "Function", *Software Studies* (Fuller, Matthew, ed.), MIT Press, 2008.
 - Farman, Jason. "[Fidget Spinners](https://reallifemag.com/fidget-spinners/#!)", *Real Life*, 2017.
