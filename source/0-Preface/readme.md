@@ -132,3 +132,5 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 [^decolonial]: See, for instance, Syed Mustafa Ali's "A Brief Introduction to Decolonial Computing", *XRDS: Crossroads, The ACM Magazine for Students* 22, no. 4 (2016): 16–21.
 
 [^guzdial]: Mark Guzdial suggests there are other purposes for programming beyond the normative focus on economic impact and the development of professionals for the software industry that open up various possibilities for learning and teaching programming. See Mark Guzdial, "Computing for Other Disciplines," in *The Cambridge Handbook of Computing Education Research*, Sally A. Fincher and Anthony V. Robins, eds. (Cambridge: Cambridge University Press, 2019), 584, https://doi.org/10.1017/9781108654555.020.
+
+[^flowchart]: Each flowchart is produced using Graphviz, an open-source tool to represent structural information as graphs using simple text language. See https://graphviz.org/.
