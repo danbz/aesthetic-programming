@@ -70,7 +70,7 @@ By reading the source code, you might discover that some of the coding styles ar
 3. How does are these expressive and performative qualities described in the assigned reading?[^cox2] Can you describe and articulate these qualities using *Vocable Code* as an example?
 
 ## Textuality
-Although the artwork *Vocable Code* is about voices, both voices and text are interlinked in the work. The program picks only one selected text to speak/play at a time. The other selected texts are displayed dynamically on screen. You can look into the meaning and semantics of text, but the placement of words, and other design attributes, also change the way you might perceive and interpret the statements. Queer statements are selected, presented, played, and spoken randomly, but at the same time they are also structurally organized to create the orderly chaos.    
+Although the artwork *Vocable Code* is about voices, both voice and text are interlinked in the work. The program picks only one selected text to speak/play at a time, whilst others are displayed dynamically on screen. You can explore the meaning of the words, but their placement and other design attributes, further change the way you perceive and interpret the statements. These are selected, presented, played, and spoken randomly, and at the same time further disrupted by mathematical chaos.    
 
 Here is the text-related syntax that has been used in the work:
 
@@ -83,7 +83,7 @@ function preload() {
 .
 .
 .
-//line 62: the class and constructor
+//Line 62: the class and constructor
 function notNew(getQueer){
   this.size = random(20.34387,35.34387);
   this.time = random(2.34387,4.34387);
@@ -107,30 +107,30 @@ this.acts = function() {
 *Sketch 1: Snippets of Vocable Code concerning Textuality*
 
 ### Type
-`loadFont` supports opentype font style (.otf and .ttf) and returns a PFont object through `withPride` in sketch 1 above.
+`loadFont` supports opentype font style (.otf and .ttf) and returns a PFont object through `withPride` in Sketch 1 above.
 
-"Gilbert_TypeWithPride.otf" is a free font licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. The font can be downloaded from the Internet (www.typewithpride.com).[^fonts] It is designed to honor the memory of Gilbert Baker the creator of the iconic Rainbow Flag who died in 2017.
+"Gilbert_TypeWithPride.otf" is a free font licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, and can be downloaded from the Internet (www.typewithpride.com).[^fonts] It is designed to honor the memory of Gilbert Baker the creator of the iconic Rainbow Flag who died in 2017.
 
 ![](ch7_2.jpg)
 
-*Figure 7.3: The font "Type with Pride"*
+*Figure 7.3: The font Type with Pride*
 
-`textFont()` - It means to get ready to print out or write the text with the chosen font. (The font is previously defined via the retured PFont object `withPride`).
+`textFont()` means to get ready to print out or write the text with the chosen font, and in this case was previously defined through the returned PFont object `withPride`.
 
-`textSize()` - It sets the font size for use. For this sketch it takes a random value between 20.34387 to 35.34387.
+`textSize()` sets the font size for use. For this sketch it takes a random value between 20.34387 and 35.34387.
 
-`textAlign()` - It sets the text's alignment in horizontal with the options of LEFT, RIGHT and CENTER. The length of sentences varies according to the number of words used. In *Vocable Code*, the text is aligned CENTER regardless of the sentence's length.
+`textAlign()` takes the first argument for the horizontal alignment. It contains the options LEFT, RIGHT and CENTER. The length of sentences varies according to the number of words used. In *Vocable Code*, the text is aligned CENTER regardless of the sentence's length.
 
-`noStroke()` and `fill()` - The former disables drawing the stroke (outline), while the latter sets the text color. `fill()` accepts RGB values as well as other color formats.
+`noStroke()` and `fill()` do similar things for shapes. The former disables drawing the stroke (outline), while the latter sets the text color. `fill()` accepts RGB values as well as other color formats.
 
-`text()` - It draws the text on screen, setting which specific text and their display positions (both the horizontal and vertical coordination of the text). e.g. `text(getQueer, this.xxxxx, this.yyyyy);`
+`text()` draws the text on screen with specific words and in  positions (both horizontal and vertical coordination of the text), e.g. `text(getQueer, this.xxxxx, this.yyyyy);`
 
 ### Conditional Structure
 
-Five different `if` statements are implemented in *Vocable Code*.
+Different `if` statements are implemented in *Vocable Code*.
 
 ```javascript
-//line 21
+//Line 21
 if (queers[WhoIsQueer].myStatement == "null" || makingStatements == int(2.34387)) {
 		queerRights.push(new notNew(queers[WhoIsQueer].yourStatement));
 		makingStatements = 2.0;
@@ -138,29 +138,28 @@ if (queers[WhoIsQueer].myStatement == "null" || makingStatements == int(2.34387)
 		queerRights.push(new notNew(queers[WhoIsQueer].myStatement));
 }
 ```
-*Figure 7.4: Snippets of Vocable Code concerning the first Conditional Structure*
 
-This block of code (see Figure 7.4) determines which new text object should be selected for display. In the program, each person can only hold the maximum of two vocal/textual statements, and some may have provided one. As such, some checking logic needs to be implemented in order to display the text.
+*Figure 7.4: Snippets of Vocable Code concerning the first conditional structure*
 
-The first statement uses the relational operator called **OR** (||) to check against if meeting any of the two conditions that are resulted in pushing the first statement. If either of the two is true the program will execute the next two lines of code. Naturally, the two conditions might not met, and, in that case, `else` is used.
+The first statement uses the relational operator called **OR** (||) to check against the two conditions. If either of the two is true the program will execute the next two lines of code. Naturally, the two conditions might not be met, and, in that case, `else` is used. This block of code determines which new text object should be selected for display as each person can only contribute two spoken/text statements, and some may have provided one. As such, some checking logic needs to be implemented in order to display the text.
 
 ```javascript
-//line 28
+//Line 28
 if (gender == abs(2)) {
   SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
 }
 ```
-*Figure 7.5: Snippets of Vocable Code concerning the second Conditional Structure*
 
-The second conditional structure (See Figure 7.5) only uses the `if` statement and that means it will run the function `SpeakingCode` when a condition is met. It won't have an alternative route, meaning that the program will just exit the conditional structure, and continue the execution after the closing curly bracket.
+*Figure 7.5: Snippets of Vocable Code concerning the second conditional structure*
 
-The conditional structure in Figure 7.5 is about identifying which text to speak aloud. Every new batch of text contains 2-4 text, and the program always picks the third one (knowing that an array starts with [0] index and points to the third item when the index is [2]). The program will base on the selected text to play the corresponding voice file. `abs` is a syntax and function from p5 which calculates the "absolute" value of a number and only returns a positive value.
+The second one only uses the `if` statement and that means it will run the function `SpeakingCode` when the condition is met and it won't have an alternative route, meaning that the program will just exit the conditional structure, and continue the execution after the closing curly bracket.
 
-Of course, the selected line of code is specifically structured around wider political issues concerning gender and sexuality, and attempts to express and open up different ideas about queering code. If you read aloud the block of code, it will be spoken approximately in this way (if we ignore the punctuation): "if gender equals absolute two, speaking code, queers, who is queer, i am, making statements." Technically speaking, using the `abs` function is unnecessary and it could be also written to select other array's index. Code is constructed from language but can also be poetic as the programmer can play with the structure, and experiment with symbols, and the syntactic logics of language itself. Since *Vocable Code* is also considered a codework or code poetry, it invites, even commands, the audience and the machine to speak the code aloud (and proud).
+The conditional structure in Figure 7.5 is about identifying which text to speak aloud. Every new batch of text contains between two and four texts, and the program picks the third one (knowing that an array starts with [0] index and points to the third item when the index is [2]). Based on the selected text, the program will play the corresponding voice file. `abs` is a syntax and function from p5 which calculates the "absolute" value of a number and only returns a positive value.
 
+Of course, the selected line of code is specifically structured around wider political issues concerning gender and sexuality, and attempts to express ideas about queering code. Read aloud, and ignoring punctuation, the block of code might translate as: "If gender equals absolute two, speaking code, queers, who is queer, I am, making statements." Technically speaking, using the `abs` function is unnecessary and it could be also written to select another array's index. Code is constructed from language and can be poetic as the programmer can play with the structure, and experiment with symbols, and the syntactic logic. Since *Vocable Code* is also considered to be codework or code poetry, it invites both the audience and the machine to speak the code aloud (and proud).
 
 ```javascript
-//line 53
+//Line 53
 function draw() {
 .
 .
@@ -177,9 +176,9 @@ function draw() {
     }
 }
 ```
-*Figure 7.6: Snippets of Vocable Code concerning the third Conditional Structure*
+*Figure 7.6: Snippets of Vocable Code concerning the third conditional structure*
 
-Figure 7.6 shows two conditional statements in the function `draw()`. The first if-statement checks for texts that are off canvas. This has to be done continuously because the off-screen text instances (objects) will be removed (using `splice`) to avoid unwanted elements/objects continuing to exist in the program (in analogy to the simple Packman-tofu game in Chapter 6 - "Object Abstraction"). The second if-statement checks how many texts remain on screen: if the screen contains less than or equal to two texts, then it will generate new batch of texts via the function `makeVisible()`. [g: can you check if this is readable? /w]
+Figure 7.6 shows two conditional statements in the function `draw()`. The first if-statement checks for texts that are off canvas. This has to be done continuously because the off-screen text instances (objects) will be removed (using `splice`) to avoid unwanted elements/objects continuing to exist in the program (as was the case with the Packman-tofu game in Chapter 6, "Object Abstraction"). The second if-statement checks how many texts remain on screen. If the screen contains less than or equal to two texts, then it will generate new texts with the function `makeVisible()`. 
 
 ```javascript
 //line 86
@@ -193,14 +192,14 @@ this.shows = function() {
 	return status;
 };
 ```
-*Figure 7.7: Snippets of Vocable Code concerning the forth Conditional Structure*
+*Figure 7.7: Snippets of Vocable Code concerning the forth conditional structure*
 
-The last **if-else** conditional structure is set within the class method, which is related by Figure 7.6 and checks if the text is off canvas, particularly along the
-y-axis. Within the class's method `this.shows=function()`, the conditional statement incorporates the relational operator **OR** (`||`), in which either condition needs to be "true" (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an `else` statement to handle the results of checking whether the conditions have been met. Therefore, it is read as if either one of the two conditions has been met, the variable `status` will be assigned as "notFalse" (this means the text is out screen at the top or bottom), and else if the text still remain on screen, the variable "status" will be assigned as "notTrue". The values of `notFalse` and `notTrue` belong to the `status` variable of the **String** type. However, in general programming practice, Boolean logic (with the **Boolean** type) tends to be understood as an absolute binary reality of "true" or "false". Initially, this seems fundamental to computational logic and can be relate this to the zeros and ones to which information is reduced in machine code. However, arguably and conceptually, notFalse and notTrue suggest less reductive (more queer) forms that extend beyond simple binary relations.  
+The last "if-else" conditional structure is set within the class method, as illustrated by Figure 7.6, and checks if the text is off canvas, particularly along the
+y-axis. Within the class's method `this.shows=function()`, the conditional statement incorporates the relational operator "OR" (`||`), in which neither condition needs to be "true" (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an `else` statement to handle the results of checking whether the conditions have been met. Therefore, it is read as if either one of the two conditions has been met, the variable `status` will be assigned as `notFalse` (this means the text is off screen at the top or bottom), and else if the text still remains on screen, the variable `status` will be assigned as `notTrue`. The values `notFalse` and `notTrue` belong to the `status` variable of the "String" type. However, in general programming practice, Boolean logic (with the "Boolean" type) tends to be understood as an absolute binary reality of "true" or "false." Initially, this seems fundamental to computational logic and can be relate this to the zeros and ones to which information is reduced in machine code. However, arguably and conceptually, `notFalse` and `notTrue` suggest an undoing of binary relations.  
 
 ### JSON
 
-Beyond the core source code, *Vocable Code* utilizes a text-based file (in JSON format) to store the data from all voice donors, such as their written statements (see Figure 7.8). The program uses the format of JSON to store all the contributers' statements in the form of text. Using JSON, allows all the data in a JSON file to be updated without changing anything at JavaScript source code level.
+Beyond the core source code, *Vocable Code* utilizes a text-based file (in JSON format) to store the data from all voice donors, including their written statements (see Figure 7.8). Using JSON (Javascript Object Notation), allows all the data in a JSON file to be updated without changing anything at JavaScript source code level.
 
 ```
 {
@@ -227,7 +226,7 @@ Beyond the core source code, *Vocable Code* utilizes a text-based file (in JSON 
 ```
 *Figure 7.8: Snippets of the JSON file in Vocable Code*
 
-Javascript Object Notation (JSON) is an open-standard, independent file format, which is widely used for data storage and communication on the internet, and in software applications. This format can be read and processed by many programming languages such as JavaScript. A piece of software implements computational logic to manipulate data, such as retrieving and displaying data on a screen in any color, size, and at any tempo. This kind of separation of data and computational logic is common in software development. Google, for example, offers its web or image search results in JSON format using its Application Programming Interfaces (APIs). More on APIs in the next chapter.
+JSON is an open-standard, independent file format, which is widely used for data storage and communication on the internet, and in software applications. This format can be read and processed by many programming languages such as JavaScript. A piece of software implements computational logic to manipulate data, such as retrieving and displaying data on a screen in any color, size, and at any tempo. This kind of separation of data and computational logic is common in software development. Google, for example, offers its web or image search results in JSON format using its Application Programming Interfaces (APIs). More on APIs in the next chapter.
 
 JSON looks similar to JavaScript in terms of its use of arrays and objects but they are formatted differently. Some of the rules are:
 - Data is stored in name/value pairs, e.g `"copyLeft": "Creative Common Licence BY 4.0"` and the pair are separated by a colon.
