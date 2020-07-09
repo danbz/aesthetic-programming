@@ -76,7 +76,7 @@ Here is the text-related syntax that has been used in the work:
 
 ```javascript
 let withPride; //font
-//new font: line 11
+//new font: Line 11
 function preload() {
   withPride = loadFont('Gilbert_TypeWithPride.otf');
 }
