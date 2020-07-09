@@ -284,7 +284,7 @@ To familiar yourself with the various modes of capture, try the following:
 
 3. Try to test the boundaries of facial recognition (using lighting, facial expressions, and the facial composition). To what extend can a face be recognized as such, and to what extent is this impossible?
 
-4. Do you know how the face is being modelled? How has facial recognition technology been applied in society at large, and what are some of the issues that arise from this?
+4. Do you know how the face is being modeled? How has facial recognition technology been applied in society at large, and what are some of the issues that arise from this?
 
 It would be worth checking back to Chapter 2, "Variable Geometry," for a reminder of how facial recognition identifies a person's face from its geometry — such as the distance between a person's eyes or size of their mouth — to establish a facial signature that can be compared to a standardized database. One of the main problems is that these databases are skewed by how data was prepared, its selection, collection, categorization, classification, and cleaning (further discussed in Chapter 10, "Machine Learning"). To what extent does your face meet the standard?   
 
