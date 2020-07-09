@@ -6,28 +6,28 @@ page_order: 7
 
 ## setup()
 
-Using the phase *Vocable Code* for this chapter's title aims to make explicit how the act of coding cannot simply be reducible to its functional aspects. Rather we would like to emphasize that code mirrors the instability inherent in human language in terms of how it expresses itself, and is interpreted. Code is both script and performance, and in this sense is always ready to do something: it says what it will do, and does it at the same time. This analogy to speech, or more specifically to *speech-act theory* is well-known in software studies (not least in *Speaking Code*) and helps us to neatly demonstrate how we can to do things with words *and* code. [^speech]  
+Using the phase "Vocable Code" for this chapter's title aims to make explicit how the act of coding cannot simply be reducible to its functional aspects. Rather we would like to emphasize that code mirrors the instability inherent in human language in terms of how it expresses itself, and is interpreted. Code is both script and performance, and in this sense is always ready to do something: it says what it will do, and does it at the same time. This analogy to speech, or more specifically to *speech-act theory* is well established in software studies (not least in *Speaking Code*) and helps us to neatly demonstrate how we can to do things with words "and" code. [^speech]  
 
-Indeed, if coding is somewhat like speaking, then it is also like poetry inasmuch as poems operate performatively.[^cox1] There are clear similarities between the syntactic qualities of written code and the execution of code in its performance. The parallel becomes evident if you read the source code aloud, as if it were a poem. A good example is the philosopher Franco Bifo Berardi who read the code for the *I Love You* virus aloud, enacting Florian Cramer's claim that the computer virus might be considered to be a form of poetry.[^language] This example makes broader reference to artists expressing language as found objects, including the Dadaist simultaneous poems which consisted of texts in different languages read aloud at the same time to expose the expressive tonality of the words as opposed to their meaning. Software is constructed from language, and is processed with and via computational procedures consisting of source code as symbols.[^love] Code is like poetry then, inasmuch as it plays with language's structures, setting up temporal interplay between the *voice* that is, and the *voice* that is to come. By connection to human language and the voice, we stress the instability of all codes and how particular intentions or meanings are open to misinterpretation and reinvention.
+Indeed, if coding is somewhat like speaking, then it is also like poetry inasmuch as poems operate performatively iasmuch as they can be read and ideally spoken aloud.[^cox1] There are clear similarities between the syntactic qualities of written code and the execution of code in its performance. The parallel becomes evident if you read the source code aloud, as if it were a poem. A good example is the philosopher Franco Bifo Berardi who read the code for the *I Love You* virus aloud, enacting Florian Cramer's claim that the computer virus might be considered to be a form of poetry.[^language] This example makes broader reference to artists expressing language as found objects, including the Dadaist simultaneous poems which consisted of texts in different languages read aloud at the same time to expose the expressive tonality of the words as opposed to their meaning. Software is constructed from language, and is processed with and via computational procedures consisting of source code as symbols.[^love] Code is like poetry then, inasmuch as it plays with language's structures, setting up temporal interplay between the "voice" that is, and the "voice" that is to come. By connection to human language and the voice, we stress the instability of all codes and how particular intentions or meanings are open to misinterpretation and reinvention.
 
-Many scholars and artists have explored these connections between speaking and coding, not only to consider programming as an aesthetic tool for producing hybrid programming-literary forms, but also to explore the material connections and creative tensions between the two.[^examples] That speech comes from living human bodies further reminds us that coding practices have bodies too, and this further reminds us that coding can only be understood in terms of wider infrastructures, and the context of its making (or *poiesis* if you will). In this chapter we explore this line of thinking, and the ways in which the *voice* of the human subject is implicated in coding practices, and how coding itself can voice wider political issues, particularly concerning sexuality. We will therefore focus on the software artwork *Vocable Code*, as a means to engage with these technical and aesthetic aspects of code.
+Various scholars and artists have explored these connections between speaking and coding, not only to consider programming as an aesthetic tool for producing hybrid programming-literary forms, but also to explore the material connections and creative tensions between the two.[^examples] That speech comes from living human bodies further reminds us that coding practices have bodies too, and that coding can only be understood in terms of wider infrastructures, and the context of its making (or "poiesis" if you will). In this chapter we explore this line of thinking, and the ways in which the voice of the human subject is implicated in coding practices, and how coding itself can "voice" wider political issues, particularly concerning sexuality. We will focus on the software artwork *Vocable Code*, as a means to engage with these technical and aesthetic qualities.
 
 ![vocable_code](ch7_1.jpg)
 
-*Figure 7.1: The installation of Vocable Code*
+*Figure 7.1: The installation of Vocable Code, detail*
 
 ### start()
 
-Vocable Code is both a work of software art (software as art, not software to make art) and a *codework* (in which the source code and critical writing operate together) to embody queer code. Collecting voices and statements that complete the sentence starting with: “Queer is...,” the work is computationally and poetically composed: texts and voices are repeated, and disrupted by mathematical chaos, to create a dynamic artwork to explore the performativity of code, subjectivity and language. Behind the web interface, the code itself is a mixture of computer programming language and human language, and aims to expose the material and linguistic tensions between writing, and reading within the context of (non)binary poetry and queer computer code.
+*Vocable Code* is both a work of software art (software as art, not software to make art) and a *codework* (in which the source code and critical writing operate together) to embody "queer code." Collecting voices and statements that complete the sentence starting with: "Queer is...," the work is composed of texts and voices that are repeated, and disrupted by mathematical chaos, to create a dynamic artwork to explore the performativity of code, subjectivity and language. Behind the web interface, the code itself is a mixture of computer programming language and human language, and aims to expose the material and linguistic tensions between writing and reading within the context of (non)binary poetry and queer computer code.
 
-The work is presented in a dual screen format: one side displaying the source code (codework), and the other the visual interface of how the code is run and executed (see Figures 7.1 and 7.2). In this particular arrangement, the source code is no longer, as in the convention of most software, hidden from the user and is instead displayed in full to undermine the hierarchy between the source and its result once executed. The notion of queer code is both the subject and the process of the work, and this operates on multiple levels, *queering* what would be considered to be the normative conventions of software and its use: addressing what a front-end interface is expected to be, and how it performs normatively. What we experience are the performative qualities of code in terms of both its human and nonhuman execution. When code becomes executable, it blends "form and function,"[^execute] a form in which it can be read, interpreted, executed and performed aesthetically. We see the code and we hear contributor's spoken statements that, together, allow the program to speak to us.
+The work is presented in a dual screen format: one side displaying the source code (codework), and the other the visual interface of how the code is run and executed (see Figures 7.1 and 7.2). In this particular arrangement, the source code is no longer, as in the convention of most software, hidden from the user and is instead displayed in full to undermine the hierarchy between the source and its results. The notion of queer code is both the subject and the process of the work, and this operates on multiple levels, "queering" what would be considered to be the normative conventions of software and its use: addressing what a front-end interface is expected to be, and how it performs normatively. What we experience are the performative qualities of code in terms of both its human and nonhuman execution. When code becomes executable, it blends "form and function,"[^execute] and becomes something which can be read, interpreted, executed and performed. We see the code and we hear contributor's spoken statements that, together, allow the program to speak to us.
 
-The core method for structuring *Vocable Code* is the use of constraints or rules. These are readily discernible in both the source code, as well as the rules for voicing the statements that themselves express different rhythms and meanings.[^constraints] Below are some of these constraints:
+The core method for structuring *Vocable Code* is the use of constraints or rules. These are discernible in both the source code, as well as the rules for voicing the statements that themselves express different rhythms and meanings.[^constraints] Below are some of these constraints:
 
-- When writing the source code, do not use the binary number 0 or 1 (like declaring the value of a variable), a single X or Y (like the common use of such variable names), a single operator of ">" or "<" (like the common use of a single operator in a conditional statement). [g: can you see if this is clearer? /w]
+- When writing the source code, do not use the binary zero or one (e.g. declaring the value of a variable), a single X or Y (e.g. the common use of variable names), a single operator of ">" or "<" (e.g. the common use of a single operator in a conditional statement). 
 - When writing the source code, be mindful of the naming of variables, arrays, and functions.
-- For each specific voice, the sentence starts with the phrase: "Queer is".
-- For each specific voice, each sentence contains a minimum of one word, but no more than five.
+- For each specific voice, the sentence starts with the phrase: "Queer is."
+- For each specific voice, each sentence contains a minimum of one word, but no more than five in total.
 
 ## Exercise in class (Decode)
 
@@ -39,35 +39,35 @@ The core method for structuring *Vocable Code* is the use of constraints or rule
 
 **Task 1: Decoding text objects**
 
-Look at the education version of Vocable Code and focus on the right-hand side with the dynamic text display in which the program operates mainly around text. Observe some of the characteristics of the text objects:
+Look at the education version of *Vocable Code* and focus on the right-hand side with the dynamic text display. Observe some of the characteristics of the text objects:
 
 1. There is always text on the black screen/canvas.
-2. The text moves upwards and then mostly downwards, but also sometimes slowly oscillates between the two.
+2. The text moves upwards and mostly downwards, but also sometimes slowly oscillates between the two.
 3. The text fades over time.
 4. The text varies in size.
-5. Some of the text's content overlaps, but there are at least 10 different or unique texts in any time.
-6. For each new batch of the text shown on screen, you can hear a voice speaking one of the texts.
-7. There is a maximum limit of the text simutaneously appeared on screen. (Similar to previous object-oriented approach, the text is continuously generated on screen if certain conditions are met)
-8. ...(Can you continue the list?)
+5. Some of the text's content overlaps, but there are at least ten different or unique texts in any time.
+6. For each new batch of text shown on screen, you can hear a voice speaking one of the texts.
+7. There is a maximum limit of the text appearing simultaneously on screen. (Similar to the previous object-oriented approach, the text is continuously generated on screen if certain conditions are met.)
+8. Can you continue the list?
 
-The *Vocable Code* program uses Object-Oriented Programming to construct the class and the text objects. Without looking at the source code and recall what we learnt in the previous chapter:
+The *Vocable Code* program uses object-oriented programming to construct the class and the text objects. Recall what we learnt in the previous chapter, and without looking at the source code:
 
-1. Can you describe the text object' properties and methods of the class?
-2. Can you decode when and how (new) text objects are created/removed?
+1. Describe the properties and methods of the class on text? [winnie: is this right? /g]
+2. Decode when and how (new) text objects are created/removed?
 
 **Task 2 (Speculation and Mapping):**
 
 Based on what you see and hear, what are the other functions/features that have been implemented in the program, especially in relation to text and voice, and can you describe them?
 
-Now look at the source code particularly the class-object block `function notNew(getQueer){}`. Can you map the source code with your earlier description on text objects?
+Now look at the source code particularly the class-object block `function notNew(getQueer){}`. Can you map the source code to your earlier description of text objects?
 
 **Task 3: (thinking)**
 
-By reading the source code, you might discover that some of the coding styles are different from what we have learnt e.g the Boolean logic of notTrue and notFalse instead of True/False, the use of repeatable decimals, the use of the function `abs`, as well as the use of `loadSound` with a callback instead of the `preload` function, etc. Discuss:
+By reading the source code, you might discover that some of the coding styles are different from what we have learnt thus far, e.g. the Boolean logic of `notTrue` and `notFalse` instead of "True/False," the use of repeatable decimals, the use of the function `abs`, as well as the use of `loadSound` with a callback instead of the `preload` function, and so on. 
 
-1. Can you locate the code with a different writing style?
-2. Can you read that block of code aloud?
-3. How does Cox describe "expressive qualities"[^cox2] and performativity in the assigned reading? Can you describe and articulate that by using *Vocable Code* as an example?
+1. Can you spot the different styles?
+2. Can you read these blocks of code aloud?
+3. How does are these expressive and performative qualities described in the assigned reading?[^cox2] Can you describe and articulate these qualities using *Vocable Code* as an example?
 
 ## Textuality
 Although the artwork *Vocable Code* is about voices, both voices and text are interlinked in the work. The program picks only one selected text to speak/play at a time. The other selected texts are displayed dynamically on screen. You can look into the meaning and semantics of text, but the placement of words, and other design attributes, also change the way you might perceive and interpret the statements. Queer statements are selected, presented, played, and spoken randomly, but at the same time they are also structurally organized to create the orderly chaos.    
