@@ -18,7 +18,7 @@ Various scholars and artists have explored these connections between speaking an
 
 ### start()
 
-*Vocable Code* is both a work of software art (software as art, not software to make art) and a *codework* (in which the source code and critical writing operate together) to embody "queer code." Collecting voices and statements that complete the sentence starting with: "Queer is...," the work is composed of texts and voices that are repeated, and disrupted by mathematical chaos, to create a dynamic artwork to explore the performativity of code, subjectivity and language. Behind the web interface, the code itself is a mixture of computer programming language and human language, and aims to expose the material and linguistic tensions between writing and reading within the context of (non)binary poetry and queer computer code.
+*Vocable Code* is both a work of software art (software as art, not software to make art) and a *codework* (in which the source code and critical writing operate together) to embody "queer code." Collecting voices and statements that complete the sentence starting with "Queer is...," the work is composed of texts and voices that are repeated, and disrupted by mathematical chaos, to create a dynamic artwork to explore the performativity of code, subjectivity and language. Behind the web interface, the code itself is a mixture of computer programming language and human language, and aims to expose the material and linguistic tensions between writing and reading within the context of (non)binary poetry and queer computer code.
 
 The work is presented in a dual screen format: one side displaying the source code (codework), and the other the visual interface of how the code is run and executed (see Figures 7.1 and 7.2). In this particular arrangement, the source code is no longer, as in the convention of most software, hidden from the user and is instead displayed in full to undermine the hierarchy between the source and its results. The notion of queer code is both the subject and the process of the work, and this operates on multiple levels, "queering" what would be considered to be the normative conventions of software and its use: addressing what a front-end interface is expected to be, and how it performs normatively. What we experience are the performative qualities of code in terms of both its human and nonhuman execution. When code becomes executable, it blends "form and function,"[^execute] and becomes something which can be read, interpreted, executed and performed. We see the code and we hear contributor's spoken statements that, together, allow the program to speak to us.
 
@@ -104,7 +104,7 @@ this.acts = function() {
   text(getQueer, this.xxxxx, this.yyyyy);
 }
 ```
-*Sketch 1: Snippets of Vocable Code concerning Textuality*
+*Sketch 1: Snippets of Vocable Code concerning textuality*
 
 ### Type
 `loadFont` supports opentype font style (.otf and .ttf) and returns a PFont object through `withPride` in Sketch 1 above.
@@ -228,18 +228,18 @@ Beyond the core source code, *Vocable Code* utilizes a text-based file (in JSON 
 
 JSON is an open-standard, independent file format, which is widely used for data storage and communication on the internet, and in software applications. This format can be read and processed by many programming languages such as JavaScript. A piece of software implements computational logic to manipulate data, such as retrieving and displaying data on a screen in any color, size, and at any tempo. This kind of separation of data and computational logic is common in software development. Google, for example, offers its web or image search results in JSON format using its Application Programming Interfaces (APIs). More on APIs in the next chapter.
 
-JSON looks similar to JavaScript in terms of its use of arrays and objects but they are formatted differently. Some of the rules are:
-- Data is stored in name/value pairs, e.g `"copyLeft": "Creative Common Licence BY 4.0"` and the pair are separated by a colon.
+JSON looks similar to JavaScript in terms of its use of arrays and objects, but they are formatted differently. Some of the rules are:
+- Data is stored in name/value pairs, e.g. `"copyLeft": "Creative Common Licence BY 4.0"` and the pair are separated by a colon.
 - All property name/value pairs have to be surrounded by double quotes.
 - Each data item is separated by commas.
 - Square brackets "[]" hold arrays.
 - Curly braces "{}" hold objects as there are many object instances that share the same structure.
 - Comments are not allowed.
-- No other computational logics like conditional structure or for-loop can be used.
+- No other computational logics like conditional structures or for-loop can be used.
 
 To process the JSON file in Figure 7.8, you need to use the syntax `loadJSON()` in p5.js. See how this is put together in a sketch:
 
-**Step 1. loadJSON (to load the specific file and path)**
+**Step 1: loadJSON (to load the specific file and path)**
 ```javascript
 let whatisQueer;
 
@@ -247,12 +247,12 @@ function preload() {
   whatisQueer = loadJSON('voices.json');
 }
 ```
-**Step 2. Process the JSON file**
+**Step 2: Process the JSON file**
 ```javascript
 function makeVisible() {
-//line 16 (queers is the array)
+//Line 16 (queers is the array)
   queers = whatisQueer.queers;
-//line 28 (check the JSON file - which are the objects under 'queers' -> to select which voice to play)
+//Line 28 (check the JSON file - which are the objects under "queers" -> to select which voice to play)
   SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
 }
 ```
@@ -260,11 +260,9 @@ function makeVisible() {
 <!-- <img src="ch7_4.png" width="450"> -->
 ![](ch7_4.png)
 
-*Figure 7.9: Snippets of Vocable Code concering Reading JSON*
+*Figure 7.9: Snippets of Vocable Code concerning reading JSON*
 
-After loading the JSON file `voices.json` the program then  points at the `queers` array and looks for the name/value pairs `iam`, `makingStatements`. What constitute `makingStatements` is the name/value pairs of `yourStatement` and `myStatement` in the JSON file (see Figure 7.8). This is how the program locate precisely the  statement (in the form of a voice file) among 20 contributors and with a total of more than 30 statements.
-
-Lastly, the function `SpeakingCode` is called. Figure 7.9 illustrates how communication is effected between the source code and the JSON files, passing the data (between the JSON file and the program) so it can be displayed on screen.
+After loading the JSON file `voices.json` the program then  points at the `queers` array and looks for the name/value pairs `iam` and `makingStatements` from the randomly selected possible statements to call (among `yourStatement` and `myStatement`). Lastly, the function `SpeakingCode` is called. Figure 7.9 illustrates how communication is affected between the source code and the JSON files, passing the data (between the JSON file and the program) so it can be displayed on screen.
 
 **Step 3. Locating and loading the sound file**
 ```javascript
@@ -281,11 +279,11 @@ function speakingNow() {
 }
 ```
 
-All the voice files are stored in the wav sound file format. The files are named according to a specific convention that follow the field `iam` in the JSON file. In this way, we can link, or concatenate in programming terms, all the pieces using the operator `+` so the specific voice file is retrieved and played: `let getVoice = "voices/" + iam + makingStatements + ".wav";` As discussed above, the voice selected is synchronized with the text on screen.
+All the voice files are stored in the "wav" sound file format. The files are named according to a specific convention that follows the field `iam` in the JSON file. In this way, we can link, or "concatenate" in programming terms, all the pieces using the operator `+` so the specific voice file is retrieved and played: `let getVoice = "voices/" + iam + makingStatements + ".wav";`. As discussed above, the voice selected is synchronized with the text on screen.
 
-There is a p5.sound library which extends p5 with Web Audio functionality to deal with sound, or, in this case, to play a voice file. Previously we have discussed the audio capturing/listening events of an audio input in Chapter 4 - "Data Capture", this chapter we simply need methods to load and play the sound files. To do so, `loadSound()` is used as a callback to make sure the sound is fully loaded (it takes time as it also involves the file size issues, memory and hardware) before the function `speak.play()` is invoked (see Figure 7.9).
+There is a p5.sound library which extends p5 with web audio functionality to deal with sound, or, in this case, to play a voice file. Among many sound-related functions like capturing/listening from an audio input (as we have demonstrated in Chapter 4, "Data Capture"), we simply need methods to load and play the sound files. To do so, `loadSound()` is used as a callback to make sure the sound is fully loaded (it takes time as it also involves file size issues, memory, and hardware) before the function `speak.play()` is invoked (see Figure 7.9).
 
- `loadSound()` can be used in the `Preload()` function where files can be loaded in advance by specifying the files' paths. However, the idea behind *Vocable Code* is more poetic, and keeping the JavaScript source code as the core corpus is part of the concept. Instead of using `Preload()`, the program uses the callback function[^callback] to load the sound might not be the most efficient way as it incurs buffering problems while loading the files on-the-fly, but this way of working with code opens up thinking about language structures, what it means to load, and play/speak the files/voices in real-time and repeatedly, and what forms of instability of expression are invoked.
+ `loadSound()` can be used in the `Preload()` function where files can be loaded in advance by specifying the files' paths. However, the idea behind *Vocable Code* is more poetic, and keeping the JavaScript source code as the core corpus is part of the concept. Instead of using `Preload()`, the program uses the callback function[^callback] to load the sound which might not be the most efficient way as it incurs buffering problems while loading the files on-the-fly. But this way of working with code opens up thinking about language structures, what it means to load, and play/speak the files/voices in real-time and repeatedly, and which forms of instability of expression are invoked.
 
 ## Source code
 ```javascript
@@ -394,47 +392,43 @@ function notNew(getQueer) {
 
 4. Follow the instructions and record your own voice with your computer or mobile phone. (The program only accepts the .wav file format)
     - Find a blank sheet of paper and prepare to write a sentence.
-    - Complete the sentence with the starting given words: “Queer is ...”
-    - Each sentence contains no more than 5 words (the first words - “queer is” - are not counted).
-    - It is ok to have just one word in a sentence.
-    - A maximum of two sentences/voices.
-    - Download/locate a voice recording app on your smartphone (e.g “Voice Recorder” on Android or "Voice Memos app” on iOS).
-    - Try to find a quiet environment, record your voice, and see if the app works (mainly to check if you can start and end the recording).
+    - Complete the sentence with the starting given words: "Queer is...".
+    - Each sentence contains no more than 5 words (the first words "queer is" don't count). It is ok to add just one word.
+    - Produce a maximum of two sentences/voices.
+    - Download/locate a voice recording app on your smartphone (e.g. Voice Recorder on Android or Voice Memos on iOS).
+    - Try to find a quiet environment, record your voice, and see if the app works (controlling the start and end the recording).
     - Prepare to record yourself reading your written sentence(s).
-    - You may decide the tempo and rhythm you read the text out with (you may decide to speak the full word or full sentence, and you may also decide to select just a certain part (phonetics) of the word or sentence to speak aloud. In other words, the word / sentence doesn’t need to be fully pronounced).
-    - Record your voice, then convert the recording into a wav file format. Audacity is an example of free software that can do so.
+    - You may decide the temporality and rhythm.
+    - You may either speak the full word or full sentence with different intonation.
+    - Record your voice, then convert the recording into a .wav file. Audacity is an example of free software that can do so.
 
-5. Add your voice/s by adding your statement in the JSON file and putting your voice files in the voices folder. Refresh the program and see if you can hear your own voice among the voices.
+5. Add your voice/s and update the JSON file and putting your voice files in the voices folder. Refresh the program and see if you can hear your own voice among the voices.
 
-6. Advanced: Try to change the text presentatione e.g. its color or its animated behavior.
+6. Advanced: Try to change the text presentation, e.g. its color or its animated behavior.
 
 7. Discuss the different critical and aesthetic aspects of queer code.
 
 ## While()
 
-In high-level programming languages like JavaScript, the source code sends both instructions to machines as well as communicating with humans. In this way, writing source code involves the use of signs and symbols, both semantics and syntactics, and operates across both programming and natural languages. Beyond the poetry mentioned, Lingdong Huang has developed the first programming language based on classical Chinese literature called *wenyan-lang*. It displays ancient Chinese texts in the form of traditional Chinese characters with the use of classical Chinese.[^wy] Using signs and symbols as well as combining formal logic and poetic expression are the starting points for understanding the double logic of vocable code.
+In high-level programming languages like JavaScript, the source code sends both instructions to machines as well as communicating with humans. In this way, writing source code involves the use of signs and symbols, both semantics and syntactics, and operates across both programming and natural languages. Beyond the potential for poetry previously mentioned, there are other possible interventions. Lingdong Huang has developed an esoteric programming language based on ancient Chinese called "wenyan-lang," that closely follows the grammar and tone of classical Chinese literature.[^wy] Using signs and symbols as well as combining formal logic and poetic expression are the starting points for understanding the double logic of vocable code.
 
- As we learnt from the previous chapter abstraction is a concept fundamental to software development, which differs from machine operations, thereby focusing on building abstractions as objects. The use of class/object structures (text as object instances), conditional structures, procedures, and subroutines, such as the for-loop, are some of the ways of presenting and executing the source code. However, in the context of machine execution, variable names - the semantic layer - are stripped away and this human-readable information is avoided. This *secondary notation* does not have the execution of the program apart from memory size, but does provide other potential uses. In this way, choosing meaningful identifier names is more for the purpose of expression and communication, as the example above clearly demonstrates. This is where we hear the programmer's voice.
+ As we learnt previously, abstraction is a concept fundamental to software development, which differs from machine operations, thereby focusing on building abstractions as objects. The use of class/object structures (text as object instances), conditional structures, procedures, and subroutines, such as the for-loop, are some of the ways of presenting and executing the source code. However, in the context of machine execution, variable names - the semantic layer - are stripped away and this human-readable information is avoided. This "secondary notation" does not affect the execution of the program apart from memory size, but does provide other potential uses. In this way, choosing meaningful identifier names is more for the purpose of expression and communication, as the example above clearly demonstrates. This is where we hear the programmer's voice.
 
-Furthermore, when thinking about the importance of source code for understanding the operations of software, it is important to recognize that source code does not show how a machine operates with physical memory (such as store, load, add and halt actions), how it translates symbolic actions into real addresses, or how it discloses operation sequences as low-level programming languages would do. The point is the source code only describes what might be visible to hear/see, but it does not facilitating other forms of knowing how a machine operates from the source code. To be specific, *Vocable Code* displays the two interfaces side by side. One displays the source code, the other what happens when it is executed, and there is a discrepancy as what you see is not literally how it operates. This could perhaps be understood in two ways, as follows.
+Furthermore, when thinking about the importance of source code for understanding the operations of software, it is important to recognize that source code does not show how a machine operates with physical memory (such as store, load, add and halt actions), how it translates symbolic actions into real addresses, or how it discloses operation sequences as low-level programming languages would do. The point is the source code only describes what might be visible to hear/see, but it does not facilitate other forms of knowledge about how a machine operates from the source code. To be specific, *Vocable Code* displays the two interfaces side by side. One displays the source code, the other what happens when it is executed, but there is a discrepancy as what you see is not literally how it operates. This could perhaps be understood in two ways, as follows.
 
-Firstly, the source code is made available, but the process of translation from source code to machine code is still hidden, and not all the lines are executed. Wendy Chun refers to this as a process of "sorcery" and summarizes the problem: "Higher level programming languages - automatic programming - may have been sold as offering the programmer more and easier control, but they also necessitated blackboxing even more the operations of the machine they supposedly instructed."[^Chun] Accordingly, we would need to nuance the statement that source code actually does what it says. When one speaks the source code, it performs differently than how a machine performs; Yet this is no doubt the case with humans too in that there is also an interface and translation between physiognomy and action.
+Firstly, the source code is made available, but the process of translation from source code to machine code is still hidden, and not all the lines are executed. Wendy Chun refers to this as a process of "sorcery" and summarizes the problem: "Higher level programming languages - automatic programming - may have been sold as offering the programmer more and easier control, but they also necessitated blackboxing even more the operations of the machine they supposedly instructed."[^Chun] Accordingly, we would need to nuance the statement that source code actually does what it says. When one speaks the source code, it performs differently than how a machine performs. Yet it should be said that this is the case with humans too in that there is also an interface and translation between physiognomy and action.
 
-Secondly, source code and its execution, usually in the form of screen interface, should be considered as translations rather than equivalents of each other, and this points to the veracity of the interface-principle WYSIWYG (what-you-see-is-what-you-get). In *Vocable Code*, the moving text is only part of the result of the source code running, and is not able to fully capture the complexity of its operations. In this way, the artwork perhaps challenges the usual, prominent front-end interfaces and the transmission of meaning from one source to another by giving voice to both the front and back ends, or even queering the demarcation between front and back. This undermines any binary relation between states and the hierarchical logic of cause and effect, and in this respect we would invoke Karen Barad and her assertion that causes and effects work through "intra-actions" (queering causality).[^Barad]
+Secondly, source code and its execution, usually in the form of screen interface, should be considered as translations rather than equivalents of each other, and this points to the veracity of the interface-principle WYSIWYG (what-you-see-is-what-you-get). In *Vocable Code*, the moving text is only part of the result of the source code running, and is not able to fully capture the complexity of its operations. In this way, the artwork perhaps challenges the usual, prominent front-end interfaces and the transmission of meaning from one source to another by giving voice to both the front and back ends, or even queering the demarcation. This undermines any binary relation between states and the hierarchical logic of cause and effect, and in this respect we would invoke Karen Barad and her assertion that causes and effects work through "intra-actions" (queering causality).[^Barad]
 
-*Vocable Code* has a direct relation to bodily practices, such as voicing through writing and coding, and speaking code and statement with our voice, as well as playing back the recorded computer voices. The voices of the program or programmer, and humans voices, combine with other social bodies in producting meaning that goes beyond simple representation or interpretation. In other words, computation cannot be just reduced to the simplistic formal logic of input and output, and nor can speaking machines simply be juxtaposed to speaking humans as clearly they are more deeply entangled [g: i suggest to add a footnote to address Loren's comment - regarding barad's term entanglement /w]. In executing the function `SpeakingCode(iam, makingStatements)`, we question who is speaking, to whom, and under what conditions? We want to make this more queer.
+*Vocable Code* has a direct relation to bodily practices, the act of voicing something, and how the voice resonates with political practices. The voices of the program or programmer, and humans voices, combine with other social bodies in producing meaning that goes beyond simple representation or interpretation. In other words, computation cannot be just reduced to the simplistic formal logic of input and output, and nor can speaking machines simply be juxtaposed to speaking humans as clearly they are more deeply entangled.[^entangle]. Humans do not speak alone as there are also nonhuman actants such as variables, arguments, source code, and machine code that speak too — to be specific with an example, the sound library with the function `speak.play()` joins the chorus. There is a politics to this as some voices are louder than others, and some are marginalized or suppressed altogether. In executing the function `SpeakingCode(iam, makingStatements)`, we question who is speaking, to whom, and under what conditions? We want to make these relations more queer.  
 
-In *Vocable Code* you might assume that it is people that are speaking, but they do not speak alone as there are also nonhuman actants such as variables, arguments, source code, and machine code that speak too — to be specific, the sound library with the function `speak.play()` joins the chorus. There is a politics to this as some voices are louder than others and some are marginalized or suppressed altogether.
+There are clear power dynamics at work in computing, at a fundamental level, if ones and zeros are considered to be numbers of equivalent status in mathematics. In *Zeros + Ones* (1997), Sadie Plant confirms that all computers translate information into the zeros and ones of machine code and this reflects the underlying "orders of Western reality":
 
-There are clear power dynamics at work in computing, at a fundamental level even, if ones and zeros are considered to be numbers of equivalent status in mathematics. In *Zeros + Ones* (1997), Sadie Plant confirms that all computers translate information into the zeros and ones of machine code and this reflects the underlying "orders of Western reality":
-
-<blockquote>
 "Whether [...] gathering information, telecommunicating, running washing machines, doing sums, or making videos, all digital computers translate information into zeros and ones of machine code. These binary digits are known as bits and strung together in bytes of eight. The zeros and ones of machine code seems to offer themselves as perfect symbols of the orders of Western reality, the ancient logical codes which make the difference between on and off, right and left, light and dark, form and matter, mine and body, white and black, good and evil, right and wrong, life and death, something and nothing, this and that, here and there, inside and out, active and passive, true and false, yes and no, sanity and madness, health and sickness, up and down, sense and nonsense, west and east, north and south. And they made a lovely couple when it came to sex. Man and woman, male and female, masculine and feminine: one and zero looked just right, made for each other: 1, the definite, upright line; the 0, the diagram of nothing at all: penis and vagina, thing and hole... hand in glove. A perfect match."[^Plant1]
-</blockquote>
 
-Although it takes two to make a binary (and set up the heterosexist paradigm), clearly inequalities of power are expressed in the tendency to privilege one side of the pairing (master and slave[^master], parent and child, human and machine, and so on). As discussed in Chapter 5 - "Auto Generator", and to be further discussed in the final chapter of this book, the Turing Test resonates with these power dynamics. Plant quotes Alan Turing as saying: "the intention in constructing these machines in the first instance is to treat them as slaves, giving them only jobs which have been thought out in detail, jobs such that the user of the machine fully understands in principle what is going on all the time."[^Plant2] Plant's further example is the sci-fi film *Bladerunner* (1984) as an advanced Turing Test in which the only indication of artificiality is a tiny flicker in the non-human eye's iris in response to targeted questioning. In the film's narrative, the non-human worker-slaves have begun to question their conditions. Such examples make it clear that the ability to imagine conditions differently is embedded in the system itself, in the potential failure to carry out prescribed instructions or commands.
+Although it takes two to make a binary (and set up the heterosexist paradigm), clearly inequalities of power are expressed in the tendency to privilege one side of the pairing (master and slave[^master], parent and child, human and machine, and so on). As discussed in Chapter 5, "Auto Generator", and further discussed in the final chapter of this book, the Turing Test resonates with these power dynamics. Plant quotes Turing as saying: "the intention in constructing these machines in the first instance is to treat them as slaves, giving them only jobs which have been thought out in detail, jobs such that the user of the machine fully understands in principle what is going on all the time."[^Plant2] Plant's further example of this fantasy of domination is the sci-fi film *Bladerunner* (1984) as an advanced Turing Test in which the only indication of artificiality is a tiny flicker in the non-human eye's iris in response to targeted questioning. In the film's narrative, the non-human worker-slaves have rightly begun to question their conditions. Such examples make it clear that the ability to imagine conditions differently is embedded in the system itself, in the potential failure to carry out prescribed instructions or commands if unreasonable.
 
-The biography of Turing as a gay man at a time when homosexuality was still a criminal offense in the UK [^Hodges], and this alludes to humans do not necessarily follow or agree with rules as prescribed by society, and although Turing's sexuality was tolerated in the context of the war effort, under "normal" (peacetime) conditions it was perceived to be a problem and he was found guiltily of gross indecency in 1952.[^Plant3] Here, as Plant describes, the historical facts collapse into bizarre allegory. First of all, he was prescribed estrogen to reduce his sexual urge, on the basis of the dubious logic that to all intents and purposes he was female. This was a reversal of prior judgements forcing gay men to take testosterone to make them more male, yet ironically making them more aroused hormonally. Plant concludes the Turing story: "Two years later he was dead" By the side of the table was an apple, out of which several bites had been taken. And this queer tale does not end here. There are rainbow logos with Turing's missing bytes on every Apple Macintosh machine."[^Plant4]
+The biography of Turing as a gay man, at a time when homosexuality was still a criminal offense in the UK, [^Hodges] adds weight to claims to reject unreasonable demands. Humans do not necessarily follow or agree with rules as prescribed by society, and although Turing's sexuality was tolerated in the context of the war effort, under "normal" (peacetime) conditions it was perceived to be a problem and he was found guiltily of gross indecency in 1952.[^Plant3] Here, as Plant describes, the historical facts collapse into bizarre allegory. First of all, he was prescribed estrogen to reduce his sexual urge, on the basis of the dubious logic that to all intents and purposes he was female. This was a reversal of prior judgements forcing gay men to take testosterone to make them more male, yet ironically making them more aroused hormonally. Plant concludes the Turing story: "Two years later he was dead. By the side of the table was an apple, out of which several bites had been taken. And this queer tale does not end here. There are rainbow logos with Turing's missing bytes on every Apple Macintosh machine."[^Plant4]
 
 To conclude this chapter, which explored the making of *Vocable Code* with its strange syntax - such as notFalse and notTrue - as well as its many repetitive decimals, we would like to emphasize our central point: Queer is... making binaries strange.  
 
@@ -442,55 +436,57 @@ To conclude this chapter, which explored the making of *Vocable Code* with its s
 
 **Objective:**
 - To understand how JSON works technically, in terms of storing data, and how data can be retrieved using code.
-- To reflect upon the aesthetics of code and language, as well as the audio dimensions of electronic literature or e-lit.
+- To reflect upon the aesthetics of code and language, as well as the audio dimensions of electronic literature (e-lit).
 
 **Get additional inspiration:**
 - [Dial (2020) by Lai-Tze Fan & Nick Montfort](http://thenewriver.us/dial/), with JavaScript [source code](view-source:https://nickm.com/fan_montfort/dial/)
 - [Mexicans in Canada (2020) by Amira Hanafi](http://amiraha.com/mexicansincanada/)
-- [A House of Dust, 1967 by Alison Knowles and James Tenney, reimplemented by Nick Montfort](https://nickm.com/memslam/a_house_of_dust.html)
+- [A House of Dust (1967) by Alison Knowles and James Tenney, reimplemented by Nick Montfort](https://nickm.com/memslam/a_house_of_dust.html)
 - [Corpora - A repository of JSON files by Darius Kazemi](https://github.com/dariusk/corpora/tree/master/data)
 - [e-lit collection1](http://collection.eliterature.org/1/)
 - [e-lit collection2](http://collection.eliterature.org/2/)
 - [e-lit collection3](http://collection.eliterature.org/3/)
-- [Rita library by Daniel Howe](http://rednoise.org/rita/)
+- [Rita library (2006) by Daniel Howe](http://rednoise.org/rita/)
 
 **Tasks (RUNME):**
 
-1. To design a piece of electronic literature that utilizes text as the main medium (but in recognition that text can take various forms, including code and voice).
+1. To design a piece of e-lit that utilizes text as the main medium (but in recognition that text can take various forms, including code and voice).
 2. To implement JSON file(s) for text organization, storage, and retrieval.  
 
 **Questions to think about as README:**
-- **Provide** a title of your work and a short description (within 1,000 characters).
+- **Provide** a title of your work and a short description (1,000 characters or less).
 - **Describe** how your program works, and what syntax you have used, and learnt?
 - **Analyze and articulate** your work:
   - Analyze your own e-lit work by using the text *Vocable Code* and/or *The Aesthetics of Generative Code* (or other texts that address code/voice/language).
-  - How would you reflect on your work  with the theme *Vocable Code*?
+  - How would you reflect on your work in terms of *Vocable Code*?
 
 ## Required reading:
 
-- Parrish, Allison. (2019) Text and Type [online] Available at: https://creative-coding.decontextualize.com/text-and-type/
-- Shiffman, Daniel. (2017) 10.2: What is JSON? Part I - p5.js Tutorial [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r [Accessed 13 Mar. 2019].
-- Shiffman, Daniel. (2017) 10.2: What is JSON? Part II - p5.js Tutorial [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r [Accessed 13 Mar. 2019].
-- Cox, Geoff, and Alex McLean. "Vocable Code" in *Speaking Code*. Cambridge, Mass.: MIT Press, 2013. 17-38.
+- Allison Parrish, Text and Type (2019). Available at: https://creative-coding.decontextualize.com/text-and-type/
+- Daniel Shiffman, 10.2: What is JSON? Part I - p5.js Tutorial (2017). Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r.
+- Daniel Shiffman, 10.2: What is JSON? Part II - p5.js Tutorial (2017). Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r.
+- Geoff Cox and Alex McLean, "Vocable Code," in *Speaking Code* (Cambridge, MA: MIT Press, 2013), 17-38.
 
 ## Notes
 
-[^speech]: Here we reference John Langshaw Austin's *How To Do Things With Words*, and by extension, Geoff Cox and Alex McLean's *Speaking Code* (Cambridge, Mass.: MIT Press 2013). The analogy of free software to free speech is explicitized in the Free Software Foundation's definition: “Free software " means [...] that the users have the freedom to run, copy, distribute, study, change and improve the software. Thus, "free software" is a matter of liberty, not price. To understand the concept, you should think of "free" as in "free speech," not as in "free beer." See https://www.gnu.org/philosophy/free-sw.html.  
+[^speech]: Here we reference John Langshaw Austin's *How To Do Things With Words*, and by extension, Geoff Cox and Alex McLean's *Speaking Code* (Cambridge, MA: MIT Press 2013). The analogy of free software to free speech is explicitized in the Free Software Foundation's definition: Free software means that the users have the freedom to run, copy, distribute, study, change and improve the software. "Thus, 'free software' is a matter of liberty, not price. To understand the concept, you should think of 'free' as in 'free speech', not as in 'free beer'." See https://www.gnu.org/philosophy/free-sw.html.  
 
 [^language]: Florian Cramer, *Language in Software Studies*, 2008, 168-173; see also Warren Sack, *The Software Arts* (Cambridge, Mass.: MIT Press, 2019)
 
 [^love]: Florian Cramer's claim was made in the context of the *I Love You* exhibition (2002-4) a work in progress-exhibition developed by digitalcraft.org Kulturbüro, see http://www.digitalcraft.org/iloveyou/.
 
-[^examples]: Relevant to this discussion is what Donald Knuth calls "literate programming," a methodology that treats a program like a piece of literature, addressed to human beings rather than to a computer. For more on this, see Donald Knuth's "Literate Programming," *The Computer Journal* 27, no.2 (1984), 97–111, https://academic.oup.com/comjnl/article/27/2/97/343244; https://doi.org/10.1093/comjnl/27.2.97. Further examples might include those by Mez Breeze (1994), Florian Cramer (2008), John Cayley (2002), Geoff Cox & Alex McLean (2013), Winnie Soon & Geoff Cox (2018), Ian Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015), to name but a few.
-See: Parrish, A (2015) https://vimeo.com/134734729; Cramer, F (2008) Language in Software Studies; Breeze, Mez (1994-ongoing) MEZANGELLE. https://anthology.rhizome.org/mez-breeze; Harwood, G (2008) Class Library in Software Studies; Cayley, J (2002) The Code is not the Text (unless it is the Text). electronic book review; Hatcher, I. (2015) The All-New. Small Press United. http://anomalouspress.org/books/all-new.php; Hatcher, I. (2016) Not not. https://soundcloud.com/ihatch/5-notnot; Temkin, Daniel. (2011) esoteric.codes https://esoteric.codes/; Mateas, M., & Montfort, N. (2005, December). A box, darkly: Obfuscation, weird languages, and code aesthetics. In Proceedings of the 6th Digital Arts and Culture Conference, IT University of Copenhagen (pp. 144-153); Cox, G. (2013) Speaking Code: Coding as Aesthetic and Political Expression. Cambridge, Mass: MIT Press; Soon, W., & Cox, G. (2018). Vocable Code. In Artistic Research Will Eat Itself (pp. 251-258); Blas, Z. & Cárdenas, M. Imaginary computatoinal systems: queer technologies and transreal aesthetics. AI & Soc (2013) 28: 559. https://doi.org/10.1007/s00146-013-0502-y; Blas, Z., & Cárdenas, M. (2013). Imaginary Computational Systems: Queer Technologies and Transreal Aesthetics. *AI and Society*, 28(4), 559-566
+[^examples]: Relevant to this discussion is what Donald Knuth calls "literate programming," a methodology that treats a program like a piece of literature, addressed to human beings rather than to a computer. For more on this, see Donald Knuth's "Literate Programming," *The Computer Journal* 27, no.2 (1984): 97–111, https://academic.oup.com/comjnl/article/27/2/97/343244; https://doi.org/10.1093/comjnl/27.2.97. Further examples might include those by Mez Breeze (1994), Florian Cramer (2008), John Cayley (2002), Geoff Cox & Alex McLean (2013), Winnie Soon & Geoff Cox (2018), Ian Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015), to name only a few.
+See: Allison Parrish (2015) https://vimeo.com/134734729; Florian Cramer, Language in Software Studies (2008); Mez Breeze, MEZANGELLE (1994-ongoing), https://anthology.rhizome.org/mez-breeze; Graham Harwood, "Class Library," in *Software Studies* (2008); John Cayley, "The Code is not the Text (unless it is the Text)," *Electronic Book Review* (2002); Ian Hatcher, *The All-New* (2015). Small Press United, http://anomalouspress.org/books/all-new.php; Ian Hatcher, *Not not* (2016). https://soundcloud.com/ihatch/5-notnot; Daniel Temkin, *esoteric.codes* (2011), https://esoteric.codes/; Michael Mateas, and Nick Montfort, "A Box, Darkly: Obfuscation, weird languages, and code aesthetics," Proceedings of the 6th Digital Arts and Culture Conference, IT University of Copenhagen (2005): 144-153; Geoff Cox and Alex McLean, *Speaking Code: Coding as Aesthetic and Political Expression* (Cambridge, MA: MIT Press, 2013); Winnie Soon and Geoff Cox, "Vocable Code," *Artistic Research Will Eat Itself* (2018): 251-258; Zach Blas and Micha Cárdenas, "Imaginary Computational Systems: Queer Technologies and Transreal Aesthetics," *AI and Society*, 28, no.4 (2013): 559-566.https://doi.org/10.1007/s00146-013-0502-y
 
-[^execute]: Roopika Risam, *The Poetry of Executable Code*, 2015, available at http://jacket2.org/commentary/poetry-executable-code.
+[^execute]: Roopika Risam, *The Poetry of Executable Code* (2015), http://jacket2.org/commentary/poetry-executable-code.
 
 [^fonts]: At the same time, you can also find a lot of free and open source fonts to download online. See, for instance, https://www.1001freefonts.com/.
 
-[^Chun]: Wendy Hui Kyong Chun, *Programmed Visions: Software and Memory* (Cambridge, Mass.: MIT Press, 2011, 45).
+[^Chun]: Wendy Hui Kyong Chun, *Programmed Visions: Software and Memory* (Cambridge, MA: MIT Press, 2011), 45.
 
 [^Barad]: Karen Barad, *Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning* (Durham, North Carolina: Duke University Press, 2007).
+
+[^entangle]: We again point to Barad's work here, and what she would stress to be entanglements of "intra-acting" human and non-human practices. See Barad, *Meeting the Universe Halfway*. 
 
 [^Plant1]: Sadie Plant, *Zeros + Ones: Digital Women and the New Technoculture* (London: Forth Estate, 1997), 34-35.
 
@@ -502,14 +498,14 @@ See: Parrish, A (2015) https://vimeo.com/134734729; Cramer, F (2008) Language in
 
 [^Plant4]: Plant, *Zeros + Ones*, 102.
 
-[^wy]: The project 文言 wenyan-lang is an esoteric programming language that closely follows the grammar and tone of classical Chinese literature. See https://wy-lang.org/
+[^wy]: See https://wy-lang.org/.
 
-[^cox2]: Cox, Speaking Code, 24.
+[^cox2]: Cox, *Speaking Code*, 24.
 
-[^cox1]: Cox, Speaking Code, 17.
+[^cox1]: Cox, *Speaking Code*, 17.
 
-[^constraints]: For a discussion around the constraint-based writing of *Vocable Code*, see Eva Heisler. "Winnie Soon, Time, Code, and Poetry." *Asymptote Journal* Jan 2020 (2020). https://www.asymptotejournal.com/visual/winnie-soon-time-code-and-poetry/
+[^constraints]: For a discussion around the constraint-based writing of *Vocable Code*, see Eva Heisler, "Winnie Soon, Time, Code, and Poetry," *Asymptote Journal*, Jan (2020), https://www.asymptotejournal.com/visual/winnie-soon-time-code-and-poetry/
 
 [^callback]: See the `loadSound()` function that can be used as both `preload()` and callback, https://p5js.org/reference/#/p5/loadSound.
 
-[^master]: This has been discussed in Chapter 1, "Getting Started".
+[^master]: This has been discussed in Chapter 1, "Getting Started."
