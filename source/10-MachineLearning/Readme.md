@@ -10,7 +10,7 @@ page_order: 10
 
 *Figure 10.1: The basic flow diagram of keyword detection in ELIZA (1966) by Joseph Weizenbaum*
 
-Following on from the previous discussion, this chapter begins with a further diagram that describes how a chatbot works — both in terms of procedure and logic. We use this historical example to introduce this final chapter of the book about machine learning,[^pathmind] broadly defined as a collection of models, statistical methods and operational algorithms that are used to analyse experimental or observational data. Given the large volume of data being cleaned and mined (as discussed in previous chapters) — and its widespread application in everyday voice-controlled devices such as Apple's Siri or Amazon's Echo[^diagram] to more sinister applications in border control face recognition software — it is hardly surprising that machine learning has become big business.
+This chapter begins with a further diagram that describes how a chatbot works — both in terms of procedure and logic. We use this historical example to introduce this final chapter of the book about machine learning,[^pathmind] broadly defined as a collection of models, statistical methods and operational algorithms that are used to analyse experimental or observational data. Given the large volume of data being cleaned and mined (as discussed in previous chapters) — and its widespread application in everyday voice-controlled devices such as Apple's Siri or Amazon's Echo[^diagram] to more sinister applications in border control face recognition software — it is hardly surprising that machine learning has become big business.
 
 Machine learning is a term coined by Arthur Samuel in 1959 through his research at IBM on game development, with the ultimate goal to reduce or even eliminate the need for "detailed programming effort",[^samuel] the roots of how computers might begin to write their own programs lie in older discussions of artifical intelligence. Speculation on whether computers could demonstrate credible responses to inputs is reflected in the relatively simple chatbot example that uses keywords to produce a *knowing* response or follow up question. ELIZA is one of the first chatbots, created by Joseph Weizenbaum at MIT between 1964 and 1966. It simulates a conversation between a Rogerian psychotherapist and their patient, prompting for user input, and then using primitive 'natural language processing'[^nlp] transforming this input using a simple script based on keyword association and language patterns into what seems to be a meaningful output, often in the form of a return question. Despite its apparent simplicity, it can be quite convincing (as you will experience later).
 
@@ -358,8 +358,8 @@ The README should address the following questions with the help of your source c
 
 ## Required reading:
 - Geoff Cox. “Ways of Machine Seeing.” *A Peer-Reviewed Journal About* 6, no. 1 (April 1, 2017): 8–15. https://doi.org/10.7146/aprja.v6i1.116007.
-- Ruha Benjamin. Are Robots Racist: Reimagining the Default Settings of Technology and Society, 2019, lecture video: https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4
-- Adrian Mackenzie, first chapter to *Machine Learners: Archaeology of a Data Practice* (Cambridge, Mass.: MIT Press, 2017).
+- Ruha Benjamin. "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4
+- Adrian Mackenzie, "Introduction: Into the Data," *Machine Learners: Archaeology of a Data Practice* (Cambridge, MA: MIT Press, 2017).
 
 ## Notes
 
@@ -369,14 +369,13 @@ The README should address the following questions with the help of your source c
 
 [^Weizenbaum]: Joseph Weizenbaum. “ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine,” *Communications of the ACM* 9 (1), 1996: 36-45.
 
-[^Weizenbaum2]: Ibid, 42.
+[^Weizenbaum2]: Weizenbaum. “ELIZA*, 42.
 
-[^Pygmalion]: The title of the play makes reference to the Greek myth in which Pygmalion, a sculptor, falls in love with a statue he carves, and
-Venus grants it the breath of life.
+[^Pygmalion]: The title of the play makes reference to the Greek myth in which Pygmalion, a sculptor, falls in love with a statue he carves, and Venus grants it the breath of life.
 
 [^Turing]: See Alan, M. Turing. "Computing machinery and intelligence," *Mind* 49 (1950): 433-460.
 
-[^clemens]:Clemens, Apprich, "Introduction", in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination* (Minnesota: Meson Press, 2018), p.x.
+[^clemens]:Clemens, Apprich, "Introduction," in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination* (Minnesota: Meson Press, 2018), x.
 
 [^online]: See the example of Google web translation service that perpetuatess gender stereotypes, https://twitter.com/mit_csail/status/916032004466122758.
 
@@ -384,15 +383,15 @@ Venus grants it the breath of life.
 
 [^face]: Research has shown that existing commercial recognization systems exhibit gender and racial bias. See Joy Buolamwini, "Response: Racial and Gender Bias in Amazon Recognition - Commercial AI System for Analyzing Faces", *Medium* (2019),  https://medium.com/@Joy.Buolamwini/response-racial-and-gender-bias-in-amazon-rekognition-commercial-ai-system-for-analyzing-faces-a289222eeced; Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society" (2019), lecture video: https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4.
 
-[^hito]: Hito Steyerl, "A Sea of Data: Pattern Recognition and Corporate Animism (Forked Version)", in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination*, 3.
+[^hito]: Hito Steyerl, "A Sea of Data: Pattern Recognition and Corporate Animism (Forked Version)," in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination*, 3.
 
-[^Learners]: Adrian Mackenzie, *Machine Learners: Archaeology of a Data Practice* (Cambridge, Mass.: MIT Press, 2017), 6.
+[^Learners]: Adrian Mackenzie, *Machine Learners: Archaeology of a Data Practice* (Cambridge, MA: MIT Press, 2017), 6.
 
-[^Weizenbaum3]: Weizenbaum, "ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine".
+[^Weizenbaum3]: Weizenbaum, "ELIZA*.
 
 [^ml5]: See the ml5.js library: https://ml5js.org/; and Daniel Shiffman's *The Coding Train* series specifically on ml5.js: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y.
 
-[^shit]: With ELIZA in mind, it's worth adding that cleaning data also comes close to the regulation of proper speech with the removal of 'dirty' words. Dominique Laporte's wonderful book *A History of Shit* (Cambridge, Mass.: MIT Press, 2002) has more detail on this and its core parallel to the development of public hygiene.
+[^shit]: With ELIZA in mind, it's worth adding that cleaning data also comes close to the regulation of proper speech with the removal of 'dirty' words. Dominique Laporte's wonderful book *A History of Shit* (Cambridge, MA: MIT Press, 2002) has more detail on this and its core parallel to the development of public hygiene.
 
 [^papa]: A good example is the video installation *The Cleaning of Emotional Data* (2019), by artist Elisa Giardina Papa, that reveals the global infrastructure of workers who clean data to train machine vision algorithms to detect emotions, and in so-doing how some emotions are rejected that do not match standardised categories. Elisa Giardina Papa, "The Cleaning of Emotional Data," Aksioma Project Space, Ljubljana, 15 Jan – 7 Feb, 2020, https://aksioma.org/cleaning.emotional.data/.
 
@@ -477,4 +476,4 @@ Venus grants it the breath of life.
 [^michelle]: This exercise is inspired by Michelle Carney's
 article on "Using Teachable Machine in the d.school classroom", see https://medium.com/@michellecarney/using-teachable-machine-in-the-d-school-classroom-96be1ba6a4f9.
 
-[^assistants]: Marie Louise Juul Søndergaard and Lone Koefoed Hansen argue that "feminine gendering" has reproduced and applied in digital personal assistants, see their "Intimate Futures: Staying with the Trouble of Digital Personal Assistants through Design Fiction" (ACM Press, 2018): 869–80. https://doi.org/10.1145/3196709.3196766.
+[^assistants]: Marie Louise Juul Søndergaard and Lone Koefoed Hansen argue that "feminine gendering" has reproduced and applied in digital personal assistants, see their "Intimate Futures: Staying with the Trouble of Digital Personal Assistants through Design Fiction" (New York: ACM Press, 2018): 869–80. https://doi.org/10.1145/3196709.3196766.
