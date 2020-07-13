@@ -42,7 +42,9 @@ THEME = 'theme/aesthetic-programming'
 PAGE_ORDER_BY = 'Order'
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['page_order']
+PLUGINS = ['page_order', 'attach_images']
+
+DISPLAY_PAGES_ON_MENU = False
 
 MARKDOWN = {
     'extension_configs': {
