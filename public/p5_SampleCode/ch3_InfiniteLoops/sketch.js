@@ -34,10 +34,10 @@ let fillColor;
 function setup(){
   createCanvas(xDim, yDim);
   background(240);
-  for(let i=0; i<xPos.length; i++) { //calculate the position of each asterisk horizontally that starts with an array index[0]
+  for(let i=0; i<xPos.length; i++) { //calculate the x-position of each asterisk as an array (xPos[]) that starts with an array index[0]
     xPos[i] = xPos[i] * (xDim / (xPos.length+1));
   }
-  for(let i=0; i<yPos.length; i++) { //calculate the position of each asterisk vertically that starts with an array index[0]
+  for(let i=0; i<yPos.length; i++) { //calculate the y-position of each asterisk as an array (ypos[]) that starts with an array index[0]
     yPos[i] = yPos[i] * (yDim / (yPos.length+1));
   }
   fill(0);  //counter color at the bottom left
@@ -65,7 +65,7 @@ function draw(){
            xCtr = 0;
            yCtr++;  //next row
            //the screen is filled > reset everything and update the counter
-           if(yCtr >= yPos.length){  //reach the max no of rows on a screen (after reach the no. of max cols)
+           if(yCtr >= yPos.length){  //reach the max no of rows on a screen (after reaching the no. of max cols)
              yCtr = 0;
              background(240);
              itr++;  //add counter (iteration)

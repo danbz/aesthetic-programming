@@ -10,9 +10,9 @@ page_order: 3
 
 *Figure 3.1: Early alchemical illustration of ouroboros accompanied by the text ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist (10th Century), (image from Wikipedia)*
 
-Loops offer alternative imaginaries, as is the case of the ancient image of a serpent eating its own tail. *Ouroboros*, from the Greek, expresses the endless cycle of birth and death, and therefore stands for the ability of processes to infinitely renew themselves. Alongside evocative references to autocannibalism and alchemy, loops are related to control and automation tasks, as well as repetitive procedures in everyday situations. The logic behind loops can be demonstrated by the following paradoxical word play: "The next sentence is true. The previous is false."[^Hofstadter] In programming, a loop allows the repeated execution of a fragment of source code that continues until a given condition is met, such as true or false. Indeed a loop becomes an infinite (or endless) if a condition never becomes false.
+%Loops% offer alternative imaginaries, as is the case of the ancient image of a serpent eating its own tail. *Ouroboros*, from the Greek, expresses the endless cycle of birth and death, and therefore stands for the ability of processes to infinitely renew themselves. Alongside evocative references to autocannibalism and alchemy, loops are related to control and automation tasks, as well as repetitive procedures in everyday situations. The logic behind loops can be demonstrated by the following paradoxical word play: "The next sentence is true. The previous is false."[^Hofstadter] In programming, a loop allows the repeated execution of a fragment of source code that continues until a given condition is met, such as true or false. Indeed a loop becomes an infinite (or endless) if a condition never becomes false.
 
-It was mathematician and author Augusta Ada Byron Lovelace who was one of the first to introduce and illustrate the concept of a programmatic loop in the early nineteenth century. She recognized that there were repeatable operations in the conceptual design of the first ever, automatic, general-purpose computing machine, Charles Babbage's Analytical Engine. A loop, which she called a "cycle," appears in her "Note G" on the Analytical Engine[^Ada] that describes the so-called Bernoulli numbers program, as in the diagram below. It utilizes two loops to indicate the repetition of a set of instructions with conditions,[^Kim] thereby minimizing efforts to write a repeatable operation in duplicate. AS such, loops address repeatable and operational time.
+It was mathematician and author Augusta Ada Byron Lovelace who was one of the first to introduce and illustrate the concept of a programmatic loop in the early nineteenth century. She recognized that there were repeatable operations in the conceptual design of the first ever, automatic, general-purpose computing machine, Charles Babbage's Analytical Engine. A loop, which she called a "cycle," appears in her "Note G" on the Analytical Engine[^Ada] that describes the so-called Bernoulli numbers program, as in the diagram below. It utilizes two loops to indicate the repetition of a set of instructions with conditions,[^Kim] thereby minimizing efforts to write a repeatable operation in duplicate. As such, loops address repeatable and operational time.
 
 ![ada lovelace](ch3_1.jpg)
 
@@ -20,10 +20,10 @@ It was mathematician and author Augusta Ada Byron Lovelace who was one of the fi
 
 Loops in contemporary programming are highly influenced by these early insights into the handling of repeated machine operations expressed in diagramatic form. High-level programming languages such as p5.js include this loop concept, allowing a fragment of source code to be repeatedly executed, as in the example of the `draw()` function that will run continuously until the program is stopped or using the syntax `noLoop()`. Loops are some of the most basic and powerful of programming concepts.
 
-The main example for this chapter is the graphical spinning wheel icon of a preloader, or so-called "throbber,"[^throbber] that indicates when a program is performing an action such as downloading or intensive calculations. We consider this an evocative symbol as it illuminates the discrepancy between what we think we know and what we don't know about the hidden machine labor, and the complexity of multiple temporalities that run during any given computational operation.[^screensaver] It is a good icon to illustrate how loops work, allowing us to contemplate the entanglement of perceptible streams and computational logics, as well as how we experience the historical present through digital media.[^soon] As we shift from static objects to moving ones, the animated throbber will guide the programming tasks related to thinking about transformation (such as rotation and translation), but will also act as a suitable cultural object for us to think through the idea of loops, the related temporal elements, and syntax more conceptually.
+The main example for this chapter is the graphical spinning wheel icon of a preloader, or so-called "throbber,"[^throbber] that indicates when a program is performing an action such as downloading or intensive calculations. We consider this an evocative symbol as it illuminates the discrepancy between what we think we know and what we don't know about the hidden machine labor, and the complexity of multiple temporalities that run during any given computational operation.[^screensaver] It is a good icon to illustrate how loops work, allowing us to contemplate the entanglement of perceptible streams and computational logics, as well as how we experience the historical present through digital media.[^soon] As we shift from static objects to moving ones, the animated %throbber% will guide the programming tasks related to thinking about transformation (such as rotation and translation), but will also act as a suitable cultural object for us to think through the idea of loops, the related temporal elements, and syntax more conceptually.
 
 ### start()
-We usually encounter the ubiquitous spinning icon while loading or streaming. It shows that a certain operation is in progress, but what exactly is happening, and how long this will take, is not at all clear. There is no indication of progress or status as is the case with a progress bar, for instance. We see the icon spinning, but it explains little about what goes on in the background or about timespan. Learning to program a throbber, and, subsequently examining *Asterisk Painting* by John P. Bell — that creates a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started — will help you gain insight into the way programming employs transformational movement and loop structures, and, at the same time, better understand some of the temporal operations of computational processes.  
+We usually encounter the ubiquitous spinning icon while loading or streaming. It shows that a certain operation is in progress, but what exactly is happening, and how long this will take, is not at all clear. There is no indication of progress or status as is the case with a progress bar, for instance. We see the icon spinning, but it explains little about what goes on in the background or about timespan. Learning to program a throbber, and, subsequently examining *Asterisk Painting* by John P. Bell — that creates a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started — will help you gain insight into the way programming employs transformational movement and loop structures, and, at the same time, gains insights of the temporal operations of computational processes.  
 
 ### Decode
 As mentioned above, this chapter shifts from programming static objects to a mixture of both static and moving objects. Our example is circular and spins, as if it were eating its own tail.
@@ -50,7 +50,7 @@ Can you describe the various elements and how they operate computationally in yo
 2. **Experimentation**
     - Try to change some of the parameters, e.g. `background()`, `framerate()`, the variables inside `drawElements()`
     - There are some new functions you can check in the `p5.js` reference (e.g. `push()`, `pop()`, `translate()`, `rotate()`)
-3. **Mapping** 
+3. **Mapping**
     - Map some of the findings/features from the speculation you have done to the source code. Which block of code relates to your findings?  
     - Can you identify the part/block of code that responds to the elements that you have speculated on?
 4. **Technical questions/issues**
@@ -99,9 +99,9 @@ function windowResized() {
 }
 ```
 
-### Function
+### %Function%
 
-A function in p5.js starts with the syntax `function() {}`, containing "a self-contained section of code"[^Robinson] to peform a certain task. The most basic built-in functions in p5.js are `setup()` and `draw()` that specify the contained code in relation to a particular purpose such as setting up the environment in which to run the program, as well as doing things over time. Other built-in functions in the sample code provided, such as `windowResized()`, serve to readjust the canvas size if there is any window resizing event. The canvas size is not set at fixed dimensions, but is subject to the window size that you have adjusted as illustrated in the code. This was also discussed in the preceding chapter: `createCanvas(windowWidth, windowHeight);`. The function `windowResized()` suggests that an "event listener" — a procedure or function in a computer program that monitors for an event to occur — initiates at the code level to not only run once, but "constantly."" It is "listening" to events of window resizing specifically, and similar to other listening events such as `mouseIsPressed()` that was introduced in the previous chapter. The `windowResized()` function is considered asynchronous, which means some other events occur concurrently with the main flow of the program such as, for instance, drawing shapes.
+A function in p5.js starts with the syntax `function() {}`, containing "a self-contained section of code"[^Robinson] to peform a certain task. The most basic built-in functions in p5.js are `setup()` and `draw()` that specify the contained code in relation to a particular purpose such as setting up the environment in which to run the program, as well as doing things over time. Other built-in functions in the sample code provided, such as `%windowResized()%`, serve to readjust the canvas size if there is any window resizing event. The canvas size is not set at fixed dimensions, but is subject to the window size that you have adjusted as illustrated in the code. This was also discussed in the preceding chapter: `createCanvas(windowWidth, windowHeight);`. The function `windowResized()` suggests that an "%event listener%" — a procedure or function in a computer program that monitors for an event to occur — initiates at the code level to not only run once, but "constantly."  It is "listening" to events of window resizing specifically, and similar to other listening events such as `%mouseIsPressed()%` that was introduced in the previous chapter. The `windowResized()` function is considered asynchronous, which means some other events occur concurrently with the main flow of the program such as, for instance, drawing shapes.
 
 Alongside built-in functions, the sample code contains the custom function `function drawElements();` which is invoked in Line 21: `drawElements();` within the `draw()` function. Defining a function is relatively simple in JavaScript. Type the keyword "function" then follow it with the name that you want to give your function. The function name "drawElements" gives you a sense of what this function does, which is draw ellipses, lines of a particular size, position, and color, as well as drawing ellipses and lines to rotate clockwise or statically remain in place. There are many ways of drawing the same result, but as we are still in the early stages of learning to program, we will therefore work on an example that can do the same, but aligns better with our learning progress. With this in mind, some of the code is intentionally written in a way that is less efficient, but serves the purpose of illuminating key concepts.
 
@@ -117,30 +117,30 @@ function sum(a, b, c) { //passing values four as a, three as b, two as c to the 
 }
 ```
 
-    > output:
-    "9"
+> output:
+"9"
 
 <div class="exercise" markdown="true">
 
 ### Exercise in class
-You can also try to type/copy the above code into your own sketch, where it will return the number nine as the output because this is the result of the sum of the values four, three and two. The arguments a, b and c are parameter variables. The function "sum" can be reused if you pass on other values to it, as for instance another line of code `let y = sum(5,6,7);` and the return value of y would be eighteen. You can try to come up with your own functions and arguments.
+You can also try to type/copy the above code into your own sketch, where it will return the number 9 as the output because this is the result of the sum of the values 4, 3 and 2. These values called "%argument%" that are passed to the function (i.e. `sum()`). In the example, the parameters as variables a, b and c equals to the actual values 4, 3 and 2 as arguments, but the value of the variables can be changed. The function "sum" can be reused if you pass on other arguments/values to it, as for instance another line of code `let y = sum(5,6,7);` and the return value of y would be 18. You can try to come up with your own functions and arguments.
 
 </div>
 
-### Transform
+### %Transform%
 In general, the transform-related functions[^ref2] apply a two-dimensional or three-dimensional transformation to an element or object. In the sample code provided, two specific transformational functions were used to move the canvas and create an illusion of object transformation. (It is important to know that the transformation is done at canvas background level, not at the individual shape/object level.)
 
 ![3.3](ch3_3.png)
 
 *Figure 3.4: Moving the coordinate system at canvas level (image from processing.org)*
 
-1. `translate()`: This function displaces/moves objects within the display window. For example, moving the canvas to the center will position the whole sketch at the center too (`translate(width/2, height/2);`). The ellipse is drawn as `ellipse(35,0,22,22)` which takes (35,0) as the x and y coordinates, and "22" as the size. If we don't have the `translate()` function upfront, the ellipse will be placed at the top left corner instead (because the x coordinate value "35" is the distance of the rotating ellipses from the center position). By moving the coordinate origin to the middle using the `translate()` function, the ellipses is placed in the middle of the canvas, because the coordinate orign (0,0) has moved to the center of the screen. Building upon the previous chapter on the spatial dimension of a coordinate system, "translate" adds another layer to think about moving and positioning objects using canvas.
-2. `rotate()`: In this sample code, the use of the function `rotate()` makes the ellipse rotate through a particular number of degrees. The default unit for rotation is radians. As such, the code is written as `rotate(radians(cir));`. The function `rotate()` takes radians in its default mode, but if you want to change to degrees all you have to do is add the code `angleMode(DEGREES)`.
+1. `%translate()%`: This function displaces/moves objects within the display window. For example, moving the canvas to the center will position the whole sketch at the center too (`translate(width/2, height/2);`). The ellipse is drawn as `ellipse(35,0,22,22)` which takes (35,0) as the x and y coordinates, and "22" as the size. If we don't have the `translate()` function upfront, the ellipse will be placed at the top left corner instead (because the x coordinate value "35" is the distance of the rotating ellipses from the center position). By moving the coordinate origin to the middle using the `translate()` function, the ellipses is placed in the middle of the canvas, because the coordinate orign (0,0) has moved to the center of the screen. Building upon the previous chapter on the spatial dimension of a coordinate system, "translate" adds another layer to think about moving and positioning objects using canvas.
+2. `%rotate()%`: In this sample code, the use of the function `rotate()` makes the ellipse rotate through a particular number of degrees. The default unit for rotation is radians. As such, the code is written as `rotate(radians(cir));`. The function `rotate()` takes radians in its default mode, but if you want to change to degrees all you have to do is add the code `angleMode(DEGREES)`.
 
-In order to continue expanding on spatial relationships, the entanglement of time and space is made apparent in this example by using the `rotate()` function that operates alongside other time-related syntax in `draw()`. There are a total of nine ellipses (indicated as `let num=9;`), and each is separated from the next by forty degrees (i.e 0.968 rad) which is derived from "360/9." A circle has three-hundred and sixty degrees and to rotate the ellipse over time, it requires the time element to calculate when, how, and where to move. This is how the function `frameCount()` works as it counts the number of frames displayed since the program started.[^ref] The line `let cir = 360/num*(frameCount%num);` illustrates the use of a "modulo" operation to find the remainder or the number that's left after it is divided by another value. As such, the value of the variable `cir` is limited to multiples of forty: "0, 40, 80, 120, 160, 240, 280 and 320." On the basis of the `cir` value, the program follows such a sequence over time to rotate one after the other, based on the original position, then repeats continuously.
+In order to continue expanding on spatial relationships, the entanglement of time and space is made apparent in this example by using the `rotate()` function that operates alongside other time-related syntax in `draw()`. There are a total of 9 ellipses (indicated as `let num=9;`), and each is separated from the next by 40 degrees (i.e 0.968 rad) which is derived from "360/9." A circle has 360 degrees and to rotate the ellipse over time, it requires the time element to calculate when, how, and where to move. This is how the function `frameCount()` works as it counts the number of frames displayed since the program started.[^ref] The line `let cir = 360/num*(frameCount%num);` illustrates the use of a "%modulo%" operation to find the remainder or the number that's left after it is divided by another value. As such, the value of the variable `cir` is limited to multiples of 40: "0, 40, 80, 120, 160, 240, 280 and 320." On the basis of the `cir` value, the program follows such a sequence over time to rotate one after the other, based on the original position, then repeats continuously.
 
 #### push() and pop()
-Functions of `push()` and `pop()` are commonly used to save the current style and restore settings respectively. Style as in color and setting as in rotate and translate. In the sample code, rotation is only applied to the centered ellipses when four lines at each side are fixed. The following excerpt of code will help to explain:
+Functions of `%push()%` and `%pop()%` are commonly used to save the current style and restore settings respectively. Style as in color and setting as in %rotate% and %translate%. In the sample code, rotation is only applied to the centered ellipses when four lines at each side are fixed. The following excerpt of code will help to explain:
 
 ```javascript
 function drawElements() {
@@ -148,7 +148,7 @@ function drawElements() {
   push();
   translate(width/2, height/2); //move things to the center
   // 360/num >> degree of each ellipse' move ;frameCount%num >> get the remainder that indicates the movement of the ellipse
-  let cir = 360/num*(frameCount%num);  //to know which one among eight possible positions
+  let cir = 360/num*(frameCount%num);  //to know which one among 8 possible positions
   rotate(radians(cir));
   noStroke();
   fill(255,255,0);
@@ -169,7 +169,7 @@ The last four lines describe the drawing of the four static yellow lines. Logica
 <div class="exercise" markdown="true">
 
 ### Exercises in class
-1. Change the parameters and values, as well as the position/sequence of the sample code to understand the functions and syntax such as the variable `num`, the transformational functions `translate()` and `rotate()`, as well as saving and restoring current style and transformations such as `push()` and `pop()`.
+1. Change the arguments/values, as well as the position/sequence of the sample code to understand the functions and syntax such as the variable `num`, the transformational functions `translate()` and `rotate()`, as well as saving and restoring current style and transformations such as `push()` and `pop()`.
 
 2. We have explained how to use `rotate()` to display the ellipses at various degrees of rotation, but how about the fading in and out of each ellipse in the sketch? (Hint: as this is repeatedly faded in and out, the `background()` syntax under the function `draw()` is key to producing such effects.)
 
@@ -196,11 +196,11 @@ The original piece was written in Processing and has been modified, and ported t
 let xDim = 1000;  //canvas size-width
 let yDim = 600;   //canvas size-height
 let timer=0;
-let speed=100;  //the speed of rotation, default one hundred
-let maxSentences = 77;  //original: seventy-seven
+let speed=100;  //the speed of rotation, default 100
+let maxSentences = 77;  //original: 77
 let sentences = 0;
-let xPos = [1,2,3,4,5]; //original: eight columns
-let yPos = [1,2,3,4]; //original: five rows
+let xPos = [1,2,3,4,5]; //original: 8 columns
+let yPos = [1,2,3,4]; //original: 5 rows
 let xCtr = 0;
 let yCtr = 0;
 let waitTime = 10000;
@@ -212,10 +212,10 @@ let fillColor;
 function setup(){
   createCanvas(xDim, yDim);
   background(240);
-  for(let i=0; i<xPos.length; i++) {  //calculate the position of each asterisk horizontally as an array that starts with an array index[0]
+  for(let i=0; i<xPos.length; i++) {  //calculate the x-position of each asterisk as an array (xPos[]) that starts with an array index[0]
     xPos[i] = xPos[i] * (xDim / (xPos.length+1));
   }
-  for(let i=0; i<yPos.length; i++) {  //calculate the position of each asterisk vertically as an array that starts with an array index[0]
+  for(let i=0; i<yPos.length; i++) {  //calculate the y-position of each asterisk as an array (ypos[]) that starts with an array index[0]
     yPos[i] = yPos[i] * (yDim / (yPos.length+1));
   }
   fill(0);  //counter color at the bottom left
@@ -233,8 +233,8 @@ function draw(){
        timer = currentMillis + speed; //the time for the next loop
        textSize(12);
        fill(fillColor);
-       //nf:format numbers into strings and adds zeros in front [https://p5js.org/reference/#/p5/nf]. Three digits in front and zero digit after the decimal
-       text(nf(currentMillis, 6), 3, 0);  //which is about the time string written as the asterisk, and it starts with zero always
+       //nf:format numbers into strings and adds zeros in front [https://p5js.org/reference/#/p5/nf]. 3 digits in front and 0 digit after the decimal
+       text(nf(currentMillis, 6), 3, 0);  //which is about the time string written as the asterisk, and it starts with 0 always
        sentences++;
        if(sentences >= maxSentences){  //reach the maximum for each asterisk
          xCtr++;  //move to next array
@@ -243,7 +243,7 @@ function draw(){
            xCtr = 0;
            yCtr++;  //next row
            //the screen is filled > reset everything and update the counter
-           if(yCtr >= yPos.length){  //reach the max number of rows on a screen (after reach the max number of cols)
+           if(yCtr >= yPos.length){  //reach the max number of rows on a screen (after reaching the max number of cols)
              yCtr = 0;
              background(240);
              itr++;  //add counter (iteration)
@@ -276,23 +276,23 @@ function draw(){
         - What is moving and how does it move?
         - What makes each asterisk spin/rotate and when does it stop to create a new one?
         - Can you locate the time-related syntax in this sketch?
-    - **Experimentation**: Change some of the code's parameters
-        - Try to change some of the parameters, e.g. the values of the global variables
+    - **Experimentation**: Change some of the code's arguments
+        - Try to change some of the values, e.g. the values of the global variables
         - Which new syntax and functions didn't you know? (Check them out in the p5.js reference.)
     - **Mapping**: Map the elements from the speculation to the source code
 
-### Arrays
+### %Arrays%
 
 To be able to get a deeper understanding of the source code, you only need a few more fundamental concepts of programming. The first one is "Array," which is commonly understood as a list of data and is related to previous concepts such as variable and data types. If we need to work with a chunk of data, such as a collection of words, you can use arrays instead of making separate variables. For example:
 
 ```javascript
 //example
-let words = [] //array -> start with zero
+let words = [] //array -> start with 0
 words[0] = "what";
 words[1] = "are";
 words[2] = "arrays";
 console.log(words[2]); //output: arrays
-console.log(words.length); //output: three
+console.log(words.length); //output: 3
 ```
 
 We can follow a similar structure to our previous approach using variables:
@@ -311,15 +311,15 @@ let xPos = [1,2,3,4,5];
 let yPos = [1,2,3,4];
 ```
 
-This is a slightly different way of declaring an array. It combines both the declaration and initialization/assignment into a single line to both declare the array names as `xPos` and `yPos`, and then assigns the numeric values into the array index, which refers to the number of columns and rows respectively. Think about it like this: the program needs to know how many asterisks should be drawn on the screen before moving on to the next row as well as when to restart.
+This is a slightly different way of declaring an array. It combines both the declaration and initialization/assignment into a single line to both declare the array names as `xPos` and `yPos` with the term `let`, and then assigns the numeric values into the array index, which refers to the number of columns and rows respectively. Think about it like this: the program needs to know how many asterisks should be drawn on the screen before moving on to the next row as well as when to restart.
 
 As the array index starts with [0], therefore each index has mapped the value in this way:  
 
 `let xPos = [1,2,3,4,5];` ->
-The `xPos.length` is five and that indicates five values are being stored in this array: xPos[0] = 1, xPos[1] = 2, xPos[2] = 3, xPos[3] = 4, xPos[4] = 5.
+The `xPos.length` is 5 and that indicates 5 values are being stored in this array: xPos[0] = 1, xPos[1] = 2, xPos[2] = 3, xPos[3] = 4, xPos[4] = 5.
 
 `let yPos = [1,2,3,4];` ->
-The `yPos.length` is four and that indicates four values are being stored in this array: ypos[0] = 1, yPos[1] = 2, yPos[2] = 3, yPos[3] = 4.
+The `yPos.length` is 4 and that indicates 4 values are being stored in this array: ypos[0] = 1, yPos[1] = 2, yPos[2] = 3, yPos[3] = 4.
 
 The above two arrays store each asterisk's center position in the form of x and y coordinates.
 
@@ -327,17 +327,17 @@ There are also methods of adding or removing an array index:
 - `array.push(value)`:[^push] To add a value to the end of the array. Example: `xPos.push(6)` will extend the index to `xPos[5] = 6`.
 - `array.splice()`:[^splice] This will remove a range from an array index, or remove the existing index, and replace it with new indexes with other values.
 
-### Conditional statements
+### %Conditional statements%
 The discussion of conditional statements in the previous chapter will make it easier to follow *Asterisk Painting*'s code (particularly Line 61). We follow the conditional structure (if-then) built into the program in order to know when to move from one asterisk to the next.
 
 ```javascript
 //sample from Asterisk Painting, see Line 61:
-if(sentences >= maxSentences){  //if the existing sentence count reaches the maximum for the asterisk painting
-   move to the next one and continues;
+if(sentences >= maxSentences){  //if the existing sentence count reaches the maximum for each asterisk painting
+   //move to the next one and continues;
 }
 ```
 
-The value of the variable `maxSentences` is seventy-seven (refer to Line 22 from the source code), therefore each asterisk contains seventy-seven sentences (in the form of a line that contains numbers). The other variable `sentences` counts each line and the program checks whether the current sentences count has reached its maximum. "If" the asterisk reaches seventy-seven sentences "then" it will move to the next one and the `sentences` counter will be reset to zero (Line 82) and start counting again. The logic repeats within the `draw()` function.
+The value of the variable `maxSentences` is 77 (refer to Line 22 from the source code), therefore each asterisk contains 77 sentences (in the form of a line that contains numbers). The other variable `sentences` counts each line and the program checks whether the current sentences count has reached its maximum. "If" the asterisk reaches 77 sentences "then" it will move to the next one and the `sentences` counter will be reset to zero (Line 82) and start counting again. The logic repeats across all the asterisks within the `draw()` function.
 
 ### Loops
 The core concept of a loop is that it enables you to execute a block of code many times. For example, if you have to draw one hundred lines that are placed vertically one after the other, you can of course write one hundred lines of code using the syntax: `line()`.
@@ -354,16 +354,16 @@ The following is an excerpt from *Asterisk Painting* (Lines 37-42):
 
 ```javascript
   for(let i=0; i< xPos.length; i++) {
-    //calculate the position of each asterisk horizontally that starts with an array index[0]
+    ////calculate the x-position of each asterisk as an array (xPos[]) that starts with an array index[0]
     xPos[i] = xPos[i] * (xDim / (xPos.length+1));
   }
   for(let i=0; i< yPos.length; i++) {  
-   //calculate the position of each asterisk vertically that starts with an array index[0]
+   //calculate the y-position of each asterisk as an array (ypos[]) that starts with an array index[0]
     yPos[i] = yPos[i] * (yDim / (yPos.length+1));
   }
 ```
 
-See the structure of a for-loop:<br>
+See the structure of a for-loop:
 
 ![](ch3_4.png)
 
@@ -371,22 +371,23 @@ See the structure of a for-loop:<br>
 
 Figure 3.6 shows you what a for-loop consists of:
 
-1. *A variable declaration and initialization*: Usually starts with zero
+1. *A variable declaration and initialization*: Usually starts with 0
 2. *A specificed condition*: The criteria to meet the condition
 3. *Action*: What you want to happen when the condition is met
 4. *Loop for next*: For the next iteration (usually incremental/decremental).
 
-This block of code from the above example describes the position of each asterisk in terms of its x and y coordinates (the center point [x,y] of each asterisk). Since there are five columns (xPos) and four rows (yPos) which have been defined in global variables, the program needs to know the coordinates precisely. The overall formula to locate the position, for example xPos, is to divide the width of the canvas by the number of asterisks horizontally, and add one. As such, the code can be understood as follows: calculate the `xPos[i]` for each iteration with the starting point zero. Additionally, each iteration will increase the count by one until it reaches the maximum number of asterisks in a row (`i < xPos.length`).
+This block of code from the above example describes the position of each asterisk in terms of its x and y coordinates (the center point [x,y] of each asterisk). Since there are 5 columns (xPos) and 4 rows (yPos) which have been defined in global variables, the program needs to know the coordinates precisely. The overall formula to locate the position, for example xPos, is to divide the width of the canvas by the number of asterisks horizontally, and add one. As such, the code can be understood as follows: calculate the `xPos[i]` for each iteration with the starting point 0. Additionally, each iteration will increase the count by 1 until it reaches the maximum number of asterisks in a row (`i < xPos.length`).
 
 ![](ch3_5.png)
 
-*Figure 3.7 The xPos of each asterisk* </br>
+*Figure 3.7 The xPos of each asterisk*
+
 
 In our teaching, we describe another example of the use of a for-loop to further clarify its use and to demonstrate the repeated drawing of objects.
 
 ![](ch3_8.png)
 
-*Figure 3.8 Drawing twenty lines on a canvas using a for-loop*
+*Figure 3.8 Drawing 20 lines on a canvas using a for-loop*
 
 ```javascript
 let y = 20;
@@ -401,7 +402,7 @@ function setup() {
 }
 ```
 
-In this simple line drawing, the key is the local variable `i` (which is used to set the start of the counting of the lines: `let i = 0;`, as well as setting the condition of how many lines should be drawn: `i < 20`, and counting the lines for each iteration: `i++`). The global variable `y` is used to determine the position (in terms of y axis or what could be described as the height) of each line and to make sure the program will increment twenty pixels for each iteration: `y+=20`. In this way we use a for-loop to draw multiple lines, instead of having twenty lines with fixed x and y coordinates.
+In this simple line drawing, the key is the local variable `i` (which is used to set the start of the counting of the lines: `let i = 0;`, as well as setting the condition of how many lines should be drawn: `i < 20`, and counting the lines for each iteration: `i++`). The global variable `y` is used to determine the position (in terms of y axis or what could be described as the height) of each line and to make sure the program will increment 20 pixels for each iteration: `y+=20`. In this way we use a for-loop to draw multiple lines, instead of having 20 lines with fixed x and y coordinates.
 
 The "while loop" is another type of loop for executing iterations. The statement is executed until the condition is true and stops as soon as it is false.
 
@@ -449,7 +450,7 @@ Check out other works that refer to the throbber and how other people contextual
 
 ## Required reading
 
-- Daniel Shiffman, Courses "3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2,"" *Code! Programming with p5.js* on [YouTube](https://www.youtube.com/watch?v=1Osb_iGDdjk) (2018) [Accessed 9 Sep. 2019]. (practical usage on conditional statements, loops, functions, and arrays)
+- Daniel Shiffman, Courses "3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2,"" *Code! Programming with p5.js* on [YouTube](https://www.youtube.com/watch?v=1Osb_iGDdjk) (2018). (practical usage on conditional statements, loops, functions, and arrays)
 - Wolfgang Ernst, *Chronopoetics: The Temporal Being and Operativity of Technological Media* (London: Rowman & Littlefield International, 2016), 63-95.
 - Close reading of the artwork *Asterisk Painting* by John P. Bell, ported to p5.js, and modified by Winnie Soon, https://editor.p5js.org/siusoon/sketches/YAk1ZCieC.
 
@@ -458,13 +459,13 @@ Check out other works that refer to the throbber and how other people contextual
 [^Ada]: For an account of "Note G," see Joasia Krysa's *Ada Lovelace* 100 Notes-100 Thoughts Documenta 13 (Berlin: Hatje Cantz Verlag, 2011).
 [^screensaver]: There is much we could add here also about screensavers as cultural form in the broader context of productive labor-time, and the attention economy. Alexandra Anikina's PhD *Procedural Films* (Goldsmiths, University of London, 2020) contains a chapter on the aesthetic form of screensavers in relation to the discussion of idle time/sleep, and cognitive labor; her lecture-performance *Chronic Film* from 2017 can be seen at http://en.mieff.com/2017/alexandra_anikina. See also Rafaël Rozendaal's installation *Sleep Mode: The Art of the Screensaver* at Het Nieuwe Instituut (2017), https://hetnieuweinstituut.nl/en/press-releases/sleep-mode-art-screensaver.
 [^Kim]: Eugene Eric Kim and Betty Alexandra Toole, "Ada and the First Computer", *Scientific American* 280, no. 5 (1999), 78.
-[^throbber]: It is also interesting to note that the term 'throbber' is a derogatory term derived from erect penis, not unlike git which was described in the opening chapter.
+[^throbber]: It is also interesting to note that the term "throbber" is a derogatory term derived from erect penis, not unlike git which was described in the opening chapter.
 [^Robinson]: Derek Robinson, "Function," in Matthew Fuller, ed. *Software Studies*, 101.
 [^ref]: https://p5js.org/reference/#/p5/frameCount.
 [^ref2]: To stick with the provided examples, we only offer two syntaxes related to transformation. Beyond `translate()` and `rotate()`, there are also other transform-related functions such as `scale()`, `shearX()`, `shearY()`. See https://p5js.org/reference/#group-Transform.
 [^ref3]: https://p5js.org/reference/#/p5/push.
 [^Bell]: http://www.johnpbell.com/asterisk-painting/.
-[^millis]: https://p5js.org/reference/#/p5/millis. This is a p5.js syntax, returning the number of milliseconds since starting the program, similar to `frameCount` but counted in milliseconds.
+[^millis]: `millis()` is a p5.js syntax, returning the number of milliseconds since starting the program, similar to `frameCount` but counted in milliseconds, see https://p5js.org/reference/#/p5/millis.
 [^Chrono]: Wolfgang Ernst, *Chronopoetics: The Temporal Being and Operativity of Technological Media* (London: Rowman & Littlefield International, 2016), 63-95.
 [^Chrono2]: Ernst, *Chronopoetics*, 63.
 [^Bergson]: For example, the philosopher Henri Bergson makes a qualitative distinction between lived "durational" time, and vulgar, or clock time, which flattens and deadens the experience of time. See Henri Bergson, *Matter and Memory* [1896] (New York: Zone Books, 1990).
