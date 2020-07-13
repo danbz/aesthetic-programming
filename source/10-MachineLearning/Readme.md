@@ -473,7 +473,7 @@ The README should address the following questions with the help of your source c
 
 [^Berger2]: Berger, *Ways of Seeing*.
 
-[^cox]: Geoff Cox, "Ways of Machine Seeing," *Unthinking Photography* (2016), https://unthinking.photography/articles/ways-of-machine-seeing. The title is taken from a workshop organized by the Cambridge Digital Humanities Network, convened by Anne Alexander, Alan Blackwell, Geoff Cox, and Leo Impett, and held at Darwin College, University of Cambridge, July 11, 2016. The essay is republished with source code in *A Peer-Reviewed Journal About* 6, no. 1 (April 1, 2017): 8–15. https://doi.org/10.7146/aprja.v6i1.116007.
+[^cox]: Geoff Cox, "Ways of Machine Seeing," *Unthinking Photography* (2016), https://unthinking.photography/articles/ways-of-machine-seeing. The title is taken from a workshop organized by the Cambridge Digital Humanities Network, convened by Anne Alexander, Alan Blackwell, Geoff Cox, and Leo Impett, and held at Darwin College, University of Cambridge, July 11, 2016. The essay is republished with source code in *A Peer-Reviewed Journal About* 6, no. 1 (2017): 8–15. https://doi.org/10.7146/aprja.v6i1.116007.
 
 [^michelle]: This exercise is inspired by Michelle Carney's
 article on "Using Teachable Machine in the d.school classroom," *Medium*, https://medium.com/@michellecarney/using-teachable-machine-in-the-d-school-classroom-96be1ba6a4f9.
