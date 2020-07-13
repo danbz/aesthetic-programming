@@ -102,9 +102,9 @@ Artists Joana Chicau and Jonathan Reus produced *Anatomies of Intelligence*[^AI]
 ## ml5.js library
 Given the limitations of time and space, and in line with the book thus far, this chapter will experiment with the ml5.js machine learning library, a JavaScript framework that can be run in a web browser just like p5.js. Aiming to make machine learning accessible to a wide audience, especially programming beginners, ml5.js is built on top of the more complex TensorFlow JavaScript library.[^tensor] Furthermore, the ml5.js site consists of extensive code examples and tutorials with pre-trained models that have been created using prior training processes.[^ml5]
 
-Working towards the final chapter, "Afterword" — which can be likened to positive reinforcement for having finished your learning so far — we have appropriated an example from ml5.js: `CharRNN_Text`. Instead of using the pre-trained model provided by ml5.js that was trained using the literary works of Virginia Woolf, we offer another pre-trained model[^training] based all the chapters of this book. In this way our final example learns from previous chapters and generates a new text based on the generalized style of the others. Of course there is a process of reduction here that exemplifies some of the political issues we have raised previously in terms of knowledge production.[^issues]
+Working towards the final chapter, "Afterword: Recurrent Imaginaries" — which can be likened to positive reinforcement for having finished your learning so far — we have appropriated an example from ml5.js: `CharRNN_Text`. Instead of using the pre-trained model provided by ml5.js that was trained using the literary works of Virginia Woolf, we offer another pre-trained model[^training] based all the chapters of this book. In this way our final example learns from previous chapters and generates a new text based on the generalized style of the others. Of course there is a process of reduction here that exemplifies some of the political issues we have raised before with regard to knowledge production.[^issues]
 
-The training process uses a "Recurrent Neural Network" (RNN) and "Long Short Term Memory" (LSTM) that analyze and model sequential data, character by character. Both bare useful in terms of character-by-character training because the order, and context of the text are important to generate sentences that make sense to human readers (this is related to the field of natural language processing). This recurrent type of neural network can capture long-term dependencies in a corpus in order to make sense of the text pattern through many iterations of the training process, using markdowns in the form of characters and symbols from each chapter as raw data. What we end up with more or less makes sense, in its processing of text, but also source code, image links, captions, and so on, but most importantly it provides an insight into how a machine learns from our book in contrast to what you might have learnt. Here we come back to one of of main objectives for the book, i.e. exploring some of the similarities and differences between human, and machine reading and writing: what we refer to as aesthetic programming.
+The training process uses a "Recurrent Neural Network" (RNN) and "Long Short Term Memory" (LSTM) that analyze and model sequential data, character by character. Both are useful in terms of character-by-character training because the order, and context of the text are important to generate sentences that make sense to human readers (this is related to the field of "natural language processing"). This recurrent type of neural network can capture long-term dependencies in a corpus in order to make sense of the text pattern through many iterations of the training process, using markdowns in the form of characters and symbols from each chapter as raw data. What we end up with more or less makes sense, in its processing of text, but also source code, image links, captions, and so on, but most importantly it provides an insight into how a machine learns from our book in contrast to what you might have learnt. Here we return to one of of main objectives for the book, i.e. exploring some of the similarities and differences between human, and machine reading and writing: what we refer to as aesthetic programming.
 
 ![ch10_7](ch10_6.png)
 
@@ -246,21 +246,21 @@ Apart from the new ml5.js, the HTML file contains the following DOM elements:
 
 1. **A text input box** for entering seed/input text. In this example, we have used "Afterword: Recurrent Imaginaries" as a sequence input to generate the next character, continuously forming a new seed sequence for next character prediction: `<input id="textInput" value="Enter here..." size="30"/>`
 
-2. **A slider for selecting the number of generated characters** with a range from 100 to 2000: `<input id="lenSlider" type="range" min="100" max="2000" value="1000"/>`
+2. **A slider for selecting the number of generated characters** with a range from 100 to 2,000: `<input id="lenSlider" type="range" min="100" max="2000" value="1000"/>`
 
 3. **A slider for setting the temperature** (the value that controls the amount of uncertainty of predictions)[^temp] with a range from 0 to 1: `<input id="tempSlider" type="range" min="0" max="1" step="0.01"/>`
 
-4. **The text shows the status** of the program, e.g. "Loading Model", "Model Loaded", "Generating...", "Ready!": `<p id="status">Loading Model</p>`
+4. **The text shows the status** of the program, e.g. "Loading Model," "Model Loaded," "Generating...," "Ready!": `<p id="status">Loading Model</p>`
 
-5. **A clickable button** with the word 'generate': `<button id="generate">generate</button>`
+5. **A clickable button** with the word "generate": `<button id="generate">generate</button>`
 
 6. **A result area** that will display the generative text: `<p id="result"></p>`
 
 **sketch.js**
 
-The sketch loads the pre-trained model and generates text based on the collected data (in terms of the seed text, its length, its and temperature value).
+The sketch loads the pre-trained model and generates text based on the collected data (in terms of the seed text, its length, and temperature value).
 
-The first step is to initialize and load the trained model in your sketch with the path `./model/AP_book/` by using the method `charRNN` from the ml5 library. The callback function `modelReady` will be executed when the model is successfully loaded in the sketch and thereby turning the status from "Loading Model" to "Model Loaded".
+The first step is to initialize and load the trained model in your sketch with the path `./model/AP_book/` by using the method `charRNN` from the ml5.js library. The callback function `modelReady` will be executed when the model is successfully loaded in the sketch and thereby turning the status from "Loading Model" to "Model Loaded".
 
 ```javascript
 let charRNN;
@@ -286,7 +286,7 @@ function generate() {
 }
 ```
 
-Finally, the result will be displayed on the screen with the `gotData()` function. (Note that the ml5 library also checks for errors with the argument `err`.)
+Finally, the result will be displayed on the screen with the `gotData()` function. Note that the ml5.js library also checks for errors with the argument `err`.
 
 ```javascript
 function gotData(err, result) {
@@ -298,7 +298,7 @@ function gotData(err, result) {
 
 ## Exercise in class
 
-1. Work with the Auto Chapter Generator program and try to generate a text based on different length and temperature values.
+1. Work with the Auto Chapter Generator program and try to generate texts based on different length and temperature values.
 
 2. The example also links to the earlier chapter "Auto Generator", in terms of agency, unpredictability, and generativity, but how does this chapter change our understanding of these terms given what we know about machine learning? What is learning in this context? What do machines teach us? And in the production of prediction, what does machine learning want?[^predict]
 
