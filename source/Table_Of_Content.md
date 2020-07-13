@@ -6,6 +6,12 @@ page_order: -2
 **By**: Winnie Soon and Geoff Cox
 
 ## 0. Preface
+* What kind of book is this?
+* So why aesthetic programming?
+* And software studies?
+* Open publishing
+* Flow of contents
+* The book object
 
 ## Chapter 1: Getting started
 * setup() and start()
