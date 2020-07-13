@@ -345,24 +345,24 @@ Here are few tips may help you to come up with an idea for your project:
 **RUNME:**
 Produce a software artifact written in p5.js (or a combination of HTML/CSS/JS/P5/node.js).
 
-Remember to include all external libraries and data/assets such as images, font, text file, sound file, etc. Furthermore, if you have borrowed other sample code or ideas, please cite your sources in the code comments.
+Remember to include all external libraries and data/assets such as images, fonts, text files, sound file, etc. Furthermore, if you have borrowed other sample code or ideas, please cite your sources in the code comments.
 
 **README:**
-Write a single word document of 6-8 pages (max characters: 2400 per page including spaces) which has to be presented with academic sources (exclude images, references and notes from the character count).
+Write a document of 6-8 pages (max characters per page: 2,400, including spaces) which has to list academic sources (exclude images, references, and notes from the character count).
 
-The document should include a title, a screen shot, a flow chart, references, a link to your final project's RUNME, with links to related projects (if there are any), as well as the links of all your previous mini exercises (as an appendix).
+The document should include a title, a screen shot, a flowchart, references, a link to your final project's RUNME, with links to related projects (if there are any), as well as the links of all your previous mini exercises (as an appendix).
 
 The README should address the following questions with the help of your source code, programming processes, and your selected readings:
 
 - What is your software about (provide a short description of what is it, how it works, and what it sets out to explore)?
 
-- How does your work address at least one of the themes and explore the intersections of technical and cultural aspects of code?
+- How does your work address at least one of the themes and explore the intersections of technical, and cultural aspects of code?
 
-- Open question: To what extent can the artifact be considered to be a critical work in itself?
+- Open question: To what extent can the artifact be considered to be a critical work in and of itself?
 
 ## Required reading:
-- Geoff Cox. “Ways of Machine Seeing.” *A Peer-Reviewed Journal About* 6, no. 1 (April 1, 2017): 8–15. https://doi.org/10.7146/aprja.v6i1.116007.
-- Ruha Benjamin. "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4
+- Geoff Cox, "Ways of Machine Seeing," *A Peer-Reviewed Journal About* 6, no. 1, April 1, (2017): 8–15. https://doi.org/10.7146/aprja.v6i1.116007.
+- Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4.
 - Adrian Mackenzie, "Introduction: Into the Data," *Machine Learners: Archaeology of a Data Practice* (Cambridge, MA: MIT Press, 2017).
 
 ## Notes
