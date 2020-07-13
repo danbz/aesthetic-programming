@@ -6,8 +6,13 @@ BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
+CONFFILEWEB=$(BASEDIR)/pelicanconf.web.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
+# Alternative configuration file to generate for web with an alternative theme
+ifdef WEB
+	CONFFILE=$(CONFFILEWEB)
+endif
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
@@ -60,16 +65,25 @@ else
 	$(PELICAN) -l $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS) -p $(PORT) -b 0.0.0.0
 endif
 
-
 devserver:
 ifdef PORT
+	#cp $(INPUTDIR)/pages/*/*.?(jpeg|jpg|png|gif) $(OUTPUTDIR)/pages/
 	$(PELICAN) -lr $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS) -p $(PORT)
 else
+	#cp $(INPUTDIR)/pages/*/*.?(jpeg|jpg|png|gif) $(OUTPUTDIR)/pages/
 	$(PELICAN) -lr $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+endif
+
+devserver-web:
+ifdef PORT
+	#cp $(INPUTDIR)/pages/*/*.?(jpeg|jpg|png|gif) $(OUTPUTDIR)/pages/
+	$(PELICAN) -lr $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILEWEB) $(PELICANOPTS) -p $(PORT)
+else
+	#cp $(INPUTDIR)/pages/*/*.?(jpeg|jpg|png|gif) $(OUTPUTDIR)/pages/
+	$(PELICAN) -lr $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILEWEB) $(PELICANOPTS)
 endif
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
-
-.PHONY: html help clean regenerate serve serve-global devserver publish 
+.PHONY: html help clean regenerate serve serve-global devserver publish copy-page-images
