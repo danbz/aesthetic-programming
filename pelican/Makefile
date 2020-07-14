@@ -6,7 +6,7 @@ BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
-CONFFILEWEB=$(BASEDIR)/pelicanconf.web.py
+CONFFILEWEB=$(BASEDIR)/pelicanconf_web.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 # Alternative configuration file to generate for web with an alternative theme
