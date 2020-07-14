@@ -8,10 +8,10 @@ from __future__ import unicode_literals
 import os
 import sys
 sys.path.append(os.curdir)
-from pelicanconf.web import *
+from pelicanconf_web import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
-SITEURL = ''
+SITEURL = 'http://aesthetic-programming.osp.kitchen'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
