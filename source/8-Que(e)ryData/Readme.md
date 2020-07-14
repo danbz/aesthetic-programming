@@ -1,4 +1,4 @@
-Title: 8. Que(e)ries
+Title: 8. Que(e)ry Data
 page_order: 8
 
 ## Que(e)ry Data
