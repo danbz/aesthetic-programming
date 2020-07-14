@@ -88,7 +88,7 @@ main {
     flex-grow: 1; */
     padding: var(--line-height);
     box-sizing: border-box;
-    margin-right: 4vw;
+    padding: calc(2 * var(--line-height));
 }
 
 h2 {
