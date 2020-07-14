@@ -9,6 +9,11 @@ CONFFILE=$(BASEDIR)/pelicanconf.py
 CONFFILEWEB=$(BASEDIR)/pelicanconf_web.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
+SSH_TARGET_DIR=/srv/www/kitchen.osp.aesthetic-programming
+SSH_USER=osp
+SSH_HOST=osp.kitchen
+SSH_PORT=22
+
 # Alternative configuration file to generate for web with an alternative theme
 ifdef WEB
 	CONFFILE=$(CONFFILEWEB)
@@ -85,5 +90,9 @@ endif
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+
+rsync_upload: publish
+	rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --delete $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude
+
 
 .PHONY: html help clean regenerate serve serve-global devserver publish copy-page-images
