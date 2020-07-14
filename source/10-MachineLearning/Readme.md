@@ -437,7 +437,7 @@ The README should address the following questions with the help of your source c
 
 [^samuel2]: Samuel, "Some Studies in Machine Learning Using the Game of Checkers."
 
-[^issues]: For instance, the generalization here leads to inherent bias such as the privileging of white people in facial recognition technologies. See both Buolamwini (2019) and Benjamin (2019).
+[^issues]: For instance, the generalization here leads to inherent bias such as the privileging of white people in facial recognition technologies. See both Buolamwini (2019) and Benjamin (2019). Also see, Shakir Mohamed, Marie-Therese Png, William Isaac, “Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence,” *Philosophy & Technology*, Springer, July 12, 2020. https://doi.org/10.1007/s13347-020-00405-8.
 
 [^tensor]: ml5.js is built on top of tensorflow.js, as mentioned previously.
 
