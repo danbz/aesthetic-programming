@@ -75,8 +75,8 @@ section {
 main {
     flex-basis: 50%;
     flex-grow: 1;
-    padding: var(--line-height);
     box-sizing: border-box;
+    padding: calc(2 * var(--line-height));
 }
 
 h2 {
