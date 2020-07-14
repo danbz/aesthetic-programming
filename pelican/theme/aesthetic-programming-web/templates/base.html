@@ -28,6 +28,7 @@
         {% if TAG_FEED_RSS and tag %}
         <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
         {% endif %}
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/reset.css" type="text/css" media="all" charset="utf-8">
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/styles.css" type="text/css" media="all" charset="utf-8">
         {% endblock head %}
 </head>
@@ -59,5 +60,7 @@
                 which takes great advantage of <a href="http://python.org">Python</a>.
                 </address><!-- /#about -->
         </footer><!-- /#contentinfo -->
+
+        <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/activateSnippets.js"></script>
 </body>
 </html>

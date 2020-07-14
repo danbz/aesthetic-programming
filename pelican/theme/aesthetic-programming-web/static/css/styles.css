@@ -111,3 +111,7 @@ iframe {
     width: 100%;
     height: calc(15 * var(--line-height));
 }
+
+.active {
+    outline: 2px solid red;
+}
