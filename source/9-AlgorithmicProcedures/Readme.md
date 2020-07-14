@@ -152,7 +152,7 @@ Group:
 
 - Nathan Ensmenger, "The Multiple Meanings of a Flowchart," *Information & Culture: A Journal of History* 51, no.3 (2016): 321-351. Project MUSE, doi:10.1353/lac.2016.0013.
 - Taina Bucher, "The Multiplicity of Algorithims," *If...Then: Algorithmic Power and Politics* (Oxford: Oxford University Press, 2018), 19–40.
-- Marcus du Sautoy, "The Secret Rules of Modern Living: Algorithms," *BBC Four* (2015), https://www.bbc.co.uk/programmes/p030s6b3/clips.
+- Marcus du Sautoy, "The Secret Rules of Modern Living: Algorithms," *BBC Four* (2015), <https://www.bbc.co.uk/programmes/p030s6b3/clips>.
 
 ## Notes
 
@@ -176,23 +176,23 @@ Group:
 
 [^Guattari]: In Guattari's terms, "the diagram is conceived as an autopoetic machine which not only gives it a functional and material consistency, but requires it to deploy its diverse registers of alterity, freeing it from an identity locked into simple structural relations." Félix Guattari, "Machinic Heterogenesis," *Chaosmosis: An Ethico-Aesthetic Paradigm* (Bloomington, IN: Indiana University Press, 1995), 44. "Freeing" here applies to escaping a pre-determined "diagrammatic order" imposed on the machine — algorithmically perhaps.
 
-[^flowcharts2]: See Stephen Morris and Orlena Gotel, "The Role of Flow Charts in the Early Automation of Applied Mathematics," *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44–52. https://doi.org/10.1080/17498430903449207; and Nathan Ensmenger, "The Multiple Meanings of a Flowchart," *Information & Culture: A Journal of History* 51, no.3 (2016): 321–51. https://doi.org/10.1353/lac.2016.0013.
+[^flowcharts2]: See Stephen Morris and Orlena Gotel, "The Role of Flow Charts in the Early Automation of Applied Mathematics," *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44–52. <https://doi.org/10.1080/17498430903449207>; and Nathan Ensmenger, "The Multiple Meanings of a Flowchart," *Information & Culture: A Journal of History* 51, no.3 (2016): 321–51. <https://doi.org/10.1353/lac.2016.0013>.
 
 [^stereotype]: Viewing programming as a social activity undermines some of the predominant stereotypes associated with activity such as the stereotypical image of the antisocial hacker (male, bearded, unwashed). For more on the benefits of collaborative working, see Chih Wei Ho, et al, "Examining the impact of pair programming on female students," North Carolina State University. Dept. of Computer Science (2004).
 
-[^ex]: You can find an illustration of the simple program here: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/blob/master/source/9-AlgorithmicProcedures/emoji_flowchart.svg.
+[^ex]: You can find an illustration of the simple program here: <https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/blob/master/source/9-AlgorithmicProcedures/emoji_flowchart.svg>.
 
 [^Ensmenger]: Ensmenger, "The Multiple Meanings of a Flowchart," 324 & 346.
 
-[^Cirio]: See Paolo Cirio, *Flowcharts: On Systems of Systems*, Artist Monograph (Lulu, 2019); available at https://www.paolocirio.net/press/archive/?/id/268/t/FLOWCHARTS/. *Open Society Structures - Algorithms Triptych* (2009) would make a good example for our purpose here.
+[^Cirio]: See Paolo Cirio, *Flowcharts: On Systems of Systems*, Artist Monograph (Lulu, 2019); available at <https://www.paolocirio.net/press/archive/?/id/268/t/FLOWCHARTS/>. *Open Society Structures - Algorithms Triptych* (2009) would make a good example for our purpose here.
 
-[^GWEI]: *GWEI* (2005) was part of the *Hacking Monopolism Trilogy* which also included *Amazon Noir* (2006) and *Face to Facebook* (2011). For more on *GWEI*, see http://www.gwei.org/index.php.
+[^GWEI]: *GWEI* (2005) was part of the *Hacking Monopolism Trilogy* which also included *Amazon Noir* (2006) and *Face to Facebook* (2011). For more on *GWEI*, see <http://www.gwei.org/index.php>.>.
 
 [^pold]: For a close reading of this project, see Christian Ulrik Andersen and Søren Bro Pold, *The Metainterface: The Art of Platforms, Cities, and Clouds* (Cambridge, MA: MIT Press, 2018), 57-60.
 
-[^systemics]: For more on UBERMORGEN's *The Project Formerly Known as Kindle Forkbomb*, see https://en.wikipedia.org/wiki/The_Project_Formerly_Known_As_Kindle_Forkbomb; and for the context of Kunsthal Aarhus exhibition, see https://www.e-flux.com/announcements/31936/systemics-2-as-we-may-think-or-the-next-world-library/.
+[^systemics]: For more on UBERMORGEN's *The Project Formerly Known as Kindle Forkbomb*, see <https://en.wikipedia.org/wiki/The_Project_Formerly_Known_As_Kindle_Forkbomb>; and for the context of Kunsthal Aarhus exhibition, see <https://www.e-flux.com/announcements/31936/systemics-2-as-we-may-think-or-the-next-world-library/>.
 
-[^kindle]: A fuller description of the Kindle platform can be found at https://kdp.amazon.com/en_US/.
+[^kindle]: A fuller description of the Kindle platform can be found at <https://kdp.amazon.com/en_US/>.
 
 [^fin]: Finn, *What Algorithms Want: Imagination in the Age of Computing*, 34.
 
@@ -207,7 +207,7 @@ Taina Bucher, *If...Then: Algorithmic Power and Politics* (Oxford: )Oxford Unive
 
 [^Pasquinelli]: Matteo Pasquinelli, "Google's PageRank Algorithm: A Diagram of the Cognitive Capitalism and the Rentier of the Common Intellect," in Konrad Becker and Felix Stalder, eds., *Deep Search: The Politics of Search Beyond Google* (London: Transaction Publishers: 2009). The PageRank algorithm was written by Sergey Brin and Lawrence Page in 1990, and seems to exemplify Google's monopolistic power.
 
-[^deleuze]: The specific interpretation of diagramming offered by Deleuze and Guattari is far too complex to go into in more detail here. In short, they use the idea of the diagram to model the dynamics of signification, and of what escapes signification: "The diagrammatic or abstract machine does not function to represent, even something real, but rather constructs a real that is yet to come, a new type of reality." http://frequencies.ssrc.org/2011/12/19/diagrammic-thinking/. For more on these ideas, see Gilles Deleuze and Félix Guattari, *A Thousand Plateaus* (1980).
+[^deleuze]: The specific interpretation of diagramming offered by Deleuze and Guattari is far too complex to go into in more detail here. In short, they use the idea of the diagram to model the dynamics of signification, and of what escapes signification: "The diagrammatic or abstract machine does not function to represent, even something real, but rather constructs a real that is yet to come, a new type of reality." <http://frequencies.ssrc.org/2011/12/19/diagrammic-thinking/>. For more on these ideas, see Gilles Deleuze and Félix Guattari, *A Thousand Plateaus* (1980).
 
 [^jackson5]: The flowchart is based on the opening lyrics of Jackson 5's "Blame It On the Boogie", released in 1978.
 
@@ -221,6 +221,6 @@ Taina Bucher, *If...Then: Algorithmic Power and Politics* (Oxford: )Oxford Unive
 
 [^ML2]: Mackenzie, *Machine Learners: Archaeology of a Data Practice*, 17.
 
-[^program]: In a teaching setting, we have a group prepare to present this problem and how they approach this both technically and conceptually to make them think about the significance of sorting in a wider cultural context. The other students then start the class with this sorting exercise and focus on algorithmic procedures. Here is one of the many ways of implementing the sorting problem. See https://editor.p5js.org/siusoon/sketches/7g1F594D5.
+[^program]: In a teaching setting, we have a group prepare to present this problem and how they approach this both technically and conceptually to make them think about the significance of sorting in a wider cultural context. The other students then start the class with this sorting exercise and focus on algorithmic procedures. Here is one of the many ways of implementing the sorting problem. See <https://editor.p5js.org/siusoon/sketches/7g1F594D5>.
 
 [^complete]: Most modern programming languages are "Turing-complete," a term used to describe abstract machines, that can emulate a Turing machine. See Chapter 5, "Auto-Generator," for more on Turing machines.

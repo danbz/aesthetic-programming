@@ -31,9 +31,9 @@ Let's start with a closer examination of and reflection on the ELIZA chatbot by 
 
 Tasks:
 
-1. Visit the ELIZA Test by clicking the button "Next Step*, **https://www.masswerk.at/elizabot/eliza_test.html** so you can see the original example given by Weizenbaum in his published article.[^Weizenbaum3]
+1. Visit the ELIZA Test by clicking the button "Next Step*, **<https://www.masswerk.at/elizabot/eliza_test.html>** so you can see the original example given by Weizenbaum in his published article.[^Weizenbaum3]
 
-2. Then visit the work *ELIZA Talking* (2013) via the link **https://www.masswerk.at/eliza/**, and try to have your own conversation.[^bot]
+2. Then visit the work *ELIZA Talking* (2013) via the link **<https://www.masswerk.at/eliza/>**, and try to have your own conversation.[^bot]
 
 3. Share your experience of the original conversation (by Weizenbaum) and your conversation with the chatbot:
     - How would you describe your experience of ELIZA (e.g. the use of language, style of conversation, and quality of social interaction)?
@@ -45,7 +45,7 @@ We have briefly touched on machine learning, but let's clarify what it actually 
 
 ## Exercise in class
 
-In the following exercise,[^michelle] we will use the experimental AI project *Teachable Machine* (version 1)[^tm1] to engage more closely with machine learning processes involving input and output, to understand the relationship between the two: https://teachablemachine.withgoogle.com/v1/.
+In the following exercise,[^michelle] we will use the experimental AI project *Teachable Machine* (version 1)[^tm1] to engage more closely with machine learning processes involving input and output, to understand the relationship between the two: <https://teachablemachine.withgoogle.com/v1/>.
 
 ![ch10_2.png](ch10_2.png)
 
@@ -361,15 +361,15 @@ The README should address the following questions with the help of your source c
 - Open question: To what extent can the artifact be considered to be a critical work in and of itself?
 
 ## Required reading:
-- Geoff Cox, "Ways of Machine Seeing," *A Peer-Reviewed Journal About* 6, no. 1, April 1, (2017): 8–15. https://doi.org/10.7146/aprja.v6i1.116007.
-- Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4.
+- Geoff Cox, "Ways of Machine Seeing," *A Peer-Reviewed Journal About* 6, no. 1, April 1, (2017): 8–15. <https://doi.org/10.7146/aprja.v6i1.116007>.
+- Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>.
 - Adrian Mackenzie, "Introduction: Into the Data," *Machine Learners: Archaeology of a Data Practice* (Cambridge, MA: MIT Press, 2017).
 
 ## Notes
 
-[^pathmind]: It should be pointed out that although machine learning is part of AI, AI is a broader concept. AI, machine learning and deep learning are terms that are often used interchangeably but there are the key distinctions to be made. To explain: "You can think of deep learning, machine learning and artificial intelligence as a set of Russian dolls nested within each other, beginning with the smallest and working out. Deep learning is a subset of machine learning, and machine learning is a subset of AI, which is an umbrella term for any computer program that does something smart. In other words, all machine learning is AI, but not all AI is machine learning, and so forth." See Pathmind's "A.I. Wiki: A Beginner’s Guide to Important Topics in AI, Machine Learning, and Deep Learning," https://pathmind.com/wiki/ai-vs-machine-learning-vs-deep-learning.
+[^pathmind]: It should be pointed out that although machine learning is part of AI, AI is a broader concept. AI, machine learning and deep learning are terms that are often used interchangeably but there are the key distinctions to be made. To explain: "You can think of deep learning, machine learning and artificial intelligence as a set of Russian dolls nested within each other, beginning with the smallest and working out. Deep learning is a subset of machine learning, and machine learning is a subset of AI, which is an umbrella term for any computer program that does something smart. In other words, all machine learning is AI, but not all AI is machine learning, and so forth." See Pathmind's "A.I. Wiki: A Beginner’s Guide to Important Topics in AI, Machine Learning, and Deep Learning," <https://pathmind.com/wiki/ai-vs-machine-learning-vs-deep-learning>.
 
-[^diagram]: See Kate Crawford and Vladan Joler's essay and diagram "Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources," (2018) for a detailed explanation of this, https://anatomyof.ai/.
+[^diagram]: See Kate Crawford and Vladan Joler's essay and diagram "Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources," (2018) for a detailed explanation of this, <https://anatomyof.ai/>.
 
 [^Weizenbaum]: Joseph Weizenbaum, "ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine,"" *Communications of the ACM* 9, no.1 (1996): 36-45.
 
@@ -381,11 +381,11 @@ The README should address the following questions with the help of your source c
 
 [^clemens]:Clemens Apprich, "Introduction," in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination* (Minnesota: Meson Press, 2018), x.
 
-[^online]: Google's online translation service perpetuatess gender stereotypes, https://twitter.com/mit_csail/status/916032004466122758.
+[^online]: Google's online translation service perpetuatess gender stereotypes, <https://twitter.com/mit_csail/status/916032004466122758>.
 
-[^tay]: For example, the Microsoft chatbot Tay was released via Twitter in 2016, but was shut down sixteen hours later due to "unintended offensive and hurtful tweets," as announced by Microsoft. See https://en.wikipedia.org/wiki/Tay_(bot).
+[^tay]: For example, the Microsoft chatbot Tay was released via Twitter in 2016, but was shut down sixteen hours later due to "unintended offensive and hurtful tweets," as announced by Microsoft. See <https://en.wikipedia.org/wiki/Tay_(bot)>.
 
-[^face]: Research has shown that existing commercial recognition systems exhibit gender and racial bias. See Joy Buolamwini, "Response: Racial and Gender Bias in Amazon Recognition - Commercial AI System for Analyzing Faces," *Medium* (2019),  https://medium.com/@Joy.Buolamwini/response-racial-and-gender-bias-in-amazon-rekognition-commercial-ai-system-for-analyzing-faces-a289222eeced; and Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4.
+[^face]: Research has shown that existing commercial recognition systems exhibit gender and racial bias. See Joy Buolamwini, "Response: Racial and Gender Bias in Amazon Recognition - Commercial AI System for Analyzing Faces," *Medium* (2019),  <https://medium.com/@Joy.Buolamwini/response-racial-and-gender-bias-in-amazon-rekognition-commercial-ai-system-for-analyzing-faces-a289222eeced>; and Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>.
 
 [^hito]: Hito Steyerl, "A Sea of Data: Pattern Recognition and Corporate Animism (Forked Version)," in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination*, 3.
 
@@ -393,41 +393,41 @@ The README should address the following questions with the help of your source c
 
 [^Weizenbaum3]: Weizenbaum, "ELIZA*.
 
-[^ml5]: See the ml5.js library: https://ml5js.org/; and Daniel Shiffman's *The Coding Train* series during which he discusses ml5.js: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y.
+[^ml5]: See the ml5.js library: <https://ml5js.org/>; and Daniel Shiffman's *The Coding Train* series during which he discusses ml5.js: <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y>.
 
 [^shit]: With ELIZA in mind, it's worth adding that cleaning data also comes close to the regulation of proper speech with the removal of "dirty" words. Dominique Laporte's wonderful book *A History of Shit* (Cambridge, MA: MIT Press, 2002) has more detail on this and its core parallel to the development of public hygiene.
 
-[^papa]: A good example is the video installation *The Cleaning of Emotional Data* (2019), by artist Elisa Giardina Papa, that reveals the global infrastructure of workers who clean data to train machine vision algorithms to detect emotions, and how, in so-doing, some emotions that do not match standardized categories are rejected. Elisa Giardina Papa, "The Cleaning of Emotional Data," Aksioma Project Space, Ljubljana, January 15–February 7, 2020, https://aksioma.org/cleaning.emotional.data/.
+[^papa]: A good example is the video installation *The Cleaning of Emotional Data* (2019), by artist Elisa Giardina Papa, that reveals the global infrastructure of workers who clean data to train machine vision algorithms to detect emotions, and how, in so-doing, some emotions that do not match standardized categories are rejected. Elisa Giardina Papa, "The Cleaning of Emotional Data," Aksioma Project Space, Ljubljana, January 15–February 7, 2020, <https://aksioma.org/cleaning.emotional.data/>.
 
-[^dataset]: For more on the significance of, and problems related to, datasets, see Nicolas Malevé's "An Introduction to Image Datasets", *Unthinking Photography* (2019), https://unthinking.photography/articles/an-introduction-to-image-datasets.
+[^dataset]: For more on the significance of, and problems related to, datasets, see Nicolas Malevé's "An Introduction to Image Datasets", *Unthinking Photography* (2019), <https://unthinking.photography/articles/an-introduction-to-image-datasets>.
 
-[^tm1]: [^tm1]: Inspired originally by Rebecca Fiebrink's Wekinator (2009), which is a free and open source software on machine learning for artists and musicians, "Teachable Machine 1.0" (2017) as an experimental projectby Støg, Use All Five and Creative Lab and PAIR teams at Google, built upon the free and open source tensorflow.js library, developed by the Google Brain team within Google’s AI organization, for preprocessing data, building machine learning models and structures. "Teachable Machine 2.0" allows users to train their models and export them for further use. See http://www.wekinator.org/.
+[^tm1]: [^tm1]: Inspired originally by Rebecca Fiebrink's Wekinator (2009), which is a free and open source software on machine learning for artists and musicians, "Teachable Machine 1.0" (2017) as an experimental projectby Støg, Use All Five and Creative Lab and PAIR teams at Google, built upon the free and open source tensorflow.js library, developed by the Google Brain team within Google’s AI organization, for preprocessing data, building machine learning models and structures. "Teachable Machine 2.0" allows users to train their models and export them for further use. See <http://www.wekinator.org/>.
 
-[^imagenet]: More information about ImageNet can be found at http://image-net.org/about-overview.
+[^imagenet]: More information about ImageNet can be found at <http://image-net.org/about-overview>.>.
 
-[^net]: Wordnet is a lexical database of semantic relations between words, see https://wordnet.princeton.edu/.
+[^net]: Wordnet is a lexical database of semantic relations between words, see <https://wordnet.princeton.edu/>.
 
-[^TPG]: Here we are largely paraphrasing the description of Malevé's *Exhibiting ImageNet* project on The Photographers' Gallery website, https://thephotographersgallery.org.uk/whats-on/digital-project/exhibiting-imagenet.   
+[^TPG]: Here we are largely paraphrasing the description of Malevé's *Exhibiting ImageNet* project on The Photographers' Gallery website, <https://thephotographersgallery.org.uk/whats-on/digital-project/exhibiting-imagenet>.   
 
-[^AI]: The project *Anatomies of Intelligence* can be found at https://anatomiesofintelligence.github.io/.
+[^AI]: The project *Anatomies of Intelligence* can be found at <https://anatomiesofintelligence.github.io/>.
 
-[^neuralnets]: A definition of neural nets can be found on Pathmind's "AI Wiki," https://pathmind.com/wiki/neural-network#define.  
+[^neuralnets]: A definition of neural nets can be found on Pathmind's "AI Wiki," <https://pathmind.com/wiki/neural-network#define>.  
 
-[^chicau]: The workshop conducted at Aarhus University in 2019 was based on the art project *Anatomies of Intelligence* which focused on data classification and clustering, https://anatomiesofintelligence.github.io/workshop_presentation.html.
+[^chicau]: The workshop conducted at Aarhus University in 2019 was based on the art project *Anatomies of Intelligence* which focused on data classification and clustering, <https://anatomiesofintelligence.github.io/workshop_presentation.html>.
 
-[^alphago]: David Silver, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert, et al, "Mastering the Game of Go without Human Knowledge," *Nature* 550, no. 7676 (2017): 354–59, https://doi.org/10.1038/nature24270.
+[^alphago]: David Silver, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert, et al, "Mastering the Game of Go without Human Knowledge," *Nature* 550, no. 7676 (2017): 354–59, <https://doi.org/10.1038/nature24270>.
 
 [^rl]: Richard S. Sutton and Andrew Barto, *Reinforcement Learning: An Introduction*, 1st Edition (Cambridge, MA: MIT Press, 1998).
 
 [^rl2]: Richard S. Sutton, "Introduction: The Challenge of Reinforcement Learning," in Richard S. Sutton, eds. *Reinforcement Learning*. The Springer International Series in Engineering and Computer Science (Knowledge Representation, Learning and Expert Systems) 173 (Springer, 1992): 5-32.
 
-[^environment]: Whist mentioning environment, it is important to mention that there are worrying environmental costs associated with machine learning. See, for instance, Karen Hao, "Training a single AI model can emit as much carbon as five cars in their lifetimes," *MIT Technology Review*, June 6 (2019), https://www.technologyreview.com/s/613630/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes/.
+[^environment]: Whist mentioning environment, it is important to mention that there are worrying environmental costs associated with machine learning. See, for instance, Karen Hao, "Training a single AI model can emit as much carbon as five cars in their lifetimes," *MIT Technology Review*, June 6 (2019), <https://www.technologyreview.com/s/613630/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes/>.
 
-[^bot]: The text-based conversational ElizaBot (elizabot.js) was developed using JavaScript by Norbert Landsteiner in 2005. The source code can be downloaded from https://www.masswerk.at/elizabot/.
+[^bot]: The text-based conversational ElizaBot (elizabot.js) was developed using JavaScript by Norbert Landsteiner in 2005. The source code can be downloaded from <https://www.masswerk.at/elizabot/>.
 
 [^temp]: The value of temperature relates to the "softmax function" in mathematics, relating to probability distribution with the input numbers/characters. For high temperature, the probability will distribute evenly resulting in a more random result. On the contrary, a low temperature will generate a more expected/conservative result.
 
-[^training]: The training process is run in a Python environment with TensorFlow installed. It was developed as a multi-layer, recurrent neural network for character-level language models, and it works well with ml5.js. See the open source code by Cristóbal Valenzuela at https://github.com/Paperspace/training-lstm.
+[^training]: The training process is run in a Python environment with TensorFlow installed. It was developed as a multi-layer, recurrent neural network for character-level language models, and it works well with ml5.js. See the open source code by Cristóbal Valenzuela at <https://github.com/Paperspace/training-lstm>.
 
 [^nlp]: Natural language processing is the study of how a computer understands the meaning of human language, and it deals iwth the interaction between computers and humans using that natural language. This relates to the fields of Artificial Intelligence, Computer Science and Linguistics with applications such as text-to-speech, voice assistants, and (language) translation programs.
 
@@ -445,13 +445,13 @@ The README should address the following questions with the help of your source c
 
 [^agre]: Philip E. Agre, "Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI," in Geoff Bowker, Les Gasser, Leigh Star, and Bill Turner, eds., *Bridging the Great Divide: Social Science, Technical Systems, and Cooperative Work* (New York: Erlbaum, 1997).
 
-[^superficial]: Ruha Benjamin is urging engineers to consider historical and sociological issues in her keynote address ai ICLR 2020 (International Conference on Learning Representations), virtual conference, https://iclr.cc/.
+[^superficial]: Ruha Benjamin is urging engineers to consider historical and sociological issues in her keynote address ai ICLR 2020 (International Conference on Learning Representations), virtual conference, <https://iclr.cc/>.
 
-[^current]: A more recent approach might be found in queer and feminist critiques of AI. See, for example, "Conversational AI agents for the advancement of new eroticisms," in which queer AI chatbots are trained on erotic literature, feminist and queer theory, and an ethics of embodiment. See https://queer.ai/.
+[^current]: A more recent approach might be found in queer and feminist critiques of AI. See, for example, "Conversational AI agents for the advancement of new eroticisms," in which queer AI chatbots are trained on erotic literature, feminist and queer theory, and an ethics of embodiment. See <https://queer.ai/>.
 
 [^suchman]: Maria Puig de la Bellacasa quotes Lucy Suchman's phrase "smart assistants" (her term for autonomous or smart agents) that manage to strike a balance between autonomy on the one hand and what we want from them on the other. Rather than reinforcing the ideal fo the independent, self-motivated, entrepreneurial worker, and making the work of the assistant relatively invisible, she wants to highlight the “mediating agencies that would not easily appear in descriptions that foreground the success of the technology [and, quoting Suchman,] the hidden labours and unruly contingencies that exceed its bounds.” Bellacasa wants to draw attention to what is neglected, the so-called "petty doings of things" as she puts it, to "more affectively changed connotations, notably those of trouble, worry and care." Maria Puig de la Bellacasa, "Matters of Care in Technoscience: Assembling Neglected Things," in *Social Studies of Science* 41, no. 1 (2010), 92-3, 89.
 
-[^pedagogy1]: The Fei Fei Li quote is taken from Nicolas Malevé's article, "'The cat sits on the bed': Pedagogies of vision in human and machine learning", **Unthinking Photography** (2016), https://unthinking.photography/articles/the-cat-sits-on-the-bed-pedagogies-of-vision-in-human-and-machine-learning.
+[^pedagogy1]: The Fei Fei Li quote is taken from Nicolas Malevé's article, "'The cat sits on the bed': Pedagogies of vision in human and machine learning", **Unthinking Photography** (2016), <https://unthinking.photography/articles/the-cat-sits-on-the-bed-pedagogies-of-vision-in-human-and-machine-learning>.
 
 [^pedagogy2]: Malevé, "'The cat sits on the bed'."
 
@@ -459,25 +459,25 @@ The README should address the following questions with the help of your source c
 
 [^Learners4]: Mackenzie, *Machine Learners*, 27.
 
-[^refs]: Amongst many possibilities, further relevant lines of inquiry might include: Adrian Mackenzie and Anna Munster, “Platform Seeing: Image Ensembles and Their Invisualities,” *Theory, Culture & Society* 26, no.5 (2019): 3-22; and Matteo Pasquinelli, “How a Machine Learns and Fails: A Grammar of Error for Artificial Intelligence,” *Spheres* 5 (2019), http://matteopasquinelli.com/grammar-of-error-for-artificial-intelligence/.
+[^refs]: Amongst many possibilities, further relevant lines of inquiry might include: Adrian Mackenzie and Anna Munster, “Platform Seeing: Image Ensembles and Their Invisualities,” *Theory, Culture & Society* 26, no.5 (2019): 3-22; and Matteo Pasquinelli, “How a Machine Learns and Fails: A Grammar of Error for Artificial Intelligence,” *Spheres* 5 (2019), <http://matteopasquinelli.com/grammar-of-error-for-artificial-intelligence/>.
 
-[^GAN]: See Ian J. Goodfellow, Jean Pouget-Abadie, Mehadi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio, "Generative Adversarial Networks" IPS'14: Proceedings of the 27th International Conference on Neural Information Processing Systems - Volume 2 (2014): 2672–2680. A pertinent example would be *Aimji: AI-Generated Emoji* that uses deep learning to mess up the reductive representational logic of emojis (as explored in Chapter 2). See https://process.studio/works/aimoji-ai-generated-emoji/.
+[^GAN]: See Ian J. Goodfellow, Jean Pouget-Abadie, Mehadi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio, "Generative Adversarial Networks" IPS'14: Proceedings of the 27th International Conference on Neural Information Processing Systems - Volume 2 (2014): 2672–2680. A pertinent example would be *Aimji: AI-Generated Emoji* that uses deep learning to mess up the reductive representational logic of emojis (as explored in Chapter 2). See <https://process.studio/works/aimoji-ai-generated-emoji/>.
 
-[^transmediale]: The workshop *Adversarial Hacking in the Age of AI* took up this challenge, and the published outline provides a useful description of what is at stake: “Adversarial attacks are an instance of how a machine-learning classifier is tricked into perceiving something that is not there, like a 3D-printed model of a turtle that is classified as a rifle. The computer vision embedded in a driverless car can be confused and not recognize street signs. Artists Adam Harvey, Zach Blas & Jemina Wyman, and Heather Dewey-Hagborg have utilized adversarial processes in their projects in order to subvert and critically respond to facial recognition systems. But this is not just about computer vision. Scientists in Bochum, Germany recently studied how psychoacoustic hiding can oppose the detection of automatic speech recognition systems." See https://2020.transmediale.de/content/adversarial-hacking-in-the-age-of-ai-call-for-proposals.
+[^transmediale]: The workshop *Adversarial Hacking in the Age of AI* took up this challenge, and the published outline provides a useful description of what is at stake: “Adversarial attacks are an instance of how a machine-learning classifier is tricked into perceiving something that is not there, like a 3D-printed model of a turtle that is classified as a rifle. The computer vision embedded in a driverless car can be confused and not recognize street signs. Artists Adam Harvey, Zach Blas & Jemina Wyman, and Heather Dewey-Hagborg have utilized adversarial processes in their projects in order to subvert and critically respond to facial recognition systems. But this is not just about computer vision. Scientists in Bochum, Germany recently studied how psychoacoustic hiding can oppose the detection of automatic speech recognition systems." See <https://2020.transmediale.de/content/adversarial-hacking-in-the-age-of-ai-call-for-proposals>.
 
 [^agre2]: Agre, "Toward a Critical Technical Practice."
 
 [^radical]: "Radical pedagogy" is a reference to a Marxist philosophy of education which sets out to make students aware of their oppressive conditions, and to critique education as a form of domination. Paolo Friere's *Pedagogy of the Oppressed* (New York: Continuum, 1970), for example, highlights the contrasts between educational forms that treat people as objects rather than subjects.
 
-[^Berger]: John Berger, *Ways of Seeing* (London: Penguin, 1972). Berger's line of argument is based on Walter Benjamin's essay "The Work of Art in the Age of Mechanical Reproduction" (1936), https://www.marxists.org/reference/subject/philosophy/works/ge/benjamin.htm.
+[^Berger]: John Berger, *Ways of Seeing* (London: Penguin, 1972). Berger's line of argument is based on Walter Benjamin's essay "The Work of Art in the Age of Mechanical Reproduction" (1936), <https://www.marxists.org/reference/subject/philosophy/works/ge/benjamin.htm>.
 
 [^Berger2]: Berger, *Ways of Seeing*.
 
-[^cox]: Geoff Cox, "Ways of Machine Seeing," *Unthinking Photography* (2016), https://unthinking.photography/articles/ways-of-machine-seeing. The title is taken from a workshop organized by the Cambridge Digital Humanities Network, convened by Anne Alexander, Alan Blackwell, Geoff Cox, and Leo Impett, and held at Darwin College, University of Cambridge, July 11, 2016. The essay is republished with source code in *A Peer-Reviewed Journal About* 6, no. 1 (2017): 8–15. https://doi.org/10.7146/aprja.v6i1.116007.
+[^cox]: Geoff Cox, "Ways of Machine Seeing," *Unthinking Photography* (2016), <https://unthinking.photography/articles/ways-of-machine-seeing>. The title is taken from a workshop organized by the Cambridge Digital Humanities Network, convened by Anne Alexander, Alan Blackwell, Geoff Cox, and Leo Impett, and held at Darwin College, University of Cambridge, July 11, 2016. The essay is republished with source code in *A Peer-Reviewed Journal About* 6, no. 1 (2017): 8–15. <https://doi.org/10.7146/aprja.v6i1.116007>.
 
 [^michelle]: This exercise is inspired by Michelle Carney's
-article on "Using Teachable Machine in the d.school classroom," *Medium*, https://medium.com/@michellecarney/using-teachable-machine-in-the-d-school-classroom-96be1ba6a4f9.
+article on "Using Teachable Machine in the d.school classroom," *Medium*, <https://medium.com/@michellecarney/using-teachable-machine-in-the-d-school-classroom-96be1ba6a4f9>.
 
-[^assistants]: Marie Louise Juul Søndergaard and Lone Koefoed Hansen argue that "feminine gendering" is reproduced and applied in digital personal assistants, see their "Intimate Futures: Staying with the Trouble of Digital Personal Assistants through Design Fiction" (New York: ACM Press, 2018): 869–80. https://doi.org/10.1145/3196709.3196766.
+[^assistants]: Marie Louise Juul Søndergaard and Lone Koefoed Hansen argue that "feminine gendering" is reproduced and applied in digital personal assistants, see their "Intimate Futures: Staying with the Trouble of Digital Personal Assistants through Design Fiction" (New York: ACM Press, 2018): 869–80. <https://doi.org/10.1145/3196709.3196766>.
 
-[^class]: Originating in the East End of London, Cockney rhyming slang is a coded language which was purposely created to be obscure to other listeners, and hence to others outside a particular community or indeed class group. One might imagine using cockney rhyming slang for the naming conventions of a programming language, see https://news.ycombinator.com/item?id=9402410. 
+[^class]: Originating in the East End of London, Cockney rhyming slang is a coded language which was purposely created to be obscure to other listeners, and hence to others outside a particular community or indeed class group. One might imagine using cockney rhyming slang for the naming conventions of a programming language, see <https://news.ycombinator.com/item?id=9402410>. 

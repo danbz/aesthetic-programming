@@ -13,12 +13,12 @@ p5 sound library
 [*hallo welt! (hello world!)*](http://www.anti-thesis.net/hello-world-60/),[^Hello] by Geoff Cox and Duncan Shingleton
 Harwood's codework *Class Library*,
 [All the Daily Things 2018](https://vimeo.com/309138645) by Saskia Freeke.
-Signing-coders, by artist and educator Taeyoon Choi, http://taeyoonchoi.com/soft-care/signing-coders/
+Signing-coders, by artist and educator Taeyoon Choi, <http://taeyoonchoi.com/soft-care/signing-coders/>
 
 *AIMoji* by Process Studio
 *Multi* by graphic designer David Reinfurt
 *Facial Weaponization Suite*, 2011-14 by Zach Blas
-p5.playground developed by Yining Shi, https://1023.io/p5-inspector/
+p5.playground developed by Yining Shi, <https://1023.io/p5-inspector/>
 
 ctrackr library
 Rita Library by Daniel Howe

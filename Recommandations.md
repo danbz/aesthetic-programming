@@ -40,7 +40,7 @@ Some inspirations:
 - peer review (lauren+matthew)
 - [x]change chap. 11 title to afterword?? discuss with winnie
 - Check out
-    - except setup() - https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/8-Que(e)ryData - DONE but needs copyediting
+    - except setup() - <https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source/8-Que(e)ryData> - DONE but needs copyediting
     - literate programming in ch.7 > DONE I think
     - infinite loops > DONE I think
 

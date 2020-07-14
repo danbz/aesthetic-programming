@@ -17,4 +17,4 @@ of 100, unless a `DEFAULT_PAGE_ORDER` setting is defined.
 The `page_order` attribute is cast to an `int`, so only use numeric
 values. This is to have a value of `11` be greater than `2`.
 
-[1]: http://getpelican.com/
+[1]: <http://getpelican.com/>

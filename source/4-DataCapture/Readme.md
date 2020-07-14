@@ -43,11 +43,11 @@ Then look at the source code in the next section (Lines 67-83) and describe some
 /*Data Capture for Chapter 4
 Interacting with captured data: mouse, keyboard, audio, webcam
 Check:
-1. sound input through a microphone: https://p5js.org/examples/sound-mic-input.html
+1. sound input through a microphone: <https://p5js.org/examples/sound-mic-input.html>
 2. DOM objects like button
-3. p5.sound library: https://github.com/processing/p5.js-sound/blob/master/lib/p5.sound.js
-4. Face-tracking library: https://github.com/auduno/clmtrackr
-5. p5js + clmtracker.js: https://gist.github.com/lmccart/2273a047874939ad8ad1
+3. p5.sound library: <https://github.com/processing/p5.js-sound/blob/master/lib/p5.sound.js>
+4. Face-tracking library: <https://github.com/auduno/clmtrackr>
+5. p5js + clmtracker.js: <https://gist.github.com/lmccart/2273a047874939ad8ad1>
 */
 let button;
 let mic;
@@ -100,12 +100,12 @@ function setup() {
 function draw() {
   //getting the audio data
   let vol = mic.getLevel(); //get the overall volume (between 0 and 1.0)
-  button.size(floor(map(vol, 0, 1, 40, 500))); //map the mic vol to the size of button, check map function: https://p5js.org/reference/#/p5/map
+  button.size(floor(map(vol, 0, 1, 40, 500))); //map the mic vol to the size of button, check map function: <https://p5js.org/reference/#/p5/map>
 
   let positions = ctracker.getCurrentPosition();
   if (positions.length) { //check the availability of webcam tracking
     button.position(positions[60][0]-20, positions[60][1]);  //as the button is too big, place it in the middle of my mouth, and -> 60 is the mouth area
-    for (let i=0; i<positions.length; i++) {  //loop through all major face track points (see: https://www.auduno.com/clmtrackr/docs/reference.html)
+    for (let i=0; i<positions.length; i++) {  //loop through all major face track points (see: <https://www.auduno.com/clmtrackr/docs/reference.html)>
        noStroke();
        fill(map(positions[i][0], 0, width, 100, 255), 0,0,10);  //color with alpha value
        //draw ellipse at each position point
@@ -126,7 +126,7 @@ function revertStyle(){
 
 //keyboard capture
 function keyPressed() {
-  if (keyCode === 32) { //spacebar - check here: http://keycode.info/
+  if (keyCode === 32) { //spacebar - check here: <http://keycode.info/>
     button.style("transform", "rotate(180deg)");
   } else {   //for other keycode
     button.style("transform", "rotate(0deg)");
@@ -171,7 +171,7 @@ The functions `mousePressed()` and `mouseOut()` are linked to the button you wan
 ```javascript
 
 function keyPressed() {
-  if (keyCode === 32) { //spacebar - check here: http://keycode.info/
+  if (keyCode === 32) { //spacebar - check here: <http://keycode.info/>
     button.style("transform", "rotate(180deg)");
   } else {   //for other keycode
     button.style("transform", "rotate(0deg)");
@@ -202,7 +202,7 @@ function setup() {
 function draw() {
   //getting the audio data
   let vol = mic.getLevel(); //get the overall volume (between 0 and 1.0)
-  button.size(floor(map(vol, 0, 1, 40, 500))); //as the button is too big, check map function: https://p5js.org/reference/#/p5/map
+  button.size(floor(map(vol, 0, 1, 40, 500))); //as the button is too big, check map function: <https://p5js.org/reference/#/p5/map>
 }
 ```
 
@@ -379,7 +379,7 @@ This line of argument makes reference to the philosophy of Gilbert Simondon, to 
 ## Required reading:
 
 - Carolin Gerlitz and Anne Helmond, "The Like Economy: Social Buttons and the Data-Intensive Web," *New Media & Society* 15, no. 8 (December 1, 2013): 1348–65.
-- Shoshana Zuboff, "Surveillance Capitalism | VPRO Documentary." Accessed April 26, 2020. https://youtu.be/hIXhnWUmMvw.
+- Shoshana Zuboff, "Surveillance Capitalism | VPRO Documentary." Accessed April 26, 2020. <https://youtu.be/hIXhnWUmMvw>.
 - [p5.js examples - Interactivity 1](https://p5js.org/examples/hello-p5-interactivity-1.html).
 - [p5.js examples - Interactivity 2](https://p5js.org/examples/hello-p5-interactivity-2.html).
 - [p5 DOM reference](https://p5js.org/reference/#group-DOM).
@@ -389,34 +389,34 @@ This line of argument makes reference to the philosophy of Gilbert Simondon, to 
 [^Tufte]: This resonates with the field of data visualization, and Edward Tufte’s belief that data should be allowed to "speak for itself" rather than be lost in the ornamentation of visualization. This makes the mistake in thinking that data is raw and unmediated. Data begins relatively raw and uninterpreted, but in practice is already selected, targeted, preprocessed and cleaned, mined, and so on, not least to make it human readable. There is always some additional information about its composition, usually derived from the means by which it was gathered in the first place. See Edward R. Tufte, *The Visual Display of Quantitative Information* [1983] (Cheshire, CT: Graphics Press, 2001).
 [^Bigdata]: Kenneth Cukier and Victor Mayer-Schöenberger, "The Rise of Big Data," *Foreign Affairs* (May/June 2013): 28–40.
 [^Pold]: Søren Pold, "Button," in Matthew Fuller ed., *Software Studies* (Cambridge, Mass.: MIT Press, 2008), 34. Users are seduced by the wording of the button not least, and Pold suggests that a button is developed with distinct functionality and signification (Ibid., 31).
-[^DOM]: https://p5js.org/reference/#group-DOM.
-[^Element]: See the `p5.Element` method list here, https://p5js.org/reference/#/p5.Element.
-[^Style]: Styling a button follows the syntax of CSS, and that controls how a DOM element like a button should be displayed. The provided example shows how CSS is incorporated into the JavaScript file by using the syntax `button.style('xxx:xxxx');`. Another way of doing this is to follow the convention of having a CSS file that lists the `.class` selector. In this way, you need to have the syntax in the JavaScript file to mark the class name: `button.class('class_name');`, and then list out the CSS elements and class attributes in the CSS file. More examples can be found here: https://www.w3schools.com/csS/css3_buttons.asp, and see Daniel Shiffman's video on the basic of CSS, https://www.youtube.com/watch?v=zGL8q8iQSQw.
-[^event]: The related function in the reference page, which is under Events > Mouse>, see https://p5js.org/reference/.
-[^Key]: The related function in the reference page, which is under Events > Keyboard>, see https://p5js.org/reference/.
-[^Audio]: See the sound library's various features: https://p5js.org/reference/#/libraries/p5.sound.
-[^Face]: See https://www.auduno.com/2014/01/05/fitting-faces/.
+[^DOM]: <https://p5js.org/reference/#group-DOM>.
+[^Element]: See the `p5.Element` method list here, <https://p5js.org/reference/#/p5.Element>.
+[^Style]: Styling a button follows the syntax of CSS, and that controls how a DOM element like a button should be displayed. The provided example shows how CSS is incorporated into the JavaScript file by using the syntax `button.style('xxx:xxxx');`. Another way of doing this is to follow the convention of having a CSS file that lists the `.class` selector. In this way, you need to have the syntax in the JavaScript file to mark the class name: `button.class('class_name');`, and then list out the CSS elements and class attributes in the CSS file. More examples can be found here: <https://www.w3schools.com/csS/css3_buttons.asp,> and see Daniel Shiffman's video on the basic of CSS, <https://www.youtube.com/watch?v=zGL8q8iQSQw>.
+[^event]: The related function in the reference page, which is under Events > Mouse>, see <https://p5js.org/reference/>.
+[^Key]: The related function in the reference page, which is under Events > Keyboard>, see <https://p5js.org/reference/>.
+[^Audio]: See the sound library's various features: <https://p5js.org/reference/#/libraries/p5.sound>.
+[^Face]: See <https://www.auduno.com/2014/01/05/fitting-faces/>.
 [^Algo]: Jason M. Saragih, Simon Lucey and Jeffrey F. Cohn, "Face Alignment Through Subspace Constrained Mean-shifts," *2009 IEEE 12th International Conference on Computer Vision, Kyoto* (2009): 1034-1041. doi: 10.1109/ICCV.2009.5459377.
-[^GDPR]: The introduction of legislation such as the GDPR (General Data Protection Regulation) is a response to this lack of transparency. GDPR is a regulation in EU law (2016) on data protection and privacy that applies to all the citizens of the European Union and the European Economic Area. It also addresses the transfer of personal data outside the EU and EEA areas. See https://gdpr-info.eu/.
-[^Facebook]: Will Conley, "Facebook investigates tracking users’ cursors and screen behavior," *Slashgear*, October 30 (2013). Available at: https://www.slashgear.com/facebook-investigates-tracking-users-cursors-and-screen-behavior-30303663/.
-[^Analytica]: *The Guardian's* coverage of this, "The Cambridge Analytica Files," can be found at https://www.theguardian.com/news/series/cambridge-analytica-files. Facebook was ultimately forced to pay a hefty fine, see Alex Hern, "Facebook agrees to pay fine over Cambridge Analytica scandal," *The Guardian*, October 30 (2019), https://www.theguardian.com/technology/2019/oct/30/facebook-agrees-to-pay-fine-over-cambridge-analytica-scandal
+[^GDPR]: The introduction of legislation such as the GDPR (General Data Protection Regulation) is a response to this lack of transparency. GDPR is a regulation in EU law (2016) on data protection and privacy that applies to all the citizens of the European Union and the European Economic Area. It also addresses the transfer of personal data outside the EU and EEA areas. See <https://gdpr-info.eu/>.
+[^Facebook]: Will Conley, "Facebook investigates tracking users’ cursors and screen behavior," *Slashgear*, October 30 (2013). Available at: <https://www.slashgear.com/facebook-investigates-tracking-users-cursors-and-screen-behavior-30303663/>.
+[^Analytica]: *The Guardian's* coverage of this, "The Cambridge Analytica Files," can be found at <https://www.theguardian.com/news/series/cambridge-analytica-files>. Facebook was ultimately forced to pay a hefty fine, see Alex Hern, "Facebook agrees to pay fine over Cambridge Analytica scandal," *The Guardian*, October 30 (2019), <https://www.theguardian.com/technology/2019/oct/30/facebook-agrees-to-pay-fine-over-cambridge-analytica-scandal>
 [^Bivens]: Rena Bivens, "The Gender Binary will not be Deprogrammed: Ten Years of Coding Gender on Facebook," *New Media & Society* 19, no.6, (2017): 880–898. doi.org/10.1177/1461444815621527.
-[^Facebook2]: Facebook, Form S-1 registration statement (2012). Available at: https://infodocket.files.wordpress.com/2012/02/facebook_s1-copy.pdf.
+[^Facebook2]: Facebook, Form S-1 registration statement (2012). Available at: <https://infodocket.files.wordpress.com/2012/02/facebook_s1-copy.pdf>.
 [^Leslie]: Esther Leslie, "The Other Atmosphere: Against Human Resources, Emoji, and Devices," *Journal of Visual Culture* 18 no.1, April (2019).
-[^Hide]: Laurie Clarke, "Why hiding likes won’t make Instagram a happier place to be," *Wired*, July 19 (2019), https://www.wired.co.uk/article/instagram-hides-likes.  
-[^Grosser]: See Ben Grosser's *Demetricator* series of artworks: *Facebook Demetricator*, https://bengrosser.com/projects/facebook-demetricator/; *Instagram Demetricator*, https://bengrosser.com/projects/instagram-demetricator/; *Twitter Demetricator*, https://bengrosser.com/projects/twitter-demetricator/.
-[^Facebook3]: Sauvik Das and Adam D. I. Kramer, "Self-censorship on Facebook," *AAAI Conference on Weblogs and Social Media (ICWSM)*, July 2 (2013), https://research.fb.com/publications/self-censorship-on-facebook/.
+[^Hide]: Laurie Clarke, "Why hiding likes won’t make Instagram a happier place to be," *Wired*, July 19 (2019), <https://www.wired.co.uk/article/instagram-hides-likes>.  
+[^Grosser]: See Ben Grosser's *Demetricator* series of artworks: *Facebook Demetricator*, <https://bengrosser.com/projects/facebook-demetricator/>; *Instagram Demetricator*, <https://bengrosser.com/projects/instagram-demetricator/>; *Twitter Demetricator*, <https://bengrosser.com/projects/twitter-demetricator/>.
+[^Facebook3]: Sauvik Das and Adam D. I. Kramer, "Self-censorship on Facebook," *AAAI Conference on Weblogs and Social Media (ICWSM)*, July 2 (2013), <https://research.fb.com/publications/self-censorship-on-facebook/>.
 [^Leslie2]: Paraphrasing the final lines of Leslie's essay "The Other Atmosphere: Against Human Resources, Emoji, and Devices": "The workers become their own devices. They becomes devices of communicative capitalism [...]."    
 [^Crary]: Jonathan Crary, *24/7: Late Capitalism and the Ends of Sleep* (London: Verso, 2013), 30–31.
 [^Crary2]: Crary, *24/7*, 10-11.
-[^transmediale]: transmediale, *Capture All*, https://transmediale.de/content/call-for-works-2015.
-[^Terranova]: Tiziana Terranova, "Red Stack Attack! Algorithms, Capital and the Automation of the Common," *EuroNomade* (2014). Available at http://www.euronomade.info/?p=2268
+[^transmediale]: transmediale, *Capture All*, <https://transmediale.de/content/call-for-works-2015>.
+[^Terranova]: Tiziana Terranova, "Red Stack Attack! Algorithms, Capital and the Automation of the Common," *EuroNomade* (2014). Available at <http://www.euronomade.info/?p=2268>
 [^Terranova2]: Terranova, "Red Stack Attack!"
 [^Terranova3]: Terranova, "Red Stack Attack!"
-[^Stiegler]: To Bernard Stiegler, explains Irit Rogoff, "The concept of 'transindividuation' is one that does not rest with the individuated 'I' or with the interindividuated 'We'," but "is the process of co-individuation within a preindividuated milieu and in which both the 'I' and the 'We' are transformed through one another." See Bernard Stiegler and Irit Rogoff, "Transindividuation," *e-flux* 14, March (2010), https://www.e-flux.com/journal/14/61314/transindividuation/.
+[^Stiegler]: To Bernard Stiegler, explains Irit Rogoff, "The concept of 'transindividuation' is one that does not rest with the individuated 'I' or with the interindividuated 'We'," but "is the process of co-individuation within a preindividuated milieu and in which both the 'I' and the 'We' are transformed through one another." See Bernard Stiegler and Irit Rogoff, "Transindividuation," *e-flux* 14, March (2010), <https://www.e-flux.com/journal/14/61314/transindividuation/>.
 [^datafication]: Christian Ulrik Andersen and Geoff Cox, eds., [A Peer-Reviewed Journal About Datafied Research](https://tidsskrift.dk/APRJA/issue/view/8402), *APRJA* 4, no.1 (2015).
 [^fb]: The styling of the button is exactly the same as Facebook's like button styling in 2015.
 [^helmond]: Carolin Gerlitz and Anne Helmond, "The Like Economy: Social Buttons and the Data-Intensive Web," *New Media & Society* 15, no.8, December 1 (2013): 1348–65.
-[^zuboff]: Shoshana Zuboff, "Surveillance Capitalism," VPRO Documentary. Accessed April 26 (2020). https://youtu.be/hIXhnWUmMvw.
+[^zuboff]: Shoshana Zuboff, "Surveillance Capitalism," VPRO Documentary. Accessed April 26 (2020). <https://youtu.be/hIXhnWUmMvw>.
 [^zuboff2]: Zuboff, *Surveillance Capitalism*.
 [^gibson]: Affordance provides cues which give a hint how users may interact with something. See James J. Gibson, The Theory of Affordances," in Robert Shaw and John Bransford, eds. *Perceiving, Acting, and Knowing* (Hillsdale, NJ: Lawrence Erlbaum Associates, 1977), 127–143.
