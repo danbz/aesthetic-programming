@@ -499,7 +499,7 @@ Once you understand objects and classes, you can continue to work on a mini game
 - Draw upon the assigned reading, **what** are the characteristics of object-oriented programming and the wider implications of abstraction?
 - **Connect** your game project to a wider cultural context, and think of an example to describe how complex details and operations are being "abstracted"?
 
-## Required readings:
+## Required reading:
 - [p5.js examples - Objects](https://p5js.org/examples/objects-objects.html)
 - [p5.js examples - Array of Objects](https://p5js.org/examples/objects-array-of-objects.html)
 - Daniel Shiffman, "Code! Programming with p5.js," *The Coding Train* (watch: 2.3, 6.1, 6.2, 6.3, 7.1, 7.2, 7.3), <https://www.youtube.com/watch?v=8j0UDiN7my4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA>
