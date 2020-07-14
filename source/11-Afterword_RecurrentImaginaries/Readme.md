@@ -1,4 +1,4 @@
-Title: 11. Recurrent Imaginaries
+Title: 11. Afterword: Recurrent Imaginaries
 page_order: 11
 
 ## Afterword: Recurrent Imaginaries[^title]
