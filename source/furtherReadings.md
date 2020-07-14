@@ -56,33 +56,33 @@ Title: Further Readings
 ## Chapter 7 - Vocable Code
 
 - Cox, Geoff, Alex McLean, and Adrian Ward. "The Aesthetics of Generative Code." Proc. of Generative Art. 2001.
+- Faber, Liz W. *The Computer's Voice: From Star Trek to Siri*, (Minneapolis, London: University of Minnesota Press, 2020).
 - Plant, Sadie. (1998) Zeros + Ones: Digital Women and the New Technoculture. London: Forth Estate.
 - Queneau, Ramond, et al. Six Selections by the Oulipo. The New Media Reader. Eds. Noah W-F and Nick M. The MIT Press, 2003. 147-189.
 - Raley, Rita. [Interferences: [Net.Writing] and the Practice of Codework](http://electronicbookreview.com/essay/interferences-net-writing-and-the-practice-of-codework/). electronic book review, 2002.
 - Rhee, Margaret. “[Reflecting on Robots, Love, and Poetry](https://dl.acm.org/doi/pdf/10.1145/3155126?download=true).” XRDS: Crossroads 24, no. 2 (December 2017): 44–46.
-- Shiffman, Daniel. (2017) 10.1: Introduction to Data and APIs in Javascript. [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r [Accessed 13 Mar. 2019].  
+- Shiffman, Daniel. (2017) 10.1: Introduction to Data and APIs in Javascript. [online] Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r.
 
 ## Chapter 8 - Que(e)ry Data
 
+- Albright, Jonathan. "[The Graph API: Key Points in the Facebook and Cambridge Analytica Debacle](https://medium.com/tow-center/the-graph-api-key-points-in-the-facebook-and-cambridge-analytica-debacle-b69fe692d747)". Medium, 2018. (check out the recent hot topic around Cambridge Analytica online)
 - Bucher, Taina, “Objects of intense feeling: The case of the Twitter API”, in Computational Culture: a journal of software studies. 2013. Web. 27 Nov. 2013. http://computationalculture.net/article/objects-of-intense-feeling-the-case-of-the-twitter-api
-
 - Kirschenbaum, Matthew G. Mechanisms: New Media and the Forensic Imagination, MIT Press, 2007, 25-71.
 Raetzsch, Christoph, et al. “[Weaving Seams with Data: Conceptualizing City APIs as Elements of Infrastructures.](https://journals.sagepub.com/doi/full/10.1177/2053951719827619)” Big Data & Society, Jan. 2019, doi:10.1177/2053951719827619.
-- Albright, Jonathan. "[The Graph API: Key Points in the Facebook and Cambridge Analytica Debacle](https://medium.com/tow-center/the-graph-api-key-points-in-the-facebook-and-cambridge-analytica-debacle-b69fe692d747)". Medium, 2018. (check out the recent hot topic around Cambridge Analytica online)
-
 
 ## Chapter 9 - Algorithmic Procedures
 
+- Andrew Goffey, "Algorithm", in Matthew Fuller, ed., *Software Studies: A Lexicon* (Cambridge, MA: MIT Press, 2008), 15-20.
 - Ed Finn, “What is an Algorithm,” in *What Algorithms Want* (Cambridge, MA: MIT Press, 2017), 15-56.
 - Daniel Shiffman, [Multiple js Files - p5.js Tutorial](https://www.youtube.com/watch?v=Yk18ZKvXBj4), The Coding Train. Web.https://www.youtube.com/watch?v=Yk18ZKvXBj4.
-- Andrew Goffey, "Algorithm", in Matthew Fuller, ed., *Software Studies: A Lexicon* (Cambridge, MA: MIT Press, 2008), 15-20.
 
 ## Chapter 10 - Machine Learning
 
-- Adam, Alison. *Artificial Knowing: Gender and the Thinking Machine*. London: Routledge, 2006. 
+- Adam, Alison. *Artificial Knowing: Gender and the Thinking Machine*. London: Routledge, 2006.
 - Adam, Alison. "A Feminist Critique of Artificial Intelligence." *European Journal of Women's Studies* 2, no. 3 (1995).
 - Clemens Apprich, Wendy Hui Kyong Chun, Florian Cramer, Hito Steyerl, eds., *[Pattern Discrimination: In Search of Media](https://meson.press/wp-content/uploads/2018/11/9783957961457-Pattern-Discrimination.pdf)* (Minneapolis, London: University of Minnesota Press, 2018).
 - Castelle, Michael. "Deep Learning as an Epistemic Ensemble." online essay (2018), https://castelle.org/pages/deep-learning-as-an-epistemic-ensemble.html
+- Shakir Mohamed, Marie-Therese Png, William Isaac, “Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence,” *Philosophy & Technology*, Springer, July 12, 2020. https://doi.org/10.1007/s13347-020-00405-8.
 - Sarah Myers West, Meredith Whittaker, and Kate Crawford, *Discriminating Systems: Gender, Race and Power in AI*, AI Now Institute, New York University (April 2019), https://ainowinstitute.org/discriminatingsystems.html.
 - Kate Crawford and Vladan Joler. Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources, 2018. Web: https://anatomyof.ai/
 - Adrian Mackenzie, *Machine Learners: Archaeology of a Data Practice* (Cambridge, Mass.: MIT Press, 2017).

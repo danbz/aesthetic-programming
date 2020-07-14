@@ -28,3 +28,7 @@ h2 {
 h2:before {
     content: counter(h1) + "." + counter(h2);
 }
+
+.active {
+    outline: 2px solid red;
+}

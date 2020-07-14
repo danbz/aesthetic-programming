@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import sys, os
+sys.path.append(os.curdir)
+from attach_images import PelicanAttachImage
 
 AUTHOR = '.'
 SITENAME = 'Aesthetic Programming'
@@ -42,7 +45,7 @@ THEME = 'theme/aesthetic-programming'
 PAGE_ORDER_BY = 'Order'
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['page_order', 'attach_images']
+PLUGINS = ['page_order']
 
 DISPLAY_PAGES_ON_MENU = False
 
@@ -51,7 +54,8 @@ MARKDOWN = {
         'markdown.extensions.codehilite': {'css_class': 'highlight', 'linenums': "True"},
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
-        'mdx_figcaption': {}
+        'mdx_figcaption': {},
+        'attach_images': {},
     },
     'output_format': 'html5',
 }

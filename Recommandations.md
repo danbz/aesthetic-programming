@@ -47,7 +47,7 @@ Some inspirations:
 ## Overall timeline
 - Early Jul: Finished editing by Loren
 - Mid Jul: Revision by Geoff and Winnie -> send off to reviewer
-- End Jul: First iterature of web interactive by OSP
+- Mid Jul: First iterature of web interactive by OSP
 - End Aug: Reviewer's feedback
 - Fine tuning and prepare for the final pdf, web for production - ALL
-- Tentative ready for launch at OHP: End Sep to Oct
+- Tentative ready for launch at OHP: Oct
