@@ -3,7 +3,7 @@ from markdown import Extension, util
 import re
 
 """
-  Overloads (Python) Markdowns image processor to add insert {attach}
+  Overloads (Python) Markdowns image processor to insert {attach}
   in src's of local images.
 """
 

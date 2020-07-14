@@ -12,6 +12,14 @@
   {% endif %}
 {% endblock %}
 
+{% block extra_css %}
+    <style>
+        h1 {
+            counter-reset: h1 {{ page.order }};
+        }
+    </style>
+{% endblock %}
+
 {% block content %}
     <h1>{{ page.title }}</h1>
     {% import 'translations.html' as translations with context %}
@@ -24,4 +32,5 @@
         Last updated: {{ page.locale_modified }}
         </p>
     {% endif %}
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/activateSnippets.js"></script>
 {% endblock %}

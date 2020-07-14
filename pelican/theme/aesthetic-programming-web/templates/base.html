@@ -4,6 +4,7 @@
         {% block head %}
         <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
         <meta charset="utf-8" />
+        
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
         {% endif %}
@@ -28,15 +29,26 @@
         {% if TAG_FEED_RSS and tag %}
         <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
         {% endif %}
+
+
+
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/reset.css" type="text/css" media="all" charset="utf-8">
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/codehilite.css" type="text/css" media="all" charset="utf-8">
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/styles.css" type="text/css" media="all" charset="utf-8">
         {% endblock head %}
+
+        {% block extra_css %}
+        {% endblock %}
+
+
 </head>
 
 <body id="index" class="home">
+        <nav id="menu">
         <header id="banner" class="body">
                 <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
         </header><!-- /#banner -->
-        <nav id="menu"><ul>
+            <ul>
         {% for title, link in MENUITEMS %}
             <li><a href="{{ link }}">{{ title }}</a></li>
         {% endfor %}
@@ -51,13 +63,49 @@
           {% endfor %}
         {% endif %}
         </ul></nav><!-- /#menu -->
+
+        <section >
+            <div id="canvas">
+            </div>
+        </section>
+
+        <main {% block attr %} {% endblock %}>
         {% block content %}
         {% endblock %}
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-        </footer><!-- /#contentinfo -->
+        </main> 
+
+
+
+
+    <script  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+
+    <script type="text/javascript" charset="utf-8">
+        pad = "http://pads.osp.kitchen/p/aesthetic-programming.css";
+
+        $(document).ready(function(){
+            setTimeout(function(){
+                $("#styles").load(pad + "/export/txt", function(){
+                });
+            });
+        });
+    </script>
+    <style type="text/css" media="all" id="styles" > </style>
+
+
+    <script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
+
+<!--<script type="text/p5">-->
+    <script>
+        pre_set = document.querySelectorAll(".exec .highlight pre");
+        canvas = document.querySelector("#canvas");
+console.log(canvas);
+        for (var i = 0; i < pre_set.length; i++){
+            script = "<script type='text/p5' data-layout='vertical'>" + pre_set[i].innerText + "<\/script>";
+            canvas.innerHTML = script;
+            console.log(pre_set[i].innerText);
+        } 
+    </script>
 </body>
 </html>

@@ -1,3 +1,5 @@
+Title: Showcase
+
 ## Selected students' work
 
 The list will continuously update on the online version.

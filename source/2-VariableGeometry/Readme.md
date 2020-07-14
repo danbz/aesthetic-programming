@@ -1,4 +1,5 @@
-Title: 2. VariableGeometry
+Title: 2. Variable Geometry
+Order: 2
 page_order: 2
 
 ## Variable Geometry
@@ -32,6 +33,7 @@ Our point is that using emojis may be fun and expressive, but they also tend to 
 
 [RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch2_VariableGeometry/)
 
+<div class="exec" data-linenostart="1" markdown="true">
 ```javascript
 /*Inspired by David Reinfurt's work - Multi*/
 let moving_size = 50;
@@ -76,6 +78,9 @@ function draw() {
  }
 }
 ```
+</div>
+
+
 The above code draws various shapes and performs simple interactions:
 - the background is filled with flashing grey-scale colors
 - on the left is a horizontal rectangle in the color black  
@@ -88,6 +93,7 @@ The above code draws various shapes and performs simple interactions:
 In the previous chapter, we briefly discussed the x and y coordinates that constitute a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(windowWidth,windowHeight)` refers to creating a canvas with its width and height in line with your window size. Unlike the previous chapter where the exact pixel dimension was set as in the example `createCanvas(640,480);`, this approach gives you a flexibility of no fixed canvas size. Therefore, the background color of the sample code fills the whole window screen, and the concept of canvas as spaces change variably in terms of geometry. It is good to remind ourselves that in mathematics the origin [0,0] is positioned in the center of a grid paper/screen, but in computing the origin is situated in the upper left corner (see Figure 1.11 in the previous chapter). This impacts on how objects are placed, and shifts our perception/understanding of space/canvas.
 
 #### Exercise in class
+
 ```javascript
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -98,6 +104,7 @@ function draw() {
   background(random(230,240));
 }
 ```
+
 ![](ch2_3.png)
 
 *Figure 2.3: Simple exercise*

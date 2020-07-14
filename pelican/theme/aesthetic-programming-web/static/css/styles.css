@@ -1,113 +1,41 @@
-@page {
-    size: 140mm 200mm;
-    margin: 1cm 1cm 2cm 1cm;
-}
-
-@page:left {
-    @bottom-left {
-        content: counter(page);
-    }
- }
-
-@page:right {
-    @bottom-right {
-        content: counter(page);
-    }
- }
-
 :root {
-    --font-size: 10pt;
-    --line-height: 12.5pt;
+    --font-size: 1.1vw !important;
+    --line-height: 1.25em !important;
 }
 
-
-.debug .pagedjs_page {
+body  {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.pagedjs_page {
-    counter-increment: page;
+nav {
+    flex-basis: 5%;
+    overflow: hidden;
 }
 
-body {
-    font-family: Breite Grotesk;
-    font-size: var(--font-size);
-    line-height:  var(--line-height);
+section {
+    flex-basis: 45%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: herscheytimes;
-    margin-top: calc(var(--line-height) * 2);
-    margin-bottom: var(--line-height);
-
+#canvas {
+    position: sticky;
+    top: 0;
 }
 
-pre,
-code {
-    font-family: ocr-pbi;
-    font-size: 8pt;
-    white-space: pre-wrap;
-    margin: var(--line-height) 0;
-    outline: 1px dotted black;
-}
-
-pre {
+main {
+    flex-basis: 50%;
+    flex-grow: 1;
     padding: var(--line-height);
+    box-sizing: border-box;
 }
 
-code {
-    margin-left: 2px;
-    margin-right: 2px;
-    padding: 0 4px;
+h2 {
+    counter-increment: h2;
+}
+h2:before {
+    content: counter(h1) + "." + counter(h2);
 }
 
-a {
-    color: inherit;
-}
-
-em {
-    font-style: italic;
-}
-
-strong {
-    font-weight: bold;
-}
-
-p + p {
-    margin-top: var(--line-height);
-}
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-ul, ol {
-margin: var(--line-height);
-}
-
-ul li:before {
-    content: "– ";
-}
-
-ol > li {
-    list-style-type: decimal;
-}
-
-.ref {
-    font-style: italic;
-}
-
-.exercise {
-    color: gray;
-}
-
-blockquote {
-    border-left: 1px solid black;
-    margin-left: calc(var(--line-height) / 3);
-    padding: 0 calc(var(--line-height) / 3);
-}
-
-iframe {
-    width: 100%;
-    height: calc(15 * var(--line-height));
+.active {
+    outline: 2px solid red;
 }

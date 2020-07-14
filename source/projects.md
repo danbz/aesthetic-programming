@@ -1,3 +1,5 @@
+Title: Projects
+
 ## List of artworks/software/projects:
 
 *AIMoji* by Process Studio
