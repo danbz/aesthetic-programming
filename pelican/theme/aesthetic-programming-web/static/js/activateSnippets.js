@@ -35,8 +35,8 @@ function activateInView(selector, scrollContainer, activateCallback, deactivateC
         if (lastActive) {
           (deactivateCallback.bind(lastActive))();
         }
-        (activateCallback.bind(bestCandidate))();
         lastActive = bestCandidate;
+        (activateCallback.bind(bestCandidate))();
       }
     } else if (lastActive) {
       (deactivateCallback.bind(lastActive))();
@@ -66,15 +66,50 @@ function activateInView(selector, scrollContainer, activateCallback, deactivateC
   }, true);
 }
 
-activateInView('.highlighttable, .codefragment[data-executable="true"]', null, function () {
-  var activeSnippets = document.querySelectorAll('.highlighttable.active');
+// activateInView('.highlighttable, .codefragment[data-executable="true"]', null, function () {
+//   var activeSnippets = document.querySelectorAll('.highlighttable.active');
   
-  for (let i = 0; i < activeSnippets.length; i++) {
-    activeSnippets[i].classList.remove('active');
-  }
+//   for (let i = 0; i < activeSnippets.length; i++) {
+//     activeSnippets[i].classList.remove('active');
+//   }
 
+//   this.classList.add('active');
+//   console.log(this);
+// }, function () {
+//   this.classList.remove('active');
+// });
+
+activateInView('.exec', null, function () {
+  // this is the '.exec' div which is being activated
   this.classList.add('active');
-  console.log(this);
+  var pre = this.querySelector('pre code'),
+      script = document.createElement('script');
+
+  script.setAttribute('type', 'text/p5');
+  script.setAttribute('data-editor-layout', 'vertical');
+  script.setAttribute('data-autoplay', 'autoplay');
+  script.textContent = pre.textContent;
+
+  document.querySelector('#canvas').appendChild(script);
+  // console.log(pre.innerText);
+  
+  window['p5Widget'].replaceScript(script);
+
 }, function () {
+  // this is the .exec dic which is being deactivated
   this.classList.remove('active');
+  var canvas = document.querySelector('#canvas');
+
+  while (canvas.lastChild) {
+    canvas.removeChild(canvas.lastChild);
+  }
 });
+
+// pre_set = document.querySelectorAll(".exec .highlight pre");
+// canvas = document.querySelector("#canvas");
+// console.log(canvas);
+// for (var i = 0; i < pre_set.length; i++){
+// script = "<script type='text/p5' data-layout='vertical'>" + pre_set[i].innerText + "<\/script>";
+// canvas.innerHTML = script;
+// console.log(pre_set[i].innerText);
+// }

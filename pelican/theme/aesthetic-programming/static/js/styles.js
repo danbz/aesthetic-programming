@@ -1,7 +1,9 @@
 function loadEtherStyle(url, interval) {
   function load(url) {
-    fetch(url)
-      .then(function(r) { return r.text()})
+    fetch(url, { mode: 'no-cors' })
+      .then(function(r) {
+        console.log(r); return r.text()
+      })
       .then(function (styles) {
         var el = document.createElement('style');
         el.appendChild(document.createTextNode(styles));
@@ -25,5 +27,5 @@ function loadEtherStyle(url, interval) {
 }
 
 (function () {
-  loadEtherStyle('http://pads.osp.kitchen/p/aesthetic-programming.css/export/txt/', 7500);
+  loadEtherStyle('https://semestriel.framapad.org/p/aesthetic-programmingcss/export/txt', 7500);
 })(); 

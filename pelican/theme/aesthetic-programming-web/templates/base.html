@@ -94,18 +94,8 @@
     <style type="text/css" media="all" id="styles" > </style>
 
 
-    <script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
+    <!-- <script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script> -->
 
-<!--<script type="text/p5">-->
-    <script>
-        pre_set = document.querySelectorAll(".exec .highlight pre");
-        canvas = document.querySelector("#canvas");
-console.log(canvas);
-        for (var i = 0; i < pre_set.length; i++){
-            script = "<script type='text/p5' data-layout='vertical'>" + pre_set[i].innerText + "<\/script>";
-            canvas.innerHTML = script;
-            console.log(pre_set[i].innerText);
-        } 
-    </script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/p5.js-widget/p5-widget.js"></script>
 </body>
 </html>
