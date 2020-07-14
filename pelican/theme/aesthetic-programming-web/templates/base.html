@@ -113,23 +113,16 @@ console.log(canvas);
 
 
     <script>
-        function Hsection(e, i){
-            if(e.parentNode.tagName == "MAIN") {
-
+        function Hsection(e, i, HX){
+            if(e.tagName == "H2") {
                 // create a new numbered section
-                console.log(e.firstChild.tagName);
-                if (e.firstChild.tagName == 'A') {
-                    section = document.createElement('a');
-                    section.setAttribute('href', e.firstChild.getAttribute('href'));
-                } else {
-                    section = document.createElement('section');
-                }
+                section = document.createElement('section');
                 section.classList.add('section');
                 section.setAttribute('id', 'section' + i);
                 e.parentNode.insertBefore(section, e.nextSibling);
 
                 // add a numbered class to elements until the next h2
-                while(e.nextElementSibling != null && e.nextElementSibling.tagName != "H2") {
+                while(e.nextElementSibling != null && e.nextElementSibling.tagName != HX) {
                     classe = "section-" + i;
                     e.classList.add(classe);
                     e.nextElementSibling.classList.add(classe);
@@ -140,20 +133,30 @@ console.log(canvas);
                 items = document.getElementsByClassName('section-' + i);
 
                 [].forEach.call(items, function(item) {
-
-                    // gets height of paragraph if there is no image
-                    if (item.tagName == 'P' && item.getElementsByTagName('IMG').length == 0) {
-                    }
-                    // puts the image as the background of the section
-                    else if (item.getElementsByTagName('IMG').length != 0 && item.getElementsByTagName('IMG')[0].className == 'background'){
-                        img = item.getElementsByTagName('img')[0];
-                        src = img.getAttribute('src');
-                        item.style.backgroundImage = 'url(' + src + ')';
-                        img.style.display = 'none';
-                    }
                         section.appendChild(item);
                 })
 
+            }
+            if(e.tagName == "H3") {
+                subsection = document.createElement('div');
+                subsection.classList.add('subsection');
+                subsection.setAttribute('id', 'subsection' + i);
+                e.parentNode.insertBefore(subsection, e.nextSibling);
+
+                // add a numbered class to elements until the next h2
+                while(e.nextElementSibling != null && e.nextElementSibling.tagName != HX) {
+                    classe = "subsection-" + i;
+                    e.classList.add(classe);
+                    e.nextElementSibling.classList.add(classe);
+                    e = e.nextElementSibling;
+                }
+
+                // we put all numbered elements in dedicated section
+                items = document.getElementsByClassName('subsection-' + i);
+
+                [].forEach.call(items, function(item) {
+                        subsection.appendChild(item);
+                })
             }
         }
 
@@ -164,9 +167,15 @@ console.log(canvas);
             h2s = document.getElementsByTagName("h2");
             h3s = document.getElementsByTagName("h3");
 
-            [].forEach.call(h2s,function(e, i){
-                Hsection(e, i);
-            });
+            [].forEach.call(h2s, function(e, i){
+                Hsection(e, i, "H2");
+            }), 
+
+                window.setTimeout(function(){
+                [].forEach.call(h3s, function(f, i){
+                    Hsection(f, i, "H3");
+                });
+                }, 2000);
 
         });
     </script>
