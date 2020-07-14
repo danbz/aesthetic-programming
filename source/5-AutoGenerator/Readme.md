@@ -1,4 +1,4 @@
-Title: Auto-Generator
+Title: 6. Auto-Generator
 page_order: 6
 
 ## Auto-Generator
