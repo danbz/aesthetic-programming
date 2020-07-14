@@ -1,3 +1,8 @@
+:root {
+    --font-size: 1.1vw !important;
+    --line-height: 1.25em !important;
+}
+
 body  {
     display: flex;
     flex-wrap: wrap;
@@ -20,6 +25,8 @@ section {
 main {
     flex-basis: 50%;
     flex-grow: 1;
+    padding: var(--line-height);
+    box-sizing: border-box;
 }
 
 h2 {
