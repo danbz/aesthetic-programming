@@ -36,7 +36,7 @@ Sorting is a common algorithm in digital culture, and recommendation lists on Sp
 
 Generate a list of 1,000 unique, random integers between two number ranges. Then implement a sorting algorithm and display them in ascending order. You are not allowed to use the existing `sort()` function in p5.js or JavaScript. How would you approach this problem? Perhaps you can draw it as a flowchart with the focus on procedures/steps, but not the actual syntax.
 
-## Flow Charts
+## Flowcharts
 
 Conventionally, each step in a flowchart is represented by a symbol and connecting lines that indicate the flow of logic towards a certain output. The symbols all have different meanings. Below we outline the basic components for drawing a flowchart:
 
@@ -86,7 +86,7 @@ Beyond the pragmatic use of flowcharts, they can also be artistic objects in the
 
 ![diagram1](ch9_2.gif)
 
-*Figure 9.2: GWEI - Google Will Eat Itself / THE ATTACK (2005)*
+*Figure 9.2: Paolo Cirio, Alessandro Ludovico, and UBERMORGENGWEI, Google Will Eat Itself / THE ATTACK (2005)*
 
 The iterative (or cannibalistic) loop can clearly be seen in the diagram and echoes the principle of the "strange loop:" forced "to eat its own tail" in Babbage's words, altering its own stored program and thereby offering the potential to generate new technical and aesthetic forms, as previously mentioned with reference to the operations of the Analytical Engine. Taken to its extreme, this type of loop is called a "forkbomb" and takes the shape of a "denial-of-service" attack in which a computer process continuously replicates itself in order to use up all available system resources, slowing down, or crashing the system due to resource starvation. Reflected in the title of another project, UBERMORGEN's *The Project Formerly Known as Kindle Forkbomb* (2012), used a machine process that stripped comments from YouTube videos. An algorithm then compiled the comments and added titles, producing an e-book which was subsequently uploaded to the Amazon Kindle e-commerce bookstore.[^pold] Such exhausive loops are sketched in the diagram, using an image of a traditional printing press (see Figure 9.3), and further exploited in the installation version, which combined the diagram on the gallery floor and physical objects (see Figure 9.4).[^systemics] In both cases, algorithmic procedures are in operation which mimic and mock the operational logic of Amazon's post-Gutenberg business model, the key principles of which are outlined on the Kindle website: "Get to market fast. Make more money. Keep control."[^kindle]
 
