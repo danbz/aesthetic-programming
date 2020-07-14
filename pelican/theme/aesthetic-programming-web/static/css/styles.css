@@ -105,3 +105,8 @@ h2:before {
 main .active {
     background-color: lightyellow;
 }
+
+
+p, blockquote, li {
+    letter-spacing: .25px;
+}
