@@ -206,7 +206,7 @@ print("hello" + "world");
 > output:
 "hello world"
 
-## 2.6 %Conditional structures%
+## %Conditional structures%
 
 Conditional structures are very useful as they allow you to set a different path by specifying conditions. Indeed, a conditional decision is not specific to programming. For example, in everyday life, you might say "If I am hungry, I should eat some food, if I am thirsty, I should drink some water, otherwise I will just take a nap."
 
