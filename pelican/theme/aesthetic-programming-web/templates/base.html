@@ -44,27 +44,30 @@
 </head>
 
 <body id="index" class="home">
-        <nav id="menu">
-        <header id="banner" class="body">
-                <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
-        </header><!-- /#banner -->
-            <ul>
-        {% for title, link in MENUITEMS %}
-            <li><a href="{{ link }}">{{ title }}</a></li>
-        {% endfor %}
-        {% if DISPLAY_PAGES_ON_MENU %}
-          {% for p in pages %}
-            <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
-          {% endfor %}
-        {% endif %}
-        {% if DISPLAY_CATEGORIES_ON_MENU %}
-          {% for cat, null in categories %}
-            <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-          {% endfor %}
-        {% endif %}
-        </ul></nav><!-- /#menu -->
+        <section class="nav">
+            <nav id="menu">
+                <header id="banner" class="body">
+                        <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
+                </header><!-- /#banner -->
+                    <ul>
+                {% for title, link in MENUITEMS %}
+                    <li><a href="{{ link }}">{{ title }}</a></li>
+                {% endfor %}
+                {% if DISPLAY_PAGES_ON_MENU %}
+                  {% for p in pages %}
+                    <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                  {% endfor %}
+                {% endif %}
+                {% if DISPLAY_CATEGORIES_ON_MENU %}
+                  {% for cat, null in categories %}
+                    <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                  {% endfor %}
+                {% endif %}
+                </ul>
+            </nav><!-- /#menu -->
+        </section>
 
-        <section >
+        <section class="left">
             <div id="canvas">
             </div>
         </section>
@@ -107,5 +110,66 @@ console.log(canvas);
             console.log(pre_set[i].innerText);
         } 
     </script>
+
+
+    <script>
+        function Hsection(e, i){
+            if(e.parentNode.tagName == "MAIN") {
+
+                // create a new numbered section
+                console.log(e.firstChild.tagName);
+                if (e.firstChild.tagName == 'A') {
+                    section = document.createElement('a');
+                    section.setAttribute('href', e.firstChild.getAttribute('href'));
+                } else {
+                    section = document.createElement('section');
+                }
+                section.classList.add('section');
+                section.setAttribute('id', 'section' + i);
+                e.parentNode.insertBefore(section, e.nextSibling);
+
+                // add a numbered class to elements until the next h2
+                while(e.nextElementSibling != null && e.nextElementSibling.tagName != "H2") {
+                    classe = "section-" + i;
+                    e.classList.add(classe);
+                    e.nextElementSibling.classList.add(classe);
+                    e = e.nextElementSibling;
+                }
+
+                // we put all numbered elements in dedicated section
+                items = document.getElementsByClassName('section-' + i);
+
+                [].forEach.call(items, function(item) {
+
+                    // gets height of paragraph if there is no image
+                    if (item.tagName == 'P' && item.getElementsByTagName('IMG').length == 0) {
+                    }
+                    // puts the image as the background of the section
+                    else if (item.getElementsByTagName('IMG').length != 0 && item.getElementsByTagName('IMG')[0].className == 'background'){
+                        img = item.getElementsByTagName('img')[0];
+                        src = img.getAttribute('src');
+                        item.style.backgroundImage = 'url(' + src + ')';
+                        img.style.display = 'none';
+                    }
+                        section.appendChild(item);
+                })
+
+            }
+        }
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // AUTOMATIC SECTION WRAPPING
+            h2s = document.getElementsByTagName("h2");
+            h3s = document.getElementsByTagName("h3");
+
+            [].forEach.call(h2s,function(e, i){
+                Hsection(e, i);
+            });
+
+        });
+    </script>
+
 </body>
 </html>

@@ -312,11 +312,14 @@ Snelting is looking for other geometries that can escape normative configuration
 The challenge is to rethink normative geometries, to turn them upside down and inside out. Herein lies the challenge of the chapter, to escape geometric overcoding and to develop alternatives. Having fun with programming in this sense is the ability to modify forms and to diverge from established rules. When it comes to programming, the rules can be applied differently, adapted or modified, and even transformed altogether.
 
 ## MiniX[2]: Geometric emoji
+
 **Objective:**
+
 - To experiment with various geometric drawing methods, to explore alternatives, particularly with regard to shapes and drawing with colors.
 - To reflect on the politics/aesthetics of emojis on the basis of the assigned texts.
 
 **For additional inspiration:**
+
 - [Chinese Characters as Ancient Emoji](https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/)[^Witt] by Steve Witt.
 - [Women finally get a menstruation emoji](https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji)[^Grot] by Michael Grothaus.
 - [Between Art and Application by Crystal Abidin and Joel Gn](https://firstmonday.org/ojs/index.php/fm/article/view/9410)[^Abidin] (short text about emoji culture)
@@ -331,9 +334,9 @@ Explore shapes, geometries, and other related syntax (via p5.js [references](htt
 
 ## Required reading:
 - Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, [Modifying the Universal,](http://www.data-browser.net/db06.html) *Executing Practices*, Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, eds. (London: Open Humanities Press, 2018), 35-51.
-- p5.js. p5.js | Simple Shapes. [Web] Available at: https://p5js.org/examples/hello-p5-simple-shapes.html [Accessed 09 Sep. 2019].
-- Shiffman, Daniel. (2018) "1.3,1.4,2.1,2.2: Code! Programming with p5.js." Available at: https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2 [Accessed 09 Sep. 2019].
-- Femke Snelting, "Other Geometries," *transmediale journal*, Issue#3, 31 October (2019), https://transmediale.de/content/other-geometries.
+- p5.js. p5.js | Simple Shapes. [Web] Available at: <https://p5js.org/examples/hello-p5-simple-shapes.html> [Accessed 09 Sep. 2019].
+- Shiffman, Daniel. (2018) "1.3,1.4,2.1,2.2: Code! Programming with p5.js." Available at: <https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2> [Accessed 09 Sep. 2019].
+- Femke Snelting, "Other Geometries," *transmediale journal*, Issue#3, 31 October (2019), <https://transmediale.de/content/other-geometries>.
 
 ## Notes
 

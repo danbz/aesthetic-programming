@@ -6,11 +6,59 @@
 body  {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 6%;
+}
+
+section.nav {
+    position: fixed;
+    left: 0;
 }
 
 nav {
-    flex-basis: 5%;
-    overflow: hidden;
+    height: 100vh;
+    width: 300px;
+    display: block;
+}
+
+nav header {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 150px;
+    left: -120px;
+}
+
+nav h1 {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+nav ul {
+    display: none;
+    font-size: 18px;
+    line-height: 1.3em;
+    top: 450px;
+    position: absolute;
+}
+nav:hover ul {
+    display: block;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul li {
+    margin-left: 15px;
+    text-indent: -15px;
+}
+
+nav ul a.active {
+    font-size: 1.5em;
+    line-height: 1.25em;
 }
 
 section {
@@ -36,6 +84,6 @@ h2:before {
     content: counter(h1) + "." + counter(h2);
 }
 
-.active {
-    outline: 2px solid red;
+main .active {
+    background-color: lightyellow;
 }
