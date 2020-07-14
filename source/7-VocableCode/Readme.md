@@ -287,7 +287,7 @@ There is a p5.sound library which extends p5 with web audio functionality to dea
 
 ## Source code
 ```javascript
-// CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+// CC BY 4.0 - <https://creativecommons.org/licenses/by/4.0/>
 let withPride;
 let whatisQueer;
 let queerRights = [];
@@ -462,25 +462,25 @@ To conclude this chapter, which explored the making of *Vocable Code* with its s
 
 ## Required reading:
 
-- Allison Parrish, Text and Type (2019). Available at: https://creative-coding.decontextualize.com/text-and-type/
-- Daniel Shiffman, 10.2: What is JSON? Part I - p5.js Tutorial (2017). Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r.
-- Daniel Shiffman, 10.2: What is JSON? Part II - p5.js Tutorial (2017). Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r.
+- Allison Parrish, Text and Type (2019). Available at: <https://creative-coding.decontextualize.com/text-and-type/>
+- Daniel Shiffman, 10.2: What is JSON? Part I - p5.js Tutorial (2017). Available at: <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
+- Daniel Shiffman, 10.2: What is JSON? Part II - p5.js Tutorial (2017). Available at: <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
 - Geoff Cox and Alex McLean, "Vocable Code," in *Speaking Code* (Cambridge, MA: MIT Press, 2013), 17-38.
 
 ## Notes
 
-[^speech]: Here we reference John Langshaw Austin's *How To Do Things With Words*, and by extension, Geoff Cox and Alex McLean's *Speaking Code* (Cambridge, MA: MIT Press 2013). The analogy of free software to free speech is explicitized in the Free Software Foundation's definition: Free software means that the users have the freedom to run, copy, distribute, study, change and improve the software. "Thus, 'free software' is a matter of liberty, not price. To understand the concept, you should think of 'free' as in 'free speech', not as in 'free beer'." See https://www.gnu.org/philosophy/free-sw.html.  
+[^speech]: Here we reference John Langshaw Austin's *How To Do Things With Words*, and by extension, Geoff Cox and Alex McLean's *Speaking Code* (Cambridge, MA: MIT Press 2013). The analogy of free software to free speech is explicitized in the Free Software Foundation's definition: Free software means that the users have the freedom to run, copy, distribute, study, change and improve the software. "Thus, 'free software' is a matter of liberty, not price. To understand the concept, you should think of 'free' as in 'free speech', not as in 'free beer'." See <https://www.gnu.org/philosophy/free-sw.html>.  
 
 [^language]: Florian Cramer, *Language in Software Studies*, 2008, 168-173; see also Warren Sack, *The Software Arts* (Cambridge, Mass.: MIT Press, 2019)
 
-[^love]: Florian Cramer's claim was made in the context of the *I Love You* exhibition (2002-4) a work in progress-exhibition developed by digitalcraft.org Kulturbüro, see http://www.digitalcraft.org/iloveyou/.
+[^love]: Florian Cramer's claim was made in the context of the *I Love You* exhibition (2002-4) a work in progress-exhibition developed by digitalcraft.org Kulturbüro, see <http://www.digitalcraft.org/iloveyou/>.>.
 
-[^examples]: Relevant to this discussion is what Donald Knuth calls "literate programming," a methodology that treats a program like a piece of literature, addressed to human beings rather than to a computer. For more on this, see Donald Knuth's "Literate Programming," *The Computer Journal* 27, no.2 (1984): 97–111, https://academic.oup.com/comjnl/article/27/2/97/343244; https://doi.org/10.1093/comjnl/27.2.97. Further examples might include those by Mez Breeze (1994), Florian Cramer (2008), John Cayley (2002), Geoff Cox & Alex McLean (2013), Winnie Soon & Geoff Cox (2018), Ian Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015), to name only a few.
-See: Allison Parrish (2015) https://vimeo.com/134734729; Florian Cramer, Language in Software Studies (2008); Mez Breeze, MEZANGELLE (1994-ongoing), https://anthology.rhizome.org/mez-breeze; Graham Harwood, "Class Library," in *Software Studies* (2008); John Cayley, "The Code is not the Text (unless it is the Text)," *Electronic Book Review* (2002); Ian Hatcher, *The All-New* (2015). Small Press United, http://anomalouspress.org/books/all-new.php; Ian Hatcher, *Not not* (2016). https://soundcloud.com/ihatch/5-notnot; Daniel Temkin, *esoteric.codes* (2011), https://esoteric.codes/; Michael Mateas, and Nick Montfort, "A Box, Darkly: Obfuscation, weird languages, and code aesthetics," Proceedings of the 6th Digital Arts and Culture Conference, IT University of Copenhagen (2005): 144-153; Geoff Cox and Alex McLean, *Speaking Code: Coding as Aesthetic and Political Expression* (Cambridge, MA: MIT Press, 2013); Winnie Soon and Geoff Cox, "Vocable Code," *Artistic Research Will Eat Itself* (2018): 251-258; Zach Blas and Micha Cárdenas, "Imaginary Computational Systems: Queer Technologies and Transreal Aesthetics," *AI and Society*, 28, no.4 (2013): 559-566.https://doi.org/10.1007/s00146-013-0502-y
+[^examples]: Relevant to this discussion is what Donald Knuth calls "literate programming," a methodology that treats a program like a piece of literature, addressed to human beings rather than to a computer. For more on this, see Donald Knuth's "Literate Programming," *The Computer Journal* 27, no.2 (1984): 97–111, <https://academic.oup.com/comjnl/article/27/2/97/343244>; <https://doi.org/10.1093/comjnl/27.2.97.> Further examples might include those by Mez Breeze (1994), Florian Cramer (2008), John Cayley (2002), Geoff Cox & Alex McLean (2013), Winnie Soon & Geoff Cox (2018), Ian Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015), to name only a few.
+See: Allison Parrish (2015) <https://vimeo.com/134734729>; Florian Cramer, Language in Software Studies (2008); Mez Breeze, MEZANGELLE (1994-ongoing), <https://anthology.rhizome.org/mez-breeze>; Graham Harwood, "Class Library," in *Software Studies* (2008); John Cayley, "The Code is not the Text (unless it is the Text)," *Electronic Book Review* (2002); Ian Hatcher, *The All-New* (2015). Small Press United, <http://anomalouspress.org/books/all-new.php>; Ian Hatcher, *Not not* (2016). <https://soundcloud.com/ihatch/5-notnot>; Daniel Temkin, *esoteric.codes* (2011), <https://esoteric.codes/>; Michael Mateas, and Nick Montfort, "A Box, Darkly: Obfuscation, weird languages, and code aesthetics," Proceedings of the 6th Digital Arts and Culture Conference, IT University of Copenhagen (2005): 144-153; Geoff Cox and Alex McLean, *Speaking Code: Coding as Aesthetic and Political Expression* (Cambridge, MA: MIT Press, 2013); Winnie Soon and Geoff Cox, "Vocable Code," *Artistic Research Will Eat Itself* (2018): 251-258; Zach Blas and Micha Cárdenas, "Imaginary Computational Systems: Queer Technologies and Transreal Aesthetics," *AI and Society*, 28, no.4 (2013): 559-566. <https://doi.org/10.1007/s00146-013-0502-y>
 
-[^execute]: Roopika Risam, *The Poetry of Executable Code* (2015), http://jacket2.org/commentary/poetry-executable-code.
+[^execute]: Roopika Risam, *The Poetry of Executable Code* (2015), <http://jacket2.org/commentary/poetry-executable-code>.
 
-[^fonts]: At the same time, you can also find a lot of free and open source fonts to download online. See, for instance, https://www.1001freefonts.com/.
+[^fonts]: At the same time, you can also find a lot of free and open source fonts to download online. See, for instance, <https://www.1001freefonts.com/>.
 
 [^Chun]: Wendy Hui Kyong Chun, *Programmed Visions: Software and Memory* (Cambridge, MA: MIT Press, 2011), 45.
 
@@ -498,16 +498,16 @@ See: Allison Parrish (2015) https://vimeo.com/134734729; Florian Cramer, Languag
 
 [^Plant4]: Plant, *Zeros + Ones*, 102.
 
-[^wy]: See https://wy-lang.org/.
+[^wy]: See <https://wy-lang.org/>.
 
 [^cox2]: Cox, *Speaking Code*, 24.
 
 [^cox1]: Cox, *Speaking Code*, 17.
 
-[^constraints]: For a discussion around the constraint-based writing of *Vocable Code*, see Eva Heisler, "Winnie Soon, Time, Code, and Poetry," *Asymptote Journal*, Jan (2020), https://www.asymptotejournal.com/visual/winnie-soon-time-code-and-poetry/
+[^constraints]: For a discussion around the constraint-based writing of *Vocable Code*, see Eva Heisler, "Winnie Soon, Time, Code, and Poetry," *Asymptote Journal*, Jan (2020), <https://www.asymptotejournal.com/visual/winnie-soon-time-code-and-poetry/>
 
-[^callback]: See the `loadSound()` function that can be used as both `preload()` and callback, https://p5js.org/reference/#/p5/loadSound.
+[^callback]: See the `loadSound()` function that can be used as both `preload()` and callback, <https://p5js.org/reference/#/p5/loadSound>.
 
 [^master]: This has been discussed in Chapter 1, "Getting Started."
 
-[^winnie1]: Winnie Soon, "Vocable Code, *MAI: Feminism and Visual Culture* 2 (November 10, 2018), https://maifeminism.com/vocable-code/.
+[^winnie1]: Winnie Soon, "Vocable Code, *MAI: Feminism and Visual Culture* 2 (November 10, 2018), <https://maifeminism.com/vocable-code/>.

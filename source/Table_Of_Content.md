@@ -148,4 +148,4 @@ page_order: -2
 ## Chapter 11: Afterword: Recurrent Imaginaries
 
 ## Indexing
-reference to: https://monoskop.org/media/text/? and Linda's work in Exe practice
+reference to: <https://monoskop.org/media/text/?> and Linda's work in Exe practice

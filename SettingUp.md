@@ -5,7 +5,7 @@
 git --version
 ```
 
-2. If not, then download git here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+2. If not, then download git here: <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>
 
 ### Create a work local directory and setting up the remote directory
 1. Create a working folder
@@ -26,7 +26,7 @@ git config --global user.email "your_email_address@example.com"
 1. Download/Pull the specific respository  
 ```
 //if you are using your own git, please check your path
-git pull https://gitlab.com/siusoon/Aesthetic_Programming_Book.git
+git pull <https://gitlab.com/siusoon/Aesthetic_Programming_Book.git>
 ```
 
 ### Updated files and Push to git respository
@@ -50,7 +50,7 @@ git commit -m "Your own description"
 3. Upload/Push the files to the right respository 
 ```
 //if you are using your own git, please check your path
-git push --set-upstream https://gitlab.com/siusoon/Aesthetic_Programming_Book.git master
+git push --set-upstream <https://gitlab.com/siusoon/Aesthetic_Programming_Book.git> master
 ```
 
 ### Other useful commmands

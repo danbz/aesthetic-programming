@@ -58,7 +58,7 @@ Additionally we use Gitlab as our code and text respository, at least for this b
 
 #### Code editor
 ATOM is used as the code editor for this book. It supports cross-platform editing and can be run on Mac OS, Windows and Linux.
-1. Download the software ATOM from the homepage: https://atom.io/
+1. Download the software ATOM from the homepage: <https://atom.io/>
 2. Drag the "p5" folder that you have just unzipped into ATOM. You should be able to see the left-hand pane with your project. Try to navigate to the "index.html" file under the "empty-example" folder, double click that file and the source code should display on the right-hand pane. See below:
 
 ![](ch1_4.png)
@@ -245,18 +245,18 @@ Make a RUNME and a README.
 - Nick Montfort, "Appendix A: Why Program?" *Exploratory Programming For the Arts and Humanities* (Cambridge, Mass.: MIT Press, 2016), 267-277.
 - Annette Vee, "Coding for Everyone and the Legacy of Mass Literacy," *Coding Literacy: How Computer Programming Is Changing Writing* Cambridge, Mass.: MIT Press, 2017), 43-93.
 - Lauren McCarthy, [Learning While Making P5.JS](https://www.youtube.com/watch?v=1k3X4DLDHdc), OPENVIS Conference (2015).
-- Daniel Shiffman, 1.1: Code! Programming with p5.js [online] (2018). Available at https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2.
-- p5.js. p5.js | get started. Available at: https://p5js.org/get-started/.
+- Daniel Shiffman, 1.1: Code! Programming with p5.js [online] (2018). Available at <https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2>.
+- p5.js. p5.js | get started. Available at: <https://p5js.org/get-started/>.
 
 ## Notes
 
-[^STEM]: Having programming skills has become a prerequisite in education and business globally. See, for instance, https://ec.europa.eu/digital-single-market/en/coding-21st-century-skill and https://news.microsoft.com/apac/features/coding-way-brighter-future-2018-beyond/. The opening up of programming beyond specialized disciplines, the so-called "STEM" subjects, sets the conditions for what we refer to as *aesthetic programming*.
+[^STEM]: Having programming skills has become a prerequisite in education and business globally. See, for instance, <https://ec.europa.eu/digital-single-market/en/coding-21st-century-skill> and <https://news.microsoft.com/apac/features/coding-way-brighter-future-2018-beyond/>. The opening up of programming beyond specialized disciplines, the so-called "STEM" subjects, sets the conditions for what we refer to as *aesthetic programming*.
 
 [^Hall]: We are thinking of Stuart Hall's essay "Encoding/Decoding" in which he argues that people can play an active role in decoding messages, in Stuart Hall et al, eds. *Culture, Media, Language* (London: Hutchison, 1980), 128-38.
 
-[^Vee]: Annette Vee, *Coding Literacy: How computer programing is changing writing* (Cambridge, MA: MIT Press, 2017), 4. Beyond coding literacy, we can also observe other kinds of literacy in mainstream media, policy making, and academic discourse, such as procedural, data and digital literacy. See Ian Bogost, "Procedural Literacy: Problem Solving with Programming, Systems, & Play," *The Journal of Media Literacy* 52, no. 1-2 (2015); Michael Mateas, "Procedural Literacy: Educating the New Media Practitioner," *On the Horizon. Special issue. Future of Games, Simulations and Interactive Media in Learning Contexts* 13, no.1 (2005); Annette N. Markham, “Taking Data Literacy to the Streets: Critical Pedagogy in the Public Sphere," *Qualitative Inquiry* (August 2019). doi:10.1177/1077800419859024; Teressa Umali, "Exclusive: Promoting Digital Literacy in the Philippine Education System," *OpenGov Asia*, available at  https://www.opengovasia.com/promoting-digital-literacy-in-the-philippine-education-system/.
+[^Vee]: Annette Vee, *Coding Literacy: How computer programing is changing writing* (Cambridge, MA: MIT Press, 2017), 4. Beyond coding literacy, we can also observe other kinds of literacy in mainstream media, policy making, and academic discourse, such as procedural, data and digital literacy. See Ian Bogost, "Procedural Literacy: Problem Solving with Programming, Systems, & Play," *The Journal of Media Literacy* 52, no. 1-2 (2015); Michael Mateas, "Procedural Literacy: Educating the New Media Practitioner," *On the Horizon. Special issue. Future of Games, Simulations and Interactive Media in Learning Contexts* 13, no.1 (2005); Annette N. Markham, “Taking Data Literacy to the Streets: Critical Pedagogy in the Public Sphere," *Qualitative Inquiry* (August 2019). doi:10.1177/1077800419859024; Teressa Umali, "Exclusive: Promoting Digital Literacy in the Philippine Education System," *OpenGov Asia*, available at  <https://www.opengovasia.com/promoting-digital-literacy-in-the-philippine-education-system/>.
 
-[^Cayley]: John Cayley, "The Code is Not the Text Unless it is the Text," *Electronic Book Review* (2002), available at http://electronicbookreview.com/essay/the-code-is-not-the-text-unless-it-is-the-text/, see also Katherine Hayles, *Writing Machines* (Cambridge, MA: MIT Press, 2002).
+[^Cayley]: John Cayley, "The Code is Not the Text Unless it is the Text," *Electronic Book Review* (2002), available at <http://electronicbookreview.com/essay/the-code-is-not-the-text-unless-it-is-the-text/,> see also Katherine Hayles, *Writing Machines* (Cambridge, MA: MIT Press, 2002).
 
 [^Vee2]: Vee, *Coding Literacy: How computer programing is changing writing*, 45-58.
 
@@ -266,55 +266,55 @@ Make a RUNME and a README.
 
 [^Severance]: Charles Severance, "Javascript: Designing a Language in 10 Days," *IEEE Computer Society*, February (2012), 7-8.
 
-[^Clark]: Lin Clark who works at Mozilla and turns code into cartoons. Here she explains how JavaScript is run in the browser, see https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/.
+[^Clark]: Lin Clark who works at Mozilla and turns code into cartoons. Here she explains how JavaScript is run in the browser, see <https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/>.
 
-[^Moon]: Seong-Won Lee and Soo-Mook Moon, "Selective Just-in-time Compilation for Client-side Mobile JavaScript Engine", in *Proceedings of the 14th International Conference on Compilers, Architectures and Synthesis for Embedded Systems (CASES '11)* (New York: ACM, 2011), 5-14. DOI: https://doi.org/10.1145/2038698.2038703
+[^Moon]: Seong-Won Lee and Soo-Mook Moon, "Selective Just-in-time Compilation for Client-side Mobile JavaScript Engine", in *Proceedings of the 14th International Conference on Compilers, Architectures and Synthesis for Embedded Systems (CASES '11)* (New York: ACM, 2011), 5-14. DOI: <https://doi.org/10.1145/2038698.2038703>
 
-[^IDE]: IDE is a software application that provides a more comprehensive and integrated environment for software development. It usually consists of a source code editor, build automation tools and a debugger. In this book we use ATOM as the code editor, but it requires another tool for debugging such as a browser's web console. One example of IDE would be Processing, an open source, standalone application built for the visual and electronic art communities. See https://en.wikipedia.org/wiki/Integrated_development_environment.
+[^IDE]: IDE is a software application that provides a more comprehensive and integrated environment for software development. It usually consists of a source code editor, build automation tools and a debugger. In this book we use ATOM as the code editor, but it requires another tool for debugging such as a browser's web console. One example of IDE would be Processing, an open source, standalone application built for the visual and electronic art communities. See <https://en.wikipedia.org/wiki/Integrated_development_environment>.
 
-[^JVM]: JVM refers to a virtual environment in a machine (usually a computer) that can run and execute programs in the form of Java bytecode written in programming languages such as Java. JVM performs operations such as loading, verifying, executing code and offers a runtime environment. See https://en.wikipedia.org/wiki/Java_virtual_machine.
+[^JVM]: JVM refers to a virtual environment in a machine (usually a computer) that can run and execute programs in the form of Java bytecode written in programming languages such as Java. JVM performs operations such as loading, verifying, executing code and offers a runtime environment. See <https://en.wikipedia.org/wiki/Java_virtual_machine>.
 
-[^Minecraft]: See https://minecraft.gamepedia.com/Development_resources.
+[^Minecraft]: See <https://minecraft.gamepedia.com/Development_resources>.
 
 [^Papert]: A concept was first formulated by mathematician, computer scientist, and educator Seymour Papert who was an MIT Professor and created the design principle for a programming language called Logo. See Seymour Papert, *Mindstorms: Children, Computers, and Powerful Ideas* (New York: Basic Books, 1980).
 
 [^Processing]: See Processing.org.
 
-[^McCarthy]: Lauren McCarthy, "P5js Diversity & Floss Panel Introduction" (2015). Video available at http://opentranscripts.org/transcript/p5js-diversity-floss-panel-introduction/.
+[^McCarthy]: Lauren McCarthy, "P5js Diversity & Floss Panel Introduction" (2015). Video available at <http://opentranscripts.org/transcript/p5js-diversity-floss-panel-introduction/>.
 
-[^Chinese]: p5.js is now available in Spanish, see Maya Man, *Processing Foundation* (2016), available at https://medium.com/processing-foundation/p5-js-is-now-available-in-spanish-3d1eab9dffa0; see also Kenneth Lim, Chinese Translation for p5.js and preparing a future of more translations (2018), available at https://medium.com/processing-foundation/chinese-translation-for-p5-js-and-preparing-a-future-of-more-translations-b56843ea096e.
+[^Chinese]: p5.js is now available in Spanish, see Maya Man, *Processing Foundation* (2016), available at <https://medium.com/processing-foundation/p5-js-is-now-available-in-spanish-3d1eab9dffa0>; see also Kenneth Lim, Chinese Translation for p5.js and preparing a future of more translations (2018), available at <https://medium.com/processing-foundation/chinese-translation-for-p5-js-and-preparing-a-future-of-more-translations-b56843ea096e>.
 
 [^Jin]: Such a series with a focus on diversity within code+art and placed under the subdomain of p5.js, created and curated by Chelly Jin, diversity.p5js.org.
 
-[^UX]: A UX-research project by Claire Kearney-Volpe, https://www.clairekv.com/p5js-ux-research.
+[^UX]: A UX-research project by Claire Kearney-Volpe, <https://www.clairekv.com/p5js-ux-research>.
 
-[^Choi]: A project by artist and educator Taeyoon Choi, http://taeyoonchoi.com/soft-care/signing-coders/.
+[^Choi]: A project by artist and educator Taeyoon Choi, <http://taeyoonchoi.com/soft-care/signing-coders/>.
 
-[^Atom]: https://atom.io/.
+[^Atom]: <https://atom.io/>.
 
-[^p5js]: p5.js download page, https://p5js.org/download/.
+[^p5js]: p5.js download page, <https://p5js.org/download/>.
 
-[^sound]: https://p5js.org/reference/#/libraries/p5.sound.
+[^sound]: <https://p5js.org/reference/#/libraries/p5.sound>.
 
-[^liveserver]: https://atom.io/packages/atom-live-server.
+[^liveserver]: <https://atom.io/packages/atom-live-server>.
 
-[^print]: https://p5js.org/reference/#/p5/print.
+[^print]: <https://p5js.org/reference/#/p5/print>.
 
 [^Chun2]: Wendy Hui Kyong Chun and Andrew Lison argue the first "Hello World" program we learn is enjoyable and seductive. We will say more about this in the following chapter. See Wendy Hui Kyong Chun and Andrew Lison, "Fun is a Battlefield: Software between Enjoyment and Obsession," in Olga Goriunova, ed., *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing* (New York, London: Bloomsbury, 2014), 180.
 
-[^Hello]: *hallo welt! (hello world!)* was a collaboration between Geoff Cox and Duncan Shingleton, see http://www.anti-thesis.net/hello-world-60/.
+[^Hello]: *hallo welt! (hello world!)* was a collaboration between Geoff Cox and Duncan Shingleton, see <http://www.anti-thesis.net/hello-world-60/>.
 
 [^Babel]: *The Tower of Babel*, designed to reach heaven, displeased God such that "he" decided to confound the single language of Adam so that people would not understand each other’s speech (*Genesis* 2:19 & 11:1-9). Subsequently everyone is left to "babble" in a diversity of languages the so-called confusion of tongues. The code expresses this confusion, but also invokes free speech, allowing the web browser to "speak" through software according to what it is said/written. "It is both a computer-readable notation of logic and a representation of this process, both script and performance; and in this sense it is like spoken words" as Cox reminds us. See Geoff Cox, *Speaking Code: Coding as Aesthetic and Political Expression* (Cambridge, Mass: MIT Press, 2013), 3.
 
-[^Reference]: See https://p5js.org/reference/.
+[^Reference]: See <https://p5js.org/reference/>.
 
-[^ellipse]: See https://p5js.org/reference/#/p5/ellipse.
+[^ellipse]: See <https://p5js.org/reference/#/p5/ellipse>.
 
-[^Git]: This discussion is summarized at https://stackoverflow.com/questions/43959748/what-is-the-abbreviation-of-git.
+[^Git]: This discussion is summarized at <https://stackoverflow.com/questions/43959748/what-is-the-abbreviation-of-git>.
 
-[^GNUGPL]: See https://www.gnu.org/licenses/lgpl-3.0.txt.
+[^GNUGPL]: See <https://www.gnu.org/licenses/lgpl-3.0.txt>.
 
-[^Spender]: Foundational reading on this issue would be Dale Spender's *Man-Made Language* (1980), https://www.marxists.org/reference/subject/philosophy/works/ot/spender.htm.
+[^Spender]: Foundational reading on this issue would be Dale Spender's *Man-Made Language* (1980), <https://www.marxists.org/reference/subject/philosophy/works/ot/spender.htm>.
 
 [^Butler]: Judith Butler, *Excitable Speech: A Politics of the Performative* (London: Routledge, 1997).
 
@@ -330,18 +330,18 @@ Make a RUNME and a README.
 
 [^Kelty]: This point is largely derived from Kelty's *Two Bits*, which uses the phrase "running code" to describe the relationship between "argument-by-technology and argument-by-talk." See Christopher Kelty *Two Bits: the Cultural Significance of Free Software* (Durham: Duke University Press, 2008), 58. Clearly programmers are able to make arguments as people can in other rhetorical forms, see Kevin Brock, *Rhetorical Code Studies: Discovering Arguments in and around Code* (Ann Arbor, MN: University of Michigan Press, 2019).
 
-[^readme]: The readme file is structured in a markdown format with the file extension as ".md". It is a lightweight markup language supporting simple text formatting with special syntax. Files with this extension can be processed by GitLab and display in a more readable form visually on the web. For more about the syntax of writing in markdown, see: https://docs.gitlab.com/ee/user/markdown.html.
+[^readme]: The readme file is structured in a markdown format with the file extension as ".md". It is a lightweight markup language supporting simple text formatting with special syntax. Files with this extension can be processed by GitLab and display in a more readable form visually on the web. For more about the syntax of writing in markdown, see: <https://docs.gitlab.com/ee/user/markdown.html>.
 
-[^runme]: To run the JavaScript via GitLab on a web browser, you need to do some configuration in the repository before uploading any source code. A new file (.gitlab-ci.yml) is created in the root of the project repository, containing a set of jobs and their specifications that are required to run on GitLab. You can follow GitLab's guidelines (in terms of the code in the yml file as well as the use of repository as a website) here, https://gitlab.com/pages/plain-html/-/blob/master/README.md.
+[^runme]: To run the JavaScript via GitLab on a web browser, you need to do some configuration in the repository before uploading any source code. A new file (.gitlab-ci.yml) is created in the root of the project repository, containing a set of jobs and their specifications that are required to run on GitLab. You can follow GitLab's guidelines (in terms of the code in the yml file as well as the use of repository as a website) here, <https://gitlab.com/pages/plain-html/-/blob/master/README.md>.
 
-[^p5Community]: See https://github.com/processing/p5.js/wiki.
+[^p5Community]: See <https://github.com/processing/p5.js/wiki>.
 
-[^chun]: Chun politicizes the concept of software, and, in particular, she traces the history of automatic programming, the rise of the binary distinction between hard and software, as well as the erasure of gazes. See Wendy Hui Kyong Chun, “On Software, or the Persistence of Visual Knowledge,” *Grey Room* 18 (January 2005): 26–51. https://doi.org/10.1162/1526381043320741.
+[^chun]: Chun politicizes the concept of software, and, in particular, she traces the history of automatic programming, the rise of the binary distinction between hard and software, as well as the erasure of gazes. See Wendy Hui Kyong Chun, “On Software, or the Persistence of Visual Knowledge,” *Grey Room* 18 (January 2005): 26–51. <https://doi.org/10.1162/1526381043320741>.
 
 [^library]: A library is a collection of resource in the form of code containing programming functions and their details. Those functions can be used to develop software programs and applications.
 
-[^webeditor]: Processing Foundation has announced the official release of the p5.js Web Editor in 2018, which is an online platform for learning and running code, and it is easy to get started with no additional installation of software. See https://medium.com/processing-foundation/hello-p5-js-web-editor-b90b902b74cf.
+[^webeditor]: Processing Foundation has announced the official release of the p5.js Web Editor in 2018, which is an online platform for learning and running code, and it is easy to get started with no additional installation of software. See <https://medium.com/processing-foundation/hello-p5-js-web-editor-b90b902b74cf>.
 
-[^term]: Not before time many software communities have decided to stop using "master-slave," such as Django and Python, and have replaced with alternative terms. See, https://tools.ietf.org/id/draft-knodel-terminology-00.html#rfc.section.1.1 and Ron Eglash, "Broken Metaphor: The Master-Slave Analogy in Technical Literature," *Technology and Culture* 48, no.2 (2007): 360–69. https://doi.org/10.1353/tech.2007.0066.
+[^term]: Not before time many software communities have decided to stop using "master-slave," such as Django and Python, and have replaced with alternative terms. See, <https://tools.ietf.org/id/draft-knodel-terminology-00.html#rfc.section.1.1> and Ron Eglash, "Broken Metaphor: The Master-Slave Analogy in Technical Literature," *Technology and Culture* 48, no.2 (2007): 360–69. <https://doi.org/10.1353/tech.2007.0066>.
 
-[^class]: See, https://p5js.org/reference/#/p5/class.
+[^class]: See, <https://p5js.org/reference/#/p5/class>.

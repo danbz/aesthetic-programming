@@ -423,6 +423,7 @@ Referencing Martin Heidegger’s "being-in-time,"[^Heidegger] and human beings' 
 <div class="exercise" markdown="true">
 
 ## MiniX[3]: Designing a throbber
+
 **Objective:**
 
 - To reflect upon temporality in digital culture by designing a throbber icon.
@@ -435,7 +436,7 @@ Check out other works that refer to the throbber and how other people contextual
 - [Tanabata(七夕)](https://www.openprocessing.org/sketch/926326) by Yurika Sayo (with source code).
 - [LOADING (THE BEAST 6:66/20:09)](https://www.yugo.at/processing/archive/index.php?what=loading) by Gordan Savičić.
 - [The Best is Yet to Come](https://silviolorusso.com/work/the-best-is-yet-to-come/) by Silvio Lorusso, preloaders follow one another randomly and endlessly.
-- [DVD guy by Constant Dullaart](https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB), with the contextualization by Panke Gallery in Berlin http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin.
+- [DVD guy by Constant Dullaart](https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB), with the contextualization by Panke Gallery in Berlin <http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin>.
 - [Throb 2018/2019](http://siusoon.net/throb/) by Winnie Soon.
 
 **Task (RUNME):**
@@ -452,33 +453,34 @@ Check out other works that refer to the throbber and how other people contextual
 
 - Daniel Shiffman, Courses "3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2,"" *Code! Programming with p5.js* on [YouTube](https://www.youtube.com/watch?v=1Osb_iGDdjk) (2018). (practical usage on conditional statements, loops, functions, and arrays)
 - Wolfgang Ernst, *Chronopoetics: The Temporal Being and Operativity of Technological Media* (London: Rowman & Littlefield International, 2016), 63-95.
-- Close reading of the artwork *Asterisk Painting* by John P. Bell, ported to p5.js, and modified by Winnie Soon, https://editor.p5js.org/siusoon/sketches/YAk1ZCieC.
+- Close reading of the artwork *Asterisk Painting* by John P. Bell, ported to p5.js, and modified by Winnie Soon, <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
 
-## Notes:
+## Notes
+
 [^Hofstadter]: Further examples of paradox, recursion, and strange loops can be found in Douglas R. Hofstadter's' *Gödel, Escher, Bach: An Eternal Golden Braid* (New York: Basic Books, 1999).
 [^Ada]: For an account of "Note G," see Joasia Krysa's *Ada Lovelace* 100 Notes-100 Thoughts Documenta 13 (Berlin: Hatje Cantz Verlag, 2011).
-[^screensaver]: There is much we could add here also about screensavers as cultural form in the broader context of productive labor-time, and the attention economy. Alexandra Anikina's PhD *Procedural Films* (Goldsmiths, University of London, 2020) contains a chapter on the aesthetic form of screensavers in relation to the discussion of idle time/sleep, and cognitive labor; her lecture-performance *Chronic Film* from 2017 can be seen at http://en.mieff.com/2017/alexandra_anikina. See also Rafaël Rozendaal's installation *Sleep Mode: The Art of the Screensaver* at Het Nieuwe Instituut (2017), https://hetnieuweinstituut.nl/en/press-releases/sleep-mode-art-screensaver.
+[^screensaver]: There is much we could add here also about screensavers as cultural form in the broader context of productive labor-time, and the attention economy. Alexandra Anikina's PhD *Procedural Films* (Goldsmiths, University of London, 2020) contains a chapter on the aesthetic form of screensavers in relation to the discussion of idle time/sleep, and cognitive labor; her lecture-performance *Chronic Film* from 2017 can be seen at <http://en.mieff.com/2017/alexandra_anikina>. See also Rafaël Rozendaal's installation *Sleep Mode: The Art of the Screensaver* at Het Nieuwe Instituut (2017), <https://hetnieuweinstituut.nl/en/press-releases/sleep-mode-art-screensaver>.
 [^Kim]: Eugene Eric Kim and Betty Alexandra Toole, "Ada and the First Computer", *Scientific American* 280, no. 5 (1999), 78.
 [^throbber]: It is also interesting to note that the term "throbber" is a derogatory term derived from erect penis, not unlike git which was described in the opening chapter.
 [^Robinson]: Derek Robinson, "Function," in Matthew Fuller, ed. *Software Studies*, 101.
-[^ref]: https://p5js.org/reference/#/p5/frameCount.
-[^ref2]: To stick with the provided examples, we only offer two syntaxes related to transformation. Beyond `translate()` and `rotate()`, there are also other transform-related functions such as `scale()`, `shearX()`, `shearY()`. See https://p5js.org/reference/#group-Transform.
-[^ref3]: https://p5js.org/reference/#/p5/push.
-[^Bell]: http://www.johnpbell.com/asterisk-painting/.
-[^millis]: `millis()` is a p5.js syntax, returning the number of milliseconds since starting the program, similar to `frameCount` but counted in milliseconds, see https://p5js.org/reference/#/p5/millis.
+[^ref]: <https://p5js.org/reference/#/p5/frameCount>.
+[^ref2]: To stick with the provided examples, we only offer two syntaxes related to transformation. Beyond `translate()` and `rotate()`, there are also other transform-related functions such as `scale()`, `shearX()`, `shearY()`. See <https://p5js.org/reference/#group-Transform>.
+[^ref3]: <https://p5js.org/reference/#/p5/push>.
+[^Bell]: <http://www.johnpbell.com/asterisk-painting/>.>.
+[^millis]: `millis()` is a p5.js syntax, returning the number of milliseconds since starting the program, similar to `frameCount` but counted in milliseconds, see <https://p5js.org/reference/#/p5/millis>.
 [^Chrono]: Wolfgang Ernst, *Chronopoetics: The Temporal Being and Operativity of Technological Media* (London: Rowman & Littlefield International, 2016), 63-95.
 [^Chrono2]: Ernst, *Chronopoetics*, 63.
 [^Bergson]: For example, the philosopher Henri Bergson makes a qualitative distinction between lived "durational" time, and vulgar, or clock time, which flattens and deadens the experience of time. See Henri Bergson, *Matter and Memory* [1896] (New York: Zone Books, 1990).
-[^Ernst]: Wolfgang Ernst, “‘... Else Loop Forever’. The Untimeliness of Media” (2009). Available at https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf.
+[^Ernst]: Wolfgang Ernst, “‘... Else Loop Forever’. The Untimeliness of Media” (2009). Available at <https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf>.
 [^Turing]: Alan M. Turing, "On Computable Numbers, with an Application to the Entscheidungs problem," *Proceedings of the London Mathematical Society* 42 (1936/1937): 230–265.
 [^Ernst2]: Ernst, "‘... Else Loop Forever’. The Untimeliness of Media."
 [^End]: "The end of history" is a reference to Francis Fukuyama's *The End of History and the Last Man* (New York: Free Press, 1992), which proposes the ascendancy of Western liberal democracy after the dissolution of the Soviet Union, post-1989.
 [^Ernst3]: Ernst, "‘... Else Loop Forever’. The Untimeliness of Media."
-[^Heidegger]: Martin Heidegger, *Being in Time* (1927). For a useful summary, see https://plato.stanford.edu/entries/heidegger/#BeiTim.
+[^Heidegger]: Martin Heidegger, *Being in Time* (1927). For a useful summary, see <https://plato.stanford.edu/entries/heidegger/#BeiTim>.
 [^Ernst4]: Ernst, "‘... Else Loop Forever’. The Untimeliness of Media."
 [^livecoding]: See forthcoming Alan Blackwell, Emma Cocker, Geoff Cox, Thor Magnussen, Alex McLean, *Live Coding: A User's Manual* (publisher and date unknown).
-[^soon]: Winnie Soon, "Throbber: Executing Micro-temporal Streams," *Computational Culture* 7 (October 21, 2019), http://computationalculture.net/throbber-executing-micro-temporal-streams/.
+[^soon]: Winnie Soon, "Throbber: Executing Micro-temporal Streams," *Computational Culture* 7 (October 21, 2019), <http://computationalculture.net/throbber-executing-micro-temporal-streams/>.
 [^soon2]: Soon, "Throbber."
-[^modulo]: Artist Golan Levin has given an online tutorial on modulo operator as part of The Coding Train series, see: https://www.youtube.com/watch?v=r5Iy3v1co0A.
-[^push]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
-[^splice]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+[^modulo]: Artist Golan Levin has given an online tutorial on modulo operator as part of The Coding Train series, see: <https://www.youtube.com/watch?v=r5Iy3v1co0A>.
+[^push]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push>
+[^splice]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice>

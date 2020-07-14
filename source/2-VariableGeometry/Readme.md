@@ -314,11 +314,14 @@ Snelting is looking for other geometries that can escape normative configuration
 The challenge is to rethink normative geometries, to turn them upside down and inside out. Herein lies the challenge of the chapter, to escape geometric overcoding and to develop alternatives. Having fun with programming in this sense is the ability to modify forms and to diverge from established rules. When it comes to programming, the rules can be applied differently, adapted or modified, and even transformed altogether.
 
 ## MiniX[2]: Geometric emoji
+
 **Objective:**
+
 - To experiment with various geometric drawing methods, to explore alternatives, particularly with regard to shapes and drawing with colors.
 - To reflect on the politics/aesthetics of emojis on the basis of the assigned texts.
 
 **For additional inspiration:**
+
 - [Chinese Characters as Ancient Emoji](https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/)[^Witt] by Steve Witt.
 - [Women finally get a menstruation emoji](https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji)[^Grot] by Michael Grothaus.
 - [Between Art and Application: Special issue on emoji epistemoloy by Crystal Abidin and Joel Gn](https://firstmonday.org/ojs/index.php/fm/article/view/9410)[^Abidin] (a short text about emoji culture)
@@ -333,43 +336,43 @@ Explore shapes, geometries, and other related syntax (via p5.js [references](htt
 
 ## Required reading:
 - Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, [Modifying the Universal,](http://www.data-browser.net/db06.html) *Executing Practices*, Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, eds. (London: Open Humanities Press, 2018), 35-51.
-- p5.js. p5.js | Simple Shapes. [Web] Available at: https://p5js.org/examples/hello-p5-simple-shapes.html.
-- Shiffman, Daniel. (2018) "1.3,1.4,2.1,2.2: Code! Programming with p5.js." Available at: https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2.
-- Femke Snelting, "Other Geometries," *transmediale journal*, Issue#3, 31 October (2019), https://transmediale.de/content/other-geometries.
+- p5.js. p5.js | Simple Shapes. [Web] Available at: <https://p5js.org/examples/hello-p5-simple-shapes.html>.
+- Shiffman, Daniel. (2018) "1.3,1.4,2.1,2.2: Code! Programming with p5.js." Available at: <https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2>.
+- Femke Snelting, "Other Geometries," *transmediale journal*, Issue#3, 31 October (2019), <https://transmediale.de/content/other-geometries>.
 
 ## Notes
 
-[^Fun]: Linus Torvalds and David Diamond, *Just for Fun: The Story of an Accidental Revolutionary* (Knutsford: Texere Publishing, 2001), see http://en.wikipedia.org/wiki/Just_for_Fun. Other examples include Jeremy Gibbons and Oege de Moor, *The Fun of Programming* (London: Palgrave Macmillan, 2003).
+[^Fun]: Linus Torvalds and David Diamond, *Just for Fun: The Story of an Accidental Revolutionary* (Knutsford: Texere Publishing, 2001), see <http://en.wikipedia.org/wiki/Just_for_Fun>. Other examples include Jeremy Gibbons and Oege de Moor, *The Fun of Programming* (London: Palgrave Macmillan, 2003).
 
 [^Fun2]: See the children's book: Vicky Owyang Chan, *Geometry Is Fun For Me* (Dog Ear Publishing, 2017).
 
 [^Olga]: Olga Goriunova, *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing* (New York, London: Bloomsbury, 2014), 4.
 
-[^Femke]: Femke Snelting, "Other Geometries," *transmediale journal* 3 (October 31, 2019, https://transmediale.de/content/other-geometries.
+[^Femke]: Femke Snelting, "Other Geometries," *transmediale journal* 3 (October 31, 2019, <https://transmediale.de/content/other-geometries>.
 
 [^Emojis]: Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, "[Modifying the Universal](http://www.data-browser.net/db06.html)," *Executing Practices*, Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, eds. (London: Open Humanities Press, 2018), 35-51. Other references include: Crystal Abidin and Joel Gn, "Between Art and Application: Special Issue on Emoji Epistemology," *First Monday* 23, no. 9 (September 3, 2018); Luke Stark, "Facial recognition, emotion and race in animated social media," *First Monday* 23, no. 9 (September 2018), 3; Miriam E Sweeney and Kelsea Whaley, "Technically White: Emoji Skin-tone Modifiers as American Technoculture," *First Monday* 24, no. 7 (1 July 1, 2019).
 
-[^Unicode]: See https://en.wikipedia.org/wiki/Unicode#Origin_and_development.
+[^Unicode]: See <https://en.wikipedia.org/wiki/Unicode#Origin_and_development>.
 
-[^almoji]: The project employs a machine learning algorithm and use the dataset of 3145 existing emojis as the input data to generate various uncanny emoji patterns. See https://process.studio/works/aimoji-ai-generated-emoji/. The project featured as part of the exhibition *Uncanny Values*, Vienna Biennale (2019), https://process.studio/works/uncanny-values/. We discuss machine learning in more detail in chapter 10.
+[^almoji]: The project employs a machine learning algorithm and use the dataset of 3145 existing emojis as the input data to generate various uncanny emoji patterns. See <https://process.studio/works/aimoji-ai-generated-emoji/>. The project featured as part of the exhibition *Uncanny Values*, Vienna Biennale (2019), <https://process.studio/works/uncanny-values/>. We discuss machine learning in more detail in chapter 10.
 
-[^Telegraph]: See https://www.telegraph.co.uk/technology/2016/07/15/new-gender-equality-emoji-to-show-women-at-work/.
+[^Telegraph]: See <https://www.telegraph.co.uk/technology/2016/07/15/new-gender-equality-emoji-to-show-women-at-work/>.
 
 [^ideology]: Abbing, Pierrot and Snelting, *Modifying the Universal*, 210.
 
-[^multi]: See http://www.o-r-g.com/apps/multi. *Multi* also provides variations of book covers for the DATA browser series published by Open Humanities Press, http://www.data-browser.net/.
+[^multi]: See <http://www.o-r-g.com/apps/multi>. *Multi* also provides variations of book covers for the DATA browser series published by Open Humanities Press, <http://www.data-browser.net/>.>.
 
 [^binarycolor]: Red, Green and Blue are the so-called primary colors that, when added together, produce a broad array of colors. RGB color values range from 0 to 255 with a total of 256 possible values for each primary color. The reason behind is that all the colors are in 24 bit format, the red (R) takes 8 bit, the green (G) takes 8 bit and the blue (B) takes the remaining 8 bits. 2 binary values are stored for each bit, therefore 2^8th power is 256 which is the exact possible range of each color. The RGB system is closely related to the nature of computation in a binary system.
 
-[^random]: See p5.js random reference at https://p5js.org/reference/#/p5/random.
+[^random]: See p5.js random reference at <https://p5js.org/reference/#/p5/random>.
 
-[^let]: `let` is introduced in ES6 (ECMAScript- scripting language specification standardization) to declare a variable, although `var` is still commonly used. The difference between the two is that let is block scoped, while var is function scoped. When it comes to let; if the same variable is declared both globally and locally, the local value will be restricted to the specific block of code and won't be overridden. For more on the distinction, see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var and https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let.
+[^let]: `let` is introduced in ES6 (ECMAScript- scripting language specification standardization) to declare a variable, although `var` is still commonly used. The difference between the two is that let is block scoped, while var is function scoped. When it comes to let; if the same variable is declared both globally and locally, the local value will be restricted to the specific block of code and won't be overridden. For more on the distinction, see <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var> and <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let>.
 
-[^color]: See p5.js color reference, https://p5js.org/reference/#/p5/color.
+[^color]: See p5.js color reference, <https://p5js.org/reference/#/p5/color>.
 
-[^Emojis2]: See https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/.
+[^Emojis2]: See <https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/>.
 
-[^playground]: See the tool p5.playground developed by Yining Shi, https://1023.io/p5-inspector/.
+[^playground]: See the tool p5.playground developed by Yining Shi, <https://1023.io/p5-inspector/>.
 
 [^DG]: Gilles Deleuze and Félix Guattari, *A Thousand Plateaus: Capitalism and Schizophrenia* (Minneapolis: University of Minnesota Press, 1987), 178.
 
@@ -377,14 +380,14 @@ Explore shapes, geometries, and other related syntax (via p5.js [references](htt
 
 [^Snelting2]: Snelting, "Other Geometries."
 
-[^Blas]: The series of works *Facial Weaponization Suite* exposes some of the inequalities associated with biometric facial recognition by making collective masks, including *Fag Face Mask* a response to scientific studies that say they can determine sexual orientation through rapid facial recognition techniques, and another mask that explores the inability of biometric technologies to detect dark skin. See http://www.zachblas.info/works/facial-weaponization-suite/.
+[^Blas]: The series of works *Facial Weaponization Suite* exposes some of the inequalities associated with biometric facial recognition by making collective masks, including *Fag Face Mask* a response to scientific studies that say they can determine sexual orientation through rapid facial recognition techniques, and another mask that explores the inability of biometric technologies to detect dark skin. See <http://www.zachblas.info/works/facial-weaponization-suite/>.
 
 [^Tsing]: Anna Lowenhaupt Tsing, *The Mushroom at the End of the World: On the Possibility of Life in Capitalist Ruins* (Princeton, NJ: Princeton University Press, 2017).
 
-[^Witt]: Steve Witt, "Chinese Characters as Ancient 'Emoji'," *Glocal Notes* (2015), https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/.
+[^Witt]: Steve Witt, "Chinese Characters as Ancient 'Emoji'," *Glocal Notes* (2015), <https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/>.
 
-[^Grot]: Michael Grothaus, "Women Finally Get a Menstruation Emoji," *Fastcompany* (2019), https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji.
+[^Grot]: Michael Grothaus, "Women Finally Get a Menstruation Emoji," *Fastcompany* (2019), <https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji>.
 
 [^Abidin]: Abidin and Gn, "Between Art and Application."
 
-[^chun]: Chun discusses symbolic programming languages that (as higher-level languages) hide the computational process. This both empowers users to create, but conversely mystifies the inner workings of machines. Here variables are some of the many examples that computer operations abstract. We will discuss this in Chapter 6, "Object Abstraction". See Wendy Hui Kyong Chun, “On Software, or the Persistence of Visual Knowledge,” *Grey Room* 18 (January 2005): 38, https://doi.org/10.1162/1526381043320741.
+[^chun]: Chun discusses symbolic programming languages that (as higher-level languages) hide the computational process. This both empowers users to create, but conversely mystifies the inner workings of machines. Here variables are some of the many examples that computer operations abstract. We will discuss this in Chapter 6, "Object Abstraction". See Wendy Hui Kyong Chun, “On Software, or the Persistence of Visual Knowledge,” *Grey Room* 18 (January 2005): 38, <https://doi.org/10.1162/1526381043320741>.

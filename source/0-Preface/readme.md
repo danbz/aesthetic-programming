@@ -69,7 +69,7 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 
 [^instructions]: The casual address "for dummies" could also be used but this carries the unfortunate connotation of learning disability so we have dropped from our body text.
 
-[^useful]: "Useful" in the way we write software. Here we refer to nonstandard literacy, such as in the article: Marilyn M. Cooper, "Really Useful Knowledge: A Cultural Studies Agenda for Writing Centers," *The Writing Center Journal* 14, no. 2 (Spring 1994): 97-111, https://www.jstor.org/stable/43441948.
+[^useful]: "Useful" in the way we write software. Here we refer to nonstandard literacy, such as in the article: Marilyn M. Cooper, "Really Useful Knowledge: A Cultural Studies Agenda for Writing Centers," *The Writing Center Journal* 14, no. 2 (Spring 1994): 97-111, <https://www.jstor.org/stable/43441948>.
 
 [^ct]: Seymour Papert's influential book *Mindstorms* from 1980 introduced computing to children's learning. He coined the term "computuational thinking" to emphasize the practice of constructing procedures with the early programming language Logo (which does not simply use software as a tool), aiming to bridge the gap between mathematics, the culture of science and education as well as social critique. Donald Knuth made the concept of literacy more apparent in the book *Literate Programming* and considered a program literature which involves viewing programming languages as natural languages for human readers. In recent years the notion of computational thinking was also picked up by scholars in the field software studies, such as David Berry, Matthew Fuller, Nick Montfort and Annette Vee. See Seymour Papert, *Mindstorms; Children, Computers and Powerful Ideas* (New York: Basic Books, 1980); Donald Ervin Knuth, *Literate Programming* CSLI Lecture Notes, no. 27 (Stanford, CA: Center for the Study of Language and Information, 1992); Jeannette M. Wing, "Computational Thinking," *Commun. ACM* 49, no. 3 (March 2006): 33–35; Michael, Mateas, "Procedural Literacy: Educating the New Media Practitioner," *Horizon* 13, no. 2 (June 1, 2005): 101–11; David M. Berry, and Anders Fagerjord, *Digital Humanities: Knowledge and Critique in a Digital Age* (Hoboken, NJ: John Wiley & Sons, 2017); Matthew Fuller, *How to be a Geek: Essays on the Culture of Software* (Cambridge: Polity Press, 2017); Nick Montfort, *Exploratory Programming for the Arts and Humanities* (Cambridge, MA: MIT Press, 2016); Annette Vee, *Coding Literacy: How Computer Programming Is Changing Writing* (Cambridge, MA: MIT Press, 2017).
 
@@ -87,50 +87,50 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 
 [^Adorno]: Adorno says it better: "A successful work of art, according to immanent criticism, is one that resolves objective contradictions in a spurious harmony, but one expresses the idea of harmony negatively by embodying the contradictions, pure and uncompromised, in its innermost structure" (Adorno, in *Prisms* (1967), 32; quoted in Jay, *Aesthetic Theory*, 179).
 
-[^Chun]: Chun has studied both Systems Design Engineering and English Literature, which she combines and mutates in her current work, see https://en.wikipedia.org/wiki/Wendy_Hui_Kyong_Chun.
+[^Chun]: Chun has studied both Systems Design Engineering and English Literature, which she combines and mutates in her current work, see <https://en.wikipedia.org/wiki/Wendy_Hui_Kyong_Chun>.
 
 [^Williams]: Fuller, ed. *Software Studies*; Raymond Williams, *Keywords: A Vocabulary of Culture and Society* (London: Fontana, 1983); updated by Blackwell in 2005 as *New Keywords: A Revised Vocabulary of Culture and Society*.
 
-[^ss]: The project workshop description an be found archived at https://web.archive.org/web/20100327185154/http://pzwart.wdka.hro.nl/mdr/Seminars2/softstudworkshop.
+[^ss]: The project workshop description an be found archived at <https://web.archive.org/web/20100327185154/http://pzwart.wdka.hro.nl/mdr/Seminars2/softstudworkshop>.
 
 [^Readme]: We were highly influenced by the series of *Readme* festivals that promoted the artistic and experimental practice of software, which took place at the Marcros-Center in Moscow (2002), Media Centre Lume in Helsinki (2003), Aarhus University and Rum46 in Aarhus (2004), and HMKV in Dortmund (2005). The associated software art repository Runme.org was established in 2003, and many participants and people who submitted their works did not necessarily call themselves artists. Indeed the category of art in itself becomes inadequate to cover the kinds of creatives practices that have developed in the field.
 
-[^codestudies]: The field Critical Code Studies (CCS) makes this explicit, promoting the examination of source code as a cultural object for critical analysis. As Mark Marino suggests that CCS pays attention to code as textual materials and its main argument is that code itself can be considered as a "cultural text worthy of analysis and rich with possibilities for interpretation", and furthermore, code allows one to reflect "on the relations between the code itself, the coding architecture, the functioning of code, and specific programming choices or expressions, to that which it acts upon, outputs, processes, and represents". See Mark C. Marino, “[Critical Code Studies](https://electronicbookreview.com/essay/critical-code-studies/)”, *Electronic Book Review* (December 4, 2006); "Field Report for Critical Code Studies," *Computational Culture* 4 (9th November 2014), http://computationalculture.net/field-report-for-critical-code-studies-2014%e2%80%a8/; Mark C. Marino, *Critical Code Studies* (Cambridge, MA: MIT Press, 2020).
+[^codestudies]: The field Critical Code Studies (CCS) makes this explicit, promoting the examination of source code as a cultural object for critical analysis. As Mark Marino suggests that CCS pays attention to code as textual materials and its main argument is that code itself can be considered as a "cultural text worthy of analysis and rich with possibilities for interpretation", and furthermore, code allows one to reflect "on the relations between the code itself, the coding architecture, the functioning of code, and specific programming choices or expressions, to that which it acts upon, outputs, processes, and represents". See Mark C. Marino, “[Critical Code Studies](https://electronicbookreview.com/essay/critical-code-studies/)”, *Electronic Book Review* (December 4, 2006); "Field Report for Critical Code Studies," *Computational Culture* 4 (9th November 2014), <http://computationalculture.net/field-report-for-critical-code-studies-2014%e2%80%a8/>; Mark C. Marino, *Critical Code Studies* (Cambridge, MA: MIT Press, 2020).
 
 [^Cox]: Geoff Cox, "Generator: The Value of Software Art," in Judith Rugg and Michelle Sedgwick, eds., *Issues in Curating Contemporary Art and Performance* (Bristol: Intellect), 150.
 
-[^OHP]: For more on Open Humanities Press, see https://openhumanitiespress.org/.
+[^OHP]: For more on Open Humanities Press, see <https://openhumanitiespress.org/>.
 
-[^dok]: dokieli is a client side editor for decentralized article publishing, annotations and social interactions, see https://dokie.li/.
+[^dok]: dokieli is a client side editor for decentralized article publishing, annotations and social interactions, see <https://dokie.li/>.
 
-[^devdocs]: See https://jupyter.org/ and https://devdocs.io/javascript/.
+[^devdocs]: See <https://jupyter.org/> and <https://devdocs.io/javascript/>.
 
-[^OSP]: For more on Open Source Publishing (OSP), see http://osp.kitchen/about. We are interested in this approach as it somewhat breaks down the divisions of labor associated with traditional publishing in which writing, editing, and designing, and the people that perform these tasks, are distanced from each other.
+[^OSP]: For more on Open Source Publishing (OSP), see <http://osp.kitchen/about>. We are interested in this approach as it somewhat breaks down the divisions of labor associated with traditional publishing in which writing, editing, and designing, and the people that perform these tasks, are distanced from each other.
 
-[^Mackenzie]: See Adrian Mackenzie’s "Preface" to *Machine Learners: Archaeology of a Data Practice* (Cambridge, MA: MIT Press, 2017); and on GitHub at https://github.com/datapractice/machinelearners.
+[^Mackenzie]: See Adrian Mackenzie’s "Preface" to *Machine Learners: Archaeology of a Data Practice* (Cambridge, MA: MIT Press, 2017); and on GitHub at <https://github.com/datapractice/machinelearners>.
 
 [^Git]: For more on this, see Matthew Fuller, Andrew Goffey, Adrian Mackenzie, Richard Mills and Stuart Sharples, "Big Diff, Granularity, Incoherence, and Production in the Github Software Repository," in Matthew Fuller, *How To Be a Geek: Essays on the Culture of Software* (Cambridge: Polity Press, 2017).
 
-[^kitchen]: See OSP's home page and note the URL: http://osp.kitchen/.
+[^kitchen]: See OSP's home page and note the URL: <http://osp.kitchen/>.
 
 [^Benjamin2]: Walter Benjamin, "The Author as Producer" [1935], quoted in Geoff Cox and Joasia Krysa, eds. *Engineering Culture: On the Author as (Digital) Producer* (New York, Autonomedia, 2005), 22.
 
-[^diagram]: Stephen Morris and Orlena Gotel, "The Role of Flow Charts in the Early Automation of Applied Mathematics," *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44–52, https://doi.org/10.1080/17498430903449207.
+[^diagram]: Stephen Morris and Orlena Gotel, "The Role of Flow Charts in the Early Automation of Applied Mathematics," *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44–52, <https://doi.org/10.1080/17498430903449207>.
 
-[^agre]: Philip E. Agre, "Toward a critical technical practice: Lessons learned in trying to reform AI," in Geoffrey Bowker, Susan Leigh Star, William A Turner, William Turner, Les George Gasser, eds., *Bridging the Great Divide: Social Science, Technical Systems, and Cooperative Work* (ACM Digital Library, 1997)., https://dl.acm.org/doi/book/10.5555/549261.
+[^agre]: Philip E. Agre, "Toward a critical technical practice: Lessons learned in trying to reform AI," in Geoffrey Bowker, Susan Leigh Star, William A Turner, William Turner, Les George Gasser, eds., *Bridging the Great Divide: Social Science, Technical Systems, and Cooperative Work* (ACM Digital Library, 1997)., <https://dl.acm.org/doi/book/10.5555/549261>.
 
-[^teaching]: You can find the curriculum and the messy notes for recent years’ Aesthetic Programming courses here: https://gitlab.com/siusoon/aesthetic-programming/-/tree/master/.
+[^teaching]: You can find the curriculum and the messy notes for recent years’ Aesthetic Programming courses here: <https://gitlab.com/siusoon/aesthetic-programming/-/tree/master/>.
 
 [^readcode]: The field of Critical Code Studies considers source code a cultural text for critical reading and interpretation beyond the understanding of how this code works technically and functionally. See Marino, *Critical Code Studies*.
 
 [^shiffman]: We extend our appreciation to the many educators’ various ways of presenting code which this book was built on. In particular, we would like to acknowledge and thank Daniel Shiffman for his *The Coding Train* YouTube channel that offers excellent creative coding tutorials for us and our students to learn programming in an accessible manner. Since the basics are clearly covered in the instruction videos, students subsequently find it easier to digest the materials in this book providing room for alternative forms to take place.  
 
-[^flowchart]: The flowcharts for each chapter are programmed with Graphviz, open source software for graph visualization. All the source code is provided in the folder "graphviz" on the GitLab repository. See https://graphviz.org/.
+[^flowchart]: The flowcharts for each chapter are programmed with Graphviz, open source software for graph visualization. All the source code is provided in the folder "graphviz" on the GitLab repository. See <https://graphviz.org/>.
 
-[^dual]: Here we once again reference the series of Readme festivals, as well as the Runme.org software art repository, http://runme.org/.
+[^dual]: Here we once again reference the series of Readme festivals, as well as the Runme.org software art repository, <http://runme.org/>.>.
 
 [^papert]: A concept first formulated by mathematician, computer scientist, and educator Seymour Papert, MIT Professor, who created a design principle for a programming language called Logo. See Seymour Papert, *Mindstorms: Children, Computers, and Powerful Ideas* (New York: Basic Books, 1980).
 
 [^decolonial]: See, for instance, Syed Mustafa Ali's "A Brief Introduction to Decolonial Computing," *XRDS: Crossroads, The ACM Magazine for Students* 22, no. 4 (2016): 16–21.
 
-[^guzdial]: Mark Guzdial suggests there are other purposes for programming beyond the normative focus on economic impact and the development of professionals for the software industry that open up various possibilities for learning and teaching programming. See Mark Guzdial, "Computing for Other Disciplines," in *The Cambridge Handbook of Computing Education Research*, Sally A. Fincher and Anthony V. Robins, eds. (Cambridge: Cambridge University Press, 2019), 584, https://doi.org/10.1017/9781108654555.020.
+[^guzdial]: Mark Guzdial suggests there are other purposes for programming beyond the normative focus on economic impact and the development of professionals for the software industry that open up various possibilities for learning and teaching programming. See Mark Guzdial, "Computing for Other Disciplines," in *The Cambridge Handbook of Computing Education Research*, Sally A. Fincher and Anthony V. Robins, eds. (Cambridge: Cambridge University Press, 2019), 584, <https://doi.org/10.1017/9781108654555.020>.

@@ -58,11 +58,11 @@ For this chapter's sample code, we will focus on images from search engine resul
 
 ```javascript
 let url = "https://www.googleapis.com/customsearch/v1?";
-let apikey = "INPUT YOUR OWN KEY";  //register API key here: https://developers.google.com/custom-search/json-api/v1/overview
+let apikey = "INPUT YOUR OWN KEY";  //register API key here: <https://developers.google.com/custom-search/json-api/v1/overview>
 let engineID = "INPUT YOUR OWN"; //https://cse.google.com/all  | create search engine, then get the searchengine ID - make sure image is on
 let query = "warhol+flowers";  //search keywords
 let searchType = "image";
-let imgSize ="medium"; //check here: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
+let imgSize ="medium"; //check here: <https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters>
 let request; //full API
 
 let getImg;
@@ -107,7 +107,7 @@ function draw() {
 				img.loadPixels();
 				img_x = floor(random(0,img.width));
 				img_y = floor(random(0,img.height));
-				loc = (img_x+img_y * img.width)*4; //the formula to locate the no: x+y*width, indicating a pixel from the image on a grid (and each pixel array holds red, green, blue, and alpha values, for more see https://www.youtube.com/watch?v=nMUMZ5YRxHI
+				loc = (img_x+img_y * img.width)*4; //the formula to locate the no: x+y*width, indicating a pixel from the image on a grid (and each pixel array holds red, green, blue, and alpha values, for more see <https://www.youtube.com/watch?v=nMUMZ5YRxHI>
 				strokeWeight(0.7);
 				stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
 				line(frameBorder+img_x, frameBorder+img_y, frameBorder+img_x, frameBorder+img.height);
@@ -161,11 +161,11 @@ You should now finish modifying the settings. You can now run the sample code wi
 
 ```javascript
 let url = "https://www.googleapis.com/customsearch/v1?";
-let apikey = "INPUT YOUR OWN KEY";  //register API key here: https://developers.google.com/custom-search/json-api/v1/overview
+let apikey = "INPUT YOUR OWN KEY";  //register API key here: <https://developers.google.com/custom-search/json-api/v1/overview>
 let engineID = "INPUT YOUR OWN"; //https://cse.google.com/all  | create search engine, then get the searchengine ID - make sure image is on
 let query = "warhol+flowers";  //search keywords
 let searchType = "image";
-let imgSize ="medium"; //check here: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
+let imgSize ="medium"; //check here: <https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters>
 let request; //full API
 
 function setup() {
@@ -185,7 +185,7 @@ function gotData(data) {
 ```
 To enable easy modification, we have set the search parameters as a global variable, which includes the required URL, API key, search engine ID, search type, image size, and query. These are the parameters used to filter the search results, and more variables can be added if required/desired.
 
-A web API is simply a long URL `request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&searchType=" + searchType + "&q=" + query;` that includes all the credentials as well as the items you want to search for and the necessary filters (it looks like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers).
+A web API is simply a long URL `request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&searchType=" + searchType + "&q=" + query;` that includes all the credentials as well as the items you want to search for and the necessary filters (it looks like this: <https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers)>.
 
 The key syntax is `loadJSON()` (in the function `fetchImage()` to submit a "request" in the form of a URL to the image provider after which you need to wait for the returned JSON file with a list of results. The callback function `gotData()` is to further process and que(e)ry the data returned.
 
@@ -197,7 +197,7 @@ Figure 8.6 below shows the JSON file format, but it includes a lot of informatio
 
 *Figure 8.6: Web API data structure*
 
-In the web console, look for a URL (with your own API key and search engine ID) that starts with "https" and ends with "warhol+flowers" (something like this: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers). Then simply click it and you will see how the data is structured in the JSON file format in a web browser (see Figure 8.6). There are more parameters you can set in order to select more specific forms of data such as image size, image color type, image dominant color, and so on. The API that we have used in the sample code demonstrates minimal settings.[^setting]
+In the web console, look for a URL (with your own API key and search engine ID) that starts with "https" and ends with "warhol+flowers" (something like this: <https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers)>. Then simply click it and you will see how the data is structured in the JSON file format in a web browser (see Figure 8.6). There are more parameters you can set in order to select more specific forms of data such as image size, image color type, image dominant color, and so on. The API that we have used in the sample code demonstrates minimal settings.[^setting]
 
 **Cross-Origin Resource Sharing**
 
@@ -230,7 +230,7 @@ Given our specific example *nag* and the sample code, we want to also reflect on
 
 2. Change your own query strings. The current keywords are "warhol flowers," but note that the program doesn't understand spaces between characters and therefore the keywords need to be written as "warhol+flowers."
 
-3. Refer back to the section on APIs above, add more search filtering rules with [different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters),[^setting] such as adding an image color type. The URL parameters are separated by an "&" symbol as follows: https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers.
+3. Refer back to the section on APIs above, add more search filtering rules with [different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters),[^setting] such as adding an image color type. The URL parameters are separated by an "&" symbol as follows: <https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers>.
 
 4. Study the JSON file and modify the sketch to get other data such as the text showing in the web console.
 
@@ -277,7 +277,7 @@ function draw() {
 				img.loadPixels();
 				img_x = floor(random(0, img.width));
 				img_y = floor(random(0, img.height));
-				loc = (img_x+img_y * img.width)*4; // The formula to locate the number: x+y*width, indicating a pixel from the image on a grid (and each pixel array holds red, green, blue, and alpha values, for more see here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
+				loc = (img_x+img_y * img.width)*4; // The formula to locate the number: x+y*width, indicating a pixel from the image on a grid (and each pixel array holds red, green, blue, and alpha values, for more see here: <https://www.youtube.com/watch?v=nMUMZ5YRxHI>
 				strokeWeight(0.7);
 				stroke(color(img.pixels[loc], img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
 				line(frameBorder+img_x,frameBorder+img_y, frameBorder+img_x, frameBorder+img.height);
@@ -384,7 +384,7 @@ This is a relatively complex exercise that requires you to:
 - Try to formulate a question in relation to web APIs or querying/parsing processes that you would like to investigate further if you had more time.  
 
 ## Required reading:
-- Daniel Shiffman, "Working with data, The Coding Train", available at https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r (10.4-10.10).
+- Daniel Shiffman, "Working with data, The Coding Train", available at <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r> (10.4-10.10).
 - David Gauthier, Audrey Samson, Eric Snodgrass, Winnie Soon, and Magda Tyżlik-Carver, "Executing," in *Uncertain Archives*, Nanna Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio and Kristin Veel, eds. (Cambridge, MA: MIT Press, 2020).
 - Eric Snodgrass and Winnie Soon, "[API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange](https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721)," *First Monday* 24, no.2 (2019): n. pag. 
 
@@ -394,37 +394,37 @@ This is a relatively complex exercise that requires you to:
 
 [^bigdick]: Big data is referred to as "Big Dick Data" by Catherine D’Ignazio and Lauren Klein, to mock big data projects that are characterized by "masculinist, totalizing fantasies of world domination as enacted through data capture and analysis," see "The Numbers Don’t Speak for Themselves," in *Data Feminism* (Cambridge, MA, MIT Press 2000), 151.   
 
-[^netcultures]: René König and Miriam Rasch, "Reflect and Act! Introduction to the Society of the Query Reader," in René König and Miriam Rasch, eds. *Society of the Query: Reflections on Web Search* (Amsterdam: The Institute of Network Cultures, 2014), https://networkcultures.org/query/2014/04/23/reflect-and-act-introduction-to-the-society-of-the-query-reader/.
+[^netcultures]: René König and Miriam Rasch, "Reflect and Act! Introduction to the Society of the Query Reader," in René König and Miriam Rasch, eds. *Society of the Query: Reflections on Web Search* (Amsterdam: The Institute of Network Cultures, 2014), <https://networkcultures.org/query/2014/04/23/reflect-and-act-introduction-to-the-society-of-the-query-reader/>.
 
 [^api]: See Ashok K. Chandra and David Harel, "Computer Queries for Relational Data Bases," *Journal of Computer and System Sciences* 21, no.2 (1980): 156-178; Winnie Soon, *Executing Liveness: An Examination of the Live Dimension of Code Inter-actions in Software (Art) Practice*, PhD dissertation, Aarhus University (2016); Eric Snodgrass and Winnie Soon, "API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange," *First Monday* 24, no.2 (2019).
 
 [^soon]: Snodgrass and Soon, "API Practices and Paradigms."
 
-[^extension]: *Extension* was sponsored by the Galerie der Gegenwart (Gallery of Contemporary Art) of the Hamburger Kunsthalle (Hamburg Art Museum). Despite the disproportionate number of submissions by female artists, only male artists were selected as finalists. After the decision was announced, Sollfrank went public. Some documentation for *Female Extension* can be found at http://www.artwarez.org/femext/index.html.
+[^extension]: *Extension* was sponsored by the Galerie der Gegenwart (Gallery of Contemporary Art) of the Hamburger Kunsthalle (Hamburg Art Museum). Despite the disproportionate number of submissions by female artists, only male artists were selected as finalists. After the decision was announced, Sollfrank went public. Some documentation for *Female Extension* can be found at <http://www.artwarez.org/femext/index.html>.
 
-[^obn]: Old Boys Network (OBN) is widely regarded as the first international Cyberfeminist alliance and was founded in 1997, in Berlin. See https://www.obn.org/.
+[^obn]: Old Boys Network (OBN) is widely regarded as the first international Cyberfeminist alliance and was founded in 1997, in Berlin. See <https://www.obn.org/>.
 
 [^hack]: Sollfrank employs Thomas Wulffen's phrase, in Cornelia Sollfrank, "Hacking the Art Operating System," interviewed by Florian Cramer, Chaos Computer Club, Berlin (2001).
 
-[^nag]: Since 1997, there are five different versions of *nag* that have been realized by seven programmers at various stages of the project. In 2003, Version 5 started using images from Google search, but this became broken in 2015. The current version, 5b was updated in 2017 by Winnie Soon, and this is the version that officially utilized Google Image Search API according to the specification. See http://net.art-generator.com/.
+[^nag]: Since 1997, there are five different versions of *nag* that have been realized by seven programmers at various stages of the project. In 2003, Version 5 started using images from Google search, but this became broken in 2015. The current version, 5b was updated in 2017 by Winnie Soon, and this is the version that officially utilized Google Image Search API according to the specification. See <http://net.art-generator.com/>.>.
 
-[^pixel]: See the reference guide of `loadPixels()`, https://p5js.org/reference/#/p5/loadPixels.
+[^pixel]: See the reference guide of `loadPixels()`, <https://p5js.org/reference/#/p5/loadPixels>.
 
-[^google1]: See https://developers.google.com/custom-search/v1/overview.
+[^google1]: See <https://developers.google.com/custom-search/v1/overview>.
 
-[^google2]: See https://cse.google.com/all.
+[^google2]: See <https://cse.google.com/all>.
 
-[^json]: See https://p5js.org/reference/#/p5/loadJSON.
+[^json]: See <https://p5js.org/reference/#/p5/loadJSON>.
 
-[^img1]: See https://p5js.org/reference/#/p5/loadImage.
+[^img1]: See <https://p5js.org/reference/#/p5/loadImage>.
 
-[^img2]: See https://p5js.org/reference/#/p5/image.
+[^img2]: See <https://p5js.org/reference/#/p5/image>.
 
-[^setting]: There are other optional parameters, see https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters.
+[^setting]: There are other optional parameters, see <https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters>.
 
 [^forensis]: Thomas Keenan and Eyal Weizman, *Mengele's Skull: The Advent of a Forensic Aesthetics* (Berlin: Sternberg Press, 2012); see also Matthew Kirschenbaum, *Mechanisms: New Media and the Forensic Imagination* (Cambridge, MA: MIT Press, 2008).
 
-[^FA]: Forensic Architecture, directed by Eyal Weizman, is a research agency based at Goldsmiths, University of London, who undertake advanced spatial and media investigations into cases of human rights violations, with, and on behalf of, communities affected by political violence, human rights organizations, international prosecutors, environmental justice groups, and media organizations. See https://forensic-architecture.org/.
+[^FA]: Forensic Architecture, directed by Eyal Weizman, is a research agency based at Goldsmiths, University of London, who undertake advanced spatial and media investigations into cases of human rights violations, with, and on behalf of, communities affected by political violence, human rights organizations, international prosecutors, environmental justice groups, and media organizations. See <https://forensic-architecture.org/>.
 
 [^Rouvroy]: The idea of "governmentality" is derived from the work of Michel Foucault, especially his lectures at the Collège de France 1982-1983. In Rouvroy's lecture "Algorithmic Governmentalities and the End(s) of Critique" at the Institute for Network Cultures (October 2013) she makes the argument that critique is not possible without access to a fuller understanding of how knowledge is being produced.
 
@@ -440,10 +440,10 @@ This is a relatively complex exercise that requires you to:
 
 [^feminist]: Cornelia Sollfrank, ed. *Beautiful Warriors: Technofeminist Praxis in the Twenty-First Century* (New York: Autonomedia/Minor Compositions, 2019), 6.
 
-[^wc]: See the recommendation of CORS by W3C, https://www.w3.org/TR/cors/.
+[^wc]: See the recommendation of CORS by W3C, <https://www.w3.org/TR/cors/>.
 
-[^debug]: There is a debugging tutorial was created for the p5.js contributor conference by Jason Alderman, Tega Brain, Taeyoon Choi and Luisa Pereira, see: https://p5js.org/learn/debugging.html
+[^debug]: There is a debugging tutorial was created for the p5.js contributor conference by Jason Alderman, Tega Brain, Taeyoon Choi and Luisa Pereira, see: <https://p5js.org/learn/debugging.html>
 
-[^nyu]: A tutorial on Image Processing in p5.js, see https://idmnyu.github.io/p5.js-image/
+[^nyu]: A tutorial on Image Processing in p5.js, see <https://idmnyu.github.io/p5.js-image/>
 
-[^key]: To request an API key from other image-related platforms, such as Giphy and Pexels, see https://support.giphy.com/hc/en-us/articles/360020283431-Request-A-GIPHY-API-Key and https://www.pexels.com/api/
+[^key]: To request an API key from other image-related platforms, such as Giphy and Pexels, see <https://support.giphy.com/hc/en-us/articles/360020283431-Request-A-GIPHY-API-Key> and <https://www.pexels.com/api/>

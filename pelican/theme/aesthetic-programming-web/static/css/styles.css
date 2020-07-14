@@ -5,28 +5,90 @@
 
 body  {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    /* margin-left: 6%; */
+}
+
+section.nav {
+    position: sticky;
+    height: 100vh;
+    top: 0;
+    flex: 0 0;
+    /* position: fixed;
+    left: 0;
+    z-index: 10000; */
+}
+
+section.left {
+    flex: 1 0;
 }
 
 nav {
-    flex-basis: 5%;
-    overflow: hidden;
+    height: 100vh;
+    width: 300px;
+    display: block;
 }
 
-section {
-    flex-basis: 45%;
+nav header {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 150px;
+    left: -120px;
+}
+
+nav h1 {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+nav ul {
+    display: none;
+    font-size: 18px;
+    line-height: 1.3em;
+    top: 450px;
+    position: absolute;
+    background: white;
+}
+nav:hover ul {
+    display: block;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul li {
+    margin-left: 15px;
+    text-indent: -15px;
+}
+
+nav ul a.active {
+    font-size: 1.5em;
+    line-height: 1.25em;
+}
+
+#canvas iframe {
+    height: 100%;
+    width: 100%;
 }
 
 #canvas {
     position: sticky;
     top: 0;
+    height: 100vh;
 }
 
 main {
-    flex-basis: 50%;
-    flex-grow: 1;
+    flex: 1 0;
+    /* flex-basis: 50%;
+    flex-grow: 1; */
     padding: var(--line-height);
     box-sizing: border-box;
+    padding: calc(2 * var(--line-height)) calc(4 * var(--line-height)) calc(2 * var(--line-height)) calc(2 * var(--line-height));
 }
 
 h2 {
@@ -36,6 +98,15 @@ h2:before {
     content: counter(h1) + "." + counter(h2);
 }
 
-.active {
-    outline: 2px solid red;
+#canvas iframe {
+    height: 100vh;
+}
+
+main .active {
+    background-color: lightyellow;
+}
+
+
+p, blockquote, li {
+    letter-spacing: .25px;
 }
