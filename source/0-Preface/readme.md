@@ -1,9 +1,7 @@
-Title: 0. *Aesthetic Programming: A Handbook of Software Studies*
+Title: 0. Preface
 page_order: 0
 
-*Aesthetic Programming: A Handbook of Software Studies*
-
-## Preface
+## 0.Preface
 
 ### What kind of book is this?
 
