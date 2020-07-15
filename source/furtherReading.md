@@ -1,25 +1,25 @@
-Title: Further Readings
+Title: Further Reading
 
-## Further readings
+## Further reading
 
 ## Chapter 1 - Getting Started
 
-- Brian Lennon, "JavaScript Affogato: Programming a Culture of Improvised Expertise", *Configurations*, Volume 26, Number 1, Winter 2018, 47-72.
-- Chun, Wendy Hui Kyong. “On Software, or the Persistence of Visual Knowledge.” Grey Room 18 (January 2005): 26–51. <https://doi.org/10.1162/1526381043320741>.
+- Brian Lennon, "JavaScript Affogato: Programming a Culture of Improvised Expertise", *Configurations* 26, No. 1, Winter (2018): 47-72.
+- Wendy Hui Kyong Chun, "On Software, or the Persistence of Visual Knowledge," *Grey Room* 18 (January 2005): 26–51. <https://doi.org/10.1162/1526381043320741>.
 
 ## Chapter 2 - Variable Geometry
 
-- Crystal Abidin and Joel Gn, eds., "Histories and Cultures of Emoji Vernaculars", *First Monday*, 23(9), September, 2018, <https://firstmonday.org/ojs/index.php/fm/issue/view/607>
-- Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-reviewed Journal About Machine Feeling*, 8(1), 2019, <https://tidsskrift.dk/APRJA/issue/view/8133>.
-- Olga Goriunova, Olga, "Introduction", *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing*, New York, London: Bloomsbury, 2014, 1-19.
-- Derek Robinson, "Variables", in Matthew Fuller, ed., *Software Studies*, Cambridge, Mass.: MIT Press, 2008.
-- Femke Snelting, [Modifying the Universal](https://www.youtube.com/watch?v=ZP2bQ_4Q7DY), MedeaTV, 2016 [Video, 1 hr 15 mins].
+- Crystal Abidin and Joel Gn, eds., "Histories and Cultures of Emoji Vernaculars," *First Monday* 23, no. 9, September (2018). <https://firstmonday.org/ojs/index.php/fm/issue/view/607>.
+- Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-reviewed Journal About Machine Feeling* 8, no. 1 (2019). <https://tidsskrift.dk/APRJA/issue/view/8133>.
+- Olga Goriunova, "Introduction," *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing* (London: Bloomsbury, 2014), 1-19.
+- Derek Robinson, "Variables," in Matthew Fuller, ed., *Software Studies: A Lexicon* (Cambridge, MA: MIT Press, 2008).
+- Femke Snelting, [Modifying the Universal](https://www.youtube.com/watch?v=ZP2bQ_4Q7DY), MedeaTV (2016), Video, 1 hr 15 mins.
 
 ## Chapter 3 - Infinite Loops
 
-- Winnie Soon, “Throbber: Executing Micro-temporal Streams.” *Computational Culture* 7 (October 21, 2019), <http://computationalculture.net/throbber-executing-micro-temporal-streams/>.
-- Wilfried Hou Je Bek, "Loop", *Software Studies* (Fuller, Matthew, ed.), MIT Press, 2008.
-- Robinson, Derek. "Function", *Software Studies* (Fuller, Matthew, ed.), MIT Press, 2008.
+- Winnie Soon, “Throbber: Executing Micro-temporal Streams,” *Computational Culture* 7, October 21 (2019). <http://computationalculture.net/throbber-executing-micro-temporal-streams/>.
+- Wilfried Hou Je Bek, "Loop," in Matthew Fuller, ed., *Software Studies: A Lexicon* (Cambridge, MA: MIT Press, 2008).
+- Robinson, Derek. "Function," in Fuller, ed., *Software Studies*.
 - Farman, Jason. "[Fidget Spinners](https://reallifemag.com/fidget-spinners/#!)", *Real Life*, 2017.
 - Wolfgang Ernst, “‘... Else Loop Forever’. The Untimeliness of Media” (2009). Available at [https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf](https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf).
 
