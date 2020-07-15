@@ -25,7 +25,8 @@
 
 - net art generator (1997) by Cornelia Sollfrank
 - Female Extension by Cornelia Sollfrank
-
+- *GWEI* (2005)
+- The Project Formerly Known as Kindle Forkbomb
 - ml5.js
 
 - *Recurrent Queer Imaginaries* by Helen Pritchard and Winnie Soon (2019)
