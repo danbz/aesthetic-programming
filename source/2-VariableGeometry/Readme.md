@@ -34,6 +34,7 @@ Our point is that using emojis may be fun and expressive, but they also tend to 
 [RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch2_VariableGeometry/)
 
 <div class="exec" data-linenostart="1" markdown="true">
+
 ```javascript
 /*Inspired by David Reinfurt's work - Multi*/
 let moving_size = 50;
