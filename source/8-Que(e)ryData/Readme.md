@@ -9,9 +9,9 @@ To query something is to ask a question about it, to check its validity, or accu
 
 Search engines (like Google and Baidu) are a good example of applications that aggregate content and algorithmically return search results according to a keywords search. They promise to answer all our questions, but do not make the underlying processes (and ideology) visible that prioritize certain answers over others. In a query-driven society, search engines have become powerful mechanisms for truth-making and for our making sense of seemingly endless quantities of data, manifested as streams, and feeds - indicative of the oversaturation of information and the rise of the attention economy. According to Wendy Hui Kyong Chun, user habits provide the formula for big data businesses. She explains: "Through habits users become their machines: they stream, update, capture, upload, share, grind, link, verify, map, save, trash and troll."[^chun] The habit of searching, for instance, is transformed into data that is storable, traceable, and analyzable.
 
-We have already explored some of the processes programs use to capture input data in Chapter 4, "Data Capture," especially data that is connected to physical devices, and in this chapter we expand this exponentially to data hosted on online platforms. We scale up from the capture of data to the storage, and analysis of massive amounts of captured data — so-called "Big Data" (or even "Big Dick Data" if we consider this to be a masculinist fantasy)[^bigdick] — which is in turn utilized for user-profiling, targeted marketing, personalized recommendations, and various sorts of predictions and e-commerce, and so on. Subsequently it would seem that: "We're not in control of our search practices – search engines are in control of us and we readily agree, though mostly unconsciously, to this domination."[^netcultures] But arguably it's not quite as deterministic as this, as these operations are part of larger socio-technical assemblages and infrastructures — including data, data structures, and human subjects — that are also constantly evolving and subject to external conditions.
+We have already explored some of the processes programs use to capture input data in Chapter 4, "Data Capture," especially %data% that is connected to physical devices, and in this chapter we expand this exponentially to data hosted on online platforms. We scale up from the capture of data to the storage, and analysis of massive amounts of captured data — so-called "Big Data" (or even "Big Dick Data" if we consider this to be a masculinist fantasy)[^bigdick] — which is in turn utilized for user-profiling, targeted marketing, personalized recommendations, and various sorts of predictions and e-commerce, and so on. Subsequently it would seem that: "We're not in control of our search practices – search engines are in control of us and we readily agree, though mostly unconsciously, to this domination."[^netcultures] But arguably it's not quite as deterministic as this, as these operations are part of larger socio-technical assemblages and infrastructures — including data, data structures, and human subjects — that are also constantly evolving and subject to external conditions.
 
-To make some of these interacting entities tangible, and to offer a less-deterministic vision of datafication, this chapter focuses on how data can be acquired through the real-time query of an Application Programming Interface (API) — a communication protocol between different parts of a computer program intended to simplify software development. Querying data, in the form of a two-way communication process, is about information processing coupled with data selection, extraction, transmission, and presentation through "the logic of request and response,"[^api] and we will use a structured data file like JSON for this (introduced in the preceding chapter). Although there are many ways of addressing these issues, the following introduces a generative artwork that utilizes the Google's image search API and demonstrates querying beyond technical description to further question some of the assumptions surrounding openness and accessibility: to "que(e)ry data" in other words. The play on words indicates our desire to unsettle normative data practices that affirm stable categories of (gender) representation.
+To make some of these interacting entities tangible, and to offer a less-deterministic vision of %datafication%, this chapter focuses on how data can be acquired through the real-time query of an Application Programming Interface (API) — a communication protocol between different parts of a computer program intended to simplify software development. Querying data, in the form of a two-way communication process, is about information processing coupled with data selection, extraction, transmission, and presentation through "the logic of request and response,"[^api] and we will use a structured data file like %JSON% for this (introduced in the preceding chapter). Although there are many ways of addressing these issues, the following introduces a generative artwork that utilizes the Google's image search API and demonstrates querying beyond technical description to further question some of the assumptions surrounding openness and accessibility: to "que(e)ry data" in other words. The play on words indicates our desire to unsettle normative data practices that affirm stable categories of (gender) representation.
 
 ## start()
 
@@ -31,7 +31,7 @@ Go to *net.art generator* (https://nag.iap.de/) and explore the generation of im
 
 ## Image processing: fetching, loading and display
 
-The following source code of this chapter is a snippet from *nag* showing the web API's request and response logic: requested data passes through a Web API and then Google returns the corresponding data using the key syntax `loadJSON()`. The major differences when using JSON between this and the previous chapter is that the JSON file is not located on your computer, but online. As such, the data is generated dynamically in near real-time. The JSON file has a more complex data and organizational structure.  
+The following source code of this chapter is a snippet from *nag* showing the web API's request and response logic: requested data passes through a Web API and then Google returns the corresponding data using the key syntax `loadJSON()`. The major differences when using JSON between this and the previous chapter is that the JSON file is not located on your computer and created by yourself, but online. As such, the data is generated dynamically in near real-time. The JSON file has a more complex data and organizational structure.  
 
 [RUNME](https://editor.p5js.org/siusoon/present/rhSDlokun)
 
@@ -48,7 +48,7 @@ For this chapter's sample code, we will focus on images from search engine resul
 
 - `loadJSON()`:[^json] As discussed in the preceding chapter, this is the function that loads a JSON file (from a file or a URL). In this sample code, the function is used to send the web API (in the form of a URL) request, and receive the response in the JSON format. The callback function is to turn the returned data into an object: `loadJSON(request, gotData);`.
 
-- `loadImage()`[^img1] and `image()`:[^img2] are both used to load and display images. Data such as sound, files, images, and videos are objects that need to be loaded before they can be processed. For this sample code, we do not know the location of the file in advance, therefore this cannot be loaded by the `preload()` function. This is why the callback function is used to handle the time gap between requesting and receiving the image, e.g. `loadImage(getImg, img=> {}});`.
+- `loadImage()`[^img1] and `image()`:[^img2] They are both used to load and display images. Data such as sound, files, images, and videos are objects that need to be loaded before they can be processed. For this sample code, we do not know the location of the file in advance, therefore this cannot be loaded by the `preload()` function. This is why the callback function is used to handle the time gap between requesting and receiving the image, e.g. `loadImage(getImg, img=> {}});`.
 
 - `loadPixels()`:[^pixel] If you want to manipulate or analyze the data in an image, this function can extract and manipulate information on each image pixel, loading the data into the built-in `pixels[]` array. We will examine this in more detail below.
 
@@ -118,7 +118,7 @@ function draw() {
 }
 ```
 
-## Exercise: accessing web APIs (step by step)
+## Exercise: accessing web %APIs% (step by step)
 
 The above source code describes how to retrieve a static image from Google's image search API (parsing JSON), and then display it on screen. As is the case with many other web APIs, you need to have an API key so the platforms can identify who is getting the data, and track its usage.[^key]
 
@@ -135,7 +135,7 @@ This exercise is about getting the *key ID* and *Engine ID* from Google so that 
 - Login to your account
 - Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and find the section API key
 - Click the blue button "Get A Key" and then create a new project by entering your project name (e.g. "nag-test") and press enter
-- You should able to see the API key and you just need to copy and paste the key into your sketch.
+- You should able to see the API key and you just need to copy and paste the key into your sketch
 
 3. **Step 3:** Replace the Search engine ID (cx) with your own, on the line: `let engineID = "INPUT YOUR OWN";`.
 - Go to [Custom Search Engine](https://cse.google.com/all)[^google2]
@@ -148,8 +148,8 @@ This exercise is about getting the *key ID* and *Engine ID* from Google so that 
 
 4. **Step 4:** Configuration in the control panel
 
-- Make sure "Image search" is ON — blue indicates it is
-- Make sure the "Search the entire web" is ON — blue indicates it is
+- Make sure "Image search" is ON — blue indicates it is (see Figure 8.5)
+- Make sure the "Search the entire web" is ON — blue indicates it is (see Figure 8.5)
 
 You should now finish modifying the settings. You can now run the sample code with your own API Key and engine ID.
 
@@ -185,9 +185,9 @@ function gotData(data) {
 ```
 To enable easy modification, we have set the search parameters as a global variable, which includes the required URL, API key, search engine ID, search type, image size, and query. These are the parameters used to filter the search results, and more variables can be added if required/desired.
 
-A web API is simply a long URL `request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&searchType=" + searchType + "&q=" + query;` that includes all the credentials as well as the items you want to search for and the necessary filters (it looks like this: <https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers)>.
+A web API is simply a long URL `request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&searchType=" + searchType + "&q=" + query;` that includes all the credentials as well as the items you want to search for and the necessary filters (it looks like this: <https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers>).
 
-The key syntax is `loadJSON()` (in the function `fetchImage()` to submit a "request" in the form of a URL to the image provider after which you need to wait for the returned JSON file with a list of results. The callback function `gotData()` is to further process and que(e)ry the data returned.
+The key syntax is `%loadJSON()%` (in the function `fetchImage()`) to submit a "request" in the form of a URL to the image provider after which you need to wait for the returned JSON file with a list of results. The callback function `gotData()` is to further process and %que(e)ry% the data returned.
 
 ## Que(e)rying data
 
@@ -197,16 +197,15 @@ Figure 8.6 below shows the JSON file format, but it includes a lot of informatio
 
 *Figure 8.6: Web API data structure*
 
-In the web console, look for a URL (with your own API key and search engine ID) that starts with "https" and ends with "warhol+flowers" (something like this: <https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers)>. Then simply click it and you will see how the data is structured in the JSON file format in a web browser (see Figure 8.6). There are more parameters you can set in order to select more specific forms of data such as image size, image color type, image dominant color, and so on. The API that we have used in the sample code demonstrates minimal settings.[^setting]
+In the web console, look for a URL (with your own API key and search engine ID) that starts with "https" and ends with "warhol+flowers" (something like this: <https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers>). Then simply click it and you will see how the data is structured in the JSON file format in a web browser (see Figure 8.6). There are more parameters you can set in order to select more specific forms of data such as image size, image color type, image dominant color, and so on. The API that we have used in the sample code demonstrates minimal settings.[^setting]
 
 **Cross-Origin Resource Sharing**
 
 In contrast to text, requesting, receiving, and loading images from a web domain (or multimedia formats such as video as well as fonts) will incur security issues, known in the field as Cross-Origin Resource Sharing (CORS). For this chapter, and in the corresponding example, the sample code is hosted on a local machine with a local server running in the ATOM code editor, but the API request, and the corresponding data is hosted elsewhere. The CORS issue related to network requests is designed to prevent "unsafe HTTP requests."[^w3] In an industry environment, it is usually configured on the web server side setting with server-side programming/scripting languages such as node.js handling the network requests. But for demonstration purposes, we have used the thumbnail images (`data.items[0].image.thumbnailLink;`) generated by the search provider instead of loading original web images hosted on various servers with a variety of settings. We simply load the images by using `createImg()` or `loadImage()`. 
-[winnie: I cut this back to make it more understandable. check /g]
 
 **Data structure**
 
-Figure 8.6 demonstrates how you can indicate specific data in a JSON file. There is the line `data.items[0].image.thumbnailLink;`, which gets the returned object specified (the image URL) from the JSON file. The term "data" refers to all the objects returned using the callback function `function gotData(data){}`. `items[0]` which points to the first data object (using the array concept in which the first position on hte index is 0). The dot syntax allows you to navigate to the object `image` and `thumbnailLink` under `items[0]`. Note that this hierarchy is specific to this API because other web APIs might structure their data differently.
+Figure 8.6 demonstrates how you can indicate specific data in a JSON file. There is the line `data.items[0].image.thumbnailLink;`, which gets the returned object specified (the image URL) from the JSON file. The term "data" refers to all the objects returned using the callback function `function gotData(data){}`. `items[0]` which points to the first data object (using the array concept in which the first position on the index is 0). The dot syntax allows you to navigate to the object `image` and `thumbnailLink` under `items[0]`. Note that this hierarchy is specific to this API because other web APIs might structure their data differently.
 
 To learn more about the JSON file, you can navigate through other data objects such as "queries > request > 0" that would show, for example, how many results are found on the image search, which search terms have been processed, and how many data objects were returned. In the sample code, we start with only the top 10 search items, but you can configure the parameter `startIndex` to get the last 10 images out of 110 million. Furthermore, you can find the data for each specific image returned in the form of an array, such as the title, and the corresponding snippet of the page content under `items` in the JSON file.
 
