@@ -127,7 +127,7 @@ page_order: -2
 ## Chapter 9: Algorithmic Procedures
 * setup() and start()
 * Discussion in class
-* Flow Charts
+* Flowcharts
 * Exercise in class
 * Flowcharts as artistic medium
 * While()
@@ -145,7 +145,13 @@ page_order: -2
 * While()
 * MiniX[10]: Final Project
 
-## Chapter 11: Afterword: Recurrent Imaginaries
+## Chapter 11: Afterword (Recurrent Imaginaries)
 
-## Indexing
+## Further Reading
+
+## Bibliography
+
+## Projects
+
+## Index
 reference to: <https://monoskop.org/media/text/?> and Linda's work in Exe practice

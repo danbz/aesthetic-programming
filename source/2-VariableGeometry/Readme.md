@@ -344,7 +344,7 @@ Explore shapes, geometries, and other related syntax (via p5.js [references](htt
 
 [^Fun]: Linus Torvalds and David Diamond, *Just for Fun: The Story of an Accidental Revolutionary* (Knutsford: Texere Publishing, 2001), see <http://en.wikipedia.org/wiki/Just_for_Fun>. Other examples include Jeremy Gibbons and Oege de Moor, *The Fun of Programming* (London: Palgrave Macmillan, 2003).
 
-[^Fun2]: See the children's book: Vicky Owyang Chan, *Geometry Is Fun For Me* (Dog Ear Publishing, 2017).
+[^Fun2]: See the children's book: Vicky Owyang Chan, *Geometry Is Fun For Me* (Indianapolis, IN: Dog Ear Publishing, 2017).
 
 [^Olga]: Olga Goriunova, *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing* (New York, London: Bloomsbury, 2014), 4.
 
