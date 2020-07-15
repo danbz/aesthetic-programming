@@ -22,6 +22,8 @@
 
 - ctrackr library
 - Rita Library by Daniel Howe
+
+- net art generator (1997) by Cornelia Sollfrank
 - ml5.js
 
 - *Recurrent Queer Imaginaries* by Helen Pritchard and Winnie Soon (2019)
