@@ -4,14 +4,19 @@ A Handbook of Software Studies
 Winnie Soon & Geoff Cox
 
 Published by Open Humanities Press 2020
+
 https://openhumanitiespress.org/
+
 Liquid Books 
+
 Series Editors: Gary Hall and Clare Birchall
 
 http://aesthetic-programming.osp.kitchen/
+
 https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source
 
 Design by Open Source Publishing (Gijs de Heij & Stéphanie Vilayphiou)
+
 Edited by Loren Britton
 
 CC 2020 the authors
