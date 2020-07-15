@@ -5,7 +5,9 @@ page_order: -2
 
 **By**: Winnie Soon and Geoff Cox
 
-## 0. Preface
+## Colophon
+
+## Chapter 0: Preface
 * What kind of book is this?
 * So why aesthetic programming?
 * And software studies?
@@ -155,3 +157,5 @@ page_order: -2
 
 ## Index
 reference to: <https://monoskop.org/media/text/?> and Linda's work in Exe practice
+
+## README
