@@ -149,7 +149,7 @@ page_order: -2
 
 ## Further Reading
 
-## Bibligraphy
+## Bibliography
 
 ## Projects
 
