@@ -242,11 +242,17 @@ Make a RUNME and a README.
 - What does code and programming mean to you, and how does the assigned reading help you to reflect on programming?
 
 ## Required reading:
-- Nick Montfort, "Appendix A: Why Program?" *Exploratory Programming For the Arts and Humanities* (Cambridge, Mass.: MIT Press, 2016), 267-277.
-- Annette Vee, "Coding for Everyone and the Legacy of Mass Literacy," *Coding Literacy: How Computer Programming Is Changing Writing* Cambridge, Mass.: MIT Press, 2017), 43-93.
+
 - Lauren McCarthy, [Learning While Making P5.JS](https://www.youtube.com/watch?v=1k3X4DLDHdc), OPENVIS Conference (2015).
-- Daniel Shiffman, 1.1: Code! Programming with p5.js [online] (2018). Available at <https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2>.
-- p5.js. p5.js | get started. Available at: <https://p5js.org/get-started/>.
+- Nick Montfort, "Appendix A: Why Program?" *Exploratory Programming For the Arts and Humanities* (Cambridge, Mass.: MIT Press, 2016), 267-277.
+- *p5.js. p5.js | get started*. Available at <https://p5js.org/get-started/>.
+- Daniel Shiffman, *1.1: Code! Programming with p5.js* (2018). Available at <https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2>.
+- Annette Vee, "Coding for Everyone and the Legacy of Mass Literacy," *Coding Literacy: How Computer Programming Is Changing Writing* Cambridge, MA: MIT Press, 2017), 43-93.
+
+## Further reading:
+
+- Wendy Hui Kyong Chun, "On Software, or the Persistence of Visual Knowledge," *Grey Room* 18 (January 2005): 26–51. <https://doi.org/10.1162/1526381043320741>.
+- Brian Lennon, "JavaScript Affogato: Programming a Culture of Improvised Expertise," *Configurations* 26, no. 1, Winter (2018): 47-72.
 
 ## Notes
 
