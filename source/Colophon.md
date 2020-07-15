@@ -1,4 +1,5 @@
 AESTHETIC PROGRAMMING
+
 A Handbook of Software Studies 
 
 Winnie Soon & Geoff Cox
@@ -26,6 +27,7 @@ This is an open access book, licensed under the Creative Commons Attribution By 
 Figures, text and other media included within this book may be under different copyright restrictions.
 
 ISBN (print): ?????????
+
 ISBN (PDF): ???????
 
 
