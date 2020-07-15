@@ -1,7 +1,7 @@
 Title: About
 page_order: -1
 
-## About Aesthetic Programming
+## About
 
 **Aesthetic Programming: A Handbook of Software Studies**
 
