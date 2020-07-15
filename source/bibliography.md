@@ -75,3 +75,4 @@ Title: Bibliography
 - Geoff Cox, "Ways of Machine Seeing," *A Peer-Reviewed Journal About* 6, no. 1 (2017): 8–15. <https://doi.org/10.7146/aprja.v6i1.116007>.
 - Michelle Carney, "Using Teachable Machine in the d.school classroom," *Medium*, <https://medium.com/@michellecarney/using-teachable-machine-in-the-d-school-classroom-96be1ba6a4f9>
 - Marie Louise Juul Søndergaard and Lone Koefoed Hansen, "Intimate Futures: Staying with the Trouble of Digital Personal Assistants through Design Fiction" (New York: ACM Press, 2018): 869–80. <https://doi.org/10.1145/3196709.3196766>.
+- Ursula K. Le Guin, "Books Remembered," Calendar XXXVI, no.2 (November 1977-June 1978), np
