@@ -145,7 +145,7 @@ page_order: -2
 * While()
 * MiniX[10]: Final Project
 
-## Chapter 11: Afterword: Recurrent Imaginaries
+## Chapter 11: Afterword (Recurrent Imaginaries)
 
 ## Further Reading
 
