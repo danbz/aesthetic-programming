@@ -60,7 +60,7 @@ Can you describe the various elements and how they operate computationally in yo
     - What do you know about this icon?
     - What can't you see?
 
-## Source Code
+## Source code
 
 ```javascript
 //ch3_1

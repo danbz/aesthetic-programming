@@ -88,7 +88,7 @@ Based on what you experience on the screen, describe:
 - Can you **identify** the part/block of code that responds to the elements you speculated about above?
 - Identify the syntaxes and functions that you are unfamiliar with, and check out the p5.js reference site: <https://p5js.org/reference/>
 
-## Source Code
+## Source code
 
 The source code is divided in two, one part with all the core functions, "sketch.js," and another "Tofu.js" that specifies the class/object relationship. Sometimes subdividing the program into various functions and files can help provide clarity. You can understand an additional JS file is just a continuation of your core sketch, therefore you don't have to repeatedly write `function setup()` or `function draw()` in the new files (when your programs become longer, and more complex, you might have more than two JS files to hold the program together). To enable the two JS files in a program, you need to add the following into the index.html file:
 

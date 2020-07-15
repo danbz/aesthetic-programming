@@ -54,7 +54,7 @@ For this chapter's sample code, we will focus on images from search engine resul
 
 - `line()`: This is used to visualize the color extracted from the selected image's pixels.
 
-## Source Code
+## Source code
 
 ```javascript
 let url = "https://www.googleapis.com/customsearch/v1?";

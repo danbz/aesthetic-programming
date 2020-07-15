@@ -38,7 +38,7 @@ Then look at the source code in the next section (Lines 67-83) and describe some
 
 </div>
 
-## Source Code
+## Source code
 ```javascript
 /*Data Capture for Chapter 4
 Interacting with captured data: mouse, keyboard, audio, webcam
@@ -294,7 +294,7 @@ It would be worth checking back to Chapter 2, "Variable Geometry," for a reminde
 ## The concept of capture
 This next section discusses various examples of different inputs for data capture. The intention is to showcase some other possibilities of its application, and more importantly how this relates to datafication, commodification, surveillance and personalization. In other words, this is an opportunity to discuss data politics more broadly: to question how our personal data is captured, quantified, archived, and used, and for what purpose? What are the implications, and who has the right to access the captured data, and derive profit from it? Few people know exactly which data is captured or how it is used?[^GDPR] However, despite the use of the term "capture," we should also point out that this is not total incarceration, and there are escape routes. More on this later.  
 
-### Web Analytics and Heatmap
+### Web Analytics and heatmap
 At the moment, the most widely used web analytics service is provided by Google and contains tremendous amounts of data on website traffic and browsing behavior, including the number of unique visits, average time spent on sites, browser and operating system information, traffic sources and users' geographic locations, and so on. This data can then be further utilized to analyze customers' profiles and user bahavior.
 
 ![](ch4_4.png)

@@ -17,7 +17,7 @@ page_order: -2
 
 ## Chapter 1: Getting started
 * setup() and start()
-* Working environment: p5.js, code editor
+* Working environment: p5.js, Code editor
 * My first program
 * Exercise in class
 * Reading the web console "Hello World"
@@ -25,6 +25,7 @@ page_order: -2
 * Git
 * While()
 * MiniX[1]: RUNME and README
+* Required reading & Further reading
 
 ## Chapter 2: Variable Geometry
 * setup() and start()
@@ -34,49 +35,52 @@ page_order: -2
 * Variables
 * Why use variables
 * Other functions
-* Basic Arithmetic Operators
-* Conditional Structure
+* Basic arithmetic operators
+* Conditional structures
 * Relational operators
-* Discussion in classes
+* Discussion in class
 * While()
 * MiniX[2]: Geometric emoji
+* Required reading & Further reading
 
-## Chapter 3: Infinite loops
+## Chapter 3: Infinite Loops
 * setup() and start()
 * Decode
-* Source Code
+* Source code
 * Function
 * Exercise in class
 * Transform
+* push() and pop()
 * Exercise in class  
 * Asterisk Painting
-* Source Code
+* Source code
 * Exercise in class
 * Arrays
 * Conditional statements
 * Loops
-* While Loop
 * While()
 * MiniX[3]: Designing a Throbber
+* Required reading & Further reading
 
 ## Chapter 4: Data Capture
 * setup() and start()
 * Exercise in clas (Decode)
-* Source Code
-* DOM elements: Creating and styling a button
+* Source code
+* DOM elements: creating and styling a button
 * Mouse capture
 * Keyboard capture
 * Audio capture
 * Face tracker
 * Exercise in class
 * The concept of capture
-* Web Analytics and Heatmap
+* Web Analytics and heatmap
 * Form elements
 * Metrics of likes
 * Voice and audio data
 * Health tracker
 * While()
 * MiniX[4]: CAPTURE ALL
+* Required reading & Further reading
 
 ## Chapter 5: Auto Generator
 * setup() and start()
@@ -88,11 +92,12 @@ page_order: -2
 * Exercise in class
 * While()
 * MiniX[5]: A generative program
+* Required reading & Further reading
 
 ## Chapter 6: Object Orientation
 * setup() and start()
 * Exercise in class (Decode)
-* Source Code
+* Source code
 * class
 * Objects
 * Class-Object creation
@@ -100,52 +105,58 @@ page_order: -2
 * Further notes
 * While()
 * MiniX[6]: Games with objects
+* Required reading & Further reading
 
 ## Chapter 7: Vocable Code
 * setup() and start()
 * Exercise in class (Decode)
-* Texuality & Type
-* Conditions
+* Texuality
+* Conditional structure
 * JSON
 * Source Code
 * Exercise in class
 * While()
 * MiniX[7]: E-lit
+* Required reading & Further reading
 
 ## Chapter 8: Que(e)ry Data
 * setup() and start()
 * Exercise in class
-* Image processing: Fetching, Loading and Display
-* Source Code
-* Exercise: Accessing Web APIs (Step by Step)
+* Image processing: fetching, loading and display
+* Source code
+* Exercise: Accessing web APIs (step by step)
 * APIs
 * Que(e)rying data
 * Exercise in class
 * LoadPixels()
 * Different types of errors
 * While()
-* MiniX[8]: Working with APIs
+* MiniX[8]: Working with APIs (in a group)
+* Required reading & Further reading
 
 ## Chapter 9: Algorithmic Procedures
 * setup() and start()
 * Discussion in class
+* Exercise in class
 * Flowcharts
 * Exercise in class
-* Flowcharts as artistic medium
+* Flowcharts as an artistic medium
 * While()
 * MiniX[9]: Flowcharts
+* Required reading & Further reading
 
 ## Chapter 10: Machine Learning
 * setup() and start()
 * Between input and output
 * Exercise in class
-* Learning Algorithms
+* Learning algorithms
 * ml5.js library
-* Source Code
+* Source code
 * Reading Auto Chapter Generator
 * Exercise in class
 * While()
 * MiniX[10]: Final Project
+* Required reading & Further reading
 
 ## Chapter 11: Afterword (Recurrent Imaginaries)
 
