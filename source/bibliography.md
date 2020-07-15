@@ -2,7 +2,10 @@ Title: Bibliography
 
 ## Bibliography
 
+- Alison Adam, *Artificial Knowing: Gender and the Thinking Machine* (London: Routledge, 2006).
+- Alison Adam, "A Feminist Critique of Artificial Intelligence," *European Journal of Women's Studies* 2, no. 3 (1995).
 
+////////
 - Wendy Hui Kyong Chun, *Updating to Remain the Same: Habitual New Media* (Cambridge, MA: MIT Press, 2016)
 - Catherine D’Ignazio and Lauren Klein, "The Numbers Don’t Speak for Themselves," in *Data Feminism* (Cambridge, MA, MIT Press 2000), 151
 - René König and Miriam Rasch, "Reflect and Act! Introduction to the Society of the Query Reader," in René König and Miriam Rasch, eds. *Society of the Query: Reflections on Web Search* (Amsterdam: The Institute of Network Cultures, 2014), <https://networkcultures.org/query/2014/04/23/reflect-and-act-introduction-to-the-society-of-the-query-reader/>
