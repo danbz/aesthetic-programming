@@ -28,5 +28,15 @@
 - *GWEI* (2005)
 - The Project Formerly Known as Kindle Forkbomb
 - ml5.js
+- ELIZA (1966) by Joseph Weizenbaum
+- *E.L.I.Z.A Talking* (2013) by Norbert Landsteiner
+- *12 Hours of ImageNet*(2019) by Nicolas Malevé
+- *Anatomies of Intelligence*(2018-) by Joana Chicau and Jonathan https://anatomiesofintelligence.github.io/
+- *The Cleaning of Emotional Data* (2019), by artist Elisa Giardina Papa https://aksioma.org/cleaning.emotional.data/
+-  Rebecca Fiebrink's Wekinator (2009) http://www.wekinator.org/
+- Teachable Machine 1.0" (2017) as an experimental projectby Støg, Use All Five and Creative Lab and PAIR teams at Google
+- ImageNet by Fei Fei Li <http://image-net.org/about-overview>
+- Wordnet
+- Cristóbal Valenzuela at <https://github.com/Paperspace/training-lstm>.
 
 - *Recurrent Queer Imaginaries* by Helen Pritchard and Winnie Soon (2019)

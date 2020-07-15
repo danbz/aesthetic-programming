@@ -45,4 +45,33 @@ Title: Bibliography
 - Simon O’Sullivan, "On the Diagram (and a Practice of Diagrammatics)," in Karin Schneider and Begum Yasar, eds., *Situational Diagram* (New York: Dominique Lévy, 2016), 17.
 - Adrian Mackenzie, "The Production of Prediction: What Does Machine Learning Want?", *European Journal of Cultural Studies* 18, no.4-5 (2015): 429–445.
 - Adrian Mackenzie, *Machine Learners: Archaeology of a Data Practice* (Cambridge, MA: MIT Press, 2017), 23.
-- 
+- Geoff Cox, "Ways of Machine Seeing," *A Peer-Reviewed Journal About* 6, no. 1, April 1, (2017): 8–15. <https://doi.org/10.7146/aprja.v6i1.116007>.
+- Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>.
+- Adrian Mackenzie, *Machine Learners: Archaeology of a Data Practice* (Cambridge, MA: MIT Press, 2017).
+- Kate Crawford and Vladan Joler's "Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources," (2018)
+- Joseph Weizenbaum, "ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine,"" *Communications of the ACM* 9, no.1 (1996): 36-45.
+- Alan, M. Turing. "Computing machinery and intelligence," *Mind* 49 (1950): 433-460.
+- Clemens Apprich, "Introduction," in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination* (Minnesota: Meson Press, 2018), x.
+- Joy Buolamwini, "Response: Racial and Gender Bias in Amazon Recognition - Commercial AI System for Analyzing Faces," *Medium* (2019),  <https://medium.com/@Joy.Buolamwini/response-racial-and-gender-bias-in-amazon-rekognition-commercial-ai-system-for-analyzing-faces-a289222eeced>
+- Hito Steyerl, "A Sea of Data: Pattern Recognition and Corporate Animism (Forked Version)," in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination*
+- Dominique Laporte, *A History of Shit* (Cambridge, MA: MIT Press, 2002)
+- Nicolas Malevé's "An Introduction to Image Datasets", *Unthinking Photography* (2019), <https://unthinking.photography/articles/an-introduction-to-image-datasets>
+- David Silver, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert, et al, "Mastering the Game of Go without Human Knowledge," *Nature* 550, no. 7676 (2017): 354–59, <https://doi.org/10.1038/nature24270>.
+- Richard S. Sutton and Andrew Barto, *Reinforcement Learning: An Introduction*, 1st Edition (Cambridge, MA: MIT Press, 1998).
+- Richard S. Sutton, "Introduction: The Challenge of Reinforcement Learning," in Richard S. Sutton, eds. *Reinforcement Learning*. The Springer International Series in Engineering and Computer Science (Knowledge Representation, Learning and Expert Systems) 173 (Springer, 1992): 5-32.
+- Karen Hao, "Training a single AI model can emit as much carbon as five cars in their lifetimes," *MIT Technology Review*, June 6 (2019), <https://www.technologyreview.com/s/613630/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes/>
+- Arthur L. Samuel, "Some Studies in Machine Learning Using the Game of Checkers," *IBM Journal of research and development* 3, no.3 (1959): 210-229
+- Buolamwini, "Response: Racial and Gender Bias in Amazon Recognition"
+- Shakir Mohamed, Marie-Therese Png, William Isaac, “Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence,” *Philosophy & Technology*, Springer, July 12, 2020. https://doi.org/10.1007/s13347-020-00405-8.
+- Philip E. Agre, "Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI," in Geoff Bowker, Les Gasser, Leigh Star, and Bill Turner, eds., *Bridging the Great Divide: Social Science, Technical Systems, and Cooperative Work* (New York: Erlbaum, 1997).
+- Maria Puig de la Bellacasa, "Matters of Care in Technoscience: Assembling Neglected Things," in *Social Studies of Science* 41, no. 1 (2010), 92-3, 89.
+- Nicolas Malevé's article, "'The cat sits on the bed': Pedagogies of vision in human and machine learning", **Unthinking Photography** (2016), <https://unthinking.photography/articles/the-cat-sits-on-the-bed-pedagogies-of-vision-in-human-and-machine-learning>
+- Adrian Mackenzie and Anna Munster, “Platform Seeing: Image Ensembles and Their Invisualities,” *Theory, Culture & Society* 26, no.5 (2019): 3-22
+- Matteo Pasquinelli, “How a Machine Learns and Fails: A Grammar of Error for Artificial Intelligence,” *Spheres* 5 (2019), <http://matteopasquinelli.com/grammar-of-error-for-artificial-intelligence/>.
+- Ian J. Goodfellow, Jean Pouget-Abadie, Mehadi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio, "Generative Adversarial Networks" IPS'14: Proceedings of the 27th International Conference on Neural Information Processing Systems - Volume 2 (2014): 2672–2680
+- Paolo Friere's *Pedagogy of the Oppressed* (New York: Continuum, 1970)
+- John Berger, *Ways of Seeing* (London: Penguin, 1972).
+-  Walter Benjamin's essay "The Work of Art in the Age of Mechanical Reproduction" (1936), <https://www.marxists.org/reference/subject/philosophy/works/ge/benjamin.htm>.
+- Geoff Cox, "Ways of Machine Seeing," *A Peer-Reviewed Journal About* 6, no. 1 (2017): 8–15. <https://doi.org/10.7146/aprja.v6i1.116007>.
+- Michelle Carney, "Using Teachable Machine in the d.school classroom," *Medium*, <https://medium.com/@michellecarney/using-teachable-machine-in-the-d-school-classroom-96be1ba6a4f9>
+- Marie Louise Juul Søndergaard and Lone Koefoed Hansen, "Intimate Futures: Staying with the Trouble of Digital Personal Assistants through Design Fiction" (New York: ACM Press, 2018): 869–80. <https://doi.org/10.1145/3196709.3196766>.
