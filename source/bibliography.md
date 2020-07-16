@@ -152,7 +152,7 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - “Integrated Development Environment.” Wikipedia. <https://en.wikipedia.org/wiki/Integrated_development_environment>.
 - intersoft consulting. General Data Protection Regulation GDPR. <https://gdpr-info.eu/>.
 - “Java virtual machine”, Wikipedia. <https://en.wikipedia.org/wiki/Java_virtual_machine>.
-- Jin, Chelly. “Interactive Book Club.” **Diversity with Code + Art**. <http://diversity.p5js.org/>. 
+- Jin, Chelly. “Interactive Book Club.” *Diversity with Code + Art*. <http://diversity.p5js.org/>. 
 - Johnson, Steven. *Emergence: The Connected Lives of Ants, Brains, Cities and Software*. London, UK: Penguin, 2001.
 - Kazemi, Darius. “Corpora - A repository of JSON files.” Last updated May 19, 2020. <https://github.com/dariusk/corpora/tree/master/data>.
 - Kearney-Volpe, Claire. “p5.js access project.” <https://www.clairekv.com/p5js-ux-research>.
@@ -164,7 +164,7 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - Kitchin, Rob. “Thinking Critically About and Researching Algorithms,” In *Information, Communication & Society* 20 (2016): 14-29.
 - Knowles, Alison, and James Tenney. *A House of Dust*. 1967. Re-implemented by Nick Montfort. *For Memory Slam*. 2014. <https://nickm.com/memslam/a_house_of_dust.html>.
 - Knuth, Donald E. *The Art of Computer Programming*. Boston, MA: Addison-Wesley Professional, 2011.
-———. ”Literate Programming.” *The Computer Journal* 27, no. 2 (1984), 97–111. <https://academic.oup.com/comjnl/article/27/2/97/343244>. 
+- ———. ”Literate Programming.” *The Computer Journal* 27, no. 2 (1984), 97–111. <https://academic.oup.com/comjnl/article/27/2/97/343244>. 
 - Köbben, Barend. *Implementation of Langton’s Ant using HTML5 Canvas*. 2014. <https://kartoweb.itc.nl/kobben/D3tests/LangstonsAnt/>.
 - König, René, and Miriam Rasch. “Reflect and Act! Introduction to the Society of the Query Reader.” In *Society of the Query: Reflections on Web Search*. Edited by René König and Miriam Rasch, 9-15. Amsterdam: The Institute of Network Cultures, 2014.
 - Krysa, Joasia. *Ada Lovelace*. dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 055. Berlin: Hatje Cantz, 2012. 
@@ -180,15 +180,13 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - Lippard, Lucy R.. *Six Years: The Dematerialization of the Art Object from 1966 to 1972*. London, UK: University of California Press, 1997. 
 - Lorusso, Silvio. *The Best is Yet to Come*. 2012. <https://silviolorusso.com/work/the-best-is-yet-to-come/>. 
 - Mackenzie, Adrian. *Machine Learners: Archaeology of a Data Practice*. Cambridge, MA: MIT Press, 2017.
-———. “The Production of Prediction: What Does Machine Learning Want?.” *European Journal of Cultural Studies* 18 (August, 2015): 429-445.
+- ———. “The Production of Prediction: What Does Machine Learning Want?.” *European Journal of Cultural Studies* 18 (August, 2015): 429-445.
 - Mackenzie, Adrian, and Anna Munster. “Platform Seeing: Image Ensembles and Their Invisualities.” *Theory, Culture & Society* 26 (2019): 3–22.
 - Madsen, Ole Lehrmann, Birger Møller-Pedersen, and Kristen Nygaard. *Object-Oriented Programming in the BETA Programming Language*. New York, NY: Association for Computing Machinery (1993): 16–18.
+- Mastin, Luke, “The Story of Mathematics: 20TH CENTURY MATHEMATICS – TURING.” Last updated 2010. <http://storyofmathematics.lukemastin.com/20th_turing.html>. 
+- Mateas, Michael, and Nick Montfort. “A Box, Darkly: Obfuscation, weird languages, and code aesthetics." Presented at the Proceedings of the 6th Digital Arts and Culture Conference. IT University of Copenhagen, DK, December, 2005. 
+- Matteo Pasquinelli. “How a Machine Learns and Fails: A Grammar of Error for Artificial Intelligence.” *Spheres* 5 (2019). <http://matteopasquinelli.com/grammar-of-error-for-artificial-intelligence/>.
 
-
-
-Mastin, Luke, “The Story of Mathematics: 20TH CENTURY MATHEMATICS – TURING,” last updated 2010, accessed June 10, 2020. http://storyofmathematics.lukemastin.com/20th_turing.html. 
-Mateas, M. and Nick Montfort. “A box, darkly: Obfuscation, weird languages, and code aesthetics.: Presented at the Proceedings of the 6th Digital Arts and Culture Conference. IT University of Copenhagen, DK, December, 2005. 
-Matteo Pasquinelli. “How a Machine Learns and Fails: A Grammar of Error for Artificial Intelligence.” Spheres, no. 5 (2019). http://matteopasquinelli.com/grammar-of-error-for-artificial-intelligence/.
 *Malevé, Nicolas. “The cat sits on the bed, Pedagogies of vision in human and machine learning.” Unthinking Photography. (September 2016). https://unthinking.photography/articles/the-cat-sits-on-the-bed-pedagogies-of-vision-in-human-and-machine-learning.
 *Malevé, Nicolas. “An Introduction to Image Datasets.” Unthinking Photography (November 2019). https://unthinking.photography/articles/an-introduction-to-image-datasets. 
 Malevé, Nicolas. Exhibiting ImageNet. The Photographers Gallery, July 1 – September 13, 2019. https://thephotographersgallery.org.uk/whats-on/digital-project/exhibiting-imagenet.   
