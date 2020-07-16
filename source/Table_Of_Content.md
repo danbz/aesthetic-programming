@@ -86,7 +86,7 @@ page_order: -2
 * setup() and start()
 * Exercise in class (10 PRINT)
 * Langton's Ant
-* Source Code (Langton's Ant)
+* Source code (Langton's Ant)
 * Reading Langton's Ant
 * Two-dimensional arrays & nested for-Loops
 * Exercise in class
