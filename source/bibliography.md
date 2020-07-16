@@ -2,7 +2,7 @@ Title: Bibliography
 
 ## Bibliography
 
-- 1001 Free Fonts. Accessed June 20, 2020. <https://www.1001freefonts.com/>. 
+- 1001 Free Fonts. <https://www.1001freefonts.com/>. 
 - “A Beginner's Guide to Neural Networks and Deep Learning.” Pathmind. <https://pathmind.com/wiki/neural-network#define>. 
 - “A hackable text editor for the 21st Century.” Atom. <https://atom.io/>.
 - “About ImageNet,” Stanford Vision Lab. <http://image-net.org/about-overview>.
@@ -15,45 +15,48 @@ Title: Bibliography
 - “A.I. Wiki: A Beginner’s Guide to Important Topics in AI, Machine Learning, and Deep Learning.” Pathmind. <https://pathmind.com/wiki/ai-vs-machine-learning-vs-deep-learning>.
 - Agre, Philip E. “Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI.” In *Bridging the Great Divide: Social Science, Technical Systems, and Cooperative Work*. Edited by Geoff Bowker, Les Gasser, Leigh Star, and Bill Turner. Hillsdale, NJ: Erlbaum, 1997.
 - al-Khuwarizmi, Muhammad ibn Musá. *The Algebra of Mohammed ben Musa*. Translated by Frederic Rosen. London, UK: Rosen, 1831. 
-Alex Anikina. *A Lecture-Performance: Chronic Film*, 2007, time: infinite, Goldsmiths, University of London. <http://en.mieff.com/2017/alexandra_anikina>.
-“Anatomies of Intelligence.” NN Cluster initiative Aarhus University 2019, Winnie Soon, Magda Tyzlik-Carver, and Pablo Velasco. https://anatomiesofintelligence.github.io/workshop_presentation.html.
-“Anatomies of Intelligence & the Concept of Aesthesis.” Joana Chicau and Jonathan Reus. <https://anatomiesofintelligence.github.io/>.
-Andersen, Christian Ulrik and Geoff Cox. *A Peer-Reviewed Journal About Datafied Research*, no. 4 (June 2015), https://aprja.net//issue/view/8402.
-Andersen, Christian Ulrik and Geoff Cox. *A Peer-Reviewed Journal About Machine Feeling*, no. 8 (June 2019), https://aprja.net//issue/view/8133.
-Apprich, Clemens. “Introduction.” in Pattern Discrimination. Edited by Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, x - xii. Minneapolis, MN: University of Minnesota Press and Lüneberg, DE: Meson Press, 2018.
-Austin, John Langshaw. How to Do Things with Words. Oxford, UK: Clarendon Press, 1975.
-Balsamo, Anne. Technologies of the Gendered Body: Reading Cyborg Women. Durham, NC: Duke University Press, 1995.
-Barad, Karen. Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning. Durham, NC: Duke University Press, 2007.
-*Bell, John. “Asterisk Painting,” accessed July 5, 2020. http://www.johnpbell.com/asterisk-painting/.
-*“binary increment.” Turing Machine Visualization, accessed July 5, 2020. https://turingmachine.io/.
-Bellacasa, Maria Puig de la. “Matters of Care in Technoscience: Assembling Neglected Things.” Social Studies of Science, no. 41 (February 2011): 85 – 106.
-Benjamin, Ruha. “Are Robots Racist: Reimagining the Default Settings of Technology and Society,” Dropbox Lecture video, 23:23, 2019. https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4. 
-Benjamin, Walter. “The Work of Art in the Age of Mechanical Reproduction.” Translated by Harry Zohn. New York, NY: Schocken/Random House, 1936. 
-Bennett, Jane. Vibrant Matter: A Political Ecology of Things. Durham, NC: Duke University Press, 2009.
+- Alex Anikina. *A Lecture-Performance: Chronic Film*, 2007, time: infinite, Goldsmiths, University of London. <http://en.mieff.com/2017/alexandra_anikina>.
+- “Anatomies of Intelligence.” NN Cluster initiative Aarhus University 2019, Winnie Soon, Magda Tyzlik-Carver, and Pablo Velasco. https://anatomiesofintelligence.github.io/workshop_presentation.html.
+- “Anatomies of Intelligence & the Concept of Aesthesis.” Joana Chicau and Jonathan Reus. <https://anatomiesofintelligence.github.io/>.
+- Andersen, Christian Ulrik, and Geoff Cox. *A Peer-Reviewed Journal About Datafied Research*, no. 4 (June 2015). https://aprja.net//issue/view/8402>.
+- Andersen, Christian Ulrik, and Geoff Cox. *A Peer-Reviewed Journal About Machine Feeling*, no. 8 (June 2019). <https://aprja.net//issue/view/8133>.
+- Apprich, Clemens. “Introduction.” in *Pattern Discrimination*. Edited by Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, x-xii. Minneapolis, MN: University of Minnesota Press and Lüneberg, DE: Meson Press, 2018.
+- Austin, John Langshaw. *How to Do Things with Words*. Oxford, UK: Clarendon Press, 1975.
+- Balsamo, Anne. *Technologies of the Gendered Body: Reading Cyborg Women*. Durham, NC: Duke University Press, 1995.
+- Barad, Karen. *Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning*. Durham, NC: Duke University Press, 2007.
+- Bell, John. “Asterisk Painting.” <http://www.johnpbell.com/asterisk-painting/>.
+- “binary increment.” Turing Machine Visualization. <https://turingmachine.io/>.
+- Bellacasa, Maria Puig de la. “Matters of Care in Technoscience: Assembling Neglected Things.” *Social Studies of Science* 41 (February 2011): 85–106.
+- Benjamin, Ruha. “Are Robots Racist: Reimagining the Default Settings of Technology and Society.” Dropbox Lecture video, 23:23, 2019. <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>. 
+- Benjamin, Walter. *The Work of Art in the Age of Mechanical Reproduction* [1936]. Translated by Harry Zohn. London: Penguin, 2008. 
+- Bennett, Jane. *Vibrant Matter: A Political Ecology of Things*. Durham, NC: Duke University Press, 2009.
 Berardi, Franco “Bifo.” “The Neuroplastic Dilemma: Consciousness and Evolution.” e-flux journal no. 60 (December 2014). https://www.e-flux.com/journal/60/61034/the-neuroplastic-dilemma-consciousness-and-evolution/. 
-Berardi, Franco “Bifo”. Precarious Rhapsody: Semiocapitalism and the pathologies of the post-alpha generation. Translated by Arianna Bove, Erik Empson, Michael Goddard, Giuseppina Mecchia, Antonella Schintu and Steve Wright. London, UK: Minor Compositions, 2009.
-Berger, John. Ways of Seeing. London, UK: Penguin, 1972. 
-Bergson, Henri. Matter and Memory. Translated by Nancy Margaret Paul and W. Scott Palmer. London, UK: Allen and Unwin, 1896.
-Bivens, Rena. “The Gender Binary will not be Deprogrammed: Ten Years of Coding Gender on Facebook.” New Media & Society, no. 19 (June 2017): 880–898.
-“Blame it On the Boogie.” track 1 on The Jackson 5’s, Destiny, Total Experience Recording Studios, 1978.
-Blas, Zach and Micha Cárdenas. (2013). “Imaginary Computational Systems: Queer Technologies and Transreal Aesthetics.” AI and Society, no. 28 (December 2013): 559-566.
-Bogost, Ian. Persuasive Games: The Expressive Power of Videogames. Cambridge, MA: MIT Press, 2007.  
-———. “Procedural Literacy: Problem Solving with Programming, Systems, & Play.” The Journal of Media Literacy, no. 52 (Winter/Spring 2015): 32-36. 
-———. Unit Operations: An Approach to Videogame Criticism. Cambridge, MA: MIT Press, 2006.
-Boluk, Stephanie, Leonardo Flores, Gacob Garbe and Anastasia Salter eds.. “Electronic Literature Collection Volume Three, February 2016.” Cambridge, MA: Electronic Literature Organization. http://collection.eliterature.org/3/. 
-Borràs, Laura, Talan Memmott, Rita Raley, Brian Stefans eds.. “Electronic Literature Collection Volume Two, February 2011,” Cambridge, MA: Electronic Literature Organization.
-http://collection.eliterature.org/2/.  
-*Breeze, Mez. MEZANGELLE. 1994 – Ongoing, accessed July 1, 2020. https://anthology.rhizome.org/mez-breeze.
-Brock, Kevin. Rhetorical Code Studies: Discovering Arguments in and around Code. Ann Arbor, MI: University of Michigan Press, 2019.
-Bucher, Taina. If...Then: Algorithmic Power and Politics. Oxford, UK: Oxford University Press, 2018: 21.
-Buolamwini, Joy. “Response: Racial and Gender Bias in Amazon Recognition — Commercial AI System for Analyzing Faces.” Medium, 2019. https://medium.com/@Joy.Buolamwini/response-racial-and-gender-bias-in-amazon-rekognition-commercial-ai-system-for-analyzing-faces-a289222eeced.
-*Burnham, Jack. “Software – Information Technology: Its New Meaning for Art.” Exhibition at the Jewish Museum, New York, NY, September 16 – November 8, 1970 and Smithsonian Institution, Washington, D.C., December 16, 1970 – February 14, 1971. 
-Butler, Judith. Excitable Speech: A Politics of the Performative. London, UK: Routledge, 1997.
-“Call for Works 2015: CAPTURE ALL.” transmediale / art & digitalculture, accessed June 20, 2020, https://transmediale.de/content/call-for-works-2015.
-Carney, Michelle. “Using Teachable Machine in the d.school classroom.” Updated November 5, 2019. https://medium.com/@michellecarney/using-teachable-machine-in-the-d-school-classroom-96be1ba6a4f9.
-Cayley, John. “The Code is Not the Text Unless it is the Text.” Electronic Book Review. October 9, 2002. http://electronicbookreview.com/essay/the-code-is-not-the-text-unless-it-is-the-text/.
-Chan, Owyang V. Geometry Is Fun For Me. Indianapolis, IL: Dog Ear Publishing, 2017.
-Chandra, Ashok K. and David Harel. Computer Queries for Relational Data Bases. Journal of Computer and System Sciences, no. 21 (October 1980): 156–178.
+- Berardi, Franco “Bifo”. *Precarious Rhapsody: Semiocapitalism and the pathologies of the post-alpha generation*. Translated by Arianna Bove, Erik Empson, Michael Goddard, Giuseppina Mecchia, Antonella Schintu and Steve Wright. London, UK: Minor Compositions, 2009.
+- Berger, John. *Ways of Seeing*. London, UK: Penguin, 1972. 
+- Bergson, Henri. *Matter and Memory*. Translated by Nancy Margaret Paul and W. Scott Palmer. London, UK: Allen and Unwin, 1896.
+- Bivens, Rena. “The Gender Binary will not be Deprogrammed: Ten Years of Coding Gender on Facebook.” *New Media & Society* 19 (June 2017): 880–898.
+- “Blame it On the Boogie.” Track 1 on The Jackson 5’s *Destiny*, Total Experience Recording Studios, 1978.
+- Blas, Zach, and Micha Cárdenas. “Imaginary Computational Systems: Queer Technologies and Transreal Aesthetics.” *AI and Society* 28 (December 2013): 559-566.
+- Bogost, Ian. *Persuasive Games: The Expressive Power of Videogames*. Cambridge, MA: MIT Press, 2007.  
+- ———. “Procedural Literacy: Problem Solving with Programming, Systems, & Play.” *The Journal of Media Literacy* 52 (Winter/Spring 2015): 32-36. 
+- ———. *Unit Operations: An Approach to Videogame Criticism*. Cambridge, MA: MIT Press, 2006.
+- Boluk, Stephanie, Leonardo Flores, Gacob Garbe, and Anastasia Salter, eds.. *Electronic Literature Collection*. Volume Three. Cambridge, MA: Electronic Literature Organization, 2016. <http://collection.eliterature.org/3/>. 
+- Borràs, Laura, Talan Memmott, Rita Raley, and Brian Stefans, eds.. *Electronic Literature Collection*. Volume Two. Cambridge, MA: Electronic Literature Organization, 2011. <http://collection.eliterature.org/2/>.  
+- Breeze, Mez. *MEZANGELLE*. 1994 – Ongoing. <https://anthology.rhizome.org/mez-breeze>.
+- Brock, Kevin. *Rhetorical Code Studies: Discovering Arguments in and around Code*. Ann Arbor, MI: University of Michigan Press, 2019.
+- Bucher, Taina. *If...Then: Algorithmic Power and Politics*. Oxford, UK: Oxford University Press, 2018.
+- Buolamwini, Joy. “Response: Racial and Gender Bias in Amazon Recognition — Commercial AI System for Analyzing Faces.” *Medium*, 2019. <https://medium.com/@Joy.Buolamwini/response-racial-and-gender-bias-in-amazon-rekognition-commercial-ai-system-for-analyzing-faces-a289222eeced>.
+- Burnham, Jack. “Software – Information Technology: Its New Meaning for Art.” Exhibition at the Jewish Museum, New York, NY, September 16 – November 8, 1970, and Smithsonian Institution, Washington, D.C., December 16, 1970 – February 14, 1971. 
+- Butler, Judith. *Excitable Speech: A Politics of the Performative*. London, UK: Routledge, 1997.
+- “Call for Works 2015: CAPTURE ALL.” transmediale / art & digitalculture. <https://transmediale.de/content/call-for-works-2015>.
+- Carney, Michelle. “Using Teachable Machine in the d.school classroom.” Updated November 5, 2019. <https://medium.com/@michellecarney/using-teachable-machine-in-the-d-school-classroom-96be1ba6a4f9>.
+- Cayley, John. “The Code is Not the Text Unless it is the Text.” *Electronic Book Review*. October 9, 2002. <http://electronicbookreview.com/essay/the-code-is-not-the-text-unless-it-is-the-text/>.
+- Chan, Owyang V. *Geometry Is Fun For Me*. Indianapolis, IL: Dog Ear Publishing, 2017.
+- Chandra, Ashok K., and David Harel. "Computer Queries for Relational Data Bases." *Journal of Computer and System Sciences* 21 (October 1980): 156–178.
+
+
+
+
 *Choi, Taeyoon. Signing Coders. Ongoing, accessed July 1, 2020. http://taeyoonchoi.com/soft-care/signing-coders/.
 Chun, Wendy Hui Kyong. “On Software, or the Persistence of Visual Knowledge.” Grey Room, no. 18 (January 2005): 26 - 51.
 ———. Programmed Visions: Software and Memory. Cambridge, MA: MIT Press, 2011.
