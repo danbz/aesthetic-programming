@@ -9,7 +9,7 @@ page_order: -2
 
 ## Table of Content 
 
-## Acknowledgment 
+## Acknowledgments 
 
 ## OSP 
 
