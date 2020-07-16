@@ -337,18 +337,18 @@ Explore shapes, geometries, and other related syntax (via p5.js [references](htt
 
 ## Required reading
 
-- Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, [Modifying the Universal,](http://www.data-browser.net/db06.html) *Executing Practices*, Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, eds. (London: Open Humanities Press, 2018), 35-51.
-- p5.js. p5.js | Simple Shapes. [Web] Available at: <https://p5js.org/examples/hello-p5-simple-shapes.html>.
-- Shiffman, Daniel. (2018) "1.3,1.4,2.1,2.2: Code! Programming with p5.js." Available at: <https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2>.
-- Femke Snelting, "Other Geometries," *transmediale journal*, Issue#3, 31 October (2019), <https://transmediale.de/content/other-geometries>.
+- Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, [Modifying the Universal,](http://www.data-browser.net/db06.html), in Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, eds., *Executing Practices* (London: Open Humanities Press, 2018), 35-51.
+- *p5.js. p5.js | Simple Shapes*, <https://p5js.org/examples/hello-p5-simple-shapes.html>.
+- Shiffman, Daniel. (2018) "1.3,1.4,2.1,2.2: Code! Programming with p5.js," <https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2>.
+- Femke Snelting, "Other Geometries," *transmediale journal* 3, October 31 (2019), <https://transmediale.de/content/other-geometries>.
 
 ## Further reading
 
-- Crystal Abidin and Joel Gn, eds., "Histories and Cultures of Emoji Vernaculars," *First Monday* 23, no. 9, September (2018). <https://firstmonday.org/ojs/index.php/fm/issue/view/607>.
-- Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-reviewed Journal About Machine Feeling* 8, no. 1 (2019). <https://tidsskrift.dk/APRJA/issue/view/8133>.
+- Crystal Abidin and Joel Gn, eds., "Histories and Cultures of Emoji Vernaculars," *First Monday* 23, no. 9, September (2018), <https://firstmonday.org/ojs/index.php/fm/issue/view/607>.
+- Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-reviewed Journal About Machine Feeling* 8, no. 1 (2019), <https://aprja.net//issue/view/8133>.
 - Olga Goriunova, "Introduction," *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing* (London: Bloomsbury, 2014), 1-19.
 - Derek Robinson, "Variables," in Matthew Fuller, ed., *Software Studies: A Lexicon* (Cambridge, MA: MIT Press, 2008).
-- Femke Snelting, [Modifying the Universal](https://www.youtube.com/watch?v=ZP2bQ_4Q7DY), MedeaTV (2016), Video, 1 hr 15 mins.
+- Femke Snelting, [Modifying the Universal](https://www.youtube.com/watch?v=ZP2bQ_4Q7DY), *MedeaTV* (2016), Video, 1 hr 15 mins.
 
 ## Notes
 
