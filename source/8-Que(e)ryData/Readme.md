@@ -384,10 +384,18 @@ This is a relatively complex exercise that requires you to:
 - Can you describe and reflect on your process in this miniX in terms of acquiring, processing, using, and representing data? How much do you understand this data or what do you want to know more about? How do platform providers sort the data and give you the requested data? What are the power relations in the chosen APIs? What is the significance of APIs in digital culture?
 - Try to formulate a question in relation to web APIs or querying/parsing processes that you would like to investigate further if you had more time.  
 
-## Required reading:
-- Daniel Shiffman, "Working with data, The Coding Train", available at <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r> (10.4-10.10).
-- David Gauthier, Audrey Samson, Eric Snodgrass, Winnie Soon, and Magda Tyżlik-Carver, "Executing," in *Uncertain Archives*, Nanna Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio and Kristin Veel, eds. (Cambridge, MA: MIT Press, 2020).
-- Eric Snodgrass and Winnie Soon, "[API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange](https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721)," *First Monday* 24, no.2 (2019): n. pag.
+## Required reading
+
+- David Gauthier, Audrey Samson, Eric Snodgrass, Winnie Soon, and Magda Tyżlik-Carver, "Executing," in Nanna Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio and Kristin Veel, eds., *Uncertain Archives* (Cambridge, MA: MIT Press, 2020).
+- Daniel Shiffman, "Working with data," *The Coding Train*, <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r> (10.4-10.10).
+- Eric Snodgrass and Winnie Soon, "[API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange](https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721)," *First Monday* 24, no.2 (2019): n.p.
+
+## Further reading
+
+- Jonathan Albright, "[The Graph API: Key Points in the Facebook and Cambridge Analytica Debacle](https://medium.com/tow-center/the-graph-api-key-points-in-the-facebook-and-cambridge-analytica-debacle-b69fe692d747)," *Medium* (2018). 
+- Taina Bucher, “Objects of intense feeling: The case of the Twitter API,” in *Computational Culture*, Nov 27 (2013), <http://computationalculture.net/article/objects-of-intense-feeling-the-case-of-the-twitter-api>.
+- Matthew G. Kirschenbaum, *Mechanisms: New Media and the Forensic Imagination* (Cambridge, MA: MIT Press, 2007), 25-71.
+- Christoph Raetzsch, et al. “[Weaving Seams with Data: Conceptualizing City APIs as Elements of Infrastructures](https://journals.sagepub.com/doi/full/10.1177/2053951719827619),” *Big Data & Society*, Jan (2019), doi:10.1177/2053951719827619.
 
 ## Notes
 
