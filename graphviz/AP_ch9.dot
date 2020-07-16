@@ -9,29 +9,29 @@ color=grey,
 SU [label="setup()"]
 ST [label="start()"]
 DiC [label="Discussion in class"]
-FC [label="Flow Charts"]
 EiC [label="Exercise in class"]
-AM [label="Flowcharts as artistic medium"]
+FC [label="Flowcharts"]
+EiC1 [label="Exercise in class"]
+AM [label="Flowcharts as an artistic medium"]
 MW [label="While()"]
-MX [label="MiniX 9: \nFlowcharts"]
+MX [label="MiniX[9]: \nFlowcharts"]
 RR [label="Required reading"]
+FR [label="Further reading"]
 Notes [label="Notes"]
 
 //rank
-{rank = same; SU, ST}
-{rank = same; FC, EiC}
-{rank = same; RR, MW}
-{rank = same; MX, GS}
+{rank = same; RR, SU}
 
 //graph
 GS -> SU -> ST;
 GS -> MX[minlen=3];
-ST -> DiC;
-ST -> FC -> EiC;
-FC -> AM;
+ST -> DiC -> EiC;
+ST -> FC ;
+FC -> EiC1 -> AM;
 MW -> Notes;
 MW -> FC[dir=both]
 SU -> MW [dir=both];
 RR -> GS, SU, MW;
 FC -> MX;
+RR -> FR;
 }

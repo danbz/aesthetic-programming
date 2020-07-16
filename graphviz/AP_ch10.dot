@@ -10,27 +10,20 @@ SU [label="setup()"]
 ST [label="start()"]
 IO [label="Between input and output"]
 EiC [label="Exercise in class"]
-LA [label="Learning Algorithms"]
+LA [label="Learning algorithms"]
 ml5 [label="ml5.js library"]
-SC [label="Source Code"]
+SC [label="Source code"]
 RAG [label="Reading \nAuto Chapter Generator"]
 EiC2 [label="Exercise in class"]
 MW [label="While()"]
-MX [label="MiniX 10: \nFinal Project"]
+MX [label="MiniX[10]: \nFinal Project"]
 RR [label="Required reading"]
+FR [label="Further reading"]
 Notes [label="Notes"]
 
 //rank
-
-{rank = same; ml5, SC}
-{rank = same; SU, ST}
-{rank = same; EiC2, RAG}
-{rank = same; MX, LA}
-{rank = same; IO, EiC}
-{rank = same; RR, GS}
-//{rank = same; EiC, LA}
-{rank = same; MW, Notes}
-
+{rank = same; SU, RR}
+{rank=same;MX,LA}
 //graph
 GS -> SU -> ST
 SU-> IO -> EiC;
@@ -45,4 +38,5 @@ SC -> RAG -> EiC2;
 ST -> MW -> Notes;
 GS, MW -> MX;
 ml5 -> RAG;
+RR -> FR;
 }

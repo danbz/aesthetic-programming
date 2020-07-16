@@ -9,24 +9,23 @@ color=grey,
 SU [label="setup()"]
 ST [label="start()"]
 EiC [label="Exercise in class"]
-IP [label="Image Processing: \nFetching, Loading and Display"]
-SC [label="Source Code"]
-EiC2 [label="Exercise: \nAccesing Web APIs"]
+IP [label="Image processing: \nfetching, loading and display"]
+SC [label="Source code"]
+EiC2 [label="Exercise: \nAccesing web APIs (step by step)"]
 API [label="APIs"]
-QD [label="Que(e)rying Data"]
+QD [label="Que(e)rying data"]
 EiC3 [label="Exercise in class"]
 LP [label="LoadPixels()"]
 ER [label="Different types of errors"]
 MW [label="While()"]
-MX [label="MiniX 8: \nWorking with APIs"]
+MX [label="MiniX[8]: \nWorking with APIs\n(in a group)"]
 RR [label="Required reading"]
+FR [label="Further reading"]
 Notes [label="Notes"]
 
 //rank
 {rank = same; MW, Notes}
-{rank = same; EiC, ST}
 {rank = same; RR, EiC, ST}
-
 {rank = same; MX, SC}
 {rank = same; API, QD}
 {rank = same; MW, EiC3, ER}
@@ -44,4 +43,5 @@ QD -> ER -> MW;
 ST -> MW [dir=both];
 MW -> Notes;
 MW -> MX;
+RR -> FR;
 }
