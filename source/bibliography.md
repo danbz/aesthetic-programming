@@ -11,7 +11,7 @@ Title: Bibliography
 - Adam, Alison. *Artificial Knowing: Gender and the Thinking Machine*. London: Routledge, 2006.
 - Adam, Alison. "A Feminist Critique of Artificial Intelligence." *European Journal of Women's Studies* 2, no. 3 (1995).
 
-- Adorno, /////////////////
+- Adorno, ///////////////// Prisms
 
 - “atom-live-server-package.” Atom. <https://atom.io/packages/atom-live-server>.
 - “Adversarial Hacking in the Age of AI: Call for Proposals.” transmediale / art & digitalculture (2020). <https://2020.transmediale.de/content/adversarial-hacking-in-the-age-of-ai-call-for-proposals>.
@@ -32,7 +32,7 @@ Title: Bibliography
 - “binary increment.” Turing Machine Visualization. <https://turingmachine.io/>.
 - Bellacasa, Maria Puig de la. “Matters of Care in Technoscience: Assembling Neglected Things.” *Social Studies of Science* 41 (February 2011): 85–106.
 - Benjamin, Ruha. “Are Robots Racist: Reimagining the Default Settings of Technology and Society.” Dropbox Lecture video, 23:23, 2019. <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>. 
-- Benjamin, Walter. *The Work of Art in the Age of Mechanical Reproduction* [1936]. Translated by Harry Zohn. London: Penguin, 2008. 
+- Benjamin, Walter. "The Work of Art in the Age of Mechanical Reproduction" [1936]. In *Selected Writings, Volume 3, 1935–1938*. Edited by Howard Eiland and Michael W. Jennings. Cambridge, MA: Belknap Press of Harvard University Press, 2002.
 - Bennett, Jane. *Vibrant Matter: A Political Ecology of Things*. Durham, NC: Duke University Press, 2009.
 Berardi, Franco “Bifo.” “The Neuroplastic Dilemma: Consciousness and Evolution.” *e-flux* journal no. 60 (December 2014). https://www.e-flux.com/journal/60/61034/the-neuroplastic-dilemma-consciousness-and-evolution/. 
 - Berardi, Franco “Bifo”. *Precarious Rhapsody: Semiocapitalism and the pathologies of the post-alpha generation*. Translated by Arianna Bove, Erik Empson, Michael Goddard, Giuseppina Mecchia, Antonella Schintu and Steve Wright. London, UK: Minor Compositions, 2009.
@@ -158,9 +158,7 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - “Integrated Development Environment.” Wikipedia. <https://en.wikipedia.org/wiki/Integrated_development_environment>.
 - intersoft consulting. General Data Protection Regulation GDPR. <https://gdpr-info.eu/>.
 - “Java virtual machine”, Wikipedia. <https://en.wikipedia.org/wiki/Java_virtual_machine>.
-
-- Jay, Martin ////////////
-
+- Jay, Martin. *Aesthetic Theory*. Minneapolis, MN: University of Minnesota Press, 1996.
 - Jin, Chelly. “Interactive Book Club.” *Diversity with Code + Art*. <http://diversity.p5js.org/>. 
 - Johnson, Steven. *Emergence: The Connected Lives of Ants, Brains, Cities and Software*. London, UK: Penguin, 2001.
 - Kazemi, Darius. “Corpora - A repository of JSON files.” Last updated May 19, 2020. <https://github.com/dariusk/corpora/tree/master/data>.
@@ -264,6 +262,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - “Programmable Search.” Google. <https://cse.google.com/all>.
 - ProgrammableWeb. <https://www.programmableweb.com/>. 
 “Queer AI.” Queer AI. <https://queer.ai/>.
+- Rancière, Jacques. *The Politics of Aesthetics*. London: Continuum, 2006.  
 - Reas, Casey. “{Software} Structures.” <https://artport.whitney.org/commissions/softwarestructures/text.html>.
 - “README.md.” GitLab Pages examples. <https://gitlab.com/pages/plain-html/-/blob/master/README.md>.
 - “Request A GIPHY API Key.” GIPHY Support. <https://support.giphy.com/hc/en-us/articles/360020283431-Request-A-GIPHY-API-Key>. 
@@ -375,6 +374,7 @@ Turing, Alan Mathison. “The Chemical Basis of Morphogenesis.” *Philosophical
 Zuboff, Shoshana. “Surveillance Capitalism.” VPRO Documentary, accessed April 26, 2020. https://youtu.be/hIXhnWUmMvw.
 Žilák, Martin. recursive fractal tree in p5.js. https://editor.p5js.org/marynotari/sketches/BJVsL5ylz. 
 
+////////
 https://www.masswerk.at/elizabot/
 Hacking Monopolism Trilogy which also included Amazon Noir (2006), and Face to Facebook (2011). 
 !Cannot access due to login wall! Movie API with code example -- https://itp.nyu.edu/classes/cc-s16/movie-api-data/ -- 
@@ -394,6 +394,21 @@ Langton, Chris. “Langton’s Ant Colonies.” YouTube video, 6:02. Posted by
 Le Guin, Ursula K. “Books Remembered” (article) Calendar, v.XXXVI, n.2, November 1977–June 1978, np.
 Menabrea, Luigi Federico, and Ada Lovelace. Sketch of the analytical engine invented by Charles Babbage (1842), 694.
 
+Walter Benjamin, "The Author as Producer" [1935], quoted in Geoff Cox and Joasia Krysa, eds. Engineering Culture: On the Author as (Digital) Producer (New York, Autonomedia, 2005), 22
+
+OSP, Open Source Publishing, http://osp.kitchen/about.
+
+Marino, Critical Code Studies.
+
+Runme.org
+
+Matthew Fuller, Andrew Goffey, Adrian Mackenzie, Richard Mills and Stuart Sharples, "Big Diff, Granularity, Incoherence, and Production in the Github Software Repository," in Matthew Fuller, How To Be a Geek: Essays on the Culture of Software (Cambridge: Polity Press, 2017). ↩
+
+Stephen Morris and Orlena Gotel, "The Role of Flow Charts in the Early Automation of Applied Mathematics," BSHM Bulletin: Journal of the British Society for the History of Mathematics 26, no. 1 (March 2011): 44–52, https://doi.org/10.1080/17498430903449207. ↩
+
+See Mark C. Marino, “Critical Code Studies”, Electronic Book Review (December 4, 2006); "Field Report for Critical Code Studies," Computational Culture 4 (9th November 2014), http://computationalculture.net/field-report-for-critical-code-studies-2014%e2%80%a8/; Mark C. Marino, Critical Code Studies (Cambridge, MA: MIT Press, 2020).
+
+Raymond Williams, Keywords: A Vocabulary of Culture and Society (London: Fontana, 1983); updated by Blackwell in 2005 as New Keywords: A Revised Vocabulary of Culture and Society.
 
 
 
