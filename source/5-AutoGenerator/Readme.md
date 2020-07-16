@@ -344,11 +344,23 @@ Artist David Link built a functional replica of both the hardware and the origin
 - What role do rules and processes have in your work?
 - Draw upon the assigned reading, how does this MiniX help you to understand the idea of "auto-generator" (e.g. levels of control and autonomy via rules)? Do you have any further thoughts on the theme of this chapter?
 
-## Required reading:
+## Required reading
+
 - Nick Montfort et al. "Randomness," *[10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org/)* (Cambridge, MA: MIT Press, 2012), 119-146.
 - [Langton's Ant Colonies](https://www.youtube.com/watch?v=w6XQQhCgq5c)
-- Marius Watz, "Beautiful Rules: Generative Models of Creativity," in *The Olhares de Outono* (2007), <https://vimeo.com/26594644>.
 - Daniel Shiffman,  [p5.js - 2D Arrays in Javascript](https://www.youtube.com/watch?v=OTNpiLUSiB4).
+- Marius Watz, "Beautiful Rules: Generative Models of Creativity," in *The Olhares de Outono* (2007), <https://vimeo.com/26594644>.
+
+## Further reading
+
+- John Horton Conway, [*The Game of Life* (1970)](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
+- Chris G. Langton, "[Studying Artificial Life with Cellular Automata](https://deepblue.lib.umich.edu/bitstream/2027.42/26022/1/0000093.pdf)," *Physica D: Nonlinear Phenomena* 22, nos. 1–3 (1986): 120–149.
+- Philip Galanter, "[Generative Art Theory](http://cmuems.com/2016/60212/resources/galanter_generative.pdf)," in Christiane Paul, ed., *A Companion to Digital Art* (2016).
+- [The Recode Project](http://recodeproject.com/) and [Memory Slam](http://nickm.com/memslam/) by Nick Montfort.
+- [How to Draw with Code by Casey Reas](https://www.youtube.com/watch?v=_8DMEHxOLQE).
+- [p5.js Coding Challenge #14: Fractal Trees - Recursive by Daniel Shiffman](https://www.youtube.com/watch?v=0jjeOYMjmDU)
+- [p5.js Coding Challenge #76: Recursion by Daniel Shiffman](https://www.youtube.com/watch?v=jPsZwrV9ld0)
+- [noise() vs random() - Perlin Noise and p5.js Tutorial by Daniel Shiffman](https://www.youtube.com/watch?v=YcdldZ1E9gU)
 
 ## Notes
 
