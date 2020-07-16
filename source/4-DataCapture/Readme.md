@@ -389,12 +389,11 @@ This line of argument makes reference to the philosophy of Gilbert Simondon, to 
 -	Shoshana Zuboff, *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power* (New York: PublicAffairs, 2019).
 -	Søren Pold, "Button," in Fuller, ed., *Software Studies*.
 -	Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-Reviewed Journal About Datafied Research* 4, no. 1 (2015), https://aprja.net//issue/view/8402
-•	Rena Bivens, "The Gender Binary Will Not be Deprogrammed: Ten Years of Coding Gender on Facebook," *New Media & Society* 19, no. 6 (2017): 880–898. https://doi.org/10.1177/1461444815621527.
-•	Kenneth Cukier and Victor Mayer-Schöenberger, "The Rise of Big Data," *Foreign Affairs*, May/June (2013): 28–40.
-•	Audun M. Øygard, *clmtrackr - Face tracking javascript library*.
-•	Daniel Shiffman, *HTML / CSS/DOM - p5.js Tutorial* (2017). Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX.
-•	Tiziana Terranova, "Red Stack Attack! Algorithms, Capital and the Automation of the Common," *EuroNomade* (2014). Available at http://www.euronomade.info/?p=2268.
-
+-	Rena Bivens, "The Gender Binary Will Not be Deprogrammed: Ten Years of Coding Gender on Facebook," *New Media & Society* 19, no. 6 (2017): 880–898. https://doi.org/10.1177/1461444815621527.
+-	Kenneth Cukier and Victor Mayer-Schöenberger, "The Rise of Big Data," *Foreign Affairs*, May/June (2013): 28–40.
+- Audun M. Øygard, [clmtrackr - Face tracking javascript library](https://github.com/auduno/clmtrackr).
+-	Daniel Shiffman, *HTML / CSS/DOM - p5.js Tutorial* (2017). Available at: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX.
+-	Tiziana Terranova, "Red Stack Attack! Algorithms, Capital and the Automation of the Common," *EuroNomade* (2014). Available at http://www.euronomade.info/?p=2268.
 
 ## Notes
 
