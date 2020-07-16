@@ -7,7 +7,7 @@ page_order: -2
 
 ## Colophon
 
-## Chapter 0: Preface
+## Preface
 * What kind of book is this?
 * So why aesthetic programming?
 * And software studies?
@@ -158,7 +158,7 @@ page_order: -2
 * MiniX[10]: Final Project
 * Required reading & Further reading
 
-## Chapter 11: Afterword (Recurrent Imaginaries)
+## Afterword (Recurrent Imaginaries)
 
 ## Bibliography
 
