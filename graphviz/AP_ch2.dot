@@ -8,31 +8,30 @@ color=grey,
 
 SU [label="setup()"]
 ST [label="start()"]
-SC [label="Source Code"]
+SC [label="Source code"]
 CO [label="Coordinate"]
 EiC [label="Exercise in class"]
 VB [label="Variables"]
 YVB [label="Why use variables?"]
 OF [label="Other functions"]
-BAO [label="Basic Arithmetic Operators"]
-CS [label="Conditional Structure"]
+BAO [label="Basic arithmetic operators"]
+CS [label="Conditional structures"]
 RO [label="Relational operators"]
 DiC [label="Discussion in class"]
 MW [label="While()"]
-MX [label="MiniX 2: \nGeometric emoji"]
+MX [label="MiniX[2]: \nGeometric emoji"]
 RR [label="Required reading"]
+FR [label="Further reading"]
 Notes [label="Notes"]
 
 //rank
-{rank = same; SU, SC}
+//{rank = same; SU, SC}
 {rank = same; MW, Notes}
-{rank = same; BAO, VB, DiC}
-{rank = same; EiC, MW}
-{rank = same; SC, OF}
+//{rank = same; BAO, VB, DiC}
+//{rank = same; EiC, MW}
+//{rank = same; SC, OF}
 {rank = same; ST, RR}
-{rank = same; ST, CO, CS}
-
-
+//{rank = same; ST, CO, CS}
 
 //graph
 GS -> MX;
@@ -49,4 +48,5 @@ EiC, VB, CS -> DiC;
 ST -> MW -> Notes;
 MW -> MX;
 RR -> MX, SU;
+RR -> FR;
 }
