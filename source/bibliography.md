@@ -24,6 +24,7 @@ Title: Bibliography
 - Andersen, Christian Ulrik, and Søren Bro Pold. *The Metainterface: The Art of Platforms, Cities, and Clouds*. Cambridge, MA: MIT Press, 2018.
 - Anikina, Alex. *A Lecture-Performance: Chronic Film*, 2007, time: infinite, Goldsmiths, University of London. <http://en.mieff.com/2017/alexandra_anikina>.
 - Apprich, Clemens. “Introduction.” in *Pattern Discrimination*. Edited by Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, x-xii. Minneapolis, MN: University of Minnesota Press and Lüneberg, DE: Meson Press, 2018.
+- *Asterisk Painting*, by John P. Bell, ported to p5.js, and modified by Winnie Soon. <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
 - Austin, John Langshaw. *How to Do Things with Words*. Oxford, UK: Clarendon Press, 1975.
 - Balsamo, Anne. *Technologies of the Gendered Body: Reading Cyborg Women*. Durham, NC: Duke University Press, 1995.
 - Barad, Karen. *Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning*. Durham, NC: Duke University Press, 2007.
@@ -40,6 +41,7 @@ Title: Bibliography
 - Berry, David M., and Anders Fagerjord. *Digital Humanities: Knowledge and Critique in a Digital Age*. Hoboken, NJ: John Wiley & Sons, 2017.  
 - Bivens, Rena. “The Gender Binary will not be Deprogrammed: Ten Years of Coding Gender on Facebook.” *New Media & Society* 19 (June 2017): 880–898.
 - “Blame it On the Boogie.” Track 1 on The Jackson 5’s *Destiny*, Total Experience Recording Studios, 1978.
+- Blas, Zach. *Facial Weaponization Suite*. 2011-14. <http://www.zachblas.info/works/facial-weaponization-suite/>.
 - Blas, Zach, and Micha Cárdenas. “Imaginary Computational Systems: Queer Technologies and Transreal Aesthetics.” *AI and Society* 28 (December 2013): 559-566.
 - Bogost, Ian. *Persuasive Games: The Expressive Power of Videogames*. Cambridge, MA: MIT Press, 2007.  
 - ———. “Procedural Literacy: Problem Solving with Programming, Systems, & Play.” *The Journal of Media Literacy* 52 (Winter/Spring 2015): 32-36. 
@@ -125,8 +127,8 @@ Ernst, Wolfgang. *Chronopoetics: The Temporal Being and Operativity of Technolog
 - Gaboury, Jacob. “A Queer History of Computing: Part Three.” *Rhizome*. Last updated April 9, 2013. <https://rhizome.org/editorial/2013/apr/9/queer-history-computing-part-three/>. 
 - Galanter, Philip. “What is Generative Art? Complexity theory as a context for art theory.” Presented at the GA2003-6th Generative Art Conference. Milan. January 2003. <https://www.researchgate.net/publication/318494160_What_is_generative_art_Complexity_theory_as_a_context_for_art_theory>.
 - Gauthier, David, Audrey Samson, Eric Snodgrass, Winnie Soon, and Magda Tyżlik-Carver. “Executing.” In *Uncertain Archives*. Edited by Nanna Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio and Kristin Veel. Cambridge, MA: MIT Press, 2020.
-- “Get Started.” p5.js, Processing Foundation. <https://p5js.org/get-started/>.
 - Gerlitz, Carolin, and Anne Helmond. “The Like Economy: Social Buttons and the Data-Intensive Web.” *New Media & Society* 15. (December 2013): 1348–65.
+- “Get Started.” p5.js, Processing Foundation. <https://p5js.org/get-started/>.
 - Gibbons, Jeremy, and Oege de Moor. *The Fun of Programming*, London, UK: Palgrave Macmillan, 2003.
 - “GitLab Markdown.” GitLab Docs. <https://docs.gitlab.com/ee/user/markdown.html>.
 - Goffey, Andrew. “Algorithm.” In *Software Studies*. Edited by Matthew Fuller, 15–20. Cambridge, MA: MIT Press, 2008. 
@@ -182,9 +184,12 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - Krysa, Joasia. *Ada Lovelace*. dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 055. Berlin: Hatje Cantz, 2012. 
 - Krysa, Joasia, and Grzesiek Sedek. “Source Code.” In *Software Studies*. Edited by Matthew Fuller, 236–242. Cambridge, MA: MIT Press, 2008.
 - Lam, Francis. *Design China*. Last updated November 16, 2012. <https://www.design-china.org/post/35833433475/francis-lam>.
+- Landsteiner, Norbert. "elizabot.js." 2005. <https://www.masswerk.at/elizabot/>.
 - Langton, Christopher G.. “Studying Artificial Life with Cellular Automata.” *Physica D: Nonlinear Phenomena* 22, no. 1–3 (October 1986): 120–49.
+- “Langton’s Ant Colonies.” YouTube video, 6:02. <https://www.youtube.com/watch?v=w6XQQhCgq5c>.
 - Laporte, Dominique. *A History of Shit*. Translated by Rodolphe el-Khoury. Cambridge, MA: MIT Press, 2002. 
 - Latour, Bruno. Reassembling the Social: An Introduction to Actor-Network-Theory. Oxford, UK: Oxford University Press, 2005.
+- Le Guin, Ursula K. “Books Remembered,” *Calendar* XXXVI, no. 2, November 1977 – June 1978, n.p.
 - Lee, Seong-Won, and Soo-Mook Moon. “Selective Just-in-time Compilation for Client-side Mobile Javascript Engine.” Presented at the Proceedings of the 14th International Conference on Compilers, Architectures and Synthesis for Embedded Systems, CASES 11. New York, NY: Association for Computing Machinery, 2011. 
 - Leslie, Esther. “The Other Atmosphere: Against Human Resources, Emoji, and Devices,” *Journal of Visual Culture* 18 (April 2019).
 - Lim, Kenneth. “Chinese Translation for p5.js and preparing a future of more translations.” *Medium*. Updated July 30, 2018. <https://medium.com/processing-foundation/chinese-translation-for-p5-js-and-preparing-a-future-of-more-translations-b56843ea096e>.
@@ -196,7 +201,6 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - ———. “The Production of Prediction: What Does Machine Learning Want?.” *European Journal of Cultural Studies* 18 (August, 2015): 429-445.
 - Mackenzie, Adrian, and Anna Munster. “Platform Seeing: Image Ensembles and Their Invisualities.” *Theory, Culture & Society* 26 (2019): 3–22.
 - Madsen, Ole Lehrmann, Birger Møller-Pedersen, and Kristen Nygaard. *Object-Oriented Programming in the BETA Programming Language*. New York, NY: Association for Computing Machinery (1993): 16–18.
-
 - Malevé, Nicolas. “The Cat Sits on the Bed: Pedagogies of vision in human and machine learning.” *Unthinking Photography* (September 2016). <https://unthinking.photography/articles/the-cat-sits-on-the-bed-pedagogies-of-vision-in-human-and-machine-learning>.
 - ———. “An Introduction to Image Datasets.” *Unthinking Photography* (November 2019). <https://unthinking.photography/articles/an-introduction-to-image-datasets>. 
 - ———. *Exhibiting ImageNet*. Exhibition, The Photographers Gallery, July 1 – September 13, 2019. <https://thephotographersgallery.org.uk/whats-on/digital-project/exhibiting-imagenet>.
@@ -236,6 +240,7 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - ———. “Weather.” p5.js. <https://p5js.org/examples/hello-p5-weather.html>.
 - McCarthy, Lauren, and Golan Levin. “p5.js Diversity & Floss Panel Introduction.” *Studio for Creative Inquiry*. Last updated May 26, 2015. <http://opentranscripts.org/transcript/p5js-diversity-floss-panel-introduction/>.
 - MIT CSAIL (@MIT_CSAIL). “Bias in AI: translating English -> Turkish, a gender neutral language, then that same Turkish phrase back to English,” Twitter, October 5, 2017, 10:07 p.m.. <https://twitter.com/mit_csail/status/916032004466122758>. 
+- Menabrea, Luigi Federico, and Ada Lovelace. *Sketch of the analytical engine invented by Charles Babbage* (1842), 694.
 - “Method: cse.list.” Custom Search API, Google Developers. Last updated June 11, 2020. <https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list#parameters>.
 - Mohamed, Shakir, Marie-Therese Png, and William Isaac. “Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence.” *Philosophy & Technology*. Springer, July 12 (2020). <https://doi.org/10.1007/s13347-020-00405-8>.
 - Montfort, Nick. *Exploratory Programming For the Arts and Humanities*. Cambridge, MA: MIT Press, 2016.
@@ -357,11 +362,12 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Sweeney, Miriam E., and Kelsea Whaley. “Technically White: Emoji Skin-tone Modifiers as American Technoculture.” *First Monday* 24, July (2019).
 “Systemics #2: As we may think (or, the next world library).” Exihibition curated by Joasia Krysa at Kunsthal Aarhus, *e-flux*. Last modified November 7, 2013. <https://www.e-flux.com/announcements/31936/systemics-2-as-we-may-think-or-the-next-world-library/>. 
 - Temkin, Daniel. “esoteric.codes.” 2011. <https://esoteric.codes/>.
+- "The Tower of Babel." *Genesis* 2, no. 19 & 11, no. 1-9. 
 - Titcomb, James. “New 'gender equality' emoji to show women at work.” *The Telegraph*. Last updated July 15, 2016. <https://www.telegraph.co.uk/technology/2016/07/15/new-gender-equality-emoji-to-show-women-at-work/>.
 - Truckenbrod, Joan. “Joan Truckenbrod.” Vimeo, 4:29. Last Updated August 27, 2018. <https://vimeo.com/286993496>.
 - ———. *Coded Algorithmic Drawing Series*. Digital Photographic Layered Textiles, 2001. <https://joantruckenbrod.com/gallery/#(grid|filter)=.coded>. 
-Turing, Alan Mathison. “The Chemical Basis of Morphogenesis.” *Philosophical Transactions of the Royal Society of London B*, (August 14, 1952): 37–72.
-- ———. “Computing Machinery and Intelligence,” Mind 49 (1950): 433–460.
+- Turing, Alan Mathison. “The Chemical Basis of Morphogenesis.” *Philosophical Transactions of the Royal Society of London B*, (August 14, 1952): 37–72.
+- ———. “Computing Machinery and Intelligence,” *Mind* 49 (1950): 433–460.
 - ———. “On Computable Numbers, with an Application to the Entscheidungs problem.” Proceedings of the London Mathematical Society 2, no. 1 (1937): 230-265.
 - Torvalds, Linus, and David Diamond. *Just for Fun: The Story of an Accidental Revolutionary*. Knutsford, UK: Texere Publishing, 2001.
 - Terranova, Tiziana. “Red Stack Attack! Algorithms, Capital and the Automation of the Common.” *EuroNomade*. Last updated March 8, 2014. <http://www.euronomade.info/?p=2268>. 
@@ -392,9 +398,7 @@ Turing, Alan Mathison. “The Chemical Basis of Morphogenesis.” *Philosophical
 - Zuboff, Shoshana. “Surveillance Capitalism.” VPRO Documentary. <https://youtu.be/hIXhnWUmMvw>.
 
 
-//////// TO SORT OUT
-https://www.masswerk.at/elizabot/
-Hacking Monopolism Trilogy which also included Amazon Noir (2006), and Face to Facebook (2011). 
+//////// Winnie?
 
 !Cannot access due to login wall! Movie API with code example -- https://itp.nyu.edu/classes/cc-s16/movie-api-data/ -- 
 Global statistic API with code example](https://itp.nyu.edu/classes/cc-s16/inqubu-global-statistics-api/) !! Same as above!
@@ -403,22 +407,23 @@ Global statistic API with code example](https://itp.nyu.edu/classes/cc-s16/inqub
 Cannot find the correct URL for (Group Transform)  did you mean a different “transform” command?
 https://p5js.org/reference/#group-DOM.  Same for DOM 
 Events > Mouse> https://p5js.org/reference/.
+
+same?
 https://p5js.org/reference/#/p5/loadSound.
 https://p5js.org/reference/#/libraries/p5.sound.
 
-	Both same 
-Mez Breeze (1994), Florian Cramer (2008), John Cayley (2002), Geoff Cox & Alex McLean (2013), Winnie Soon & Geoff Cox (2018), Ian 
-Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013), and Allison Parrish (2015)
 
-Bell, John P., Asterisk Painting by John P. Bell, ported to p5.js, and modified by Winnie Soon. https://editor.p5js.org/siusoon/sketches/YAk1ZCieC
 
-Blas, Zach. Facial Weaponization Suite, 2011-14. http://www.zachblas.info/works/facial-weaponization-suite/.
-Genesis, The Tower of Babel, designed to reach heaven, displeased God such that “he” [sic] decided to confound the single language of Adam so that people would not understand each other’s speech (Genesis 2:19 & 11:1-9). 
 
-Langton, Chris. “Langton’s Ant Colonies.” YouTube video, 6:02. Posted by
 
-Le Guin, Ursula K. “Books Remembered” (article) Calendar, v.XXXVI, n.2, November 1977–June 1978, np.
-Menabrea, Luigi Federico, and Ada Lovelace. Sketch of the analytical engine invented by Charles Babbage (1842), 694.
+
+
+
+
+
+
+
+
 
 
 
