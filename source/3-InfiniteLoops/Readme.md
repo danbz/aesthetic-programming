@@ -382,7 +382,6 @@ This block of code from the above example describes the position of each asteris
 
 *Figure 3.7 The xPos of each asterisk*
 
-
 In our teaching, we describe another example of the use of a for-loop to further clarify its use and to demonstrate the repeated drawing of objects.
 
 ![](ch3_8.png)
@@ -454,13 +453,13 @@ Check out other works that refer to the throbber and how other people contextual
 ## Required reading
 
 - Wolfgang Ernst, “‘... Else Loop Forever’: The Untimeliness of Media,” (2009), https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf.
-- Daniel Shiffman, Courses "3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2,"" *Code! Programming with p5.js* on [YouTube](https://www.youtube.com/watch?v=1Osb_iGDdjk) (2018). (practical usage on conditional statements, loops, functions, and arrays)
-- Winnie Soon, “Throbber: Executing Micro-temporal Streams,” *Computational Culture* 7, October 21 (2019). http://computationalculture.net/throbber-executing-micro-temporal-streams/.
+- Daniel Shiffman, Courses "3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2," *Code! Programming with p5.js* on [YouTube](https://www.youtube.com/watch?v=1Osb_iGDdjk) (2018). (practical usage on conditional statements, loops, functions, and arrays)
+- Winnie Soon, “Throbber: Executing Micro-temporal Streams,” *Computational Culture* 7, October 21 (2019), http://computationalculture.net/throbber-executing-micro-temporal-streams/.
 
 ## Further reading
 
 - Wolfgang Ernst, *Chronopoetics: The Temporal Being and Operativity of Technological Media* (London: Rowman & Littlefield International, 2016), 63-95.
-- Farman, Jason. "Fidget Spinners", *Real Life* (2017).
+- Jason Farman, "[Fidget Spinners](https://reallifemag.com/fidget-spinners/#!)," *Real Life* (2017).
 -	Wilfried Hou Je Bek, "Loop," in Fuller, ed., *Software Studies*.
 - Derek Robinson, "Function," in Fuller, ed., *Software Studies*.
 
