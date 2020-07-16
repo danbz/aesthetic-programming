@@ -9,21 +9,22 @@ color=grey,
 SU [label="setup()"]
 ST [label="start()"]
 DE [label="Decode"]
-SC [label="Source Code"]
+SC [label="Source code"]
 FN [label="Function"]
 EiC [label="Exercise in class"]
 TR [label="Transform"]
+PP [label="push() and pop()"]
 EiC2 [label="Exercise in class"]
 AP [label="Reading \nAsterisk Painting"]
-SC2 [label="Source Code"]
+SC2 [label="Source code"]
 EiC3 [label="Exercise in class"]
 AR [label="Arrays"]
-CS [label="Conditional Statements"]
+CS [label="Conditional statements"]
 LO [label="Loops"]
-WL [label="While Loop"]
 MW [label="While()"]
-MX [label="MiniX 3: \nDesigning a throbber"]
+MX [label="MiniX[3]: \nDesigning a throbber"]
 RR [label="Required reading"]
+FR [label="Further reading"]
 Notes [label="Notes"]
 
 //rank
@@ -38,6 +39,7 @@ SU -> MW [dir=both];
 GS -> MX;
 RR -> MX, SU;
 SC -> FN -> EiC;
+TR->PP;
 SC -> TR -> EiC2;
 EiC, EiC2 -> AP -> SC2 -> EiC3
 SC2 -> AR;
@@ -46,4 +48,5 @@ SC2 -> LO -> WL;
 ST, LO -> MW -> Notes;
 MW -> MX;
 WL -> MW;
+RR -> FR;
 }
