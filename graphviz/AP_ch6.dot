@@ -9,24 +9,22 @@ color=grey,
 SU [label="setup()"]
 ST [label="start()"]
 DE [label="Exercise in class: \nDecode"]
-SC [label="Source Code"]
+SC [label="Source code"]
 CL [label="class"]
 OO [label="Objects"]
 COC [label="Class-Object creation"]
 EiC [label="Exercise in class"]
 FN [label="Further notes"]
 MW [label="While()"]
-MX [label="MiniX 6: \nGames with objects"]
+MX [label="MiniX[6]: \nGames with objects"]
 RR [label="Required reading"]
+FR [label="Further reading"]
 Notes [label="Notes"]
 
 //rank
-{rank = same; SU, ST, DE}
-{rank = same; RR, DE}
-{rank = same; CL, OO, COC}
-{rank = same; CL, MX}
-{rank = same; EiC, FN}
-{rank = same; MW, Notes}
+{rank = same; EiC,FN}
+{rank = same; MX,DE}
+{rank = same; MW,ST}
 
 //graph
 GS -> SU -> ST -> DE -> SC;
@@ -38,4 +36,5 @@ SC -> {CL, OO, COC} -> EiC -> FN;
 ST -> MW -> Notes;
 MW -> MX;
 COC -> MW;
+RR -> FR;
 }

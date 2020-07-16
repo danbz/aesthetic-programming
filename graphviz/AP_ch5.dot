@@ -10,21 +10,21 @@ SU [label="setup()"]
 ST [label="start()"]
 EiC [label="Exercise in class: \n10 PRINT"]
 LA [label="Langton's Ant"]
-SC [label="Source Code"]
+SC [label="Source code\n(Langton's Ant)"]
 RLA [label="Reading \nLangton's Ant"]
 AL [label="Two-dimensional arrays \n& nested for-loops
 "]
 EiC2 [label="Exercise in class"]
 MW [label="While()"]
-MX [label="MiniX 5: \nA Generative Program"]
+MX [label="MiniX [5]: \nA Generative Program"]
 RR [label="Required reading"]
+FR [label="Further reading"]
 Notes [label="Notes"]
 
 //rank
 {rank = same; RR, ST}
-//{rank = same; LA, EiC}
 {rank = same; RLA, SC}
-{rank = same; MX, EiC}
+{rank = same; MX,EiC2}
 {rank = same; MW, LA}
 
 
@@ -42,5 +42,5 @@ SC -> AL;
 ST -> MW -> Notes;
 MW -> MX;
 LA -> MW;
-
+RR -> FR;
 }

@@ -8,23 +8,21 @@ color=grey,
 
 SU [label="setup()"]
 ST [label="start()"]
-DE [label="Exercise in class: \nDecode"]
+DE [label="Exercise in class: \n(Decode)"]
 TX [label="Textuality"]
-TP [label="Type"]
-CO [label="Conditions"]
+CO [label="Conditional structure"]
 JS [label="JSON"]
 SC [label="Source Code"]
 EiC [label="Exercise in class"]
 MW [label="While()"]
-MX [label="MiniX 7: \nE-lit"]
+MX [label="MiniX[7]: \nE-lit"]
 RR [label="Required reading"]
+FR [label="Further reading"]
 Notes [label="Notes"]
 
 //rank
-{rank = same; SU, ST}
-{rank = same; DE, TX}
-{rank = same; MW, DE}
 {rank = same; RR, SC}
+{rank = same; FR, TX}
 
 //graph
 GS -> SU -> ST -> DE;
@@ -32,14 +30,15 @@ GS -> MX;
 GS -> RR[dir=both, minlen=2];
 SU -> MW [dir=both];
 RR -> MX, SU;
-DE -> TX -> TP;
-TX, TP -> SC[dir=both];
+DE -> TX;
+TX -> SC[dir=both];
 SC -> EiC;
 SC -> CO, JS[dir=both];
 ST -> MW [dir=both];
 JS -> MX;
 MW -> MX, Notes;
-DE -> SC[dir=none];
+DE -> SC[dir=both];
 CO -> MW[dir=both];
 ST -> EiC;
+RR -> FR;
 }
