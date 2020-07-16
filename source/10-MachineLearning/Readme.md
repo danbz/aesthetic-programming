@@ -359,13 +359,22 @@ The README should address the following questions with the help of your source c
 
 - Open question: To what extent can the artifact be considered to be a critical work in and of itself?
 
-## Required reading:
-- Geoff Cox, "Ways of Machine Seeing," *A Peer-Reviewed Journal About* 6, no. 1, April 1, (2017): 8–15. <https://doi.org/10.7146/aprja.v6i1.116007>.
+## Required reading
+
 - Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>.
+- Geoff Cox, "Ways of Machine Seeing," *A Peer-Reviewed Journal About* 6, no. 1, April 1, (2017): 8–15, <https://doi.org/10.7146/aprja.v6i1.116007>.
 - Adrian Mackenzie, "Introduction: Into the Data," *Machine Learners: Archaeology of a Data Practice* (Cambridge, MA: MIT Press, 2017).
 
-## Further reading:
-- add
+## Further reading
+
+- Clemens Apprich, Wendy Hui Kyong Chun, Florian Cramer, Hito Steyerl, eds., *[Pattern Discrimination: In Search of Media](https://meson.press/wp-content/uploads/2018/11/9783957961457-Pattern-Discrimination.pdf)* (Minneapolis, MN: University of Minnesota Press, 2018).
+- Kate Crawford and Vladan Joler, "Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources," AI Institute (2018), <https://anatomyof.ai/>.
+- Shakir Mohamed, Marie-Therese Png, William Isaac, “Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence,” *Philosophy & Technology*, Springer, July 12 (2020), <https://doi.org/10.1007/s13347-020-00405-8>.
+- Sarah Myers West, Meredith Whittaker, and Kate Crawford, *Discriminating Systems: Gender, Race and Power in AI*, AI Now Institute, New York University, April (2019), <https://ainowinstitute.org/discriminatingsystems.html>.
+- Adrian Mackenzie, *Machine Learners: Archaeology of a Data Practice* (Cambridge, MA: MIT Press, 2017).
+- Adrian Mackenzie and Anna Munster, “Platform Seeing: Image Ensembles and Their Invisualities,” *Theory, Culture & Society* 26, no. 5 (2019): 3-22.
+- Matteo Pasquinelli, “How a Machine Learns and Fails: A Grammar of Error for Artificial Intelligence,” *Spheres* 5 (2019), <http://matteopasquinelli.com/grammar-of-error-for-artificial-intelligence/>.
+- Joseph Weizenbaum, "ELIZA - a computer program for the study of natural language communication between man and machine", in *Communications of the ACM* 9, no.1 (1966): 36-45.
 
 ## Notes
 
@@ -373,7 +382,7 @@ The README should address the following questions with the help of your source c
 
 [^diagram]: See Kate Crawford and Vladan Joler's essay and diagram "Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources," (2018) for a detailed explanation of this, <https://anatomyof.ai/>.
 
-[^Weizenbaum]: Joseph Weizenbaum, "ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine,"" *Communications of the ACM* 9, no.1 (1996): 36-45.
+[^Weizenbaum]: Joseph Weizenbaum, "ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine," *Communications of the ACM* 9, no.1 (1966): 36-45.
 
 [^Weizenbaum2]: Weizenbaum. “ELIZA*, 42.
 
@@ -381,7 +390,7 @@ The README should address the following questions with the help of your source c
 
 [^Turing]: See Alan, M. Turing. "Computing machinery and intelligence," *Mind* 49 (1950): 433-460.
 
-[^clemens]:Clemens Apprich, "Introduction," in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination* (Minnesota: Meson Press, 2018), x.
+[^clemens]: Clemens Apprich, "Introduction," in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination* (Minnesota: Meson Press, 2018), x.
 
 [^online]: Google's online translation service perpetuatess gender stereotypes, <https://twitter.com/mit_csail/status/916032004466122758>.
 
