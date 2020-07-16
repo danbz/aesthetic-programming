@@ -460,12 +460,22 @@ To conclude this chapter, which explored the making of *Vocable Code* with its s
   - Analyze your own e-lit work by using the text *Vocable Code* and/or *The Aesthetics of Generative Code* (or other texts that address code/voice/language).
   - How would you reflect on your work in terms of *Vocable Code*?
 
-## Required reading:
+## Required reading
 
-- Allison Parrish, Text and Type (2019). Available at: <https://creative-coding.decontextualize.com/text-and-type/>
-- Daniel Shiffman, 10.2: What is JSON? Part I - p5.js Tutorial (2017). Available at: <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
-- Daniel Shiffman, 10.2: What is JSON? Part II - p5.js Tutorial (2017). Available at: <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
 - Geoff Cox and Alex McLean, "Vocable Code," in *Speaking Code* (Cambridge, MA: MIT Press, 2013), 17-38.
+- Allison Parrish, "Text and Type" (2019), <https://creative-coding.decontextualize.com/text-and-type/>.
+- Daniel Shiffman, *10.2: What is JSON? Part I - p5.js Tutorial* (2017), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
+- Daniel Shiffman, *10.2: What is JSON? Part II - p5.js Tutorial* (2017), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
+
+## Further reading
+
+- Geoff Cox, Alex McLean, and Adrian Ward, "The Aesthetics of Generative Code," Proceedings of Generative Art Conference, Milan (2001).
+- Liz W. Faber, *The Computer's Voice: From Star Trek to Siri* (Minneapolis, MN: University of Minnesota Press, 2020).
+- Sadie Plant, *Zeros + Ones: Digital Women and the New Technoculture* (London: Forth Estate, 1998).
+- Raymond Queneau, et al. "Six Selections by the Oulipo," in Noah Wardrip-Fruin and Nick Montfort, eds., *The New Media Reader* (Cambridge, MA: MIT Press, 2003), 147-189.
+- Rita Raley, [Interferences: [Net.Writing] and the Practice of Codework](http://electronicbookreview.com/essay/interferences-net-writing-and-the-practice-of-codework/), *Electronic Book Review* (2002).
+- Margaret Rhee, “[Reflecting on Robots, Love, and Poetry](https://dl.acm.org/doi/pdf/10.1145/3155126?download=true),” *XRDS: Crossroads* 24, no. 2, December (2017): 44–46.
+- Daniel Shiffman, *10.1: Introduction to Data and APIs in Javascript* (2017), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
 
 ## Notes
 
