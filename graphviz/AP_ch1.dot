@@ -8,26 +8,21 @@ color=grey,
 
 SU [label="setup()"]
 ST [label="start()"]
-WE [label="Working Environment"]
+WE [label="Working environment"]
 p5 [label="p5.js"]
-CE [label="Code Editor"]
+CE [label="Code editor"]
 MFP [label="My first program"]
 EiC [label="Exercise in class"]
-RC [label="Reading code:  \n'Hello World'"]
-RG [label="Reading: \nreference guide"]
+RC [label="Reading the web console \n'Hello World'"]
+RG [label="Reading the \nreference guide"]
 Git [label="Git"]
 MW [label="While()"]
-MX [label="MiniX 1: \nRUNME and README"]
+MX [label="MiniX[1]: \nRUNME and README"]
 RR [label="Required reading"]
+FR [label="Further reading"]
 Notes [label="Notes"]
 
-
-{rank = same; WE, ST}
-{rank = same; GS, SU}
-{rank = same; MFP, EiC}
-{rank = same; Git, EiC}
-{rank = same; MFP, RR}
-
+{rank = same; MFP, WE}
 
 //graph
 GS -> SU -> ST;
@@ -48,4 +43,5 @@ RG -> MX;
 p5 -> CE [dir=both];
 WE -> MFP;
 p5 -> RG;
+RR -> FR;
 }
