@@ -378,7 +378,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Visti, Anders, and Tobias Stenberg. *WUOUS: Wrocław Urban Operating System*. 2019. <https://andersvisti.dk/work/wuos-2019>.
 - Valenzuela, Cristóbal. “Paperspace/training-lstm.” Github. <https://github.com/Paperspace/training-lstm>.
 - Weizenbaum, Joseph. “ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine.” *Communications of the ACM* 9 (1), 1996.
-- Ward, Adrian. “Auto-Illustrator.” *Generator* exhibition (2002-3). <http://www.medienkunstnetz.de/works/autoillustrator/>. 
+- Ward, Adrian. “Auto-Illustrator.” 2002. <http://www.medienkunstnetz.de/works/autoillustrator/>. 
 - Wardrip-Fruin, Noah. “Christopher Strachey: The First Digital Artist?.” *Grand Text Auto*, School of Engineering, University of California Santa Cruz (1 August 2005).
 - ———. *Expressive Processing: Digital Fictions, Computer Games, and Software Studies*. Cambridge, MA: MIT Press, 2012.
 - Watz, Marius. “Beautiful Rules: Generative Models of Creativity.” in *The Olhares de Outono* (2007). <https://vimeo.com/26594644>.
