@@ -7,6 +7,12 @@ page_order: -2
 
 ## Colophon
 
+## Table of Content 
+
+## Acknowledgment 
+
+## OSP 
+
 ## Preface
 * What kind of book is this?
 * So why aesthetic programming?
