@@ -499,16 +499,25 @@ Once you understand objects and classes, you can continue to work on a mini game
 - Draw upon the assigned reading, **what** are the characteristics of object-oriented programming and the wider implications of abstraction?
 - **Connect** your game project to a wider cultural context, and think of an example to describe how complex details and operations are being "abstracted"?
 
-## Required reading:
-- [p5.js examples - Objects](https://p5js.org/examples/objects-objects.html)
-- [p5.js examples - Array of Objects](https://p5js.org/examples/objects-array-of-objects.html)
-- Daniel Shiffman, "Code! Programming with p5.js," *The Coding Train* (watch: 2.3, 6.1, 6.2, 6.3, 7.1, 7.2, 7.3), <https://www.youtube.com/watch?v=8j0UDiN7my4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA>
-- Daniel Shiffman, "Multiple js Files - p5.js Tutorial,"" *The Coding Train*,  <https://www.youtube.com/watch?v=Yk18ZKvXBj4>.
-- Matthew Fuller & Andrew Goffey, "The Obscure Objects of Object Orientation," in Matthew Fuller, ed. *How to be a Geek: Essays on the Culture of Software* (Cambridge: Polity, 2017).
+## Required reading
+
+- Matthew Fuller and Andrew Goffey, "The Obscure Objects of Object Orientation," in Matthew Fuller, *How to be a Geek: Essays on the Culture of Software* (Cambridge: Polity, 2017).
+- [p5.js examples - Objects](https://p5js.org/examples/objects-objects.html).
+- [p5.js examples - Array of Objects](https://p5js.org/examples/objects-array-of-objects.html).
+- Daniel Shiffman, "Code! Programming with p5.js," *The Coding Train* (watch: 2.3, 6.1, 6.2, 6.3, 7.1, 7.2, 7.3), <https://www.youtube.com/watch?v=8j0UDiN7my4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA>.
+- Daniel Shiffman, "Multiple js Files - p5.js Tutorial," *The Coding Train*, <https://www.youtube.com/watch?v=Yk18ZKvXBj4>.
+
+## Further reading
+
+- Andrew P. Black, [Object-Oriented Programming: Some history, and challenges for the next fifty years](https://arxiv.org/abs/1303.0427),(2013).
+- Cecile Crutzen and Erna Kotkamp, "Object Orientation," in Fuller, ed., *Software Studies*, 200-207.
+- Roger Y. Lee, *Software Engineering: A Hands-On Approach* (Springer, 2013), 17-24, 35-37.
+- Ole-Johan Dahl, "[The Birth of Object Orientation: the Simula Languages](https://link.springer.com/chapter/10.1007/978-3-540-39993-3_3)," in Olaf Owe, Stein Krogdahl, and Tom Lyche, eds., *Object-Orientation to Formal Methods, Lecture Notes in Computer Science* 2635 (Berlin, Heidelberg: Springer, 2004).
+- Daniel Shiffman, [16.17 Inheritance in JavaScript - Topics of JavaScript/ES6](https://www.youtube.com/watch?v=MfxBfRD0FVU&feature=youtu.be&fbclid=IwAR14JwOuRnCXYUIKV7DxML3ORwPIttOPPKhqTCKehbq4EcxbtdZDXJDr4b0)
 
 ## Notes:
 
-[^history]: Simula, developed in the 1960s by Ole-Johan Dahl and Kristen Nygaard at the Norwegian Computing Center in Oslo, is considered to be the first object-oriented programming language. Smalltalk, first developed for educational use at Xerox Corporation's Palo Alto Research Center in the late 1960s and released in 1972, is cited more often. For more on the history of object-oriented programming languages, see Ole-Johan Dahl, [The Birth of Object Orientation: the Simula Languages](https://link.springer.com/chapter/10.1007/978-3-540-39993-3_3). *Object-Orientation to Formal Methods*, Olaf Owe, Stein Krogdahl, Tom Lyche, eds., *Lecture Notes in Computer Science*, vol 2635 (Berlin/Heidelberg: Springer, 2004).
+[^history]: Simula, developed in the 1960s by Ole-Johan Dahl and Kristen Nygaard at the Norwegian Computing Center in Oslo, is considered to be the first object-oriented programming language. Smalltalk, first developed for educational use at Xerox Corporation's Palo Alto Research Center in the late 1960s and released in 1972, is cited more often. For more on the history of object-oriented programming languages, see Ole-Johan Dahl, [The Birth of Object Orientation: the Simula Languages](https://link.springer.com/chapter/10.1007/978-3-540-39993-3_3). *Object-Orientation to Formal Methods*, Olaf Owe, Stein Krogdahl, Tom Lyche, eds., *Lecture Notes in Computer Science* 2635 (Berlin/Heidelberg: Springer, 2004).
 [^Fazi]: Beatrice M. Fazi and Matthew Fuller, "Computational Aesthetics," in Christiane Paul, ed., *A Companion to Digital Art* (Hoboken, NJ: Wiley Blackwell, 2016), 281-296.
 [^Fuller]: Matthew Fuller & Andrew Goffey, "The Obscure Objects of Object Orientation," in Matthew Fuller, ed., *How to be a Geek: Essays on the Culture of Software* (Cambridge: Polity, 2017).
 [^binary]: Limor Fried & Federico Gomez Suarez (n.d), "Binary & Data," Khan Academy. Available at <https://www.khanacademy.org/computing/computer-science/how-computers-work2/v/khan-academy-and-codeorg-binary-data>.
