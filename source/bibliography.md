@@ -10,20 +10,19 @@ Title: Bibliography
 - Abidin, Crystal, and Joel Gn. “Between art and application: Special issue on emoji epistemology.” *First Monday* 23 (September 2018):9.
 - Adam, Alison. *Artificial Knowing: Gender and the Thinking Machine*. London: Routledge, 2006.
 - Adam, Alison. "A Feminist Critique of Artificial Intelligence." *European Journal of Women's Studies* 2, no. 3 (1995).
-
-- Adorno, ///////////////// Prisms
-
+- Adorno, Theodor W. *Prisms*. Cambridge, MA: MIT Press, 1983. 
 - “atom-live-server-package.” Atom. <https://atom.io/packages/atom-live-server>.
 - “Adversarial Hacking in the Age of AI: Call for Proposals.” transmediale / art & digitalculture (2020). <https://2020.transmediale.de/content/adversarial-hacking-in-the-age-of-ai-call-for-proposals>.
 - “A.I. Wiki: A Beginner’s Guide to Important Topics in AI, Machine Learning, and Deep Learning.” Pathmind. <https://pathmind.com/wiki/ai-vs-machine-learning-vs-deep-learning>.
 - Agre, Philip E. “Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI.” In *Bridging the Great Divide: Social Science, Technical Systems, and Cooperative Work*. Edited by Geoff Bowker, Les Gasser, Leigh Star, and Bill Turner. Hillsdale, NJ: Erlbaum, 1997.
-- al-Khuwarizmi, Muhammad ibn Musá. *The Algebra of Mohammed ben Musa*. Translated by Frederic Rosen. London, UK: Rosen, 1831. 
-- Alex Anikina. *A Lecture-Performance: Chronic Film*, 2007, time: infinite, Goldsmiths, University of London. <http://en.mieff.com/2017/alexandra_anikina>.
+- al-Khuwarizmi, Muhammad ibn Musá. *The Algebra of Mohammed ben Musa*. Translated by Frederic Rosen. London, UK: Rosen, 1831.
+- Ali, Syed Mustafa. "A Brief Introduction to Decolonial Computing." *XRDS: Crossroads, The ACM Magazine for Students* 22, no. 4 (2016): 16–21. 
 - “Anatomies of Intelligence.” NN Cluster initiative Aarhus University 2019, Winnie Soon, Magda Tyzlik-Carver, and Pablo Velasco. https://anatomiesofintelligence.github.io/workshop_presentation.html.
 - “Anatomies of Intelligence & the Concept of Aesthesis.” Joana Chicau and Jonathan Reus. <https://anatomiesofintelligence.github.io/>.
 - Andersen, Christian Ulrik, and Geoff Cox. *A Peer-Reviewed Journal About Datafied Research*, no. 4 (June 2015). https://aprja.net//issue/view/8402>.
 - Andersen, Christian Ulrik, and Geoff Cox. *A Peer-Reviewed Journal About Machine Feeling*, no. 8 (June 2019). <https://aprja.net//issue/view/8133>.
 - Andersen, Christian Ulrik, and Søren Bro Pold. *The Metainterface: The Art of Platforms, Cities, and Clouds*. Cambridge, MA: MIT Press, 2018.
+- Anikina, Alex. *A Lecture-Performance: Chronic Film*, 2007, time: infinite, Goldsmiths, University of London. <http://en.mieff.com/2017/alexandra_anikina>.
 - Apprich, Clemens. “Introduction.” in *Pattern Discrimination*. Edited by Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, x-xii. Minneapolis, MN: University of Minnesota Press and Lüneberg, DE: Meson Press, 2018.
 - Austin, John Langshaw. *How to Do Things with Words*. Oxford, UK: Clarendon Press, 1975.
 - Balsamo, Anne. *Technologies of the Gendered Body: Reading Cyborg Women*. Durham, NC: Duke University Press, 1995.
@@ -34,10 +33,11 @@ Title: Bibliography
 - Benjamin, Ruha. “Are Robots Racist: Reimagining the Default Settings of Technology and Society.” Dropbox Lecture video, 23:23, 2019. <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>. 
 - Benjamin, Walter. "The Work of Art in the Age of Mechanical Reproduction" [1936]. In *Selected Writings, Volume 3, 1935–1938*. Edited by Howard Eiland and Michael W. Jennings. Cambridge, MA: Belknap Press of Harvard University Press, 2002.
 - Bennett, Jane. *Vibrant Matter: A Political Ecology of Things*. Durham, NC: Duke University Press, 2009.
-Berardi, Franco “Bifo.” “The Neuroplastic Dilemma: Consciousness and Evolution.” *e-flux* journal no. 60 (December 2014). https://www.e-flux.com/journal/60/61034/the-neuroplastic-dilemma-consciousness-and-evolution/. 
-- Berardi, Franco “Bifo”. *Precarious Rhapsody: Semiocapitalism and the pathologies of the post-alpha generation*. Translated by Arianna Bove, Erik Empson, Michael Goddard, Giuseppina Mecchia, Antonella Schintu and Steve Wright. London, UK: Minor Compositions, 2009.
+- Berardi, Franco “Bifo.” “The Neuroplastic Dilemma: Consciousness and Evolution.” *e-flux* journal no. 60 (December 2014). https://www.e-flux.com/journal/60/61034/the-neuroplastic-dilemma-consciousness-and-evolution/. 
+- ———. *Precarious Rhapsody: Semiocapitalism and the pathologies of the post-alpha generation*. Translated by Arianna Bove, Erik Empson, Michael Goddard, Giuseppina Mecchia, Antonella Schintu and Steve Wright. London, UK: Minor Compositions, 2009.
 - Berger, John. *Ways of Seeing*. London, UK: Penguin, 1972. 
 - Bergson, Henri. *Matter and Memory*. Translated by Nancy Margaret Paul and W. Scott Palmer. London, UK: Allen and Unwin, 1896.
+- Berry, David M., and Anders Fagerjord. *Digital Humanities: Knowledge and Critique in a Digital Age*. Hoboken, NJ: John Wiley & Sons, 2017.  
 - Bivens, Rena. “The Gender Binary will not be Deprogrammed: Ten Years of Coding Gender on Facebook.” *New Media & Society* 19 (June 2017): 880–898.
 - “Blame it On the Boogie.” Track 1 on The Jackson 5’s *Destiny*, Total Experience Recording Studios, 1978.
 - Blas, Zach, and Micha Cárdenas. “Imaginary Computational Systems: Queer Technologies and Transreal Aesthetics.” *AI and Society* 28 (December 2013): 559-566.
@@ -73,12 +73,14 @@ Berardi, Franco “Bifo.” “The Neuroplastic Dilemma: Consciousness and Evolu
 - Conley, Will. “Facebook investigates tracking users’ cursors and screen behavior.” *Slashgear*. Last updated October 30, 2013. <https://www.slashgear.com/facebook-investigates-tracking-users-cursors-and-screen-behavior-30303663/>.
 - Conway, John Horton. “The Game of Life.” Internet Archive Wayback Machine. <https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/>. 
 - ———. “Game of Life and related cellular automata.” <https://www.conwaylife.com/>.
+- Cooper, Marilyn. M.. "Really Useful Knowledge: A Cultural Studies Agenda for Writing Centers." *The Writing Center Journal* 14, no. 2 (Spring 1994): 97-111. <https://www.jstor.org/stable/43441948>.
 - Cox, Geoff. “Introduction.” In *David Link: Das Herz der Maschine* dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 037. Berlin: Hatje Cantz, 2012.  
 - ———. “Generator: The Value of Software Art.” In *Issues in Curating Contemporary Art and Performance*. Edited by Judith Rugg and Michèle Sedgwick, 147 – 162. Bristol, UK: Intellect, 2007. <https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf>.
 - ———. “Ways of Machine Seeing.” *Unthinking Photography*. November 2016. https://unthinking.photography/articles/ways-of-machine-seeing. 
 - ———. “Ways of Machine Seeing.” *A Peer-Reviewed Journal About Machine Research* 6, no. 1 (April 1, 2017): 8-15. <https://aprja.net//issue/view/8319>.
+- Cox, Geoff, and Joasia Krysa, eds. *Engineering Culture: On the Author as (Digital) Producer*. New York, Autonomedia, 2005.
 - Cox, Geoff, and Alex McLean. *Speaking Code: Coding as Aesthetic and Political Expression*. Cambridge, MA: MIT Press, 2013.
-*Cox, Geoff, and Duncan Shingelton. *hallo welt!* (hello world!). Updated July 1, 2008. <http://www.anti-thesis.net/hello-world-60/>.
+*Cox, Geoff, and Duncan Shingleton. *hallo welt!* (hello world!). Updated July 1, 2008. <http://www.anti-thesis.net/hello-world-60/>.
 - Cox, Geoff, Alex McLean, and Adrian Ward. “The Aesthetics of Generative Code.” Presented at the Generative Art 00 International Conference, Politecnico di Milano, IT, 2000. <https://www.academia.edu/10519146/The_Aesthetics_of_Generative_Code>.  
 Cramer, Florian. “Language.” In *Software Studies: A Lexicon*. Edited by Matthew Fuller, 168–173. Cambridge, MA: MIT Press, 2008.
 - ———. "I Love You [rev-eng]." Digital Craft.org. Exhibition, Kulturbüro. http://www.digitalcraft.org/iloveyou/.
@@ -116,8 +118,10 @@ Ernst, Wolfgang. *Chronopoetics: The Temporal Being and Operativity of Technolog
 - “Friendly Machine Learning for the Web.” ml5.js, accessed June 20, 2020. https://ml5js.org/.
 - Fry, Ben, and Casey Reas. “Processing.” <https://processing.org./>. 
 - Fukuyama, Francis. *The End of History and the Last Man*. New York, NY: Free Press, 1992. 
-- Fuller, Matthew, and Andrew Goffey. “The Obscure Objects of Object Orientation.” In Matthew Fuller, *How to be a Geek: Essays on the Culture of Software*. Cambridge, UK: Polity, 2017.
+- Fuller, Matthew. *How to be a Geek: Essays on the Culture of Software*. Cambridge: Polity Press, 2017.
 - ——— ed.. *Software Studies: A Lexicon*. Cambridge, MA: MIT Press, 2008.
+- Fuller, Matthew, and Andrew Goffey. “The Obscure Objects of Object Orientation.” In Matthew Fuller, *How to be a Geek: Essays on the Culture of Software*. Cambridge, UK: Polity, 2017.
+- Fuller, Matthew, Andrew Goffey, Adrian Mackenzie, Richard Mills and Stuart Sharples, "Big Diff, Granularity, Incoherence, and Production in the Github Software Repository." In Matthew Fuller, *How To Be a Geek: Essays on the Culture of Software*. Cambridge: Polity Press, 2017. 
 - Gaboury, Jacob. “A Queer History of Computing: Part Three.” *Rhizome*. Last updated April 9, 2013. <https://rhizome.org/editorial/2013/apr/9/queer-history-computing-part-three/>. 
 - Galanter, Philip. “What is Generative Art? Complexity theory as a context for art theory.” Presented at the GA2003-6th Generative Art Conference. Milan. January 2003. <https://www.researchgate.net/publication/318494160_What_is_generative_art_Complexity_theory_as_a_context_for_art_theory>.
 - Gauthier, David, Audrey Samson, Eric Snodgrass, Winnie Soon, and Magda Tyżlik-Carver. “Executing.” In *Uncertain Archives*. Edited by Nanna Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio and Kristin Veel. Cambridge, MA: MIT Press, 2020.
@@ -134,6 +138,7 @@ Ernst, Wolfgang. *Chronopoetics: The Temporal Being and Operativity of Technolog
 - ———. *Instagram Demetricator*. <https://bengrosser.com/projects/instagram-demetricator/>.
 - ———. *Twitter Demetricator*. <https://bengrosser.com/projects/twitter-demetricator/>.
 - Guattari, Félix. *Chaosmosis: An Ethico-Aesthetic Paradigm*. Translated by Paul Bains and Julian Pefanis. Bloomington, IN: Indiana University Press, 1995.
+- Guzdial, Mark. "Computing for Other Disciplines." In *The Cambridge Handbook of Computing Education Research*. Edited by Sally A. Fincher and Anthony V. Robins. Cambridge: Cambridge University Press, 2019. <https://doi.org/10.1017/9781108654555.020>.
 - Haahr, Mads. “Introduction to Randomness and Random Numbers.” Accessed July 1, 2020. https://www.random.org/randomness/. 
 - Hall, Stuart. “Encoding/Decoding.” In *Culture, Media, Language: Working Papers in Cultural Studies*. Edited by Stuart Hall, Dorothy Hobson, Andrew Lowe and Paul Willis, 128-38. London, UK: Hutchinson, 1980.
 - Hanafi, Amira. *Mexicans in Canada*. 2020. <http://amiraha.com/mexicansincanada/>. 
@@ -185,21 +190,24 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - Lim, Kenneth. “Chinese Translation for p5.js and preparing a future of more translations.” *Medium*. Updated July 30, 2018. <https://medium.com/processing-foundation/chinese-translation-for-p5-js-and-preparing-a-future-of-more-translations-b56843ea096e>.
 - Link, David. *Love Letters_1.0: MUC=Resurrection. A Memorial*. 2009. Exhibited dOCUMENTA(13), Kassel, 2012. <http://www.alpha60.de/art/love_letters/>. 
 - Lippard, Lucy R.. *Six Years: The Dematerialization of the Art Object from 1966 to 1972*. London, UK: University of California Press, 1997. 
-- Lorusso, Silvio. *The Best is Yet to Come*. 2012. <https://silviolorusso.com/work/the-best-is-yet-to-come/>. 
+- Lorusso, Silvio. *The Best is Yet to Come*. 2012. <https://silviolorusso.com/work/the-best-is-yet-to-come/>.
+- Maeda, John. *Creative Code: Aesthetics + Computation*. London: Thames & Hudson, 2004.  
 - Mackenzie, Adrian. *Machine Learners: Archaeology of a Data Practice*. Cambridge, MA: MIT Press, 2017.
 - ———. “The Production of Prediction: What Does Machine Learning Want?.” *European Journal of Cultural Studies* 18 (August, 2015): 429-445.
 - Mackenzie, Adrian, and Anna Munster. “Platform Seeing: Image Ensembles and Their Invisualities.” *Theory, Culture & Society* 26 (2019): 3–22.
 - Madsen, Ole Lehrmann, Birger Møller-Pedersen, and Kristen Nygaard. *Object-Oriented Programming in the BETA Programming Language*. New York, NY: Association for Computing Machinery (1993): 16–18.
-- Mastin, Luke, “The Story of Mathematics: 20TH CENTURY MATHEMATICS – TURING.” Last updated 2010. <http://storyofmathematics.lukemastin.com/20th_turing.html>. 
-- Mateas, Michael, and Nick Montfort. “A Box, Darkly: Obfuscation, weird languages, and code aesthetics." Presented at the Proceedings of the 6th Digital Arts and Culture Conference. IT University of Copenhagen, DK, December, 2005. 
-- Matteo Pasquinelli. “How a Machine Learns and Fails: A Grammar of Error for Artificial Intelligence.” *Spheres* 5 (2019). <http://matteopasquinelli.com/grammar-of-error-for-artificial-intelligence/>.
+
 - Malevé, Nicolas. “The Cat Sits on the Bed: Pedagogies of vision in human and machine learning.” *Unthinking Photography* (September 2016). <https://unthinking.photography/articles/the-cat-sits-on-the-bed-pedagogies-of-vision-in-human-and-machine-learning>.
 - ———. “An Introduction to Image Datasets.” *Unthinking Photography* (November 2019). <https://unthinking.photography/articles/an-introduction-to-image-datasets>. 
-- ———. *Exhibiting ImageNet*. Exhibition, The Photographers Gallery, July 1 – September 13, 2019. <https://thephotographersgallery.org.uk/whats-on/digital-project/exhibiting-imagenet>.   
-- Markham, Annette N.. “Taking Data Literacy to the Streets: Critical Pedagogy in the Public Sphere.” Qualitative Inquiry, no. 26 (August 2019): 227-237.  
+- ———. *Exhibiting ImageNet*. Exhibition, The Photographers Gallery, July 1 – September 13, 2019. <https://thephotographersgallery.org.uk/whats-on/digital-project/exhibiting-imagenet>.
+- Marino, Mark C.. *Critical Code Studies*. Cambridge, MA: MIT Press, 2020.
+- ———. “Critical Code Studies.” *Electronic Book Review*. December 4 (2006); 
+- ———. "Field Report for Critical Code Studies." *Computational Culture* 4. November 4 (2014). <http://computationalculture.net/field-report-for-critical-code-studies-2014%e2%80%a8/>.
+- Markham, Annette N.. “Taking Data Literacy to the Streets: Critical Pedagogy in the Public Sphere.” *Qualitative Inquiry* 26 (August 2019): 227-237.  
 - Marx, Karl and Frederick Engels. “The Communist Manifesto” [1848]. *Selected Works, Volume One*. Moscow, RU: Progress Publishers, 1969, 98-137. <https://www.marxists.org/archive/marx/works/1848/communist-manifesto/>.
-- Mateas, Michael. “Procedural Literacy: Educating the new media practitioner.” "On the Horizon," special issue. *Future of Games, Simulations and Interactive Media in Learning Contexts* 13 (2005): 101-111.
-- Montfort, Nick, Patsy Baudoin, John Bell, Ian Bogost, Jeremy Douglass, Marc C. Marino, Michael Mateas, Michael, Casey Reas, Mark Sample, and Noah Vawter. *10 PRINT CHR$(205.5+RND(1)); : GOTO 10*. Cambridge, MA: MIT Press, 2012.
+- Mastin, Luke, “The Story of Mathematics: 20TH CENTURY MATHEMATICS – TURING.” Last updated 2010. <http://storyofmathematics.lukemastin.com/20th_turing.html>. 
+- Mateas, Michael. "Procedural Literacy: Educating the New Media Practitioner." *Horizon* 13, no. 2. June 1 (2005): 101–111.
+- Mateas, Michael, and Nick Montfort. “A Box, Darkly: Obfuscation, weird languages, and code aesthetics." Presented at the Proceedings of the 6th Digital Arts and Culture Conference. IT University of Copenhagen, DK, December, 2005. 
 - Mbembe, Achille. “Necropolitics.” *Public Culture* 15 (2003): 11–40.
 - McCarthy, Lauren. “Array Objects,” p5.js. <https://p5js.org/examples/arrays-array-objects.html>. 
 - ———. “Array of Objects.” p5.js. <https://p5js.org/examples/objects-array-of-objects.html>. 
@@ -229,7 +237,9 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - McCarthy, Lauren, and Golan Levin. “p5.js Diversity & Floss Panel Introduction.” *Studio for Creative Inquiry*. Last updated May 26, 2015. <http://opentranscripts.org/transcript/p5js-diversity-floss-panel-introduction/>.
 - MIT CSAIL (@MIT_CSAIL). “Bias in AI: translating English -> Turkish, a gender neutral language, then that same Turkish phrase back to English,” Twitter, October 5, 2017, 10:07 p.m.. <https://twitter.com/mit_csail/status/916032004466122758>. 
 - “Method: cse.list.” Custom Search API, Google Developers. Last updated June 11, 2020. <https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list#parameters>.
+- Mohamed, Shakir, Marie-Therese Png, and William Isaac. “Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence.” *Philosophy & Technology*. Springer, July 12 (2020). <https://doi.org/10.1007/s13347-020-00405-8>.
 - Montfort, Nick. *Exploratory Programming For the Arts and Humanities*. Cambridge, MA: MIT Press, 2016.
+- Montfort, Nick, Patsy Baudoin, John Bell, Ian Bogost, Jeremy Douglass, Marc C. Marino, Michael Mateas, Michael, Casey Reas, Mark Sample, and Noah Vawter. *10 PRINT CHR$(205.5+RND(1)); : GOTO 10*. Cambridge, MA: MIT Press, 2012.
 - Montoya-Moraga, Aarón. “p5.js is now available in Spanish!.” Processing Foundation. *Medium*. Last updated April 13, 2018. <https://medium.com/processing-foundation/p5-js-is-now-available-in-spanish-3d1eab9dffa0>. 
 - Moreira, Andrés, Anahí Gajardo, and Eric Goles. “Dynamical Behavior and Complexity of Langton’s Ant.” *Complexity* 6, no. 4 (June 2001): 46–52.
 - Morris, Stephen, and Orlena Gotel. “The Role of Flow Charts in the Early Automation of Applied Mathematics.” *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44-52. 
@@ -240,18 +250,21 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - ———. “var,” MDN web docs. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var. 
 - "MrBluesbyrd." November 7, 2011. <https://www.youtube.com/watch?v=w6XQQhCgq5c>.
 - Nagayama (@nagayama). “すべりこみ,” Twitter, April 3, 2020, 4:44 p.m.. <https://twitter.com/nagayama/status/1246086230497845250?s=19>. 
-- ———.“daily coding,” Github. <https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html>. 
+- ———. “daily coding,” Github. <https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html>. 
 - Node.js, Open JS Foundation. <https://nodejs.org/en/>.
 - Old Boys Network (OBN). "the mode is the message – the code is the collective." <https://www.obn.org/>. 
 - Ong, Walter J.. *Orality and Literacy: The Technologizing of the Word*. London, UK: Routledge, 2002.
+- Open Source Publishing (OSP). <http://osp.kitchen/>.
 - O’Sullivan, Simon. “On the Diagram (and a Practice of Diagrammatics).” In *Situational Diagram*. Edited by Karin Schneider and Begum Yasar, 13-25. New York, NY: Dominique Lévy, 2016. 
 Øygard, Audun M.. “Fitting faces: An explanation of clmtrackr.” Last updated January 5, 2014. <https://www.auduno.com/2014/01/05/fitting-faces/>.
 - Papa, Elisa Giardina. “The Cleaning of Emotional Data.” Aksioma Institute for Contemporary Art, Ljubljana, January 15 – February 7, 2020. <https://aksioma.org/cleaning.emotional.data/>.
 - Papert, Seymour. *Mindstorms: Children, Computers, and Powerful Ideas*. New York, NY: Basic Books, 1980.
 - Pasquinelli, Matteo. “Google’s PageRank Algorithm: A Diagram of the Cognitive Capitalism and the Rentier of the Common Intellect.” In *Deep Search: The Politics of Search Beyond Google*. Edited by Konrad Becker and Felix Stalder. London, UK: Transaction Publishers: 2009. 
+- ———. “How a Machine Learns and Fails: A Grammar of Error for Artificial Intelligence.” *Spheres* 5 (2019). <http://matteopasquinelli.com/grammar-of-error-for-artificial-intelligence/>.
 - Parrish, Allison. “Text and Type.” Last updated 2019. <https://creative-coding.decontextualize.com/text-and-type/>.
 - ———. “Eyeo 2015.” Vimeo, 41:47. Posted by “Eyeo Festival,” July 28, 2015. <https://vimeo.com/134734729>. 
 - Paul, Christiane, Carol Mancusi-Ungaro, and Clémence White. “Programmed: Rules, Codes, and Choreographies in Art, 1965–2018.” Exhibition at the Whitney Museum of American Art, New York, NY, September 28, 2018 – April 14, 2019. <https://whitney.org/exhibitions/programmed>. 
+- Peppler, Kylie A., and Yasmin B. Kafai. "Creative coding: Programming for personal expression." The 8th International Conference on Computer Supported Collaborative Learning (CSCL) 2 (2009): 76-78. 
 - Plant, Sadie. *Zeros + Ones: Digital Women and the New Technoculture*. London, UK: Forth Estate, 1997. 
 - Pngfind. <https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/>.
 - Pold, Søren. “Button.” In *Software Studies*. Edited by Matthew Fuller, 31–36. Cambridge, MA: MIT Press, 2008.
@@ -273,6 +286,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Risam, Roopika. *The Poetry of Executable Code*. Last updated April 5, 2015. <http://jacket2.org/commentary/poetry-executable-code>.
 - Rouvroy, Antoinette. “Algorithmic Governmentalities and the End(s) of Critique.” The Institute for Network Cultures. Lecture. (October 2013). 
 - ———. “Technology, Virtuality and Utopia: Governmentality in an Age of Autonomic Computing.” In *Autonomic Computing and Transformations of Human Agency*. Edited by Mireille Hildebrandt and Antoinette Rouvroy. London, UK: Routledge, 2011.
+- Runme.org. <http://runme.org/>.
 - Sack, Warren. *The Software Arts*. Cambridge, MA: MIT Press, 2019.
 - Samuel, Arthur L. “Some studies in machine learning using the game of checkers.” *IBM Journal of research and development* 3, no.3 (July 1959). 
 - Saragih, Jason M., Simon Lucey, and Jeffrey F. Cohn. “Face Alignment Through Subspace Constrained Mean-shifts.” Presented at the IEEE 12th International Conference on Computer Vision. Kyoto, JP: 2009.
@@ -360,60 +374,60 @@ Turing, Alan Mathison. “The Chemical Basis of Morphogenesis.” *Philosophical
 - Weizenbaum, Joseph. “ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine.” *Communications of the ACM* 9 (1), 1996.
 - Ward, Adrian. “Auto-Illustrator.” *Generator* exhibition (2002-3). <http://www.medienkunstnetz.de/works/autoillustrator/>. 
 - Wardrip-Fruin, Noah. “Christopher Strachey: The First Digital Artist?.” *Grand Text Auto*, School of Engineering, University of California Santa Cruz (1 August 2005).
+- ———. *Expressive Processing: Digital Fictions, Computer Games, and Software Studies*. Cambridge, MA: MIT Press, 2012.
 - Watz, Marius. “Beautiful Rules: Generative Models of Creativity.” in *The Olhares de Outono* (2007). <https://vimeo.com/26594644>.
-- Witt, Steve. “Chinese Characters as Ancient "Emoji”, *Glocal Notes*, 2015. <https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/>.
 - Wei Ho, Chih et al. “Examining the impact of pair programming on female students.” North Carolina State University. Dept. of Computer Science (2004).
+- West, Sarah Myers, Meredith Whittaker, and Kate Crawford. "Discriminating Systems: Gender, Race and Power in AI." AI Now Institute, New York University, April (2019). <https://ainowinstitute.org/discriminatingsystems.html>.
+- Williams, Raymond. *Keywords: A Vocabulary of Culture and Society*. London: Fontana, 1983.
+- Witt, Steve. “Chinese Characters as Ancient "Emoji”, *Glocal Notes*, 2015. <https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/>.
+- “Web Maps JavaScript API Overview.” Google Maps Platform, Google Developers. Last updated July 9, 2020. <https://developers.google.com/maps/documentation/javascript/>. 
+- “what is the abbreviation of GIT? [closed].” *Stack Overflow*. <https://stackoverflow.com/questions/43959748/>.what-is-the-abbreviation-of-git.
+- “wholepixel / solving-sol.” Github. <https://github.com/wholepixel/solving-sol/blob/master/289/cagrimmett/index.html>. 
+- “Wikipedia: Tay (bot).” Wikimedia Foundation. Last modified June 20, 2020, 17:03. <https://en.wikipedia.org/wiki/Tay_(bot)>. 
+- “Wikipedia: Unicode.” Wikimedia Foundation. Last modified July 7, 2020, 9:32. <https://en.wikipedia.org/wiki/Unicode#Origin_and_development>.
+- Wing, Jeannette M.. "Computational Thinking," *Commun. ACM* 49, no. 3 (March 2006): 33–35.
+- “Wordnet: A Lexical Database for English.” Princeton University. <https://wordnet.princeton.edu/>.
 - w3schools.com. “CSS Buttons.” <https://www.w3schools.com/csS/css3_buttons.asp>.
-“Web Maps JavaScript API Overview.” Google Maps Platform, Google Developers. Last updated July 9, 2020. <https://developers.google.com/maps/documentation/javascript/>. 
+- Žilák, Martin. "recursive fractal tree in p5.js." <https://editor.p5js.org/marynotari/sketches/BJVsL5ylz>. 
+- Zuboff, Shoshana. “Surveillance Capitalism.” VPRO Documentary. <https://youtu.be/hIXhnWUmMvw>.
 
-“what is the abbreviation of GIT? [closed].” stack overflow, accessed June 24, 2020. https://stackoverflow.com/questions/43959748/what-is-the-abbreviation-of-git.
-“wholepixel / solving-sol.” Github, accessed June 20, 2020. https://github.com/wholepixel/solving-sol/blob/master/289/cagrimmett/index.html. 
-“Wikipedia: Tay (bot).” Wikimedia Foundation, last modified June 20, 2020, 17:03. https://en.wikipedia.org/wiki/Tay_(bot). 
-“Wikipedia: Unicode.” Wikimedia Foundation, last modified July 7, 2020, 9:32. https://en.wikipedia.org/wiki/Unicode#Origin_and_development.
-“Wordnet: A Lexical Database for English.” Princeton University, accessed June 20, 2020. https://wordnet.princeton.edu/.
-Zuboff, Shoshana. “Surveillance Capitalism.” VPRO Documentary, accessed April 26, 2020. https://youtu.be/hIXhnWUmMvw.
-Žilák, Martin. recursive fractal tree in p5.js. https://editor.p5js.org/marynotari/sketches/BJVsL5ylz. 
 
-////////
+//////// TO SORT OUT
 https://www.masswerk.at/elizabot/
 Hacking Monopolism Trilogy which also included Amazon Noir (2006), and Face to Facebook (2011). 
+
 !Cannot access due to login wall! Movie API with code example -- https://itp.nyu.edu/classes/cc-s16/movie-api-data/ -- 
 Global statistic API with code example](https://itp.nyu.edu/classes/cc-s16/inqubu-global-statistics-api/) !! Same as above!
 ———. “frameCount,” p5.js, accessed June 22, 2020, https://p5js.org/reference/#group-Transform.
- Cannot find the correct URL for (Group Transform)  did you mean a different “transform” command?
+
+Cannot find the correct URL for (Group Transform)  did you mean a different “transform” command?
 https://p5js.org/reference/#group-DOM.  Same for DOM 
 Events > Mouse> https://p5js.org/reference/.
 https://p5js.org/reference/#/p5/loadSound.
 https://p5js.org/reference/#/libraries/p5.sound.
+
 	Both same 
-Mez Breeze (1994), Florian Cramer (2008), John Cayley (2002), Geoff Cox & Alex McLean (2013), Winnie Soon & Geoff Cox (2018), Ian Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013), and Allison Parrish (2015)
+Mez Breeze (1994), Florian Cramer (2008), John Cayley (2002), Geoff Cox & Alex McLean (2013), Winnie Soon & Geoff Cox (2018), Ian 
+Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013), and Allison Parrish (2015)
+
 Bell, John P., Asterisk Painting by John P. Bell, ported to p5.js, and modified by Winnie Soon. https://editor.p5js.org/siusoon/sketches/YAk1ZCieC
+
 Blas, Zach. Facial Weaponization Suite, 2011-14. http://www.zachblas.info/works/facial-weaponization-suite/.
 Genesis, The Tower of Babel, designed to reach heaven, displeased God such that “he” [sic] decided to confound the single language of Adam so that people would not understand each other’s speech (Genesis 2:19 & 11:1-9). 
+
 Langton, Chris. “Langton’s Ant Colonies.” YouTube video, 6:02. Posted by
+
 Le Guin, Ursula K. “Books Remembered” (article) Calendar, v.XXXVI, n.2, November 1977–June 1978, np.
 Menabrea, Luigi Federico, and Ada Lovelace. Sketch of the analytical engine invented by Charles Babbage (1842), 694.
 
-Walter Benjamin, "The Author as Producer" [1935], quoted in Geoff Cox and Joasia Krysa, eds. Engineering Culture: On the Author as (Digital) Producer (New York, Autonomedia, 2005), 22
-
-OSP, Open Source Publishing, http://osp.kitchen/about.
-
-Marino, Critical Code Studies.
-
-Runme.org
-
-Matthew Fuller, Andrew Goffey, Adrian Mackenzie, Richard Mills and Stuart Sharples, "Big Diff, Granularity, Incoherence, and Production in the Github Software Repository," in Matthew Fuller, How To Be a Geek: Essays on the Culture of Software (Cambridge: Polity Press, 2017). ↩
-
-Stephen Morris and Orlena Gotel, "The Role of Flow Charts in the Early Automation of Applied Mathematics," BSHM Bulletin: Journal of the British Society for the History of Mathematics 26, no. 1 (March 2011): 44–52, https://doi.org/10.1080/17498430903449207. ↩
-
-See Mark C. Marino, “Critical Code Studies”, Electronic Book Review (December 4, 2006); "Field Report for Critical Code Studies," Computational Culture 4 (9th November 2014), http://computationalculture.net/field-report-for-critical-code-studies-2014%e2%80%a8/; Mark C. Marino, Critical Code Studies (Cambridge, MA: MIT Press, 2020).
-
-Raymond Williams, Keywords: A Vocabulary of Culture and Society (London: Fontana, 1983); updated by Blackwell in 2005 as New Keywords: A Revised Vocabulary of Culture and Society.
 
 
 
-///////////
 
 
 
+
+ 
+
+ 
 
