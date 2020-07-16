@@ -30,7 +30,7 @@ Title: Bibliography
 - Benjamin, Ruha. “Are Robots Racist: Reimagining the Default Settings of Technology and Society.” Dropbox Lecture video, 23:23, 2019. <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>. 
 - Benjamin, Walter. *The Work of Art in the Age of Mechanical Reproduction* [1936]. Translated by Harry Zohn. London: Penguin, 2008. 
 - Bennett, Jane. *Vibrant Matter: A Political Ecology of Things*. Durham, NC: Duke University Press, 2009.
-Berardi, Franco “Bifo.” “The Neuroplastic Dilemma: Consciousness and Evolution.” e-flux journal no. 60 (December 2014). https://www.e-flux.com/journal/60/61034/the-neuroplastic-dilemma-consciousness-and-evolution/. 
+Berardi, Franco “Bifo.” “The Neuroplastic Dilemma: Consciousness and Evolution.” *e-flux* journal no. 60 (December 2014). https://www.e-flux.com/journal/60/61034/the-neuroplastic-dilemma-consciousness-and-evolution/. 
 - Berardi, Franco “Bifo”. *Precarious Rhapsody: Semiocapitalism and the pathologies of the post-alpha generation*. Translated by Arianna Bove, Erik Empson, Michael Goddard, Giuseppina Mecchia, Antonella Schintu and Steve Wright. London, UK: Minor Compositions, 2009.
 - Berger, John. *Ways of Seeing*. London, UK: Penguin, 1972. 
 - Bergson, Henri. *Matter and Memory*. Translated by Nancy Margaret Paul and W. Scott Palmer. London, UK: Allen and Unwin, 1896.
@@ -53,51 +53,48 @@ Berardi, Franco “Bifo.” “The Neuroplastic Dilemma: Consciousness and Evolu
 - Cayley, John. “The Code is Not the Text Unless it is the Text.” *Electronic Book Review*. October 9, 2002. <http://electronicbookreview.com/essay/the-code-is-not-the-text-unless-it-is-the-text/>.
 - Chan, Owyang V. *Geometry Is Fun For Me*. Indianapolis, IL: Dog Ear Publishing, 2017.
 - Chandra, Ashok K., and David Harel. "Computer Queries for Relational Data Bases." *Journal of Computer and System Sciences* 21 (October 1980): 156–178.
+- Choi, Taeyoon. *Signing Coders*. Ongoing. <http://taeyoonchoi.com/soft-care/signing-coders/>.
+- Chun, Wendy Hui Kyong. “On Software, or the Persistence of Visual Knowledge.” *Grey Room* 18 (January 2005): 26-51.
+- ———. *Programmed Visions: Software and Memory*. Cambridge, MA: MIT Press, 2011.
+- ———. *Updating to Remain the Same: Habitual New Media*. Cambridge, MA: MIT Press, 2016.
+- Chun, Wendy Hui Kyong, and Andrew Lison. "Fun is a Battlefield: Software between Enjoyment and Obsession." In *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing*. Edited by Olga Goriunova, 175–196. New York, NY. London, UK: Bloomsbury Academic, 2014.
+- Cirio, Paolo. *Flowcharts: On Systems of Systems*, Morrisville, NC: Lulu, 2019. 
+- Clark, Lin. "A crash course in just-in-time (JIT) compilers." *moz://a HACKS*. Updated February 28, 2017. <https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/>.
+- Clarke, Laurie. “Why hiding likes won’t make Instagram a happier place to be.” *Wired*. Updated July 19, 2019.<https://www.wired.co.uk/article/instagram-hides-likes>.  
+- “Coding -- the 21st century skill.” European Commission. <https://ec.europa.eu/digital-single-market/en/coding-21st-century-skill>. 
+- “Coding the way to a brighter future in 2018 & beyond.” Microsoft Asia News Center. Updated January 15, 2018. <https://news.microsoft.com/apac/features/coding-way-brighter-future-2018-beyond/>.
+- Conley, Will. “Facebook investigates tracking users’ cursors and screen behavior.” *Slashgear*. Updated October 30, 2013. <https://www.slashgear.com/facebook-investigates-tracking-users-cursors-and-screen-behavior-30303663/>.
+- Conway, John Horton. “The Game of Life.” Internet Archive Wayback Machine. <https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/>. 
+- ———. “Game of Life and related cellular automata.” <https://www.conwaylife.com/>.
+- Cox, Geoff. “Introduction.” In *David Link: Das Herz der Maschine* dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 037. Berlin, DE: Hatje Cantz, 2012.  
+- ———. “Generator: The Value of Software Art.” In *Issues in Curating Contemporary Art and Performance*. Edited by Judith Rugg and Michèle Sedgwick, 147 – 162. Bristol, UK: Intellect, 2007. <https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf>.
+- ———. “Ways of Machine Seeing.” *Unthinking Photography*. November 2016. https://unthinking.photography/articles/ways-of-machine-seeing. 
+- ———. “Ways of Machine Seeing.” *A Peer-Reviewed Journal About Machine Research* 6, no. 1 (April 1, 2017): 8-15. <https://aprja.net//issue/view/8319>.
+- Cox, Geoff, and Alex McLean. *Speaking Code: Coding as Aesthetic and Political Expression*. Cambridge, MA: MIT Press, 2013.
+*Cox, Geoff, and Duncan Shingelton. *hallo welt!* (hello world!). Updated July 1, 2008. <http://www.anti-thesis.net/hello-world-60/>.
+- Cox, Geoff, Alex McLean, and Adrian Ward. “The Aesthetics of Generative Code.” Presented at the Generative Art 00 International Conference, Politecnico di Milano, IT, 2000. <https://www.academia.edu/10519146/The_Aesthetics_of_Generative_Code>.  
+Cramer, Florian. “Language.” In *Software Studies: A Lexicon*. Edited by Matthew Fuller, 168–173. Cambridge, MA: MIT Press, 2008.
+- ———. "I Love You [rev-eng]." Digital Craft.org. Exhibition, Kulturbüro. http://www.digitalcraft.org/iloveyou/.
+- Crary, Jonathan. *24/7: Late Capitalism and the Ends of Sleep*. London: Verso, 2013.
+- Crawford, Kate, and Vladan Joler. “Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources.” 2018. <https://anatomyof.ai/>.
+- Cukier, Kenneth, and Victor Mayer-Schönberger. “The Rise of Big Data.” *Foreign Affairs*. Updated May/June 2013. <https://www.foreignaffairs.com/articles/2013-04-03/rise-big-data>.
+- “Custom Search JSON API.” Google Custom Search. Google Developers. Updated June 11, 2020. <https://developers.google.com/custom-search/v1/overview>.
+- D’Ignazio, Catherine, and Lauren Klein. *Data Feminism*. Cambridge, MA: MIT Press 2000.   
+- Dahl, Ole-Johan, and Kristen Nygaard. “The Birth of Object Orientation: the Simula Languages.” In *From Object-Orientation to Formal Methods Lecture Notes in Computer Science* 2635. Edited by Olaf Owe, Stein Krogdahl and Tom Lyche, 15-25. Berlin/Heidelberg, DE: Springer, 2004.
+- Das, Sauvik, and Adam D. I. Kramer. “Self-censorship on Facebook.” Presented at the AAAI Conference on Weblogs and Social Media (ICWSM), July 2013. <https://research.fb.com/publications/self-censorship-on-facebook/>.
+- *DATA browser* book series. London: Open Humanities Press. 2004 – Present. <http://www.data-browser.net/>.
+- db-db-db (aka Francis Lam). “Tofu Go!.” Apple App Store. <https://apps.apple.com/us/app/tofu-go/id441704812>.
+- Deleuze, Gilles, and Félix Guattari. *A Thousand Plateaus: Capitalism and Schizophrenia*. Minneapolis, MN: University of Minnesota Press, 1987.
+- du Sautoy, Marcus. “The Secret Rules of Modern Living: Algorithms.” *BBC Four*, 2015. <https://www.bbc.co.uk/programmes/p030s6b3/clips>.
+- “Development resources.” Minecraft Wiki, Fandom, Inc.. Updated June 22, 2020. <https://minecraft.gamepedia.com/Development_resources>.
+- “diagrammatic thinking.” Rocco Gangle, frequencies a collaborative genealogy of spirituality. Updated December 19, 2011. <http://frequencies.ssrc.org/2011/12/19/diagrammic-thinking/>.
+- Dullaart, Constant. “DVD guy MVI_9443.AVI.” YouTube video, 1:00. Posted by “Constantdullaart,” January 14, 2019. <https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB>.
+- ———. “Nein Gag.” Panke Gallery, Berlin, DE. March – April 2019. <http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin>.
+Ernst, Wolfgang. *Chronopoetics: The Temporal Being and Operativity of Technological Media*. London, UK: Rowman & Littlefield International, 2016.
+- ———. “'... Else Loop Forever'. The Untimeliness of Media.” Il Senso della Fine, Università degli Studi di Urbino, Centro Internazionale di Semiotica e Linguistica. September, 2009. <https://www.musikundmedien.hu-berlin.de/de/medienwissenschaft/medientheorien/ernst-in-english/pdfs/medzeit-urbin-eng-ready.pdf>.
+- Ensmenger, Nathan. “The Multiple Meanings of a Flowchart.” *Information & Culture: A Journal of History* 51 (2016): 321–351.
+- Faber, Liz W.. *The Computer's Voice: From Star Trek to Siri*. Minneapolis, MN: University of Minnesota Press, 2020.
 
-
-
-
-*Choi, Taeyoon. Signing Coders. Ongoing, accessed July 1, 2020. http://taeyoonchoi.com/soft-care/signing-coders/.
-Chun, Wendy Hui Kyong. “On Software, or the Persistence of Visual Knowledge.” Grey Room, no. 18 (January 2005): 26 - 51.
-———. Programmed Visions: Software and Memory. Cambridge, MA: MIT Press, 2011.
-———. Updating to Remain the Same: Habitual New Media. Cambridge, MA: MIT Press, 2016.
-Chun, Wendy Hui Kyong and Andrew Lison. "Fun is a Battlefield: Software between Enjoyment and Obsession.” In Fun and Software: Exploring Pleasure, Paradox and Pain in Computing. Edited by Olga Goriunova, 175 – 196. New York, NY. London, UK: Bloomsbury Academic, 2014.
-*Cirio, Paolo. Flowcharts: On Systems of Systems, Morrisville, NC: Lulu, 2019. 
-Clark, Lin. “A crash course in just-in-time (JIT) compilers.” moz://a HACKS, updated February 28, 2017. https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/.
-Clarke, Laurie. “Why hiding likes won’t make Instagram a happier place to be.” Wired, updated July 19, 2019. https://www.wired.co.uk/article/instagram-hides-likes.  
-“Coding -- the 21st century skill.” European Commission, accessed July 3, 2020. https://ec.europa.eu/digital-single-market/en/coding-21st-century-skill. 
-“Coding the way to a brighter future in 2018 & beyond.” Microsoft Asia News Center, updated January 15, 2018. https://news.microsoft.com/apac/features/coding-way-brighter-future-2018-beyond/.
-Conley, Will. “Facebook investigates tracking users’ cursors and screen behavior.” Slashgear. Updated October 30, 2013. https://www.slashgear.com/facebook-investigates-tracking-users-cursors-and-screen-behavior-30303663/.
-*Conway, John Horton. “The Game of Life,” Internet Archive Wayback Machine, accessed June 10, 2020. https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/. 
-*Conway. “Game of Life and related cellular automata.” Accessed July 10, 2020. https://www.conwaylife.com/.
-Cox, Geoff. “Introduction.” In David Link: Das Herz der Maschine dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 037. Berlin, DE: Hatje Cantz, 2012.  
-Cox, Geoff. “Generator: The Value of Software Art.” In Issues in Curating Contemporary Art and Performance. Edited by Judith Rugg and Michèle Sedgwick, 147 – 162. Bristol, UK: Intellect, 2007. https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf.
-Cox, Geoff. “Ways of Machine Seeing.” Unthinking Photography. (November 2016). https://unthinking.photography/articles/ways-of-machine-seeing. 
-Cox, Geoff, “Ways of Machine Seeing.” A Peer-Reviewed Journal About 6, no. 1 (April 1, 2017): 8- 15.
-Cox, Geoff, and Alex McLean. Speaking Code: Coding as Aesthetic and Political Expression. Cambridge, MA: MIT Press, 2013.
-*Cox, Geoff and Duncan Shingelton. hallo welt! (hello world!). Updated July 1, 2008. http://www.anti-thesis.net/hello-world-60/.
-Cox, Geoff, Alex McLean, and Adrian Ward. “The Aesthetics of Generative Code.” Presented at the Generative Art 00 International Conference, Politecnico di Milano, IT, 2000. https://www.academia.edu/10519146/The_Aesthetics_of_Generative_Code.  
-Cramer, Florian. “Language.” In Software Studies. Edited by Matthew Fuller, 168 – 173. Cambridge, MA: MIT Press, 2008.
-*Cramer, Florian. I Love You [rev-eng]. Digital Craft.org. Exhibition, Kulturbüro, accessed July 1, 2020. http://www.digitalcraft.org/iloveyou/.
-Crary, Jonathan. 24/7: Late Capitalism and the Ends of Sleep. London, UK: Verso, 2013.
-*Crawford, Kate and Vladan Joler. “Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources.” 2018, accessed July 1, 2020. https://anatomyof.ai/.
-Cukier, Kenneth, and Victor Mayer-Schönberger. “The Rise of Big Data.” Foreign Affairs. Updated May/June 2013. https://www.foreignaffairs.com/articles/2013-04-03/rise-big-data.
-“Custom Search JSON API.” Google Custom Search. Google Developers. Last updated June 11, 2020. https://developers.google.com/custom-search/v1/overview.
-D’Ignazio, Catherine, and Lauren Klein. Data Feminism. Cambridge, MA: MIT Press 2000.   
-Dahl, Ole-Johan and Kristen Nygaard. “The Birth of Object Orientation: the Simula Languages.” In From Object-Orientation to Formal Methods Lecture Notes in Computer Science, vol. 2635. Edited by Olaf Owe, Stein Krogdahl and Tom Lyche, 15 -25. Berlin/Heidelberg, DE: Springer, 2004.
-Das, Sauvik and Adam D. I. Kramer. “Self-censorship on Facebook.” Presented at the AAAI Conference on Weblogs and Social Media (ICWSM), July 2013. https://research.fb.com/publications/self-censorship-on-facebook/.
-DATA browser book series. Open Humanities Press. 2004 – Present, accessed June 20, 2020. http://www.data-browser.net/.
-*db-db-db. “Tofu Go!.” Apple App Store, accessed June 22, 2020. https://apps.apple.com/us/app/tofu-go/id441704812.
-Deleuze, Gilles and Félix Guattari. A Thousand Plateaus: Capitalism and Schizophrenia. Minneapolis, MN: University of Minnesota Press, 1987.
-du Sautoy, Marcus. “The Secret Rules of Modern Living: Algorithms.” Clips, BBC Four, 2015. https://www.bbc.co.uk/programmes/p030s6b3/clips.
-“Development resources.” Minecraft Wiki, Fandom, Inc., updated June 22, 2020. https://minecraft.gamepedia.com/Development_resources.
-“diagrammatic thinking.” Rocco Gangle, frequencies a collaborative genealogy of spirituality, updated December 19, 2011. http://frequencies.ssrc.org/2011/12/19/diagrammic-thinking/.
-*Dullaart, Constant. “DVD guy MVI_9443.AVI.” YouTube video, 1:00. Posted by “Constantdullaart,” January 14, 2019. https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB.
-*Dullaart, Constant. “Nein Gag.” Panke Gallery, Berlin, DE. March – April 2019. http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin.
-Ernst, Wolfgang. Chronopoetics: The Temporal Being and Operativity of Technological Media. London, UK: Rowman & Littlefield International, 2016.
-Ernst, Wolfgang. ““... Else Loop Forever”. The Untimeliness of Media.” Il Senso della Fine, Università degli Studi di Urbino, Centro Internazionale di Semiotica e Linguistica. September, 2009, accessed July 1, 2020. https://www.musikundmedien.hu-berlin.de/de/medienwissenschaft/medientheorien/ernst-in-english/pdfs/medzeit-urbin-eng-ready.pdf.
-Ensmenger, Nathan. “The Multiple Meanings of a Flowchart.” Information & Culture: A Journal of History, no. 51 (2016): 321–351.
-Faber, Liz W.. The Computer's Voice: From Star Trek to Siri. Minneapolis, MN: University of Minnesota Press, 2020.
 Facebook, Inc.. United States Securities and Exchange Commission, Form S-1 Registration Statement, last updated February 1, 2012, accessed October 16, 2019. https://infodocket.files.wordpress.com/2012/02/facebook_s1-copy.pdf. 
 *Fan, Lai-Tze, and Nick Montfort. “Dial.” The new river: A Journal of Digital Art and Literature: Spring 2020. http://thenewriver.us/dial/.
 Fazi, Beatrice M. and Matthew Fuller. “Computational Aesthetics.” In A Companion to Digital Art. Edited by Christiane Paul, 281-296. Hoboken, NJ: Wiley Blackwell, 2016.
