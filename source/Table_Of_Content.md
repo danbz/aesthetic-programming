@@ -73,7 +73,7 @@ page_order: -2
 * Face tracker
 * Exercise in class
 * The concept of capture
-* Web Analytics and heatmap
+* Web analytics and heatmap
 * Form elements
 * Metrics of likes
 * Voice and audio data
