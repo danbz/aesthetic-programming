@@ -335,14 +335,14 @@ Explore shapes, geometries, and other related syntax (via p5.js [references](htt
   - **Describe** your program and what you have used and learnt.
   - **How** would you put your emoji into a wider social and cultural context that concerns a politics of representation, identity, race, imperialism, and so on? (Try to think through the assigned reading and your coding process, and then expand that to your own experience and thoughts - this is a difficult task, you may need to spend some time thinking about it).
 
-## Required reading:
+## Required reading
 
 - Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, [Modifying the Universal,](http://www.data-browser.net/db06.html) *Executing Practices*, Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, eds. (London: Open Humanities Press, 2018), 35-51.
 - p5.js. p5.js | Simple Shapes. [Web] Available at: <https://p5js.org/examples/hello-p5-simple-shapes.html>.
 - Shiffman, Daniel. (2018) "1.3,1.4,2.1,2.2: Code! Programming with p5.js." Available at: <https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2>.
 - Femke Snelting, "Other Geometries," *transmediale journal*, Issue#3, 31 October (2019), <https://transmediale.de/content/other-geometries>.
 
-## Further reading:
+## Further reading
 
 - Crystal Abidin and Joel Gn, eds., "Histories and Cultures of Emoji Vernaculars," *First Monday* 23, no. 9, September (2018). <https://firstmonday.org/ojs/index.php/fm/issue/view/607>.
 - Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-reviewed Journal About Machine Feeling* 8, no. 1 (2019). <https://tidsskrift.dk/APRJA/issue/view/8133>.
