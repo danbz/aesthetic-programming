@@ -364,6 +364,9 @@ The README should address the following questions with the help of your source c
 - Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>.
 - Adrian Mackenzie, "Introduction: Into the Data," *Machine Learners: Archaeology of a Data Practice* (Cambridge, MA: MIT Press, 2017).
 
+## Further reading:
+- add
+
 ## Notes
 
 [^pathmind]: It should be pointed out that although machine learning is part of AI, AI is a broader concept. AI, machine learning and deep learning are terms that are often used interchangeably but there are key distinctions to be made. To explain: "You can think of deep learning, machine learning and artificial intelligence as a set of Russian dolls nested within each other, beginning with the smallest and working out. Deep learning is a subset of machine learning, and machine learning is a subset of AI, which is an umbrella term for any computer program that does something smart. In other words, all machine learning is AI, but not all AI is machine learning, and so forth." See Pathmind's "A.I. Wiki: A Beginner’s Guide to Important Topics in AI, Machine Learning, and Deep Learning," <https://pathmind.com/wiki/ai-vs-machine-learning-vs-deep-learning>.
