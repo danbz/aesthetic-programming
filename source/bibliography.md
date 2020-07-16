@@ -10,6 +10,9 @@ Title: Bibliography
 - Abidin, Crystal, and Joel Gn. “Between art and application: Special issue on emoji epistemology.” *First Monday* 23 (September 2018):9.
 - Adam, Alison. *Artificial Knowing: Gender and the Thinking Machine*. London: Routledge, 2006.
 - Adam, Alison. "A Feminist Critique of Artificial Intelligence." *European Journal of Women's Studies* 2, no. 3 (1995).
+
+- Adorno, /////////////////
+
 - “atom-live-server-package.” Atom. <https://atom.io/packages/atom-live-server>.
 - “Adversarial Hacking in the Age of AI: Call for Proposals.” transmediale / art & digitalculture (2020). <https://2020.transmediale.de/content/adversarial-hacking-in-the-age-of-ai-call-for-proposals>.
 - “A.I. Wiki: A Beginner’s Guide to Important Topics in AI, Machine Learning, and Deep Learning.” Pathmind. <https://pathmind.com/wiki/ai-vs-machine-learning-vs-deep-learning>.
@@ -20,6 +23,7 @@ Title: Bibliography
 - “Anatomies of Intelligence & the Concept of Aesthesis.” Joana Chicau and Jonathan Reus. <https://anatomiesofintelligence.github.io/>.
 - Andersen, Christian Ulrik, and Geoff Cox. *A Peer-Reviewed Journal About Datafied Research*, no. 4 (June 2015). https://aprja.net//issue/view/8402>.
 - Andersen, Christian Ulrik, and Geoff Cox. *A Peer-Reviewed Journal About Machine Feeling*, no. 8 (June 2019). <https://aprja.net//issue/view/8133>.
+- Andersen, Christian Ulrik, and Søren Bro Pold. *The Metainterface: The Art of Platforms, Cities, and Clouds*. Cambridge, MA: MIT Press, 2018.
 - Apprich, Clemens. “Introduction.” in *Pattern Discrimination*. Edited by Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, x-xii. Minneapolis, MN: University of Minnesota Press and Lüneberg, DE: Meson Press, 2018.
 - Austin, John Langshaw. *How to Do Things with Words*. Oxford, UK: Clarendon Press, 1975.
 - Balsamo, Anne. *Technologies of the Gendered Body: Reading Cyborg Women*. Durham, NC: Duke University Press, 1995.
@@ -102,6 +106,7 @@ Ernst, Wolfgang. *Chronopoetics: The Temporal Being and Operativity of Technolog
 - Fazi, Beatrice M., and Matthew Fuller. “Computational Aesthetics.” In *A Companion to Digital Art*. Edited by Christiane Paul, 281-296. Hoboken, NJ: Wiley Blackwell, 2016.
 - Felton, G.E.. *Ferranti Pegasus Computer Programming Manual*, London, UK: Ferranti Ltd, 1955. 
 - “Fetch Living Standard Course.” WHATWG Community. Last updated July 7, 2020. <https://www.w3.org/TR/cors/>.
+- Fiebrink, Rebecca. “Welcome: Wekinator 2009.” <http://www.wekinator.org/>.
 - Finn, Ed. *What Algorithms Want: Imagination in the Age of Computing*. Cambridge, MA: MIT Press, 2017.
 - Forensic Architecture. <https://forensic-architecture.org/>.
 - Free Software Foundation, Inc.. “GNU Lesser General Public License, Version 3, 28 June 2007.” <https://www.gnu.org/licenses/lgpl-3.0.txt>.
@@ -118,6 +123,7 @@ Ernst, Wolfgang. *Chronopoetics: The Temporal Being and Operativity of Technolog
 - Gauthier, David, Audrey Samson, Eric Snodgrass, Winnie Soon, and Magda Tyżlik-Carver. “Executing.” In *Uncertain Archives*. Edited by Nanna Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio and Kristin Veel. Cambridge, MA: MIT Press, 2020.
 - “Get Started.” p5.js, Processing Foundation. <https://p5js.org/get-started/>.
 - Gerlitz, Carolin, and Anne Helmond. “The Like Economy: Social Buttons and the Data-Intensive Web.” *New Media & Society* 15. (December 2013): 1348–65.
+- Gibbons, Jeremy, and Oege de Moor. *The Fun of Programming*, London, UK: Palgrave Macmillan, 2003.
 - “GitLab Markdown.” GitLab Docs. <https://docs.gitlab.com/ee/user/markdown.html>.
 - Goffey, Andrew. “Algorithm.” In *Software Studies*. Edited by Matthew Fuller, 15–20. Cambridge, MA: MIT Press, 2008. 
 - Goodfellow, Ian J., Jean Pouget-Abadie, Mehadi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville and Yoshua Bengio. “Generative Adversarial Networks.” Presented at the NIPS'14: 27th International Conference on Neural Information Processing Systems, 2014.
@@ -152,6 +158,9 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - “Integrated Development Environment.” Wikipedia. <https://en.wikipedia.org/wiki/Integrated_development_environment>.
 - intersoft consulting. General Data Protection Regulation GDPR. <https://gdpr-info.eu/>.
 - “Java virtual machine”, Wikipedia. <https://en.wikipedia.org/wiki/Java_virtual_machine>.
+
+- Jay, Martin ////////////
+
 - Jin, Chelly. “Interactive Book Club.” *Diversity with Code + Art*. <http://diversity.p5js.org/>. 
 - Johnson, Steven. *Emergence: The Connected Lives of Ants, Brains, Cities and Software*. London, UK: Penguin, 2001.
 - Kazemi, Darius. “Corpora - A repository of JSON files.” Last updated May 19, 2020. <https://github.com/dariusk/corpora/tree/master/data>.
@@ -186,183 +195,178 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - Mastin, Luke, “The Story of Mathematics: 20TH CENTURY MATHEMATICS – TURING.” Last updated 2010. <http://storyofmathematics.lukemastin.com/20th_turing.html>. 
 - Mateas, Michael, and Nick Montfort. “A Box, Darkly: Obfuscation, weird languages, and code aesthetics." Presented at the Proceedings of the 6th Digital Arts and Culture Conference. IT University of Copenhagen, DK, December, 2005. 
 - Matteo Pasquinelli. “How a Machine Learns and Fails: A Grammar of Error for Artificial Intelligence.” *Spheres* 5 (2019). <http://matteopasquinelli.com/grammar-of-error-for-artificial-intelligence/>.
-
-*Malevé, Nicolas. “The cat sits on the bed, Pedagogies of vision in human and machine learning.” Unthinking Photography. (September 2016). https://unthinking.photography/articles/the-cat-sits-on-the-bed-pedagogies-of-vision-in-human-and-machine-learning.
-*Malevé, Nicolas. “An Introduction to Image Datasets.” Unthinking Photography (November 2019). https://unthinking.photography/articles/an-introduction-to-image-datasets. 
-Malevé, Nicolas. Exhibiting ImageNet. The Photographers Gallery, July 1 – September 13, 2019. https://thephotographersgallery.org.uk/whats-on/digital-project/exhibiting-imagenet.   
-Markham, Annette N.. “Taking Data Literacy to the Streets: Critical Pedagogy in the Public Sphere.” Qualitative Inquiry, no. 26 (August 2019): 227-237.  
-Marx, Karl and Frederick Engels. “The Communist Manifesto.” Selected Works, Vol. One. First Published: 1848; Moscow, RU: Progress Publishers, (1969):98-137. https://www.marxists.org/archive/marx/works/1848/communist-manifesto/.
-Mateas, Michael. “Procedural Literacy: Educating the new media practitioner.” On the Horizon. Special issue. Future of Games, Simulations and Interactive Media in Learning Contexts, no. 13, (2005): 101-111.
-Montfort, Nick, Patsy Baudoin, John Bell, Ian Bogost, Jeremy Douglass, Marc C. Marino, Michael 
-Mateas, Michael, Casey Reas, Mark Sample, and Noah Vawter. 10 PRINT CHR$(205.5+RND(1)); : GOTO 10. Cambridge, MA: MIT Press, 2012.
-Mbembe, Achille. “Necropolitics.” Public Culture, no.15 (2003): 11–40.
-McCarthy, Lauren. “Array Objects,” p5.js, accessed June 22, 2020. https://p5js.org/examples/arrays-array-objects.html. 
-———. “Array of Objects.” p5.js, accessed June 22, 2020. https://p5js.org/examples/objects-array-of-objects.html. 
-———. “color ().” p5.js, accessed June 22, 2020. https://p5js.org/reference/#/p5/color.
-———. “Download.” p5.js, accessed June 22, 2020. https://p5js.org/download/. 
-———. “ellipse ().” p5.js, accessed June 22, 2020. https://p5js.org/reference/#/p5/ellipse.
-———. “Flocking.” P5.js, accessed June 22, 2020. https://p5js.org/examples/simulate-flocking.html.
-———. “frameCount.” p5.js, accessed June 22, 2020. https://p5js.org/reference/#/p5/frameCount.
-———. “Interactivity 1.” p5.js, accessed June 22, 2020. https://p5js.org/examples/hello-p5-interactivity-1.html.
-———. “Interactivity 2.” p5.js, accessed June 22, 2020. https://p5js.org/examples/hello-p5-interactivity-2.html.
-———. “a Field Guide to Debugging.” p5.js, accessed June 22, 2020. https://p5js.org/learn/debugging.html
-———. “millis ().” p5.js, accessed June 22, 2020. https://p5js.org/reference/#/p5/millis. 
-———. “Objects.” p5.js, accessed June 22, 2020. https://p5js.org/examples/objects-objects.html. 
-———. “p5. Element.” p5.js, accessed June 22, 2020. https://p5js.org/reference/#/p5.Element.
-———. “push ().” p5.js, accessed June 22, 2020. https://p5js.org/reference/#/p5/push.
-———. “random ().” p5.js, accessed June 22, 2020. https://p5js.org/reference/#/p5/random.
-———. “Reference.” p5.js, accessed June 22, 2020. https://p5js.org/reference/.
-———. “Reference loadJSON().” p5.js, accessed June 22, 2020. https://p5js.org/reference/#/p5/loadJSON. 
-———. “Reference image().” p5.js, accessed June 22, 2020. https://p5js.org/reference/#/p5/image.
-———. “Reference loadPixels().” p5.js, accessed June 22, 2020. https://p5js.org/reference/#/p5/loadPixels.
-———. “Reference p5.sound library.” p5.js, accessed July 1, 2020. https://p5js.org/reference/#/libraries/p5.sound.
-———. “Reference print ().” p5.js, accessed July 1, 2020. https://p5js.org/reference/#/p5/print.
-———. “Simple Shapes.” p5.js, accessed September 9, 2019. https://p5js.org/examples/hello-p5-simple-shapes.html. 
-———. “splice().” p5.js, accessed June 22, 2020. https://p5js.org/reference/#/p5/splice.
-———. “Weather.” p5.js, accessed June 22, 2020. https://p5js.org/examples/hello-p5-weather.html.
-McCarthy, Lauren. “Learning While Making.” YouTube video, 27:31. Posted by "BocoupLLC," April 16, 2015. https://www.youtube.com/watch?v=1k3X4DLDHdc.
-McCarthy, Lauren, and Golan Levin. “p5.js Diversity & Floss Panel Introduction.” Studio for Creative Inquiry, updated May 26, 2015. http://opentranscripts.org/transcript/p5js-diversity-floss-panel-introduction/.
-MIT CSAIL (@MIT_CSAIL). “Bias in AI: translating English -> Turkish, a gender neutral language, then that same Turkish phrase back to English,” Twitter, October 5, 2017, 10:07 p.m.. https://twitter.com/mit_csail/status/916032004466122758. 
-“Method: cse.list.” Custom Search API, Google Developers, last updated June 11, 2020. https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list#parameters.
-Montfort, Nick. Exploratory Programming For the Arts and Humanities. Cambridge, MA: MIT Press, 2016.
-Montoya-Moraga, Aarón. “p5.js is now available in Spanish!.” Processing Foundation. Medium, updated April 13, 2018. https://medium.com/processing-foundation/p5-js-is-now-available-in-spanish-3d1eab9dffa0. 
-Moreira, Andrés, Anahí Gajardo, and Eric Goles. “Dynamical Behavior and Complexity of Langton’s Ant.” Complexity 6, no. 4 (June 2001): 46–52.
-Morris, Stephen, and Orlena Gotel. “The Role of Flow Charts in the Early Automation of Applied Mathematics.” BSHM Bulletin: Journal of the British Society for the History of Mathematics 26, no. 1 (March 2011): 44 -- 52. 
-moz://a. “Array.prototype.push(),” MDN web docs, accessed June 22, 2020. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push.
-moz://a. “Array.prototype.splice(),” MDN web docs, accessed June 22, 2020.
+- Malevé, Nicolas. “The Cat Sits on the Bed: Pedagogies of vision in human and machine learning.” *Unthinking Photography* (September 2016). <https://unthinking.photography/articles/the-cat-sits-on-the-bed-pedagogies-of-vision-in-human-and-machine-learning>.
+- ———. “An Introduction to Image Datasets.” *Unthinking Photography* (November 2019). <https://unthinking.photography/articles/an-introduction-to-image-datasets>. 
+- ———. *Exhibiting ImageNet*. Exhibition, The Photographers Gallery, July 1 – September 13, 2019. <https://thephotographersgallery.org.uk/whats-on/digital-project/exhibiting-imagenet>.   
+- Markham, Annette N.. “Taking Data Literacy to the Streets: Critical Pedagogy in the Public Sphere.” Qualitative Inquiry, no. 26 (August 2019): 227-237.  
+- Marx, Karl and Frederick Engels. “The Communist Manifesto” [1848]. *Selected Works, Volume One*. Moscow, RU: Progress Publishers, 1969, 98-137. <https://www.marxists.org/archive/marx/works/1848/communist-manifesto/>.
+- Mateas, Michael. “Procedural Literacy: Educating the new media practitioner.” "On the Horizon," special issue. *Future of Games, Simulations and Interactive Media in Learning Contexts* 13 (2005): 101-111.
+- Montfort, Nick, Patsy Baudoin, John Bell, Ian Bogost, Jeremy Douglass, Marc C. Marino, Michael Mateas, Michael, Casey Reas, Mark Sample, and Noah Vawter. *10 PRINT CHR$(205.5+RND(1)); : GOTO 10*. Cambridge, MA: MIT Press, 2012.
+- Mbembe, Achille. “Necropolitics.” *Public Culture* 15 (2003): 11–40.
+- McCarthy, Lauren. “Array Objects,” p5.js. <https://p5js.org/examples/arrays-array-objects.html>. 
+- ———. “Array of Objects.” p5.js. <https://p5js.org/examples/objects-array-of-objects.html>. 
+- ———. “color ().” p5.js. <https://p5js.org/reference/#/p5/color>.
+- ———. “Download.” p5.js. <https://p5js.org/download/>. 
+- ———. “ellipse ().” p5.js. <https://p5js.org/reference/#/p5/ellipse>.
+- ———. “A Field Guide to Debugging.” p5.js. <https://p5js.org/learn/debugging.html>.
+- ———. “Flocking.” P5.js. <https://p5js.org/examples/simulate-flocking.html>.
+- ———. “frameCount.” p5.js. <https://p5js.org/reference/#/p5/frameCount>.
+- ———. “Interactivity 1.” p5.js. <https://p5js.org/examples/hello-p5-interactivity-1.html>.
+- ———. “Interactivity 2.” p5.js. <https://p5js.org/examples/hello-p5-interactivity-2.html>.
+- ———. “Learning While Making.” YouTube video, 27:31. Posted by "BocoupLLC," April 16, 2015. <https://www.youtube.com/watch?v=1k3X4DLDHdc>.
+- ———. “millis ().” p5.js. <https://p5js.org/reference/#/p5/millis>. 
+- ———. “Objects.” p5.js. <https://p5js.org/examples/objects-objects.html>. 
+- ———. “p5. Element.” p5.js. <https://p5js.org/reference/#/p5.Element>.
+- ———. “push ().” p5.js. <https://p5js.org/reference/#/p5/push>.
+- ———. “random ().” p5.js. <https://p5js.org/reference/#/p5/random>.
+- ———. “Reference.” p5.js. <https://p5js.org/reference/>.
+- ———. “Reference loadJSON().” p5.js. <https://p5js.org/reference/#/p5/loadJSON>. 
+- ———. “Reference image().” p5.js. <https://p5js.org/reference/#/p5/image>.
+- ———. “Reference loadPixels().” p5.js. <https://p5js.org/reference/#/p5/loadPixels>.
+- ———. “Reference p5.sound library.” p5.js. <https://p5js.org/reference/#/libraries/p5.sound>.
+- ———. “Reference print ().” p5.js. <https://p5js.org/reference/#/p5/print>.
+- ———. “Simple Shapes.” p5.js. <https://p5js.org/examples/hello-p5-simple-shapes.html>. 
+- ———. “splice().” p5.js. <https://p5js.org/reference/#/p5/splice>.
+- ———. “Weather.” p5.js. <https://p5js.org/examples/hello-p5-weather.html>.
+- McCarthy, Lauren, and Golan Levin. “p5.js Diversity & Floss Panel Introduction.” *Studio for Creative Inquiry*. Last updated May 26, 2015. <http://opentranscripts.org/transcript/p5js-diversity-floss-panel-introduction/>.
+- MIT CSAIL (@MIT_CSAIL). “Bias in AI: translating English -> Turkish, a gender neutral language, then that same Turkish phrase back to English,” Twitter, October 5, 2017, 10:07 p.m.. <https://twitter.com/mit_csail/status/916032004466122758>. 
+- “Method: cse.list.” Custom Search API, Google Developers. Last updated June 11, 2020. <https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list#parameters>.
+- Montfort, Nick. *Exploratory Programming For the Arts and Humanities*. Cambridge, MA: MIT Press, 2016.
+- Montoya-Moraga, Aarón. “p5.js is now available in Spanish!.” Processing Foundation. *Medium*. Last updated April 13, 2018. <https://medium.com/processing-foundation/p5-js-is-now-available-in-spanish-3d1eab9dffa0>. 
+- Moreira, Andrés, Anahí Gajardo, and Eric Goles. “Dynamical Behavior and Complexity of Langton’s Ant.” *Complexity* 6, no. 4 (June 2001): 46–52.
+- Morris, Stephen, and Orlena Gotel. “The Role of Flow Charts in the Early Automation of Applied Mathematics.” *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44-52. 
+- moz://a. “Array.prototype.push(),” MDN web docs. <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push>.
+moz://a. “Array.prototype.splice(),” MDN web docs, accessed June 22, 2020. < >
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice.
-moz://a. “let,” MDN web docs, accessed June 22, 2020. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let. 
-moz://a. “var,” MDN web docs, accessed June 22, 2020. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var. 
-"MrBluesbyrd." November 7, 2011. https://www.youtube.com/watch?v=w6XQQhCgq5c.
-Nagayama (@nagayama). “すべりこみ,” Twitter, April 3, 2020, 4:44 p.m.. https://twitter.com/nagayama/status/1246086230497845250?s=19. 
-Nagayama. “daily coding,” Github, accessed June 20, 2020. https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html. 
-Net.Art Generator. Artwarez.org, accessed June 10, 2020. http://net.art-generator.com/.
-Node.js, Open JS Foundation, accessed July 1, 2020. https://nodejs.org/en/.
-O’Sullivan, Simon. “On the Diagram (and a Practice of Diagrammatics).” In Situational Diagram. Edited by Karin Schneider and Begum Yasar, 13-25. New York, NY: Dominique Lévy, 2016. 
-*OBN. “Old Boys Network, the mode is the message – the code is the collective.” Accessed July 1, 2020. https://www.obn.org/. 
-Ong, Walter J.. Orality and Literacy: The Technologizing of the Word. London, UK: Routledge, 2002.
-*O-R-G inc.. “Multi (a multiple).” Accessed July 5, 2020. http://www.o-r-g.com/apps/multi. 
-Øygard, Audun M., “Fitting faces: An explanation of clmtrackr,” last updated January 5, 2014. https://www.auduno.com/2014/01/05/fitting-faces/.
-*Papa, Elisa Giardina. “The Cleaning of Emotional Data,” Aksioma Institute for Contemporary Art, Ljubljana, January 15–February 7, 2020. https://aksioma.org/cleaning.emotional.data/.
-Papert, Seymour. Mindstorms: Children, Computers, and Powerful Ideas. New York, NY: Basic Books, 1980.
-Pasquinelli, Matteo. “Google’s PageRank Algorithm: A Diagram of the Cognitive Capitalism and the Rentier of the Common Intellect.” In Deep Search: The Politics of Search Beyond Google. Edited by Konrad Becker and Felix Stalder. London, UK: Transaction Publishers: 2009. 
-*Parrish, Allison. “Text and Type.” Updated 2019, accessed July 1, 2020. Available at: https://creative-coding.decontextualize.com/text-and-type/.
-*———. “Eyeo 2015.” Vimeo Video, 41:47. Posted by “Eyeo Festival,” July 28, 2015. https://vimeo.com/134734729. 
-Paul, Christiane, Carol Mancusi-Ungaro, and Clémence White. “Programmed: Rules, Codes, and Choreographies in Art, 1965 – 2018.” Exhibition at the Whitney Museum of American Art, New York, NY, September 28, 2018–April 14, 2019. https://whitney.org/exhibitions/programmed. 
-Plant, Sadie. Zeros + Ones: Digital Women and the New Technoculture. London, UK: Forth Estate, 1997. 
-Pold, Søren. “Button.” In Software Studies. Edited by Matthew Fuller, 31 – 36. Cambridge, MA: MIT Press, 2008.
+- ———. “let,” MDN web docs. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let. 
+- ———. “var,” MDN web docs. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var. 
+- "MrBluesbyrd." November 7, 2011. <https://www.youtube.com/watch?v=w6XQQhCgq5c>.
+- Nagayama (@nagayama). “すべりこみ,” Twitter, April 3, 2020, 4:44 p.m.. <https://twitter.com/nagayama/status/1246086230497845250?s=19>. 
+- ———.“daily coding,” Github. <https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html>. 
+- Node.js, Open JS Foundation. <https://nodejs.org/en/>.
+- Old Boys Network (OBN). "the mode is the message – the code is the collective." <https://www.obn.org/>. 
+- Ong, Walter J.. *Orality and Literacy: The Technologizing of the Word*. London, UK: Routledge, 2002.
+- O’Sullivan, Simon. “On the Diagram (and a Practice of Diagrammatics).” In *Situational Diagram*. Edited by Karin Schneider and Begum Yasar, 13-25. New York, NY: Dominique Lévy, 2016. 
+Øygard, Audun M.. “Fitting faces: An explanation of clmtrackr.” Last updated January 5, 2014. <https://www.auduno.com/2014/01/05/fitting-faces/>.
+- Papa, Elisa Giardina. “The Cleaning of Emotional Data.” Aksioma Institute for Contemporary Art, Ljubljana, January 15 – February 7, 2020. <https://aksioma.org/cleaning.emotional.data/>.
+- Papert, Seymour. *Mindstorms: Children, Computers, and Powerful Ideas*. New York, NY: Basic Books, 1980.
+- Pasquinelli, Matteo. “Google’s PageRank Algorithm: A Diagram of the Cognitive Capitalism and the Rentier of the Common Intellect.” In *Deep Search: The Politics of Search Beyond Google*. Edited by Konrad Becker and Felix Stalder. London, UK: Transaction Publishers: 2009. 
+- Parrish, Allison. “Text and Type.” Last updated 2019. <https://creative-coding.decontextualize.com/text-and-type/>.
+- ———. “Eyeo 2015.” Vimeo, 41:47. Posted by “Eyeo Festival,” July 28, 2015. <https://vimeo.com/134734729>. 
+- Paul, Christiane, Carol Mancusi-Ungaro, and Clémence White. “Programmed: Rules, Codes, and Choreographies in Art, 1965–2018.” Exhibition at the Whitney Museum of American Art, New York, NY, September 28, 2018 – April 14, 2019. <https://whitney.org/exhibitions/programmed>. 
+- Plant, Sadie. *Zeros + Ones: Digital Women and the New Technoculture*. London, UK: Forth Estate, 1997. 
+- Pngfind. <https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/>.
+- Pold, Søren. “Button.” In *Software Studies*. Edited by Matthew Fuller, 31–36. Cambridge, MA: MIT Press, 2008.
+- Prigogine, Ilya, and Isabelle Stengers. *Order Out of Chaos: Man’s New Dialogue With Nature*. London, UK: Fontana, 1985.
+- Prisco, Jacopo. “Pac-Man at 40: The eating icon that changed gaming history.” *CNN*. last updated May 21, 2020. <https://edition.cnn.com/style/article/pac-man-40-anniversary-history/>.
+- Pritchard, Helen, and Winnie Soon. *Recurrent Queer Imaginaries*. Exhibition Research Lab, Liverpool John Moores University — School of Art and Design, November 2019 – January 2020. <https://www.exhibition-research-lab.co.uk/exhibitions/recurrent-queer-imaginaries/>.
+- “processing/p5.js.” Github. <https://github.com/processing/p5.js/wiki>.
+- “Programmable Search.” Google. <https://cse.google.com/all>.
+- ProgrammableWeb. <https://www.programmableweb.com/>. 
+“Queer AI.” Queer AI. <https://queer.ai/>.
+- Reas, Casey. “{Software} Structures.” <https://artport.whitney.org/commissions/softwarestructures/text.html>.
+- “README.md.” GitLab Pages examples. <https://gitlab.com/pages/plain-html/-/blob/master/README.md>.
+- “Request A GIPHY API Key.” GIPHY Support. <https://support.giphy.com/hc/en-us/articles/360020283431-Request-A-GIPHY-API-Key>. 
+- Reinfurt, David, *Multi*. O-R-G inc.. <http://www.o-r-g.com/apps/multi>. 
+- Robinson, Derek. “Function.” In *Software Studies*. Edited by Matthew Fuller, 101–109. Cambridge, MA: MIT Press, 2008.
+- Rozendaal, Rafaël. “Sleep Mode: The Art of the Screensaver.” Het Nieuwe Instituut, Rotterdam. 2017. <https://hetnieuweinstituut.nl/en/press-releases/sleep-mode-art-screensaver>.
+- Rushkoff, Douglas. *Program or Be Programmed: Ten Commandments for a Digital Age*. New York: OR books, 2010.
+- Risam, Roopika. *The Poetry of Executable Code*. Last updated April 5, 2015. <http://jacket2.org/commentary/poetry-executable-code>.
+- Rouvroy, Antoinette. “Algorithmic Governmentalities and the End(s) of Critique.” The Institute for Network Cultures. Lecture. (October 2013). 
+- ———. “Technology, Virtuality and Utopia: Governmentality in an Age of Autonomic Computing.” In *Autonomic Computing and Transformations of Human Agency*. Edited by Mireille Hildebrandt and Antoinette Rouvroy. London, UK: Routledge, 2011.
+- Sack, Warren. *The Software Arts*. Cambridge, MA: MIT Press, 2019.
+- Samuel, Arthur L. “Some studies in machine learning using the game of checkers.” *IBM Journal of research and development* 3, no.3 (July 1959). 
+- Saragih, Jason M., Simon Lucey, and Jeffrey F. Cohn. “Face Alignment Through Subspace Constrained Mean-shifts.” Presented at the IEEE 12th International Conference on Computer Vision. Kyoto, JP: 2009.
+- Savičić, Gordan. “LOADING (THE BEAST 6:66/20:09).” October 2009. <https://www.yugo.at/processing/archive/index.php?what=loading by>. 
+- Schneider, Karin, and Begum Yasar, eds., *Situational Diagram*. New York, NY: Dominique Lévy, 2016. 
+- Severance, Charles. “Javascript: Designing a Language in 10 Days.” IEEE Computer Society. February (2012): 7-8.
+- Shi, Yining. “p5.playground: an Interactive Programming Tool for p5.js.” 2016. <https://1023.io/p5-inspector/>.
+- Shiffman, Daniel. “1.1: Code! Programming for Beginners with p5.js.” YouTube video, 13:10. *The Coding Train*. September 5, 2018. <https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2>. 
+- ———. “1.1: Introduction - p5.js Tutorial.” YouTube video, 12:05. *The Coding Train*. September 1, 2015. <https://www.youtube.com/watch?v=8j0UDiN7my4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA>.
+- ———. “1.3: Shapes & Drawing - p5.js Tutorial.” YouTube Video, 25:46. *The Coding Train*. September 7, 2018. <https://www.youtube.com/watch?v=c3TeLi6Ns1E&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=4>. 
+- ———. “1.4: Color - p5.js Tutorial.” YouTube Video, 17:25. *The Coding Train*. September 10, 2018. <https://www.youtube.com/watch?v=riiJTF5-N7c&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=5>.
+- ———. “2.1: Variables in p5.js (mouseX, mouseY) - p5.js Tutorial.” YouTube Video, 12:23. *The Coding Train*. September 4, 2015. <https://www.youtube.com/watch?v=RnS0YNuLfQQ&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=8>. 
+- ———. “2.2: Variables in p5.js (Make your own) - p5.js Tutorial.” YouTube Video, 12:23. *The Coding Train*. September 4, 2015. <https://www.youtube.com/watch?v=Bn_B3T_Vbxs&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=9>.
+- ———. “2.3: JavaScript Objects - p5.js Tutorial.” YouTube Video 9:23. *The Coding Train*. September 4, 2015. <https://www.youtube.com/watch?v=-e5h4IGKZRY&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&t=0s>.
+- ———. “3.1: Introduction to Conditional Statements - p5.js Tutorial.” YouTube video, 11:30. *The Coding Train*. September 10, 2015. <https://www.youtube.com/watch?v=1Osb_iGDdjk>. 
+- ———. “3.2: The Bouncing Ball - p5.js Tutorial.” YouTube video, 7:34. *The Coding Train*. September 11, 2015. <https://www.youtube.com/watch?v=LO3Awjn_gyU>. 
+- ———. “3.3: Else and Else if, AND and OR - p5.js Tutorial.” YouTube video, 16:55. *The Coding Train*. September 11, 2015. <https://www.youtube.com/watch?v=r2S7j54I68c>. 
+- ———.  “3.4: Boolean Variables - p5.js Tutorial.” YouTube video, 19:38. *The Coding Train*. September 11, 2015. <https://www.youtube.com/watch?v=Rk-_syQluvc>. 
+- ———. “4.1: while and for Loops - p5.js tutorial.” YouTube video, 13:50. *The Coding Train*. September 11, 2015. <https://www.youtube.com/watch?v=cnRD9o6odjk>. 
+- ———. “4.2: Nested Loops - p5.js Tutorial.” YouTube video, 9:23. *The Coding Train*. September 11, 2015. <https://www.youtube.com/watch?v=1c1_TMdf8b8>. 
+- ———. “5.1: Function Basics - p5.js Tutorial.” YouTube video, 12:34. *The Coding Train*. September 17, 2015. <https://www.youtube.com/watch?v=wRHAitGzBrg>. 
+- ———. “5.2: Function Parameters and Arguments - p5.js Tutorial.” YouTube video, 10:31. *The Coding Train*. September 17, 2015. <https://www.youtube.com/watch?v=zkc417YapfE>. 
+- ———. “5.3: Functions and Return - p5.js Tutorial.” YouTube video, 7:26. *The Coding Train*. September 17, 2015. <https://www.youtube.com/watch?v=qRnUBiTJ66Y>. 
+- ———. “6.1: Introduction to Object-Oriented Programming with ES6 - p5.js Tutorial.” YouTube video, 1:57. *The Coding Train*.” October 6, 2017. <https://www.youtube.com/watch?v=xG2Vbnv0wvg&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=23>.
+- ———. “6.2: Classes in JavaScript with ES6 - p5.js Tutorial.” YouTube video, 20:08. *The Coding Train*. October 6, 2017. <https://www.youtube.com/watch?v=T-HGdc8L-7w&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=24>.
+- ———. “6.3: Constructor Arguments with Classes in JavaScript - p5.js Tutorial.” YouTube video, 7:49. *The Coding Train*. October 9, 2017. <https://www.youtube.com/watch?v=rHiSsgFRgx4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=25>. 
+- ———. “7.1: What is an array? - p5.js Tutorial.” YouTube video, 13:48. *The Coding Train*. October 2, 2015. <https://www.youtube.com/watch?v=VIQoUghHSxU&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&t=0s>. 
+- ———. “7.2: Arrays and Loops - p5.js Tutorial.” YouTube video, 8:08. *The Coding Train*. October 2, 2015. <https://www.youtube.com/watch?v=RXWO3mFuW-I&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=28>. 
+- ———. “7.3: Arrays of Objects - p5.js Tutorial.” YouTube video, 14:21. *The Coding Train*. October 10, 2017. <https://www.youtube.com/watch?v=fBqaA7zRO58&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=29>. 
+- ———. “7.5: Multiple js Files - p5.js Tutorial.” YouTube video, 7:05. *The Coding Train*. October 9, 2015. <https://www.youtube.com/watch?v=Yk18ZKvXBj4>. 
+- ———. “9.15: 2D Arrays in JavaScript – p5.js Tutorial.” YouTube video, 12:37. *The Coding Train*. July 18, 2016. <https://www.youtube.com/watch?v=OTNpiLUSiB4>. 
+- ———. “10: Working with data – p5.js Tutorial.” YouTube video, 15:02. *The Coding Train*. November 5, 2015. <https://www.youtube.com/watch?v=mj8_w11MvH8&index=10&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
+- ———. “10: Working with data – p5.js Tutorial.” YouTube video, 15:18. *The Coding Train*. November 30, 2015. <https://www.youtube.com/watch?v=IMne3LY4bks&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=9>.
+- ———. “10.2: What is JSON? Part 1 – p5.js Tutorial." YouTube video, 15:55. *The Coding Train*. October 30, 2015. <https://www.youtube.com/watch?v=_NFkzw6oFtQ&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=2>. 
+- ———. “10.3: What is JSON? Part II - p5.js Tutorial.” YouTube video, 16:09. *The Coding Train*. October 30, 2015. <https://www.youtube.com/watch?v=118sDpLOClw&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=3>. 
+- ———. “10.5: Working with APIs in Javascript – p5.js Tutorial.” YouTube video, 15:11. *The Coding Train*. October 30, 2015. <https://www.youtube.com/watch?v=ecT42O6I_WI>. 
+- ———. “15.1: What is Node.js? - Twitter Bot Tutorial.” YouTube video, 15:12. *The Coding Train*. November 12, 2015. <https://www.youtube.com/watch?v=RF5_MPSNAtU&index=1&list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV>. 
+- ———. “15.2: What is NPM? - Twitter Bot Tutorial.” YouTube video, 13:26. *The Coding Train*. November 13, 2015. <https://www.youtube.com/watch?v=s70-Vsud9Vk>. 
+- ———. “Beginning Guide to Machine Learning in JavaScript.” YouTube Video Series, 26 episodes, 7:41:00. *The Coding Train*. Last updated February 22, 2020. <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y>.
+- ———. “Coding Challenge #3: The Snake Game.” YouTube video, 27:26. *The Coding Train*. April 20, 2016. <https://www.youtube.com/watch?v=AaGK-fj-BAM>.
+- ———. “Coding Challenge #31: Flappy Bird.” YouTube video, 21:44. *The Coding Train*. August 10, 2016. <https://www.youtube.com/watch?v=cXgA1d_E-jY>.   
+- ———. “Coding Challenge #75: Wikipedia API.”, YouTube video, 24:50. *The Coding Train*. September 25, 2017. <https://www.youtube.com/watch?v=RPz75gcHj18>.
+- ———. “Guest Tutorial #6: The Modulo Operator with Golan Levin.” YouTube video, 17:27. *The Coding Train*. October 24, 2017. <https://www.youtube.com/watch?v=r5Iy3v1co0A>.
+- ———. “Programming from A to Z Twitter API and Twitter Bots.” Shiffman.net, accessed June 20, 2020. <http://shiffman.net/a2z/twitter-bots/>. 
+- ———. “Two-dimensional Arrays,” Processing initiated by Ben Fry and Casey Reas, accessed June 20, 2020. <https://processing.org/tutorials/2darray/>.
+- ———. “Working with data, The Coding Train.” YouTube video, 12 videos series. *The Coding Train*. October 5, 2017. <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
+- Shulgin, Alexei, Roman Minaev and Aristarkh Chernyshev. *Electroboutique*. 2009. https://festivalenter.wordpress.com/2009/04/09/electroboutique-by-alexei-shulgin-roman-minaev-aristarkh-chernyshev/.
+- Silver, David, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert, Lucas Baker, Matthew Lai, Adrian Bolton, Yutian Chen, Timothy Lillicrap, Fan Hui, Laurent Sifre, George van den Driessche, Thore Graepel, and Demis Hassabis. “Mastering the Game of Go without Human Knowledge.” *Nature* 550, no. 7676 (October 19, 2017): 354 – 59.
+- Snelting, Femke. “Other Geometries.” *transmediale journal* 3. Last updated October 31, 2019. <https://transmediale.de/content/other-geometries>.
+- Snodgrass, Eric, and Winnie Soon. “API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange.” *First Monday* 24 (January 2019). <https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721>.
+- Sollfrank, Cornelia. ed. *Beautiful Warriors: Technofeminist Praxis in the Twenty-First Century*. New York, NY: Autonomedia/Minor Compositions, 2019.
+- ———. *Female Extension*. 1997. <http://www.artwarez.org/femext/index.html>.
+- ———. “Hacking the Art Operating System.” Interviewed by Florian Cramer. Chaos Computer Club, Berlin. December 2001. <http://www.artwarez.org/uploads/media/09_Sollfrank-Cramer-Interview.pdf>.
+- ———. *Net.Art Generator*. Artwarez.org. <http://net.art-generator.com/>.
+- Søndergaard, Marie Louise Juul, and Lone Koefoed Hansen. “Intimate Futures: Staying with the Trouble of Digital Personal Assistants through Design Fiction.” Presented at the Dis ’18: Proceedings of the 2018 Designing Interactive Systems Conference. Hong Kong, China. Association for Computing Machinery, 2018. 
+- Soon, Winnie. *Executing Liveness: An Examination of the Live Dimension of Code Inter-actions in Software (Art) Practice*. PhD dissertation, Aarhus University, 2016. 
+- Soon, Winnie. *Throb*. Last updated April 11, 2019. http://siusoon.net/throb/.
+- Soon, Winnie. “Throbber: Executing Micro-temporal Streams.” In *Computational Culture* 7. Published October 21, 2019. <http://computationalculture.net/throbber-executing-micro-temporal-streams/>.
+- Soon, Winnie, and Geoff Cox. “Vocable Code.” Presented at the Artistic Research Will Eat Itself: Proceedings of the 9th International Conference on Artistic Research. Society for Artistic Research. University of Plymouth, UK, April 2018. 
+- Spender, Dan. *Man-Made Language*. Abingdon, UK: Routledge & Kegan Paul, 1980. <https://www.marxists.org/reference/subject/philosophy/works/ot/spender.htm>.
+- Stark, Luke. “Facial recognition, emotion and race in animated social media.” *First Monday* 23. September (2018).
+- “Start building with the power of Pexels.” Pexels. <https://www.pexels.com/api/>. 
+- Stein, Dorothy. ed. *Ada: A Life and a Legacy: History of Computing*. Cambridge, MA: The MIT Press, 1985.
+- Steyerl, Hito. “A Sea of Data: Pattern Recognition and Corporate Animism (Forked Version).” In *Pattern Discrimination*. Edited by Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, 1-22. Lüneburg: Meson Press, 2018. 
+- Stiegler, Bernard, and Irit Rogoff. “Transindividuation.” *e-flux* 14 (March 2010). <https://www.e-flux.com/journal/14/61314/transindividuation/>.
+- Suchman, Lucy. *Human-Machine Reconfigurations: Plans and Situated Actions*. Cambridge: Cambridge University Press, 2007.
+- Sutton, Richard S., and Andrew Barto. *Reinforcement Learning: An Introduction*. Cambridge, MA: MIT Press, 1998.
+- Sweeney, Miriam E., and Kelsea Whaley. “Technically White: Emoji Skin-tone Modifiers as American Technoculture.” *First Monday* 24, July (2019).
+“Systemics #2: As we may think (or, the next world library).” Exihibition curated by Joasia Krysa at Kunsthal Aarhus, *e-flux*. Last modified November 7, 2013. <https://www.e-flux.com/announcements/31936/systemics-2-as-we-may-think-or-the-next-world-library/>. 
+- Temkin, Daniel. “esoteric.codes.” 2011. <https://esoteric.codes/>.
+- Titcomb, James. “New 'gender equality' emoji to show women at work.” *The Telegraph*. Last updated July 15, 2016. <https://www.telegraph.co.uk/technology/2016/07/15/new-gender-equality-emoji-to-show-women-at-work/>.
+- Truckenbrod, Joan. “Joan Truckenbrod.” Vimeo, 4:29. Last Updated August 27, 2018. <https://vimeo.com/286993496>.
+- ———. *Coded Algorithmic Drawing Series*. Digital Photographic Layered Textiles, 2001. <https://joantruckenbrod.com/gallery/#(grid|filter)=.coded>. 
+Turing, Alan Mathison. “The Chemical Basis of Morphogenesis.” *Philosophical Transactions of the Royal Society of London B*, (August 14, 1952): 37–72.
+- ———. “Computing Machinery and Intelligence,” Mind 49 (1950): 433–460.
+- ———. “On Computable Numbers, with an Application to the Entscheidungs problem.” Proceedings of the London Mathematical Society 2, no. 1 (1937): 230-265.
+- Torvalds, Linus, and David Diamond. *Just for Fun: The Story of an Accidental Revolutionary*. Knutsford, UK: Texere Publishing, 2001.
+- Terranova, Tiziana. “Red Stack Attack! Algorithms, Capital and the Automation of the Common.” *EuroNomade*. Last updated March 8, 2014. <http://www.euronomade.info/?p=2268>. 
+- Tsing, Anna Lowenhaupt. *The Mushroom at the End of the World: On the Possibility of Life in Capitalist Ruins*. Princeton, NJ: Princeton University Press, 2017.
+- UBERMORGEN, “The Project Formerly Known as Kindle Forkbomb.” Wikimedia foundation. Last modified May 4, 2020. <https://en.wikipedia.org/wiki/The_Project_Formerly_Known_As_Kindle_Forkbomb>.
+- Umali, Teressa. “Exclusive: Promoting Digital Literacy in the Philippine Education System.” OpenGov Asia. Last updated August 8, 2019. <https://www.opengovasia.com/promoting-digital-literacy-in-the-philippine-education-system/>. 
+- Vee, Annette. *Coding Literacy: How Computer Programming Is Changing Writing*. Cambridge, MA: MIT Press, 2017.
+- Visti, Anders, and Tobias Stenberg. *WUOUS: Wrocław Urban Operating System*. 2019. <https://andersvisti.dk/work/wuos-2019>.
+- Valenzuela, Cristóbal. “Paperspace/training-lstm.” Github. <https://github.com/Paperspace/training-lstm>.
+- Weizenbaum, Joseph. “ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine.” *Communications of the ACM* 9 (1), 1996.
+- Ward, Adrian. “Auto-Illustrator.” *Generator* exhibition (2002-3). <http://www.medienkunstnetz.de/works/autoillustrator/>. 
+- Wardrip-Fruin, Noah. “Christopher Strachey: The First Digital Artist?.” *Grand Text Auto*, School of Engineering, University of California Santa Cruz (1 August 2005).
+- Watz, Marius. “Beautiful Rules: Generative Models of Creativity.” in *The Olhares de Outono* (2007). <https://vimeo.com/26594644>.
+- Witt, Steve. “Chinese Characters as Ancient "Emoji”, *Glocal Notes*, 2015. <https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/>.
+- Wei Ho, Chih et al. “Examining the impact of pair programming on female students.” North Carolina State University. Dept. of Computer Science (2004).
+- w3schools.com. “CSS Buttons.” <https://www.w3schools.com/csS/css3_buttons.asp>.
+“Web Maps JavaScript API Overview.” Google Maps Platform, Google Developers. Last updated July 9, 2020. <https://developers.google.com/maps/documentation/javascript/>. 
 
-Pngfind. Accessed June 20, 2020. https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/.
-Prigogine, Ilya and Isabelle Stengers. Order Out of Chaos: Man’s New Dialogue With Nature. London, UK: Fontana, 1985.
-Prisco, Jacopo. “Pac-Man at 40: The eating icon that changed gaming history.” CNN. Updated May 21, 2020. https://edition.cnn.com/style/article/pac-man-40-anniversary-history/.
-*Pritchard, Helen, and Winnie Soon. Recurrent Queer Imaginaries. Exhibition Research Lab, Liverpool John Moores University — School of Art and Design, November 2019 – January 2020. https://www.exhibition-research-lab.co.uk/exhibitions/recurrent-queer-imaginaries/.
-“processing/p5.js.” Github, accessed July 3, 2020. https://github.com/processing/p5.js/wiki.
-“Programmable Search.” Google, accessed June 22, 2020. https://cse.google.com/all.
-ProgrammableWeb. Accessed June 10, 2020. https://www.programmableweb.com/. 
-“Programming from A to Z Twitter API and Twitter Bots.” Shiffman.net, accessed June 20, 2020. http://shiffman.net/a2z/twitter-bots/. 
-“The Project Formerly Known as Kindle Forkbomb.” UBERMORGEN, Wikimedia foundation, last modified May 4, 2020. https://en.wikipedia.org/wiki/The_Project_Formerly_Known_As_Kindle_Forkbomb.
-“Queer AI.” Queer AI, accessed June 20, 2020. https://queer.ai/.
-*Reas, Casey. “{Software} Structures.” Accessed July 1, 2020. https://artport.whitney.org/commissions/softwarestructures/text.html.
-“README.md.” GitLab Pages examples, accessed June 22, 2020. https://gitlab.com/pages/plain-html/-/blob/master/README.md.
-“Request A GIPHY API Key.” GIPHY Support, accessed July 2, 2020. https://support.giphy.com/hc/en-us/articles/360020283431-Request-A-GIPHY-API-Key. 
-Robinson, Derek. “Function.” In Software Studies. Edited by Matthew Fuller, 101 – 109. Cambridge, MA: MIT Press, 2008.
-*Rozendaal, Rafaël. “Sleep Mode: The Art of the Screensaver.” Het Nieuwe Instituut, NL. 2017. https://hetnieuweinstituut.nl/en/press-releases/sleep-mode-art-screensaver.
-Rushkoff, Douglas. Program or Be Programmed: Ten Commandments for a Digital Age. New York, NY: OR books, 2010.
-Risam, Roopika. The Poetry of Executable Code. Updated April 5, 2015. http://jacket2.org/commentary/poetry-executable-code.
-Rouvroy, Antoinette. “Algorithmic Governmentalities and the End(s) of Critique.” The Institute for Network Cultures. Lecture. (October 2013). 
-Rouvroy, Antoinette. “Technology, Virtuality and Utopia: Governmentality in an Age of Autonomic Computing.” In Autonomic Computing and Transformations of Human Agency. Edited by Mireille Hildebrandt and Antoinette Rouvroy. London, UK: Routledge, 2011.
-Sack, Warren. The Software Arts. Cambridge, MA: MIT Press, 2019.
-Samuel, Arthur L. “Some studies in machine learning using the game of checkers.” IBM Journal of research and development, no. 3.3 (July 1959). 
-Saragih, Jason M., Simon Lucey, and Jeffrey F. Cohn. “Face Alignment Through Subspace Constrained Mean-shifts.” Presented at the IEEE 12th International Conference on Computer Vision. Kyoto, JP: 2009.
-*Savičić, Gordan. “LOADING (THE BEAST 6:66/20:09).” October 2009, accessed July 1, 2020. https://www.yugo.at/processing/archive/index.php?what=loading by. 
-Schneider, Karin and Begum Yasar, eds., Situational Diagram. New York, NY: Dominique Lévy, 2016. 
-Severance, Charles. “Javascript: Designing a Language in 10 Days.” IEEE Computer Society, (February 2012): 7-8.
-Shi, Yining. “p5.playground: an Interactive Programming Tool for p5.js.” 2016, accessed July 1, 2020. https://1023.io/p5-inspector/.
-Shiffman, Daniel. “1.1: Code! Programming for Beginners with p5.js.” YouTube video, 13:10. Posted by “The Coding Train”, September 5, 2018. https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2. 
-———. “1.1: Introduction - p5.js Tutorial.” YouTube video, 12:05. Posted by “The Coding Train,” September 1, 2015. https://www.youtube.com/watch?v=8j0UDiN7my4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA.
-———. “1.3: Shapes & Drawing - p5.js Tutorial.” YouTube Video, 25:46. Posted by “The Coding Train,” September 7, 2018. https://www.youtube.com/watch?v=c3TeLi6Ns1E&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=4. 
-———. “1.4: Color - p5.js Tutorial.” YouTube Video, 17:25. Posted by “The Coding Train,” September 10, 2018. https://www.youtube.com/watch?v=riiJTF5-N7c&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=5.
-———. “2.1: Variables in p5.js (mouseX, mouseY) - p5.js Tutorial.” YouTube Video, 12:23. Posted by “The Coding Train,” September 4, 2015. https://www.youtube.com/watch?v=RnS0YNuLfQQ&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=8. 
-———. “2.2: Variables in p5.js (Make your own) - p5.js Tutorial.” YouTube Video, 12:23. Posted by “The Coding Train,” September 4, 2015. https://www.youtube.com/watch?v=Bn_B3T_Vbxs&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=9.
-———. “2.3: JavaScript Objects - p5.js Tutorial.” YouTube Video 9:23, Posted by “The Coding Train,” September 4, 2015. https://www.youtube.com/watch?v=-e5h4IGKZRY&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&t=0s.
-———. “3.1: Introduction to Conditional Statements - p5.js Tutorial.” YouTube video, 11:30, Posted by “The Coding Train,” September 10, 2015. https://www.youtube.com/watch?v=1Osb_iGDdjk. 
-———. “3.2: The Bouncing Ball - p5.js Tutorial.” YouTube video, 7:34. Posted by “The Coding Train,” September 11, 2015. https://www.youtube.com/watch?v=LO3Awjn_gyU. 
-———. “3.3: Else and Else if, AND and OR - p5.js Tutorial.” YouTube video, 16:55. Posted by “The Coding Train,” September 11, 2015. https://www.youtube.com/watch?v=r2S7j54I68c. 
-———.  “3.4: Boolean Variables - p5.js Tutorial.” YouTube video, 19:38. Posted by “The Coding Train,” September 11, 2015. https://www.youtube.com/watch?v=Rk-_syQluvc. 
-———. “4.1: while and for Loops - p5.js tutorial.” YouTube video, 13:50. Posted by “The Coding Train,” September 11, 2015. https://www.youtube.com/watch?v=cnRD9o6odjk. 
-———. “4.2: Nested Loops - p5.js Tutorial.” YouTube video, 9:23. Posted by “The Coding Train,” September 11, 2015. https://www.youtube.com/watch?v=1c1_TMdf8b8. 
-———. “5.1: Function Basics - p5.js Tutorial.” YouTube video, 12:34. Posted by “The Coding Train,” September 17, 2015. https://www.youtube.com/watch?v=wRHAitGzBrg. 
-———. “5.2: Function Parameters and Arguments - p5.js Tutorial.” YouTube video, 10:31. Posted by “The Coding Train,” September 17, 2015. https://www.youtube.com/watch?v=zkc417YapfE. 
-———. “5.3: Functions and Return - p5.js Tutorial.” YouTube video, 7:26. Posted by “The Coding Train,” September 17, 2015. https://www.youtube.com/watch?v=qRnUBiTJ66Y, 
-———. “6.1: Introduction to Object-Oriented Programming with ES6 - p5.js Tutorial.” YouTube video, 1:57. Posted by “The Coding Train,” October 6, 2017. https://www.youtube.com/watch?v=xG2Vbnv0wvg&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=23.
-———. “6.2: Classes in JavaScript with ES6 - p5.js Tutorial.” YouTube video, 20:08. Posted by “The Coding Train,” October 6, 2017. https://www.youtube.com/watch?v=T-HGdc8L-7w&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=24.
-———. “6.3: Constructor Arguments with Classes in JavaScript - p5.js Tutorial.” YouTube video, 7:49. Posted by “The Coding Train,” October 9, 2017. https://www.youtube.com/watch?v=rHiSsgFRgx4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=25. 
-———. “7.1: What is an array? - p5.js Tutorial.” YouTube video, 13:48. Posted by “The Coding Train,” October 2, 2015. https://www.youtube.com/watch?v=VIQoUghHSxU&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&t=0s. 
-———. “7.2: Arrays and Loops - p5.js Tutorial.” YouTube video, 8:08. Posted by “The Coding Train,” October 2, 2015. https://www.youtube.com/watch?v=RXWO3mFuW-I&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=28. 
-———. “7.3: Arrays of Objects - p5.js Tutorial.” YouTube video, 14:21, Posted by “The Coding Train,” October 10, 2017. https://www.youtube.com/watch?v=fBqaA7zRO58&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=29. 
-———. “7.5: Multiple js Files - p5.js Tutorial.” YouTube video, 7:05. Posted by “The Coding Train,” October 9, 2015. https://www.youtube.com/watch?v=Yk18ZKvXBj4. 
-———. “9.15: 2D Arrays in JavaScript – p5.js Tutorial.” YouTube video, 12:37. Posted by "The Coding Train," July 18, 2016. https://www.youtube.com/watch?v=OTNpiLUSiB4. 
-———. “10: Working with data – p5.js Tutorial.” YouTube video, 15:02. Posted by "The Coding Train," November 5, 2015. https://www.youtube.com/watch?v=mj8_w11MvH8&index=10&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r.
-———. “10: Working with data – p5.js Tutorial.” YouTube video, 15:18. Posted by "The Coding Train," November 30, 2015. https://www.youtube.com/watch?v=IMne3LY4bks&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=9.
-———. “10.2: What is JSON? Part 1 – p5.js Tutorial." YouTube video, 15:55. Posted by "The Coding Train," October 30, 2015. https://www.youtube.com/watch?v=_NFkzw6oFtQ&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=2. 
-———. “10.3: What is JSON? Part II - p5.js Tutorial.” YouTube video, 16:09. Posted by “The Coding Train,” October 30, 2015. https://www.youtube.com/watch?v=118sDpLOClw&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=3. 
-———. “10.5: Working with APIs in Javascript – p5.js Tutorial.” YouTube video, 15:11. Posted by "The Coding Train," October 30, 2015. https://www.youtube.com/watch?v=ecT42O6I_WI. 
-———. “15.1: What is Node.js? - Twitter Bot Tutorial.” YouTube video, 15:12. Posted by "The Coding Train," November 12, 2015. https://www.youtube.com/watch?v=RF5_MPSNAtU&index=1&list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV. 
-———. “15.2: What is NPM? - Twitter Bot Tutorial.” YouTube video, 13:26. Posted by "The Coding Train," November 13, 2015. https://www.youtube.com/watch?v=s70-Vsud9Vk. 
-———. “Beginning Guide to Machine Learning in JavaScript.” YouTube Video Series, 26 episodes, 7:41:00. “The Coding Train.” Last updated February 22, 2020. https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y.
-———. “Coding Challenge #3: The Snake Game.” YouTube video, 27:26. Posted by “The Coding Train,” April 20, 2016. https://www.youtube.com/watch?v=AaGK-fj-BAM.
-———. “Coding Challenge #31: Flappy Bird.” YouTube video, 21:44. Posted by “The Coding Train,” August 10, 2016. https://www.youtube.com/watch?v=cXgA1d_E-jY.   
-———. “Coding Challenge #75: Wikipedia API.”, YouTube video, 24:50. Posted by "The Coding Train," September 25, 2017. https://www.youtube.com/watch?v=RPz75gcHj18.
-———. “Guest Tutorial #6: The Modulo Operator with Golan Levin.” YouTube video, 17:27. Posted by "The Coding Train," October 24, 2017. https://www.youtube.com/watch?v=r5Iy3v1co0A.
-———. “Working with data, The Coding Train.” YouTube video, 12 videos series. Posted by "The Coding Train," October 5, 2017. https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r.
-Shiffman, Daniel. “Two-dimensional Arrays,” Processing initiated by Ben Fry and Casey Reas, accessed June 20, 2020. https://processing.org/tutorials/2darray/.
-*Shulgin, Alexei, Roman Minaev and Aristarkh Chernyshev. Electroboutique. 2009, accessed July 1, 2020. https://festivalenter.wordpress.com/2009/04/09/electroboutique-by-alexei-shulgin-roman-minaev-aristarkh-chernyshev/.
-Silver, David, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert, Lucas Baker, Matthew Lai, Adrian Bolton, Yutian Chen, Timothy Lillicrap, Fan Hui, Laurent Sifre, George van den Driessche, Thore Graepel & Demis Hassabis. “Mastering the Game of Go without Human Knowledge.” Nature 550, no. 7676 (published October 19, 2017): 354 – 59.
-Snelting, Femke. “Other Geometries.” transmediale journal, Issue#3, Last updated October 31, 2019, https://transmediale.de/content/other-geometries.
-Snodgrass, Eric and Winnie Soon. “API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange.” First Monday, no. 24 (January 2019). https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721.
-*Sollfrank, Cornelia. Female Extension. 1997, accessed July 1, 2020. http://www.artwarez.org/femext/index.html.
-Sollfrank, Cornelia. “Hacking the Art Operating System.” interviewed by Florian Cramer. Chaos Computer Club, Berlin. December 2001, accessed July 1, 2020. http://www.artwarez.org/uploads/media/09_Sollfrank-Cramer-Interview.pdf.
-Sollfrank, Cornelia. ed. Beautiful Warriors: Technofeminist Praxis in the Twenty-First Century. New York, NY: Autonomedia/Minor Compositions, 2019.
-Søndergaard, Marie Louise Juul and Lone Koefoed Hansen. “Intimate Futures: Staying with the Trouble of Digital Personal Assistants through Design Fiction.” Presented at the Dis’18: Proceedings of the 2018 Designing Interactive Systems Conference. Hong Kong, China. Association for Computing Machinery, 2018. 
-Soon, Winnie. “Executing Liveness: An Examination of the Live Dimension of Code Inter-actions in Software (Art) Practice.” PhD diss,, Aarhaus University, 2016. 
-Soon, Winnie and Geoff Cox. “Vocable Code.” Presented at the Artistic Research Will Eat Itself: Proceedings of the 9th International Conference on Artistic Research. Society for Artistic Research. University of Plymouth, UK, April 2018. 
-*Soon, Winnie. “Throb.” Last updated April 11, 2019. http://siusoon.net/throb/.
-Soon, Winnie. “Throbber: Executing Micro-temporal Streams.” In Computational Culture 7. Published October 21, 2019. http://computationalculture.net/throbber-executing-micro-temporal-streams/.
-Spender, Dan. Man-Made Language. Abingdon, UK: Routledge & Kegan Paul, 1980. https://www.marxists.org/reference/subject/philosophy/works/ot/spender.htm.
-Stark, Luke. “Facial recognition, emotion and race in animated social media.” First Monday, no. 23, September 2018.
-“Start building with the power of Pexels.” Pexels, accessed July 2, 2020. https://www.pexels.com/api/. 
-Stein, Dorothy. ed. Ada: A Life and a Legacy: History of Computing. Cambridge, MA: The MIT Press, 1985.
-*Steyerl, Hito. “A Sea of Data: Pattern Recognition and Corporate Animism (Forked Version).” In Pattern Discrimination. Edited by Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, 1 -22. Lüneburg, DE: Meson Press, 2018. 
-Stiegler, Bernard and Irit Rogoff. “Transindividuation.” e-flux #14 (March 2010). https://www.e-flux.com/journal/14/61314/transindividuation/.
-Suchman, Lucy. Human-Machine Reconfigurations: Plans and Situated Actions. Cambridge, UK: Cambridge University Press, 2007.
-Sutton, Richard S. and Andrew Barto. Reinforcement Learning: An Introduction. Cambridge, MA: MIT Press, 1998.
-Sweeney, Miriam E and Kelsea Whaley. “Technically White: Emoji Skin-tone Modifiers as American Technoculture.” First Monday, no. 24, July 2019.
-“Systemics #2: As we may think (or, the next world library).” Kunsthal Aarhus, e-flux, last modified November 7, 2013. https://www.e-flux.com/announcements/31936/systemics-2-as-we-may-think-or-the-next-world-library/. 
-*Temkin, Daniel. “esoteric.codes.” 2011, accessed July 1, 2020. https://esoteric.codes/.
-Titcomb, James. “New “gender equality” emoji to show women at work,” The Telegraph, last updated July 15, 2016. https://www.telegraph.co.uk/technology/2016/07/15/new-gender-equality-emoji-to-show-women-at-work/.
-*Truckenbrod, Joan. “Joan Truckenbrod.” Vimeo, 4:29. Last Updated August 27, 2018. https://vimeo.com/286993496.
-Truckenbrod, Joan. “Coded Algorithmic Drawing Series,” Digital Photographic Layered Textiles, 2001. https://joantruckenbrod.com/gallery/#(grid|filter)=.coded. 
-Turing, Alan Mathison. “The Chemical Basis of Morphogenesis.” Philosophical Transactions of the Royal Society of London B, (August 14, 1952): 37–72.
-Turing, Alan M. “On Computable Numbers, with an Application to the Entscheidungs problem.” Proceedings of the London Mathematical Society 2.1 (1937): 230-265.
-Turing. Alan, M. “Computing machinery and intelligence,” Mind 49 (1950): 433–460.
-Tsing, Anna Lowenhaupt. The Mushroom at the End of the World: On the Possibility of Life in Capitalist Ruins. Princeton, NJ: Princeton University Press, 2017.
-Torvalds, Linus and David Diamond. Just for Fun: The Story of an Accidental Revolutionary. Knutsford, UK: Texere Publishing, 2001.
-Gibbons, Jeremy and Oege de Moor. The Fun of Programming, London, UK: Palgrave Macmillan, 2003.
-Terranova, Tiziana. “Red Stack Attack! Algorithms, Capital and the Automation of the Common.” EuroNomade. Last updated March 8, 2014. http://www.euronomade.info/?p=2268. 
-Umali, Teressa. “Exclusive: Promoting Digital Literacy in the Philippine Education System.” OpenGov Asia, updated August 8, 2019. https://www.opengovasia.com/promoting-digital-literacy-in-the-philippine-education-system/. 
-Ulrik Andersen, Christian and Søren Bro Pold. The Metainterface: The Art of Platforms, Cities, and Clouds. Cambridge, MA: MIT Press, 2018.
-Vee, Annette. Coding Literacy: How Computer Programming Is Changing Writing, Cambridge, MA: MIT Press, 2017.
-*Visti, Anders and Tobias Stenberg. WUOUS: Wrocław Urban Operating System. 2019, accessed July 1, 2020. https://andersvisti.dk/work/wuos-2019.
-Valenzuela, Cristóbal. “Paperspace/training-lstm.” Github, accessed July 1, 2020. https://github.com/Paperspace/training-lstm.
-Weizenbaum, Joseph. “ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine.” Communications of the ACM 9 (1), 1996.
-Ward, Adrian. “Auto-Illustrator.” Generator exhibition. 2002-3, accessed July 1, 2020. http://www.medienkunstnetz.de/works/autoillustrator/. 
-Wardrip-Fruin, Noah. “Christopher Strachey: The First Digital Artist?.” Grand Text Auto, School of Engineering, University of California Santa Cruz (1 August 2005).
-Watz, Marius. “Beautiful Rules: Generative Models of Creativity.” in The Olhares de Outono (2007), https://vimeo.com/26594644.
-Witt, Steve. “Chinese Characters as Ancient "Emoji”, Glocal Notes, 2015. https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/.
-Wei Ho, Chih et al. “Examining the impact of pair programming on female students.” North Carolina State University. Dept. of Computer Science (2004).
-w3schools.com. “CSS Buttons.” Accessed June 20, 2020. https://www.w3schools.com/csS/css3_buttons.asp.
-“Web Maps JavaScript API Overview.” Google Maps Platform, Google Developers, last updated July 9, 2020. https://developers.google.com/maps/documentation/javascript/. 
-“Welcome: Wekinator 2009.” Rebecca Fiebrink, accessed June 20, 2020. http://www.wekinator.org/.
 “what is the abbreviation of GIT? [closed].” stack overflow, accessed June 24, 2020. https://stackoverflow.com/questions/43959748/what-is-the-abbreviation-of-git.
 “wholepixel / solving-sol.” Github, accessed June 20, 2020. https://github.com/wholepixel/solving-sol/blob/master/289/cagrimmett/index.html. 
 “Wikipedia: Tay (bot).” Wikimedia Foundation, last modified June 20, 2020, 17:03. https://en.wikipedia.org/wiki/Tay_(bot). 
