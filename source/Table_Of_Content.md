@@ -64,7 +64,7 @@ page_order: -2
 
 ## Chapter 4: Data Capture
 * setup() and start()
-* Exercise in clas (Decode)
+* Exercise in class (Decode)
 * Source code
 * DOM elements: creating and styling a button
 * Mouse capture
