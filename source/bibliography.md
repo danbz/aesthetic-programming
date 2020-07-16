@@ -387,7 +387,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Williams, Raymond. *Keywords: A Vocabulary of Culture and Society*. London: Fontana, 1983.
 - Witt, Steve. “Chinese Characters as Ancient "Emoji”, *Glocal Notes*, 2015. <https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/>.
 - “Web Maps JavaScript API Overview.” Google Maps Platform, Google Developers. Last updated July 9, 2020. <https://developers.google.com/maps/documentation/javascript/>. 
-- “what is the abbreviation of GIT? [closed].” *Stack Overflow*. <https://stackoverflow.com/questions/43959748/>.what-is-the-abbreviation-of-git.
+- “what is the abbreviation of GIT? [closed].” *Stack Overflow*. <https://stackoverflow.com/questions/43959748/what-is-the-abbreviation-of-git>.
 - “wholepixel / solving-sol.” Github. <https://github.com/wholepixel/solving-sol/blob/master/289/cagrimmett/index.html>. 
 - “Wikipedia: Tay (bot).” Wikimedia Foundation. Last modified June 20, 2020, 17:03. <https://en.wikipedia.org/wiki/Tay_(bot)>. 
 - “Wikipedia: Unicode.” Wikimedia Foundation. Last modified July 7, 2020, 9:32. <https://en.wikipedia.org/wiki/Unicode#Origin_and_development>.
