@@ -1,24 +1,39 @@
-## List of artworks/software/projects:
+Title: Projects
+page_order: 13
 
+## List of artworks/software/tutorials/exhibitions/examples:
+- “Call for Works 2015: CAPTURE ALL.” transmediale / art & digitalculture. <https://transmediale.de/content/call-for-works-2015>.
+- Burnham, Jack. “Software – Information Technology: Its New Meaning for Art.” Exhibition at the Jewish Museum, New York, NY, September 16 – November 8, 1970, and Smithsonian Institution, Washington, D.C., December 16, 1970 – February 14, 1971.
+- Carney, Michelle. “Using Teachable Machine in the d.school classroom.” Last updated November 5, 2019. <https://medium.com/@michellecarney/using-teachable-machine-in-the-d-school-classroom-96be1ba6a4f9>.
 - *Asterisk Painting*, by John P. Bell, ported to p5.js, and modified by Winnie Soon. <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
+- Fried, Limor, and Federico Gomez Suarez. “Binary & Data.” Khan Academy Courses. <https://www.khanacademy.org/computing/computer-science/how-computers-work2/v/khan-academy-and-codeorg-binary-data>.
+- Johnston, Nathaniel. “Game of Life and related cellular automata.” <https://www.conwaylife.com/>.
+- Cramer, Florian. "I Love You [rev-eng]." Digital Craft.org. Exhibition, Kulturbüro. http://www.digitalcraft.org/iloveyou/.
 - Conway, John Horton. “The Game of Life.” Internet Archive Wayback Machine. <https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/>.
 - Bell, John. “Asterisk Painting.” <http://www.johnpbell.com/asterisk-painting/>.
-
+- 1001 Free Fonts. <https://www.1001freefonts.com/>.
 - Blas, Zach. *Facial Weaponization Suite*. 2011-14. <http://www.zachblas.info/works/facial-weaponization-suite/>.
-
+- “A hackable text editor for the 21st Century.” Atom. <https://atom.io/>.
 - Breeze, Mez. *MEZANGELLE*. 1994 – Ongoing. <https://anthology.rhizome.org/mez-breeze>.
-
+- “atom-live-server-package.” Atom. <https://atom.io/packages/atom-live-server>.
 - Choi, Taeyoon. *Signing Coders*. Ongoing. <http://taeyoonchoi.com/soft-care/signing-coders/>.
 - Cirio, Paolo, Alessandro Ludovico, and UBERMORGEN. “GEWI - Google Will Eat Itself.” <https://www.gwei.org/index.php>.  
-
+- Parrish, Allison. “Text and Type.” Last updated 2019. <https://creative-coding.decontextualize.com/text-and-type/>.
 *Cox, Geoff, and Duncan Shingleton. *hallo welt!* (hello world!). Updated July 1, 2008. <http://www.anti-thesis.net/hello-world-60/>.
+- “Custom Search JSON API.” Google Custom Search. Google Developers. Updated June 11, 2020. <https://developers.google.com/custom-search/v1/overview>.
 
+- “Anatomies of Intelligence & the Concept of Aesthesis.” Joana Chicau and Jonathan Reus. <https://anatomiesofintelligence.github.io/>.
+- “Get Started.” p5.js, Processing Foundation. <https://p5js.org/get-started/>.
+- “GitLab Markdown.” GitLab Docs. <https://docs.gitlab.com/ee/user/markdown.html>.
+- “README.md.” GitLab Pages examples. <https://gitlab.com/pages/plain-html/-/blob/master/README.md>.
+- “Anatomies of Intelligence.” NN Cluster initiative Aarhus University 2019, Winnie Soon, Magda Tyzlik-Carver, and Pablo Velasco. https://anatomiesofintelligence.github.io/workshop_presentation.html.
 - db-db-db (aka Francis Lam). “Tofu Go!.” Apple App Store. <https://apps.apple.com/us/app/tofu-go/id441704812>.
 
 - Dullaart, Constant. “DVD guy MVI_9443.AVI.” YouTube video, 1:00. Posted by “Constantdullaart,” January 14, 2019. <https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB>.
 - ———. “Nein Gag.” Panke Gallery, Berlin, DE. March – April 2019. <http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin>.
 - Fan, Lai-Tze, and Nick Montfort. “Dial.” *The New River: A Journal of Digital Art and Literature*. Spring 2020. <http://thenewriver.us/dial/>.
 
+- w3schools.com. “CSS Buttons.” <https://www.w3schools.com/csS/css3_buttons.asp>.
 - “Friendly Machine Learning for the Web.” ml5.js, accessed June 20, 2020. https://ml5js.org/.
 
 - Grosser, Ben. “Eat Food Not Bombs.” <https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI>.

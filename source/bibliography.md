@@ -1,23 +1,19 @@
 Title: Bibliography
+page_order: 12
 
 ## Bibliography
 
-- 1001 Free Fonts. <https://www.1001freefonts.com/>.
 - “A Beginner's Guide to Neural Networks and Deep Learning.” Pathmind. <https://pathmind.com/wiki/neural-network#define>.
-- “A hackable text editor for the 21st Century.” Atom. <https://atom.io/>.
 - Abbing, Roel Roscam, Peggy Pierrot and Femke Snelting. “Modifying the Universal.” In *Executing Practices*. Edited by Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, 35-51. London, UK: Open Humanities Press, 2018.
 - Abidin, Crystal, and Joel Gn. “Between art and application: Special issue on emoji epistemology.” *First Monday* 23 (September 2018):9.
 - Adam, Alison. *Artificial Knowing: Gender and the Thinking Machine*. London: Routledge, 2006.
 - Adam, Alison. "A Feminist Critique of Artificial Intelligence." *European Journal of Women's Studies* 2, no. 3 (1995).
 - Adorno, Theodor W. *Prisms*. Cambridge, MA: MIT Press, 1983.
-- “atom-live-server-package.” Atom. <https://atom.io/packages/atom-live-server>.
 - “Adversarial Hacking in the Age of AI: Call for Proposals.” transmediale / art & digitalculture (2020). <https://2020.transmediale.de/content/adversarial-hacking-in-the-age-of-ai-call-for-proposals>.
 - “A.I. Wiki: A Beginner’s Guide to Important Topics in AI, Machine Learning, and Deep Learning.” Pathmind. <https://pathmind.com/wiki/ai-vs-machine-learning-vs-deep-learning>.
 - Agre, Philip E. “Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI.” In *Bridging the Great Divide: Social Science, Technical Systems, and Cooperative Work*. Edited by Geoff Bowker, Les Gasser, Leigh Star, and Bill Turner. Hillsdale, NJ: Erlbaum, 1997.
 - al-Khuwarizmi, Muhammad ibn Musá. *The Algebra of Mohammed ben Musa*. Translated by Frederic Rosen. London, UK: Rosen, 1831.
 - Ali, Syed Mustafa. "A Brief Introduction to Decolonial Computing." *XRDS: Crossroads, The ACM Magazine for Students* 22, no. 4 (2016): 16–21.
-- “Anatomies of Intelligence.” NN Cluster initiative Aarhus University 2019, Winnie Soon, Magda Tyzlik-Carver, and Pablo Velasco. https://anatomiesofintelligence.github.io/workshop_presentation.html.
-- “Anatomies of Intelligence & the Concept of Aesthesis.” Joana Chicau and Jonathan Reus. <https://anatomiesofintelligence.github.io/>.
 - Andersen, Christian Ulrik, and Geoff Cox. *A Peer-Reviewed Journal About Datafied Research*, no. 4 (June 2015). https://aprja.net//issue/view/8402>.
 - Andersen, Christian Ulrik, and Geoff Cox. *A Peer-Reviewed Journal About Machine Feeling*, no. 8 (June 2019). <https://aprja.net//issue/view/8133>.
 - Andersen, Christian Ulrik, and Søren Bro Pold. *The Metainterface: The Art of Platforms, Cities, and Clouds*. Cambridge, MA: MIT Press, 2018.
@@ -45,11 +41,8 @@ Title: Bibliography
 - Brock, Kevin. *Rhetorical Code Studies: Discovering Arguments in and around Code*. Ann Arbor, MI: University of Michigan Press, 2019.
 - Bucher, Taina. *If...Then: Algorithmic Power and Politics*. Oxford, UK: Oxford University Press, 2018.
 - Buolamwini, Joy. “Response: Racial and Gender Bias in Amazon Recognition — Commercial AI System for Analyzing Faces.” *Medium*, 2019. <https://medium.com/@Joy.Buolamwini/response-racial-and-gender-bias-in-amazon-rekognition-commercial-ai-system-for-analyzing-faces-a289222eeced>.
-- Burnham, Jack. “Software – Information Technology: Its New Meaning for Art.” Exhibition at the Jewish Museum, New York, NY, September 16 – November 8, 1970, and Smithsonian Institution, Washington, D.C., December 16, 1970 – February 14, 1971.
 - Butler, Judith. *Excitable Speech: A Politics of the Performative*. London, UK: Routledge, 1997.
-- “Call for Works 2015: CAPTURE ALL.” transmediale / art & digitalculture. <https://transmediale.de/content/call-for-works-2015>.
 - “The Cambridge Analytica Files.” *The Guardian*. <https://www.theguardian.com/news/series/cambridge-analytica-files>.
-- Carney, Michelle. “Using Teachable Machine in the d.school classroom.” Last updated November 5, 2019. <https://medium.com/@michellecarney/using-teachable-machine-in-the-d-school-classroom-96be1ba6a4f9>.
 - Cayley, John. “The Code is Not the Text Unless it is the Text.” *Electronic Book Review*. October 9, 2002. <http://electronicbookreview.com/essay/the-code-is-not-the-text-unless-it-is-the-text/>.
 - Chan, Owyang V. *Geometry Is Fun For Me*. Indianapolis, IL: Dog Ear Publishing, 2017.
 - Chandra, Ashok K., and David Harel. "Computer Queries for Relational Data Bases." *Journal of Computer and System Sciences* 21 (October 1980): 156–178.
@@ -63,7 +56,6 @@ Title: Bibliography
 - “Coding -- the 21st century skill.” European Commission. <https://ec.europa.eu/digital-single-market/en/coding-21st-century-skill>.
 - “Coding the way to a brighter future in 2018 & beyond.” Microsoft Asia News Center. Last updated January 15, 2018. <https://news.microsoft.com/apac/features/coding-way-brighter-future-2018-beyond/>.
 - Conley, Will. “Facebook investigates tracking users’ cursors and screen behavior.” *Slashgear*. Last updated October 30, 2013. <https://www.slashgear.com/facebook-investigates-tracking-users-cursors-and-screen-behavior-30303663/>.
-- Conway, John Horton. “Game of Life and related cellular automata.” <https://www.conwaylife.com/>.
 - Cooper, Marilyn. M.. "Really Useful Knowledge: A Cultural Studies Agenda for Writing Centers." *The Writing Center Journal* 14, no. 2 (Spring 1994): 97-111. <https://www.jstor.org/stable/43441948>.
 - Cox, Geoff. “Introduction.” In *David Link: Das Herz der Maschine* dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 037. Berlin: Hatje Cantz, 2012.  
 - ———. “Generator: The Value of Software Art.” In *Issues in Curating Contemporary Art and Performance*. Edited by Judith Rugg and Michèle Sedgwick, 147 – 162. Bristol, UK: Intellect, 2007. <https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf>.
@@ -73,11 +65,9 @@ Title: Bibliography
 - Cox, Geoff, and Alex McLean. *Speaking Code: Coding as Aesthetic and Political Expression*. Cambridge, MA: MIT Press, 2013.
 - Cox, Geoff, Alex McLean, and Adrian Ward. “The Aesthetics of Generative Code.” Presented at the Generative Art 00 International Conference, Politecnico di Milano, IT, 2000. <https://www.academia.edu/10519146/The_Aesthetics_of_Generative_Code>.  
 Cramer, Florian. “Language.” In *Software Studies: A Lexicon*. Edited by Matthew Fuller, 168–173. Cambridge, MA: MIT Press, 2008.
-- ———. "I Love You [rev-eng]." Digital Craft.org. Exhibition, Kulturbüro. http://www.digitalcraft.org/iloveyou/.
 - Crary, Jonathan. *24/7: Late Capitalism and the Ends of Sleep*. London: Verso, 2013.
 - Crawford, Kate, and Vladan Joler. “Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources.” 2018. <https://anatomyof.ai/>.
 - Cukier, Kenneth, and Victor Mayer-Schönberger. “The Rise of Big Data.” *Foreign Affairs*. Last updated May/June 2013. <https://www.foreignaffairs.com/articles/2013-04-03/rise-big-data>.
-- “Custom Search JSON API.” Google Custom Search. Google Developers. Updated June 11, 2020. <https://developers.google.com/custom-search/v1/overview>.
 - D’Ignazio, Catherine, and Lauren Klein. *Data Feminism*. Cambridge, MA: MIT Press 2000.   
 - Dahl, Ole-Johan, and Kristen Nygaard. “The Birth of Object Orientation: the Simula Languages.” In *From Object-Orientation to Formal Methods Lecture Notes in Computer Science* 2635. Edited by Olaf Owe, Stein Krogdahl and Tom Lyche, 15-25. Berlin/Heidelberg, DE: Springer, 2004.
 - Das, Sauvik, and Adam D. I. Kramer. “Self-censorship on Facebook.” Presented at the AAAI Conference on Weblogs and Social Media (ICWSM), July 2013. <https://research.fb.com/publications/self-censorship-on-facebook/>.
@@ -100,7 +90,6 @@ Cramer, Florian. “Language.” In *Software Studies: A Lexicon*. Edited by Mat
 - Free Software Foundation, Inc.. “GNU Lesser General Public License, Version 3, 28 June 2007.” <https://www.gnu.org/licenses/lgpl-3.0.txt>.
 - ———. “What is free software? The Free Software Definition.” Last updated July 30, 2019. <https://www.gnu.org/philosophy/free-sw.html>.
 - Friere, Paolo. *Pedagogy of the Oppressed*. New York, NY: Continuum, 1970.
-- Fried, Limor, and Federico Gomez Suarez. “Binary & Data.” Khan Academy Courses. <https://www.khanacademy.org/computing/computer-science/how-computers-work2/v/khan-academy-and-codeorg-binary-data>.
 - Fry, Ben, and Casey Reas. “Processing.” <https://processing.org./>.
 - Fukuyama, Francis. *The End of History and the Last Man*. New York, NY: Free Press, 1992.
 - Fuller, Matthew. *How to be a Geek: Essays on the Culture of Software*. Cambridge: Polity Press, 2017.
@@ -195,7 +184,6 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - Papert, Seymour. *Mindstorms: Children, Computers, and Powerful Ideas*. New York, NY: Basic Books, 1980.
 - Pasquinelli, Matteo. “Google’s PageRank Algorithm: A Diagram of the Cognitive Capitalism and the Rentier of the Common Intellect.” In *Deep Search: The Politics of Search Beyond Google*. Edited by Konrad Becker and Felix Stalder. London, UK: Transaction Publishers: 2009.
 - ———. “How a Machine Learns and Fails: A Grammar of Error for Artificial Intelligence.” *Spheres* 5 (2019). <http://matteopasquinelli.com/grammar-of-error-for-artificial-intelligence/>.
-- Parrish, Allison. “Text and Type.” Last updated 2019. <https://creative-coding.decontextualize.com/text-and-type/>.
 - ———. “Eyeo 2015.” Vimeo, 41:47. Posted by “Eyeo Festival,” July 28, 2015. <https://vimeo.com/134734729>.
 - Paul, Christiane, Carol Mancusi-Ungaro, and Clémence White. “Programmed: Rules, Codes, and Choreographies in Art, 1965–2018.” Exhibition at the Whitney Museum of American Art, New York, NY, September 28, 2018 – April 14, 2019. <https://whitney.org/exhibitions/programmed>.
 - Peppler, Kylie A., and Yasmin B. Kafai. "Creative coding: Programming for personal expression." The 8th International Conference on Computer Supported Collaborative Learning (CSCL) 2 (2009): 76-78.
@@ -206,7 +194,6 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - Prisco, Jacopo. “Pac-Man at 40: The eating icon that changed gaming history.” *CNN*. last updated May 21, 2020. <https://edition.cnn.com/style/article/pac-man-40-anniversary-history/>.
 - Rancière, Jacques. *The Politics of Aesthetics*. London: Continuum, 2006.  
 - Reas, Casey. “{Software} Structures.” <https://artport.whitney.org/commissions/softwarestructures/text.html>.
-- “README.md.” GitLab Pages examples. <https://gitlab.com/pages/plain-html/-/blob/master/README.md>.
 - “Request A GIPHY API Key.” GIPHY Support. <https://support.giphy.com/hc/en-us/articles/360020283431-Request-A-GIPHY-API-Key>.
 - Robinson, Derek. “Function.” In *Software Studies*. Edited by Matthew Fuller, 101–109. Cambridge, MA: MIT Press, 2008.
 - Rushkoff, Douglas. *Program or Be Programmed: Ten Commandments for a Digital Age*. New York: OR books, 2010.
@@ -226,7 +213,7 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - Søndergaard, Marie Louise Juul, and Lone Koefoed Hansen. “Intimate Futures: Staying with the Trouble of Digital Personal Assistants through Design Fiction.” Presented at the Dis ’18: Proceedings of the 2018 Designing Interactive Systems Conference. Hong Kong, China. Association for Computing Machinery, 2018.
 - Soon, Winnie. *Executing Liveness: An Examination of the Live Dimension of Code Inter-actions in Software (Art) Practice*. PhD dissertation, Aarhus University, 2016.
 - ———. “Throbber: Executing Micro-temporal Streams.” In *Computational Culture* 7. Published October 21, 2019. <http://computationalculture.net/throbber-executing-micro-temporal-streams/>.
-- ———. "Vocable Code." In *MAI: Feminism & Visual Culture* 2. Published November 10, 2018. <https://maifeminism.com/vocable-code/>
+- ———. "Vocable Code." *MAI: Feminism and Visual Culture* 2 (November 10, 2018). <https://maifeminism.com/vocable-code/>
 - Soon, Winnie, and Geoff Cox. “Vocable Code.” Presented at the Artistic Research Will Eat Itself: Proceedings of the 9th International Conference on Artistic Research. Society for Artistic Research. University of Plymouth, UK, April 2018.
 - Spender, Dan. *Man-Made Language*. Abingdon, UK: Routledge & Kegan Paul, 1980. <https://www.marxists.org/reference/subject/philosophy/works/ot/spender.htm>.
 - Stark, Luke. “Facial recognition, emotion and race in animated social media.” *First Monday* 23. September (2018).
@@ -263,7 +250,6 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - “Wikipedia: Tay (bot).” Wikimedia Foundation. Last modified June 20, 2020, 17:03. <https://en.wikipedia.org/wiki/Tay_(bot)>.
 - “Wikipedia: Unicode.” Wikimedia Foundation. Last modified July 7, 2020, 9:32. <https://en.wikipedia.org/wiki/Unicode#Origin_and_development>.
 - Wing, Jeannette M.. "Computational Thinking," *Commun. ACM* 49, no. 3 (March 2006): 33–35.
-- w3schools.com. “CSS Buttons.” <https://www.w3schools.com/csS/css3_buttons.asp>.
 - Zuboff, Shoshana. “Surveillance Capitalism.” VPRO Documentary. <https://youtu.be/hIXhnWUmMvw>.
 
 
@@ -276,8 +262,6 @@ are these projects?
 - Borràs, Laura, Talan Memmott, Rita Raley, and Brian Stefans, eds.. *Electronic Literature Collection*. Volume Two. Cambridge, MA: Electronic Literature Organization, 2011. <http://collection.eliterature.org/2/>.  
 - Hayles, Katherine N., Nick Montfort, Scott Rettberg, and Stephanie Strickland, eds.. *Electronic Literature Collection*. Volume One. College Park, MD: Electronic Literature Organization, 2006. <http://collection.eliterature.org/1/>.
 - Cirio, Paolo. *Flowcharts: On Systems of Systems*, Morrisville, NC: Lulu, 2019.
-- “Get Started.” p5.js, Processing Foundation. <https://p5js.org/get-started/>.
-- “GitLab Markdown.” GitLab Docs. <https://docs.gitlab.com/ee/user/markdown.html>.
 - “Method: cse.list.” Custom Search API, Google Developers. Last updated June 11, 2020. <https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list#parameters>.
 - Open Source Publishing (OSP). <http://osp.kitchen/>.
 - Old Boys Network (OBN). "the mode is the message – the code is the collective." <https://www.obn.org/>.
