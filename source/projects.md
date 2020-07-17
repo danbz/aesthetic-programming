@@ -3,6 +3,8 @@ page_order: 13
 
 ## List of artworks/software/exhibitions:
 
+(+wenyin)
+
 - “About ImageNet,” Stanford Vision Lab. <http://image-net.org/about-overview>.
 - “A hackable text editor for the 21st Century.” Atom. <https://atom.io/>.
 - “Anatomies of Intelligence & the Concept of Aesthesis.” Joana Chicau and Jonathan Reus. <https://anatomiesofintelligence.github.io/>.
