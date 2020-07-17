@@ -5,13 +5,15 @@ page_order: -2
 
 **By**: Winnie Soon and Geoff Cox
 
+![](toc.svg)
+
 ## Colophon
 
-## Table of Content 
+## Table of Content
 
-## Acknowledgments 
+## Acknowledgments
 
-## OSP 
+## OSP
 
 ## Preface
 * What kind of book is this?
