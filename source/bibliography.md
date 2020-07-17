@@ -5,7 +5,6 @@ Title: Bibliography
 - 1001 Free Fonts. <https://www.1001freefonts.com/>. 
 - “A Beginner's Guide to Neural Networks and Deep Learning.” Pathmind. <https://pathmind.com/wiki/neural-network#define>. 
 - “A hackable text editor for the 21st Century.” Atom. <https://atom.io/>.
-- “About ImageNet,” Stanford Vision Lab. <http://image-net.org/about-overview>.
 - Abbing, Roel Roscam, Peggy Pierrot and Femke Snelting. “Modifying the Universal.” In *Executing Practices*. Edited by Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, 35-51. London, UK: Open Humanities Press, 2018.
 - Abidin, Crystal, and Joel Gn. “Between art and application: Special issue on emoji epistemology.” *First Monday* 23 (September 2018):9.
 - Adam, Alison. *Artificial Knowing: Gender and the Thinking Machine*. London: Routledge, 2006.
@@ -24,11 +23,9 @@ Title: Bibliography
 - Andersen, Christian Ulrik, and Søren Bro Pold. *The Metainterface: The Art of Platforms, Cities, and Clouds*. Cambridge, MA: MIT Press, 2018.
 - Anikina, Alex. *A Lecture-Performance: Chronic Film*, 2007, time: infinite, Goldsmiths, University of London. <http://en.mieff.com/2017/alexandra_anikina>.
 - Apprich, Clemens. “Introduction.” in *Pattern Discrimination*. Edited by Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, x-xii. Minneapolis, MN: University of Minnesota Press and Lüneberg, DE: Meson Press, 2018.
-- *Asterisk Painting*, by John P. Bell, ported to p5.js, and modified by Winnie Soon. <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
 - Austin, John Langshaw. *How to Do Things with Words*. Oxford, UK: Clarendon Press, 1975.
 - Balsamo, Anne. *Technologies of the Gendered Body: Reading Cyborg Women*. Durham, NC: Duke University Press, 1995.
 - Barad, Karen. *Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning*. Durham, NC: Duke University Press, 2007.
-- Bell, John. “Asterisk Painting.” <http://www.johnpbell.com/asterisk-painting/>.
 - “binary increment.” Turing Machine Visualization. <https://turingmachine.io/>.
 - Bellacasa, Maria Puig de la. “Matters of Care in Technoscience: Assembling Neglected Things.” *Social Studies of Science* 41 (February 2011): 85–106.
 - Benjamin, Ruha. “Are Robots Racist: Reimagining the Default Settings of Technology and Society.” Dropbox Lecture video, 23:23, 2019. <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>. 
@@ -41,14 +38,10 @@ Title: Bibliography
 - Berry, David M., and Anders Fagerjord. *Digital Humanities: Knowledge and Critique in a Digital Age*. Hoboken, NJ: John Wiley & Sons, 2017.  
 - Bivens, Rena. “The Gender Binary will not be Deprogrammed: Ten Years of Coding Gender on Facebook.” *New Media & Society* 19 (June 2017): 880–898.
 - “Blame it On the Boogie.” Track 1 on The Jackson 5’s *Destiny*, Total Experience Recording Studios, 1978.
-- Blas, Zach. *Facial Weaponization Suite*. 2011-14. <http://www.zachblas.info/works/facial-weaponization-suite/>.
 - Blas, Zach, and Micha Cárdenas. “Imaginary Computational Systems: Queer Technologies and Transreal Aesthetics.” *AI and Society* 28 (December 2013): 559-566.
 - Bogost, Ian. *Persuasive Games: The Expressive Power of Videogames*. Cambridge, MA: MIT Press, 2007.  
 - ———. “Procedural Literacy: Problem Solving with Programming, Systems, & Play.” *The Journal of Media Literacy* 52 (Winter/Spring 2015): 32-36. 
 - ———. *Unit Operations: An Approach to Videogame Criticism*. Cambridge, MA: MIT Press, 2006.
-- Boluk, Stephanie, Leonardo Flores, Gacob Garbe, and Anastasia Salter, eds.. *Electronic Literature Collection*. Volume Three. Cambridge, MA: Electronic Literature Organization, 2016. <http://collection.eliterature.org/3/>. 
-- Borràs, Laura, Talan Memmott, Rita Raley, and Brian Stefans, eds.. *Electronic Literature Collection*. Volume Two. Cambridge, MA: Electronic Literature Organization, 2011. <http://collection.eliterature.org/2/>.  
-- Breeze, Mez. *MEZANGELLE*. 1994 – Ongoing. <https://anthology.rhizome.org/mez-breeze>.
 - Brock, Kevin. *Rhetorical Code Studies: Discovering Arguments in and around Code*. Ann Arbor, MI: University of Michigan Press, 2019.
 - Bucher, Taina. *If...Then: Algorithmic Power and Politics*. Oxford, UK: Oxford University Press, 2018.
 - Buolamwini, Joy. “Response: Racial and Gender Bias in Amazon Recognition — Commercial AI System for Analyzing Faces.” *Medium*, 2019. <https://medium.com/@Joy.Buolamwini/response-racial-and-gender-bias-in-amazon-rekognition-commercial-ai-system-for-analyzing-faces-a289222eeced>.
@@ -61,20 +54,18 @@ Title: Bibliography
 - Chan, Owyang V. *Geometry Is Fun For Me*. Indianapolis, IL: Dog Ear Publishing, 2017.
 - Chandra, Ashok K., and David Harel. "Computer Queries for Relational Data Bases." *Journal of Computer and System Sciences* 21 (October 1980): 156–178.
 - Chen, Crystal, Paolla Bruno Dutra, R. DuBois Luke, and Tega Brain. “Image Processing in p5.js.” <https://idmnyu.github.io/p5.js-image/>.
-- Choi, Taeyoon. *Signing Coders*. Ongoing. <http://taeyoonchoi.com/soft-care/signing-coders/>.
 - Chun, Wendy Hui Kyong. “On Software, or the Persistence of Visual Knowledge.” *Grey Room* 18 (January 2005): 26-51.
 - ———. *Programmed Visions: Software and Memory*. Cambridge, MA: MIT Press, 2011.
 - ———. *Updating to Remain the Same: Habitual New Media*. Cambridge, MA: MIT Press, 2016.
 - Chun, Wendy Hui Kyong, and Andrew Lison. "Fun is a Battlefield: Software between Enjoyment and Obsession." In *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing*. Edited by Olga Goriunova, 175–196. New York, NY. London, UK: Bloomsbury Academic, 2014.
-- Cirio, Paolo. *Flowcharts: On Systems of Systems*, Morrisville, NC: Lulu, 2019.
-- Cirio, Paolo, Alessandro Ludovico, and UBERMORGEN. “GEWI - Google Will Eat Itself.” <https://www.gwei.org/index.php>.  
 - Clark, Lin. "A crash course in just-in-time (JIT) compilers." *moz://a HACKS*. Last updated February 28, 2017. <https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/>.
 - Clarke, Laurie. “Why hiding likes won’t make Instagram a happier place to be.” *Wired*. Last updated July 19, 2019.<https://www.wired.co.uk/article/instagram-hides-likes>.  
 - “Coding -- the 21st century skill.” European Commission. <https://ec.europa.eu/digital-single-market/en/coding-21st-century-skill>. 
 - “Coding the way to a brighter future in 2018 & beyond.” Microsoft Asia News Center. Last updated January 15, 2018. <https://news.microsoft.com/apac/features/coding-way-brighter-future-2018-beyond/>.
 - Conley, Will. “Facebook investigates tracking users’ cursors and screen behavior.” *Slashgear*. Last updated October 30, 2013. <https://www.slashgear.com/facebook-investigates-tracking-users-cursors-and-screen-behavior-30303663/>.
-- Conway, John Horton. “The Game of Life.” Internet Archive Wayback Machine. <https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/>. 
-- ———. “Game of Life and related cellular automata.” <https://www.conwaylife.com/>.
+- Conway, John Horton. “Game of Life and related cellular automata.” <https://www.conwaylife.com/>.
+
+////
 - Cooper, Marilyn. M.. "Really Useful Knowledge: A Cultural Studies Agenda for Writing Centers." *The Writing Center Journal* 14, no. 2 (Spring 1994): 97-111. <https://www.jstor.org/stable/43441948>.
 - Cox, Geoff. “Introduction.” In *David Link: Das Herz der Maschine* dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 037. Berlin: Hatje Cantz, 2012.  
 - ———. “Generator: The Value of Software Art.” In *Issues in Curating Contemporary Art and Performance*. Edited by Judith Rugg and Michèle Sedgwick, 147 – 162. Bristol, UK: Intellect, 2007. <https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf>.
@@ -414,10 +405,18 @@ https://p5js.org/reference/#/libraries/p5.sound.
 
 
 
+/////geoff?
 
+this is project?
+- “About ImageNet,” Stanford Vision Lab. <http://image-net.org/about-overview>.
+- Boluk, Stephanie, Leonardo Flores, Gacob Garbe, and Anastasia Salter, eds.. *Electronic Literature Collection*. Volume Three. Cambridge, MA: Electronic Literature Organization, 2016. <http://collection.eliterature.org/3/>. 
+- Borràs, Laura, Talan Memmott, Rita Raley, and Brian Stefans, eds.. *Electronic Literature Collection*. Volume Two. Cambridge, MA: Electronic Literature Organization, 2011. <http://collection.eliterature.org/2/>.  
+- Hayles, N. Katherine, Montfort, Nick, Rettberg, Scott, and Strickland, Stephanie eds..*Electronic Literature Collection*. Volume One. Cambridge, MA: Electronic Literature Organization, 2006. <http://collection.eliterature.org/1/>.
+- Cirio, Paolo. *Flowcharts: On Systems of Systems*, Morrisville, NC: Lulu, 2019.
 
-
-
+///projects
+- *Asterisk Painting*, by John P. Bell, ported to p5.js, and modified by Winnie Soon. <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
+- Conway, John Horton. “The Game of Life.” Internet Archive Wayback Machine. <https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/>. 
 
 
 
