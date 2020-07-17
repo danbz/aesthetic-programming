@@ -78,7 +78,7 @@
 <polygon fill="black" stroke="black" points="189.038,-586.227 187.423,-575.756 182.156,-584.948 189.038,-586.227"/>
 </g>
 <!-- ST&#45;&gt;MW -->
-<g id="edge23" class="edge"><title>ST&#45;&gt;MW</title>
+<g id="edge22" class="edge"><title>ST&#45;&gt;MW</title>
 <path fill="none" stroke="black" d="M161.048,-614.036C150.384,-604.056 136.849,-590.006 127.631,-575.48 104.856,-539.593 92.631,-528.985 92.631,-486.48 92.631,-486.48 92.631,-486.48 92.631,-250.74 92.631,-210.736 92.631,-164.393 92.631,-135.82"/>
 <polygon fill="black" stroke="black" points="96.1311,-135.789 92.631,-125.789 89.1311,-135.789 96.1311,-135.789"/>
 </g>
@@ -209,22 +209,12 @@
 <polygon fill="black" stroke="black" points="378.091,-201.566 368.926,-196.251 372.777,-206.121 378.091,-201.566"/>
 </g>
 <!-- LO&#45;&gt;MW -->
-<g id="edge24" class="edge"><title>LO&#45;&gt;MW</title>
+<g id="edge23" class="edge"><title>LO&#45;&gt;MW</title>
 <path fill="none" stroke="black" d="M331.022,-167.922C325.377,-165.682 319.351,-163.478 313.631,-161.74 238.485,-138.915 216.263,-146.898 140.631,-125.74 137.523,-124.871 134.326,-123.904 131.128,-122.885"/>
 <polygon fill="black" stroke="black" points="132.214,-119.557 121.62,-119.716 130.001,-126.198 132.214,-119.557"/>
 </g>
-<!-- WL -->
-<g id="node22" class="node"><title>WL</title>
-<ellipse fill="none" stroke="black" cx="355.631" cy="-107.74" rx="27" ry="18"/>
-<text text-anchor="middle" x="355.631" y="-104.04" font-family="Times,serif" font-size="14.00">WL</text>
-</g>
-<!-- LO&#45;&gt;WL -->
-<g id="edge22" class="edge"><title>LO&#45;&gt;WL</title>
-<path fill="none" stroke="black" d="M355.631,-161.437C355.631,-153.723 355.631,-144.453 355.631,-135.853"/>
-<polygon fill="black" stroke="black" points="359.131,-135.844 355.631,-125.844 352.131,-135.844 359.131,-135.844"/>
-</g>
 <!-- MW&#45;&gt;MX -->
-<g id="edge26" class="edge"><title>MW&#45;&gt;MX</title>
+<g id="edge25" class="edge"><title>MW&#45;&gt;MX</title>
 <path fill="none" stroke="black" d="M92.631,-89.6265C92.631,-82.137 92.631,-73.0458 92.631,-64.168"/>
 <polygon fill="black" stroke="black" points="96.1311,-63.9529 92.631,-53.953 89.1311,-63.953 96.1311,-63.9529"/>
 </g>
@@ -234,7 +224,7 @@
 <text text-anchor="middle" x="180.631" y="-104.04" font-family="Times,serif" font-size="14.00">Notes</text>
 </g>
 <!-- MW&#45;&gt;Notes -->
-<g id="edge25" class="edge"><title>MW&#45;&gt;Notes</title>
+<g id="edge24" class="edge"><title>MW&#45;&gt;Notes</title>
 <path fill="none" stroke="black" d="M131.131,-107.74C133.782,-107.74 136.432,-107.74 139.083,-107.74"/>
 <polygon fill="black" stroke="black" points="139.307,-111.24 149.307,-107.74 139.307,-104.24 139.307,-111.24"/>
 </g>
@@ -254,7 +244,7 @@
 <text text-anchor="middle" x="328.631" y="-553.78" font-family="Times,serif" font-size="14.00">Further reading</text>
 </g>
 <!-- RR&#45;&gt;FR -->
-<g id="edge27" class="edge"><title>RR&#45;&gt;FR</title>
+<g id="edge26" class="edge"><title>RR&#45;&gt;FR</title>
 <path fill="none" stroke="black" d="M317.199,-683.352C319.415,-659.15 323.485,-614.691 326.123,-585.873"/>
 <polygon fill="black" stroke="black" points="329.631,-585.947 327.057,-575.669 322.66,-585.309 329.631,-585.947"/>
 </g>
