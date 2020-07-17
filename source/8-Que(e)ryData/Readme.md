@@ -365,8 +365,6 @@ To que(e)ry data in this way throws into further question how data is collected,
 - [Giphy images with code example](https://www.youtube.com/watch?v=mj8_w11MvH8&index=10&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
 - [Wikipedia API](https://www.youtube.com/watch?v=RPz75gcHj18)
 - [Twitter API and Twitter Bot with code example](http://shiffman.net/a2z/twitter-bots/) *Twitter has tightened the rules in registering the API and you need to have a solid proposal in order to get API's keys this takes weeks to achieve.*
-- [Movie API with code example](https://itp.nyu.edu/classes/cc-s16/movie-api-data/)
-- [Global statistic API with code example](https://itp.nyu.edu/classes/cc-s16/inqubu-global-statistics-api/)
 - [Google map API](https://developers.google.com/maps/documentation/javascript/)
 - [Search many other kinds of API](https://www.programmableweb.com/)
 
@@ -392,7 +390,7 @@ This is a relatively complex exercise that requires you to:
 
 ## Further reading
 
-- Jonathan Albright, "[The Graph API: Key Points in the Facebook and Cambridge Analytica Debacle](https://medium.com/tow-center/the-graph-api-key-points-in-the-facebook-and-cambridge-analytica-debacle-b69fe692d747)," *Medium* (2018). 
+- Jonathan Albright, "[The Graph API: Key Points in the Facebook and Cambridge Analytica Debacle](https://medium.com/tow-center/the-graph-api-key-points-in-the-facebook-and-cambridge-analytica-debacle-b69fe692d747)," *Medium* (2018).
 - Taina Bucher, “Objects of intense feeling: The case of the Twitter API,” in *Computational Culture*, Nov 27 (2013), <http://computationalculture.net/article/objects-of-intense-feeling-the-case-of-the-twitter-api>.
 - Matthew G. Kirschenbaum, *Mechanisms: New Media and the Forensic Imagination* (Cambridge, MA: MIT Press, 2007), 25-71.
 - Christoph Raetzsch, et al. “[Weaving Seams with Data: Conceptualizing City APIs as Elements of Infrastructures](https://journals.sagepub.com/doi/full/10.1177/2053951719827619),” *Big Data & Society*, Jan (2019), doi:10.1177/2053951719827619.
