@@ -446,7 +446,7 @@ To conclude this chapter, which explored the making of *Vocable Code* with its s
 - [e-lit collection1](http://collection.eliterature.org/1/)
 - [e-lit collection2](http://collection.eliterature.org/2/)
 - [e-lit collection3](http://collection.eliterature.org/3/)
-- [Rita library (2006) by Daniel Howe](http://rednoise.org/rita/)
+- [Rita library (2006-ongoing) by Daniel Howe](http://rednoise.org/rita/download.php)
 
 **Tasks (RUNME):**
 
