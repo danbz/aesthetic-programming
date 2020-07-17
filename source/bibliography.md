@@ -180,6 +180,7 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - Mbembe, Achille. “Necropolitics.” *Public Culture* 15 (2003): 11–40.
 - McCarthy, Lauren. “Learning While Making.” YouTube video, 27:31. Posted by "BocoupLLC," April 16, 2015. <https://www.youtube.com/watch?v=1k3X4DLDHdc>.
 - McCarthy, Lauren, and Golan Levin. “p5.js Diversity & Floss Panel Introduction.” *Studio for Creative Inquiry*. Last updated May 26, 2015. <http://opentranscripts.org/transcript/p5js-diversity-floss-panel-introduction/>.
+- “Method: cse.list.” Custom Search API, Google Developers. Last updated June 11, 2020. <https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list#parameters>.
 - MIT CSAIL (@MIT_CSAIL). “Bias in AI: translating English -> Turkish, a gender neutral language, then that same Turkish phrase back to English,” Twitter, October 5, 2017, 10:07 p.m.. <https://twitter.com/mit_csail/status/916032004466122758>.
 - Menabrea, Luigi Federico, and Ada Lovelace. *Sketch of the analytical engine invented by Charles Babbage* (1842), 694.
 - Mohamed, Shakir, Marie-Therese Png, and William Isaac. “Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence.” *Philosophy & Technology*. Springer, July 12 (2020). <https://doi.org/10.1007/s13347-020-00405-8>.
@@ -211,6 +212,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Pold, Søren. “Button.” In *Software Studies*. Edited by Matthew Fuller, 31–36. Cambridge, MA: MIT Press, 2008.
 - Prigogine, Ilya, and Isabelle Stengers. *Order Out of Chaos: Man’s New Dialogue With Nature*. London, UK: Fontana, 1985.
 - Prisco, Jacopo. “Pac-Man at 40: The eating icon that changed gaming history.” *CNN*. last updated May 21, 2020. <https://edition.cnn.com/style/article/pac-man-40-anniversary-history/>.
+- “Programmable Search.” Google. <https://cse.google.com/all>.
+- ProgrammableWeb. <https://www.programmableweb.com/>.
 - Rancière, Jacques. *The Politics of Aesthetics*. London: Continuum, 2006.  
 - “README.md.” GitLab Pages examples. <https://gitlab.com/pages/plain-html/-/blob/master/README.md>.
 - Reas, Casey. “{Software} Structures.” <https://artport.whitney.org/commissions/softwarestructures/text.html>.
@@ -337,13 +340,11 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 are these projects?
 
-- “About ImageNet,” Stanford Vision Lab. <http://image-net.org/about-overview>.
+
 - Boluk, Stephanie, Leonardo Flores, Gacob Garbe, and Anastasia Salter, eds.. *Electronic Literature Collection*. Volume Three. Cambridge, MA: Electronic Literature Organization, 2016. <http://collection.eliterature.org/3/>.
 - Borràs, Laura, Talan Memmott, Rita Raley, and Brian Stefans, eds.. *Electronic Literature Collection*. Volume Two. Cambridge, MA: Electronic Literature Organization, 2011. <http://collection.eliterature.org/2/>.  
 - Hayles, Katherine N., Nick Montfort, Scott Rettberg, and Stephanie Strickland, eds.. *Electronic Literature Collection*. Volume One. College Park, MD: Electronic Literature Organization, 2006. <http://collection.eliterature.org/1/>.
 - Cirio, Paolo. *Flowcharts: On Systems of Systems*, Morrisville, NC: Lulu, 2019.
-- “Method: cse.list.” Custom Search API, Google Developers. Last updated June 11, 2020. <https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list#parameters>.
+
 - Open Source Publishing (OSP). <http://osp.kitchen/>.
 - Old Boys Network (OBN). "the mode is the message – the code is the collective." <https://www.obn.org/>.
-- “Programmable Search.” Google. <https://cse.google.com/all>.
-- ProgrammableWeb. <https://www.programmableweb.com/>.
