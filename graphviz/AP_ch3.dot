@@ -31,6 +31,7 @@ Notes [label="Notes"]
 {rank = same; SU, ST}
 {rank = same; RR, GS}
 {rank = same; MW, Notes}
+{rank = same; FR, SC}
 
 //graph
 GS -> SU -> ST -> SC -> DE;
@@ -44,9 +45,8 @@ SC -> TR -> EiC2;
 EiC, EiC2 -> AP -> SC2 -> EiC3
 SC2 -> AR;
 SC2 -> CS;
-SC2 -> LO -> WL;
+SC2 -> LO;
 ST, LO -> MW -> Notes;
 MW -> MX;
-WL -> MW;
 RR -> FR;
 }
