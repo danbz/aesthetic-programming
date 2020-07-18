@@ -40,7 +40,7 @@ page_order: 13
 - Hatcher, Ian. *The All-New*. Boston, MA: Anomalous Press, 2015. http://anomalouspress.org/books/all-new.php.
 - ———. *Not Not*. 2016. MP3 audio, 6:30. <https://soundcloud.com/ihatch/5-notnot>.
 - Horikawa, Junichiro. *20200509_lifeline*. 2020. <https://www.openprocessing.org/sketch/891619>.
-- Howe, Daniel. "Downloads RiTa library." RiTa, accessed June 20, 2020. <http://rednoise.org/rita/download.phps>.
+- Howe, Daniel. *Downloads RiTa library*. RiTa, accessed June 20, 2020. <http://rednoise.org/rita/download.phps>.
 - Kazemi, Darius. “Corpora - A repository of JSON files.” Last updated May 19, 2020. <https://github.com/dariusk/corpora/tree/master/data>.
 - Kearney-Volpe, Claire, Govindarajan, Mathura, and Morales-Navarro, Luis. *p5.js Web Editor*. 2018. <https://editor.p5js.org/>.
 - Kearney-Volpe, Claire. “p5.js access project.” <https://www.clairekv.com/p5js-ux-research>.
@@ -49,7 +49,7 @@ page_order: 13
 - ———. *E.L.I.Z.A Talking*. 2013. <https://www.masswerk.at/eliza/>.
 - Link, David. *Love Letters_1.0: MUC=Resurrection. A Memorial*. 2009. Exhibited dOCUMENTA(13), Kassel, 2012. <http://www.alpha60.de/art/love_letters/>.
 - Lorusso, Silvio. *The Best is Yet to Come*. 2012. <https://silviolorusso.com/work/the-best-is-yet-to-come/>.
-- Malevé, Nicolas. *Exhibiting ImageNet*. Exhibition, The Photographers Gallery, July 1 – September 13, 2019. <https://thephotographersgallery.org.uk/whats-on/digital-project/exhibiting-imagenet>.
+- Malevé, Nicolas. *Exhibiting ImageNet*, The Photographers Gallery, July 1 – September 13, 2019. <https://thephotographersgallery.org.uk/whats-on/digital-project/exhibiting-imagenet>.
 - McCarthy, Lauren. *p5.js*. 2014. <https://lauren-mccarthy.com/p5-js>.
 - ———. *LAUREN*. 2017. <https://lauren-mccarthy.com/LAUREN>.
 - Nagayama, Tomokazu (@nagayama). “すべりこみ,” Twitter, April 3, 2020, 4:44 p.m.. <https://twitter.com/nagayama/status/1246086230497845250?s=19>.
@@ -62,22 +62,22 @@ page_order: 13
 - “processing/p5.js.” Github. <https://github.com/processing/p5.js/wiki>.
 - “Queer AI.” Queer AI. <https://queer.ai/>.
 - Reas, Casey. "{Software}Structure #003 A." <https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks>.
-- "ReCode Project." <http://recodeproject.com/>.
+- *ReCode Project*. <http://recodeproject.com/>.
 - Reinfurt, David, *Multi*. O-R-G inc.. <http://www.o-r-g.com/apps/multi>.
-- Rozendaal, Rafaël. “Sleep Mode: The Art of the Screensaver.” Het Nieuwe Instituut, Rotterdam. 2017. <https://hetnieuweinstituut.nl/en/press-releases/sleep-mode-art-screensaver>.
+- Rozendaal, Rafaël. *Sleep Mode: The Art of the Screensaver*. Het Nieuwe Instituut, Rotterdam. 2017. <https://hetnieuweinstituut.nl/en/press-releases/sleep-mode-art-screensaver>.
 - Runme.org. <http://runme.org/>.
 - Sayo, Yurika (@sayo), "Tanabata(七夕)." Open Processing. <https://www.openprocessing.org/sketch/926326>.
-- Savičić, Gordan. “LOADING (THE BEAST 6:66/20:09).” October 2009. <https://www.yugo.at/processing/archive/index.php?what=loading>.
+- Savičić, Gordan. *LOADING (THE BEAST 6:66/20:09)*. October 2009. <https://www.yugo.at/processing/archive/index.php?what=loading>.
 - Shi, Yining. “p5.playground: an Interactive Programming Tool for p5.js.” 2016. <https://1023.io/p5-inspector/>.
 - Sollfrank, Cornelia. *Female Extension*. 1997. <http://www.artwarez.org/femext/index.html>.
 - ———. *Net.Art Generator*. Artwarez.org. <http://net.art-generator.com/>.
-- Soon, Winnie. "nonsense." 2015. <http://siusoon.net/nonsense/>.
+- Soon, Winnie. *nonsense*, 2015. <http://siusoon.net/nonsense/>.
 - ———. *Throb*. Last updated April 11, 2019. <http://siusoon.net/throb/>.
 - Støg, Use All Five, and PAIR teams. *Teachable Machine 1.0*. 2017. <https://teachablemachine.withgoogle.com/v1/>.
-- Temkin, Daniel. “esoteric.codes.” 2011. <https://esoteric.codes/>.
+- Temkin, Daniel. *esoteric.codes*. 2011. <https://esoteric.codes/>.
 - "The first single applicationfor the entire DevOps lifecycle - GitLab | GitLab." GitLab. <https://about.gitlab.com/>.
 - Truckenbrod, Joan. *Coded Algorithmic Drawing Series*. Digital Photographic Layered Textiles, 2001. <https://joantruckenbrod.com/gallery/#(grid|filter)=.coded>.
-- UBERMORGEN, “The Project Formerly Known as Kindle Forkbomb.” Wikimedia foundation. Last modified May 4, 2020. <https://en.wikipedia.org/wiki/The_Project_Formerly_Known_As_Kindle_Forkbomb>.
+- UBERMORGEN, *The Project Formerly Known as Kindle Forkbomb*. Wikimedia foundation. Last modified May 4, 2020. <https://en.wikipedia.org/wiki/The_Project_Formerly_Known_As_Kindle_Forkbomb>.
 - Valenzuela, Cristóbal. "Training a LSTM network." Github. 2018. <https://github.com/Paperspace/training-lstm>.
 - Visti, Anders, and Tobias Stenberg. *WUOUS: Wrocław Urban Operating System*. 2019. <https://andersvisti.dk/work/wuos-2019>.
 - Ward, Adrian. “Auto-Illustrator.” 2002. <http://www.medienkunstnetz.de/works/autoillustrator/>.
