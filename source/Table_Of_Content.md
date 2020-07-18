@@ -13,7 +13,8 @@ page_order: -2
 
 ## Acknowledgments
 
-shall we use an array list and a print function? 
+shall we use an array list and a print function? yes good idea.
+
 ## OSP
 
 ## Preface
@@ -169,12 +170,12 @@ shall we use an array list and a print function?
 
 ## Afterword (Recurrent Imaginaries)
 
-## Showcase
-*only available on web version*
-
 ## Bibliography
 
 ## Projects
+
+## Showcase
+*only available on web version*
 
 ## Index
 reference to: <https://monoskop.org/media/text/?> and Linda's work in Exe practice
