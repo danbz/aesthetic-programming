@@ -13,6 +13,7 @@ page_order: -2
 
 ## Acknowledgments
 
+shall we use an array list and a print function? 
 ## OSP
 
 ## Preface
@@ -167,6 +168,9 @@ page_order: -2
 * Required reading & Further reading
 
 ## Afterword (Recurrent Imaginaries)
+
+## Showcase
+*only available on web version*
 
 ## Bibliography
 
