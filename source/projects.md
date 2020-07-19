@@ -9,7 +9,7 @@ page_order: 13
 - “A hackable text editor for the 21st Century.” Atom. <https://atom.io/>.
 - “Anatomies of Intelligence.” NN Cluster initiative Aarhus University 2019, Winnie Soon, Magda Tyzlik-Carver, and Pablo Velasco. https://anatomiesofintelligence.github.io/workshop_presentation.html.
 - “atom-live-server-package.” Atom. <https://atom.io/packages/atom-live-server>.
-- Bell, John. “Asterisk Painting.” <http://www.johnpbell.com/asterisk-painting/>.
+- Bell, John. *Asterisk Painting*. <http://www.johnpbell.com/asterisk-painting/>.
 - *Asterisk Painting*, by John P. Bell, ported to p5.js, and modified by Winnie Soon. <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
 - Blas, Zach. *Facial Weaponization Suite*. 2011-14. <http://www.zachblas.info/works/facial-weaponization-suite/>.
 - Bouse, Brad. "Solving Sol." Last updated July 14, 2020. <https://github.com/wholepixel/solving-sol>.
@@ -24,12 +24,13 @@ page_order: 13
 - Conway, John Horton. “The Game of Life.” Internet Archive Wayback Machine. <https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/>.
 - db-db-db (aka Francis Lam). “Tofu Go!.” Apple App Store. <https://apps.apple.com/us/app/tofu-go/id441704812>.
 - Dullaart, Constant. “DVD guy MVI_9443.AVI.” YouTube video, 1:00. Posted by “Constantdullaart,” January 14, 2019. <https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB>.
-- ———. “Nein Gag.” Panke Gallery, Berlin, DE. March – April 2019. <http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin>.
+- ———. “Nein Gag.” Panke Gallery, Berlin. March – April 2019. <http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin>.
 - Fan, Lai-Tze, and Nick Montfort. “Dial.” *The New River: A Journal of Digital Art and Literature*. Spring 2020. <http://thenewriver.us/dial/>.
 - Fiebrink, Rebecca. *Wekinator*. 2009. <http://www.wekinator.org/>.
 - Filoa, Joseph. "JosephFiola/GenArt." 2016. <https://github.com/JosephFiola/GenArt>.
 - Freeke, Saskia. "All the Daily Things 2018". Vimeo, 06:30. January 2, 2019. <https://vimeo.com/309138645>.
 - “Friendly Machine Learning for the Web.” ml5.js, accessed June 20, 2020. <https://ml5js.org/>.
+- Giardina , Elisa Papa. *The Cleaning of Emotional Data*. 2020. <https://aksioma.org/cleaning.emotional.data/>.
 - Gross, Benedikt, Bohnacker, Hartmut , Laub, Julia, Lazzeroni, Claudius. "Generative Design Sketches." <http://www.generative-gestaltung.de/2/>.
 - Grosser, Ben. “Eat Food Not Bombs.” <https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI>.
 - ———. *Facebook Demetricator*. <https://bengrosser.com/projects/facebook-demetricator/>.
@@ -45,7 +46,7 @@ page_order: 13
 - Kearney-Volpe, Claire, Govindarajan, Mathura, and Morales-Navarro, Luis. *p5.js Web Editor*. 2018. <https://editor.p5js.org/>.
 - Kearney-Volpe, Claire. “p5.js access project.” <https://www.clairekv.com/p5js-ux-research>.
 - Knowles, Alison, and James Tenney. *A House of Dust*. 1967. Re-implemented by Nick Montfort. *For Memory Slam*. 2014. <https://nickm.com/memslam/a_house_of_dust.html>.
-- Landsteiner, Norbert. "elizabot.js." 2005. <https://www.masswerk.at/elizabot/>.
+- Landsteiner, Norbert. *elizabot.js*. 2005. <https://www.masswerk.at/elizabot/>.
 - ———. *E.L.I.Z.A Talking*. 2013. <https://www.masswerk.at/eliza/>.
 - Link, David. *Love Letters_1.0: MUC=Resurrection. A Memorial*. 2009. Exhibited dOCUMENTA(13), Kassel, 2012. <http://www.alpha60.de/art/love_letters/>.
 - Lorusso, Silvio. *The Best is Yet to Come*. 2012. <https://silviolorusso.com/work/the-best-is-yet-to-come/>.
@@ -58,17 +59,16 @@ page_order: 13
 - Old Boys Network (OBN). <https://www.obn.org/>.
 - Open Source Publishing (OSP). <http://osp.kitchen/>.
 - Øygard, Audun M..*clmtrackr*. 2017. <https://github.com/auduno/clmtrackr>.
-- Papa, Elisa, Giardina. *The Cleaning of Emotional Data*. 2020. <https://aksioma.org/cleaning.emotional.data/>.
 - Pritchard, Helen, and Winnie Soon. *Recurrent Queer Imaginaries*. Exhibition Research Lab, Liverpool John Moores University — School of Art and Design, November 2019 – January 2020. <https://www.exhibition-research-lab.co.uk/exhibitions/recurrent-queer-imaginaries/>.
 - Process Studio. *AImoji*. 2019. <https://process.studio/works/aimoji-ai-generated-emoji/>.
 - “processing/p5.js.” Github. <https://github.com/processing/p5.js/wiki>.
 - Queer AI. <https://queer.ai/>.
-- Reas, Casey. "{Software}Structure #003 A." <https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks>.
+- Reas, Casey. *{Software}Structure #003 A*. <https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks>.
 - *ReCode Project*. <http://recodeproject.com/>.
 - Reinfurt, David, *Multi*. O-R-G inc.. <http://www.o-r-g.com/apps/multi>.
 - Rozendaal, Rafaël. *Sleep Mode: The Art of the Screensaver*. Het Nieuwe Instituut, Rotterdam. 2017. <https://hetnieuweinstituut.nl/en/press-releases/sleep-mode-art-screensaver>.
 - Runme.org. <http://runme.org/>.
-- Sayo, Yurika (@sayo), "Tanabata(七夕)." Open Processing. <https://www.openprocessing.org/sketch/926326>.
+- Sayo, Yurika (@sayo), *Tanabata(七夕)*. Open Processing. <https://www.openprocessing.org/sketch/926326>.
 - Savičić, Gordan. *LOADING (THE BEAST 6:66/20:09)*. October 2009. <https://www.yugo.at/processing/archive/index.php?what=loading>.
 - Shi, Yining. “p5.playground: an Interactive Programming Tool for p5.js.” 2016. <https://1023.io/p5-inspector/>.
 - Sollfrank, Cornelia. *Female Extension*. 1997. <http://www.artwarez.org/femext/index.html>.
@@ -82,7 +82,7 @@ page_order: 13
 - UBERMORGEN, *The Project Formerly Known as Kindle Forkbomb*. Wikimedia foundation. Last modified May 4, 2020. <https://en.wikipedia.org/wiki/The_Project_Formerly_Known_As_Kindle_Forkbomb>.
 - Valenzuela, Cristóbal. "Training a LSTM network." Github. 2018. <https://github.com/Paperspace/training-lstm>.
 - Visti, Anders, and Tobias Stenberg. *WUOUS: Wrocław Urban Operating System*. 2019. <https://andersvisti.dk/work/wuos-2019>.
-- Ward, Adrian. “Auto-Illustrator.” 2002. <http://www.medienkunstnetz.de/works/autoillustrator/>.
+- Ward, Adrian. *Auto-Illustrator*. 2002. <http://www.medienkunstnetz.de/works/autoillustrator/>.
 - “wholepixel / solving-sol.” Github. <https://github.com/wholepixel/solving-sol/blob/master/289/cagrimmett/index.html>.
 - “Wordnet: A Lexical Database for English.” Princeton University. <https://wordnet.princeton.edu/>.
 - Žilák, Martin. "recursive fractal tree in p5.js." <https://editor.p5js.org/marynotari/sketches/BJVsL5ylz>.
