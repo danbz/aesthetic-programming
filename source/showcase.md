@@ -1,4 +1,5 @@
 Title: Showcase
+page_order: 14
 
 ## Selected students' work
 

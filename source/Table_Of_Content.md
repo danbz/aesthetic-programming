@@ -1,5 +1,5 @@
 Title: TOC
-page_order: -2
+page_order: -3
 
 **Title:** Aesthetic Programming: A Handbook of Software Studies
 
@@ -12,8 +12,6 @@ page_order: -2
 ## Table of Content
 
 ## Acknowledgments
-
-shall we use an array list and a print function? yes good idea.
 
 ## OSP
 
@@ -176,6 +174,9 @@ shall we use an array list and a print function? yes good idea.
 
 ## Showcase
 *only available on web version*
+
+## Back cover
+- [about page](README.md)
 
 ## Index
 reference to: <https://monoskop.org/media/text/?> and Linda's work in Exe practice
