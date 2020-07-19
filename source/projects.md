@@ -77,7 +77,7 @@ page_order: 13
 - ———. *Throb*. Last updated April 11, 2019. <http://siusoon.net/throb/>.
 - Støg, Use All Five, and PAIR teams. *Teachable Machine 1.0*. 2017. <https://teachablemachine.withgoogle.com/v1/>.
 - Temkin, Daniel. *esoteric.codes*. 2011. <https://esoteric.codes/>.
-- "The first single applicationfor the entire DevOps lifecycle - GitLab | GitLab." GitLab. <https://about.gitlab.com/>.
+- "The first single application for the entire DevOps lifecycle - GitLab | GitLab." GitLab. <https://about.gitlab.com/>.
 - Truckenbrod, Joan. *Coded Algorithmic Drawing Series*. Digital Photographic Layered Textiles, 2001. <https://joantruckenbrod.com/gallery/#(grid|filter)=.coded>.
 - UBERMORGEN, *The Project Formerly Known as Kindle Forkbomb*. Wikimedia foundation. Last modified May 4, 2020. <https://en.wikipedia.org/wiki/The_Project_Formerly_Known_As_Kindle_Forkbomb>.
 - Valenzuela, Cristóbal. "Training a LSTM network." Github. 2018. <https://github.com/Paperspace/training-lstm>.
