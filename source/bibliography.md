@@ -41,6 +41,8 @@ page_order: 12
 - Bogost, Ian. *Persuasive Games: The Expressive Power of Videogames*. Cambridge, MA: MIT Press, 2007.  
 - ———. “Procedural Literacy: Problem Solving with Programming, Systems, & Play.” *The Journal of Media Literacy* 52 (Winter/Spring 2015): 32-36.
 - ———. *Unit Operations: An Approach to Videogame Criticism*. Cambridge, MA: MIT Press, 2006.
+- Boluk, Stephanie, Leonardo Flores, Gacob Garbe, and Anastasia Salter, eds.. *Electronic Literature Collection: Volume Three*. Cambridge, MA: Electronic Literature Organization, 2016. <http://collection.eliterature.org/3/>.
+- Borràs, Laura, Talan Memmott, Rita Raley, and Brian Stefans, eds.. *Electronic Literature Collection: Volume Two*. Cambridge, MA: Electronic Literature Organization, 2011. <http://collection.eliterature.org/2/>.  
 - Brock, Kevin. *Rhetorical Code Studies: Discovering Arguments in and around Code*. Ann Arbor, MI: University of Michigan Press, 2019.
 - Bucher, Taina. *If...Then: Algorithmic Power and Politics*. Oxford, UK: Oxford University Press, 2018.
 - Buolamwini, Joy. “Response: Racial and Gender Bias in Amazon Recognition — Commercial AI System for Analyzing Faces.” *Medium*, 2019. <https://medium.com/@Joy.Buolamwini/response-racial-and-gender-bias-in-amazon-rekognition-commercial-ai-system-for-analyzing-faces-a289222eeced>.
@@ -54,14 +56,15 @@ page_order: 12
 - ———. *Programmed Visions: Software and Memory*. Cambridge, MA: MIT Press, 2011.
 - ———. *Updating to Remain the Same: Habitual New Media*. Cambridge, MA: MIT Press, 2016.
 - Chun, Wendy Hui Kyong, and Andrew Lison. "Fun is a Battlefield: Software between Enjoyment and Obsession." In *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing*. Edited by Olga Goriunova, 175–196. New York, NY. London, UK: Bloomsbury Academic, 2014.
+- Cirio, Paolo. *Flowcharts: On Systems of Systems*. Morrisville, NC: Lulu, 2019.
 - Clark, Lin. "A crash course in just-in-time (JIT) compilers." *moz://a HACKS*. Last updated February 28, 2017. <https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/>.
 - Clarke, Laurie. “Why hiding likes won’t make Instagram a happier place to be.” *Wired*. Last updated July 19, 2019.<https://www.wired.co.uk/article/instagram-hides-likes>.  
 - “Coding -- the 21st century skill.” European Commission. <https://ec.europa.eu/digital-single-market/en/coding-21st-century-skill>.
 - “Coding the way to a brighter future in 2018 & beyond.” Microsoft Asia News Center. Last updated January 15, 2018. <https://news.microsoft.com/apac/features/coding-way-brighter-future-2018-beyond/>.
 - Conley, Will. “Facebook investigates tracking users’ cursors and screen behavior.” *Slashgear*. Last updated October 30, 2013. <https://www.slashgear.com/facebook-investigates-tracking-users-cursors-and-screen-behavior-30303663/>.
 - Cooper, Marilyn. M.. "Really Useful Knowledge: A Cultural Studies Agenda for Writing Centers." *The Writing Center Journal* 14, no. 2 (Spring 1994): 97-111. <https://www.jstor.org/stable/43441948>.
-- Cox, Geoff. “Introduction.” In *David Link: Das Herz der Maschine* dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 037. Berlin: Hatje Cantz, 2012.  
-- ———. “Generator: The Value of Software Art.” In *Issues in Curating Contemporary Art and Performance*. Edited by Judith Rugg and Michèle Sedgwick, 147 – 162. Bristol, UK: Intellect, 2007. <https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf>.
+- Cox, Geoff. “Introduction.” In *David Link: Das Herz der Maschine*, dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 037. Berlin: Hatje Cantz, 2012.  
+- ———. “Generator: The Value of Software Art.” In *Issues in Curating Contemporary Art and Performance*. Edited by Judith Rugg and Michèle Sedgwick, 147–162. Bristol, UK: Intellect, 2007. <https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf>.
 - ———. “Ways of Machine Seeing.” *Unthinking Photography*. November 2016. https://unthinking.photography/articles/ways-of-machine-seeing.
 - ———. “Ways of Machine Seeing.” *A Peer-Reviewed Journal About Machine Research* 6, no. 1 (April 1, 2017): 8-15. <https://aprja.net//issue/view/8319>.
 - Cox, Geoff, and Joasia Krysa, eds. *Engineering Culture: On the Author as (Digital) Producer*. New York, Autonomedia, 2005.
@@ -124,6 +127,7 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 ———. *Tool-Being: Heidegger and the Metaphysics of Objects*. Chicago, IL: Open Court Publishing, 2002.
 - Hayles, N. Katherine. *My Mother Was a Computer: Digital Subjects and Literary Texts*. Chicago, IL: University of Chicago Press. 2005.
 ———. *Writing Machines*. Cambridge, MA: MIT Press. 2002.
+- Hayles, Katherine N., Nick Montfort, Scott Rettberg, and Stephanie Strickland, eds.. *Electronic Literature Collection: Volume One*. College Park, MD: Electronic Literature Organization, 2006. <http://collection.eliterature.org/1/>.
 - Heidegger, Martin. *Being and Time*. Translated by J. Macquarrie and E. Robinson. Paris, FR: Editions Gallimard, 1927; Oxford, UK: Basil Blackwell, 1962.
 - Heisler, Eva. “Winnie Soon, Time, Code, and Poetry.” *Asymptote*. 2020. <https://www.asymptotejournal.com/visual/winnie-soon-time-code-and-poetry/>.
 - Hern, Alex. “Facebook agrees to pay fine over Cambridge Analytica scandal.” *The Guardian*. Published October 30, 2019. <https://www.theguardian.com/technology/2019/oct/30/facebook-agrees-to-pay-fine-over-cambridge-analytica-scandal>.
@@ -335,16 +339,3 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Wing, Jeannette M.. "Computational Thinking," *Commun. ACM* 49, no. 3 (March 2006): 33–35.
 - Zuboff, Shoshana. “Surveillance Capitalism.” VPRO Documentary. <https://youtu.be/hIXhnWUmMvw>.
 
-
-/////geoff?
-
-are these projects?
-
-
-- Boluk, Stephanie, Leonardo Flores, Gacob Garbe, and Anastasia Salter, eds.. *Electronic Literature Collection*. Volume Three. Cambridge, MA: Electronic Literature Organization, 2016. <http://collection.eliterature.org/3/>.
-- Borràs, Laura, Talan Memmott, Rita Raley, and Brian Stefans, eds.. *Electronic Literature Collection*. Volume Two. Cambridge, MA: Electronic Literature Organization, 2011. <http://collection.eliterature.org/2/>.  
-- Hayles, Katherine N., Nick Montfort, Scott Rettberg, and Stephanie Strickland, eds.. *Electronic Literature Collection*. Volume One. College Park, MD: Electronic Literature Organization, 2006. <http://collection.eliterature.org/1/>.
-- Cirio, Paolo. *Flowcharts: On Systems of Systems*, Morrisville, NC: Lulu, 2019.
-
-- Open Source Publishing (OSP). <http://osp.kitchen/>.
-- Old Boys Network (OBN). "the mode is the message – the code is the collective." <https://www.obn.org/>.
