@@ -18,7 +18,7 @@ page_order: 13
 - Chicau, Joana, and Jonathan Reus. *Anatomies of Intelligence & the Concept of Aesthesis*. <https://anatomiesofintelligence.github.io/>.
 - Choi, Taeyoon. *Signing Coders*. Ongoing. <http://taeyoonchoi.com/soft-care/signing-coders/>.
 - Cirio, Paolo, Alessandro Ludovico, and UBERMORGEN. 2005. “GEWI - Google Will Eat Itself.” <https://www.gwei.org/index.php>.  
-*Cox, Geoff, and Duncan Shingleton. *hallo welt!* (hello world!). Updated July 1, 2008. <http://www.anti-thesis.net/hello-world-60/>.
+- Cox, Geoff, and Duncan Shingleton. *hallo welt!* (hello world!). Updated July 1, 2008. <http://www.anti-thesis.net/hello-world-60/>.
 - Cramer, Florian. "I Love You [rev-eng]." Digital Craft.org. Exhibition, Kulturbüro. http://www.digitalcraft.org/iloveyou/.
 - Conway, John Horton. “The Game of Life.” Internet Archive Wayback Machine. <https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/>.
 - db-db-db (aka Francis Lam). “Tofu Go!.” Apple App Store. <https://apps.apple.com/us/app/tofu-go/id441704812>.
