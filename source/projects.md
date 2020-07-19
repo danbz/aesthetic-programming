@@ -10,7 +10,6 @@ page_order: 13
 - “Anatomies of Intelligence.” NN Cluster initiative Aarhus University 2019, Winnie Soon, Magda Tyzlik-Carver, and Pablo Velasco. https://anatomiesofintelligence.github.io/workshop_presentation.html.
 - “atom-live-server-package.” Atom. <https://atom.io/packages/atom-live-server>.
 - Bell, John. *Asterisk Painting*. <http://www.johnpbell.com/asterisk-painting/>.
-- *Asterisk Painting*, by John P. Bell, ported to p5.js, and modified by Winnie Soon. <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
 - Blas, Zach. *Facial Weaponization Suite*. 2011-14. <http://www.zachblas.info/works/facial-weaponization-suite/>.
 - Bouse, Brad. "Solving Sol." Last updated July 14, 2020. <https://github.com/wholepixel/solving-sol>.
 - Breeze, Mez. *MEZANGELLE*. 1994 – Ongoing. <https://anthology.rhizome.org/mez-breeze>.
@@ -73,7 +72,8 @@ page_order: 13
 - Shi, Yining. “p5.playground: an Interactive Programming Tool for p5.js.” 2016. <https://1023.io/p5-inspector/>.
 - Sollfrank, Cornelia. *Female Extension*. 1997. <http://www.artwarez.org/femext/index.html>.
 - ———. *Net.Art Generator*. Artwarez.org. <http://net.art-generator.com/>.
-- Soon, Winnie. *nonsense*, 2015. <http://siusoon.net/nonsense/>.
+- Soon, Winnie. *Asterisk Painting* ported to p5.js, and modified. <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
+- ———. *nonsense*, 2015. <http://siusoon.net/nonsense/>.
 - ———. *Throb*. Last updated April 11, 2019. <http://siusoon.net/throb/>.
 - Støg, Use All Five, and PAIR teams. *Teachable Machine 1.0*. 2017. <https://teachablemachine.withgoogle.com/v1/>.
 - Temkin, Daniel. *esoteric.codes*. 2011. <https://esoteric.codes/>.
@@ -86,3 +86,5 @@ page_order: 13
 - “wholepixel / solving-sol.” Github. <https://github.com/wholepixel/solving-sol/blob/master/289/cagrimmett/index.html>.
 - “Wordnet: A Lexical Database for English.” Princeton University. <https://wordnet.princeton.edu/>.
 - Žilák, Martin. "recursive fractal tree in p5.js." <https://editor.p5js.org/marynotari/sketches/BJVsL5ylz>.
+
+Showcase of students projects can be found at https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/blob/master/source/showcase.md.
