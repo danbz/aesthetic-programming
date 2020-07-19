@@ -7,7 +7,6 @@ page_order: 13
 
 - “About ImageNet,” Stanford Vision Lab. <http://image-net.org/about-overview>.
 - “A hackable text editor for the 21st Century.” Atom. <https://atom.io/>.
-- “Anatomies of Intelligence & the Concept of Aesthesis.” Joana Chicau and Jonathan Reus. <https://anatomiesofintelligence.github.io/>.
 - “Anatomies of Intelligence.” NN Cluster initiative Aarhus University 2019, Winnie Soon, Magda Tyzlik-Carver, and Pablo Velasco. https://anatomiesofintelligence.github.io/workshop_presentation.html.
 - “atom-live-server-package.” Atom. <https://atom.io/packages/atom-live-server>.
 - Bell, John. “Asterisk Painting.” <http://www.johnpbell.com/asterisk-painting/>.
@@ -17,6 +16,7 @@ page_order: 13
 - Breeze, Mez. *MEZANGELLE*. 1994 – Ongoing. <https://anthology.rhizome.org/mez-breeze>.
 - Burnham, Jack. “Software – Information Technology: Its New Meaning for Art.” Exhibition at the Jewish Museum, New York, NY, September 16 – November 8, 1970, and Smithsonian Institution, Washington, D.C., December 16, 1970 – February 14, 1971.
 - “Call for Works 2015: CAPTURE ALL.” transmediale / art & digitalculture. <https://transmediale.de/content/call-for-works-2015>.
+- Chicau, Joana, and Jonathan Reus. *Anatomies of Intelligence & the Concept of Aesthesis*. <https://anatomiesofintelligence.github.io/>.
 - Choi, Taeyoon. *Signing Coders*. Ongoing. <http://taeyoonchoi.com/soft-care/signing-coders/>.
 - Cirio, Paolo, Alessandro Ludovico, and UBERMORGEN. 2005. “GEWI - Google Will Eat Itself.” <https://www.gwei.org/index.php>.  
 *Cox, Geoff, and Duncan Shingleton. *hallo welt!* (hello world!). Updated July 1, 2008. <http://www.anti-thesis.net/hello-world-60/>.
@@ -55,12 +55,14 @@ page_order: 13
 - Nagayama, Tomokazu (@nagayama). “すべりこみ,” Twitter, April 3, 2020, 4:44 p.m.. <https://twitter.com/nagayama/status/1246086230497845250?s=19>.
 - ———. “daily coding,” Github. <https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html>.
 - Node.js, Open JS Foundation. <https://nodejs.org/en/>.
+- Old Boys Network (OBN). <https://www.obn.org/>.
+- Open Source Publishing (OSP). <http://osp.kitchen/>.
 - Øygard, Audun M..*clmtrackr*. 2017. <https://github.com/auduno/clmtrackr>.
 - Papa, Elisa, Giardina. *The Cleaning of Emotional Data*. 2020. <https://aksioma.org/cleaning.emotional.data/>.
 - Pritchard, Helen, and Winnie Soon. *Recurrent Queer Imaginaries*. Exhibition Research Lab, Liverpool John Moores University — School of Art and Design, November 2019 – January 2020. <https://www.exhibition-research-lab.co.uk/exhibitions/recurrent-queer-imaginaries/>.
 - Process Studio. *AImoji*. 2019. <https://process.studio/works/aimoji-ai-generated-emoji/>.
 - “processing/p5.js.” Github. <https://github.com/processing/p5.js/wiki>.
-- “Queer AI.” Queer AI. <https://queer.ai/>.
+- Queer AI. <https://queer.ai/>.
 - Reas, Casey. "{Software}Structure #003 A." <https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks>.
 - *ReCode Project*. <http://recodeproject.com/>.
 - Reinfurt, David, *Multi*. O-R-G inc.. <http://www.o-r-g.com/apps/multi>.
