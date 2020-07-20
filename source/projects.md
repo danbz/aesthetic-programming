@@ -3,6 +3,8 @@ page_order: 13
 
 ## List of Projects (artworks, software, exhibitions):
 
+geoff: 2 questions, do we need to add 1) 12 Hours of ImageNet 2) imageNet project is by Fei Fei Li? /w
+
 - “About ImageNet,” Stanford Vision Lab. <http://image-net.org/about-overview>.
 - “A hackable text editor for the 21st Century.” Atom. <https://atom.io/>.
 - “Anatomies of Intelligence.” NN Cluster initiative Aarhus University 2019, Winnie Soon, Magda Tyzlik-Carver, and Pablo Velasco. https://anatomiesofintelligence.github.io/workshop_presentation.html.
