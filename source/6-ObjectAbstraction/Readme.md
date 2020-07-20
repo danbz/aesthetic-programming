@@ -58,7 +58,7 @@ When tofu becomes a computational object — as in *Tofu Go!* — abstraction is
 
 [embeded video](https://www.youtube.com/watch?v=V9NirY55HfU])
 
-Below we will introduce the sample code *Pacman-Tofu*, a simple game inspired by the following: *ToFu Go!* (available for free download), the prior project *Multi* as introduced in Chapter 2, "Variable Geometry," and the popular Japanese eating game *Pac-Man*.[^pacman] The remaining parts unfold the computational logic and modeling required to understand the basics of OOP.
+Below we will introduce the sample code *Eating tofu*, a simple game inspired by the following: *ToFu Go!* (available for free download), the prior project *Multi* as introduced in Chapter 2, "Variable Geometry," and the popular Japanese eating game *Pac-Man*.[^pacman] The remaining parts unfold the computational logic and modeling required to understand the basics of OOP.
 
 ## Exercise in class (Decode)
 
@@ -66,7 +66,7 @@ Below we will introduce the sample code *Pacman-Tofu*, a simple game inspired by
 
 ![ch6_3](ch6_3.gif)
 
-*Figure 6.2: A screenshot of the Pacman-Tofu game*
+*Figure 6.2: A screenshot of the Eating tofu game*
 
 [RUNME](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch6_ObjectAbstraction/)
 
@@ -490,7 +490,7 @@ If we apply this to a computational object and its abstraction (the identificati
 **Tasks (RUNME)**
 Think of a simple game that you want to design and implement. Which objects are required? What are their properties and methods? At the most basic level, you need to use a class-based object-oriented approach to design your game components. These can exhibit certain behaviors which means you need to at least have a class, a constructor, and a method.
 
-Once you understand objects and classes, you can continue to work on a mini game implementing interaction with objects. Start with something simple in terms of thinking or reappropriating the rules, interactions and checking steps. The Pacman-tofu sample code and other games that mentioned above are useful for practicing building the logics and combining smaller steps.
+Once you understand objects and classes, you can continue to work on a mini game implementing interaction with objects. Start with something simple in terms of thinking or reappropriating the rules, interactions and checking steps. The *Eating tofu* sample code and other games that mentioned above are useful for practicing building the logics and combining smaller steps.
 
 **Questions to think about (README):**
 
