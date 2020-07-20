@@ -76,6 +76,7 @@ geoff: 2 questions, do we need to add 1) 12 Hours of ImageNet 2) imageNet projec
 - Soon, Winnie. *Asterisk Painting* ported to p5.js, and modified. <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
 - ———. *nonsense*, 2015. <http://siusoon.net/nonsense/>.
 - ———. *Throb*. Last updated April 11, 2019. <http://siusoon.net/throb/>.
+- ———. *Vocable Code (Education/live coding version)*. Last updated May 5, 2020. <https://dobbeltdagger.net/VocableCode_Educational/>.
 - Støg, Use All Five, and PAIR teams. *Teachable Machine 1.0*. 2017. <https://teachablemachine.withgoogle.com/v1/>.
 - Temkin, Daniel. *esoteric.codes*. 2011. <https://esoteric.codes/>.
 - "The first single application for the entire DevOps lifecycle - GitLab | GitLab." GitLab. <https://about.gitlab.com/>.
