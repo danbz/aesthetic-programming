@@ -29,7 +29,7 @@ page_order: 13
 - Filoa, Joseph. "JosephFiola/GenArt." 2016. <https://github.com/JosephFiola/GenArt>.
 - Freeke, Saskia. "All the Daily Things 2018". Vimeo, 06:30. January 2, 2019. <https://vimeo.com/309138645>.
 - “Friendly Machine Learning for the Web.” ml5.js, accessed June 20, 2020. <https://ml5js.org/>.
-- Giardina , Elisa Papa. *The Cleaning of Emotional Data*. 2020. <https://aksioma.org/cleaning.emotional.data/>.
+- Giardina Papa, Elisa. *The Cleaning of Emotional Data*. 2020. <https://aksioma.org/cleaning.emotional.data/>.
 - Gross, Benedikt, Bohnacker, Hartmut , Laub, Julia, Lazzeroni, Claudius. "Generative Design Sketches." <http://www.generative-gestaltung.de/2/>.
 - Grosser, Ben. “Eat Food Not Bombs.” <https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI>.
 - ———. *Facebook Demetricator*. <https://bengrosser.com/projects/facebook-demetricator/>.
