@@ -9,40 +9,40 @@ color=grey,
 SU [label="setup()"]
 ST [label="start()"]
 DE [label="Exercise in class: \nDecode"]
-SC [label="Source Code"]
-DOM [label="DOM elements"]
+SC [label="Source code"]
+DOM [label="DOM elements:\n creating and styling a button"]
 MC [label="Mouse capture"]
 KC [label="Keyboard capture"]
 AC [label="Audio capture"]
 FT [label="Face tracker"]
 EiC [label="Exercise in class"]
-CC [label="The Concept of Capture"]
-WA [label="Web Analytics and Heatmap"]
+CC [label="The concept of capture"]
+WA [label="Web analytics and heatmap"]
 FE [label="Form elements"]
 ML [label="Metrics of likes"]
 VD [label="Voice and audio data"]
 HT [label="Health tracker"]
 MW [label="While()"]
-MX [label="MiniX 4: \nCapture ALL"]
+MX [label="MiniX[4]: \nCapture ALL"]
 RR [label="Required reading"]
+FR [label="Further reading"]
 Notes [label="Notes"]
 
 //rank
-{rank = same; GS, SU, ST}
-{rank = same; DE, SC}
-{rank = same; MW, EiC}
-{rank = same; Notes, CC}
+{rank = same; MW, DOM, EiC}
+{rank = same; DE, RR}
 
 //graph
 GS -> SU -> ST -> DE -> SC;
+SC -> DE;
 GS -> RR[dir=both, minlen=3];
 SU -> MW [dir=both];
 GS -> MX;
 RR -> MX, SU;
 SC -> DOM, MC, KC, AC, FT;
 DOM, MC, KC, AC, FT -> EiC -> CC;
-SC -> CC [dir=both];
 CC -> WA, FE, ML, VD, HT;
 ST, CC -> MW -> Notes;
 MW -> MX;
+RR -> FR;
 }
