@@ -388,7 +388,7 @@ The README should address the following questions with the help of your source c
 
 [^Pygmalion]: The title of the play makes reference to the Greek myth in which Pygmalion, a sculptor, falls in love with a statue he carves, and Venus grants it the breath of life.
 
-[^Turing]: See Alan, M. Turing. "Computing machinery and intelligence," *Mind* 49 (1950): 433-460.
+[^Turing]: See Alan M. Turing. "Computing machinery and intelligence," *Mind* 49 (1950): 433-460.
 
 [^clemens]: Clemens Apprich, "Introduction," in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination* (Minnesota: Meson Press, 2018), x.
 
