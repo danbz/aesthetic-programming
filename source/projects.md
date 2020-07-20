@@ -1,7 +1,7 @@
 Title: Projects
 page_order: 13
 
-## List of artworks/software/exhibitions:
+## List of Projects (artworks, software, exhibitions):
 
 (+wenyin)
 
