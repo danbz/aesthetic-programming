@@ -1,5 +1,5 @@
 AESTHETIC PROGRAMMING<br>
-A Handbook of Software Studies 
+A Handbook of Software Studies
 
 Winnie Soon & Geoff Cox
 
@@ -10,7 +10,7 @@ Liquid Books<br>
 Series Editors: Gary Hall and Clare Birchall
 
 http://aesthetic-programming.osp.kitchen/<br>
-https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/source
+https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/
 
 Design by Open Source Publishing (Gijs de Heij & Stéphanie Vilayphiou)
 
@@ -24,7 +24,3 @@ Figures, text and other media included within this book may be under different c
 
 ISBN (print): ????????? <br>
 ISBN (PDF): ???????
-
-
-
-
