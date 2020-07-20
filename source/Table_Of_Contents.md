@@ -170,7 +170,7 @@ page_order: -3
 
 ## Bibliography
 
-## Projects
+## List of Projects
 
 ## Showcase
 *only available on web version*
