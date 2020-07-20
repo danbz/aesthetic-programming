@@ -9,7 +9,7 @@ page_order: -3
 
 ## Colophon
 
-## Table of Content
+## Table of Contents
 
 ## Acknowledgments
 
@@ -166,7 +166,7 @@ page_order: -3
 * MiniX[10]: Final Project
 * Required reading & Further reading
 
-## Afterword (Recurrent Imaginaries)
+## Afterword: Recurrent Imaginaries
 
 ## Bibliography
 
