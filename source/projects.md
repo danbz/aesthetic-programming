@@ -3,8 +3,6 @@ page_order: 13
 
 ## List of Projects (artworks, software, exhibitions):
 
-(+wenyin)
-
 - “About ImageNet,” Stanford Vision Lab. <http://image-net.org/about-overview>.
 - “A hackable text editor for the 21st Century.” Atom. <https://atom.io/>.
 - “Anatomies of Intelligence.” NN Cluster initiative Aarhus University 2019, Winnie Soon, Magda Tyzlik-Carver, and Pablo Velasco. https://anatomiesofintelligence.github.io/workshop_presentation.html.
@@ -41,6 +39,7 @@ page_order: 13
 - ———. *Not Not*. 2016. MP3 audio, 6:30. <https://soundcloud.com/ihatch/5-notnot>.
 - Horikawa, Junichiro. *20200509_lifeline*. 2020. <https://www.openprocessing.org/sketch/891619>.
 - Howe, Daniel. *Downloads RiTa library*. RiTa, accessed June 20, 2020. <http://rednoise.org/rita/download.phps>.
+- Huang, Lingdong. *wenyan‑lang*. 2019.<https://wy-lang.org/>.
 - Kazemi, Darius. “Corpora - A repository of JSON files.” Last updated May 19, 2020. <https://github.com/dariusk/corpora/tree/master/data>.
 - Kearney-Volpe, Claire, Govindarajan, Mathura, and Morales-Navarro, Luis. *p5.js Web Editor*. 2018. <https://editor.p5js.org/>.
 - Kearney-Volpe, Claire. “p5.js access project.” <https://www.clairekv.com/p5js-ux-research>.

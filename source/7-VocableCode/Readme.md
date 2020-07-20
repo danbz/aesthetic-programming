@@ -410,7 +410,7 @@ function notNew(getQueer) {
 
 ## While()
 
-In high-level programming languages like JavaScript, the source code sends both instructions to machines as well as communicating with humans. In this way, writing source code involves the use of signs and symbols, both semantics and syntactics, and operates across both programming and natural languages. Beyond the potential for poetry previously mentioned, there are other possible interventions. Lingdong Huang has developed an esoteric programming language based on ancient Chinese called "wenyan-lang," that closely follows the grammar and tone of classical Chinese literature.[^wy] Using signs and symbols as well as combining formal logic and poetic expression are the starting points for understanding the double logic of vocable code.
+In high-level programming languages like JavaScript, the source code sends both instructions to machines as well as communicating with humans. In this way, writing source code involves the use of signs and symbols, both semantics and syntactics, and operates across both programming and natural languages. Beyond the potential for poetry previously mentioned, there are other possible interventions. Lingdong Huang has developed an esoteric programming language based on ancient Chinese called "wenyan-lang," that closely follows the grammar and tone of classical Chinese literature.[^Wenyan] Using signs and symbols as well as combining formal logic and poetic expression are the starting points for understanding the double logic of vocable code.
 
  As we learnt previously, abstraction is a concept fundamental to software development, which differs from machine operations, thereby focusing on building abstractions as objects. The use of class/object structures (text as object instances), conditional structures, procedures, and subroutines, such as the for-loop, are some of the ways of presenting and executing the source code. However, in the context of machine execution, variable names - the semantic layer - are stripped away and this human-readable information is avoided. This "secondary notation" does not affect the execution of the program apart from memory size, but does provide other potential uses. In this way, choosing meaningful identifier names is more for the purpose of expression and communication, as the example above clearly demonstrates. This is where we hear the programmer's voice.
 
@@ -508,7 +508,7 @@ See: Allison Parrish (2015) <https://vimeo.com/134734729>; Florian Cramer, Langu
 
 [^Plant4]: Plant, *Zeros + Ones*, 102.
 
-[^wy]: See <https://wy-lang.org/>.
+[^Wenyan]: See <https://wy-lang.org/>.
 
 [^cox2]: Cox, *Speaking Code*, 24.
 
