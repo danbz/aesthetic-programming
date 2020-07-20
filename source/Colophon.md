@@ -10,7 +10,7 @@ Liquid Books<br>
 Series Editors: Gary Hall and Clare Birchall
 
 http://aesthetic-programming.osp.kitchen/<br>
-https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/
+https://gitlab.com/siusoon/Aesthetic_Programming_Book/
 
 Design by Open Source Publishing (Gijs de Heij & Stéphanie Vilayphiou)
 
