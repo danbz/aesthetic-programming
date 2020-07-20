@@ -73,7 +73,7 @@ geoff: 2 questions, do we need to add 1) 12 Hours of ImageNet 2) imageNet projec
 - Shi, Yining. “p5.playground: an Interactive Programming Tool for p5.js.” 2016. <https://1023.io/p5-inspector/>.
 - Sollfrank, Cornelia. *Female Extension*. 1997. <http://www.artwarez.org/femext/index.html>.
 - ———. *Net.Art Generator*. Artwarez.org. <http://net.art-generator.com/>.
-- Soon, Winnie. *Asterisk Painting* ported to p5.js, and modified. <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
+- Soon, Winnie. *Asterisk Painting* ported to p5.js, and modified. Last updated October 12, 2019. <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
 - ———. *nonsense*, 2015. <http://siusoon.net/nonsense/>.
 - ———. *Throb*. Last updated April 11, 2019. <http://siusoon.net/throb/>.
 - ———. *Vocable Code (Education/live coding version)*. Last updated May 5, 2020. <https://dobbeltdagger.net/VocableCode_Educational/>.
