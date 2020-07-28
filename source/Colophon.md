@@ -12,6 +12,8 @@ Series Editors: Gary Hall and Clare Birchall
 http://aesthetic-programming.osp.kitchen/<br>
 https://gitlab.com/siusoon/Aesthetic_Programming_Book/
 
+Published with support from Aarhus University Research Foundation
+
 Design by Open Source Publishing (Gijs de Heij & Stéphanie Vilayphiou)
 
 Edited by Loren Britton
@@ -24,3 +26,5 @@ Figures, text and other media included within this book may be under different c
 
 ISBN (print): ????????? <br>
 ISBN (PDF): ???????
+
+
