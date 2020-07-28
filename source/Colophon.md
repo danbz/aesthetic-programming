@@ -1,7 +1,7 @@
 AESTHETIC PROGRAMMING<br>
 A Handbook of Software Studies
 
-Winnie Soon & Geoff Cox
+Winnie Soon and Geoff Cox
 
 Published by Open Humanities Press 2020<br>
 https://openhumanitiespress.org/
