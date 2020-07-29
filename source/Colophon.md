@@ -18,7 +18,7 @@ Design by Open Source Publishing (Gijs de Heij & Stéphanie Vilayphiou)
 
 Edited by Loren Britton
 
-With thanks to Matthew Fuller, Lauren McCarthy, Søren Pold
+With thanks to Matthew Fuller, Lauren McCarthy, Søren Pold (w: maybe best elsewhere? didn't we talk about acknowledgements?)
 
 CC 2020 the authors
 
