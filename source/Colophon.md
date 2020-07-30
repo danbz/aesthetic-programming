@@ -6,8 +6,8 @@ Winnie Soon and Geoff Cox
 Published by Open Humanities Press 2020<br>
 https://openhumanitiespress.org/
 
-Liquid Books<br>
-Series Editors: Gary Hall and Clare Birchall
+Liquid/Living Books<br>
+Series Editors: Gary Hall 
 
 http://aesthetic-programming.osp.kitchen/<br>
 https://gitlab.com/siusoon/Aesthetic_Programming_Book/
