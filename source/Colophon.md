@@ -18,8 +18,6 @@ Design by Open Source Publishing (Gijs de Heij & Stéphanie Vilayphiou)
 
 Edited by Loren Britton
 
-With thanks to Matthew Fuller, Lauren McCarthy, Søren Pold (w: maybe best elsewhere? didn't we talk about acknowledgements?)
-
 CC 2020 the authors
 
 This is an open access book, licensed under the Creative Commons Attribution By Attribution Share Alike License. Under this license, authors allow anyone to download, reuse, reprint, modify, distribute, and/or copy their work so long as the authors and source are cited and resulting derivative works are licensed under the same or similar license. No permission is required from the authors or the publisher. Statutory fair use and other rights are in no way affected by the above. Read more about the license at creativecommons.org/licenses/by-sa/4.0/
