@@ -14,8 +14,9 @@ let thankYou =
      "p5.js community - for the contribution of promoting coding and visual literacy via open source tools and documentation",
      "Magda Tyżlik-Carver and Christian Ulrik Andersen - for teaching Software Studies course in parallel to Aesthetic Programming",
      "Instructors of AP: Frederik Westergaard, Nils Rungholm Jensen, Tobias Stenberg, Malthe Stavning Erslev, Ann Karring, Simone Morrison, Nynne Lucca Christianen, Ester Marie Aagaard, and Noah Aamund - for keeping the class learning momentum and assisting the course",
-     "Theodoros Papatheodorou and Simon Katan from Goldsmiths, University of London - for allowing us to observe the programming class from Bachelor to Master levels",
-     "Anders Visti - for inspiring us to include the example of Langton's Ant.",
+     "Theodoros Papatheodorou and Simon Katan from Goldsmiths, University of London - for allowing us to observe the programming class across levels.",
+     "Helen Pritchard - for hosting one of us in order to complete the book."
+     "Anders Visti - for inspiring us to include the example of Langton's Ant and many other small details.",
      "Joan Truckenbrod - for providing information and discussing her works.",
      "Ben Grosser - for providing information and discussing his works.",
      "Joana Chicau and Jonathan Reus- for the excellent workshop conducted at Aarhus University",
