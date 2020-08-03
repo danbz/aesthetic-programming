@@ -3,8 +3,6 @@ page_order: 13
 
 ## List of Projects (artworks, software, exhibitions):
 
-geoff: 2 questions, do we need to add 1) 12 Hours of ImageNet 2) imageNet project is by Fei Fei Li? /w
-
 - “About ImageNet,” Stanford Vision Lab. <http://image-net.org/about-overview>.
 - “A hackable text editor for the 21st Century.” Atom. <https://atom.io/>.
 - “Anatomies of Intelligence.” NN Cluster initiative Aarhus University 2019, Winnie Soon, Magda Tyzlik-Carver, and Pablo Velasco. https://anatomiesofintelligence.github.io/workshop_presentation.html.
@@ -18,7 +16,7 @@ geoff: 2 questions, do we need to add 1) 12 Hours of ImageNet 2) imageNet projec
 - Chicau, Joana, and Jonathan Reus. *Anatomies of Intelligence & the Concept of Aesthesis*. <https://anatomiesofintelligence.github.io/>.
 - Choi, Taeyoon. *Signing Coders*. Ongoing. <http://taeyoonchoi.com/soft-care/signing-coders/>.
 - Cirio, Paolo, Alessandro Ludovico, and UBERMORGEN. 2005. “GEWI - Google Will Eat Itself.” <https://www.gwei.org/index.php>.  
-- Cox, Geoff, and Duncan Shingleton. *hallo welt!* (hello world!). Updated July 1, 2008. <http://www.anti-thesis.net/hello-world-60/>.
+- Cox, Geoff, and Duncan Shingleton. *hallo welt!* (hello world!). Last updated July 1, 2008. <http://www.anti-thesis.net/hello-world-60/>.
 - Cramer, Florian. "I Love You [rev-eng]." Digital Craft.org. Exhibition, Kulturbüro. http://www.digitalcraft.org/iloveyou/.
 - Conway, John Horton. “The Game of Life.” Internet Archive Wayback Machine. <https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/>.
 - db-db-db (aka Francis Lam). “Tofu Go!.” Apple App Store. <https://apps.apple.com/us/app/tofu-go/id441704812>.
@@ -48,9 +46,11 @@ geoff: 2 questions, do we need to add 1) 12 Hours of ImageNet 2) imageNet projec
 - Knowles, Alison, and James Tenney. *A House of Dust*. 1967. Re-implemented by Nick Montfort. *For Memory Slam*. 2014. <https://nickm.com/memslam/a_house_of_dust.html>.
 - Landsteiner, Norbert. *elizabot.js*. 2005. <https://www.masswerk.at/elizabot/>.
 - ———. *E.L.I.Z.A Talking*. 2013. <https://www.masswerk.at/eliza/>.
+- Li, Fei-Fei, Jia Deng, Olga Russakovsky, Alex Berg, Kai Li. *ImageNet*. <http://image-net.org/>.
 - Link, David. *Love Letters_1.0: MUC=Resurrection. A Memorial*. 2009. Exhibited dOCUMENTA(13), Kassel, 2012. <http://www.alpha60.de/art/love_letters/>.
 - Lorusso, Silvio. *The Best is Yet to Come*. 2012. <https://silviolorusso.com/work/the-best-is-yet-to-come/>.
 - Malevé, Nicolas. *Exhibiting ImageNet*, The Photographers Gallery, July 1 – September 13, 2019. <https://thephotographersgallery.org.uk/whats-on/digital-project/exhibiting-imagenet>.
+- ———. *12 Hours of ImageNet*. Premiered on 5 Nov 2019. <https://www.youtube.com/watch?v=PC60JL-lMzA>.
 - McCarthy, Lauren. *p5.js*. 2014. <https://lauren-mccarthy.com/p5-js>.
 - ———. *LAUREN*. 2017. <https://lauren-mccarthy.com/LAUREN>.
 - Nagayama, Tomokazu (@nagayama). “すべりこみ,” Twitter, April 3, 2020, 4:44 p.m.. <https://twitter.com/nagayama/status/1246086230497845250?s=19>.
