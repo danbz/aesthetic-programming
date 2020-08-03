@@ -4,7 +4,6 @@ page_order: 13
 ## List of Projects (artworks, software, exhibitions):
 
 - “A hackable text editor for the 21st Century.” Atom. <https://atom.io/>.
-- “Anatomies of Intelligence.” NN Cluster initiative Aarhus University 2019, Winnie Soon, Magda Tyzlik-Carver, and Pablo Velasco. https://anatomiesofintelligence.github.io/workshop_presentation.html.
 - “atom-live-server-package.” Atom. <https://atom.io/packages/atom-live-server>.
 - Bell, John. *Asterisk Painting*. <http://www.johnpbell.com/asterisk-painting/>.
 - Blas, Zach. *Facial Weaponization Suite*. 2011-14. <http://www.zachblas.info/works/facial-weaponization-suite/>.
@@ -13,6 +12,7 @@ page_order: 13
 - Burnham, Jack. “Software – Information Technology: Its New Meaning for Art.” Exhibition at the Jewish Museum, New York, NY, September 16 – November 8, 1970, and Smithsonian Institution, Washington, D.C., December 16, 1970 – February 14, 1971.
 - “Call for Works 2015: CAPTURE ALL.” transmediale / art & digitalculture. <https://transmediale.de/content/call-for-works-2015>.
 - Chicau, Joana, and Jonathan Reus. *Anatomies of Intelligence & the Concept of Aesthesis*. <https://anatomiesofintelligence.github.io/>.
+- ———. “Anatomies of Intelligence.” NN Cluster initiative Aarhus University 2019, Winnie Soon, Magda Tyzlik-Carver, and Pablo Velasco. https://anatomiesofintelligence.github.io/workshop_presentation.html.
 - Choi, Taeyoon. *Signing Coders*. Ongoing. <http://taeyoonchoi.com/soft-care/signing-coders/>.
 - Cirio, Paolo, Alessandro Ludovico, and UBERMORGEN. 2005. “GEWI - Google Will Eat Itself.” <https://www.gwei.org/index.php>.  
 - Cox, Geoff, and Duncan Shingleton. *hallo welt!* (hello world!). Last updated July 1, 2008. <http://www.anti-thesis.net/hello-world-60/>.
