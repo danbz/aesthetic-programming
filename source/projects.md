@@ -3,7 +3,6 @@ page_order: 13
 
 ## List of Projects (artworks, software, exhibitions):
 
-- “About ImageNet,” Stanford Vision Lab. <http://image-net.org/about-overview>.
 - “A hackable text editor for the 21st Century.” Atom. <https://atom.io/>.
 - “Anatomies of Intelligence.” NN Cluster initiative Aarhus University 2019, Winnie Soon, Magda Tyzlik-Carver, and Pablo Velasco. https://anatomiesofintelligence.github.io/workshop_presentation.html.
 - “atom-live-server-package.” Atom. <https://atom.io/packages/atom-live-server>.
