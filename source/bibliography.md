@@ -243,6 +243,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - “Reference Transform,” p5.js. <https://p5js.org/reference/#group-Transform>.
 - “Request A GIPHY API Key.” GIPHY Support. <https://support.giphy.com/hc/en-us/articles/360020283431-Request-A-GIPHY-API-Key>.
 - Robinson, Derek. “Function.” In *Software Studies*. Edited by Matthew Fuller, 101–109. Cambridge, MA: MIT Press, 2008.
+- ———. “Variables.” In *Software Studies*. Edited by Matthew Fuller, 260–266. Cambridge, MA: MIT Press, 2008.
 - Rushkoff, Douglas. *Program or Be Programmed: Ten Commandments for a Digital Age*. New York: OR books, 2010.
 - Risam, Roopika. *The Poetry of Executable Code*. Last updated April 5, 2015. <http://jacket2.org/commentary/poetry-executable-code>.
 - Rouvroy, Antoinette. “Algorithmic Governmentalities and the End(s) of Critique.” The Institute for Network Cultures. Lecture. (October 2013).
