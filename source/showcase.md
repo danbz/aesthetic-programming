@@ -5,16 +5,16 @@ page_order: 14
 
 The list will continuously update on the online version.
 
-### MiniX[1]: RUNME and README
+#### MiniX[1]: RUNME and README
 
 - [Work](https://gitlab.com/JaneCl/ap-2020/-/blob/master/public/MiniEx1/READMEMiniX1.md) by Jane Clausen, 2020
 
-### MiniX[2]: Geometric emoji
+#### MiniX[2]: Geometric emoji
 
 - [Work](https://gitlab.com/Adeve_/ap2020/-/tree/master/public/MiniEx_2) by Andreas Frederiksen, 2020
 - [Work](https://gitlab.com/clara.j.lassen/ap-2020/-/blob/master/public/Mini%20Exercises/miniEx2/Readme%20miniEx2.md) by Clara Josefine Jassan Lassen, 2020
 
-### MiniX[3]: Designing a throbber
+#### MiniX[3]: Designing a throbber
 
 - [Work](https://gitlab.com/amanda.hansen1404/ap2020/-/tree/master/public/MiniX3) by Amanda Hansen, 2020
 - [Work](https://magnusbak.gitlab.io/ap2020/MiniX3/) by Magnus Bake, 2020
