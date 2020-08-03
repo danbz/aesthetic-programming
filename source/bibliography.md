@@ -138,6 +138,7 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - “Interactivity 2.” p5.js. <https://p5js.org/examples/hello-p5-interactivity-2.html>.
 - “Integrated Development Environment.” Wikipedia. <https://en.wikipedia.org/wiki/Integrated_development_environment>.
 - intersoft consulting. General Data Protection Regulation GDPR. <https://gdpr-info.eu/>.
+- Iversen, Ole Sejer, Rachel Charlotte Smith, and Christian Dindler. "From computational thinking to computational empowerment: a 21st century PD agenda." *Proceedings of the 15th Participatory Design Conference Full Papers - Volume 1*, no. 7 (August 2018): 1-11.
 - “Java virtual machine”, Wikipedia. <https://en.wikipedia.org/wiki/Java_virtual_machine>.
 - Jay, Martin. *Aesthetic Theory*. Minneapolis, MN: University of Minnesota Press, 1996.
 - Jin, Chelly. “Interactive Book Club.” *Diversity with Code + Art*. <http://diversity.p5js.org/>.
@@ -337,5 +338,5 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Williams, Raymond. *Keywords: A Vocabulary of Culture and Society*. London: Fontana, 1983.
 - Witt, Steve. “Chinese Characters as Ancient "Emoji”, *Glocal Notes*, 2015. <https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/>.
 - Wing, Jeannette M.. "Computational Thinking," *Commun. ACM* 49, no. 3 (March 2006): 33–35.
-- Zuboff, Shoshana. *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power*. New York: PublicAffairs, 2019. 
+- Zuboff, Shoshana. *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power*. New York: PublicAffairs, 2019.
 - ———. “Surveillance Capitalism.” VPRO Documentary. <https://youtu.be/hIXhnWUmMvw>.
