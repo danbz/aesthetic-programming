@@ -385,15 +385,14 @@ This is a relatively complex exercise that requires you to:
 ## Required reading
 
 - David Gauthier, Audrey Samson, Eric Snodgrass, Winnie Soon, and Magda Tyżlik-Carver, "Executing," in Nanna Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio and Kristin Veel, eds., *Uncertain Archives* (Cambridge, MA: MIT Press, 2020).
-- Daniel Shiffman, "Working with data," *The Coding Train*, <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r> (10.4-10.10).
+- Daniel Shiffman, "Working with data - p5.js Tutorial," *The Coding Train*, <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r> (10.1, 10.4-10.10).
 - Eric Snodgrass and Winnie Soon, "[API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange](https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721)," *First Monday* 24, no.2 (2019): n.p.
 
 ## Further reading
 
 - Jonathan Albright, "[The Graph API: Key Points in the Facebook and Cambridge Analytica Debacle](https://medium.com/tow-center/the-graph-api-key-points-in-the-facebook-and-cambridge-analytica-debacle-b69fe692d747)," *Medium* (2018).
 - Taina Bucher, “Objects of intense feeling: The case of the Twitter API,” in *Computational Culture*, Nov 27 (2013), <http://computationalculture.net/article/objects-of-intense-feeling-the-case-of-the-twitter-api>.
-- Matthew G. Kirschenbaum, *Mechanisms: New Media and the Forensic Imagination* (Cambridge, MA: MIT Press, 2007), 25-71.
-- Christoph Raetzsch, et al. “[Weaving Seams with Data: Conceptualizing City APIs as Elements of Infrastructures](https://journals.sagepub.com/doi/full/10.1177/2053951719827619),” *Big Data & Society*, Jan (2019), doi:10.1177/2053951719827619.
+- Christoph Raetzsch, Gabriel Pereira, and Lasse S Vestergaard, “[Weaving Seams with Data: Conceptualizing City APIs as Elements of Infrastructures](https://journals.sagepub.com/doi/full/10.1177/2053951719827619),” *Big Data & Society*, Jan (2019), doi:10.1177/2053951719827619.
 
 ## Notes
 

@@ -332,7 +332,7 @@ Artist David Link built a functional replica of both the hardware and the origin
 - [Generative Design - sketches](http://www.generative-gestaltung.de/2/), [source code](https://github.com/generative-design/Code-Package-p5.js)
 - [GenArt (with source code)](https://github.com/JosephFiola/GenArt) by JosephFiola, see Chapters 1-4
 - [John Conway's Game of Life](https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/)
-- [The Recode project](http://recodeproject.com/)
+- [The Recode Project](http://recodeproject.com/) and [Memory Slam](http://nickm.com/memslam/) by Nick Montfort.
 - [Solving Sol project - An open project to implement Sol LeWitt's instructions in JavaScript by Brad Bouse](https://github.com/wholepixel/solving-sol)
 
 **Tasks (RUNME):**
@@ -347,17 +347,15 @@ Artist David Link built a functional replica of both the hardware and the origin
 ## Required reading
 
 - Nick Montfort et al. "Randomness," *[10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org/)* (Cambridge, MA: MIT Press, 2012), 119-146.
-- [Langton's Ant Colonies](https://www.youtube.com/watch?v=w6XQQhCgq5c)
 - Daniel Shiffman, [p5.js - 2D Arrays in Javascript](https://www.youtube.com/watch?v=OTNpiLUSiB4).
 - Marius Watz, "Beautiful Rules: Generative Models of Creativity," in *The Olhares de Outono* (2007), <https://vimeo.com/26594644>.
+- "[Langton's Ant Colonies.](https://www.youtube.com/watch?v=w6XQQhCgq5c)" Youtube video, 6:02. Posted by "MrBluesbyrd," November 7, 2011.
 
 ## Further reading
 
-- John Horton Conway, [*The Game of Life* (1970)](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
-- Chris G. Langton, "[Studying Artificial Life with Cellular Automata](https://deepblue.lib.umich.edu/bitstream/2027.42/26022/1/0000093.pdf)," *Physica D: Nonlinear Phenomena* 22, nos. 1–3 (1986): 120–149.
 - Philip Galanter, "[Generative Art Theory](http://cmuems.com/2016/60212/resources/galanter_generative.pdf)," in Christiane Paul, ed., *A Companion to Digital Art* (Oxford: Blackwell, 2016).
-- [The Recode Project](http://recodeproject.com/) and [Memory Slam](http://nickm.com/memslam/) by Nick Montfort.
-- [How to Draw with Code by Casey Reas](https://www.youtube.com/watch?v=_8DMEHxOLQE).
+- "[How to Draw with Code | Casey Reas.](https://www.youtube.com/watch?v=_8DMEHxOLQE)." Youtube video, 6:07. Posted by "Creators," June 25, 2012.
+- John Horton Conway, [*The Game of Life* (1970)](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 - [p5.js Coding Challenge #14: Fractal Trees - Recursive by Daniel Shiffman](https://www.youtube.com/watch?v=0jjeOYMjmDU).
 - [p5.js Coding Challenge #76: Recursion by Daniel Shiffman](https://www.youtube.com/watch?v=jPsZwrV9ld0).
 - [noise() vs random() - Perlin Noise and p5.js Tutorial by Daniel Shiffman](https://www.youtube.com/watch?v=YcdldZ1E9gU).

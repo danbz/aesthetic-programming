@@ -159,7 +159,7 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - Krysa, Joasia, and Grzesiek Sedek. “Source Code.” In *Software Studies*. Edited by Matthew Fuller, 236–242. Cambridge, MA: MIT Press, 2008.
 - Lam, Francis. *Design China*. Last updated November 16, 2012. <https://www.design-china.org/post/35833433475/francis-lam>.
 - Langton, Christopher G.. “Studying Artificial Life with Cellular Automata.” *Physica D: Nonlinear Phenomena* 22, no. 1–3 (October 1986): 120–49.
-- “Langton’s Ant Colonies.” YouTube video, 6:02. <https://www.youtube.com/watch?v=w6XQQhCgq5c>.
+- "Langton's Ant Colonies." Youtube video, 6:02. Posted by "MrBluesbyrd," November 7, 2011. <https://www.youtube.com/watch?v=w6XQQhCgq5c>
 - Laporte, Dominique. *A History of Shit*. Translated by Rodolphe el-Khoury. Cambridge, MA: MIT Press, 2002.
 - Latour, Bruno. Reassembling the Social: An Introduction to Actor-Network-Theory. Oxford, UK: Oxford University Press, 2005.
 - Le Guin, Ursula K. “Books Remembered,” *Calendar* XXXVI, no. 2, November 1977 – June 1978, n.p.
@@ -219,9 +219,11 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Prisco, Jacopo. “Pac-Man at 40: The eating icon that changed gaming history.” *CNN*. last updated May 21, 2020. <https://edition.cnn.com/style/article/pac-man-40-anniversary-history/>.
 - “Programmable Search.” Google. <https://cse.google.com/all>.
 - ProgrammableWeb. <https://www.programmableweb.com/>.
+- Raetzsch, Christoph, Gabriel Pereira, and Lasse S Vestergaard, “Weaving Seams with Data: Conceptualizing City APIs as Elements of Infrastructures,” *Big Data & Society*, Jan (2019), doi:10.1177/2053951719827619.
 - Rancière, Jacques. *The Politics of Aesthetics*. London: Continuum, 2006.  
 - “README.md.” GitLab Pages examples. <https://gitlab.com/pages/plain-html/-/blob/master/README.md>.
 - Reas, Casey. “{Software} Structures.” <https://artport.whitney.org/commissions/softwarestructures/text.html>.
+- ———. "How to Draw with Code | Casey Reas." Youtube video, 6:07. Posted by "Creators," June 25, 2012. <https://www.youtube.com/watch?v=_8DMEHxOLQE>
 - “Reference.” p5.js. <https://p5js.org/reference/>.
 - “Reference color ().” p5.js. <https://p5js.org/reference/#/p5/color>.
 - "Reference DOM." p5.js. <https://p5js.org/reference/#group-DOM>.
@@ -274,11 +276,12 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - ———. “7.3: Arrays of Objects - p5.js Tutorial.” YouTube video, 14:21. *The Coding Train*. October 10, 2017. <https://www.youtube.com/watch?v=fBqaA7zRO58&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=29>.
 - ———. “7.5: Multiple js Files - p5.js Tutorial.” YouTube video, 7:05. *The Coding Train*. October 9, 2015. <https://www.youtube.com/watch?v=Yk18ZKvXBj4>.
 - ———. “9.15: 2D Arrays in JavaScript – p5.js Tutorial.” YouTube video, 12:37. *The Coding Train*. July 18, 2016. <https://www.youtube.com/watch?v=OTNpiLUSiB4>.
-- ———. “10: Working with data – p5.js Tutorial.” YouTube video, 15:02. *The Coding Train*. November 5, 2015. <https://www.youtube.com/watch?v=mj8_w11MvH8&index=10&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
-- ———. “10: Working with data – p5.js Tutorial.” YouTube video, 15:18. *The Coding Train*. November 30, 2015. <https://www.youtube.com/watch?v=IMne3LY4bks&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=9>.
+- ———. “10.1: Introduction to data and APIs in JavaScript – p5.js Tutorial." YouTube video, 12:49. *The Coding Train*. October 30, 2015. <https://www.youtube.com/watch?v=rJaXOFfwGVw&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=1>.
 - ———. “10.2: What is JSON? Part 1 – p5.js Tutorial." YouTube video, 15:55. *The Coding Train*. October 30, 2015. <https://www.youtube.com/watch?v=_NFkzw6oFtQ&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=2>.
 - ———. “10.3: What is JSON? Part II - p5.js Tutorial.” YouTube video, 16:09. *The Coding Train*. October 30, 2015. <https://www.youtube.com/watch?v=118sDpLOClw&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=3>.
 - ———. “10.5: Working with APIs in Javascript – p5.js Tutorial.” YouTube video, 15:11. *The Coding Train*. October 30, 2015. <https://www.youtube.com/watch?v=ecT42O6I_WI>.
+- ———. “10.9: New York times API and JavaScript – p5.js Tutorial.” YouTube video, 15:18. *The Coding Train*. November 30, 2015. <https://www.youtube.com/watch?v=IMne3LY4bks&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=9>.
+- ———. “10.10: The Giphy API and JavaScript - p5,js Tutorial.” YouTube video, 15:02. *The Coding Train*. November 5, 2015. <https://www.youtube.com/watch?v=mj8_w11MvH8&index=10&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
 - ———. “15.1: What is Node.js? - Twitter Bot Tutorial.” YouTube video, 15:12. *The Coding Train*. November 12, 2015. <https://www.youtube.com/watch?v=RF5_MPSNAtU&index=1&list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV>.
 - ———. “15.2: What is NPM? - Twitter Bot Tutorial.” YouTube video, 13:26. *The Coding Train*. November 13, 2015. <https://www.youtube.com/watch?v=s70-Vsud9Vk>.
 - ———. “Beginning Guide to Machine Learning in JavaScript.” YouTube Video Series, 26 episodes, 7:41:00. *The Coding Train*. Last updated February 22, 2020. <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y>.
@@ -339,4 +342,4 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Witt, Steve. “Chinese Characters as Ancient "Emoji”, *Glocal Notes*, 2015. <https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/>.
 - Wing, Jeannette M.. "Computational Thinking," *Commun. ACM* 49, no. 3 (March 2006): 33–35.
 - Zuboff, Shoshana. *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power*. New York: PublicAffairs, 2019.
-- ———. “Surveillance Capitalism.” VPRO Documentary. <https://youtu.be/hIXhnWUmMvw>.
+- ———. “Shoshana Zuboff on Surveillance Capitalism | VPRO Documentary.” Youtube video, 49:59. Posted by "vpro documentary," December 20, 2019. <https://youtu.be/hIXhnWUmMvw>.

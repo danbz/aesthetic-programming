@@ -471,11 +471,8 @@ To conclude this chapter, which explored the making of *Vocable Code* with its s
 
 - Geoff Cox, Alex McLean, and Adrian Ward, "The Aesthetics of Generative Code," Proceedings of Generative Art Conference, Milan (2001).
 - Liz W. Faber, *The Computer's Voice: From Star Trek to Siri* (Minneapolis, MN: University of Minnesota Press, 2020).
-- Sadie Plant, *Zeros + Ones: Digital Women and the New Technoculture* (London: Forth Estate, 1998).
-- Raymond Queneau, et al. "Six Selections by the Oulipo," in Noah Wardrip-Fruin and Nick Montfort, eds., *The New Media Reader* (Cambridge, MA: MIT Press, 2003), 147-189.
 - Rita Raley, [Interferences: [Net.Writing] and the Practice of Codework](http://electronicbookreview.com/essay/interferences-net-writing-and-the-practice-of-codework/), *Electronic Book Review* (2002).
 - Margaret Rhee, “[Reflecting on Robots, Love, and Poetry](https://dl.acm.org/doi/pdf/10.1145/3155126?download=true),” *XRDS: Crossroads* 24, no. 2, December (2017): 44–46.
-- Daniel Shiffman, *10.1: Introduction to Data and APIs in Javascript* (2017), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
 
 ## Notes
 

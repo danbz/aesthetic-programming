@@ -509,11 +509,10 @@ Once you understand objects and classes, you can continue to work on a mini game
 
 ## Further reading
 
-- Andrew P. Black, [Object-Oriented Programming: Some history, and challenges for the next fifty years](https://arxiv.org/abs/1303.0427),(2013).
 - Cecile Crutzen and Erna Kotkamp, "Object Orientation," in Fuller, ed., *Software Studies*, 200-207.
-- Roger Y. Lee, *Software Engineering: A Hands-On Approach* (Springer, 2013), 17-24, 35-37.
-- Ole-Johan Dahl, "[The Birth of Object Orientation: the Simula Languages](https://link.springer.com/chapter/10.1007/978-3-540-39993-3_3)," in Olaf Owe, Stein Krogdahl, and Tom Lyche, eds., *Object-Orientation to Formal Methods, Lecture Notes in Computer Science* 2635 (Berlin, Heidelberg: Springer, 2004).
+- Roger Y. Lee, "Object-Oriented Concepts," in *Software Engineering: A Hands-On Approach* (Springer, 2013), 17-24, 35-37.
 - Daniel Shiffman, [16.17 Inheritance in JavaScript - Topics of JavaScript/ES6](https://www.youtube.com/watch?v=MfxBfRD0FVU&feature=youtu.be&fbclid=IwAR14JwOuRnCXYUIKV7DxML3ORwPIttOPPKhqTCKehbq4EcxbtdZDXJDr4b0)
+- Andrew P. Black, [Object-Oriented Programming: Some history, and challenges for the next fifty years](https://arxiv.org/abs/1303.0427),(2013).
 
 ## Notes:
 

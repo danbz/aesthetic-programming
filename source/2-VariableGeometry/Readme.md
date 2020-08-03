@@ -346,9 +346,7 @@ Explore shapes, geometries, and other related syntax (via p5.js [references](htt
 
 - Crystal Abidin and Joel Gn, eds., "Histories and Cultures of Emoji Vernaculars," *First Monday* 23, no. 9, September (2018), <https://firstmonday.org/ojs/index.php/fm/issue/view/607>.
 - Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-reviewed Journal About Machine Feeling* 8, no. 1 (2019), <https://aprja.net//issue/view/8133>.
-- Olga Goriunova, "Introduction," *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing* (London: Bloomsbury, 2014), 1-19.
 - Derek Robinson, "Variables," in Matthew Fuller, ed., *Software Studies: A Lexicon* (Cambridge, MA: MIT Press, 2008).
-- Femke Snelting, [Modifying the Universal](https://www.youtube.com/watch?v=ZP2bQ_4Q7DY), *MedeaTV* (2016), Video, 1 hr 15 mins.
 
 ## Notes
 
@@ -360,7 +358,7 @@ Explore shapes, geometries, and other related syntax (via p5.js [references](htt
 
 [^Femke]: Femke Snelting, "Other Geometries," *transmediale journal* 3 (October 31, 2019, <https://transmediale.de/content/other-geometries>.
 
-[^Emojis]: Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, "[Modifying the Universal](http://www.data-browser.net/db06.html)," *Executing Practices*, Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, eds. (London: Open Humanities Press, 2018), 35-51. Other references include: Crystal Abidin and Joel Gn, "Between Art and Application: Special Issue on Emoji Epistemology," *First Monday* 23, no. 9 (September 3, 2018); Luke Stark, "Facial recognition, emotion and race in animated social media," *First Monday* 23, no. 9 (September 2018), 3; Miriam E Sweeney and Kelsea Whaley, "Technically White: Emoji Skin-tone Modifiers as American Technoculture," *First Monday* 24, no. 7 (1 July 1, 2019).
+[^Emojis]: Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, "[Modifying the Universal](http://www.data-browser.net/db06.html)," *Executing Practices*, Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, eds. (London: Open Humanities Press, 2018), 35-51. Alternatively, Femke Snelting has a lecture video in 1 hr 15 mins on the similar topic, see <https://www.youtube.com/watch?v=ZP2bQ_4Q7DY>. Other references include: Crystal Abidin and Joel Gn, "Between Art and Application: Special Issue on Emoji Epistemology," *First Monday* 23, no. 9 (September 3, 2018); Luke Stark, "Facial recognition, emotion and race in animated social media," *First Monday* 23, no. 9 (September 2018), 3; Miriam E Sweeney and Kelsea Whaley, "Technically White: Emoji Skin-tone Modifiers as American Technoculture," *First Monday* 24, no. 7 (1 July 1, 2019).
 
 [^Unicode]: See <https://en.wikipedia.org/wiki/Unicode#Origin_and_development>.
 
