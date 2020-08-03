@@ -199,7 +199,6 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice.
 - ———. “let,” MDN web docs. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let.
 - ———. “var,” MDN web docs. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var.
-- "MrBluesbyrd." November 7, 2011. <https://www.youtube.com/watch?v=w6XQQhCgq5c>.
 - “Objects.” p5.js. <https://p5js.org/examples/objects-objects.html>.
 - Ong, Walter J.. *Orality and Literacy: The Technologizing of the Word*. London, UK: Routledge, 2002.
 - O’Sullivan, Simon. “On the Diagram (and a Practice of Diagrammatics).” In *Situational Diagram*. Edited by Karin Schneider and Begum Yasar, 13-25. New York, NY: Dominique Lévy, 2016.
