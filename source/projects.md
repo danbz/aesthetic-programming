@@ -52,6 +52,7 @@ page_order: 13
 - ———. *12 Hours of ImageNet*. Premiered on 5 Nov 2019. <https://www.youtube.com/watch?v=PC60JL-lMzA>.
 - McCarthy, Lauren. *p5.js*. 2014. <https://lauren-mccarthy.com/p5-js>.
 - ———. *LAUREN*. 2017. <https://lauren-mccarthy.com/LAUREN>.
+- Montfort, Nick. *Memory Slam*. <https://nickm.com/memslam/>.
 - Nagayama, Tomokazu (@nagayama). “すべりこみ,” Twitter, April 3, 2020, 4:44 p.m.. <https://twitter.com/nagayama/status/1246086230497845250?s=19>.
 - ———. “daily coding,” Github. <https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html>.
 - Node.js, Open JS Foundation. <https://nodejs.org/en/>.
