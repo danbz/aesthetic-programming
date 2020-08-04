@@ -45,7 +45,7 @@ page_order: 12
 - Boluk, Stephanie, Leonardo Flores, Gacob Garbe, and Anastasia Salter, eds.. *Electronic Literature Collection: Volume Three*. Cambridge, MA: Electronic Literature Organization, 2016. <http://collection.eliterature.org/3/>.
 - Borràs, Laura, Talan Memmott, Rita Raley, and Brian Stefans, eds.. *Electronic Literature Collection: Volume Two*. Cambridge, MA: Electronic Literature Organization, 2011. <http://collection.eliterature.org/2/>.  
 - Brock, Kevin. *Rhetorical Code Studies: Discovering Arguments in and around Code*. Ann Arbor, MI: University of Michigan Press, 2019.
-- Broeckmann, Andreas. "Software Art Aesthetics," *Mono* 1 (2006): 158-167.
+- Broeckmann, Andreas. "Software Art Aesthetics," *Mono* 1 (2007): 158-167.
 - Bucher, Taina. *If...Then: Algorithmic Power and Politics*. Oxford, UK: Oxford University Press, 2018.
 - Buolamwini, Joy. “Response: Racial and Gender Bias in Amazon Recognition — Commercial AI System for Analyzing Faces.” *Medium*, 2019. <https://medium.com/@Joy.Buolamwini/response-racial-and-gender-bias-in-amazon-rekognition-commercial-ai-system-for-analyzing-faces-a289222eeced>.
 - Butler, Judith. *Excitable Speech: A Politics of the Performative*. London, UK: Routledge, 1997.
