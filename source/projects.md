@@ -1,4 +1,4 @@
-Title: Projects
+Title: List of Projects
 page_order: 13
 
 ## List of Projects (artworks, software, exhibitions):
@@ -86,6 +86,7 @@ page_order: 13
 - Visti, Anders, and Tobias Stenberg. *WUOUS: Wrocław Urban Operating System*. 2019. <https://andersvisti.dk/work/wuos-2019>.
 - Ward, Adrian. *Auto-Illustrator*. 2002. <http://www.medienkunstnetz.de/works/autoillustrator/>.
 - “wholepixel / solving-sol.” Github. <https://github.com/wholepixel/solving-sol/blob/master/289/cagrimmett/index.html>.
+- Witt, Sol Le. *Wall Drawing #289*. 1976.
 - “Wordnet: A Lexical Database for English.” Princeton University. <https://wordnet.princeton.edu/>.
 - Žilák, Martin. "recursive fractal tree in p5.js." <https://editor.p5js.org/marynotari/sketches/BJVsL5ylz>.
 

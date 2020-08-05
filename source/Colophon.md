@@ -1,4 +1,4 @@
-AESTHETIC PROGRAMMING<br>
+**AESTHETIC PROGRAMMING**<br>
 A Handbook of Software Studies
 
 Winnie Soon and Geoff Cox
@@ -7,7 +7,7 @@ Published by Open Humanities Press 2020<br>
 https://openhumanitiespress.org/
 
 Liquid/Living Books<br>
-Series Editors: Gary Hall 
+Series Editors: Gary Hall
 
 http://aesthetic-programming.osp.kitchen/<br>
 https://gitlab.com/siusoon/Aesthetic_Programming_Book/
@@ -26,5 +26,3 @@ Figures, text and other media included within this book may be under different c
 
 ISBN (print): ????????? <br>
 ISBN (PDF): ???????
-
-
