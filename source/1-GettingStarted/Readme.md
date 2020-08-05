@@ -1,7 +1,6 @@
 Title: 1. Getting Started
 page_order: 1
 
-## 1. Getting Started
 ![flowchart](ch1_0.svg)
 
 ## setup()

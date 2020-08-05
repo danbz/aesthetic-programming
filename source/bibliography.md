@@ -1,7 +1,6 @@
 Title: Bibliography
 page_order: 12
 
-## Bibliography
 
 - 1001 Free Fonts. <https://www.1001freefonts.com/>.
 - “A Beginner's Guide to Neural Networks and Deep Learning.” Pathmind. <https://pathmind.com/wiki/neural-network#define>.

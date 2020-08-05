@@ -1,7 +1,6 @@
 Title: 10. Machine Learning
 page_order: 10
 
-## Machine Learning
 ![flowchart](ch10_0.svg)
 
 ## setup()

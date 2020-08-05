@@ -1,7 +1,6 @@
 Title: 5. Object Abstraction
 page_order: 5
 
-## Object Abstraction
 ![flowchart](ch6_0.svg)
 
 ## setup()

@@ -2,7 +2,6 @@ Title: 2. Variable Geometry
 Order: 2
 page_order: 2
 
-## Variable Geometry
 ![flowchart](ch2_0.svg)
 
 ## setup()
@@ -24,7 +23,7 @@ Our point is that using emojis may be fun and expressive, but they also tend to 
 
 *Figure 2.1: Multi by David Reinfurt. Image Courtesy of the artist.*
 
-*[Multi](http://www.o-r-g.com/apps/multi)*,[^Multi] is inspired by another designer Enzo Mari who spent a whole year in 1957 exploring the essential form of an object (an apple, the universal apple we might add). Reinfurt explains that, "He was not looking to draw AN apple, but rather THE apple — a perfect symbol designed for the serial logic of industrial reproduction." *Multi* develops a variation of this idea for informational reproduction in the form of a mobile app with 1,728 possible arrangements, or facial compositions, built from minimal punctuation glyphs. But instead of using preset typographic characters, which admittedly is the conceptual charm of *Multi*, for our purpose we will draw these from scratch with foundational elements of geometry.
+*[Multi](http://www.o-r-g.com/apps/multi)*,[^multi] is inspired by another designer Enzo Mari who spent a whole year in 1957 exploring the essential form of an object (an apple, the universal apple we might add). Reinfurt explains that, "He was not looking to draw AN apple, but rather THE apple — a perfect symbol designed for the serial logic of industrial reproduction." *Multi* develops a variation of this idea for informational reproduction in the form of a mobile app with 1,728 possible arrangements, or facial compositions, built from minimal punctuation glyphs. But instead of using preset typographic characters, which admittedly is the conceptual charm of *Multi*, for our purpose we will draw these from scratch with foundational elements of geometry.
 
 ## Source code
 ![](ch2_2.gif)
@@ -151,15 +150,15 @@ The above is the excerpt from the full code required to draw two different sized
 
 1. **Declare:** Think of a name for the container you want to store the value in (it should make sense to you and others to read, but of course there is scope for a conceptual approach here). Declare with the syntax "let" in front.[^let]  
 There are certain rules to follow in naming variables:
-- Names should begin with a lowercase string and not with a number or symbols.
-- Names can contain a mix of uppercase and lower case strings, and numbers.
-- Names cannot contain symbols.
+    - Names should begin with a lowercase string and not with a number or symbols.
+    - Names can contain a mix of uppercase and lower case strings, and numbers.
+    - Names cannot contain symbols.
 
 2. **Initialize/Assign:** What is it that you want to store? A number? By assigning a value, you will need to use the equal sign. There are four data types that are useful to know at this introductary level:
-- *number* for numbers of any kind: integer or floating-point.
-- *string* for strings. A string may have one or more characters and it has to be used with double or single quotation marks. For example: `let moving_size = "sixty";`
-- *boolean* for true/false. For example: `let moving_size = true;`
-- *color* for color values. This accepts Red, Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` (see more from the [p5.js color reference](https://p5js.org/reference/#/p5/color)[^color]
+    - *number* for numbers of any kind: integer or floating-point.
+    - *string* for strings. A string may have one or more characters and it has to be used with double or single quotation marks. For example: `let moving_size = "sixty";`
+    - *boolean* for true/false. For example: `let moving_size = true;`
+    - *color* for color values. This accepts Red, Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` (see more from the [p5.js color reference](https://p5js.org/reference/#/p5/color)[^color]
 
 3. **(Re)Use:** How and when do you want to retrieve the stored data? If the variable changes over time, you may wish to reuse it many times.
 
@@ -378,7 +377,7 @@ Explore shapes, geometries, and other related syntax (via p5.js [references](htt
 
 [^color]: See p5.js color reference, <https://p5js.org/reference/#/p5/color>.
 
-[^Emojis2]: See <https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/>.
+[^emojis2]: See <https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/>.
 
 [^playground]: See the tool p5.playground developed by Yining Shi, <https://1023.io/p5-inspector/>.
 

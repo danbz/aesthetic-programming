@@ -1,7 +1,6 @@
 Title: 6. Auto-Generator
 page_order: 6
 
-## Auto-Generator
 ![flowchart](ch5_0.svg)
 
 ## setup()

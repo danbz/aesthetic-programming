@@ -1,7 +1,6 @@
 Title: 7. Vocable Code
 page_order: 7
 
-## 7. Vocable Code
 ![flowchart](ch7_0.svg)
 
 ## setup()

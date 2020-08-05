@@ -1,7 +1,6 @@
 Title: 4. Data Capture
 page_order: 4
 
-## Data Capture
 ![flowchart](ch4_0.svg)
 
 ## setup()

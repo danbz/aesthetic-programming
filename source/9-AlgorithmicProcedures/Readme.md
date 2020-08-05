@@ -1,7 +1,6 @@
 Title: 9. Algorithmic Procedures
 page_order: 9
 
-## Algorithmic Procedures
 ![flowchart](ch9_0.svg)
 
 ## setup()

@@ -1,7 +1,6 @@
 Title: 3. Infinite Loops
 page_order: 3
 
-## 3. Infinite Loops
 ![flowchart](ch3_0.svg)
 
 ## setup()
