@@ -2,6 +2,7 @@ Title: 11. Afterword: Recurrent Imaginaries
 page_order: 11
 
 ## Afterword: Recurrent Imaginaries[^title]
+![flowchart](afterword.svg)
 
 //machine generated text
 

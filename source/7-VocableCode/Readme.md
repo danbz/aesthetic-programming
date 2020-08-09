@@ -178,7 +178,7 @@ function draw() {
 ```
 *Figure 7.6: Snippets of Vocable Code concerning the third conditional structure*
 
-Figure 7.6 shows two conditional statements in the function `draw()`. The first if-statement checks for texts that are off canvas. This has to be done continuously because the off-screen text instances (objects) will be removed (using `splice`) to avoid unwanted elements/objects continuing to exist in the program (as was the case with the Packman-tofu game in Chapter 6, "Object Abstraction"). The second if-statement checks how many texts remain on screen. If the screen contains less than or equal to two texts, then it will generate new texts with the function `makeVisible()`.
+Figure 7.6 shows two conditional statements in the function `draw()`. The first if-statement checks for texts that are off canvas. This has to be done continuously because the off-screen text instances (objects) will be removed (using `splice`) to avoid unwanted elements/objects continuing to exist in the program (as was the case with the Eating-tofu game in Chapter 6, "Object Abstraction"). The second if-statement checks how many texts remain on screen. If the screen contains less than or equal to two texts, then it will generate new texts with the function `makeVisible()`.
 
 ```javascript
 //line 86
