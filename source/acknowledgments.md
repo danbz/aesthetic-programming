@@ -22,7 +22,7 @@ let thankYou =
      "John P. Bell - for providing permission to reapproriate his artwork",
      "Cornelia Sollfrank - for providing information and discussing her work",
      "Daniel Shiffman - for the excellent online instructional videos",
-     "Person - message"
+     "Anyone else we might have forgotten, sorry"
 ];
 
 function draw() {
