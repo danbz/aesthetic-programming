@@ -4,13 +4,12 @@ page_order: -2
 ```javascript
 let thankYou =
     ["Each other - for an excellent collaboration",
-     "Loren Britton - for copyediting and helpful comments",
+     "Loren Britton - for copyediting and helpful critical comments",
      "Lauren McCarthy - for critical comments on the draft, and endorsement",
      "Matthew Fuller - for inspiration, and endorsement",
      "Søren Pold - for critical comments",
-     "Gary Hall - for support to publish in experimental form",
-     "Open Humanties Press, Gary, Sigi Jöttkandt and David Ottina - in support of publishing",
-     "Open Source Publishing, Gijs and Stehanie - for design and workshopping",
+     "Open Humanties Press, Gary Hall, Sigi Jöttkandt and David Ottina - in support of publishing in experiemntal form",
+     "Open Source Publishing, Stéphanie Vilayphiou and Gijs de Heij - for design and workshopping",
      "p5.js community - for the contribution of promoting coding and visual literacy via open source tools and documentation",
      "Magda Tyżlik-Carver and Christian Ulrik Andersen - for teaching Software Studies course in parallel to Aesthetic Programming",
      "Instructors of AP: Frederik Westergaard, Nils Rungholm Jensen, Tobias Stenberg, Malthe Stavning Erslev, Ann Karring, Simone Morrison, Nynne Lucca Christianen, Ester Marie Aagaard, and Noah Aamund - for keeping the class learning momentum and assisting the course",
