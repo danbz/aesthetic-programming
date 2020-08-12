@@ -18,7 +18,7 @@ let thankYou =
      "Anders Visti - for inspiring us to include the example of Langton's Ant and many other small details",
      "Joan Truckenbrod - for providing information and discussing her work",
      "Ben Grosser - for providing information and discussing his work",
-     "Joana Chicau and Jonathan Reus- for the excellent workshop conducted at Aarhus University",
+     "Joana Chicau and Jonathan Reus - for the excellent workshop conducted at Aarhus University",
      "John P. Bell - for providing permission to reapproriate his artwork",
      "Cornelia Sollfrank - for providing information and discussing her work",
      "Daniel Shiffman - for the excellent online instructional videos",
