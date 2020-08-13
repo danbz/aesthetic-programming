@@ -61,6 +61,7 @@ page_order: 13
 - Open Source Publishing (OSP). <http://osp.kitchen/>.
 - Øygard, Audun M..*clmtrackr*. 2017. <https://github.com/auduno/clmtrackr>.
 - Pritchard, Helen, and Winnie Soon. *Recurrent Queer Imaginaries*. Exhibition Research Lab, Liverpool John Moores University — School of Art and Design, November 2019 – January 2020. <https://www.exhibition-research-lab.co.uk/exhibitions/recurrent-queer-imaginaries/>.
+- ———. *Recurrent Queer Imaginaries*, Digital Power, ACM SIGGRAPH, 2020, <https://digital-power.siggraph.org/piece/recurrent-queer-imaginaries/>.
 - Process Studio. *AImoji*. 2019. <https://process.studio/works/aimoji-ai-generated-emoji/>.
 - “processing/p5.js.” Github. <https://github.com/processing/p5.js/wiki>.
 - Queer AI. <https://queer.ai/>.
