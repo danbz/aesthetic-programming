@@ -363,7 +363,7 @@ The README should address the following questions with the help of your source c
 
 - Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>.
 - Geoff Cox, "Ways of Machine Seeing," *A Peer-Reviewed Journal About* 6, no. 1, April 1, (2017): 8–15, <https://doi.org/10.7146/aprja.v6i1.116007>.
-- Yuval Noah Harari, Audrey Tang, and Puja Ohlhaver, "To be or not to be hacked? The Future of democracy, work, and identity," *RADICALxChange* (2020),<https://www.youtube.com/watch?v=tRVEY95cI0o>.
+- Yuval Noah Harari, Audrey Tang, and Puja Ohlhaver, "To be or not to be hacked? The Future of democracy, work, and identity," *RADICALxChange* (2020), <https://www.youtube.com/watch?v=tRVEY95cI0o>.
 
 ## Further reading
 
@@ -408,9 +408,9 @@ The README should address the following questions with the help of your source c
 
 [^dataset]: For more on the significance of, and problems related to, datasets, see Nicolas Malevé's "An Introduction to Image Datasets", *Unthinking Photography* (2019), <https://unthinking.photography/articles/an-introduction-to-image-datasets>.
 
-[^tm1]: [^tm1]: Inspired originally by Rebecca Fiebrink's Wekinator (2009), which is a free and open source software on machine learning for artists and musicians, "Teachable Machine 1.0" (2017) as an experimental project by Støg, Use All Five and Creative Lab and PAIR teams at Google, built upon the free and open source tensorflow.js library, which is developed by the Google Brain team within Google’s AI organization, for preprocessing data, building machine learning models and structures. "Teachable Machine 2.0" allows users to train their models and export them for further use. See <http://www.wekinator.org/>.
+[^tm1]: Inspired originally by Rebecca Fiebrink's Wekinator (2009), which is a free and open source software on machine learning for artists and musicians, "Teachable Machine 1.0" (2017) as an experimental project by Støg, Use All Five and Creative Lab and PAIR teams at Google, built upon the free and open source tensorflow.js library, which is developed by the Google Brain team within Google’s AI organization, for preprocessing data, building machine learning models and structures. "Teachable Machine 2.0" allows users to train their models and export them for further use. See <http://www.wekinator.org/>.
 
-[^imagenet]: More information about ImageNet can be found at <http://image-net.org/about-overview>.>.
+[^imagenet]: More information about ImageNet can be found at <http://image-net.org/about-overview>.
 
 [^net]: Wordnet is a lexical database of semantic relations between words, see <https://wordnet.princeton.edu/>.
 
@@ -458,7 +458,7 @@ The README should address the following questions with the help of your source c
 
 [^suchman]: Maria Puig de la Bellacasa quotes Lucy Suchman's phrase "smart assistants" (her term for autonomous or smart agents) that manage to strike a balance between autonomy, on the one hand, and what we want from them on the other. Rather than reinforcing the ideal of the independent, self-motivated, entrepreneurial worker, and making the work of the assistant relatively invisible, she wants to highlight the "mediating agencies that would not easily appear in descriptions that foreground the success of the technology [and, quoting Suchman,] the hidden labors and unruly contingencies that exceed its bounds.” Bellacasa wants to draw attention to what is neglected, the so-called "petty doings of things" as she puts it, to "more affectively changed connotations, notably those of trouble, worry and care." Maria Puig de la Bellacasa, "Matters of Care in Technoscience: Assembling Neglected Things," in *Social Studies of Science* 41, no. 1 (2010), 92-3, 89.
 
-[^pedagogy1]: The Fei Fei Li quote is taken from Nicolas Malevé's article, "'The cat sits on the bed': Pedagogies of vision in human and machine learning", **Unthinking Photography** (2016), <https://unthinking.photography/articles/the-cat-sits-on-the-bed-pedagogies-of-vision-in-human-and-machine-learning>.
+[^pedagogy1]: The Fei Fei Li quote is taken from Nicolas Malevé's article, "'The cat sits on the bed': Pedagogies of vision in human and machine learning", *Unthinking Photography* (2016), <https://unthinking.photography/articles/the-cat-sits-on-the-bed-pedagogies-of-vision-in-human-and-machine-learning>.
 
 [^pedagogy2]: Malevé, "'The cat sits on the bed'."
 
