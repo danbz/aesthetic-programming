@@ -352,4 +352,4 @@ Make a RUNME and a README.
 
 [^class]: See, <https://p5js.org/reference/#/p5/class>.
 
-[^laczko]: Artist Juli Laczko's research and practice address the issue of gender and stereotyping in the history of computing. One of the examples is the artwork *webmachine*, which is a reversed analog weaving computer. It is a piece of software online that uses the technology of punch card weaving to translate a binary tet into visual code. The project looks into the history and labor practices of weaving and further critiques how culture reinforces stereotypes in computing. See, <https://digital-power.siggraph.org/piece/webmachine/>
+[^laczko]: Artist Juli Laczko's research and practice address the issue of gender and stereotyping in the history of computing. One of the examples is the artwork *webmachine*, which is a reversed analog weaving computer. It is an online software piece that uses the technology of punch card weaving to translate a binary text into visual code. The project looks into the history and labor practices of weaving and further critiques how culture reinforces stereotypes in computing. See, <https://digital-power.siggraph.org/piece/webmachine/>

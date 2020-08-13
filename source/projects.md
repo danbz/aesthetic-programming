@@ -43,7 +43,7 @@ page_order: 13
 - Kearney-Volpe, Claire, Govindarajan, Mathura, and Morales-Navarro, Luis. *p5.js Web Editor*. 2018. <https://editor.p5js.org/>.
 - Kearney-Volpe, Claire. “p5.js access project.” <https://www.clairekv.com/p5js-ux-research>.
 - Knowles, Alison, and James Tenney. *A House of Dust*. 1967. Re-implemented by Nick Montfort. *For Memory Slam*. 2014. <https://nickm.com/memslam/a_house_of_dust.html>.
-- Laczko, Juli. *webmachines*. Digital Power, ACM SIGGRAPH, 2020. <https://digital-power.siggraph.org/piece/webmachine/>.
+- Laczko, Juli. *webmachines*, Digital Power, ACM SIGGRAPH, 2020. <https://digital-power.siggraph.org/piece/webmachine/>.
 - Landsteiner, Norbert. *elizabot.js*. 2005. <https://www.masswerk.at/elizabot/>.
 - ———. *E.L.I.Z.A Talking*. 2013. <https://www.masswerk.at/eliza/>.
 - Li, Fei-Fei, Jia Deng, Olga Russakovsky, Alex Berg, Kai Li. *ImageNet*. <http://image-net.org/>.
