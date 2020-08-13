@@ -90,9 +90,10 @@ page_order: 12
 - Education Working Group. “A Field Guide to Debugging.” p5.js. <https://p5js.org/learn/debugging.html>.
 - Eglash, Ron. *African Fractals: Modern Computing and Indigenous Design*. New Brunswick, NJ: Rutgers University Press, 1999.
 - ———. "Broken Metaphor: The Master-Slave Analogy in Technical Literature." *Technology and Culture* 48, no. 2 (April 2007): 360-369.
+- Ensmenger, Nathan. “The Multiple Meanings of a Flowchart.” *Information & Culture: A Journal of History* 51 (2016): 321–351. 
 - Ernst, Wolfgang. *Chronopoetics: The Temporal Being and Operativity of Technological Media*. London, UK: Rowman & Littlefield International, 2016.
 - ———. “'... Else Loop Forever'. The Untimeliness of Media.” Il Senso della Fine, Università degli Studi di Urbino, Centro Internazionale di Semiotica e Linguistica. September, 2009. <https://www.musikundmedien.hu-berlin.de/de/medienwissenschaft/medientheorien/ernst-in-english/pdfs/medzeit-urbin-eng-ready.pdf>.
-- Ensmenger, Nathan. “The Multiple Meanings of a Flowchart.” *Information & Culture: A Journal of History* 51 (2016): 321–351.
+- Eshun, Kodwo. "Further Considerations on Afrofuturism." *CR The New Centennial Review* 3, no.2 (2003): 287-302.
 - Faber, Liz W.. *The Computer's Voice: From Star Trek to Siri*. Minneapolis, MN: University of Minnesota Press, 2020.
 - Facebook, Inc.. United States Securities and Exchange Commission, Form S-1 Registration Statement. Last updated February 1, 2012. <https://infodocket.files.wordpress.com/2012/02/facebook_s1-copy.pdf>.
 - Fazi, Beatrice M., and Matthew Fuller. “Computational Aesthetics.” In *A Companion to Digital Art*. Edited by Christiane Paul, 281-296. Hoboken, NJ: Wiley Blackwell, 2016.
