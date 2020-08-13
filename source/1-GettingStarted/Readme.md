@@ -306,7 +306,7 @@ Make a RUNME and a README.
 
 [^print]: <https://p5js.org/reference/#/p5/print>.
 
-[^Chun2]: Wendy Hui Kyong Chun and Andrew Lison argue the first "Hello World" program we learn is enjoyable and seductive. We will say more about this in the following chapter. See Wendy Hui Kyong Chun and Andrew Lison, "Fun is a Battlefield: Software between Enjoyment and Obsession," in Olga Goriunova, ed., *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing* (New York, London: Bloomsbury, 2014), 180.
+[^Chun2]: Wendy Hui Kyong Chun and Andrew Lison argue the first "Hello World" program we learn is enjoyable and seductive. We will say more about this in the following chapter. See Chun and ison, "Fun is a Battlefield: Software between Enjoyment and Obsession," in Olga Goriunova, ed., *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing* (New York, London: Bloomsbury, 2014), 180.
 
 [^Hello]: *hallo welt! (hello world!)* was a collaboration between Geoff Cox and Duncan Shingleton, see <http://www.anti-thesis.net/hello-world-60/>.
 
@@ -352,4 +352,4 @@ Make a RUNME and a README.
 
 [^class]: See, <https://p5js.org/reference/#/p5/class>.
 
-[^laczko]: Artist Juli Laczko's research and practice address the issue of gender and stereotyping in the history of computing. One of the examples is the artwork *webmachine*, which is a reversed analog weaving computer. It is an online software piece that uses the technology of punch card weaving to translate a binary text into visual code. The project looks into the history and labor practices of weaving and further critiques how culture reinforces stereotypes in computing. See, <https://digital-power.siggraph.org/piece/webmachine/>
+[^laczko]: Artist Juli Laczko's research and practice address the issue of gender and stereotyping in the history of computing. One of the examples is the artwork *webmachine*, which is a reversed analog weaving computer. It is an online software piece that uses the technology of punch card weaving to translate a binary text into visual code. The project looks into the history and labor practices of weaving and further critiques how culture reinforces stereotypes in computing. See <https://digital-power.siggraph.org/piece/webmachine/>
