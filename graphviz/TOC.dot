@@ -14,7 +14,7 @@ OSP [label="Open Source Publishing"]
 8 [label="8. Que(e)ry Data"]
 9 [label="9. Algorithmic Procedures"]
 10 [label="10. Machine Learning"]
-11 [label="11. Afterword: Recurrent Imaginaries"]
+11 [label="Afterword: Recurrent Imaginaries"]
 Bi [label="Bibliography"]
 Project [label="List of Projects"]
 Ind [label="Index"]
@@ -26,5 +26,6 @@ TOC -> Ack -> OSP -> 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7;
 0 -> 11 [dir=both];
 2 -> 6 [dir=both];
 1,2,3,4,5,6,7,8,9 -> 11;
+10 -> 5;
 2 -> 4 -> 8 -> 10[dir=both];
 }
