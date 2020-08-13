@@ -87,7 +87,7 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 
 [^Tsing]: Anna Lowenhaupf Tsing, *The Mushroom at the End of the World: On the Possibility of Life in Capitalist Ruin*s (Princeton: Princeton University Press, 2015).
 
-[^Tsing]: Tsing, *The Mushroom at the End of the World*, 23. 
+[^Tsing2]: Tsing, *The Mushroom at the End of the World*, 23. 
 
 [^Chun]: Wendy Chun has studied both Systems Design Engineering and English Literature, which she combines and mutates in her current work, see <https://en.wikipedia.org/wiki/Wendy_Hui_Kyong_Chun>. Yuk Hui studied both Computer Engineering and Philosophy, see <http://digitalmilieu.net/yuk/>. 
 
