@@ -88,7 +88,7 @@ page_order: 12
 - “diagrammatic thinking.” Rocco Gangle, frequencies a collaborative genealogy of spirituality. Last updated December 19, 2011. <http://frequencies.ssrc.org/2011/12/19/diagrammic-thinking/>.
 - “Download.” p5.js. <https://p5js.org/download/>.
 - Education Working Group. “A Field Guide to Debugging.” p5.js. <https://p5js.org/learn/debugging.html>.
-- Eglash, Ron. *African Fractals: Modern Computing and Indigenous Design*. New Brunswick, New Jersey, and London: Rutgers University Press, 1999.
+- Eglash, Ron. *African Fractals: Modern Computing and Indigenous Design*. New Brunswick, NJ: Rutgers University Press, 1999.
 - ———. "Broken Metaphor: The Master-Slave Analogy in Technical Literature." *Technology and Culture* 48, no. 2 (April 2007): 360-369.
 - Ernst, Wolfgang. *Chronopoetics: The Temporal Being and Operativity of Technological Media*. London, UK: Rowman & Littlefield International, 2016.
 - ———. “'... Else Loop Forever'. The Untimeliness of Media.” Il Senso della Fine, Università degli Studi di Urbino, Centro Internazionale di Semiotica e Linguistica. September, 2009. <https://www.musikundmedien.hu-berlin.de/de/medienwissenschaft/medientheorien/ernst-in-english/pdfs/medzeit-urbin-eng-ready.pdf>.
@@ -322,14 +322,14 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - “Systemics #2: As we may think (or, the next world library).” Exihibition curated by Joasia Krysa at Kunsthal Aarhus, *e-flux*. Last modified November 7, 2013. <https://www.e-flux.com/announcements/31936/systemics-2-as-we-may-think-or-the-next-world-library/>.
 - “The Cambridge Analytica Files.” *The Guardian*. <https://www.theguardian.com/news/series/cambridge-analytica-files>.
 - "The Tower of Babel." *Genesis* 2, no. 19 & 11, no. 1-9.
+- Terranova, Tiziana. “Red Stack Attack! Algorithms, Capital and the Automation of the Common.” *EuroNomade*. Last updated March 8, 2014. <http://www.euronomade.info/?p=2268>.
 - Titcomb, James. “New 'gender equality' emoji to show women at work.” *The Telegraph*. Last updated July 15, 2016. <https://www.telegraph.co.uk/technology/2016/07/15/new-gender-equality-emoji-to-show-women-at-work/>.
+- Torvalds, Linus, and David Diamond. *Just for Fun: The Story of an Accidental Revolutionary*. Knutsford, UK: Texere Publishing, 2001.
 - Truckenbrod, Joan. “Joan Truckenbrod.” Vimeo, 4:29. Last Updated August 27, 2018. <https://vimeo.com/286993496>.
+- Tsing, Anna Lowenhaupt. *The Mushroom at the End of the World: On the Possibility of Life in Capitalist Ruins*. Princeton, NJ: Princeton University Press, 2017.
 - Turing, Alan Mathison. “The Chemical Basis of Morphogenesis.” *Philosophical Transactions of the Royal Society of London B*, (August 14, 1952): 37–72.
 - ———. “Computing Machinery and Intelligence,” *Mind* 49 (1950): 433–460.
 - ———. “On Computable Numbers, with an Application to the Entscheidungs problem.” Proceedings of the London Mathematical Society 2, no. 1 (1937): 230-265.
-- Torvalds, Linus, and David Diamond. *Just for Fun: The Story of an Accidental Revolutionary*. Knutsford, UK: Texere Publishing, 2001.
-- Terranova, Tiziana. “Red Stack Attack! Algorithms, Capital and the Automation of the Common.” *EuroNomade*. Last updated March 8, 2014. <http://www.euronomade.info/?p=2268>.
-- Tsing, Anna Lowenhaupt. *The Mushroom at the End of the World: On the Possibility of Life in Capitalist Ruins*. Princeton, NJ: Princeton University Press, 2017.
 - Umali, Teressa. “Exclusive: Promoting Digital Literacy in the Philippine Education System.” OpenGov Asia. Last updated August 8, 2019. <https://www.opengovasia.com/promoting-digital-literacy-in-the-philippine-education-system/>.
 - Vee, Annette. *Coding Literacy: How Computer Programming Is Changing Writing*. Cambridge, MA: MIT Press, 2017.
 - Valenzuela, Cristóbal. “Paperspace/training-lstm.” Github. <https://github.com/Paperspace/training-lstm>.
