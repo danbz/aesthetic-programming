@@ -3,7 +3,7 @@
 let thankYou =
     ["Each other - for an excellent collaboration",
      "Loren Britton - for copyediting and helpful critical comments",
-     "Lauren McCarthy - for critical comments on the draft, and endorsement",
+     "Lauren McCarthy - for inspiration, critical comments on the draft, and endorsement",
      "Matthew Fuller - for inspiration, and endorsement",
      "Søren Pold - for critical comments",
      "Open Humanties Press, Gary Hall, Sigi Jöttkandt and David Ottina - in support of publishing in experiemntal form",
