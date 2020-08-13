@@ -61,7 +61,7 @@ This book was developed over the past five years through the actual setting of c
 
 Finally we would like to stress that this book is not simply the physical object that you might be holding in your hands as you read these words, but a computational and networked object, distributed across various other spaces and temporalities, made available to both readers and writers alike. In saying this we reference Benjamin again, and his essay "The Author as Producer" in which he writes: "The reader is always prepared to become a writer, in the sense of being one who describes or prescribes. [...] And writing about work makes up part of the skill necessary to perform it. Authority to write is no longer founded in a specialist training but in a polytechnical one, and so becomes common property."[^Benjamin2] Interestingly, for Benjamin, as with this book, cultural production requires a pedagogic function. 
 
-That is precisely our point. The book expresses itself as a dynamic object not fixed in terms of attribution or commodity form. It follows that, although this preface is only the beginning of the book, there can be no end: this book is purposefully stuck in an endless loop of its own becoming.
+That is precisely our point. The book expresses itself as a dynamic object not fixed in terms of attribution or commodity form or specific determination. It follows that, although this preface is only the beginning of the book, there can be no end: this book is purposefully stuck in an endless loop of its own becoming.
 
 ## Notes
 
