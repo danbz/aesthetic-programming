@@ -1,9 +1,5 @@
-Title: Acknowledgments
-page_order: -2
+//open the web browser console
 
-[RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/acknowledgement/)
-
-```javascript
 let thankYou =
     ["Each other - for an excellent collaboration",
      "Loren Britton - for copyediting and helpful critical comments",
@@ -15,7 +11,7 @@ let thankYou =
      "p5.js community - for the contribution of promoting coding and visual literacy via open source tools and documentation",
      "Magda Tyżlik-Carver and Christian Ulrik Andersen - for teaching Software Studies course in parallel to Aesthetic Programming",
      "Instructors of AP: Frederik Westergaard, Nils Rungholm Jensen, Tobias Stenberg, Malthe Stavning Erslev, Ann Karring, Simone Morrison, Nynne Lucca Christianen, Ester Marie Aagaard, and Noah Aamund - for keeping the class learning momentum and assisting the course",
-     "Simon Katan and Theodoros Papatheodorou from Goldsmiths, University of London - for allowing us to observe the programming class across levels",
+     "Simon Katan and Theodoros Papatheodorou from Goldsmiths, University of London - for allowing one of us to observe the programming class across levels",
      "Helen Pritchard - for hosting one of us in order to complete the book"
      "Anders Visti - for inspiring us to include the example of Langton's Ant and many other small details",
      "Joan Truckenbrod - for providing information and discussing her work",
@@ -30,4 +26,3 @@ let thankYou =
 function draw() {
   print(random(thankYou));
 }
-```
