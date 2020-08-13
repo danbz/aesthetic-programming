@@ -12,7 +12,7 @@ let thankYou =
      "Magda Tyżlik-Carver and Christian Ulrik Andersen - for teaching Software Studies course in parallel to Aesthetic Programming",
      "Instructors of AP: Frederik Westergaard, Nils Rungholm Jensen, Tobias Stenberg, Malthe Stavning Erslev, Ann Karring, Simone Morrison, Nynne Lucca Christianen, Ester Marie Aagaard, and Noah Aamund - for keeping the class learning momentum and assisting the course",
      "Simon Katan and Theodoros Papatheodorou from Goldsmiths, University of London - for allowing one of us to observe the programming class across levels",
-     "Helen Pritchard - for hosting one of us in order to complete the book"
+     "Helen Pritchard - for hosting one of us in order to complete the book",
      "Anders Visti - for inspiring us to include the example of Langton's Ant and many other small details",
      "Joan Truckenbrod - for providing information and discussing her work",
      "Ben Grosser - for providing information and discussing his work",
@@ -21,7 +21,7 @@ let thankYou =
      "Cornelia Sollfrank - for providing information and discussing her work",
      "Daniel Shiffman - for the excellent online instructional videos",
      "Anyone else we might have forgotten, sorry"
-];
+   ];
 
 function draw() {
   print(random(thankYou));
