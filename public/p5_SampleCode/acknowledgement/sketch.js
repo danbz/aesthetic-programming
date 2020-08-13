@@ -26,3 +26,7 @@ let thankYou =
 function draw() {
   print(random(thankYou));
 }
+
+function setup() {
+  frameRate(3);
+}
