@@ -40,7 +40,7 @@ If we were to draw an ellipse in white color at the x and y coordinate 100 and 1
 
 >"Generative art refers to any art practice where [sic] artists use a system, such as a set of natural languages, rules, a computer program, a machine, or other procedural invention, which is set into motion with some degree of autonomy contributing to or resulting in a completed work of art."[^galanter]
 
-As we can see this definition does not limit itself to the use of computers and this is important to bear in mind as we proceed to focus on our sample code. The following two examples explore rule-based programs that address some of these issues of auto-generation, but as in previous examples we are interested in the wider implications that include hidden labor, and other issues concerning autonomy.
+This definition does not limit itself to the use of computers and this is important to bear in mind as we proceed to focus on our sample code. The following two examples explore rule-based programs that address some of these issues of auto-generation, but as in previous examples we are interested in the wider implications that include hidden labor, and other issues concerning autonomy.
 
 ## start()
 
@@ -332,9 +332,9 @@ Artist David Link built a functional replica of both the hardware and the origin
 - [Daily Art](http://www.sasj.nl/daily/) by Saskia Freeke
 - [Generative Artistry by Ruth John and Tim Holman ](https://generativeartistry.com/tutorials/)
 - [Generative Design - sketches](http://www.generative-gestaltung.de/2/), [source code](https://github.com/generative-design/Code-Package-p5.js)
-- [GenArt (with source code)](https://github.com/JosephFiola/GenArt) by JosephFiola, see Chapters 1-4
+- [GenArt (with source code)](https://github.com/JosephFiola/GenArt) by Joseph Fiola, see Chapters 1-4
 - [John Conway's Game of Life](https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/)
-- [The Recode Project](http://recodeproject.com/) and [Memory Slam](http://nickm.com/memslam/) by Nick Montfort.
+- [The Recode Project](http://recodeproject.com/) and [Memory Slam](http://nickm.com/memslam/) by Nick Montfort
 - [Solving Sol project - An open project to implement Sol LeWitt's instructions in JavaScript by Brad Bouse](https://github.com/wholepixel/solving-sol)
 
 **Tasks (RUNME):**
