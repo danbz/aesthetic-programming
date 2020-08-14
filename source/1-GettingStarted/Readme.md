@@ -354,4 +354,4 @@ Make a RUNME and a README.
 
 [^laczko]: Artist Juli Laczko's research and practice address the issue of gender and stereotyping in the history of computing. One of the examples is the artwork *webmachine*, which is a reversed analog weaving computer. It is an online software piece that uses the technology of punch card weaving to translate a binary text into visual code. The project looks into the history and labor practices of weaving and further critiques how culture reinforces stereotypes in computing. See <https://digital-power.siggraph.org/piece/webmachine/>
 
-[^student]: This is also reflected by one of the students' comment after taking the course Aesthetic Programming in 2017, "code is not a gentlmen club that only belongs to computer scientists."
+[^student]: This is also reflected in the Aesthetic Programming course feedback in 2017, with a student commenting that "code is not a gentlemen's club that only belongs to computer scientists."
