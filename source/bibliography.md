@@ -115,6 +115,7 @@ page_order: 12
 - Fuller, Matthew, and Andrew Goffey. “The Obscure Objects of Object Orientation.” In Matthew Fuller, *How to be a Geek: Essays on the Culture of Software*. Cambridge, UK: Polity, 2017.
 - Fuller, Matthew, Andrew Goffey, Adrian Mackenzie, Richard Mills and Stuart Sharples, "Big Diff, Granularity, Incoherence, and Production in the Github Software Repository." In Matthew Fuller, *How To Be a Geek: Essays on the Culture of Software*. Cambridge: Polity Press, 2017.
 - Gaboury, Jacob. “A Queer History of Computing: Part Three.” *Rhizome*. Last updated April 9, 2013. <https://rhizome.org/editorial/2013/apr/9/queer-history-computing-part-three/>.
+- Gabrys, Jennifer. *How to Do Things with Sensors*. Minneapolis, MN: University of Minnesota Press, 2019.
 - Galanter, Philip. “What is Generative Art? Complexity theory as a context for art theory.” Presented at the GA2003-6th Generative Art Conference. Milan. January 2003. <https://www.researchgate.net/publication/318494160_What_is_generative_art_Complexity_theory_as_a_context_for_art_theory>.
 - Gauthier, David, Audrey Samson, Eric Snodgrass, Winnie Soon, and Magda Tyżlik-Carver. “Executing.” In *Uncertain Archives*. Edited by Nanna Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio and Kristin Veel. Cambridge, MA: The MIT Press, 2020.
 - Gerlitz, Carolin, and Anne Helmond. “The Like Economy: Social Buttons and the Data-Intensive Web.” *New Media & Society* 15. (December 2013): 1348–65.
