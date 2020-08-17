@@ -145,4 +145,4 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 
 [^barad]: We are especially referred to New Materialism, and Karen Barad's thinking on cuts and agential realism. See Karen Barad, *Meeting the universe halfway: Quantum physics and the entanglement of matter and meaning*. (Durham, NC: Duke University Press, 2007).
 
-[^menkman]: In her interview, artist Rosa Menkman stresses the importance of formulating and conceptualizing questions in practice so as to shift our normative perspective, see <https://we-make-money-not-art.com/glitch_momentums/>
+[^menkman]: In her interview, artist Rosa Menkman stresses the importance of formulating and conceptualizing questions in practice so as to shift our normative perspective, see <https://we-make-money-not-art.com/glitch_momentums/>.
