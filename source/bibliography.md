@@ -87,6 +87,7 @@ page_order: 12
 - “Development resources.” Minecraft Wiki, Fandom, Inc.. Updated June 22, 2020. <https://minecraft.gamepedia.com/Development_resources>.
 - “diagrammatic thinking.” Rocco Gangle, frequencies a collaborative genealogy of spirituality. Last updated December 19, 2011. <http://frequencies.ssrc.org/2011/12/19/diagrammic-thinking/>.
 - “Download.” p5.js. <https://p5js.org/download/>.
+- Eckhardt, George H. *Electronic television*. Chicago: Goodheart-Willcox Company, Incorporated, 1936.
 - Education Working Group. “A Field Guide to Debugging.” p5.js. <https://p5js.org/learn/debugging.html>.
 - Eglash, Ron. *African Fractals: Modern Computing and Indigenous Design*. New Brunswick, NJ: Rutgers University Press, 1999.
 - ———. "Broken Metaphor: The Master-Slave Analogy in Technical Literature." *Technology and Culture* 48, no. 2 (April 2007): 360-369.
