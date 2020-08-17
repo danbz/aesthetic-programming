@@ -65,6 +65,10 @@ page_order: 13
 - Process Studio. *AImoji*. 2019. <https://process.studio/works/aimoji-ai-generated-emoji/>.
 - “processing/p5.js.” Github. <https://github.com/processing/p5.js/wiki>.
 - Queer AI. <https://queer.ai/>.
+- Read_me Festival 1.2. "Software art / software art games." Festival at the Macros-center, Moscow, May 18 - May 19, 2002.<http://readme.runme.org/1.2/>.
+- Read_me Festival 2.3. "Software art festival." Festival at the Media Centre Lume, Helsinki, May 30 - May 31, 2003.,http://www.m-cult.org/read_me/>.
+- Read_me Festival 2004. "Software art festival." Aarhus, August 23 - August 27, 2004. <http://readme.runme.org/2004/>.
+- Readme100. "Temporary Software Art Factory." Festival at the State and City Library of Dortmund, Dortmund, November 4 - November 5, 2005. <http://readme.runme.org/>.
 - Reas, Casey. *{Software}Structure #003 A*. <https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks>.
 - *ReCode Project*. <http://recodeproject.com/>.
 - Reinfurt, David, *Multi*. O-R-G inc.. <http://www.o-r-g.com/apps/multi>.
