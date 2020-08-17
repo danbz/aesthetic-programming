@@ -9,9 +9,9 @@ page_order: -2
 let thankYou =
     ["Each other - for an excellent collaboration",
      "Loren Britton - for copyediting and helpful critical comments",
-     "Lauren McCarthy - for inspiration, critical comments on the draft, and endorsement",
      "Matthew Fuller - for inspiration, and endorsement",
      "Søren Pold - for critical comments",
+     "Lauren McCarthy - for inspiration, critical comments on the draft",
      "Open Humanties Press, Gary Hall, Sigi Jöttkandt and David Ottina - in support of publishing in experiemntal form",
      "Open Source Publishing, Stéphanie Vilayphiou and Gijs de Heij - for design and workshopping",
      "p5.js community - for the contribution of promoting coding and visual literacy via open source tools and documentation",
