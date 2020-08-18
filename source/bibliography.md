@@ -82,7 +82,6 @@ page_order: 12
 - Dahl, Ole-Johan, and Kristen Nygaard. “The Birth of Object Orientation: the Simula Languages.” In *From Object-Orientation to Formal Methods Lecture Notes in Computer Science* 2635. Edited by Olaf Owe, Stein Krogdahl and Tom Lyche, 15-25. Berlin/Heidelberg, DE: Springer, 2004.
 - Das, Sauvik, and Adam D. I. Kramer. “Self-censorship on Facebook.” Presented at the AAAI Conference on Weblogs and Social Media (ICWSM), July 2013. <https://research.fb.com/publications/self-censorship-on-facebook/>.
 - *DATA browser* book series. London: Open Humanities Press. 2004 – Present. <http://www.data-browser.net/>.
-- Debatty, Regine, and Rosa Menkman. "Glitch Moment/ums – From tech accident to artistic expression." *We Make Money Not Art* (blog). July 23, 2013. <https://we-make-money-not-art.com/glitch_momentums/>. 
 - Deleuze, Gilles, and Félix Guattari. *A Thousand Plateaus: Capitalism and Schizophrenia*. Minneapolis, MN: University of Minnesota Press, 1987.
 - du Sautoy, Marcus. “The Secret Rules of Modern Living: Algorithms.” *BBC Four*, 2015. <https://www.bbc.co.uk/programmes/p030s6b3/clips>.
 - “Development resources.” Minecraft Wiki, Fandom, Inc.. Updated June 22, 2020. <https://minecraft.gamepedia.com/Development_resources>.
