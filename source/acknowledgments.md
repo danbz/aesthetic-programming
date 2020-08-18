@@ -26,6 +26,7 @@ let thankYou =
      "Joana Chicau and Jonathan Reus - for the excellent workshop conducted at Aarhus University",
      "John P. Bell - for permission to reapproriate his artwork",
      "David Reinfurt - for permission to use Multi",
+     "Nicolas Malevé - for his inspirational work",
      "Cornelia Sollfrank - for providing information and discussing her work",
      "Daniel Shiffman - for the excellent online instructional videos",
      "Anyone else we might have forgotten, sorry"
