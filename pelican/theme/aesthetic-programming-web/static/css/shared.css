@@ -46,12 +46,16 @@ outline: 1px dotted black;
 outline-offset: 2px;
 }
 
+code {
+  
+}
+
 pre code {
 outline: 0;
 }
 
 pre {
-padding: var(--line-height);
+/* padding: var(--line-height); */
 font-size: 0.8em;
 }
 

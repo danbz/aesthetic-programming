@@ -13,9 +13,23 @@
 {% endblock %}
 
 {% block extra_css %}
+    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/codemirror.css" type="text/css" media="all" charset="utf-8">
     <style>
         h1 {
             counter-reset: h1 {{ page.order }};
+        }
+
+        .CodeMirror {
+            height: initial;
+        }
+
+        pre .CodeMirror-line {
+            outline: initial;
+            outline-offset: initial;
+        }
+
+        .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
+            font-family: ocr-pbi;
         }
     </style>
 {% endblock %}
@@ -47,4 +61,13 @@
             </script>
         </section>
     {% endif %}
+{% endblock %}
+
+{% block extra_scripts %}
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/codemirror.js"></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/javascript.js"></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/activateCodeblocks.js"></script>
+    <script>
+        activateCodeblocks();
+    </script>
 {% endblock %}
