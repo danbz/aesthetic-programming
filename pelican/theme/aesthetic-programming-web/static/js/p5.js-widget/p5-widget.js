@@ -125,9 +125,11 @@
 	    var previewWidth = parseInt(el.getAttribute('data-preview-width'));
 	    var baseSketchURL = absoluteURL(el.getAttribute('data-base-url'));
 	    var p5version = el.getAttribute('data-p5-version');
+	    var p5path = el.getAttribute('data-p5-path');
 	    var editorLayout = el.getAttribute('data-editor-layout');
 	    var maxRunTime = parseInt(el.getAttribute('data-max-run-time'));
 	    var autoplay = el.hasAttribute('data-autoplay');
+	    var requirements = el.getAttribute('data-requirements');
 	    var url;
 	    var qsArgs = [
 	        'id=' + encodeURIComponent(el.getAttribute('data-id'))
@@ -147,11 +149,17 @@
 	    if (!isNaN(maxRunTime) && maxRunTime >= 0) {
 	        qsArgs.push('maxRunTime=' + maxRunTime);
 	    }
+	    if (requirements) {
+	        qsArgs.push('requirements=' + encodeURIComponent(requirements));
+	    }
 	    if (baseSketchURL) {
 	        qsArgs.push('baseSketchURL=' + encodeURIComponent(baseSketchURL));
 	    }
 	    if (p5version) {
 	        qsArgs.push('p5version=' + encodeURIComponent(p5version));
+	    }
+	    if (p5path) {
+	        qsArgs.push('p5path=' + encodeURIComponent(p5path));
 	    }
 	    if (editorLayout) {
 	        qsArgs.push('editorLayout=' + encodeURIComponent(editorLayout));
@@ -234,6 +242,7 @@
 
 	"use strict";
 	exports.P5_VERSION = '1.0.0';
+	exports.P5_PATH = null;
 	exports.PREVIEW_WIDTH = 150;
 	exports.HEIGHT = 300;
 	exports.MAX_RUN_TIME = 1000;

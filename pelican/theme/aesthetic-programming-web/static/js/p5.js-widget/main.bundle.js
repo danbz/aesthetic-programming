@@ -55,6 +55,14 @@
 	__webpack_require__(183);
 	__webpack_require__(187);
 	__webpack_require__(189);
+	function parseRequirements(input) {
+	    if (input) {
+	        return input.split(/,\s*/);
+	    }
+	    else {
+	        return [];
+	    }
+	}
 	function start() {
 	    var embeddingPageURL = document.referrer;
 	    var qs = url.parse(window.location.search, true).query;
@@ -63,9 +71,11 @@
 	    var autoplay = (qs['autoplay'] === 'on');
 	    var initialContent = qs['sketch'] || defaultSketchJS;
 	    var p5version = qs['p5version'] || defaults.P5_VERSION;
+	    var p5path = qs['p5path'] || defaults.P5_PATH;
 	    var editorLayout = qs['editorLayout'] || defaults.EDITOR_LAYOUT;
 	    var previewWidth = parseInt(qs['previewWidth']);
 	    var maxRunTime = parseInt(qs['maxRunTime']);
+	    var requirements = parseRequirements(qs['requirements']);
 	    if (isNaN(previewWidth)) {
 	        previewWidth = defaults.PREVIEW_WIDTH;
 	    }
@@ -73,7 +83,7 @@
 	        maxRunTime = defaults.MAX_RUN_TIME;
 	    }
 	    initialContent = initialContent.replace(/\r\n/g, '\n').trim();
-	    ReactDOM.render(React.createElement(app_1.default, {initialContent: initialContent, autosaver: new autosaver_1.SessionStorageAutosaver(id), baseSketchURL: baseSketchURL, editorLayout: editorLayout, p5version: p5version, previewWidth: previewWidth, maxRunTime: maxRunTime, autoplay: autoplay}), document.getElementById('app-holder'));
+	    ReactDOM.render(React.createElement(app_1.default, {initialContent: initialContent, autosaver: new autosaver_1.SessionStorageAutosaver(id), baseSketchURL: baseSketchURL, editorLayout: editorLayout, p5version: p5version, p5path: p5path, previewWidth: previewWidth, maxRunTime: maxRunTime, autoplay: autoplay, requirements: requirements}), document.getElementById('app-holder'));
 	}
 	window.addEventListener('load', start);
 
@@ -21259,6 +21269,7 @@
 
 	"use strict";
 	exports.P5_VERSION = '1.0.0';
+	exports.P5_PATH = null;
 	exports.PREVIEW_WIDTH = 150;
 	exports.HEIGHT = 300;
 	exports.MAX_RUN_TIME = 1000;
@@ -21386,7 +21397,7 @@
 	            errorLine = this.state.lastError.line;
 	        }
 	        return (React.createElement("div", {className: "app", "data-editor-layout": this.props.editorLayout}, React.createElement(toolbar_1.default, {onPlayClick: this.handlePlayClick, onStopClick: this.state.isPlaying && this.handleStopClick, onUndoClick: this.state.canUndo && this.handleUndoClick, onRedoClick: this.state.canRedo && this.handleRedoClick, onRevertClick: canRevert && this.handleRevertClick}), React.createElement("div", {className: "panes"}, React.createElement(editor_1.default, {ref: "editor", content: this.state.editorContent, errorLine: errorLine, onChange: this.handleEditorChange}), React.createElement("div", {className: "preview-holder-wrapper"}, this.state.isPlaying
-	            ? React.createElement(preview_1.default, {content: this.state.previewContent, baseSketchURL: this.props.baseSketchURL, p5version: this.props.p5version, maxRunTime: this.props.maxRunTime, width: this.props.previewWidth, timestamp: this.state.startPlayTimestamp, onError: this.handlePreviewError})
+	            ? React.createElement(preview_1.default, {content: this.state.previewContent, baseSketchURL: this.props.baseSketchURL, p5version: this.props.p5version, p5path: this.props.p5path, maxRunTime: this.props.maxRunTime, width: this.props.previewWidth, timestamp: this.state.startPlayTimestamp, onError: this.handlePreviewError, requirements: this.props.requirements})
 	            : null)), React.createElement("div", {className: "status-bar"}, this.state.lastError
 	            ? React.createElement(ErrorMessage, __assign({}, this.state.lastError))
 	            : null)));
@@ -32408,7 +32419,7 @@
 	            // since that means the iframe will have been removed from the DOM,
 	            // in which case it shouldn't be emitting events anymore.
 	            var frame = iframe.contentWindow;
-	            frame.startSketch(content, _this.props.p5version, _this.props.maxRunTime, LOOP_CHECK_FUNC_NAME, _this.props.baseSketchURL, _this.props.onError);
+	            frame.startSketch(content, _this.props.p5version, _this.props.p5path, _this.props.maxRunTime, LOOP_CHECK_FUNC_NAME, _this.props.baseSketchURL, _this.props.onError, _this.props.requirements);
 	        });
 	        this.refs.container.appendChild(iframe);
 	        this._iframe = iframe;
