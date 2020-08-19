@@ -124,8 +124,10 @@ function sum(a, b, c) { //passing values four as a, three as b, two as c to the 
 "9"
 
 
+<div class="section exercise" markdown="true">
 ### Exercise in class
 You can also try to type/copy the above code into your own sketch, where it will return the number 9 as the output because this is the result of the sum of the values 4, 3 and 2. These values called "%argument%" that are passed to the function (i.e. `sum()`). In the example, the parameters as variables a, b and c equals to the actual values 4, 3 and 2 as arguments, but the value of the variables can be changed. The function "sum" can be reused if you pass on other arguments/values to it, as for instance another line of code `let y = sum(5,6,7);` and the return value of y would be 18. You can try to come up with your own functions and arguments.
+</div>
 
 
 ### %Transform%
@@ -167,6 +169,7 @@ function drawElements() {
 The last four lines describe the drawing of the four static yellow lines. Logically speaking, the translate and rotate functions should also apply to these lines, but because the `pop()` function is placed right after drawing all the ellipses it does not impact the lines. But if you move the line `pop()` to the end, then the lines will also rotate and translate. This illustrates how `push()` and `pop()` can be used to save and restore styles, and how their placement matters.[^ref3]
 
 
+<div class="section exercise" markdown="true">
 ### Exercises in class
 1. Change the arguments/values, as well as the position/sequence of the sample code to understand the functions and syntax such as the variable `num`, the transformational functions `translate()` and `rotate()`, as well as saving and restoring current style and transformations such as `push()` and `pop()`.
 
@@ -175,6 +178,7 @@ The last four lines describe the drawing of the four static yellow lines. Logica
 3. This exercise is about structuring code. How would you restructure the sample code so that it is easier for others to understand, but still maintains the same visual outcome? There are no right or wrong answers, but some pointers below might facilitate discussion:
     - You may rename the function and add new functions
     - Instead of having `drawElements()`, you might have something like `drawThrobber()` and `drawLines()`?
+</div>
 
 ## Asterisk Painting
 
@@ -262,6 +266,7 @@ function draw(){
 }
 ```
 
+<div class="section exercise" markdown="true">
 ### Exercise in class
 
 - Run the *Asterisk Painting* [here](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch3_InfiniteLoops/)
@@ -277,6 +282,7 @@ function draw(){
         - Try to change some of the values, e.g. the values of the global variables
         - Which new syntax and functions didn't you know? (Check them out in the p5.js reference.)
     - **Mapping**: Map the elements from the speculation to the source code
+</div>
 
 ### %Arrays%
 
@@ -413,8 +419,8 @@ Contrary to any traditional narrative — with its beginning, middle and end –
 
 Referencing Martin Heidegger’s "being-in-time,"[^Heidegger] and human beings' knowledge of the end of their lives which inscribes a temporal sense of what it means to be a human being, Ernst says: "Humans live with the implicit awareness that their death is already future in the past."[^Ernst4] This looped deferral of ending is ontologically exacerbated with computation, unfolding the ending of being as a time-critical condition for both humans and machines alike. Leaving aside a deeper discussion of Heidegger's philosophy, the importance of this for the discussion of loops seems to mirror the complexity of lived time. Programming manages to provides insight here, and creative opportunities as is the case with live coding during which programmers interact with a running system that is not stopped while waiting for new program statements.[^livecoding] We can even begin to speculate on how software is not only synchronized with lived time, but actually produces it, and we hope the two examples in the chapter help us to think through the intersection of endlessness, loops, conditions, and temporalities in both conceptual and technical ways. We might go as far as to say that programming allows for a time-critical understanding of how technologies play a crucial role in our experience of time, not only how we model it, but how we can forge new beginnings and endings.
 
-<div class="exercise" markdown="true">
 
+<div class="section exercise" markdown="true">
 ## MiniX[3]: Designing a throbber
 
 **Objective:**
@@ -435,9 +441,11 @@ Check out other works that refer to the throbber and how other people contextual
 
 
 **Task (RUNME):**
+
 - Use loops and any one of the transformational functions to redesign and program an "animated" throbber.
 
 **Questions to think about (README):**
+
 - **Describe** your throbber design, both conceptually and technically.
     - What do you want to explore and/or express?
     - What are the time-related syntaxes/functions that you have used in your program, and why have you used them in this way? How is time being constructed in computation (refer to both the reading materials and your coding)?

@@ -27,9 +27,11 @@ This work challenges preconceptions of geeky male hacker culture, as do her earl
 ![nag1](ch8_1.png)
 :   *Figure 8.1: The net.art generator web interface with the input title "queeries"*
 
+<div class="section exercise" markdown="true">
 ## Exercise in class
 
 Go to *net.art generator* (https://nag.iap.de/) and explore the generation of images and previously created images. Pay close attention to the interface and map out the relationship between user input (e.g. a title) and the corresponding output (the image). What are the processes in between the input and output? How are the images composited and generated?
+</div>
 
 ## Image processing: fetching, loading and display
 
@@ -49,11 +51,8 @@ The following source code of this chapter is a snippet from *nag* showing the we
 For this chapter's sample code, we will focus on images from search engine results and we will also demonstrate how to process, and display image and pixel data on screen in a manner similar to *nag*. Here are the key examples of syntax:
 
 - `loadJSON()`:[^json] As discussed in the preceding chapter, this is the function that loads a JSON file (from a file or a URL). In this sample code, the function is used to send the web API (in the form of a URL) request, and receive the response in the JSON format. The callback function is to turn the returned data into an object: `loadJSON(request, gotData);`.
-
 - `loadImage()`[^img1] and `image()`:[^img2] They are both used to load and display images. Data such as sound, files, images, and videos are objects that need to be loaded before they can be processed. For this sample code, we do not know the location of the file in advance, therefore this cannot be loaded by the `preload()` function. This is why the callback function is used to handle the time gap between requesting and receiving the image, e.g. `loadImage(getImg, img=> {}});`.
-
 - `loadPixels()`:[^pixel] If you want to manipulate or analyze the data in an image, this function can extract and manipulate information on each image pixel, loading the data into the built-in `pixels[]` array. We will examine this in more detail below.
-
 - `line()`: This is used to visualize the color extracted from the selected image's pixels.
 
 ## Source code
@@ -120,6 +119,7 @@ function draw() {
 }
 ```
 
+<div class="section exercise" markdown="true">
 ## Exercise: accessing web %APIs% (step by step)
 
 The above source code describes how to retrieve a static image from Google's image search API (parsing JSON), and then display it on screen. As is the case with many other web APIs, you need to have an API key, a unique identification number, for authorization in which a client program can make API calls/requests. As a result, the platforms can identify who is getting the data, and their traffic and usage.[^key]
@@ -127,32 +127,28 @@ The above source code describes how to retrieve a static image from Google's ima
 This exercise is about getting the *key ID* and *Engine ID* from Google so that you can input your own set of IDs and run the program successfully. This is essential information that enables the program to run and fetch an online image on the fly.
 
 1. **Step 1:** Create a p5 sketch, then copy and paste the source code into your code editor (assuming you have the HTML file and the p5 library).
-
 2. **Step 2:** Replace the API key with your own details on the line: `let apikey = "INPUT YOUR OWN KEY";`.
 ![google1](ch8_3.png)
 :   *Figure 8.4: Google Custom Search interface*
-
-- Register a Google account if you don't have one (a Google account is needed in order to use the web API)
-- Login to your account
-- Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and find the section API key
-- Click the blue button "Get A Key" and then create a new project by entering your project name (e.g. "nag-test") and press enter
-- You should able to see the API key and you just need to copy and paste the key into your sketch
-
+    - Register a Google account if you don't have one (a Google account is needed in order to use the web API)
+    - Login to your account
+    - Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and find the section API key
+    - Click the blue button "Get A Key" and then create a new project by entering your project name (e.g. "nag-test") and press enter
+    - You should able to see the API key and you just need to copy and paste the key into your sketch
 3. **Step 3:** Replace the Search engine ID (cx) with your own, on the line: `let engineID = "INPUT YOUR OWN";`.
-- Go to [Custom Search Engine](https://cse.google.com/all)[^google2]
-- Click the "Add" button to add a search engine
-- You can limit your search area but if you want to search all of Google, simply type "http://www.google.com"
-- Enter the name of your search engine, e.g. "nag-test"
-- By clicking the blue "Create" button, you agree to the terms of Service offered by Google (and you should know your rights of course)
-- Go to the control panel and modify the search engine's settings
-- Copy and paste the search engine ID and put it in your sketch
-
+    - Go to [Custom Search Engine](https://cse.google.com/all)[^google2]
+    - Click the "Add" button to add a search engine
+    - You can limit your search area but if you want to search all of Google, simply type "http://www.google.com"
+    - Enter the name of your search engine, e.g. "nag-test"
+    - By clicking the blue "Create" button, you agree to the terms of Service offered by Google (and you should know your rights of course)
+    - Go to the control panel and modify the search engine's settings
+    - Copy and paste the search engine ID and put it in your sketch
 4. **Step 4:** Configuration in the control panel
-
-- Make sure "Image search" is ON — blue indicates it is (see Figure 8.5)
-- Make sure the "Search the entire web" is ON — blue indicates it is (see Figure 8.5)
+    - Make sure "Image search" is ON — blue indicates it is (see Figure 8.5)
+    - Make sure the "Search the entire web" is ON — blue indicates it is (see Figure 8.5)
 
 You should now finish modifying the settings. You can now run the sample code with your own API Key and engine ID.
+</div>
 
 ![ch8_3b](ch8_3b.png)
 :   *Figure 8.5: Google Custom Search interface - configuring search settings*
@@ -346,14 +342,17 @@ When working with data there is a danger of simply perpetuating "norms" through 
 
 To que(e)ry data in this way throws into further question how data is collected, stored, analyzed, recommended, ranked, selected, and curated in order to understand the broader social and political implications, not least how categorizations such as gender are normalized. To query the power structures of materials from a feminist standpoint is to understand "the mechanisms that shape reality"[^feminist] and how they might be reprogrammed.
 
-## MiniX[8]: Working with APIs (in a group)
+<div class="section exercise" markdown="true">
+## MiniX: Working with APIs (in a group)
 
 **Objectives:**
+
 - To design and implement a program that utilizes web APIs[^Oauth].
 - To learn to collaboratively code and conceptualize a program.
 - To reflect upon the processes of data parsing using an API, paying attention to the registration, availability, selection, and manipulation of data.
 
 **Get additional inspiration:**
+
 - [Open Weather with code example](https://www.youtube.com/watch?v=ecT42O6I_WI)
 - [Other weather API example with code example](https://p5js.org/examples/hello-p5-weather.html)
 - [New York times with code example](https://www.youtube.com/watch?v=IMne3LY4bks&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=9)
@@ -364,6 +363,7 @@ To que(e)ry data in this way throws into further question how data is collected,
 - [Search many other kinds of API](https://www.programmableweb.com/)
 
 **Tasks (RUNME):**
+
 This is a relatively complex exercise that requires you to:
 - Design a program that utilizes at least one web API (think about what you want conceptually), including:
     - Finding available web APIs and the data that you want to explore.
@@ -373,9 +373,11 @@ This is a relatively complex exercise that requires you to:
     (Please reserve more time if you are getting data from other platforms, as the registration process can take a long time.)
 
 **Questions to think about (README):**
+
 - What is the program about? Which API have you used and why?
 - Can you describe and reflect on your process in this miniX in terms of acquiring, processing, using, and representing data? How much do you understand this data or what do you want to know more about? How do platform providers sort the data and give you the requested data? What are the power relations in the chosen APIs? What is the significance of APIs in digital culture?
 - Try to formulate a question in relation to web APIs or querying/parsing processes that you would like to investigate further if you had more time.  
+</div>
 
 ## Required reading
 

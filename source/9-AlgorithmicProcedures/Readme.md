@@ -24,18 +24,17 @@ In this chapter we will build on "diagramming," particularly the use of flowchar
 ## Discussion in class
 
 - Can you give an everyday example (detailing the computational logic) of an algorithm that you have used or experienced?
-
 - Can you sketch an algorithmic procedure? For example, how your social media feeds are organized?
-
 - Based on the assigned reading from Taina Bucher, can you list some of the properties of algorithms? How are they both technical and social?
-
 - We discussed rule-based systems in Chapter 6, "Auto Generator," how does that differ from how we are now discussing procedurality in this chapter?
 
+<div class="section exercise" markdown="true">
 ## Exercise in class
 
 Sorting is a common algorithm in digital culture, and recommendation lists on Spotify, Amazon, and Netflix, will be familiar to you. Think about the "algorithmic procedures" required to program something to solve the sorting task set below[^program] :
 
 Generate a list of 1,000 unique, random integers between two number ranges. Then implement a sorting algorithm and display them in ascending order. You are not allowed to use the existing `sort()` function in p5.js or JavaScript. How would you approach this problem? Perhaps you can draw it as a flowchart with the focus on procedures/steps, but not the actual syntax.
+</div>
 
 ## Flowcharts
 
@@ -59,6 +58,7 @@ Some of the challenges to turning an existing program into a flowchart include:
 1. Translating programming syntax and functions into understandable, plain language.
 2. Deciding on the level of detail on important operations to allow other people to understand the logic of your program.
 
+<div class="section exercise" markdown="true">
 ## Exercise in class
 
 Let's start with something that appears relatively simple, such as incorporating emojis and paying attention to the variable names. The program code below references *Multi* (from Chapter 2, "Variable Geometry") and *Vocable Code* (from Chapter 7, "Vocable Code") to print various multispecies emoticons one after another using a for-loop in the web browser console. The task is to draw a flowchart based on this program:
@@ -79,6 +79,7 @@ function setup() {
 ```
 
 Our previous use of this exercise in a classroom setting[^ex] resulted in different drawings being produced and they became a resource for opening up discussion around the multiple purposes and meanings of flowcharts.[^Ensmenger]
+</div>
 
 ## Flowcharts as an artistic medium
 
@@ -120,7 +121,8 @@ Although referring to the practice of drawing rather than programming, we might 
 
 In relation to the predictive practices of machine learning in particular, we might note that Adrian Mackenzie, in his *Machine Learners: Archaeology of a Data Practice*, also uses diagrams as an experiment in critical thinking to address the operations of machine learning. Mackenzie explains that when it comes to machine learning, "coding changes from what we might call symbolic logical diagrams to statistical algorithmic diagrams."[^ML1] Here he relies on (and quotes) Deleuze's suggestion that diagrams act "as a display of the relation between forces that constitute power [and moreover] the diagram or abstract machine is the map of relations between forces, a map of destiny, or intensity."[^ML2] This topic will be continued in the next chapter, but for now we would like to stress that analyzing algorithms, or source code for that matter, is not particularly illuminating in and of itself, unless the wider assemblage of relations is exposed. Flowcharts are one way to do this, to map these relations, as a means to facilitate critical thinking to address the operations of programming.
 
-## MiniX[9]: Flowcharts
+<div class="section exercise" markdown="true">
+## MiniX: Flowcharts
 
 **Objective:**
 
@@ -132,17 +134,21 @@ In relation to the predictive practices of machine learning in particular, we mi
 **Tasks:**
 
 Individual:
+
 * Revisit your previous mini exercises and select the most technically complex one.
 * Draw a flowchart to represent the program (pay attention to which items you select to present).
 
 Group:
+
 * Brainstorm two ideas for your final project (see next chapter's MiniX)
 * Draw two flowcharts to visualize the project's algorithmic processes.
 
 **Questions to think about (README):**
+
 - What are the difficulties involved in trying to keep things simple at the communications level whilst maintaining complexity at the algorithmic procedural level?
 - What are the technical challenges facing the two ideas and how are you going to address these?
 - In which way are the individual and the group flowcharts you produced useful?
+</div>
 
 ## Required reading
 

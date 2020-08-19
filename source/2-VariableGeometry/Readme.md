@@ -94,8 +94,9 @@ The above code draws various shapes and performs simple interactions:
 ### Coordinate
 In the previous chapter, we briefly discussed the x and y coordinates that constitute a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(windowWidth,windowHeight)` refers to creating a canvas with its width and height in line with your window size. Unlike the previous chapter where the exact pixel dimension was set as in the example `createCanvas(640,480);`, this approach gives you a flexibility of no fixed canvas size. Therefore, the background color of the sample code fills the whole window screen, and the concept of canvas as spaces change variably in terms of geometry. It is good to remind ourselves that in mathematics the origin [0,0] is positioned in the center of a grid paper/screen, but in computing the origin is situated in the upper left corner (see Figure 1.11 in the previous chapter). This impacts on how objects are placed, and shifts our perception/understanding of space/canvas.
 
-#### Exercise in class
 
+<div class="section exercise" markdown="true">
+### Exercise in class
 ```javascript
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -121,6 +122,7 @@ Remember the structure of a web page/application should include the HTML, a work
     - Type `console.log(width, height);` and then press enter.
 
 When you type the syntax `print(width);` the web console area (see Figure 2.2) displays the actual width in pixels. Additionally, if you use `console.log(width, height);`, which is the equivalent of the print function in JavaScript (not a p5.js function), the screen displays two numbers according to your screen size (you may adjust the screen and try again to get a different number). With just two lines in the web console area, you have asked the program to give you the values for the width and height of the canvas. The program understands the two names "width" and "height" as they are pre-set names in p5.js which you can use specifically for asking the dimensions of the canvas.
+</div>
 
 ### %Variables%
 
@@ -314,7 +316,9 @@ Snelting is looking for other geometries that can escape normative configuration
 
 The challenge is to rethink normative geometries, to turn them upside down and inside out. Herein lies the challenge of the chapter, to escape geometric overcoding and to develop alternatives. Having fun with programming in this sense is the ability to modify forms and to diverge from established rules. When it comes to programming, the rules can be applied differently, adapted or modified, and even transformed altogether.
 
-## MiniX[2]: Geometric emoji
+
+<div class="section exercise" markdown="true">
+## MiniX: Geometric emoji
 
 **Objective:**
 
@@ -334,6 +338,8 @@ Explore shapes, geometries, and other related syntax (via p5.js [references](htt
 **Questions to think about as README:**
   - **Describe** your program and what you have used and learnt.
   - **How** would you put your emoji into a wider social and cultural context that concerns a politics of representation, identity, race, imperialism, and so on? (Try to think through the assigned reading and your coding process, and then expand that to your own experience and thoughts - this is a difficult task, you may need to spend some time thinking about it).
+</div>
+
 
 ## Required reading
 

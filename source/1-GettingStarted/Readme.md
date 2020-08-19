@@ -108,6 +108,7 @@ function draw() {
 ![](ch1_6.png) <br>
 :   *Figure 1.6: My first program*  
 
+<div class="section exercise" markdown="true">
 ## Exercise in class
 
 This exercise is to familiarize you with the working environment, path and local directory so you learn that running a sketch in a web browser requires loading the right path to the JavaScript libraries. You are also free to create your own folder name and rename the file sketch.js as you please. You can also try to change parameters by changing numbers to get a sense of how things work, but this will be explained in more detail later on in the book.
@@ -116,17 +117,14 @@ This exercise is to familiarize you with the working environment, path and local
 :   *Figure 1.7: My first program 1.1*
 
 1. **Stop the server:** Stop the atom-live-server by going to "Packages > 'atom-live-server' > Stop."
-
 2. **Rename the folder:** Try to rename the folder "empty-example" as "myFirstSketch" (in order to help the computer to process better, don't use any spaces). In the subsequent chapters and for the exercises below, you will create your own folders.
-
 3. **Structure the p5 libraries:**
   - Try to create a folder called "libraries" under "myFirstSketch."
   - Drag the two p5 libraries into the newly created folder: "libraries."
   - Change the relative path of the two js libraries in index.html
-
 4. **HTML:** Change the title in the HTML file (line 6)
-
 5. **RUN again** Can you run the program again (ATOM > Packages > atom-live-server > Start Server) so that you can see almost the same screen as Figure 1.7 in a web browser?
+</div>
 
 ### Reading the web console "Hello World"
 As you might realize by now, this book does not follow the conventions of most programming books by starting with the "Hello World" program that displays or prints "Hello World" onto the screen. In p5.js, `print()` is the function to print,[^print] but in a web browser setting which makes the `print()` function write in the "console area." This is an area not intended for end users, but for programmers or developers to see if there are any error messages, which are logged to the console and to check that code is executing in the expected way.
@@ -172,15 +170,10 @@ For simplicity's sake, we use GitLab's web interface for some of our writing and
 *Figure 1.12: Create a new project with the GitLab web interface*
 
 1. Register an account by clicking "Register" on the navigation bar.
-
 2. To create a new project: Go to "Projects > New Project."
-
 3. Provide a project name and project description, and click "Public" if you want others to be able to access this project without any authentication.
-
 4. At this point you can also initialize a README within the repository by ticking the checkbox.
-
 5. A folder in your repository will then be created.
-
 6. To upload the file or create a directory, simply click on the "+" sign under the repository project name. GitLab allows you to customize a commit message (to keep track of changes from a general and communications perspective), we can therefore input the message before clicking the button "Commit changes."
 
 ![gitlab1](ch1_13.png)
@@ -206,30 +199,36 @@ This argument for programming or coding as a necessary skill for contemporary li
 
 Your first program is a means to engage with these ideas, to run some code. As this is not meant to be, nor can be, simply a technical exercise, we ask you to make the critical and practical aspects explicit in producing a README and a RUNME. This book serves as a guide for this initial task as well as subsequent ones: to run some code and "think with it."
 
-## MiniX[1]: RUNME and README
+<div class="section exercise" markdown="true">
+## MiniX: RUNME and README
 
 Make a RUNME and a README.
 
 **Objective:**
+
 - To learn the basic setup, including writing code with a code editor, running code with a web browser, independent study of code syntax, creating a readme file, etc.
 - To start thinking with programming conceptually.
 
 **For additional inspiration:**
+
 - [Daily sketch in Processing by Saskia Freeke](https://twitter.com/sasj_nl) and her talk is [here](https://www.youtube.com/watch?v=nBtGpEZ0-EQ&fbclid=IwAR119xLXt4nNiqpimIMWBlFHz9gJNdJyUgNwreRhIbdJMPPVx6tq7krd0ww) + [All the Daily Things 2018](https://vimeo.com/309138645) by Saskia Freeke.
 - [Zach Lieberman](https://www.instagram.com/zach.lieberman/).
 - [Basics in OpenProcessing](https://www.openprocessing.org/browse/?q=basics&time=anytime&type=all#).
 - [Creative Coding with Processing and P5.JS](https://www.facebook.com/groups/creativecodingp5/).
 
 **Task (RUNME):**
+
 1. Study at least one example of syntax from p5.js' [reference](https://p5js.org/reference/) (Of course, it is always good to know more than one. Be curious!)
 2. Familiarize yourself with the reference structure: examples, descriptions, various pieces of syntax and parameters (This knowledge will give you an essential, life-long skill for learning new syntax on your own).
 3. Use, read, modify (or even combine) the sample code that you find (the most basic level is changing the numbers), and produce a new sketch as a RUNME.
 
 **Questions to think about in your README:**
+
 - What have you made in your RUNME?
 - How would you describe your first independent coding experience (in relation to thinking, reading, copying, modifying, writing code, and so on)?
 - How is the coding process different from, or similar to, reading and writing text?
 - What does code and programming mean to you, and how does the assigned reading help you to reflect on programming?
+</div>
 
 ## Required reading
 

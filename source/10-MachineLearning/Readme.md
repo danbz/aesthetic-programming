@@ -31,10 +31,8 @@ Let's start with a closer examination of and reflection on the ELIZA chatbot by 
 
 Tasks:
 
-1. Visit the ELIZA Test by clicking the button "Next Step*, **<https://www.masswerk.at/elizabot/eliza_test.html>** so you can see the original example given by Weizenbaum in his published article.[^Weizenbaum3]
-
-2. Then visit the work *E.L.I.Z.A Talking* (2013) via the link **<https://www.masswerk.at/eliza/>**, and try to have your own conversation.[^bot]
-
+1. Visit the ELIZA Test by clicking the button "Next Step", <https://www.masswerk.at/elizabot/eliza_test.html> so you can see the original example given by Weizenbaum in his published article.[^Weizenbaum3]
+2. Then visit the work *E.L.I.Z.A Talking* (2013) via the link <https://www.masswerk.at/eliza/>, and try to have your own conversation.[^bot]
 3. Share your experience of the original conversation (by Weizenbaum) and your conversation with the chatbot:
     - How would you describe your experience of ELIZA (e.g. the use of language, style of conversation, and quality of social interaction)?
     - How would you assess the ability of technology such as this to capture and structure feelings, and experiences? What are the limitations?
@@ -43,6 +41,7 @@ Tasks:
 
 We have briefly touched on machine learning, but let's clarify what it actually entails. In a contemporary context, it refers to various techniques of "data-handling,"[^samuel1] or, more precisely, statistics and data analysis. It is commonly described by three components: input, modelling (or learning), and output. Usually, a large amount of data is needed to be collected, parsed and cleaned.[^shit] Data cleansing is a term often used in computer or data science to describe the process of preparing data (data can consist of texts, video, images, gestures, etc.) to be input data by adjusting data inconsistency in terms of removing or modifying data that is irrelevant, duplicated, or improperly formatted. These various data preparation processes involve decision-making in terms of identifying and accessing the datasets, and how to structure the raw data, and deal with inconsistencies. If the data originates in different places, then the question arises of how to normalize the data to structure a cohesive dataset.[^papa] As in Chapter 4, "Data Capture," we can already see how this process is fraught with problems concerning what gets included and excluded, and how this is decided and effected, and by whom. Rather than simply a means to an end, the dataset becomes a hugely significant cultural object that we need to understand better.[^dataset]
 
+<div class="section exercise" markdown="true">
 ## Exercise in class
 
 In the following exercise,[^michelle] we will use the experimental AI project *Teachable Machine* (version 1)[^tm1] to engage more closely with machine learning processes involving input and output, to understand the relationship between the two: <https://teachablemachine.withgoogle.com/v1/>.
@@ -59,12 +58,11 @@ Prepare three set of gestures that can be captured by the web camera. Each gestu
 The simplest way to start is:
 
 1. Train the machine using three different sets of gestures/facial expressions, then observe the predictive results shown as various outputs.
-
 2. Test the boundaries of recognition or classification problems, such as having a different test dataset, or under different conditions such as variable lighting. What can, and cannot, be recognized?
-
 3. What happens when you only use a few images? How does this amount of training input change the machine's predictions?
 
 This initial exercise aims to familiarize you with the three components of machine learning: input, learning and output, as well as to explore the relation between data and these components. Furthermore, this execise sets the stage for thinking about the ways in which machines learn from data, identify patterns, make decisions, and predictions.
+</div>
 
 ## Learning algorithms
 
@@ -239,15 +237,10 @@ To load the ml5.js library as part of the overall sketch, you need the following
 Apart from the new ml5.js, the HTML file contains the following DOM elements:
 
 1. **A text input box** for entering seed/input text. In this example, we have used "Afterword: Recurrent Imaginaries" as a sequence input to generate the next character, continuously forming a new seed sequence for next character prediction: `<input id="textInput" value="Enter here..." size="30"/>`
-
 2. **A slider for selecting the number of generated characters** with a range from 100 to 2,000: `<input id="lenSlider" type="range" min="100" max="2000" value="1000"/>`
-
 3. **A slider for setting the temperature** (the value that controls the amount of uncertainty of predictions)[^temp] which has a range from 0 to 1: `<input id="tempSlider" type="range" min="0" max="1" step="0.01"/>`
-
 4. **The text shows the status** of the program, e.g. "Loading Model," "Model Loaded," "Generating...," "Ready!": `<p id="status">Loading Model</p>`
-
 5. **A clickable button** bearing the word "generate": `<button id="generate">generate</button>`
-
 6. **A result area** that displays the generative text: `<p id="result"></p>`
 
 **sketch.js**
@@ -290,11 +283,12 @@ function gotData(err, result) {
 }
 ```
 
+<div class="section exercise" markdown="true">
 ## Exercise in class
 
 1. Work with the Auto Chapter Generator program and try to generate texts based on different length and temperature values.
-
 2. The example also links to the Chapter 5, "Auto Generator," in terms of agency, unpredictability, and generativity, but how does this chapter change our understanding of these terms given what we know about machine learning? What is learning in this context? What do machines teach us? And in the production of prediction, what does machine learning want?[^predict]
+</div>
 
 ## While()
 
@@ -320,7 +314,8 @@ All this deserves longer discussion that there simply isn't space for in these c
 
 This sense of future possibilities is also where we would say Mackenzie’s work is particularly valuable as he devotes attention to specific algorithms and data practices to understand the particularity of human-machine relations, and their transformations, and not least to emphasize the uncertainties and contingencies at work in these processes. In other words, machine learning is by no means simply deterministic (as we have seen in the exercises for this chapter) but is endlessly subject to revision and modification, and by its very nature is process-driven. It is also variably applied across disciplines and fields of practice, across open source platforms and communities of interest, endlessly transforming itself, and being transformed along the way.[^Learners3] This serves to demonstrate how there is more to a program than simply its source code. There is a whole range of recursive operations that render the various processes transformative in multiple ways.[^Learners4] The question becomes to what extent this different mode of coding for machine learning leads to a different mode of knowledge production, and transforms human-machine relations. When it comes to the book as a whole, which alternative knowledge and aesthetic practices emerge as a consequence?
 
-## MiniX[10]: final project
+<div class="section exercise" markdown="true">
+## MiniX: final project
 
 Aesthetic programming is a critical-technical practice. It explores the practice of reading, writing, and building, as well as thinking with, and understanding the complex computational procedures that underwrite our experiences and realities. To address these intersections of practice we have worked with fundamental concepts of programming as the starting point for further reflection — considering the precision and ambiguity of technical vocabulary as well as specific computational practices — thereby laying the groundwork for further understanding of how cultural phenomena are constructed and operationalized.
 
@@ -329,19 +324,18 @@ Drawing on the curriculum, including the various theoretical and conceptual text
 Here are few tips may help you to come up with an idea for your project:
 
 1. You may take another look at the themes that we have used for inspiration, including: literacy, variable geometry, infinite loops, data capture, object abstraction, vocable code, auto generator, que(e)ry data, algorithmic procedures, machine learning, as well as writing and coding, facial recognition, emojis, (micro)temporalities, capture all, interactivity, object orientation, rule-based systems, language and speech, expressivity, algorithmic literature, politics of data processing and learning, all underwritten by an attentiveness to a politics of race, class, and gender.
-
 2. Take a look again at all the previous mini exercises and the questions that were posed. Are there any that you want to explore further?
-
 3. Are there any assigned/suggested texts that you are inspired by, and you want to explore further?
-
 4. Are there any particular technical areas that you want to explore further?
 
 **RUNME:**
+
 Produce a software artifact written in p5.js (or a combination of HTML/CSS/JS/P5/node.js).
 
 Remember to include all external libraries and data/assets such as images, fonts, text files, sound file, etc. Furthermore, if you have borrowed other sample code or ideas, please cite your sources in the code comments.
 
 **README:**
+
 Write a document of 6-8 pages (max characters per page: 2,400, including spaces) which has to list academic sources (exclude images, references, and notes from the character count).
 
 The document should include a title, a screen shot, a flowchart, references, a link to your final project's RUNME, with links to related projects (if there are any), as well as the links of all your previous mini exercises (as an appendix).
@@ -349,10 +343,9 @@ The document should include a title, a screen shot, a flowchart, references, a l
 The README should address the following questions with the help of your source code, programming processes, and your selected readings:
 
 - What is your software about (provide a short description of what is it, how it works, and what it sets out to explore)?
-
 - How does your work address at least one of the themes and explore the intersections of technical, and cultural aspects of code?
-
 - Open question: To what extent can the artifact be considered to be a critical work in and of itself?
+</div>
 
 ## Required reading
 

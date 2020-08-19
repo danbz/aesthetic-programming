@@ -31,7 +31,7 @@ Starting with this sample code, the sketch incorporates four data inputs for a c
 
 The button has been customized using Cascading Style Sheets (CSS), which describe the style and visual elements of an object in a format that consists of a selector and a declaration block.[^fb] These identify which elements you want to customize and how to do it precisely. CSS works with HTML and we can create HTML's DOM objects like a button with the p5.js library (which will be explained in further detail in the following section).
 
-<div class="exercise" markdown="true">
+<div class="section exercise" markdown="true">
 
 ## Exercise in class (Decode)
 By looking at the like button closely in the RUNME, can you come up with a list of customizations that have been introduced in the sample code?
@@ -282,7 +282,7 @@ The program uses the webcam to do face capture and facial recognition:
 
 4. The final part is to draw the ellipses to cover the face. A for-loop is implemented to loop through all the ctracker points and then get the x and y coordinates for the drawing of the ellipses.
 
-<div class="exercise" markdown="true">
+<div class="section exercise" markdown="true">
 
 ### Exercise in class
 
@@ -358,26 +358,32 @@ We can find some evidence of this in the social energies of the free and open so
 
 This line of argument makes reference to the philosophy of Gilbert Simondon, to the transformational process by which individuation — how a person or thing is identified as distinguished from other persons or things — is caught up with other individuations. There is no space (or need, we think) to go into this in detail in this publication, but for now it suffices to say that transindividuation describes the shift between the individual "I" and the collective "We" and how they are transformed through one another.[^Stiegler] We hope something of this happens to this book project, which is already collective by design, but also opens up further possibilities for the production of new versions and social relations in its reworking. Of course this involves tinkering with the underlying codes and values associated with data capture, and our ability to reinvent the latter's main purpose. This is an open invitation to not only capture data, but to also unleash its other potentials.  
 
-## MiniX[4]: Capture All
+<div class="section exercise" markdown="true">
+## MiniX: Capture All
 
 **Objective:**
+
 - To experiment with various data capture inputs, including audio, mouse, keyboard, webcam, and more.
 - To critically reflect upon the process of data capture and datafication.
 
 **For additional inspiration:**
+
 - [LAUREN](http://lauren-mccarthy.com/LAUREN) by Lauren McCarthy
 - [nonsense](http://siusoon.net/nonsense/) (2015) by Winnie Soon (read the comment in the source code for this project's intentions)
 - [Facebook Demetricator](https://bengrosser.com/projects/facebook-demetricator/) or [Instagram Demetricator](https://bengrosser.com/projects/instagram-demetricator/) or [Twitter Demetricator](https://bengrosser.com/projects/twitter-demetricator/) by Benjamin Grosser
 
 **Tasks (RUNME):**
+
 1. Experiment with various data capture input and interactive devices, such as audio, mouse, keyboard, webcam, etc.
 2. Develop a sketch that responds loosely to the transmediale open call ["Capture All"](https://transmediale.de/content/call-for-works-2015). (Imagine you want to submit a sketch/artwork/critical or speculative design work to transmediale as part of an exhibition).
 
 **Questions to think about (README):**
+
 - **Provide** a title for and a short description of your work (1000 characters or less) as if you were going to submit it to the festival.
 - **Describe** your program and what you have used and learnt.
 - **Articulate** how your program and thinking address the theme "capture all."
 - What are the cultural implications of data capture?
+</div>
 
 ## Required reading
 

@@ -48,6 +48,7 @@ The first program is called *10 PRINT* referring to one line of program code `10
 
 The second program is entitled *Langton's Ant* (1986). It is a two-dimensional universal Turing machine invented in 1986 by the computer scientist Christopher Langton who is considered to be one of the founders of the artificial life field.[^Langton] The core difference with *10 PRINT* is the way in which it generates complex, emergent behavior using only a simple set of rules.
 
+<div class="section exercise" markdown="true">
 ## Exercise in class (10 PRINT)
 
 ![drawing4](ch5_4.png)
@@ -98,6 +99,7 @@ function draw() {
     - Can we have outputs other than just the backward and forward slashes?
 
 5. *10 PRINT* has been appropriated by many artists, designers and students. Take a look at some of the different options it provides [*10 PRINT*](https://twitter.com/search?q=%2310print&src=typd) that are documented on Twitter with the hastag "#10print." Your task in class is to create a sketch with a clear set of rules that operates like a modified version of *10 PRINT*.    
+</div>
 
 ## Langton's Ant
 
@@ -223,6 +225,7 @@ function checkEdges() { //check width and height boundary
 ## Reading Langton's Ant
 
 There are three areas that can help you to zoom in on the program to slow down and adjust the size.
+
 1. `let grid_space = 5;`: If you can change the value to 10, everything will be enlarged.      
 2. `frameRate(20);`: Lower the frame rate value to help slow down the program.
 3. `draw()`: This function contains a for-loop where *n* is the ant's number of steps. If so desired you can reduce the `n < 100` to `n < 1` in the line `for (let n = 0; n < 100; n++) {` this instructs the program to only process *n* steps per frame.
@@ -230,13 +233,9 @@ There are three areas that can help you to zoom in on the program to slow down a
 Instead of going through the code line by line, the following shows what each function does.
 
 - `function setup()`: To setup the canvas size, initiate the ant's head direction, frame rate, color, and to prepare drawing the background grid structure.
-
 - `function drawGrid()`: To divide the canvas into a grid.
-
 - `function draw()`: This main function checks the two rules that apply for *Langton's Ant* and change the color of cells.
-
 - `function nextMove()`: The four directions are structured in a number format so that the variable `dir++` can be used to change the ant's direction by implementing the increment and decrement of the ant's direction in programming terms (i.e `dir++` or `dir--`). Each different direction (*UP, RIGHT, DOWN, LEFT*) corresponds to moving forward along either the horizontal (xPos) or the vertical (yPos) axis on the canvas.
-
 - `function checkEdges()`: This function checks whether the ant moves out of frame. When it does, the program is written in such a way that it appears on the opposite side and continues.
 
 Technically speaking, there is no new syntax here as the two-dimensional arrays have already been covered briefly in the previous chapter. However, there is a new use of two-dimensional arrays and nested for-loops in the sample code.
@@ -274,15 +273,15 @@ To know the exact x and y coordinates of each cell within a grid, we use the for
 
 Therefore, each cell from the grid is represented in the structure of a two-dimensional array. As demonstrated above, you can zoom in or enlarge the cell size by changing the variable `grid_space`, and the number of columns and rows depends on the canvas width and height as derived from `cols = width/grid_space;` and `rows = height/grid_space;`. Each cell, in the form of `array[i][j]`, is a unit represents a possibility that an ant can move within the grid (via the changing values of `i` and `j`).
 
+<div class="section exercise" markdown="true">
 ## Exercise in class
 
 1. Give yourself sometime to read and tinker with the code, as well as to observe the different stages of *Langton's Ant*.
-
 2. The *Langton's Ant* program represents the world of an ant through abstraction, and sets limits on cell color, movement and direction. Rethink the rules that have been implemented. Try changing the existing rules or adding new rules so that the ant behaves differently? (Recall what you have changed in the previous exercise with *10 PRINT*.)
-
 3. In simulating living systems — such as the complex behavior of insects — there seems to be a focus on process over outcome. Let's discuss the following questions:
     - Can you think of, and describe, other systems and processes that exhibit emergent behavior?
     - How would you understand autonomy in this context?[^Watz] To what extent do you consider the machine to be an active agent in generative systems? What are the implications for wider culture?
+</div>
 
 ## While()
 
@@ -316,14 +315,17 @@ Artist David Link built a functional replica of both the hardware and the origin
 > YOURS WISTFULLY
 > M. U. C.
 
-## MiniX[5]: A generative program
+<div class="section exercise" markdown="true">
+## MiniX: A generative program
 
 **Objectives:**
+
 - To implement a rule-based, generative program from scratch.
 - To strengthen the computational use of loops and conditional statements.
 - To conceptually and practically reflect upon the idea of auto-generator.
 
 **For additional inspiration:**
+
 - [{Software} Structure #003 A by Casey Reas](https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks).
 - [Daily Art](http://www.sasj.nl/daily/) by Saskia Freeke.
 - [Generative Artistry by Ruth John and Tim Holman ](https://generativeartistry.com/tutorials/).
@@ -334,13 +336,16 @@ Artist David Link built a functional replica of both the hardware and the origin
 - [Solving Sol project - An open project to implement Sol LeWitt's instructions in JavaScript by Brad Bouse](https://github.com/wholepixel/solving-sol).
 
 **Tasks (RUNME):**
+
 1. Start with a blank sheet of paper. Think of at least two simple rules that you want to implement in a generative program. You can reference *Langton's Ant* (1986) and *The Game of Life* (1970).
 2. Based on the rules that you set in Step 1, design a generative program that utilizes **at least one for-loop/while-loop and one conditional statement**, but without any direct interactivity. Just let the program run. You can also consider using `noise()` and `random()` syntax if that helps.
 
 **Questions to think about as README:**
+
 - What are the rules in your generative program? Describe how your program performs over time? How do the rules produce emergent behavior?
 - What role do rules and processes have in your work?
 - Draw upon the assigned reading, how does this MiniX help you to understand the idea of "auto-generator" (e.g. levels of control and autonomy via rules)? Do you have any further thoughts on the theme of this chapter?
+</div>
 
 ## Required reading
 

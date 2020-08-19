@@ -63,6 +63,7 @@ When tofu becomes a computational object — as in *Tofu Go!* — abstraction is
 
 Below we will introduce the sample code *Eating tofu*, a simple game inspired by the following: *ToFu Go!* (available for free download), the prior project *Multi* as introduced in Chapter 2, "Variable Geometry," and the popular Japanese eating game *Pac-Man*.[^pacman] The remaining parts unfold the computational logic and modeling required to understand the basics of OOP.
 
+<div class="section exercise" markdown="true">
 ## Exercise in class (Decode)
 
 <figure markdown=true>
@@ -82,14 +83,17 @@ Based on what you experience on the screen, describe:
 - Can you describe the algorithmic procedures and sequences of the game using the following components: tofu, Pacman, keypress events, movements?
 
 **Further questions to think about:**
+
 - There is a continous having new tofus moving from right to left, **what** are the conditions to trigger new tofus?  
 - **How** do you check if Pacman has eaten the tofu?
 - Under which conditions will the game end?
 
 **MAPPING with the source code**
+
 - **Map** some of the findings/features from the speculation that you have done with the source code. Which block of code relates to your findings?
 - Can you **identify** the part/block of code that responds to the elements you speculated about above?
 - Identify the syntaxes and functions that you are unfamiliar with, and check out the p5.js reference site: <https://p5js.org/reference/>
+</div>
 
 ## Source code
 
@@ -429,14 +433,18 @@ Implementing a class-object in your program needs some planning. Objects consist
 
 By no means do the steps need to be exactly as listed. Of course, you could think about a program or game in a holistic way from the beginning, and come up with the various object instances later. As such, the steps are just a suggestion, particularly for beginners encountering class-object creation for the first time. Our teaching experience has shown us that students generally find it difficult to implement their own objects, and we hope it is useful to have some steps, keywords, and questions to facilitate the crafting of objects.
 
+<div class="section exercise" markdown="true">
 ## Exercise in class
 
 **1. Tinkering**
+
 - Modify the different values to understand their function/syntax.
 
 **2. Discussion in groups:**
+
 - Identify a game you are familiar with and describe the characters/objects using the class, and object concepts and vocabulary. Can you identify the classes and objects within the chosen example?
 - Given that the creation of objects requires the concept of abstraction, and in line with some of the introductory ideas for this chapter; can you use the sample code or your game as an example to think through some of the political implications of class/object abstraction? Does the fact that this is a game allow for further reflection on the way everyday activities (such as enjoying tofu) become object-oriented?
+</div>
 
 ## Further notes
 
@@ -476,9 +484,9 @@ Let's explain using some more Marxism: we might assume that there is a real and 
 
 If we apply this to a computational object and its abstraction (the identification of properties and methods), it would only makes sense in terms of its wider relations, and recognition of its conditions of operation (program, the programmer's labor, operating system, etc.), and only then if there is a point to expose these conditions so they can be improved, not least with better abstractions. In his way, computational objects allow for a different perspective on lived conditions in this way and how we perceive the world. Worldviews can often be unethical, and we only need to think of game-worlds to see poor examples of racial and gendered abstraction. Therein lies part of the motivation for this chapter, to make better object abstractions and ones with a clearer sense of purpose.
 
-## MiniX[6]: Games with objects
+<div class="section exercise" markdown="true">
+## MiniX: Games with objects
 
-<div class="exercise" markdown=true>
 **Objective:**
 
 - To implement a class-based, object-oriented sketch via abstracting and designing objects' properties and methods.

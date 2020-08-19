@@ -29,6 +29,7 @@ The core method for structuring *Vocable Code* is the use of constraints or rule
 - For each specific voice, the sentence starts with the phrase: "Queer is."
 - For each specific voice, each sentence contains a minimum of one word, but no more than five in total.
 
+<div class="section exercise" markdown="true">
 ## Exercise in class (Decode)
 
 [RUNME](https://dobbeltdagger.net/VocableCode_Educational/)
@@ -67,6 +68,7 @@ By reading the source code, you might discover that some of the coding styles ar
 1. Can you spot the different styles?
 2. Can you read these blocks of code aloud?
 3. How are these expressive and performative qualities described in the assigned reading?[^cox2] Can you describe and articulate these qualities using *Vocable Code* as an example?
+</div>
 
 ## Textuality
 Although the artwork *Vocable Code* is about voices, both voice and text are interlinked in the work. The program picks only one selected text to speak/play at a time, whilst others are displayed dynamically on screen. You can explore the meaning of the words, but their placement and other design attributes, further change the way you perceive and interpret the statements. These are selected, presented, played, and spoken randomly, and at the same time further disrupted by mathematical chaos.    
@@ -379,14 +381,12 @@ function notNew(getQueer) {
 }
 ```
 
+<div class="section exercise" markdown="true">
 ## Exercise in class
 
 1. Work as a group.
-
 2. Download the whole *Vocable Code* program (https://github.com/siusoon/VocableCode/), and run it on your own computer.
-
 3. Briefly discuss the various computational structures and syntax to understand how things generally work, then specifically examine the relationship between voice file naming and the JSON file structure.
-
 4. Follow the instructions and record your own voice with your computer or mobile phone. (The program only accepts the .wav file format)
     - Find a blank sheet of paper and prepare to write a sentence.
     - Complete the sentence with the starting given words: "Queer is...".
@@ -398,12 +398,10 @@ function notNew(getQueer) {
     - You may decide the temporality and rhythm.
     - You may either speak the full word or full sentence with different intonation.
     - Record your voice, then convert the recording into a .wav file. Audacity is an example of free software that can do so.
-
 5. Add your voice/s and update the JSON file and put your voice files in the voices folder. Refresh the program and see if you can hear your own voice among the voices.
-
 6. Advanced: Try to change the text presentation, e.g. its color or its animated behavior.
-
 7. Discuss the different critical and aesthetic aspects of queer code.
+</div>
 
 ## While()
 
@@ -429,13 +427,16 @@ The biography of Turing as a gay man, at a time when homosexuality was still a c
 
 To conclude this chapter, which explored the making of *Vocable Code* with its strange syntax - such as notFalse and notTrue - as well as its many repetitive decimals, we would like to emphasize our central point: Queer is... making binaries strange.  
 
-## MiniX[7]: E-lit
+<div class="section exercise" markdown="true">
+## MiniX: E-lit
 
 **Objective:**
+
 - To understand how JSON works technically, in terms of storing data, and how data can be retrieved using code.
 - To reflect upon the aesthetics of code and language, as well as the audio dimensions of electronic literature (e-lit).
 
 **Get additional inspiration:**
+
 - [Dial (2020) by Lai-Tze Fan & Nick Montfort](http://thenewriver.us/dial/), with JavaScript [source code](view-source:https://nickm.com/fan_montfort/dial/)
 - [Mexicans in Canada (2020) by Amira Hanafi](http://amiraha.com/mexicansincanada/)
 - [A House of Dust (1967) by Alison Knowles and James Tenney, reimplemented by Nick Montfort](https://nickm.com/memslam/a_house_of_dust.html)
@@ -451,11 +452,13 @@ To conclude this chapter, which explored the making of *Vocable Code* with its s
 2. To implement JSON file(s) for text organization, storage, and retrieval.  
 
 **Questions to think about as README:**
+
 - **Provide** a title of your work and a short description (1,000 characters or less).
 - **Describe** how your program works, and what syntax you have used, and learnt?
 - **Analyze and articulate** your work:
   - Analyze your own e-lit work by using the text *Vocable Code* and/or *The Aesthetics of Generative Code* (or other texts that address code/voice/language).
   - How would you reflect on your work in terms of *Vocable Code*?
+</div>
 
 ## Required reading
 
