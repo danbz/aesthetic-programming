@@ -97,13 +97,18 @@ function setup() {
 
 function draw() {
   //getting the audio data
-  let vol = mic.getLevel(); //get the overall volume (between 0 and 1.0)
-  button.size(floor(map(vol, 0, 1, 40, 500))); //map the mic vol to the size of button, check map function: <https://p5js.org/reference/#/p5/map>
+  //get the overall volume (between 0 and 1.0)
+  let vol = mic.getLevel();
+  //map the mic vol to the size of button, check map function: <https://p5js.org/reference/#/p5/map>
+  button.size(floor(map(vol, 0, 1, 40, 500)));
 
   let positions = ctracker.getCurrentPosition();
-  if (positions.length) { //check the availability of webcam tracking
-    button.position(positions[60][0]-20, positions[60][1]);  //as the button is too big, place it in the middle of my mouth, and -> 60 is the mouth area
-    for (let i=0; i<positions.length; i++) {  //loop through all major face track points (see: <https://www.auduno.com/clmtrackr/docs/reference.html)>
+  //check the availability of webcam tracking
+  if (positions.length) {
+    // as the button is too big, place it in the middle of my mouth, and -> 60 is the mouth area
+    button.position(positions[60][0]-20, positions[60][1]);  
+    // loop through all major face track points (see: <https://www.auduno.com/clmtrackr/docs/reference.html>)
+    for (let i=0; i<positions.length; i++) {  
        noStroke();
        fill(map(positions[i][0], 0, width, 100, 255), 0,0,10);  //color with alpha value
        //draw ellipse at each position point
@@ -199,8 +204,10 @@ function setup() {
 
 function draw() {
   //getting the audio data
-  let vol = mic.getLevel(); //get the overall volume (between 0 and 1.0)
-  button.size(floor(map(vol, 0, 1, 40, 500))); //as the button is too big, check map function: <https://p5js.org/reference/#/p5/map>
+  let vol = mic.getLevel();
+  //get the overall volume (between 0 and 1.0)
+  button.size(floor(map(vol, 0, 1, 40, 500)));
+  //as the button is too big, check map function: <https://p5js.org/reference/#/p5/map>
 }
 ```
 
@@ -238,11 +245,15 @@ ctracker.start(capture.elt);
 
 function draw() {
 let positions = ctracker.getCurrentPosition();
-if (positions.length) { //check the availability of webcam tracking
-    button.position(positions[60][0]-20, positions[60][1]); //as the button is too big, place it in the middle of the mouth, and 60 is the mouth area (check lib spec)
-    for (let i=0; i<positions.length; i++) {  //loop through all major face tracking points
+if (positions.length) {
+  //check the availability of webcam tracking
+    button.position(positions[60][0]-20, positions[60][1]);
+    //as the button is too big, place it in the middle of the mouth, and 60 is the mouth area (check lib spec)
+    for (let i=0; i<positions.length; i++) {
+      //loop through all major face tracking points
        noStroke();
-       fill(map(positions[i][0], 0, width, 100, 255), 0,0,10);  //color with alpha value
+       fill(map(positions[i][0], 0, width, 100, 255), 0,0,10);
+       //color with alpha value
        ellipse(positions[i][0], positions[i][1], 5, 5);
     }
 }
