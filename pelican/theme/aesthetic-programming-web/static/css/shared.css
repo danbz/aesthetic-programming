@@ -32,7 +32,8 @@ padding-bottom: 1em;
 h2 {
 font-size: calc(var(--font-size) * 1.5);
 line-height: 1.5em;
-padding-bottom: 1em;
+padding-top: 1.5em;
+padding-bottom: 1.5em;
 }
 
 
@@ -95,7 +96,7 @@ p {
 }
 
 p + p {
-padding-top: var(--line-height);
+    padding-top: 0;
 }
 
 figure {
@@ -141,7 +142,10 @@ font-style: italic;
 
 
 blockquote {
-padding: var(--line-height) 0;
+    padding: var(--line-height) calc(var(--line-height) /2);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-bottom: var(--line-height);
 }
 
 blockquote p {
@@ -167,6 +171,13 @@ padding: var(--line-height) 0;
     margin-left: -1.5em;
     padding-bottom: var(--line-height);
 }
+.section.exercise .section,
+.section.exercise .subsection {
+    border-left: 0;
+    padding-left: 0;
+    margin-left: 0;
+    
+}
 
 h4 ~ p,
 h4 ~ ol,
@@ -185,22 +196,12 @@ h2 + ul {
     padding-left: 0;
 }
 
-h2[id^=minix],
-h3[id^=exercise] {
-    top: 3em;
-    position: relative;
-    margin-left: 1.5em;
-}
 
-h2[id^=minix] + div.exercise,
-h3[id^=exercise] + div.exercise,
-h3[id^=exercise] + ul,
-h3[id^=exercise] + ol,
-h3[id^=exercise] + p {
+div.exercise {
     outline: 8px double black;
-    padding: 2.5em;
-    padding-top: 3.5em;
-    margin-bottom: 1.5em;
+    padding: 1.5em;
+    margin-bottom: 3em;
+    margin-top: 1.5em;
     border: 0;
 }
 
