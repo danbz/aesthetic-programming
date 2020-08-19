@@ -122,6 +122,11 @@ ul li:before {
 content: "– ";
 }
 
+section ul li {
+    text-indent: -18px;
+    margin-left: 18px;
+}
+
 ol > li {
 list-style-type: decimal;
 }

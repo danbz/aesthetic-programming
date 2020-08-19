@@ -102,11 +102,11 @@ nav ul a.active {
 
 .toc {
     position: sticky;
-    top: 30vh;
-    margin-left: -7em;
+    top: 32vh;
+    margin-left: -8em;
     font-size: 0.7em;
     line-height: 1.25em;
-    width: 200px;
+    width: 210px;
     float: left;
 }
 .toc ul {
@@ -114,6 +114,22 @@ nav ul a.active {
     padding-bottom: 0;
 }
 
+.toc  ul {
+    border: 0;
+    padding-left: 0;
+    border: 0;
+}
+
+.toc > ul li:before {
+    content: "├ ";
+}
+
+.toc ul ul li:before {
+    content: "├─ ";
+}
+.toc ul ul ul li:before {
+    content: "├── ";
+}
 
 #canvas iframe {
     height: 100%;
@@ -172,5 +188,14 @@ p, blockquote, li {
     :root {
         --font-size: 22px !important;
         --line-height: 1.25em !important;
+    }
+    nav {
+        padding-top: 9em;
+    }
+    nav h1 {
+        font-size: 22px;
+    }
+    .toc {
+        top: 39vh;
     }
 }
