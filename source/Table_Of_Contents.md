@@ -5,7 +5,7 @@ page_order: -3
 
 **By**: Winnie Soon and Geoff Cox
 
-![](toc.svg)
+![](TOC.svg)
 
 ## Colophon
 

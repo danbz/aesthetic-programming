@@ -32,5 +32,19 @@
         Last updated: {{ page.locale_modified }}
         </p>
     {% endif %}
-    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/activateSnippets.js"></script>
+    <!-- <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/activateSnippets.js"></script> -->
+{% endblock %}
+
+{% block sketch %}
+    {% if page.sketch %}
+        <section id="canvas">
+            <script type="text/p5" data-editor-layout="vertical" data-autoplay="autoplay"
+                src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/{{ page.sketch }}"
+                data-p5-path="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/{{ page.p5 }}"
+                {% if page.requirements %}
+                    data-requirements="{% for requirement in page.requirements %}{{ SITEURL }}/{{ THEME_STATIC_DIR }}/{{ requirement }}{% if not loop.last %}, {% endif %}{% endfor %}"
+                {% endif %}>
+            </script>
+        </section>
+    {% endif %}
 {% endblock %}

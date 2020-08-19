@@ -59,3 +59,7 @@ MARKDOWN = {
     },
     'output_format': 'html5',
 }
+
+DEFAULT_METADATA = {
+    'p5': 'p5_SampleCode/libraries/p5.js'
+}

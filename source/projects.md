@@ -38,11 +38,12 @@ page_order: 13
 - ———. *Not Not*. 2016. MP3 audio, 6:30. <https://soundcloud.com/ihatch/5-notnot>.
 - Horikawa, Junichiro. *20200509_lifeline*. 2020. <https://www.openprocessing.org/sketch/891619>.
 - Howe, Daniel. *Downloads RiTa library*. RiTa, accessed June 20, 2020. <http://rednoise.org/rita/download.phps>.
-- Huang, Lingdong. *wenyan‑lang*. 2019.<https://wy-lang.org/>.
+- Huang, Lingdong. *wenyan‑lang*. 2019. <https://wy-lang.org/>.
 - Kazemi, Darius. “Corpora - A repository of JSON files.” Last updated May 19, 2020. <https://github.com/dariusk/corpora/tree/master/data>.
 - Kearney-Volpe, Claire, Govindarajan, Mathura, and Morales-Navarro, Luis. *p5.js Web Editor*. 2018. <https://editor.p5js.org/>.
 - Kearney-Volpe, Claire. “p5.js access project.” <https://www.clairekv.com/p5js-ux-research>.
 - Knowles, Alison, and James Tenney. *A House of Dust*. 1967. Re-implemented by Nick Montfort. *For Memory Slam*. 2014. <https://nickm.com/memslam/a_house_of_dust.html>.
+- Laczko, Juli. *webmachines*, Digital Power, ACM SIGGRAPH, 2020. <https://digital-power.siggraph.org/piece/webmachine/>.
 - Landsteiner, Norbert. *elizabot.js*. 2005. <https://www.masswerk.at/elizabot/>.
 - ———. *E.L.I.Z.A Talking*. 2013. <https://www.masswerk.at/eliza/>.
 - Li, Fei-Fei, Jia Deng, Olga Russakovsky, Alex Berg, Kai Li. *ImageNet*. <http://image-net.org/>.
@@ -60,9 +61,14 @@ page_order: 13
 - Open Source Publishing (OSP). <http://osp.kitchen/>.
 - Øygard, Audun M..*clmtrackr*. 2017. <https://github.com/auduno/clmtrackr>.
 - Pritchard, Helen, and Winnie Soon. *Recurrent Queer Imaginaries*. Exhibition Research Lab, Liverpool John Moores University — School of Art and Design, November 2019 – January 2020. <https://www.exhibition-research-lab.co.uk/exhibitions/recurrent-queer-imaginaries/>.
+- ———. *Recurrent Queer Imaginaries*, Digital Power, ACM SIGGRAPH, 2020, <https://digital-power.siggraph.org/piece/recurrent-queer-imaginaries/>.
 - Process Studio. *AImoji*. 2019. <https://process.studio/works/aimoji-ai-generated-emoji/>.
 - “processing/p5.js.” Github. <https://github.com/processing/p5.js/wiki>.
 - Queer AI. <https://queer.ai/>.
+- Read_me Festival 1.2. "Software art / software art games." Festival at the Macros-center, Moscow, May 18 - May 19, 2002.<http://readme.runme.org/1.2/>.
+- Read_me Festival 2.3. "Software art festival." Festival at the Media Centre Lume, Helsinki, May 30 - May 31, 2003.,http://www.m-cult.org/read_me/>.
+- Read_me Festival 2004. "Software art festival." Aarhus, August 23 - August 27, 2004. <http://readme.runme.org/2004/>.
+- Readme100. "Temporary Software Art Factory." Festival at the State and City Library of Dortmund, Dortmund, November 4 - November 5, 2005. <http://readme.runme.org/>.
 - Reas, Casey. *{Software}Structure #003 A*. <https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks>.
 - *ReCode Project*. <http://recodeproject.com/>.
 - Reinfurt, David, *Multi*. O-R-G inc.. <http://www.o-r-g.com/apps/multi>.

@@ -69,13 +69,13 @@
         </section>
 
         <main {% block attr %} {% endblock %}>
-        {% block content %}
-        {% endblock %}
+            {% block content %}
+            {% endblock %}
         </main> 
-
+        
         <section class="right">
-            <div id="canvas">
-            </div>
+            {% block sketch %}
+            {% endblock %}
         </section>
 
 

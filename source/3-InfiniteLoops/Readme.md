@@ -1,5 +1,11 @@
 Title: 3. Infinite Loops
 page_order: 3
+p5: p5_SampleCode/libraries/p5.js
+requirements: p5_SampleCode/libraries/p5.play.js
+              p5_SampleCode/libraries/p5.sound.js
+sketch: p5_SampleCode/ch3_InfiniteLoops/sketch.js
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch3_InfiniteLoops
+download_requirements_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/libraries
 
 ![flowchart](ch3_0.svg)
 

@@ -69,8 +69,13 @@
 	    };
 	    loadNextScript();
 	}
-	function p5url(version) {
-	    return "//cdnjs.cloudflare.com/ajax/libs/p5.js/" + version + "/p5.js";
+	function p5url(path, version) {
+	    if (path) {
+	        return path;
+	    }
+	    else {
+	        return "//cdnjs.cloudflare.com/ajax/libs/p5.js/" + version + "/p5.js";
+	    }
 	}
 	function LoopChecker(sketch, funcName, maxRunTime) {
 	    var self = {
@@ -104,7 +109,7 @@
 	    base.setAttribute('href', url);
 	    document.head.appendChild(base);
 	}
-	function startSketch(sketch, p5version, maxRunTime, loopCheckFuncName, baseURL, errorCb) {
+	function startSketch(sketch, p5version, p5path, maxRunTime, loopCheckFuncName, baseURL, errorCb, requirements) {
 	    var sketchScript = document.createElement('script');
 	    var loopChecker = LoopChecker(sketch, loopCheckFuncName, maxRunTime);
 	    if (baseURL) {
@@ -131,8 +136,8 @@
 	        errorCb(message, line);
 	    });
 	    loadScripts([
-	        p5url(p5version),
-	    ], function () {
+	        p5url(p5path, p5version),
+	    ].concat(requirements), function () {
 	        document.body.appendChild(sketchScript);
 	        if (document.readyState === 'complete') {
 	            new global.p5();
