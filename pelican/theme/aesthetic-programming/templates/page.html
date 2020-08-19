@@ -11,6 +11,32 @@
   <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/shared.css" type="text/css" media="all" charset="utf-8">
   <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/styles.css" type="text/css" media="all" charset="utf-8">
 
+    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/codemirror.css" type="text/css" media="all" charset="utf-8">
+    <style>
+        .CodeMirror {
+            height: initial;
+            font-size: 80%;
+            line-height: 140%;
+        }
+
+        pre .CodeMirror-line {
+            outline: initial;
+            outline-offset: initial;
+        }
+
+        .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
+            font-family: ocr-pbi;
+        }
+    </style>
+
+
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/codemirror.js"></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/javascript.js"></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/activateCodeblocks.js"></script>
+    <script>
+        activateCodeblocks();
+    </script>
+
 
     <script type="text/javascript" charset="utf-8" src="/theme/js/paged.polyfill.js">
     </script>
@@ -21,3 +47,4 @@
   {{ page.content }}
 </body>
 </html>
+

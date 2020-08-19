@@ -30,11 +30,18 @@ margin: 2cm 2cm 3.5cm 3cm;
 counter-increment: page;
 }
 
-
-
 h1 + p img {
-    break-after: always;
+    break-after: right;
 }
+
+.toc:before {
+    content: "Contents";
+}
+.toc {
+    break-before: right;
+    break-after: right;
+}
+
 
 div.footnote {
     font-size: 9pt;
@@ -43,4 +50,8 @@ div.footnote {
 
 div.footnote ol {
     column-count: 3;
+}
+
+img {
+    max-height: 19cm;
 }
