@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 import sys, os
 sys.path.append(os.curdir)
 from attach_images import PelicanAttachImage
+from indexed_words import IndexedWordsExtension
 
 AUTHOR = '.'
 SITENAME = 'Aesthetic Programming'
@@ -57,6 +58,7 @@ MARKDOWN = {
         'markdown.extensions.toc': {},
         'mdx_figcaption': {},
         'attach_images': {},
+        'indexed_words': {}
     },
     'output_format': 'html5',
 }
