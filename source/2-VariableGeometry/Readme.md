@@ -325,7 +325,7 @@ The challenge is to rethink normative geometries, to turn them upside down and i
 
 - [Chinese Characters as Ancient Emoji](https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/)[^Witt] by Steve Witt.
 - [Women finally get a menstruation emoji](https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji)[^Grot] by Michael Grothaus.
-- [Between Art and Application: Special issue on emoji epistemoloy by Crystal Abidin and Joel Gn](https://firstmonday.org/ojs/index.php/fm/article/view/9410)[^Abidin] (a short text about emoji culture)
+- [Between Art and Application: Special issue on emoji epistemoloy by Crystal Abidin and Joel Gn](https://firstmonday.org/ojs/index.php/fm/article/view/9410)[^Abidin] (a short text about emoji culture).
 
 **Tasks (RUNME):**
 
@@ -368,7 +368,7 @@ Explore shapes, geometries, and other related syntax (via p5.js [references](htt
 
 [^ideology]: Abbing, Pierrot and Snelting, *Modifying the Universal*, 210.
 
-[^multi]: See <http://www.o-r-g.com/apps/multi>. *Multi* also provides variations of book covers for the DATA browser series published by Open Humanities Press, <http://www.data-browser.net/>.>.
+[^multi]: See <http://www.o-r-g.com/apps/multi>. *Multi* also provides variations of book covers for the DATA browser series published by Open Humanities Press, <http://www.data-browser.net/>.
 
 [^binarycolor]: Red, Green and Blue are the so-called primary colors that, when added together, produce a broad array of colors. RGB color values range from 0 to 255 with a total of 256 possible values for each primary color. The reason behind is that all the colors are in 24 bit format, the red (R) takes 8 bit, the green (G) takes 8 bit and the blue (B) takes the remaining 8 bits. 2 binary values are stored for each bit, therefore 2^8th power is 256 which is the exact possible range of each color. The RGB system is closely related to the nature of computation in a binary system.
 

@@ -68,15 +68,16 @@
             </nav><!-- /#menu -->
         </section>
 
-        <section class="left">
-        {% block sketch %}
-        {% endblock %}
+        <main {% block attr %} {% endblock %}>
+            {% block content %}
+            {% endblock %}
+        </main> 
+        
+        <section class="right">
+            {% block sketch %}
+            {% endblock %}
         </section>
 
-        <main {% block attr %} {% endblock %}>
-        {% block content %}
-        {% endblock %}
-        </main> 
 
 
 <!-- 
