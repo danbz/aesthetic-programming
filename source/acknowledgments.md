@@ -8,12 +8,12 @@ page_order: -2
 
 let thankYou =
     ["Each other - for an excellent collaboration",
-     "Loren Britton - for copyediting and helpful critical comments",
+     "Loren Britton - for copyediting, and helpful critical comments",
      "Matthew Fuller - for inspiration, and endorsement",
-     "Lauren McCarthy - for inspiration, critical comments on the draft",
+     "Lauren McCarthy - for inspiration, and critical comments on the draft",
      "Jennifer Gabrys - for critical comments on the draft, and endorsement,"
      "Søren Pold - for critical comments on the draft",
-     "Open Humanties Press, Gary Hall, Sigi Jöttkandt and David Ottina - in support of publishing in experiemntal form",
+     "Open Humanties Press, Gary Hall, Sigi Jöttkandt and David Ottina - in support of publishing in experimental form",
      "Open Source Publishing, Stéphanie Vilayphiou and Gijs de Heij - for design and workshopping",
      "p5.js community - for the contribution of promoting coding and visual literacy via open source tools and documentation",
      "Magda Tyżlik-Carver and Christian Ulrik Andersen - for teaching Software Studies course in parallel to Aesthetic Programming",
