@@ -1,6 +1,8 @@
 Title: 0. Preface
 page_order: 0
 
+[TOC]
+
 
 ## What kind of book is this?
 

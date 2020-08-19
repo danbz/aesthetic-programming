@@ -1,7 +1,11 @@
 Title: 4. Data Capture
 page_order: 4
+sketch: p5_SampleCode/ch4_DataCapture/sketch.js
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch4_DataCapture
 
 ![flowchart](ch4_0.svg)
+
+[TOC]
 
 ## setup()
 This chapter focuses on how a program captures and processes input data. We have already introduced interactivity with physical devices with the functions `mouseX` and `mouseY` (see Chapter 2, "Variable Geometry"), as well as the idea of listening events via the functions `mouseIsPressed()` and `windowResized()` (see Chapter 3, "Infinite Loops"). In this chapter we expand on these ideas and present different types of data capture, including mouse movement, keyboard press, audio volume, and face tracking with a web camera.
@@ -14,8 +18,7 @@ With these ideas in mind, the next section will introduce the sample code for a 
 
 ### start()
 ![datacapture](ch4_10.gif)
-
-*Figure 4.1 The web interface and interaction of the sample code*
+:   *Figure 4.1 The web interface and interaction of the sample code*
 
 [RUNME](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch4_DataCapture/)    
 
@@ -219,12 +222,10 @@ The library should be included in the HTML file (as demonstrated in Chapter 1, "
 Like a button, you first declare the object, e.g. `let mic;`, and then set up the input source (usualy a computer microphone) and start to listen to the audio input (see the two lines in `setup()`). When the entire sample code is executed, a popup screen from the browser will ask for permission to access the audio source. This audio capture only works if access is granted.
 
 ![](ch4_1.png)
-
-*Figure 4.1: Permission for audio access*
+:   *Figure 4.1: Permission for audio access*
 
 ![](ch4_2.png)
-
-*Figure 4.2: Permission for camera access*
+:   *Figure 4.2: Permission for camera access*
 
 The sample code refers to methods under `p5.AudioIn()`, which reads the amplitude (volume level) of the input source returning values between 0.0 to 1.0 using the `getLevel()` method.
 
@@ -265,13 +266,11 @@ if (positions.length) {
 For face capture, the sample code uses clmtrackr which is a JavaScript library developed by data scientist Audun M. Øygard in 2014 for aligning a facial model with faces in images or video.[^Face] Based on facial algorithms designed by Jason Saragih and Simon Lucey,[^Algo] the library analyses a face in real-time marking it into 70 points based on a pre-trained machine vision model of facial images for classification. Since it is a JavaScript library, you need to put the library in the working directory, and link the library, and the face model in the HTML file.
 
 ![](ch4_10.png)
-
-*Figure 4.3: The HTML file structure to import the new library and models*
+:   *Figure 4.3: The HTML file structure to import the new library and models*
 
 
 ![](ch4_3.png)
-
-*Figure 4.4: The tracker points on a face*
+:   *Figure 4.4: The tracker points on a face*
 
 The program uses the webcam to do face capture and facial recognition:
 
@@ -308,14 +307,12 @@ This next section discusses various examples of different inputs for data captur
 At the moment, the most widely used web analytics service is provided by Google and contains tremendous amounts of data on website traffic and browsing behavior, including the number of unique visits, average time spent on sites, browser and operating system information, traffic sources and users' geographic locations, and so on. This data can then be further utilized to analyze customers' profiles and user bahavior.
 
 ![](ch4_4.png)
-
-*Figure 4.5: Google Analytics Screenshot*
+:   *Figure 4.5: Google Analytics Screenshot*
 
 Heatmap is one of the visualization tools and provides a graphical representation of data to visualize user behavior. It is commonly used in industries for the purpose of data analytics. For example, it is easy to track the cursor's position and compute the duration of its stay in different areas of a web page, providing an indication as to which content is "hotter" than the rest. This is useful for marketing purposes, not least to understand which content is more or less attractive to users, and for companies or political parties to analyze where to best place their ads and other propaganda. The Facebook–Cambridge Analytica data scandal makes a pertinent case study. In early 2018, it was revealed that the personal data of millions of peoples' Facebook profiles had been harvested without their consent, and used for political advertising purposes.[^Analytica]
 
 ![](ch4_7.png)
-
-*Figure 4.6: An example of a heatmap for analyzing a web page*
+:   *Figure 4.6: An example of a heatmap for analyzing a web page*
 
 Major corporations such as Facebook,[^Facebook] constantly explore new data capture methods to optimize screen presentation.
 
@@ -323,8 +320,7 @@ Major corporations such as Facebook,[^Facebook] constantly explore new data capt
 As we argued with regard to interaction, the choices are limited, and yet each form element like a dropdown menu or a button indicates different affordances.[^gibson] Researcher Rena Bivens has made a thorough analysis of Facebook's registration page in relation to the gender options available.[^Bivens] When Facebook was first launched in 2004 there was no gender field, but things changed in 2008 when a drop-down list was introduced that consisted solely of the options Male or Female, further changed with the use of radio buttons to emphasize the binary choice. A breakthrough occurred in 2014 when Facebook allowed users to customize the gender field and you can now select from a list of more than 50 gender options. According to Facebook, they wanted to enhance "personalized experiences" with "authentic identity,"[^Facebook2] however it remains arguable that this personalization (both at Facebook and in society in general) actually serves to enforce categorization, and of course it ultimately serves the purpose of market segmentation (dividing users into ever more sub-groups).
 
 ![](ch4_8.png)
-
-*Figure 4.7: Facebook's custom gender field as of February 2020*
+:   *Figure 4.7: Facebook's custom gender field as of February 2020*
 
 ### Metrics of likes
 The use of a single like button provides a good example of how our feelings are captured. The aptly named company "Happy or Not" who produce push button technology and analytics software — the kind found in supermarkets for instance, with happy or sad faces — also provide feedback technologies for the workplace, as indicated by their strapline: "Creating happiness in every business, worldwide".[^Leslie] The six emoticons Facebook launched in 2016, including "Like," "Love," "Haha," "Wow," "Sad" and "Angry," mark our standardized experience of work and play more precisely. All clicks are "categorized" into emotional metrics, displayed publicly on the web, and used for algorithmic calculation to prioritize feeds to users. It is fairly clear how the clicks serve the interests of platform owners foremost, and, as if to prove the point, Facebook, and Instagram have tested the idea of hiding the metrics on posts in order to shift attention to what they prefer to call "connecting people"[^Hide] — as if to prove their interests to be altruistic.
@@ -332,8 +328,7 @@ The use of a single like button provides a good example of how our feelings are 
 This practice of quantification is something the artist Benjamin Grosser has parodied in his *Demetricator* series,[^Grosser] first published in 2012, which makes all the numbers associated with the metadata disappear. The associated "value" of numbers associated with notifications, replies, favorites, and feeds, have all been nullified. Or rather, it becomes clear that the clicking produces value and the proof of this is conspicuous by its absence.
 
 ![](ch4_9.gif)
-
-*Figure 4.8: Benjamin Grosser's Facebook Demetricator, demetricating Likes, Shares, Comments, and Timestamps. Original (top), Demetricated (bottom). Image courtesy of the artist.*
+:   *Figure 4.8: Benjamin Grosser's Facebook Demetricator, demetricating Likes, Shares, Comments, and Timestamps. Original (top), Demetricated (bottom). Image courtesy of the artist.*
 
 Tracking is clearly big business and comes with its own invisibility cloak. In 2013, Facebook conducted a research project about last-minute self-censorship,[^Facebook3] revealing their capability of being able to track even unposted status updates/posts/comments, including erased texts, or images. This "residual data," which might be considered "waste material," "digital exhaust," or data exhaust," and yet this data is rich in predictive values.[^zuboff2] The implication is that Facebook is not only interested in capturing what you have posted, but also capturing your thought processes from residual data. It is sobering to think that data capture extends to the realm of imagination.
 
@@ -341,15 +336,13 @@ Tracking is clearly big business and comes with its own invisibility cloak. In 2
 Smart devices like our computers, phones, and other gadgets are commonly equipped with voice recognition — such as Siri, Google Assistant or Alexa — which turns audio input into commands for software, and feedback with more personalized experiences to assist in the execution of everyday tasks. You can find these voice assistants in just about everything now including, everyday objects like microwaves, and they become more and more conversational and "smart," one might say "intelligent," as machine learning develops. These "voice assistants," as they are known, carry out simple tasks very well, and become smarter, and at the same time capture voices for machine learning applications in general. Placing these tangible voice assistants in our homes allows the capturing of your choices and tastes when not facing a screen. In the internet of things, the device serves you, and you serve the device. Indeed we become "devices" that generate value for others.[^Leslie2]    
 
 ![](ch4_6.png)
-
-*Figure 4.9: Screenshot of Voice & Audio activity*
+:   *Figure 4.9: Screenshot of Voice & Audio activity*
 
 ### Health tracker
 Fitness and well-being becomes datafied too, and with the setting of personal targets, "gamified." As the welfare state is dismantled, personal well-being becomes more and more individualized and there is a growing trend for "self-tracking" apps. Movement, steps, heart rate, and even sleep patterns can be tracked and analyzed using wearable devices such as the Fitbit, or the Apple Watch. These practices of the "quantified self," sometimes referred to as "body hacking" or "self-surveillance," overlap with other trends that incorporate capture and acquisition into all aspects of daily life.
 
 ![](ch4_5.png)
-
-*Figure 4.10: Screenshot of sleep tracker*
+:   *Figure 4.10: Screenshot of sleep tracker*
 
 ## While()
 

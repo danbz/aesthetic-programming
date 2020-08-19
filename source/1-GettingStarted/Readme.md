@@ -3,6 +3,8 @@ page_order: 1
 
 ![flowchart](ch1_0.svg)
 
+[TOC]
+
 ## setup()
 It has become commonplace to include programming in educational programes at all levels and across a range of disciplines. Yet this still remains relatively uncommon in the arts and humanities, where learning to program does not align explicitly with the related career aspirations. This raises questions about what does or doesn't get included in curricula, why this may be the case, and which knowledge and skills are considered essential for some subjects and not others. Certain forms of privilege (related to class, gender, race) are clearly affirmed in these choices. For instance, in very general terms, "high culture" has traditionally been described as the domain of university-educated (wealthy, white) people, whilst "low culture" the domain of non-university-educated (working class) ordinary people. Neither high nor low culture, programming cuts across this class divide as both an exclusive and specialized practice that is also one rooted in the acquisition of skills with applied real-world use in both work and play. Yet, despite its broad applicability, access to the means of production at the level of programming remains an issue all the same.  
 
@@ -17,8 +19,7 @@ This opening chapter introduces some ideas and exercises to get started (the `se
 ### start()
 
 ![ch1_1](ch1_1.png)
-
-*Figure 1.1: p5.js web interface*
+:   *Figure 1.1: p5.js web interface*
 
 Throughout the book, we will use JavaScript as the main programming language, primarily focusing on p5.js and its associated libraries. Practically speaking, p5.js is a web-based library,[^library] that utilizes an open source JavaScript framework that makes creating projects with code on the web accessible, as well as much easier to share via the Internet, such as p5.js Web Editor, Open Processing, Git hosting platforms without additional installation. A JavaScript-based project can be run and executed using a URL in a browser.
 
@@ -41,14 +42,12 @@ Additionally we use Gitlab as our code and text respository, at least for this b
 4. If you put the unzipped folder "p5" in a customized directory, then you should see the list of files in the folder as below. You should see the two p5.js libraries, one comprehensive file (p5.js) and one mini version (p5.min.js).
 
 ![ch1_2](ch1_2.png)
-
-*Figure 1.2: p5 folder hierarchy*
+:   *Figure 1.2: p5 folder hierarchy*
 
 5. Click on the folder "empty-example," and you will see a list of the files you need to start:
 
 ![ch1_3](ch1_3.png)
-
-*Figure 1.3: p5 folder hierarchy*
+:   *Figure 1.3: p5 folder hierarchy*
 
 *  **index.html** - the default Hypertext Markup Language (HTML) which will be first to be picked up by a web browser. HTML is a fundamental technology used to define the structure of a webpage and it can be customized to include text, links, images, multimedia, forms, and other elements.
 *  **sketch.js** - the key work file for writing JavaScript. The word 'sketch' is used similarly to the way it would be in the visual arts, in other words it is a less formal means of working out or capturing ideas, and experimenting with composition.
@@ -61,8 +60,7 @@ ATOM is used as the code editor for this book. It supports cross-platform editin
 2. Drag the "p5" folder that you have just unzipped into ATOM. You should be able to see the left-hand pane with your project. Try to navigate to the "index.html" file under the "empty-example" folder, double click that file and the source code should display on the right-hand pane. See below:
 
 ![](ch1_4.png)
-
-*Figure 1.4: ATOM's file structure*
+:   *Figure 1.4: ATOM's file structure*
 
 "index.html" is usually the default page the web browser will display. You can customize the page title and other styling issues, but the focus for this chapter will be on navigating the libraries and runing your first program. Since p5.js is a library, the lines 8-10 indicate how to incorporate JavaScript files and libraries by using the tags `<script>` and `</script>`.
 
@@ -71,8 +69,7 @@ The script currently uses relative paths, which is a useful concept when we need
 Next you will need to install a package called "atom-live-server,"[^liveserver] which is useful for setting up a web server so you can update your code and see the results immediately in a browser without needing to refresh it. You can first check under "Packages" on your menu bar and see if the package is there. If not, then go to "Edit > Preferences > ''+ Install'," then type "atom-live-server." Hit the blue install button and you should be able to find it again in the Packages menu.
 
 ![](ch1_5.png)
-
-*Figure 1.5: Installing atom-live-server*
+:   *Figure 1.5: Installing atom-live-server*
 
 If you want to customize the theme like the background color of the panes, simply go to "Preferences > Themes."
 
@@ -109,16 +106,14 @@ function draw() {
 * To run the code, you need to go to "Packages > atom-live-server > Start Server." A pop-up window will appear, click on the "empty-example" folder and it should display something like this:
 
 ![](ch1_6.png) <br>
-
-*Figure 1.6: My first program*  
+:   *Figure 1.6: My first program*  
 
 ## Exercise in class
 
 This exercise is to familiarize you with the working environment, path and local directory so you learn that running a sketch in a web browser requires loading the right path to the JavaScript libraries. You are also free to create your own folder name and rename the file sketch.js as you please. You can also try to change parameters by changing numbers to get a sense of how things work, but this will be explained in more detail later on in the book.
 
 ![](ch1_7.png)
-
-*Figure 1.7: My first program 1.1*
+:   *Figure 1.7: My first program 1.1*
 
 1. **Stop the server:** Stop the atom-live-server by going to "Packages > 'atom-live-server' > Stop."
 
@@ -139,14 +134,12 @@ As you might realize by now, this book does not follow the conventions of most p
 In the sample code above, the line 4 prints "hello world." But to see the text, you need to open the web console area the location of which depends on te browser you are using. Try to search for it by navigating the menu bar. In Firefox, for instance, it is located under "Tools > Web Developer > Web Console" (or press the keyboard shortcut: Ctrl + Shift + K for Linux/Windows, and Option + Command + K for Mac).
 
 ![](ch1_8.png)
-
-*Figure 1.8: The web console area*
+:   *Figure 1.8: The web console area*
 
 At the bottom of Figure 1.8, the web console area shows "hello world." This tells you the sketch is running properly and it is able to read the print function line. As you progress through this book, you will notice how important the web console area is, because it also displays error messages if, for example, the syntax is wrong (we will discuss errors in Chapter 8, "Que(e)ry data"). In such cases the browser will give you some good hints for debugging your code. Figure 1.9 shows that the web console area is able to specify which file (sketch.js) and which line of code (Line 8) has a problem (the syntax background was spelled wrong intentionally).
 
 ![](ch1_9.png)
-
-*Figure 1.9: Example of syntax error*  
+:   *Figure 1.9: Example of syntax error*  
 
 Hello World programs have a long history in computing, are typically used to introduce programming languages to beginners, and ensure things are running as they should. Readers understand the line `print("hello world")` quite literally as it is written in "natural" language. At the same time the computer is executing precisely what you tell it to do, printing a text through an "instruction," giving an immediate result which can be very rewarding. The immediate feedback "produces a feeling of power" as the programmer starts to exert control over the code and its meaningful expression in the world.[^Chun2] The programmer learns to express themselves in a new language as if speaking for the first time, hence the seemingly naïve address, announcing themselves to the world. The project [*hallo welt! (hello world!)*](http://www.anti-thesis.net/hello-world-60/),[^Hello] by Geoff Cox and Duncan Shingleton plays on this communicative act, looping more than 100 Hello World programs written in different programming languages, alongside a selection of human languages, combining them into a real-time, multilingual, machine-driven confusion of tongues (as in *The Tower of Babel*).[^Babel]
 
@@ -157,16 +150,14 @@ To summarize, what the sample code above does is initialize the exact canvas siz
 
 
 ![](ch1_10.png)
-
-*Figure 1.10: The reference guide example - ellipse()*
+:   *Figure 1.10: The reference guide example - ellipse()*
 
 To understand the parameters of each p5.js built-in functions, such as how many parameters in a function like `ellipse()`, we can turn to "References" from the p5.js website. The [reference page](https://p5js.org/reference/) lists most of the available p5.js built-in functions, and once you get used to their presentation, it will become easier and faster to learn and write the syntax provided.
 
 Let's read the reference in Figure 1.10 together - [`ellipse()`](https://p5js.org/reference/#/p5/ellipse).[^ellipse] It usually starts with an example and an illustration, and you can click the "edit" button to modify the code, changing the parameters on the fly immediately displaying the results on screen. The description part of the reference page explains how the function syntax works and this is especially useful for beginners who might have little idea about the parameters/numbers and what this entails for each parameter within a function. The syntax area demonstrates how the built-in function should be written precisely, such as how many parameters for that function. For example, in the case of `ellipse(x, y, w, [h])`, it explains how the first parameter x and the second parameter y are used to set the location of the ellipse in terms of x and y coordinates. The canvas is demarcated using pixel units and the [0,0] coordinates start in the top left corner of the canvas. The parameter w and h refers to the width and height of the ellipse, and you can also think of this as defining the diameter, or setting the size, of the ellipse. The square bracket "[h]" is an optional parameter if the width and height of the ellipse is the same.
 
 ![](ch1_11.png)
-
-*Figure 1.11: Visualizing the ellipse*
+:   *Figure 1.11: Visualizing the ellipse*
 
 What we want to demonstrate here is that it is important to start with the references, then explore other syntaxes and features, for example shapes like rectangles and polygons. There are still other syntaxes in the sample code that we haven't explained in detail, so perhaps you can find the corresponding references in the p5.js web reference material and explore these yourself. However, we will continue to explore the color function in the next chapter, and the `random()` function in the one following that.
 

@@ -3,6 +3,8 @@ page_order: 9
 
 ![flowchart](ch9_0.svg)
 
+[TOC]
+
 ## setup()
 
 An algorithm or recipe can be written down in a cookbook or codebook so the actions can be shared and repeated. This is something that Donald Knuth identified in his *The Art of Computer Programming* (1968), to stress the aesthetic dimension of programming by analogy to recipes in a cookbook.[^krysa] Indeed both coding and cooking share common attributes including how ingredients are selected, actions applied, and how transformations take place. Knuth's comments, and writing style, set the tone for this chapter in terms of subject matter, but also as far it lays out algorithmic instructions for the reader: the "procedures for reading,"[^knuth0] as he puts it. The structure of his book is algorithmic in both form and content, and here are some snippets of the procedures for the reader to follow:
@@ -47,8 +49,7 @@ Conventionally, each step in a flowchart is represented by a symbol and connecti
 Figure 9.1 below shows the flowchart for the program *Vocable Code* we examined in Chapter 7. The flowchart shows the high-level logic and sequences, and elaborates its details in plain English. This flowchart uses symbols, lines, and text to communicate to a wider public such as the readers of this book.
 
 ![flowchart](ch9_1.png)
-
-*Figure 9.1: The flowchart for Vocable Code by Winnie Soon, graphic design by Anders Visti*
+:   *Figure 9.1: The flowchart for Vocable Code by Winnie Soon, graphic design by Anders Visti*
 
 Flowcharts are used across many disciplines, both technical and artistic. For example, they are relatively common in business contexts and provide insight iinto, and communicate how various processes or workflows are efficiently organized. In philosophy, diagrams have been used to produce new kinds of thought processes and relations, for example Gilles Deleuze and Félix Guattari refer to them as "abstract machines."[^Guattari] We will return to these ideas in more detail at the end of the chapter. Similarly, in our teaching, we have used flowcharts as a means of deconstructing writing as well as to break down an argument in an essay structure, as a way to formulate new ideas and structure. Diagrams are good tools, or rather "machines," that help us think through different procedures and processes, and this approach has evidently informed our use of flowcharts to introduce each chapter of this book.  
 
@@ -84,18 +85,15 @@ Our previous use of this exercise in a classroom setting[^ex] resulted in differ
 Beyond the pragmatic use of flowcharts, they can also be artistic objects in their own right, as a "meta-medium for an aesthetics of social complexity," as Paolo Cirio puts it.[^Cirio] An example from 2005, is *Google Will Eat Itself*,[^GWEI] an artwork that auto-generates revenue by hacking the Google AdSense, and was created by Cirio in collaboration with Alessandro Ludovico and UBERMORGEN.[^pold] The project automatically triggers advertising clicks on websites in order to receive micropayments from Google which are in turn used to buy shares in Google: "We buy Google via their own advertisement! Google eats itself — but in the end 'we' own it!"   
 
 ![diagram1](ch9_2.gif)
-
-*Figure 9.2: Paolo Cirio, Alessandro Ludovico, and UBERMORGENGWEI, Google Will Eat Itself / THE ATTACK (2005)*
+:   *Figure 9.2: Paolo Cirio, Alessandro Ludovico, and UBERMORGENGWEI, Google Will Eat Itself / THE ATTACK (2005)*
 
 The iterative (or cannibalistic) loop can clearly be seen in the diagram and echoes the principle of the "strange loop:" forced "to eat its own tail" in Babbage's words, altering its own stored program and thereby offering the potential to generate new technical and aesthetic forms, as previously mentioned with reference to the operations of the Analytical Engine. Taken to its extreme, this type of loop is called a "forkbomb" and takes the shape of a "denial-of-service" attack in which a computer process continuously replicates itself in order to use up all available system resources, slowing down, or crashing the system due to resource starvation. Reflected in the title of another project, UBERMORGEN's *The Project Formerly Known as Kindle Forkbomb* (2012), used a machine process that stripped comments from YouTube videos. An algorithm then compiled the comments and added titles, producing an e-book which was subsequently uploaded to the Amazon Kindle e-commerce bookstore.[^pold] Such exhausive loops are sketched in the diagram, using an image of a traditional printing press (see Figure 9.3), and further exploited in the installation version, which combined the diagram on the gallery floor and physical objects (see Figure 9.4).[^systemics] In both cases, algorithmic procedures are in operation which mimic and mock the operational logic of Amazon's post-Gutenberg business model, the key principles of which are outlined on the Kindle website: "Get to market fast. Make more money. Keep control."[^kindle]
 
 ![diagram3](ch9_3.gif)
-
-*Figure 9.3: UBERMORGEN, The Project Formerly Known As Kindle Forkbomb (2013). Courtesy of the artists*
+:   *Figure 9.3: UBERMORGEN, The Project Formerly Known As Kindle Forkbomb (2013). Courtesy of the artists*
 
 ![diagram4](ch9_4.jpg)
-
-*Figure 9.4: UBERMORGEN, The Project Formerly Known As Kindle Forkbomb (2013), mixed media installation, part of the group exhibition "Systemics #2: As we may think (or, the next world library)," curated by Joasia Krysa, Kunsthal Aarhus (September 21 – December 31 2013). Courtesy of the artists and Kunsthal Aarhus*
+:   *Figure 9.4: UBERMORGEN, The Project Formerly Known As Kindle Forkbomb (2013), mixed media installation, part of the group exhibition "Systemics #2: As we may think (or, the next world library)," curated by Joasia Krysa, Kunsthal Aarhus (September 21 – December 31 2013). Courtesy of the artists and Kunsthal Aarhus*
 
 ## While()
 
@@ -112,8 +110,7 @@ The diagrams we introduced in this chapter reveal this, and how apparently simpl
 But what is a diagram? Leaving aside the use of diagrams as functional tools, or for didactic purposes that tend to simplify information (infographics are a case in point), they also feature as a form of expanded aesthetic practice, as we hope our examples above have demonstrated. In this chapter we have tried to reflect these practices in our use of flowcharts as an experimental aesthetic form. We already mentioned the idea of the diagram as an *abstract machine* in the introduction, and this is the phrase that Deleuze and Guattari use to reflect that matter and form are able to transform themselves: abstract machines exhibit *morphogenesis* (a term we also know from Turing, as mentioned in Chapter 5, "Auto-Generator"). In this way, diagrams instantiate future possibilities that are not predetermined, but are open-ended, speculative fictions.[^deleuze] Such descriptions might sound esoteric, but the overall point is clear and even scientific (from thermodynamics) in that there are things that have morphogenetic possibilities, and systems are continuously traversed by flows (vectors) of energy, and matter that do not cancel but maintain differences. What we end up with are speculative geometries, self-organizing forms, and diagrammatic processes that reflect dynamic forces. The diagram is an "image of thought," in which thinking does not consist of problem-solving but — on the contrary — problem-posing. We want to highlight these distinctive qualities in this chapter which is somewhat at odds with the conventional descriptions of algorithmic procedures.
 
 ![diagram5](ch9_5.jpg)
-
-*Figure 9.5. Dean Kenning, Jackson 5 Flowchart (2017) A4. Marker pen on paper.*[^jackson5]
+:   *Figure 9.5. Dean Kenning, Jackson 5 Flowchart (2017) A4. Marker pen on paper.*[^jackson5]
 
 But can we really think about flowcharts as diagrams in Deleuzian terms, as abstract machines? Their general similarity, we would claim, is their ability to visualize problems and helps us think them through in the process of that very visualization, a "picturing of thought" as Deleuze would have it. In his "On the Diagram (and a Practice of Diagrammatics)," Simon O'Sullivan provides a summary of this speculative approach:
 

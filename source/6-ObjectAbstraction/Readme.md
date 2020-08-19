@@ -1,7 +1,12 @@
 Title: 5. Object Abstraction
 page_order: 5
+requirements: p5_SampleCode/ch6_ObjectAbstraction/Tofu.js
+sketch: p5_SampleCode/ch6_ObjectAbstraction/sketch.js
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch6_ObjectAbstraction
 
 ![flowchart](ch6_0.svg)
+
+[TOC]
 
 ## setup()
 In programming an object is a key concept, but it is also more generally understood as a thing with properties that can be identified in relation to the term subject. Put simply, and following philosophical conventions, a subject is an observer (we might say programmer) and an object is a thing outside of this, something observed (say a program). In this chapter we will learn to further manipulate objects and understand their complexity in line with people who think we need to put more emphasis on non-human things so we can better understand how objects exist and interact, both with other objects, but also with subjects.
@@ -52,8 +57,7 @@ Tofu, or bean curd, is a popular food derived from soya beans and originated in 
 When tofu becomes a computational object — as in *Tofu Go!* — abstraction is required to capture the complexity of processes, and relations, and to represent what are thought to be essential or desirable properties, and behaviors. In the game, tofu is designed as a simple, three-dimensional white cube with a range of emotive expressions, and the ability to move, and jump. Of course real tofu cannot behave this way, but you can imagine how objects perform if you have programmed your own game, and if you love tofu as Lam does: "*Tofu Go!* is a game dedicated to my love for tofu and hotpot," as he puts it.[^francis2] The aim of the game is to save the tofu from being captured by the chopsticks.
 
 ![tofu go](ch6_1.png)
-
-*Figure 6.1: A screenshot of the game ToFu Go!, developed and designed by Francis Lam*
+:   *Figure 6.1: A screenshot of the game ToFu Go!, developed and designed by Francis Lam*
 
 [embeded video](https://www.youtube.com/watch?v=V9NirY55HfU])
 
@@ -61,11 +65,11 @@ Below we will introduce the sample code *Eating tofu*, a simple game inspired by
 
 ## Exercise in class (Decode)
 
+<figure markdown=true>
 ![ch6_2](ch6_2.png)
-
 ![ch6_3](ch6_3.gif)
-
-*Figure 6.2: A screenshot of the Eating tofu game*
+<figcaption><p markdown=true>*Figure 6.2: A screenshot of the Eating tofu game*</p></figcaption>
+</figure>
 
 [RUNME](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch6_ObjectAbstraction/)
 
@@ -474,11 +478,14 @@ If we apply this to a computational object and its abstraction (the identificati
 
 ## MiniX[6]: Games with objects
 
+<div class="exercise" markdown=true>
 **Objective:**
+
 - To implement a class-based, object-oriented sketch via abstracting and designing objects' properties and methods.
 - To reflect upon object abstraction under the lived conditions of digital culture.
 
 **For additional inspiration**
+
 - [p5.js - Array Objects](https://p5js.org/examples/arrays-array-objects.html)
 - [daily coding ](https://twitter.com/nagayama/status/1246086230497845250?s=19) by Tomokazu Nagayama, with source code: <https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html>
 - [Eat Food Not Bombs by Ben Grosser](https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI)
@@ -487,6 +494,7 @@ If we apply this to a computational object and its abstraction (the identificati
 - [p5.js coding challenge #3: The Snake Game by Daniel Shiffman](https://www.youtube.com/watch?v=AaGK-fj-BAM)
 
 **Tasks (RUNME)**
+
 Think of a simple game that you want to design and implement. Which objects are required? What are their properties and methods? At the most basic level, you need to use a class-based object-oriented approach to design your game components. These can exhibit certain behaviors which means you need to at least have a class, a constructor, and a method.
 
 Once you understand objects and classes, you can continue to work on a mini game implementing interaction with objects. Start with something simple in terms of thinking or reappropriating the rules, interactions and checking steps. The *Eating tofu* sample code and other games that mentioned above are useful for practicing building the logics and combining smaller steps.
@@ -497,6 +505,7 @@ Once you understand objects and classes, you can continue to work on a mini game
 - **Describe** how you program the objects and their related attributes, and the methods in your game.
 - Draw upon the assigned reading, **what** are the characteristics of object-oriented programming and the wider implications of abstraction?
 - **Connect** your game project to a wider cultural context, and think of an example to describe how complex details and operations are being "abstracted"?
+</div>
 
 ## Required reading
 

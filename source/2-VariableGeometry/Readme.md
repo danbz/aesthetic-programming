@@ -1,8 +1,12 @@
 Title: 2. Variable Geometry
 Order: 2
 page_order: 2
+sketch: p5_SampleCode/ch2_VariableGeometry/sketch.js
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch2_VariableGeometry
 
 ![flowchart](ch2_0.svg)
+
+[TOC]
 
 ## setup()
 
@@ -20,15 +24,13 @@ Our point is that using emojis may be fun and expressive, but they also tend to 
 
 ### start()
 ![multi](ch2_1.gif)
-
-*Figure 2.1: Multi by David Reinfurt. Image Courtesy of the artist.*
+:   *Figure 2.1: Multi by David Reinfurt. Image Courtesy of the artist.*
 
 *[Multi](http://www.o-r-g.com/apps/multi)*,[^multi] is inspired by another designer Enzo Mari who spent a whole year in 1957 exploring the essential form of an object (an apple, the universal apple we might add). Reinfurt explains that, "He was not looking to draw AN apple, but rather THE apple — a perfect symbol designed for the serial logic of industrial reproduction." *Multi* develops a variation of this idea for informational reproduction in the form of a mobile app with 1,728 possible arrangements, or facial compositions, built from minimal punctuation glyphs. But instead of using preset typographic characters, which admittedly is the conceptual charm of *Multi*, for our purpose we will draw these from scratch with foundational elements of geometry.
 
 ## Source code
 ![](ch2_2.gif)
-
-*Figure 2.2: The screenshot of the remix of Multi*
+:   *Figure 2.2: The screenshot of the remix of Multi*
 
 [RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch2_VariableGeometry/)
 
@@ -106,8 +108,7 @@ function draw() {
 ```
 
 ![](ch2_3.png)
-
-*Figure 2.3: Simple exercise*
+:   *Figure 2.3: Simple exercise*
 
 Remember the structure of a web page/application should include the HTML, a working JavaScript file (for example, sketch.js), as well as the associated associated p5.js libraries.  
 

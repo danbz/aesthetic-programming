@@ -108,15 +108,10 @@ max-height: 100%;
 }
 
 ul, ol {
-
-padding: var(--line-height) 0;
-
-border-left: 1px solid black;
-
-padding-left: var(--line-height);
-
-box-sizing: border-box;
-
+    padding: 0;
+    border-left: 1px solid black;
+    padding-left: calc(var(--line-height) /2);
+    box-sizing: border-box;
 }
 ol {
 padding-left: calc(1.5 * var(--line-height));
@@ -190,12 +185,15 @@ h2 + ul {
     padding-left: 0;
 }
 
+h2[id^=minix],
 h3[id^=exercise] {
     top: 3em;
     position: relative;
     margin-left: 1.5em;
 }
 
+h2[id^=minix] + div.exercise,
+h3[id^=exercise] + div.exercise,
 h3[id^=exercise] + ul,
 h3[id^=exercise] + ol,
 h3[id^=exercise] + p {

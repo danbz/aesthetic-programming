@@ -1,13 +1,16 @@
 Title: 10. Machine Learning
 page_order: 10
+sketch: p5_SampleCode/ch10_MachineLearning/sketch.js
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch10_MachineLearning
 
 ![flowchart](ch10_0.svg)
+
+[TOC]
 
 ## setup()
 
 ![ch10_1](ch10_1.png)
-
-*Figure 10.1: The basic flowchart of keyword detection in ELIZA (1966) by Joseph Weizenbaum*
+:   *Figure 10.1: The basic flowchart of keyword detection in ELIZA (1966) by Joseph Weizenbaum*
 
 This chapter begins with a flowchart that describes how a chatbot works — both in terms of procedure and logic. We use this historical example to introduce this final chapter of the book which is on machine learning,[^pathmind] broadly defined as a collection of models, statistical methods and operational algorithms that are used to analyze experimental or observational data. Given the large volume of data being cleaned and mined, and its widespread application in everyday voice-controlled devices such as Apple's Siri or Amazon's Echo[^diagram] to more sinister applications in border control face recognition software, it is hardly surprising that machine learning has become big business.
 
@@ -24,8 +27,7 @@ Appropriately, for the last chapter of our book, many of the critical-technical 
 Let's start with a closer examination of and reflection on the ELIZA chatbot by using the test application produced by Norbert Landsteiner, between 2005 and 2013:
 
 ![10_2](ch10_5.png)
-
-*Figure 10.2:  ELIZA Talking (2013) by Norbert Landsteiner*
+:   *Figure 10.2:  ELIZA Talking (2013) by Norbert Landsteiner*
 
 Tasks:
 
@@ -46,8 +48,7 @@ We have briefly touched on machine learning, but let's clarify what it actually 
 In the following exercise,[^michelle] we will use the experimental AI project *Teachable Machine* (version 1)[^tm1] to engage more closely with machine learning processes involving input and output, to understand the relationship between the two: <https://teachablemachine.withgoogle.com/v1/>.
 
 ![ch10_2.png](ch10_2.png)
-
-*Figure 10.3: The Teachable Machine (Version 1) interface*
+:   *Figure 10.3: The Teachable Machine (Version 1) interface*
 
 This web application includes input, learning, and output. By capturing images via your web camera, the program utilizes images as input data and there are three "training classifiers" you can play with.
 
@@ -76,24 +77,20 @@ Broadly speaking there are three types of algorithms: Supervised Learning, Unsup
 Artist-researcher Nicolas Malevé has done extensive work on this topic in relation to the ImageNet dataset,[^imagenet] a hugely influential project in the field of computer vision, developed by Fei-Fei Li at Stanford University in 2009. The dataset is vast and contains over 14 million photographs that are organized into over twenty-one thousand "synsets" (categories), taken from a lexical database called WordNet.[^net] The labelling work was completed by over 25,000 workers over a two-year period using Amazon Mechanical Turk, a crowdsourcing platform. Exhibited across two months of the summer of 2019 as a live stream on the web and on the Media Wall at The Photographers Gallery, London, Malevé's script cycled through the entire contents of the dataset at a speed of 90 milliseconds per image, pausing at random points to enable the viewer to "see" some of the images, and how they are categorized. This raised questions about the relation of scale between the overwhelming quantities of images needed to train algorithms and the human labor, and attention (or the lack of it) required to annotate and categorize the images.[^TPG] An excerpt form the live recording of the work entitled *12 Hours of ImageNet* can be viewed online.
 
 ![cock](ch10_7.png)
-
-*Figure 10.4: The categorization of "cock" in Exhibiting ImageNet (2019) by Nicolas Malevé*
+:   *Figure 10.4: The categorization of "cock" in Exhibiting ImageNet (2019) by Nicolas Malevé*
 
 **Unsupervised Learning** - Unlike the previous learning model, the training dataset does not contain a set of labelled data. One of the common tasks with unsupervised learning is "clustering" (algorithms such as K-means and Hierarchical Clustering). The goal of this technique is to find similarities, providing insights into underlying patterns, and relationships of different groups in a dataset using exploratory and cluster analysis. As such, items in the same group or cluster share similar attributes and metrics. The idea behind clustering is to identify similar groups of data in a dataset, segregating groups with similar characteristics. It is commonly used in the business and marketing sectors to understand customer preferences so personalization and data marketing can be provided by grouping customers based on their purchasing behavior with regard to certain types of goods.
 
 ![k-means](ch10_4.gif)
-
-*Figure 10.5: An illustration of Unsupervised Learning with K-means clustering. Image courtesy of Joana Chicau and Jonathan Reus.*
+:   *Figure 10.5: An illustration of Unsupervised Learning with K-means clustering. Image courtesy of Joana Chicau and Jonathan Reus.*
 
 Artists Joana Chicau and Jonathan Reus produced *Anatomies of Intelligence*[^AI] based on an unsupervised learning model to develop an understanding of anatomical knowledge, and computational learning. In their AI workshop,[^chicau] they suggest that participants think of two features for examining a small image dataset (around 15 images) — such as "cuteness" and "curliness" — and each of the images are rated and sorted according to these features (in the form of x and y axis) within a number range say from 0.0 to 1.0 (for normalization and rescaling, in statistical terms, so that data are in the same scale). More features can be added, but it is more convenient to have two only for a physical workshop setting. Each image can then be described by the set of feature values. As a result, several clusters are formed, providing a new perspective on the relations between images in terms of their similarities and differences. It's a simple exercise, but can obviously be scaled up, systematized, and automated, for example by deciding on the number of clusters and calculating the distribution of/distance between data points. This also helps reinforce how algorithms designed to recognize patterns, known as neural networks,[^neuralnets] operate, loosely based, as they are, on a model of the human brain and how it learns to differentiate certain objects from other objects.
 
 ![anatomies](ch10_3.png)
-
-*Figure 10.6: Anatomies of Intelligence (2018-) by Joana Chicau and Jonathan Reus. Image courtesy of the artists.*
+:   *Figure 10.6: Anatomies of Intelligence (2018-) by Joana Chicau and Jonathan Reus. Image courtesy of the artists.*
 
 ![anatomies2](ch10_4.png)
-
-*Figure 10.7: The clustering of images based on "cuteness" and "curliness" in the Anatomies of Intelligence workshop by Joana Chicau and Jonathan Reus.*
+:   *Figure 10.7: The clustering of images based on "cuteness" and "curliness" in the Anatomies of Intelligence workshop by Joana Chicau and Jonathan Reus.*
 
 **Reinforcement Learning** — This type of learning technique is based on interaction with the environment, mapping an analysis of a situation into actions.[^rl] The learner (or agent) does not have any previous data to base itself on, to determine, or predict which action to take, but rather learns by trial and error to yield the best results. For example, the computer program AlphaGo[^alphago] beat the world champion of the Go abstract strategy board game in 2017. AlphaGo was able to evaluate the various positions and select the best moves using self-taught processes. This type of learning finds the best possible behavior or path to take in a specific environment, mapping state-action pairs to achieve the best result. As in behavioral psychology, reinforcement is used to suggest future actions, like a child getting a treat for doing what it was told to. Unlike supervised learning that relies on input training data, the characteristics of reinforcement learning are that the program understands the environment as a whole,[^environment] and is able to learn from its experience by evaluating the effectiveness of each action taken: "trial-and-error search" and "delayed reward"[^rl2] are based on sequential decisions, computation, repeated attempts, and feedback on the success of actions.
 
@@ -105,8 +102,7 @@ Working towards the final chapter, "Afterword: Recurrent Imaginaries" — which 
 The training process uses a "Recurrent Neural Network" (RNN) and "Long Short Term Memory" (LSTM) that analyze and model sequential data, character by character. Both are useful in terms of character-by-character training because the order, and context of the text are both important to generate sentences that make sense to human readers (this is related to the field of "natural language processing"). This recurrent type of neural network can capture long-term dependencies in a corpus in order to make sense of the text pattern through many iterations of the training process, using markdowns in the form of characters and symbols from each chapter as raw data. What we end up with more or less makes sense, in its processing of text, but also source code, image links, captions, and so on, but most importantly it provides an insight into how a machine learns from our book in contrast to what you might have learnt. Here we return to one of the main objectives for the book i.e. exploring some of the similarities and differences between human, and machine reading and writing: what we refer to as aesthetic programming.
 
 ![ch10_7](ch10_6.png)
-
-*Figure 10.8: Auto Chapter Generator*
+:   *Figure 10.8: Auto Chapter Generator*
 
 [RUNME](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch10_MachineLearning/)
 
