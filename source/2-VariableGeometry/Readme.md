@@ -4,6 +4,8 @@ page_order: 2
 
 ![flowchart](ch2_0.svg)
 
+[TOC]
+
 ## setup()
 
 Aside from the difficulties of learning anything new and complex, learning to code can be enjoyable and rewarding (we hope!). That programming can be fun is demonstrated by the numerous titles that explicitly reference this, such as Linus Torvalds's book *Just for Fun: The Story of an Accidental Revolutionary*, written with David Diamond, part autobiography and part story of the development of Linux.[^Fun] Fun was, in this case, combined with the serious effort of making source code freely available and open to further modification. Like sharing a joke, or indeed recipe, programmming is a social activity and relies on collective understanding in order to *get it*.

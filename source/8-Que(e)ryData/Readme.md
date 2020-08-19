@@ -3,6 +3,8 @@ page_order: 8
 
 ![flowchart](ch8_0.svg)
 
+[TOC]
+
 ## setup()
 To query something is to ask a question about it, to check its validity, or accuracy. When querying a database, despite the apparent simple request for data that enables selectivity with regard to which and how much data is returned, we should clearly question this operation too. We need to query the query.   
 

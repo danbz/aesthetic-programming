@@ -3,6 +3,8 @@ page_order: 4
 
 ![flowchart](ch4_0.svg)
 
+[TOC]
+
 ## setup()
 This chapter focuses on how a program captures and processes input data. We have already introduced interactivity with physical devices with the functions `mouseX` and `mouseY` (see Chapter 2, "Variable Geometry"), as well as the idea of listening events via the functions `mouseIsPressed()` and `windowResized()` (see Chapter 3, "Infinite Loops"). In this chapter we expand on these ideas and present different types of data capture, including mouse movement, keyboard press, audio volume, and face tracking with a web camera.
 

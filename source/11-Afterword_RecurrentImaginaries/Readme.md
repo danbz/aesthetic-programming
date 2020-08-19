@@ -4,6 +4,8 @@ page_order: 11
 ## Afterword: Recurrent Imaginaries[^title]
 ![flowchart](afterword.svg)
 
+[TOC]
+
 //machine generated text
 
 ## Notes

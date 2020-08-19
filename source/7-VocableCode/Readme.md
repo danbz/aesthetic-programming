@@ -3,6 +3,8 @@ page_order: 7
 
 ![flowchart](ch7_0.svg)
 
+[TOC]
+
 ## setup()
 
 Using the phase "Vocable Code" for this chapter's title aims to make explicit how the act of coding cannot simply be reducible to its functional aspects. Rather we would like to emphasize that code mirrors the instability inherent in human language in terms of how it expresses itself, and is interpreted. Code is both script and performance, and in this sense is always ready to do something: it says what it will do, and does it at the same time. This analogy to speech, or more specifically to *speech-act theory* is well established in software studies (not least in *Speaking Code*) and helps us to neatly demonstrate how we can to do things with words "and" code. [^speech]  

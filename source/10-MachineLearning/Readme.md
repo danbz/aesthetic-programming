@@ -3,6 +3,8 @@ page_order: 10
 
 ![flowchart](ch10_0.svg)
 
+[TOC]
+
 ## setup()
 
 ![ch10_1](ch10_1.png)

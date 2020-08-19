@@ -3,6 +3,8 @@ page_order: 9
 
 ![flowchart](ch9_0.svg)
 
+[TOC]
+
 ## setup()
 
 An algorithm or recipe can be written down in a cookbook or codebook so the actions can be shared and repeated. This is something that Donald Knuth identified in his *The Art of Computer Programming* (1968), to stress the aesthetic dimension of programming by analogy to recipes in a cookbook.[^krysa] Indeed both coding and cooking share common attributes including how ingredients are selected, actions applied, and how transformations take place. Knuth's comments, and writing style, set the tone for this chapter in terms of subject matter, but also as far it lays out algorithmic instructions for the reader: the "procedures for reading,"[^knuth0] as he puts it. The structure of his book is algorithmic in both form and content, and here are some snippets of the procedures for the reader to follow:

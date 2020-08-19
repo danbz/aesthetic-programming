@@ -3,6 +3,8 @@ page_order: 6
 
 ![flowchart](ch5_0.svg)
 
+[TOC]
+
 ## setup()
 
 While the previous chapter discussed the data capture underlying the interaction with input devices, this chapter follows the concepts of input and output to introduce the idea of the abstract machine. This refers to the creation of rules by a self-operating machine, widely known as an abstract machine or Turing machine. It was mathematician and computer scientist Alan Turing who first described this machine in his famous article "On Computable Numbers, with an Application to the Entscheidungsproblem," published in 1936.[^Turing] He used the term *universal computing machine* to theorize a model that describes how a machine "can be used to compute any computable sequence,"[^Turing1] i.e. how a machine operates, and follows a predetermined sequence of instructions that process input and produce output.
