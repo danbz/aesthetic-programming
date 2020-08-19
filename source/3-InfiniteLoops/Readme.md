@@ -9,19 +9,19 @@ download_requirements_link: https://gitlab.com/siusoon/Aesthetic_Programming_Boo
 
 ![flowchart](ch3_0.svg)
 
+[TOC]
+
 ## setup()
 
 ![Ouroboros](ch3_0.png)
-
-*Figure 3.1: Early alchemical illustration of ouroboros accompanied by the text ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist (10th Century), (image from Wikipedia)*
+:    *Figure 3.1: Early alchemical illustration of ouroboros accompanied by the text ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist (10th Century), (image from Wikipedia)*
 
 %Loops% offer alternative imaginaries, as is the case of the ancient image of a serpent eating its own tail. *Ouroboros*, from the Greek, expresses the endless cycle of birth and death, and therefore stands for the ability of processes to infinitely renew themselves. Alongside evocative references to autocannibalism and alchemy, loops are related to control and automation tasks, as well as repetitive procedures in everyday situations. The logic behind loops can be demonstrated by the following paradoxical word play: "The next sentence is true. The previous is false."[^Hofstadter] In programming, a loop allows the repeated execution of a fragment of source code that continues until a given condition is met, such as true or false. Indeed a loop becomes an infinite (or endless) if a condition never becomes false.
 
 It was mathematician and author Augusta Ada Byron Lovelace who was one of the first to introduce and illustrate the concept of a programmatic loop in the early nineteenth century. She recognized that there were repeatable operations in the conceptual design of the first ever, automatic, general-purpose computing machine, Charles Babbage's Analytical Engine. A loop, which she called a "cycle," appears in her "Note G" on the Analytical Engine[^Ada] that describes the so-called Bernoulli numbers program, as in the diagram below. It utilizes two loops to indicate the repetition of a set of instructions with conditions,[^Kim] thereby minimizing efforts to write a repeatable operation in duplicate. As such, loops address repeatable and operational time.
 
 ![ada lovelace](ch3_1.jpg)
-
-*Figure 3.2: Diagram for the computation by the Engine of the Numbers of Bernoulli, from "Note G" by Ada Lovelace*
+:    *Figure 3.2: Diagram for the computation by the Engine of the Numbers of Bernoulli, from "Note G" by Ada Lovelace*
 
 Loops in contemporary programming are highly influenced by these early insights into the handling of repeated machine operations expressed in diagramatic form. High-level programming languages such as p5.js include this loop concept, allowing a fragment of source code to be repeatedly executed, as in the example of the `draw()` function that will run continuously until the program is stopped or using the syntax `noLoop()`. Loops are some of the most basic and powerful of programming concepts.
 
@@ -34,8 +34,7 @@ We usually encounter the ubiquitous spinning icon while loading or streaming. It
 As mentioned above, this chapter shifts from programming static objects to a mixture of both static and moving objects. Our example is circular and spins, as if it were eating its own tail.
 
 ![3.2](ch3_2.png)
-
-*Figure 3.3: The runme of sample code - sketch 3_1*
+:    *Figure 3.3: The runme of sample code - sketch 3_1*
 
 [RUNME](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch3_InfiniteLoops/sketch3_1/)
 
@@ -125,19 +124,16 @@ function sum(a, b, c) { //passing values four as a, three as b, two as c to the 
 > output:
 "9"
 
-<div class="exercise" markdown="true">
 
 ### Exercise in class
 You can also try to type/copy the above code into your own sketch, where it will return the number 9 as the output because this is the result of the sum of the values 4, 3 and 2. These values called "%argument%" that are passed to the function (i.e. `sum()`). In the example, the parameters as variables a, b and c equals to the actual values 4, 3 and 2 as arguments, but the value of the variables can be changed. The function "sum" can be reused if you pass on other arguments/values to it, as for instance another line of code `let y = sum(5,6,7);` and the return value of y would be 18. You can try to come up with your own functions and arguments.
 
-</div>
 
 ### %Transform%
 In general, the transform-related functions[^ref2] apply a two-dimensional or three-dimensional transformation to an element or object. In the sample code provided, two specific transformational functions were used to move the canvas and create an illusion of object transformation. (It is important to know that the transformation is done at canvas background level, not at the individual shape/object level.)
 
 ![3.3](ch3_3.png)
-
-*Figure 3.4: Moving the coordinate system at canvas level (image from processing.org)*
+:    *Figure 3.4: Moving the coordinate system at canvas level (image from processing.org)*
 
 1. `%translate()%`: This function displaces/moves objects within the display window. For example, moving the canvas to the center will position the whole sketch at the center too (`translate(width/2, height/2);`). The ellipse is drawn as `ellipse(35,0,22,22)` which takes (35,0) as the x and y coordinates, and "22" as the size. If we don't have the `translate()` function upfront, the ellipse will be placed at the top left corner instead (because the x coordinate value "35" is the distance of the rotating ellipses from the center position). By moving the coordinate origin to the middle using the `translate()` function, the ellipses is placed in the middle of the canvas, because the coordinate orign (0,0) has moved to the center of the screen. Building upon the previous chapter on the spatial dimension of a coordinate system, "translate" adds another layer to think about moving and positioning objects using canvas.
 2. `%rotate()%`: In this sample code, the use of the function `rotate()` makes the ellipse rotate through a particular number of degrees. The default unit for rotation is radians. As such, the code is written as `rotate(radians(cir));`. The function `rotate()` takes radians in its default mode, but if you want to change to degrees all you have to do is add the code `angleMode(DEGREES)`.
@@ -171,7 +167,6 @@ function drawElements() {
 
 The last four lines describe the drawing of the four static yellow lines. Logically speaking, the translate and rotate functions should also apply to these lines, but because the `pop()` function is placed right after drawing all the ellipses it does not impact the lines. But if you move the line `pop()` to the end, then the lines will also rotate and translate. This illustrates how `push()` and `pop()` can be used to save and restore styles, and how their placement matters.[^ref3]
 
-<div class="exercise" markdown="true">
 
 ### Exercises in class
 1. Change the arguments/values, as well as the position/sequence of the sample code to understand the functions and syntax such as the variable `num`, the transformational functions `translate()` and `rotate()`, as well as saving and restoring current style and transformations such as `push()` and `pop()`.
@@ -181,15 +176,13 @@ The last four lines describe the drawing of the four static yellow lines. Logica
 3. This exercise is about structuring code. How would you restructure the sample code so that it is easier for others to understand, but still maintains the same visual outcome? There are no right or wrong answers, but some pointers below might facilitate discussion:
     - You may rename the function and add new functions
     - Instead of having `drawElements()`, you might have something like `drawThrobber()` and `drawLines()`?
-</div>
 
 ## Asterisk Painting
 
 The following section will move from repetition and regularity, to repetition and difference. Artist and software developer John P. Bell made an artwork called *Asterisk Painting*,[^Bell] that consists of a number of throbber-like spinning patterns, however each throbber (or what he calls asterisk) spins differently, varying in color and texture. Many of the syntaxes Bell used are related to temporality, for example the setting up of a timer, the calculation in milliseconds, the speed of rotation, the time to wait before starting a new cycle, and so on. Also, on closer inspection, the asterisks are not geometric shapes, but are constituted by a series of numbers which refer to the milliseconds counter that line up to form a straight line.
 
 ![3.5](Asterisk_Painting.gif)
-
-*Figure 3.5 : Asterisk Painting (2014) by John P. Bell*
+:    *Figure 3.5 : Asterisk Painting (2014) by John P. Bell*
 
 According to Bell,
 >  "Asterisk Painting is programmed to create a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started. If left to run by itself it will do so; however, when started on a real system, delays external to my artwork may make the asterisks look more like spots..."
@@ -371,8 +364,7 @@ The following is an excerpt from *Asterisk Painting* (Lines 37-42):
 See the structure of a for-loop:
 
 ![](ch3_4.png)
-
-*Figure 3.6 A for-loop*
+:    *Figure 3.6 A for-loop*
 
 Figure 3.6 shows you what a for-loop consists of:
 
@@ -384,14 +376,12 @@ Figure 3.6 shows you what a for-loop consists of:
 This block of code from the above example describes the position of each asterisk in terms of its x and y coordinates (the center point [x,y] of each asterisk). Since there are 5 columns (xPos) and 4 rows (yPos) which have been defined in global variables, the program needs to know the coordinates precisely. The overall formula to locate the position, for example xPos, is to divide the width of the canvas by the number of asterisks horizontally, and add one. As such, the code can be understood as follows: calculate the `xPos[i]` for each iteration with the starting point 0. Additionally, each iteration will increase the count by 1 until it reaches the maximum number of asterisks in a row (`i < xPos.length`).
 
 ![](ch3_5.png)
-
-*Figure 3.7 The xPos of each asterisk*
+:    *Figure 3.7 The xPos of each asterisk*
 
 In our teaching, we describe another example of the use of a for-loop to further clarify its use and to demonstrate the repeated drawing of objects.
 
 ![](ch3_8.png)
-
-*Figure 3.8 Drawing 20 lines on a canvas using a for-loop*
+:    *Figure 3.8 Drawing 20 lines on a canvas using a for-loop*
 
 ```javascript
 let y = 20;
