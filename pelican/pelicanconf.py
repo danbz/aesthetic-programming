@@ -54,6 +54,7 @@ MARKDOWN = {
         'markdown.extensions.codehilite': {'css_class': 'highlight', 'linenums': "True"},
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
+        'markdown.extensions.toc': {},
         'mdx_figcaption': {},
         'attach_images': {},
     },
