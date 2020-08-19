@@ -1,4 +1,46 @@
-.article {
-    column-count: 2;
+:root {
+--font-size: 12pt;
+--line-height: 15pt;
 }
 
+@page {
+size: 203mm 276mm;
+}
+
+@page:left {
+margin: 2cm 3cm 3.5cm 2cm;
+@bottom-left {
+  content: counter(page);
+}
+}
+
+@page:right {
+margin: 2cm 2cm 3.5cm 3cm;
+@bottom-right {
+  content: counter(page);
+}
+}
+
+
+
+.debug .pagedjs_page {
+}
+
+.pagedjs_page {
+counter-increment: page;
+}
+
+
+
+h1 + p img {
+    break-after: always;
+}
+
+div.footnote {
+    font-size: 9pt;
+    line-height: 11pt;
+}
+
+div.footnote ol {
+    column-count: 3;
+}

@@ -5,6 +5,7 @@
 
 body  {
     display: flex;
+    background-color: #F8F8F8;
     /* flex-wrap: wrap; */
     /* margin-left: 6%; */
 }
@@ -19,13 +20,16 @@ section.nav {
 
 section.right {
     flex: 1 0;
+    background-color: white;
 }
 
 nav {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 180px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: end;*/
+    padding-top: 10em;
+    transition: background-color 1s;
 }
 
 nav header {
@@ -35,21 +39,41 @@ nav header {
 nav h1 {
     font-size: 1.1em;
     line-height: 1.5em;
-    margin : 0;
+    padding : 0;
 }
 
 nav ul {
-    display: none;
     font-size: 18px;
     line-height: 1.3em;
-    top: 25%;
-    left: 130px;
+    top: 0;
+    left: 120px;
     position: absolute;
-    background: white;
-    padding: var(--line-height);
+    background: #F8F8F8;
+    padding: 0;
+    width: 0;
+    height: 100%;
+    transition: width 1s;
+    overflow: hidden;
+    border: 0;
 }
+
+nav ul li.active {
+    font-weight: bold;
+}
+
+nav ul li:before {
+    content: "";
+}
+
+nav:hover {
+    background-color: #F8F8F8;
+    height: 100vh;
+}
+
 nav:hover ul {
-    display: block;
+    width: 350px;
+    padding: 1.5em;
+    border-left: 1px solid black;
 }
 
 nav a {
@@ -70,6 +94,21 @@ nav ul a.active {
     line-height: 1.25em;
 }
 
+.toc {
+    position: sticky;
+    top: 30vh;
+    margin-left: -7em;
+    font-size: 0.7em;
+    line-height: 1.25em;
+    width: 200px;
+    float: left;
+}
+.toc ul {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
 #canvas iframe {
     height: 100%;
     width: 100%;
@@ -78,16 +117,29 @@ nav ul a.active {
 #canvas {
     position: sticky;
     top: 0;
+    margin-top: 110vh;
     height: 100vh;
 }
 
 main {
     flex: 1 0;
-    /* flex-basis: 50%;
-    flex-grow: 1; */
-    padding: var(--line-height);
+    z-index: 10;
     box-sizing: border-box;
-    padding: calc(2 * var(--line-height)) calc(2 * var(--line-height)) calc(2 * var(--line-height)) calc(2 * var(--line-height));
+    padding-top: 2em;
+    padding-right: 1.5em;
+    padding-bottom: 10em;
+    border-left: 1em solid #F8F8F8;
+    background-color: white;
+}
+
+h1 {
+    margin-left: 1em;
+}
+
+
+main h1 + p img {
+    margin-left: 25vw;
+    max-height: 80vh;
 }
 
 h2 {
@@ -112,7 +164,7 @@ p, blockquote, li {
 
 @media screen and (max-width: 2000px) {
     :root {
-        --font-size: 25px !important;
+        --font-size: 22px !important;
         --line-height: 1.25em !important;
     }
 }

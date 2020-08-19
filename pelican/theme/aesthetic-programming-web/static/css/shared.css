@@ -7,65 +7,32 @@
   src: url("/theme/fonts/Ocr-Pbi-pen_x1_y1.ttf");
 }
 @font-face {
-  font-family: Breite Grotesk;
+  font-family: "Breite Grotesk";
   src: url("/theme/fonts/Breite-Grotesk-Regular.otf");
 }
 
-@page {
-size: 203mm 276mm;
-}
-
-@page:left {
-margin: 2cm 3cm 3.5cm 2cm;
-@bottom-left {
-  content: counter(page);
-}
-}
-
-@page:right {
-margin: 2cm 2cm 3.5cm 3cm;
-@bottom-right {
-  content: counter(page);
-}
-}
-
-:root {
---font-size: 12pt;
---line-height: 15pt;
-}
-
-
-.debug .pagedjs_page {
-}
-
-.pagedjs_page {
-counter-increment: page;
-}
-
 body {
-font-family: Breite Grotesk;
+font-family: "Breite Grotesk";
 font-size: var(--font-size);
 line-height:  var(--line-height);
 }
 
 h1, h2, h3, h4, h5, h6 {
 font-family: HerscheyTimes;
-margin-top: calc(var(--line-height) * 2);
-margin-bottom: var(--line-height);
-line-height: 15pt;
+line-height: 1.5em;
 }
 
 h1 {
 font-size: calc(var(--font-size) * 1.75);
 line-height: 1.5em;
 margin-top: 0;
-margin-bottom: 1em;
+padding-bottom: 1em;
 }
 
 h2 {
 font-size: calc(var(--font-size) * 1.5);
 line-height: 1.5em;
-margin-bottom: 1em;
+padding-bottom: 1em;
 }
 
 
@@ -119,8 +86,12 @@ strong {
 font-weight: bold;
 }
 
+p {
+    padding: var(--line-height) 0;
+}
+
 p + p {
-margin-top: var(--line-height);
+padding-top: var(--line-height);
 }
 
 figure {
@@ -134,7 +105,7 @@ max-height: 100%;
 
 ul, ol {
 
-margin: var(--line-height) 0;
+padding: var(--line-height) 0;
 
 border-left: 1px solid black;
 
@@ -155,6 +126,10 @@ ol > li {
 list-style-type: decimal;
 }
 
+figcaption p {
+    padding: 0;
+}
+
 sup {
 font-size: 0.75em;
 line-height: 0;
@@ -165,12 +140,9 @@ vertical-align: 0.5em;
 font-style: italic;
 }
 
-.exercise {
-color: gray;
-}
 
 blockquote {
-margin: var(--line-height) 0;
+padding: var(--line-height) 0;
 }
 
 blockquote p {
@@ -181,11 +153,20 @@ padding: 0 1em;
 
 table {
 display: block;
-margin: var(--line-height) 0;
+padding: var(--line-height) 0;
+}
+
+.section {
+    border-left: 4em solid #F8F8F8;
+    padding-left: 1.5em;
+    padding-bottom: var(--line-height);
 }
 
 .section .subsection  {
-margin-left: 4em;
+    border-left: 4em solid #F8F8F8;
+    padding-left: 1.5em;
+    margin-left: -1.5em;
+    padding-bottom: var(--line-height);
 }
 
 h4 ~ p,
@@ -195,7 +176,35 @@ h4 ~ blockquote,
 h4 ~ table,
 h4 ~ div,
 h3 ~ h4 {
-margin-left: 8em;
+    border-left: 4em solid #F8F8F8;
+    padding-left: 1.5em;
+    margin-left: calc(-1.5em - 1px);
+}
+
+h2 + ul {
+    border: 0;
+    padding-left: 0;
+}
+
+h3[id^=exercise] {
+    top: 3em;
+    position: relative;
+    margin-left: 1.5em;
+}
+
+h3[id^=exercise] + ul,
+h3[id^=exercise] + ol,
+h3[id^=exercise] + p {
+    outline: 8px double black;
+    padding: 2.5em;
+    padding-top: 3.5em;
+    margin-bottom: 1.5em;
+    border: 0;
+}
+
+div.footnote {
+    font-size: 0.7em;
+    line-height: 1.2em;
 }
 
 div.footnote hr {
@@ -204,7 +213,13 @@ display: none;
 
 div.footnote ol {
 column-count: 2;
-column-gap: 3vw;
+column-gap: 1.5em;
+border: 0;
+padding-left: 1em;
+}
+
+div.footnote p {
+    padding-top: 0;
 }
 
 div.footnote a {
@@ -212,3 +227,11 @@ word-break: break-all;
 word-break: all;
 }
 
+a.footnote-backref {
+    color: darkgray;
+    text-decoration: none;
+}
+
+a.footnote-backref:hover {
+    color: black;
+}
