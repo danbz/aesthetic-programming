@@ -40,7 +40,7 @@
         <section id="canvas">
             <script type="text/p5" data-editor-layout="vertical" data-autoplay="autoplay"
                 src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/{{ page.sketch }}"
-                data-p5-path="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/{{ p5 }}}}"
+                data-p5-path="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/{{ p5 }}"
                 {% if requirements %}
                     data-requirements="{% for requirement in requirements %}{{ SITEURL }}/{{ THEME_STATIC_DIR }}/{{ requirement }}{% if not loop.last %}, {% endif %}{% endfor %}"
                 {% endif %}>
