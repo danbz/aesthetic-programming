@@ -1,6 +1,5 @@
 Title: 3. Infinite Loops
 page_order: 3
-p5: p5_SampleCode/libraries/p5.js
 requirements: p5_SampleCode/libraries/p5.play.js
               p5_SampleCode/libraries/p5.sound.js
 sketch: p5_SampleCode/ch3_InfiniteLoops/sketch.js

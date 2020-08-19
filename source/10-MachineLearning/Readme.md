@@ -1,5 +1,7 @@
 Title: 10. Machine Learning
 page_order: 10
+sketch: p5_SampleCode/ch10_MachineLearning/sketch.js
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch10_MachineLearning
 
 ![flowchart](ch10_0.svg)
 

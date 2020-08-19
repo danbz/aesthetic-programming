@@ -1,5 +1,7 @@
 Title: 6. Auto-Generator
 page_order: 6
+sketch: p5_SampleCode/ch5_AutoGenerator/sketch.js
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch5_AutoGenerator
 
 ![flowchart](ch5_0.svg)
 

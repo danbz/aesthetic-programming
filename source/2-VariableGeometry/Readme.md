@@ -1,6 +1,8 @@
 Title: 2. Variable Geometry
 Order: 2
 page_order: 2
+sketch: p5_SampleCode/ch2_VariableGeometry/sketch.js
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch2_VariableGeometry
 
 ![flowchart](ch2_0.svg)
 
