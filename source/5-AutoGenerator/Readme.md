@@ -10,8 +10,7 @@ While the previous chapter discussed the data capture underlying the interaction
 More specifically, the Turing machine is capable of six types of fundamental operations (at the time there wasn't a thing named computer) including read, write, move left, move right, change state and halt/stop. Turing suggested these operations could be performed by running an endless tape (that worked like memory does in a modern computer) with instructions on what symbols to read and write, as well as how to move. These instructions constitute the fundamental principles of the Turing machine,[^visualization] but also modern computing, with the capability to compute numeric tasks and automate various processes. These instructions from a base level of computing seem to underwrite the wider processes of production, consumption and distribution of contemporary (informational) capitalism as we partly covered in the last chapter.    
 
 ![turing](ch5_1.png)
-
-*Figure 5.1: An illustration of the Turing Machine[^TuringGraph]*
+:   *Figure 5.1: An illustration of the Turing Machine[^TuringGraph]*
 
 This chapter will explore how instructions are fundamental elements of adaptive systems, focusing on how rules are performed, and how they might produce unexpected and/or complex results.
 
@@ -22,16 +21,14 @@ Focusing on rules and instructions is not something only programmers do, but als
 3. Twelve lines from each corner.
 
 ![drawing2](ch5_2.png)
-
-*Figure 5.2: This image is the software version of the work Wall drawing #289 (1976) by Sol LeWitt, and is further coded by Chuck Grimmett[^289]*
+:   *Figure 5.2: This image is the software version of the work Wall drawing #289 (1976) by Sol LeWitt, and is further coded by Chuck Grimmett[^289]*
 
 "The idea becomes a machine that makes the art," as LeWitt explains.[^LeWitt] Using the programming language Processing[^processing], this is taken as an invitation by Casey Reas to render LeWitt's wall drawings on the basis of their instructions, thereby exploring the parallels of interpretation and process for each of them.[^Reas] In his accompanying text, Reas makes the important distinction that LeWitt's programs are to be carried out by people rather than machines. Nevertheless it is the close connection and overlap that interests him, and underlies the development of Processing as a "software sketchbook" as Reas wanted programming to be as immediate and fluid as drawing.
 
 This is not without precedence. Algorithmic drawing has been explored by artists including Joan Truckenbrod, for example in her series *Coded Algorithmic Drawings* that dates back to the 1970s and 80s.[^joan0] *Entropic Tangle* (see Figure 5.3) was coded in the Fortran programming language in 1975, using a mainframe computer with keypunch machine, and magnetic storage media. The work presents a number of polygons that vary in size, and angles of rotation that simulate invisible natural forces and incorporate continuity, and fluctuations by using variables and mathematical modulation. Truckenbrod is interested in how "natural" forces get re-interpreted by symbols and numbers that further demonstrate the nature of ambiguity and spontaneity in systems.[^joan1] Recursive fractal geometry[^tree] and flocking behaviors[^flock] are examples that demonstrate "entropic" qualities (lack of order or predictability) based on the self-organization of computation and autonomous agents[^agent] that evolve over time.
 
 ![drawing3](ch5_8.jpg)
-
-*Figure 5.3: Joan Truckenbrod, Entropic Tangle, 1975. Image courtesy of the artist.*
+:   *Figure 5.3: Joan Truckenbrod, Entropic Tangle, 1975. Image courtesy of the artist.*
 
 This kind of approach is important, not only because it offers a different way of drawing and authoring works by machines based on mathematical logic, but also to provide a sense of machine creativity that — as in the previous chapter — questions the centrality of human (more often than not, masculinist) agency. In this chapter we aim to explore more complex combinations (or inter-species relations[^Haraway]) of humans and machines, nonhumans or animals (namely, ants).
 
@@ -50,8 +47,7 @@ The second program is entitled *Langton's Ant* (1986). It is a two-dimensional u
 ## Exercise in class (10 PRINT)
 
 ![drawing4](ch5_4.png)
-
-*Figure 5.4: 10 PRINT in p5.js*
+:   *Figure 5.4: 10 PRINT in p5.js*
 
 [RUNME](https://editor.p5js.org/siusoon/sketches/pQlol8qc)
 
@@ -106,8 +102,7 @@ While *10 Print* focuses both on instructions and randomness as generative proce
 The next section provides the sample code that simulates the cell states, presented as a two-dimensional grid system in either black or white. Based on simple rules (as described below), an ant is considered to be the sensor that processes the cell's data as input, then the cell will change its color and the ant will move in four possible directions. Gradually, the ant will turn the grid into a more complex system that exhibits emergent behavior.
 
 ![drawing5](ch5_5.gif)
-
-*Figure 5.5: Langton's Ant - Initial steps*
+:   *Figure 5.5: Langton's Ant - Initial steps*
 
 With the ant initially facing up, Figure 5.5 shows the initial thirty-three steps of *Langton’s Ant* when it follows the two general rules below:
 
@@ -117,14 +112,12 @@ With the ant initially facing up, Figure 5.5 shows the initial thirty-three step
 In the beginning, the canvas only displays a grid system and all the individual cells are set to white. The ant has four possible directions it can move in — UP, RIGHT, DOWN, and LEFT — turning 90 degrees either left or right subject to the color of the cell it is on. The ant, located in the center of the white grid has its head pointing UP at the start. It then follows Rule 1 above to rotate the head direction from UP to RIGHT, thereby changing the white cell to black, and moving forward one unit. The second step is to follow Rule 1 again, because the new cell is still white. The ant's head direction will turn right 90 degrees and point from RIGHT to DOWN, and then it changes the white cell to black and the ant moves forward one unit. The third and forth steps are similar to the previous ones, until the ant encounters a black cell. At this point, the ant will follow Rule 2 and change the cell's color back to white, and then turn left 90 degrees instead of right. The complexity increases.
 
 ![drawing6](ch5_6.gif)
-
-*Figure 5.6: Langton's Ant - Process*
+:   *Figure 5.6: Langton's Ant - Process*
 
 Figure 5.6 shows how the ant starts building the emergent "highway" pattern after the first few hundred moves with simple symmetrical patterns. Then the symmetry breaks down and the ants seems to move randomly at the center. After several thousand iterations, the ant then starts building a highway pattern, and repeats indefinately until most of the cells are reconfigured, leading to something that is similar to Figure 5.7, while the ant continues to move and change the color of cells.[^Moreira]
 
 ![drawing7](ch5_7.png)
-
-*Figure 5.7: Langton's Ant - a snapshot of emergence*
+:   *Figure 5.7: Langton's Ant - a snapshot of emergence*
 
 [RUNME](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch5_AutoGenerator/sketch5_1/)
 

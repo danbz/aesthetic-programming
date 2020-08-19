@@ -12,8 +12,7 @@ Indeed, if coding is somewhat like speaking, then it is also like poetry inasmuc
 Various scholars and artists have explored these connections between speaking and coding, not only to consider programming as an aesthetic tool for producing hybrid programming-literary forms, but also to explore the material connections and creative tensions between the two.[^examples] That speech comes from living human bodies further reminds us that coding practices have bodies too, and that coding can only be understood in terms of wider infrastructures, and the context of its making (or "poiesis" if you will). In this chapter we explore this line of thinking, and the ways in which the voice of the human subject is implicated in coding practices, and how coding itself can "voice" wider political issues, particularly concerning sexuality. We will focus on the software artwork *Vocable Code*, as a means to engage with these technical and aesthetic qualities.
 
 ![vocable_code](ch7_1.jpg)
-
-*Figure 7.1: The installation of Vocable Code, detail*
+:   *Figure 7.1: The installation of Vocable Code, detail*
 
 ### start()
 
@@ -33,8 +32,7 @@ The core method for structuring *Vocable Code* is the use of constraints or rule
 [RUNME](https://dobbeltdagger.net/VocableCode_Educational/)
 
 ![vocable_code-web](ch7_6.jpg)
-
-*Figure 7.2: The live coding/educational version of Vocable Code*
+:   *Figure 7.2: The live coding/educational version of Vocable Code*
 
 **Task 1 (Decoding text objects):**
 
@@ -111,8 +109,7 @@ this.acts = function() {
 "Gilbert_TypeWithPride.otf" is a free font licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, and can be downloaded from the Internet (www.typewithpride.com).[^fonts] It is designed to honor the memory of Gilbert Baker the creator of the iconic Rainbow Flag who died in 2017.
 
 ![](ch7_2.jpg)
-
-*Figure 7.3: The font Type with Pride*
+:   *Figure 7.3: The font Type with Pride*
 
 `textFont()` means to get ready to print out or write the text with the chosen font, and in this case was previously defined through the returned PFont object `withPride`.
 
@@ -258,8 +255,7 @@ function makeVisible() {
 
 <!-- <img src="ch7_4.png" width="450"> -->
 ![](ch7_4.png)
-
-*Figure 7.9: Snippets of Vocable Code concerning reading JSON*
+:   *Figure 7.9: Snippets of Vocable Code concerning reading JSON*
 
 After loading the JSON file `voices.json` the program then  points at the `queers` array and looks for the name/value pairs `iam` and `makingStatements` from the randomly selected possible statements to call (among `yourStatement` and `myStatement`). Lastly, the function `SpeakingCode` is called. Figure 7.9 illustrates how communication is affected between the source code and the JSON files, passing the data (between the JSON file and the program) so it can be displayed on screen.
 

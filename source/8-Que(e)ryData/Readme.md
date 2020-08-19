@@ -21,8 +21,7 @@ This work challenges preconceptions of geeky male hacker culture, as do her earl
 *Female Extension* was later developed into the web application *nag* and a functional tool for generating images on the fly from available data to further question normative authorship, copyright, and some of the underlying infrastructures of artistic production. The latest version of *nag* generates images by combining the data sent from Google using the web search API. Interestingly there is a daily limit set at one hundred API requests, which means that once exceeded, users will experience a customized error page, and images can no longer be retrieved. The issue of visibility therefore shifts from a politics of representation (data on female artists) to the nonrepresentational realm of APIs, and to what extent we are granted access to hidden layers of software that queries the available data, and generates new arrangements.  
 
 ![nag1](ch8_1.png)
-
-*Figure 8.1: The net.art generator web interface with the input title "queeries"*
+:   *Figure 8.1: The net.art generator web interface with the input title "queeries"*
 
 ## Exercise in class
 
@@ -35,13 +34,13 @@ The following source code of this chapter is a snippet from *nag* showing the we
 [RUNME](https://editor.p5js.org/siusoon/present/rhSDlokun)
 
 ![ch8_2](ch8_2.gif)
+:   *Figure 8.2: The manipulation of Warhol flowers*
 
-*Figure 8.2: The manipulation of Warhol flowers*
-
+<figure markdown=true>
 ![sample1](ch8_2b.png)
 ![sample2](ch8_2c.png)
-
-*Figure 8.3: The process of pixel manipulation*
+<figcaption><p markdown=true>*Figure 8.3: The process of pixel manipulation*</p></figcaption>
+</figure>
 
 For this chapter's sample code, we will focus on images from search engine results and we will also demonstrate how to process, and display image and pixel data on screen in a manner similar to *nag*. Here are the key examples of syntax:
 
@@ -127,8 +126,7 @@ This exercise is about getting the *key ID* and *Engine ID* from Google so that 
 
 2. **Step 2:** Replace the API key with your own details on the line: `let apikey = "INPUT YOUR OWN KEY";`.
 ![google1](ch8_3.png)
-
-*Figure 8.4: Google Custom Search interface*
+:   *Figure 8.4: Google Custom Search interface*
 
 - Register a Google account if you don't have one (a Google account is needed in order to use the web API)
 - Login to your account
@@ -153,8 +151,7 @@ This exercise is about getting the *key ID* and *Engine ID* from Google so that 
 You should now finish modifying the settings. You can now run the sample code with your own API Key and engine ID.
 
 ![ch8_3b](ch8_3b.png)
-
-*Figure 8.5: Google Custom Search interface - configuring search settings*
+:   *Figure 8.5: Google Custom Search interface - configuring search settings*
 
 ## APIs
 
@@ -193,8 +190,7 @@ The key syntax is `%loadJSON()%` (in the function `fetchImage()`) to submit a "r
 Figure 8.6 below shows the JSON file format, but it includes a lot of information that you might not need. You therefore need to understand the file structure and locate the data that you want to process. Understanding the returned data file is part of the process of que(e)rying data as different providers and platforms structure their data differently.
 
 ![google2](ch8_4.png)
-
-*Figure 8.6: Web API data structure I*
+:   *Figure 8.6: Web API data structure I*
 
 In the web console, look for a URL (with your own API key and search engine ID) that starts with "https" and ends with "warhol+flowers" (something like this: <https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers>). Then simply click it and you will see how the data is structured in the JSON file format in a web browser (see Figure 8.6). There are more parameters you can set in order to select more specific forms of data such as image size, image color type, image dominant color, and so on. The API that we have used in the sample code demonstrates minimal settings.[^setting]
 
@@ -209,8 +205,7 @@ Figure 8.6 demonstrates how you can indicate specific data in a JSON file. There
 To learn more about the JSON file, you can navigate through other data objects such as "queries > request > 0" that would show, for example, how many results are found on the image search, which search terms have been processed, and how many data objects were returned (See Figure 8.7). In the sample code, we start with only the top 10 search items, but you can configure the parameter `startIndex` to get the last 10 images out of 110 million. Furthermore, you can find the data for each specific image returned in the form of an array, such as the title, and the corresponding snippet of the page content under `items` in the JSON file.
 
 ![google3](ch8_7a.png)
-
-*Figure 8.7: Web API data structure II*
+:   *Figure 8.7: Web API data structure II*
 
 We can now summarize the general process of working with web APIs and getting data from an online platform:
 
@@ -225,8 +220,7 @@ Given our specific example *nag* and the sample code, we want to also reflect on
 
 ## Exercise in class
 ![api](ch8_5.png)
-
-*Figure 8.8: The API request and response logic*
+:   *Figure 8.8: The API request and response logic*
 
 1. Referring to Figure 8.8, can you recap what has been requested and received through the web API? (Or, more conceptually, which forms of control and exchange are performed?)
 
@@ -241,8 +235,7 @@ Given our specific example *nag* and the sample code, we want to also reflect on
 ## LoadPixels()
 
 ![sample](ch8_6.png)
-
-*Figure 8.9: An illustration of how an image is made up of pixels*
+:   *Figure 8.9: An illustration of how an image is made up of pixels*
 
 For this sample sketch, only one color in the image will be selected and processed. This means that the program will randomly locate and pick any pixel from the image. The function `pixels` also analyzes and retrieves the color of the selected pixel, specifically the RGB color values that are used to draw the colored line on screen (see Figure 8.9 above as an illustration but in reality the pixel size is much smaller).
 
@@ -251,8 +244,7 @@ The colored lines (see Figures 8.2 and 8.3) are not randomly drawn, but they are
 Each pixel selected contains color information that is the R (red), G (green), B (blue) and A (alpha) values. This is how the data is being stored in the pixels' one dimensional array:
 
 ![pixel](ch8_7.jpg)
-
-*Figure 8.10: An illustration of the breakdown of each pixel by Integrated Digital Media, NYU*[^nyu]
+:   *Figure 8.10: An illustration of the breakdown of each pixel by Integrated Digital Media, NYU*[^nyu]
 
 `loc` is a variable for storing pixel information. Each pixel position needs to be clearly located so that a line can be drawn at the right position. Following the function `Pixels()`, each pixel takes up four locations: The first pixel with the four RGBA values, then the second pixel with another four RGBA values, and so on, and so forth:
 

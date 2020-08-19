@@ -52,8 +52,7 @@ Tofu, or bean curd, is a popular food derived from soya beans and originated in 
 When tofu becomes a computational object — as in *Tofu Go!* — abstraction is required to capture the complexity of processes, and relations, and to represent what are thought to be essential or desirable properties, and behaviors. In the game, tofu is designed as a simple, three-dimensional white cube with a range of emotive expressions, and the ability to move, and jump. Of course real tofu cannot behave this way, but you can imagine how objects perform if you have programmed your own game, and if you love tofu as Lam does: "*Tofu Go!* is a game dedicated to my love for tofu and hotpot," as he puts it.[^francis2] The aim of the game is to save the tofu from being captured by the chopsticks.
 
 ![tofu go](ch6_1.png)
-
-*Figure 6.1: A screenshot of the game ToFu Go!, developed and designed by Francis Lam*
+:   *Figure 6.1: A screenshot of the game ToFu Go!, developed and designed by Francis Lam*
 
 [embeded video](https://www.youtube.com/watch?v=V9NirY55HfU])
 
@@ -61,11 +60,11 @@ Below we will introduce the sample code *Eating tofu*, a simple game inspired by
 
 ## Exercise in class (Decode)
 
+<figure markdown=true>
 ![ch6_2](ch6_2.png)
-
 ![ch6_3](ch6_3.gif)
-
-*Figure 6.2: A screenshot of the Eating tofu game*
+<figcaption><p markdown=true>*Figure 6.2: A screenshot of the Eating tofu game*</p></figcaption>
+</figure>
 
 [RUNME](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch6_ObjectAbstraction/)
 
