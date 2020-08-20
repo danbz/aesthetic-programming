@@ -78,6 +78,7 @@ page_order: 13
 - Runme.org. <http://runme.org/>.
 - Sayo, Yurika (@sayo), *Tanabata(七夕)*. Open Processing. <https://www.openprocessing.org/sketch/926326>.
 - Savičić, Gordan. *LOADING (THE BEAST 6:66/20:09)*. October 2009. <https://www.yugo.at/processing/archive/index.php?what=loading>.
+- School for Poetic Computation. <https://sfpc.io/>.
 - Shi, Yining. “p5.playground: an Interactive Programming Tool for p5.js.” 2016. <https://1023.io/p5-inspector/>.
 - Sollfrank, Cornelia. *Female Extension*. 1997. <http://www.artwarez.org/femext/index.html>.
 - ———. *Net.Art Generator*. Artwarez.org. <http://net.art-generator.com/>.
