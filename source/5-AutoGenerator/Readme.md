@@ -333,6 +333,7 @@ Artist David Link built a functional replica of both the hardware and the origin
 - [GenArt (with source code)](https://github.com/JosephFiola/GenArt) by Joseph Fiola, see Chapters 1-4.
 - [John Conway's Game of Life](https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/).
 - [The Recode Project](http://recodeproject.com/) and [Memory Slam](http://nickm.com/memslam/) by Nick Montfort.
+- [Generative Tarot](https://www.melaniehoff.com/generativetarot/), [source code](https://github.com/melaniehoff/generative-tarot-p5js) by Melanie Hoff
 - [Solving Sol project - An open project to implement Sol LeWitt's instructions in JavaScript by Brad Bouse](https://github.com/wholepixel/solving-sol).
 
 **Tasks (RUNME):**

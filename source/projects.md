@@ -34,8 +34,9 @@ page_order: 13
 - ———. *Twitter Demetricator*. <https://bengrosser.com/projects/twitter-demetricator/>.
 - Hanafi, Amira. *Mexicans in Canada*. 2020. <http://amiraha.com/mexicansincanada/>.
 - Harwood, Graham. “Class Library.” In Software Studies. Edited by Matthew Fuller, 37 – 39. Cambridge, MA: MIT Press, 2008.
-- Hatcher, Ian. *The All-New*. Boston, MA: Anomalous Press, 2015. http://anomalouspress.org/books/all-new.php.
+- Hatcher, Ian. *The All-New*. Boston, MA: Anomalous Press, 2015. <http://anomalouspress.org/books/all-new.php>.
 - ———. *Not Not*. 2016. MP3 audio, 6:30. <https://soundcloud.com/ihatch/5-notnot>.
+- Hoff, Melanie. *Generative Tarot*, 2019. <https://www.melaniehoff.com/generativetarot/>
 - Horikawa, Junichiro. *20200509_lifeline*. 2020. <https://www.openprocessing.org/sketch/891619>.
 - Howe, Daniel. *Downloads RiTa library*. RiTa, accessed June 20, 2020. <http://rednoise.org/rita/download.phps>.
 - Huang, Lingdong. *wenyan‑lang*. 2019. <https://wy-lang.org/>.
