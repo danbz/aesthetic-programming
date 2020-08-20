@@ -407,6 +407,6 @@ Artist David Link built a functional replica of both the hardware and the origin
 [^game_eg]: For further discussion and the source code for Conway's *The Game of Life*, see: <https://web.archive.org/web/20181007111016/<http://web.stanford.edu/~cdebs/GameOfLife/>>.
 [^agent]: Agent-based model describes the mathematical modeling of data as individual autonomous agent that follow rules within an environment or a system, resulting in emergent outcomes of actions and interactions over time.
 [^laczko]: The previously mentioned artwork webmachines by Juli Laczko in Chapter 1, "Getting started," shows the relation between weaving and coding technologies. See <https://digital-power.siggraph.org/piece/webmachine/>.  
-[^pritchard]: See an example of a generated motto, in video documentation: <https://digital-power.siggraph.org/piece/recurrent-queer-imaginaries/>.
+[^pritchard]: See an example of a generated motto from *Recurrent Queer Imaginaries*, in video documentation: <https://digital-power.siggraph.org/piece/recurrent-queer-imaginaries/>.
 [^hoff]: See *Digital Love Languages ♡ Codes of Affirmation*, http://lovelanguages.melaniehoff.com/syllabus/.
 [^shiffman]: The two code examples in this chapter are adapted from Daniel Shiffman's *Coding Train* series with the addition of more comments to explain the logic, as well as extra features such as adjusting the grid size in the *Langton's Ant* example.
