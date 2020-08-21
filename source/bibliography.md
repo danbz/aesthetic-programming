@@ -98,6 +98,7 @@ page_order: 12
 - Facebook, Inc.. United States Securities and Exchange Commission, Form S-1 Registration Statement. Last updated February 1, 2012. <https://infodocket.files.wordpress.com/2012/02/facebook_s1-copy.pdf>.
 - Fazi, Beatrice M., and Matthew Fuller. “Computational Aesthetics.” In *A Companion to Digital Art*. Edited by Christiane Paul, 281-296. Hoboken, NJ: Wiley Blackwell, 2016.
 - Felton, G.E.. *Ferranti Pegasus Computer Programming Manual*, London, UK: Ferranti Ltd, 1955.
+- FemTechNet. *Feminist Pedagogy in a Time of Coronavirus Pandemic*. 2020. <https://femtechnet.org/feminist-pedagogy-in-a-time-of-coronavirus-pandemic/>.
 - “Fetch Living Standard Course.” WHATWG Community. Last updated July 7, 2020. <https://www.w3.org/TR/cors/>.
 - Finn, Ed. *What Algorithms Want: Imagination in the Age of Computing*. Cambridge, MA: The MIT Press, 2017.
 “Flocking.” P5.js. <https://p5js.org/examples/simulate-flocking.html>.
