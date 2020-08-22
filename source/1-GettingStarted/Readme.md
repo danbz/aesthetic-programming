@@ -146,7 +146,6 @@ To further explain the remaining parts of the sample code, this book will show y
 
 To summarize, what the sample code above does is initialize the exact canvas size (`createCanvas(640,480);`), set the width to 640 pixels and the height to 480 pixels providing an overall drawing area (see Line 3 of the sample code). This is why the background covers only the canvas area and the rest of the area remains the (default) white background. The sketch will pick a random color (from white to black, i.e. greyscale) as the background color at a given time, covering the whole canvas (`background(random(50));`). The last part is to draw an ellipse at a certain position and of a certain size (`ellipse(55,55,55,55);`). Locating this within the `function draw()`, the program will constantly and repetitively execute the lines of code. The repetition is made obvious in the sample code by the background color changing over time.
 
-
 ![](ch1_10.png)
 :   *Figure 1.10: The reference guide example - ellipse()*
 
@@ -211,7 +210,7 @@ Make a RUNME and a README.
 
 **For additional inspiration:**
 
-- [Daily sketch in Processing by Saskia Freeke](https://twitter.com/sasj_nl) and her talk is [here](https://www.youtube.com/watch?v=nBtGpEZ0-EQ&fbclid=IwAR119xLXt4nNiqpimIMWBlFHz9gJNdJyUgNwreRhIbdJMPPVx6tq7krd0ww) + [All the Daily Things 2018](https://vimeo.com/309138645) by Saskia Freeke.
+- [Daily sketch in Processing](https://twitter.com/sasj_nl) by Saskia Freeke, and her talk can be found [here](https://www.youtube.com/watch?v=nBtGpEZ0-EQ&fbclid=IwAR119xLXt4nNiqpimIMWBlFHz9gJNdJyUgNwreRhIbdJMPPVx6tq7krd0ww) + [All the Daily Things 2018](https://vimeo.com/309138645) by Saskia Freeke.
 - [Zach Lieberman](https://www.instagram.com/zach.lieberman/).
 - [Basics in OpenProcessing](https://www.openprocessing.org/browse/?q=basics&time=anytime&type=all#).
 - [Creative Coding with Processing and P5.JS](https://www.facebook.com/groups/creativecodingp5/).
@@ -224,10 +223,10 @@ Make a RUNME and a README.
 
 **Questions to think about in your README:**
 
-- What have you made in your RUNME?
+- What have you produced?
 - How would you describe your first independent coding experience (in relation to thinking, reading, copying, modifying, writing code, and so on)?
 - How is the coding process different from, or similar to, reading and writing text?
-- What does code and programming mean to you, and how does the assigned reading help you to reflect on programming?
+- What does code and programming mean to you, and how does the assigned reading help you to further reflect on these terms?
 </div>
 
 ## Required reading
