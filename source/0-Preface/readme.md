@@ -1,4 +1,4 @@
-Title: 0. Preface
+Title: Preface
 page_order: 0
 
 [TOC]
@@ -146,4 +146,4 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 
 [^barad]: We are referring to feminist new materialism here, and in particular Karen Barad's thinking, cutting "together/apart" how-to guides, across the fields of computer science, art, cultural studies, critical theory, and software studies. See Karen Barad, *Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning* (Durham, NC: Duke University Press, 2007).
 
-[^gabrys]: Jennifer Gabrys outlines her "how-to" approach in the "Introduction" to *How to Do Things with Sensors* (Minneapolis, MN: University of Minnesota Press, 2019). We'd like to think we were doing something along these lines too. 
+[^gabrys]: Jennifer Gabrys outlines her "how-to" approach in the "Introduction" to *How to Do Things with Sensors* (Minneapolis, MN: University of Minnesota Press, 2019). We'd like to think we were doing something along these lines too.
