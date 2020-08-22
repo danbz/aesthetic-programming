@@ -24,7 +24,8 @@ page_order: 13
 - Fan, Lai-Tze, and Nick Montfort. “Dial.” *The New River: A Journal of Digital Art and Literature*. Spring 2020. <http://thenewriver.us/dial/>.
 - Fiebrink, Rebecca. *Wekinator*. 2009. <http://www.wekinator.org/>.
 - Filoa, Joseph. "JosephFiola/GenArt." 2016. <https://github.com/JosephFiola/GenArt>.
-- Freeke, Saskia. "All the Daily Things 2018". Vimeo, 06:30. January 2, 2019. <https://vimeo.com/309138645>.
+- Freeke, Saskia. "All the Daily Things." 2018. Vimeo, 06:30. January 2, 2019. <https://vimeo.com/309138645>.
+- ———. "Daily sketch in Processing." 2015-. <https://twitter.com/sasj_nl>.
 - “Friendly Machine Learning for the Web.” ml5.js, accessed June 20, 2020. <https://ml5js.org/>.
 - Giardina Papa, Elisa. *The Cleaning of Emotional Data*. 2020. <https://aksioma.org/cleaning.emotional.data/>.
 - Gross, Benedikt, Bohnacker, Hartmut , Laub, Julia, Lazzeroni, Claudius. "Generative Design Sketches." <http://www.generative-gestaltung.de/2/>.
