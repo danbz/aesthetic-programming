@@ -11,7 +11,7 @@ let thankYou =
      "Loren Britton - for copyediting, and helpful critical comments",
      "Matthew Fuller - for inspiration, and endorsement",
      "Lauren McCarthy - for inspiration, and critical comments on the draft",
-     "Jennifer Gabrys - for critical comments on the draft, and endorsement,"
+     "Jennifer Gabrys - for critical comments on the draft, and endorsement",
      "Søren Pold - for critical comments on the draft",
      "Open Humanties Press, Gary Hall, Sigi Jöttkandt and David Ottina - in \
       support of publishing in experimental form",
