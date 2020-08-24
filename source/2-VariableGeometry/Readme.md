@@ -108,7 +108,7 @@ function draw() {
 }
 ```
 
-![](ch2_3.png)
+![](ch2_4.png)
 :   *Figure 2.3: Simple exercise*
 
 Remember the structure of a web page/application should include the HTML, a working JavaScript file (for example, sketch.js), as well as the associated associated p5.js libraries.  
@@ -128,7 +128,7 @@ When you type the syntax `print(width);` the web console area (see Figure 2.2) d
 
 In programming, both width and height are called "variables" — another important concept. Variables are used to store data and information in a computer program. You can think of variables as a kitchen container, in which you can put different types of things (like food, kitchen utensils, etc.) in a given container, replace them with other things, and store them for later retrieval. There are two main types of variables: "local variables" that are defined within a structure or a function, can only be used within that block of code; and "global variables" that can be used anywhere in the code. Global variables need to be defined before the setup of the program, usually in the first few lines of code.
 
-In the sample code example, the value behind `windowWidth` is the width of the window set as the canvas width (as illustrated in Line 2). To continue the analogy, a container with the name "width" (as we have just typed in the web console) is labeled and stores the value. The program is able to retrieve the measurement of the canvas by using the variable `width` and this value can be changed according to your window width, and can be retrieved and displayed using the web console. (You can also use the variables `width` and `height` in other parts of your sketch, and for other purposes.)
+In the previous exercise, the value in the sample code (line 2) behind `windowWidth` is the width of the window set as the canvas width. To continue the analogy, a container with the name "width" (as we have just typed in the web console) is labeled and stores the value. The program is able to retrieve the measurement of the canvas by using the variable `width` and this value can be changed according to your window width, and can be retrieved and displayed using the web console. (You can also use the variables `width` and `height` in other parts of your sketch, and for other purposes.)
 
 It is important to note that you can also assign your own variable names (in other words, you can create your own type of container and store other values).
 
@@ -179,7 +179,7 @@ Another reason for using variables is that if you have longer lines of code, it 
 Additionally, it is also easier for others to read your code with a well-chosen variable name, or at least the variable name can suggest certain behaviors or actions. As you progress, you might write code collaboratively, or write a larger program with more lines of code, at which point it is important to think of the readability of code.
 
 ### Other functions
-This section briefly introduces some other new functions in the sample code. Drawing and designing an emoji requires different decisions, in terms of shapes, color, and spatial composition.
+This section briefly introduces some other new functions in the full source code. Drawing and designing an emoji requires different decisions, in terms of shapes, color, and spatial composition.
 
 - `noStroke()`, `strokeWeight()`: These functions refer to the settings of a shape, where it has an outline, and the weight of the border.
 - `stroke()`, `fill()` and `nofill()`: These set the color of objects such as border, shapes, or text. It takes RGB (as default) or HSB color. But if the function has a single parameter, then it refers to gray scale shade between 0-255 [^binarycolor]. If the function has three parameters like `fill(255,255,0)`, then it means the object/shape/text will be filled with a yellow color (the mix of red and green with no blue). There is an optional parameter called "alpha", which refers to the opacity of the color, e.g. `fill(255,255,0,127)`.
@@ -187,27 +187,6 @@ This section briefly introduces some other new functions in the sample code. Dra
 - `vertex()`, `beginShape()` and `endShape(CLOSE)`: These three functions are used for drawing more complex forms using various vertices. The `vertex()` function indicates its x and y coordinates, and all the vertices can be joined using the "CLOSE" argument in `endShape()`. The `beginShape()` is used to record the start of the vertex for a complex form like a polygon.
 - `floor()`: Since the %`random()`% function returns a floating-point number, `floor()` is used to calculate the closest integer value.
 - `if (mouseIsPressed) {}`: This is a conditional structure for a program, constantly referring to mouse press actions. This is discussed in more detail below.
-
-#### Basic Arithmetic Operators
-You can also do arithmetic operations in programming, and this is commonly done in the arguments of a function. Here is a list of basic arithmetic operators:
-- add(+): For addition and concatenation, which is applicable to both numbers and text/characters.
-- subtract(-)
-- multiply(*)  
-- divide(/)
-- Special operators: increment (++), decrement (--)   
-
-You can try the following in the web console area:
-
-```
-print(2*3);
-```
-> Output:
-"6"
-```
-print("hello" + "world");
-```
-> output:
-"hello world"
 
 ## %Conditional structures%
 
@@ -291,8 +270,30 @@ if (x > 10 || x <= 20 ) {
     console.log("four");
 }
 ```
+### Basic Arithmetic Operators
+You can also do arithmetic operations in programming, and this is commonly done in the arguments of a function. Here is a list of basic arithmetic operators:
 
-#### Discussion in class
+- add(+): For addition and concatenation, which is applicable to both numbers and text/characters.
+- subtract(-)
+- multiply(\*)
+- divide(/)
+- Special operators: increment (++), decrement (--)   
+
+You can try the following in the web console area:
+
+```
+print(2*3);
+```
+> Output:
+"6"
+```
+print("hello" + "world");
+```
+> output:
+"hello world"
+
+### Discussion in class
+
 1. Examine [existing emojis](https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg) or those available on your mobile phone, and reflect upon the complexity of human emotions, and their caricatures. What is your experience using emojis? What are the cultural and political implications of emojis (you might refer to the reading and introduction above)?
 2. Discuss: what constitutes a face? What essential elements do you need for a particular facial expression, and why? What has been lost in translation?
 3. Beyond the face, take a look at [more emojis](https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/).[^emojis2] Is there anything you want to add?
@@ -322,7 +323,7 @@ The challenge is to rethink normative geometries, to turn them upside down and i
 
 **Objective:**
 
-- To experiment with various geometric drawing methods, to explore alternatives, particularly with regard to shapes and drawing with colors.
+- To experiment with various geometric drawing methods and to explore alternatives, particularly with regard to shapes and drawing with colors.
 - To reflect on the politics/aesthetics of emojis on the basis of the assigned texts.
 
 **For additional inspiration:**
@@ -331,11 +332,11 @@ The challenge is to rethink normative geometries, to turn them upside down and i
 - [Women finally get a menstruation emoji](https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji)[^Grot] by Michael Grothaus.
 - [Between Art and Application: Special issue on emoji epistemoloy by Crystal Abidin and Joel Gn](https://firstmonday.org/ojs/index.php/fm/article/view/9410)[^Abidin] (a short text about emoji culture).
 
-**Tasks (RUNME):**
+**Tasks (RunMe):**
 
 Explore shapes, geometries, and other related syntax (via p5.js [references](https://p5js.org/reference/)) and design two emojis.
 
-**Questions to think about as README:**
+**Questions to think about as ReadMe:**
   - **Describe** your program and what you have used and learnt.
   - **How** would you put your emoji into a wider social and cultural context that concerns a politics of representation, identity, race, imperialism, and so on? (Try to think through the assigned reading and your coding process, and then expand that to your own experience and thoughts - this is a difficult task, you may need to spend some time thinking about it).
 </div>
@@ -405,3 +406,5 @@ Explore shapes, geometries, and other related syntax (via p5.js [references](htt
 [^Abidin]: Abidin and Gn, "Between Art and Application."
 
 [^chun]: Chun discusses symbolic programming languages that (as higher-level languages) hide the computational process. This both empowers users to create, but conversely mystifies the inner workings of machines. Here variables are some of the many examples that computer operations abstract. We will discuss this in Chapter 6, "Object Abstraction". See Wendy Hui Kyong Chun, “On Software, or the Persistence of Visual Knowledge,” *Grey Room* 18 (January 2005): 38, <https://doi.org/10.1162/1526381043320741>.
+
+[^constant]: See p5.js const reference, <https://p5js.org/reference/#/p5/const>.

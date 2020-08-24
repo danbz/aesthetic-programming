@@ -236,6 +236,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - ———. "How to Draw with Code | Casey Reas." Youtube video, 6:07. Posted by "Creators," June 25, 2012. <https://www.youtube.com/watch?v=_8DMEHxOLQE>
 - “Reference.” p5.js. <https://p5js.org/reference/>.
 - “Reference color ().” p5.js. <https://p5js.org/reference/#/p5/color>.
+- “Reference const.” p5.js. <https://p5js.org/reference/#/p5/const>.
 - "Reference DOM." p5.js. <https://p5js.org/reference/#group-DOM>.
 - “Reference ellipse ().” p5.js. <https://p5js.org/reference/#/p5/ellipse>.
 - “Reference frameCount.” p5.js. <https://p5js.org/reference/#/p5/frameCount>.

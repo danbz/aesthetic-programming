@@ -30,7 +30,7 @@ But there is much more to this than just introducing the tool from a pragmatic p
 ### Working environment
 You will need an editor to write and document your code. We will use [Atom](https://atom.io/),[^Atom] a free and open source text and source code editor that works across different platforms to write code. We choose a downloadable code editor as opposed to a web editor because we view code as more than just a piece of software, it is also about the relations with the configuration of your own computer and operating system, the way various browsers behave as well as data files, and the organization of folder paths, and so on.  
 
-Additionally we use Gitlab as our code and text respository, at least for this book. We also use Gitlab for teaching purposes, a place where students can upload their Readme and Runme files every week, for peer feedback and to facilitate peer learning, and to read and share code and related thinking. We have found this to be an effective way to work both individually and collectively, and share materials in keeping with the best principles of free and open source software development, and students use Readme to explain the technical aspects as well as to develop critical discussion.   
+Additionally we use Gitlab as our code and text respository, at least for this book. We also use Gitlab for teaching purposes, a place where students can upload their ReadMe and RunMe files every week, for peer feedback and to facilitate peer learning, and to read and share code and related thinking. We have found this to be an effective way to work both individually and collectively, and share materials in keeping with the best principles of free and open source software development, and students use Readme to explain the technical aspects as well as to develop critical discussion.   
 
 #### p5.js
 1. First go to the [download page](https://p5js.org/download/) of p5.js[^p5js] (https://p5js.org/download/) and get the p5.js complete library (in the compressed "p5.zip" format) by clicking it and saving the file, which includes all the necessary libraries to run the code.
@@ -163,7 +163,7 @@ We use %Git% both to write this book as well as teach. Git is an open source sof
 
 GitLab is an open source, web-based, Git repository platform that hosts software libraries and source code contributed by software developers. GitLab is also a social platform, where people can leave comments, follow other software development processes, fork the whole program into their own repository, and so on. All this book's content, including the readme files, source code and libraries are stored on the GitLab platform under a creative commons license, giving other people the rights to share, use and build upon this work. We imagine this is just the first iteration of this book and we hope to see many re-appropriations and forks of the entire book, so people can use the existing framework to make modifications, such as adding new chapters, examples and exercises, as well as more related content and references that facilitate the interactions between programming and thinking.
 
-For simplicity's sake, we use GitLab's web interface for some of our writing and teaching, and for students to hand-in their weekly RUNME[^runme] and README[^readme] files. We also use GitLab for peer feedback so that students can read and learn from eachother's work.
+For simplicity's sake, we use GitLab's web interface for some of our writing and teaching, and for students to hand-in their weekly RunMe[^runme] and README[^readme] files. We also use GitLab for peer feedback so that students can read and learn from eachother's work.
 
 ![gitlab](ch1_12.png)
 :   *Figure 1.12: Create a new project with the GitLab web interface*
@@ -196,16 +196,16 @@ In this book we weave together the words and actions of human and computer langu
 
 This argument for programming or coding as a necessary skill for contemporary life seems indisputable, and there are plenty of examples of initiatives related to computational literacy and thinking, from online tutorials to websites such as Codecademy.org and Code.org. As introduced at the beginning of this chapter, Vee's *Coding Literacy*  also explores these connections, arguing how the concept of literacy underscores the importance, flexibility, and power of writing for and with computers.[^Vee3] An important aspect of this is that, not only does this help us to better understand the social, technical and cultural dynamics of programming, but it also expands our very notion of literacy and its connection to a politics of exclusion (as with other non-standard literacies). Furthermore, and given that programming, like other forms of writing, performs actions, it presents itself as a way to reconceive politics too: not simply writing or speaking, arguing, or protesting in public, but also demonstrating the ability to modify the technical processes through which the action is performed, in recognition of the ways in which power and control are now structured at the level of infrastructure.[^Kelty]
 
-Your first program is a means to engage with these ideas, to run some code. As this is not meant to be, nor can be, simply a technical exercise, we ask you to make the critical and practical aspects explicit in producing a README and a RUNME. This book serves as a guide for this initial task as well as subsequent ones: to run some code and "think with it."
+Your first program is a means to engage with these ideas, to run some code. As this is not meant to be, nor can be, simply a technical exercise, we ask you to make the critical and practical aspects explicit in producing a ReadMe and a RunMe. This book serves as a guide for this initial task as well as subsequent ones: to run some code and "think with it."
 
 <div class="section exercise" markdown="true">
-## MiniX: RUNME and README
+## MiniX: RunMe and ReadMe
 
-Make a RUNME and a README.
+Make a RunMe and a ReadMe.
 
 **Objective:**
 
-- To learn the basic setup, including writing code with a code editor, running code with a web browser, independent study of code syntax, creating a readme file, etc.
+- To learn the basic setup, including writing code with a code editor, running code with a web browser, independent study of code syntax, creating a ReadMe file, etc.
 - To start thinking with programming conceptually.
 
 **For additional inspiration:**
@@ -215,13 +215,13 @@ Make a RUNME and a README.
 - [Basics in OpenProcessing](https://www.openprocessing.org/browse/?q=basics&time=anytime&type=all#).
 - [Creative Coding with Processing and P5.JS](https://www.facebook.com/groups/creativecodingp5/).
 
-**Task (RUNME):**
+**Task (RunMe):**
 
 1. Study at least one example of syntax from p5.js' [reference](https://p5js.org/reference/) (Of course, it is always good to know more than one. Be curious!)
 2. Familiarize yourself with the reference structure: examples, descriptions, various pieces of syntax and parameters (This knowledge will give you an essential, life-long skill for learning new syntax on your own).
-3. Use, read, modify (or even combine) the sample code that you find (the most basic level is changing the numbers), and produce a new sketch as a RUNME.
+3. Use, read, modify (or even combine) the sample code that you find (the most basic level is changing the numbers), and produce a new sketch as a RunMe.
 
-**Questions to think about in your README:**
+**Questions to think about in your ReadMe:**
 
 - What have you produced?
 - How would you describe your first independent coding experience (in relation to thinking, reading, copying, modifying, writing code, and so on)?
