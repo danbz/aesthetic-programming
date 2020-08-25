@@ -27,7 +27,7 @@ Loops in contemporary programming are highly influenced by these early insights 
 The main example for this chapter is the graphical spinning wheel icon of a preloader, or so-called "throbber,"[^throbber] that indicates when a program is performing an action such as downloading or intensive calculations. We consider this an evocative symbol as it illuminates the discrepancy between what we think we know and what we don't know about the hidden machine labor, and the complexity of multiple temporalities that run during any given computational operation.[^screensaver] It is a good icon to illustrate how loops work, allowing us to contemplate the entanglement of perceptible streams and computational logics, as well as how we experience the historical present through digital media.[^soon] As we shift from static objects to moving ones, the animated %throbber% will guide the programming tasks related to thinking about transformation (such as rotation and translation), but will also act as a suitable cultural object for us to think through the idea of loops, the related temporal elements, and syntax more conceptually.
 
 ### start()
-We usually encounter the ubiquitous spinning icon while loading or streaming. It shows that a certain operation is in progress, but what exactly is happening, and how long this will take, is not at all clear. There is no indication of progress or status as is the case with a progress bar, for instance. We see the icon spinning, but it explains little about what goes on in the background or about timespan. Learning to program a throbber, and, subsequently examining *Asterisk Painting* by John P. Bell — that creates a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started — will help you gain insight into the way programming employs transformational movement and loop structures, and, at the same time, gains insights of the temporal operations of computational processes.  
+We usually encounter the ubiquitous spinning icon while loading or streaming. It shows that a certain operation is in progress, but what exactly is happening, and how long this will take, is not at all clear. There is no indication of progress or status as is the case with a progress bar, for instance. We see the icon spinning, but it explains little about what goes on in the background or about timespan. Learning to program a %throbber%, and, subsequently examining *Asterisk Painting* by John P. Bell — that creates a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started — will help you gain insight into the way programming employs transformational movement and loop structures, and, at the same time, gains insights of the temporal operations of computational processes.  
 
 ### Decode
 As mentioned above, this chapter shifts from programming static objects to a mixture of both static and moving objects. Our example is circular and spins, as if it were eating its own tail.
@@ -35,7 +35,7 @@ As mentioned above, this chapter shifts from programming static objects to a mix
 ![3.2](ch3_2.png)
 :    *Figure 3.3: The runme of sample code - sketch 3_1*
 
-[RUNME](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch3_InfiniteLoops/sketch3_1/)
+[RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch3_InfiniteLoops/sketch3_1/)
 
 Can you describe the various elements and how they operate computationally in your own words?
 
@@ -66,29 +66,33 @@ Can you describe the various elements and how they operate computationally in yo
 ## Source code
 
 ```javascript
-//ch3_1
+//throbber
 function setup() {
- createCanvas(windowWidth, windowHeight);   //create a drawing canvas
+ //create a drawing canvas
+ createCanvas(windowWidth, windowHeight);
  frameRate (8);  //try to change this parameter
 }
 
 function draw() {
-  background(70, 80);  //check this syntax with the alpha value
+  background(70, 80);  //check this syntax with alpha value
   drawElements();
 }
 
 function drawElements() {
-  let num =9;
+  let num = 9;
   push();
-  translate(width/2, height/2); //move things to the center
-  // 360/num >> degree of each ellipse's movement; frameCount%num >> get the remainder that indicates the movement of the ellipse
-  let cir = 360/num*(frameCount%num);  //to know which one among eight possible positions.
+  //move things to the center
+  translate(width/2, height/2);
+  /* 360/num >> degree of each ellipse's movement;
+  frameCount%num >> get the remainder that to know which one
+  among 8 possible positions.*/
+  let cir = 360/num*(frameCount%num);
   rotate(radians(cir));
   noStroke();
   fill(255,255,0);
-  ellipse(35,0,22,22);  //the moving dot(s), the x is the distance from the center
+  //the x parameter is the ellipse's distance from the center
+  ellipse(35,0,22,22);
   pop();
-
   stroke(255,255,0, 18);
   //static lines
   line(60,0,60,height);
@@ -106,7 +110,7 @@ function windowResized() {
 
 A function in p5.js starts with the syntax `function() {}`, containing "a self-contained section of code"[^Robinson] to peform a certain task. The most basic built-in functions in p5.js are `setup()` and `draw()` that specify the contained code in relation to a particular purpose such as setting up the environment in which to run the program, as well as doing things over time. Other built-in functions in the sample code provided, such as %`windowResized()`%, serve to readjust the canvas size if there is any window resizing event. The canvas size is not set at fixed dimensions, but is subject to the window size that you have adjusted as illustrated in the code. This was also discussed in the preceding chapter: `createCanvas(windowWidth, windowHeight);`. The function `windowResized()` suggests that an "%event listener%" — a procedure or function in a computer program that monitors for an event to occur — initiates at the code level to not only run once, but "constantly."  It is "listening" to events of window resizing specifically, and similar to other listening events such as %`mouseIsPressed()`% that was introduced in the previous chapter. The `windowResized()` function is considered asynchronous, which means some other events occur concurrently with the main flow of the program such as, for instance, drawing shapes.
 
-Alongside built-in functions, the sample code contains the custom function `function drawElements();` which is invoked in Line 21: `drawElements();` within the `draw()` function. Defining a function is relatively simple in JavaScript. Type the keyword "function" then follow it with the name that you want to give your function. The function name "drawElements" gives you a sense of what this function does, which is draw ellipses, lines of a particular size, position, and color, as well as drawing ellipses and lines to rotate clockwise or statically remain in place. There are many ways of drawing the same result, but as we are still in the early stages of learning to program, we will therefore work on an example that can do the same, but aligns better with our learning progress. With this in mind, some of the code is intentionally written in a way that is less efficient, but serves the purpose of illuminating key concepts.
+Alongside built-in functions, the sample code contains the custom function `function drawElements();` which is invoked in Line 13: `drawElements();` within the `draw()` function. Defining a function is relatively simple in JavaScript. Type the keyword "function" then follow it with the name that you want to give your function. The function name "drawElements" gives you a sense of what this function does, which is draw ellipses, lines of a particular size, position, and color, as well as drawing ellipses and lines to rotate clockwise or statically remain in place. There are many ways of drawing the same result, but as we are still in the early stages of learning to program, we will therefore work on an example that can do the same, but aligns better with our learning progress. With this in mind, some of the code is intentionally written in a way that is less efficient, but serves the purpose of illuminating key concepts.
 
 Programmers like to split large tasks into smaller operations and procedures, so they are easier to structure, manage, debug, read, and are easier to collaborate on with multiple programmers. In `function drawElements();`, the sample code is simply separated from the function `draw()`, clearly indicating that this particular part of the code relates to drawing the various on-screen elements. Of course you could also separate the drawing of ellipses and lines, and it is a subjective and situated decision to decide how best to separate the different tasks.  
 
@@ -115,7 +119,8 @@ There is another type of function where you can specify tasks with arguments tha
 ```javascript
 let x = sum(4, 3, 2);   
 print(x);
-function sum(a, b, c) { //passing values four as a, three as b, two as c to the function sum
+//passing values four as a, three as b, two as c to the function sum
+function sum(a, b, c) {
   return a + b + c; //return statement
 }
 ```
@@ -123,12 +128,10 @@ function sum(a, b, c) { //passing values four as a, three as b, two as c to the 
 > output:
 "9"
 
-
 <div class="section exercise" markdown="true">
 ### Exercise in class
 You can also try to type/copy the above code into your own sketch, where it will return the number 9 as the output because this is the result of the sum of the values 4, 3 and 2. These values called "%argument%" that are passed to the function (i.e. `sum()`). In the example, the parameters as variables a, b and c equals to the actual values 4, 3 and 2 as arguments, but the value of the variables can be changed. The function "sum" can be reused if you pass on other arguments/values to it, as for instance another line of code `let y = sum(5,6,7);` and the return value of y would be 18. You can try to come up with your own functions and arguments.
 </div>
-
 
 ### %Transform%
 In general, the transform-related functions[^ref2] apply a two-dimensional or three-dimensional transformation to an element or object. In the sample code provided, two specific transformational functions were used to move the canvas and create an illusion of object transformation. (It is important to know that the transformation is done at canvas background level, not at the individual shape/object level.)
@@ -146,17 +149,13 @@ Functions of %`push()`% and %`pop()`% are commonly used to save the current styl
 
 ```javascript
 function drawElements() {
-  let num =9;
+  let num = 9;
   push();
-  translate(width/2, height/2); //move things to the center
-  // 360/num >> degree of each ellipse' move ;frameCount%num >> get the remainder that indicates the movement of the ellipse
-  let cir = 360/num*(frameCount%num);  //to know which one among 8 possible positions
-  rotate(radians(cir));
-  noStroke();
-  fill(255,255,0);
-  ellipse(35,0,22,22);  //the moving dot(s), the x is the distance from the center
+  //move things to the center
+  .
+  .
+  .
   pop();
-
   stroke(255,255,0, 18);
   //static lines
   line(60,0,60,height);
@@ -197,7 +196,7 @@ The original piece was written in Processing and has been modified, and ported t
 let xDim = 1000;  //canvas size-width
 let yDim = 600;   //canvas size-height
 let timer=0;
-let speed=100;  //the speed of rotation, default 100
+let speed=100;  //the speed of rotating , default 100
 let maxSentences = 77;  //original: 77
 let sentences = 0;
 let xPos = [1,2,3,4,5]; //original: 8 columns
@@ -205,7 +204,7 @@ let yPos = [1,2,3,4]; //original: 5 rows
 let xCtr = 0;
 let yCtr = 0;
 let waitTime = 10000;
-let itr = 0; // number of iterations
+let itr = 0; // no. of iteration
 let milliStart = 0;
 let currentMillis;
 let fillColor;
@@ -213,53 +212,74 @@ let fillColor;
 function setup(){
   createCanvas(xDim, yDim);
   background(240);
-  for(let i=0; i<xPos.length; i++) {  //calculate the x-position of each asterisk as an array (xPos[]) that starts with an array index[0]
+  /*calculate the x-position of each asterisk as
+  an array (xPos[]) that starts with an array index[0]*/
+  for(let i=0; i<xPos.length; i++) {
     xPos[i] = xPos[i] * (xDim / (xPos.length+1));
   }
-  for(let i=0; i<yPos.length; i++) {  //calculate the y-position of each asterisk as an array (ypos[]) that starts with an array index[0]
+  /*calculate the y-position of each asterisk as
+  an array (ypos[]) that starts with an array index[0]*/
+  for(let i=0; i<yPos.length; i++) {
     yPos[i] = yPos[i] * (yDim / (yPos.length+1));
   }
   fill(0);  //counter color at the bottom left
   textAlign(LEFT, CENTER);
   text(itr, 10, yDim-30); //display counter
-  fillColor = color(floor(random(0,255)), floor(random(0,255)), floor(random(0,255)));
+  fillColor = color(
+    floor(random(0,255)),floor(random(0,255)),floor(random(0,255))
+  );
 }
 
 function draw(){
-     currentMillis = floor(millis() - milliStart);  //millis means milliseconds since starting the program, like frameCount
+     //millis means millsecond since starting the program, like frameCount
+     currentMillis = floor(millis() - milliStart);
      if(currentMillis > timer){
-       push();
+       push()
        translate(xPos[xCtr], yPos[yCtr]);  //rows and cols
        rotate(radians((360/8)* (millis()/speed)));  //rotate in itself
        timer = currentMillis + speed; //the time for the next loop
        textSize(12);
        fill(fillColor);
-       //nf:format numbers into strings and adds zeros in front [https://p5js.org/reference/#/p5/nf]. 3 digits in front and 0 digit after the decimal
-       text(nf(currentMillis, 6), 3, 0);  //which is about the time string written as the asterisk, and it starts with 0 always
+       /* about the time string written in the form of an asterisk,
+       and it starts with 0 always.
+       nf:format numbers into strings and adds zeros in front
+       [https://p5js.org/reference/#/p5/nf]
+       3 digits in front and 0 digit after the decimal. */
+       text(nf(currentMillis, 6), 3, 0);
        sentences++;
-       if(sentences >= maxSentences){  //reach the maximum for each asterisk
+       if(sentences >= maxSentences){  //reach the max for each asterisk
          xCtr++;  //move to next array
-
-         if(xCtr >= xPos.length) {  //meet max cols, and need to go to next row
+         //meet max cols, and need to go to next row
+         if(xCtr >= xPos.length) {
            xCtr = 0;
            yCtr++;  //next row
-           //the screen is filled > reset everything and update the counter
-           if(yCtr >= yPos.length){  //reach the max number of rows on a screen (after reaching the max number of cols)
+           /* the program reaches the max no. of rows on a screen
+           (i.e after reaching the no. of max cols);
+           the screen is filled > reset everything and update the counter*/
+           if(yCtr >= yPos.length){
              yCtr = 0;
              background(240);
-             itr++;  //add counter (iteration)
+             //add counter (iteration)
+             itr++;
              pop();
-             fill(0);   //counter's display color
-             text(itr, 10, yDim-30);  //change counter display again
-             let wait = floor(millis() + waitTime);  //wait for next round
-             while(millis() < wait){}  //just wait for resetting
-             milliStart = millis(); //reset the starting time
-             timer = 0; //reset the timer
+             //counter's display color
+             fill(0);
+             //change the counter display again
+             text(itr, 10, yDim-30);
+             //wait for next round for starting the first asterisk
+             let wait = floor(millis() + waitTime);
+             while(millis() < wait){}
+             //reset the starting time
+             milliStart = millis();
+             //reset the timer
+             timer = 0;
              push();
            }
          }
         sentences = 0;
-        fillColor = color(floor(random(0,255)),floor(random(0,255)),floor(random(0,255)));
+        fillColor = color(
+          floor(random(0,255)),floor(random(0,255)),floor(random(0,255))
+        );
        }
        pop();  //restore previous state
      }
@@ -269,7 +289,7 @@ function draw(){
 <div class="section exercise" markdown="true">
 ### Exercise in class
 
-- Run the *Asterisk Painting* [here](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch3_InfiniteLoops/)
+- [RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch3_InfiniteLoops/)
 - Read the source code above.
 - Use the decoding method that we introduced previously in this chapter, try to speculate, experiment, and map your thoughts to the source code.  
     - **Speculation**: Describe what you see/experience on screen.
@@ -309,7 +329,6 @@ The syntax `arrayname.length` is used to ask how many items there are in an arra
 Let's look at the sample below from *Asterisk Painting*:
 
 ```javascript
-//sample from Asterisk Painting, e.g. lines 25-26
 let xPos = [1,2,3,4,5];
 let yPos = [1,2,3,4];
 ```
@@ -331,16 +350,15 @@ There are also methods of adding or removing an array index:
 - `array.splice()`:[^splice] This will remove a range from an array index, or remove the existing index, and replace it with new indexes with other values.
 
 ### %Conditional statements%
-The discussion of conditional statements in the previous chapter will make it easier to follow *Asterisk Painting*'s code (particularly Line 61). We follow the conditional structure (if-then) built into the program in order to know when to move from one asterisk to the next.
+The discussion of conditional statements in the previous chapter will make it easier to follow *Asterisk Painting*'s code. We follow the conditional structure (if-then) built into the program in order to know when to move from one asterisk to the next.
 
 ```javascript
-//sample from Asterisk Painting, see Line 61:
-if(sentences >= maxSentences){  //if the existing sentence count reaches the maximum for each asterisk painting
+if(sentences >= maxSentences){  //reach the max for each asterisk
    //move to the next one and continues;
 }
 ```
 
-The value of the variable `maxSentences` is 77 (refer to Line 22 from the source code), therefore each asterisk contains 77 sentences (in the form of a line that contains numbers). The other variable `sentences` counts each line and the program checks whether the current sentences count has reached its maximum. "If" the asterisk reaches 77 sentences "then" it will move to the next one and the `sentences` counter will be reset to zero (Line 82) and start counting again. The logic repeats across all the asterisks within the `draw()` function.
+The value of the variable `maxSentences` is 77 (refer to Line 5 from the source code), therefore each asterisk contains 77 sentences (in the form of a line that contains numbers). The other variable `sentences` counts each line and the program checks whether the current sentences count has reached its maximum. "If" the asterisk reaches 77 sentences "then" it will move to the next one and the `sentences` counter will be reset to zero (Line 84) and start counting again. The logic repeats across all the asterisks within the `draw()` function.
 
 ### Loops
 The core concept of a loop is that it enables you to execute a block of code many times. For example, if you have to draw one hundred lines that are placed vertically one after the other, you can of course write one hundred lines of code using the syntax: `line()`.
@@ -353,17 +371,19 @@ To structure a for-loop, you need to ask yourself:
 - More specifically, what is the conditional structure and when do you want to exit the loop?
 - What do you want to do when this condition is, or is not, met?
 
-The following is an excerpt from *Asterisk Painting* (Lines 37-42):
+The following is an excerpt from *Asterisk Painting* (Lines 20-29):
 
 ```javascript
-  for(let i=0; i< xPos.length; i++) {
-    ////calculate the x-position of each asterisk as an array (xPos[]) that starts with an array index[0]
-    xPos[i] = xPos[i] * (xDim / (xPos.length+1));
-  }
-  for(let i=0; i< yPos.length; i++) {  
-   //calculate the y-position of each asterisk as an array (ypos[]) that starts with an array index[0]
-    yPos[i] = yPos[i] * (yDim / (yPos.length+1));
-  }
+/*calculate the x-position of each asterisk as
+an array (xPos[]) that starts with an array index[0]*/
+for(let i=0; i<xPos.length; i++) {
+  xPos[i] = xPos[i] * (xDim / (xPos.length+1));
+}
+/*calculate the y-position of each asterisk as
+an array (ypos[]) that starts with an array index[0]*/
+for(let i=0; i<yPos.length; i++) {
+  yPos[i] = yPos[i] * (yDim / (yPos.length+1));
+}
 ```
 
 See the structure of a for-loop:
@@ -440,11 +460,11 @@ Check out other works that refer to the throbber and how other people contextual
 - *Asterisk Painting* by John P. Bell, ported to p5.js, and modified by Winnie Soon, <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
 
 
-**Task (RUNME):**
+**Task (RunMe):**
 
 - Use loops and any one of the transformational functions to redesign and program an "animated" throbber.
 
-**Questions to think about (README):**
+**Questions to think about (ReadMe):**
 
 - **Describe** your throbber design, both conceptually and technically.
     - What do you want to explore and/or express?

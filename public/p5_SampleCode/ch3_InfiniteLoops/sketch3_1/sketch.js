@@ -1,6 +1,7 @@
-//ch3_1
+//throbber
 function setup() {
- createCanvas(windowWidth, windowHeight);   //create a drawing canvas
+ //create a drawing canvas
+ createCanvas(windowWidth, windowHeight);
  frameRate (8);  //try to change this parameter
 }
 
@@ -12,13 +13,17 @@ function draw() {
 function drawElements() {
   let num = 9;
   push();
-  translate(width/2, height/2); //move things to the center
-  // 360/num >> degree of each ellipse' move ;frameCount%num >> get the remainder that indicates the movement of the ellipse
-  let cir = 360/num*(frameCount%num);  //to know which one among 8 possible positions.
+  //move things to the center
+  translate(width/2, height/2);
+  /* 360/num >> degree of each ellipse's movement;
+  frameCount%num >> get the remainder that to know which one
+  among 8 possible positions.*/
+  let cir = 360/num*(frameCount%num);
   rotate(radians(cir));
   noStroke();
   fill(255,255,0);
-  ellipse(35,0,22,22);  //the moving dot(s), the x is the distance from the center
+  //the x parameter is the ellipse's distance from the center
+  ellipse(35,0,22,22);
   pop();
   stroke(255,255,0, 18);
   //static lines
@@ -26,7 +31,6 @@ function drawElements() {
   line(width-60,0,width-60,height);
   line(0,60,width,60);
   line(0,height-60,width,height-60);
-
 }
 
 function windowResized() {
