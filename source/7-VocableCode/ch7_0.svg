@@ -26,14 +26,14 @@
 </g>
 <!-- MX -->
 <g id="node11" class="node"><title>MX</title>
-<ellipse fill="none" stroke="black" cx="411" cy="-26.8701" rx="54.3945" ry="26.7407"/>
-<text text-anchor="middle" x="411" y="-30.6701" font-family="Times,serif" font-size="14.00">MiniX[7]: </text>
+<ellipse fill="none" stroke="black" cx="411" cy="-26.8701" rx="43.2674" ry="26.7407"/>
+<text text-anchor="middle" x="411" y="-30.6701" font-family="Times,serif" font-size="14.00">MiniX: </text>
 <text text-anchor="middle" x="411" y="-15.6701" font-family="Times,serif" font-size="14.00">E&#45;lit</text>
 </g>
 <!-- GS&#45;&gt;MX -->
 <g id="edge4" class="edge"><title>GS&#45;&gt;MX</title>
-<path fill="none" stroke="black" d="M510.946,-611.186C525.005,-585.064 549,-533.582 549,-486.48 549,-486.48 549,-486.48 549,-178.74 549,-122.52 496.181,-78.1174 455.897,-52.4285"/>
-<polygon fill="black" stroke="black" points="457.602,-49.3679 447.258,-47.0787 453.917,-55.3192 457.602,-49.3679"/>
+<path fill="none" stroke="black" d="M510.946,-611.186C525.005,-585.064 549,-533.582 549,-486.48 549,-486.48 549,-486.48 549,-178.74 549,-120.701 492.708,-75.2567 452.029,-49.9942"/>
+<polygon fill="black" stroke="black" points="453.726,-46.9303 443.355,-44.7622 450.11,-52.9243 453.726,-46.9303"/>
 </g>
 <!-- RR -->
 <g id="node12" class="node"><title>RR</title>
@@ -139,8 +139,8 @@
 </g>
 <!-- JS&#45;&gt;MX -->
 <g id="edge15" class="edge"><title>JS&#45;&gt;MX</title>
-<path fill="none" stroke="black" d="M330.52,-92.6397C342.877,-82.6953 359.865,-69.0234 375.049,-56.8029"/>
-<polygon fill="black" stroke="black" points="377.663,-59.1923 383.259,-50.1959 373.274,-53.739 377.663,-59.1923"/>
+<path fill="none" stroke="black" d="M330.52,-92.6397C343.46,-82.2259 361.479,-67.7245 377.187,-55.0827"/>
+<polygon fill="black" stroke="black" points="379.555,-57.6692 385.152,-48.6728 375.167,-52.2159 379.555,-57.6692"/>
 </g>
 <!-- SC&#45;&gt;CO -->
 <g id="edge12" class="edge"><title>SC&#45;&gt;CO</title>
@@ -161,8 +161,8 @@
 </g>
 <!-- MW&#45;&gt;MX -->
 <g id="edge16" class="edge"><title>MW&#45;&gt;MX</title>
-<path fill="none" stroke="black" d="M127.027,-98.5228C180.574,-85.2005 287.005,-58.7203 353.275,-42.2321"/>
-<polygon fill="black" stroke="black" points="354.292,-45.5859 363.151,-39.775 352.602,-38.793 354.292,-45.5859"/>
+<path fill="none" stroke="black" d="M127.027,-98.5228C182.797,-84.6473 295.934,-56.4988 361.315,-40.2317"/>
+<polygon fill="black" stroke="black" points="362.523,-43.5379 371.382,-37.727 360.833,-36.745 362.523,-43.5379"/>
 </g>
 <!-- Notes -->
 <g id="node14" class="node"><title>Notes</title>

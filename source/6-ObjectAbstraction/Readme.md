@@ -72,7 +72,7 @@ Below we will introduce the sample code *Eating tofu*, a simple game inspired by
 <figcaption><p markdown=true>*Figure 6.2: A screenshot of the Eating tofu game*</p></figcaption>
 </figure>
 
-[RUNME](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch6_ObjectAbstraction/)
+[RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch6_ObjectAbstraction/)
 
 **Speculation**
 

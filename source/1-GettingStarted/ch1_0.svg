@@ -157,7 +157,7 @@
 <!-- MX -->
 <g id="node13" class="node"><title>MX</title>
 <ellipse fill="none" stroke="black" cx="287.347" cy="-26.8701" rx="106.547" ry="26.7407"/>
-<text text-anchor="middle" x="287.347" y="-30.6701" font-family="Times,serif" font-size="14.00">MiniX[1]: </text>
+<text text-anchor="middle" x="287.347" y="-30.6701" font-family="Times,serif" font-size="14.00">MiniX: </text>
 <text text-anchor="middle" x="287.347" y="-15.6701" font-family="Times,serif" font-size="14.00">RUNME and README</text>
 </g>
 <!-- RG&#45;&gt;MX -->

@@ -27,7 +27,7 @@
 <!-- MX -->
 <g id="node14" class="node"><title>MX</title>
 <ellipse fill="none" stroke="black" cx="651.128" cy="-271.217" rx="87.8629" ry="37.4533"/>
-<text text-anchor="middle" x="651.128" y="-282.517" font-family="Times,serif" font-size="14.00">MiniX[8]: </text>
+<text text-anchor="middle" x="651.128" y="-282.517" font-family="Times,serif" font-size="14.00">MiniX: </text>
 <text text-anchor="middle" x="651.128" y="-267.517" font-family="Times,serif" font-size="14.00">Working with APIs</text>
 <text text-anchor="middle" x="651.128" y="-252.517" font-family="Times,serif" font-size="14.00">(in a group)</text>
 </g>

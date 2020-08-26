@@ -32,7 +32,7 @@ page_order: -3
 * Reading the reference guide
 * Git
 * While()
-* MiniX[1]: RUNME and README
+* MiniX: RUNME and README
 * Required reading & Further reading
 
 ## Chapter 2: Variable Geometry
@@ -48,12 +48,12 @@ page_order: -3
 * Relational operators
 * Discussion in class
 * While()
-* MiniX[2]: Geometric emoji
+* MiniX: Geometric emoji
 * Required reading & Further reading
 
 ## Chapter 3: Infinite Loops
 * setup() and start()
-* Decode
+* Exercise in class (Decode)
 * Source code
 * Function
 * Exercise in class
@@ -67,7 +67,7 @@ page_order: -3
 * Conditional statements
 * Loops
 * While()
-* MiniX[3]: Designing a Throbber
+* MiniX: Designing a Throbber
 * Required reading & Further reading
 
 ## Chapter 4: Data Capture
@@ -87,7 +87,7 @@ page_order: -3
 * Voice and audio data
 * Health tracker
 * While()
-* MiniX[4]: CAPTURE ALL
+* MiniX: CAPTURE ALL
 * Required reading & Further reading
 
 ## Chapter 5: Auto Generator
@@ -99,7 +99,7 @@ page_order: -3
 * Two-dimensional arrays & nested for-Loops
 * Exercise in class
 * While()
-* MiniX[5]: A generative program
+* MiniX: A generative program
 * Required reading & Further reading
 
 ## Chapter 6: Object Orientation
@@ -112,7 +112,7 @@ page_order: -3
 * Exercise in class
 * Further notes
 * While()
-* MiniX[6]: Games with objects
+* MiniX: Games with objects
 * Required reading & Further reading
 
 ## Chapter 7: Vocable Code
@@ -124,7 +124,7 @@ page_order: -3
 * Source Code
 * Exercise in class
 * While()
-* MiniX[7]: E-lit
+* MiniX: E-lit
 * Required reading & Further reading
 
 ## Chapter 8: Que(e)ry Data
@@ -139,7 +139,7 @@ page_order: -3
 * LoadPixels()
 * Different types of errors
 * While()
-* MiniX[8]: Working with APIs (in a group)
+* MiniX: Working with APIs (in a group)
 * Required reading & Further reading
 
 ## Chapter 9: Algorithmic Procedures
@@ -150,7 +150,7 @@ page_order: -3
 * Exercise in class
 * Flowcharts as an artistic medium
 * While()
-* MiniX[9]: Flowcharts
+* MiniX: Flowcharts
 * Required reading & Further reading
 
 ## Chapter 10: Machine Learning
@@ -163,7 +163,7 @@ page_order: -3
 * Reading Auto Chapter Generator
 * Exercise in class
 * While()
-* MiniX[10]: Final Project
+* MiniX: Final Project
 * Required reading & Further reading
 
 ## Afterword: Recurrent Imaginaries

@@ -27,7 +27,7 @@
 <!-- MX -->
 <g id="node19" class="node"><title>MX</title>
 <ellipse fill="none" stroke="black" cx="893.451" cy="-98.8701" rx="62.8651" ry="26.7407"/>
-<text text-anchor="middle" x="893.451" y="-102.67" font-family="Times,serif" font-size="14.00">MiniX[4]: </text>
+<text text-anchor="middle" x="893.451" y="-102.67" font-family="Times,serif" font-size="14.00">MiniX: </text>
 <text text-anchor="middle" x="893.451" y="-87.6701" font-family="Times,serif" font-size="14.00">Capture ALL</text>
 </g>
 <!-- GS&#45;&gt;MX -->

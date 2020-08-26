@@ -27,7 +27,7 @@
 <!-- MX -->
 <g id="node15" class="node"><title>MX</title>
 <ellipse fill="none" stroke="black" cx="735.644" cy="-170.87" rx="77.5641" ry="26.7407"/>
-<text text-anchor="middle" x="735.644" y="-174.67" font-family="Times,serif" font-size="14.00">MiniX[2]: </text>
+<text text-anchor="middle" x="735.644" y="-174.67" font-family="Times,serif" font-size="14.00">MiniX: </text>
 <text text-anchor="middle" x="735.644" y="-159.67" font-family="Times,serif" font-size="14.00">Geometric emoji</text>
 </g>
 <!-- GS&#45;&gt;MX -->

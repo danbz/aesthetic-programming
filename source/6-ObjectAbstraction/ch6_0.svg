@@ -27,7 +27,7 @@
 <!-- MX -->
 <g id="node12" class="node"><title>MX</title>
 <ellipse fill="none" stroke="black" cx="448.697" cy="-242.87" rx="88.2768" ry="26.7407"/>
-<text text-anchor="middle" x="448.697" y="-246.67" font-family="Times,serif" font-size="14.00">MiniX[6]: </text>
+<text text-anchor="middle" x="448.697" y="-246.67" font-family="Times,serif" font-size="14.00">MiniX: </text>
 <text text-anchor="middle" x="448.697" y="-231.67" font-family="Times,serif" font-size="14.00">Games with objects</text>
 </g>
 <!-- GS&#45;&gt;MX -->

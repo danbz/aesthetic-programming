@@ -29,7 +29,8 @@ The main example for this chapter is the graphical spinning wheel icon of a prel
 ### start()
 We usually encounter the ubiquitous spinning icon while loading or streaming. It shows that a certain operation is in progress, but what exactly is happening, and how long this will take, is not at all clear. There is no indication of progress or status as is the case with a progress bar, for instance. We see the icon spinning, but it explains little about what goes on in the background or about timespan. Learning to program a %throbber%, and, subsequently examining *Asterisk Painting* by John P. Bell — that creates a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started — will help you gain insight into the way programming employs transformational movement and loop structures, and, at the same time, gains insights of the temporal operations of computational processes.  
 
-### Decode
+<div class="section exercise" markdown="true">
+### Exercise in class (Decode)
 As mentioned above, this chapter shifts from programming static objects to a mixture of both static and moving objects. Our example is circular and spins, as if it were eating its own tail.
 
 ![3.2](ch3_2.png)
@@ -62,6 +63,7 @@ Can you describe the various elements and how they operate computationally in yo
     - Where do you often see this icon?
     - What do you know about this icon?
     - What can't you see?
+</div>
 
 ## Source code
 
