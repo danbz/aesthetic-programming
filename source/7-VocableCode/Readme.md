@@ -32,7 +32,7 @@ The core method for structuring *Vocable Code* is the use of constraints or rule
 <div class="section exercise" markdown="true">
 ## Exercise in class (Decode)
 
-[RUNME](https://dobbeltdagger.net/VocableCode_Educational/)
+RunMe(<https://dobbeltdagger.net/VocableCode_Educational/>).
 
 ![vocable_code-web](ch7_6.jpg)
 :   *Figure 7.2: The live coding/educational version of Vocable Code*
@@ -513,7 +513,7 @@ See: Allison Parrish (2015) <https://vimeo.com/134734729>; Florian Cramer, Langu
 
 [^soon1]: Winnie Soon, "Vocable Code, *MAI: Feminism and Visual Culture* 2 (November 10, 2018), <https://maifeminism.com/vocable-code/>.
 
-[^constraints]: For a discussion around the constraint-based writing of *Vocable Code*, see Eva Heisler, "Winnie Soon, Time, Code, and Poetry," *Asymptote Journal*, Jan (2020), <https://www.asymptotejournal.com/visual/winnie-soon-time-code-and-poetry/>
+[^constraints]: For a discussion around the constraint-based writing of *Vocable Code*, see Eva Heisler, "Winnie Soon, Time, Code, and Poetry," *Asymptote Journal*, Jan (2020), <https://www.asymptotejournal.com/visual/winnie-soon-time-code-and-poetry/>.
 
 [^callback]: See the `loadSound()` function that can be used as both `preload()` and callback, <https://p5js.org/reference/#/p5/loadSound>.
 
