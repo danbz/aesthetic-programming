@@ -16,7 +16,7 @@ We will return to some of these issues in Chapter 10, "Machine Learning," but su
 
 With these ideas in mind, the next section will introduce the sample code for a customizable *Like* button in order to demonstrate the potential of simple interactions such as pressing a button. How the specificity and affordances of buttons can be considered, as well as how the like button becomes a "social button," thus creating economic values in what Carolin Gerlitz and Anne Helmond call "the like economy." [^helmond] As in previous chapters we will work through the various types of capture using buttons as a starting point. Subsequently, we will reflect on the wider implications.
 
-### start()
+## start()
 ![datacapture](ch4_10.gif)
 :   *Figure 4.1 The web interface and interaction of the sample code*
 
@@ -281,7 +281,7 @@ The program uses the webcam to do face capture and facial recognition:
 
 <div class="section exercise" markdown="true">
 
-### Exercise in class
+## Exercise in class
 
 To familiar yourself with the various modes of capture, try the following:
 
@@ -366,8 +366,8 @@ This line of argument makes reference to the philosophy of Gilbert Simondon, to 
 **For additional inspiration:**
 
 - LAUREN by Lauren McCarthy (2017), <http://lauren-mccarthy.com/LAUREN>.
-- *nonsense* by Winnie Soon (2015), (read the comment in the source code for this project's intentions), <http://siusoon.net/nonsense/>. 
-- *Facebook Demetricator* by Benjamin Grosser (2012-present), <https://bengrosser.com/projects/facebook-demetricator/>, and subsequent *Instagram Demetricator*, <https://bengrosser.com/projects/instagram-demetricator/> or *Twitter Demetricator*, <https://bengrosser.com/projects/twitter-demetricator/>. 
+- *nonsense* by Winnie Soon (2015), (read the comment in the source code for this project's intentions), <http://siusoon.net/nonsense/>.
+- *Facebook Demetricator* by Benjamin Grosser (2012-present), <https://bengrosser.com/projects/facebook-demetricator/>, and subsequent *Instagram Demetricator*, <https://bengrosser.com/projects/instagram-demetricator/> or *Twitter Demetricator*, <https://bengrosser.com/projects/twitter-demetricator/>.
 
 **Tasks (RunMe):**
 

@@ -26,11 +26,11 @@ Loops in contemporary programming are highly influenced by these early insights 
 
 The main example for this chapter is the graphical spinning wheel icon of a preloader, or so-called "throbber,"[^throbber] that indicates when a program is performing an action such as downloading or intensive calculations. We consider this an evocative symbol as it illuminates the discrepancy between what we think we know and what we don't know about the hidden machine labor, and the complexity of multiple temporalities that run during any given computational operation.[^screensaver] It is a good icon to illustrate how loops work, allowing us to contemplate the entanglement of perceptible streams and computational logics, as well as how we experience the historical present through digital media.[^soon] As we shift from static objects to moving ones, the animated %throbber% will guide the programming tasks related to thinking about transformation (such as rotation and translation), but will also act as a suitable cultural object for us to think through the idea of loops, the related temporal elements, and syntax more conceptually.
 
-### start()
+## start()
 We usually encounter the ubiquitous spinning icon while loading or streaming. It shows that a certain operation is in progress, but what exactly is happening, and how long this will take, is not at all clear. There is no indication of progress or status as is the case with a progress bar, for instance. We see the icon spinning, but it explains little about what goes on in the background or about timespan. Learning to program a %throbber%, and, subsequently examining *Asterisk Painting* by John P. Bell — that creates a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started — will help you gain insight into the way programming employs transformational movement and loop structures, and, at the same time, gains insights of the temporal operations of computational processes.  
 
 <div class="section exercise" markdown="true">
-### Exercise in class (Decode)
+## Exercise in class (Decode)
 As mentioned above, this chapter shifts from programming static objects to a mixture of both static and moving objects. Our example is circular and spins, as if it were eating its own tail.
 
 ![3.2](ch3_2.png)
@@ -108,7 +108,7 @@ function windowResized() {
 }
 ```
 
-### %Function%
+## %Function%
 
 A function in p5.js starts with the syntax `function() {}`, containing "a self-contained section of code"[^Robinson] to peform a certain task. The most basic built-in functions in p5.js are `setup()` and `draw()` that specify the contained code in relation to a particular purpose such as setting up the environment in which to run the program, as well as doing things over time. Other built-in functions in the sample code provided, such as %`windowResized()`%, serve to readjust the canvas size if there is any window resizing event. The canvas size is not set at fixed dimensions, but is subject to the window size that you have adjusted as illustrated in the code. This was also discussed in the preceding chapter: `createCanvas(windowWidth, windowHeight);`. The function `windowResized()` suggests that an "%event listener%" — a procedure or function in a computer program that monitors for an event to occur — initiates at the code level to not only run once, but "constantly."  It is "listening" to events of window resizing specifically, and similar to other listening events such as %`mouseIsPressed()`% that was introduced in the previous chapter. The `windowResized()` function is considered asynchronous, which means some other events occur concurrently with the main flow of the program such as, for instance, drawing shapes.
 
@@ -131,11 +131,11 @@ function sum(a, b, c) {
 "9"
 
 <div class="section exercise" markdown="true">
-### Exercise in class
+## Exercise in class
 You can also try to type/copy the above code into your own sketch, where it will return the number 9 as the output because this is the result of the sum of the values 4, 3 and 2. These values called "%argument%" that are passed to the function (i.e. `sum()`). In the example, the parameters as variables a, b and c equals to the actual values 4, 3 and 2 as arguments, but the value of the variables can be changed. The function "sum" can be reused if you pass on other arguments/values to it, as for instance another line of code `let y = sum(5,6,7);` and the return value of y would be 18. You can try to come up with your own functions and arguments.
 </div>
 
-### %Transform%
+## %Transform%
 In general, the transform-related functions[^ref2] apply a two-dimensional or three-dimensional transformation to an element or object. In the sample code provided, two specific transformational functions were used to move the canvas and create an illusion of object transformation. (It is important to know that the transformation is done at canvas background level, not at the individual shape/object level.)
 
 ![3.3](ch3_3.png)
@@ -146,7 +146,7 @@ In general, the transform-related functions[^ref2] apply a two-dimensional or th
 
 In order to continue expanding on spatial relationships, the entanglement of time and space is made apparent in this example by using the `rotate()` function that operates alongside other time-related syntax in `draw()`. There are a total of 9 ellipses (indicated as `let num=9;`), and each is separated from the next by 40 degrees (i.e 0.968 rad) which is derived from "360/9." A circle has 360 degrees and to rotate the ellipse over time, it requires the time element to calculate when, how, and where to move. This is how the function `frameCount()` works as it counts the number of frames displayed since the program started.[^ref] The line `let cir = 360/num*(frameCount%num);` illustrates the use of a "%modulo%" operation to find the remainder or the number that's left after it is divided by another value. As such, the value of the variable `cir` is limited to multiples of 40: "0, 40, 80, 120, 160, 240, 280 and 320." On the basis of the `cir` value, the program follows such a sequence over time to rotate one after the other, based on the original position, then repeats continuously.
 
-#### push() and pop()
+### push() and pop()
 Functions of %`push()`% and %`pop()`% are commonly used to save the current style and restore settings respectively. Style as in color and setting as in %rotate% and %translate%. In the sample code, rotation is only applied to the centered ellipses when four lines at each side are fixed. The following excerpt of code will help to explain:
 
 ```javascript
@@ -171,7 +171,7 @@ The last four lines describe the drawing of the four static yellow lines. Logica
 
 
 <div class="section exercise" markdown="true">
-### Exercises in class
+## Exercises in class
 1. Change the arguments/values, as well as the position/sequence of the sample code to understand the functions and syntax such as the variable `num`, the transformational functions `translate()` and `rotate()`, as well as saving and restoring current style and transformations such as `push()` and `pop()`.
 
 2. We have explained how to use `rotate()` to display the ellipses at various degrees of rotation, but how about the fading in and out of each ellipse in the sketch? (Hint: as this is repeatedly faded in and out, the `background()` syntax under the function `draw()` is key to producing such effects.)
@@ -191,7 +191,7 @@ The following section will move from repetition and regularity, to repetition an
 According to Bell,
 >  "Asterisk Painting is programmed to create a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started. If left to run by itself it will do so; however, when started on a real system, delays external to my artwork may make the asterisks look more like spots..."
 
-### Source code
+## Source code
 The original piece was written in Processing and has been modified, and ported to p5.js. It is a much more complex program than the first one, but we still wanted to include this as an addition to this chapter as it helps to demonstrate the potential for further developing a looping sketch and reflect more deeply on the notion of infinite loops, and the use of time-related syntaxes.
 
 ```javascript
@@ -289,7 +289,7 @@ function draw(){
 ```
 
 <div class="section exercise" markdown="true">
-### Exercise in class
+## Exercise in class
 
 - [RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch3_InfiniteLoops/)
 - Read the source code above.
@@ -306,7 +306,7 @@ function draw(){
     - **Mapping**: Map the elements from the speculation to the source code
 </div>
 
-### %Arrays%
+## %Arrays%
 
 To be able to get a deeper understanding of the source code, you only need a few more fundamental concepts of programming. The first one is "Array," which is commonly understood as a list of data and is related to previous concepts such as variable and data types. If we need to work with a chunk of data, such as a collection of words, you can use arrays instead of making separate variables. For example:
 
@@ -351,7 +351,7 @@ There are also methods of adding or removing an array index:
 - `array.push(value)`:[^push] To add a value to the end of the array. Example: `xPos.push(6)` will extend the index to `xPos[5] = 6`.
 - `array.splice()`:[^splice] This will remove a range from an array index, or remove the existing index, and replace it with new indexes with other values.
 
-### %Conditional statements%
+## %Conditional statements%
 The discussion of conditional statements in the previous chapter will make it easier to follow *Asterisk Painting*'s code. We follow the conditional structure (if-then) built into the program in order to know when to move from one asterisk to the next.
 
 ```javascript
@@ -362,7 +362,7 @@ if(sentences >= maxSentences){  //reach the max for each asterisk
 
 The value of the variable `maxSentences` is 77 (refer to Line 5 from the source code), therefore each asterisk contains 77 sentences (in the form of a line that contains numbers). The other variable `sentences` counts each line and the program checks whether the current sentences count has reached its maximum. "If" the asterisk reaches 77 sentences "then" it will move to the next one and the `sentences` counter will be reset to zero (Line 84) and start counting again. The logic repeats across all the asterisks within the `draw()` function.
 
-### Loops
+## Loops
 The core concept of a loop is that it enables you to execute a block of code many times. For example, if you have to draw one hundred lines that are placed vertically one after the other, you can of course write one hundred lines of code using the syntax: `line()`.
 
 A "for-loop" allows code to be executed repeatedly, and so provides an efficient way to draw the line one hundred times by setting up a conditional structure, counting the number of lines that have been drawn and counting the maximum number of lines. Similarly, in this sketch, there are some elements needed to run repeatedly, but there is an end, such as calculating the center point using the exact x and y coordinates for each asterisk which are based on the width and height of the canvas. Knowing how many columns and rows make up a canvas, allows us to know the values of the center point for drawing each asterisk.
@@ -458,7 +458,7 @@ Check out other works that refer to the throbber and how other people contextual
 - *LOADING (THE BEAST 6:66/20:09)* by Gordan Savičić (2009), <https://www.yugo.at/processing/archive/index.php?what=loading>.
 - *The Best is Yet to Come* by Silvio Lorusso (2012), preloaders follow one another randomly and endlessly, <https://silviolorusso.com/work/the-best-is-yet-to-come/>.
 - *DVD guy* by Constant Dullaart (2009), <https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB>, with the contextualization by Panke Gallery in Berlin, <http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin>.
-- *Throb* by Winnie Soon (2018-19), <http://siusoon.net/throb/>. 
+- *Throb* by Winnie Soon (2018-19), <http://siusoon.net/throb/>.
 - *Asterisk Painting* by John P. Bell (n.d.), ported to p5.js and modified by Winnie Soon (2019), <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
 
 **Task (RunMe):**

@@ -1,13 +1,11 @@
 Title: About
 page_order: 15
 
-## About
-
 **Aesthetic Programming: A Handbook of Software Studies**
 
 by Winnie Soon and Geoff Cox
 
-The book explores the technical as well as cultural imaginaries of programming from its insides. It follows the principle that the growing importance of software requires a new kind of cultural thinking — and curriculum — that can account for, and with which to better understand the politics and aesthetics of algorithmic procedures, data processing and abstraction. It takes a particular interest in power relations that are relatively under-acknowledged in technical subjects, concerning class and capitalism, gender and sexuality, as well as race and the legacies of colonialism. This is not only related to the politics of representation but also nonrepresentation: how power differentials are implicit in code in terms of binary logic, hierarchies, naming of the attributes, and how particular worldviews are reinforced and perpetuated through computation. It introduces and demonstrates reflexive practice of *aesthetic programming*, engaging with learning to program as a way to understand and question existing technological objects and paradigms, and to explore the potential for reprogramming wider eco-socio-technical systems. The book itself follows this approach, and is offered as a computational object open to modification and reversioning. 
+The book explores the technical as well as cultural imaginaries of programming from its insides. It follows the principle that the growing importance of software requires a new kind of cultural thinking — and curriculum — that can account for, and with which to better understand the politics and aesthetics of algorithmic procedures, data processing and abstraction. It takes a particular interest in power relations that are relatively under-acknowledged in technical subjects, concerning class and capitalism, gender and sexuality, as well as race and the legacies of colonialism. This is not only related to the politics of representation but also nonrepresentation: how power differentials are implicit in code in terms of binary logic, hierarchies, naming of the attributes, and how particular worldviews are reinforced and perpetuated through computation. It introduces and demonstrates reflexive practice of *aesthetic programming*, engaging with learning to program as a way to understand and question existing technological objects and paradigms, and to explore the potential for reprogramming wider eco-socio-technical systems. The book itself follows this approach, and is offered as a computational object open to modification and reversioning.
 
 <hr>
 

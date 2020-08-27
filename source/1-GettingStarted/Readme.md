@@ -16,7 +16,7 @@ In 2016, Nick Montfort, a poet and academic, published *Exploratory Programming 
 
 This opening chapter introduces some ideas and exercises to get started (the `setup()` so to speak) and reflects on why we need to learn to program. We hope this will help sustain motivation across subsequent chapters. Because we can imagine that our readers do not necessarily want to become professional programmers, we stress programming as a means to think differently (as we tried to outline in the Preface). We have ourselves learnt from others along the way, challenging our preconceptions, especially through the experience of working with students with little or no programming experience. Learning to code can be enjoyable and rewarding, but also annoying and frustrating, especially when complex syntax and structure are concerned. It takes time to familiarize oneself with the precise, unforgiving computational logic, and procedures, but hopefully the case for the importance of learning to program has been established by now. On one level, the choice is simple: "to program or be programmed."[^Rushkoff]
 
-### start()
+## start()
 
 ![ch1_1](ch1_1.png)
 :   *Figure 1.1: p5.js web interface*
@@ -27,12 +27,12 @@ JavaScript was originally developed in 1995 by Brendan Eich with the aim to run 
 
 But there is much more to this than just introducing the tool from a pragmatic perspective. This book will use p5.js, a JavaScript library which was created by artist Lauren McCarthy in 2014 for the purpose of what we call aesthetic programming. To be precise, it was begun by Casey Reas and Ben Fry who developed the remarkable, influential open source project Processing in 2001,[^Processing] a Java-based desktop environment with the aim to reach out to visual artists and designers. However, McCarthy observed that the various creative open source software available was mostly developed by white men, and there was a lack of diversity in such environments[^student] (this remains a significant issue as programming unfortunately still a very male-dominated practice[^laczko]). With Reas' encouragement, McCarthy started to explore what Processing would look like on the web. Importantly, the core idea for p5.js is not just to deploy Processing as a web-based platform, but to address diversity and inclusivity explicitly, and take these issues seriously in software development and communication. As McCarthy says, "thinking about community outreach and diversity is not a secondary goal of p5.js, it's the foundation on which the platform is built."[^McCarthy] Within just a couple of years, the p5.js contributors had developed a community statement, translated the interface into a variety of popular languages such as Spanish and Simplified Chinese,[^Chinese] started the homepage series as part of p5.js which showcased work by and interviews by Asian women and gender non-conforming coders,[^Jin] added a high constrast mode and audio feedback for people who have difficulty seeing,[^UX] developed a series of workshops on creative expression called "Signing Coders" for people who have difficulty hearing,[^Choi] amongst other things. As p5.js demonstrates, software is not just a tool, but also about people and politics.[^chun]
 
-### Working environment
+## Working environment
 You will need an editor to write and document your code. We will use [Atom](https://atom.io/),[^Atom] a free and open source text and source code editor that works across different platforms to write code. We choose a downloadable code editor as opposed to a web editor because we view code as more than just a piece of software, it is also about the relations with the configuration of your own computer and operating system, the way various browsers behave as well as data files, and the organization of folder paths, and so on.  
 
 Additionally we use Gitlab as our code and text respository, at least for this book. We also use Gitlab for teaching purposes, a place where students can upload their ReadMe and RunMe files every week, for peer feedback and to facilitate peer learning, and to read and share code and related thinking. We have found this to be an effective way to work both individually and collectively, and share materials in keeping with the best principles of free and open source software development, and students use Readme to explain the technical aspects as well as to develop critical discussion.   
 
-#### p5.js
+### p5.js
 1. First go to the [download page](https://p5js.org/download/) of p5.js[^p5js] (https://p5js.org/download/) and get the p5.js complete library (in the compressed "p5.zip" format) by clicking it and saving the file, which includes all the necessary libraries to run the code.
 
 2. Double click to unzip the file to extract all the files it contains. A new folder will be automatically created called "p5."
@@ -54,7 +54,7 @@ Additionally we use Gitlab as our code and text respository, at least for this b
 *  **p5.js** - the p5.js core library.
 *  **p5.sound.js** - the p5.js sound library[^sound] for web audio functionality, including features like playback, listening to audio input, audio analysis and synthesis.  
 
-#### Code editor
+### Code editor
 ATOM is used as the code editor for this book. It supports cross-platform editing and can be run on Mac OS, Windows and Linux.
 1. Download the software ATOM from the homepage: <https://atom.io/>
 2. Drag the "p5" folder that you have just unzipped into ATOM. You should be able to see the left-hand pane with your project. Try to navigate to the "index.html" file under the "empty-example" folder, double click that file and the source code should display on the right-hand pane. See below:
@@ -126,7 +126,7 @@ This exercise is to familiarize you with the working environment, path and local
 5. **RUN again** Can you run the program again (ATOM > Packages > atom-live-server > Start Server) so that you can see almost the same screen as Figure 1.7 in a web browser?
 </div>
 
-### Reading the web console "Hello World"
+## Reading the web console "Hello World"
 As you might realize by now, this book does not follow the conventions of most programming books by starting with the "Hello World" program that displays or prints "Hello World" onto the screen. In p5.js, `print()` is the function to %print%,[^print] but in a web browser setting which makes the `print()` function write in the "console area." This is an area not intended for end users, but for programmers or developers to see if there are any error messages, which are logged to the console and to check that code is executing in the expected way.
 
 In the sample code above, the line 4 prints "hello world." But to see the text, you need to open the web console area the location of which depends on te browser you are using. Try to search for it by navigating the menu bar. In Firefox, for instance, it is located under "Tools > Web Developer > Web Console" (or press the keyboard shortcut: Ctrl + Shift + K for Linux/Windows, and Option + Command + K for Mac).
@@ -141,7 +141,7 @@ At the bottom of Figure 1.8, the web console area shows "hello world." This tell
 
 %Hello World% programs have a long history in computing, are typically used to introduce programming languages to beginners, and ensure things are running as they should. Readers understand the line `print("hello world")` quite literally as it is written in "natural" language. At the same time the computer is executing precisely what you tell it to do, printing a text through an "instruction," giving an immediate result which can be very rewarding. The immediate feedback "produces a feeling of power" as the programmer starts to exert control over the code and its meaningful expression in the world.[^Chun2] The programmer learns to express themselves in a new language as if speaking for the first time, hence the seemingly naïve address, announcing themselves to the world. The project [*hallo welt! (hello world!)*](http://www.anti-thesis.net/hello-world-60/),[^Hello] by Geoff Cox and Duncan Shingleton plays on this communicative act, looping more than 100 Hello World programs written in different programming languages, alongside a selection of human languages, combining them into a real-time, multilingual, machine-driven confusion of tongues (as in *The Tower of Babel*).[^Babel]
 
-### Reading the reference guide
+## Reading the reference guide
 To further explain the remaining parts of the sample code, this book will show you how to learn independently, particularly by learning to read the reference guide so you can explore things on your own. In the sample code, there are a few functions that you will see alongside `print()`: these include `createCanvas()`, `background()`, `random()`, `ellipse()`.
 
 To summarize, what the sample code above does is initialize the exact canvas size (`createCanvas(640,480);`), set the width to 640 pixels and the height to 480 pixels providing an overall drawing area (see Line 3 of the sample code). This is why the background covers only the canvas area and the rest of the area remains the (default) white background. The sketch will pick a random color (from white to black, i.e. greyscale) as the background color at a given time, covering the whole canvas (`background(random(50));`). The last part is to draw an ellipse at a certain position and of a certain size (`ellipse(55,55,55,55);`). Locating this within the `function draw()`, the program will constantly and repetitively execute the lines of code. The repetition is made obvious in the sample code by the background color changing over time.
@@ -158,7 +158,7 @@ Let's read the reference in Figure 1.10 together - [`ellipse()`](https://p5js.or
 
 What we want to demonstrate here is that it is important to start with the references, then explore other syntaxes and features, for example shapes like rectangles and polygons. There are still other syntaxes in the sample code that we haven't explained in detail, so perhaps you can find the corresponding references in the p5.js web reference material and explore these yourself. However, we will continue to explore the color function in the next chapter, and the `random()` function in the one following that.
 
-#### Git
+## Git
 We use %Git% both to write this book as well as teach. Git is an open source software management system developed by Linus Torvalds in 2005, the creator of Linux Kernel architecture that is used in the Linux operating system. It is used to track changes in any files, facilitating versioning control of variations in a distributed network. It is particularly useful for large-scale collaborative programming in which individuals work on different parts of the software with their own machine by copying (forking), splitting (branching), and combining (merging). Git uses a distributed model in which every contributor maintains and has a copy of the main repository.
 
 GitLab is an open source, web-based, Git repository platform that hosts software libraries and source code contributed by software developers. GitLab is also a social platform, where people can leave comments, follow other software development processes, fork the whole program into their own repository, and so on. All this book's content, including the readme files, source code and libraries are stored on the GitLab platform under a creative commons license, giving other people the rights to share, use and build upon this work. We imagine this is just the first iteration of this book and we hope to see many re-appropriations and forks of the entire book, so people can use the existing framework to make modifications, such as adding new chapters, examples and exercises, as well as more related content and references that facilitate the interactions between programming and thinking.
@@ -171,7 +171,7 @@ For simplicity's sake, we use GitLab's web interface for some of our writing and
 1. Register an account by clicking "Register" on the navigation bar.
 2. To create a new project: Go to "Projects > New Project."
 3. Provide a project name and project description, and click "Public" if you want others to be able to access this project without any authentication.
-4. At this point you can also initialize a README within the repository by ticking the checkbox.
+4. At this point you can also initialize a ReadMe within the repository by ticking the checkbox.
 5. A folder in your repository will then be created.
 6. To upload the file or create a directory, simply click on the "+" sign under the repository project name. GitLab allows you to customize a commit message (to keep track of changes from a general and communications perspective), we can therefore input the message before clicking the button "Commit changes."
 

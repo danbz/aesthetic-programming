@@ -22,7 +22,7 @@ Much like the utopian project of developing a universal language to be spoken an
 
 Our point is that using emojis may be fun and expressive, but they also tend to oversimplify and universalize differences, thereby perpetuating normative ideologies within already "violent power structures,"[^ideology] such that only selected people, those with specific skin tones for instance, are represented while others are not. There is a distinct inequality as to how people are represented, and who sets the standards for these representations? That such operations can be characterized as fun is part of the problem and masks other processes that monitor our emotional states not least in the workplace (we will return to this issue in Chapter 4, "Data Capture"). The project *AIMoji* by Process Studio highlights some of these issues with the use of deep learning techniques and training existing emoji data[^almoji] in order to mess up their reductive representational logic and produce noisy mutations that offer inbetween shapes, faces and emotions, thereby rejecting %universalism%. Above are some of the issues we want to explore in this chapter by introducing variable geometry and learning to be able to produce alternatives, more politically-correct ones perhaps. We will start with the work *Multi* by graphic designer David Reinfurt which will be used to demonstrate the basis of geometry and the variations of facial expression and composition that can be generated from simple typographic elements.
 
-### start()
+## start()
 ![multi](ch2_1.gif)
 :   *Figure 2.1: Multi by David Reinfurt. Image Courtesy of the artist.*
 
@@ -91,12 +91,12 @@ The above code draws various shapes and performs simple interactions:
 - when you move the mouse, an outlined ellipse in grey color follows the movement
 - you can also click on the mouse to change the size of the grey ellipse
 
-### Coordinate
+## Coordinate
 In the previous chapter, we briefly discussed the x and y coordinates that constitute a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(windowWidth,windowHeight)` refers to creating a canvas with its width and height in line with your window size. Unlike the previous chapter where the exact pixel dimension was set as in the example `createCanvas(640,480);`, this approach gives you a flexibility of no fixed canvas size. Therefore, the background color of the sample code fills the whole window screen, and the concept of canvas as spaces change variably in terms of geometry. It is good to remind ourselves that in mathematics the origin [0,0] is positioned in the center of a grid paper/screen, but in computing the origin is situated in the upper left corner (see Figure 1.11 in the previous chapter). This impacts on how objects are placed, and shifts our perception/understanding of space/canvas.
 
 
 <div class="section exercise" markdown="true">
-### Exercise in class
+## Exercise in class
 ```javascript
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -124,7 +124,7 @@ Remember the structure of a web page/application should include the HTML, a work
 When you type the syntax `print(width);` the web console area (see Figure 2.2) displays the actual width in pixels. Additionally, if you use `console.log(width, height);`, which is the equivalent of the print function in JavaScript (not a p5.js function), the screen displays two numbers according to your screen size (you may adjust the screen and try again to get a different number). With just two lines in the web console area, you have asked the program to give you the values for the width and height of the canvas. The program understands the two names "width" and "height" as they are pre-set names in p5.js which you can use specifically for asking the dimensions of the canvas.
 </div>
 
-### %Variables%
+## %Variables%
 
 In programming, both width and height are called "variables" — another important concept. Variables are used to store data and information in a computer program. You can think of variables as a kitchen container, in which you can put different types of things (like food, kitchen utensils, etc.) in a given container, replace them with other things, and store them for later retrieval. There are two main types of variables: "local variables" that are defined within a structure or a function, can only be used within that block of code; and "global variables" that can be used anywhere in the code. Global variables need to be defined before the setup of the program, usually in the first few lines of code.
 
@@ -171,14 +171,14 @@ There are two more variables in the example: `mouseX` and `mouseY`. These variab
 
 Although it is commonplace to use the metaphor of a container to illustrate the variable as a concept, it is important to add that each container has an address (we might say that it is in a particular place on a shelf, and the computer needs to know where). Technically speaking, by declaring a variable, it also declares an address where the computer memory can hold the value. In short, each variable is stored in a block of computer memory which is located inside physical and concrete memory like RAM that reconfigure the space. Each block has an identifier called the memory address so that the computer knows where to store it and retrieve it while the program is running. Creating and declaring a variable is not only a programming issue, hardware is also involved in space allocation for data storage. As such, software and hardware are inseparable, and it's just that we aren't able to see the inner micro-workings of a computer whilst it is handling data.[^chun]
 
-#### Why use variables?
+### Why use variables?
 As you learn to program more complex software, you will discover that it is very common to use variables to store values and data. More importantly, the value of variables can be changed while a program is being run in real-time. The variables mentioned above: mouseX and mouseY illustrate this point because the mouse's coordinates change according to its movement. We will also discuss variables again in the next chapter when we introduce the concepts of array, loop, and repetition.
 
 Another reason for using variables is that if you have longer lines of code, it is easier to have all the variables that you have declared for the program in an overview. If a variable is used in different parts of a complex program, you can simply change the value of the global variable instead of changing the multiple parts in the entire program, and this is useful for testing/refining the program without locating specific and multiple lines of code for modification. This leads to the reusability of variables. Variables can be used in different functions and more than once (and also as arguments passed to a function subroutine, something we will also discuss in the next chapter). A good example is the "static_size" variable in the sample code that is used to draw both the ellipse and the rectangle. As such, variables in the sample code deal with the changing and compositional shape-in-space.
 
 Additionally, it is also easier for others to read your code with a well-chosen variable name, or at least the variable name can suggest certain behaviors or actions. As you progress, you might write code collaboratively, or write a larger program with more lines of code, at which point it is important to think of the readability of code.
 
-### Other functions
+## Other functions
 This section briefly introduces some other new functions in the full source code. Drawing and designing an emoji requires different decisions, in terms of shapes, color, and spatial composition.
 
 - `noStroke()`, `strokeWeight()`: These functions refer to the settings of a shape, where it has an outline, and the weight of the border.
@@ -213,7 +213,7 @@ We have implemented a conditional logic in our sample code to constantly check i
  }
 ```
 
-### Relational operators
+## Relational operators
 If you have to create your own conditional statement with the `if()` syntax, there are multiple combinations you can work with to create more complex expressions. For example, you can have many different cases using the syntax `else if`, or a combination of logical operators, such as the AND case here in another pseudocode example:
 
 ```javascript
@@ -270,7 +270,7 @@ if (x > 10 || x <= 20 ) {
     console.log("four");
 }
 ```
-### Basic Arithmetic Operators
+## Basic Arithmetic Operators
 You can also do arithmetic operations in programming, and this is commonly done in the arguments of a function. Here is a list of basic arithmetic operators:
 
 - add(+): For addition and concatenation, which is applicable to both numbers and text/characters.
@@ -292,7 +292,7 @@ print("hello" + "world");
 > output:
 "hello world"
 
-### Discussion in class
+## Discussion in class
 
 1. Examine [existing emojis](https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg) or those available on your mobile phone, and reflect upon the complexity of human emotions, and their caricatures. What is your experience using emojis? What are the cultural and political implications of emojis (you might refer to the reading and introduction above)?
 2. Discuss: what constitutes a face? What essential elements do you need for a particular facial expression, and why? What has been lost in translation?
