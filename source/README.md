@@ -1,4 +1,4 @@
-Title: About
+Title:
 page_order: 15
 
 **Aesthetic Programming: A Handbook of Software Studies**
