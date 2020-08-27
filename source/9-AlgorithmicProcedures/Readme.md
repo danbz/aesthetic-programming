@@ -131,21 +131,17 @@ In relation to the predictive practices of machine learning in particular, we mi
 - To understand a flowchart as a means for communication and planning, and a tool/machine for critical thinking.
 - To understand the concept of algorithms from both the computer science and cultural perspectives.
 
-**For additional inspiration:**
-
-- There are numerous examples in this chapter.
-
 **Tasks (RunMe):**
 
 Individual:
 
-* Revisit your previous mini exercises and select the most technically complex one.
-* Draw a flowchart to represent the program (pay attention to which items you select to present).
+- Revisit your previous mini exercises and select the most technically complex one.
+- Draw a flowchart to represent the program (pay attention to which items you select to present).
 
 Group:
 
-* Brainstorm two ideas for your final project (see next chapter's MiniX).
-* Draw two flowcharts to visualize the project's algorithmic processes.
+- Brainstorm two ideas for your final project (see next chapter's MiniX).
+- Draw two flowcharts to visualize the project's algorithmic processes.
 
 **Questions to think about (ReadMe):**
 
