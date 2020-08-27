@@ -32,7 +32,7 @@ page_order: -3
 * Reading the reference guide
 * Git
 * While()
-* MiniX: RUNME and README
+* MiniX: RunMe and ReadME
 * Required reading & Further reading
 
 ## Chapter 2: Variable Geometry
@@ -41,7 +41,7 @@ page_order: -3
 * Coordinate
 * Exercise in class
 * Variables
-* Why use variables
+  * Why use variables
 * Other functions
 * Basic arithmetic operators
 * Conditional structures
@@ -58,7 +58,7 @@ page_order: -3
 * Function
 * Exercise in class
 * Transform
-* push() and pop()
+  * push() and pop()
 * Exercise in class  
 * Asterisk Painting
 * Source code
@@ -81,11 +81,11 @@ page_order: -3
 * Face tracker
 * Exercise in class
 * The concept of capture
-* Web analytics and heatmap
-* Form elements
-* Metrics of likes
-* Voice and audio data
-* Health tracker
+  * Web analytics and heatmap
+  * Form elements
+  * Metrics of likes
+  * Voice and audio data
+  * Health tracker
 * While()
 * MiniX: CAPTURE ALL
 * Required reading & Further reading
@@ -119,6 +119,7 @@ page_order: -3
 * setup() and start()
 * Exercise in class (Decode)
 * Texuality
+  * Type
 * Conditional structure
 * JSON
 * Source Code

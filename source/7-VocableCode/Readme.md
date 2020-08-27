@@ -107,7 +107,7 @@ this.acts = function() {
 ```
 *Sketch 1: Snippets of Vocable Code concerning textuality*
 
-## Type
+### Type
 `loadFont` supports opentype font style (.otf and .ttf) and returns a PFont object through `withPride` in Sketch 1 above.
 
 "Gilbert_TypeWithPride.otf" is a free font licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, and can be downloaded from the Internet (www.typewithpride.com).[^fonts] It is designed to honor the memory of Gilbert Baker the creator of the iconic Rainbow Flag who died in 2017.

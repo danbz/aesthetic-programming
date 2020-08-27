@@ -19,7 +19,7 @@ Indeed, abstraction exists in many different layers and at many different scales
 
 Recognizing the various levels of abstraction is important to understanding that the specific details of how a computer actually works are largely hidden from view and/or substituted by desktop metaphors (e.g. deleting a file by throwing it in the bin). Naturally, the reduction in complexity is useful for a number of reasons including accessibility, but we also need to bear in mind that there is more at stake here. In learning to program, even at the higher level, we engage in the politics of this movement between abstract and concrete reality. More specifically, in this chapter, we will focus on object abstraction (an approach in OOP) to think conceptually about how computational objects model the world, and what this suggests in terms of an understanding of hidden layers of operation and meaning.
 
-### start()
+## start()
 
 Object abstraction in computing is about representation. Certain attributes and relations are abstracted from the real world, whilst simultaneously leaving details and contexts out. Let's imagine a person as an object (rather than a subject) and consider which properties and behaviors that person might have. We use the name "class" to give an overview of the object's properties and behaviors.
 
@@ -388,7 +388,6 @@ function checkEating() {
     }
   }
 }
-
 ```
 
 `checkEating()` is a customized function for deleting tofus under certain conditions, and consequently leading to the calculation of the scores, i.e. the number of tofus eaten or wasted by Pacman.
@@ -497,7 +496,7 @@ If we apply this to a computational object and its abstraction (the identificati
 - "p5.js - Array Objects," <https://p5js.org/examples/arrays-array-objects.html>.
 - *daily coding* by Tomokazu Nagayama (2020), <https://twitter.com/nagayama/status/1246086230497845250?s=19>, with source code: <https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html>.
 - *Eat Food Not Bombs* by Ben Grosser (2019), <https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI>.
-- *lifeline* by Junichiro Horikawa (2020), <https://www.openprocessing.org/sketch/891619>. 
+- *lifeline* by Junichiro Horikawa (2020), <https://www.openprocessing.org/sketch/891619>.
 - "p5.js coding challenge #31: Flappy Bird" by Daniel Shiffman, <https://www.youtube.com/watch?v=cXgA1d_E-jY>.
 - "p5.js coding challenge #3: The Snake Game" by Daniel Shiffman, <https://www.youtube.com/watch?v=AaGK-fj-BAM>.
 
@@ -532,7 +531,7 @@ Once you understand objects and classes, you can continue to work on a mini game
 
 ## Notes:
 
-[^history]: Simula, developed in the 1960s by Ole-Johan Dahl and Kristen Nygaard at the Norwegian Computing Center in Oslo, is considered to be the first object-oriented programming language. Smalltalk, first developed for educational use at Xerox Corporation's Palo Alto Research Center in the late 1960s and released in 1972, is cited more often. For more on the history of object-oriented programming languages, see Ole-Johan Dahl, "The Birth of Object Orientation: the Simula Languages," *Object-Orientation to Formal Methods*, Olaf Owe, Stein Krogdahl, Tom Lyche, eds., *Lecture Notes in Computer Science* 2635 (Berlin/Heidelberg: Springer, 2004), <https://link.springer.com/chapter/10.1007/978-3-540-39993-3_3>. 
+[^history]: Simula, developed in the 1960s by Ole-Johan Dahl and Kristen Nygaard at the Norwegian Computing Center in Oslo, is considered to be the first object-oriented programming language. Smalltalk, first developed for educational use at Xerox Corporation's Palo Alto Research Center in the late 1960s and released in 1972, is cited more often. For more on the history of object-oriented programming languages, see Ole-Johan Dahl, "The Birth of Object Orientation: the Simula Languages," *Object-Orientation to Formal Methods*, Olaf Owe, Stein Krogdahl, Tom Lyche, eds., *Lecture Notes in Computer Science* 2635 (Berlin/Heidelberg: Springer, 2004), <https://link.springer.com/chapter/10.1007/978-3-540-39993-3_3>.
 [^Fazi]: Beatrice M. Fazi and Matthew Fuller, "Computational Aesthetics," in Christiane Paul, ed., *A Companion to Digital Art* (Hoboken, NJ: Wiley Blackwell, 2016), 281-296.
 [^Fuller]: Matthew Fuller & Andrew Goffey, "The Obscure Objects of Object Orientation," in Matthew Fuller, ed., *How to be a Geek: Essays on the Culture of Software* (Cambridge: Polity, 2017).
 [^binary]: Limor Fried & Federico Gomez Suarez (n.d), "Binary & Data," Khan Academy. Available at <https://www.khanacademy.org/computing/computer-science/how-computers-work2/v/khan-academy-and-codeorg-binary-data>.
