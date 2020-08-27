@@ -7,7 +7,7 @@ page_order: 13
 - “atom-live-server-package.” Atom. <https://atom.io/packages/atom-live-server>.
 - Bell, John P. *Asterisk Painting*. n.d. <http://www.johnpbell.com/asterisk-painting/>.
 - Blas, Zach. *Facial Weaponization Suite*. 2011-14. <http://www.zachblas.info/works/facial-weaponization-suite/>.
-- Bouse, Brad. "Solving Sol." Last updated July 14, 2020. <https://github.com/wholepixel/solving-sol>.
+- Bouse, Brad. *Solving Sol*. n.d. Last updated July 14, 2020. <https://github.com/wholepixel/solving-sol>.
 - Breeze, Mez. *MEZANGELLE*. 1994 – Ongoing. <https://anthology.rhizome.org/mez-breeze>.
 - Burnham, Jack. “Software – Information Technology: Its New Meaning for Art.” Exhibition at the Jewish Museum, New York, NY, September 16 – November 8, 1970, and Smithsonian Institution, Washington, D.C., December 16, 1970 – February 14, 1971.
 - “Call for Works 2015: CAPTURE ALL.” transmediale / art & digitalculture. <https://transmediale.de/content/call-for-works-2015>.
@@ -23,23 +23,23 @@ page_order: 13
 - ———. “Nein Gag.” Panke Gallery, Berlin. March – April 2019. <http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin>.
 - Fan, Lai-Tze, and Nick Montfort. “Dial.” *The New River: A Journal of Digital Art and Literature*. Spring 2020. <http://thenewriver.us/dial/>.
 - Fiebrink, Rebecca. *Wekinator*. 2009. <http://www.wekinator.org/>.
-- Filoa, Joseph. "JosephFiola/GenArt." 2016. <https://github.com/JosephFiola/GenArt>.
+- Fiola, Joseph. "JosephFiola/GenArt." 2016. <https://github.com/JosephFiola/GenArt>.
 - Freeke, Saskia. "All the Daily Things." 2018. Vimeo, 06:30. January 2, 2019. <https://vimeo.com/309138645>.
 - “Friendly Machine Learning for the Web.” ml5.js, accessed June 20, 2020. <https://ml5js.org/>.
 - Giardina Papa, Elisa. *The Cleaning of Emotional Data*. 2020. <https://aksioma.org/cleaning.emotional.data/>.
 - Gross, Benedikt, Bohnacker, Hartmut , Laub, Julia, Lazzeroni, Claudius. "Generative Design Sketches." <http://www.generative-gestaltung.de/2/>.
-- Grosser, Ben. “Eat Food Not Bombs.” <https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI>.
-- ———. *Facebook Demetricator*. <https://bengrosser.com/projects/facebook-demetricator/>.
-- ———. *Instagram Demetricator*. <https://bengrosser.com/projects/instagram-demetricator/>.
-- ———. *Twitter Demetricator*. <https://bengrosser.com/projects/twitter-demetricator/>.
+- Grosser, Ben. “Eat Food Not Bombs.” 2019. <https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI>.
+- ———. *Facebook Demetricator*. 2012-present. <https://bengrosser.com/projects/facebook-demetricator/>.
+- ———. *Instagram Demetricator*. 2018. <https://bengrosser.com/projects/instagram-demetricator/>.
+- ———. *Twitter Demetricator*. 2018. <https://bengrosser.com/projects/twitter-demetricator/>.
 - Hanafi, Amira. *Mexicans in Canada*. 2020. <http://amiraha.com/mexicansincanada/>.
-- Harwood, Graham. “Class Library.” In Software Studies. Edited by Matthew Fuller, 37 – 39. Cambridge, MA: MIT Press, 2008.
+- Harwood, Graham. “Class Library.” In Software Studies. Edited by Matthew Fuller, 37–39. Cambridge, MA: MIT Press, 2008.
 - Hatcher, Ian. *The All-New*. Boston, MA: Anomalous Press, 2015. <http://anomalouspress.org/books/all-new.php>.
 - ———. *Not Not*. 2016. MP3 audio, 6:30. <https://soundcloud.com/ihatch/5-notnot>.
 - Hoff, Melanie. *Digital Love Languages ♡ Codes of Affirmation*, at the School for Poetic Computation Online, 2020. http://lovelanguages.melaniehoff.com/syllabus/>.
 - ———. *Generative Tarot*, 2019. <https://www.melaniehoff.com/generativetarot/>.
 - Horikawa, Junichiro. *20200509_lifeline*. 2020. <https://www.openprocessing.org/sketch/891619>.
-- Howe, Daniel. *Downloads RiTa library*. RiTa, accessed June 20, 2020. <http://rednoise.org/rita/download.phps>.
+- Howe, Daniel. *RiTa library*. 2006-ongoing. <http://rednoise.org/rita/>.
 - Huang, Lingdong. *wenyan‑lang*. 2019. <https://wy-lang.org/>.
 - Kazemi, Darius. “Corpora - A repository of JSON files.” Last updated May 19, 2020. <https://github.com/dariusk/corpora/tree/master/data>.
 - Kearney-Volpe, Claire, Govindarajan, Mathura, and Morales-Navarro, Luis. *p5.js Web Editor*. 2018. <https://editor.p5js.org/>.
@@ -55,7 +55,7 @@ page_order: 13
 - ———. *12 Hours of ImageNet*. Premiered on 5 Nov 2019. <https://www.youtube.com/watch?v=PC60JL-lMzA>.
 - McCarthy, Lauren. *p5.js*. 2014. <https://lauren-mccarthy.com/p5-js>.
 - ———. *LAUREN*. 2017. <https://lauren-mccarthy.com/LAUREN>.
-- Montfort, Nick. *Memory Slam*. <https://nickm.com/memslam/>.
+- Montfort, Nick. *Memory Slam*. 2014. <https://nickm.com/memslam/>.
 - Nagayama, Tomokazu (@nagayama). “すべりこみ,” Twitter, April 3, 2020, 4:44 p.m.. <https://twitter.com/nagayama/status/1246086230497845250?s=19>.
 - ———. “daily coding,” Github. <https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html>.
 - Node.js, Open JS Foundation. <https://nodejs.org/en/>.
@@ -71,8 +71,8 @@ page_order: 13
 - Read_me Festival 2.3. "Software art festival." Festival at the Media Centre Lume, Helsinki, May 30 - May 31, 2003.,http://www.m-cult.org/read_me/>.
 - Read_me Festival 2004. "Software art festival." Aarhus, August 23 - August 27, 2004. <http://readme.runme.org/2004/>.
 - Readme100. "Temporary Software Art Factory." Festival at the State and City Library of Dortmund, Dortmund, November 4 - November 5, 2005. <http://readme.runme.org/>.
-- Reas, Casey. *{Software}Structure #003 A*. <https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks>.
-- *ReCode Project*. <http://recodeproject.com/>.
+- Reas, Casey. *{Software}Structure #003A*. 2004. <https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks>.
+- *ReCode Project*. 1976-78. <http://recodeproject.com/>.
 - Reinfurt, David, *Multi*. O-R-G inc.. <http://www.o-r-g.com/apps/multi>.
 - Rozendaal, Rafaël. *Sleep Mode: The Art of the Screensaver*. Het Nieuwe Instituut, Rotterdam. 2017. <https://hetnieuweinstituut.nl/en/press-releases/sleep-mode-art-screensaver>.
 - Runme.org. <http://runme.org/>.
