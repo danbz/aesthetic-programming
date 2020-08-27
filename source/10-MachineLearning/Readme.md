@@ -102,7 +102,7 @@ The training process uses a "Recurrent Neural Network" (RNN) and "Long Short Ter
 ![ch10_7](ch10_6.png)
 :   *Figure 10.8: Auto Chapter Generator*
 
-[RUNME](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch10_MachineLearning/)
+RunMe (<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch10_MachineLearning/>).
 
 ## Source code
 
@@ -328,17 +328,17 @@ Here are few tips may help you to come up with an idea for your project:
 - Are there any assigned/suggested texts that you are inspired by, and you want to explore further?
 - Are there any particular technical areas that you want to explore further?
 
-**RUNME:**
+**RunMe:**
 
 Produce a software artifact written in p5.js (or a combination of HTML/CSS/JS/P5/node.js).
 
 Remember to include all external libraries and data/assets such as images, fonts, text files, sound file, etc. Furthermore, if you have borrowed other sample code or ideas, please cite your sources in the code comments.
 
-**README:**
+**ReadMe:**
 
-Write a document of 6-8 pages (max characters per page: 2,400, including spaces) which has to list academic sources (exclude images, references, and notes from the character count).
+Write a document of 6-8 pages (max characters per page: 2,400 including spaces) which has to list academic sources (exclude images, references, and notes from the character count).
 
-The document should include a title, a screen shot, a flowchart, references, a link to your final project's RUNME, with links to related projects (if there are any), as well as the links of all your previous mini exercises (as an appendix).
+The document should include a title, a screen shot, a flowchart, references, a link to your final project's RunMe, with links to related projects (if there are any), as well as the links of all your previous mini exercises (as an appendix).
 
 The README should address the following questions with the help of your source code, programming processes, and your selected readings:
 
@@ -380,7 +380,7 @@ The README should address the following questions with the help of your source c
 
 [^tay]: For example, the Microsoft chatbot Tay was released via Twitter in 2016, but was shut down sixteen hours later due to "unintended offensive and hurtful tweets," as announced by Microsoft. See <https://en.wikipedia.org/wiki/Tay_(bot)>.
 
-[^face]: Research has shown that existing commercial recognition systems exhibit gender and racial bias. See Joy Buolamwini, "Response: Racial and Gender Bias in Amazon Recognition - Commercial AI System for Analyzing Faces," *Medium* (2019),  <https://medium.com/@Joy.Buolamwini/response-racial-and-gender-bias-in-amazon-rekognition-commercial-ai-system-for-analyzing-faces-a289222eeced>; and Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>. Some scholars also point to the urgent need of AI system's re-evaluation especially on gender and race classification. See, Sarah Myers West, Meredith Whittaker, and Kate Crawford, *Discriminating Systems: Gender, Race and Power in AI*, AI Now Institute, New York University, April (2019), <https://ainowinstitute.org/discriminatingsystems.html>.
+[^face]: Research has shown that existing commercial recognition systems exhibit gender and racial bias. See Joy Buolamwini, "Response: Racial and Gender Bias in Amazon Recognition - Commercial AI System for Analyzing Faces," *Medium* (2019), <https://medium.com/@Joy.Buolamwini/response-racial-and-gender-bias-in-amazon-rekognition-commercial-ai-system-for-analyzing-faces-a289222eeced>; and Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>. Some scholars also point to the urgent need of AI system's re-evaluation especially on gender and race classification. See, Sarah Myers West, Meredith Whittaker, and Kate Crawford, *Discriminating Systems: Gender, Race and Power in AI*, AI Now Institute, New York University, April (2019), <https://ainowinstitute.org/discriminatingsystems.html>.
 
 [^hito]: Hito Steyerl, "A Sea of Data: Pattern Recognition and Corporate Animism (Forked Version)," in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination*, 3.
 
@@ -388,7 +388,7 @@ The README should address the following questions with the help of your source c
 
 [^Weizenbaum3]: Weizenbaum, "ELIZA*.
 
-[^ml5]: See the ml5.js library: <https://ml5js.org/>; and Daniel Shiffman's *The Coding Train* series during which he discusses ml5.js: <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y>.
+[^ml5]: See the ml5.js library, <https://ml5js.org/>; and Daniel Shiffman's *The Coding Train* series during which he discusses ml5.js: <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y>.
 
 [^shit]: With ELIZA in mind, it's worth adding that cleaning data also comes close to the regulation of proper speech with the removal of "dirty" words. Dominique Laporte's wonderful book *A History of Shit* (Cambridge, MA: MIT Press, 2002) has more detail on this and its core parallel to the development of public hygiene.
 
@@ -432,13 +432,13 @@ The README should address the following questions with the help of your source c
 
 [^samuel2]: Samuel, "Some Studies in Machine Learning Using the Game of Checkers."
 
-[^issues]: For instance, the generalization here leads to inherent bias such as the privileging of white people in facial recognition technologies. See Buolamwini, "Response: Racial and Gender Bias in Amazon Recognition"; and Benjamin, "Are Robots Racist"; also Shakir Mohamed, Marie-Therese Png, William Isaac, “Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence,” *Philosophy & Technology*, Springer, July 12, 2020. https://doi.org/10.1007/s13347-020-00405-8.
+[^issues]: For instance, the generalization here leads to inherent bias such as the privileging of white people in facial recognition technologies. See Buolamwini, "Response: Racial and Gender Bias in Amazon Recognition"; and Benjamin, "Are Robots Racist"; also Shakir Mohamed, Marie-Therese Png, William Isaac, “Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence,” *Philosophy & Technology*, Springer, July 12, 2020, <https://doi.org/10.1007/s13347-020-00405-8>.
 
 [^tensor]: ml5.js is built on top of tensorflow.js, as mentioned previously.
 
 [^predict]: In asking this question, we reference Adrian Mackenzie's aforementioned essay "The Production of Prediction: What Does Machine Learning Want?" in *European Journal of Cultural Studies*.
 
-[^agre]: Philip E. Agre, "Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI," in Geoff Bowker, Les Gasser, Leigh Star, and Bill Turner, eds., *Bridging the Great Divide: Social Science, Technical Systems, and Cooperative Work* (New York: Erlbaum, 1997).
+[^agre]: Philip E. Agre, "Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI," in Geoffrey Bowker, Les Gasser, Leigh Star, and Bill Turner, eds., *Bridging the Great Divide: Social Science, Technical Systems, and Cooperative Work* (New York: Erlbaum, 1997).
 
 [^superficial]: Ruha Benjamin is urging engineers to consider historical and sociological issues in her keynote address ai ICLR 2020 (International Conference on Learning Representations), virtual conference, <https://iclr.cc/>.
 
@@ -468,11 +468,11 @@ The README should address the following questions with the help of your source c
 
 [^Berger2]: Berger, *Ways of Seeing*.
 
-[^cox]: Geoff Cox, "Ways of Machine Seeing," *Unthinking Photography* (2016), <https://unthinking.photography/articles/ways-of-machine-seeing>. The title is taken from a workshop organized by the Cambridge Digital Humanities Network, convened by Anne Alexander, Alan Blackwell, Geoff Cox, and Leo Impett, and held at Darwin College, University of Cambridge, July 11, 2016. The essay is republished with source code in *A Peer-Reviewed Journal About* 6, no. 1 (2017): 8–15. <https://doi.org/10.7146/aprja.v6i1.116007>.
+[^cox]: Geoff Cox, "Ways of Machine Seeing," *Unthinking Photography* (2016), <https://unthinking.photography/articles/ways-of-machine-seeing>. The title is taken from a workshop organized by the Cambridge Digital Humanities Network, convened by Anne Alexander, Alan Blackwell, Geoff Cox, and Leo Impett, and held at Darwin College, University of Cambridge, July 11, 2016. The essay is republished with source code in *A Peer-Reviewed Journal About* 6, no. 1 (2017): 8–15, <https://doi.org/10.7146/aprja.v6i1.116007>.
 
 [^michelle]: This exercise is inspired by Michelle Carney's article on "Using Teachable Machine in the d.school classroom," *Medium*, <https://medium.com/@michellecarney/using-teachable-machine-in-the-d-school-classroom-96be1ba6a4f9>.
 
-[^assistants]: Marie Louise Juul Søndergaard and Lone Koefoed Hansen argue that "feminine gendering" is reproduced and applied in digital personal assistants, see their "Intimate Futures: Staying with the Trouble of Digital Personal Assistants through Design Fiction" (New York: ACM Press, 2018): 869–80. <https://doi.org/10.1145/3196709.3196766>.
+[^assistants]: Marie Louise Juul Søndergaard and Lone Koefoed Hansen argue that "feminine gendering" is reproduced and applied in digital personal assistants, see their "Intimate Futures: Staying with the Trouble of Digital Personal Assistants through Design Fiction" (New York: ACM Press, 2018): 869–80, <https://doi.org/10.1145/3196709.3196766>.
 
 [^class]: Originating in the East End of London, Cockney rhyming slang is a coded language which was purposely created to be obscure to other listeners, and hence to others outside a particular community or indeed class group. One might imagine using cockney rhyming slang for the naming conventions of a programming language, see <https://news.ycombinator.com/item?id=9402410>.
 
