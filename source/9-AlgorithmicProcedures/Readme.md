@@ -131,7 +131,11 @@ In relation to the predictive practices of machine learning in particular, we mi
 - To understand a flowchart as a means for communication and planning, and a tool/machine for critical thinking.
 - To understand the concept of algorithms from both the computer science and cultural perspectives.
 
-**Tasks:**
+**For additional inspiration:**
+
+- There are numerous examples in this chapter.
+
+**Tasks (RunMe):**
 
 Individual:
 
@@ -140,10 +144,10 @@ Individual:
 
 Group:
 
-* Brainstorm two ideas for your final project (see next chapter's MiniX)
+* Brainstorm two ideas for your final project (see next chapter's MiniX).
 * Draw two flowcharts to visualize the project's algorithmic processes.
 
-**Questions to think about (README):**
+**Questions to think about (ReadMe):**
 
 - What are the difficulties involved in trying to keep things simple at the communications level whilst maintaining complexity at the algorithmic procedural level?
 - What are the technical challenges facing the two ideas and how are you going to address these?
@@ -160,7 +164,7 @@ Group:
 
 - Ed Finn, “What is an Algorithm,” in *What Algorithms Want* (Cambridge, MA: MIT Press, 2017), 15-56.
 - Andrew Goffey, "Algorithm," in Fuller, ed., *Software Studies*, 15-20.
-- Daniel Shiffman, [Multiple js Files - p5.js Tutorial](https://www.youtube.com/watch?v=Yk18ZKvXBj4), *The Coding Train*, <https://www.youtube.com/watch?v=Yk18ZKvXBj4>.
+- Daniel Shiffman, "Multiple js Files - p5.js Tutorial," *The Coding Train*, <https://www.youtube.com/watch?v=Yk18ZKvXBj4>.
 
 ## Notes
 
@@ -184,17 +188,17 @@ Group:
 
 [^Guattari]: In Guattari's terms, "the diagram is conceived as an autopoetic machine which not only gives it a functional and material consistency, but requires it to deploy its diverse registers of alterity, freeing it from an identity locked into simple structural relations." Félix Guattari, "Machinic Heterogenesis," *Chaosmosis: An Ethico-Aesthetic Paradigm* (Bloomington, IN: Indiana University Press, 1995), 44. "Freeing" here applies to escaping a pre-determined "diagrammatic order" imposed on the machine — algorithmically perhaps.
 
-[^flowcharts2]: See Stephen Morris and Orlena Gotel, "The Role of Flow Charts in the Early Automation of Applied Mathematics," *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44–52. <https://doi.org/10.1080/17498430903449207>; and Nathan Ensmenger, "The Multiple Meanings of a Flowchart," *Information & Culture: A Journal of History* 51, no.3 (2016): 321–51. <https://doi.org/10.1353/lac.2016.0013>.
+[^flowcharts2]: See Stephen Morris and Orlena Gotel, "The Role of Flow Charts in the Early Automation of Applied Mathematics," *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44–52, <https://doi.org/10.1080/17498430903449207>; and Nathan Ensmenger, "The Multiple Meanings of a Flowchart," *Information & Culture: A Journal of History* 51, no.3 (2016): 321–51, <https://doi.org/10.1353/lac.2016.0013>.
 
 [^stereotype]: Viewing programming as a social activity undermines some of the predominant stereotypes associated with activity such as the stereotypical image of the antisocial hacker (male, bearded, unwashed). For more on the benefits of collaborative working, see Chih Wei Ho, et al, "Examining the impact of pair programming on female students," North Carolina State University. Dept. of Computer Science (2004).
 
-[^ex]: You can find an illustration of the simple program here: <https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/blob/master/source/9-AlgorithmicProcedures/emoji_flowchart.svg>.
+[^ex]: You can find an illustration of the simple program at <https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/blob/master/source/9-AlgorithmicProcedures/emoji_flowchart.svg>.
 
 [^Ensmenger]: Ensmenger, "The Multiple Meanings of a Flowchart," 324 & 346.
 
 [^Cirio]: See Paolo Cirio, *Flowcharts: On Systems of Systems*, Artist Monograph (Lulu, 2019); available at <https://www.paolocirio.net/press/archive/?/id/268/t/FLOWCHARTS/>. *Open Society Structures - Algorithms Triptych* (2009) would make a good example for our purpose here.
 
-[^GWEI]: *GWEI* (2005) was part of the *Hacking Monopolism Trilogy* which also included *Amazon Noir* (2006) and *Face to Facebook* (2011). For more on *GWEI*, see <http://www.gwei.org/index.php>.>.
+[^GWEI]: *GWEI* (2005) was part of the *Hacking Monopolism Trilogy* which also included *Amazon Noir* (2006) and *Face to Facebook* (2011). For more on *GWEI*, see <http://www.gwei.org/index.php>.
 
 [^pold]: For a close reading of this project, see Christian Ulrik Andersen and Søren Bro Pold, *The Metainterface: The Art of Platforms, Cities, and Clouds* (Cambridge, MA: MIT Press, 2018), 57-60.
 
