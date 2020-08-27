@@ -9,14 +9,14 @@ download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/ar
 
 ## setup()
 
-While the previous chapter discussed the data capture underlying the interaction with input devices, this chapter follows the concepts of input and output to introduce the idea of the abstract machine. This refers to the creation of rules by a self-operating machine, widely known as an abstract machine or Turing machine. It was mathematician and computer scientist Alan Turing who first described this machine in his famous article "On Computable Numbers, with an Application to the Entscheidungsproblem," published in 1936.[^Turing] He used the term *universal computing machine* to theorize a model that describes how a machine "can be used to compute any computable sequence,"[^Turing1] i.e. how a machine operates, and follows a predetermined sequence of instructions that process input and produce output.
+While the previous chapter discussed the data capture underlying the interaction with input devices, this chapter follows the concepts of %input% and %output% to introduce the idea of the %abstract machine%. This refers to the creation of %rules% by a self-operating machine, widely known as an abstract machine or %Turing machine%. It was mathematician and computer scientist Alan Turing who first described this machine in his famous article "On Computable Numbers, with an Application to the Entscheidungsproblem," published in 1936.[^Turing] He used the term *universal computing machine* to theorize a model that describes how a machine "can be used to compute any computable sequence,"[^Turing1] i.e. how a machine operates, and follows a predetermined sequence of instructions that process input and produce output.
 
 More specifically, the Turing machine is capable of six types of fundamental operations (at the time there wasn't a thing named computer) including read, write, move left, move right, change state and halt/stop. Turing suggested these operations could be performed by running an endless tape (that worked like memory does in a modern computer) with instructions on what symbols to read and write, as well as how to move. These instructions constitute the fundamental principles of the Turing machine,[^visualization] but also modern computing, with the capability to compute numeric tasks and automate various processes. These instructions from a base level of computing seem to underwrite the wider processes of production, consumption and distribution of contemporary (informational) capitalism as we partly covered in the last chapter.    
 
 ![turing](ch5_1.png)
 :   *Figure 5.1: An illustration of the Turing Machine[^TuringGraph]*
 
-This chapter will explore how instructions are fundamental elements of adaptive systems, focusing on how rules are performed, and how they might produce unexpected and/or complex results.
+This chapter will explore how %instructions% are fundamental elements of adaptive systems, focusing on how rules are performed, and how they might produce unexpected and/or complex results.
 
 Focusing on rules and instructions is not something only programmers do, but also something you do when following a knitting/weaving pattern[^laczko] or recipe (as we will see with the preparation of tofu in the next chapter). Artists have also produced instruction-based works of art, as is the case of the Fluxus and Conceptual Art movements of the 1960s and 1970s that set out to challenge art's object-ness, and encourage its "dematerialization."[^Lippard] There are many examples of commentators making the connection between these instruction-based works and computational art.[^Cox] For instance, the survey exhibition "Programmed: Rules, Codes, and Choreographies in Art, 1965-2018",[^exhibition] organized by Christiane Paul at the Whitney Museum of American Art (2018-19), explored how instruction-based practices have both responded to, and been shaped by technologies. The work of conceptual artist Sol Le Witt is one of the obvious examples here and demonstrates how even when based on a set of instructions, the outcome might be different depending on how the instructions are interpreted by others. For example, the work *Wall Drawing #289* consists of three simple instructions, but does not specify the angles and length of the lines:
 
@@ -29,14 +29,14 @@ Focusing on rules and instructions is not something only programmers do, but als
 
 "The idea becomes a machine that makes the art," as LeWitt explains.[^LeWitt] Using the programming language Processing[^processing], this is taken as an invitation by Casey Reas to render LeWitt's wall drawings on the basis of their instructions, thereby exploring the parallels of interpretation and process for each of them.[^Reas] In his accompanying text, Reas makes the important distinction that LeWitt's programs are to be carried out by people rather than machines. Nevertheless it is the close connection and overlap that interests him, and underlies the development of Processing as a "software sketchbook" as Reas wanted programming to be as immediate and fluid as drawing.
 
-This is not without precedence. Algorithmic drawing has been explored by artists including Joan Truckenbrod, for example in her series *Coded Algorithmic Drawings* that dates back to the 1970s and 80s.[^joan0] *Entropic Tangle* (see Figure 5.3) was coded in the Fortran programming language in 1975, using a mainframe computer with keypunch machine, and magnetic storage media. The work presents a number of polygons that vary in size, and angles of rotation that simulate invisible natural forces and incorporate continuity, and fluctuations by using variables and mathematical modulation. Truckenbrod is interested in how "natural" forces get re-interpreted by symbols and numbers that further demonstrate the nature of ambiguity and spontaneity in systems.[^joan1] Recursive fractal geometry[^tree] and flocking behaviors[^flock] are examples that demonstrate "entropic" qualities (lack of order or predictability) based on the self-organization of computation and autonomous agents[^agent] that evolve over time.
+This is not without precedence. Algorithmic drawing has been explored by artists including Joan Truckenbrod, for example in her series *Coded Algorithmic Drawings* that dates back to the 1970s and 80s.[^joan0] *Entropic Tangle* (see Figure 5.3) was coded in the Fortran programming language in 1975, using a mainframe computer with keypunch machine, and magnetic storage media. The work presents a number of polygons that vary in size, and angles of rotation that simulate invisible natural forces and incorporate continuity, and fluctuations by using variables and mathematical modulation. Truckenbrod is interested in how "natural" forces get re-interpreted by symbols and numbers that further demonstrate the nature of ambiguity and spontaneity in systems.[^joan1] Recursive fractal geometry[^tree] and flocking behaviors[^flock] are examples that demonstrate "entropic" qualities (lack of order or predictability) based on the %self-organization% of computation and autonomous agents[^agent] that evolve over time.
 
 ![drawing3](ch5_8.jpg)
 :   *Figure 5.3: Joan Truckenbrod, Entropic Tangle, 1975. Image courtesy of the artist.*
 
 This kind of approach is important, not only because it offers a different way of drawing and authoring works by machines based on mathematical logic, but also to provide a sense of machine creativity that — as in the previous chapter — questions the centrality of human (more often than not, masculinist) agency. In this chapter we aim to explore more complex combinations (or inter-species relations[^Haraway]) of humans and machines, nonhumans or animals (namely, ants).
 
-If we were to draw an ellipse in white color at the x and y coordinate 100 and 120, the outcome of the instruction is predictable. But this needs not be the case as certain kinds of instructions or combinations of instructions can generate unruly results.[^drawings] As described in the book *10 PRINT CHR$(205.5+RND(1)); : GOTO 10*, the *10 Print* program utilizes randomness to generate unpredictable processes and outcomes that seem random to humans. This "generative" capacity questions the extent of control over the creative process, as the following definition of generative art reveals:
+If we were to draw an ellipse in white color at the x and y coordinate 100 and 120, the outcome of the instruction is predictable. But this needs not be the case as certain kinds of instructions or combinations of instructions can generate unruly results.[^drawings] As described in the book *10 PRINT CHR$(205.5+RND(1)); : GOTO 10*, the *10 Print* program utilizes randomness to generate unpredictable processes and outcomes that seem random to humans. This "generative" capacity questions the extent of control over the creative process, as the following definition of %generative art% reveals:
 
 >"Generative art refers to any art practice where [sic] artists use a system, such as a set of natural languages, rules, a computer program, a machine, or other procedural invention, which is set into motion with some degree of autonomy contributing to or resulting in a completed work of art."[^galanter]
 
@@ -44,7 +44,7 @@ This definition does not limit itself to the use of computers and this is import
 
 ## start()[^shiffman]
 
-The first program is called *10 PRINT* referring to one line of program code `10 PRINT CHR$(205.5+RND(1));: GOTO 10`, written in the BASIC programming language and executed on a Commodore 64 (a popular home computer during the 1980s). The program generates an endless pattern on the screen. The line of code was printed in the 1982 *Commodore 64 User's Guide* and was later published online, and has become an important example in the field of software studies for demonstrating the history and culture of creative computing.[^10print] *10 PRINT* in p5.js below is used to help familiarize us with the rules and its creative potential as it demonstrates some degree of autonomy within a system.  
+The first program is called *%10 PRINT%* referring to one line of program code `10 PRINT CHR$(205.5+RND(1));: GOTO 10`, written in the BASIC programming language and executed on a Commodore 64 (a popular home computer during the 1980s). The program generates an endless pattern on the screen. The line of code was printed in the 1982 *Commodore 64 User's Guide* and was later published online, and has become an important example in the field of software studies for demonstrating the history and culture of creative computing.[^10print] *10 PRINT* in p5.js below is used to help familiarize us with the rules and its creative potential as it demonstrates some degree of %autonomy% within a system.  
 
 The second program is entitled *Langton's Ant* (1986). It is a two-dimensional universal Turing machine invented in 1986 by the computer scientist Christopher Langton who is considered to be one of the founders of the artificial life field.[^Langton] The core difference with *10 PRINT* is the way in which it generates complex, emergent behavior using only a simple set of rules.
 
@@ -54,9 +54,9 @@ The second program is entitled *Langton's Ant* (1986). It is a two-dimensional u
 ![drawing4](ch5_4.png)
 :   *Figure 5.4: 10 PRINT in p5.js*
 
-[RUNME](https://editor.p5js.org/siusoon/sketches/pQlol8qc)
+[RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch5_AutoGenerator/)
 
-1. **Read** the source code of *10 PRINT*, then copy it, and run it on your own computer.
+1. **Read** the source code of *10 PRINT* below, then copy it, and run it on your own computer.
 
 ```javascript
 let x = 0;
@@ -79,12 +79,11 @@ function draw() {
   if (x > width) {
     x = 0;
     y += spacing;
-
   }
 }
 ```
 
-2. **Discuss** the following *10 PRINT* rules and map them to the related lines/blocks of code:
+2. **Discuss** the following *10 PRINT* rules and map them to the related lines/blocks of code[^code]:
     - Throw a dice and print a backslash half the time
     - Print a forward slash the other half of the time
 
@@ -101,7 +100,7 @@ function draw() {
 5. *10 PRINT* has been appropriated by many artists, designers and students. Take a look at some of the different options it provides [*10 PRINT*](https://twitter.com/search?q=%2310print&src=typd) that are documented on Twitter with the hastag "#10print." Your task in class is to create a sketch with a clear set of rules that operates like a modified version of *10 PRINT*.    
 </div>
 
-## Langton's Ant
+## %Langton's Ant%
 
 While *10 Print* focuses both on instructions and randomness as generative processes, we want to look at the concept of "emergence" in the context of automated and generative programs in which complex patterns/outcomes are generated by simple rules. *Langton's Ant* is a classic mathematical game that simulates the molecular logic of an ant. The simulation of the cell's state is inspired by the classic Turing machine that can be instructed to perform computational tasks by reading symbols fed to it on a strip of tape that were drawn up according to a set of rules.
 
@@ -125,15 +124,19 @@ Figure 5.6 shows how the ant starts building the emergent "highway" pattern afte
 ![drawing7](ch5_7.png)
 :   *Figure 5.7: Langton's Ant - a snapshot of emergence*
 
-[RUNME](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch5_AutoGenerator/sketch5_1/)
+[RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch5_AutoGenerator/sketch5_1/)
 
 ## Source code (Langton's Ant)
 ```javascript
-let grid_space = 5; //e.g. 4, 5, 10 need to be dividable as an integer by the width and height of the canvas
+//e.g 4, 5, 10 need to be dividable by the w and h of the canvas
+let grid_space = 5;
 let grid =[]; //on/off state
-let cols, rows; //for drawing the grid
-let xPos, yPos; //current position in terms of rows and columns, not actual pixels
-let dir; //current direction of the ant
+//for drawing the grid purpose
+let cols, rows;
+//current position in terms of rows and columns, not actual pixels
+let xPos, yPos;
+//current direction of the ant
+let dir;
 const antUP = 0;
 const antRIGHT = 1;
 const antDOWN = 2;
@@ -142,93 +145,96 @@ let offColor;
 let onColor;
 
 function setup() {
-  createCanvas(1000,700);
-  offColor = color(255); //setting offcolor
-  onColor = color(0); //setting onColor
-  background(offColor);
-  grid = drawGrid();
-  xPos = floor(cols/2); //initial x position and make sure it is an integer in the grid array
-  yPos = floor(rows/2); //initial y position and make sure it is an integer in the grid array
-  dir = antUP; //initial direction
-  frameRate(20);
+ createCanvas(1000,700);
+ offColor = color(255);  //offcolor setting
+ onColor = color(0); //onColor setting
+ background(offColor);
+ grid = drawGrid();
+ xPos = floor(cols/2);  //initial x position in integer
+ yPos = floor(rows/2); //initial y position in integerS
+ dir = antUP; //initial direction
+ frameRate(20);
 }
-
 function draw() {
-  for (let n = 0; n < 100; n++) { //for running faster per frame, try changing the n value
-   checkEdges();
-   let state = grid[xPos][yPos]; //check the current cell's state
-   if (state == 0) { //rule 1
-    dir++; // turn right 90 degrees
-    grid[xPos][yPos] = 1; //change the currect cell's state to 'on'
-    fill(onColor); //subsequent color change
-    if (dir > antLEFT) {
-      dir = antUP; //reset the counter
-    }
-   }else{ //rule 2
-    dir--; //turn left 90 degrees
-    grid[xPos][yPos] = 0; //change the current cell's state to 'off'
-    fill(offColor); //subsequent color change
-    if (dir < antUP) {
-      dir = antLEFT; //reset the counter
-    }
+ /*just for running faster perframe,
+ try changing the number e.g 1 instead of 100 */
+ for (let n = 0; n < 100; n++) {
+  checkEdges();
+  let state = grid[xPos][yPos];
+  //check the current cell's state
+  //rule 1
+  if (state == 0) {
+   dir++;  // turn right 90°
+   grid[xPos][yPos] = 1; //change the currect cell's state to 'on'
+   fill(onColor);  //subsequent color change
+   if (dir > antLEFT) {
+     dir = antUP;  //reset the counter
    }
-   rect(xPos*grid_space, yPos*grid_space, grid_space, grid_space);
-   nextMove();
+  //rule 2
+  }else{
+   dir--;  //turn left 90°
+   grid[xPos][yPos] = 0; //change the current cell's state to 'off'
+   fill(offColor);  //subsequent color change
+   if (dir < antUP) {
+     dir = antLEFT; //reset the counter
+   }
   }
+  rect(xPos*grid_space, yPos*grid_space, grid_space, grid_space);
+  nextMove();
+ }
 }
 function drawGrid() {
-  cols = width/grid_space;
-  rows = height/grid_space;
-  let arr = new Array(cols);
-  for (let i=0; i < cols; i++) { //no of cols
-    arr[i] = new Array(rows); //2D array
-    for (let j=0; j < rows; j++){ //no of rows
-      let x = i * grid_space; //actual x coordinate
-      let y = j * grid_space; //actual y coordinate
-      stroke(0);
-      strokeWeight(1);
-      noFill();
-      rect(x, y, grid_space, grid_space);
-      arr[i][j] = 0; //assign each cell with the off state + color
-    }
-  }
-  return arr; //a function with a return value of the cell's status
+ cols = width/grid_space;
+ rows = height/grid_space;
+ let arr = new Array(cols);
+ for (let i=0; i < cols; i++) { //no of cols
+   arr[i] = new Array(rows); //2D array
+   for (let j=0; j < rows; j++){ //no of rows
+     let x = i * grid_space; //actual x coordinate
+     let y = j * grid_space; //actual y coordinate
+     stroke(0);
+     strokeWeight(1);
+     noFill();
+     rect(x, y, grid_space, grid_space);
+     arr[i][j] = 0;  // assign each cell with the off state + color
+   }
+ }
+ return arr; //a function with a return value of cell's status
 }
-
-function nextMove () { //check which direction to go next and set the new current direction
-  if (dir == antUP) {
-    yPos--;
-  } else if (dir == antRIGHT) {
-    xPos++;
-  } else if (dir == antDOWN) {
-    yPos++;
-  } else if (dir == antLEFT) {
-    xPos--;
-  }
+function nextMove () {
+ //check which direction to go next and set the new current direction
+ if (dir == antUP) {
+   yPos--;
+ } else if (dir == antRIGHT) {
+   xPos++;
+ } else if (dir == antDOWN) {
+   yPos++;
+ } else if (dir == antLEFT) {
+   xPos--;
+ }
 }
-
-function checkEdges() { //check width and height boundary
-  if (xPos > cols-1) { //reach the right edge
-    xPos = 0; //go back to the left
-  } else if (xPos < 0) { //reach the left edge
-    xPos = cols-1; //go to the right edge
-  }
-  if (yPos > rows-1) { //reach the bottom edge
-    yPos = 0; //go back to the top
-  } else if (yPos < 0) { //reach the top edge
-    yPos = rows-1; //go to the bottom
-  }
+function checkEdges() {
+ //check width and height boundary
+ if (xPos > cols-1) { //reach the right edge
+   xPos = 0;    //go back to the left
+ } else if (xPos < 0) {  //reach the left edge
+   xPos = cols-1;  //go to the right edge
+ }
+ if (yPos > rows-1) { //reach the bottom edge
+   yPos = 0; //go back to the top
+ } else if (yPos < 0) { //reach the top edge
+   yPos = rows-1;  //go to the bottom
+ }
 }
-
 ```
 
 ## Reading Langton's Ant
 
 There are three areas that can help you to zoom in on the program to slow down and adjust the size.
 
-1. `let grid_space = 5;`: If you can change the value to 10, everything will be enlarged.      
-2. `frameRate(20);`: Lower the frame rate value to help slow down the program.
-3. `draw()`: This function contains a for-loop where *n* is the ant's number of steps. If so desired you can reduce the `n < 100` to `n < 1` in the line `for (let n = 0; n < 100; n++) {` this instructs the program to only process *n* steps per frame.
+1. `let grid_space = 5;` in Line 2: If you can change the value to 10, everything will be enlarged.      
+2. `frameRate(20);` in Line 26: Lower the frame rate value to help slow down the program.
+3. `draw()` in Line 28: This function contains a for-loop where *n* is the ant's number of steps. If so desired you can reduce the `n < 100` to `n < 1` (in Line 31), i.e `for (let n = 0; n < 100; n++) {` this instructs the program to only process *n* steps per frame.
 
 Instead of going through the code line by line, the following shows what each function does.
 
@@ -242,32 +248,32 @@ Technically speaking, there is no new syntax here as the two-dimensional arrays 
 
 ## Two-dimensional arrays & nested for-loops
 
-Daniel Shiffman has created a tutorial (written[^shiffman1] and video[^shiffman2]) to discuss how a two-dimensional array is essentially an array of other arrays. He also suggests that it is useful to think of two-dimensional arrays using a grid structure which aligns nicely with the background of *Langton's Ant* which is designed as a grid in two dimensions with both columns and rows. Since we need to identify the state of each cell, we need to know the exact x and y position of each cell.
+Daniel Shiffman has created a tutorial (written[^shiffman1] and video[^shiffman2]) to discuss how a two-dimensional %array% is essentially an array of other arrays. He also suggests that it is useful to think of two-dimensional arrays using a grid structure which aligns nicely with the background of *Langton's Ant* which is designed as a grid in two dimensions with both columns and rows. Since we need to identify the state of each cell, we need to know the exact x and y position of each cell.
 
-Let's examine the source code again for the grid drawing:
+Let's examine the source code again for the grid background drawing:
 
 ```javascript
 function drawGrid() {
-  cols = width/grid_space;
-  rows = height/grid_space;
-  let arr = new Array(cols);
-  for (let i=0; i < cols; i++) { //number of columns
-    arr[i] = new Array(rows); //2D array
-    for (let j=0; j < rows; j++){ //number of rows
-      let x = i * grid_space; //actual x coordinate
-      let y = j * grid_space; //actual y coordinate
-      stroke(0);
-      strokeWeight(1);
-      noFill();
-      rect(x, y, grid_space, grid_space);
-      arr[i][j] = 0;  //assign each cell with the off color and link to individual cells
-    }
-  }
-  return arr; //a function with a return value
+ cols = width/grid_space;
+ rows = height/grid_space;
+ let arr = new Array(cols);
+ for (let i=0; i < cols; i++) { //no of cols
+   arr[i] = new Array(rows); //2D array
+   for (let j=0; j < rows; j++){ //no of rows
+     let x = i * grid_space; //actual x coordinate
+     let y = j * grid_space; //actual y coordinate
+     stroke(0);
+     strokeWeight(1);
+     noFill();
+     rect(x, y, grid_space, grid_space);
+     arr[i][j] = 0;  // assign each cell with the off state + color
+   }
+ }
+ return arr; //a function with a return value of cell's status
 }
 ```
 
-To create an array, we use the syntax `let arr = new Array(cols);` and this line indicates the grid in columns and the length of the array is the same as the number of columns. Since we also need to indicate the number of rows, we create another array out of each existing array in the column using the line `arr[i] = new Array(rows);`. This syntax is put under a for-loop to loop through each of the columns, but then with the addition of number of rows (which is derived from the canvas height). Two-dimensional arrays are structured in this way: `arr[][]`.
+To create an array, we use the syntax `let arr = new Array(cols);` and this line indicates the grid in columns and the length of the array is the same as the number of columns. Since we also need to indicate the number of rows, we create another array out of each existing array in the column using the line `arr[i] = new Array(rows);`. This syntax is put under a %for-loop% to %loop% through each of the columns, but then with the addition of number of rows (which is derived from the canvas height). Two-dimensional arrays are structured in this way: `arr[][]`.
 
 To know the exact x and y coordinates of each cell within a grid, we use the formula `x = i * grid_space;` and `y= j * grid_space;` respectively. By using two nested for-loops, the program loops through each column and each row until the program reaches the last column. We are able to get the x and y coordinates with the syntax `array[i][j]`, which is applied to columns (with the variable i) and rows (with the variable j).
 
@@ -302,13 +308,13 @@ To be more precise, and according to complexity theory, all systems contain subs
 
 >"A society defined entirely in terms of a functional model would correspond to the Aristotelian idea of natural hierarchy and order. Each official would perform the duties for which he [sic] has been appointed. These duties would translate at each level the different aspects of the organization of the society as a whole. The king gives orders to the architect, the architect to the contractor, the contractor to the worker. On the contrary, termites and other social insects seem to approach the 'statistical' model. As we have seen, there seems to be no mastermind behind the construction of the termites' nest, when interactions among individuals produce certain types of collective behavior in some circumstances, but none of these interactions refer to any global task, being all purely local."[^chaos]
 
-To help understand emergent behavior, we might turn to Turing's article of 1952 "The Chemical Basis of Morphogenesis" for its description of the way in which natural patterns naturally arise from homogeneous, uniform states.[^morpho] This idea of "morphogenesis" is something that political theorist and activist Franco "Bifo" Berardi has utilized to describe social and political mutation, or when new form emerges and takes shape. Processes of automation have not only replaced physical acts of production with information technology, but automation has transformed cognitive activity itself. To Berardi, this "implies the reduction of cognitive activity to algorithmic procedures, and the insertion of "automatisms into the social existence of the general intellect."[^eflux] One of the consequences of this is that automation is taking the place of political decision-making — "Yes or no [...] no nuances, no ambiguity" — and to Berardi this implies the end of democracy, and the establishment of an automatic chain of logical procedures intended to replace conscious voluntary choices, and decision-making. Not only have machines captured the human capacity for thinking, according to Berardi, but also our capacity to feel.[^Bifo] Part of the problem is that we have been learning words from machines, not from other humans,[^mother] the consequence of which is that our capacity for love, tenderness, and compassion are lessened. We might add "care" to this list, thereby invoking feminist technoscience, such as Maria Puig de la Bellacasa's work. For Bellacasa, care is important as it draws attention to how things are held together, to their relationalities, "transforming things into matters of care is a way of relating to them, of inevitably becoming affected by them, and of modifying their potential to affect others."[^bellacasa]
+To help understand %emergent behavior%, we might turn to Turing's article of 1952 "The Chemical Basis of Morphogenesis" for its description of the way in which natural %patterns% naturally arise from homogeneous, uniform states.[^morpho] This idea of "morphogenesis" is something that political theorist and activist Franco "Bifo" Berardi has utilized to describe social and political mutation, or when new form emerges and takes shape. Processes of automation have not only replaced physical acts of production with information technology, but automation has transformed cognitive activity itself. To Berardi, this "implies the reduction of cognitive activity to algorithmic procedures, and the insertion of "automatisms into the social existence of the general intellect."[^eflux] One of the consequences of this is that automation is taking the place of political decision-making — "Yes or no [...] no nuances, no ambiguity" — and to Berardi this implies the end of democracy, and the establishment of an automatic chain of logical procedures intended to replace conscious voluntary choices, and decision-making. Not only have machines captured the human capacity for thinking, according to Berardi, but also our capacity to feel.[^Bifo] Part of the problem is that we have been learning words from machines, not from other humans,[^mother] the consequence of which is that our capacity for love, tenderness, and compassion are lessened. We might add "care" to this list, thereby invoking feminist technoscience, such as Maria Puig de la Bellacasa's work. For Bellacasa, care is important as it draws attention to how things are held together, to their relationalities, "transforming things into matters of %care% is a way of relating to them, of inevitably becoming affected by them, and of modifying their potential to affect others."[^bellacasa]
 
 Along these lines, and drawing upon feminist technoscience, Helen Pritchard and Winnie Soon's artwork *Recurrent Queer Imaginaries* is a motto assistant that endlessly generates mottos as a form of rethinking, reinterpreting and dreaming urban life. In light of the rich history of struggles for racial, sexual and class injustice, the motto assistant uses manifestos and zines for queer and intersectional life as source text for machine learning and generative processes. Based on the rule-based diastic techniques, each motto assistant writes automatically and poetically according to a sequence of characters in a word to form sentences. All the words and sentences are based on the seed text "Not for Self, but for All" that was found in the heart of the new development of Kings Cross area in London, in which many queer spaces have been closed down with the replacement of tech companies and start-ups. In summary, *Recurrent Queer Imaginaries* "is a call to reclaim queer spaces from corporate neocolonial imaginations, operational injustices and reimagine them differently for all, as a commitment to queer liberation."[^pritchard]
 
-A further example of this approach to care in action is the syllabus *Digital Love Languages* at the School for Poetic Computation[^sfpc] Online, where the instructor Melanie Hoff explores how code can be cultivated as a "love language" that is more gentle, healing, and intimate than corporate systems of surveillance and exploitation.[^hoff] The course covers the building blocks of programming and natural language processing as well as explores the history of the love letter as a poetic form. The discussion of more love and care in programming brings us to our last example, the generative "love-letters" that appeared on the Manchester University Computer Department’s noticeboard in 1953. These computer-generated declarations of love were produced by a program written by Christopher Strachey using the built-in random generator function of the M. U. C. (Manchester University Computer, the Ferranti Mark I), the earliest programmable computer. Regarded by some as the first example of digital art,[^Noah] and by Jacob Gaboury as a critique of hetero-normative love, not least because Strachey like Turing was queer.[^Gaboury] Moreover these letters are arguably more than a longing for same sex love, but human-machine love.
+A further example of this approach to care in action is the syllabus *Digital Love Languages* at the School for Poetic Computation[^sfpc] Online, where the instructor Melanie Hoff explores how code can be cultivated as a "%love% language" that is more gentle, healing, and intimate than corporate systems of surveillance and exploitation.[^hoff] The course covers the building blocks of programming and natural language processing as well as explores the history of the love letter as a poetic form. The discussion of more love and care in programming brings us to our last example, the generative "love-letters" that appeared on the Manchester University Computer Department’s noticeboard in 1953. These computer-generated declarations of love were produced by a program written by Christopher Strachey using the built-in random generator function of the M. U. C. (Manchester University Computer, the Ferranti Mark I), the earliest programmable computer. Regarded by some as the first example of digital art,[^Noah] and by Jacob Gaboury as a critique of hetero-normative love, not least because Strachey like Turing was queer.[^Gaboury] Moreover these letters are arguably more than a longing for same sex love, but human-machine love.
 
-Artist David Link built a functional replica of both the hardware and the original program, following meticulous research into the functional aspects.[^loveletters] The main program is relatively simple, and uses loops and a random variable to follow the sentence structure: "You are my — Adjective — Substantive," and "My — [Adjective] — Substantive — [Adverb] — Verb — Your — [Adjective] — Substantive." Some words are fixed and some are optional, as indicated by the square brackets. The program selects from a list of options — adjectives, adverbs, and verbs — and loops are configured to avoid repetition. The software can generate over 318 billion variations. In terms of effect, the dialogue structure is important in setting up an exchange between "Me" (the program writer) and "You" (human reader), so you feel personally addressed. The resulting love letters provide a surprising tenderness of expression that runs contrary to what we consider the standard functional outcomes of computational procedures. This is far from a reductionist view of love, and perhaps the challenge for those making programs is to generate queer recombinant forms in which neither sender or receiver are predetermined by specifying gender, species, or forms. We end this chapter with a sample output:
+Artist David Link built a functional replica of both the hardware and the original program, following meticulous research into the functional aspects.[^loveletters] The main program is relatively simple, and uses loops and a random variable to follow the sentence structure: "You are my — Adjective — Substantive," and "My — [Adjective] — Substantive — [Adverb] — Verb — Your — [Adjective] — Substantive." Some words are fixed and some are optional, as indicated by the square brackets. The program selects from a list of options — adjectives, adverbs, and verbs — and loops are configured to avoid repetition. The software can generate over 318 billion variations. In terms of effect, the dialogue structure is important in setting up an exchange between "Me" (the program writer) and "You" (human reader), so you feel personally addressed. The resulting love letters provide a surprising tenderness of expression that runs contrary to what we consider the standard functional outcomes of computational procedures. This is far from a reductionist view of love, and perhaps the challenge for those making programs is to generate %queer% recombinant forms in which neither sender or receiver are predetermined by specifying gender, species, or forms. We end this chapter with a sample output:
 
 > DEAR DARLING
 
@@ -415,3 +421,4 @@ Artist David Link built a functional replica of both the hardware and the origin
 [^hoff]: See *Digital Love Languages ♡ Codes of Affirmation*, http://lovelanguages.melaniehoff.com/syllabus/.
 [^shiffman]: The two code examples in this chapter are adapted from Daniel Shiffman's *Coding Train* series with the addition of more comments to explain the logic, as well as extra features such as adjusting the grid size in the *Langton's Ant* example.
 [^sfpc]: The School for Poetic Computation, an artist-run school in New York that was founded in 2013, explores the intersections of code, design, hardware and theory — focusing especially on artistic intervention, see: <https://sfpc.io/>.
+[^code]: More comment lines are introduced in the repository, see: <https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/blob/master/public/p5_SampleCode/ch5_AutoGenerator/sketch.js>.

@@ -1,23 +1,34 @@
-/* Inpsired by Langton's Ant (1986) by Chris Langton and Daniel Shiffman: https://github.com/CodingTrain/website/blob/master/CodingChallenges/CC_089_langtonsant/P5/sketch.js
-Remade for educational purpose by Winnie Soon
-1. draw a grid with your desired size (grid_space) via initializing a grid structure based on width and height, columns and width
+/* Inpsired by Langton's Ant (1986) by Chris Langton and
+Daniel Shiffman: https://tinyurl.com/ShiffmanLangton
+other ref: learning: 2d array by Daniel Shiffman:
+https://www.youtube.com/watch?v=OTNpiLUSiB4
+
+Modified by Winnie Soon
+Logic:
+1. draw a grid with your desired size (grid_space) via initializing
+a grid structure based on width and height, columns and width
 2. set all the cell states as 0 (where 0 =off/white, 1 = on/black)
 3. set initial (current) x, y position and direction in the setup()
 4. logic starts - in the draw():
-  - based on the current position to check if the cell hits the edges (width and height)
-  - check the current state of the cell against the rules (2 rules in total and those also define the on/off state of the cell)
+  - based on the current position to check if the cell
+    hits the edges (width and height)
+  - check the current state of the cell against the rules
+  (2 rules in total and those also define the on/off state of the cell)
   - change color of the cell
   - update corresponding/latest ant's direction + state
   - move to next cell and loop again within #4
-  - *'grid_space' needs to be dividable as an integer by the width and height of the canvas
-learning: 2d array- https://www.youtube.com/watch?v=OTNpiLUSiB4
+  - *'grid_space' needs to be dividable, as an integer, by the width and height of the canvas
 */
 
-let grid_space = 5;  //e.g 4, 5, 10 need to be dividable as an integer by the width and height of the canvas
+ //e.g 4, 5, 10 need to be dividable by the w and h of the canvas
+let grid_space = 5;
 let grid =[]; //on/off state
-let cols, rows;  //for drawing the grid purpose
-let xPos, yPos; //current position in terms of rows and columns, not actual pixels
-let dir; //current direction of the ant
+ //for drawing the grid purpose
+let cols, rows;
+//current position in terms of rows and columns, not actual pixels
+let xPos, yPos;
+//current direction of the ant
+let dir;
 const antUP = 0;
 const antRIGHT = 1;
 const antDOWN = 2;
@@ -27,29 +38,32 @@ let onColor;
 
 function setup() {
   createCanvas(1000,700);
-  offColor = color(255);  //setting offcolor
-  onColor = color(0); //setting onColor
+  offColor = color(255);  //offcolor setting
+  onColor = color(0); //onColor setting
   background(offColor);
   grid = drawGrid();
-  xPos = floor(cols/2);  //initial x position and make sure it is an integer in the grid array
-  yPos = floor(rows/2); //initial y position and make sure it is an integer in the grid array
+  xPos = floor(cols/2);  //initial x position in integer
+  yPos = floor(rows/2); //initial y position in integerS
   dir = antUP; //initial direction
   frameRate(20);
 }
-
 function draw() {
-  for (let n = 0; n < 100; n++) { //just for running faster per frame, try changing the n e.g 1
+  /*just for running faster perframe,
+  try changing the number e.g 1 instead of 100 */
+  for (let n = 0; n < 100; n++) {
    checkEdges();
    let state = grid[xPos][yPos];
    //check the current cell's state
-   if (state == 0) { //rule 1
+   //rule 1
+   if (state == 0) {
     dir++;  // turn right 90°
     grid[xPos][yPos] = 1; //change the currect cell's state to 'on'
     fill(onColor);  //subsequent color change
     if (dir > antLEFT) {
       dir = antUP;  //reset the counter
     }
-   }else{  //rule 2
+   //rule 2
+   }else{
     dir--;  //turn left 90°
     grid[xPos][yPos] = 0; //change the current cell's state to 'off'
     fill(offColor);  //subsequent color change
@@ -65,7 +79,7 @@ function drawGrid() {
   cols = width/grid_space;
   rows = height/grid_space;
   let arr = new Array(cols);
-  for (let i=0; i < cols; i++) {//no of cols
+  for (let i=0; i < cols; i++) { //no of cols
     arr[i] = new Array(rows); //2D array
     for (let j=0; j < rows; j++){ //no of rows
       let x = i * grid_space; //actual x coordinate
@@ -79,7 +93,6 @@ function drawGrid() {
   }
   return arr; //a function with a return value of cell's status
 }
-
 function nextMove () {
   //check which direction to go next and set the new current direction
   if (dir == antUP) {
@@ -92,7 +105,6 @@ function nextMove () {
     xPos--;
   }
 }
-
 function checkEdges() {
   //check width and height boundary
   if (xPos > cols-1) { //reach the right edge

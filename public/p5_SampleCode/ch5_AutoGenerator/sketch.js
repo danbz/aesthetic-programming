@@ -1,8 +1,8 @@
-//10 print in Commodore64
-/*
+/*10 print in Commodore64
 Ref:
-1. In the book 10Print: 10 PRINT CHR$(205.5+RND(1)); : GOTO 10
-2. Shiffman's video: https://www.youtube.com/watch?v=bEyTZ5ZZxZs
+1. 10Print: 10 PRINT CHR$(205.5+RND(1)); : GOTO 10
+2. Shiffman's video:
+https://www.youtube.com/watch?v=bEyTZ5ZZxZs
 
 Rules:
 1. Throw a dice randomly
@@ -24,16 +24,17 @@ function setup() {
 function draw() {
   stroke(255);
   if (random(1) <0.5) {  //probabilty
-    //line(0,0,10,10); //backward slash
+    //backward slash
+    //line(0,0,10,10); //example of backward slash
     line(x,y,x+spacing,y+spacing);
   } else {
-    //line(0,10,10,0); //forward slash
-    line(x,y+spacing,x+spacing,y); //forward slash
+    //forward slash
+    //line(0,10,10,0); //example of forward slash
+    line(x,y+spacing,x+spacing,y);
   }
   x+=10;
   if (x > width) {
     x = 0;
     y += spacing;
-
   }
 }
