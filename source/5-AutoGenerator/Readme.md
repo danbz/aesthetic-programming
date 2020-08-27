@@ -335,14 +335,14 @@ Artist David Link built a functional replica of both the hardware and the origin
 
 **For additional inspiration:**
 
-- [{Software} Structure #003 A by Casey Reas](https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks).
-- [Daily Art](http://www.sasj.nl/daily/) by Saskia Freeke.
-- [Generative Artistry by Ruth John and Tim Holman ](https://generativeartistry.com/tutorials/).
-- [Generative Design - sketches](http://www.generative-gestaltung.de/2/), [source code](https://github.com/generative-design/Code-Package-p5.js).
-- [GenArt (with source code)](https://github.com/JosephFiola/GenArt) by Joseph Fiola, see Chapters 1-4.
-- [John Conway's Game of Life](https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/).
-- [Generative Tarot](https://www.melaniehoff.com/generativetarot/), [source code](https://github.com/melaniehoff/generative-tarot-p5js) by Melanie Hoff
-- [The Recode Project](http://recodeproject.com/) and [Memory Slam](http://nickm.com/memslam/) by Nick Montfort.
+- *{Software} Structure #003 A* by Casey Reas (date), <https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks>.
+- *Daily Art* by Saskia Freeke (date), <http://www.sasj.nl/daily/>. 
+- *Generative Artistry* by Ruth John and Tim Holman (date), <https://generativeartistry.com/tutorials/>.
+- *Generative Design - sketches*, <http://www.generative-gestaltung.de/2/>, source code, <https://github.com/generative-design/Code-Package-p5.js>.
+- *GenArt by Joseph Fiola, see Chapters 1-4, (with source code, <https://github.com/JosephFiola/GenArt>.
+- John Conway's *Game of Life* (1970), <https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/>.
+- *Generative Tarot* by Melanie Hoff (date), <https://www.melaniehoff.com/generativetarot/>, source code <https://github.com/melaniehoff/generative-tarot-p5js>. 
+- *The Recode Project* by Nick Montfort (date), <http://recodeproject.com/>, and *Memory Slam* (date), <http://nickm.com/memslam/>.
 - [Solving Sol project - An open project to implement Sol LeWitt's instructions in JavaScript by Brad Bouse](https://github.com/wholepixel/solving-sol).
 
 **Tasks (RunMe):**
@@ -379,12 +379,12 @@ Artist David Link built a functional replica of both the hardware and the origin
 [^Turing1]: Turing, "On Computable Numbers," 241.
 [^visualization]: A visualization of the Turing Machine can be found here: <https://turingmachine.io/>.
 [^Lippard]: Reference to Lucy Lippard, ed. *Six Years: The Dematerialization of the Art Object from 1966 to 1972* (London: University of California Press, 1997).
-[^Cox]: One example of many, and also connected to an exhibition, is Geoff Cox's "Generator: The Value of Software Art," in Judith Rugg and Michèle Sedgwick, eds., *Issues in Curating Contemporary Art and Performance* (Bristol: Intellect, 2007), 147-162, available at <https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf>. This includes a description of Adrian Ward's *Auto-Illustrator*, released as a boxed version for the "Generator" exhibition (2002-3) with an accompanying "User’s  Manual" that contained both technical detail and critical essays. In many ways this sets a precedent for the publication you are reading. For more on the aesthetic dimension of the parallels between scores, scripts, and programs, see Geoff Cox, Alex McLean, and Adrian Ward, "The Aesthetics of Generative Code," Generative Art 00, international conference, Politecnico di Milano, (2001), <https://www.academia.edu/10519146/The_Aesthetics_of_Generative_Code>.  
+[^Cox]: One example of many, and also connected to an exhibition, is Geoff Cox's "Generator: The Value of Software Art," in Judith Rugg and Michèle Sedgwick, eds., *Issues in Curating Contemporary Art and Performance* (Bristol: Intellect, 2007), 147-162, available at <https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf>. This includes a description of Adrian Ward's *Auto-Illustrator*, released as a boxed version for the "Generator" exhibition (2002-3) with an accompanying "User’s  Manual" that contained both technical detail and critical essays. In many ways this sets a precedent for the publication you are reading. For more on the aesthetic dimension of the parallels between scores, scripts, and programs, see Geoff Cox, Alex McLean, and Adrian Ward, "The Aesthetics of Generative Code," *Generative Art 00*, international conference, Politecnico di Milano, (2001), <https://www.academia.edu/10519146/The_Aesthetics_of_Generative_Code>.  
 [^exhibition]: The exhibition "Programmed: Rules, Codes, and Choreographies in Art, 1965–2018" was held at the Whitney Museum of American Art, New York (28 Sep 2018 – 14 Apr 2019), and organized by Christiane Paul and Carol Mancusi-Ungaro, with Clémence White. See <https://whitney.org/exhibitions/programmed>. A well-cited, prior example would be the 1970 exhibition “Software — Information Technology: Its New Meaning for Art,” at the Jewish Museum in New York, curated by Jack Burnham. For Burnham, the exhibition "Software" encouraged an understanding of the underlying structures in art and information systems, and by drawing together practices in computer technology with conceptual art, software was to be seen as a metaphor for information exchange.
 [^LeWitt]: Sol LeWitt cited in Lippard, ed. *Six Years: The Dematerialization of the Art Object from 1966 to 1972*.
 [^processing]: Processing is a flexible software sketchbook and programming language, initiated by Casey Reas and Ben Fry in 2001, for users to learn how to code within the context of the visual arts. See <https://processing.org/>.
 [^Reas]: For an explanation of this work, and the assoicated documentation, see Casey Reas, "{Software} Structures,"  <https://artport.whitney.org/commissions/softwarestructures/text.html>.
-[^galanter]: Philip Galanter, *What is Generative Art? Complexity theory as a context for art theory,* in GA2003-6th Generative Art Conference, Milan (2003).
+[^galanter]: Philip Galanter, *What is Generative Art? Complexity theory as a context for art theory,* in *GA2003* - 6th Generative Art Conference, Milan (2003).
 [^suchman]: Lucy Suchman, *Human-Machine Reconfigurations: Plans and Situated Actions* (Cambridge: Cambridge University Press, 2007), 217-220.
 [^10print]: Nick Montfort, et al, *10 PRINT CHR $(205.5+ RND (1));: GOTO 10* (Cambridge, MA: MIT Press, 2012).
 [^Haahr]: See Mads Haahr, "Introduction to Randomness and Random Numbers," <https://www.random.org/randomness/>; and Montfortet al, "Randomness," 119-146.
