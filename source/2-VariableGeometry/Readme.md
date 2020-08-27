@@ -328,7 +328,7 @@ The challenge is to rethink normative geometries, to turn them upside down and i
 
 **For additional inspiration:**
 
-- *AIMoji* by Process Studio (2019), <https://process.studio/works/aimoji-ai-generated-emoji/>, and as part of *Uncanny Values*, Vienna Biennale (2019), <https://process.studio/works/uncanny-values/>.
+- *AIMoji* by Process Studio (2019), <https://process.studio/works/aimoji-ai-generated-emoji/>, and as part of "Uncanny Values," Vienna Biennale (2019), <https://process.studio/works/uncanny-values/>.
 - Steve Witt, "Chinese Characters as Ancient 'Emoji'," *Glocal Notes* (2015), <https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/>.
 - Michael Grothaus, "Women Finally Get a Menstruation Emoji," *Fastcompany* (2019), <https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji>.
 
@@ -368,7 +368,7 @@ Explore shapes, geometries, and other related syntax (via p5.js references) and 
 
 [^Unicode]: See <https://en.wikipedia.org/wiki/Unicode#Origin_and_development>.
 
-[^almoji]: The project employs a machine learning algorithm and use the dataset of 3145 existing emojis as the input data to generate various uncanny emoji patterns. See <https://process.studio/works/aimoji-ai-generated-emoji/>. The project featured as part of the exhibition *Uncanny Values*, Vienna Biennale (2019), <https://process.studio/works/uncanny-values/>. We discuss machine learning in more detail in chapter 10.
+[^almoji]: The project employs a machine learning algorithm and use the dataset of 3145 existing emojis as the input data to generate various uncanny emoji patterns. See <https://process.studio/works/aimoji-ai-generated-emoji/>. The project featured as part of the exhibition "Uncanny Values," Vienna Biennale (2019), <https://process.studio/works/uncanny-values/>. We discuss machine learning in more detail in chapter 10.
 
 [^Telegraph]: See <https://www.telegraph.co.uk/technology/2016/07/15/new-gender-equality-emoji-to-show-women-at-work/>.
 
