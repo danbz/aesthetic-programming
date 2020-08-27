@@ -437,21 +437,21 @@ To conclude this chapter, which explored the making of *Vocable Code* with its s
 
 **Get additional inspiration:**
 
-- [Dial (2020) by Lai-Tze Fan & Nick Montfort](http://thenewriver.us/dial/), with JavaScript [source code](view-source:https://nickm.com/fan_montfort/dial/)
-- [Mexicans in Canada (2020) by Amira Hanafi](http://amiraha.com/mexicansincanada/)
-- [A House of Dust (1967) by Alison Knowles and James Tenney, reimplemented by Nick Montfort](https://nickm.com/memslam/a_house_of_dust.html)
-- [Corpora - A repository of JSON files by Darius Kazemi](https://github.com/dariusk/corpora/tree/master/data)
-- [e-lit collection1](http://collection.eliterature.org/1/)
-- [e-lit collection2](http://collection.eliterature.org/2/)
-- [e-lit collection3](http://collection.eliterature.org/3/)
-- [Rita library (2006-ongoing) by Daniel Howe](http://rednoise.org/rita/download.php)
+- *Dial* (2020) by Lai-Tze Fan & Nick Montfort, <http://thenewriver.us/dial/>, with JavaScript source code <https://nickm.com/fan_montfort/dial/>.
+- *Mexicans in Canada* by Amira Hanafi (2020), <http://amiraha.com/mexicansincanada/>.
+- *A House of Dust* by Alison Knowles and James Tenney (1967), reimplemented by Nick Montfort for *Memory Slam* (2014), <https://nickm.com/memslam/a_house_of_dust.html>.
+- *Corpora - A repository of JSON files* by Darius Kazemi (n.d.), <https://github.com/dariusk/corpora/tree/master/data>.
+- *e-lit collection1*, <http://collection.eliterature.org/1/>.
+- *e-lit collection2*, <http://collection.eliterature.org/2/>.
+- *e-lit collection3*, <http://collection.eliterature.org/3/>.
+- *RiTa library* by Daniel Howe (2006-ongoing), <http://rednoise.org/rita/download.php>.
 
-**Tasks (RUNME):**
+**Tasks (RunMe):**
 
 1. To design a piece of e-lit that utilizes text as the main medium (but in recognition that text can take various forms, including code and voice).
 2. To implement JSON file(s) for text organization, storage, and retrieval.  
 
-**Questions to think about as README:**
+**Questions to think about (ReadMe):**
 
 - **Provide** a title of your work and a short description (1,000 characters or less).
 - **Describe** how your program works, and what syntax you have used, and learnt?
@@ -464,15 +464,15 @@ To conclude this chapter, which explored the making of *Vocable Code* with its s
 
 - Geoff Cox and Alex McLean, "Vocable Code," in *Speaking Code* (Cambridge, MA: MIT Press, 2013), 17-38.
 - Allison Parrish, "Text and Type" (2019), <https://creative-coding.decontextualize.com/text-and-type/>.
-- Daniel Shiffman, *10.2: What is JSON? Part I - p5.js Tutorial* (2017), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
-- Daniel Shiffman, *10.2: What is JSON? Part II - p5.js Tutorial* (2017), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
+- Daniel Shiffman, "10.2: What is JSON? Part I - p5.js Tutorial" (2017), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
+- Daniel Shiffman, "10.2: What is JSON? Part II - p5.js Tutorial" (2017), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
 
 ## Further reading
 
 - Geoff Cox, Alex McLean, and Adrian Ward, "The Aesthetics of Generative Code," Proceedings of Generative Art Conference, Milan (2001).
 - Liz W. Faber, *The Computer's Voice: From Star Trek to Siri* (Minneapolis, MN: University of Minnesota Press, 2020).
-- Rita Raley, [Interferences: [Net.Writing] and the Practice of Codework](http://electronicbookreview.com/essay/interferences-net-writing-and-the-practice-of-codework/), *Electronic Book Review* (2002).
-- Margaret Rhee, “[Reflecting on Robots, Love, and Poetry](https://dl.acm.org/doi/pdf/10.1145/3155126?download=true),” *XRDS: Crossroads* 24, no. 2, December (2017): 44–46.
+- Rita Raley, "Interferences: Net.Writing and the Practice of Codework," *Electronic Book Review* (2002), <http://electronicbookreview.com/essay/interferences-net-writing-and-the-practice-of-codework/>.
+- Margaret Rhee, "Reflecting on Robots, Love, and Poetry," *XRDS: Crossroads* 24, no. 2, December (2017): 44–46, <https://dl.acm.org/doi/pdf/10.1145/3155126?download=true>.
 
 ## Notes
 
