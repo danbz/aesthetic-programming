@@ -345,12 +345,12 @@ Artist David Link built a functional replica of both the hardware and the origin
 - [The Recode Project](http://recodeproject.com/) and [Memory Slam](http://nickm.com/memslam/) by Nick Montfort.
 - [Solving Sol project - An open project to implement Sol LeWitt's instructions in JavaScript by Brad Bouse](https://github.com/wholepixel/solving-sol).
 
-**Tasks (RUNME):**
+**Tasks (RunMe):**
 
 1. Start with a blank sheet of paper. Think of at least two simple rules that you want to implement in a generative program.
 2. Based on the rules that you set in Step 1, design a generative program that utilizes **at least one for-loop/while-loop and one conditional statement**, but without any direct interactivity. Just let the program run. You can also consider using `noise()` and `random()` syntax if that helps.
 
-**Questions to think about as README:**
+**Questions to think about (ReadMe):**
 
 - What are the rules in your generative program? Describe how your program performs over time? How do the rules produce emergent behavior?
 - What role do rules and processes have in your work?
@@ -360,18 +360,18 @@ Artist David Link built a functional replica of both the hardware and the origin
 ## Required reading
 
 - Nick Montfort et al. "Randomness," *[10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org/)* (Cambridge, MA: MIT Press, 2012), 119-146.
-- Daniel Shiffman, [p5.js - 2D Arrays in Javascript](https://www.youtube.com/watch?v=OTNpiLUSiB4).
+- Daniel Shiffman, "p5.js - 2D Arrays in Javascript," *Youtube*, <https://www.youtube.com/watch?v=OTNpiLUSiB4>.
 - Marius Watz, "Beautiful Rules: Generative Models of Creativity," in *The Olhares de Outono* (2007), <https://vimeo.com/26594644>.
-- "[Langton's Ant Colonies.](https://www.youtube.com/watch?v=w6XQQhCgq5c)" Youtube video, 6:02. Posted by "MrBluesbyrd," November 7, 2011.
+- "Langton's Ant Colonies," *Youtube* video, 6:02, posted by MrBluesbyrd, November 7 (2011), <https://www.youtube.com/watch?v=w6XQQhCgq5c>.
 
 ## Further reading
 
-- Philip Galanter, "[Generative Art Theory](http://cmuems.com/2016/60212/resources/galanter_generative.pdf)," in Christiane Paul, ed., *A Companion to Digital Art* (Oxford: Blackwell, 2016).
-- "[How to Draw with Code | Casey Reas.](https://www.youtube.com/watch?v=_8DMEHxOLQE)." Youtube video, 6:07. Posted by "Creators," June 25, 2012.
-- John Horton Conway, [*The Game of Life* (1970)](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
-- [p5.js Coding Challenge #14: Fractal Trees - Recursive by Daniel Shiffman](https://www.youtube.com/watch?v=0jjeOYMjmDU).
-- [p5.js Coding Challenge #76: Recursion by Daniel Shiffman](https://www.youtube.com/watch?v=jPsZwrV9ld0).
-- [noise() vs random() - Perlin Noise and p5.js Tutorial by Daniel Shiffman](https://www.youtube.com/watch?v=YcdldZ1E9gU).
+- Philip Galanter, "Generative Art Theory," in Christiane Paul, ed., *A Companion to Digital Art* (Oxford: Blackwell, 2016), <http://cmuems.com/2016/60212/resources/galanter_generative.pdf>.
+- "How to Draw with Code | Casey Reas," *Youtube* video, 6:07, posted by Creators, June 25 (2012), <https://www.youtube.com/watch?v=_8DMEHxOLQE>.
+- John Horton Conway, *The Game of Life* (1970), <https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life>.
+- Daniel Shiffman, "p5.js Coding Challenge #14: Fractal Trees - Recursive," *Youtube*, <https://www.youtube.com/watch?v=0jjeOYMjmDU>.
+- Daniel Shiffman, "p5.js Coding Challenge #76: Recursion," *Youtube*, <https://www.youtube.com/watch?v=jPsZwrV9ld0>.
+- Daniel Shiffman, "noise() vs random() - Perlin Noise and p5.js Tutorial," *Youtube*, <https://www.youtube.com/watch?v=YcdldZ1E9gU>.
 
 ## Notes
 
