@@ -369,9 +369,9 @@ Artist David Link built a functional replica of both the hardware and the origin
 - Philip Galanter, "Generative Art Theory," in Christiane Paul, ed., *A Companion to Digital Art* (Oxford: Blackwell, 2016), <http://cmuems.com/2016/60212/resources/galanter_generative.pdf>.
 - "How to Draw with Code | Casey Reas," *Youtube* video, 6:07, posted by Creators, June 25 (2012), <https://www.youtube.com/watch?v=_8DMEHxOLQE>.
 - John Horton Conway, *The Game of Life* (1970), <https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life>.
-- Daniel Shiffman, "p5.js Coding Challenge #14: Fractal Trees - Recursive," *Youtube*, <https://www.youtube.com/watch?v=0jjeOYMjmDU>.
-- Daniel Shiffman, "p5.js Coding Challenge #76: Recursion," *Youtube*, <https://www.youtube.com/watch?v=jPsZwrV9ld0>.
-- Daniel Shiffman, "noise() vs random() - Perlin Noise and p5.js Tutorial," *Youtube*, <https://www.youtube.com/watch?v=YcdldZ1E9gU>.
+- Daniel Shiffman, "p5.js Coding Challenge #14: Fractal Trees - Recursive," <https://www.youtube.com/watch?v=0jjeOYMjmDU>.
+- Daniel Shiffman, "p5.js Coding Challenge #76: Recursion," <https://www.youtube.com/watch?v=jPsZwrV9ld0>.
+- Daniel Shiffman, "noise() vs random() - Perlin Noise and p5.js Tutorial," <https://www.youtube.com/watch?v=YcdldZ1E9gU>.
 
 ## Notes
 
