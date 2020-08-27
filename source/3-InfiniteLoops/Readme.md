@@ -459,7 +459,7 @@ Check out other works that refer to the throbber and how other people contextual
 - *The Best is Yet to Come* by Silvio Lorusso (2012), preloaders follow one another randomly and endlessly, <https://silviolorusso.com/work/the-best-is-yet-to-come/>.
 - *DVD guy* by Constant Dullaart (2009), <https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB>, with the contextualization by Panke Gallery in Berlin, <http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin>.
 - *Throb* by Winnie Soon (2018-19), <http://siusoon.net/throb/>. 
-- *Asterisk Painting* by John P. Bell (n.d.), ported to p5.js, and modified by Winnie Soon (2019), <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
+- *Asterisk Painting* by John P. Bell (n.d.), ported to p5.js and modified by Winnie Soon (2019), <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
 
 **Task (RunMe):**
 
@@ -476,7 +476,7 @@ Check out other works that refer to the throbber and how other people contextual
 ## Required reading
 
 - Wolfgang Ernst, “‘... Else Loop Forever’: The Untimeliness of Media,” (2009), https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf.
-- Daniel Shiffman, Courses 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2, *Code! Programming with p5.js*, YouTube, <https://www.youtube.com/watch?v=1Osb_iGDdjk> (2018). (practical usage on conditional statements, loops, functions, and arrays)
+- Daniel Shiffman, Courses 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2, *Code! Programming with p5.js*, <https://www.youtube.com/watch?v=1Osb_iGDdjk> (2018). (practical usage on conditional statements, loops, functions, and arrays)
 - Winnie Soon, “Throbber: Executing Micro-temporal Streams,” *Computational Culture* 7, October 21 (2019), http://computationalculture.net/throbber-executing-micro-temporal-streams/.
 
 ## Further reading
