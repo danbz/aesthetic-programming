@@ -32,7 +32,7 @@ page_order: -3
 * Reading the reference guide
 * Git
 * While()
-* MiniX: RunMe and ReadME
+* MiniX: RunMe and ReadMe
 * Required reading & Further reading
 
 ## Chapter 2: Variable Geometry
@@ -67,7 +67,7 @@ page_order: -3
 * Conditional statements
 * Loops
 * While()
-* MiniX: Designing a Throbber
+* MiniX: Designing a throbber
 * Required reading & Further reading
 
 ## Chapter 4: Data Capture
@@ -87,7 +87,7 @@ page_order: -3
   * Voice and audio data
   * Health tracker
 * While()
-* MiniX: CAPTURE ALL
+* MiniX: Capture all
 * Required reading & Further reading
 
 ## Chapter 5: Auto Generator
@@ -164,7 +164,7 @@ page_order: -3
 * Reading Auto Chapter Generator
 * Exercise in class
 * While()
-* MiniX: Final Project
+* MiniX: Final project
 * Required reading & Further reading
 
 ## Afterword: Recurrent Imaginaries
