@@ -328,24 +328,23 @@ The challenge is to rethink normative geometries, to turn them upside down and i
 
 **For additional inspiration:**
 
-- [Chinese Characters as Ancient Emoji](https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/)[^Witt] by Steve Witt.
-- [Women finally get a menstruation emoji](https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji)[^Grot] by Michael Grothaus.
-- [Between Art and Application: Special issue on emoji epistemoloy by Crystal Abidin and Joel Gn](https://firstmonday.org/ojs/index.php/fm/article/view/9410)[^Abidin] (a short text about emoji culture).
+- *AIMoji* by Process Studio (2019), <https://process.studio/works/aimoji-ai-generated-emoji/>, and as part of *Uncanny Values*, Vienna Biennale (2019), <https://process.studio/works/uncanny-values/>.
+- Steve Witt, "Chinese Characters as Ancient 'Emoji'," *Glocal Notes* (2015), <https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/>.
+- Michael Grothaus, "Women Finally Get a Menstruation Emoji," *Fastcompany* (2019), <https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji>.
 
 **Tasks (RunMe):**
 
-Explore shapes, geometries, and other related syntax (via p5.js [references](https://p5js.org/reference/)) and design two emojis.
+Explore shapes, geometries, and other related syntax (via p5.js references) and design two emojis, <https://p5js.org/reference/>.
 
-**Questions to think about as ReadMe:**
+**Questions to think about (ReadMe):**
   - **Describe** your program and what you have used and learnt.
-  - **How** would you put your emoji into a wider social and cultural context that concerns a politics of representation, identity, race, imperialism, and so on? (Try to think through the assigned reading and your coding process, and then expand that to your own experience and thoughts - this is a difficult task, you may need to spend some time thinking about it).
+  - **How** would you put your emoji into a wider social and cultural context that concerns a politics of representation, identity, race, colonialism, and so on? (Try to think through the assigned reading and your coding process, and then expand that to your own experience and thoughts - this is a difficult task, you may need to spend some time thinking about it).
 </div>
-
 
 ## Required reading
 
-- Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, [Modifying the Universal,](http://www.data-browser.net/db06.html), in Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, eds., *Executing Practices* (London: Open Humanities Press, 2018), 35-51.
-- *p5.js. p5.js | Simple Shapes*, <https://p5js.org/examples/hello-p5-simple-shapes.html>.
+- Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, "Modifying the Universal," in Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, eds., *Executing Practices* (London: Open Humanities Press, 2018), 35-51, <http://www.data-browser.net/db06.html>.
+- p5.js | Simple Shapes, <https://p5js.org/examples/hello-p5-simple-shapes.html>.
 - Shiffman, Daniel. (2018) "1.3,1.4,2.1,2.2: Code! Programming with p5.js," <https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2>.
 - Femke Snelting, "Other Geometries," *transmediale journal* 3, October 31 (2019), <https://transmediale.de/content/other-geometries>.
 
@@ -398,12 +397,6 @@ Explore shapes, geometries, and other related syntax (via p5.js [references](htt
 [^Blas]: The series of works *Facial Weaponization Suite* exposes some of the inequalities associated with biometric facial recognition by making collective masks, including *Fag Face Mask* a response to scientific studies that say they can determine sexual orientation through rapid facial recognition techniques, and another mask that explores the inability of biometric technologies to detect dark skin. See <http://www.zachblas.info/works/facial-weaponization-suite/>.
 
 [^Tsing]: Anna Lowenhaupt Tsing, *The Mushroom at the End of the World: On the Possibility of Life in Capitalist Ruins* (Princeton, NJ: Princeton University Press, 2017).
-
-[^Witt]: Steve Witt, "Chinese Characters as Ancient 'Emoji'," *Glocal Notes* (2015), <https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/>.
-
-[^Grot]: Michael Grothaus, "Women Finally Get a Menstruation Emoji," *Fastcompany* (2019), <https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji>.
-
-[^Abidin]: Abidin and Gn, "Between Art and Application."
 
 [^chun]: Chun discusses symbolic programming languages that (as higher-level languages) hide the computational process. This both empowers users to create, but conversely mystifies the inner workings of machines. Here variables are some of the many examples that computer operations abstract. We will discuss this in Chapter 6, "Object Abstraction". See Wendy Hui Kyong Chun, “On Software, or the Persistence of Visual Knowledge,” *Grey Room* 18 (January 2005): 38, <https://doi.org/10.1162/1526381043320741>.
 
