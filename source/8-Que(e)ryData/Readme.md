@@ -347,32 +347,32 @@ To que(e)ry data in this way throws into further question how data is collected,
 
 **Objectives:**
 
-- To design and implement a program that utilizes web APIs[^Oauth].
+- To design and implement a program that utilizes web APIs.[^Oauth]
 - To learn to collaboratively code and conceptualize a program.
 - To reflect upon the processes of data parsing using an API, paying attention to the registration, availability, selection, and manipulation of data.
 
 **Get additional inspiration:**
 
-- [Open Weather with code example](https://www.youtube.com/watch?v=ecT42O6I_WI)
-- [Other weather API example with code example](https://p5js.org/examples/hello-p5-weather.html)
-- [New York times with code example](https://www.youtube.com/watch?v=IMne3LY4bks&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=9)
-- [Giphy images with code example](https://www.youtube.com/watch?v=mj8_w11MvH8&index=10&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
-- [Wikipedia API](https://www.youtube.com/watch?v=RPz75gcHj18)
-- [Twitter API and Twitter Bot with code example](http://shiffman.net/a2z/twitter-bots/) *Twitter has tightened the rules in registering the API and you need to have a solid proposal in order to get API's keys this takes weeks to achieve.*
-- [Google map API](https://developers.google.com/maps/documentation/javascript/)
-- [Search many other kinds of API](https://www.programmableweb.com/)
+- Open Weather with code example, <https://www.youtube.com/watch?v=ecT42O6I_WI>.
+- Other weather API example with code example, <https://p5js.org/examples/hello-p5-weather.html>.
+- *New York times* with code example, <https://www.youtube.com/watch?v=IMne3LY4bks&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=9>.
+- Giphy images with code example, <https://www.youtube.com/watch?v=mj8_w11MvH8&index=10&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
+- Wikipedia API, <https://www.youtube.com/watch?v=RPz75gcHj18>.
+- Twitter API and Twitter Bot with code example, <http://shiffman.net/a2z/twitter-bots/>. (Note that Twitter has tightened the rules for registering the API and you need to have a convincing proposal as well as the process can be lengthy.)
+- Google map API, <https://developers.google.com/maps/documentation/javascript/>.
+- Search many other kinds of API, <https://www.programmableweb.com/>.
 
-**Tasks (RUNME):**
+**Tasks (RunMe):**
 
 This is a relatively complex exercise that requires you to:
 - Design a program that utilizes at least one web API (think about what you want conceptually), including:
     - Finding available web APIs and the data that you want to explore.
     - Understanding the available data: the data file format and the API's specifications.
     - Deciding which data fields you want to choose to explore and experiment with.
-    - Utilizing the web API and the corresponding data in your program
+    - Utilizing the web API and the corresponding data in your program.
     (Please reserve more time if you are getting data from other platforms, as the registration process can take a long time.)
 
-**Questions to think about (README):**
+**Questions to think about (ReadMe):**
 
 - What is the program about? Which API have you used and why?
 - Can you describe and reflect on your process in this miniX in terms of acquiring, processing, using, and representing data? How much do you understand this data or what do you want to know more about? How do platform providers sort the data and give you the requested data? What are the power relations in the chosen APIs? What is the significance of APIs in digital culture?
@@ -382,14 +382,14 @@ This is a relatively complex exercise that requires you to:
 ## Required reading
 
 - David Gauthier, Audrey Samson, Eric Snodgrass, Winnie Soon, and Magda Tyżlik-Carver, "Executing," in Nanna Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio and Kristin Veel, eds., *Uncertain Archives* (Cambridge, MA: MIT Press, 2021).
-- Daniel Shiffman, "Working with data - p5.js Tutorial," *The Coding Train*, <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r> (10.1, 10.4-10.10).
-- Eric Snodgrass and Winnie Soon, "[API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange](https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721)," *First Monday* 24, no.2 (2019): n.p.
+- Daniel Shiffman, "Working with data - p5.js Tutorial," *The Coding Train* (10.1, 10.4 - 10.10), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>. 
+- Eric Snodgrass and Winnie Soon, "API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange]," *First Monday* 24, no.2 (2019), <https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721>.
 
 ## Further reading
 
-- Jonathan Albright, "[The Graph API: Key Points in the Facebook and Cambridge Analytica Debacle](https://medium.com/tow-center/the-graph-api-key-points-in-the-facebook-and-cambridge-analytica-debacle-b69fe692d747)," *Medium* (2018).
+- Jonathan Albright, "The Graph API: Key Points in the Facebook and Cambridge Analytica Debacle," *Medium* (2018), <https://medium.com/tow-center/the-graph-api-key-points-in-the-facebook-and-cambridge-analytica-debacle-b69fe692d747>.
 - Taina Bucher, “Objects of intense feeling: The case of the Twitter API,” in *Computational Culture*, Nov 27 (2013), <http://computationalculture.net/article/objects-of-intense-feeling-the-case-of-the-twitter-api>.
-- Christoph Raetzsch, Gabriel Pereira, and Lasse S Vestergaard, “[Weaving Seams with Data: Conceptualizing City APIs as Elements of Infrastructures](https://journals.sagepub.com/doi/full/10.1177/2053951719827619),” *Big Data & Society*, Jan (2019), doi:10.1177/2053951719827619.
+- Christoph Raetzsch, Gabriel Pereira, and Lasse S. Vestergaard, "Weaving Seams with Data: Conceptualizing City APIs as Elements of Infrastructures," *Big Data & Society*, Jan (2019), <https://journals.sagepub.com/doi/full/10.1177/2053951719827619>.
 
 ## Notes
 
@@ -409,7 +409,7 @@ This is a relatively complex exercise that requires you to:
 
 [^hack]: Sollfrank employs Thomas Wulffen's phrase, in Cornelia Sollfrank, "Hacking the Art Operating System," interviewed by Florian Cramer, Chaos Computer Club, Berlin (2001).
 
-[^nag]: Since 1997, there are five different versions of *nag* that have been realized by seven programmers at various stages of the project. In 2003, Version 5 started using images from Google search, but this became broken in 2015. The current version, 5b was updated in 2017 by Winnie Soon, and this is the version that officially utilized Google Image Search API according to the specification. See <http://net.art-generator.com/>.>.
+[^nag]: Since 1997, there are five different versions of *nag* that have been realized by seven programmers at various stages of the project. In 2003, Version 5 started using images from Google search, but this became broken in 2015. The current version, 5b was updated in 2017 by Winnie Soon, and this is the version that officially utilized Google Image Search API according to the specification. See <http://net.art-generator.com/>.
 
 [^pixel]: See the reference guide of `loadPixels()`, <https://p5js.org/reference/#/p5/loadPixels>.
 
@@ -445,12 +445,12 @@ This is a relatively complex exercise that requires you to:
 
 [^w3c]: See the recommendation of CORS by W3C, <https://www.w3.org/TR/cors/>.
 
-[^debug]: There is a debugging tutorial was created for the p5.js contributor conference by Jason Alderman, Tega Brain, Taeyoon Choi and Luisa Pereira, see: <https://p5js.org/learn/debugging.html>
+[^debug]: There is a debugging tutorial was created for the p5.js contributor conference by Jason Alderman, Tega Brain, Taeyoon Choi and Luisa Pereira, see: <https://p5js.org/learn/debugging.html>.
 
-[^nyu]: A tutorial on Image Processing in p5.js, see <https://idmnyu.github.io/p5.js-image/>
+[^nyu]: A tutorial on Image Processing in p5.js, see <https://idmnyu.github.io/p5.js-image/>.
 
-[^key]: To request an API key from other image-related platforms, such as Giphy and Pexels, see <https://support.giphy.com/hc/en-us/articles/360020283431-Request-A-GIPHY-API-Key> and <https://www.pexels.com/api/>
+[^key]: To request an API key from other image-related platforms, such as Giphy and Pexels, see <https://support.giphy.com/hc/en-us/articles/360020283431-Request-A-GIPHY-API-Key> and <https://www.pexels.com/api/>.
 
-[^Oauth]: For those APIs that require the OAuth 2.0 authorization, a standard protocol for authorization, you might need [Node.js](https://nodejs.org/en/) to handle the server-client authentication. At the beginner level, it is recommended to look for web APIs with the registration of API keys. See what Node is [here](https://www.youtube.com/watch?v=RF5_MPSNAtU&index=1&list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV), for 15.1 and 15.2, and the OAuth 2.0 Authorization Framework that is proposed by Internet Engineering Task Force in 2012 [here](https://tools.ietf.org/html/rfc6749).
+[^Oauth]: For those APIs that require the OAuth 2.0 authorization, a standard protocol for authorization, you might need Node.js (<https://nodejs.org/en/>) to handle the server-client authentication. At the beginner level, it is recommended to look for web APIs with the registration of API keys. See what Node is for 15.1 and 15.2 (<https://www.youtube.com/watch?v=RF5_MPSNAtU&index=1&list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV>), and the OAuth 2.0 Authorization Framework that is proposed by Internet Engineering Task Force in 2012 (<https://tools.ietf.org/html/rfc6749>).
 
 [^eckhardt]: Such break down of an image into color scale pixels was also used in Electronic television transmission in the mid-1930s, but such data was sent manually by a telegraph operator via the medium of Wire or Radio instead. See George H, Eckhardt, *Electronic television* (Chicago: Goodheart-Willcox Company, Incorporated, 1936), 48-50.
