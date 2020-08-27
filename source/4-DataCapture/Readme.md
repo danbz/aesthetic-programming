@@ -367,7 +367,7 @@ This line of argument makes reference to the philosophy of Gilbert Simondon, to 
 
 - LAUREN by Lauren McCarthy (2017), <http://lauren-mccarthy.com/LAUREN>.
 - *nonsense* by Winnie Soon (2015), (read the comment in the source code for this project's intentions), <http://siusoon.net/nonsense/>. 
-- *Facebook Demetricator* by Benjamin Grosser (2012), <https://bengrosser.com/projects/facebook-demetricator/>, and subsequent *Instagram Demetricator*, <https://bengrosser.com/projects/instagram-demetricator/> or *Twitter Demetricator*, <https://bengrosser.com/projects/twitter-demetricator/>. 
+- *Facebook Demetricator* by Benjamin Grosser (2012-present), <https://bengrosser.com/projects/facebook-demetricator/>, and subsequent *Instagram Demetricator*, <https://bengrosser.com/projects/instagram-demetricator/> or *Twitter Demetricator*, <https://bengrosser.com/projects/twitter-demetricator/>. 
 
 **Tasks (RunMe):**
 
@@ -385,9 +385,9 @@ This line of argument makes reference to the philosophy of Gilbert Simondon, to 
 ## Required reading
 
 - Carolin Gerlitz and Anne Helmond, "The Like Economy: Social Buttons and the Data-Intensive Web," *New Media & Society* 15, no. 8, December 1 (2013): 1348–65.
-- p5.js examples - Interactivity 1, <https://p5js.org/examples/hello-p5-interactivity-1.html>.
-- p5.js examples - Interactivity 2, <https://p5js.org/examples/hello-p5-interactivity-2.html>.
-- p5 DOM reference, <https://p5js.org/reference/#group-DOM>.
+- "p5.js examples - Interactivity 1," <https://p5js.org/examples/hello-p5-interactivity-1.html>.
+- "p5.js examples - Interactivity 2," <https://p5js.org/examples/hello-p5-interactivity-2.html>.
+- "p5 DOM reference," <https://p5js.org/reference/#group-DOM>.
 - Shoshana Zuboff, "Shoshana Zuboff on Surveillance Capitalism | VPRO Documentary," <https://youtu.be/hIXhnWUmMvw>.
 
 ## Further reading
