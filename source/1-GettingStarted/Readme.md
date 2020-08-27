@@ -210,7 +210,7 @@ Make a RunMe and a ReadMe.
 
 **For additional inspiration:**
 
-- *Daily sketch in Processing* by Saskia Freeke, <https://twitter.com/sasj_nl> (and her talk can be found at <https://www.youtube.com/watch?v=nBtGpEZ0-EQ&fbclid=IwAR119xLXt4nNiqpimIMWBlFHz9gJNdJyUgNwreRhIbdJMPPVx6tq7krd0ww>); *All the Daily Things* by Saskia Freeke (2018), <https://vimeo.com/309138645>.
+- *Daily Sketch in Processing* by Saskia Freeke, <https://twitter.com/sasj_nl> (and her talk can be found at <https://www.youtube.com/watch?v=nBtGpEZ0-EQ&fbclid=IwAR119xLXt4nNiqpimIMWBlFHz9gJNdJyUgNwreRhIbdJMPPVx6tq7krd0ww>); *All the Daily Things* by Saskia Freeke (2018), <https://vimeo.com/309138645>.
 - Zach Lieberman's Instagram page, <https://www.instagram.com/zach.lieberman/>.
 - Basics in OpenProcessing, <https://www.openprocessing.org/browse/?q=basics&time=anytime&type=all#>.
 - Creative Coding with Processing and p5.js, <https://www.facebook.com/groups/creativecodingp5/>.
@@ -233,7 +233,7 @@ Make a RunMe and a ReadMe.
 
 - Lauren McCarthy, *Learning While Making p5.js*, *OPENVIS* Conference (2015), <https://www.youtube.com/watch?v=1k3X4DLDHdc>.
 - Nick Montfort, "Appendix A: Why Program?" *Exploratory Programming For the Arts and Humanities* (Cambridge, Mass.: MIT Press, 2016), 267-277.
-- *p5.js | get started*, <https://p5js.org/get-started/>.
+- p5.js | get started, <https://p5js.org/get-started/>.
 - Daniel Shiffman, *1.1: Code! Programming with p5.js* (2018), <https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2>.
 - Annette Vee, "Coding for Everyone and the Legacy of Mass Literacy," in *Coding Literacy: How Computer Programming Is Changing Writing* (Cambridge, MA: MIT Press, 2017), 43-93.
 
