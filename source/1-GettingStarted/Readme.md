@@ -211,13 +211,13 @@ Make a RunMe and a ReadMe.
 **For additional inspiration:**
 
 - [Daily sketch in Processing](https://twitter.com/sasj_nl) by Saskia Freeke, and her talk can be found [here](https://www.youtube.com/watch?v=nBtGpEZ0-EQ&fbclid=IwAR119xLXt4nNiqpimIMWBlFHz9gJNdJyUgNwreRhIbdJMPPVx6tq7krd0ww); [All the Daily Things](https://vimeo.com/309138645) by Saskia Freeke (2018).
-- [Zach Lieberman](https://www.instagram.com/zach.lieberman/).
+- [Zach Lieberman's Instagram page](https://www.instagram.com/zach.lieberman/).
 - [Basics in OpenProcessing](https://www.openprocessing.org/browse/?q=basics&time=anytime&type=all#).
-- [Creative Coding with Processing and P5.JS](https://www.facebook.com/groups/creativecodingp5/).
+- [Creative Coding with Processing and p5.js](https://www.facebook.com/groups/creativecodingp5/).
 
 **Task (RunMe):**
 
-1. Study at least one example of syntax from p5.js' [reference](https://p5js.org/reference/) (Of course, it is always good to know more than one. Be curious!)
+1. Study at least one example of syntax from the [p5.js reference site](https://p5js.org/reference/) (Of course, it is always good to know more than one. Be curious!)
 2. Familiarize yourself with the reference structure: examples, descriptions, various pieces of syntax and parameters (This knowledge will give you an essential, life-long skill for learning new syntax on your own).
 3. Use, read, modify (or even combine) the sample code that you find (the most basic level is changing the numbers), and produce a new sketch as a RunMe.
 
@@ -231,11 +231,11 @@ Make a RunMe and a ReadMe.
 
 ## Required reading
 
-- Lauren McCarthy, [Learning While Making P5.JS](https://www.youtube.com/watch?v=1k3X4DLDHdc), *OPENVIS* Conference (2015).
+- Lauren McCarthy, [Learning While Making p5.js](https://www.youtube.com/watch?v=1k3X4DLDHdc), *OPENVIS* Conference (2015).
 - Nick Montfort, "Appendix A: Why Program?" *Exploratory Programming For the Arts and Humanities* (Cambridge, Mass.: MIT Press, 2016), 267-277.
 - *p5.js. p5.js | get started*, <https://p5js.org/get-started/>.
 - Daniel Shiffman, *1.1: Code! Programming with p5.js* (2018), <https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2>.
-- Annette Vee, "Coding for Everyone and the Legacy of Mass Literacy," in *Coding Literacy: How Computer Programming Is Changing Writing* Cambridge, MA: MIT Press, 2017), 43-93.
+- Annette Vee, "Coding for Everyone and the Legacy of Mass Literacy," in *Coding Literacy: How Computer Programming Is Changing Writing* (Cambridge, MA: MIT Press, 2017), 43-93.
 
 ## Further reading
 
