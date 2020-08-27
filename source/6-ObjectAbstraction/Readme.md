@@ -494,12 +494,12 @@ If we apply this to a computational object and its abstraction (the identificati
 
 **For additional inspiration**
 
-- *p5.js - Array Objects*, <https://p5js.org/examples/arrays-array-objects.html>.
+- "p5.js - Array Objects," <https://p5js.org/examples/arrays-array-objects.html>.
 - *daily coding* by Tomokazu Nagayama (2020), <https://twitter.com/nagayama/status/1246086230497845250?s=19>, with source code: <https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html>.
 - *Eat Food Not Bombs* by Ben Grosser (2019), <https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI>.
 - *lifeline* by Junichiro Horikawa (2020), <https://www.openprocessing.org/sketch/891619>. 
-- *p5.js coding challenge #31: Flappy Bird* by Daniel Shiffman, <https://www.youtube.com/watch?v=cXgA1d_E-jY>.
-- *p5.js coding challenge #3: The Snake Game* by Daniel Shiffman, <https://www.youtube.com/watch?v=AaGK-fj-BAM>.
+- "p5.js coding challenge #31: Flappy Bird" by Daniel Shiffman, <https://www.youtube.com/watch?v=cXgA1d_E-jY>.
+- "p5.js coding challenge #3: The Snake Game" by Daniel Shiffman, <https://www.youtube.com/watch?v=AaGK-fj-BAM>.
 
 **Tasks (RunMe)**
 
