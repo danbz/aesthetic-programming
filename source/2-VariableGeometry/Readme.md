@@ -32,7 +32,7 @@ Our point is that using emojis may be fun and expressive, but they also tend to 
 ![](ch2_2.gif)
 :   *Figure 2.2: The screenshot of the remix of Multi*
 
-[RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch2_VariableGeometry/)
+RunMe, <https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch2_VariableGeometry/>.
 
 <div class="exec" data-linenostart="1" markdown="true">
 
@@ -116,7 +116,7 @@ Remember the structure of a web page/application should include the HTML, a work
 - Type/copy the above source code in the working JavaScript file, then save the code. Run the program on ATOM (with the live-atom-server) and, on screen, the background should flash.
 - There are few new examples of syntax, or a slightly different use of syntax, here:
     - `frameRate()`: This sets the number of frames per second that the computer will use when running the program. The default is 60 and this sets it to 15, so you can see the background color for each frame quite clearly (you can also compare the flash rate to the sample code in the previous chapter).
-    - `random(230,240)`: In the earlier sample code, the function `random()` only took a single parameter. This sample code gives you a different use of the function with two parameters. If you look at the [reference guide](https://p5js.org/reference/#/p5/random),[^random] it explains that the random function returns a floating-point number, and this means that the number is not an integer, but a number with decimals. In this case, the program will return a floating-point number between 230.0 and up to, but not including, 240.0. An example of such a returned value would be 231.34387.
+    - `random(230,240)`: In the earlier sample code, the function `random()` only took a single parameter. This sample code gives you a different use of the function with two parameters. If you look at the reference guide (<https://p5js.org/reference/#/p5/random>),[^random] it explains that the random function returns a floating-point number, and this means that the number is not an integer, but a number with decimals. In this case, the program will return a floating-point number between 230.0 and up to, but not including, 240.0. An example of such a returned value would be 231.34387.
 - Next you need to remember how to use the web console (Under Tools > Web Developer > Web Console).
     - Type `print(width);` and then press enter.
     - Type `console.log(width, height);` and then press enter.
@@ -161,7 +161,7 @@ There are certain rules to follow in naming variables:
     - *number* for numbers of any kind: integer or floating-point.
     - *string* for strings. A string may have one or more characters and it has to be used with double or single quotation marks. For example: `let moving_size = "sixty";`
     - *boolean* for true/false. For example: `let moving_size = true;`
-    - *color* for color values. This accepts Red, Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` (see more from the [p5.js color reference](https://p5js.org/reference/#/p5/color)[^color]
+    - *color* for color values. This accepts Red, Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` see more from the "p5.js color reference" (<https://p5js.org/reference/#/p5/color>).[^color]
 
 3. **(Re)Use:** How and when do you want to retrieve the stored data? If the variable changes over time, you may wish to reuse it many times.
 
@@ -294,9 +294,9 @@ print("hello" + "world");
 
 ## Discussion in class
 
-1. Examine [existing emojis](https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg) or those available on your mobile phone, and reflect upon the complexity of human emotions, and their caricatures. What is your experience using emojis? What are the cultural and political implications of emojis (you might refer to the reading and introduction above)?
+1. Examine existing emojis (<https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg>) or those available on your mobile phone, and reflect upon the complexity of human emotions, and their caricatures. What is your experience using emojis? What are the cultural and political implications of emojis (you might refer to the reading and introduction above)?
 2. Discuss: what constitutes a face? What essential elements do you need for a particular facial expression, and why? What has been lost in translation?
-3. Beyond the face, take a look at [more emojis](https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/).[^emojis2] Is there anything you want to add?
+3. Beyond the face, take a look at more emojis (<https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/>).[^emojis2] Is there anything you want to add?
 4. Experiment with p5.js. How do you translate your thoughts into lines of code? You may want to print the coordinates of the mouse press in the web console area to get a more accurate position for your shapes.
 
 ## While()
@@ -366,7 +366,7 @@ Explore shapes, geometries, and other related syntax (via p5.js references) and 
 
 [^Femke]: Femke Snelting, "Other Geometries," *transmediale journal* 3 (October 31, 2019, <https://transmediale.de/content/other-geometries>.
 
-[^Emojis]: Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, "[Modifying the Universal](http://www.data-browser.net/db06.html)," *Executing Practices*, Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, eds. (London: Open Humanities Press, 2018), 35-51. Alternatively, Femke Snelting has a lecture video in 1 hr 15 mins on the similar topic, see <https://www.youtube.com/watch?v=ZP2bQ_4Q7DY>. Other references include: Crystal Abidin and Joel Gn, "Between Art and Application: Special Issue on Emoji Epistemology," *First Monday* 23, no. 9 (September 3, 2018); Luke Stark, "Facial recognition, emotion and race in animated social media," *First Monday* 23, no. 9 (September 2018), 3; Miriam E Sweeney and Kelsea Whaley, "Technically White: Emoji Skin-tone Modifiers as American Technoculture," *First Monday* 24, no. 7 (1 July 1, 2019).
+[^Emojis]: Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, "Modifying the Universal," *Executing Practices*, Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, eds. (London: Open Humanities Press, 2018), 35-51, <http://www.data-browser.net/db06.html>. Alternatively, Femke Snelting has a lecture video in 1 hr 15 mins on the similar topic, see <https://www.youtube.com/watch?v=ZP2bQ_4Q7DY>. Other references include: Crystal Abidin and Joel Gn, "Between Art and Application: Special Issue on Emoji Epistemology," *First Monday* 23, no. 9 (September 3, 2018); Luke Stark, "Facial recognition, emotion and race in animated social media," *First Monday* 23, no. 9 (September 2018), 3; Miriam E Sweeney and Kelsea Whaley, "Technically White: Emoji Skin-tone Modifiers as American Technoculture," *First Monday* 24, no. 7 (1 July 1, 2019).
 
 [^Unicode]: See <https://en.wikipedia.org/wiki/Unicode#Origin_and_development>.
 
