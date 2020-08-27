@@ -163,7 +163,7 @@ We use %Git% both to write this book as well as teach. Git is an open source sof
 
 GitLab is an open source, web-based, Git repository platform that hosts software libraries and source code contributed by software developers. GitLab is also a social platform, where people can leave comments, follow other software development processes, fork the whole program into their own repository, and so on. All this book's content, including the readme files, source code and libraries are stored on the GitLab platform under a creative commons license, giving other people the rights to share, use and build upon this work. We imagine this is just the first iteration of this book and we hope to see many re-appropriations and forks of the entire book, so people can use the existing framework to make modifications, such as adding new chapters, examples and exercises, as well as more related content and references that facilitate the interactions between programming and thinking.
 
-For simplicity's sake, we use GitLab's web interface for some of our writing and teaching, and for students to hand-in their weekly RunMe[^runme] and README[^readme] files. We also use GitLab for peer feedback so that students can read and learn from eachother's work.
+For simplicity's sake, we use GitLab's web interface for some of our writing and teaching, and for students to hand-in their weekly RunMe[^runme] and ReadMe[^readme] files. We also use GitLab for peer feedback so that students can read and learn from eachother's work.
 
 ![gitlab](ch1_12.png)
 :   *Figure 1.12: Create a new project with the GitLab web interface*
