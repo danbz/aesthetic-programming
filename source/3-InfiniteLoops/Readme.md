@@ -454,13 +454,12 @@ Referencing Martin Heidegger’s "being-in-time,"[^Heidegger] and human beings' 
 
 Check out other works that refer to the throbber and how other people contextualize their thinking:  
 
-- [Tanabata(七夕)](https://www.openprocessing.org/sketch/926326) by Yurika Sayo (with source code).
-- [LOADING (THE BEAST 6:66/20:09)](https://www.yugo.at/processing/archive/index.php?what=loading) by Gordan Savičić.
-- [The Best is Yet to Come](https://silviolorusso.com/work/the-best-is-yet-to-come/) by Silvio Lorusso, preloaders follow one another randomly and endlessly.
-- [DVD guy by Constant Dullaart](https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB), with the contextualization by Panke Gallery in Berlin <http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin>.
-- [Throb 2018/2019](http://siusoon.net/throb/) by Winnie Soon.
-- *Asterisk Painting* by John P. Bell, ported to p5.js, and modified by Winnie Soon, <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
-
+- *Tanabata(七夕)* by Yurika Sayo (n.d.), with source code, <https://www.openprocessing.org/sketch/926326>.
+- *LOADING (THE BEAST 6:66/20:09)* by Gordan Savičić (2009), <https://www.yugo.at/processing/archive/index.php?what=loading>.
+- *The Best is Yet to Come* by Silvio Lorusso (2012), preloaders follow one another randomly and endlessly, <https://silviolorusso.com/work/the-best-is-yet-to-come/>.
+- *DVD guy* by Constant Dullaart (2009), <https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB>, with the contextualization by Panke Gallery in Berlin, <http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin>.
+- *Throb* by Winnie Soon (2018-19), <http://siusoon.net/throb/>. 
+- *Asterisk Painting* by John P. Bell (n.d.), ported to p5.js, and modified by Winnie Soon (2019), <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
 
 **Task (RunMe):**
 
@@ -477,13 +476,13 @@ Check out other works that refer to the throbber and how other people contextual
 ## Required reading
 
 - Wolfgang Ernst, “‘... Else Loop Forever’: The Untimeliness of Media,” (2009), https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf.
-- Daniel Shiffman, Courses "3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2," *Code! Programming with p5.js* on [YouTube](https://www.youtube.com/watch?v=1Osb_iGDdjk) (2018). (practical usage on conditional statements, loops, functions, and arrays)
+- Daniel Shiffman, Courses 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2, *Code! Programming with p5.js*, YouTube, <https://www.youtube.com/watch?v=1Osb_iGDdjk> (2018). (practical usage on conditional statements, loops, functions, and arrays)
 - Winnie Soon, “Throbber: Executing Micro-temporal Streams,” *Computational Culture* 7, October 21 (2019), http://computationalculture.net/throbber-executing-micro-temporal-streams/.
 
 ## Further reading
 
 - Wolfgang Ernst, *Chronopoetics: The Temporal Being and Operativity of Technological Media* (London: Rowman & Littlefield International, 2016), 63-95.
-- Jason Farman, "[Fidget Spinners](https://reallifemag.com/fidget-spinners/#!)," *Real Life* (2017).
+- Jason Farman, "Fidget Spinners," *Real Life* (2017), <https://reallifemag.com/fidget-spinners/#!>.
 -	Wilfried Hou Je Bek, "Loop," in Fuller, ed., *Software Studies*.
 - Derek Robinson, "Function," in Fuller, ed., *Software Studies*.
 
