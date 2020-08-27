@@ -210,7 +210,7 @@ Make a RunMe and a ReadMe.
 
 **For additional inspiration:**
 
-- *Daily sketch in Processing* by Saskia Freeke, <https://twitter.com/sasj_nl> and her talk can be found at <https://www.youtube.com/watch?v=nBtGpEZ0-EQ&fbclid=IwAR119xLXt4nNiqpimIMWBlFHz9gJNdJyUgNwreRhIbdJMPPVx6tq7krd0ww>; *All the Daily Things* by Saskia Freeke (2018), <https://vimeo.com/309138645>.
+- *Daily sketch in Processing* by Saskia Freeke, <https://twitter.com/sasj_nl> (and her talk can be found at <https://www.youtube.com/watch?v=nBtGpEZ0-EQ&fbclid=IwAR119xLXt4nNiqpimIMWBlFHz9gJNdJyUgNwreRhIbdJMPPVx6tq7krd0ww>); *All the Daily Things* by Saskia Freeke (2018), <https://vimeo.com/309138645>.
 - Zach Lieberman's Instagram page, <https://www.instagram.com/zach.lieberman/>.
 - Basics in OpenProcessing, <https://www.openprocessing.org/browse/?q=basics&time=anytime&type=all#>.
 - Creative Coding with Processing and p5.js, <https://www.facebook.com/groups/creativecodingp5/>.
