@@ -5,7 +5,7 @@ page_order: 13
 
 - “A hackable text editor for the 21st Century.” Atom. <https://atom.io/>.
 - “atom-live-server-package.” Atom. <https://atom.io/packages/atom-live-server>.
-- Bell, John. *Asterisk Painting*. <http://www.johnpbell.com/asterisk-painting/>.
+- Bell, John P. *Asterisk Painting*. n.d. <http://www.johnpbell.com/asterisk-painting/>.
 - Blas, Zach. *Facial Weaponization Suite*. 2011-14. <http://www.zachblas.info/works/facial-weaponization-suite/>.
 - Bouse, Brad. "Solving Sol." Last updated July 14, 2020. <https://github.com/wholepixel/solving-sol>.
 - Breeze, Mez. *MEZANGELLE*. 1994 – Ongoing. <https://anthology.rhizome.org/mez-breeze>.
@@ -76,7 +76,7 @@ page_order: 13
 - Reinfurt, David, *Multi*. O-R-G inc.. <http://www.o-r-g.com/apps/multi>.
 - Rozendaal, Rafaël. *Sleep Mode: The Art of the Screensaver*. Het Nieuwe Instituut, Rotterdam. 2017. <https://hetnieuweinstituut.nl/en/press-releases/sleep-mode-art-screensaver>.
 - Runme.org. <http://runme.org/>.
-- Sayo, Yurika (@sayo), *Tanabata(七夕)*. Open Processing. <https://www.openprocessing.org/sketch/926326>.
+- Sayo, Yurika (@sayo), *Tanabata(七夕)*. Open Processing. n.d. <https://www.openprocessing.org/sketch/926326>.
 - Savičić, Gordan. *LOADING (THE BEAST 6:66/20:09)*. October 2009. <https://www.yugo.at/processing/archive/index.php?what=loading>.
 - School for Poetic Computation. <https://sfpc.io/>.
 - Shi, Yining. “p5.playground: an Interactive Programming Tool for p5.js.” 2016. <https://1023.io/p5-inspector/>.
