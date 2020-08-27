@@ -494,20 +494,20 @@ If we apply this to a computational object and its abstraction (the identificati
 
 **For additional inspiration**
 
-- [p5.js - Array Objects](https://p5js.org/examples/arrays-array-objects.html)
-- [daily coding ](https://twitter.com/nagayama/status/1246086230497845250?s=19) by Tomokazu Nagayama, with source code: <https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html>
-- [Eat Food Not Bombs by Ben Grosser](https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI)
-- [lifeline (2020)](https://www.openprocessing.org/sketch/891619) by Junichiro Horikawa
-- [p5.js coding challenge #31: Flappy Bird by Daniel Shiffman](https://www.youtube.com/watch?v=cXgA1d_E-jY)
-- [p5.js coding challenge #3: The Snake Game by Daniel Shiffman](https://www.youtube.com/watch?v=AaGK-fj-BAM)
+- *p5.js - Array Objects*, <https://p5js.org/examples/arrays-array-objects.html>.
+- *daily coding* by Tomokazu Nagayama (2020), <https://twitter.com/nagayama/status/1246086230497845250?s=19>, with source code: <https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html>.
+- *Eat Food Not Bombs* by Ben Grosser (2019), <https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI>.
+- *lifeline* by Junichiro Horikawa (2020), <https://www.openprocessing.org/sketch/891619>. 
+- *p5.js coding challenge #31: Flappy Bird* by Daniel Shiffman, <https://www.youtube.com/watch?v=cXgA1d_E-jY>.
+- *p5.js coding challenge #3: The Snake Game* by Daniel Shiffman, <https://www.youtube.com/watch?v=AaGK-fj-BAM>.
 
-**Tasks (RUNME)**
+**Tasks (RunMe)**
 
 Think of a simple game that you want to design and implement. Which objects are required? What are their properties and methods? At the most basic level, you need to use a class-based object-oriented approach to design your game components. These can exhibit certain behaviors which means you need to at least have a class, a constructor, and a method.
 
 Once you understand objects and classes, you can continue to work on a mini game implementing interaction with objects. Start with something simple in terms of thinking or reappropriating the rules, interactions and checking steps. The *Eating tofu* sample code and other games that mentioned above are useful for practicing building the logics and combining smaller steps.
 
-**Questions to think about (README):**
+**Questions to think about (ReadMe):**
 
 - **Describe** how does/do your game/game objects work?
 - **Describe** how you program the objects and their related attributes, and the methods in your game.
@@ -518,8 +518,8 @@ Once you understand objects and classes, you can continue to work on a mini game
 ## Required reading
 
 - Matthew Fuller and Andrew Goffey, "The Obscure Objects of Object Orientation," in Matthew Fuller, *How to be a Geek: Essays on the Culture of Software* (Cambridge: Polity, 2017).
-- [p5.js examples - Objects](https://p5js.org/examples/objects-objects.html).
-- [p5.js examples - Array of Objects](https://p5js.org/examples/objects-array-of-objects.html).
+- "p5.js examples - Objects," <https://p5js.org/examples/objects-objects.html>.
+- "p5.js examples - Array of Objects," <https://p5js.org/examples/objects-array-of-objects.html>.
 - Daniel Shiffman, "Code! Programming with p5.js," *The Coding Train* (watch: 2.3, 6.1, 6.2, 6.3, 7.1, 7.2, 7.3), <https://www.youtube.com/watch?v=8j0UDiN7my4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA>.
 - Daniel Shiffman, "Multiple js Files - p5.js Tutorial," *The Coding Train*, <https://www.youtube.com/watch?v=Yk18ZKvXBj4>.
 
@@ -527,12 +527,12 @@ Once you understand objects and classes, you can continue to work on a mini game
 
 - Cecile Crutzen and Erna Kotkamp, "Object Orientation," in Fuller, ed., *Software Studies*, 200-207.
 - Roger Y. Lee, "Object-Oriented Concepts," in *Software Engineering: A Hands-On Approach* (Springer, 2013), 17-24, 35-37.
-- Daniel Shiffman, [16.17 Inheritance in JavaScript - Topics of JavaScript/ES6](https://www.youtube.com/watch?v=MfxBfRD0FVU&feature=youtu.be&fbclid=IwAR14JwOuRnCXYUIKV7DxML3ORwPIttOPPKhqTCKehbq4EcxbtdZDXJDr4b0)
-- Andrew P. Black, [Object-Oriented Programming: Some history, and challenges for the next fifty years](https://arxiv.org/abs/1303.0427),(2013).
+- Daniel Shiffman, "16.17 Inheritance in JavaScript - Topics of JavaScript/ES6," <https://www.youtube.com/watch?v=MfxBfRD0FVU&feature=youtu.be&fbclid=IwAR14JwOuRnCXYUIKV7DxML3ORwPIttOPPKhqTCKehbq4EcxbtdZDXJDr4b0>.
+- Andrew P. Black, "Object-Oriented Programming: Some history, and challenges for the next fifty years" (2013), <https://arxiv.org/abs/1303.0427>.
 
 ## Notes:
 
-[^history]: Simula, developed in the 1960s by Ole-Johan Dahl and Kristen Nygaard at the Norwegian Computing Center in Oslo, is considered to be the first object-oriented programming language. Smalltalk, first developed for educational use at Xerox Corporation's Palo Alto Research Center in the late 1960s and released in 1972, is cited more often. For more on the history of object-oriented programming languages, see Ole-Johan Dahl, [The Birth of Object Orientation: the Simula Languages](https://link.springer.com/chapter/10.1007/978-3-540-39993-3_3). *Object-Orientation to Formal Methods*, Olaf Owe, Stein Krogdahl, Tom Lyche, eds., *Lecture Notes in Computer Science* 2635 (Berlin/Heidelberg: Springer, 2004).
+[^history]: Simula, developed in the 1960s by Ole-Johan Dahl and Kristen Nygaard at the Norwegian Computing Center in Oslo, is considered to be the first object-oriented programming language. Smalltalk, first developed for educational use at Xerox Corporation's Palo Alto Research Center in the late 1960s and released in 1972, is cited more often. For more on the history of object-oriented programming languages, see Ole-Johan Dahl, "The Birth of Object Orientation: the Simula Languages," *Object-Orientation to Formal Methods*, Olaf Owe, Stein Krogdahl, Tom Lyche, eds., *Lecture Notes in Computer Science* 2635 (Berlin/Heidelberg: Springer, 2004), <https://link.springer.com/chapter/10.1007/978-3-540-39993-3_3>. 
 [^Fazi]: Beatrice M. Fazi and Matthew Fuller, "Computational Aesthetics," in Christiane Paul, ed., *A Companion to Digital Art* (Hoboken, NJ: Wiley Blackwell, 2016), 281-296.
 [^Fuller]: Matthew Fuller & Andrew Goffey, "The Obscure Objects of Object Orientation," in Matthew Fuller, ed., *How to be a Geek: Essays on the Culture of Software* (Cambridge: Polity, 2017).
 [^binary]: Limor Fried & Federico Gomez Suarez (n.d), "Binary & Data," Khan Academy. Available at <https://www.khanacademy.org/computing/computer-science/how-computers-work2/v/khan-academy-and-codeorg-binary-data>.
