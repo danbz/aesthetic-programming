@@ -329,6 +329,8 @@ The challenge is to rethink normative geometries, to turn them upside down and i
 **For additional inspiration:**
 
 - *AIMoji* by Process Studio (2019), <https://process.studio/works/aimoji-ai-generated-emoji/>, and as part of "Uncanny Values," Vienna Biennale (2019), <https://process.studio/works/uncanny-values/>.
+
+Some articles on emoji culture:
 - Steve Witt, "Chinese Characters as Ancient 'Emoji'," *Glocal Notes* (2015), <https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/>.
 - Michael Grothaus, "Women Finally Get a Menstruation Emoji," *Fastcompany* (2019), <https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji>.
 
@@ -345,7 +347,7 @@ Explore shapes, geometries, and other related syntax (via p5.js references) and 
 
 - Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, "Modifying the Universal," in Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, eds., *Executing Practices* (London: Open Humanities Press, 2018), 35-51, <http://www.data-browser.net/db06.html>.
 - p5.js | Simple Shapes, <https://p5js.org/examples/hello-p5-simple-shapes.html>.
-- Shiffman, Daniel. (2018) "1.3,1.4,2.1,2.2: Code! Programming with p5.js," <https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2>.
+- Daniel Shiffman, "1.3,1.4,2.1,2.2: Code! Programming with p5.js," (2018) <https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2>.
 - Femke Snelting, "Other Geometries," *transmediale journal* 3, October 31 (2019), <https://transmediale.de/content/other-geometries>.
 
 ## Further reading
