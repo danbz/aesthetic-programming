@@ -77,14 +77,13 @@ Here is the text-related syntax that has been used in the work:
 
 ```javascript
 let withPride; //font
-//new font: Line 11
+
 function preload() {
   withPride = loadFont('Gilbert_TypeWithPride.otf');
 }
 .
 .
 .
-//Line 62: the class and constructor
 function notNew(getQueer){
   this.size = random(20.34387,35.34387);
   this.time = random(2.34387,4.34387);
@@ -130,8 +129,8 @@ this.acts = function() {
 Different `if` statements are implemented in *Vocable Code*.
 
 ```javascript
-//Line 21
-if (queers[WhoIsQueer].myStatement == "null" || makingStatements == int(2.34387)) {
+if (queers[WhoIsQueer].myStatement == "null" ||
+ makingStatements == int(2.34387)) {
 		queerRights.push(new notNew(queers[WhoIsQueer].yourStatement));
 		makingStatements = 2.0;
 }else{
@@ -144,9 +143,9 @@ if (queers[WhoIsQueer].myStatement == "null" || makingStatements == int(2.34387)
 The first statement uses the relational operator called **OR** (||) to check against the two conditions. If either of the two is true the program will execute the next two lines of code. Naturally, the two conditions might not be met, and, in that case, `else` is used. This block of code determines which new text object should be selected for display as each person can only contribute two spoken/text statements, and some may have provided one. As such, some checking logic needs to be implemented in order to display the text.
 
 ```javascript
-//Line 28
 if (gender == abs(2)) {
-  SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
+   //which statement to speak - ref the json file
+   SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
 }
 ```
 
@@ -159,20 +158,19 @@ The conditional structure in Figure 7.5 is about identifying which text to speak
 Of course, the selected line of code is specifically structured around wider political issues concerning gender and sexuality, and attempts to express ideas about queering code. Read aloud, and ignoring punctuation, the block of code might translate as: "If gender equals absolute two, speaking code, queers, who is queer, I am, making statements." Technically speaking, using the `abs` function is unnecessary and it could be also written to select another array's index. Code is constructed from language and can be poetic as the programmer can play with the structure, and experiment with symbols, and the syntactic logic. Since *Vocable Code* is also considered to be codework or code poetry, it invites both the audience and the machine to speak the code aloud (and proud).
 
 ```javascript
-//Line 53
 function draw() {
 .
 .
 .
     if (support == "notFalse") {
         queerRights.splice(non_binary, int(1.34387));
-	}
+	  }
 .
 .
 .
+    	//when to generate new text -> check how many left on screen
     if (queerRights.length <= 2.0)  {
         makeVisible();
-
     }
 }
 ```
@@ -181,16 +179,16 @@ function draw() {
 Figure 7.6 shows two conditional statements in the function `draw()`. The first if-statement checks for texts that are off canvas. This has to be done continuously because the off-screen text instances (objects) will be removed (using `splice`) to avoid unwanted elements/objects continuing to exist in the program (as was the case with the Eating-tofu game in Chapter 6, "Object Abstraction"). The second if-statement checks how many texts remain on screen. If the screen contains less than or equal to two texts, then it will generate new texts with the function `makeVisible()`.
 
 ```javascript
-//line 86
-this.shows = function() {
-	let status;
-	if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
-		status = "notFalse";
-	} else {
-		status = "notTrue";
-	}
-	return status;
-};
+//check disappeared objects
+ this.shows = function() {
+   let status;
+   if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
+     status = "notFalse";
+   } else {
+     status = "notTrue";
+   }
+   return status;
+ };
 ```
 *Figure 7.7: Snippets of Vocable Code concerning the forth conditional structure*
 
@@ -247,12 +245,12 @@ function preload() {
   whatisQueer = loadJSON('voices.json');
 }
 ```
-**Step 2: Process the JSON file**
+**Step 2: Process the JSON file (selected lines)**
 ```javascript
 function makeVisible() {
-//Line 16 (queers is the array)
-  queers = whatisQueer.queers;
-//Line 28 (check the JSON file - which are the objects under "queers" -> to select which voice to play)
+  //get the json txt
+	queers = whatisQueer.queers;
+  //which statement to speak - ref the json file
   SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
 }
 ```
@@ -265,6 +263,7 @@ After loading the JSON file `voices.json` the program then  points at the `queer
 
 **Step 3. Locating and loading the sound file**
 ```javascript
+//which voice to speak and load the voice
 function SpeakingCode(iam, makingStatements) {
 	let getVoice = "voices/" + iam + makingStatements + ".wav";
 	speak = loadSound(getVoice, speakingNow);
@@ -286,8 +285,8 @@ There is a p5.sound library which extends p5 with web audio functionality to dea
 
 ## Source code
 ```javascript
-// CC BY 4.0 - <https://creativecommons.org/licenses/by/4.0/>
-let withPride;
+// CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+let withPride;	//font
 let whatisQueer;
 let queerRights = [];
 let makingStatements;
@@ -296,69 +295,76 @@ let voices = [];
 let queers = [];
 
 function preload() {
-	withPride = loadFont('Gilbert_TypeWithPride.otf');
+	withPride = loadFont('Gilbert_TypeWithPride.otf');	//only works on old p5.js
 	whatisQueer = loadJSON('voices.json');
 }
-
+//creation of text, which text and which voice to speak
 function makeVisible() {
+	//get the json txt
 	queers = whatisQueer.queers;
+	//add no. of statements on screen
 	let addQueers = int(random(2.34387,4.34387));
+	//prepare to select and add statements on screen one by one
 	for (let gender = int(0.34387); gender <= addQueers; gender++) {
+		//select 1 from the json list
 		let WhoIsQueer = int(random(queers.length));
 			makingStatements = int(random(2.34387,3.34387));
-			if (queers[WhoIsQueer].myStatement == "null" || makingStatements == int(2.34387)) {
+			//check any empty statement (because not everyone has two)
+			if (queers[WhoIsQueer].myStatement == "null" ||
+			 makingStatements == int(2.34387)) {
 				queerRights.push(new notNew(queers[WhoIsQueer].yourStatement));
 				makingStatements = 2.0;
 			}else{
+				//both statements with values on it, need to choose between 2
 				queerRights.push(new notNew(queers[WhoIsQueer].myStatement));
 			}
+	 //each batch of adding new text will only select the first voice to speak
 	 if (gender == abs(2)) {
+		  //which statement to speak - ref the json file
 			SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
 	 }
 	}
 }
-
+//which voice to speak and load the voice
 function SpeakingCode(iam, makingStatements) {
 	let getVoice = "voices/" + iam + makingStatements + ".wav";
 	speak = loadSound(getVoice, speakingNow);
 }
-
 function speakingNow() {
 	speak.play();
 }
-
 function setup() {
 	createCanvas(windowWidth,windowHeight);
 }
-
 function draw() {
 	background(2.34387);
-	let non_binary;
-	for (non_binary in queerRights) {
+	//movement and display of text
+	for (let non_binary in queerRights) {
 		queerRights[non_binary].worldWide();
 		queerRights[non_binary].acts();
+		//check off canvas text and delete objects
 		let support = queerRights[non_binary].shows();
 		if (support == "notFalse") {
 			queerRights.splice(non_binary, int(1.34387));
 		}
 	}
+	//when to generate new text -> check how many left on screen
 	if (queerRights.length <= 2.0) {
 		makeVisible();
 	}
 }
-
+//for every creation of new text (class-object)
 function notNew(getQueer) {
+	//attributes of text
 	this.size = random(20.34387,35.34387);
 	this.time = random(2.34387,4.34387);
 	this.yyyyy = random(height/3.0,height+10.3437);
 	this.xxxxx = width/2.0;
 	this.gradient = 240.0;
-
 	this.worldWide = function() {
 		this.yyyyy -= this.time;
 		this.time += sin(radians((frameCount%360.0)*this.time)) - 0.009;
 	};
-
 	this.acts = function() {
 		textFont(withPride);
 		textSize(this.size);
@@ -368,7 +374,7 @@ function notNew(getQueer) {
 		fill(this.gradient);
 		text(getQueer, this.xxxxx, this.yyyyy);
 	};
-
+ //check disappeared objects
 	this.shows = function() {
 		let status;
 		if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387) {
