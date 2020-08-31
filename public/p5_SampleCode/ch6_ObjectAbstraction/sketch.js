@@ -1,8 +1,7 @@
-/*
-based on ES6 (class-based object oriented programming is introduced in ECMAScript 2015)
+/*based on ES6 (class-based object oriented programming is
+introduced in ECMAScript 2015)
 credit and inspiration:
-game scene: ToFu Go by Francis Lam; emoji: Multi by David Reinfurt
-*/
+game scene: ToFu Go by Francis Lam; emoji: Multi by David Reinfurt*/
 let pacmanSize = {
   w:86,
   h:89
@@ -52,7 +51,10 @@ function showTofu(){
 function checkEating() {
   //calculate the distance between each tofu
   for (let i = 0; i < tofu.length; i++) {
-    let d = int(dist(pacmanSize.w/2, pacPosY+pacmanSize.h/2, tofu[i].pos.x, tofu[i].pos.y));
+    let d = int(
+      dist(pacmanSize.w/2, pacPosY+pacmanSize.h/2,
+        tofu[i].pos.x, tofu[i].pos.y)
+      );
     if (d < pacmanSize.w/2.5) { //close enough as if eating the tofu
       score++;
       tofu.splice(i,1);
@@ -69,7 +71,8 @@ function displayScore() {
     text('You have eaten '+ score + " tofu(s)", 10, height/1.4);
     text('You have wasted ' + lose + " tofu(s)", 10, height/1.4+20);
     fill(keyColor,255);
-    text('PRESS the ARROW UP & DOWN key to eat the ToFu', 10, height/1.4+40)
+    text('PRESS the ARROW UP & DOWN key to eat the ToFu',
+    10, height/1.4+40);
 }
 
 function checkResult() {

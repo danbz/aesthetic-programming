@@ -1,5 +1,5 @@
-Title: 5. Object Abstraction
-page_order: 5
+Title: 6. Object Abstraction
+page_order: 6
 requirements: p5_SampleCode/ch6_ObjectAbstraction/Tofu.js
 sketch: p5_SampleCode/ch6_ObjectAbstraction/sketch.js
 download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch6_ObjectAbstraction
@@ -17,7 +17,7 @@ Abstraction is one of the key concepts of "Object-Oriented Programming" (OOP), a
 
 Indeed, abstraction exists in many different layers and at many different scales of computing. At the lowest level of abstraction, the flow of information is stored, processed, and represented in the form of binary (base 2 number system) numbers — 0s and 1s.[^binary] In other words, the way we understand all media formats (whether texts, images, video or sound) is quite different from how a computer understands them as data, or — more precisely — as binary numbers.[^color] In this way, we can move from low-level abstraction in the form of machine code and the switching of electric circuits to high-levels of abstraction such as graphical user interfaces or the high-level programming language p5.js that we use in the book which "allows the production of computer-enabled human-readable code."[^chun]
 
-Recognizing the various levels of abstraction is important to understanding that the specific details of how a computer actually works are largely hidden from view and/or substituted by desktop metaphors (e.g. deleting a file by throwing it in the bin). Naturally, the reduction in complexity is useful for a number of reasons including accessibility, but we also need to bear in mind that there is more at stake here. In learning to program, even at the higher level, we engage in the politics of this movement between abstract and concrete reality. More specifically, in this chapter, we will focus on object abstraction (an approach in OOP) to think conceptually about how computational objects model the world, and what this suggests in terms of an understanding of hidden layers of operation and meaning.
+Recognizing the various levels of abstraction is important to understanding that the specific details and processes of how a computer actually works are largely hidden from view and/or substituted by desktop metaphors (e.g. deleting a file by throwing it in the bin). Naturally, the reduction in complexity is useful for a number of reasons including accessibility, but we also need to bear in mind that there is more at stake here. In learning to program, even at the higher level, we engage in the politics of this movement between abstract and concrete reality. More specifically, in this chapter, we will focus on object abstraction (an approach in OOP) to think conceptually about how computational objects model the world, and what this suggests in terms of an understanding of hidden layers of operation and meaning.
 
 ## start()
 
@@ -100,8 +100,10 @@ Based on what you experience on the screen, describe:
 The source code is divided in two, one part with all the core functions, "sketch.js," and another "Tofu.js" that specifies the class/object relationship. Sometimes subdividing the program into various functions and files can help provide clarity. You can understand an additional JS file is just a continuation of your core sketch, therefore you don't have to repeatedly write `function setup()` or `function draw()` in the new files (when your programs become longer, and more complex, you might have more than two JS files to hold the program together). To enable the two JS files in a program, you need to add the following into the index.html file:
 
 ```html
-  <script language="javascript" type="text/javascript" src="sketch.js"></script>
-  <script language="javascript" type="text/javascript" src="Tofu.js"></script>
+  <script language="javascript" type="text/javascript" src="sketch.js">
+  </script>
+  <script language="javascript" type="text/javascript" src="Tofu.js">
+  </script>
 ```
 
 **sketch.js:**
@@ -156,8 +158,11 @@ function showTofu(){
 function checkEating() {
   //calculate the distance between each tofu
   for (let i = 0; i < tofu.length; i++) {
-    let d = int(dist(pacmanSize.w/2, pacPosY+pacmanSize.h/2, tofu[i].pos.x, tofu[i].pos.y));
-    if (d < pacmanSize.w/2.5) { //close enough to be eating the tofu
+    let d = int(
+      dist(pacmanSize.w/2, pacPosY+pacmanSize.h/2,
+        tofu[i].pos.x, tofu[i].pos.y)
+      );
+    if (d < pacmanSize.w/2.5) { //close enough as if eating the tofu
       score++;
       tofu.splice(i,1);
     }else if (tofu[i].pos.x < 3) { //pacman missed the tofu
@@ -173,14 +178,15 @@ function displayScore() {
     text('You have eaten '+ score + " tofu(s)", 10, height/1.4);
     text('You have wasted ' + lose + " tofu(s)", 10, height/1.4+20);
     fill(keyColor,255);
-    text('PRESS the ARROW UP & DOWN key to eat the ToFu', 10, height/1.4+40)
+    text('PRESS the ARROW UP & DOWN key to eat the ToFu',
+    10, height/1.4+40);
 }
 
 function checkResult() {
   if (lose > score && lose > 2) {
     fill(keyColor,255);
     textSize(26);
-    text("Too Much WASTAGE... GAME OVER", width/3, height/1.4);
+    text("Too Much WASTAGE...GAME OVER", width/3, height/1.4);
     noLoop();
   }
 }
@@ -202,48 +208,52 @@ function keyPressed() {
 **Tofu.js:**
 
 ```javascript
-class Tofu { //create a class: template/blueprint of objects with properties and behaviors
-    constructor()
-    { //initalize the objects
-    this.speed = floor(random(3,6));
-    this.pos = new createVector(width+5, random(12,height/1.7));  //check this feature: <https://p5js.org/reference/#/p5/createVector>
-    this.size = floor(random(15,35));
-    this.tofu_rotate = random(0,PI/20); //rotate clockwise for +ve no
-    this.emoji_size = this.size/1.8;
-    }
-  move() {  //moving behaviors
-    this.pos.x-=this.speed;  //i.e, this.pos.x = this.pos.x - this.speed;
-  }
-  show() { //show tofu as a cube
-    push()
-    translate(this.pos.x, this.pos.y);
-    rotate(this.tofu_rotate);
-    noStroke();
-    fill(130, 120);//shadow
-    rect(0,this.size, this.size, 1);
-    fill(253); //front plane
-    rect(0,0, this.size,this.size);
-    fill(150); //top
-    beginShape();
-    vertex(0,0);
-    vertex(0-this.size/4,0-this.size/4);
-    vertex(0+this.size/1.5,0-this.size/4);  //no special hair style
-    vertex(0+this.size, 0);
-    endShape(CLOSE);
-    fill(220);//side
-    beginShape();
-    vertex(0, 0);
-    vertex(0-this.size/4,0-this.size/4);
-    vertex(0-this.size/4,0+this.size/1.5);
-    vertex(0,0+this.size);
-    endShape(CLOSE);
-    fill(80); //face
-    textStyle(BOLD);
-    textSize(this.emoji_size);
-    text('*',0+this.size/6, 0+this.size/1.5);
-    text('-',0+this.size/1.7, 0+this.size/1.9);
-    text('。',0+this.size/2.5, 0+this.size/1.3);
-    pop();
+/*create a class: template/blueprint of objects
+with properties and behaviors*/
+class Tofu {
+   constructor()
+   { //initalize the objects
+   this.speed = floor(random(3,6));
+   //check this feature: https://p5js.org/reference/#/p5/createVector
+   this.pos = new createVector(width+5, random(12,height/1.7));
+   this.size = floor(random(15,35));
+   //rotate in clockwise for +ve no
+   this.tofu_rotate = random(0,PI/20);
+   this.emoji_size = this.size/1.8;
+   }
+ move() {  //moving behaviors
+   this.pos.x-=this.speed;  //i.e, this.pos.x = this.pos.x - this.speed;
+ }
+ show() { //show tofu as a cube
+   push()
+   translate(this.pos.x, this.pos.y);
+   rotate(this.tofu_rotate);
+   noStroke();
+   fill(130, 120);//shadow
+   rect(0,this.size, this.size, 1);
+   fill(253); //front plane
+   rect(0,0, this.size,this.size);
+   fill(150); //top
+   beginShape();
+   vertex(0,0);
+   vertex(0-this.size/4,0-this.size/4);
+   vertex(0+this.size/1.5,0-this.size/4);  //no special hair style
+   vertex(0+this.size, 0);
+   endShape(CLOSE);
+   fill(220);//side
+   beginShape();
+   vertex(0, 0);
+   vertex(0-this.size/4,0-this.size/4);
+   vertex(0-this.size/4,0+this.size/1.5);
+   vertex(0,0+this.size);
+   endShape(CLOSE);
+   fill(80); //face
+   textStyle(BOLD);
+   textSize(this.emoji_size);
+   text('*',0+this.size/6, 0+this.size/1.5);
+   text('-',0+this.size/1.7, 0+this.size/1.9);
+   text('。',0+this.size/3, 0+this.size/1.2);
+   pop();
  }
 }
 ```
@@ -274,13 +284,17 @@ In the sample code above, we have "Tofu" as the class name and "tofu" as the nam
 **(Step 2) Properties**: What are the (varying) attributes/properties of tofu?
 
 ```javascript
-class Tofu { //create a class: template/blueprint of objects with properties and behaviors
+/*create a class: template/blueprint of objects
+with properties and behaviors*/
+class Tofu {
   constructor()
-  { //initialize the objects
+  { //initalize the objects
   this.speed = floor(random(3,6));
-  this.pos = new createVector(width+5, random(12,height/1.7));  //check this feature: <https://p5js.org/reference/#/p5/createVector>
+  //check this feature: https://p5js.org/reference/#/p5/createVector
+  this.pos = new createVector(width+5, random(12,height/1.7));
   this.size = floor(random(15,35));
-  this.toFu_rotate = random(0,PI/20); //rotate clockwise for +ve no
+  //rotate in clockwise for +ve no
+  this.tofu_rotate = random(0,PI/20);
   this.emoji_size = this.size/1.8;
   }
   //something more here
@@ -377,9 +391,12 @@ function draw() {
 
 function checkEating() {
   //calculate the distance between each tofu
-  for (let i = 0; i <tofu.length; i++) {
-    let d = int(dist(pacmanSize.w/2, pacPosY+pacmanSize.h/2,tofu[i].pos.x, tofu[i].pos.y));
-    if (d < pacmanSize.w/2.5) { //close enough to eat the tofu
+  for (let i = 0; i < tofu.length; i++) {
+    let d = int(
+      dist(pacmanSize.w/2, pacPosY+pacmanSize.h/2,
+        tofu[i].pos.x, tofu[i].pos.y)
+      );
+    if (d < pacmanSize.w/2.5) { //close enough as if eating the tofu
       score++;
       tofu.splice(i,1);
     }else if (tofu[i].pos.x < 3) { //pacman missed the tofu
@@ -442,7 +459,7 @@ By no means do the steps need to be exactly as listed. Of course, you could thin
 **2. Discussion in groups:**
 
 - Identify a game you are familiar with and describe the characters/objects using the class, and object concepts and vocabulary. Can you identify the classes and objects within the chosen example?
-- Given that the creation of objects requires the concept of abstraction, and in line with some of the introductory ideas for this chapter; can you use the sample code or your game as an example to think through some of the political implications of class/object abstraction? Does the fact that this is a game allow for further reflection on the way everyday activities (such as enjoying tofu) become object-oriented?
+- Given that the creation of objects requires the concept of abstraction, and in line with some of the introductory ideas for this chapter; can you use the sample code or your game as an example to think through some of the political implications of class/object abstraction? How do objects interact with the world, and how do worldviews and ideologies built into objects' properties and behaviors? Does the fact that this is a game allow for further reflection on the way everyday activities (such as enjoying tofu) become object-oriented?
 </div>
 
 ## Further notes
@@ -465,7 +482,7 @@ By no means do the steps need to be exactly as listed. Of course, you could thin
 
 ## While()
 
-Examining the tofu example reveals that object-oriented programming is highly organized and concrete even though objects are abstractions. It's also worth adding here that OOP is designed to reflect the way the world is organized, at least from the computer programmers' perspective. It provides an understanding of the ways in which relatively independent objects operate through their relation to other objects.
+Examining the tofu example reveals that object-oriented programming is highly organized and concrete even though objects are abstractions. It's also worth adding here that OOP is designed to reflect the way the world is organized and imagined, at least from the computer programmers' perspective. It provides an understanding of the ways in which relatively independent objects operate through their relation to other objects.
 
 Academic and video game designer Ian Bogost refers to these interacting processes as "unit operations," "characterized by their increased compression of representation, a tendency common over the course of the twentieth century, from structuralist anthropology to computation. I use this term to refer to processes in the general sense, for example, the coupling of a cultural process and its computational representation."[^Bogost] Taking his cue from a combination of literary theory and computing, he argues that cultural phenomena (not just computer games) can be read as a configurative system of discrete, interlocking units of meaning. There are numerous implications here. As we have seen in this chapter, each object includes both data and functions — and in addition — programmers can create relationships between different objects, and objects can further inherit characteristics from other objects.
 
@@ -481,7 +498,7 @@ With the abstraction of relations, there is an interplay between abstract and co
 
 Let's explain using some more Marxism: we might assume that there is a real and concrete thing in the world, that once put under pressure by critique, reveals itself to be false, an abstraction. The relation between the concrete and abstract in Marx thus is a dialectical movement between states in order to reduce the abstractions and arrive at a reality that represents a rich totality of relations (such as class struggle). What Marx refers to as abstract determinations leads towards a reproduction of the concrete by way of critical thinking, which itself is grounded in reality and lived conditions. The politics of this (distinct from Hegel’s idealism) is that abstractions are reliant on the concrete, and return to it. This should be repeatable. His example is the abstraction of exchange value (through abstract labor), as it can only exist in a dialectical relationship with the concrete social relations found in society.[^Manifesto]
 
-If we apply this to a computational object and its abstraction (the identification of properties and methods), it would only makes sense in terms of its wider relations, and recognition of its conditions of operation (program, the programmer's labor, operating system, etc.), and only then if there is a point to expose these conditions so they can be improved, not least with better abstractions. In his way, computational objects allow for a different perspective on lived conditions in this way and how we perceive the world. Worldviews can often be unethical, and we only need to think of game-worlds to see poor examples of racial and gendered abstraction. Therein lies part of the motivation for this chapter, to make better object abstractions and ones with a clearer sense of purpose.
+If we apply this to a computational object and its abstraction (the identification of properties and methods), it would only makes sense in terms of its wider relations, and recognition of its conditions of operation (program, the programmer's labor, operating system, etc.), and only then if there is a point to expose these conditions so they can be improved, not least with better abstractions. In his way, computational objects allow for a different perspective on lived conditions in this way and how we perceive the world. Worldviews can often be unethical, and we only need to think of game-worlds to see poor examples of racial and gendered abstraction, and what properties and methods that these characters are being defined. Therein lies part of the motivation for this chapter, to make better object abstractions and ones with a clearer sense of purpose.
 
 <div class="section exercise" markdown="true">
 ## MiniX: Games with objects

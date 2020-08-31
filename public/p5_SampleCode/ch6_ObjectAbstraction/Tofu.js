@@ -1,10 +1,14 @@
-class Tofu { //create a class: template/blueprint of objects with properties and behaviors
+ /*create a class: template/blueprint of objects
+ with properties and behaviors*/
+class Tofu {
     constructor()
     { //initalize the objects
     this.speed = floor(random(3,6));
-    this.pos = new createVector(width+5, random(12,height/1.7));  //check this feature: https://p5js.org/reference/#/p5/createVector
+    //check this feature: https://p5js.org/reference/#/p5/createVector
+    this.pos = new createVector(width+5, random(12,height/1.7));
     this.size = floor(random(15,35));
-    this.tofu_rotate = random(0,PI/20); //rotate in clockwise for +ve no
+    //rotate in clockwise for +ve no
+    this.tofu_rotate = random(0,PI/20);
     this.emoji_size = this.size/1.8;
     }
   move() {  //moving behaviors

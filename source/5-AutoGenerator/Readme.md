@@ -1,5 +1,5 @@
-Title: 6. Auto-Generator
-page_order: 6
+Title: 5. Auto-Generator
+page_order: 5
 sketch: p5_SampleCode/ch5_AutoGenerator/sketch.js
 download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch5_AutoGenerator
 
@@ -336,12 +336,12 @@ Artist David Link built a functional replica of both the hardware and the origin
 **For additional inspiration:**
 
 - *{Software} Structure #003 A* by Casey Reas (2004), <https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks>.
-- *Daily Art* by Saskia Freeke (2018), <http://www.sasj.nl/daily/>. 
+- *Daily Art* by Saskia Freeke (2018), <http://www.sasj.nl/daily/>.
 - *Generative Artistry* by Ruth John and Tim Holman (n.d.), <https://generativeartistry.com/tutorials/>.
 - *Generative Design - sketches* (n.d.), <http://www.generative-gestaltung.de/2/>, and source code, <https://github.com/generative-design/Code-Package-p5.js>.
 - *GenArt* by Joseph Fiola (2016), with source code, <https://github.com/JosephFiola/GenArt>.
 - *Game of Life* by John Conway (1970), <https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/>.
-- *Generative Tarot* by Melanie Hoff (2019), <https://www.melaniehoff.com/generativetarot/>, source code <https://github.com/melaniehoff/generative-tarot-p5js>. 
+- *Generative Tarot* by Melanie Hoff (2019), <https://www.melaniehoff.com/generativetarot/>, source code <https://github.com/melaniehoff/generative-tarot-p5js>.
 - *The Recode Project* (featuring projects from 1976-78), <http://recodeproject.com/>, and *Memory Slam* by Nick Montfort (2014), <http://nickm.com/memslam/>.
 - *Solving Sol* by Brad Bouse (n.d.), an open project to implement Sol LeWitt's instructions in JavaScript  <https://github.com/wholepixel/solving-sol>.
 
