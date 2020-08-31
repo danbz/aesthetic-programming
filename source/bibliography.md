@@ -222,6 +222,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Parrish, Allison. “Text and Type.” Last updated 2019. <https://creative-coding.decontextualize.com/text-and-type/>.
 - Paul, Christiane, Carol Mancusi-Ungaro, and Clémence White. “Programmed: Rules, Codes, and Choreographies in Art, 1965–2018.” Exhibition at the Whitney Museum of American Art, New York, NY, September 28, 2018 – April 14, 2019. <https://whitney.org/exhibitions/programmed>.
 - Peppler, Kylie A., and Yasmin B. Kafai. "Creative coding: Programming for personal expression." The 8th International Conference on Computer Supported Collaborative Learning (CSCL) 2 (2009): 76-78.
+- Peter Bogh, Andersen, "Computer Semiotics." *Scandinavian Journal of Information Systems*, 4, no.1, (1992):1, <https://aisel.aisnet.org/sjis/vol4/iss1/1/>.
 - Plant, Sadie. *Zeros + Ones: Digital Women and the New Technoculture*. London, UK: Forth Estate, 1997.
 - Pngfind. <https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/>.
 - Pold, Søren. “Button.” In *Software Studies*. Edited by Matthew Fuller, 31–36. Cambridge, MA: The MIT Press, 2008.
