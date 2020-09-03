@@ -178,9 +178,7 @@ let imgSize ="medium";
 let request; //full API
 
 function setup() {
-	.
-	.
-	.
+	...
 	fetchImage();
 }
 

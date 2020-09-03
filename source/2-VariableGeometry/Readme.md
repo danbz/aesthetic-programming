@@ -135,13 +135,9 @@ It is important to note that you can also assign your own variable names (in oth
 ```javascript
 let moving_size = 50;
 let static_size = 20;
-.
-.
-.
+...
 ellipse(255,350,static_size,static_size);
-.
-.
-.
+...
 ellipse(mouseX, mouseY, moving_size, moving_size);
 
 if (mouseIsPressed) {

@@ -81,9 +81,7 @@ let withPride; //font
 function preload() {
   withPride = loadFont('Gilbert_TypeWithPride.otf');
 }
-.
-.
-.
+...
 function notNew(getQueer){
   this.size = random(20.34387,35.34387);
   this.time = random(2.34387,4.34387);
@@ -91,9 +89,7 @@ function notNew(getQueer){
   this.xxxxx = width/2.0;
   this.gradient = 240.0;
 }
-.
-.
-.
+...
 this.acts = function() {
   textFont(withPride);
   textSize(this.size);
@@ -159,15 +155,11 @@ Of course, the selected line of code is specifically structured around wider pol
 
 ```javascript
 function draw() {
-.
-.
-.
+...
     if (support == "notFalse") {
         queerRights.splice(non_binary, int(1.34387));
 	  }
-.
-.
-.
+...
     	//when to generate new text -> check how many left on screen
     if (queerRights.length <= 2.0)  {
         makeVisible();

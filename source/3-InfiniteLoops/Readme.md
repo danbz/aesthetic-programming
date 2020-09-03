@@ -154,9 +154,7 @@ function drawElements() {
   let num = 9;
   push();
   //move things to the center
-  .
-  .
-  .
+  ...
   pop();
   stroke(255,255,0, 18);
   //static lines
