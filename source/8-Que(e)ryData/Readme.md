@@ -37,7 +37,7 @@ Go to *net.art generator* (https://nag.iap.de/) and explore the generation of im
 
 The following source code of this chapter is a snippet from *nag* showing the web API's request and response logic: requested data passes through a Web API and then Google returns the corresponding data using the key syntax `loadJSON()`. The major differences when using JSON between this and the previous chapter is that the JSON file is not located on your computer and created by yourself, but online. As such, the data is generated dynamically in near real-time. The JSON file has a more complex data and organizational structure.  
 
-[RUNME](https://editor.p5js.org/siusoon/present/rhSDlokun)
+[RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch8_Que(e)ryData/>)
 
 ![ch8_2](ch8_2.gif)
 :   *Figure 8.2: The manipulation of Warhol flowers*
@@ -59,11 +59,14 @@ For this chapter's sample code, we will focus on images from search engine resul
 
 ```javascript
 let url = "https://www.googleapis.com/customsearch/v1?";
-let apikey = "INPUT YOUR OWN KEY";  //register API key here: <https://developers.google.com/custom-search/json-api/v1/overview>
-let engineID = "INPUT YOUR OWN"; //https://cse.google.com/all  | create search engine, then get the searchengine ID - make sure image is on
+// register: https://developers.google.com/custom-search/json-api/v1/overview
+let apikey = "INPUT YOUR OWN KEY";
+//get the searchengine ID: https://cse.google.com/all (make sure image is on)
+let engineID = "INPUT YOUR OWN";
 let query = "warhol+flowers";  //search keywords
+//check other parameters: https://tinyurl.com/googleapiCSE
 let searchType = "image";
-let imgSize ="medium"; //check here: <https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters>
+let imgSize ="medium";
 let request; //full API
 
 let getImg;
@@ -80,9 +83,10 @@ function setup() {
 }
 
 function fetchImage() {
-	request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&searchType=" + searchType + "&q=" + query;
+	request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize +
+	 "&q=" + query + "&searchType=" + searchType;
 	console.log(request);
-	loadJSON(request, gotData); //this is the key syntax and line of code to make a query request and get a query response
+	loadJSON(request, gotData); //this is the key syntax to make API request
 }
 
 function gotData(data) {
@@ -91,27 +95,33 @@ function gotData(data) {
 }
 
 function draw() {
-	if (getImg){ //takes time to retrieve the API data
+	if (getImg){	//takes time to retrieve the API data
 		loadImage(getImg, img=> { //callback function
-			//frame + image
+			//draw the frame + image
 			push();
 			translate(width/2-img.width-frameBorder, height/2-img.height-frameBorder);
 			scale(2);
 			if (!imgLoaded) {
 				noStroke();
 				fill(220);
-				rect(0, 0, img.width+frameBorder*2, img.height+frameBorder*2);
-				image(img, frameBorder, frameBorder);
+				rect(0,0,img.width+frameBorder*2,img.height+frameBorder*2);
+				image(img,frameBorder,frameBorder);
 				imgLoaded = true;
 			}else{
 				//draw lines
 				img.loadPixels();
 				img_x = floor(random(0,img.width));
 				img_y = floor(random(0,img.height));
-				loc = (img_x+img_y * img.width)*4; //the formula to locate the no: x+y*width, indicating a pixel from the image on a grid (and each pixel array holds red, green, blue, and alpha values, for more see <https://www.youtube.com/watch?v=nMUMZ5YRxHI>
+				/* The formula to locate the no: x+y*width, indicating a pixel
+				from the image on a grid (and each pixel array holds red, green, blue,
+				and alpha values), for more see here:
+				https://www.youtube.com/watch?v=nMUMZ5YRxHI */
+				loc = (img_x+img_y * img.width)*4;
 				strokeWeight(0.7);
-				stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
-				line(frameBorder+img_x, frameBorder+img_y, frameBorder+img_x, frameBorder+img.height);
+				//rgb values
+				stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));
+				line(frameBorder+img_x,frameBorder+img_y,
+					frameBorder+img_x,frameBorder+img.height);
 			}
 			pop();
 		});
@@ -157,21 +167,28 @@ You should now finish modifying the settings. You can now run the sample code wi
 
 ```javascript
 let url = "https://www.googleapis.com/customsearch/v1?";
-let apikey = "INPUT YOUR OWN KEY";  //register API key here: <https://developers.google.com/custom-search/json-api/v1/overview>
-let engineID = "INPUT YOUR OWN"; //https://cse.google.com/all  | create search engine, then get the searchengine ID - make sure image is on
+// register: https://developers.google.com/custom-search/json-api/v1/overview
+let apikey = "AIzaSyBRE6L4ohm4c2rAxZqpbFSUbSc8w6ZOg-w";//"INPUT YOUR OWN KEY";
+//get the searchengine ID: https://cse.google.com/all (make sure image is on)
+let engineID = "012341178072093258148:xebpi6c3ibg"; //"INPUT YOUR OWN";
 let query = "warhol+flowers";  //search keywords
+//check other parameters: https://tinyurl.com/googleapiCSE
 let searchType = "image";
-let imgSize ="medium"; //check here: <https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters>
+let imgSize ="medium";
 let request; //full API
 
 function setup() {
+	.
+	.
+	.
 	fetchImage();
 }
 
 function fetchImage() {
-	request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&searchType=" + searchType + "&q=" + query;
+	request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize +
+	 "&q=" + query + "&searchType=" + searchType;
 	console.log(request);
-	loadJSON(request, gotData); //this is the key syntax and line of code to make a query request and get a query response
+	loadJSON(request, gotData); //this is the key syntax to make API request
 }
 
 function gotData(data) {
@@ -214,7 +231,7 @@ We can now summarize the general process of working with web APIs and getting da
 - Understanding the file format (such as JSON) returned by the web API.
 - Registering and getting the API key(s) and any other, additional configuration needed.
 
-Given our specific example *nag* and the sample code, we want to also reflect on increasingly prevalent API practices. Although Google has provided the API to access the data, it should be remembered that the amount is limited to 100 free API requests for all units from business to non-profit organizations, and the actual data is collected from the public, and people have no access to the specific algorithm which selects, prioritizes, and presents the data. This raises serious questions about the degree of openness, accessibility, and inclusivity of API practices.[^soon]
+Given our specific example *nag* and the sample code, we want to also reflect on increasingly prevalent API practices. Although Google has provided the API to access the data, it should be remembered that the amount is limited to 100 free API requests for all units from business to non-profit organizations, and the actual data is collected from the public, and people have no access to the specific algorithm which selects, prioritizes, and presents the data. This raises serious questions about the degree of openness, transparency, accessibility, and inclusivity of API practices.[^soon]
 
 <div class="exercise" markdown="true">
 
@@ -226,9 +243,9 @@ Given our specific example *nag* and the sample code, we want to also reflect on
 
 2. Change your own query strings. The current keywords are "warhol flowers," but note that the program doesn't understand spaces between characters and therefore the keywords need to be written as "warhol+flowers."
 
-3. Refer back to the section on APIs above, add more search filtering rules with [different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters),[^setting] such as adding an image color type. The URL parameters are separated by an "&" symbol as follows: <https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers>.
+3. Refer back to the section on APIs above, examine the search filtering rules with [different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters)[^setting] to get a sense of the categorization of images, such as the parameter of "image color type". The URL parameters are separated by an "&" symbol as follows: <https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers>.
 
-4. Study the JSON file and modify the sketch to get other data such as the text showing in the web console.
+4. Study the JSON file to get an overview of data query, such as how many search returns and the query performance. Then modify the sketch to get other data such as the text showing in the web console.
 
 </div>
 
@@ -256,31 +273,36 @@ Therefore, the pixel consists of four different locations, each one storing a si
 function draw() {
 	if (getImg){	//takes time to retrieve the API data
 		loadImage(getImg, img=> { //callback function
-			//frame + image
+			//draw the frame + image
 			push();
 			translate(width/2-img.width-frameBorder, height/2-img.height-frameBorder);
 			scale(2);
 			if (!imgLoaded) {
 				noStroke();
 				fill(220);
-				rect(0, 0, img.width+frameBorder*2, img.height+frameBorder*2);
-				image(img, frameBorder, frameBorder);
+				rect(0,0,img.width+frameBorder*2,img.height+frameBorder*2);
+				image(img,frameBorder,frameBorder);
 				imgLoaded = true;
 			}else{
 				//draw lines
 				img.loadPixels();
-				img_x = floor(random(0, img.width));
-				img_y = floor(random(0, img.height));
-				loc = (img_x+img_y * img.width)*4; // The formula to locate the number: x+y*width, indicating a pixel from the image on a grid (and each pixel array holds red, green, blue, and alpha values, for more see here: <https://www.youtube.com/watch?v=nMUMZ5YRxHI>
+				img_x = floor(random(0,img.width));
+				img_y = floor(random(0,img.height));
+				/* The formula to locate the no: x+y*width, indicating a pixel
+				from the image on a grid (and each pixel array holds red, green, blue,
+				and alpha values), for more see here:
+				https://www.youtube.com/watch?v=nMUMZ5YRxHI */
+				loc = (img_x+img_y * img.width)*4;
 				strokeWeight(0.7);
-				stroke(color(img.pixels[loc], img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
-				line(frameBorder+img_x,frameBorder+img_y, frameBorder+img_x, frameBorder+img.height);
+				//rgb values
+				stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));
+				line(frameBorder+img_x,frameBorder+img_y,
+					frameBorder+img_x,frameBorder+img.height);
 			}
 			pop();
 		});
 	}
 }
-
 ```
 The logic in the `draw()` function is to draw the grey outer frame and load the image in the center by using the function `translate()`.
 
@@ -334,13 +356,14 @@ Using forensics it is possible not only to detect features or patterns in data, 
 
 As noted in the introduction, simple operations such as search or feeds order data and reify information in ways that are clearly determined by corporate interests. The politics of this resonates with what Antoinette’s Rouvroy’s phrase "algorithmic governmentality" (the second part of which combines the terms government and rationality) to indicate how our thinking is shaped by various techniques.[^Rouvroy] According to Rouvroy, knowledge is increasingly delivered "without truth" thanks to the increasing use of machines that filter the latter using search engines that have no interest in the content as such or how knowledge is generated. The concern is that algorithms are starting to define what counts as knowledge, a further case of subjectification (the process through which we become subjects). Rouvroy claims: "The new, "truth regime," evolving in real-time, may appear "emancipatory" and "democratic" (with regards to "old" authorities, hierarchies and suspiciously rigid categories and measures), but the "subjects" it produces are "multitudes without alterity."[^Rouvroy2] This produces human subjects in relation to what algorithms understand about our intentions, gestures, behaviors, habits, opinions, or desires, through a process of aggregating massive amounts of data.[^chun] Rouvroy calls this "personalization without subjects" and identifies the mistake of focusing on concerns about personal data when what is at stake are the processes of subjectification by data mining and profiling, by means of algorithmic governmentality.
 
-If you keep these ideas in mind Cornelia Sollfrank's project *Female Extension* (mentioned at the beginning of this chapter) becomes all the more powerful, as it hacks the process of personalization. The male domination of the "art operating system" is tricked into believing its own liberal agenda of inclusion and yet the whole scenario is fake. When it comes to Google and its operations, we can see that although it provides its API for experimentation, it only does so under restrictions: by limiting requests and by only revealing some of the available parameters in which the logic of how the search data (as knowledge) is presented algorithmically is still unknown to the public. *nag* emphasizes the querying of data, not only the execution of the data request and its response, but also by questioning how data is algorithmically structured into new normalizations. Adrian Mackenzie emphasizes the problem:
+If you keep these ideas in mind Cornelia Sollfrank's project *Female Extension* (mentioned at the beginning of this chapter) becomes all the more powerful, as it hacks the process of personalization. The male domination of the "art operating system" is tricked into believing its own liberal agenda of inclusion and yet the whole scenario is fake. When it comes to Google and its operations, we can see that although it provides its API for experimentation, it only does so under restrictions: by limiting requests and by only revealing some of the available parameters in which the logic of how the search data (as knowledge) is presented algorithmically is still unknown to the public. *nag* emphasizes the querying of data, not only the execution of the data request and its response, but also by questioning how data is algorithmically structured into new normalizations. Safiya Umoja Noble emphasizes the problem:
 
->"The more effectively the models operate in the world, the more they tend to normalize the situations in which they are entangled. This normalization can work in very different ways, but it nearly always will stem from the ways in which differences have been measured and approximated within the model."[^Mackenzie]
+> "Search happens in a highly commercial environment, and a variety of processes shape what can be found; these results are then normalized as believable and often presented as factual[...] the way that heavily used technological artifacts such as search engine have become such a normative part of our experience with digital technology and computers that they socialize us into believing that these artifacts must therefore also provide access to credible, accurate information that is depoliticized and neutral."[^nobel1]
 
-When working with data there is a danger of simply perpetuating "norms" through the process of generalization. Concerning advanced data-mining processes, Mackenzie speaks of the various kinds of generalization at work that allow for the development of machine learning.[^Mackenzie1] It is important to recognize how all techniques of pattern recognition and statistics "generate statements and prompt actions in relation to instances of individual desire" and they transform, construct, and impose shape on data, in order to then "discover, decide, classify, rank, cluster, recommend, label or predict" something or other.[^Mackenzie2] The assumption, as Mackenzie points out, is that everything that exists is reducible to stable and distinct categorization: "In all cases, prediction depends on classification, and classification itself presumes the existence of classes, and attributes that define membership of classes."[^Mackenzie3] This presumption of stable classes and classifications is one of the main problems that we wish to query here, as if the world was organized that way too. The difficulty lies as to what extent any model is accurate or valid.
+When working with data there is a danger of simply perpetuating "norms" through
+hegemonic organization[^nobel2] and the process of generalization. Concerning advanced data-mining processes, Mackenzie speaks of the various kinds of generalization at work that allow for the development of machine learning.[^Mackenzie1] It is important to recognize how all techniques of pattern recognition and statistics "generate statements and prompt actions in relation to instances of individual desire" and they transform, construct, and impose shape on data, in order to then "discover, decide, classify, rank, cluster, recommend, label or predict" something or other.[^Mackenzie2] The assumption, as Mackenzie points out, is that everything that exists is reducible to stable and distinct categorization: "In all cases, prediction depends on classification, and classification itself presumes the existence of classes, and attributes that define membership of classes."[^Mackenzie3] This presumption of stable classes and classifications is one of the main problems that we wish to query here, as if the world was organized that way too. The difficulty lies as to what extent any model is accurate or valid.
 
-To que(e)ry data in this way throws into further question how data is collected, stored, analyzed, recommended, ranked, selected, and curated in order to understand the broader social and political implications, not least how categorizations such as gender are normalized. To query the power structures of materials from a feminist standpoint is to understand "the mechanisms that shape reality"[^feminist] and how they might be reprogrammed.
+To que(e)ry data in this way throws into further question how data is collected, stored, analyzed, recommended, ranked, selected, and curated in order to understand the broader social and political implications, not least how categorizations such as gender and race are normalized and hegemonized.To query the power structures of materials from a feminist standpoint is to understand "the mechanisms that shape reality"[^feminist] and how they might be reprogrammed.
 
 <div class="section exercise" markdown="true">
 ## MiniX: Working with APIs (in a group)
@@ -382,7 +405,7 @@ This is a relatively complex exercise that requires you to:
 ## Required reading
 
 - David Gauthier, Audrey Samson, Eric Snodgrass, Winnie Soon, and Magda Tyżlik-Carver, "Executing," in Nanna Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio and Kristin Veel, eds., *Uncertain Archives* (Cambridge, MA: MIT Press, 2021).
-- Daniel Shiffman, "Working with data - p5.js Tutorial," *The Coding Train* (10.1, 10.4 - 10.10), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>. 
+- Daniel Shiffman, "Working with data - p5.js Tutorial," *The Coding Train* (10.1, 10.4 - 10.10), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
 - Eric Snodgrass and Winnie Soon, "API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange]," *First Monday* 24, no.2 (2019), <https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721>.
 
 ## Further reading
@@ -433,9 +456,7 @@ This is a relatively complex exercise that requires you to:
 
 [^Rouvroy2]: See Antoinette Rouvroy, "Technology, Virtuality and Utopia: Governmentality in an Age of Autonomic Computing," in Mireille Hildebrandt and Antoinette Rouvroy, eds., *Autonomic Computing and Transformations of Human Agency* (London: Routledge, 2011).
 
-[^Mackenzie]: Adrian Mackenzie, "The Production of Prediction: What Does Machine Learning Want?" *European Journal of Cultural Studies* 18, nos.4-5 (2015): 442.
-
-[^Mackenzie1]: Mackenzie, "The Production of Prediction", 431.
+[^Mackenzie1]: Adrian Mackenzie, "The Production of Prediction: What Does Machine Learning Want?" *European Journal of Cultural Studies* 18, nos.4-5 (2015): 431.
 
 [^Mackenzie2]: Mackenzie, "The Production of Prediction", 432.
 
@@ -454,3 +475,7 @@ This is a relatively complex exercise that requires you to:
 [^Oauth]: For those APIs that require the OAuth 2.0 authorization, a standard protocol for authorization, you might need Node.js (<https://nodejs.org/en/>) to handle the server-client authentication. At the beginner level, it is recommended to look for web APIs with the registration of API keys. See what Node is for 15.1 and 15.2 (<https://www.youtube.com/watch?v=RF5_MPSNAtU&index=1&list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV>), and the OAuth 2.0 Authorization Framework that is proposed by Internet Engineering Task Force in 2012 (<https://tools.ietf.org/html/rfc6749>).
 
 [^eckhardt]: Such break down of an image into color scale pixels was also used in Electronic television transmission in the mid-1930s, but such data was sent manually by a telegraph operator via the medium of Wire or Radio instead. See George H, Eckhardt, *Electronic television* (Chicago: Goodheart-Willcox Company, Incorporated, 1936), 48-50.
+
+[^nobel1]: Safiya Umoja Nobel, *Algorithms of oppression: How search engines reinforce racism* (New York: New York University Press, 2018), 24-25
+
+[^nobel2]: Noble shows us how racism is perpetuated in hegemonic search results via rendering "the pornification of Black women", see *Algorithms of oppression: How search engines reinforce racism*, 17.

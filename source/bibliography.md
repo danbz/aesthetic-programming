@@ -210,8 +210,9 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice.
 - ———. “let,” MDN web docs. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let.
 - ———. “var,” MDN web docs. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var.
+- Nobel, Safiya Umoja. *Algorithms of oppression: How search engines reinforce racism*, New York: New York University Press, 2018.
 - “Objects.” p5.js. <https://p5js.org/examples/objects-objects.html>.
-- Ong, Walter J.. *Orality and Literacy: The Technologizing of the Word*. London, UK: Routledge, 2002.
+- Ong, Walter J. *Orality and Literacy: The Technologizing of the Word*. London, UK: Routledge, 2002.
 - O’Sullivan, Simon. “On the Diagram (and a Practice of Diagrammatics).” In *Situational Diagram*. Edited by Karin Schneider and Begum Yasar, 13-25. New York, NY: Dominique Lévy, 2016.
 - Øygard, Audun M.. “Fitting faces: An explanation of clmtrackr.” Last updated January 5, 2014. <https://www.auduno.com/2014/01/05/fitting-faces/>.
 - Papa, Elisa Giardina. “The Cleaning of Emotional Data.” Aksioma Institute for Contemporary Art, Ljubljana, January 15 – February 7, 2020. <https://aksioma.org/cleaning.emotional.data/>.

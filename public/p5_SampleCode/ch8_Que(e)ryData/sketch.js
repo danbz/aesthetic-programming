@@ -1,14 +1,17 @@
-/*
-- There is Cross-Origin Resource Sharing (CORS) issue with the bigger image, so here we are using thumbnailLink instead.
-- credit: Image Lines in Processing by Anna the Crow https://www.openprocessing.org/sketch/120964
-- full url here: https://www.googleapis.com/customsearch/v1?key=???&cx=????&imgSize=small&q=warhol+flowers
-*/
+/* There is Cross-Origin Resource Sharing (CORS) issue with the bigger image,
+so here we are using thumbnailLink instead.
+credit: Image Lines in Processing by Anna the Crow
+https://www.openprocessing.org/sketch/120964 */
+
 let url = "https://www.googleapis.com/customsearch/v1?";
-let apikey = "AIzaSyBRE6L4ohm4c2rAxZqpbFSUbSc8w6ZOg-w";//"INPUT YOUR OWN KEY";  //register API key here: https://developers.google.com/custom-search/json-api/v1/overview
-let engineID = "012341178072093258148:xebpi6c3ibg";//"INPUT YOUR OWN"; //https://cse.google.com/all  | create search engine, then get the searchengine ID - make sure image is on
+// register: https://developers.google.com/custom-search/json-api/v1/overview
+let apikey = "AIzaSyBRE6L4ohm4c2rAxZqpbFSUbSc8w6ZOg-w";//"INPUT YOUR OWN KEY";
+//get the searchengine ID: https://cse.google.com/all (make sure image is on)
+let engineID = "012341178072093258148:xebpi6c3ibg"; //"INPUT YOUR OWN";
 let query = "warhol+flowers";  //search keywords
+//check other parameters: https://tinyurl.com/googleapiCSE
 let searchType = "image";
-let imgSize ="medium"; //check here: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
+let imgSize ="medium";
 let request; //full API
 
 let getImg;
@@ -25,9 +28,10 @@ function setup() {
 }
 
 function fetchImage() {
-	request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&q=" + query + "&searchType=" + searchType;
+	request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize +
+	 "&q=" + query + "&searchType=" + searchType;
 	console.log(request);
-	loadJSON(request, gotData); //this is the key syntax and line of code to make a query request and get a query response
+	loadJSON(request, gotData); //this is the key syntax to make API request
 }
 
 function gotData(data) {
@@ -38,7 +42,7 @@ function gotData(data) {
 function draw() {
 	if (getImg){	//takes time to retrieve the API data
 		loadImage(getImg, img=> { //callback function
-			//frame + image
+			//draw the frame + image
 			push();
 			translate(width/2-img.width-frameBorder, height/2-img.height-frameBorder);
 			scale(2);
@@ -53,10 +57,16 @@ function draw() {
 				img.loadPixels();
 				img_x = floor(random(0,img.width));
 				img_y = floor(random(0,img.height));
-				loc = (img_x+img_y * img.width)*4; // The formula to locate the no: x+y*width, indicating a pixel from the image on a grid (and each pixel array holds red, green, blue, and alpha values), for more see here: https://www.youtube.com/watch?v=nMUMZ5YRxHI
+				/* The formula to locate the no: x+y*width, indicating a pixel
+				from the image on a grid (and each pixel array holds red, green, blue,
+				and alpha values), for more see here:
+				https://www.youtube.com/watch?v=nMUMZ5YRxHI */
+				loc = (img_x+img_y * img.width)*4;
 				strokeWeight(0.7);
-				stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));  //rgb values
-				line(frameBorder+img_x,frameBorder+img_y,frameBorder+img_x,frameBorder+img.height);
+				//rgb values
+				stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));
+				line(frameBorder+img_x,frameBorder+img_y,
+					frameBorder+img_x,frameBorder+img.height);
 			}
 			pop();
 		});

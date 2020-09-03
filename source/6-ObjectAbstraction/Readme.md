@@ -72,7 +72,7 @@ Below we will introduce the sample code *Eating tofu*, a simple game inspired by
 <figcaption><p markdown=true>*Figure 6.2: A screenshot of the Eating tofu game*</p></figcaption>
 </figure>
 
-[RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch6_ObjectAbstraction/)
+[RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch6_ObjectAbstraction/>)
 
 **Speculation**
 
@@ -279,7 +279,7 @@ class Tofu {
 }
 ```
 
-In the sample code above, we have "Tofu" as the class name and "tofu" as the name for the object instances (it is a common approach in programming to use the same name for both a class and an object instance, but the class name will be capitalized). The things within a class describes what it means to be the object, which is defined by what the properties are, the data values, and behaviors and functionalities to realize the form. In computer science, this is called "encapsulation." 
+In the sample code above, we have "Tofu" as the class name and "tofu" as the name for the object instances (it is a common approach in programming to use the same name for both a class and an object instance, but the class name will be capitalized). The things within a class describes what it means to be the object, which is defined by what the properties are, the data values, and behaviors and functionalities to realize the form. In computer science, this is called "encapsulation."
 
 **(Step 2) Properties**: What are the (varying) attributes/properties of tofu?
 
