@@ -87,6 +87,7 @@ Artists Joana Chicau and Jonathan Reus produced *Anatomies of Intelligence*[^AI]
 ![anatomies](ch10_3.png)
 :   *Figure 10.6: Anatomies of Intelligence (2018-) by Joana Chicau and Jonathan Reus. Image courtesy of the artists.*
 
+
 ![anatomies2](ch10_4.png)
 :   *Figure 10.7: The clustering of images based on "cuteness" and "curliness" in the Anatomies of Intelligence workshop by Joana Chicau and Jonathan Reus.*
 
@@ -114,10 +115,8 @@ let tempSlider;
 let button;
 let runningInference = false;
 let status;
-
 let lengthText;
 let temperatureText;
-
 let resultText;
 
 function setup() {
@@ -193,35 +192,39 @@ function generate() {
 
 ```html
 <html>
-
 <head>
   <meta charset="UTF-8">
   <title>Auto Chapter Generator</title>
-  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"
+  type="text/javascript"></script>
   <style>
-  body {background-color: white;font-family:"Lucida Console", Monaco, monospace;font-size:10;color:grey;}
-  h1   {color: blue;}
-  p    {color: black;}
-</style>
+    body {background-color: white;font-family:"Lucida Console", Monaco,
+    monospace;font-size:12;color:grey;}
+    h1   {color: blue;}
+    p    {color: black; font-size:14;}
+  </style>
 </head>
 
 <body>
   <h1>Auto Chapter Generator</h1>
-  <h2>This example uses a pre-trained model on the collection of all the chapters (in the form of markdown) of the book *Aesthetic Programming: A Handbook of Software Studies*
+  <h2>This example uses a pre-trained model on the collection of all the
+     chapters (in the form of markdown) of the book Aesthetic Programming:
+      A Handbook of Software Studies</h2>
   <p>seed text:
-    <input id="textInput" value="Enter here..." size="30"/>
+    <input id="textInput" value="Afterword: Recurrent Imaginaries" size="30"/>
   </p>
   <p>length:
-    <input id="lenSlider" type="range" min="100" max="2000" value="1000"/> <span id="length">1000</span></p>
+    <input id="lenSlider" type="range" min="100" max="2000" value="1000"/>
+     <span id="length">1000</span></p>
   <p>temperature:
-    <input id="tempSlider" type="range" min="0" max="1" step="0.01"/><span id="temperature">0.5</span></p>
+    <input id="tempSlider" type="range" min="0" max="1" step="0.01"/>
+    <span id="temperature">0.5</span></p>
   <p id="status">Loading Model</p>
   <button id="generate">generate</button>
    <hr>
   <p id="result"></p>
   <script src="sketch.js"></script>
 </body>
-
 </html>
 ```
 
@@ -231,12 +234,13 @@ function generate() {
 
 To load the ml5.js library as part of the overall sketch, you need the following line in your index.html, just like importing other libraries as discussed in Chapter 4, "Data Capture," with the clmtrackr library.
 ```html
-<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"
+type="text/javascript"></script>
 ```
 
 Apart from the new ml5.js, the HTML file contains the following DOM elements:
 
-1. **A text input box** for entering seed/input text. In this example, we have used "Afterword: Recurrent Imaginaries" as a sequence input to generate the next character, continuously forming a new seed sequence for next character prediction: `<input id="textInput" value="Enter here..." size="30"/>`
+1. **A text input box** for entering seed/input text. In this example, we have used "Afterword: Recurrent Imaginaries" as a sequence input to generate the next character, continuously forming a new seed sequence for next character prediction: `<input id="textInput" value="Afterword: Recurrent Imaginaries" size="30"/>`
 2. **A slider for selecting the number of generated characters** with a range from 100 to 2,000: `<input id="lenSlider" type="range" min="100" max="2000" value="1000"/>`
 3. **A slider for setting the temperature** (the value that controls the amount of uncertainty of predictions)[^temp] which has a range from 0 to 1: `<input id="tempSlider" type="range" min="0" max="1" step="0.01"/>`
 4. **The text shows the status** of the program, e.g. "Loading Model," "Model Loaded," "Generating...," "Ready!": `<p id="status">Loading Model</p>`

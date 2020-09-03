@@ -7,12 +7,9 @@ let tempSlider;
 let button;
 let runningInference = false;
 let status;
-
 let lengthText;
 let temperatureText;
-
 let resultText;
-
 
 function setup() {
 
