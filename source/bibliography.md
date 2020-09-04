@@ -17,6 +17,7 @@ page_order: 12
 - Andersen, Christian Ulrik, and Geoff Cox. *A Peer-Reviewed Journal About Datafied Research*, no. 4 (June 2015). https://aprja.net//issue/view/8402>.
 - Andersen, Christian Ulrik, and Geoff Cox. *A Peer-Reviewed Journal About Machine Feeling*, no. 8 (June 2019). <https://aprja.net//issue/view/8133>.
 - Andersen, Christian Ulrik, and Søren Bro Pold. *The Metainterface: The Art of Platforms, Cities, and Clouds*. Cambridge, MA: The MIT Press, 2018.
+- Andersen, Peter Bogh. "Computer Semiotics." *Scandinavian Journal of Information Systems* 4, no.1, (1992). <https://aisel.aisnet.org/sjis/vol4/iss1/1/>.
 - Anikina, Alex. *A Lecture-Performance: Chronic Film*, 2007, time: infinite, Goldsmiths, University of London. <http://en.mieff.com/2017/alexandra_anikina>.
 - Apprich, Clemens. “Introduction.” in *Pattern Discrimination*. Edited by Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, x-xii. Minneapolis, MN: University of Minnesota Press and Lüneberg, DE: Meson Press, 2018.
 - “Array Objects,” p5.js. <https://p5js.org/examples/arrays-array-objects.html>.
