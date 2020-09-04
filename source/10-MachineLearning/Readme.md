@@ -103,7 +103,7 @@ The training process uses a "Recurrent Neural Network" (RNN) and "Long Short Ter
 ![ch10_7](ch10_6.png)
 :   *Figure 10.8: Auto Chapter Generator*
 
-RunMe (<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch10_MachineLearning/>).
+[RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch10_MachineLearning/>)
 
 ## Source code
 
