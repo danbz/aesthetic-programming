@@ -37,7 +37,7 @@ page_order: 12
 - Berry, David M., and Anders Fagerjord. *Digital Humanities: Knowledge and Critique in a Digital Age*. Hoboken, NJ: John Wiley & Sons, 2017.  
 - “binary increment.” Turing Machine Visualization. <https://turingmachine.io/>.
 - Bivens, Rena. “The Gender Binary will not be Deprogrammed: Ten Years of Coding Gender on Facebook.” *New Media & Society* 19 (June 2017): 880–898.
-- “Blame it On the Boogie.” Track 1 on The Jackson 5’s *Destiny*, Total Experience Recording Studios, 1978.
+- “Blame it On the Boogie.” The Jackson 5, *Destiny*. Total Experience Recording Studios, 1978.
 - Blas, Zach, and Micha Cárdenas. “Imaginary Computational Systems: Queer Technologies and Transreal Aesthetics.” *AI and Society* 28 (December 2013): 559-566.
 - Bogost, Ian. *Persuasive Games: The Expressive Power of Videogames*. Cambridge, MA: The MIT Press, 2007.  
 - ———. “Procedural Literacy: Problem Solving with Programming, Systems, & Play.” *The Journal of Media Literacy* 52 (Winter/Spring 2015): 32-36.
