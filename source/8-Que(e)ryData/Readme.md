@@ -473,4 +473,4 @@ This is a relatively complex exercise that requires you to:
 
 [^eckhardt]: Such break down of an image into color scale pixels was also used in Electronic television transmission in the mid-1930s, but such data was sent manually by a telegraph operator via the medium of Wire or Radio instead. See George H, Eckhardt, *Electronic television* (Chicago: Goodheart-Willcox Company, Incorporated, 1936), 48-50.
 
-[^noble]: Safiya Umoja Noble, *Algorithms of Oppression: How search engines reinforce racism* (New York: New York University Press, 2018), 24-25.
+[^noble]: Safiya Umoja Noble, *Algorithms of Oppression: How Search Engines Reinforce Racism* (New York: New York University Press, 2018), 24-25.
