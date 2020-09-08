@@ -105,7 +105,7 @@ this.acts = function() {
 ### Type
 `loadFont` supports opentype font style (.otf and .ttf) and returns a PFont object through `withPride` in Sketch 1 above.
 
-"Gilbert_TypeWithPride.otf" is a free font licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, and can be downloaded from the Internet (www.typewithpride.com).[^fonts] It is designed to honor the memory of Gilbert Baker the creator of the iconic Rainbow Flag who died in 2017.
+"Gilbert_TypeWithPride.otf" is a free font licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, and can be downloaded from the Internet (www.typewithpride.com)[^font]. It is designed to honor the memory of Gilbert Baker the creator of the iconic Rainbow Flag who died in 2017.
 
 ![](ch7_2.jpg)
 :   *Figure 7.3: The font Type with Pride*
@@ -485,7 +485,7 @@ See: Allison Parrish (2015) <https://vimeo.com/134734729>; Florian Cramer, Langu
 
 [^execute]: Roopika Risam, *The Poetry of Executable Code* (2015), <http://jacket2.org/commentary/poetry-executable-code>.
 
-[^fonts]: At the same time, you can also find a lot of free and open source fonts to download online. See, for instance, <https://www.1001freefonts.com/>.
+[^font]: At the same time, you can also find a lot of free and open source fonts to download online. See, for instance, <https://www.1001freefonts.com/>.
 
 [^Chun]: Wendy Hui Kyong Chun, *Programmed Visions: Software and Memory* (Cambridge, MA: MIT Press, 2011), 45.
 
