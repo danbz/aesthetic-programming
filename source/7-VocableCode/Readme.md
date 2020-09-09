@@ -499,7 +499,7 @@ See: Allison Parrish (2015) <https://vimeo.com/134734729>; Florian Cramer, Langu
 
 [^Hodges]: For a more detailed version of historical events, see Andrew Hodges's *Alan Turing: The Enigma* (London: Burnett Books, 1983).
 
-[^Plant3]: Plant, *Zeros + Ones*, 98-99.
+[^Plant3]: Plant, *Zeros + Ones*, 98-99. For more on the connections between queer people and computing, see <https://queercomputing.info/>.
 
 [^Plant4]: Plant, *Zeros + Ones*, 102.
 
