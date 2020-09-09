@@ -10,41 +10,45 @@
   <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/codehilite.css" type="text/css" media="all" charset="utf-8">
   <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/shared.css" type="text/css" media="all" charset="utf-8">
   <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/styles.css" type="text/css" media="all" charset="utf-8">
+  
+  <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/codemirror.css" type="text/css" media="all" charset="utf-8">
+  <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/p5-widget-codemirror-theme.css" type="text/css" media="all" charset="utf-8">
+  <style>
+    /* .code--line--number { */
+    .code--line:before {
+      position: absolute;
+      right: calc(100% + .5em);
+      font-size: 80%;
+      border-right: 1px dotted lightgray;
+      padding-right: .75em;
+      content: attr(data-line-number);
+    }
 
-    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/codemirror.css" type="text/css" media="all" charset="utf-8">
-    <style>
-        .CodeMirror {
-            height: initial;
-            font-size: 80%;
-            line-height: 140%;
-        }
-
-        pre .CodeMirror-line {
-            outline: initial;
-            outline-offset: initial;
-        }
-
-        .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
-            font-family: ocr-pbi;
-        }
-    </style>
+    .code--line {
+      display: block;
+      position: relative;
+      margin-left: 3em;
+      height: 1.75em;
+    }
+  </style>
 
 
+
+
+
+</head>
+<body>
+    <h1>{{ page.title }}</h1>
+    {{ page.content }}
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/codemirror.js"></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/addon/runmode.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/javascript.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/activateCodeblocks.js"></script>
     <script>
         activateCodeblocks();
     </script>
-
-
     <script type="text/javascript" charset="utf-8" src="/theme/js/paged.polyfill.js">
     </script>
-
-</head>
-<body>
-    <h1>{{ page.title }}</h1>
-  {{ page.content }}
 </body>
 </html>
 

@@ -55,3 +55,18 @@ div.footnote ol {
 img {
     max-height: 19cm;
 }
+
+.CodeMirror {
+    height: initial;
+    font-size: 80%;
+    line-height: 140%;
+}
+
+pre .CodeMirror-line {
+    outline: initial;
+    outline-offset: initial;
+}
+
+.CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
+    font-family: ocr-pbi;
+}
