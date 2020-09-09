@@ -1,5 +1,7 @@
 Title: 1. Getting Started
 page_order: 1
+sketch: p5_SampleCode/ch1_GettingStarted/sketch.js
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch1_GettingStarted
 
 ![flowchart](ch1_0.svg)
 
