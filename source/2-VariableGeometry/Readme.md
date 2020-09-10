@@ -153,7 +153,7 @@ There are certain rules to follow in naming variables:
     - Names can contain a mix of uppercase and lower case strings, and numbers.
     - Names cannot contain symbols.
 
-2. **Initialize/Assign:** What is it that you want to store? A number? By assigning a value, you will need to use the equal sign. There are four data types that are useful to know at this introductary level:
+2. **Initialize/Assign:** What is it that you want to store? A number? By assigning a value, you will need to use the equal sign. There are four data types that are useful to know at this introductory level:
     - *number* for numbers of any kind: integer or floating-point.
     - *string* for strings. A string may have one or more characters and it has to be used with double or single quotation marks. For example: `let moving_size = "sixty";`
     - *boolean* for true/false. For example: `let moving_size = true;`
