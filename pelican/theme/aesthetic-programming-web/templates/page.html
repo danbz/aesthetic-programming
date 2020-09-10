@@ -75,5 +75,11 @@
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/activateCodeblocks.js"></script>
     <script>
         activateCodeblocks();
+
+        for (var i=0; i < document.links.length; i++) {
+          if (document.links[i].hostname != document.location.hostname) {
+            document.links[i].target = '_blank';
+          }
+        }
     </script>
 {% endblock %}

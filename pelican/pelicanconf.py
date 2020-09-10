@@ -46,7 +46,7 @@ THEME = 'theme/aesthetic-programming'
 PAGE_ORDER_BY = 'Order'
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['page_order']
+PLUGINS = ['page_order', 'elevate_img_class_to_figure' ]
 
 DISPLAY_PAGES_ON_MENU = False
 
