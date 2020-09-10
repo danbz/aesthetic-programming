@@ -1,20 +1,16 @@
-Title: TOC
+Title: Table of Content
 page_order: -3
 
-**Title:** Aesthetic Programming: A Handbook of Software Studies
+Aesthetic Programming: A Handbook of Software Studies
 
-**By**: Winnie Soon and Geoff Cox
+Winnie Soon and Geoff Cox
 
 ![](TOC.svg)
 
 ## Colophon
-
 ## Table of Contents
-
 ## Acknowledgments
-
 ## OSP
-
 ## Preface
 * What kind of book is this?
 * So why aesthetic programming?
