@@ -1,5 +1,7 @@
 Title: 1. Getting Started
 page_order: 1
+sketch: p5_SampleCode/ch1_GettingStarted/sketch.js
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch1_GettingStarted
 
 ![flowchart](ch1_0.svg)
 
@@ -18,7 +20,7 @@ This opening chapter introduces some ideas and exercises to get started (the `se
 
 ## start()
 
-![ch1_1](ch1_1.png)
+![ch1_1](ch1_1.png){: .float}
 :   *Figure 1.1: p5.js web interface*
 
 Throughout the book, we will use JavaScript as the main programming language, primarily focusing on p5.js and its associated libraries. Practically speaking, p5.js is a web-based library,[^library] that utilizes an open source JavaScript framework that makes creating projects with code on the web accessible, as well as much easier to share via the Internet, such as p5.js Web Editor, Open Processing, Git hosting platforms without additional installation. A JavaScript-based project can be run and executed using a URL in a browser.
@@ -33,45 +35,55 @@ You will need an editor to write and document your code. We will use [Atom](http
 Additionally we use Gitlab as our code and text respository, at least for this book. We also use Gitlab for teaching purposes, a place where students can upload their ReadMe and RunMe files every week, for peer feedback and to facilitate peer learning, and to read and share code and related thinking. We have found this to be an effective way to work both individually and collectively, and share materials in keeping with the best principles of free and open source software development, and students use Readme to explain the technical aspects as well as to develop critical discussion.   
 
 ### p5.js
-1. First go to the [download page](https://p5js.org/download/) of p5.js[^p5js] (https://p5js.org/download/) and get the p5.js complete library (in the compressed "p5.zip" format) by clicking it and saving the file, which includes all the necessary libraries to run the code.
+1. First go to the [download page](https://p5js.org/download/) of p5.js[^p5js] and get the p5.js complete library (in the compressed "p5.zip" format) by clicking it and saving the file, which includes all the necessary libraries to run the code.
 
 2. Double click to unzip the file to extract all the files it contains. A new folder will be automatically created called "p5."
 
 3. The next part is crucial to the on-going development process, because you have to somehow identify where your work folder will be located. If you have no idea, you may consider using the "Desktop" folder. (Foldering is a concept used for organizing files on your device, which is similar to organizing papers, folders, books on a bookshelf. Increasingly streamlined UX designs mean that many people find it alienating to navigate to or locate the path and directory of files, such as images, on a device as people are becoming increasingly accustomed to putting everything on the first few pages of a phone or simply on the desktop.)  
 
-4. If you put the unzipped folder "p5" in a customized directory, then you should see the list of files in the folder as below. You should see the two p5.js libraries, one comprehensive file (p5.js) and one mini version (p5.min.js).
+4. ![ch1_2](ch1_2.png){: .float-right}
+   :   *Figure 1.2: p5 folder hierarchy*
 
-![ch1_2](ch1_2.png)
-:   *Figure 1.2: p5 folder hierarchy*
+    If you put the unzipped folder "p5" in a customized directory, then you should see the list of files in the folder as below. You should see the two p5.js libraries, one comprehensive file (p5.js) and one mini version (p5.min.js).
 
-5. Click on the folder "empty-example," and you will see a list of the files you need to start:
 
-![ch1_3](ch1_3.png)
-:   *Figure 1.3: p5 folder hierarchy*
+5. ![ch1_3](ch1_3.png){: .float-right}
+   :   *Figure 1.3: p5 folder hierarchy*
 
-*  **index.html** - the default Hypertext Markup Language (HTML) which will be first to be picked up by a web browser. HTML is a fundamental technology used to define the structure of a webpage and it can be customized to include text, links, images, multimedia, forms, and other elements.
-*  **sketch.js** - the key work file for writing JavaScript. The word 'sketch' is used similarly to the way it would be in the visual arts, in other words it is a less formal means of working out or capturing ideas, and experimenting with composition.
-*  **p5.js** - the p5.js core library.
-*  **p5.sound.js** - the p5.js sound library[^sound] for web audio functionality, including features like playback, listening to audio input, audio analysis and synthesis.  
+    Click on the folder "empty-example," and you will see a list of the files you need to start:
+
+    index.html
+    :   the default Hypertext Markup Language (HTML) which will be first to be picked up by a web browser. HTML is a fundamental technology used to define the structure of a webpage and it can be customized to include text, links, images, multimedia, forms, and other elements.
+    
+    sketch.js
+    :   the key work file for writing JavaScript. The word 'sketch' is used similarly to the way it would be in the visual arts, in other words it is a less formal means of working out or capturing ideas, and experimenting with composition.
+    
+    p5.js
+    :   the p5.js core library.
+    
+    p5.sound.js
+    :   the p5.js sound library[^sound] for web audio functionality, including features like playback, listening to audio input, audio analysis and synthesis.  
+    
 
 ### Code editor
 ATOM is used as the code editor for this book. It supports cross-platform editing and can be run on Mac OS, Windows and Linux.
+
 1. Download the software ATOM from the homepage: <https://atom.io/>
 2. Drag the "p5" folder that you have just unzipped into ATOM. You should be able to see the left-hand pane with your project. Try to navigate to the "index.html" file under the "empty-example" folder, double click that file and the source code should display on the right-hand pane. See below:
 
-![](ch1_4.png)
-:   *Figure 1.4: ATOM's file structure*
+    ![](ch1_4.png){: .medium}
+    :   *Figure 1.4: ATOM's file structure*
 
-"index.html" is usually the default page the web browser will display. You can customize the page title and other styling issues, but the focus for this chapter will be on navigating the libraries and runing your first program. Since p5.js is a library, the lines 8-10 indicate how to incorporate JavaScript files and libraries by using the tags `<script>` and `</script>`.
+    "index.html" is usually the default page the web browser will display. You can customize the page title and other styling issues, but the focus for this chapter will be on navigating the libraries and runing your first program. Since p5.js is a library, the lines 8-10 indicate how to incorporate JavaScript files and libraries by using the tags `<script>` and `</script>`.
 
-The script currently uses relative paths, which is a useful concept when we need to understand how the libraries are operated, how to locate the files and how to incorporate new libraries and files in the future. JavaScript libraries are simply files, and we have to incorporate these files into the HTML so that they can be imported and read by the program. This means that when we use p5 syntax, the program can recognize this syntax and the corresponding function. For this particular example, it is important to be aware that the JavaScript libraries and the HTML file are in the same directory. If we move the libraries somewhere else, we will need to update the path.
+    The script currently uses relative paths, which is a useful concept when we need to understand how the libraries are operated, how to locate the files and how to incorporate new libraries and files in the future. JavaScript libraries are simply files, and we have to incorporate these files into the HTML so that they can be imported and read by the program. This means that when we use p5 syntax, the program can recognize this syntax and the corresponding function. For this particular example, it is important to be aware that the JavaScript libraries and the HTML file are in the same directory. If we move the libraries somewhere else, we will need to update the path.
 
-Next you will need to install a package called "atom-live-server,"[^liveserver] which is useful for setting up a web server so you can update your code and see the results immediately in a browser without needing to refresh it. You can first check under "Packages" on your menu bar and see if the package is there. If not, then go to "Edit > Preferences > ''+ Install'," then type "atom-live-server." Hit the blue install button and you should be able to find it again in the Packages menu.
+3. Next you will need to install a package called "atom-live-server,"[^liveserver] which is useful for setting up a web server so you can update your code and see the results immediately in a browser without needing to refresh it. You can first check under "Packages" on your menu bar and see if the package is there. If not, then go to "Edit > Preferences > ''+ Install'," then type "atom-live-server." Hit the blue install button and you should be able to find it again in the Packages menu.
 
-![](ch1_5.png)
-:   *Figure 1.5: Installing atom-live-server*
+    ![](ch1_5.png){: .medium}
+    :   *Figure 1.5: Installing atom-live-server*
 
-If you want to customize the theme like the background color of the panes, simply go to "Preferences > Themes."
+4. If you want to customize the theme like the background color of the panes, simply go to "Preferences > Themes."
 
 ## My first program
 The default sketch.js is the work file. It contains only two functions. (A JavaScript function is a block of code designed to perform tasks.)
@@ -85,53 +97,56 @@ function draw() {
 }
 ```
 
-* `function setup()` - Code within this function will only be "run once" by the sketch work file. This is typically used to set the canvas size to define the basic sketch setup.
-* `function draw()` - Taking cues from drawing practice in visual arts, code within this function will keep on looping, and that means `function draw()` is called on for each running frame. The default rate is 60 frames/times per second, and this is especially useful when things are set in motion or constantly being captured (we will continue with this in Chapter 3, "Infinite Loops").
+`function setup()`
+:   Code within this function will only be "run once" by the sketch work file. This is typically used to set the canvas size to define the basic sketch setup.
+
+`function draw()`
+:   Taking cues from drawing practice in visual arts, code within this function will keep on looping, and that means `function draw()` is called on for each running frame. The default rate is 60 frames/times per second, and this is especially useful when things are set in motion or constantly being captured (we will continue with this in Chapter 3, "Infinite Loops").
 
 Let's try to input these into the sketch to draw a canvas with a changing background (subtly lighten the black background color), then the sketch will further draw an ellipse located somewhere in the top left corner. (Double check the spelling and punctuation like curly brackets and semi-colons, indicating the scope of the function and end of the line respectively. Details of the code will be explained below.)
 
 ```javascript
 function setup() {
   // put setup code here
-  createCanvas(640,480);
+  createCanvas(640, 480);
   print("hello world");
 }
 function draw() {
   // put drawing code here
   background(random(50));
-  ellipse(55,55,55,55);
+  ellipse(55, 55, 55, 55);
 }
 ```
 
-* To run the code, you need to go to "Packages > atom-live-server > Start Server." A pop-up window will appear, click on the "empty-example" folder and it should display something like this:
+To run the code, you need to go to "Packages > atom-live-server > Start Server." A pop-up window will appear, click on the "empty-example" folder and it should display something like this:
 
-![](ch1_6.png) <br>
+![](ch1_6.png){: .medium}
 :   *Figure 1.6: My first program*  
 
 <div class="section exercise" markdown="true">
-## Exercise in class
+### Exercise in class
 
 This exercise is to familiarize you with the working environment, path and local directory so you learn that running a sketch in a web browser requires loading the right path to the JavaScript libraries. You are also free to create your own folder name and rename the file sketch.js as you please. You can also try to change parameters by changing numbers to get a sense of how things work, but this will be explained in more detail later on in the book.
 
 ![](ch1_7.png)
 :   *Figure 1.7: My first program 1.1*
 
-1. **Stop the server:** Stop the atom-live-server by going to "Packages > 'atom-live-server' > Stop."
-2. **Rename the folder:** Try to rename the folder "empty-example" as "myFirstSketch" (in order to help the computer to process better, don't use any spaces). In the subsequent chapters and for the exercises below, you will create your own folders.
-3. **Structure the p5 libraries:**
-  - Try to create a folder called "libraries" under "myFirstSketch."
-  - Drag the two p5 libraries into the newly created folder: "libraries."
-  - Change the relative path of the two js libraries in index.html
-4. **HTML:** Change the title in the HTML file (line 6)
-5. **RUN again** Can you run the program again (ATOM > Packages > atom-live-server > Start Server) so that you can see almost the same screen as Figure 1.7 in a web browser?
+1. **Stop the server.** Stop the atom-live-server by going to "Packages > 'atom-live-server' > Stop."
+2. **Rename the folder.** Try to rename the folder "empty-example" as "myFirstSketch" (in order to help the computer to process better, don't use any spaces). In the subsequent chapters and for the exercises below, you will create your own folders.
+3. **Structure the p5 libraries.**
+    - Try to create a folder called "libraries" under "myFirstSketch."
+    - Drag the two p5 libraries into the newly created folder: "libraries."
+    - Change the relative path of the two js libraries in index.html
+4. **HTML.** Change the title in the HTML file (line 6)
+5. **RUN again.** Can you run the program again (ATOM > Packages > atom-live-server > Start Server) so that you can see almost the same screen as Figure 1.7 in a web browser?
 </div>
 
 ## Reading the web console "Hello World"
 As you might realize by now, this book does not follow the conventions of most programming books by starting with the "Hello World" program that displays or prints "Hello World" onto the screen. In p5.js, `print()` is the function to %print%,[^print] but in a web browser setting which makes the `print()` function write in the "console area." This is an area not intended for end users, but for programmers or developers to see if there are any error messages, which are logged to the console and to check that code is executing in the expected way.
 
-In the sample code above, the line 4 prints "hello world." But to see the text, you need to open the web console area the location of which depends on te browser you are using. Try to search for it by navigating the menu bar. In Firefox, for instance, it is located under "Tools > Web Developer > Web Console" (or press the keyboard shortcut: Ctrl + Shift + K for Linux/Windows, and Option + Command + K for Mac).
+In the sample code above, the line 4 prints "hello world." But to see the text, you need to open the web console area the location of which depends on te browser you are using. Try to search for it by navigating the menu bar. In Firefox, for instance, it is located under "Tools > Web Developer > Web Console" (or press the keyboard shortcut: `Ctrl + Shift + K` for Linux/Windows, and `Option + Command + K` for Mac).
 
-![](ch1_8.png)
+![](ch1_8.png){: .medium}
 :   *Figure 1.8: The web console area*
 
 At the bottom of Figure 1.8, the web console area shows "hello world." This tells you the sketch is running properly and it is able to read the print function line. As you progress through this book, you will notice how important the web console area is, because it also displays %error% messages if, for example, the syntax is wrong (we will discuss errors in Chapter 8, "Que(e)ry data"). In such cases the browser will give you some good hints for debugging your code. Figure 1.9 shows that the web console area is able to specify which file (sketch.js) and which line of code (Line 8) has a problem (the syntax background was spelled wrong intentionally).
@@ -146,14 +161,14 @@ To further explain the remaining parts of the sample code, this book will show y
 
 To summarize, what the sample code above does is initialize the exact canvas size (`createCanvas(640,480);`), set the width to 640 pixels and the height to 480 pixels providing an overall drawing area (see Line 3 of the sample code). This is why the background covers only the canvas area and the rest of the area remains the (default) white background. The sketch will pick a random color (from white to black, i.e. greyscale) as the background color at a given time, covering the whole canvas (`background(random(50));`). The last part is to draw an ellipse at a certain position and of a certain size (`ellipse(55,55,55,55);`). Locating this within the `function draw()`, the program will constantly and repetitively execute the lines of code. The repetition is made obvious in the sample code by the background color changing over time.
 
-![](ch1_10.png)
+![](ch1_10.png){: .float}
 :   *Figure 1.10: The reference guide example - ellipse()*
 
 To understand the parameters of each p5.js built-in functions, such as how many parameters in a function like `ellipse()`, we can turn to "References" from the p5.js website. The [reference page](https://p5js.org/reference/) lists most of the available p5.js built-in functions, and once you get used to their presentation, it will become easier and faster to learn and write the syntax provided.
 
 Let's read the reference in Figure 1.10 together - [`ellipse()`](https://p5js.org/reference/#/p5/ellipse).[^ellipse] It usually starts with an example and an illustration, and you can click the "edit" button to modify the code, changing the parameters on the fly immediately displaying the results on screen. The description part of the reference page explains how the function syntax works and this is especially useful for beginners who might have little idea about the parameters/numbers and what this entails for each parameter within a function. The syntax area demonstrates how the built-in function should be written precisely, such as how many parameters for that function. For example, in the case of `ellipse(x, y, w, [h])`, it explains how the first parameter x and the second parameter y are used to set the location of the ellipse in terms of x and y coordinates. The canvas is demarcated using pixel units and the [0,0] coordinates start in the top left corner of the canvas. The parameter w and h refers to the width and height of the ellipse, and you can also think of this as defining the diameter, or setting the size, of the ellipse. The square bracket "[h]" is an optional parameter if the width and height of the ellipse is the same.
 
-![](ch1_11.png)
+![](ch1_11.png){: .medium}
 :   *Figure 1.11: Visualizing the ellipse*
 
 What we want to demonstrate here is that it is important to start with the references, then explore other syntaxes and features, for example shapes like rectangles and polygons. There are still other syntaxes in the sample code that we haven't explained in detail, so perhaps you can find the corresponding references in the p5.js web reference material and explore these yourself. However, we will continue to explore the color function in the next chapter, and the `random()` function in the one following that.
@@ -165,7 +180,7 @@ GitLab is an open source, web-based, Git repository platform that hosts software
 
 For simplicity's sake, we use GitLab's web interface for some of our writing and teaching, and for students to hand-in their weekly RunMe[^runme] and ReadMe[^readme] files. We also use GitLab for peer feedback so that students can read and learn from eachother's work.
 
-![gitlab](ch1_12.png)
+![gitlab](ch1_12.png){: .medium}
 :   *Figure 1.12: Create a new project with the GitLab web interface*
 
 1. Register an account by clicking "Register" on the navigation bar.
@@ -175,14 +190,13 @@ For simplicity's sake, we use GitLab's web interface for some of our writing and
 5. A folder in your repository will then be created.
 6. To upload the file or create a directory, simply click on the "+" sign under the repository project name. GitLab allows you to customize a commit message (to keep track of changes from a general and communications perspective), we can therefore input the message before clicking the button "Commit changes."
 
-![gitlab1](ch1_13.png)
+![gitlab1](ch1_13.png){: .medium}
 :   *Figure 1.13: Manage directories/files using the GitLab web interface*
 
 If you need other features: previewing the markdown file, deleting or renaming files/folders, the GitLab Web IDE editor has some advanced features you can use (this is located at the top right, see Figures 1.13 and 1.14).
 
 ![gitlab2](ch1_14.png)
-
-*Figure 1.14: The GitLab Web IDE*
+:    *Figure 1.14: The GitLab Web IDE*
 
 ## While()
 
@@ -203,25 +217,25 @@ Your first program is a means to engage with these ideas, to run some code. As t
 
 Make a RunMe and a ReadMe.
 
-**Objective:**
+**Objective**
 
 - To learn the basic setup, including writing code with a code editor, running code with a web browser, independent study of code syntax, creating a ReadMe file, etc.
 - To start thinking with programming conceptually.
 
-**For additional inspiration:**
+**For additional inspiration**
 
-- *Daily Sketch in Processing* by Saskia Freeke, <https://twitter.com/sasj_nl> (and her talk can be found at <https://www.youtube.com/watch?v=nBtGpEZ0-EQ&fbclid=IwAR119xLXt4nNiqpimIMWBlFHz9gJNdJyUgNwreRhIbdJMPPVx6tq7krd0ww>); *All the Daily Things* by Saskia Freeke (2018), <https://vimeo.com/309138645>.
-- Zach Lieberman's Instagram page, <https://www.instagram.com/zach.lieberman/>.
-- "Basics in OpenProcessing," <https://www.openprocessing.org/browse/?q=basics&time=anytime&type=all#>.
-- "Creative Coding with Processing and p5.js," <https://www.facebook.com/groups/creativecodingp5/>.
+- *Daily Sketch in Processing* by Saskia Freeke, <https://twitter.com/sasj_nl> (and her talk can be found at <https://youtube.com/watch?v=nBtGpEZ0-EQ>); *All the Daily Things* by Saskia Freeke (2018), <https://vimeo.com/309138645>.
+- Zach Lieberman's Instagram page, <https://instagram.com/zach.lieberman/>.
+- "Basics in OpenProcessing," <https://openprocessing.org/browse/?q=basics&time=anytime&type=all#>.
+- "Creative Coding with Processing and p5.js," <https://fb.com/groups/creativecodingp5/>.
 
-**Task (RunMe):**
+**Task (RunMe)**
 
 1. Study at least one example of syntax from the p5.js reference site, <https://p5js.org/reference/>. (Of course, it is always good to know more than one. Be curious!)
 2. Familiarize yourself with the reference structure: examples, descriptions, various pieces of syntax and parameters (This knowledge will give you an essential, life-long skill for learning new syntax on your own).
 3. Use, read, modify (or even combine) the sample code that you find (the most basic level is changing the numbers), and produce a new sketch as a RunMe.
 
-**Questions to think about in your ReadMe:**
+**Questions to think about in your ReadMe**
 
 - What have you produced?
 - How would you describe your first independent coding experience (in relation to thinking, reading, copying, modifying, writing code, and so on)?
@@ -231,10 +245,10 @@ Make a RunMe and a ReadMe.
 
 ## Required reading
 
-- Lauren McCarthy, "Learning While Making p5.js," *OPENVIS* Conference (2015), <https://www.youtube.com/watch?v=1k3X4DLDHdc>.
+- Lauren McCarthy, "Learning While Making p5.js," *OPENVIS* Conference (2015), <https://youtube.com/watch?v=1k3X4DLDHdc>.
 - Nick Montfort, "Appendix A: Why Program?" *Exploratory Programming For the Arts and Humanities* (Cambridge, Mass.: MIT Press, 2016), 267-277.
 - "p5.js | get started," <https://p5js.org/get-started/>.
-- Daniel Shiffman, "1.1: Code! Programming with p5.js" (2018), <https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2>.
+- Daniel Shiffman, "1.1: Code! Programming with p5.js" (2018), <https://youtube.com/watch?v=yPWkPOfnGsw>.
 - Annette Vee, "Coding for Everyone and the Legacy of Mass Literacy," in *Coding Literacy: How Computer Programming Is Changing Writing* (Cambridge, MA: MIT Press, 2017), 43-93.
 
 ## Further reading

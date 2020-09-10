@@ -1,9 +1,20 @@
 digraph G {
 
+graph[overlap=false]
+node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
+
+
+
 	subgraph cluster_1 {
-    node [shape=circle];
-    label = "Ch.1(Getting Started)";
-    color=white;
+    node [shape=ellipse];
+    label = "1. Getting Started";
+    fontname="Hershey-Noailles-help-me";
+    labeljust="l";
+    margin="12pt";
+    style=dashed;
+    penwidth=0.5;
+    fontsize="10pt";
+    //color=white;
     SU1 [label="setup()"]
     ST1 [label="start()"]
     WE1 [label="Working environment"]
@@ -44,9 +55,15 @@ digraph G {
 	}
 
 	subgraph cluster_2 {
-    node [shape=circle];
-    label = "Ch.2(Variable Geometry)";
-    color=white;
+    node [shape=ellipse];
+    label = "2. Variable Geometry";
+    fontname="Hershey-Noailles-help-me";
+    labeljust="l";
+    margin="12pt";
+    style=dashed;
+    penwidth=0.5;
+    fontsize="10pt";
+    //color=white;
     SU2 [label="setup()"]
     ST2 [label="start()"]
     SC2 [label="Source code"]
@@ -87,9 +104,15 @@ digraph G {
 	}
 
 	subgraph cluster_3 {
-    node [shape=circle];
-    label = "Ch.3(Infinite Loops)";
-    color=white;
+    node [shape=ellipse];
+    label = "3. Infinite Loops";
+    fontname="Hershey-Noailles-help-me";
+    labeljust="l";
+    margin="12pt";
+    style=dashed;
+    penwidth=0.5;
+    fontsize="10pt";
+    //color=white;
     SU3 [label="setup()"]
     ST3 [label="start()"]
     DE3 [label="Exercise in class (Decode)"]
@@ -133,9 +156,15 @@ digraph G {
   }
 
   subgraph cluster_4 {
-    node [shape=circle];
-    label = "Ch.4(Data Capture)";
-    color=white;
+    node [shape=ellipse];
+    label = "4. Data Capture";
+    fontname="Hershey-Noailles-help-me";
+    labeljust="l";
+    margin="12pt";
+    style=dashed;
+    penwidth=0.5;
+    fontsize="10pt";
+    //color=white;
     SU4 [label="setup()"]
     ST4 [label="start()"]
     DE4 [label="Exercise in class: \nDecode"]
@@ -176,9 +205,15 @@ digraph G {
   }
 
   subgraph cluster_5 {
-    node [shape=circle];
-    label = "Ch.5(Auto Generator)";
-    color=white;
+    node [shape=ellipse];
+    label = "5. Auto Generator";
+    fontname="Hershey-Noailles-help-me";
+    labeljust="l";
+    margin="12pt";
+    style=dashed;
+    penwidth=0.5;
+    fontsize="10pt";
+    //color=white;
 
     SU5 [label="setup()"]
     ST5 [label="start()"]
@@ -217,9 +252,15 @@ digraph G {
   }
 
   subgraph cluster_6 {
-    node [shape=circle];
-    label = "Ch.6(Object Abstraction)";
-    color=white;
+    node [shape=ellipse];
+    label = "6. Object Abstraction";
+    fontname="Hershey-Noailles-help-me";
+    labeljust="l";
+    margin="12pt";
+    style=dashed;
+    penwidth=0.5;
+    fontsize="10pt";
+    //color=white;
 
     SU6 [label="setup()"]
     ST6 [label="start()"]
@@ -253,8 +294,14 @@ digraph G {
   }
 
   subgraph cluster_7 {
-    node [shape=circle];
-    label = "Ch.7(Vocable Code)";
+    node [shape=ellipse];
+    label = "7. Vocable Code";
+    fontname="Hershey-Noailles-help-me";
+    labeljust="l";
+    margin="12pt";
+    style=dashed;
+    penwidth=0.5;
+    fontsize="10pt";
     //color=white;
 
     SU7 [label="setup()"]
@@ -292,8 +339,14 @@ digraph G {
     RR7 -> FR7;
   }
   subgraph cluster_8 {
-    node [shape=circle];
-    label = "Ch.8(Que(e)ry Data)";
+    node [shape=ellipse];
+    label = "8. Que(e)ry Data";
+    fontname="Hershey-Noailles-help-me";
+    labeljust="l";
+    margin="12pt";
+    style=dashed;
+    penwidth=0.5;
+    fontsize="10pt";
     //color=white;
 
     SU8 [label="setup()"]
@@ -335,9 +388,15 @@ digraph G {
   }
 
   subgraph cluster_9 {
-    node [shape=circle];
-    label = "Ch.9(Algorithmic Procedures)";
-    color=white;
+    node [shape=ellipse];
+    label = "9. Algorithmic Procedures";
+    fontname="Hershey-Noailles-help-me";
+    labeljust="l";
+    margin="12pt";
+    style=dashed;
+    penwidth=0.5;
+    fontsize="10pt";
+    //color=white;
 
     SU9 [label="setup()"]
     ST9 [label="start()"]
@@ -369,8 +428,14 @@ digraph G {
   }
 
   subgraph cluster_10 {
-      node [shape=circle];
-      label = "Ch.10(Machine Learning)";
+      node [shape=ellipse];
+      label = "10. Machine Learning";
+    fontname="Hershey-Noailles-help-me";
+    labeljust="l";
+    margin="12pt";
+    style=dashed;
+    penwidth=0.5;
+    fontsize="12pt";
       //color=white;
       SU10 [label="setup()"]
       ST10 [label="start()"]

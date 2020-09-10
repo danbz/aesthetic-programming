@@ -58,7 +58,7 @@ MARKDOWN = {
         'markdown.extensions.toc': {},
         'mdx_figcaption': {},
         'attach_images': {},
-        'indexed_words': {}
+        'indexed_words': {},
     },
     'output_format': 'html5',
 }

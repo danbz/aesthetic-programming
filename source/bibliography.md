@@ -1,7 +1,6 @@
 Title: Bibliography
 page_order: 12
 
-
 - 1001 Free Fonts. <https://www.1001freefonts.com/>.
 - “A Beginner's Guide to Neural Networks and Deep Learning.” Pathmind. <https://pathmind.com/wiki/neural-network#define>.
 - Abbing, Roel Roscam, Peggy Pierrot and Femke Snelting. “Modifying the Universal.” In *Executing Practices*. Edited by Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, 35-51. London, UK: Open Humanities Press, 2018.

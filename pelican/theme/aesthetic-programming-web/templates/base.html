@@ -168,6 +168,18 @@
                 });
                 }, 2000);
 
+            // ADD <FIGURE> CLASSES
+            function figureAddClass(className){
+            elts = document.querySelectorAll("img." + className);
+            [].forEach.call(elts, function(e){
+                e.parentElement.classList.add(className);
+            })
+            }
+
+            figureAddClass("float");
+            figureAddClass("float-right");
+            figureAddClass("medium");
+
         });
     </script>
     
