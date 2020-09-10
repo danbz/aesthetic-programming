@@ -21,7 +21,8 @@ for design and workshopping",
 "p5.js community - for the contribution of promoting coding and \
 visual literacy via open source tools and documentation",
 "Magda Tyżlik-Carver and Christian Ulrik Andersen - for teaching \
-Software Studies course in parallel to Aesthetic Programming",
+Software Studies course in parallel to Aesthetic Programming, as well as \
+their critical comments on the draft",
 "Instructors of the course - AP: \
 Frederik Westergaard, Nils Rungholm Jensen, Tobias Stenberg, \
 Malthe Stavning Erslev, Ann Karring, Simone Morrison, \
