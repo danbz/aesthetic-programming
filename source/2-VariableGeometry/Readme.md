@@ -337,6 +337,7 @@ Some articles on emoji culture:
 Explore shapes, geometries, and other related syntax (via p5.js references) and design two emojis, <https://p5js.org/reference/>.
 
 **Questions to think about (ReadMe):**
+
   - **Describe** your program and what you have used and learnt.
   - **How** would you put your emoji into a wider social and cultural context that concerns a politics of representation, identity, race, colonialism, and so on? (Try to think through the assigned reading and your coding process, and then expand that to your own experience and thoughts - this is a difficult task, you may need to spend some time thinking about it).
 </div>
