@@ -1,4 +1,4 @@
-Title: Table of Content
+Title: Table of Contents
 page_order: -3
 
 Aesthetic Programming: A Handbook of Software Studies
