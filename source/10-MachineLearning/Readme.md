@@ -354,7 +354,7 @@ The README should address the following questions with the help of your source c
 ## Required reading
 
 - Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>.
-- Geoff Cox, "Ways of Machine Seeing," _Unthinking Photography_ (2016), <https://unthinking.photography/articles/ways-of-machine-seeing>; also in *A Peer-Reviewed Journal About* 6, no. 1, April 1, (2017): 8–15, <https://doi.org/10.7146/aprja.v6i1.116007>.
+- Geoff Cox, "Ways of Machine Seeing," *Unthinking Photography* (2016), <https://unthinking.photography/articles/ways-of-machine-seeing>.
 - Yuval Noah Harari, Audrey Tang, and Puja Ohlhaver, "To be or not to be hacked? The Future of democracy, work, and identity," *RADICALxChange* (2020), <https://www.youtube.com/watch?v=tRVEY95cI0o>.
 
 ## Further reading
