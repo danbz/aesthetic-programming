@@ -1,9 +1,13 @@
 digraph G {
+
+node[fontname="Hershey-Noailles-help-me"]
+
 //labels
 GS [
-label="Ch.6 - Object Abstraction",
+label="6. Object Abstraction",
 style=bold,
-color=grey,
+shape=rectangle,
+penwidth="1pt"
 ]
 
 SU [label="setup()"]

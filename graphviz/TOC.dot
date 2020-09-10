@@ -1,5 +1,8 @@
 digraph toc {
 
+node[fontname="Hershey-Noailles-help-me", shape=rectangle]
+
+
 TOC [label="Table of Contents"]
 Ack [label="Acknowledgements"]
 OSP [label="Open Source Publishing"]

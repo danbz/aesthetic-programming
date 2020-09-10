@@ -1,9 +1,13 @@
 digraph G {
+
+node[fontname="Hershey-Noailles-help-me"]
+
 //labels
 GS [
-label="Ch.10 - Machine Learning",
+label="10. Machine Learning",
 style=bold,
-color=grey,
+shape=rectangle,
+penwidth="1pt"
 ]
 
 SU [label="setup()"]

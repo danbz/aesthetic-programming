@@ -1,9 +1,13 @@
 digraph G {
+
+node[fontname="Hershey-Noailles-help-me"]
+
 //labels
 GS [
-label="Ch.5 - Auto Generator",
+label="5. Auto Generator",
 style=bold,
-color=grey,
+shape=rectangle,
+penwidth="1pt"
 ]
 
 SU [label="setup()"]

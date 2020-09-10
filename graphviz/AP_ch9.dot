@@ -1,9 +1,13 @@
 digraph G {
+
+node[fontname="Hershey-Noailles-help-me"]
+
 //labels
 GS [
-label="Ch.9 - Algorithmic Procedures",
+label="9. Algorithmic Procedures",
 style=bold,
-color=grey,
+shape=rectangle,
+penwidth="1pt"
 ]
 
 SU [label="setup()"]
@@ -12,7 +16,7 @@ DiC [label="Discussion in class"]
 EiC [label="Exercise in class"]
 FC [label="Flowcharts"]
 EiC1 [label="Exercise in class"]
-AM [label="Flowcharts as an artistic medium"]
+AM [label="Flowcharts\nas an artistic medium"]
 MW [label="While()"]
 MX [label="MiniX: \nFlowcharts"]
 RR [label="Required reading"]

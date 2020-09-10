@@ -1,14 +1,18 @@
 digraph G {
+
+node[fontname="Hershey-Noailles-help-me"]
+
 //labels
 GS [
-label="Ch.7 - Vocable Code",
+label="7. Vocable Code",
 style=bold,
-color=grey,
+shape=rectangle,
+penwidth="1pt"
 ]
 
 SU [label="setup()"]
 ST [label="start()"]
-DE [label="Exercise in class: \n(Decode)"]
+DE [label="Exercise in class \n(Decode)"]
 TX [label="Textuality"]
 CO [label="Conditional structure"]
 JS [label="JSON"]

@@ -42,7 +42,7 @@ The following source code of this chapter is a snippet from *nag* showing the we
 ![ch8_2](ch8_2.gif)
 :   *Figure 8.2: The manipulation of Warhol flowers*
 
-<figure markdown=true>
+<figure markdown=true class="figure-inline">
 ![sample1](ch8_2b.png)
 ![sample2](ch8_2c.png)
 <figcaption><p markdown=true>*Figure 8.3: The process of pixel manipulation*</p></figcaption>
