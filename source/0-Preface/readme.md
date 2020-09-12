@@ -138,7 +138,7 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 
 [^papert]: A concept first formulated by mathematician, computer scientist, and educator Seymour Papert, MIT Professor, who created a design principle for a programming language called Logo. See Seymour Papert, *Mindstorms: Children, Computers, and Powerful Ideas* (New York: Basic Books, 1980).
 
-[^Arns]: Inke Arns, "Read_me, run_me, execute_me: Code as Executable Text: Software Art and its Focus on Program Code as Performative Text," trans. Donald Kiraly, MediaArtNet (2004), see: http://www.mediaartnet.org/themes/generative-tools/read_me/1/.
+[^Arns]: Inke Arns, "Read_me, run_me, execute_me: Code as Executable Text: Software Art and its Focus on Program Code as Performative Text," trans. Donald Kiraly, *MediaArtNet* (2004), <http://www.mediaartnet.org/themes/generative-tools/read_me/1/>.
 
 [^decolonial]: See, for instance, Syed Mustafa Ali's "A Brief Introduction to Decolonial Computing," *XRDS: Crossroads, The ACM Magazine for Students* 22, no. 4 (2016): 16–21.
 
