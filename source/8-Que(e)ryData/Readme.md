@@ -248,7 +248,6 @@ Given our specific example *nag* and the sample code, we want to also reflect on
 </div>
 
 ## LoadPixels()
-
 ![sample](ch8_6.png)
 :   *Figure 8.9: An illustration of how an image is made up of pixels*
 
@@ -398,7 +397,6 @@ This is a relatively complex exercise that requires you to:
 - Can you describe and reflect on your process in this miniX in terms of acquiring, processing, using, and representing data? How much do you understand this data or what do you want to know more about? How do platform providers sort the data and give you the requested data? What are the power relations in the chosen APIs? What is the significance of APIs in digital culture?
 - Try to formulate a question in relation to web APIs or querying/parsing processes that you would like to investigate further if you had more time.  
 </div>
-
 ## Required reading
 
 - David Gauthier, Audrey Samson, Eric Snodgrass, Winnie Soon, and Magda Tyżlik-Carver, "Executing," in Nanna Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio and Kristin Veel, eds., *Uncertain Archives* (Cambridge, MA: MIT Press, 2021).
