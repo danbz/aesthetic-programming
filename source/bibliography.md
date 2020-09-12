@@ -19,6 +19,7 @@ page_order: 12
 - Andersen, Peter Bogh. "Computer Semiotics." *Scandinavian Journal of Information Systems* 4, no.1, (1992). <https://aisel.aisnet.org/sjis/vol4/iss1/1/>.
 - Anikina, Alex. *A Lecture-Performance: Chronic Film*, 2007, time: infinite, Goldsmiths, University of London. <http://en.mieff.com/2017/alexandra_anikina>.
 - Apprich, Clemens. “Introduction.” in *Pattern Discrimination*. Edited by Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, x-xii. Minneapolis, MN: University of Minnesota Press and Lüneberg, DE: Meson Press, 2018.
+- Arns, Inke. "Read_me, run_me, execute_me: Code as Executable Text: Software Art and its Focus on Program Code as Performative Text," trans. Donald Kiraly, *MediaArtNet*, 2004. <http://www.mediaartnet.org/themes/generative-tools/read_me/1/>.
 - “Array Objects,” p5.js. <https://p5js.org/examples/arrays-array-objects.html>.
 - “Array of Objects.” p5.js. <https://p5js.org/examples/objects-array-of-objects.html>.
 - Austin, John Langshaw. *How to Do Things with Words*. Oxford, UK: Clarendon Press, 1975.
