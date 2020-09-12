@@ -30,6 +30,7 @@ Our point is that using emojis may be fun and expressive, but they also tend to 
 
 ## Source code
 ![](ch2_2.gif)
+
 :   *Figure 2.2: The screenshot of the remix of Multi*
 
 RunMe, <https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch2_VariableGeometry/>.
@@ -110,6 +111,7 @@ function draw() {
 ```
 
 ![](ch2_4.png)
+
 :   *Figure 2.3: Simple exercise*
 
 Remember the structure of a web page/application should include the HTML, a working JavaScript file (for example, sketch.js), as well as the associated associated p5.js libraries.  
