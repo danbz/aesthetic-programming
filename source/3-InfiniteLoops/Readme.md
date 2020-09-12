@@ -411,13 +411,13 @@ In our teaching, we describe another example of the use of a for-loop to further
 
 ```javascript
 let x = 20;
+
 function setup() {
-  createCanvas(420,100);
+  createCanvas(420, 100);
   background(200);
-  for (let i = 0; i < 20; i ++)
-  {  
-   ellipse(x, 45, 15, 15);
-   x+=20;
+  for (let i = 0; i < 20; i++) {
+    ellipse(x, 45, 15, 15);
+    x += 20;
   }
 }
 ```
