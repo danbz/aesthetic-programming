@@ -406,22 +406,22 @@ This block of code from the above example describes the position of each asteris
 In our teaching, we describe another example of the use of a for-loop to further clarify its use and to demonstrate the repeated drawing of objects.
 
 ![](ch3_8.png)
-:    *Figure 3.8 Drawing 20 lines on a canvas using a for-loop*
+:    *Figure 3.8 Drawing 20 ellipses on a canvas using a for-loop*
 
 ```javascript
-let y = 20;
-
+let x = 20;
 function setup() {
- createCanvas(200,450);
- background(200);
- for (let i = 0; i < 20; i ++) {
-  rect(20, y, 100, 1);
-  y+=20;
- }
+  createCanvas(420,100);
+  background(200);
+  for (let i = 0; i < 20; i ++)
+  {  
+   ellipse(x, 45, 15, 15);
+   x+=20;
+  }
 }
 ```
 
-In this simple line drawing, the key is the local variable `i` (which is used to set the start of the counting of the lines: `let i = 0;`, as well as setting the condition of how many lines should be drawn: `i < 20`, and counting the lines for each iteration: `i++`). The global variable `y` is used to determine the position (in terms of y axis or what could be described as the height) of each line and to make sure the program will increment 20 pixels for each iteration: `y+=20`. In this way we use a for-loop to draw multiple lines, instead of having 20 lines with fixed x and y coordinates.
+In this simple ellipse drawing, the key is the local variable `i` (which is used to set the start of the counting of the ellipses: `let i = 0;`, as well as setting the condition of how many ellipses should be drawn: `i < 20`, and counting the ellipses for each iteration: `i++`). The global variable `x` is used to determine the position (in terms of x axis or what could be described as the distance) of each ellipse and to make sure the program will increment 20 pixels for each iteration: `x+=20`. In this way we use a for-loop to draw multiple ellipses, instead of having 20 lines with fixed x and y coordinates.
 
 The "while loop" is another type of loop for executing iterations. The statement is executed until the condition is true and stops as soon as it is false.
 
