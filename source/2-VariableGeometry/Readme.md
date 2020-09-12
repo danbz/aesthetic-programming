@@ -94,9 +94,10 @@ The above code draws various shapes and performs simple interactions:
 ## Coordinate
 In the previous chapter, we briefly discussed the x and y coordinates that constitute a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(windowWidth,windowHeight)` refers to creating a canvas with its width and height in line with your window size. Unlike the previous chapter where the exact pixel dimension was set as in the example `createCanvas(640,480);`, this approach gives you a flexibility of no fixed canvas size. Therefore, the background color of the sample code fills the whole window screen, and the concept of canvas as spaces change variably in terms of geometry. It is good to remind ourselves that in mathematics the origin [0,0] is positioned in the center of a grid paper/screen, but in computing the origin is situated in the upper left corner (see Figure 1.11 in the previous chapter). This impacts on how objects are placed, and shifts our perception/understanding of space/canvas.
 
-
 <div class="section exercise" markdown="true">
+
 ## Exercise in class
+
 ```javascript
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -156,7 +157,7 @@ There are certain rules to follow in naming variables:
 2. **Initialize/Assign:** What is it that you want to store? A number? By assigning a value, you will need to use the equal sign. There are four data types that are useful to know at this introductory level:
     - *number* for numbers of any kind: integer or floating-point.
     - *string* for strings. A string may have one or more characters and it has to be used with double or single quotation marks. For example: `let moving_size = "sixty";`
-    - *boolean* for true/false. For example: `let moving_size = true;`
+    - *%boolean%* for true/false. For example: `let moving_size = true;`
     - *color* for color values. This accepts Red, Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` see more from the "p5.js color reference" (<https://p5js.org/reference/#/p5/color>).[^color]
 
 3. **(Re)Use:** How and when do you want to retrieve the stored data? If the variable changes over time, you may wish to reuse it many times.
