@@ -14,7 +14,7 @@ Framing this chapter under "Data Capture" allows us to move from immediate inter
 
 We will return to some of these issues in Chapter 10, "Machine Learning," but suffice to say, for now, that in the era of big data, there appears to be a need to capture data on everything, even from the most mundane actions like %button% pressing. This chapter begins with a relatively simple action like switching a device on or off — light, a kitchen appliance, and so on. Moreover a button is "seductive,"[^Pold] with its immediate feedback and instantaneous gratification. It compels you to press it. Similarly in software and online platforms like Facebook, a button calls for interaction, inviting the user to click, and interact with it in binary states: like or not-like, accept or cancel. The functionality is simple — on or off — and gives the impression of meaningful interaction despite the very limited choices on an offer (like most interactive systems). Indeed this binary option might be considered to be more "interpassive" than interactive, like accepting the terms of conditions of a social media platform like Facebook without bothering to read the details, or "liking" something as a way of registering your engagement however superficial or fleeting. Permission for capture data is provided, and as such our friendships, thoughts, and experiences all become "datafied." Even our emotional states are monitored when it come to the use of emoticons (discussed in Chapter 2, "Variable Geometry").
 
-With these ideas in mind, the next section will introduce the sample code for a customizable *Like* button in order to demonstrate the potential of simple interactions such as pressing a button. How the specificity and affordances of buttons can be considered, as well as how the like button becomes a "social button," thus creating economic values in what Carolin Gerlitz and Anne Helmond call "the like economy." [^helmond] As in previous chapters we will work through the various types of capture using buttons as a starting point. Subsequently, we will reflect on the wider implications.
+With these ideas in mind, the next section will introduce the sample code for a customizable *Like* button in order to demonstrate the potential of simple interactions such as pressing a button. How the specificities and affordances of buttons can be considered, as well as how the like button becomes a "social button," thus creating economic values in what Carolin Gerlitz and Anne Helmond call "the like economy." [^helmond] As in previous chapters we will work through the various types of capture using buttons as a starting point. Subsequently, we will reflect on the wider implications.
 
 ## start()
 ![datacapture](ch4_10.gif)
@@ -23,6 +23,7 @@ With these ideas in mind, the next section will introduce the sample code for a 
 [RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch4_DataCapture/)    
 
 Starting with this sample code, the sketch incorporates four data inputs for a customizable "like" button:
+
 1. The button can be clicked using the mouse and then the button's color is changed and the screen is cleared.
 2. The button's color is resumed when the mouse is clicked and moved away from the button area.
 3. The button will rotate 180 degrees when you click the keyboard's spacebar.
@@ -34,12 +35,11 @@ The button has been customized using Cascading Style Sheets (CSS), which describ
 <div class="section exercise" markdown="true">
 
 ## Exercise in class (Decode)
-By looking at the like button closely in the RunMe, can you come up with a list of customizations that have been introduced in the sample code?
+By looking at the like button closely in the RunMe, can you come up with a list of stylistic customizations that have been introduced in the sample code?
 
 Then look at the source code in the next section (Lines 22-48) and describe some of the button's styling in your own words.
 
 </div>
-
 ## Source code
 ```javascript
 let button;
@@ -142,13 +142,13 @@ DOM stands for Document Object Model, a document like HTML with a tree structure
 
 First you need to assign an object name to the button, and if you use multiple buttons, you will need to come up with multiple different names so you can set the properties[^Element] for each one.
 
-- `let button;`: First step is to declare the object by assigning a name.
-- `button = createButton('like');`: Create a button and consider the text is to be displayed.
-- `button.style("xxx","xxxx");`: This is the CSS standard, where the first parameter is a selection/selector and the second is a declaration block/attributes. For example, if you want to set the font color, then you can put in "color" and "#fff" respectively.[^Style] For this sample code, all the styling was copied directly from the 2015 Facebook interface by looking at their CSS source code. Styling includes `display`, `color`, `padding`, `text-decoration`, `font-size`, `font-weight`, `border-radius`, `border`, `text-shadow`, `background` and `filter`, with the addition of `transform`.  
-- `button.size();`: This sets the button's width and height.
-- `button.position();` This sets the button's position.
-- `button.mousePressed(clearance());`: This specifies what to do (which function to call) when the program listens for the mousePressed event. In the customized function `clearance()`, `clear()` is a built-in JavaScript function, and is included to clear the screen.
-- `button.mouseOut(revertStyle);`: This reverts the original button's color with the cutomized function `revertStyle()`.    
+* `let button;`: First step is to declare the object by assigning a name.
+* `button = createButton('like');`: Create a button and consider the text is to be displayed.
+* `button.style("xxx","xxxx");`: This is the CSS standard, where the first parameter is a selection/selector and the second is a declaration block/attributes. For example, if you want to set the font color, then you can put in "color" and "#fff" respectively.[^Style] For this sample code, all the styling was copied directly from the 2015 Facebook interface by looking at their CSS source code. Styling includes `display`, `color`, `padding`, `text-decoration`, `font-size`, `font-weight`, `border-radius`, `border`, `text-shadow`, `background` and `filter`, with the addition of `transform`.  
+* `button.size();`: This sets the button's width and height.
+* `button.position();` This sets the button's position.
+* `button.mousePressed(clearance());`: This specifies what to do (which function to call) when the program listens for the mousePressed event. In the customized function `clearance()`, `clear()` is a built-in JavaScript function, and is included to clear the screen.
+* `button.mouseOut(revertStyle);`: This reverts the original button's color with the cutomized function `revertStyle()`.    
 
 ## Mouse capture
 In the previous chapter, the program listened for mouse movement and captured the corresponding x and y coordinates using the built-in syntaxes `mouseX` and `mouseY`. This sample code incorporates specific mouse listening events, such as `mouseOut()` and `mousePressed()` functions which are called every time the user presses a mouse button. See the excerpt from the code below:
@@ -183,7 +183,7 @@ function keyPressed() {
 
 The use of the `%keyPressed()%` function is for listening any keyboard pressing %events%. If you want to specify any `keyCode` (that is the actual key on the keyboard), the sample code shows how a conditional statement can be implemented within the `keyPressed()` function.
 
-The "conditional structure" is something similar to what you have learnt in the previous chapter, but it is also something different with the "if-else" statement. It explains as: if the spacebar on the keyboard is pressed, the button rotates 180 degrees, and if any other keys of the keyboard are pressed, the button reverts back to the original state of 0 degrees. The "if-else" structure therefore allows you to setup a further condition with the listening event: if a `keyCode` is detected other than the spacebar, the program will do something else.
+The "conditional structure" is something similar to what you have learnt in the previous chapter, but it is also something different with the "if-else" statement. It explains as: if the spacebar on the keyboard is pressed, then the button rotates 180 degrees, and if any other keys of the keyboard are pressed, then the button reverts back to the original state of 0 degrees. The "if-else" structure therefore allows you to setup a further condition with the listening event: if a `keyCode` is detected other than the spacebar, the program will do something else.
 
 `keyCode` takes in numbers or special keys like BACKSPACE, DELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL, OPTION, ALT, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW. In the above example, the `keyCode` for a spacebar is 32.
 
@@ -224,7 +224,7 @@ Like a button, you first declare the object, e.g. `let mic;`, and then set up th
 
 The sample code refers to methods under `p5.AudioIn()`, which reads the amplitude (volume level) of the input source returning values between 0.0 to 1.0 using the `getLevel()` method.
 
-A new function `map()` will be introduced to map a number across a range. Since the values for volume returned are on a range of 0.0 to 1.0, the corresponding value will not make a significant difference in terms of the size of the button. As such, the range of the audio input will then map to the size range of the button dynamically.
+A new function `map()` (in line 14) will be introduced to map a number across a range. Since the values for volume returned are on a range of 0.0 to 1.0, the corresponding value will not make a significant difference in terms of the size of the button. As such, the range of the audio input will then map to the size range of the button dynamically.
 
 ## Face tracker
 ```javascript
@@ -270,12 +270,11 @@ For face capture, the sample code uses clmtrackr which is a JavaScript library d
 :   *Figure 4.4: The tracker points on a face*
 
 The program uses the webcam to do face capture and facial recognition:
-
 1. `createCapture()`: This is a HTML5 <video> element (part of the DOM) that captures the feed from a webcam. In relation to this function you can define the size of the screen capture (which depends on the resolution of the webcam) and position on screen, e.g. `capture.size(640,480);` and `capture.position(0,0);`
 
 2. The three lines related to ctracker are: `ctracker = new clm.tracker()`, `ctracker.init(pModel);` and `ctracker.start(capture.elt);`: Similar to audio and camera use, you first need to initialize the ctracker library, select the classified model (to be discussed in Chapter 10, "Machine Learning"), and start tracking from the video source.
 
-3. `ctracker.getPosition()`: While we get the tracker points into an array `position`, a for-loop is used to loop through all 70 tracker points and return the position in terms of x and y coordinates as a two-dimensional array in the form of `position[][]`. The first dimension ([]) of the position array indicates the tracker points from 0 to 70. The second dimension ([][]) retrieves the x and y coordinates of the tracker points. Since the position of the like button follows that of the mouth, and the tracker point for the mouth is s60, the program will then return the position as an array: `positions[60][0]-20` and `positions[60][1]`. The second array's dimensions of [0] and [1] refer to the x and y coordinates.
+3. `ctracker.getPosition()`: While we get the tracker points into an array `position`, a for-loop is used to loop through all 71 tracker points (as it starts with 0 and ends with 70) and return the position in terms of x and y coordinates as a two-dimensional array in the form of `position[][]`. The first dimension ([]) of the position array indicates the tracker points from 0 to 70. The second dimension ([][]) retrieves the x and y coordinates of the tracker points. Since the position of the like button follows that of the mouth, and the tracker point for the mouth is s60, the program will then return the position as an array: `positions[60][0]-20` and `positions[60][1]`. The second array's dimensions of [0] and [1] refer to the x and y coordinates.
 
 4. The final part is to draw the ellipses to cover the face. A for-loop is implemented to loop through all the ctracker points and then get the x and y coordinates for the drawing of the ellipses.
 
@@ -327,7 +326,7 @@ This practice of quantification is something the artist Benjamin Grosser has par
 ![](ch4_9.gif)
 :   *Figure 4.8: Benjamin Grosser's Facebook Demetricator, demetricating Likes, Shares, Comments, and Timestamps. Original (top), Demetricated (bottom). Image courtesy of the artist.*
 
-Tracking is clearly big business and comes with its own invisibility cloak. In 2013, Facebook conducted a research project about last-minute self-censorship,[^Facebook3] revealing their capability of being able to track even unposted status updates/posts/comments, including erased texts, or images. This "residual data," which might be considered "waste material," "digital exhaust," or data exhaust," and yet this data is rich in predictive values.[^zuboff2] The implication is that Facebook is not only interested in capturing what you have posted, but also capturing your thought processes from residual data. It is sobering to think that data capture extends to the realm of imagination.
+Tracking is clearly a big business and comes with its own invisibility cloak. In 2013, Facebook conducted a research project about last-minute self-censorship,[^Facebook3] revealing their capability of being able to track even unposted status updates/posts/comments, including erased texts, or images. This "residual data," which might be considered "waste material," "digital exhaust," or data exhaust," and yet this data is rich in predictive values.[^zuboff2] The implication is that Facebook is not only interested in capturing what you have posted, but also capturing your thought processes from residual data. It is sobering to think that data capture extends to the realm of imagination.
 
 ### Voice and audio data
 Smart devices like our computers, phones, and other gadgets are commonly equipped with voice recognition — such as Siri, Google Assistant or Alexa — which turns audio input into commands for software, and feedback with more personalized experiences to assist in the execution of everyday tasks. You can find these voice assistants in just about everything now including, everyday objects like microwaves, and they become more and more conversational and "smart," one might say "intelligent," as machine learning develops. These "voice assistants," as they are known, carry out simple tasks very well, and become smarter, and at the same time capture voices for machine learning applications in general. Placing these tangible voice assistants in our homes allows the capturing of your choices and tastes when not facing a screen. In the internet of things, the device serves you, and you serve the device. Indeed we become "devices" that generate value for others.[^Leslie2]    
