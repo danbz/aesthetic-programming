@@ -25,7 +25,7 @@ page_order: 12
 - Austin, John Langshaw. *How to Do Things with Words*. Oxford, UK: Clarendon Press, 1975.
 - Balsamo, Anne. *Technologies of the Gendered Body: Reading Cyborg Women*. Durham, NC: Duke University Press, 1995.
 - Barad, Karen. *Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning*. Durham, NC: Duke University Press, 2007.
--	Bek, Wilfried Hou Je. "Loop." In *Software Studies*. Edited by Matthew Fuller, 179–183. Cambridge, MA: The MIT Press, 2008.
+- Bek, Wilfried Hou Je. "Loop." In *Software Studies*. Edited by Matthew Fuller, 179–183. Cambridge, MA: The MIT Press, 2008.
 - Bellacasa, Maria Puig de la. “Matters of Care in Technoscience: Assembling Neglected Things.” *Social Studies of Science* 41 (February 2011): 85–106.
 - Benjamin, Ruha. “Are Robots Racist: Reimagining the Default Settings of Technology and Society.” Dropbox Lecture video, 23:23, 2019. <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>.
 - Benjamin, Walter. "The Work of Art in the Age of Mechanical Reproduction" [1936]. In *Selected Writings, Volume 3, 1935–1938*. Edited by Howard Eiland and Michael W. Jennings. Cambridge, MA: Belknap Press of Harvard University Press, 2002.
@@ -66,7 +66,6 @@ page_order: 12
 - Conley, Will. “Facebook investigates tracking users’ cursors and screen behavior.” *Slashgear*. Last updated October 30, 2013. <https://www.slashgear.com/facebook-investigates-tracking-users-cursors-and-screen-behavior-30303663/>.
 - Cooper, Marilyn. M.. "Really Useful Knowledge: A Cultural Studies Agenda for Writing Centers." *The Writing Center Journal* 14, no. 2 (Spring 1994): 97-111. <https://www.jstor.org/stable/43441948>.
 - Cox, Geoff. “Introduction.” In *David Link: Das Herz der Maschine*, dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 037. Berlin: Hatje Cantz, 2012.  
-- ———. “Generator: The Value of Software Art.” In *Issues in Curating Contemporary Art and Performance*. Edited by Judith Rugg and Michèle Sedgwick, 147–162. Bristol, UK: Intellect, 2007. <https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf>.
 - ———. “Ways of Machine Seeing.” *Unthinking Photography*. November 2016. https://unthinking.photography/articles/ways-of-machine-seeing.
 - ———. “Ways of Machine Seeing.” *A Peer-Reviewed Journal About Machine Research* 6, no. 1 (April 1, 2017): 8-15. <https://aprja.net//issue/view/8319>.
 - Cox, Geoff, and Joasia Krysa, eds. *Engineering Culture: On the Author as (Digital) Producer*. New York, Autonomedia, 2005.
