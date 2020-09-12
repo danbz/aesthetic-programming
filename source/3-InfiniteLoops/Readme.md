@@ -406,6 +406,7 @@ This block of code from the above example describes the position of each asteris
 In our teaching, we describe another example of the use of a for-loop to further clarify its use and to demonstrate the repeated drawing of objects.
 
 ![](ch3_8.png)
+
 :    *Figure 3.8 Drawing 20 ellipses on a canvas using a for-loop*
 
 ```javascript
