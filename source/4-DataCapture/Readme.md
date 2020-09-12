@@ -40,6 +40,7 @@ By looking at the like button closely in the RunMe, can you come up with a list 
 Then look at the source code in the next section (Lines 22-48) and describe some of the button's styling in your own words.
 
 </div>
+
 ## Source code
 ```javascript
 let button;
