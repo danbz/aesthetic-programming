@@ -13,16 +13,18 @@ for design and workshopping",
 "p5.js community - for the contribution of promoting coding and \
 visual literacy via open source tools and documentation",
 "Magda Tyżlik-Carver and Christian Ulrik Andersen - for teaching \
-Software Studies course in parallel to Aesthetic Programming",
+Software Studies course in parallel to Aesthetic Programming, as well as \
+their critical comments on the draft",
 "Instructors of the course - AP: \
 Frederik Westergaard, Nils Rungholm Jensen, Tobias Stenberg, \
 Malthe Stavning Erslev, Ann Karring, Simone Morrison, \
-Nynne Lucca Christianen, Ester Marie Aagaard, and Noah Aamund \
-- for keeping the class learning momentum and assisting the course",
+Nynne Lucca Christianen, Ester Marie Aagaard, and Noah Aamund - for \
+keeping the class learning momentum and assisting the course",
 "Simon Katan and Theodoros Papatheodorou from Goldsmiths, \
 University of London - for allowing one of us to observe the \
 programming class across levels",
-"Helen Pritchard - for hosting one of us in order to complete the book \
+"Helen Pritchard - for ongoing inspiration and collaboration, and for \
+hosting one of us in order to complete the book \
 at Goldsmiths, University of London",
 "Anders Visti - for the suggestion to include the example of \
 Langton's Ant and many other small details",

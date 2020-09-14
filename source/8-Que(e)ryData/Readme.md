@@ -18,7 +18,7 @@ To make some of these interacting entities tangible, and to offer a less-determi
 
 ## start()
 
-*net.art generator* (nag)[^nag] is an application that runs in a web browser to generate new images, created by artist Cornelia Sollfrank in 1997, and the latest version, 5b, was updated by Winnie Soon in 2017. The interface requires the user to enter a title which then functions as the search term, and to enter a name as the author. Sollfrank's initial idea was to "hack" a net.art competition called *Extension* by generating several hundred submission entries with fake international female artist profiles. The program that generated the entries was called *Female Extension* — an undercover example of net.art in itself — to make ironic feminist comment on the underrepresentation of female artists in the media art scene at that time.[^extension] Sollfrank not only created fictitious names, but also email addresses, phone numbers, and addresses for each applicant, along with an example of original net.art work.
+*net.art generator* (nag)[^nag] is an application that runs in a web browser to generate new images, created by artist Cornelia Sollfrank in 1997, and the latest version, 5b, in which the program was updated and maintained by Winnie Soon in 2017. The interface requires the user to enter a title which then functions as the search term, and to enter a name as the author. Sollfrank's initial idea was to "hack" a net.art competition called *Extension* by generating several hundred submission entries with fake international female artist profiles. The program that generated the entries was called *Female Extension* — an undercover example of net.art in itself — to make ironic feminist comment on the underrepresentation of female artists in the media art scene at that time.[^extension] Sollfrank not only created fictitious names, but also email addresses, phone numbers, and addresses for each applicant, along with an example of original net.art work.
 
 This work challenges preconceptions of geeky male hacker culture, as do her earlier documentaries that interviewed fake female hackers, and the naming of the cyberfeminist group she was part of: "Old Boys Network."[^obn] Sollfrank's ironic claim that "a smart artist makes the machine do the work" (itself a hack of Lewitt's maxim, as referred in Chapter 5) has relevance here too as a clarification of "hacking the art operating system," as she puts it.[^hack]
 
@@ -37,23 +37,22 @@ Go to *net.art generator* (https://nag.iap.de/) and explore the generation of im
 
 The following source code of this chapter is a snippet from *nag* showing the web API's request and response logic: requested data passes through a Web API and then Google returns the corresponding data using the key syntax `loadJSON()`. The major differences when using JSON between this and the previous chapter is that the JSON file is not located on your computer and created by yourself, but online. As such, the data is generated dynamically in near real-time. The JSON file has a more complex data and organizational structure.  
 
-[RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch8_Que(e)ryData/>)
+RunMe(<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch8_Que(e)ryData/>)
 
 ![ch8_2](ch8_2.gif)
-:   *Figure 8.2: The manipulation of Warhol flowers*
+:   *Figure 8.2: The process of pixel manipulation*
 
 <figure markdown=true class="figure-inline">
-![sample1](ch8_2b.png)
 ![sample2](ch8_2c.png)
-<figcaption><p markdown=true>*Figure 8.3: The process of pixel manipulation*</p></figcaption>
+<figcaption><p markdown=true>*Figure 8.3: The manipulation of Warhol flowers*</p></figcaption>
 </figure>
 
 For this chapter's sample code, we will focus on images from search engine results and we will also demonstrate how to process, and display image and pixel data on screen in a manner similar to *nag*. Here are the key examples of syntax:
 
-- `loadJSON()`:[^json] As discussed in the preceding chapter, this is the function that loads a JSON file (from a file or a URL). In this sample code, the function is used to send the web API (in the form of a URL) request, and receive the response in the JSON format. The callback function is to turn the returned data into an object: `loadJSON(request, gotData);`.
-- `loadImage()`[^img1] and `image()`:[^img2] They are both used to load and display images. Data such as sound, files, images, and videos are objects that need to be loaded before they can be processed. For this sample code, we do not know the location of the file in advance, therefore this cannot be loaded by the `preload()` function. This is why the callback function is used to handle the time gap between requesting and receiving the image, e.g. `loadImage(getImg, img=> {}});`.
-- `loadPixels()`:[^pixel] If you want to manipulate or analyze the data in an image, this function can extract and manipulate information on each image pixel, loading the data into the built-in `pixels[]` array. We will examine this in more detail below.
-- `line()`: This is used to visualize the color extracted from the selected image's pixels.
+* `loadJSON()`:[^json] As discussed in the preceding chapter, this is the function that loads a JSON file (from a file or a URL). In this sample code, the function is used to send the web API (in the form of a URL) request, and receive the response in the JSON format. The callback function is to turn the returned data into an object: `loadJSON(request, gotData);`.
+* `loadImage()`[^img1] and `image()`:[^img2] They are both used to load and display images. Data such as sound, files, images, and videos are objects that need to be loaded before they can be processed. For this sample code, we do not know the location of the file in advance, therefore this cannot be loaded by the `preload()` function. This is why the callback function is used to handle the time gap between requesting and receiving the image, e.g. `loadImage(getImg, img=> {}});`.
+* `loadPixels()`:[^pixel] If you want to manipulate or analyze the data in an image, this function can extract and manipulate information on each image pixel, loading the data into the built-in `pixels[]` array. We will examine this in more detail below.
+* `line()`: This is used to visualize the color extracted from the selected image's pixels.
 
 ## Source code
 
@@ -137,6 +136,7 @@ The above source code describes how to retrieve a static image from Google's ima
 This exercise is about getting the *key ID* and *Engine ID* from Google so that you can input your own set of IDs and run the program successfully. This is essential information that enables the program to run and fetch an online image on the fly.
 
 1. **Step 1:** Create a p5 sketch, then copy and paste the source code into your code editor (assuming you have the HTML file and the p5 library).
+
 2. **Step 2:** Replace the API key with your own details on the line: `let apikey = "INPUT YOUR OWN KEY";`.
 ![google1](ch8_3.png)
 :   *Figure 8.4: Google Custom Search interface*
@@ -145,6 +145,7 @@ This exercise is about getting the *key ID* and *Engine ID* from Google so that 
     * Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and find the section API key
     * Click the blue button "Get A Key" and then create a new project by entering your project name (e.g. "nag-test") and press enter
     * You should able to see the API key and you just need to copy and paste the key into your sketch
+
 3. **Step 3:** Replace the Search engine ID (cx) with your own, on the line: `let engineID = "INPUT YOUR OWN";`.
     * Go to [Custom Search Engine](https://cse.google.com/all)[^google2]
     * Click the "Add" button to add a search engine
@@ -224,10 +225,10 @@ To learn more about the JSON file, you can navigate through other data objects s
 
 We can now summarize the general process of working with web APIs and getting data from an online platform:
 
-- Understanding the web API's workflow.
-- Understanding the API specification that indicate which data and parameters are available.
-- Understanding the file format (such as JSON) returned by the web API.
-- Registering and getting the API key(s) and any other, additional configuration needed.
+* Understanding the web API's workflow.
+* Understanding the API specification that indicate which data and parameters are available.
+* Understanding the file format (such as JSON) returned by the web API.
+* Registering and getting the API key(s) and any other, additional configuration needed.
 
 Given our specific example *nag* and the sample code, we want to also reflect on increasingly prevalent API practices. Although Google has provided the API to access the data, it should be remembered that the amount is limited to 100 free API requests for all units from business to non-profit organizations, and the actual data is collected from the public, and people have no access to the specific algorithm which selects, prioritizes, and presents the data. This raises serious questions about the degree of openness, transparency, accessibility, and inclusivity of API practices.[^soon]
 
@@ -251,7 +252,7 @@ Given our specific example *nag* and the sample code, we want to also reflect on
 ![sample](ch8_6.png)
 :   *Figure 8.9: An illustration of how an image is made up of pixels*
 
-For this sample sketch, only one color in the image will be selected and processed. This means that the program will randomly locate and pick any pixel from the image. The function `pixels` also analyzes and retrieves the color of the selected pixel, specifically the RGB color values that are used to draw the colored line on screen (see Figure 8.9 above as an illustration but in reality the pixel size is much smaller).
+For this sample sketch on an image file, only one color in the image will be selected and processed. This means that the program will randomly locate and pick any pixel from the image. The function `pixels` also analyzes and retrieves the color of the selected pixel, specifically the RGB color values that are used to draw the colored line on screen (see Figure 8.9 above as an illustration but in reality the pixel size is much smaller).
 
 The colored lines (see Figures 8.2 and 8.3) are not randomly drawn, but they are based on the x and y coordinates of the pixel selected, and each line is drawn along the whole y axes from that point. Apart from the position, the color of the line is based on the RGB values of the selected pixel as well. Combining both the position and the color leads to something like a color visualization of the image, an abstract painting unfolding over time.
 
@@ -305,7 +306,7 @@ The logic in the `draw()` function is to draw the grey outer frame and load the 
 
 The conditional structure `if (getImg){}` is used to allow sufficient time to load the JSON file and to be able to get the file path. Upon the successful loading of an image (with the function `loadImage()` and the corresponding callback function `img`), both the outer frame and the image are drawn on the canvas.
 
-The outer frame and the image are only drawn once with the update of the status `imgLoaded`. For each frame drawn, the program will analyze the image's pixels using the syntax `loadPixels()`, picking the random pixel, and getting the corresponding pixel's x and y coordinates (using the variables `img_x` and `img_y`). It then gets the RGB color values from the pxel selected using `pixels[]`, then draws the colored line with the syntax `strokeWeight()`, `stroke()` and `line()`.
+The outer frame and the image are only drawn once with the update of the status `imgLoaded`. For each frame drawn, the program will analyze the image's pixels using the syntax `loadPixels()`, picking the random pixel, and getting the corresponding pixel's x and y coordinates (using the variables `img_x` and `img_y`). It then gets the RGB color values from the pixel selected using `pixels[]`, then draws the colored line with the syntax `strokeWeight()`, `stroke()` and `line()`.
 
 This section with the pixel and color elements shows how a computer processes and stores an image as a piece of data which is fundamentally different from how humans see and perceive it[^eckhardt]. It is also a way to demonstrate how an image object is being translated into numbers for computation, which is somewhat similar to the example of face tracking in Chapter 4, "Data Capture," in which a pixel can be located at a scale beyond human perception. These examples may help you understand contemporary applications like tracking technology and even computer vision that employs machine learning techniques in which images function as training data (we return to this in Chapter 10).
 
@@ -317,13 +318,13 @@ Paying close attention to errors is an important part of learning to program. Ar
 
 Broadly speaking, there are three types of errors:
 
-1. **Syntax errors** are problems with the syntax, also known as parsing errors. These errors — such as spelling errors or missing a closed bracket — tend to be easier to catch, and can be detected by a parser (in this case the browser).
+* **Syntax errors** are problems with the syntax, also known as parsing errors. These errors — such as spelling errors or missing a closed bracket — tend to be easier to catch, and can be detected by a parser (in this case the browser).
 
 ```
 SyntaxError: missing ) after argument list
 ```
 
-2. **Runtime errors** happen during the execution of a program while the syntax is correct.
+* **Runtime errors** happen during the execution of a program while the syntax is correct.
 
 The web browser console is the place to understand these errors. Below shows two examples of runtime errors:
 
@@ -339,7 +340,7 @@ Wrong API key sent to the server. It is a more critial error because the program
 > p5.js says: It looks like there was a problem loading your json. Try checking if the file path is correct, or running a local server.
 ```
 
-3. **Logical errors** are arguably the hardest errors to locate as they deal with logic not syntax. The code may still run perfectly, but the result is not what was expected. This indicates a discrepancy between what we think we asked the computer to do and how it actually processes the instructions.
+* **Logical errors** are arguably the hardest errors to locate as they deal with logic not syntax. The code may still run perfectly, but the result is not what was expected. This indicates a discrepancy between what we think we asked the computer to do and how it actually processes the instructions.
 
 The web console is a good place to be notified of errors or test whether the code is running as we expected. When solving errors, it is important to identify exactly where they occur, i.e. which block or line of code contains the mistake by using `console.log()`. Test and run the various parts of the program step by step, then try to identify the error types, and fix them accordingly.
 
@@ -384,6 +385,7 @@ To que(e)ry data in this way throws into further question how data is collected,
 **Tasks (RunMe):**
 
 This is a relatively complex exercise that requires you to:
+
 * Design a program that utilizes at least one web API (think about what you want conceptually), including:
     * Finding available web APIs and the data that you want to explore.
     * Understanding the available data: the data file format and the API's specifications.
