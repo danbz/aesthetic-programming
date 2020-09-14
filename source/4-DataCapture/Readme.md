@@ -360,14 +360,14 @@ This line of argument makes reference to the philosophy of Gilbert Simondon, to 
 
 **Objective:**
 
-- To experiment with various data capture inputs, including audio, mouse, keyboard, webcam, and more.
-- To critically reflect upon the process of data capture and datafication.
+* To experiment with various data capture inputs, including audio, mouse, keyboard, webcam, and more.
+* To critically reflect upon the process of data capture and datafication.
 
 **For additional inspiration:**
 
-- LAUREN by Lauren McCarthy (2017), <http://lauren-mccarthy.com/LAUREN>.
-- *nonsense* by Winnie Soon (2015), (read the comment in the source code for this project's intentions), <http://siusoon.net/nonsense/>.
-- *Facebook Demetricator* by Benjamin Grosser (2012-present), <https://bengrosser.com/projects/facebook-demetricator/>, and subsequent *Instagram Demetricator*, <https://bengrosser.com/projects/instagram-demetricator/> or *Twitter Demetricator*, <https://bengrosser.com/projects/twitter-demetricator/>.
+* LAUREN by Lauren McCarthy (2017), <http://lauren-mccarthy.com/LAUREN>.
+* *nonsense* by Winnie Soon (2015), (read the comment in the source code for this project's intentions), <http://siusoon.net/nonsense/>.
+* *Facebook Demetricator* by Benjamin Grosser (2012-present), <https://bengrosser.com/projects/facebook-demetricator/>, and subsequent *Instagram Demetricator*, <https://bengrosser.com/projects/instagram-demetricator/> or *Twitter Demetricator*, <https://bengrosser.com/projects/twitter-demetricator/>.
 
 **Tasks (RunMe):**
 
@@ -376,27 +376,27 @@ This line of argument makes reference to the philosophy of Gilbert Simondon, to 
 
 **Questions to think about (ReadMe):**
 
-- **Provide** a title for and a short description of your work (1000 characters or less) as if you were going to submit it to the festival.
-- **Describe** your program and what you have used and learnt.
-- **Articulate** how your program and thinking address the theme "capture all."
-- What are the cultural implications of data capture?
+* **Provide** a title for and a short description of your work (1000 characters or less) as if you were going to submit it to the festival.
+* **Describe** your program and what you have used and learnt.
+* **Articulate** how your program and thinking address the theme "capture all."
+* What are the cultural implications of data capture?
 </div>
 
 ## Required reading
 
-- Carolin Gerlitz and Anne Helmond, "The Like Economy: Social Buttons and the Data-Intensive Web," *New Media & Society* 15, no. 8, December 1 (2013): 1348–65.
-- "p5.js examples - Interactivity 1," <https://p5js.org/examples/hello-p5-interactivity-1.html>.
-- "p5.js examples - Interactivity 2," <https://p5js.org/examples/hello-p5-interactivity-2.html>.
-- "p5 DOM reference," <https://p5js.org/reference/#group-DOM>.
-- Shoshana Zuboff, "Shoshana Zuboff on Surveillance Capitalism | VPRO Documentary," <https://youtu.be/hIXhnWUmMvw>.
+* Carolin Gerlitz and Anne Helmond, "The Like Economy: Social Buttons and the Data-Intensive Web," *New Media & Society* 15, no. 8, December 1 (2013): 1348–65.
+* "p5.js examples - Interactivity 1," <https://p5js.org/examples/hello-p5-interactivity-1.html>.
+* "p5.js examples - Interactivity 2," <https://p5js.org/examples/hello-p5-interactivity-2.html>.
+* "p5 DOM reference," <https://p5js.org/reference/#group-DOM>.
+* Shoshana Zuboff, "Shoshana Zuboff on Surveillance Capitalism | VPRO Documentary," <https://youtu.be/hIXhnWUmMvw>.
 
 ## Further reading
 
--	Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-Reviewed Journal About Datafied Research* 4, no. 1 (2015), <https://aprja.net//issue/view/8402>.
-- Audun M. Øygard, "clmtrackr - Face tracking javascript library," <https://github.com/auduno/clmtrackr>.
--	Søren Pold, "Button," in Fuller, ed., *Software Studies*.
--	Daniel Shiffman, *HTML / CSS/DOM - p5.js Tutorial* (2017), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX>.
--	Tiziana Terranova, "Red Stack Attack! Algorithms, Capital and the Automation of the Common," *EuroNomade* (2014), <http://www.euronomade.info/?p=2268>.
+*	Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-Reviewed Journal About Datafied Research* 4, no. 1 (2015), <https://aprja.net//issue/view/8402>.
+* Audun M. Øygard, "clmtrackr - Face tracking javascript library," <https://github.com/auduno/clmtrackr>.
+*	Søren Pold, "Button," in Fuller, ed., *Software Studies*.
+*	Daniel Shiffman, *HTML / CSS/DOM - p5.js Tutorial* (2017), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX>.
+*	Tiziana Terranova, "Red Stack Attack! Algorithms, Capital and the Automation of the Common," *EuroNomade* (2014), <http://www.euronomade.info/?p=2268>.
 
 ## Notes
 

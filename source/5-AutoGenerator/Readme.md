@@ -295,10 +295,10 @@ We already have discussed the idea of unleashing potential for changes in the pr
 
 Each cell interacts with other, directly adjacent, cells, and the following transitions occur:
 
- - Any live cell with fewer than two live neighbors dies, as if by underpopulation.
- - Any live cell with two or three live neighbors lives on to the next generation.
- - Any live cell with more than three live neighbors dies, as if by overpopulation.
- - Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+ * Any live cell with fewer than two live neighbors dies, as if by underpopulation.
+ * Any live cell with two or three live neighbors lives on to the next generation.
+ * Any live cell with more than three live neighbors dies, as if by overpopulation.
+ * Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
 If the evolutionary neo-Darwinian logic of this — where the fittest survive — were not worrying enough, *Game of Life* is further troubling for its "necropolitical" dimension[^necro]: articulating life and death in terms of populations and neighborhoods, as if part of a social cleansing program (or dystopian smart city[^smart] project). Is this simply an example of poor abstraction?
 
@@ -329,21 +329,21 @@ Artist David Link built a functional replica of both the hardware and the origin
 
 **Objectives:**
 
-- To implement a rule-based, generative program from scratch.
-- To strengthen the computational use of loops and conditional statements.
-- To conceptually and practically reflect upon the idea of auto-generator.
+* To implement a rule-based, generative program from scratch.
+* To strengthen the computational use of loops and conditional statements.
+* To conceptually and practically reflect upon the idea of auto-generator.
 
 **For additional inspiration:**
 
-- *{Software} Structure #003 A* by Casey Reas (2004), <https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks>.
-- *Daily Art* by Saskia Freeke (2018), <http://www.sasj.nl/daily/>.
-- *Generative Artistry* by Ruth John and Tim Holman (n.d.), <https://generativeartistry.com/tutorials/>.
-- *Generative Design - sketches* (n.d.), <http://www.generative-gestaltung.de/2/>, and source code, <https://github.com/generative-design/Code-Package-p5.js>.
-- *GenArt* by Joseph Fiola (2016), with source code, <https://github.com/JosephFiola/GenArt>.
-- *Game of Life* by John Conway (1970), <https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/>.
-- *Generative Tarot* by Melanie Hoff (2019), <https://www.melaniehoff.com/generativetarot/>, source code <https://github.com/melaniehoff/generative-tarot-p5js>.
-- *The Recode Project* (featuring projects from 1976-78), <http://recodeproject.com/>, and *Memory Slam* by Nick Montfort (2014), <http://nickm.com/memslam/>.
-- *Solving Sol* by Brad Bouse (n.d.), an open project to implement Sol LeWitt's instructions in JavaScript  <https://github.com/wholepixel/solving-sol>.
+* *{Software} Structure #003 A* by Casey Reas (2004), <https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks>.
+* *Daily Art* by Saskia Freeke (2018), <http://www.sasj.nl/daily/>.
+* *Generative Artistry* by Ruth John and Tim Holman (n.d.), <https://generativeartistry.com/tutorials/>.
+* *Generative Design - sketches* (n.d.), <http://www.generative-gestaltung.de/2/>, and source code, <https://github.com/generative-design/Code-Package-p5.js>.
+* *GenArt* by Joseph Fiola (2016), with source code, <https://github.com/JosephFiola/GenArt>.
+* *Game of Life* by John Conway (1970), <https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/>.
+* *Generative Tarot* by Melanie Hoff (2019), <https://www.melaniehoff.com/generativetarot/>, source code <https://github.com/melaniehoff/generative-tarot-p5js>.
+* *The Recode Project* (featuring projects from 1976-78), <http://recodeproject.com/>, and *Memory Slam* by Nick Montfort (2014), <http://nickm.com/memslam/>.
+* *Solving Sol* by Brad Bouse (n.d.), an open project to implement Sol LeWitt's instructions in JavaScript  <https://github.com/wholepixel/solving-sol>.
 
 **Tasks (RunMe):**
 
@@ -352,26 +352,26 @@ Artist David Link built a functional replica of both the hardware and the origin
 
 **Questions to think about (ReadMe):**
 
-- What are the rules in your generative program? Describe how your program performs over time? How do the rules produce emergent behavior?
-- What role do rules and processes have in your work?
-- Draw upon the assigned reading, how does this MiniX help you to understand the idea of "auto-generator" (e.g. levels of control, autonomy, love and care via rules)? Do you have any further thoughts on the theme of this chapter?
+* What are the rules in your generative program? Describe how your program performs over time? How do the rules produce emergent behavior?
+* What role do rules and processes have in your work?
+* Draw upon the assigned reading, how does this MiniX help you to understand the idea of "auto-generator" (e.g. levels of control, autonomy, love and care via rules)? Do you have any further thoughts on the theme of this chapter?
 </div>
 
 ## Required reading
 
-- Nick Montfort et al. "Randomness," *[10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org/)* (Cambridge, MA: MIT Press, 2012), 119-146.
-- Daniel Shiffman, "p5.js - 2D Arrays in Javascript," *Youtube*, <https://www.youtube.com/watch?v=OTNpiLUSiB4>.
-- Marius Watz, "Beautiful Rules: Generative Models of Creativity," in *The Olhares de Outono* (2007), <https://vimeo.com/26594644>.
-- "Langton's Ant Colonies," *Youtube* video, 6:02, posted by MrBluesbyrd, November 7 (2011), <https://www.youtube.com/watch?v=w6XQQhCgq5c>.
+* Nick Montfort et al. "Randomness," *[10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org/)* (Cambridge, MA: MIT Press, 2012), 119-146.
+* Daniel Shiffman, "p5.js - 2D Arrays in Javascript," *Youtube*, <https://www.youtube.com/watch?v=OTNpiLUSiB4>.
+* Marius Watz, "Beautiful Rules: Generative Models of Creativity," in *The Olhares de Outono* (2007), <https://vimeo.com/26594644>.
+* "Langton's Ant Colonies," *Youtube* video, 6:02, posted by MrBluesbyrd, November 7 (2011), <https://www.youtube.com/watch?v=w6XQQhCgq5c>.
 
 ## Further reading
 
-- Philip Galanter, "Generative Art Theory," in Christiane Paul, ed., *A Companion to Digital Art* (Oxford: Blackwell, 2016), <http://cmuems.com/2016/60212/resources/galanter_generative.pdf>.
-- "How to Draw with Code | Casey Reas," *Youtube* video, 6:07, posted by Creators, June 25 (2012), <https://www.youtube.com/watch?v=_8DMEHxOLQE>.
-- John Horton Conway, *The Game of Life* (1970), <https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life>.
-- Daniel Shiffman, "p5.js Coding Challenge #14: Fractal Trees - Recursive," <https://www.youtube.com/watch?v=0jjeOYMjmDU>.
-- Daniel Shiffman, "p5.js Coding Challenge #76: Recursion," <https://www.youtube.com/watch?v=jPsZwrV9ld0>.
-- Daniel Shiffman, "noise() vs random() - Perlin Noise and p5.js Tutorial," <https://www.youtube.com/watch?v=YcdldZ1E9gU>.
+* Philip Galanter, "Generative Art Theory," in Christiane Paul, ed., *A Companion to Digital Art* (Oxford: Blackwell, 2016), <http://cmuems.com/2016/60212/resources/galanter_generative.pdf>.
+* "How to Draw with Code | Casey Reas," *Youtube* video, 6:07, posted by Creators, June 25 (2012), <https://www.youtube.com/watch?v=_8DMEHxOLQE>.
+* John Horton Conway, *The Game of Life* (1970), <https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life>.
+* Daniel Shiffman, "p5.js Coding Challenge #14: Fractal Trees - Recursive," <https://www.youtube.com/watch?v=0jjeOYMjmDU>.
+* Daniel Shiffman, "p5.js Coding Challenge #76: Recursion," <https://www.youtube.com/watch?v=jPsZwrV9ld0>.
+* Daniel Shiffman, "noise() vs random() - Perlin Noise and p5.js Tutorial," <https://www.youtube.com/watch?v=YcdldZ1E9gU>.
 
 ## Notes
 

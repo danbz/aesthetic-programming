@@ -221,15 +221,15 @@ Make a RunMe and a ReadMe.
 
 **Objective**
 
-- To learn the basic setup, including writing code with a code editor, running code with a web browser, independent study of code syntax, creating a ReadMe file, etc.
-- To start thinking with programming conceptually.
+* To learn the basic setup, including writing code with a code editor, running code with a web browser, independent study of code syntax, creating a ReadMe file, etc.
+* To start thinking with programming conceptually.
 
 **For additional inspiration**
 
-- *Daily Sketch in Processing* by Saskia Freeke, <https://twitter.com/sasj_nl> (and her talk can be found at <https://youtube.com/watch?v=nBtGpEZ0-EQ>); *All the Daily Things* by Saskia Freeke (2018), <https://vimeo.com/309138645>.
-- Zach Lieberman's Instagram page, <https://instagram.com/zach.lieberman/>.
-- "Basics in OpenProcessing," <https://openprocessing.org/browse/?q=basics&time=anytime&type=all#>.
-- "Creative Coding with Processing and p5.js," <https://fb.com/groups/creativecodingp5/>.
+* *Daily Sketch in Processing* by Saskia Freeke, <https://twitter.com/sasj_nl> (and her talk can be found at <https://youtube.com/watch?v=nBtGpEZ0-EQ>); *All the Daily Things* by Saskia Freeke (2018), <https://vimeo.com/309138645>.
+* Zach Lieberman's Instagram page, <https://instagram.com/zach.lieberman/>.
+* "Basics in OpenProcessing," <https://openprocessing.org/browse/?q=basics&time=anytime&type=all#>.
+* "Creative Coding with Processing and p5.js," <https://fb.com/groups/creativecodingp5/>.
 
 **Task (RunMe)**
 
@@ -239,24 +239,24 @@ Make a RunMe and a ReadMe.
 
 **Questions to think about in your ReadMe**
 
-- What have you produced?
-- How would you describe your first independent coding experience (in relation to thinking, reading, copying, modifying, writing code, and so on)?
-- How is the coding process different from, or similar to, reading and writing text?
-- What does code and programming mean to you, and how does the assigned reading help you to further reflect on these terms?
+* What have you produced?
+* How would you describe your first independent coding experience (in relation to thinking, reading, copying, modifying, writing code, and so on)?
+* How is the coding process different from, or similar to, reading and writing text?
+* What does code and programming mean to you, and how does the assigned reading help you to further reflect on these terms?
 </div>
 
 ## Required reading
 
-- Lauren McCarthy, "Learning While Making p5.js," *OPENVIS* Conference (2015), <https://youtube.com/watch?v=1k3X4DLDHdc>.
-- Nick Montfort, "Appendix A: Why Program?" *Exploratory Programming For the Arts and Humanities* (Cambridge, Mass.: MIT Press, 2016), 267-277.
-- "p5.js | get started," <https://p5js.org/get-started/>.
-- Daniel Shiffman, "1.1: Code! Programming with p5.js" (2018), <https://youtube.com/watch?v=yPWkPOfnGsw>.
-- Annette Vee, "Coding for Everyone and the Legacy of Mass Literacy," in *Coding Literacy: How Computer Programming Is Changing Writing* (Cambridge, MA: MIT Press, 2017), 43-93.
+* Lauren McCarthy, "Learning While Making p5.js," *OPENVIS* Conference (2015), <https://youtube.com/watch?v=1k3X4DLDHdc>.
+* Nick Montfort, "Appendix A: Why Program?" *Exploratory Programming For the Arts and Humanities* (Cambridge, Mass.: MIT Press, 2016), 267-277.
+* "p5.js | get started," <https://p5js.org/get-started/>.
+* Daniel Shiffman, "1.1: Code! Programming with p5.js" (2018), <https://youtube.com/watch?v=yPWkPOfnGsw>.
+* Annette Vee, "Coding for Everyone and the Legacy of Mass Literacy," in *Coding Literacy: How Computer Programming Is Changing Writing* (Cambridge, MA: MIT Press, 2017), 43-93.
 
 ## Further reading
 
-- Wendy Hui Kyong Chun, "On Software, or the Persistence of Visual Knowledge," *Grey Room* 18, January (2005): 26–51, <https://doi.org/10.1162/1526381043320741>.
-- Brian Lennon, "JavaScript Affogato: Programming a Culture of Improvised Expertise," *Configurations* 26, no. 1, Winter (2018): 47-72.
+* Wendy Hui Kyong Chun, "On Software, or the Persistence of Visual Knowledge," *Grey Room* 18, January (2005): 26–51, <https://doi.org/10.1162/1526381043320741>.
+* Brian Lennon, "JavaScript Affogato: Programming a Culture of Improvised Expertise," *Configurations* 26, no. 1, Winter (2018): 47-72.
 
 ## Notes
 

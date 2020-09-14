@@ -126,41 +126,41 @@ In relation to the predictive practices of machine learning in particular, we mi
 
 **Objective:**
 
-- To acquire the ability to break down a computer program into its definable parts and relations.
-- To organize and structure a computer program using a flowchart.
-- To understand a flowchart as a means for communication and planning, and a tool/machine for critical thinking.
-- To understand the concept of algorithms from both the computer science and cultural perspectives.
+* To acquire the ability to break down a computer program into its definable parts and relations.
+* To organize and structure a computer program using a flowchart.
+* To understand a flowchart as a means for communication and planning, and a tool/machine for critical thinking.
+* To understand the concept of algorithms from both the computer science and cultural perspectives.
 
 **Tasks (RunMe):**
 
 Individual:
 
-- Revisit your previous mini exercises and select the most technically complex one.
-- Draw a flowchart to represent the program (pay attention to which items you select to present).
+* Revisit your previous mini exercises and select the most technically complex one.
+* Draw a flowchart to represent the program (pay attention to which items you select to present).
 
 Group:
 
-- Brainstorm two ideas for your final project (see next chapter's MiniX).
-- Draw two flowcharts to visualize the project's algorithmic processes.
+* Brainstorm two ideas for your final project (see next chapter's MiniX).
+* Draw two flowcharts to visualize the project's algorithmic processes.
 
 **Questions to think about (ReadMe):**
 
-- What are the difficulties involved in trying to keep things simple at the communications level whilst maintaining complexity at the algorithmic procedural level?
-- What are the technical challenges facing the two ideas and how are you going to address these?
-- In which way are the individual and the group flowcharts you produced useful?
+* What are the difficulties involved in trying to keep things simple at the communications level whilst maintaining complexity at the algorithmic procedural level?
+* What are the technical challenges facing the two ideas and how are you going to address these?
+* In which way are the individual and the group flowcharts you produced useful?
 </div>
 
 ## Required reading
 
-- Taina Bucher, "The Multiplicity of Algorithims," *If...Then: Algorithmic Power and Politics* (Oxford: Oxford University Press, 2018), 19–40.
-- Nathan Ensmenger, "The Multiple Meanings of a Flowchart," *Information & Culture: A Journal of History* 51, no.3 (2016): 321-351, Project MUSE, doi:10.1353/lac.2016.0013.
-- Marcus du Sautoy, "The Secret Rules of Modern Living: Algorithms," *BBC Four* (2015), <https://www.bbc.co.uk/programmes/p030s6b3/clips>.
+* Taina Bucher, "The Multiplicity of Algorithims," *If...Then: Algorithmic Power and Politics* (Oxford: Oxford University Press, 2018), 19–40.
+* Nathan Ensmenger, "The Multiple Meanings of a Flowchart," *Information & Culture: A Journal of History* 51, no.3 (2016): 321-351, Project MUSE, doi:10.1353/lac.2016.0013.
+* Marcus du Sautoy, "The Secret Rules of Modern Living: Algorithms," *BBC Four* (2015), <https://www.bbc.co.uk/programmes/p030s6b3/clips>.
 
 ## Further reading
 
-- Ed Finn, “What is an Algorithm,” in *What Algorithms Want* (Cambridge, MA: MIT Press, 2017), 15-56.
-- Andrew Goffey, "Algorithm," in Fuller, ed., *Software Studies*, 15-20.
-- Daniel Shiffman, "Multiple js Files - p5.js Tutorial," *The Coding Train*, <https://www.youtube.com/watch?v=Yk18ZKvXBj4>.
+* Ed Finn, “What is an Algorithm,” in *What Algorithms Want* (Cambridge, MA: MIT Press, 2017), 15-56.
+* Andrew Goffey, "Algorithm," in Fuller, ed., *Software Studies*, 15-20.
+* Daniel Shiffman, "Multiple js Files - p5.js Tutorial," *The Coding Train*, <https://www.youtube.com/watch?v=Yk18ZKvXBj4>.
 
 ## Notes
 

@@ -34,8 +34,8 @@ Tasks:
 1. Visit the ELIZA Test by clicking the button "Next Step", <https://www.masswerk.at/elizabot/eliza_test.html> so you can see the original example given by Weizenbaum in his published article.[^Weizenbaum3]
 2. Then visit the work *E.L.I.Z.A Talking* (2013) via the link <https://www.masswerk.at/eliza/>, and try to have your own conversation.[^bot]
 3. Share your experience of the original conversation (by Weizenbaum) and your conversation with the chatbot:
-    - How would you describe your experience of ELIZA (e.g. the use of language, style of conversation, and quality of social interaction)?
-    - How would you assess the ability of technology such as this to capture and structure feelings, and experiences? What are the limitations?
+    * How would you describe your experience of ELIZA (e.g. the use of language, style of conversation, and quality of social interaction)?
+    * How would you assess the ability of technology such as this to capture and structure feelings, and experiences? What are the limitations?
 
 ## Between input and output
 
@@ -327,10 +327,10 @@ Drawing on the curriculum, including the various theoretical and conceptual text
 
 Here are few tips may help you to come up with an idea for your project:
 
-- You may take another look at the themes that we have used for inspiration, including: literacy, variable geometry, infinite loops, data capture, object abstraction, vocable code, auto generator, que(e)ry data, algorithmic procedures, machine learning, as well as writing and coding, facial recognition, emojis, (micro)temporalities, capture all, interactivity, object orientation, rule-based systems, language and speech, expressivity, algorithmic literature, politics of data processing and learning, all underwritten by an attentiveness to a politics of race, class, and gender.
-- Take a look again at all the previous mini exercises and the questions that were posed. Are there any that you want to explore further?
-- Are there any assigned/suggested texts that you are inspired by, and you want to explore further?
-- Are there any particular technical areas that you want to explore further?
+* You may take another look at the themes that we have used for inspiration, including: literacy, variable geometry, infinite loops, data capture, object abstraction, vocable code, auto generator, que(e)ry data, algorithmic procedures, machine learning, as well as writing and coding, facial recognition, emojis, (micro)temporalities, capture all, interactivity, object orientation, rule-based systems, language and speech, expressivity, algorithmic literature, politics of data processing and learning, all underwritten by an attentiveness to a politics of race, class, and gender.
+* Take a look again at all the previous mini exercises and the questions that were posed. Are there any that you want to explore further?
+* Are there any assigned/suggested texts that you are inspired by, and you want to explore further?
+* Are there any particular technical areas that you want to explore further?
 
 **RunMe:**
 
@@ -346,23 +346,23 @@ The document should include a title, a screen shot, a flowchart, references, a l
 
 The ReadMe should address the following questions with the help of your source code, programming processes, and your selected readings:
 
-- What is your software about (provide a short description of what is it, how it works, and what it sets out to explore)?
-- How does your work address at least one of the themes and explore the intersections of technical, and cultural aspects of code?
-- Open question: To what extent can the artifact be considered to be a critical work in and of itself?
+* What is your software about (provide a short description of what is it, how it works, and what it sets out to explore)?
+* How does your work address at least one of the themes and explore the intersections of technical, and cultural aspects of code?
+* Open question: To what extent can the artifact be considered to be a critical work in and of itself?
 </div>
 
 ## Required reading
 
-- Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>.
-- Geoff Cox, "Ways of Machine Seeing," *Unthinking Photography* (2016), <https://unthinking.photography/articles/ways-of-machine-seeing>.
-- Yuval Noah Harari, Audrey Tang, and Puja Ohlhaver, "To be or not to be hacked? The Future of democracy, work, and identity," *RADICALxChange* (2020), <https://www.youtube.com/watch?v=tRVEY95cI0o>.
+* Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>.
+* Geoff Cox, "Ways of Machine Seeing," *Unthinking Photography* (2016), <https://unthinking.photography/articles/ways-of-machine-seeing>.
+* Yuval Noah Harari, Audrey Tang, and Puja Ohlhaver, "To be or not to be hacked? The Future of democracy, work, and identity," *RADICALxChange* (2020), <https://www.youtube.com/watch?v=tRVEY95cI0o>.
 
 ## Further reading
 
-- Kate Crawford and Vladan Joler, "Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources," AI Institute (2018), <https://anatomyof.ai/>.
-- Shakir Mohamed, Marie-Therese Png, William Isaac, “Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence,” *Philosophy & Technology*, Springer, July 12 (2020), <https://doi.org/10.1007/s13347-020-00405-8>.
-- Adrian Mackenzie and Anna Munster, “Platform Seeing: Image Ensembles and Their Invisualities,” *Theory, Culture & Society* 26, no. 5 (2019): 3-22.
-- Daniel Shiffman, "Beginners Guide to Machine Learning in JavaScript," *The Coding Train*, <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y>
+* Kate Crawford and Vladan Joler, "Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources," AI Institute (2018), <https://anatomyof.ai/>.
+* Shakir Mohamed, Marie-Therese Png, William Isaac, “Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence,” *Philosophy & Technology*, Springer, July 12 (2020), <https://doi.org/10.1007/s13347-020-00405-8>.
+* Adrian Mackenzie and Anna Munster, “Platform Seeing: Image Ensembles and Their Invisualities,” *Theory, Culture & Society* 26, no. 5 (2019): 3-22.
+* Daniel Shiffman, "Beginners Guide to Machine Learning in JavaScript," *The Coding Train*, <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y>
 
 ## Notes
 

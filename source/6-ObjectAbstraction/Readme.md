@@ -76,21 +76,21 @@ Below we will introduce the sample code *Eating tofu*, a simple game inspired by
 
 Based on what you experience on the screen, describe:
 
-- **What** are the instructions/rules for playing the game?
-- Tofu is constructed as a class, and each tofu is an object instance. Can you describe the properties of the tofus and their behaviors?
-- Can you describe the algorithmic procedures and sequences of the game using the following components: tofu, Pacman, keypress events, movements?
+* **What** are the instructions/rules for playing the game?
+* Tofu is constructed as a class, and each tofu is an object instance. Can you describe the properties of the tofus and their behaviors?
+* Can you describe the algorithmic procedures and sequences of the game using the following components: tofu, Pacman, keypress events, movements?
 
 **Further questions to think about:**
 
-- There is a continous having new tofus moving from right to left, **what** are the conditions to trigger new tofus?  
-- **How** do you check if Pacman has eaten the tofu?
-- Under which conditions will the game end?
+* There is a continous having new tofus moving from right to left, **what** are the conditions to trigger new tofus?  
+* **How** do you check if Pacman has eaten the tofu?
+* Under which conditions will the game end?
 
 **MAPPING with the source code**
 
-- **Map** some of the findings/features from the speculation that you have done with the source code. Which block of code relates to your findings?
-- Can you **identify** the part/block of code that responds to the elements you speculated about above?
-- Identify the syntaxes and functions that you are unfamiliar with, and check out the p5.js reference site: <https://p5js.org/reference/>
+* **Map** some of the findings/features from the speculation that you have done with the source code. Which block of code relates to your findings?
+* Can you **identify** the part/block of code that responds to the elements you speculated about above?
+* Identify the syntaxes and functions that you are unfamiliar with, and check out the p5.js reference site: <https://p5js.org/reference/>
 </div>
 
 ## Source code
@@ -456,8 +456,8 @@ By no means do the steps need to be exactly as listed. Of course, you could thin
 
 **2. Discussion in groups:**
 
-- Identify a game you are familiar with and describe the characters/objects using the class, and object concepts and vocabulary. Can you identify the classes and objects within the chosen example?
-- Given that the creation of objects requires the concept of abstraction, and in line with some of the introductory ideas for this chapter; can you use the sample code or your game as an example to think through some of the political implications of class/object abstraction? How do objects interact with the world, and how do worldviews and ideologies built into objects' properties and behaviors? Does the fact that this is a game allow for further reflection on the way everyday activities (such as enjoying tofu) become object-oriented?
+* Identify a game you are familiar with and describe the characters/objects using the class, and object concepts and vocabulary. Can you identify the classes and objects within the chosen example?
+* Given that the creation of objects requires the concept of abstraction, and in line with some of the introductory ideas for this chapter; can you use the sample code or your game as an example to think through some of the political implications of class/object abstraction? How do objects interact with the world, and how do worldviews and ideologies built into objects' properties and behaviors? Does the fact that this is a game allow for further reflection on the way everyday activities (such as enjoying tofu) become object-oriented?
 </div>
 
 ## Further notes
@@ -503,17 +503,17 @@ If we apply this to a computational object and its abstraction (the identificati
 
 **Objective:**
 
-- To implement a class-based, object-oriented sketch via abstracting and designing objects' properties and methods.
-- To reflect upon object abstraction under the lived conditions of digital culture.
+* To implement a class-based, object-oriented sketch via abstracting and designing objects' properties and methods.
+* To reflect upon object abstraction under the lived conditions of digital culture.
 
 **For additional inspiration**
 
-- "p5.js - Array Objects," <https://p5js.org/examples/arrays-array-objects.html>.
-- *daily coding* by Tomokazu Nagayama (2020), <https://twitter.com/nagayama/status/1246086230497845250?s=19>, with source code: <https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html>.
-- *Eat Food Not Bombs* by Ben Grosser (2019), <https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI>.
-- *lifeline* by Junichiro Horikawa (2020), <https://www.openprocessing.org/sketch/891619>.
-- "p5.js coding challenge #31: Flappy Bird" by Daniel Shiffman, <https://www.youtube.com/watch?v=cXgA1d_E-jY>.
-- "p5.js coding challenge #3: The Snake Game" by Daniel Shiffman, <https://www.youtube.com/watch?v=AaGK-fj-BAM>.
+* "p5.js - Array Objects," <https://p5js.org/examples/arrays-array-objects.html>.
+* *daily coding* by Tomokazu Nagayama (2020), <https://twitter.com/nagayama/status/1246086230497845250?s=19>, with source code: <https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html>.
+* *Eat Food Not Bombs* by Ben Grosser (2019), <https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI>.
+* *lifeline* by Junichiro Horikawa (2020), <https://www.openprocessing.org/sketch/891619>.
+* "p5.js coding challenge #31: Flappy Bird" by Daniel Shiffman, <https://www.youtube.com/watch?v=cXgA1d_E-jY>.
+* "p5.js coding challenge #3: The Snake Game" by Daniel Shiffman, <https://www.youtube.com/watch?v=AaGK-fj-BAM>.
 
 **Tasks (RunMe)**
 
@@ -523,26 +523,26 @@ Once you understand objects and classes, you can continue to work on a mini game
 
 **Questions to think about (ReadMe):**
 
-- **Describe** how does/do your game/game objects work?
-- **Describe** how you program the objects and their related attributes, and the methods in your game.
-- Draw upon the assigned reading, **what** are the characteristics of object-oriented programming and the wider implications of abstraction?
-- **Connect** your game project to a wider cultural context, and think of an example to describe how complex details and operations are being "abstracted"?
+* **Describe** how does/do your game/game objects work?
+* **Describe** how you program the objects and their related attributes, and the methods in your game.
+* Draw upon the assigned reading, **what** are the characteristics of object-oriented programming and the wider implications of abstraction?
+* **Connect** your game project to a wider cultural context, and think of an example to describe how complex details and operations are being "abstracted"?
 </div>
 
 ## Required reading
 
-- Matthew Fuller and Andrew Goffey, "The Obscure Objects of Object Orientation," in Matthew Fuller, *How to be a Geek: Essays on the Culture of Software* (Cambridge: Polity, 2017).
-- "p5.js examples - Objects," <https://p5js.org/examples/objects-objects.html>.
-- "p5.js examples - Array of Objects," <https://p5js.org/examples/objects-array-of-objects.html>.
-- Daniel Shiffman, "Code! Programming with p5.js," *The Coding Train* (watch: 2.3, 6.1, 6.2, 6.3, 7.1, 7.2, 7.3), <https://www.youtube.com/watch?v=8j0UDiN7my4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA>.
-- Daniel Shiffman, "Multiple js Files - p5.js Tutorial," *The Coding Train*, <https://www.youtube.com/watch?v=Yk18ZKvXBj4>.
+* Matthew Fuller and Andrew Goffey, "The Obscure Objects of Object Orientation," in Matthew Fuller, *How to be a Geek: Essays on the Culture of Software* (Cambridge: Polity, 2017).
+* "p5.js examples - Objects," <https://p5js.org/examples/objects-objects.html>.
+* "p5.js examples - Array of Objects," <https://p5js.org/examples/objects-array-of-objects.html>.
+* Daniel Shiffman, "Code! Programming with p5.js," *The Coding Train* (watch: 2.3, 6.1, 6.2, 6.3, 7.1, 7.2, 7.3), <https://www.youtube.com/watch?v=8j0UDiN7my4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA>.
+* Daniel Shiffman, "Multiple js Files - p5.js Tutorial," *The Coding Train*, <https://www.youtube.com/watch?v=Yk18ZKvXBj4>.
 
 ## Further reading
 
-- Cecile Crutzen and Erna Kotkamp, "Object Orientation," in Fuller, ed., *Software Studies*, 200-207.
-- Roger Y. Lee, "Object-Oriented Concepts," in *Software Engineering: A Hands-On Approach* (Springer, 2013), 17-24, 35-37.
-- Daniel Shiffman, "16.17 Inheritance in JavaScript - Topics of JavaScript/ES6," <https://www.youtube.com/watch?v=MfxBfRD0FVU&feature=youtu.be&fbclid=IwAR14JwOuRnCXYUIKV7DxML3ORwPIttOPPKhqTCKehbq4EcxbtdZDXJDr4b0>.
-- Andrew P. Black, "Object-Oriented Programming: Some history, and challenges for the next fifty years" (2013), <https://arxiv.org/abs/1303.0427>.
+* Cecile Crutzen and Erna Kotkamp, "Object Orientation," in Fuller, ed., *Software Studies*, 200-207.
+* Roger Y. Lee, "Object-Oriented Concepts," in *Software Engineering: A Hands-On Approach* (Springer, 2013), 17-24, 35-37.
+* Daniel Shiffman, "16.17 Inheritance in JavaScript - Topics of JavaScript/ES6," <https://www.youtube.com/watch?v=MfxBfRD0FVU&feature=youtu.be&fbclid=IwAR14JwOuRnCXYUIKV7DxML3ORwPIttOPPKhqTCKehbq4EcxbtdZDXJDr4b0>.
+* Andrew P. Black, "Object-Oriented Programming: Some history, and challenges for the next fifty years" (2013), <https://arxiv.org/abs/1303.0427>.
 
 ## Notes:
 

@@ -140,22 +140,22 @@ This exercise is about getting the *key ID* and *Engine ID* from Google so that 
 2. **Step 2:** Replace the API key with your own details on the line: `let apikey = "INPUT YOUR OWN KEY";`.
 ![google1](ch8_3.png)
 :   *Figure 8.4: Google Custom Search interface*
-    - Register a Google account if you don't have one (a Google account is needed in order to use the web API)
-    - Login to your account
-    - Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and find the section API key
-    - Click the blue button "Get A Key" and then create a new project by entering your project name (e.g. "nag-test") and press enter
-    - You should able to see the API key and you just need to copy and paste the key into your sketch
+    * Register a Google account if you don't have one (a Google account is needed in order to use the web API)
+    * Login to your account
+    * Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and find the section API key
+    * Click the blue button "Get A Key" and then create a new project by entering your project name (e.g. "nag-test") and press enter
+    * You should able to see the API key and you just need to copy and paste the key into your sketch
 3. **Step 3:** Replace the Search engine ID (cx) with your own, on the line: `let engineID = "INPUT YOUR OWN";`.
-    - Go to [Custom Search Engine](https://cse.google.com/all)[^google2]
-    - Click the "Add" button to add a search engine
-    - You can limit your search area but if you want to search all of Google, simply type "http://www.google.com"
-    - Enter the name of your search engine, e.g. "nag-test"
-    - By clicking the blue "Create" button, you agree to the terms of Service offered by Google (and you should know your rights of course)
-    - Go to the control panel and modify the search engine's settings
-    - Copy and paste the search engine ID and put it in your sketch
+    * Go to [Custom Search Engine](https://cse.google.com/all)[^google2]
+    * Click the "Add" button to add a search engine
+    * You can limit your search area but if you want to search all of Google, simply type "http://www.google.com"
+    * Enter the name of your search engine, e.g. "nag-test"
+    * By clicking the blue "Create" button, you agree to the terms of Service offered by Google (and you should know your rights of course)
+    * Go to the control panel and modify the search engine's settings
+    * Copy and paste the search engine ID and put it in your sketch
 4. **Step 4:** Configuration in the control panel
-    - Make sure "Image search" is ON — blue indicates it is (see Figure 8.5)
-    - Make sure the "Search the entire web" is ON — blue indicates it is (see Figure 8.5)
+    * Make sure "Image search" is ON — blue indicates it is (see Figure 8.5)
+    * Make sure the "Search the entire web" is ON — blue indicates it is (see Figure 8.5)
 
 You should now finish modifying the settings. You can now run the sample code with your own API Key and engine ID.
 </div>
@@ -366,48 +366,48 @@ To que(e)ry data in this way throws into further question how data is collected,
 
 **Objectives:**
 
-- To design and implement a program that utilizes web APIs.[^Oauth]
-- To learn to collaboratively code and conceptualize a program.
-- To reflect upon the processes of data parsing using an API, paying attention to the registration, availability, selection, and manipulation of data.
+* To design and implement a program that utilizes web APIs.[^Oauth]
+* To learn to collaboratively code and conceptualize a program.
+* To reflect upon the processes of data parsing using an API, paying attention to the registration, availability, selection, and manipulation of data.
 
 **Get additional inspiration:**
 
-- Open Weather with code example, <https://www.youtube.com/watch?v=ecT42O6I_WI>.
-- Other weather API example with code example, <https://p5js.org/examples/hello-p5-weather.html>.
-- *New York times* with code example, <https://www.youtube.com/watch?v=IMne3LY4bks&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=9>.
-- Giphy images with code example, <https://www.youtube.com/watch?v=mj8_w11MvH8&index=10&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
-- Wikipedia API, <https://www.youtube.com/watch?v=RPz75gcHj18>.
-- Twitter API and Twitter Bot with code example, <http://shiffman.net/a2z/twitter-bots/>. (Note that Twitter has tightened the rules for registering the API and you need to have a convincing proposal as well as the process can be lengthy.)
-- Google map API, <https://developers.google.com/maps/documentation/javascript/>.
-- Search many other kinds of API, <https://www.programmableweb.com/>.
+* Open Weather with code example, <https://www.youtube.com/watch?v=ecT42O6I_WI>.
+* Other weather API example with code example, <https://p5js.org/examples/hello-p5-weather.html>.
+* *New York times* with code example, <https://www.youtube.com/watch?v=IMne3LY4bks&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=9>.
+* Giphy images with code example, <https://www.youtube.com/watch?v=mj8_w11MvH8&index=10&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
+* Wikipedia API, <https://www.youtube.com/watch?v=RPz75gcHj18>.
+* Twitter API and Twitter Bot with code example, <http://shiffman.net/a2z/twitter-bots/>. (Note that Twitter has tightened the rules for registering the API and you need to have a convincing proposal as well as the process can be lengthy.)
+* Google map API, <https://developers.google.com/maps/documentation/javascript/>.
+* Search many other kinds of API, <https://www.programmableweb.com/>.
 
 **Tasks (RunMe):**
 
 This is a relatively complex exercise that requires you to:
-- Design a program that utilizes at least one web API (think about what you want conceptually), including:
-    - Finding available web APIs and the data that you want to explore.
-    - Understanding the available data: the data file format and the API's specifications.
-    - Deciding which data fields you want to choose to explore and experiment with.
-    - Utilizing the web API and the corresponding data in your program.
+* Design a program that utilizes at least one web API (think about what you want conceptually), including:
+    * Finding available web APIs and the data that you want to explore.
+    * Understanding the available data: the data file format and the API's specifications.
+    * Deciding which data fields you want to choose to explore and experiment with.
+    * Utilizing the web API and the corresponding data in your program.
     (Please reserve more time if you are getting data from other platforms, as the registration process can take a long time.)
 
 **Questions to think about (ReadMe):**
 
-- What is the program about? Which API have you used and why?
-- Can you describe and reflect on your process in this miniX in terms of acquiring, processing, using, and representing data? How much do you understand this data or what do you want to know more about? How do platform providers sort the data and give you the requested data? What are the power relations in the chosen APIs? What is the significance of APIs in digital culture?
-- Try to formulate a question in relation to web APIs or querying/parsing processes that you would like to investigate further if you had more time.  
+* What is the program about? Which API have you used and why?
+* Can you describe and reflect on your process in this miniX in terms of acquiring, processing, using, and representing data? How much do you understand this data or what do you want to know more about? How do platform providers sort the data and give you the requested data? What are the power relations in the chosen APIs? What is the significance of APIs in digital culture?
+* Try to formulate a question in relation to web APIs or querying/parsing processes that you would like to investigate further if you had more time.  
 </div>
 ## Required reading
 
-- David Gauthier, Audrey Samson, Eric Snodgrass, Winnie Soon, and Magda Tyżlik-Carver, "Executing," in Nanna Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio and Kristin Veel, eds., *Uncertain Archives* (Cambridge, MA: MIT Press, 2021).
-- Daniel Shiffman, "Working with data - p5.js Tutorial," *The Coding Train* (10.1, 10.4 - 10.10), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
-- Eric Snodgrass and Winnie Soon, "API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange]," *First Monday* 24, no.2 (2019), <https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721>.
+* David Gauthier, Audrey Samson, Eric Snodgrass, Winnie Soon, and Magda Tyżlik-Carver, "Executing," in Nanna Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio and Kristin Veel, eds., *Uncertain Archives* (Cambridge, MA: MIT Press, 2021).
+* Daniel Shiffman, "Working with data - p5.js Tutorial," *The Coding Train* (10.1, 10.4 - 10.10), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
+* Eric Snodgrass and Winnie Soon, "API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange]," *First Monday* 24, no.2 (2019), <https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721>.
 
 ## Further reading
 
-- Jonathan Albright, "The Graph API: Key Points in the Facebook and Cambridge Analytica Debacle," *Medium* (2018), <https://medium.com/tow-center/the-graph-api-key-points-in-the-facebook-and-cambridge-analytica-debacle-b69fe692d747>.
-- Taina Bucher, “Objects of intense feeling: The case of the Twitter API,” in *Computational Culture*, Nov 27 (2013), <http://computationalculture.net/article/objects-of-intense-feeling-the-case-of-the-twitter-api>.
-- Christoph Raetzsch, Gabriel Pereira, and Lasse S. Vestergaard, "Weaving Seams with Data: Conceptualizing City APIs as Elements of Infrastructures," *Big Data & Society*, Jan (2019), <https://journals.sagepub.com/doi/full/10.1177/2053951719827619>.
+* Jonathan Albright, "The Graph API: Key Points in the Facebook and Cambridge Analytica Debacle," *Medium* (2018), <https://medium.com/tow-center/the-graph-api-key-points-in-the-facebook-and-cambridge-analytica-debacle-b69fe692d747>.
+* Taina Bucher, “Objects of intense feeling: The case of the Twitter API,” in *Computational Culture*, Nov 27 (2013), <http://computationalculture.net/article/objects-of-intense-feeling-the-case-of-the-twitter-api>.
+* Christoph Raetzsch, Gabriel Pereira, and Lasse S. Vestergaard, "Weaving Seams with Data: Conceptualizing City APIs as Elements of Infrastructures," *Big Data & Society*, Jan (2019), <https://journals.sagepub.com/doi/full/10.1177/2053951719827619>.
 
 ## Notes
 

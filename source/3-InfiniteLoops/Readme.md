@@ -41,28 +41,28 @@ As mentioned above, this chapter shifts from programming static objects to a mix
 Can you describe the various elements and how they operate computationally in your own words?
 
 1. **Speculation**
-    - Based on what you see/experience on the screen, describe:
-        - What are the elements? Come up with a list of features.
-            - What is moving and what isn't?
-            - How many ellipses are there in the middle?
-            - Try to resize the window and see what happens.
-    - Further questions:
-        - How do you set the background color?
-        - How does the ellipse rotate?
-        - How can you make the ellipse fade out and rotate to the next position?
-        - How can you position the static yellow lines, as well as the moving ellipses in a single sketch?
+    * Based on what you see/experience on the screen, describe:
+        * What are the elements? Come up with a list of features.
+            * What is moving and what isn't?
+            * How many ellipses are there in the middle?
+            * Try to resize the window and see what happens.
+    * Further questions:
+        * How do you set the background color?
+        * How does the ellipse rotate?
+        * How can you make the ellipse fade out and rotate to the next position?
+        * How can you position the static yellow lines, as well as the moving ellipses in a single sketch?
 2. **Experimentation**
-    - Try to change some of the parameters, e.g. `background()`, `framerate()`, the variables inside `drawElements()`
-    - There are some new functions you can check in the `p5.js` reference (e.g. `push()`, `pop()`, `translate()`, `rotate()`)
+    * Try to change some of the parameters, e.g. `background()`, `framerate()`, the variables inside `drawElements()`
+    * There are some new functions you can check in the `p5.js` reference (e.g. `push()`, `pop()`, `translate()`, `rotate()`)
 3. **Mapping**
-    - Map some of the findings/features from the speculation you have done to the source code. Which block of code relates to your findings?  
-    - Can you identify the part/block of code that responds to the elements that you have speculated on?
+    * Map some of the findings/features from the speculation you have done to the source code. Which block of code relates to your findings?  
+    * Can you identify the part/block of code that responds to the elements that you have speculated on?
 4. **Technical questions/issues**
-    - `let cir = 360/num*(frameCount%num);` <br> with the modulo operator[^modulo] (%) that computes the remainder after division, explain what this line means and does?
+    * `let cir = 360/num*(frameCount%num);` <br> with the modulo operator[^modulo] (%) that computes the remainder after division, explain what this line means and does?
 5. **Other conceptual questions**
-    - Where do you often see this icon?
-    - What do you know about this icon?
-    - What can't you see?
+    * Where do you often see this icon?
+    * What do you know about this icon?
+    * What can't you see?
 </div>
 
 ## Source code
@@ -175,8 +175,8 @@ The last four lines describe the drawing of the four static yellow lines. Logica
 2. We have explained how to use `rotate()` to display the ellipses at various degrees of rotation, but how about the fading in and out of each ellipse in the sketch? (Hint: as this is repeatedly faded in and out, the `background()` syntax under the function `draw()` is key to producing such effects.)
 
 3. This exercise is about structuring code. How would you restructure the sample code so that it is easier for others to understand, but still maintains the same visual outcome? There are no right or wrong answers, but some pointers below might facilitate discussion:
-    - You may rename the function and add new functions
-    - Instead of having `drawElements()`, you might have something like `drawThrobber()` and `drawLines()`?
+    * You may rename the function and add new functions
+    * Instead of having `drawElements()`, you might have something like `drawThrobber()` and `drawLines()`?
 </div>
 
 ## Asterisk Painting
@@ -367,9 +367,9 @@ A "for-loop" allows code to be executed repeatedly, and so provides an efficient
 
 To structure a for-loop, you need to ask yourself:
 
-- What are the things/actions that you want to repeat in a sequence or pattern?
-- More specifically, what is the conditional structure and when do you want to exit the loop?
-- What do you want to do when this condition is, or is not, met?
+* What are the things/actions that you want to repeat in a sequence or pattern?
+* More specifically, what is the conditional structure and when do you want to exit the loop?
+* What do you want to do when this condition is, or is not, met?
 
 The following is an excerpt from *Asterisk Painting* (Lines 20-29):
 
@@ -446,44 +446,44 @@ Referencing Martin Heidegger’s "being-in-time,"[^Heidegger] and human beings' 
 
 **Objective:**
 
-- To reflect upon temporality in digital culture by designing a throbber icon.
-- To experiment with various computational syntaxes and the effects of animation, and transformation.
+* To reflect upon temporality in digital culture by designing a throbber icon.
+* To experiment with various computational syntaxes and the effects of animation, and transformation.
 
 **For additional inspiration:**
 
 Check out other works that refer to the throbber and how other people contextualize their thinking:  
 
-- *Tanabata(七夕)* by Yurika Sayo (n.d.), with source code, <https://www.openprocessing.org/sketch/926326>.
-- *LOADING (THE BEAST 6:66/20:09)* by Gordan Savičić (2009), <https://www.yugo.at/processing/archive/index.php?what=loading>.
-- *The Best is Yet to Come* by Silvio Lorusso (2012), preloaders follow one another randomly and endlessly, <https://silviolorusso.com/work/the-best-is-yet-to-come/>.
-- *DVD guy* by Constant Dullaart (2009), <https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB>, with the contextualization by Panke Gallery in Berlin, <http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin>.
-- *Throb* by Winnie Soon (2018-19), <http://siusoon.net/throb/>.
-- *Asterisk Painting* by John P. Bell (n.d.), ported to p5.js and modified by Winnie Soon (2019), <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
+* *Tanabata(七夕)* by Yurika Sayo (n.d.), with source code, <https://www.openprocessing.org/sketch/926326>.
+* *LOADING (THE BEAST 6:66/20:09)* by Gordan Savičić (2009), <https://www.yugo.at/processing/archive/index.php?what=loading>.
+* *The Best is Yet to Come* by Silvio Lorusso (2012), preloaders follow one another randomly and endlessly, <https://silviolorusso.com/work/the-best-is-yet-to-come/>.
+* *DVD guy* by Constant Dullaart (2009), <https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB>, with the contextualization by Panke Gallery in Berlin, <http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin>.
+* *Throb* by Winnie Soon (2018-19), <http://siusoon.net/throb/>.
+* *Asterisk Painting* by John P. Bell (n.d.), ported to p5.js and modified by Winnie Soon (2019), <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
 
 **Task (RunMe):**
 
-- Use loops and any one of the transformational functions to redesign and program an "animated" throbber.
+* Use loops and any one of the transformational functions to redesign and program an "animated" throbber.
 
 **Questions to think about (ReadMe):**
 
-- **Describe** your throbber design, both conceptually and technically.
-    - What do you want to explore and/or express?
-    - What are the time-related syntaxes/functions that you have used in your program, and why have you used them in this way? How is time being constructed in computation (refer to both the reading materials and your coding)?
-    - Think about a throbber that you have encounted in digital culture, e.g. for streaming video on YouTube or loading the latest feeds on Facebook, or waiting for a payment transaction, and consider what a throbber communicates, and/or hides? How might we characterize this icon differently?
+* **Describe** your throbber design, both conceptually and technically.
+    * What do you want to explore and/or express?
+    * What are the time-related syntaxes/functions that you have used in your program, and why have you used them in this way? How is time being constructed in computation (refer to both the reading materials and your coding)?
+    * Think about a throbber that you have encounted in digital culture, e.g. for streaming video on YouTube or loading the latest feeds on Facebook, or waiting for a payment transaction, and consider what a throbber communicates, and/or hides? How might we characterize this icon differently?
 </div>
 
 ## Required reading
 
-- Wolfgang Ernst, “‘... Else Loop Forever’: The Untimeliness of Media,” (2009), https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf.
-- Daniel Shiffman, Courses 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2, *Code! Programming with p5.js*, <https://www.youtube.com/watch?v=1Osb_iGDdjk> (2018). (practical usage on conditional statements, loops, functions, and arrays)
-- Winnie Soon, “Throbber: Executing Micro-temporal Streams,” *Computational Culture* 7, October 21 (2019), http://computationalculture.net/throbber-executing-micro-temporal-streams/.
+* Wolfgang Ernst, “‘... Else Loop Forever’: The Untimeliness of Media,” (2009), https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf.
+* Daniel Shiffman, Courses 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2, *Code! Programming with p5.js*, <https://www.youtube.com/watch?v=1Osb_iGDdjk> (2018). (practical usage on conditional statements, loops, functions, and arrays)
+* Winnie Soon, “Throbber: Executing Micro-temporal Streams,” *Computational Culture* 7, October 21 (2019), http://computationalculture.net/throbber-executing-micro-temporal-streams/.
 
 ## Further reading
 
-- Wolfgang Ernst, *Chronopoetics: The Temporal Being and Operativity of Technological Media* (London: Rowman & Littlefield International, 2016), 63-95.
-- Jason Farman, "Fidget Spinners," *Real Life* (2017), <https://reallifemag.com/fidget-spinners/#!>.
--	Wilfried Hou Je Bek, "Loop," in Fuller, ed., *Software Studies*.
-- Derek Robinson, "Function," in Fuller, ed., *Software Studies*.
+* Wolfgang Ernst, *Chronopoetics: The Temporal Being and Operativity of Technological Media* (London: Rowman & Littlefield International, 2016), 63-95.
+* Jason Farman, "Fidget Spinners," *Real Life* (2017), <https://reallifemag.com/fidget-spinners/#!>.
+*	Wilfried Hou Je Bek, "Loop," in Fuller, ed., *Software Studies*.
+* Derek Robinson, "Function," in Fuller, ed., *Software Studies*.
 
 ## Notes
 

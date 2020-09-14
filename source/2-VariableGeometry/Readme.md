@@ -86,12 +86,12 @@ function draw() {
 
 
 The above code draws various shapes and performs simple interactions:
-- the background is filled with flashing grey-scale colors
-- on the left is a horizontal rectangle in the color black  
-- on the right is a rectangle in black and a polygon in blue
-- on the bottom is an ellipse without any filled color but with grey stroke color
-- when you move the mouse, an outlined ellipse in grey color follows the movement
-- you can also click on the mouse to change the size of the grey ellipse
+* the background is filled with flashing grey-scale colors
+* on the left is a horizontal rectangle in the color black  
+* on the right is a rectangle in black and a polygon in blue
+* on the bottom is an ellipse without any filled color but with grey stroke color
+* when you move the mouse, an outlined ellipse in grey color follows the movement
+* you can also click on the mouse to change the size of the grey ellipse
 
 ## Coordinate
 In the previous chapter, we briefly discussed the x and y coordinates that constitute a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(windowWidth,windowHeight)` refers to creating a canvas with its width and height in line with your window size. Unlike the previous chapter where the exact pixel dimension was set as in the example `createCanvas(640,480);`, this approach gives you a flexibility of no fixed canvas size. Therefore, the background color of the sample code fills the whole window screen, and the concept of canvas as spaces change variably in terms of geometry. It is good to remind ourselves that in mathematics the origin [0,0] is positioned in the center of a grid paper/screen, but in computing the origin is situated in the upper left corner (see Figure 1.11 in the previous chapter). This impacts on how objects are placed, and shifts our perception/understanding of space/canvas.
@@ -153,15 +153,15 @@ The above is the excerpt from the full code required to draw two different sized
 
 1. **Declare:** Think of a name for the container you want to store the value in (it should make sense to you and others to read, but of course there is scope for a conceptual approach here). Declare with the syntax "let" in front.[^let]  
 There are certain rules to follow in naming variables:
-    - Names should begin with a lowercase string and not with a number or symbols.
-    - Names can contain a mix of uppercase and lower case strings, and numbers.
-    - Names cannot contain symbols.
+    * Names should begin with a lowercase string and not with a number or symbols.
+    * Names can contain a mix of uppercase and lower case strings, and numbers.
+    * Names cannot contain symbols.
 
 2. **Initialize/Assign:** What is it that you want to store? A number? By assigning a value, you will need to use the equal sign. There are four data types that are useful to know at this introductory level:
-    - *number* for numbers of any kind: integer or floating-point.
-    - *string* for strings. A string may have one or more characters and it has to be used with double or single quotation marks. For example: `let moving_size = "sixty";`
-    - *%boolean%* for true/false. For example: `let moving_size = true;`
-    - *color* for color values. This accepts Red, Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` see more from the "p5.js color reference" (<https://p5js.org/reference/#/p5/color>).[^color]
+    * *number* for numbers of any kind: integer or floating-point.
+    * *string* for strings. A string may have one or more characters and it has to be used with double or single quotation marks. For example: `let moving_size = "sixty";`
+    * *%boolean%* for true/false. For example: `let moving_size = true;`
+    * *color* for color values. This accepts Red, Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` see more from the "p5.js color reference" (<https://p5js.org/reference/#/p5/color>).[^color]
 
 3. **(Re)Use:** How and when do you want to retrieve the stored data? If the variable changes over time, you may wish to reuse it many times.
 
@@ -325,16 +325,16 @@ The challenge is to rethink normative geometries, to turn them upside down and i
 
 **Objective:**
 
-- To experiment with various geometric drawing methods and to explore alternatives, particularly with regard to shapes and drawing with colors.
-- To reflect on the politics/aesthetics of emojis on the basis of the assigned texts.
+* To experiment with various geometric drawing methods and to explore alternatives, particularly with regard to shapes and drawing with colors.
+* To reflect on the politics/aesthetics of emojis on the basis of the assigned texts.
 
 **For additional inspiration:**
 
-- *AIMoji* by Process Studio (2019), <https://process.studio/works/aimoji-ai-generated-emoji/>, and as part of "Uncanny Values," Vienna Biennale (2019), <https://process.studio/works/uncanny-values/>.
+* *AIMoji* by Process Studio (2019), <https://process.studio/works/aimoji-ai-generated-emoji/>, and as part of "Uncanny Values," Vienna Biennale (2019), <https://process.studio/works/uncanny-values/>.
 
 Some articles on emoji culture:
-- Steve Witt, "Chinese Characters as Ancient 'Emoji'," *Glocal Notes* (2015), <https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/>.
-- Michael Grothaus, "Women Finally Get a Menstruation Emoji," *Fastcompany* (2019), <https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji>.
+* Steve Witt, "Chinese Characters as Ancient 'Emoji'," *Glocal Notes* (2015), <https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/>.
+* Michael Grothaus, "Women Finally Get a Menstruation Emoji," *Fastcompany* (2019), <https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji>.
 
 **Tasks (RunMe):**
 
@@ -342,22 +342,22 @@ Explore shapes, geometries, and other related syntax (via p5.js references) and 
 
 **Questions to think about (ReadMe):**
 
-  - **Describe** your program and what you have used and learnt.
-  - **How** would you put your emoji into a wider social and cultural context that concerns a politics of representation, identity, race, colonialism, and so on? (Try to think through the assigned reading and your coding process, and then expand that to your own experience and thoughts - this is a difficult task, you may need to spend some time thinking about it).
+  * **Describe** your program and what you have used and learnt.
+  * **How** would you put your emoji into a wider social and cultural context that concerns a politics of representation, identity, race, colonialism, and so on? (Try to think through the assigned reading and your coding process, and then expand that to your own experience and thoughts - this is a difficult task, you may need to spend some time thinking about it).
 </div>
 
 ## Required reading
 
-- Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, "Modifying the Universal," in Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, eds., *Executing Practices* (London: Open Humanities Press, 2018), 35-51, <http://www.data-browser.net/db06.html>.
-- p5.js | Simple Shapes, <https://p5js.org/examples/hello-p5-simple-shapes.html>.
-- Daniel Shiffman, "1.3,1.4,2.1,2.2: Code! Programming with p5.js," (2018) <https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2>.
-- Femke Snelting, "Other Geometries," *transmediale journal* 3, October 31 (2019), <https://transmediale.de/content/other-geometries>.
+* Roel Roscam Abbing, Peggy Pierrot and Femke Snelting, "Modifying the Universal," in Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, eds., *Executing Practices* (London: Open Humanities Press, 2018), 35-51, <http://www.data-browser.net/db06.html>.
+* p5.js | Simple Shapes, <https://p5js.org/examples/hello-p5-simple-shapes.html>.
+* Daniel Shiffman, "1.3,1.4,2.1,2.2: Code! Programming with p5.js," (2018) <https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=2>.
+* Femke Snelting, "Other Geometries," *transmediale journal* 3, October 31 (2019), <https://transmediale.de/content/other-geometries>.
 
 ## Further reading
 
-- Crystal Abidin and Joel Gn, eds., "Histories and Cultures of Emoji Vernaculars," *First Monday* 23, no. 9, September (2018), <https://firstmonday.org/ojs/index.php/fm/issue/view/607>.
-- Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-reviewed Journal About Machine Feeling* 8, no. 1 (2019), <https://aprja.net//issue/view/8133>.
-- Derek Robinson, "Variables," in Matthew Fuller, ed., *Software Studies: A Lexicon* (Cambridge, MA: MIT Press, 2008).
+* Crystal Abidin and Joel Gn, eds., "Histories and Cultures of Emoji Vernaculars," *First Monday* 23, no. 9, September (2018), <https://firstmonday.org/ojs/index.php/fm/issue/view/607>.
+* Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-reviewed Journal About Machine Feeling* 8, no. 1 (2019), <https://aprja.net//issue/view/8133>.
+* Derek Robinson, "Variables," in Matthew Fuller, ed., *Software Studies: A Lexicon* (Cambridge, MA: MIT Press, 2008).
 
 ## Notes
 

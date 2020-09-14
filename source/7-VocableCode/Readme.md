@@ -187,7 +187,7 @@ Figure 7.6 shows two conditional statements in the function `draw()`. The first 
 The last "if-else" conditional structure is set within the class method, as illustrated by Figure 7.6, and checks if the text is off canvas, particularly along the
 y-axis. In Figure 7.7, within the class's method `this.shows=function()`, the conditional statement incorporates the relational operator "OR" (`||`), in which neither condition needs to be "true" (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an `else` statement to handle the results of checking whether the conditions have been met. Therefore, it is read as if either one of the two conditions has been met, the variable `status` will be assigned as `notFalse` (this means the text is off screen at the top or bottom), and else if the text still remains on screen, the variable `status` will be assigned as `notTrue`. The values `notFalse` and `notTrue` belong to the `status` variable of the "String" type. However, in general programming practice, Boolean logic (with the "Boolean" type) tends to be understood as an absolute binary reality of "true" or "false." Initially, this seems fundamental to computational logic and can be relate this to the zeros and ones to which information is reduced in machine code. However, arguably and conceptually, `notFalse` and `notTrue` suggest an undoing of binary relations.  
 
-## JSON
+## %JSON%
 
 Beyond the core source code, *Vocable Code* utilizes a text-based file (in JSON format) to store the data from all voice donors, including their written statements (see Figure 7.8). Using JSON (Javascript Object Notation), allows all the data in a JSON file to be updated without changing anything at JavaScript source code level.
 
@@ -219,13 +219,14 @@ Beyond the core source code, *Vocable Code* utilizes a text-based file (in JSON 
 JSON is an open-standard, independent file format, which is widely used for data storage and communication on the internet, and in software applications. This format can be read and processed by many programming languages such as JavaScript. A piece of software implements computational logic to manipulate data, such as retrieving and displaying data on a screen in any color, size, and at any tempo. This kind of separation of data and computational logic is common in software development. Google, for example, offers its web or image search results in JSON format using its Application Programming Interfaces (APIs). More on APIs in the next chapter.
 
 JSON looks similar to JavaScript in terms of its use of arrays and objects, but they are formatted differently. Some of the rules are:
-- Data is stored in name/value pairs, e.g. `"copyLeft": "Creative Common Licence BY 4.0"` and the pair are separated by a colon.
-- All property name/value pairs have to be surrounded by double quotes.
-- Each data item is separated by commas.
-- Square brackets "[]" hold arrays.
-- Curly braces "{}" hold objects as there are many object instances that share the same structure.
-- Comments are not allowed.
-- No other computational logics like conditional structures or for-loop can be used.
+
+* Data is stored in name/value pairs, e.g. `"copyLeft": "Creative Common Licence BY 4.0"` and the pair are separated by a colon.
+* All property name/value pairs have to be surrounded by double quotes.
+* Each data item is separated by commas.
+* Square brackets "[]" hold arrays.
+* Curly braces "{}" hold objects as there are many object instances that share the same structure.
+* Comments are not allowed.
+* No other computational logics like conditional structures or for-loop can be used.
 
 To process the JSON file in Figure 7.8, you need to use the syntax `loadJSON()` in p5.js. See how this is put together in a sketch:
 
@@ -383,19 +384,19 @@ function notNew(getQueer) {
 ## Exercise in class
 
 1. Work as a group.
-2. Download the whole *Vocable Code* program (https://github.com/siusoon/VocableCode/), and run it on your own computer.
+2. Download the whole *Vocable Code* program (https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/public/p5_SampleCode/ch7_VocableCode), and run it on your own computer.
 3. Briefly discuss the various computational structures and syntax to understand how things generally work, then specifically examine the relationship between voice file naming and the JSON file structure.
 4. Follow the instructions and record your own voice with your computer or mobile phone. (The program only accepts the .wav file format)
-    - Find a blank sheet of paper and prepare to write a sentence.
-    - Complete the sentence with the starting given words: "Queer is...".
-    - Each sentence contains no more than 5 words (the first words "queer is" don't count). It is ok to add just one word.
-    - Produce a maximum of two sentences/voices.
-    - Download/locate a voice recording app on your smartphone (e.g. Voice Recorder on Android or Voice Memos on iOS).
-    - Try to find a quiet environment, record your voice, and see if the app works (controlling the start and end the recording).
-    - Prepare to record yourself reading your written sentence(s).
-    - You may decide the temporality and rhythm.
-    - You may either speak the full word or full sentence with different intonation.
-    - Record your voice, then convert the recording into a .wav file. Audacity is an example of free software that can do so.
+    * Find a blank sheet of paper and prepare to write a sentence.
+    * Complete the sentence with the starting given words: "Queer is...".
+    * Each sentence contains no more than 5 words (the first words "queer is" don't count). It is ok to add just one word.
+    * Produce a maximum of two sentences/voices.
+    * Download/locate a voice recording app on your smartphone (e.g. Voice Recorder on Android or Voice Memos on iOS).
+    * Try to find a quiet environment, record your voice, and see if the app works (controlling the start and end the recording).
+    * Prepare to record yourself reading your written sentence(s).
+    * You may decide the temporality and rhythm.
+    * You may either speak the full word or full sentence with different intonation.
+    * Record your voice, then convert the recording into a .wav file. Audacity is an example of free software that can do so.
 5. Add your voice/s and update the JSON file and put your voice files in the voices folder. Refresh the program and see if you can hear your own voice among the voices.
 6. Advanced: Try to change the text presentation, e.g. its color or its animated behavior.
 7. Discuss the different critical and aesthetic aspects of queer code.
@@ -419,7 +420,7 @@ There are clear power dynamics at work in computing, at a fundamental level, if 
 
 > "Whether [...] gathering information, telecommunicating, running washing machines, doing sums, or making videos, all digital computers translate information into zeros and ones of machine code. These binary digits are known as bits and strung together in bytes of eight. The zeros and ones of machine code seems to offer themselves as perfect symbols of the orders of Western reality, the ancient logical codes which make the difference between on and off, right and left, light and dark, form and matter, mine and body, white and black, good and evil, right and wrong, life and death, something and nothing, this and that, here and there, inside and out, active and passive, true and false, yes and no, sanity and madness, health and sickness, up and down, sense and nonsense, west and east, north and south. And they made a lovely couple when it came to sex. Man and woman, male and female, masculine and feminine: one and zero looked just right, made for each other: 1, the definite, upright line; the 0, the diagram of nothing at all: penis and vagina, thing and hole... hand in glove. A perfect match."[^Plant1]
 
-Although it takes two to make a binary (and set up the heterosexist paradigm), clearly inequalities of power are expressed in the tendency to privilege one side of the pairing (master and slave,[^master] parent and child, human and machine, and so on). As discussed in Chapter 5, "Auto Generator", and further discussed in the final chapter of this book, the Turing Test resonates with these power dynamics. Plant quotes Turing as saying: "the intention in constructing these machines in the first instance is to treat them as slaves, giving them only jobs which have been thought out in detail, jobs such that the user of the machine fully understands in principle what is going on all the time."[^Plant2] Plant's further example of this fantasy of domination is the sci-fi film *Bladerunner* (1984) as an advanced Turing Test in which the only indication of artificiality is a tiny flicker in the non-human eye's iris in response to targeted questioning. In the film's narrative, the non-human worker-slaves have rightly begun to question their conditions. Such examples make it clear that the ability to imagine conditions differently is embedded in the system itself, in the potential failure to carry out prescribed instructions or commands if unreasonable.
+Although it takes two to make a binary (and set up the heterosexist paradigm), clearly inequalities of power are expressed in the tendency to privilege one side of the pairing (master and slave,[^master] parent and child, human and machine, and so on). As discussed in Chapter 5, "Auto-Generator", and further discussed in the final chapter of this book, the Turing Test resonates with these power dynamics. Plant quotes Turing as saying: "the intention in constructing these machines in the first instance is to treat them as slaves, giving them only jobs which have been thought out in detail, jobs such that the user of the machine fully understands in principle what is going on all the time."[^Plant2] Plant's further example of this fantasy of domination is the sci-fi film *Bladerunner* (1984) as an advanced Turing Test in which the only indication of artificiality is a tiny flicker in the non-human eye's iris in response to targeted questioning. In the film's narrative, the non-human worker-slaves have rightly begun to question their conditions. Such examples make it clear that the ability to imagine conditions differently is embedded in the system itself, in the potential failure to carry out prescribed instructions or commands if unreasonable.
 
 The biography of Turing as a gay man, at a time when homosexuality was still a criminal offense in the UK, [^Hodges] adds weight to claims to reject unreasonable demands. Humans do not necessarily follow or agree with rules as prescribed by society, and although Turing's sexuality was tolerated in the context of the war effort, under "normal" (peacetime) conditions it was perceived to be a problem and he was found guiltily of gross indecency in 1952.[^Plant3] Here, as Plant describes, the historical facts collapse into bizarre allegory. First of all, he was prescribed estrogen to reduce his sexual urge, on the basis of the dubious logic that to all intents and purposes he was female. This was a reversal of prior judgements forcing gay men to take testosterone to make them more male, yet ironically making them more aroused hormonally. Plant concludes the Turing story: "Two years later he was dead. By the side of the table was an apple, out of which several bites had been taken. And this queer tale does not end here. There are rainbow logos with Turing's missing bytes on every Apple Macintosh machine."[^Plant4]
 
@@ -430,19 +431,19 @@ To conclude this chapter, which explored the making of *Vocable Code* with its s
 
 **Objective:**
 
-- To understand how JSON works technically, in terms of storing data, and how data can be retrieved using code.
-- To reflect upon the aesthetics of code and language, as well as the audio dimensions of electronic literature (e-lit).
+* To understand how JSON works technically, in terms of storing data, and how data can be retrieved using code.
+* To reflect upon the aesthetics of code and language, as well as the audio dimensions of electronic literature (e-lit).
 
 **Get additional inspiration:**
 
-- *Dial* (2020) by Lai-Tze Fan & Nick Montfort, <http://thenewriver.us/dial/>, with JavaScript source code <https://nickm.com/fan_montfort/dial/>.
-- *Mexicans in Canada* by Amira Hanafi (2020), <http://amiraha.com/mexicansincanada/>.
-- *A House of Dust* by Alison Knowles and James Tenney (1967), reimplemented by Nick Montfort for *Memory Slam* (2014), <https://nickm.com/memslam/a_house_of_dust.html>.
-- *Corpora - A repository of JSON files* by Darius Kazemi (n.d.), <https://github.com/dariusk/corpora/tree/master/data>.
-- *e-lit collection1*, <http://collection.eliterature.org/1/>.
-- *e-lit collection2*, <http://collection.eliterature.org/2/>.
-- *e-lit collection3*, <http://collection.eliterature.org/3/>.
-- *RiTa library* by Daniel Howe (2006-ongoing), <http://rednoise.org/rita/download.php>.
+* *Dial* (2020) by Lai-Tze Fan & Nick Montfort, <http://thenewriver.us/dial/>, with JavaScript source code <https://nickm.com/fan_montfort/dial/>.
+* *Mexicans in Canada* by Amira Hanafi (2020), <http://amiraha.com/mexicansincanada/>.
+* *A House of Dust* by Alison Knowles and James Tenney (1967), reimplemented by Nick Montfort for *Memory Slam* (2014), <https://nickm.com/memslam/a_house_of_dust.html>.
+* *Corpora - A repository of JSON files* by Darius Kazemi (n.d.), <https://github.com/dariusk/corpora/tree/master/data>.
+* *e-lit collection1*, <http://collection.eliterature.org/1/>.
+* *e-lit collection2*, <http://collection.eliterature.org/2/>.
+* *e-lit collection3*, <http://collection.eliterature.org/3/>.
+* *RiTa library* by Daniel Howe (2006-ongoing), <http://rednoise.org/rita/download.php>.
 
 **Tasks (RunMe):**
 
@@ -451,26 +452,26 @@ To conclude this chapter, which explored the making of *Vocable Code* with its s
 
 **Questions to think about (ReadMe):**
 
-- **Provide** a title of your work and a short description (1,000 characters or less).
-- **Describe** how your program works, and what syntax you have used, and learnt?
-- **Analyze and articulate** your work:
-  - Analyze your own e-lit work by using the text *Vocable Code* and/or *The Aesthetics of Generative Code* (or other texts that address code/voice/language).
-  - How would you reflect on your work in terms of *Vocable Code*?
+* **Provide** a title of your work and a short description (1,000 characters or less).
+* **Describe** how your program works, and what syntax you have used, and learnt?
+* **Analyze and articulate** your work:
+  * Analyze your own e-lit work by using the text *Vocable Code* and/or *The Aesthetics of Generative Code* (or other texts that address code/voice/language).
+  * How would you reflect on your work in terms of *Vocable Code*?
 </div>
 
 ## Required reading
 
-- Geoff Cox and Alex McLean, "Vocable Code," in *Speaking Code* (Cambridge, MA: MIT Press, 2013), 17-38.
-- Allison Parrish, "Text and Type" (2019), <https://creative-coding.decontextualize.com/text-and-type/>.
-- Daniel Shiffman, "10.2: What is JSON? Part I - p5.js Tutorial" (2017), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
-- Daniel Shiffman, "10.2: What is JSON? Part II - p5.js Tutorial" (2017), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
+* Geoff Cox and Alex McLean, "Vocable Code," in *Speaking Code* (Cambridge, MA: MIT Press, 2013), 17-38.
+* Allison Parrish, "Text and Type" (2019), <https://creative-coding.decontextualize.com/text-and-type/>.
+* Daniel Shiffman, "10.2: What is JSON? Part I - p5.js Tutorial" (2017), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
+* Daniel Shiffman, "10.2: What is JSON? Part II - p5.js Tutorial" (2017), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
 
 ## Further reading
 
-- Geoff Cox, Alex McLean, and Adrian Ward, "The Aesthetics of Generative Code," Proceedings of Generative Art Conference, Milan (2001).
-- Liz W. Faber, *The Computer's Voice: From Star Trek to Siri* (Minneapolis, MN: University of Minnesota Press, 2020).
-- Rita Raley, "Interferences: Net.Writing and the Practice of Codework," *Electronic Book Review* (2002), <http://electronicbookreview.com/essay/interferences-net-writing-and-the-practice-of-codework/>.
-- Margaret Rhee, "Reflecting on Robots, Love, and Poetry," *XRDS: Crossroads* 24, no. 2, December (2017): 44–46, <https://dl.acm.org/doi/pdf/10.1145/3155126?download=true>.
+* Geoff Cox, Alex McLean, and Adrian Ward, "The Aesthetics of Generative Code," Proceedings of Generative Art Conference, Milan (2001).
+* Liz W. Faber, *The Computer's Voice: From Star Trek to Siri* (Minneapolis, MN: University of Minnesota Press, 2020).
+* Rita Raley, "Interferences: Net.Writing and the Practice of Codework," *Electronic Book Review* (2002), <http://electronicbookreview.com/essay/interferences-net-writing-and-the-practice-of-codework/>.
+* Margaret Rhee, "Reflecting on Robots, Love, and Poetry," *XRDS: Crossroads* 24, no. 2, December (2017): 44–46, <https://dl.acm.org/doi/pdf/10.1145/3155126?download=true>.
 
 ## Notes
 
