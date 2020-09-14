@@ -344,7 +344,7 @@ Write a document of 6-8 pages (max characters per page: 2,400 including spaces) 
 
 The document should include a title, a screen shot, a flowchart, references, a link to your final project's RunMe, with links to related projects (if there are any), as well as the links of all your previous mini exercises (as an appendix).
 
-The README should address the following questions with the help of your source code, programming processes, and your selected readings:
+The ReadMe should address the following questions with the help of your source code, programming processes, and your selected readings:
 
 - What is your software about (provide a short description of what is it, how it works, and what it sets out to explore)?
 - How does your work address at least one of the themes and explore the intersections of technical, and cultural aspects of code?

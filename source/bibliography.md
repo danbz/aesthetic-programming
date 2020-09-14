@@ -74,6 +74,7 @@ page_order: 12
 - Cramer, Florian. “Language.” In *Software Studies: A Lexicon*. Edited by Matthew Fuller, 168–173. Cambridge, MA: The MIT Press, 2008.
 - Cramer, Florian, and Ulrike Gabriel, "Software Art," *American Book Review*, Issue “Codeworks”(Alan Sondheim, Ed.), 2001.
 - Crary, Jonathan. *24/7: Late Capitalism and the Ends of Sleep*. London: Verso, 2013.
+- Crutzen, Cecile, and Erna Kotkamp, "Object Orientation." In *Software Studies: A Lexicon*. edited by Matthew Fuller, 200-207. Cambridge, MA: The MIT Press, 2008.
 - Crawford, Kate, and Vladan Joler. “Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources.” 2018. <https://anatomyof.ai/>.
 - Cukier, Kenneth, and Victor Mayer-Schönberger. “The Rise of Big Data.” *Foreign Affairs*. Last updated May/June 2013. <https://www.foreignaffairs.com/articles/2013-04-03/rise-big-data>.
 - “Custom Search JSON API.” Google Custom Search. Google Developers. Updated June 11, 2020. <https://developers.google.com/custom-search/v1/overview>.
