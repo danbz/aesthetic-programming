@@ -256,7 +256,7 @@ class Tofu {
 }
 ```
 
-## class
+## Class
 
 To construct objects in OOP it is important to have a blueprint. A class specifies the structure of its objects' attributes and the possible behaviors/actions of these objects. Class can therefore be understood as a template for, and blueprint of, things.  
 
