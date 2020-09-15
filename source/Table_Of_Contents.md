@@ -20,21 +20,24 @@ Winnie Soon and Geoff Cox
 * The book object
 
 ## Chapter 1: Getting started
-* setup() and start()
+* setup() 
+* start()
 * Working environment:
    * p5.js
    * Code editor
 * My first program
-  * Exercise in class
+* Exercise in class
   * Reading the web console "Hello World"
 * Reading the reference guide
 * Git
 * While()
 * MiniX: RunMe and ReadMe
-* Required reading & Further reading
+* Required reading 
+* Further reading
 
 ## Chapter 2: Variable Geometry
-* setup() and start()
+* setup()
+* start()
 * Source code
 * Coordinates
 * Exercise in class
@@ -47,10 +50,12 @@ Winnie Soon and Geoff Cox
 * Discussion in class
 * While()
 * MiniX: Geometric emoji
-* Required reading & Further reading
+* Required reading 
+* Further reading
 
 ## Chapter 3: Infinite Loops
-* setup() and start()
+* setup() 
+* start()
 * Exercise in class (Decode)
 * Source code
 * Function
@@ -60,16 +65,18 @@ Winnie Soon and Geoff Cox
 * Exercise in class  
 * Asterisk Painting
   * Source code
-  * Exercise in class
+* Exercise in class
 * Arrays
 * Conditional statements
 * Loops
 * While()
 * MiniX: Designing a throbber
-* Required reading & Further reading
+* Required reading 
+* Further reading
 
 ## Chapter 4: Data Capture
-* setup() and start()
+* setup() 
+* start()
 * Exercise in class (Decode)
 * Source code
 * DOM elements: creating and styling a button
@@ -86,22 +93,26 @@ Winnie Soon and Geoff Cox
   * Health tracker
 * While()
 * MiniX: Capture all
-* Required reading & Further reading
+* Required reading 
+* Further reading
 
 ## Chapter 5: Auto Generator
-* setup() and start()
+* setup() 
+* start()
 * Exercise in class (10 PRINT)
 * Langton's Ant
-* Source code (Langton's Ant)
-* Reading Langton's Ant
+  * Source code (Langton's Ant)
+  * Reading Langton's Ant
 * Two-dimensional arrays & nested for-Loops
 * Exercise in class
 * While()
 * MiniX: A generative program
-* Required reading & Further reading
+* Required reading 
+* Further reading
 
 ## Chapter 6: Object Orientation
-* setup() and start()
+* setup() 
+* start()
 * Exercise in class (Decode)
 * Source code
 * class
@@ -111,10 +122,12 @@ Winnie Soon and Geoff Cox
 * Further notes
 * While()
 * MiniX: Games with objects
-* Required reading & Further reading
+* Required reading
+* Further reading
 
 ## Chapter 7: Vocable Code
-* setup() and start()
+* setup()
+* start()
 * Exercise in class (Decode)
 * Texuality
   * Type
@@ -124,25 +137,29 @@ Winnie Soon and Geoff Cox
 * Exercise in class
 * While()
 * MiniX: E-lit
-* Required reading & Further reading
+* Required reading
+* Further reading
 
 ## Chapter 8: Que(e)ry Data
-* setup() and start()
+* setup() 
+* start()
 * Exercise in class
 * Image processing: fetching, loading and display
 * Source code
 * Exercise: Accessing web APIs (step by step)
 * APIs
-* Que(e)rying data
+  * Que(e)rying data
 * Exercise in class
 * LoadPixels()
 * Different types of errors
 * While()
 * MiniX: Working with APIs (in a group)
-* Required reading & Further reading
+* Required reading 
+* Further reading
 
 ## Chapter 9: Algorithmic Procedures
-* setup() and start()
+* setup() 
+* start()
 * Discussion in class
 * Exercise in class
 * Flowcharts
@@ -150,20 +167,23 @@ Winnie Soon and Geoff Cox
 * Flowcharts as an artistic medium
 * While()
 * MiniX: Flowcharts
-* Required reading & Further reading
+* Required reading 
+* Further reading
 
 ## Chapter 10: Machine Learning
-* setup() and start()
+* setup() 
+* start()
 * Between input and output
 * Exercise in class
 * Learning algorithms
 * ml5.js library
 * Source code
-* Reading Auto Chapter Generator
+  * Reading Auto Chapter Generator
 * Exercise in class
 * While()
 * MiniX: Final project
-* Required reading & Further reading
+* Required reading 
+* Further reading
 
 ## Afterword: Recurrent Imaginaries
 
