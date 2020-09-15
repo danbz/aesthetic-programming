@@ -115,7 +115,7 @@ Winnie Soon and Geoff Cox
 * start()
 * Exercise in class (Decode)
 * Source code
-* class
+* Class
 * Objects
 * Class-Object creation
 * Exercise in class
