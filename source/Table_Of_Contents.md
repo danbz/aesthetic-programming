@@ -21,10 +21,12 @@ Winnie Soon and Geoff Cox
 
 ## Chapter 1: Getting started
 * setup() and start()
-* Working environment: p5.js, Code editor
+* Working environment:
+   * p5.js
+   * Code editor
 * My first program
-* Exercise in class
-* Reading the web console "Hello World"
+  * Exercise in class
+  * Reading the web console "Hello World"
 * Reading the reference guide
 * Git
 * While()
@@ -34,14 +36,14 @@ Winnie Soon and Geoff Cox
 ## Chapter 2: Variable Geometry
 * setup() and start()
 * Source code
-* Coordinate
+* Coordinates
 * Exercise in class
 * Variables
   * Why use variables
 * Other functions
-* Basic arithmetic operators
 * Conditional structures
-* Relational operators
+  * Relational operators
+* Basic arithmetic operators
 * Discussion in class
 * While()
 * MiniX: Geometric emoji
@@ -57,8 +59,8 @@ Winnie Soon and Geoff Cox
   * push() and pop()
 * Exercise in class  
 * Asterisk Painting
-* Source code
-* Exercise in class
+  * Source code
+  * Exercise in class
 * Arrays
 * Conditional statements
 * Loops
