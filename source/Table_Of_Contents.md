@@ -7,6 +7,7 @@ Winnie Soon and Geoff Cox
 
 ![](TOC.svg)
 
+## Biographies
 ## Colophon
 ## Table of Contents
 ## Acknowledgments
@@ -20,7 +21,7 @@ Winnie Soon and Geoff Cox
 * The book object
 
 ## Chapter 1: Getting started
-* setup() 
+* setup()
 * start()
 * Working environment:
    * p5.js
@@ -32,7 +33,7 @@ Winnie Soon and Geoff Cox
 * Git
 * While()
 * MiniX: RunMe and ReadMe
-* Required reading 
+* Required reading
 * Further reading
 
 ## Chapter 2: Variable Geometry
@@ -50,11 +51,11 @@ Winnie Soon and Geoff Cox
 * Discussion in class
 * While()
 * MiniX: Geometric emoji
-* Required reading 
+* Required reading
 * Further reading
 
 ## Chapter 3: Infinite Loops
-* setup() 
+* setup()
 * start()
 * Exercise in class (Decode)
 * Source code
@@ -71,11 +72,11 @@ Winnie Soon and Geoff Cox
 * Loops
 * While()
 * MiniX: Designing a throbber
-* Required reading 
+* Required reading
 * Further reading
 
 ## Chapter 4: Data Capture
-* setup() 
+* setup()
 * start()
 * Exercise in class (Decode)
 * Source code
@@ -93,11 +94,11 @@ Winnie Soon and Geoff Cox
   * Health tracker
 * While()
 * MiniX: Capture all
-* Required reading 
+* Required reading
 * Further reading
 
 ## Chapter 5: Auto Generator
-* setup() 
+* setup()
 * start()
 * Exercise in class (10 PRINT)
 * Langton's Ant
@@ -107,11 +108,11 @@ Winnie Soon and Geoff Cox
 * Exercise in class
 * While()
 * MiniX: A generative program
-* Required reading 
+* Required reading
 * Further reading
 
 ## Chapter 6: Object Orientation
-* setup() 
+* setup()
 * start()
 * Exercise in class (Decode)
 * Source code
@@ -141,7 +142,7 @@ Winnie Soon and Geoff Cox
 * Further reading
 
 ## Chapter 8: Que(e)ry Data
-* setup() 
+* setup()
 * start()
 * Exercise in class
 * Image processing: fetching, loading and display
@@ -154,11 +155,11 @@ Winnie Soon and Geoff Cox
 * Different types of errors
 * While()
 * MiniX: Working with APIs (in a group)
-* Required reading 
+* Required reading
 * Further reading
 
 ## Chapter 9: Algorithmic Procedures
-* setup() 
+* setup()
 * start()
 * Discussion in class
 * Exercise in class
@@ -167,11 +168,11 @@ Winnie Soon and Geoff Cox
 * Flowcharts as an artistic medium
 * While()
 * MiniX: Flowcharts
-* Required reading 
+* Required reading
 * Further reading
 
 ## Chapter 10: Machine Learning
-* setup() 
+* setup()
 * start()
 * Between input and output
 * Exercise in class
@@ -182,7 +183,7 @@ Winnie Soon and Geoff Cox
 * Exercise in class
 * While()
 * MiniX: Final project
-* Required reading 
+* Required reading
 * Further reading
 
 ## Afterword: Recurrent Imaginaries
