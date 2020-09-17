@@ -189,7 +189,7 @@ The following section will move from repetition and regularity, to repetition an
 According to Bell,
 >  "Asterisk Painting is programmed to create a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started. If left to run by itself it will do so; however, when started on a real system, delays external to my artwork may make the asterisks look more like spots..."
 
-## Source code
+### Source code
 The original piece was written in Processing and has been modified, and ported to p5.js. It is a much more complex program than the first one, but we still wanted to include this as an addition to this chapter as it helps to demonstrate the potential for further developing a looping sketch and reflect more deeply on the notion of infinite loops, and the use of time-related syntaxes.
 
 ```javascript

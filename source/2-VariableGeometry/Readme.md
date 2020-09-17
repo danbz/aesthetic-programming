@@ -215,7 +215,7 @@ We have implemented a conditional logic in our sample code to constantly check i
  }
 ```
 
-## Relational operators
+### Relational operators
 If you have to create your own conditional statement with the `if()` syntax, there are multiple combinations you can work with to create more complex expressions. For example, you can have many different cases using the syntax `else if`, or a combination of logical operators, such as the AND case here in another pseudocode example:
 
 ```javascript

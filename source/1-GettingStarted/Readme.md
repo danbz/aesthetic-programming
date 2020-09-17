@@ -125,7 +125,7 @@ To run the code, you need to go to "Packages > atom-live-server > Start Server."
 
 <div class="section exercise" markdown="true">
 
-### Exercise in class
+## Exercise in class
 
 This exercise is to familiarize you with the working environment, path and local directory so you learn that running a sketch in a web browser requires loading the right path to the JavaScript libraries. You are also free to create your own folder name and rename the file sketch.js as you please. You can also try to change parameters by changing numbers to get a sense of how things work, but this will be explained in more detail later on in the book.
 
@@ -142,7 +142,7 @@ This exercise is to familiarize you with the working environment, path and local
 5. **RUN again.** Can you run the program again (ATOM > Packages > atom-live-server > Start Server) so that you can see almost the same screen as Figure 1.7 in a web browser?
 </div>
 
-## Reading the web console "Hello World"
+### Reading the web console "Hello World"
 As you might realize by now, this book does not follow the conventions of most programming books by starting with the "Hello World" program that displays or prints "Hello World" onto the screen. In p5.js, `print()` is the function to %print%,[^print] but in a web browser setting which makes the `print()` function write in the "console area." This is an area not intended for end users, but for programmers or developers to see if there are any error messages, which are logged to the console and to check that code is executing in the expected way.
 
 In the sample code above, the line 4 prints "hello world." But to see the text, you need to open the web console area the location of which depends on the browser you are using. Try to search for it by navigating the menu bar. In Firefox, for instance, it is located under "Tools > Web Developer > Web Console" (or press the keyboard shortcut: `Ctrl + Shift + K` for Linux/Windows, and `Option + Command + K` for Mac).

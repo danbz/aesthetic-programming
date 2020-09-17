@@ -126,7 +126,7 @@ Figure 5.6 shows how the ant starts building the emergent "highway" pattern afte
 
 [RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch5_AutoGenerator/sketch5_1/)
 
-## Source code (Langton's Ant)
+### Source code (Langton's Ant)
 ```javascript
 //e.g 4, 5, 10 need to be dividable by the w and h of the canvas
 let grid_space = 5;
@@ -228,7 +228,7 @@ function checkEdges() {
 }
 ```
 
-## Reading Langton's Ant
+### Reading Langton's Ant
 
 There are three areas that can help you to zoom in on the program to slow down and adjust the size.
 

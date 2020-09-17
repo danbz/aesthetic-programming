@@ -228,7 +228,7 @@ function generate() {
 </html>
 ```
 
-## Reading Auto Chapter Generator
+### Reading Auto Chapter Generator
 
 **index.html**
 

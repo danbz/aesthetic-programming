@@ -201,7 +201,7 @@ A web API is simply a long URL `request = url + "key=" + apikey + "&cx=" + engin
 
 The key syntax is %`loadJSON()`% (in the function `fetchImage()`) to submit a "request" in the form of a URL to the image provider after which you need to wait for the returned JSON file with a list of results. The callback function `gotData()` is to further process and %que(e)ry% the data returned.
 
-## Que(e)rying data
+### Que(e)rying data
 
 Figure 8.6 below shows the JSON file format, but it includes a lot of information that you might not need. You therefore need to understand the file structure and locate the data that you want to process. Understanding the returned data file is part of the process of que(e)rying data as different providers and platforms structure their data differently.
 
