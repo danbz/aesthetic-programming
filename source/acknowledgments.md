@@ -35,7 +35,7 @@ programming class across levels",
 hosting one of us in order to complete the book \
 at Goldsmiths, University of London",
 "Anders Visti - for the suggestion to include the example of \
-Langton's Ant and many other small details",
+Langton's Ant, help on the live-coding interface of Vocable Code \ and many other small details",
 "Joan Truckenbrod - for providing earlier works and discussing her work",
 "Ben Grosser - for providing information and discussing his work",
 "Joana Chicau and Jonathan Reus - for the excellent workshop \
