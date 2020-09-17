@@ -42,6 +42,7 @@ Langton's Ant and many other small details",
 conducted at Aarhus University",
 "John P. Bell - for permission to reapproriate his artwork",
 "David Reinfurt - for permission to use Multi",
+"Francis Lam - for permission to use Tofu Go!",
 "Nicolas Malevé - for his inspirational work",
 "Cornelia Sollfrank - for the ongoing dialogues with her \
 inspirational work",
