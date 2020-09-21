@@ -148,4 +148,4 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 
 [^gabrys]: Jennifer Gabrys outlines her "how-to" approach in the "Introduction" to *How to Do Things with Sensors* (Minneapolis, MN: University of Minnesota Press, 2019). We'd like to think we were doing something along these lines too.
 
-[^britton]: Loren Britton, Goda Klumbyte, and Claude Draude, “Doing Thinking: Revisiting Computing with Artistic Research and Technofeminism.” *Digital Creativity* 30, no. 4 (October 2, 2019): 313–28. <https://doi.org/10.1080/14626268.2019.1684322>.
+[^britton]: The notion of "doing thinking" suggests non-standard ways of knowing that draws upon artistic research and technofeminism in computing. See Loren Britton, Goda Klumbyte, and Claude Draude, “Doing Thinking: Revisiting Computing with Artistic Research and Technofeminism.” *Digital Creativity* 30, no. 4 (October 2, 2019): 313–28. <https://doi.org/10.1080/14626268.2019.1684322>.
