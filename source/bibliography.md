@@ -43,7 +43,8 @@ page_order: 12
 - ———. “Procedural Literacy: Problem Solving with Programming, Systems, & Play.” *The Journal of Media Literacy* 52 (Winter/Spring 2015): 32-36.
 - ———. *Unit Operations: An Approach to Videogame Criticism*. Cambridge, MA: The MIT Press, 2006.
 - Boluk, Stephanie, Leonardo Flores, Gacob Garbe, and Anastasia Salter, eds.. *Electronic Literature Collection: Volume Three*. Cambridge, MA: Electronic Literature Organization, 2016. <http://collection.eliterature.org/3/>.
-- Borràs, Laura, Talan Memmott, Rita Raley, and Brian Stefans, eds.. *Electronic Literature Collection: Volume Two*. Cambridge, MA: Electronic Literature Organization, 2011. <http://collection.eliterature.org/2/>.  
+- Borràs, Laura, Talan Memmott, Rita Raley, and Brian Stefans, eds.. *Electronic Literature Collection: Volume Two*. Cambridge, MA: Electronic Literature Organization, 2011. <http://collection.eliterature.org/2/>.
+- Britton, Loren, Klumbyte Goda , and Draude Claude, “Doing Thinking: Revisiting Computing with Artistic Research and Technofeminism.” *Digital Creativity* 30, no. 4 (October 2, 2019): 313–28. <https://doi.org/10.1080/14626268.2019.1684322>.
 - Brock, Kevin. *Rhetorical Code Studies: Discovering Arguments in and around Code*. Ann Arbor, MI: University of Michigan Press, 2019.
 - Broeckmann, Andreas. "Software Art Aesthetics," *Mono* 1 (2007): 158-167.
 - Bucher, Taina. *If...Then: Algorithmic Power and Politics*. Oxford, UK: Oxford University Press, 2018.
