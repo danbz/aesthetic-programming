@@ -273,7 +273,7 @@ if (x > 10 || x <= 20 ) {
 }
 ```
 ## Basic Arithmetic Operators
-You can also do arithmetic operations in programming, and this is commonly done in the arguments of a function. Here is a list of basic arithmetic operators:
+You can also do %arithmetic operations% in programming, and this is commonly done in the arguments of a function. Here is a list of basic arithmetic operators:
 
 - add(+): For addition and concatenation, which is applicable to both numbers and text/characters.
 - subtract(-)
