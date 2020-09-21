@@ -403,7 +403,7 @@ This is a relatively complex exercise that requires you to:
 
 * David Gauthier, Audrey Samson, Eric Snodgrass, Winnie Soon, and Magda Tyżlik-Carver, "Executing," in Nanna Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio and Kristin Veel, eds., *Uncertain Archives* (Cambridge, MA: MIT Press, 2021).
 * Daniel Shiffman, "Working with data - p5.js Tutorial," *The Coding Train* (10.1, 10.4 - 10.10), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
-* Eric Snodgrass and Winnie Soon, "API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange]," *First Monday* 24, no.2 (2019), <https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721>.
+* Eric Snodgrass and Winnie Soon, "API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange]," *First Monday* 24, no.2 (2019), <https://doi.org/10.5210/fm.v24i2.9553>.
 
 ## Further reading
 
