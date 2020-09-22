@@ -12,6 +12,7 @@ class IndexedWords(InlineProcessor):
     def handleMatch(self, m, data):
         el = etree.Element(INDEXED_WORDS_TAG)
         el.set('class', INDEXED_WORDS_CLASSNAME)
+        el.set('data-book-index', m.group(1).strip())
         el.text = AtomicString(m.group(1).strip())
         return el, m.start(0), m.end(0)
 

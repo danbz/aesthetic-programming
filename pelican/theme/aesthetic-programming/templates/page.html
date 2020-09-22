@@ -15,50 +15,69 @@
   <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/p5-widget-codemirror-theme.css" type="text/css" media="all" charset="utf-8">
   <style>
     /* .code--line--number { */
-    .code--line:before {
-      position: absolute;
-      right: calc(100% + .5em);
-      font-size: 80%;
-      border-right: 1px dotted lightgray;
-      padding-right: .75em;
-      content: attr(data-line-number);
-    }
+      .code--line:before {
+        position: absolute;
+        right: calc(100% + .5em);
+        font-size: 80%;
+        border-right: 1px dotted lightgray;
+        padding-right: .75em;
+        content: attr(data-line-number);
+      }
 
-    .code--line {
-      display: block;
-      position: relative;
-      margin-left: 3em;
-      height: 1.75em;
-    }
-  </style>
+      .code--line {
+        display: block;
+        position: relative;
+        margin-left: 3em;
+        height: 1.75em;
+      }
 
-        pre .CodeMirror-line {
-            outline: initial;
-            outline-offset: initial;
-        }
+      pre .CodeMirror-line {
+          outline: initial;
+          outline-offset: initial;
+      }
 
-        .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
-            font-family: ocr-pbi;
-        }
+      .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
+          font-family: ocr-pbi;
+      }
+
+      .link-page a::after{ content: target-counter(attr(href), page); }
+
+      .link-page::after{ content: ", "; }
+
+      .link-page:last-of-type::after{ content: none; }
+
+      .index-value::after{ content: " – "; }
+
     </style>
 
-
-    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/codemirror.js"></script>
-    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/addon/runmode.js"></script>
-    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/javascript.js"></script>
-    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/activateCodeblocks.js"></script>
     <script>
-        activateCodeblocks();
+      window.PagedConfig = {
+        before: function () {
+          activateCodeblocks();
+
+          createIndex({
+              spanClassIndex: 'indexed_word',
+              indexElement: '#book-index',  
+              alphabet: true        
+            });
+        }
+      };
     </script>
 
 
-    <script type="text/javascript" charset="utf-8" src="/theme/js/paged.polyfill.js">
-    </script>
-
-</head>
-<body>
+  </head>
+  <body>
     <h1>{{ page.title }}</h1>
-  {{ page.content }}
+    {{ page.content }}
+
+    <section id="book-index"></section>
+
+    <script type="text/javascript" charset="utf-8" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/codemirror.js"></script>
+    <script type="text/javascript" charset="utf-8" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/javascript.js"></script>
+    <script type="text/javascript" charset="utf-8" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/addon/runmode.js"></script>
+    <script type="text/javascript" charset="utf-8" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/activateCodeblocks.js"></script>
+    <script type="text/javascript" charset="utf-8" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/createIndex.js"></script>
+    <script async type="text/javascript" charset="utf-8" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/paged.polyfill.js"></script>
 </body>
 </html>
 
