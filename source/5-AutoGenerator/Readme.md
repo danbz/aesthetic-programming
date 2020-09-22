@@ -34,9 +34,9 @@ This is not without precedence. Algorithmic drawing has been explored by artists
 ![drawing3](ch5_8.jpg)
 :   *Figure 5.3: Joan Truckenbrod, Entropic Tangle, 1975. Image courtesy of the artist.*
 
-This kind of approach is important, not only because it offers a different way of drawing and authoring works by machines based on mathematical logic, but also to provide a sense of machine creativity that — as in the previous chapter — questions the centrality of human (more often than not, masculinist) agency. In this chapter we aim to explore more complex combinations (or inter-species relations[^Haraway]) of humans and machines, nonhumans or animals (namely, ants).
+This kind of approach is important, not only because it offers a different way of drawing and authoring works by machines based on mathematical logic, but also to provide a sense of machine creativity that — as in the previous chapter —  negates intentionality[^Arns] and questions the centrality of human (more often than not, masculinist) agency. In this chapter we aim to explore more complex combinations (or inter-species relations[^Haraway]) of humans and machines, nonhumans or animals (namely, ants).
 
-If we were to draw an ellipse in white color at the x and y coordinate 100 and 120, the outcome of the instruction is predictable. But this needs not be the case as certain kinds of instructions or combinations of instructions can generate unruly results.[^drawings] As described in the book *10 PRINT CHR$(205.5+RND(1)); : GOTO 10*, the *10 Print* program utilizes randomness to generate unpredictable processes and outcomes that seem random to humans. This "generative" capacity questions the extent of control over the creative process, as the following definition of %generative art% reveals:
+If we were to draw an ellipse in white color at the x and y coordinate 100 and 120, the outcome of the instruction is predictable. But this needs not be the case as certain kinds of instructions or combinations of instructions can generate unruly results. As described in the book *10 PRINT CHR$(205.5+RND(1)); : GOTO 10*, the *10 Print* program utilizes randomness to generate unpredictable processes and outcomes that seem random to humans. This "generative" capacity questions the extent of control over the creative process, as the following definition of %generative art% reveals:
 
 >"Generative art refers to any art practice where [sic] artists use a system, such as a set of natural languages, rules, a computer program, a machine, or other procedural invention, which is set into motion with some degree of autonomy contributing to or resulting in a completed work of art."[^galanter]
 
@@ -84,18 +84,18 @@ function draw() {
 ```
 
 2. **Discuss** the following *10 PRINT* rules and map them to the related lines/blocks of code[^code]:
-    - Throw a dice and print a backslash half the time
-    - Print a forward slash the other half of the time
+    * Throw a dice and print a backslash half the time
+    * Print a forward slash the other half of the time
 
 3. Drawing on the text *Randomness*:
-    - **How** is control being implemented in *10 PRINT*?
-    - **What** might the (un)predictability of regularity be?
-    - **What** is randomness to a computer?[^Haahr]
-    - **Discuss** the use and the role of randomness in *10 PRINT*, and more generally in the arts, including literature, and games?
+    * **How** is control being implemented in *10 PRINT*?
+    * **What** might the (un)predictability of regularity be?
+    * **What** is randomness to a computer?[^Haahr]
+    * **Discuss** the use and the role of randomness in *10 PRINT*, and more generally in the arts, including literature, and games?
 
 4. Try to modify the existing rules, for example:
-    - Can we change the size, color, and spacing of the slashes?
-    - Can we have outputs other than just the backward and forward slashes?
+    * Can we change the size, color, and spacing of the slashes?
+    * Can we have outputs other than just the backward and forward slashes?
 
 5. *10 PRINT* has been appropriated by many artists, designers and students. Take a look at some of the different options it provides [*10 PRINT*](https://twitter.com/search?q=%2310print&src=typd) that are documented on Twitter with the hastag "#10print." Your task in class is to create a sketch with a clear set of rules that operates like a modified version of *10 PRINT*.    
 </div>
@@ -126,7 +126,7 @@ Figure 5.6 shows how the ant starts building the emergent "highway" pattern afte
 
 [RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch5_AutoGenerator/sketch5_1/)
 
-## Source code (Langton's Ant)
+### Source code (Langton's Ant)
 ```javascript
 //e.g 4, 5, 10 need to be dividable by the w and h of the canvas
 let grid_space = 5;
@@ -228,7 +228,7 @@ function checkEdges() {
 }
 ```
 
-## Reading Langton's Ant
+### Reading Langton's Ant
 
 There are three areas that can help you to zoom in on the program to slow down and adjust the size.
 
@@ -238,11 +238,11 @@ There are three areas that can help you to zoom in on the program to slow down a
 
 Instead of going through the code line by line, the following shows what each function does.
 
-- `function setup()`: To setup the canvas size, initiate the ant's head direction, frame rate, color, and to prepare drawing the background grid structure.
-- `function drawGrid()`: To divide the canvas into a grid.
-- `function draw()`: This main function checks the two rules that apply for *Langton's Ant* and change the color of cells.
-- `function nextMove()`: The four directions are structured in a number format so that the variable `dir++` can be used to change the ant's direction by implementing the increment and decrement of the ant's direction in programming terms (i.e `dir++` or `dir--`). Each different direction (*UP, RIGHT, DOWN, LEFT*) corresponds to moving forward along either the horizontal (xPos) or the vertical (yPos) axis on the canvas.
-- `function checkEdges()`: This function checks whether the ant moves out of frame. When it does, the program is written in such a way that it appears on the opposite side and continues.
+* `function setup()`: To setup the canvas size, initiate the ant's head direction, frame rate, color, and to prepare drawing the background grid structure.
+* `function drawGrid()`: To divide the canvas into a grid.
+* `function draw()`: This main function checks the two rules that apply for *Langton's Ant* and change the color of cells.
+* `function nextMove()`: The four directions are structured in a number format so that the variable `dir++` can be used to change the ant's direction by implementing the increment and decrement of the ant's direction in programming terms (i.e `dir++` or `dir--`). Each different direction (*UP, RIGHT, DOWN, LEFT*) corresponds to moving forward along either the horizontal (xPos) or the vertical (yPos) axis on the canvas.
+* `function checkEdges()`: This function checks whether the ant moves out of frame. When it does, the program is written in such a way that it appears on the opposite side and continues.
 
 Technically speaking, there is no new syntax here as the two-dimensional arrays have already been covered briefly in the previous chapter. However, there is a new use of two-dimensional arrays and nested for-loops in the sample code.
 
@@ -285,8 +285,8 @@ Therefore, each cell from the grid is represented in the structure of a two-dime
 1. Give yourself sometime to read and tinker with the code, as well as to observe the different stages of *Langton's Ant*.
 2. The *Langton's Ant* program represents the world of an ant through abstraction, and sets limits on cell color, movement and direction. Rethink the rules that have been implemented. Try changing the existing rules or adding new rules so that the ant behaves differently? (Recall what you have changed in the previous exercise with *10 PRINT*.)
 3. In simulating living systems — such as the complex behavior of insects — there seems to be a focus on process over outcome. Let's discuss the following questions:
-    - Can you think of, and describe, other systems and processes that exhibit emergent behavior?
-    - How would you understand autonomy in this context?[^Watz] To what extent do you consider the machine to be an active agent in generative systems? What are the implications for wider culture?
+    * Can you think of, and describe, other systems and processes that exhibit emergent behavior?
+    * How would you understand autonomy in this context?[^Watz] To what extent do you consider the machine to be an active agent in generative systems? What are the implications for wider culture?
 </div>
 
 ## While()
@@ -295,10 +295,10 @@ We already have discussed the idea of unleashing potential for changes in the pr
 
 Each cell interacts with other, directly adjacent, cells, and the following transitions occur:
 
- - Any live cell with fewer than two live neighbors dies, as if by underpopulation.
- - Any live cell with two or three live neighbors lives on to the next generation.
- - Any live cell with more than three live neighbors dies, as if by overpopulation.
- - Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+ * Any live cell with fewer than two live neighbors dies, as if by underpopulation.
+ * Any live cell with two or three live neighbors lives on to the next generation.
+ * Any live cell with more than three live neighbors dies, as if by overpopulation.
+ * Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
 If the evolutionary neo-Darwinian logic of this — where the fittest survive — were not worrying enough, *Game of Life* is further troubling for its "necropolitical" dimension[^necro]: articulating life and death in terms of populations and neighborhoods, as if part of a social cleansing program (or dystopian smart city[^smart] project). Is this simply an example of poor abstraction?
 
@@ -329,21 +329,21 @@ Artist David Link built a functional replica of both the hardware and the origin
 
 **Objectives:**
 
-- To implement a rule-based, generative program from scratch.
-- To strengthen the computational use of loops and conditional statements.
-- To conceptually and practically reflect upon the idea of auto-generator.
+* To implement a rule-based, generative program from scratch.
+* To strengthen the computational use of loops and conditional statements.
+* To conceptually and practically reflect upon the idea of auto-generator.
 
 **For additional inspiration:**
 
-- *{Software} Structure #003 A* by Casey Reas (2004), <https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks>.
-- *Daily Art* by Saskia Freeke (2018), <http://www.sasj.nl/daily/>.
-- *Generative Artistry* by Ruth John and Tim Holman (n.d.), <https://generativeartistry.com/tutorials/>.
-- *Generative Design - sketches* (n.d.), <http://www.generative-gestaltung.de/2/>, and source code, <https://github.com/generative-design/Code-Package-p5.js>.
-- *GenArt* by Joseph Fiola (2016), with source code, <https://github.com/JosephFiola/GenArt>.
-- *Game of Life* by John Conway (1970), <https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/>.
-- *Generative Tarot* by Melanie Hoff (2019), <https://www.melaniehoff.com/generativetarot/>, source code <https://github.com/melaniehoff/generative-tarot-p5js>.
-- *The Recode Project* (featuring projects from 1976-78), <http://recodeproject.com/>, and *Memory Slam* by Nick Montfort (2014), <http://nickm.com/memslam/>.
-- *Solving Sol* by Brad Bouse (n.d.), an open project to implement Sol LeWitt's instructions in JavaScript  <https://github.com/wholepixel/solving-sol>.
+* *{Software} Structure #003 A* by Casey Reas (2004), <https://whitney.org/exhibitions/programmed?section=1&subsection=6#exhibition-artworks>.
+* *Daily Art* by Saskia Freeke (2018), <http://www.sasj.nl/daily/>.
+* *Generative Artistry* by Ruth John and Tim Holman (n.d.), <https://generativeartistry.com/tutorials/>.
+* *Generative Design - sketches* (n.d.), <http://www.generative-gestaltung.de/2/>, and source code, <https://github.com/generative-design/Code-Package-p5.js>.
+* *GenArt* by Joseph Fiola (2016), with source code, <https://github.com/JosephFiola/GenArt>.
+* *Game of Life* by John Conway (1970), <https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/>.
+* *Generative Tarot* by Melanie Hoff (2019), <https://www.melaniehoff.com/generativetarot/>, source code <https://github.com/melaniehoff/generative-tarot-p5js>.
+* *The Recode Project* (featuring projects from 1976-78), <http://recodeproject.com/>, and *Memory Slam* by Nick Montfort (2014), <http://nickm.com/memslam/>.
+* *Solving Sol* by Brad Bouse (n.d.), an open project to implement Sol LeWitt's instructions in JavaScript  <https://github.com/wholepixel/solving-sol>.
 
 **Tasks (RunMe):**
 
@@ -352,26 +352,26 @@ Artist David Link built a functional replica of both the hardware and the origin
 
 **Questions to think about (ReadMe):**
 
-- What are the rules in your generative program? Describe how your program performs over time? How do the rules produce emergent behavior?
-- What role do rules and processes have in your work?
-- Draw upon the assigned reading, how does this MiniX help you to understand the idea of "auto-generator" (e.g. levels of control, autonomy, love and care via rules)? Do you have any further thoughts on the theme of this chapter?
+* What are the rules in your generative program? Describe how your program performs over time? How do the rules produce emergent behavior?
+* What role do rules and processes have in your work?
+* Draw upon the assigned reading, how does this MiniX help you to understand the idea of "auto-generator" (e.g. levels of control, autonomy, love and care via rules)? Do you have any further thoughts on the theme of this chapter?
 </div>
 
 ## Required reading
 
-- Nick Montfort et al. "Randomness," *[10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org/)* (Cambridge, MA: MIT Press, 2012), 119-146.
-- Daniel Shiffman, "p5.js - 2D Arrays in Javascript," *Youtube*, <https://www.youtube.com/watch?v=OTNpiLUSiB4>.
-- Marius Watz, "Beautiful Rules: Generative Models of Creativity," in *The Olhares de Outono* (2007), <https://vimeo.com/26594644>.
-- "Langton's Ant Colonies," *Youtube* video, 6:02, posted by MrBluesbyrd, November 7 (2011), <https://www.youtube.com/watch?v=w6XQQhCgq5c>.
+* Nick Montfort et al. "Randomness," *[10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org/)* (Cambridge, MA: MIT Press, 2012), 119-146.
+* Daniel Shiffman, "p5.js - 2D Arrays in Javascript," *Youtube*, <https://www.youtube.com/watch?v=OTNpiLUSiB4>.
+* Marius Watz, "Beautiful Rules: Generative Models of Creativity," in *The Olhares de Outono* (2007), <https://vimeo.com/26594644>.
+* "Langton's Ant Colonies," *Youtube* video, 6:02, posted by MrBluesbyrd, November 7 (2011), <https://www.youtube.com/watch?v=w6XQQhCgq5c>.
 
 ## Further reading
 
-- Philip Galanter, "Generative Art Theory," in Christiane Paul, ed., *A Companion to Digital Art* (Oxford: Blackwell, 2016), <http://cmuems.com/2016/60212/resources/galanter_generative.pdf>.
-- "How to Draw with Code | Casey Reas," *Youtube* video, 6:07, posted by Creators, June 25 (2012), <https://www.youtube.com/watch?v=_8DMEHxOLQE>.
-- John Horton Conway, *The Game of Life* (1970), <https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life>.
-- Daniel Shiffman, "p5.js Coding Challenge #14: Fractal Trees - Recursive," <https://www.youtube.com/watch?v=0jjeOYMjmDU>.
-- Daniel Shiffman, "p5.js Coding Challenge #76: Recursion," <https://www.youtube.com/watch?v=jPsZwrV9ld0>.
-- Daniel Shiffman, "noise() vs random() - Perlin Noise and p5.js Tutorial," <https://www.youtube.com/watch?v=YcdldZ1E9gU>.
+* Philip Galanter, "Generative Art Theory," in Christiane Paul, ed., *A Companion to Digital Art* (Oxford: Blackwell, 2016), <http://cmuems.com/2016/60212/resources/galanter_generative.pdf>.
+* "How to Draw with Code | Casey Reas," *Youtube* video, 6:07, posted by Creators, June 25 (2012), <https://www.youtube.com/watch?v=_8DMEHxOLQE>.
+* John Horton Conway, *The Game of Life* (1970), <https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life>.
+* Daniel Shiffman, "p5.js Coding Challenge #14: Fractal Trees - Recursive," <https://www.youtube.com/watch?v=0jjeOYMjmDU>.
+* Daniel Shiffman, "p5.js Coding Challenge #76: Recursion," <https://www.youtube.com/watch?v=jPsZwrV9ld0>.
+* Daniel Shiffman, "noise() vs random() - Perlin Noise and p5.js Tutorial," <https://www.youtube.com/watch?v=YcdldZ1E9gU>.
 
 ## Notes
 
@@ -412,6 +412,7 @@ Artist David Link built a functional replica of both the hardware and the origin
 [^joan1]: See Joan Truckenbrod's interview *Motion Through Series", <https://vimeo.com/286993496>.
 [^Haraway]: Clearly much more could be said about this, but we refer, our example, to Donna Haraway's *When Species Meet* (Minneapolis: Uiversity of Minnesota Press, 2007).
 [^joan0]: See the *Coded Algorithmic Drawings* series here: <https://joantruckenbrod.com/gallery/#(grid|filter)=.coded>.
+[^Arns]: Inke Arns, "Read_me, run_me, execute_me: Code as Executable Text: Software Art and its Focus on Program Code as Performative Text," trans. Donald Kiraly, *MediaArtNet* (2004), see: <http://www.mediaartnet.org/themes/generative-tools/read_me/1/>.
 [^289]: This is a version programmed with JavaScript, using D3, and jquery libraries: <https://github.com/wholepixel/solving-sol/blob/master/289/cagrimmett/index.html>.
 [^TuringGraph]: This is a modified version of the image found online, see <http://storyofmathematics.lukemastin.com/20th_turing.html>.
 [^game_eg]: For further discussion and the source code for Conway's *The Game of Life*, see: <https://web.archive.org/web/20181007111016/<http://web.stanford.edu/~cdebs/GameOfLife/>.

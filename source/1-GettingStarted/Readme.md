@@ -27,7 +27,7 @@ Throughout the book, we will use JavaScript as the main programming language, pr
 
 JavaScript was originally developed in 1995 by Brendan Eich with the aim to run a program in Netscape browser.[^Severance] Some people might be confused with the difference between JavaScript and Java, but basically they are two different systems. JavaScript is a lightweight programming language which is commonly used for animated visual and interactive web applications, and was originally designed to enhanced interface experiences, and was originally designed to complement Java. Indeed, program code from any "high-level programming language" (i.e. one closer to human languages but further from machine language) requires a translation into native machine instructions/code for a computer to run and execute it. This translation process is usually done through interpreters or compilers. JavasScript is an interpreted language by design that in modern browsers, generally operates using both an interpreter and just-in-time compilers to translate source code at runtime.[^Clark] This makes it faster to kick start the code running process, but takes longer when the application is more complex and with longer interactions, as extra runtime overhead will be incurred.[^Moon] On the contrary, Java, a compiled and complex programming language, was first released to the public in 1996 by Sun Microsystems, meaning that source code is typically written in an Integrated Development Environment (IDE).[^IDE] It is required to optimize and compile into static bytecode for computer processing by a Java Virtual Machine (JVM).[^JVM] Java powers many desktop and mobile applications, from small apps on Android mobile devices to games like Minecraft,[^Minecraft] while JavaScript mainly works for smaller web-based applications such as websites and bots. For an introduction to programming like this, we needed something that is uncomplicated in terms of getting started, but has the capacity for proficiency development. This is often referred to as "low floors and high ceilings,"[^Papert] and JavaScript is a good tool from this perspective.
 
-But there is much more to this than just introducing the tool from a pragmatic perspective. This book will use p5.js, a JavaScript library which was created by artist Lauren McCarthy in 2014 for the purpose of what we call aesthetic programming. To be precise, it was begun by Casey Reas and Ben Fry who developed the remarkable, influential open source project Processing in 2001,[^Processing] a Java-based desktop environment with the aim to reach out to visual artists and designers. However, McCarthy observed that the various creative open source software available was mostly developed by white men, and there was a lack of diversity in such environments[^student] (this remains a significant issue as programming unfortunately still a very male-dominated practice[^laczko]). With Reas' encouragement, McCarthy started to explore what Processing would look like on the web. Importantly, the core idea for p5.js is not just to deploy Processing as a web-based platform, but to address diversity and inclusivity explicitly, and take these issues seriously in software development and communication. As McCarthy says, "thinking about community outreach and diversity is not a secondary goal of p5.js, it's the foundation on which the platform is built."[^McCarthy] Within just a couple of years, the p5.js contributors had developed a community statement, translated the interface into a variety of popular languages such as Spanish and Simplified Chinese,[^Chinese] started the homepage series as part of p5.js which showcased work by and interviews by Asian women and gender non-conforming coders,[^Jin] added a high constrast mode and audio feedback for people who have difficulty seeing,[^UX] developed a series of workshops on creative expression called "Signing Coders" for people who have difficulty hearing,[^Choi] amongst other things. As p5.js demonstrates, software is not just a tool, but also about people and politics.[^chun]
+But there is much more to this than just introducing the tool from a pragmatic perspective. This book will use p5.js, a JavaScript library which was created by artist Lauren McCarthy in 2014 for the purpose of what we call aesthetic programming. To be precise, it was begun by Casey Reas and Ben Fry who developed the remarkable, influential open source project Processing in 2001,[^Processing] a Java-based desktop environment with the aim to reach out to visual artists and designers. However, McCarthy observed that the various creative open source software available was mostly developed by white men, and there was a lack of diversity in such environments[^student] (this remains a significant issue as programming unfortunately still a very male-dominated practice[^laczko]). McCarthy started to explore what Processing would look like on the web. Importantly, the core idea for p5.js is not just to deploy Processing as a web-based platform, but to address diversity and inclusivity explicitly, and take these issues seriously in software development and communication. As McCarthy says, "thinking about community outreach and diversity is not a secondary goal of p5.js, it's the foundation on which the platform is built."[^McCarthy] Within just a couple of years, the p5.js contributors had developed a community statement, translated the interface into a variety of popular languages such as Spanish and Simplified Chinese,[^Chinese] started the homepage series as part of p5.js which showcased work by and interviews by Asian women and gender non-conforming coders,[^Jin] added a high constrast mode and audio feedback for people who have difficulty seeing,[^UX] developed a series of workshops on creative expression called "Signing Coders" for people who have difficulty hearing,[^Choi] amongst other things. As p5.js demonstrates, software is not just a tool, but also about people and politics.[^chun]
 
 ## Working environment
 You will need an editor to write and document your code. We will use [Atom](https://atom.io/),[^Atom] a free and open source text and source code editor that works across different platforms to write code. We choose a downloadable code editor as opposed to a web editor because we view code as more than just a piece of software, it is also about the relations with the configuration of your own computer and operating system, the way various browsers behave as well as data files, and the organization of folder paths, and so on.  
@@ -54,16 +54,16 @@ Additionally we use Gitlab as our code and text respository, at least for this b
 
     index.html
     :   the default Hypertext Markup Language (HTML) which will be first to be picked up by a web browser. HTML is a fundamental technology used to define the structure of a webpage and it can be customized to include text, links, images, multimedia, forms, and other elements.
-    
+
     sketch.js
     :   the key work file for writing JavaScript. The word 'sketch' is used similarly to the way it would be in the visual arts, in other words it is a less formal means of working out or capturing ideas, and experimenting with composition.
-    
+
     p5.js
     :   the p5.js core library.
-    
+
     p5.sound.js
     :   the p5.js sound library[^sound] for web audio functionality, including features like playback, listening to audio input, audio analysis and synthesis.  
-    
+
 
 ### Code editor
 ATOM is used as the code editor for this book. It supports cross-platform editing and can be run on Mac OS, Windows and Linux.
@@ -124,7 +124,8 @@ To run the code, you need to go to "Packages > atom-live-server > Start Server."
 :   *Figure 1.6: My first program*  
 
 <div class="section exercise" markdown="true">
-### Exercise in class
+
+## Exercise in class
 
 This exercise is to familiarize you with the working environment, path and local directory so you learn that running a sketch in a web browser requires loading the right path to the JavaScript libraries. You are also free to create your own folder name and rename the file sketch.js as you please. You can also try to change parameters by changing numbers to get a sense of how things work, but this will be explained in more detail later on in the book.
 
@@ -141,10 +142,10 @@ This exercise is to familiarize you with the working environment, path and local
 5. **RUN again.** Can you run the program again (ATOM > Packages > atom-live-server > Start Server) so that you can see almost the same screen as Figure 1.7 in a web browser?
 </div>
 
-## Reading the web console "Hello World"
+### Reading the web console "Hello World"
 As you might realize by now, this book does not follow the conventions of most programming books by starting with the "Hello World" program that displays or prints "Hello World" onto the screen. In p5.js, `print()` is the function to %print%,[^print] but in a web browser setting which makes the `print()` function write in the "console area." This is an area not intended for end users, but for programmers or developers to see if there are any error messages, which are logged to the console and to check that code is executing in the expected way.
 
-In the sample code above, the line 4 prints "hello world." But to see the text, you need to open the web console area the location of which depends on te browser you are using. Try to search for it by navigating the menu bar. In Firefox, for instance, it is located under "Tools > Web Developer > Web Console" (or press the keyboard shortcut: `Ctrl + Shift + K` for Linux/Windows, and `Option + Command + K` for Mac).
+In the sample code above, the line 4 prints "hello world." But to see the text, you need to open the web console area the location of which depends on the browser you are using. Try to search for it by navigating the menu bar. In Firefox, for instance, it is located under "Tools > Web Developer > Web Console" (or press the keyboard shortcut: `Ctrl + Shift + K` for Linux/Windows, and `Option + Command + K` for Mac).
 
 ![](ch1_8.png){: .medium}
 :   *Figure 1.8: The web console area*
@@ -206,28 +207,29 @@ Like the debates over "Git" and "git," the use of words becomes hugely significa
 
 This politics of %language% was touched upon in the first section of this chapter, through what we might call an "expanded literacy" — the ability to read, write, and "program" — an enhanced understanding of the relationship between what words mean and do in terms of wider culture. %Literacy% is crucially important to explain how new kinds of reading and writing are required to account for significant cultural and technical changes which includes issues of access. To clarify, we can refer back to the beginnings of Cultural Studies as a field, and Richard Hoggart's *Uses of Literacy* (published in 1957) that included working class (or mass) cultures as part of what we call "culture," previously the preserve of an elite, thereby introducing an expanded notion of literacy.[^Hoggart] Clearly literacy is a shifting notion, changing across cultures, and underpinned by the changing relations between speaking and writing that were also explored by Walter J. Ong in *Orality and Literacy*, who argued that the electronic age has sharpened our understanding through the "secondary orality" of media that all depend on writing in various ways.[^Ong] The written words of programming, for instance, demonstrate how our language has been further enhanced by new forms, and how writing is a form of action and not simply a referent of thinking.
 
-In this book we weave together the words and actions of human and computer languages, recognizing that they are not equivalents as such. The syntax of JavaScript that we use in this book is one specific instance of this — useful for learning programming fundamentals and basic concepts — but also allowing for experimentation with "secondary notation." By this, we mean adjusting the formal notation to allow it to be more easily understood, providing opportunities for other creative expressions through semantic ambiguity. Think, for instance, of the use of "class" to describe one or more objects in object-oriented programming as well as stratifications in society based on economic and social status. An excellent example of this is Harwood's codework *Class Library*, a melding of program code and written text that stresses the material conditions of working with code and the possibility of class action.[^harwood] You might want to look this term up in the references section to clarify your technical understanding.[^class]  
+In this book we weave together the words and actions of human and computer languages, recognizing that they are not equivalents as such. The syntax of JavaScript that we use in this book is one specific instance of this — useful for learning programming fundamentals and basic concepts — but also allowing for experimentation with "secondary notation." By this, we mean adjusting the formal notation to allow it to be more easily understood, providing opportunities for other creative expressions through semantic ambiguity. Think, for instance, of the use of "class" to describe one or more objects in object-oriented programming as well as stratifications in society based on economic and social status. An excellent example of this is Harwood's codework *Class Library*, a melding of program code and written text that stresses the material conditions of working with code and the possibility of class action.[^Graham] You might want to look this term up in the references section to clarify your technical understanding.[^class]  
 
 This argument for programming or coding as a necessary skill for contemporary life seems indisputable, and there are plenty of examples of initiatives related to computational literacy and thinking, from online tutorials to websites such as Codecademy.org and Code.org. As introduced at the beginning of this chapter, Vee's *Coding Literacy*  also explores these connections, arguing how the concept of literacy underscores the importance, flexibility, and power of writing for and with computers.[^Vee3] An important aspect of this is that, not only does this help us to better understand the social, technical and cultural dynamics of programming, but it also expands our very notion of literacy and its connection to a politics of exclusion (as with other non-standard literacies). Furthermore, and given that programming, like other forms of writing, performs actions, it presents itself as a way to reconceive politics too: not simply writing or speaking, arguing, or protesting in public, but also demonstrating the ability to modify the technical processes through which the action is performed, in recognition of the ways in which power and control are now structured at the level of infrastructure.[^Kelty]
 
 Your first program is a means to engage with these ideas, to run some code. As this is not meant to be, nor can be, simply a technical exercise, we ask you to make the critical and practical aspects explicit in producing a ReadMe and a RunMe. This book serves as a guide for this initial task as well as subsequent ones: to run some code and "think with it."
 
 <div class="section exercise" markdown="true">
+
 ## MiniX: RunMe and ReadMe
 
 Make a RunMe and a ReadMe.
 
 **Objective**
 
-- To learn the basic setup, including writing code with a code editor, running code with a web browser, independent study of code syntax, creating a ReadMe file, etc.
-- To start thinking with programming conceptually.
+* To learn the basic setup, including writing code with a code editor, running code with a web browser, independent study of code syntax, creating a ReadMe file, etc.
+* To start thinking with programming conceptually.
 
 **For additional inspiration**
 
-- *Daily Sketch in Processing* by Saskia Freeke, <https://twitter.com/sasj_nl> (and her talk can be found at <https://youtube.com/watch?v=nBtGpEZ0-EQ>); *All the Daily Things* by Saskia Freeke (2018), <https://vimeo.com/309138645>.
-- Zach Lieberman's Instagram page, <https://instagram.com/zach.lieberman/>.
-- "Basics in OpenProcessing," <https://openprocessing.org/browse/?q=basics&time=anytime&type=all#>.
-- "Creative Coding with Processing and p5.js," <https://fb.com/groups/creativecodingp5/>.
+* *Daily Sketch in Processing* by Saskia Freeke, <https://twitter.com/sasj_nl> (and her talk can be found at <https://youtube.com/watch?v=nBtGpEZ0-EQ>); *All the Daily Things* by Saskia Freeke (2018), <https://vimeo.com/309138645>.
+* Zach Lieberman's Instagram page, <https://instagram.com/zach.lieberman/>.
+* "Basics in OpenProcessing," <https://openprocessing.org/browse/?q=basics&time=anytime&type=all#>.
+* "Creative Coding with Processing and p5.js," <https://fb.com/groups/creativecodingp5/>.
 
 **Task (RunMe)**
 
@@ -237,24 +239,24 @@ Make a RunMe and a ReadMe.
 
 **Questions to think about in your ReadMe**
 
-- What have you produced?
-- How would you describe your first independent coding experience (in relation to thinking, reading, copying, modifying, writing code, and so on)?
-- How is the coding process different from, or similar to, reading and writing text?
-- What does code and programming mean to you, and how does the assigned reading help you to further reflect on these terms?
+* What have you produced?
+* How would you describe your first independent coding experience (in relation to thinking, reading, copying, modifying, writing code, and so on)?
+* How is the coding process different from, or similar to, reading and writing text?
+* What does code and programming mean to you, and how does the assigned reading help you to further reflect on these terms?
 </div>
 
 ## Required reading
 
-- Lauren McCarthy, "Learning While Making p5.js," *OPENVIS* Conference (2015), <https://youtube.com/watch?v=1k3X4DLDHdc>.
-- Nick Montfort, "Appendix A: Why Program?" *Exploratory Programming For the Arts and Humanities* (Cambridge, Mass.: MIT Press, 2016), 267-277.
-- "p5.js | get started," <https://p5js.org/get-started/>.
-- Daniel Shiffman, "1.1: Code! Programming with p5.js" (2018), <https://youtube.com/watch?v=yPWkPOfnGsw>.
-- Annette Vee, "Coding for Everyone and the Legacy of Mass Literacy," in *Coding Literacy: How Computer Programming Is Changing Writing* (Cambridge, MA: MIT Press, 2017), 43-93.
+* Lauren McCarthy, "Learning While Making p5.js," *OPENVIS* Conference (2015), <https://youtube.com/watch?v=1k3X4DLDHdc>.
+* Nick Montfort, "Appendix A: Why Program?" *Exploratory Programming For the Arts and Humanities* (Cambridge, Mass.: MIT Press, 2016), 267-277.
+* "p5.js | get started," <https://p5js.org/get-started/>.
+* Daniel Shiffman, "1.1: Code! Programming with p5.js" (2018), <https://youtube.com/watch?v=yPWkPOfnGsw>.
+* Annette Vee, "Coding for Everyone and the Legacy of Mass Literacy," in *Coding Literacy: How Computer Programming Is Changing Writing* (Cambridge, MA: MIT Press, 2017), 43-93.
 
 ## Further reading
 
-- Wendy Hui Kyong Chun, "On Software, or the Persistence of Visual Knowledge," *Grey Room* 18, January (2005): 26–51, <https://doi.org/10.1162/1526381043320741>.
-- Brian Lennon, "JavaScript Affogato: Programming a Culture of Improvised Expertise," *Configurations* 26, no. 1, Winter (2018): 47-72.
+* Wendy Hui Kyong Chun, "On Software, or the Persistence of Visual Knowledge," *Grey Room* 18, January (2005): 26–51, <https://doi.org/10.1162/1526381043320741>.
+* Brian Lennon, "JavaScript Affogato: Programming a Culture of Improvised Expertise," *Configurations* 26, no. 1, Winter (2018): 47-72.
 
 ## Notes
 
@@ -308,7 +310,7 @@ Make a RunMe and a ReadMe.
 
 [^print]: <https://p5js.org/reference/#/p5/print>.
 
-[^Chun2]: Wendy Hui Kyong Chun and Andrew Lison argue the first "Hello World" program we learn is enjoyable and seductive. We will say more about this in the following chapter. See Chun and ison, "Fun is a Battlefield: Software between Enjoyment and Obsession," in Olga Goriunova, ed., *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing* (New York, London: Bloomsbury, 2014), 180.
+[^Chun2]: Wendy Hui Kyong Chun and Andrew Lison argue the first "Hello World" program we learn is enjoyable and seductive. We will say more about this in the following chapter. See Chun and Lison, "Fun is a Battlefield: Software between Enjoyment and Obsession," in Olga Goriunova, ed., *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing* (New York, London: Bloomsbury, 2014), 180.
 
 [^Hello]: *hallo welt! (hello world!)* was a collaboration between Geoff Cox and Duncan Shingleton, see <http://www.anti-thesis.net/hello-world-60/>.
 
@@ -332,7 +334,7 @@ Make a RunMe and a ReadMe.
 
 [^Ong]: Walter J. Ong, *Orality and Literacy: The Technologizing of the Word* [1982] (London: Routledge, 2002).
 
-[^harwood]: See Harwood's "Class Library", in Fuller ed., *Software Studies*, 37-39.
+[^Graham]: See Harwood's "Class Library", in Fuller ed., *Software Studies*, 37-39.
 
 [^Vee3]: Vee, *Coding Literacy*.
 

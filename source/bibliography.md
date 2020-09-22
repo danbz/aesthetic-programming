@@ -19,12 +19,13 @@ page_order: 12
 - Andersen, Peter Bogh. "Computer Semiotics." *Scandinavian Journal of Information Systems* 4, no.1, (1992). <https://aisel.aisnet.org/sjis/vol4/iss1/1/>.
 - Anikina, Alex. *A Lecture-Performance: Chronic Film*, 2007, time: infinite, Goldsmiths, University of London. <http://en.mieff.com/2017/alexandra_anikina>.
 - Apprich, Clemens. “Introduction.” in *Pattern Discrimination*. Edited by Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, x-xii. Minneapolis, MN: University of Minnesota Press and Lüneberg, DE: Meson Press, 2018.
+- Arns, Inke. "Read_me, run_me, execute_me: Code as Executable Text: Software Art and its Focus on Program Code as Performative Text." Transated by Donald Kiraly. *MediaArtNet*, 2004. <http://www.mediaartnet.org/themes/generative-tools/read_me/1/>.
 - “Array Objects,” p5.js. <https://p5js.org/examples/arrays-array-objects.html>.
 - “Array of Objects.” p5.js. <https://p5js.org/examples/objects-array-of-objects.html>.
 - Austin, John Langshaw. *How to Do Things with Words*. Oxford, UK: Clarendon Press, 1975.
 - Balsamo, Anne. *Technologies of the Gendered Body: Reading Cyborg Women*. Durham, NC: Duke University Press, 1995.
 - Barad, Karen. *Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning*. Durham, NC: Duke University Press, 2007.
--	Bek, Wilfried Hou Je. "Loop." In *Software Studies*. Edited by Matthew Fuller, 179–183. Cambridge, MA: The MIT Press, 2008.
+- Bek, Wilfried Hou Je. "Loop." In *Software Studies*. Edited by Matthew Fuller, 179–183. Cambridge, MA: The MIT Press, 2008.
 - Bellacasa, Maria Puig de la. “Matters of Care in Technoscience: Assembling Neglected Things.” *Social Studies of Science* 41 (February 2011): 85–106.
 - Benjamin, Ruha. “Are Robots Racist: Reimagining the Default Settings of Technology and Society.” Dropbox Lecture video, 23:23, 2019. <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>.
 - Benjamin, Walter. "The Work of Art in the Age of Mechanical Reproduction" [1936]. In *Selected Writings, Volume 3, 1935–1938*. Edited by Howard Eiland and Michael W. Jennings. Cambridge, MA: Belknap Press of Harvard University Press, 2002.
@@ -42,7 +43,8 @@ page_order: 12
 - ———. “Procedural Literacy: Problem Solving with Programming, Systems, & Play.” *The Journal of Media Literacy* 52 (Winter/Spring 2015): 32-36.
 - ———. *Unit Operations: An Approach to Videogame Criticism*. Cambridge, MA: The MIT Press, 2006.
 - Boluk, Stephanie, Leonardo Flores, Gacob Garbe, and Anastasia Salter, eds.. *Electronic Literature Collection: Volume Three*. Cambridge, MA: Electronic Literature Organization, 2016. <http://collection.eliterature.org/3/>.
-- Borràs, Laura, Talan Memmott, Rita Raley, and Brian Stefans, eds.. *Electronic Literature Collection: Volume Two*. Cambridge, MA: Electronic Literature Organization, 2011. <http://collection.eliterature.org/2/>.  
+- Borràs, Laura, Talan Memmott, Rita Raley, and Brian Stefans, eds.. *Electronic Literature Collection: Volume Two*. Cambridge, MA: Electronic Literature Organization, 2011. <http://collection.eliterature.org/2/>.
+- Britton, Loren, Klumbyte Goda , and Draude Claude, “Doing Thinking: Revisiting Computing with Artistic Research and Technofeminism.” *Digital Creativity* 30, no. 4 (October 2, 2019): 313–28. <https://doi.org/10.1080/14626268.2019.1684322>.
 - Brock, Kevin. *Rhetorical Code Studies: Discovering Arguments in and around Code*. Ann Arbor, MI: University of Michigan Press, 2019.
 - Broeckmann, Andreas. "Software Art Aesthetics," *Mono* 1 (2007): 158-167.
 - Bucher, Taina. *If...Then: Algorithmic Power and Politics*. Oxford, UK: Oxford University Press, 2018.
@@ -65,7 +67,6 @@ page_order: 12
 - Conley, Will. “Facebook investigates tracking users’ cursors and screen behavior.” *Slashgear*. Last updated October 30, 2013. <https://www.slashgear.com/facebook-investigates-tracking-users-cursors-and-screen-behavior-30303663/>.
 - Cooper, Marilyn. M.. "Really Useful Knowledge: A Cultural Studies Agenda for Writing Centers." *The Writing Center Journal* 14, no. 2 (Spring 1994): 97-111. <https://www.jstor.org/stable/43441948>.
 - Cox, Geoff. “Introduction.” In *David Link: Das Herz der Maschine*, dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 037. Berlin: Hatje Cantz, 2012.  
-- ———. “Generator: The Value of Software Art.” In *Issues in Curating Contemporary Art and Performance*. Edited by Judith Rugg and Michèle Sedgwick, 147–162. Bristol, UK: Intellect, 2007. <https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf>.
 - ———. “Ways of Machine Seeing.” *Unthinking Photography*. November 2016. https://unthinking.photography/articles/ways-of-machine-seeing.
 - ———. “Ways of Machine Seeing.” *A Peer-Reviewed Journal About Machine Research* 6, no. 1 (April 1, 2017): 8-15. <https://aprja.net//issue/view/8319>.
 - Cox, Geoff, and Joasia Krysa, eds. *Engineering Culture: On the Author as (Digital) Producer*. New York, Autonomedia, 2005.
@@ -74,6 +75,7 @@ page_order: 12
 - Cramer, Florian. “Language.” In *Software Studies: A Lexicon*. Edited by Matthew Fuller, 168–173. Cambridge, MA: The MIT Press, 2008.
 - Cramer, Florian, and Ulrike Gabriel, "Software Art," *American Book Review*, Issue “Codeworks”(Alan Sondheim, Ed.), 2001.
 - Crary, Jonathan. *24/7: Late Capitalism and the Ends of Sleep*. London: Verso, 2013.
+- Crutzen, Cecile, and Erna Kotkamp, "Object Orientation." In *Software Studies: A Lexicon*. edited by Matthew Fuller, 200-207. Cambridge, MA: The MIT Press, 2008.
 - Crawford, Kate, and Vladan Joler. “Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources.” 2018. <https://anatomyof.ai/>.
 - Cukier, Kenneth, and Victor Mayer-Schönberger. “The Rise of Big Data.” *Foreign Affairs*. Last updated May/June 2013. <https://www.foreignaffairs.com/articles/2013-04-03/rise-big-data>.
 - “Custom Search JSON API.” Google Custom Search. Google Developers. Updated June 11, 2020. <https://developers.google.com/custom-search/v1/overview>.
@@ -309,7 +311,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Silver, David, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert, Lucas Baker, Matthew Lai, Adrian Bolton, Yutian Chen, Timothy Lillicrap, Fan Hui, Laurent Sifre, George van den Driessche, Thore Graepel, and Demis Hassabis. “Mastering the Game of Go without Human Knowledge.” *Nature* 550, no. 7676 (October 19, 2017): 354 – 59.
 - “Simple Shapes.” p5.js. <https://p5js.org/examples/hello-p5-simple-shapes.html>.
 - Snelting, Femke. “Other Geometries.” *transmediale journal* 3. Last updated October 31, 2019. <https://transmediale.de/content/other-geometries>.
-- Snodgrass, Eric, and Winnie Soon. “API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange.” *First Monday* 24 (January 2019). <https://firstmonday.org/ojs/index.php/fm/article/view/9553/7721>.
+- Snodgrass, Eric, and Winnie Soon. “API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange.” *First Monday* 24 (January 2019). <https://doi.org/10.5210/fm.v24i2.9553>.
 - Sollfrank, Cornelia. ed. *Beautiful Warriors: Technofeminist Praxis in the Twenty-First Century*. New York, NY: Autonomedia/Minor Compositions, 2019.
 - ———. “Hacking the Art Operating System.” Interviewed by Florian Cramer. Chaos Computer Club, Berlin. December 2001. <http://www.artwarez.org/uploads/media/09_Sollfrank-Cramer-Interview.pdf>.
 - Søndergaard, Marie Louise Juul, and Lone Koefoed Hansen. “Intimate Futures: Staying with the Trouble of Digital Personal Assistants through Design Fiction.” Presented at the Dis ’18: Proceedings of the 2018 Designing Interactive Systems Conference. Hong Kong, China. Association for Computing Machinery, 2018.

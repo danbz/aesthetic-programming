@@ -34,8 +34,8 @@ Tasks:
 1. Visit the ELIZA Test by clicking the button "Next Step", <https://www.masswerk.at/elizabot/eliza_test.html> so you can see the original example given by Weizenbaum in his published article.[^Weizenbaum3]
 2. Then visit the work *E.L.I.Z.A Talking* (2013) via the link <https://www.masswerk.at/eliza/>, and try to have your own conversation.[^bot]
 3. Share your experience of the original conversation (by Weizenbaum) and your conversation with the chatbot:
-    - How would you describe your experience of ELIZA (e.g. the use of language, style of conversation, and quality of social interaction)?
-    - How would you assess the ability of technology such as this to capture and structure feelings, and experiences? What are the limitations?
+    * How would you describe your experience of ELIZA (e.g. the use of language, style of conversation, and quality of social interaction)?
+    * How would you assess the ability of technology such as this to capture and structure feelings, and experiences? What are the limitations?
 
 ## Between input and output
 
@@ -228,7 +228,7 @@ function generate() {
 </html>
 ```
 
-## Reading Auto Chapter Generator
+### Reading Auto Chapter Generator
 
 **index.html**
 
@@ -312,7 +312,7 @@ We would like to reiterate this here and encourage deep reflection on the means 
 
 All these ideas provide starting points for further work and reflection.[^refs] The interplay between truth and fiction is part of this, and "deepfakes" for example (a wordplay on deep learning) would make a good additional case study for the way in which synthetic instances can pass for real data. A brief description of this process, and the operations of "Generative Adversarial Networks" (GANs) might make a useful addition here.[^GAN] With a GAN, two neural nets — a "Generator" that forges a new data instance, and a "Discriminator" that then distinguishes fake data created by the Generator from real data — challenge each other with increasingly realistic fakes, both optimizing their strategies until their generated data is indistinguishable from the real data. This is also a (unsupervised) method of training that doesn’t rely on the tagging of input images by humans as the machine generates groupings based on its own analysis. Might critical theory learn from this, something that resonates with dialectical materialism in which everything is considered to be in a process of transformation through contradiction, and becomes a technical reality? Might such an approach open up alternatives to the conflation of computational logics and politics?[^transmediale]
 
-In beginning to think about computational operations in this way, as conceptual models or diagrams, we broadly follow on from what we have learnt thus far about machine learning through a process of generalization, prediction, and the generation of future possibilities. We use this last chapter as a way to point to future critical work to be undertaken and to reflect on machine learning as a set of methods that learn from data in parallel to an experience of our learning through the practice of programming. Agre states that: "A critical technical practice will, at least for the foreseeable future, require a split identity — one foot planted in the craft work of design and the other foot planted in the reflexive work of critique."[^agre2] The challenge is to work across, and between these modes, and learn from both.
+In beginning to think about computational operations in this way, as conceptual models or diagrams, we broadly follow on from what we have learnt thus far about machine learning through a process of generalization, prediction, and the generation of future possibilities. We use this last chapter as a way to point to future critical work to be undertaken and to reflect on machine learning as a set of methods that learn from data in parallel to an experience of our learning through the practice of programming. Agre states that: "A critical technical practice will, at least for the foreseeable future, require a split identity — one foot planted in the craft work of design and the other foot planted in the reflexive work of critique."[^agre2] The challenge is to work across, and queer these modes as not a split identity, and learn from both, opening ways of thinking and working with computing.
 
 All this deserves longer discussion that there simply isn't space for in these closing paragraphs. At the same time, the constraints allow us to point beyond this book — perhaps to another yet to be written — because if work processes are automated then our work as writers, editors, designers, programmers and teachers will be too. The underlying worry is that our decision-making, thinking, and creativity will be automated, and that our ability to determine our potential futures will become compromised by predictive algorithms.[^tang] It is the questioning the control and power of algorithms that we hope we have managed to provide some insight into here to assert some level of control over these processes. This is reflected by the subtitle of the "Afterward: Recurrent Imaginaries" in the next bonus chapter. Again we would add what we learn from machines in this respect.    
 
@@ -327,10 +327,10 @@ Drawing on the curriculum, including the various theoretical and conceptual text
 
 Here are few tips may help you to come up with an idea for your project:
 
-- You may take another look at the themes that we have used for inspiration, including: literacy, variable geometry, infinite loops, data capture, object abstraction, vocable code, auto generator, que(e)ry data, algorithmic procedures, machine learning, as well as writing and coding, facial recognition, emojis, (micro)temporalities, capture all, interactivity, object orientation, rule-based systems, language and speech, expressivity, algorithmic literature, politics of data processing and learning, all underwritten by an attentiveness to a politics of race, class, and gender.
-- Take a look again at all the previous mini exercises and the questions that were posed. Are there any that you want to explore further?
-- Are there any assigned/suggested texts that you are inspired by, and you want to explore further?
-- Are there any particular technical areas that you want to explore further?
+* You may take another look at the themes that we have used for inspiration, including: literacy, variable geometry, infinite loops, data capture, object abstraction, vocable code, auto generator, que(e)ry data, algorithmic procedures, machine learning, as well as writing and coding, facial recognition, emojis, (micro)temporalities, capture all, interactivity, object orientation, rule-based systems, language and speech, expressivity, algorithmic literature, politics of data processing and learning, all underwritten by an attentiveness to a politics of race, class, and gender.
+* Take a look again at all the previous mini exercises and the questions that were posed. Are there any that you want to explore further?
+* Are there any assigned/suggested texts that you are inspired by, and you want to explore further?
+* Are there any particular technical areas that you want to explore further?
 
 **RunMe:**
 
@@ -344,25 +344,25 @@ Write a document of 6-8 pages (max characters per page: 2,400 including spaces) 
 
 The document should include a title, a screen shot, a flowchart, references, a link to your final project's RunMe, with links to related projects (if there are any), as well as the links of all your previous mini exercises (as an appendix).
 
-The README should address the following questions with the help of your source code, programming processes, and your selected readings:
+The ReadMe should address the following questions with the help of your source code, programming processes, and your selected readings:
 
-- What is your software about (provide a short description of what is it, how it works, and what it sets out to explore)?
-- How does your work address at least one of the themes and explore the intersections of technical, and cultural aspects of code?
-- Open question: To what extent can the artifact be considered to be a critical work in and of itself?
+* What is your software about (provide a short description of what is it, how it works, and what it sets out to explore)?
+* How does your work address at least one of the themes and explore the intersections of technical, and cultural aspects of code?
+* Open question: To what extent can the artifact be considered to be a critical work in and of itself?
 </div>
 
 ## Required reading
 
-- Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>.
-- Geoff Cox, "Ways of Machine Seeing," *A Peer-Reviewed Journal About* 6, no. 1, April 1, (2017): 8–15, <https://doi.org/10.7146/aprja.v6i1.116007>.
-- Yuval Noah Harari, Audrey Tang, and Puja Ohlhaver, "To be or not to be hacked? The Future of democracy, work, and identity," *RADICALxChange* (2020), <https://www.youtube.com/watch?v=tRVEY95cI0o>.
+* Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>.
+* Geoff Cox, "Ways of Machine Seeing," *Unthinking Photography* (2016), <https://unthinking.photography/articles/ways-of-machine-seeing>.
+* Yuval Noah Harari, Audrey Tang, and Puja Ohlhaver, "To be or not to be hacked? The Future of democracy, work, and identity," *RADICALxChange* (2020), <https://www.youtube.com/watch?v=tRVEY95cI0o>.
 
 ## Further reading
 
-- Kate Crawford and Vladan Joler, "Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources," AI Institute (2018), <https://anatomyof.ai/>.
-- Shakir Mohamed, Marie-Therese Png, William Isaac, “Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence,” *Philosophy & Technology*, Springer, July 12 (2020), <https://doi.org/10.1007/s13347-020-00405-8>.
-- Adrian Mackenzie and Anna Munster, “Platform Seeing: Image Ensembles and Their Invisualities,” *Theory, Culture & Society* 26, no. 5 (2019): 3-22.
-- Daniel Shiffman, "Beginners Guide to Machine Learning in JavaScript," *The Coding Train*, <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y>
+* Kate Crawford and Vladan Joler, "Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources," AI Institute (2018), <https://anatomyof.ai/>.
+* Shakir Mohamed, Marie-Therese Png, William Isaac, “Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence,” *Philosophy & Technology*, Springer, July 12 (2020), <https://doi.org/10.1007/s13347-020-00405-8>.
+* Adrian Mackenzie and Anna Munster, “Platform Seeing: Image Ensembles and Their Invisualities,” *Theory, Culture & Society* 26, no. 5 (2019): 3-22.
+* Daniel Shiffman, "Beginners Guide to Machine Learning in JavaScript," *The Coding Train*, <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y>
 
 ## Notes
 
