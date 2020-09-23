@@ -342,7 +342,7 @@ Wrong API key sent to the server. It is a more critial error because the program
 
 * **Logical errors** are arguably the hardest errors to locate as they deal with logic not syntax. The code may still run perfectly, but the result is not what was expected. This indicates a discrepancy between what we think we asked the computer to do and how it actually processes the instructions.
 
-The web console is a good place to be notified of errors or test whether the code is running as we expected. When solving errors, it is important to identify exactly where they occur, i.e. which block or line of code contains the mistake by using `console.log()`. Test and run the various parts of the program step by step, then try to identify the error types, and fix them accordingly.
+The web console is a good place to be notified of errors or test whether the code is running as we expected. When solving errors, it is important to identify exactly where they occur, i.e. which block or line of code contains the mistake by using `console.log()` (or `print()` in p5.js). Test and run the various parts of the program step by step, then try to identify the error types, and fix them accordingly.
 
 ## While()
 
