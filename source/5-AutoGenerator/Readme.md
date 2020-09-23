@@ -362,13 +362,11 @@ Artist David Link built a functional replica of both the hardware and the origin
 * Nick Montfort et al. "Randomness," *[10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org/)* (Cambridge, MA: MIT Press, 2012), 119-146.
 * Daniel Shiffman, "p5.js - 2D Arrays in Javascript," *Youtube*, <https://www.youtube.com/watch?v=OTNpiLUSiB4>.
 * Marius Watz, "Beautiful Rules: Generative Models of Creativity," in *The Olhares de Outono* (2007), <https://vimeo.com/26594644>.
-* "Langton's Ant Colonies," *Youtube* video, 6:02, posted by MrBluesbyrd, November 7 (2011), <https://www.youtube.com/watch?v=w6XQQhCgq5c>.
 
 ## Further reading
 
 * Philip Galanter, "Generative Art Theory," in Christiane Paul, ed., *A Companion to Digital Art* (Oxford: Blackwell, 2016), <http://cmuems.com/2016/60212/resources/galanter_generative.pdf>.
 * "How to Draw with Code | Casey Reas," *Youtube* video, 6:07, posted by Creators, June 25 (2012), <https://www.youtube.com/watch?v=_8DMEHxOLQE>.
-* John Horton Conway, *The Game of Life* (1970), <https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life>.
 * Daniel Shiffman, "p5.js Coding Challenge #14: Fractal Trees - Recursive," <https://www.youtube.com/watch?v=0jjeOYMjmDU>.
 * Daniel Shiffman, "p5.js Coding Challenge #76: Recursion," <https://www.youtube.com/watch?v=jPsZwrV9ld0>.
 * Daniel Shiffman, "noise() vs random() - Perlin Noise and p5.js Tutorial," <https://www.youtube.com/watch?v=YcdldZ1E9gU>.
