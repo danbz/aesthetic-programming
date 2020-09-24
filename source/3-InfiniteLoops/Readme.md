@@ -24,10 +24,10 @@ It was mathematician and author Augusta Ada Byron Lovelace who was one of the fi
 
 Loops in contemporary programming are highly influenced by these early insights into the handling of repeated machine operations expressed in diagramatic form. High-level programming languages such as p5.js include this loop concept, allowing a fragment of source code to be repeatedly executed, as in the example of the `draw()` function that will run continuously until the program is stopped or using the syntax `noLoop()`. Loops are some of the most basic and powerful of programming concepts.
 
-The main example for this chapter is the graphical spinning wheel icon of a preloader, or so-called "throbber,"[^throbber] that indicates when a program is performing an action such as downloading or intensive calculations. We consider this an evocative symbol as it illuminates the discrepancy between what we think we know and what we don't know about the hidden machine labor, and the complexity of multiple temporalities that run during any given computational operation.[^screensaver] It is a good icon to illustrate how loops work, allowing us to contemplate the entanglement of perceptible streams and computational logics, as well as how we experience the historical present through digital media.[^soon] As we shift from static objects to moving ones, the animated %throbber% will guide the programming tasks related to thinking about transformation (such as rotation and translation), but will also act as a suitable cultural object for us to think through the idea of loops, the related temporal elements, and syntax more conceptually.
+The main example for this chapter is the graphical spinning wheel icon of a preloader, or so-called "throbber,"[^throbber] that indicates when a program is performing an action such as downloading or intensive calculations. We consider this an evocative symbol as it illuminates the discrepancy between what we think we know and what we don't know about the hidden machine labor, and the complexity of multiple temporalities that run during any given computational operation.[^screensaver] It is a good icon to illustrate how loops work, allowing us to contemplate the entanglement of perceptible streams and computational logics, as well as how we experience the historical present through digital media.[^soon] As we shift from static objects to moving ones, the animated %throbber% will guide the programming tasks related to thinking about transformation (such as rotation and translation), but will also act as a suitable cultural object for us to think through the idea of loops, the related temporal elements, and time-related syntaxes more conceptually.
 
 ## start()
-We usually encounter the ubiquitous spinning icon while loading or streaming. It shows that a certain operation is in progress, but what exactly is happening, and how long this will take, is not at all clear. There is no indication of progress or status as is the case with a progress bar, for instance. We see the icon spinning, but it explains little about what goes on in the background or about timespan. Learning to program a %throbber%, and, subsequently examining *Asterisk Painting* by John P. Bell — that creates a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started — will help you gain insight into the way programming employs transformational movement and loop structures, and, at the same time, gains insights of the temporal operations of computational processes.  
+We usually encounter the ubiquitous spinning icon while loading or streaming. It shows that a certain operation is in progress, but what exactly is happening, and how long this will take, is not at all clear. There is no indication of progress or status as is the case with a progress bar, for instance. We see the icon spinning, but it explains little about what goes on in the background or about timespan. Learning to program a %throbber%, and, subsequently examining *Asterisk Painting* by John P. Bell — that creates a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started — will help you gain insight into the way programming employs transformational movement and loop structures, and, at the same time, gains insights of the machinic times and temporal operations of computational processes.  
 
 <div class="section exercise" markdown="true">
 ## Exercise in class (Decode)
@@ -60,9 +60,9 @@ Can you describe the various elements and how they operate computationally in yo
 4. **Technical questions/issues**
     * `let cir = 360/num*(frameCount%num);` <br> with the modulo operator[^modulo] (%) that computes the remainder after division, explain what this line means and does?
 5. **Other conceptual questions**
-    * Where do you often see this icon?
-    * What do you know about this icon?
-    * What can't you see?
+    * Where do you often see this icon and what's your experience?
+    * If this icon is something related to waiting (or wasting) time, how much do you know about the time(s) in relation to machines?
+    * One of the important aspects of machine times is about synchronization, can you describe your experience in relation to synchronization processes?
 </div>
 
 ## Source code
@@ -132,7 +132,7 @@ function sum(a, b, c) {
 
 <div class="section exercise" markdown="true">
 ## Exercise in class
-You can also try to type/copy the above code into your own sketch, where it will return the number 9 as the output because this is the result of the sum of the values 4, 3 and 2. These values called "%argument%" that are passed to the function (i.e. `sum()`). In the example, the parameters as variables a, b and c equals to the actual values 4, 3 and 2 as arguments, but the value of the variables can be changed. The function "sum" can be reused if you pass on other arguments/values to it, as for instance another line of code `let y = sum(5,6,7);` and the return value of y would be 18. You can try to come up with your own functions and arguments.
+You can also try to type/copy the above code into your own sketch, where it will return the number 9 as the output in the web console because this is the result of the sum of the values 4, 3 and 2. These values called "%argument%" that are passed to the function (i.e. `sum()`). In the example, the parameters as variables a, b and c equals to the actual values 4, 3 and 2 as arguments, but the value of the variables can be changed. The function "sum" can be reused if you pass on other arguments/values to it, as for instance another line of code `let y = sum(5,6,7);` and the return value of y would be 18. You can try to come up with your own functions and arguments.
 </div>
 
 ## %Transform%
@@ -181,7 +181,7 @@ The last four lines describe the drawing of the four static yellow lines. Logica
 
 ## Asterisk Painting
 
-The following section will move from repetition and regularity, to repetition and difference. Artist and software developer John P. Bell made an artwork called *Asterisk Painting*,[^Bell] that consists of a number of throbber-like spinning patterns, however each throbber (or what he calls asterisk) spins differently, varying in color and texture. Many of the syntaxes Bell used are related to temporality, for example the setting up of a timer, the calculation in milliseconds, the speed of rotation, the time to wait before starting a new cycle, and so on. Also, on closer inspection, the asterisks are not geometric shapes, but are constituted by a series of numbers which refer to the milliseconds counter that line up to form a straight line.
+The following section will move from repetition and regularity, to repetition and difference. Artist and software developer John P. Bell made an artwork called *Asterisk Painting*,[^Bell] that consists of a number of throbber-like spinning patterns, however each throbber (or what he calls asterisk) spins differently, varying in color and texture. Many of the syntaxes Bell used are related to temporality, for example the setting up of a timer, the calculation in milliseconds, the speed of rotation, the time to wait before starting a new cycle, and so on, in which programming enables the re-negotiation of time to "develop alternative time practices and experiences" through manipulating time-related functions[^Lammerant]. Also, on a closer inspection, the asterisks are not geometric shapes, but are constituted by a series of numbers which refer to the milliseconds counter that line up to form a straight line.
 
 ![3.5](Asterisk_Painting.gif)
 :    *Figure 3.5 : Asterisk Painting (2014) by John P. Bell*
@@ -430,7 +430,7 @@ For example, `while(millis() < wait){}` in Line 76 of the work *Asterisk Paintin
 
 ## While()
 
-As we have established, loops execute a block of code as long as a specified condition is true. In this closing section to the chapter it seems appropriate to emphasize that while-loops and for-loops allow code to be executed repeatedly based on a given condition. The loop can be thought of as a repeating "if" statement and offers a good way of challenging conventional structures of linear time, and demonstrating how computers utilize time differently. Programming challenges many of our preconceptions about time including how it is organized, how the present is rendered using various time-specific parameters and conditions, as in the case of a throbber. We hope it is already clear that machine-time operates at a different register from human-time, further complicated by global network infrastructures and notions of real-time computation.
+As we have established, loops execute a block of code as long as a specified condition is true. In this closing section to the chapter it seems appropriate to emphasize that while-loops and for-loops allow code to be executed repeatedly based on a given condition. The loop can be thought of as a repeating "if" statement and offers a good way of challenging conventional structures of linear time, and demonstrating how computers utilize time differently. Programming challenges many of our preconceptions about time including how it is organized, how the present is rendered using various time-specific parameters and conditions, as in the case of a throbber. "[T]he experience of time is a socially negotiated and technically implemented expeirence" as Hans Lammerant reminds. We hope it is already clear that machine-time operates at a different register from human-time, further complicated by global network infrastructures and notions of real-time computation.
 
 What it means to begin and end a given process becomes a philosophical problem. In "The Computer as Time-Critical Medium,"[^Chrono] Wolfgang Ernst clarifies the ontological importance of time to the computer to operate and perform tasks. He points to key issues of programmability, feedback, and recursion at programming-language level in ways that we hope resonate with the examples we have provided in this chapter.[^Chrono2] Precise technical detail is crucially important for the discussion, and his example is how "time counts" differently in the computer, as for example with the clock signal. Ernst's concept of "micro-temporality" is useful as it draws attention to the issue of temporality in programming in ways that many of the discussions of software overlook, and furthermore how — in a philosophy of time — the technical or mathematical layer is often dismissed as deterministic.[^Bergson]
 
@@ -474,14 +474,14 @@ Check out other works that refer to the throbber and how other people contextual
 
 ## Required reading
 
-* Wolfgang Ernst, “‘... Else Loop Forever’: The Untimeliness of Media,” (2009), https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf.
+* Lammerant, Hans. "How humans and machines negotiate experience of time," in *The Techno-Galactic Guide to Software Observation*, 88-98, (2018), <https://www.books.constantvzw.org/nl/home/tgso>.
 * Daniel Shiffman, Courses 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2, *Code! Programming with p5.js*, <https://www.youtube.com/watch?v=1Osb_iGDdjk> (2018). (practical usage on conditional statements, loops, functions, and arrays)
-* Winnie Soon, “Throbber: Executing Micro-temporal Streams,” *Computational Culture* 7, October 21 (2019), http://computationalculture.net/throbber-executing-micro-temporal-streams/.
+* Wolfgang Ernst, “‘... Else Loop Forever’: The Untimeliness of Media,” (2009), https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf.
 
 ## Further reading
 
 * Wolfgang Ernst, *Chronopoetics: The Temporal Being and Operativity of Technological Media* (London: Rowman & Littlefield International, 2016), 63-95.
-* Jason Farman, "Fidget Spinners," *Real Life* (2017), <https://reallifemag.com/fidget-spinners/#!>.
+* Winnie Soon, “Throbber: Executing Micro-temporal Streams,” *Computational Culture* 7, October 21 (2019), http://computationalculture.net/throbber-executing-micro-temporal-streams/.
 *	Wilfried Hou Je Bek, "Loop," in Fuller, ed., *Software Studies*.
 * Derek Robinson, "Function," in Fuller, ed., *Software Studies*.
 
@@ -514,3 +514,4 @@ Check out other works that refer to the throbber and how other people contextual
 [^modulo]: Artist Golan Levin has given an online tutorial on modulo operator as part of The Coding Train series, see: <https://www.youtube.com/watch?v=r5Iy3v1co0A>.
 [^push]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push>
 [^splice]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice>
+[^Lammerant]: Hans Lammerant, "How humans and machines negotiate experience of time," in *The Techno-Galactic Guide to Software Observation* (Brussels: Constant, 2018), 88-98.

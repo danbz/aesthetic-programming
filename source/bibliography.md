@@ -170,6 +170,7 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London, 
 - Krysa, Joasia. *Ada Lovelace*. dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 055. Berlin: Hatje Cantz, 2012.
 - Krysa, Joasia, and Grzesiek Sedek. “Source Code.” In *Software Studies*. Edited by Matthew Fuller, 236–242. Cambridge, MA: The MIT Press, 2008.
 - Lam, Francis. *Design China*. Last updated November 16, 2012. <https://www.design-china.org/post/35833433475/francis-lam>.
+- Lammerant, Hans. "How humans and machines negotiate experience of time." In *The Techno-Galactic Guide to Software Observation*, 88-98. Brussels: Constant, 2018. 
 - Langton, Christopher G.. “Studying Artificial Life with Cellular Automata.” *Physica D: Nonlinear Phenomena* 22, no. 1–3 (October 1986): 120–49.
 - "Langton's Ant Colonies." Youtube video, 6:02. Posted by "MrBluesbyrd," November 7, 2011. <https://www.youtube.com/watch?v=w6XQQhCgq5c>
 - Laporte, Dominique. *A History of Shit*. Translated by Rodolphe el-Khoury. Cambridge, MA: The MIT Press, 2002.
