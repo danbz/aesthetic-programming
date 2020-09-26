@@ -424,7 +424,7 @@ Although it takes two to make a binary (and set up the heterosexist paradigm), c
 
 The biography of Turing as a gay man, at a time when homosexuality was still a criminal offense in the UK, [^Hodges] adds weight to claims to reject unreasonable demands. Humans do not necessarily follow or agree with rules as prescribed by society, and although Turing's sexuality was tolerated in the context of the war effort, under "normal" (peacetime) conditions it was perceived to be a problem and he was found guiltily of gross indecency in 1952.[^Plant3] Here, as Plant describes, the historical facts collapse into bizarre allegory. First of all, he was prescribed estrogen to reduce his sexual urge, on the basis of the dubious logic that to all intents and purposes he was female. This was a reversal of prior judgements forcing gay men to take testosterone to make them more male, yet ironically making them more aroused hormonally. Plant concludes the Turing story: "Two years later he was dead. By the side of the table was an apple, out of which several bites had been taken. And this queer tale does not end here. There are rainbow logos with Turing's missing bytes on every Apple Macintosh machine."[^Plant4]
 
-To conclude this chapter, which explored the making of *Vocable Code* with its strange syntax - such as notFalse and notTrue - as well as its many repetitive decimals, we would like to emphasize our central point: Queer is... making binaries strange.  
+To conclude this chapter, which explored the making of *Vocable Code* with its strange syntax - such as notFalse and notTrue - as well as its many repetitive decimals, we would like to emphasize our "queer commentary" for queer world building[^berlant]: Queer is... making binaries strange.
 
 <div class="section exercise" markdown="true">
 ## MiniX: E-lit
@@ -519,3 +519,5 @@ See: Allison Parrish (2015) <https://vimeo.com/134734729>; Florian Cramer, Langu
 [^master]: This has been discussed in Chapter 1, "Getting Started."
 
 [^Andersen]: Peter Bogh Andersen suggests a semiotic framework to study computer systems as sign-vehicles in order to understand how signs are produced and interpreted. The framework emphasizes the combination of formal/technical structures and non-formal/interpretable signs which is relevant to this chapter, see Peter Bogh Andersen, "Computer Semiotics," *Scandinavian Journal of Information Systems* 4, no.1, (1992): 1, <https://aisel.aisnet.org/sjis/vol4/iss1/1/>.
+
+[^berlant]: Lauren Berlant and Michael Warner, “Guest Column: What Does Queer Theory Teach Us about X,” *PMLA* 110, no. 3, (May 1995): 343–49.
