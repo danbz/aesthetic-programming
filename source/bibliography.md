@@ -34,7 +34,7 @@ page_order: 12
 - ———. *Precarious Rhapsody: Semiocapitalism and the pathologies of the post-alpha generation*. Translated by Arianna Bove, Erik Empson, Michael Goddard, Giuseppina Mecchia, Antonella Schintu and Steve Wright. London, UK: Minor Compositions, 2009.
 - Berger, John. *Ways of Seeing*. London, UK: Penguin, 1972.
 - Bergson, Henri. *Matter and Memory*. Translated by Nancy Margaret Paul and W. Scott Palmer. London, UK: Allen and Unwin, 1896.
-- Berlant, Lauren, and Michael Warner. “Guest Column: What Does Queer Theory Teach Us about X.” *PMLA* 110, no. 3, (May 1995): 343–49.
+- Berlant, Lauren, and Michael Warner. "Guest Column: What Does Queer Theory Teach Us about X." *PMLA* 110, no. 3 (May 1995): 343–49.
 - Berry, David M., and Anders Fagerjord. *Digital Humanities: Knowledge and Critique in a Digital Age*. Hoboken, NJ: John Wiley & Sons, 2017.  
 - “binary increment.” Turing Machine Visualization. <https://turingmachine.io/>.
 - Bivens, Rena. “The Gender Binary will not be Deprogrammed: Ten Years of Coding Gender on Facebook.” *New Media & Society* 19 (June 2017): 880–898.
@@ -317,8 +317,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Sollfrank, Cornelia. ed. *Beautiful Warriors: Technofeminist Praxis in the Twenty-First Century*. New York, NY: Autonomedia/Minor Compositions, 2019.
 - ———. “Hacking the Art Operating System.” Interviewed by Florian Cramer. Chaos Computer Club, Berlin. December 2001. <http://www.artwarez.org/uploads/media/09_Sollfrank-Cramer-Interview.pdf>.
 - Søndergaard, Marie Louise Juul, and Lone Koefoed Hansen. “Intimate Futures: Staying with the Trouble of Digital Personal Assistants through Design Fiction.” Presented at the Dis ’18: Proceedings of the 2018 Designing Interactive Systems Conference. Hong Kong, China. Association for Computing Machinery, 2018.
-- Soon, Winnie. "A Report on the Feminist Coding Workshop in p5.js." *Aesthetic Programming*, Last updated November 30, 2017. <http://aestheticprogramming.siusoon.net/articles/a-report-on-the-feminist-coding-workshop-in-p5-js/>.
-- ———. *Executing Liveness: An Examination of the Live Dimension of Code Inter-actions in Software (Art) Practice*. PhD dissertation, Aarhus University, 2016.
+- Soon, Winnie. *Executing Liveness: An Examination of the Live Dimension of Code Inter-actions in Software (Art) Practice*. PhD dissertation, Aarhus University, 2016.
+- ———. "A Report on the Feminist Coding Workshop in p5.js." *Aesthetic Programming*, Last updated November 30, 2017. <http://aestheticprogramming.siusoon.net/articles/a-report-on-the-feminist-coding-workshop-in-p5-js/>.
 - ———. “Throbber: Executing Micro-temporal Streams.” In *Computational Culture* 7. Published October 21, 2019. <http://computationalculture.net/throbber-executing-micro-temporal-streams/>.
 - ———. "Vocable Code." *MAI: Feminism and Visual Culture* 2 (November 10, 2018). <https://maifeminism.com/vocable-code/>.
 - Soon, Winnie, and Geoff Cox. “Vocable Code.” Presented at the Artistic Research Will Eat Itself: Proceedings of the 9th International Conference on Artistic Research. Society for Artistic Research. University of Plymouth, UK, April 2018.
