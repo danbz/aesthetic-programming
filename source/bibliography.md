@@ -317,9 +317,10 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Sollfrank, Cornelia. ed. *Beautiful Warriors: Technofeminist Praxis in the Twenty-First Century*. New York, NY: Autonomedia/Minor Compositions, 2019.
 - ———. “Hacking the Art Operating System.” Interviewed by Florian Cramer. Chaos Computer Club, Berlin. December 2001. <http://www.artwarez.org/uploads/media/09_Sollfrank-Cramer-Interview.pdf>.
 - Søndergaard, Marie Louise Juul, and Lone Koefoed Hansen. “Intimate Futures: Staying with the Trouble of Digital Personal Assistants through Design Fiction.” Presented at the Dis ’18: Proceedings of the 2018 Designing Interactive Systems Conference. Hong Kong, China. Association for Computing Machinery, 2018.
-- Soon, Winnie. *Executing Liveness: An Examination of the Live Dimension of Code Inter-actions in Software (Art) Practice*. PhD dissertation, Aarhus University, 2016.
+- Soon, Winnie. "A Report on the Feminist Coding Workshop in p5.js." *Aesthetic Programming*, Last updated November 30, 2017. <http://aestheticprogramming.siusoon.net/articles/a-report-on-the-feminist-coding-workshop-in-p5-js/>.
+- ———. *Executing Liveness: An Examination of the Live Dimension of Code Inter-actions in Software (Art) Practice*. PhD dissertation, Aarhus University, 2016.
 - ———. “Throbber: Executing Micro-temporal Streams.” In *Computational Culture* 7. Published October 21, 2019. <http://computationalculture.net/throbber-executing-micro-temporal-streams/>.
-- ———. "Vocable Code." *MAI: Feminism and Visual Culture* 2 (November 10, 2018). <https://maifeminism.com/vocable-code/>
+- ———. "Vocable Code." *MAI: Feminism and Visual Culture* 2 (November 10, 2018). <https://maifeminism.com/vocable-code/>.
 - Soon, Winnie, and Geoff Cox. “Vocable Code.” Presented at the Artistic Research Will Eat Itself: Proceedings of the 9th International Conference on Artistic Research. Society for Artistic Research. University of Plymouth, UK, April 2018.
 - Spender, Dan. *Man-Made Language*. Abingdon, UK: Routledge & Kegan Paul, 1980. <https://www.marxists.org/reference/subject/philosophy/works/ot/spender.htm>.
 - Stark, Luke. “Facial recognition, emotion and race in animated social media.” *First Monday* 23. September (2018).
