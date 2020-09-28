@@ -169,9 +169,9 @@ You should now finish modifying the settings. You can now run the sample code wi
 ```javascript
 let url = "https://www.googleapis.com/customsearch/v1?";
 // register: https://developers.google.com/custom-search/json-api/v1/overview
-let apikey = "AIzaSyBRE6L4ohm4c2rAxZqpbFSUbSc8w6ZOg-w";//"INPUT YOUR OWN KEY";
+let apikey = "INPUT YOUR OWN KEY";
 //get the searchengine ID: https://cse.google.com/all (make sure image is on)
-let engineID = "012341178072093258148:xebpi6c3ibg"; //"INPUT YOUR OWN";
+let engineID = "INPUT YOUR OWN";
 let query = "warhol+flowers";  //search keywords
 //check other parameters: https://tinyurl.com/googleapiCSE
 let searchType = "image";
