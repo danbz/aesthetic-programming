@@ -90,7 +90,7 @@ page_order: 12
 - “Development resources.” Minecraft Wiki, Fandom, Inc.. Updated June 22, 2020. <https://minecraft.gamepedia.com/Development_resources>.
 - “diagrammatic thinking.” Rocco Gangle, frequencies a collaborative genealogy of spirituality. Last updated December 19, 2011. <http://frequencies.ssrc.org/2011/12/19/diagrammic-thinking/>.
 - “Download.” p5.js. <https://p5js.org/download/>.
-- Eckhardt, George H. *Electronic television*. Chicago: Goodheart-Willcox Company, Incorporated, 1936.
+- Eckhardt, George H. *Electronic television*. Chicago, IL: Goodheart-Willcox Company, Incorporated, 1936.
 - Education Working Group. “A Field Guide to Debugging.” p5.js. <https://p5js.org/learn/debugging.html>.
 - Eglash, Ron. *African Fractals: Modern Computing and Indigenous Design*. New Brunswick, NJ: Rutgers University Press, 1999.
 - ———. "Broken Metaphor: The Master-Slave Analogy in Technical Literature." *Technology and Culture* 48, no. 2 (April 2007): 360-369.
@@ -110,9 +110,9 @@ page_order: 12
 - Fried, Limor, and Federico Gomez Suarez. “Binary & Data.” Khan Academy Courses. <https://www.khanacademy.org/computing/computer-science/how-computers-work2/v/khan-academy-and-codeorg-binary-data>.
 - Free Software Foundation, Inc.. “GNU Lesser General Public License, Version 3, 28 June 2007.” <https://www.gnu.org/licenses/lgpl-3.0.txt>.
 - ———. “What is free software? The Free Software Definition.” Last updated July 30, 2019. <https://www.gnu.org/philosophy/free-sw.html>.
-- Friere, Paolo. *Pedagogy of the Oppressed*. New York, NY: Continuum, 1970.
+- Friere, Paolo. *Pedagogy of the Oppressed*. New York: Continuum, 1970.
 - Fry, Ben, and Casey Reas. “Processing.” <https://processing.org./>.
-- Fukuyama, Francis. *The End of History and the Last Man*. New York, NY: Free Press, 1992.
+- Fukuyama, Francis. *The End of History and the Last Man*. New York: Free Press, 1992.
 - Fuller, Matthew. *How to be a Geek: Essays on the Culture of Software*. Cambridge: Polity Press, 2017.
 - ——— ed.. *Software Studies: A Lexicon*. Cambridge, MA: The MIT Press, 2008.
 - Fuller, Matthew, and Andrew Goffey. “The Obscure Objects of Object Orientation.” In Matthew Fuller, *How to be a Geek: Essays on the Culture of Software*. Cambridge, UK: Polity, 2017.
