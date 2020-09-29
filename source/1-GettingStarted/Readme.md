@@ -25,7 +25,7 @@ This opening chapter introduces some ideas and exercises to get started (the `se
 
 Throughout the book, we will use JavaScript as the main programming language, primarily focusing on p5.js and its associated libraries. Practically speaking, p5.js is a web-based library,[^library] that utilizes an open source JavaScript framework that makes creating projects with code on the web accessible, as well as much easier to share via the Internet, such as p5.js Web Editor, Open Processing, Git hosting platforms without additional installation. A JavaScript-based project can be run and executed using a URL in a browser.
 
-JavaScript was originally developed in 1995 by Brendan Eich with the aim to run a program in Netscape browser.[^Severance] Some people might be confused with the difference between JavaScript and Java, but basically they are two different systems. JavaScript is a lightweight programming language which is commonly used for animated visual and interactive web applications, and was originally designed to enhanced interface experiences, and was originally designed to complement Java. Indeed, program code from any "high-level programming language" (i.e. one closer to human languages but further from machine language) requires a translation into native machine instructions/code for a computer to run and execute it. This translation process is usually done through interpreters or compilers. JavasScript is an interpreted language by design that in modern browsers, generally operates using both an interpreter and just-in-time compilers to translate source code at runtime.[^Clark] This makes it faster to kick start the code running process, but takes longer when the application is more complex and with longer interactions, as extra runtime overhead will be incurred.[^Moon] On the contrary, Java, a compiled and complex programming language, was first released to the public in 1996 by Sun Microsystems, meaning that source code is typically written in an Integrated Development Environment (IDE).[^IDE] It is required to optimize and compile into static bytecode for computer processing by a Java Virtual Machine (JVM).[^JVM] Java powers many desktop and mobile applications, from small apps on Android mobile devices to games like Minecraft,[^Minecraft] while JavaScript mainly works for smaller web-based applications such as websites and bots. For an introduction to programming like this, we needed something that is uncomplicated in terms of getting started, but has the capacity for proficiency development. This is often referred to as "low floors and high ceilings,"[^Papert] and JavaScript is a good tool from this perspective.
+JavaScript was originally developed in 1995 by Brendan Eich with the aim to run a program in Netscape browser.[^Severance] Some people might be confused with the difference between JavaScript and Java, but basically they are two different systems. JavaScript is a lightweight programming language which is commonly used for animated visual and interactive web applications, and was originally designed to enhanced interface experiences, and to complement Java. Indeed, program code from any "high-level programming language" (i.e. one closer to human languages but further from machine language) requires a translation into native machine instructions/code for a computer to run and execute it. This translation process is usually done through interpreters or compilers. JavasScript is an interpreted language by design that in modern browsers, generally operates using both an interpreter and just-in-time compilers to translate source code at runtime.[^Clark] This makes it faster to kick start the code running process, but takes longer when the application is more complex and with longer interactions, as extra runtime overhead will be incurred.[^Moon] On the contrary, Java, a compiled and complex programming language, was first released to the public in 1996 by Sun Microsystems, meaning that source code is typically written in an Integrated Development Environment (IDE).[^IDE] It is required to optimize and compile into static bytecode for computer processing by a Java Virtual Machine (JVM).[^JVM] Java powers many desktop and mobile applications, from small apps on Android mobile devices to games like Minecraft,[^Minecraft] while JavaScript mainly works for smaller web-based applications such as websites and bots. For an introduction to programming like this, we needed something that is uncomplicated in terms of getting started, but has the capacity for proficiency development. This is often referred to as "low floors and high ceilings,"[^Papert] and JavaScript is a good tool from this perspective.
 
 But there is much more to this than just introducing the tool from a pragmatic perspective. This book will use p5.js, a JavaScript library which was created by artist Lauren McCarthy in 2014 for the purpose of what we call aesthetic programming. To be precise, it was begun by Casey Reas and Ben Fry who developed the remarkable, influential open source project Processing in 2001,[^Processing] a Java-based desktop environment with the aim to reach out to visual artists and designers. However, McCarthy observed that the various creative open source software available was mostly developed by white men, and there was a lack of diversity in such environments[^student] (this remains a significant issue as programming unfortunately still a very male-dominated practice[^laczko]). McCarthy started to explore what Processing would look like on the web. Importantly, the core idea for p5.js is not just to deploy Processing as a web-based platform, but to address diversity and inclusivity explicitly, and take these issues seriously in software development and communication. As McCarthy says, "thinking about community outreach and diversity is not a secondary goal of p5.js, it's the foundation on which the platform is built."[^McCarthy] Within just a couple of years, the p5.js contributors had developed a community statement, translated the interface into a variety of popular languages such as Spanish and Simplified Chinese,[^Chinese] started the homepage series as part of p5.js which showcased work by and interviews by Asian women and gender non-conforming coders,[^Jin] added a high constrast mode and audio feedback for people who have difficulty seeing,[^UX] developed a series of workshops on creative expression called "Signing Coders" for people who have difficulty hearing,[^Choi] amongst other things. As p5.js demonstrates, software is not just a tool, but also about people and politics.[^chun]
 
@@ -66,13 +66,13 @@ Additionally we use Gitlab as our code and text respository, at least for this b
 
 
 ### Code editor
-ATOM is used as the code editor for this book. It supports cross-platform editing and can be run on Mac OS, Windows and Linux.
+Atom is used as the code editor for this book. It supports cross-platform editing and can be run on Mac OS, Windows and Linux.
 
-1. Download the software ATOM from the homepage: <https://atom.io/>
-2. Drag the "p5" folder that you have just unzipped into ATOM. You should be able to see the left-hand pane with your project. Try to navigate to the "index.html" file under the "empty-example" folder, double click that file and the source code should display on the right-hand pane. See below:
+1. Download the software Atom from the homepage: <https://atom.io/>
+2. Drag the "p5" folder that you have just unzipped into Atom. You should be able to see the left-hand pane with your project. Try to navigate to the "index.html" file under the "empty-example" folder, double click that file and the source code should display on the right-hand pane. See below:
 
     ![](ch1_4.png){: .medium}
-    :   *Figure 1.4: ATOM's file structure*
+    :   *Figure 1.4: Atom's file structure*
 
     "index.html" is usually the default page the web browser will display. You can customize the page title and other styling issues, but the focus for this chapter will be on navigating the libraries and runing your first program. Since p5.js is a library, the lines 8-10 indicate how to incorporate JavaScript files and libraries by using the tags `<script>` and `</script>`.
 
@@ -118,7 +118,7 @@ function draw() {
 }
 ```
 
-To run the code, you need to go to "Packages > atom-live-server > Start Server." A pop-up window will appear, click on the "empty-example" folder and it should display something like this:
+To run the code, you need to go to "Packages > atom-live-server > Start Server" on Atom. A pop-up window will appear, click on the "empty-example" folder and it should display something like this:
 
 ![](ch1_6.png){: .medium}
 :   *Figure 1.6: My first program*  
@@ -127,7 +127,7 @@ To run the code, you need to go to "Packages > atom-live-server > Start Server."
 
 ## Exercise in class
 
-This exercise is to familiarize you with the working environment, path and local directory so you learn that running a sketch in a web browser requires loading the right path to the JavaScript libraries. You are also free to create your own folder name and rename the file sketch.js as you please. You can also try to change parameters by changing numbers to get a sense of how things work, but this will be explained in more detail later on in the book.
+This exercise is to familiarize you with the working environment, path and local directory so you learn that running a sketch in a web browser requires loading the exact path to the JavaScript libraries. You are also free to create your own folder name and rename the file sketch.js as you please. You can also try to change parameters by changing numbers to get a sense of how things work, but this will be explained in more detail later on in the book.
 
 ![](ch1_7.png)
 :   *Figure 1.7: My first program 1.1*
@@ -139,7 +139,7 @@ This exercise is to familiarize you with the working environment, path and local
     - Drag the two p5 libraries into the newly created folder: "libraries."
     - Change the relative path of the two js libraries in index.html
 4. **HTML.** Change the title in the HTML file (line 6)
-5. **RUN again.** Can you run the program again (ATOM > Packages > atom-live-server > Start Server) so that you can see almost the same screen as Figure 1.7 in a web browser?
+5. **RUN again.** Can you run the program again (Atom > Packages > atom-live-server > Start Server) so that you can see almost the same screen as Figure 1.7 in a web browser?
 </div>
 
 ### Reading the web console "Hello World"
@@ -280,7 +280,7 @@ Make a RunMe and a ReadMe.
 
 [^Moon]: Seong-Won Lee and Soo-Mook Moon, "Selective Just-in-time Compilation for Client-side Mobile JavaScript Engine", in *Proceedings of the 14th International Conference on Compilers, Architectures and Synthesis for Embedded Systems (CASES '11)* (New York: ACM, 2011), 5-14. DOI: <https://doi.org/10.1145/2038698.2038703>
 
-[^IDE]: IDE is a software application that provides a more comprehensive and integrated environment for software development. It usually consists of a source code editor, build automation tools and a debugger. In this book we use ATOM as the code editor, but it requires another tool for debugging such as a browser's web console. One example of IDE would be Processing, an open source, standalone application built for the visual and electronic art communities. See <https://en.wikipedia.org/wiki/Integrated_development_environment>.
+[^IDE]: IDE is a software application that provides a more comprehensive and integrated environment for software development. It usually consists of a source code editor, build automation tools and a debugger. In this book we use Atom as the code editor, but it requires another tool for debugging such as a browser's web console. One example of IDE would be Processing, an open source, standalone application built for the visual and electronic art communities. See <https://en.wikipedia.org/wiki/Integrated_development_environment>.
 
 [^JVM]: JVM refers to a virtual environment in a machine (usually a computer) that can run and execute programs in the form of Java bytecode written in programming languages such as Java. JVM performs operations such as loading, verifying, executing code and offers a runtime environment. See <https://en.wikipedia.org/wiki/Java_virtual_machine>.
 
