@@ -535,7 +535,6 @@ Once you understand objects and classes, you can continue to work on a mini game
 * "p5.js examples - Objects," <https://p5js.org/examples/objects-objects.html>.
 * "p5.js examples - Array of Objects," <https://p5js.org/examples/objects-array-of-objects.html>.
 * Daniel Shiffman, "Code! Programming with p5.js," *The Coding Train* (watch: 2.3, 6.1, 6.2, 6.3, 7.1, 7.2, 7.3), <https://www.youtube.com/watch?v=8j0UDiN7my4&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA>.
-* Daniel Shiffman, "Multiple js Files - p5.js Tutorial," *The Coding Train*, <https://www.youtube.com/watch?v=Yk18ZKvXBj4>.
 
 ## Further reading
 

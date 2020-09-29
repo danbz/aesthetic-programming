@@ -228,7 +228,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Paul, Christiane, Carol Mancusi-Ungaro, and Clémence White. “Programmed: Rules, Codes, and Choreographies in Art, 1965–2018.” Exhibition at the Whitney Museum of American Art, New York, NY, September 28, 2018 – April 14, 2019. <https://whitney.org/exhibitions/programmed>.
 - Peppler, Kylie A., and Yasmin B. Kafai. "Creative coding: Programming for personal expression." The 8th International Conference on Computer Supported Collaborative Learning (CSCL) 2 (2009): 76-78.
 - Peter Bogh, Andersen, "Computer Semiotics." *Scandinavian Journal of Information Systems*, 4, no.1, (1992):1, <https://aisel.aisnet.org/sjis/vol4/iss1/1/>.
-- Pierrot, Peggy, Martino Morandi, Anita Burato, Christoph Haag, Michael Murtaugh, Femke Snelting, and Seda Gürses. *The Techno-galactic guide to software observation*. Brussels: Constant, 2018. 
+- Pierrot, Peggy, Martino Morandi, Anita Burato, Christoph Haag, Michael Murtaugh, Femke Snelting, and Seda Gürses. *The Techno-galactic guide to software observation*. Brussels: Constant, 2018.
 - Plant, Sadie. *Zeros + Ones: Digital Women and the New Technoculture*. London, UK: Forth Estate, 1997.
 - Pngfind. <https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/>.
 - Pold, Søren. “Button.” In *Software Studies*. Edited by Matthew Fuller, 31–36. Cambridge, MA: The MIT Press, 2008.
@@ -293,7 +293,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - ———. “7.1: What is an array? - p5.js Tutorial.” YouTube video, 13:48. *The Coding Train*. October 2, 2015. <https://www.youtube.com/watch?v=VIQoUghHSxU&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&t=0s>.
 - ———. “7.2: Arrays and Loops - p5.js Tutorial.” YouTube video, 8:08. *The Coding Train*. October 2, 2015. <https://www.youtube.com/watch?v=RXWO3mFuW-I&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=28>.
 - ———. “7.3: Arrays of Objects - p5.js Tutorial.” YouTube video, 14:21. *The Coding Train*. October 10, 2017. <https://www.youtube.com/watch?v=fBqaA7zRO58&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=29>.
-- ———. “7.5: Multiple js Files - p5.js Tutorial.” YouTube video, 7:05. *The Coding Train*. October 9, 2015. <https://www.youtube.com/watch?v=Yk18ZKvXBj4>.
 - ———. “9.15: 2D Arrays in JavaScript – p5.js Tutorial.” YouTube video, 12:37. *The Coding Train*. July 18, 2016. <https://www.youtube.com/watch?v=OTNpiLUSiB4>.
 - ———. “10.1: Introduction to data and APIs in JavaScript – p5.js Tutorial." YouTube video, 12:49. *The Coding Train*. October 30, 2015. <https://www.youtube.com/watch?v=rJaXOFfwGVw&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=1>.
 - ———. “10.2: What is JSON? Part 1 – p5.js Tutorial." YouTube video, 15:55. *The Coding Train*. October 30, 2015. <https://www.youtube.com/watch?v=_NFkzw6oFtQ&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=2>.
