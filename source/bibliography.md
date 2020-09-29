@@ -294,7 +294,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - ———. “7.1: What is an array? - p5.js Tutorial.” YouTube video, 13:48. *The Coding Train*. October 2, 2015. <https://www.youtube.com/watch?v=VIQoUghHSxU&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&t=0s>.
 - ———. “7.2: Arrays and Loops - p5.js Tutorial.” YouTube video, 8:08. *The Coding Train*. October 2, 2015. <https://www.youtube.com/watch?v=RXWO3mFuW-I&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=28>.
 - ———. “7.3: Arrays of Objects - p5.js Tutorial.” YouTube video, 14:21. *The Coding Train*. October 10, 2017. <https://www.youtube.com/watch?v=fBqaA7zRO58&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=29>.
-- ———. “7.5: Multiple js Files - p5.js Tutorial.” YouTube video, 7:05. *The Coding Train*. October 9, 2015. <https://www.youtube.com/watch?v=Yk18ZKvXBj4>.
 - ———. “9.15: 2D Arrays in JavaScript – p5.js Tutorial.” YouTube video, 12:37. *The Coding Train*. July 18, 2016. <https://www.youtube.com/watch?v=OTNpiLUSiB4>.
 - ———. “10.1: Introduction to data and APIs in JavaScript – p5.js Tutorial." YouTube video, 12:49. *The Coding Train*. October 30, 2015. <https://www.youtube.com/watch?v=rJaXOFfwGVw&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=1>.
 - ———. “10.2: What is JSON? Part 1 – p5.js Tutorial." YouTube video, 15:55. *The Coding Train*. October 30, 2015. <https://www.youtube.com/watch?v=_NFkzw6oFtQ&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=2>.
