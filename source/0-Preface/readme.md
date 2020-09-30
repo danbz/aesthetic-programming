@@ -92,7 +92,7 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 
 [^Adorno]: Adorno says it better: "A successful work of art, according to immanent criticism, is one that resolves objective contradictions in a spurious harmony, but one expresses the idea of harmony negatively by embodying the contradictions, pure and uncompromised, in its innermost structure" (Adorno, in *Prisms* (1967), 32; quoted in Jay, *Aesthetic Theory*, 179).
 
-[^afro]: Indigenous aesthetics would make a important addition here, such as found in Ron Eglash's *African Fractals*, as would reference to Afrofuturism, not to simply insert black voices into racist historical narratives, but to envision new imaginative forms. See, Ron Eglash's *African Fractals: Modern Computing and Indigenous Design* (New Brunswick, NJ: Rutgers University Press, 1999), and, for instance, Kodwo Eshun's "Further Considerations on Afrofuturism." *CR The New Centennial Review* 3, no.2 (2003): 287-302.  
+[^afro]: Black and indigenous aesthetics would make an important addition here, such as found in Ron Eglash's *African Fractals*, as would reference to Afrofuturism, not to simply insert black voices into racist historical narratives, but to envision new imaginative forms. See, Ron Eglash's *African Fractals: Modern Computing and Indigenous Design* (New Brunswick, NJ: Rutgers University Press, 1999), and, for instance, Kodwo Eshun's "Further Considerations on Afrofuturism." *CR The New Centennial Review* 3, no.2 (2003): 287-302.  
 
 [^Tsing]: Anna Lowenhaupf Tsing, *The Mushroom at the End of the World: On the Possibility of Life in Capitalist Ruin*s (Princeton: Princeton University Press, 2015).
 
