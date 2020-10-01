@@ -5,7 +5,7 @@ Selected students' work:
 
 The list will continuously update on the online version.
 
-## MiniX[1]: RUNME and README
+## MiniX[1]: RunMe and ReadMe
 
 ![minix1](showcase_img/Clausen2020_1.png)
 
