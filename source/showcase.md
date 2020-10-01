@@ -80,7 +80,7 @@ The list will continuously update on the online version.
 
 ![minix8](showcase_img/Nguyen2020_8.png)
 
-[Corona bar](https://gitlab.com/pernwn/ap2020/-/tree/master/public/MX9) by Simon Van Nguyen and Pernille P.W. Johansen, 2020
+[Corona bar](https://gitlab.com/pernwn/ap2020/-/tree/master/public/MX9) by Anne Nielsen, Simon Van Nguyen, Pernille P.W. Johansen, and Torvald Pockel, 2020
 
 ## MiniX[10]: Final Project
 
