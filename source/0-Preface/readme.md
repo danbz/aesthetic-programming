@@ -74,7 +74,7 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 
 ## Notes
 
-[^instructions]: The casual address "for dummies" could also be used, as it has been for many tech books, but this carries the unfortunate connotation of learning disability.
+[^instructions]: The casual address "for dummies" could also be used, as it has been for many technical books, but this carries the unfortunate connotation of learning disability.
 
 [^useful]: The book aims to provide some "useful knowledge." Here we refer to nonstandard literacy, such as in the article: Marilyn M. Cooper, "Really Useful Knowledge: A Cultural Studies Agenda for Writing Centers," *The Writing Center Journal* 14, no. 2 (Spring 1994): 97-111, <https://www.jstor.org/stable/43441948>.
 
@@ -158,7 +158,7 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 
 [^britton]: The notion of "doing thinking" suggests non-standard ways of knowing that draws upon artistic research and technofeminism in computing. See Loren Britton, Goda Klumbyte, and Claude Draude, “Doing Thinking: Revisiting Computing with Artistic Research and Technofeminism.” *Digital Creativity* 30, no. 4 (October 2, 2019): 313–28, <https://doi.org/10.1080/14626268.2019.1684322>.
 
-[^fork]: The whole repository, including the text, source code for all sample code and flowcarts, is currently hosted on GitLab as an open source project with a Creative Commons License. You are encouraged to fork a copy if you have a GitLab account or download the whole repository (by pressing the blue 'Clone' button). See <https://gitlab.com/siusoon/Aesthetic_Programming_Book>.
+[^fork]: The whole repository, including the text, source code for all sample code and flowcarts, is currently hosted on GitLab as an open source project with a Creative Commons License. You are encouraged to fork a copy if you have a GitLab account or download the whole repository (by pressing the blue "Clone" button). See <https://gitlab.com/siusoon/Aesthetic_Programming_Book>.
 
 [^situatedness]: By "situated knowledge," we refer to the work of Donna Haraway, and others broadly in the field of feminist new materialism, to think outside of spurious universal and objective forms of knowledge. See Donna Haraway, "Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective." *Feminist Studies* 14, no. 3 (1988): 575-599.
 
