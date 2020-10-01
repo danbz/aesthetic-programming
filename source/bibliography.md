@@ -136,7 +136,8 @@ page_order: 12
 - Hall, Stuart. “Encoding/Decoding.” In *Culture, Media, Language: Working Papers in Cultural Studies*. Edited by Stuart Hall, Dorothy Hobson, Andrew Lowe and Paul Willis, 128-38. London: Hutchinson, 1980.
 - Hao, Karen. “Training a single AI model can emit as much carbon as five cars in their lifetimes.” *MIT Technology Review*. Last updated June 6, 2019. <https://www.technologyreview.com/s/613630/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes/>.
 - Harari, Yuval Noah., Audrey Tang, Puja Ohlhaver, "To be or not to be hacked? The Future of democracy, work, and identity," *RADICALxChange*. 2020. <https://www.youtube.com/watch?v=tRVEY95cI0o>.
-- Haraway, Donna J.. *When Species Meet*. Minneapolis, MN: University of Minnesota Press, 2007.
+- Haraway, Donna J.. "Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective." *Feminist Studies* 14, no. 3 (1988): 575-599.
+———. *When Species Meet*. Minneapolis, MN: University of Minnesota Press, 2007.
 Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London: Pelican/Penguin, 2018.
 ———. *Tool-Being: Heidegger and the Metaphysics of Objects*. Chicago, IL: Open Court Publishing, 2002.
 - Hayles, N. Katherine. *My Mother Was a Computer: Digital Subjects and Literary Texts*. Chicago, IL: University of Chicago Press. 2005.
