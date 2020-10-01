@@ -13,5 +13,5 @@ The book explores the technical as well as cultural imaginaries of programming f
 —  Matthew Fuller, Professor of Cultural Studies, Goldsmiths, University of London
 
 
-"Skilfully moving across the instructional, the pedagogic, and the critical, *Aesthetic Programming* makes an expansive contribution to computational thinking. Engaging with programming from a practice-based approach, this illuminating text demonstrates how critical aesthetics can transform programming. Recipe book, code library, poetic manual, convivial instructions, and primer to computing imaginaries all assemble into this compelling and indispensable addition to software studies."
+"Skilfully moving across the instructional, the pedagogic, and the critical, *Aesthetic Programming* makes an expansive contribution to computational thinking. Engaging with programming from a practice-based approach, this illuminating text demonstrates how critical aesthetics can transform programming. Recipe book, code library, poetic manual, convivial instructional, and primer to computing imaginaries all assemble into this compelling and indispensable addition to software studies."
 — Jennifer Gabrys, Chair in Media, Culture and Environment, University of Cambridge
