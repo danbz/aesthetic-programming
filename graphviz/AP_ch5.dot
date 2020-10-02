@@ -4,7 +4,7 @@ node[fontname="Hershey-Noailles-help-me"]
 
 //labels
 GS [
-label="5. Auto Generator",
+label="5. Auto-generator",
 style=bold,
 shape=rectangle,
 penwidth="1pt"

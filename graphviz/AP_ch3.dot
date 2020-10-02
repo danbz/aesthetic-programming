@@ -4,7 +4,7 @@ node[fontname="Hershey-Noailles-help-me"]
 
 //labels
 GS [
-label="3. Infinite Loops",
+label="3. Infinite loops",
 style=bold,
 shape=rectangle,
 penwidth="1pt"
