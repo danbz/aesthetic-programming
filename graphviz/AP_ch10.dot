@@ -4,7 +4,7 @@ node[fontname="Hershey-Noailles-help-me"]
 
 //labels
 GS [
-label="10. Machine Unlearning",
+label="10. Machine unlearning",
 style=bold,
 shape=rectangle,
 penwidth="1pt"

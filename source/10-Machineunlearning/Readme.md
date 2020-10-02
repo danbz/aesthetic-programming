@@ -1,4 +1,4 @@
-Title: 10. Machine Unlearning
+Title: 10. Machine unlearning
 page_order: 10
 sketch: p5_SampleCode/ch10_MachineLearning/sketch.js
 download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch10_MachineLearning
