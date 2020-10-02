@@ -1,7 +1,7 @@
 Title: 5. Auto-Generator
 page_order: 5
 sketch: p5_SampleCode/ch5_AutoGenerator/sketch.js
-download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch5_Autogenerator
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch5_AutoGenerator
 
 ![flowchart](ch5_0.svg)
 
@@ -54,7 +54,7 @@ The second program is entitled *Langton's Ant* (1986). It is a two-dimensional u
 ![drawing4](ch5_4.png)
 :   *Figure 5.4: 10 PRINT in p5.js*
 
-[RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch5_Autogenerator/)
+[RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch5_AutoGenerator/)
 
 1. **Read** the source code of *10 PRINT* below, then copy it, and run it on your own computer.
 
@@ -124,7 +124,7 @@ Figure 5.6 shows how the ant starts building the emergent "highway" pattern afte
 ![drawing7](ch5_7.png)
 :   *Figure 5.7: Langton's Ant - a snapshot of emergence*
 
-[RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch5_Autogenerator/sketch5_1/)
+[RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch5_AutoGenerator/sketch5_1/)
 
 ### Source code (Langton's Ant)
 ```javascript

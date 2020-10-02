@@ -1,7 +1,7 @@
 Title: 8. Que(e)ry Data
 page_order: 8
 sketch: p5_SampleCode/ch8_Que(e)ryData/sketch.js
-download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch8_Que(e)rydata
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch8_Que(e)ryData
 
 ![flowchart](ch8_0.svg)
 
@@ -37,7 +37,7 @@ Go to *net.art generator* (https://nag.iap.de/) and explore the generation of im
 
 The following source code of this chapter is a snippet from *nag* showing the web API's request and response logic: requested data passes through a Web API and then Google returns the corresponding data using the key syntax `loadJSON()`. The major differences when using JSON between this and the previous chapter is that the JSON file is not located on your computer and created by yourself, but online. As such, the data is generated dynamically in near real-time. The JSON file has a more complex data and organizational structure.  
 
-RunMe(<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch8_Que(e)rydata/>)
+RunMe(<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch8_Que(e)ryData/>)
 
 ![ch8_2](ch8_2.gif)
 :   *Figure 8.2: The process of pixel manipulation*

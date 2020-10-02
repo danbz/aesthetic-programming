@@ -1,7 +1,7 @@
-Title: 10. Machine unlearning
+Title: 10. Machine Unlearning
 page_order: 10
 sketch: p5_SampleCode/ch10_MachineLearning/sketch.js
-download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch10_Machineunlearning
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch10_MachineUnlearning
 
 ![flowchart](ch10_0.svg)
 
@@ -103,7 +103,7 @@ The training process uses a "Recurrent Neural Network" (RNN) and "Long Short Ter
 ![ch10_7](ch10_6.png)
 :   *Figure 10.8: Auto Chapter Generator*
 
-[RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch10_Machineunlearning/>)
+[RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch10_MachineUnlearning/>)
 
 ## Source code
 
