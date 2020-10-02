@@ -429,7 +429,7 @@ node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
 
   subgraph cluster_10 {
       node [shape=ellipse];
-      label = "10. Machine Learning";
+      label = "10. Machine Unlearning";
     fontname="Hershey-Noailles-help-me";
     labeljust="l";
     margin="12pt";
