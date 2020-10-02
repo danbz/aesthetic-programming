@@ -30,7 +30,7 @@ The list will continuously update on the online version.
 
 ![minix3](showcase_img/Bake2020_3.png)
 
-[Work](https://magnusbak.gitlab.io/ap2020/MiniX3/) by Magnus Bake, 2020
+[Work](https://magnusbak.gitlab.io/ap2020/MiniX3/) by Magnus Bak, 2020
 
 ![minix3](showcase_img/Moller2020_3.png)
 
