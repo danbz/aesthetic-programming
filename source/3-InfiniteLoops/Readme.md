@@ -3,7 +3,7 @@ page_order: 3
 requirements: p5_SampleCode/libraries/p5.play.js
               p5_SampleCode/libraries/p5.sound.js
 sketch: p5_SampleCode/ch3_InfiniteLoops/sketch.js
-download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch3_InfiniteLoops
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch3_Infiniteloops
 download_requirements_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/libraries
 
 ![flowchart](ch3_0.svg)
@@ -36,7 +36,7 @@ As mentioned above, this chapter shifts from programming static objects to a mix
 ![3.2](ch3_2.png)
 :    *Figure 3.3: The runme of sample code - sketch 3_1*
 
-[RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch3_InfiniteLoops/sketch3_1/>)
+[RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch3_Infiniteloops/sketch3_1/>)
 
 Can you describe the various elements and how they operate computationally in your own words?
 
@@ -289,7 +289,7 @@ function draw(){
 <div class="section exercise" markdown="true">
 ## Exercise in class
 
-- [RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch3_InfiniteLoops/>)
+- [RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch3_Infiniteloops/>)
 - Read the source code above.
 - Use the decoding method that we introduced previously in this chapter, try to speculate, experiment, and map your thoughts to the source code.  
     - **Speculation**: Describe what you see/experience on screen.

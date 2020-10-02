@@ -1,7 +1,7 @@
 Title: 4. Data Capture
 page_order: 4
 sketch: p5_SampleCode/ch4_DataCapture/sketch.js
-download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch4_DataCapture
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch4_Datacapture
 
 ![flowchart](ch4_0.svg)
 
@@ -20,7 +20,7 @@ With these ideas in mind, the next section will introduce the sample code for a 
 ![datacapture](ch4_10.gif)
 :   *Figure 4.1 The web interface and interaction of the sample code*
 
-[RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch4_DataCapture/)    
+[RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch4_Datacapture/)    
 
 Starting with this sample code, the sketch incorporates four data inputs for a customizable "like" button:
 

@@ -2,7 +2,7 @@ Title: 2. Variable Geometry
 Order: 2
 page_order: 2
 sketch: p5_SampleCode/ch2_VariableGeometry/sketch.js
-download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch2_VariableGeometry
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch2_Variablegeometry
 
 ![flowchart](ch2_0.svg)
 
@@ -34,7 +34,7 @@ Our point is that using emojis may be fun and expressive, but they also tend to 
 
 :   *Figure 2.2: The screenshot of the remix of Multi*
 
-RunMe, <https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch2_VariableGeometry/>.
+RunMe, <https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch2_Variablegeometry/>.
 
 <div class="exec" data-linenostart="1" markdown="true">
 

@@ -2,7 +2,7 @@ Title: 6. Object Abstraction
 page_order: 6
 requirements: p5_SampleCode/ch6_ObjectAbstraction/Tofu.js
 sketch: p5_SampleCode/ch6_ObjectAbstraction/sketch.js
-download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch6_ObjectAbstraction
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch6_Objectabstraction
 
 ![flowchart](ch6_0.svg)
 
@@ -70,7 +70,7 @@ Below we will introduce the sample code *Eating tofu*, a simple game inspired by
 <figcaption><p markdown=true>*Figure 6.2: A screenshot of the Eating tofu game*</p></figcaption>
 </figure>
 
-[RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch6_ObjectAbstraction/>)
+[RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch6_Objectabstraction/>)
 
 **Speculation**
 
