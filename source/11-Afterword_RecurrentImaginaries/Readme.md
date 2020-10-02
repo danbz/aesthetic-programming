@@ -1,4 +1,4 @@
-Title: Afterword: Recurrent Imaginaries[^title]
+Title: Afterword: Recurrent imaginaries[^title]
 page_order: 11
 
 ![flowchart](afterword.svg)
