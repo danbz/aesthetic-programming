@@ -144,7 +144,7 @@ This exercise is about getting the *key ID* and *Engine ID* from Google so that 
     * Login to your account
     * Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and find the section API key
     * Click the blue button "Get A Key" and then create a new project by entering your project name (e.g. "nag-test") and press enter
-    * You should able to see the API key and you just need to copy and paste the key into your sketch
+    * You should be able to see the API key and you just need to copy and paste the key into your sketch
 
 3. **Step 3:** Replace the Search engine ID (cx) with your own, on the line: `let engineID = "INPUT YOUR OWN";`.
     * Go to [Custom Search Engine](https://cse.google.com/all)[^google2]

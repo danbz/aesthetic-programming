@@ -14,7 +14,7 @@ Aside from the difficulties of learning anything new and complex, learning to co
 
 There are many more examples that reinforce the idea of fun, as if simply stating this would be enough to convince users to work through learning to program and not be too put off by its underlying difficulty. In what follows we encourage you to have fun with %geometry%, following on from drawing an ellipse in the previous chapter. The idea is to further explore various shapes, sizes, positions, space, and lengths, all which are regarded as geometry by mathematics and have multiple applications in everyday life including, but not limited to, typography, signage, graphic design and architecture, as well as other organizational forms. More specifically, points, lines, and planes are regarded as the foundational elements of design as these elements are used to constitute objects, and the world is made up of various objects that have particular properties. Fun with geometry comes from manipulating these properties, and reconstituting them anew, creating alternative patterns of recognition and understanding.[^Fun2] As Olga Goriunova states in her edited book *Fun and Software*, %fun% with computers is considered to be a mode of thinking,[^Olga] and, furthermore, fun can be had with the paradoxes that arise in the process. By creating new computational objects, you will manipulate learnt procedural logics, and explore how these might be adapted and redrawn. Variable geometry in this sense is about shape-shifting: re-imagining all sorts of new shapes, compositional forms, and spatial relations, thereby challenging geometric conventions.[^Femke]
 
-We take the example of %emojis% — ideograms, typically smileys — as typographic shorthand for expressing facial emotional states such as happiness, ":D". These have become pervasive in communication, and are no longer simply typographic, but actual pictures which can be funny at times, but also come with underlying issues related to the politics of representation. More on this below, but for now, suffice to say, emojis make a good example as they consist of geometric shapes, using lines, points, planes, and colors. This chapter is about having fun with this (even if some of the underlying issues are not fun at all), exploring the affective dimension of emojis, and the varying representations that we encounter in everyday communications.
+We take the example of %emoticons% — ideograms, typically smileys — as typographic shorthand for expressing facial emotional states such as happiness, ":D". These have become pervasive in communication, and are no longer simply typographic, but actual pictures which can be funny at times as %emojis%, but also come with underlying issues related to the politics of representation. More on this below, but for now, suffice to say, emojis make a good example as they consist of geometric shapes, using lines, points, planes, and colors. This chapter is about having fun with this (even if some of the underlying issues are not fun at all), exploring the affective dimension of emojis, and the varying representations that we encounter in everyday communications.
 
 The relationship between emoji standardization and a politics of representation has been explored by many commentators. The essay "Modifying the Universal," written by Roel Roscam Abbing, Peggy Pierrot and Femke Snelting is a good example,[^Emojis] as it investigates the politics of emoji "universalism." Emojis emerged from the Unicode project, that has set the computing industry standard for the consistent encoding, %representation%, and handling of text for software internationalization in all major operating systems and writing applications since 1987. Interestingly, on a technical level, Unicode provides a unique code point (a number) to represent a character in an abstract way and leaves the visual rendering (size, font, shape, geometry) to other software, such as a web browser or word processor. It is the question of representation that interests us here.
 
@@ -117,11 +117,11 @@ function draw() {
 
 Remember the structure of a web page/application should include the HTML, a working JavaScript file (for example, sketch.js), as well as the associated associated p5.js libraries.  
 
-- Type/copy the above source code in the working JavaScript file, then save the code. Run the program on ATOM (with the live-atom-server) and, on screen, the background should flash.
+- Type/copy the above source code in the working JavaScript file, then save the code. Run the program on Atom (with the live-atom-server) and, on screen, the background should flash.
 - There are few new examples of syntax, or a slightly different use of syntax, here:
     - `frameRate()`: This sets the number of frames per second that the computer will use when running the program. The default is 60 and this sets it to 15, so you can see the background color for each frame quite clearly (you can also compare the flash rate to the sample code in the previous chapter).
     - `random(230,240)`: In the earlier sample code, the function `random()` only took a single parameter. This sample code gives you a different use of the function with two parameters. If you look at the reference guide (<https://p5js.org/reference/#/p5/random>),[^random] it explains that the random function returns a floating-point number, and this means that the number is not an integer, but a number with decimals. In this case, the program will return a floating-point number between 230.0 and up to, but not including, 240.0. An example of such a returned value would be 231.34387.
-- Next you need to remember how to use the web console (Under Tools > Web Developer > Web Console).
+- Next you need to remember how to use the web console (Under Tools > Web Developer > Web Console on Firefox).
     - Type `print(width);` and then press enter.
     - Type `console.log(width, height);` and then press enter.
 
@@ -149,7 +149,7 @@ if (mouseIsPressed) {
 }
 ```
 
-The above is the excerpt from the full code required to draw two different sized ellipses (As discussed in the previous chapter, the final two parameters of the ellipse function refer to width and height.) Instead of placing a number in the function as in Chapter 1, "Getting Started," we will use variables as they hold values. Three steps are required to use variables:
+The above is the excerpt from the full code required to draw two different sized ellipses (As discussed in the previous chapter, the final two parameters of the ellipse function refer to width and height.) Instead of placing a number in the function as in Chapter 1, "Getting started," we will use variables as they hold values, especially global ones that can be reused in different places of a program. Three steps are required to use variables:
 
 1. **Declare:** Think of a name for the container you want to store the value in (it should make sense to you and others to read, but of course there is scope for a conceptual approach here). Declare with the syntax "let" in front.[^let]  
 There are certain rules to follow in naming variables:
@@ -169,7 +169,7 @@ In the above code excerpt, steps 1 and 2 are combined and the code is written as
 
 There are two more variables in the example: `mouseX` and `mouseY`. These variables change and are subject to mouse movement for tracing the corresponding x and y coordinates. If you want to know the exact mouseX and mouseY coordinates, you can also use `print()` or `console.log()` to display the two values in the web console area. (A small exercise: How to write a line of code to display or print the mouseX value on the web console?)
 
-Although it is commonplace to use the metaphor of a container to illustrate the variable as a concept, it is important to add that each container has an address (we might say that it is in a particular place on a shelf, and the computer needs to know where). A variable name can be customized in a way that is readable and meaningful for humans but how it operates at the level of execution does not take into the consideration of such meanings, in which programming oscillates between natural language expression as well as computer operation and execution (we will return to this double coding discussion in Chapter 7, "Vocable Code").
+Although it is commonplace to use the metaphor of a container to illustrate the variable as a concept, it is important to add that each container has an address (we might say that it is in a particular place on a shelf, and the computer needs to know where). A variable name can be customized in a way that is readable and meaningful for humans but how it operates at the level of execution does not take into the consideration of such meanings, in which programming oscillates between natural language expression as well as computer operation and execution (we will return to this double coding discussion in Chapter 7, "Vocable code").
 
 Technically speaking, by declaring a variable, it also declares an address where the computer memory can hold the value. In short, each variable is stored in a block of computer memory which is located inside physical and concrete memory like RAM that reconfigure the space. Each block has an identifier called the memory address so that the computer knows where to store it and retrieve it while the program is running. Creating and declaring a variable is not only a programming issue, hardware is also involved in space allocation for data storage. As such, software and hardware are inseparable, and it's just that we aren't able to see the inner micro-workings of a computer whilst it is handling data.[^chun]
 
@@ -284,15 +284,15 @@ You can also do %arithmetic operations% in programming, and this is commonly don
 You can try the following in the web console area:
 
 ```
-print(2*3);
+console.log(2*3);
 ```
 > Output:
 "6"
 ```
-print("hello" + "world");
+console.log("hello" + "world");
 ```
 > output:
-"hello world"
+"helloworld"
 
 ## Discussion in class
 
@@ -307,7 +307,7 @@ The human face make a good starting point as we recognize it, even in its simple
 
 In *A Thousand Plateaus*, Gilles Deleuze and Félix Guattari conceive of the face as "overcoded," imposed upon us universally, resonating with some of the comments we made earlier in this chapter about Unicode. Their main point is that the face — what they called the "facial machine" — is tied to a specific Western history of ideas (the face of Jesus Christ). This, in turn, situates the origins of the face with white ethnicity (despite Jesus's birthplace) and what they call "facialization" (the imposition onto the subject of the face) has been spread by white Europeans, and thus provides a way to understand racial prejudice: "Racism operates by the determination of degrees of deviance to the White man’s face...".[^DG] The face is thus understood as an "imperial machine," subsuming language and other semiotic systems. The face is part of a surface that promotes sameness and ultimately rejects variations.
 
-%Facial recognition% technologies that are capable of identifying or verifying a person from a digital image or a video frame, seem to operate on these (imperialist) terms too. When a person is identified in this way, the person's facial shape and textures are matched against a model based on a standardized dataset (we will return to this discussion in Chapter 4, "Data Capture"). Moreover, the datasets are based on a disproportionate number of white faces. Facial recognition systems therefore notoriously struggle to identify black people. This has led to significant problems not least when it comes to the use of these technologies for policing.
+%Facial recognition% technologies that are capable of identifying or verifying a person from a digital image or a video frame, seem to operate on these (imperialist) terms too. When a person is identified in this way, the person's facial shape and textures are matched against a model based on a standardized dataset (we will return to this discussion in Chapter 4, "Data capture"). Moreover, the datasets are based on a disproportionate number of white faces. Facial recognition systems therefore notoriously struggle to identify black people. This has led to significant problems not least when it comes to the use of these technologies for policing.
 
 Facial recognition systems also become unreliable when facial expressions vary, and even a big smile can render the results unreliable, so there is heavy irony that a smiley in real-life is likely to create difficulties in recognition. The iconic emoji smiley seems to further stress the point. The face may be able to escape overcoding under certain conditions, but emojis are quite literally "facial-machines" with prejudice built-in. Herein lies a challenge to having fun with programming: How to escape the overcoding and to develop alternative geometric shapes?
 
