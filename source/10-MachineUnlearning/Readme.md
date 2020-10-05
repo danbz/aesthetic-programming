@@ -39,7 +39,7 @@ Tasks:
 
 ## Between input and output
 
-We have briefly touched on machine learning, but let's clarify what it actually entails. In a contemporary context, it refers to various techniques of "data-handling,"[^samuel1] or, more precisely, statistics and data analysis. It is commonly described by three components: input, modelling (or learning), and output. Usually, a large amount of data is needed to be collected, parsed and cleaned.[^shit] Data cleansing is a term often used in computer or data science to describe the process of preparing data (data can consist of texts, video, images, gestures, etc.) to be input data by adjusting data inconsistency in terms of removing or modifying data that is irrelevant, duplicated, or improperly formatted. These various data preparation processes involve decision-making in terms of identifying and accessing the datasets, and how to structure the raw data, and deal with inconsistencies. If the data originates in different places, then the question arises of how to normalize the data to structure a cohesive dataset.[^papa] As in Chapter 4, "Data Capture," we can already see how this process is fraught with problems concerning what gets included and excluded, and how this is decided and effected, and by whom. Rather than simply a means to an end, the dataset becomes a hugely significant cultural object that we need to understand better.[^dataset]
+We have briefly touched on machine learning, but let's clarify what it actually entails. In a contemporary context, it refers to various techniques of "data-handling,"[^samuel1] or, more precisely, statistics and data analysis. It is commonly described by three components: input, modelling (or learning), and output. Usually, a large amount of data is needed to be collected, parsed and cleaned.[^shit] Data cleansing is a term often used in computer or data science to describe the process of preparing data (data can consist of texts, video, images, gestures, etc.) to be input data by adjusting data inconsistency in terms of removing or modifying data that is irrelevant, duplicated, or improperly formatted. These various data preparation processes involve decision-making in terms of identifying and accessing the datasets, and how to structure the raw data, and deal with inconsistencies. If the data originates in different places, then the question arises of how to normalize the data to structure a cohesive dataset.[^papa] As in Chapter 4, "Data capture," we can already see how this process is fraught with problems concerning what gets included and excluded, and how this is decided and effected, and by whom. Rather than simply a means to an end, the dataset becomes a hugely significant cultural object that we need to understand better.[^dataset]
 
 <div class="section exercise" markdown="true">
 ## Exercise in class
@@ -232,7 +232,7 @@ function generate() {
 
 **index.html**
 
-To load the ml5.js library as part of the overall sketch, you need the following line in your index.html, just like importing other libraries as discussed in Chapter 4, "Data Capture," with the clmtrackr library.
+To load the ml5.js library as part of the overall sketch, you need the following line in your index.html, just like importing other libraries as discussed in Chapter 4, "Data capture," with the clmtrackr library.
 ```html
 <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"
 type="text/javascript"></script>
@@ -291,7 +291,7 @@ function gotData(err, result) {
 ## Exercise in class
 
 1. Work with the Auto Chapter Generator program and try to generate texts based on different length and temperature values.
-2. The example also links to the Chapter 5, "Auto Generator," in terms of agency, unpredictability, and generativity, but how does this chapter change our understanding of these terms given what we know about machine learning? What is learning in this context? What do machines teach us? And in the production of prediction, what does machine learning want?[^predict]
+2. The example also links to the Chapter 5, "Auto-generator," in terms of agency, unpredictability, and generativity, but how does this chapter change our understanding of these terms given what we know about machine learning? What is learning in this context? What do machines teach us? And in the production of prediction, what does machine learning want?[^predict]
 </div>
 
 ## While()

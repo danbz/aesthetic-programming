@@ -213,7 +213,7 @@ function draw() {
 
 The basic web audio p5.sound library is used in the sample code. It includes features like audio input, sound file playback, audio analysis, and synthesis.[^Audio]
 
-The library should be included in the HTML file (as demonstrated in Chapter 1, "Getting Started") so we can use the corresponding functions such as `p5.AudioIn()` and `getLevel()`.
+The library should be included in the HTML file (as demonstrated in Chapter 1, "Getting started") so we can use the corresponding functions such as `p5.AudioIn()` and `getLevel()`.
 
 Like a button, you first declare the object, e.g. `let mic;`, and then set up the input source (usualy a computer microphone) and start to listen to the audio input (see the two lines in `setup()`). When the entire sample code is executed, a popup screen from the browser will ask for permission to access the audio source. This audio capture only works if access is granted.
 
@@ -293,7 +293,7 @@ To familiar yourself with the various modes of capture, try the following:
 
 4. Do you know how the face is being modeled? How has facial recognition technology been applied in society at large, and what are some of the issues that arise from this?
 
-It would be worth checking back to Chapter 2, "Variable Geometry," for a reminder of how facial recognition identifies a person's face from its geometry — such as the distance between a person's eyes or size of their mouth — to establish a facial signature that can be compared to a standardized database. One of the main problems is that these databases are skewed by how data was prepared, its selection, collection, categorization, classification, and cleaning (further discussed in Chapter 10, "Machine unlearning"). To what extent does your face meet the standard?   
+It would be worth checking back to Chapter 2, "Variable geometry," for a reminder of how facial recognition identifies a person's face from its geometry — such as the distance between a person's eyes or size of their mouth — to establish a facial signature that can be compared to a standardized database. One of the main problems is that these databases are skewed by how data was prepared, its selection, collection, categorization, classification, and cleaning (further discussed in Chapter 10, "Machine unlearning"). To what extent does your face meet the standard?   
 
 </div>
 
