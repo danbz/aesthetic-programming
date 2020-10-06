@@ -196,7 +196,7 @@ Group:
 
 [^GWEI]: *GWEI* (2005) was part of the *Hacking Monopolism Trilogy* which also included *Amazon Noir* (2006) and *Face to Facebook* (2011). For more on *GWEI*, see <http://www.gwei.org/index.php>.
 
-[^pold]: For an analysis of *GWEI*, see Søren Bro Pold, "Interface Perception: The Cybernetic Mentality and Its Critics: Ubermorgen.com," in Andersen & Pold, eds. *Interface Criticism: Aesthetics Beyond Button* (Aarhus: Aarhus University Press, 2011), 91-115.
+[^pold]: For an analysis of *GWEI*, see Søren Bro Pold, "Interface Perception: The Cybernetic Mentality and Its Critics: Ubermorgen.com," in Andersen & Pold, eds. *Interface Criticism: Aesthetics Beyond Button* (Aarhus: Aarhus University Press, 2011), 91-113.
 
 [^pold1]: For a close reading of this project, see Christian Ulrik Andersen and Søren Bro Pold, *The Metainterface: The Art of Platforms, Cities, and Clouds* (Cambridge, MA: MIT Press, 2018), 57-60.
 

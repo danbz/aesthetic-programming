@@ -239,7 +239,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 >>>>>>> 4177786af6900deabd470ef98a5d3a7ade32f680
 - Pngfind. <https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/>.
 - Pold, Søren. “Button.” In *Software Studies*. Edited by Matthew Fuller, 31–36. Cambridge, MA: The MIT Press, 2008.
-- ———. "Interface Perception: The Cybernetic Mentality and Its Critics: Ubermorgen.com." In *Interface Criticism: Aesthetics Beyond Button*. Edited by Christian Ulrik Andersen & Søren Bro Pold, 91-115. Aarhus: Aarhus University Press, 2011.
+- ———. "Interface Perception: The Cybernetic Mentality and Its Critics: Ubermorgen.com." In *Interface Criticism: Aesthetics Beyond Button*. Edited by Christian Ulrik Andersen & Søren Bro Pold, 91-113. Aarhus: Aarhus University Press, 2011.
 - Prigogine, Ilya, and Isabelle Stengers. *Order Out of Chaos: Man’s New Dialogue With Nature*. London: Fontana, 1985.
 - Prisco, Jacopo. “Pac-Man at 40: The eating icon that changed gaming history.” *CNN*. last updated May 21, 2020. <https://edition.cnn.com/style/article/pac-man-40-anniversary-history/>.
 - “Programmable Search.” Google. <https://cse.google.com/all>.
