@@ -34,7 +34,7 @@ The list will continuously update on the online version.
 
 ![minix3](showcase_img/Moller2020_3.png)
 
-[Work](https://gitlab.com/linesdmoller/ap2020/-/tree/master/public/MiniX5) by Line Moller, 2020
+[Work](https://gitlab.com/linesdmoller/ap2020/-/tree/master/public/MiniX5) by Line Stampe-Degn Møller, 2020
 
 ## MiniX[4]: Capture ALL
 
