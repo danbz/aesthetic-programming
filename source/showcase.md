@@ -46,7 +46,7 @@ The list will continuously update on the online version.
 
 ![minix5](showcase_img/Dahlin2020_5.png)
 
-[Work](https://gitlab.com/mikkeldahlin/ap-2020/-/tree/master/public/Projects/MiniEX7) by Mikkel Dahlin, 2020
+[ANT LIFE](https://gitlab.com/mikkeldahlin/ap-2020/-/tree/master/public/Projects/MiniEX7.1) by Mikkel Dahlin, 2020
 
 ![minix5](showcase_img/Pockel2020_5.png)
 
