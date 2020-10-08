@@ -92,7 +92,7 @@ for(let i = 0; i < indexElements.length; ++i){
       
       // find data and add HTML of the list
       let dataIndex = indexLi[n].dataset.listIndex;
-      let spanIndex = document.querySelectorAll("[data-book-index='" + dataIndex + "']");
+      let spanIndex = document.querySelectorAll("[data-book-index='" + dataIndex.replace("'", "---") + "']");
       indexLi[n].innerHTML = '<span class="index-value">' + dataIndex + '</span><span class="links-pages"></span>';
 
       // add span for link page
