@@ -4,16 +4,21 @@
 }
 
 @page {
-size: 203mm 276mm;
+    size: 203mm 276mm;
+    margin: 2cm 2cm 2cm 2cm;
 }
 
 @page:left {
     margin: 2cm 3cm 3.5cm 2cm;
     @top-left {
       content: "Aesthetic Programming";
+      font-family: "HerscheyTimes";
+      font-size: 9pt;
+      margin-left: -4em;
     }
     @bottom-left {
       content: counter(page);
+      margin-left: -2.5em;
     }
 }
 
@@ -21,11 +26,47 @@ size: 203mm 276mm;
     margin: 2cm 2cm 3.5cm 3cm;
     @top-right {
       content: string(title);
+      margin-right: -3em;
     }
     @bottom-right {
       content: counter(page);
+      margin-right: -2.5em;
     }
 }
+
+@page:first {
+    @top-right {
+      content: "";
+    }
+    @bottom-right {
+      content: "";
+    }
+}
+@page:blank {
+    @top-left {
+      content: "";
+    }
+    @bottom-left {
+      content: "";
+    }
+    @top-right {
+      content: "";
+    }
+    @bottom-right {
+      content: "";
+    }
+}
+
+
+@page:nth(3) {
+    @top-right {
+      content: "";
+    }
+    @bottom-right {
+      content: "";
+    }
+}
+
 
 
 
@@ -81,6 +122,11 @@ pre .CodeMirror-line {
     font-family: ocr-pbi;
 }
 
+h2, h3 {
+    padding-top: var(--line-height);
+    padding-bottom: 0;
+}
+
 #book-index {
     break-before: page;
     columns: 3;
@@ -88,34 +134,3 @@ pre .CodeMirror-line {
     line-height: 11pt;
     column-fill: auto;
 }
-
-#book-index ul {
-    border-left: 0px;
-	padding-left: 0;
-}
-
-#book-index ul li {
-    margin: 0;
-    list-style-type: none;
-}
-
-#book-index ul li:before {
-    display: none;
-}
-
-.list-alphabet-element:not(:first-child) {
-    margin-top: 11pt;
-}
-
-
-.link-page a {
-    text-decoration: none;
-}
-
-.link-page a::after{ content: target-counter(attr(href), page); }
-
-.link-page::after{ content: ", "; }
-
-.link-page:last-of-type::after{ content: none; }
-
-.index-value::after{ content: " – "; }

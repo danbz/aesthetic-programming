@@ -7,12 +7,17 @@
   src: url("/theme/fonts/Ocr-Pbi-pen_x1_y1.ttf");
 }
 @font-face {
-  font-family: "Breite Grotesk";
+  font-family: "HersheyNoailles";
   src: url("/theme/fonts/Hershey-Noailles-help-me.ttf");
+}
+@font-face {
+  font-family: "HersheyNoailles";
+  src: url("/theme/fonts/Hershey-Noailles-futural.ttf");
+  font-style: italic;
 }
 
 body {
-font-family: "Breite Grotesk";
+font-family: "HersheyNoailles";
 font-size: var(--font-size);
 line-height:  var(--line-height);
 }
@@ -46,7 +51,7 @@ pre,
 code {
 font-family: ocr-pbi;
 white-space: pre-wrap;
-margin: var(--line-height) 0;
+margin: 0;
 /*outline: 1px dotted black;*/
 /*outline-offset: 2px;*/
 }
@@ -100,7 +105,7 @@ a[href^=http] {
 }
 
 em {
-font-style: italic;
+    font-style: italic;
 }
 
 strong {
@@ -121,7 +126,17 @@ ul, ol {
     border-left: 1px solid black;
     padding-left: calc(var(--line-height) /2);
     box-sizing: border-box;
+    margin-top: var(--line-height);
+    margin-bottom: var(--line-height);
 }
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ol {
 padding-left: calc(1.5 * var(--line-height));
 }
@@ -318,4 +333,8 @@ a.footnote-backref:hover {
     outline: 1px dotted black;
     outline-offset: 2px;
     padding: 0 4px;
+}
+
+.code--line {
+    margin-left: 2em !important;
 }
