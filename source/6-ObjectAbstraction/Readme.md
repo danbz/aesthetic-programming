@@ -546,25 +546,47 @@ Once you understand objects and classes, you can continue to work on a mini game
 ## Notes:
 
 [^history]: Simula, developed in the 1960s by Ole-Johan Dahl and Kristen Nygaard at the Norwegian Computing Center in Oslo, is considered to be the first object-oriented programming language. Smalltalk, first developed for educational use at Xerox Corporation's Palo Alto Research Center in the late 1960s and released in 1972, is cited more often. For more on the history of object-oriented programming languages, see Ole-Johan Dahl, "The Birth of Object Orientation: the Simula Languages," *Object-Orientation to Formal Methods*, Olaf Owe, Stein Krogdahl, Tom Lyche, eds., *Lecture Notes in Computer Science* 2635 (Berlin/Heidelberg: Springer, 2004), <https://link.springer.com/chapter/10.1007/978-3-540-39993-3_3>.
+
 [^Fazi]: Beatrice M. Fazi and Matthew Fuller, "Computational Aesthetics," in Christiane Paul, ed., *A Companion to Digital Art* (Hoboken, NJ: Wiley Blackwell, 2016), 281-296.
+
 [^Fuller]: Matthew Fuller & Andrew Goffey, "The Obscure Objects of Object Orientation," in Matthew Fuller, ed., *How to be a Geek: Essays on the Culture of Software* (Cambridge: Polity, 2017).
+
 [^binary]: Limor Fried & Federico Gomez Suarez (n.d), "Binary & Data," Khan Academy. Available at <https://www.khanacademy.org/computing/computer-science/how-computers-work2/v/khan-academy-and-codeorg-binary-data>.
-[^Madsen]: Ole Madsen, Birger Møller-Pedersen, and Kirsten Nygaard, "Object-Oriented Programming in the BETA Programming Language," (1993), 16-18.
-[^cecile]: Cecile Crutzen, and Erna Kotkamp, "Object Orientation," in Fuller, ed., *Software Studies* (Cambridge, MA: MIT Press, 2008), 202-203.
-[^cecile2]: Crutzen and Kotkamp, "Object Orientation," 202-203.
-[^francis]: *ToFu Go!* is freely available on the Apple App store for iPhone and iPad, see <https://apps.apple.com/us/app/tofu-go/id441704812>, and the video demonstration <https://www.youtube.com/watch?v=V9NirY55HfU>.
-[^francis2]: See the interview of Francis Lam in 2012 here: <https://www.design-china.org/post/35833433475/francis-lam>.
-[^splice]: `splice()` is a p5.js function, see <https://p5js.org/reference/#/p5/splice>.
-[^push]: `push()` is a JavaScript function that is used in an array to add one or more elements to the end of an array, see: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push>.
-[^Bogost]: Ian Bogost, *Persuasive Games: The Expressive Power of Videogames* (Cambridge, MA: MIT Press, 2007), 8; also, Ian Bogost, *Unit Operations: An Approach to Videogame Criticism* (Cambridge, MA: MIT Press, 2006).
-[^Harman]: Graham Harman, *Object-Oriented Ontology: A New Theory of Everything* (London: Pelican/Penguin, 2018).
-[^Harman2]: Graham Harman, *Tool-Being: Heidegger and the Metaphysics of Objects* (Chicago: Open Court Publishing, 2002).
-[^Bennett]: Jane Bennett, *Vibrant Matter: A Political Ecology of Things* (Durham, NC: Duke University Press, 2009).
-[^Bennett2]: Bennett, *Vibrant Matter*, viii.
-[^Latour]: This is a description of the "actor-network." See Bruno Latour, *Reassembling the Social: An Introduction to Actor-Network-Theory* (Oxford: Oxford University Press, 2005).
-[^FullerGoffey]: Fuller and Goffey, "The Obscure Objects of Object Orientation," 21.
-[^Manifesto]: "Hitherto, philosophers have sought to understand the world; the point, however, is to change it." Marx and Engels, *The Communist Manifesto* (1848), <https://www.marxists.org/archive/marx/works/1848/communist-manifesto/>.
-[^tofu2]: See <https://editor.p5js.org/siusoon/sketches/HAYWF3gv>.
+
 [^color]: The way a computer understands color provides an example of numeric logic. A range of each individual color is 0-255 with the total of 256 possible values. Each color (R, G and B) has 8-bit color graphics regarding the storage of image information in a computer's memory. To put this concretely, the red color is in the form of 8-bit color graphics, then each bit has two binary possibilities, and therefore the number of possible values is calculated as 2^8 which is 256.
-[^pacman]: The original name of the game *Pac-Man* was called "PuckMan" and refers to a popular Japanese phrase "Paku paku taberu," where "paku paku" simulates the sound of a snapping mouth and taberu means "to eat." See Jacopo Prisco, "Pac-Man at 40: The eating icon that changed gaming history," *CNN*, <https://edition.cnn.com/style/article/pac-man-40-anniversary-history/>.
+
 [^chun]: As discussed in Chapter 1, "Getting started," concerning the usual understanding of high-level programming languages, Chun sharply points to the politics of software in terms of erasure and reusability. Higher-level programming languages do not expose detailed machine operations/instructions, and hence enforce the binary seperation of soft/hardware and forget the physicality and concreteness of machines. The professionalization of programming is in part built upon the hiding of the machine. See Wendy Hui Kyong Chun, “On Software, or the Persistence of Visual Knowledge,” *Grey Room* 18 (2005): 26–51, <https://doi.org/10.1162/1526381043320741>.
+
+[^cecile]: Cecile Crutzen, and Erna Kotkamp, "Object Orientation," in Fuller, ed., *Software Studies* (Cambridge, MA: MIT Press, 2008), 202-203.
+
+[^Madsen]: Ole Madsen, Birger Møller-Pedersen, and Kirsten Nygaard, "Object-Oriented Programming in the BETA Programming Language," (1993), 16-18.
+
+[^cecile2]: Crutzen and Kotkamp, "Object Orientation," 202-203.
+
+[^francis]: *ToFu Go!* is freely available on the Apple App store for iPhone and iPad, see <https://apps.apple.com/us/app/tofu-go/id441704812>, and the video demonstration <https://www.youtube.com/watch?v=V9NirY55HfU>.
+
+[^francis2]: See the interview of Francis Lam in 2012 here: <https://www.design-china.org/post/35833433475/francis-lam>.
+
+[^pacman]: The original name of the game *Pac-Man* was called "PuckMan" and refers to a popular Japanese phrase "Paku paku taberu," where "paku paku" simulates the sound of a snapping mouth and taberu means "to eat." See Jacopo Prisco, "Pac-Man at 40: The eating icon that changed gaming history," *CNN*, <https://edition.cnn.com/style/article/pac-man-40-anniversary-history/>.
+
+[^tofu2]: See <https://editor.p5js.org/siusoon/sketches/HAYWF3gv>.
+
+[^Bogost]: Ian Bogost, *Persuasive Games: The Expressive Power of Videogames* (Cambridge, MA: MIT Press, 2007), 8; also, Ian Bogost, *Unit Operations: An Approach to Videogame Criticism* (Cambridge, MA: MIT Press, 2006).
+
+[^Harman]: Graham Harman, *Object-Oriented Ontology: A New Theory of Everything* (London: Pelican/Penguin, 2018).
+
+[^Harman2]: Graham Harman, *Tool-Being: Heidegger and the Metaphysics of Objects* (Chicago: Open Court Publishing, 2002).
+
+[^Bennett]: Jane Bennett, *Vibrant Matter: A Political Ecology of Things* (Durham, NC: Duke University Press, 2009).
+
+[^Bennett2]: Bennett, *Vibrant Matter*, viii.
+
+[^Latour]: This is a description of the "actor-network." See Bruno Latour, *Reassembling the Social: An Introduction to Actor-Network-Theory* (Oxford: Oxford University Press, 2005).
+
+[^FullerGoffey]: Fuller and Goffey, "The Obscure Objects of Object Orientation," 21.
+
+[^Manifesto]: "Hitherto, philosophers have sought to understand the world; the point, however, is to change it." Marx and Engels, *The Communist Manifesto* (1848), <https://www.marxists.org/archive/marx/works/1848/communist-manifesto/>.
+
+[^splice]: `splice()` is a p5.js function, see <https://p5js.org/reference/#/p5/splice>.
+
+[^push]: `push()` is a JavaScript function that is used in an array to add one or more elements to the end of an array, see: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push>.

@@ -373,15 +373,13 @@ Explore shapes, geometries, and other related syntax (via p5.js references) and 
 
 [^Unicode]: See <https://en.wikipedia.org/wiki/Unicode#Origin_and_development>.
 
-[^almoji]: The project employs a machine learning algorithm and use the dataset of 3145 existing emojis as the input data to generate various uncanny emoji patterns. See <https://process.studio/works/aimoji-ai-generated-emoji/>. The project featured as part of the exhibition "Uncanny Values," Vienna Biennale (2019), <https://process.studio/works/uncanny-values/>. We discuss machine learning in more detail in chapter 10.
-
 [^Telegraph]: See <https://www.telegraph.co.uk/technology/2016/07/15/new-gender-equality-emoji-to-show-women-at-work/>.
 
 [^ideology]: Abbing, Pierrot and Snelting, *Modifying the Universal*, 210.
 
-[^multi]: See <http://www.o-r-g.com/apps/multi>. *Multi* also provides variations of book covers for the DATA browser series published by Open Humanities Press, <http://www.data-browser.net/>.
+[^almoji]: The project employs a machine learning algorithm and use the dataset of 3145 existing emojis as the input data to generate various uncanny emoji patterns. See <https://process.studio/works/aimoji-ai-generated-emoji/>. The project featured as part of the exhibition "Uncanny Values," Vienna Biennale (2019), <https://process.studio/works/uncanny-values/>. We discuss machine learning in more detail in chapter 10.
 
-[^binarycolor]: Red, Green and Blue are the so-called primary colors that, when added together, produce a broad array of colors. RGB color values range from 0 to 255 with a total of 256 possible values for each primary color. The reason behind is that all the colors are in 24 bit format, the red (R) takes 8 bit, the green (G) takes 8 bit and the blue (B) takes the remaining 8 bits. 2 binary values are stored for each bit, therefore 2^8th power is 256 which is the exact possible range of each color. The RGB system is closely related to the nature of computation in a binary system.
+[^multi]: See <http://www.o-r-g.com/apps/multi>. *Multi* also provides variations of book covers for the DATA browser series published by Open Humanities Press, <http://www.data-browser.net/>.
 
 [^random]: See p5.js random reference at <https://p5js.org/reference/#/p5/random>.
 
@@ -389,9 +387,13 @@ Explore shapes, geometries, and other related syntax (via p5.js references) and 
 
 [^color]: See p5.js color reference, <https://p5js.org/reference/#/p5/color>.
 
-[^emojis2]: See <https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/>.
+[^constant]: See p5.js const reference, <https://p5js.org/reference/#/p5/const>.
 
-[^playground]: See the tool p5.playground developed by Yining Shi, <https://1023.io/p5-inspector/>.
+[^chun]: Chun discusses symbolic programming languages that (as higher-level languages) hide the computational process. This both empowers users to create, but conversely mystifies the inner workings of machines. Here variables are some of the many examples that computer operations abstract. We will discuss this in Chapter 6, "Object Abstraction". See Wendy Hui Kyong Chun, “On Software, or the Persistence of Visual Knowledge,” *Grey Room* 18 (January 2005): 38, <https://doi.org/10.1162/1526381043320741>.
+
+[^binarycolor]: Red, Green and Blue are the so-called primary colors that, when added together, produce a broad array of colors. RGB color values range from 0 to 255 with a total of 256 possible values for each primary color. The reason behind is that all the colors are in 24 bit format, the red (R) takes 8 bit, the green (G) takes 8 bit and the blue (B) takes the remaining 8 bits. 2 binary values are stored for each bit, therefore 2^8th power is 256 which is the exact possible range of each color. The RGB system is closely related to the nature of computation in a binary system.
+
+[^emojis2]: See <https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/>.
 
 [^DG]: Gilles Deleuze and Félix Guattari, *A Thousand Plateaus: Capitalism and Schizophrenia* (Minneapolis: University of Minnesota Press, 1987), 178.
 
@@ -399,10 +401,8 @@ Explore shapes, geometries, and other related syntax (via p5.js references) and 
 
 [^Snelting2]: Snelting, "Other Geometries."
 
-[^Blas]: The series of works *Facial Weaponization Suite* exposes some of the inequalities associated with biometric facial recognition by making collective masks, including *Fag Face Mask* a response to scientific studies that say they can determine sexual orientation through rapid facial recognition techniques, and another mask that explores the inability of biometric technologies to detect dark skin. See <http://www.zachblas.info/works/facial-weaponization-suite/>.
-
 [^Tsing]: Anna Lowenhaupt Tsing, *The Mushroom at the End of the World: On the Possibility of Life in Capitalist Ruins* (Princeton, NJ: Princeton University Press, 2017).
 
-[^chun]: Chun discusses symbolic programming languages that (as higher-level languages) hide the computational process. This both empowers users to create, but conversely mystifies the inner workings of machines. Here variables are some of the many examples that computer operations abstract. We will discuss this in Chapter 6, "Object Abstraction". See Wendy Hui Kyong Chun, “On Software, or the Persistence of Visual Knowledge,” *Grey Room* 18 (January 2005): 38, <https://doi.org/10.1162/1526381043320741>.
+[^Blas]: The series of works *Facial Weaponization Suite* exposes some of the inequalities associated with biometric facial recognition by making collective masks, including *Fag Face Mask* a response to scientific studies that say they can determine sexual orientation through rapid facial recognition techniques, and another mask that explores the inability of biometric technologies to detect dark skin. See <http://www.zachblas.info/works/facial-weaponization-suite/>.
 
-[^constant]: See p5.js const reference, <https://p5js.org/reference/#/p5/const>.
+[^playground]: See the tool p5.playground developed by Yining Shi, <https://1023.io/p5-inspector/>.

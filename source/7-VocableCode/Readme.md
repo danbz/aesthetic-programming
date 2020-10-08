@@ -475,18 +475,40 @@ To conclude this chapter, and our "queer commentary"[^berlant] on the making of 
 
 ## Notes
 
+
+
+
+
+
+
+
+See: Allison Parrish (2015) <https://vimeo.com/134734729>; Florian Cramer, Language in Software Studies (2008); Mez Breeze, MEZANGELLE (1994-ongoing), <https://anthology.rhizome.org/mez-breeze>; Graham Harwood, "Class Library," in *Software Studies* (2008); John Cayley, "The Code is not the Text (unless it is the Text)," *Electronic Book Review* (2002); Ian Hatcher, *The All-New* (2015). Small Press United, <http://anomalouspress.org/books/all-new.php>; Ian Hatcher, *Not not* (2016). <https://soundcloud.com/ihatch/5-notnot>; Daniel Temkin, *esoteric.codes* (2011), <https://esoteric.codes/>; Michael Mateas, and Nick Montfort, "A Box, Darkly: Obfuscation, weird languages, and code aesthetics," Proceedings of the 6th Digital Arts and Culture Conference, IT University of Copenhagen (2005): 144-153; Geoff Cox and Alex McLean, *Speaking Code: Coding as Aesthetic and Political Expression* (Cambridge, MA: MIT Press, 2013); Winnie Soon and Geoff Cox, "Vocable Code," *Artistic Research Will Eat Itself* (2018): 251-258; Zach Blas and Micha Cárdenas, "Imaginary Computational Systems: Queer Technologies and Transreal Aesthetics," *AI and Society*, 28, no.4 (2013): 559-566. <https://doi.org/10.1007/s00146-013-0502-y>
+
 [^speech]: Here we reference John Langshaw Austin's *How To Do Things With Words*, and by extension, Geoff Cox and Alex McLean's *Speaking Code* (Cambridge, MA: MIT Press 2013). The analogy of free software to free speech is explicitized in the Free Software Foundation's definition: Free software means that the users have the freedom to run, copy, distribute, study, change and improve the software. "Thus, 'free software' is a matter of liberty, not price. To understand the concept, you should think of 'free' as in 'free speech', not as in 'free beer'." See <https://www.gnu.org/philosophy/free-sw.html>.  
+
+[^cox1]: Cox, *Speaking Code*, 17.
 
 [^language]: Florian Cramer, *Language in Software Studies*, 2008, 168-173; see also Warren Sack, *The Software Arts* (Cambridge, Mass.: MIT Press, 2019)
 
 [^love]: Florian Cramer's claim was made in the context of the *I Love You* exhibition (2002-4) a work in progress-exhibition developed by digitalcraft.org Kulturbüro, see <http://www.digitalcraft.org/iloveyou/>.
 
 [^examples]: Relevant to this discussion is what Donald Knuth calls "literate programming," a methodology that treats a program like a piece of literature, addressed to human beings rather than to a computer. For more on this, see Donald Knuth's "Literate Programming," *The Computer Journal* 27, no.2 (1984): 97–111, <https://academic.oup.com/comjnl/article/27/2/97/343244>; <https://doi.org/10.1093/comjnl/27.2.97.> Further examples might include those by Mez Breeze (1994), Florian Cramer (2008), John Cayley (2002), Geoff Cox & Alex McLean (2013), Winnie Soon & Geoff Cox (2018), Ian Hatcher (2015, 2016), Graham Harwood (2008), Daniel Temkin (2011), Michael Mateas and Nick Montfort (2005), Zach Blas and Micha Cárdenas (2012, 2013) and Allison Parrish (2015), to name only a few.
-See: Allison Parrish (2015) <https://vimeo.com/134734729>; Florian Cramer, Language in Software Studies (2008); Mez Breeze, MEZANGELLE (1994-ongoing), <https://anthology.rhizome.org/mez-breeze>; Graham Harwood, "Class Library," in *Software Studies* (2008); John Cayley, "The Code is not the Text (unless it is the Text)," *Electronic Book Review* (2002); Ian Hatcher, *The All-New* (2015). Small Press United, <http://anomalouspress.org/books/all-new.php>; Ian Hatcher, *Not not* (2016). <https://soundcloud.com/ihatch/5-notnot>; Daniel Temkin, *esoteric.codes* (2011), <https://esoteric.codes/>; Michael Mateas, and Nick Montfort, "A Box, Darkly: Obfuscation, weird languages, and code aesthetics," Proceedings of the 6th Digital Arts and Culture Conference, IT University of Copenhagen (2005): 144-153; Geoff Cox and Alex McLean, *Speaking Code: Coding as Aesthetic and Political Expression* (Cambridge, MA: MIT Press, 2013); Winnie Soon and Geoff Cox, "Vocable Code," *Artistic Research Will Eat Itself* (2018): 251-258; Zach Blas and Micha Cárdenas, "Imaginary Computational Systems: Queer Technologies and Transreal Aesthetics," *AI and Society*, 28, no.4 (2013): 559-566. <https://doi.org/10.1007/s00146-013-0502-y>
+
+[^soon1]: Winnie Soon, "Vocable Code, *MAI: Feminism and Visual Culture* 2 (November 10, 2018), <https://maifeminism.com/vocable-code/>.
 
 [^execute]: Roopika Risam, *The Poetry of Executable Code* (2015), <http://jacket2.org/commentary/poetry-executable-code>.
 
+[^constraints]: For a discussion around the constraint-based writing of *Vocable Code*, see Eva Heisler, "Winnie Soon, Time, Code, and Poetry," *Asymptote Journal*, Jan (2020), <https://www.asymptotejournal.com/visual/winnie-soon-time-code-and-poetry/>.
+
+[^cox2]: Cox, *Speaking Code*, 24.
+
 [^font]: At the same time, you can also find a lot of free and open source fonts to download online. See, for instance, <https://www.1001freefonts.com/>.
+
+[^callback]: See the `loadSound()` function that can be used as both `preload()` and callback, <https://p5js.org/reference/#/p5/loadSound>.
+
+[^Wenyan]: See <https://wy-lang.org/>.
+
+[^Andersen]: Peter Bogh Andersen suggests a semiotic framework to study computer systems as sign-vehicles in order to understand how signs are produced and interpreted. The framework emphasizes the combination of formal/technical structures and non-formal/interpretable signs which is relevant to this chapter, see Peter Bogh Andersen, "Computer Semiotics," *Scandinavian Journal of Information Systems* 4, no.1, (1992): 1, <https://aisel.aisnet.org/sjis/vol4/iss1/1/>.
 
 [^Chun]: Wendy Hui Kyong Chun, *Programmed Visions: Software and Memory* (Cambridge, MA: MIT Press, 2011), 45.
 
@@ -496,6 +518,8 @@ See: Allison Parrish (2015) <https://vimeo.com/134734729>; Florian Cramer, Langu
 
 [^Plant1]: Sadie Plant, *Zeros + Ones: Digital Women and the New Technoculture* (London: Forth Estate, 1997), 34-35.
 
+[^master]: This has been discussed in Chapter 1, "Getting started."
+
 [^Plant2]: Plant, *Zeros + Ones*, 88.
 
 [^Hodges]: For a more detailed version of historical events, see Andrew Hodges's *Alan Turing: The Enigma* (London: Burnett Books, 1983).
@@ -503,21 +527,5 @@ See: Allison Parrish (2015) <https://vimeo.com/134734729>; Florian Cramer, Langu
 [^Plant3]: Plant, *Zeros + Ones*, 98-99. For more on the connections between queer people and computing, see <https://queercomputing.info/>.
 
 [^Plant4]: Plant, *Zeros + Ones*, 102.
-
-[^Wenyan]: See <https://wy-lang.org/>.
-
-[^cox2]: Cox, *Speaking Code*, 24.
-
-[^cox1]: Cox, *Speaking Code*, 17.
-
-[^soon1]: Winnie Soon, "Vocable Code, *MAI: Feminism and Visual Culture* 2 (November 10, 2018), <https://maifeminism.com/vocable-code/>.
-
-[^constraints]: For a discussion around the constraint-based writing of *Vocable Code*, see Eva Heisler, "Winnie Soon, Time, Code, and Poetry," *Asymptote Journal*, Jan (2020), <https://www.asymptotejournal.com/visual/winnie-soon-time-code-and-poetry/>.
-
-[^callback]: See the `loadSound()` function that can be used as both `preload()` and callback, <https://p5js.org/reference/#/p5/loadSound>.
-
-[^master]: This has been discussed in Chapter 1, "Getting started."
-
-[^Andersen]: Peter Bogh Andersen suggests a semiotic framework to study computer systems as sign-vehicles in order to understand how signs are produced and interpreted. The framework emphasizes the combination of formal/technical structures and non-formal/interpretable signs which is relevant to this chapter, see Peter Bogh Andersen, "Computer Semiotics," *Scandinavian Journal of Information Systems* 4, no.1, (1992): 1, <https://aisel.aisnet.org/sjis/vol4/iss1/1/>.
 
 [^berlant]: Lauren Berlant and Michael Warner discuss the usefulness of queer theory and what they prefer to call "queer commentary" as a more useful and public term outside of academia. See Lauren Berlant and Michael Warner, "Guest Column: What Does Queer Theory Teach Us about X," *PMLA* 110, no. 3 (May 1995): 343–49. *Vocable code* is an artwork that has been exhibited in galleries and festivals, but it is also more than an artwork that considers the pragmatic and pedegogical context throughout. When it first launched in public, *Vocable Code* was performed in an independent art space as part of the "Feminist Coding Workshop in p5.js." See Winnie Soon, "A Report on the Feminist Coding Workshop in p5.js," *Aesthetic Programming*, last updated November 30, 2017, <http://aestheticprogramming.siusoon.net/articles/a-report-on-the-feminist-coding-workshop-in-p5-js/>.

@@ -370,15 +370,23 @@ The ReadMe should address the following questions with the help of your source c
 
 [^diagram]: See Kate Crawford and Vladan Joler's essay and diagram "Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources," (2018) for a detailed explanation of this, <https://anatomyof.ai/>.
 
+[^samuel]: Machine learning is a term coined by Arthur Samuel in 1959 during his game development research at IBM which ultimately aimed to reduce or even eliminate the need for "detailed programming effort," using learning through generalization in order to achieve pattern recognition. See Arthur L. Samuel, "Some Studies in Machine Learning Using the Game of Checkers," *IBM Journal of research and development* 3, no.3 (1959): 210-229.
+
+[^nlp]: Natural language processing is the study of how a computer understands the meaning of human language, and it deals iwth the interaction between computers and humans using that natural language. This relates to the fields of Artificial Intelligence, Computer Science and Linguistics with applications such as text-to-speech, voice assistants, and (language) translation programs.
+
 [^Weizenbaum]: Joseph Weizenbaum, "ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine," *Communications of the ACM* 9, no.1 (1966): 36-45.
 
 [^Weizenbaum2]: Weizenbaum. “ELIZA*, 42.
 
-[^Pygmalion]: The title of the play makes reference to the Greek myth in which Pygmalion, a sculptor, falls in love with a statue he carves, and Venus grants it the breath of life.
-
 [^Turing]: See Alan M. Turing. "Computing machinery and intelligence," *Mind* 49 (1950): 433-460.
 
+[^Pygmalion]: The title of the play makes reference to the Greek myth in which Pygmalion, a sculptor, falls in love with a statue he carves, and Venus grants it the breath of life.
+
+[^class]: Originating in the East End of London, Cockney rhyming slang is a coded language which was purposely created to be obscure to other listeners, and hence to others outside a particular community or indeed class group. One might imagine using cockney rhyming slang for the naming conventions of a programming language, see <https://news.ycombinator.com/item?id=9402410>.
+
 [^clemens]: Clemens Apprich, "Introduction," in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination* (Minnesota: Meson Press, 2018), x.
+
+[^assistants]: Marie Louise Juul Søndergaard and Lone Koefoed Hansen argue that "feminine gendering" is reproduced and applied in digital personal assistants, see their "Intimate Futures: Staying with the Trouble of Digital Personal Assistants through Design Fiction" (New York: ACM Press, 2018): 869–80, <https://doi.org/10.1145/3196709.3196766>.
 
 [^online]: Google's online translation service perpetuatess gender stereotypes, <https://twitter.com/mit_csail/status/916032004466122758>.
 
@@ -388,17 +396,23 @@ The ReadMe should address the following questions with the help of your source c
 
 [^hito]: Hito Steyerl, "A Sea of Data: Pattern Recognition and Corporate Animism (Forked Version)," in Clemens Apprich, Florian Cramer, Wendy Hui Kyon Chun, and Hito Steyerl, eds., *Pattern Discrimination*, 3.
 
-[^Learners]: Adrian Mackenzie, *Machine Learners: Archaeology of a Data Practice* (Cambridge, MA: MIT Press, 2017), 6.
+[^current]: A more recent approach might be found in queer and feminist critiques of AI. See, for example, "Conversational AI agents for the advancement of new eroticisms," in which queer AI chatbots are trained on erotic literature, feminist and queer theory, and an ethics of embodiment. See <https://queer.ai/>.
+
+[^suchman]: Maria Puig de la Bellacasa quotes Lucy Suchman's phrase "smart assistants" (her term for autonomous or smart agents) that manage to strike a balance between autonomy, on the one hand, and what we want from them on the other. Rather than reinforcing the ideal of the independent, self-motivated, entrepreneurial worker, and making the work of the assistant relatively invisible, she wants to highlight the "mediating agencies that would not easily appear in descriptions that foreground the success of the technology [and, quoting Suchman,] the hidden labors and unruly contingencies that exceed its bounds.” Bellacasa wants to draw attention to what is neglected, the so-called "petty doings of things" as she puts it, to "more affectively changed connotations, notably those of trouble, worry and care." Maria Puig de la Bellacasa, "Matters of Care in Technoscience: Assembling Neglected Things," in *Social Studies of Science* 41, no. 1 (2010), 92-3, 89.
 
 [^Weizenbaum3]: Weizenbaum, "ELIZA*.
 
-[^ml5]: See the ml5.js library, <https://ml5js.org/>; and Daniel Shiffman's *The Coding Train* series during which he discusses ml5.js: <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y>.
+[^bot]: The text-based conversational ElizaBot (elizabot.js) was developed using JavaScript by Norbert Landsteiner in 2005. The source code can be downloaded from <https://www.masswerk.at/elizabot/>.
+
+[^samuel1]: Samuel, "Some Studies in Machine Learning Using the Game of Checkers," 211.
 
 [^shit]: With ELIZA in mind, it's worth adding that cleaning data also comes close to the regulation of proper speech with the removal of "dirty" words. Dominique Laporte's wonderful book *A History of Shit* (Cambridge, MA: MIT Press, 2002) has more detail on this and its core parallel to the development of public hygiene.
 
 [^papa]: A good example is the video installation *The Cleaning of Emotional Data* (2019), by artist Elisa Giardina Papa, that reveals the global infrastructure of workers who clean data to train machine vision algorithms to detect emotions, and how, in so-doing, some emotions that do not match standardized categories are rejected. Elisa Giardina Papa, "The Cleaning of Emotional Data," Aksioma Project Space, Ljubljana, January 15–February 7, 2020, <https://aksioma.org/cleaning.emotional.data/>.
 
 [^dataset]: For more on the significance of, and problems related to, datasets, see Nicolas Malevé's "An Introduction to Image Datasets", *Unthinking Photography* (2019), <https://unthinking.photography/articles/an-introduction-to-image-datasets>.
+
+[^michelle]: This exercise is inspired by Michelle Carney's article on "Using Teachable Machine in the d.school classroom," *Medium*, <https://medium.com/@michellecarney/using-teachable-machine-in-the-d-school-classroom-96be1ba6a4f9>.
 
 [^tm1]: Inspired originally by Rebecca Fiebrink's Wekinator (2009), which is a free and open source software on machine learning for artists and musicians, "Teachable Machine 1.0" (2017) as an experimental project by Støg, Use All Five and Creative Lab and PAIR teams at Google, built upon the free and open source tensorflow.js library, which is developed by the Google Brain team within Google’s AI organization, for preprocessing data, building machine learning models and structures. "Teachable Machine 2.0" allows users to train their models and export them for further use. See <http://www.wekinator.org/>.
 
@@ -410,35 +424,27 @@ The ReadMe should address the following questions with the help of your source c
 
 [^AI]: The project *Anatomies of Intelligence* can be found at <https://anatomiesofintelligence.github.io/>.
 
-[^neuralnets]: A definition of neural nets can be found on Pathmind's "AI Wiki," <https://pathmind.com/wiki/neural-network#define>.  
-
 [^chicau]: The workshop conducted at Aarhus University in 2019 was based on the art project *Anatomies of Intelligence* which focused on data classification and clustering, <https://anatomiesofintelligence.github.io/workshop_presentation.html>.
 
-[^alphago]: David Silver, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert, et al, "Mastering the Game of Go without Human Knowledge," *Nature* 550, no. 7676 (2017): 354–59, <https://doi.org/10.1038/nature24270>.
+[^neuralnets]: A definition of neural nets can be found on Pathmind's "AI Wiki," <https://pathmind.com/wiki/neural-network#define>.  
 
 [^rl]: Richard S. Sutton and Andrew Barto, *Reinforcement Learning: An Introduction*, 1st Edition (Cambridge, MA: MIT Press, 1998).
 
-[^rl2]: Richard S. Sutton, "Introduction: The Challenge of Reinforcement Learning," in Richard S. Sutton, eds. *Reinforcement Learning*. The Springer International Series in Engineering and Computer Science (Knowledge Representation, Learning and Expert Systems) 173 (Springer, 1992): 5-32.
+[^alphago]: David Silver, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja Huang, Arthur Guez, Thomas Hubert, et al, "Mastering the Game of Go without Human Knowledge," *Nature* 550, no. 7676 (2017): 354–59, <https://doi.org/10.1038/nature24270>.
 
 [^environment]: Whist mentioning environment, it is important to mention that there are worrying environmental costs associated with machine learning. See, for instance, Karen Hao, "Training a single AI model can emit as much carbon as five cars in their lifetimes," *MIT Technology Review*, June 6 (2019), <https://www.technologyreview.com/s/613630/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes/>.
 
-[^bot]: The text-based conversational ElizaBot (elizabot.js) was developed using JavaScript by Norbert Landsteiner in 2005. The source code can be downloaded from <https://www.masswerk.at/elizabot/>.
+[^rl2]: Richard S. Sutton, "Introduction: The Challenge of Reinforcement Learning," in Richard S. Sutton, eds. *Reinforcement Learning*. The Springer International Series in Engineering and Computer Science (Knowledge Representation, Learning and Expert Systems) 173 (Springer, 1992): 5-32.
 
-[^temp]: The value of temperature relates to the "softmax function" in mathematics, relating to probability distribution with the input numbers/characters. For high temperature, the probability will distribute evenly resulting in a more random result. On the contrary, a low temperature will generate a more expected/conservative result.
+[^tensor]: ml5.js is built on top of tensorflow.js, as mentioned previously.
+
+[^ml5]: See the ml5.js library, <https://ml5js.org/>; and Daniel Shiffman's *The Coding Train* series during which he discusses ml5.js: <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y>.
 
 [^training]: The training process is run in a Python environment with TensorFlow installed. It was developed as a multi-layer, recurrent neural network for character-level language models, and it works well with ml5.js. See the open source code by Cristóbal Valenzuela at <https://github.com/Paperspace/training-lstm>.
 
-[^nlp]: Natural language processing is the study of how a computer understands the meaning of human language, and it deals iwth the interaction between computers and humans using that natural language. This relates to the fields of Artificial Intelligence, Computer Science and Linguistics with applications such as text-to-speech, voice assistants, and (language) translation programs.
-
-[^samuel]: Machine learning is a term coined by Arthur Samuel in 1959 during his game development research at IBM which ultimately aimed to reduce or even eliminate the need for "detailed programming effort," using learning through generalization in order to achieve pattern recognition. See Arthur L. Samuel, "Some Studies in Machine Learning Using the Game of Checkers," *IBM Journal of research and development* 3, no.3 (1959): 210-229.
-
-[^samuel1]: Samuel, "Some Studies in Machine Learning Using the Game of Checkers," 211.
-
-[^samuel2]: Samuel, "Some Studies in Machine Learning Using the Game of Checkers."
-
 [^issues]: For instance, the generalization here leads to inherent bias such as the privileging of white people in facial recognition technologies. See Buolamwini, "Response: Racial and Gender Bias in Amazon Recognition"; and Benjamin, "Are Robots Racist"; also Shakir Mohamed, Marie-Therese Png, William Isaac, “Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence,” *Philosophy & Technology*, Springer, July 12, 2020, <https://doi.org/10.1007/s13347-020-00405-8>.
 
-[^tensor]: ml5.js is built on top of tensorflow.js, as mentioned previously.
+[^temp]: The value of temperature relates to the "softmax function" in mathematics, relating to probability distribution with the input numbers/characters. For high temperature, the probability will distribute evenly resulting in a more random result. On the contrary, a low temperature will generate a more expected/conservative result.
 
 [^predict]: In asking this question, we reference Adrian Mackenzie's aforementioned essay "The Production of Prediction: What Does Machine Learning Want?" in *European Journal of Cultural Studies*.
 
@@ -446,17 +452,21 @@ The ReadMe should address the following questions with the help of your source c
 
 [^superficial]: Ruha Benjamin is urging engineers to consider historical and sociological issues in her keynote address ai ICLR 2020 (International Conference on Learning Representations), virtual conference, <https://iclr.cc/>.
 
-[^current]: A more recent approach might be found in queer and feminist critiques of AI. See, for example, "Conversational AI agents for the advancement of new eroticisms," in which queer AI chatbots are trained on erotic literature, feminist and queer theory, and an ethics of embodiment. See <https://queer.ai/>.
-
-[^suchman]: Maria Puig de la Bellacasa quotes Lucy Suchman's phrase "smart assistants" (her term for autonomous or smart agents) that manage to strike a balance between autonomy, on the one hand, and what we want from them on the other. Rather than reinforcing the ideal of the independent, self-motivated, entrepreneurial worker, and making the work of the assistant relatively invisible, she wants to highlight the "mediating agencies that would not easily appear in descriptions that foreground the success of the technology [and, quoting Suchman,] the hidden labors and unruly contingencies that exceed its bounds.” Bellacasa wants to draw attention to what is neglected, the so-called "petty doings of things" as she puts it, to "more affectively changed connotations, notably those of trouble, worry and care." Maria Puig de la Bellacasa, "Matters of Care in Technoscience: Assembling Neglected Things," in *Social Studies of Science* 41, no. 1 (2010), 92-3, 89.
+[^samuel2]: Samuel, "Some Studies in Machine Learning Using the Game of Checkers."
 
 [^pedagogy1]: The Fei Fei Li quote is taken from Nicolas Malevé's article, "'The cat sits on the bed': Pedagogies of vision in human and machine learning," *Unthinking Photography* (2016), <https://unthinking.photography/articles/the-cat-sits-on-the-bed-pedagogies-of-vision-in-human-and-machine-learning>.
 
 [^pedagogy2]: Malevé, "'The cat sits on the bed'."
 
-[^Learners3]: Mackenzie, *Machine Learners*, 14.
+[^radical]: "Radical pedagogy" is a reference to a Marxist philosophy of education which sets out to make students aware of their oppressive conditions, and to critique education as a form of domination. Paolo Friere's *Pedagogy of the Oppressed* (New York: Continuum, 1970), for example, highlights the contrasts between educational forms that treat people as objects rather than subjects.
 
-[^Learners4]: Mackenzie, *Machine Learners*, 27.
+[^Berger]: John Berger, *Ways of Seeing* (London: Penguin, 1972). Berger's line of argument is based on Walter Benjamin's essay "The Work of Art in the Age of Mechanical Reproduction" (1936), <https://www.marxists.org/reference/subject/philosophy/works/ge/benjamin.htm>.
+
+[^cox]: Geoff Cox, "Ways of Machine Seeing," *Unthinking Photography* (2016), <https://unthinking.photography/articles/ways-of-machine-seeing>. The title is taken from a workshop organized by the Cambridge Digital Humanities Network, convened by Anne Alexander, Alan Blackwell, Geoff Cox, and Leo Impett, and held at Darwin College, University of Cambridge, July 11, 2016. The essay is republished with source code in *A Peer-Reviewed Journal About* 6, no. 1 (2017): 8–15, <https://doi.org/10.7146/aprja.v6i1.116007>.
+
+[^Berger2]: Berger, *Ways of Seeing*.
+
+[^Learners]: Adrian Mackenzie, *Machine Learners: Archaeology of a Data Practice* (Cambridge, MA: MIT Press, 2017), 6.
 
 [^refs]: Amongst many possibilities, further relevant lines of inquiry might include: Adrian Mackenzie and Anna Munster, “Platform Seeing: Image Ensembles and Their Invisualities,” *Theory, Culture & Society* 26, no.5 (2019): 3-22; and Matteo Pasquinelli, “How a Machine Learns and Fails: A Grammar of Error for Artificial Intelligence,” *Spheres* 5 (2019), <http://matteopasquinelli.com/grammar-of-error-for-artificial-intelligence/>.
 
@@ -466,18 +476,8 @@ The ReadMe should address the following questions with the help of your source c
 
 [^agre2]: Agre, "Toward a Critical Technical Practice."
 
-[^radical]: "Radical pedagogy" is a reference to a Marxist philosophy of education which sets out to make students aware of their oppressive conditions, and to critique education as a form of domination. Paolo Friere's *Pedagogy of the Oppressed* (New York: Continuum, 1970), for example, highlights the contrasts between educational forms that treat people as objects rather than subjects.
-
-[^Berger]: John Berger, *Ways of Seeing* (London: Penguin, 1972). Berger's line of argument is based on Walter Benjamin's essay "The Work of Art in the Age of Mechanical Reproduction" (1936), <https://www.marxists.org/reference/subject/philosophy/works/ge/benjamin.htm>.
-
-[^Berger2]: Berger, *Ways of Seeing*.
-
-[^cox]: Geoff Cox, "Ways of Machine Seeing," *Unthinking Photography* (2016), <https://unthinking.photography/articles/ways-of-machine-seeing>. The title is taken from a workshop organized by the Cambridge Digital Humanities Network, convened by Anne Alexander, Alan Blackwell, Geoff Cox, and Leo Impett, and held at Darwin College, University of Cambridge, July 11, 2016. The essay is republished with source code in *A Peer-Reviewed Journal About* 6, no. 1 (2017): 8–15, <https://doi.org/10.7146/aprja.v6i1.116007>.
-
-[^michelle]: This exercise is inspired by Michelle Carney's article on "Using Teachable Machine in the d.school classroom," *Medium*, <https://medium.com/@michellecarney/using-teachable-machine-in-the-d-school-classroom-96be1ba6a4f9>.
-
-[^assistants]: Marie Louise Juul Søndergaard and Lone Koefoed Hansen argue that "feminine gendering" is reproduced and applied in digital personal assistants, see their "Intimate Futures: Staying with the Trouble of Digital Personal Assistants through Design Fiction" (New York: ACM Press, 2018): 869–80, <https://doi.org/10.1145/3196709.3196766>.
-
-[^class]: Originating in the East End of London, Cockney rhyming slang is a coded language which was purposely created to be obscure to other listeners, and hence to others outside a particular community or indeed class group. One might imagine using cockney rhyming slang for the naming conventions of a programming language, see <https://news.ycombinator.com/item?id=9402410>.
-
 [^tang]: Regarding the power dynamics on algorithmic predictions, the Digital Minister of Taiwan, Audrey Tang, who is also an activist and hacker, makes the point that the "lack of accountability" and "value alignment" are part of the contemporary problems of using and deploying predictive technologies, and further that an emphasis on plurality rather than singularity is crucial in building a resilient society in Taiwan. See <https://www.youtube.com/watch?v=tRVEY95cI0o>.
+
+[^Learners3]: Mackenzie, *Machine Learners*, 14.
+
+[^Learners4]: Mackenzie, *Machine Learners*, 27.

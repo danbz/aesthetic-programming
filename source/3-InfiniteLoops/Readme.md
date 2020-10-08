@@ -488,30 +488,57 @@ Check out other works that refer to the throbber and how other people contextual
 ## Notes
 
 [^Hofstadter]: Further examples of paradox, recursion, and strange loops can be found in Douglas R. Hofstadter's' *Gödel, Escher, Bach: An Eternal Golden Braid* (New York: Basic Books, 1999).
+
 [^Ada]: For an account of "Note G," see Joasia Krysa's *Ada Lovelace* 100 Notes-100 Thoughts Documenta 13 (Berlin: Hatje Cantz Verlag, 2011).
-[^screensaver]: There is much we could add here also about screensavers as cultural form in the broader context of productive labor-time, and the attention economy. Alexandra Anikina's PhD *Procedural Films* (Goldsmiths, University of London, 2020) contains a chapter on the aesthetic form of screensavers in relation to the discussion of idle time/sleep, and cognitive labor; her lecture-performance *Chronic Film* from 2017 can be seen at <http://en.mieff.com/2017/alexandra_anikina>. See also Rafaël Rozendaal's installation *Sleep Mode: The Art of the Screensaver* at Het Nieuwe Instituut (2017), <https://hetnieuweinstituut.nl/en/press-releases/sleep-mode-art-screensaver>.
+
 [^Kim]: Eugene Eric Kim and Betty Alexandra Toole, "Ada and the First Computer", *Scientific American* 280, no. 5 (1999), 78.
+
 [^throbber]: It is also interesting to note that the term "throbber" is a derogatory term derived from erect penis, not unlike git which was described in the opening chapter.
-[^Robinson]: Derek Robinson, "Function," in Matthew Fuller, ed. *Software Studies*, 101.
-[^ref]: <https://p5js.org/reference/#/p5/frameCount>.
-[^ref2]: To stick with the provided examples, we only offer two syntaxes related to transformation. Beyond `translate()` and `rotate()`, there are also other transform-related functions such as `scale()`, `shearX()`, `shearY()`. See <https://p5js.org/reference/#group-Transform>.
-[^ref3]: <https://p5js.org/reference/#/p5/push>.
-[^Bell]: <http://www.johnpbell.com/asterisk-painting/>.>.
-[^millis]: `millis()` is a p5.js syntax, returning the number of milliseconds since starting the program, similar to `frameCount` but counted in milliseconds, see <https://p5js.org/reference/#/p5/millis>.
-[^Chrono]: Wolfgang Ernst, *Chronopoetics: The Temporal Being and Operativity of Technological Media* (London: Rowman & Littlefield International, 2016), 63-95.
-[^Chrono2]: Ernst, *Chronopoetics*, 63.
-[^Bergson]: For example, the philosopher Henri Bergson makes a qualitative distinction between lived "durational" time, and vulgar, or clock time, which flattens and deadens the experience of time. See Henri Bergson, *Matter and Memory* [1896] (New York: Zone Books, 1990).
-[^Ernst]: Wolfgang Ernst, “‘... Else Loop Forever’. The Untimeliness of Media” (2009). Available at <https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf>.
-[^Turing]: Alan M. Turing, "On Computable Numbers, with an Application to the Entscheidungs problem," *Proceedings of the London Mathematical Society* 42 (1936/1937): 230–265.
-[^Ernst2]: Ernst, "‘... Else Loop Forever’. The Untimeliness of Media."
-[^End]: "The end of history" is a reference to Francis Fukuyama's *The End of History and the Last Man* (New York: Free Press, 1992), which proposes the ascendancy of Western liberal democracy after the dissolution of the Soviet Union, post-1989.
-[^Ernst3]: Ernst, "‘... Else Loop Forever’. The Untimeliness of Media."
-[^Heidegger]: Martin Heidegger, *Being in Time* (1927). For a useful summary, see <https://plato.stanford.edu/entries/heidegger/#BeiTim>.
-[^Ernst4]: Ernst, "‘... Else Loop Forever’. The Untimeliness of Media."
-[^livecoding]: See forthcoming Alan Blackwell, Emma Cocker, Geoff Cox, Thor Magnussen, Alex McLean, *Live Coding: A User's Manual* (publisher and date unknown).
+
+[^screensaver]: There is much we could add here also about screensavers as cultural form in the broader context of productive labor-time, and the attention economy. Alexandra Anikina's PhD *Procedural Films* (Goldsmiths, University of London, 2020) contains a chapter on the aesthetic form of screensavers in relation to the discussion of idle time/sleep, and cognitive labor; her lecture-performance *Chronic Film* from 2017 can be seen at <http://en.mieff.com/2017/alexandra_anikina>. See also Rafaël Rozendaal's installation *Sleep Mode: The Art of the Screensaver* at Het Nieuwe Instituut (2017), <https://hetnieuweinstituut.nl/en/press-releases/sleep-mode-art-screensaver>.
+
 [^soon]: Winnie Soon, "Throbber: Executing Micro-temporal Streams," *Computational Culture* 7 (October 21, 2019), <http://computationalculture.net/throbber-executing-micro-temporal-streams/>.
-[^soon2]: Soon, "Throbber."
+
 [^modulo]: Artist Golan Levin has given an online tutorial on modulo operator as part of The Coding Train series, see: <https://www.youtube.com/watch?v=r5Iy3v1co0A>.
-[^push]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push>
-[^splice]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice>
+
+[^Robinson]: Derek Robinson, "Function," in Matthew Fuller, ed. *Software Studies*, 101.
+
+[^ref2]: To stick with the provided examples, we only offer two syntaxes related to transformation. Beyond `translate()` and `rotate()`, there are also other transform-related functions such as `scale()`, `shearX()`, `shearY()`. See <https://p5js.org/reference/#group-Transform>.
+
+[^ref]: <https://p5js.org/reference/#/p5/frameCount>.
+
+[^ref3]: <https://p5js.org/reference/#/p5/push>.
+
+[^Bell]: <http://www.johnpbell.com/asterisk-painting/>.>.
+
 [^Lammerant]: Hans Lammerant, "How humans and machines negotiate experience of time," in *The Techno-Galactic Guide to Software Observation* (Brussels: Constant, 2018), 88-98.
+
+[^push]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push>
+
+[^splice]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice>
+
+[^millis]: `millis()` is a p5.js syntax, returning the number of milliseconds since starting the program, similar to `frameCount` but counted in milliseconds, see <https://p5js.org/reference/#/p5/millis>.
+
+[^Chrono]: Wolfgang Ernst, *Chronopoetics: The Temporal Being and Operativity of Technological Media* (London: Rowman & Littlefield International, 2016), 63-95.
+
+[^Chrono2]: Ernst, *Chronopoetics*, 63.
+
+[^Bergson]: For example, the philosopher Henri Bergson makes a qualitative distinction between lived "durational" time, and vulgar, or clock time, which flattens and deadens the experience of time. See Henri Bergson, *Matter and Memory* [1896] (New York: Zone Books, 1990).
+
+[^Ernst]: Wolfgang Ernst, “‘... Else Loop Forever’. The Untimeliness of Media” (2009). Available at <https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf>.
+
+[^Turing]: Alan M. Turing, "On Computable Numbers, with an Application to the Entscheidungs problem," *Proceedings of the London Mathematical Society* 42 (1936/1937): 230–265.
+
+[^soon2]: Soon, "Throbber."
+
+[^Ernst2]: Ernst, "‘... Else Loop Forever’. The Untimeliness of Media."
+
+[^End]: "The end of history" is a reference to Francis Fukuyama's *The End of History and the Last Man* (New York: Free Press, 1992), which proposes the ascendancy of Western liberal democracy after the dissolution of the Soviet Union, post-1989.
+
+[^Ernst3]: Ernst, "‘... Else Loop Forever’. The Untimeliness of Media."
+
+[^Heidegger]: Martin Heidegger, *Being in Time* (1927). For a useful summary, see <https://plato.stanford.edu/entries/heidegger/#BeiTim>.
+
+[^Ernst4]: Ernst, "‘... Else Loop Forever’. The Untimeliness of Media."
+
+[^livecoding]: See forthcoming Alan Blackwell, Emma Cocker, Geoff Cox, Thor Magnussen, Alex McLean, *Live Coding: A User's Manual* (publisher and date unknown).

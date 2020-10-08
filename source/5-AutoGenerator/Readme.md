@@ -374,50 +374,97 @@ Artist David Link built a functional replica of both the hardware and the origin
 ## Notes
 
 [^Turing]: Alan Mathison Turing, "On Computable Numbers, with an Application to the Entscheidungsproblem," *Proceedings of the London Mathematical Society* 2, no.1 (1937): 230-265.
+
 [^Turing1]: Turing, "On Computable Numbers," 241.
+
 [^visualization]: A visualization of the Turing Machine can be found here: <https://turingmachine.io/>.
-[^Lippard]: Reference to Lucy Lippard, ed. *Six Years: The Dematerialization of the Art Object from 1966 to 1972* (London: University of California Press, 1997).
-[^Cox]: One example of many, and also connected to an exhibition, is Geoff Cox's "Generator: The Value of Software Art," in Judith Rugg and Michèle Sedgwick, eds., *Issues in Curating Contemporary Art and Performance* (Bristol: Intellect, 2007), 147-162, available at <https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf>. This includes a description of Adrian Ward's *Auto-Illustrator*, released as a boxed version for the "Generator" exhibition (2002-3) with an accompanying "User’s  Manual" that contained both technical detail and critical essays. In many ways this sets a precedent for the publication you are reading. For more on the aesthetic dimension of the parallels between scores, scripts, and programs, see Geoff Cox, Alex McLean, and Adrian Ward, "The Aesthetics of Generative Code," *Generative Art 00*, international conference, Politecnico di Milano, (2001), <https://www.academia.edu/10519146/The_Aesthetics_of_Generative_Code>.  
-[^exhibition]: The exhibition "Programmed: Rules, Codes, and Choreographies in Art, 1965–2018" was held at the Whitney Museum of American Art, New York (28 Sep 2018 – 14 Apr 2019), and organized by Christiane Paul and Carol Mancusi-Ungaro, with Clémence White. See <https://whitney.org/exhibitions/programmed>. A well-cited, prior example would be the 1970 exhibition “Software — Information Technology: Its New Meaning for Art,” at the Jewish Museum in New York, curated by Jack Burnham. For Burnham, the exhibition "Software" encouraged an understanding of the underlying structures in art and information systems, and by drawing together practices in computer technology with conceptual art, software was to be seen as a metaphor for information exchange.
-[^LeWitt]: Sol LeWitt cited in Lippard, ed. *Six Years: The Dematerialization of the Art Object from 1966 to 1972*.
-[^processing]: Processing is a flexible software sketchbook and programming language, initiated by Casey Reas and Ben Fry in 2001, for users to learn how to code within the context of the visual arts. See <https://processing.org/>.
-[^Reas]: For an explanation of this work, and the assoicated documentation, see Casey Reas, "{Software} Structures,"  <https://artport.whitney.org/commissions/softwarestructures/text.html>.
-[^galanter]: Philip Galanter, *What is Generative Art? Complexity theory as a context for art theory,* in *GA2003* - 6th Generative Art Conference, Milan (2003).
-[^suchman]: Lucy Suchman, *Human-Machine Reconfigurations: Plans and Situated Actions* (Cambridge: Cambridge University Press, 2007), 217-220.
-[^10print]: Nick Montfort, et al, *10 PRINT CHR $(205.5+ RND (1));: GOTO 10* (Cambridge, MA: MIT Press, 2012).
-[^Haahr]: See Mads Haahr, "Introduction to Randomness and Random Numbers," <https://www.random.org/randomness/>; and Montfortet al, "Randomness," 119-146.
-[^Langton]: Christopher G. Langton, "Studying Artificial Life with Cellular Automata," *Physica D: Nonlinear Phenomena* 22, no.1–3 (October 1986): 120–49, <https://doi.org/10.1016/0167-2789(86)90237-X>.
-[^shiffman1]: See "Two-dimensional Arrays" written for the Processing Community, <https://processing.org/tutorials/2darray/>.
-[^shiffman2]: See the video instruction on 2D Arrays in p5.js at <https://www.youtube.com/watch?v=OTNpiLUSiB4>.
-[^emergence]: For more on emergent behaviour, see Steven Johnson, *Emergence: The Connected Lives of Ants, Brains, Cities and Software* (London: Penguin, 2001), 20.
-[^Moreira]: Andrés Moreira, Anahí Gajardo and Eric Goles, "Dynamical Behavior and Complexity of Langton’s Ant,"" *Complexity* 6, no.4 (March 2001): 46–52, <https://doi.org/10.1002/cplx.1042>.
-[^Steps]: See the web-based step by step running of the Langton's Ant implemented by Barend Köbben in 2014, <https://kartoweb.itc.nl/kobben/D3tests/LangstonsAnt/>.
-[^Watz]: For instance, generative artist Marius Watz would suggest that "autonomy is the ultimate goal", from his talk "Beautiful Rules: Generative Models of Creativity," in *The Olhares de Outono* (2007), <https://vimeo.com/26594644>.
-[^Conway]: More information on Conway's *Game of Life* and related cellular automata can be found at <https://www.conwaylife.com/>.
-[^necro]: Continuing from *biopolitics*, a term coined by Michel Foucault to indicate the use of power to control people's lives, *necropolitics* is the use of social and political power to dictate how some people may live and others must die. See Achille Mbembe, "Necropolitics," *Public Culture* 15, no.1 (2003): 11–40.
-[^smart]: See the artwork *WUOUS* by Anders Visti and Tobias Stenberg which uses an implementation of *Langton's Ant* to question the procedural logic of so-called *smart cities*: <https://andersvisti.dk/work/wuos-2019>.
-[^chaos]: Ilya Prigogine and Isabelle Stengers, *Order Out of Chaos: Man’s New Dialogue With Nature* (London: Fontana, 1985), 205.
-[^morpho]: Alan Mathison Turing, "The Chemical Basis of Morphogenesis," *Philosophical Transactions of the Royal Society of London B,* 237, no.641 (1952): 37–72, doi:10.1098/rstb.1952.0012. JSTOR 92463.
-[^eflux]: Franco "Bifo" Berardi, "The Neuroplastic Dilemma: Consciousness and Evolution," in *e-flux* journal #60 (December 2014), <https://www.e-flux.com/journal/60/61034/the-neuroplastic-dilemma-consciousness-and-evolution/>. "General Intellect" is a key concept taken from Marx's *Grundrisse,* in the passage "Fragment on Machines," and is used to indicate the coming together of technological expertise and social intellect. Terranova also draws on this concept when she argues that the evolution of machinery also unleashes productive powers, as referenced in Chapter 4, "Data Capture".
-[^Bifo]: Franco "Bifo" Berardi, *Precarious Rhapsody: Semiocapitalism and the Pathologies of the Post-Alpha Generation* (London: Minor Compositions, 2009), 9.
-[^mother]: In N. Katherine Hayles' *My Mother Was a Computer*, she charts how, during the 1930s and 1940s, mainly women were employed to do calculations who were referred to as computers. N. Katherine Hayles, *My Mother Was a Computer* (Chicago: University of Chicago Press, 2005). Hayles takes her title from a chapter in the book *Technologies of the Gendered Body* by Anne Balsamo, whose mother was one of these computers.
-[^Noah]: Noah Wardrip-Fruin, "Christopher Strachey: The First Digital Artist?" *Grand Text Auto*, School of Engineering, University of California Santa Cruz (August 1, 2005).
-[^Gaboury]: Jacob Gaboury, "A Queer History of Computing," *Rhizome* (April 9, 2013). We return to the issue of Turing's sexuality in Chapter 7, "Vocable Code".
-[^bellacasa]: Maria Puig de la Bellacasa, "Matters of Care in Technoscience: Assembling Neglected Things," in *Social Studies of Science* 41, no.1 (2010), 99.
-[^loveletters]: David Link's *LoveLetters_1.0: MUC=Resurrection* was first exhibited in 2009, and was part of dOCUMENTA(13), Kassel, in 2012. Detailed description and documentation can be found at <http://www.alpha60.de/art/love_letters/>. Also see Geoff Cox, "Introduction" to David Link, *Das Herz der Maschine*, dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 037 (Berlin: Hatje Cantz, 2012).  
-[^tree]: The patterns of fractal geometry are commonly seen in the tradition of Islamic and African art, design and architecture, with the self-similar characteristic that is generated by repeatable and infinite processes. Fractal designs in European and Asian culture tend to mimick nature, but Ron Eglash observes that the African designs are more influenced by their own social structure in which fractals are regarded as part of a shared culture. See Ron Eglash, *African Fractals: Modern Computing and Indigenous Design* (New Brunswick, New Jersey, and London: Rutgers University Press, 1999); also Laura U. Marks, *Enfoldment and Infinity: An Islamic Genealogy of New Media Art* (Cambridge, MA: The MIT Press: 2010). See also a coding example of the use of recursivity in sketching a fractal tree in p5.js by Martin Žilák, <https://editor.p5js.org/marynotari/sketches/BJVsL5ylz>.
-[^flock]: See Craig Reynold's flocking behavior with the p5.js source code, <https://p5js.org/examples/simulate-flocking.html>.
-[^joan1]: See Joan Truckenbrod's interview *Motion Through Series", <https://vimeo.com/286993496>.
-[^Haraway]: Clearly much more could be said about this, but we refer, our example, to Donna Haraway's *When Species Meet* (Minneapolis: Uiversity of Minnesota Press, 2007).
-[^joan0]: See the *Coded Algorithmic Drawings* series here: <https://joantruckenbrod.com/gallery/#(grid|filter)=.coded>.
-[^Arns]: Inke Arns, "Read_me, run_me, execute_me: Code as Executable Text: Software Art and its Focus on Program Code as Performative Text," trans. Donald Kiraly, *MediaArtNet* (2004), see: <http://www.mediaartnet.org/themes/generative-tools/read_me/1/>.
-[^289]: This is a version programmed with JavaScript, using D3, and jquery libraries: <https://github.com/wholepixel/solving-sol/blob/master/289/cagrimmett/index.html>.
+
 [^TuringGraph]: This is a modified version of the image found online, see <http://storyofmathematics.lukemastin.com/20th_turing.html>.
-[^game_eg]: For further discussion and the source code for Conway's *The Game of Life*, see: <https://web.archive.org/web/20181007111016/<http://web.stanford.edu/~cdebs/GameOfLife/>.
-[^agent]: Agent-based model describes the mathematical modeling of data as individual autonomous agent that follow rules within an environment or a system, resulting in emergent outcomes of actions and interactions over time.
+
 [^laczko]: The previously mentioned artwork webmachines by Juli Laczko in Chapter 1, "Getting started," shows the relation between weaving and coding technologies. See <https://digital-power.siggraph.org/piece/webmachine/>.  
-[^pritchard]: See an example of a generated motto from *Recurrent Queer Imaginaries*, in video documentation: <https://digital-power.siggraph.org/piece/recurrent-queer-imaginaries/>.
-[^hoff]: See *Digital Love Languages ♡ Codes of Affirmation*, http://lovelanguages.melaniehoff.com/syllabus/.
+
+[^Lippard]: Reference to Lucy Lippard, ed. *Six Years: The Dematerialization of the Art Object from 1966 to 1972* (London: University of California Press, 1997).
+
+[^Cox]: One example of many, and also connected to an exhibition, is Geoff Cox's "Generator: The Value of Software Art," in Judith Rugg and Michèle Sedgwick, eds., *Issues in Curating Contemporary Art and Performance* (Bristol: Intellect, 2007), 147-162, available at <https://monoskop.org/images/5/53/Cox_Geoff_2007_Generator_The_Value_of_Software_Art.pdf>. This includes a description of Adrian Ward's *Auto-Illustrator*, released as a boxed version for the "Generator" exhibition (2002-3) with an accompanying "User’s  Manual" that contained both technical detail and critical essays. In many ways this sets a precedent for the publication you are reading. For more on the aesthetic dimension of the parallels between scores, scripts, and programs, see Geoff Cox, Alex McLean, and Adrian Ward, "The Aesthetics of Generative Code," *Generative Art 00*, international conference, Politecnico di Milano, (2001), <https://www.academia.edu/10519146/The_Aesthetics_of_Generative_Code>.  
+
+[^exhibition]: The exhibition "Programmed: Rules, Codes, and Choreographies in Art, 1965–2018" was held at the Whitney Museum of American Art, New York (28 Sep 2018 – 14 Apr 2019), and organized by Christiane Paul and Carol Mancusi-Ungaro, with Clémence White. See <https://whitney.org/exhibitions/programmed>. A well-cited, prior example would be the 1970 exhibition “Software — Information Technology: Its New Meaning for Art,” at the Jewish Museum in New York, curated by Jack Burnham. For Burnham, the exhibition "Software" encouraged an understanding of the underlying structures in art and information systems, and by drawing together practices in computer technology with conceptual art, software was to be seen as a metaphor for information exchange.
+
+[^289]: This is a version programmed with JavaScript, using D3, and jquery libraries: <https://github.com/wholepixel/solving-sol/blob/master/289/cagrimmett/index.html>.
+
+[^LeWitt]: Sol LeWitt cited in Lippard, ed. *Six Years: The Dematerialization of the Art Object from 1966 to 1972*.
+
+[^processing]: Processing is a flexible software sketchbook and programming language, initiated by Casey Reas and Ben Fry in 2001, for users to learn how to code within the context of the visual arts. See <https://processing.org/>.
+
+[^Reas]: For an explanation of this work, and the assoicated documentation, see Casey Reas, "{Software} Structures,"  <https://artport.whitney.org/commissions/softwarestructures/text.html>.
+
+[^joan0]: See the *Coded Algorithmic Drawings* series here: <https://joantruckenbrod.com/gallery/#(grid|filter)=.coded>.
+
+[^joan1]: See Joan Truckenbrod's interview *Motion Through Series", <https://vimeo.com/286993496>.
+
+[^tree]: The patterns of fractal geometry are commonly seen in the tradition of Islamic and African art, design and architecture, with the self-similar characteristic that is generated by repeatable and infinite processes. Fractal designs in European and Asian culture tend to mimick nature, but Ron Eglash observes that the African designs are more influenced by their own social structure in which fractals are regarded as part of a shared culture. See Ron Eglash, *African Fractals: Modern Computing and Indigenous Design* (New Brunswick, New Jersey, and London: Rutgers University Press, 1999); also Laura U. Marks, *Enfoldment and Infinity: An Islamic Genealogy of New Media Art* (Cambridge, MA: The MIT Press: 2010). See also a coding example of the use of recursivity in sketching a fractal tree in p5.js by Martin Žilák, <https://editor.p5js.org/marynotari/sketches/BJVsL5ylz>.
+
+[^flock]: See Craig Reynold's flocking behavior with the p5.js source code, <https://p5js.org/examples/simulate-flocking.html>.
+
+[^agent]: Agent-based model describes the mathematical modeling of data as individual autonomous agent that follow rules within an environment or a system, resulting in emergent outcomes of actions and interactions over time.
+
+[^Arns]: Inke Arns, "Read_me, run_me, execute_me: Code as Executable Text: Software Art and its Focus on Program Code as Performative Text," trans. Donald Kiraly, *MediaArtNet* (2004), see: <http://www.mediaartnet.org/themes/generative-tools/read_me/1/>.
+
+[^Haraway]: Clearly much more could be said about this, but we refer, our example, to Donna Haraway's *When Species Meet* (Minneapolis: Uiversity of Minnesota Press, 2007).
+
+[^galanter]: Philip Galanter, *What is Generative Art? Complexity theory as a context for art theory,* in *GA2003* - 6th Generative Art Conference, Milan (2003).
+
 [^shiffman]: The two code examples in this chapter are adapted from Daniel Shiffman's *Coding Train* series with the addition of more comments to explain the logic, as well as extra features such as adjusting the grid size in the *Langton's Ant* example.
-[^sfpc]: The School for Poetic Computation, an artist-run school in New York that was founded in 2013, explores the intersections of code, design, hardware and theory — focusing especially on artistic intervention, see: <https://sfpc.io/>.
+
+[^10print]: Nick Montfort, et al, *10 PRINT CHR $(205.5+ RND (1));: GOTO 10* (Cambridge, MA: MIT Press, 2012).
+
+[^Langton]: Christopher G. Langton, "Studying Artificial Life with Cellular Automata," *Physica D: Nonlinear Phenomena* 22, no.1–3 (October 1986): 120–49, <https://doi.org/10.1016/0167-2789(86)90237-X>.
+
 [^code]: More comment lines are introduced in the repository, see: <https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/blob/master/public/p5_SampleCode/ch5_AutoGenerator/sketch.js>.
+
+[^Haahr]: See Mads Haahr, "Introduction to Randomness and Random Numbers," <https://www.random.org/randomness/>; and Montfortet al, "Randomness," 119-146.
+
+[^Moreira]: Andrés Moreira, Anahí Gajardo and Eric Goles, "Dynamical Behavior and Complexity of Langton’s Ant,"" *Complexity* 6, no.4 (March 2001): 46–52, <https://doi.org/10.1002/cplx.1042>.
+
+[^shiffman1]: See "Two-dimensional Arrays" written for the Processing Community, <https://processing.org/tutorials/2darray/>.
+
+[^shiffman2]: See the video instruction on 2D Arrays in p5.js at <https://www.youtube.com/watch?v=OTNpiLUSiB4>.
+
+[^Watz]: For instance, generative artist Marius Watz would suggest that "autonomy is the ultimate goal", from his talk "Beautiful Rules: Generative Models of Creativity," in *The Olhares de Outono* (2007), <https://vimeo.com/26594644>.
+
+[^Conway]: More information on Conway's *Game of Life* and related cellular automata can be found at <https://www.conwaylife.com/>.
+
+[^game_eg]: For further discussion and the source code for Conway's *The Game of Life*, see: <https://web.archive.org/web/20181007111016/<http://web.stanford.edu/~cdebs/GameOfLife/>.
+
+[^necro]: Continuing from *biopolitics*, a term coined by Michel Foucault to indicate the use of power to control people's lives, *necropolitics* is the use of social and political power to dictate how some people may live and others must die. See Achille Mbembe, "Necropolitics," *Public Culture* 15, no.1 (2003): 11–40.
+
+[^smart]: See the artwork *WUOUS* by Anders Visti and Tobias Stenberg which uses an implementation of *Langton's Ant* to question the procedural logic of so-called *smart cities*: <https://andersvisti.dk/work/wuos-2019>.
+
+[^emergence]: For more on emergent behaviour, see Steven Johnson, *Emergence: The Connected Lives of Ants, Brains, Cities and Software* (London: Penguin, 2001), 20.
+
+[^chaos]: Ilya Prigogine and Isabelle Stengers, *Order Out of Chaos: Man’s New Dialogue With Nature* (London: Fontana, 1985), 205.
+
+[^morpho]: Alan Mathison Turing, "The Chemical Basis of Morphogenesis," *Philosophical Transactions of the Royal Society of London B,* 237, no.641 (1952): 37–72, doi:10.1098/rstb.1952.0012. JSTOR 92463.
+
+[^eflux]: Franco "Bifo" Berardi, "The Neuroplastic Dilemma: Consciousness and Evolution," in *e-flux* journal #60 (December 2014), <https://www.e-flux.com/journal/60/61034/the-neuroplastic-dilemma-consciousness-and-evolution/>. "General Intellect" is a key concept taken from Marx's *Grundrisse,* in the passage "Fragment on Machines," and is used to indicate the coming together of technological expertise and social intellect. Terranova also draws on this concept when she argues that the evolution of machinery also unleashes productive powers, as referenced in Chapter 4, "Data Capture".
+
+[^Bifo]: Franco "Bifo" Berardi, *Precarious Rhapsody: Semiocapitalism and the Pathologies of the Post-Alpha Generation* (London: Minor Compositions, 2009), 9.
+
+[^mother]: In N. Katherine Hayles' *My Mother Was a Computer*, she charts how, during the 1930s and 1940s, mainly women were employed to do calculations who were referred to as computers. N. Katherine Hayles, *My Mother Was a Computer* (Chicago: University of Chicago Press, 2005). Hayles takes her title from a chapter in the book *Technologies of the Gendered Body* by Anne Balsamo, whose mother was one of these computers.
+
+[^bellacasa]: Maria Puig de la Bellacasa, "Matters of Care in Technoscience: Assembling Neglected Things," in *Social Studies of Science* 41, no.1 (2010), 99.
+
+[^pritchard]: See an example of a generated motto from *Recurrent Queer Imaginaries*, in video documentation: <https://digital-power.siggraph.org/piece/recurrent-queer-imaginaries/>.
+
+[^sfpc]: The School for Poetic Computation, an artist-run school in New York that was founded in 2013, explores the intersections of code, design, hardware and theory — focusing especially on artistic intervention, see: <https://sfpc.io/>.
+
+[^hoff]: See *Digital Love Languages ♡ Codes of Affirmation*, http://lovelanguages.melaniehoff.com/syllabus/.
+
+[^Noah]: Noah Wardrip-Fruin, "Christopher Strachey: The First Digital Artist?" *Grand Text Auto*, School of Engineering, University of California Santa Cruz (August 1, 2005).
+
+[^Gaboury]: Jacob Gaboury, "A Queer History of Computing," *Rhizome* (April 9, 2013). We return to the issue of Turing's sexuality in Chapter 7, "Vocable Code".
+
+[^loveletters]: David Link's *LoveLetters_1.0: MUC=Resurrection* was first exhibited in 2009, and was part of dOCUMENTA(13), Kassel, in 2012. Detailed description and documentation can be found at <http://www.alpha60.de/art/love_letters/>. Also see Geoff Cox, "Introduction" to David Link, *Das Herz der Maschine*, dOCUMENTA (13): 100 Notes - 100 Thoughts, 100 Notizen - 100 Gedanken # 037 (Berlin: Hatje Cantz, 2012).  
+
+[^suchman]: Lucy Suchman, *Human-Machine Reconfigurations: Plans and Situated Actions* (Cambridge: Cambridge University Press, 2007), 217-220.
+
+[^Steps]: See the web-based step by step running of the Langton's Ant implemented by Barend Köbben in 2014, <https://kartoweb.itc.nl/kobben/D3tests/LangstonsAnt/>.
