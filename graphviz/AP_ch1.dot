@@ -4,7 +4,7 @@ node[fontname="Hershey-Noailles-help-me"]
 
 //labels
 GS [
-label="1. Getting Started",
+label="1. Getting started",
 style=bold,
 shape=rectangle,
 penwidth="1pt"

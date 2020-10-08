@@ -171,7 +171,7 @@ Winnie Soon and Geoff Cox
 * Required reading
 * Further reading
 
-## Chapter 10: Machine Learning
+## Chapter 10: Machine unlearning
 * setup()
 * start()
 * Between input and output

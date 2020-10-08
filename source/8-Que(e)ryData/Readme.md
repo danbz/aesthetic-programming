@@ -12,7 +12,7 @@ To query something is to ask a question about it, to check its validity, or accu
 
 Search engines (like Google and Baidu) are a good example of applications that aggregate content and algorithmically return search results according to a keywords search. They promise to answer all our questions, but do not make the underlying processes (and ideology) visible that prioritize certain answers over others. In a query-driven society, search engines have become powerful mechanisms for truth-making and for our making sense of seemingly endless quantities of data, manifested as streams, and feeds - indicative of the oversaturation of information and the rise of the attention economy. According to Wendy Hui Kyong Chun, user habits provide the formula for big data businesses. She explains: "Through habits users become their machines: they stream, update, capture, upload, share, grind, link, verify, map, save, trash and troll."[^chun] The habit of searching, for instance, is transformed into data that is storable, traceable, and analyzable.
 
-We have already explored some of the processes programs use to capture input data in Chapter 4, "Data Capture," especially %data% that is connected to physical devices, and in this chapter we expand this exponentially to data hosted on online platforms. We scale up from the capture of data to the storage, and analysis of massive amounts of captured data — so-called "Big Data" (or even "Big Dick Data" if we consider this to be a masculinist fantasy)[^bigdick] — which is in turn utilized for user-profiling, targeted marketing, personalized recommendations, and various sorts of predictions and e-commerce, and so on. Subsequently it would seem that: "We're not in control of our search practices – search engines are in control of us and we readily agree, though mostly unconsciously, to this domination."[^netcultures] But arguably it's not quite as deterministic as this, as these operations are part of larger socio-technical assemblages and infrastructures — including data, data structures, and human subjects — that are also constantly evolving and subject to external conditions.
+We have already explored some of the processes programs use to capture input data in Chapter 4, "Data capture," especially %data% that is connected to physical devices, and in this chapter we expand this exponentially to data hosted on online platforms. We scale up from the capture of data to the storage, and analysis of massive amounts of captured data — so-called "Big Data" (or even "Big Dick Data" if we consider this to be a masculinist fantasy)[^bigdick] — which is in turn utilized for user-profiling, targeted marketing, personalized recommendations, and various sorts of predictions and e-commerce, and so on. Subsequently it would seem that: "We're not in control of our search practices – search engines are in control of us and we readily agree, though mostly unconsciously, to this domination."[^netcultures] But arguably it's not quite as deterministic as this, as these operations are part of larger socio-technical assemblages and infrastructures — including data, data structures, and human subjects — that are also constantly evolving and subject to external conditions.
 
 To make some of these interacting entities tangible, and to offer a less-deterministic vision of %datafication%, this chapter focuses on how data can be acquired through the real-time query of an Application Programming Interface (API) — a communication protocol between different parts of a computer program intended to simplify software development. Querying data, in the form of a two-way communication process, is about information processing coupled with data selection, extraction, transmission, and presentation through "the logic of request and response,"[^api] and we will use a structured data file like %JSON% for this (introduced in the preceding chapter). Although there are many ways of addressing these issues, the following introduces a generative artwork that utilizes the Google's image search API and demonstrates querying beyond technical description to further question some of the assumptions surrounding openness and accessibility: to "que(e)ry data" in other words. The play on words indicates our desire to unsettle normative data practices that affirm stable categories of (gender) representation.
 
@@ -144,7 +144,7 @@ This exercise is about getting the *key ID* and *Engine ID* from Google so that 
     * Login to your account
     * Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and find the section API key
     * Click the blue button "Get A Key" and then create a new project by entering your project name (e.g. "nag-test") and press enter
-    * You should able to see the API key and you just need to copy and paste the key into your sketch
+    * You should be able to see the API key and you just need to copy and paste the key into your sketch
 
 3. **Step 3:** Replace the Search engine ID (cx) with your own, on the line: `let engineID = "INPUT YOUR OWN";`.
     * Go to [Custom Search Engine](https://cse.google.com/all)[^google2]
@@ -169,9 +169,9 @@ You should now finish modifying the settings. You can now run the sample code wi
 ```javascript
 let url = "https://www.googleapis.com/customsearch/v1?";
 // register: https://developers.google.com/custom-search/json-api/v1/overview
-let apikey = "AIzaSyBRE6L4ohm4c2rAxZqpbFSUbSc8w6ZOg-w";//"INPUT YOUR OWN KEY";
+let apikey = "INPUT YOUR OWN KEY";
 //get the searchengine ID: https://cse.google.com/all (make sure image is on)
-let engineID = "012341178072093258148:xebpi6c3ibg"; //"INPUT YOUR OWN";
+let engineID = "INPUT YOUR OWN";
 let query = "warhol+flowers";  //search keywords
 //check other parameters: https://tinyurl.com/googleapiCSE
 let searchType = "image";
@@ -230,7 +230,7 @@ We can now summarize the general process of working with web APIs and getting da
 * Understanding the file format (such as JSON) returned by the web API.
 * Registering and getting the API key(s) and any other, additional configuration needed.
 
-Given our specific example *nag* and the sample code, we want to also reflect on increasingly prevalent API practices. Although Google has provided the API to access the data, it should be remembered that the amount is limited to 100 free API requests for all units from business to non-profit organizations, and the actual data is collected from the public, and people have no access to the specific algorithm which selects, prioritizes, and presents the data. This raises serious questions about the degree of openness, transparency, accessibility, and inclusivity of API practices.[^soon]
+Given our specific example *nag* and the sample code, we want to also reflect on increasingly prevalent API practices. Although Google has provided the API to access the data, it should be remembered that the amount is limited to 100 free API requests for all units from business to non-profit organizations, and the actual data is collected from the public, and people have no access to the specific algorithm which selects, prioritizes, includes/excludes and presents the data. This raises serious questions about the degree of openness, transparency, accessibility, and inclusivity of API practices.[^soon]
 
 <div class="exercise" markdown="true">
 
@@ -308,7 +308,7 @@ The conditional structure `if (getImg){}` is used to allow sufficient time to lo
 
 The outer frame and the image are only drawn once with the update of the status `imgLoaded`. For each frame drawn, the program will analyze the image's pixels using the syntax `loadPixels()`, picking the random pixel, and getting the corresponding pixel's x and y coordinates (using the variables `img_x` and `img_y`). It then gets the RGB color values from the pixel selected using `pixels[]`, then draws the colored line with the syntax `strokeWeight()`, `stroke()` and `line()`.
 
-This section with the pixel and color elements shows how a computer processes and stores an image as a piece of data which is fundamentally different from how humans see and perceive it[^eckhardt]. It is also a way to demonstrate how an image object is being translated into numbers for computation, which is somewhat similar to the example of face tracking in Chapter 4, "Data Capture," in which a pixel can be located at a scale beyond human perception. These examples may help you understand contemporary applications like tracking technology and even computer vision that employs machine learning techniques in which images function as training data (we return to this in Chapter 10).
+This section with the pixel and color elements shows how a computer processes and stores an image as data which is fundamentally different from how humans see and perceive it.[^eckhardt] It is also a way to demonstrate how an image object is being translated into numbers for computation, which is somewhat similar to the example of face tracking in Chapter 4, "Data capture," in which a pixel can be located at a scale beyond human perception. These examples may help you understand contemporary applications like tracking technology and even computer vision that employs machine learning techniques in which images function as training data (we return to this in Chapter 10).
 
 ## Different types of errors
 
@@ -342,7 +342,7 @@ Wrong API key sent to the server. It is a more critial error because the program
 
 * **Logical errors** are arguably the hardest errors to locate as they deal with logic not syntax. The code may still run perfectly, but the result is not what was expected. This indicates a discrepancy between what we think we asked the computer to do and how it actually processes the instructions.
 
-The web console is a good place to be notified of errors or test whether the code is running as we expected. When solving errors, it is important to identify exactly where they occur, i.e. which block or line of code contains the mistake by using `console.log()`. Test and run the various parts of the program step by step, then try to identify the error types, and fix them accordingly.
+The web console is a good place to be notified of errors or test whether the code is running as we expected. When solving errors, it is important to identify exactly where they occur, i.e. which block or line of code contains the mistake by using `console.log()` (or `print()` in p5.js). Test and run the various parts of the program step by step, then try to identify the error types, and fix them accordingly.
 
 ## While()
 
@@ -471,6 +471,6 @@ This is a relatively complex exercise that requires you to:
 
 [^Oauth]: For those APIs that require the OAuth 2.0 authorization, a standard protocol for authorization, you might need Node.js (<https://nodejs.org/en/>) to handle the server-client authentication. At the beginner level, it is recommended to look for web APIs with the registration of API keys. See what Node is for 15.1 and 15.2 (<https://www.youtube.com/watch?v=RF5_MPSNAtU&index=1&list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV>), and the OAuth 2.0 Authorization Framework that is proposed by Internet Engineering Task Force in 2012 (<https://tools.ietf.org/html/rfc6749>).
 
-[^eckhardt]: Such break down of an image into color scale pixels was also used in Electronic television transmission in the mid-1930s, but such data was sent manually by a telegraph operator via the medium of Wire or Radio instead. See George H, Eckhardt, *Electronic television* (Chicago: Goodheart-Willcox Company, Incorporated, 1936), 48-50.
+[^eckhardt]: Such a breakdown of an image into color scale pixels was also used in electronic television transmission in the mid-1930s, but in this case data was sent manually by a telegraph operator via the medium of Wire or Radio. See George H, Eckhardt, *Electronic television* (Chicago: Goodheart-Willcox Company, Incorporated, 1936), 48-50.
 
 [^noble]: Safiya Umoja Noble, *Algorithms of Oppression: How Search Engines Reinforce Racism* (New York: New York University Press, 2018), 24-25.

@@ -1,7 +1,7 @@
-Title: 10. Machine Learning
+Title: 10. Machine Unlearning
 page_order: 10
 sketch: p5_SampleCode/ch10_MachineLearning/sketch.js
-download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch10_MachineLearning
+download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch10_MachineUnlearning
 
 ![flowchart](ch10_0.svg)
 
@@ -39,7 +39,7 @@ Tasks:
 
 ## Between input and output
 
-We have briefly touched on machine learning, but let's clarify what it actually entails. In a contemporary context, it refers to various techniques of "data-handling,"[^samuel1] or, more precisely, statistics and data analysis. It is commonly described by three components: input, modelling (or learning), and output. Usually, a large amount of data is needed to be collected, parsed and cleaned.[^shit] Data cleansing is a term often used in computer or data science to describe the process of preparing data (data can consist of texts, video, images, gestures, etc.) to be input data by adjusting data inconsistency in terms of removing or modifying data that is irrelevant, duplicated, or improperly formatted. These various data preparation processes involve decision-making in terms of identifying and accessing the datasets, and how to structure the raw data, and deal with inconsistencies. If the data originates in different places, then the question arises of how to normalize the data to structure a cohesive dataset.[^papa] As in Chapter 4, "Data Capture," we can already see how this process is fraught with problems concerning what gets included and excluded, and how this is decided and effected, and by whom. Rather than simply a means to an end, the dataset becomes a hugely significant cultural object that we need to understand better.[^dataset]
+We have briefly touched on machine learning, but let's clarify what it actually entails. In a contemporary context, it refers to various techniques of "data-handling,"[^samuel1] or, more precisely, statistics and data analysis. It is commonly described by three components: input, modelling (or learning), and output. Usually, a large amount of data is needed to be collected, parsed and cleaned.[^shit] Data cleansing is a term often used in computer or data science to describe the process of preparing data (data can consist of texts, video, images, gestures, etc.) to be input data by adjusting data inconsistency in terms of removing or modifying data that is irrelevant, duplicated, or improperly formatted. These various data preparation processes involve decision-making in terms of identifying and accessing the datasets, and how to structure the raw data, and deal with inconsistencies. If the data originates in different places, then the question arises of how to normalize the data to structure a cohesive dataset.[^papa] As in Chapter 4, "Data capture," we can already see how this process is fraught with problems concerning what gets included and excluded, and how this is decided and effected, and by whom. Rather than simply a means to an end, the dataset becomes a hugely significant cultural object that we need to understand better.[^dataset]
 
 <div class="section exercise" markdown="true">
 ## Exercise in class
@@ -103,7 +103,7 @@ The training process uses a "Recurrent Neural Network" (RNN) and "Long Short Ter
 ![ch10_7](ch10_6.png)
 :   *Figure 10.8: Auto Chapter Generator*
 
-[RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch10_MachineLearning/>)
+[RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch10_MachineUnlearning/>)
 
 ## Source code
 
@@ -232,7 +232,7 @@ function generate() {
 
 **index.html**
 
-To load the ml5.js library as part of the overall sketch, you need the following line in your index.html, just like importing other libraries as discussed in Chapter 4, "Data Capture," with the clmtrackr library.
+To load the ml5.js library as part of the overall sketch, you need the following line in your index.html, just like importing other libraries as discussed in Chapter 4, "Data capture," with the clmtrackr library.
 ```html
 <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"
 type="text/javascript"></script>
@@ -291,7 +291,7 @@ function gotData(err, result) {
 ## Exercise in class
 
 1. Work with the Auto Chapter Generator program and try to generate texts based on different length and temperature values.
-2. The example also links to the Chapter 5, "Auto Generator," in terms of agency, unpredictability, and generativity, but how does this chapter change our understanding of these terms given what we know about machine learning? What is learning in this context? What do machines teach us? And in the production of prediction, what does machine learning want?[^predict]
+2. The example also links to the Chapter 5, "Auto-generator," in terms of agency, unpredictability, and generativity, but how does this chapter change our understanding of these terms given what we know about machine learning? What is learning in this context? What do machines teach us? And in the production of prediction, what does machine learning want?[^predict]
 </div>
 
 ## While()
@@ -312,7 +312,7 @@ We would like to reiterate this here and encourage deep reflection on the means 
 
 All these ideas provide starting points for further work and reflection.[^refs] The interplay between truth and fiction is part of this, and "deepfakes" for example (a wordplay on deep learning) would make a good additional case study for the way in which synthetic instances can pass for real data. A brief description of this process, and the operations of "Generative Adversarial Networks" (GANs) might make a useful addition here.[^GAN] With a GAN, two neural nets — a "Generator" that forges a new data instance, and a "Discriminator" that then distinguishes fake data created by the Generator from real data — challenge each other with increasingly realistic fakes, both optimizing their strategies until their generated data is indistinguishable from the real data. This is also a (unsupervised) method of training that doesn’t rely on the tagging of input images by humans as the machine generates groupings based on its own analysis. Might critical theory learn from this, something that resonates with dialectical materialism in which everything is considered to be in a process of transformation through contradiction, and becomes a technical reality? Might such an approach open up alternatives to the conflation of computational logics and politics?[^transmediale]
 
-In beginning to think about computational operations in this way, as conceptual models or diagrams, we broadly follow on from what we have learnt thus far about machine learning through a process of generalization, prediction, and the generation of future possibilities. We use this last chapter as a way to point to future critical work to be undertaken and to reflect on machine learning as a set of methods that learn from data in parallel to an experience of our learning through the practice of programming. Agre states that: "A critical technical practice will, at least for the foreseeable future, require a split identity — one foot planted in the craft work of design and the other foot planted in the reflexive work of critique."[^agre2] The challenge is to work across, and queer these modes as not a split identity, and learn from both, opening ways of thinking and working with computing.
+In beginning to think about computational operations in this way, as conceptual models or diagrams, we broadly follow on from what we have learnt thus far about machine learning through a process of generalization, prediction, and the generation of future possibilities. We use this last chapter as a way to point to future critical work to be undertaken and to reflect on machine learning as a set of methods that learn from data in parallel to our experience of learning through the practice of programming. As Agre puts it: "A critical technical practice will, at least for the foreseeable future, require a split identity — one foot planted in the craft work of design and the other foot planted in the reflexive work of critique."[^agre2] The challenge then is to work across and learn from both these modes, not as a split but queer identity, opening up ways of working fluidly across diverse contexts. In this regard, we consider critical technical practice to be a queer praxis, as we hope has been made clear throughout this book. Aesthetic programming in this way demonstrates some of the possible ways to further unsettle the binary split of theory and practice, thinking and doing, art and technology, humans and machines, and so on.
 
 All this deserves longer discussion that there simply isn't space for in these closing paragraphs. At the same time, the constraints allow us to point beyond this book — perhaps to another yet to be written — because if work processes are automated then our work as writers, editors, designers, programmers and teachers will be too. The underlying worry is that our decision-making, thinking, and creativity will be automated, and that our ability to determine our potential futures will become compromised by predictive algorithms.[^tang] It is the questioning the control and power of algorithms that we hope we have managed to provide some insight into here to assert some level of control over these processes. This is reflected by the subtitle of the "Afterward: Recurrent Imaginaries" in the next bonus chapter. Again we would add what we learn from machines in this respect.    
 
@@ -480,4 +480,4 @@ The ReadMe should address the following questions with the help of your source c
 
 [^class]: Originating in the East End of London, Cockney rhyming slang is a coded language which was purposely created to be obscure to other listeners, and hence to others outside a particular community or indeed class group. One might imagine using cockney rhyming slang for the naming conventions of a programming language, see <https://news.ycombinator.com/item?id=9402410>.
 
-[^tang]: Regarding the power dynamics on algorithmic predictions, the Digital Minister of Taiwan Audrey Tang, who is also an activist and hacker, analyzes that the "lack of accountability" and "value alignment" are part of the contemporary problems of using and deploying predictive technologies, and she further suggests having the vision of plurality instead of singularity as her job scope in building a resilient society in Taiwan. See <https://www.youtube.com/watch?v=tRVEY95cI0o>.
+[^tang]: Regarding the power dynamics on algorithmic predictions, the Digital Minister of Taiwan, Audrey Tang, who is also an activist and hacker, makes the point that the "lack of accountability" and "value alignment" are part of the contemporary problems of using and deploying predictive technologies, and further that an emphasis on plurality rather than singularity is crucial in building a resilient society in Taiwan. See <https://www.youtube.com/watch?v=tRVEY95cI0o>.

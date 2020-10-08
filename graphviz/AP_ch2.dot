@@ -4,7 +4,7 @@ node[fontname="Hershey-Noailles-help-me"]
 
 //labels
 GS [
-label="2. Variable Geometry",
+label="2. Variable geometry",
 style=bold,
 shape=rectangle,
 penwidth="1pt"

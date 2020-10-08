@@ -5,7 +5,7 @@ Selected students' work:
 
 The list will continuously update on the online version.
 
-## MiniX[1]: RUNME and README
+## MiniX[1]: RunMe and ReadMe
 
 ![minix1](showcase_img/Clausen2020_1.png)
 
@@ -30,11 +30,11 @@ The list will continuously update on the online version.
 
 ![minix3](showcase_img/Bake2020_3.png)
 
-[Work](https://magnusbak.gitlab.io/ap2020/MiniX3/) by Magnus Bake, 2020
+[Work](https://magnusbak.gitlab.io/ap2020/MiniX3/) by Magnus Bak Nielsen, 2020
 
 ![minix3](showcase_img/Moller2020_3.png)
 
-[Work](https://gitlab.com/linesdmoller/ap2020/-/tree/master/public/MiniX5) by Line Moller, 2020
+[Work](https://gitlab.com/linesdmoller/ap2020/-/tree/master/public/MiniX5) by Line Stampe-Degn Møller, 2020
 
 ## MiniX[4]: Capture ALL
 
@@ -46,7 +46,7 @@ The list will continuously update on the online version.
 
 ![minix5](showcase_img/Dahlin2020_5.png)
 
-[Work](https://gitlab.com/mikkeldahlin/ap-2020/-/tree/master/public/Projects/MiniEX7) by Mikkel Dahlin, 2020
+[ANT LIFE](https://gitlab.com/mikkeldahlin/ap-2020/-/tree/master/public/Projects/MiniEX7.1) by Mikkel Dahlin, 2020
 
 ![minix5](showcase_img/Pockel2020_5.png)
 
@@ -80,7 +80,7 @@ The list will continuously update on the online version.
 
 ![minix8](showcase_img/Nguyen2020_8.png)
 
-[Corona bar](https://gitlab.com/pernwn/ap2020/-/tree/master/public/MX9) by Simon Van Nguyen and Pernille P.W. Johansen, 2020
+[Corona bar](https://gitlab.com/pernwn/ap2020/-/tree/master/public/MX9) by Anne Nielsen, Simon Van Nguyen, Pernille P.W. Johansen, and Torvald Pockel, 2020
 
 ## MiniX[10]: Final Project
 

@@ -8,7 +8,7 @@ Winnie Soon and Geoff Cox
 Published by Open Humanities Press 2020<br>
 https://openhumanitiespress.org/
 
-Liquid/Living Books<br>
+Liquid Books<br>
 Series Editors: Gary Hall
 
 http://aesthetic-programming.osp.kitchen/<br>
@@ -26,5 +26,5 @@ This is an open access book, licensed under the Creative Commons Attribution By 
 
 Figures, text and other media included within this book may be under different copyright restrictions.
 
-ISBN (print): ????????? <br>
-ISBN (PDF): ???????
+ISBN (print): 978-1-78542-094-8<br>
+ISBN (PDF): 978-1-78542-093-1 

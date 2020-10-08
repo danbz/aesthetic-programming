@@ -4,7 +4,7 @@ node[fontname="Hershey-Noailles-help-me"]
 
 //labels
 GS [
-label="8. Que(e)ry Data",
+label="8. Que(e)ry data",
 style=bold,
 shape=rectangle,
 penwidth="1pt"
