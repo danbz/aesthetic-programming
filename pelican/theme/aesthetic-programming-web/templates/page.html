@@ -82,4 +82,18 @@
           }
         }
     </script>
+    <script>
+        window.addEventListener('message', function (e) {
+            if (e.data && 'type' in e.data
+                && e.data.type == 'p5jsWidget::toggleFullscreen')
+            {
+                if (e.data.fullscreen) {
+                    document.body.dataset.sketchFullscreen = 'true';
+                }
+                else {
+                    delete document.body.dataset.sketchFullscreen;
+                }
+            }
+        });
+    </script>
 {% endblock %}

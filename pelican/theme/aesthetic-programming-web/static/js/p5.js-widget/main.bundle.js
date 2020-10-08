@@ -21364,6 +21364,22 @@
 	                lastError: null
 	            }); });
 	        };
+	        this.handleFullscreenClick = function () {
+	            var frame = window.frameElement;
+	            if (frame && 'dataset' in frame) {
+	                var isFullscreen = ('fullscreen' in frame.dataset);
+	                if (isFullscreen) {
+	                    delete frame.dataset.fullscreen;
+	                }
+	                else {
+	                    frame.dataset.fullscreen = 'true';
+	                }
+	                var parent_1 = window.parent;
+	                if (parent_1) {
+	                    parent_1.postMessage({ type: 'p5jsWidget::toggleFullscreen', fullscreen: !isFullscreen }, '*');
+	                }
+	            }
+	        };
 	        this.handleStopClick = function () {
 	            _this.setState({ isPlaying: false });
 	        };
@@ -21396,7 +21412,7 @@
 	            this.state.editorContent === this.state.previewContent) {
 	            errorLine = this.state.lastError.line;
 	        }
-	        return (React.createElement("div", {className: "app", "data-editor-layout": this.props.editorLayout}, React.createElement(toolbar_1.default, {onPlayClick: this.handlePlayClick, onStopClick: this.state.isPlaying && this.handleStopClick, onUndoClick: this.state.canUndo && this.handleUndoClick, onRedoClick: this.state.canRedo && this.handleRedoClick, onRevertClick: canRevert && this.handleRevertClick}), React.createElement("div", {className: "panes"}, React.createElement(editor_1.default, {ref: "editor", content: this.state.editorContent, errorLine: errorLine, onChange: this.handleEditorChange}), React.createElement("div", {className: "preview-holder-wrapper"}, this.state.isPlaying
+	        return (React.createElement("div", {className: "app", "data-editor-layout": this.props.editorLayout}, React.createElement(toolbar_1.default, {onPlayClick: this.handlePlayClick, onFullscreenClick: this.handleFullscreenClick, onStopClick: this.state.isPlaying && this.handleStopClick, onUndoClick: this.state.canUndo && this.handleUndoClick, onRedoClick: this.state.canRedo && this.handleRedoClick, onRevertClick: canRevert && this.handleRevertClick}), React.createElement("div", {className: "panes"}, React.createElement(editor_1.default, {ref: "editor", content: this.state.editorContent, errorLine: errorLine, onChange: this.handleEditorChange}), React.createElement("div", {className: "preview-holder-wrapper"}, this.state.isPlaying
 	            ? React.createElement(preview_1.default, {content: this.state.previewContent, baseSketchURL: this.props.baseSketchURL, p5version: this.props.p5version, p5path: this.props.p5path, maxRunTime: this.props.maxRunTime, width: this.props.previewWidth, timestamp: this.state.startPlayTimestamp, onError: this.handlePreviewError, requirements: this.props.requirements})
 	            : null)), React.createElement("div", {className: "status-bar"}, this.state.lastError
 	            ? React.createElement(ErrorMessage, __assign({}, this.state.lastError))
@@ -21545,7 +21561,7 @@
 	    Toolbar.prototype.render = function () {
 	        return (React.createElement("div", {className: "toolbar"}, React.createElement("a", {className: "p5-logo", href: "http://p5js.org/", target: "_blank"}, React.createElement("img", {src: "static/img/p5js-beta.svg", alt: "p5js.org"})), React.createElement("button", {onClick: this.props.onPlayClick}, React.createElement(OpenIconicMediaPlay, null), "Play"), this.props.onStopClick
 	            ? React.createElement("button", {onClick: this.props.onStopClick}, React.createElement(OpenIconicMediaStop, null), "Stop")
-	            : null, this.props.onUndoClick
+	            : null, React.createElement("button", {onClick: this.props.onFullscreenClick}, "Fullscreen"), this.props.onUndoClick
 	            ? React.createElement("button", {onClick: this.props.onUndoClick}, React.createElement(OpenIconicActionUndo, null), "Undo")
 	            : null, this.props.onRedoClick
 	            ? React.createElement("button", {onClick: this.props.onRedoClick}, React.createElement(OpenIconicActionRedo, null), "Redo")

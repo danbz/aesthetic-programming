@@ -154,6 +154,11 @@ main {
     background-color: white;
 }
 
+body[data-sketch-fullscreen] main {
+    overflow-x: hidden;
+    flex: 0 0 0px;
+}
+
 h1 {
     margin-left: 1em;
 }
