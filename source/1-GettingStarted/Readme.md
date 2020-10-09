@@ -71,7 +71,7 @@ Atom is used as the code editor for this book. It supports cross-platform editin
 1. Download the software Atom from the homepage: <https://atom.io/>
 2. Drag the "p5" folder that you have just unzipped into Atom. You should be able to see the left-hand pane with your project. Try to navigate to the "index.html" file under the "empty-example" folder, double click that file and the source code should display on the right-hand pane. See below:
 
-    ![](ch1_4.png){: .medium}
+    ![](ch1_4.png)
     :   *Figure 1.4: Atom's file structure*
 
     "index.html" is usually the default page the web browser will display. You can customize the page title and other styling issues, but the focus for this chapter will be on navigating the libraries and runing your first program. Since p5.js is a library, the lines 8-10 indicate how to incorporate JavaScript files and libraries by using the tags `<script>` and `</script>`.
@@ -80,7 +80,7 @@ Atom is used as the code editor for this book. It supports cross-platform editin
 
 3. Next you will need to install a package called "atom-live-server,"[^liveserver] which is useful for setting up a web server so you can update your code and see the results immediately in a browser without needing to refresh it. You can first check under "Packages" on your menu bar and see if the package is there. If not, then go to "Edit > Preferences > ''+ Install'," then type "atom-live-server." Hit the blue install button and you should be able to find it again in the Packages menu.
 
-    ![](ch1_5.png){: .medium}
+    ![](ch1_5.png)
     :   *Figure 1.5: Installing atom-live-server*
 
 4. If you want to customize the theme like the background color of the panes, simply go to "Preferences > Themes."
@@ -120,7 +120,7 @@ function draw() {
 
 To run the code, you need to go to "Packages > atom-live-server > Start Server" on Atom. A pop-up window will appear, click on the "empty-example" folder and it should display something like this:
 
-![](ch1_6.png){: .medium}
+![](ch1_6.png)
 :   *Figure 1.6: My first program*  
 
 <div class="section exercise" markdown="true">
@@ -181,7 +181,7 @@ GitLab is an open source, web-based, Git repository platform that hosts software
 
 For simplicity's sake, we use GitLab's web interface for some of our writing and teaching, and for students to hand-in their weekly RunMe[^runme] and ReadMe[^readme] files. We also use GitLab for peer feedback so that students can read and learn from eachother's work.
 
-![gitlab](ch1_12.png){: .medium}
+![gitlab](ch1_12.png)
 :   *Figure 1.12: Create a new project with the GitLab web interface*
 
 1. Register an account by clicking "Register" on the navigation bar.

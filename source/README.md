@@ -1,5 +1,6 @@
 Title:
 page_order: 15
+status: hidden
 
 **Aesthetic Programming: A Handbook of Software Studies**
 

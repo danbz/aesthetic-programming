@@ -1,5 +1,6 @@
 Title: Biographies
 page_order: -4
+status: hidden
 
 **Winnie Soon** was born and raised in Hong Kong, increasingly aware of, and confronting, identity politics regarding its colonial legacy and postcolonial authoritarianism. As an artist-coder-researcher, she/they is interested in queering the intersections of technical and artistic practices as a feminist praxis, with works appearing in museums, galleries, festivals, distributed networks, papers and books. Researching in the areas of software studies and computational practices, she/they is currently Assistant Professor at Aarhus University, Denmark.
 

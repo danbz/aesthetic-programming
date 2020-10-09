@@ -12,7 +12,7 @@
 }
 @font-face {
   font-family: "HersheyNoailles";
-  src: url("/theme/fonts/Hershey-Noailles-futural.ttf");
+  src: url("/theme/fonts/Hershey-Noailles-cursive.ttf");
   font-style: italic;
 }
 
@@ -51,7 +51,7 @@ pre,
 code {
 font-family: ocr-pbi;
 white-space: pre-wrap;
-margin: 0;
+margin: calc(-1*var(--line-height)) 0;
 /*outline: 1px dotted black;*/
 /*outline-offset: 2px;*/
 }
@@ -106,16 +106,19 @@ a[href^=http] {
 
 em {
     font-style: italic;
+    font-size: 1.2em;
 }
 
 strong {
 font-weight: bold;
 }
 
+dl,
 p {
     padding: var(--line-height) 0;
 }
 
+dl + p,
 p + p {
     padding-top: 0;
 }
@@ -127,7 +130,7 @@ ul, ol {
     padding-left: calc(var(--line-height) /2);
     box-sizing: border-box;
     margin-top: var(--line-height);
-    margin-bottom: var(--line-height);
+    /*margin-bottom: var(--line-height);*/
 }
 ul ul,
 ul ol,
@@ -162,9 +165,14 @@ li p {
     padding-top: 0;
 }
 
+dt:after {
+   content: " → ";
+   font-size: 1.25em;
+   vertical-align: 1px;
+   line-height: 0;
+}
 dt {
     display: inline-block;
-    margin-right: var(--line-height);
     font-weight: bold;
 }
 
@@ -214,6 +222,7 @@ figure.figure-inline img {
 
 figcaption p {
     padding: 0;
+    font-size: 0.75em;
 }
 
 sup {
@@ -228,7 +237,7 @@ font-style: italic;
 
 
 blockquote {
-    padding: var(--line-height) calc(var(--line-height) /2);
+    padding: calc(var(--line-height) /2);
     border-left: 1px solid black;
     border-right: 1px solid black;
     margin-bottom: var(--line-height);
@@ -337,4 +346,37 @@ a.footnote-backref:hover {
 
 .code--line {
     margin-left: 2em !important;
+    height: 1.25em !important;
+}
+
+#list-index-generated:before {
+    content: "Index";
+    font-family: "HerscheyTimes";
+    font-size: 2em;
+    break-before: page;
+    display: block;
+    line-height: 2em;
+    margin-bottom: var(--line-height);
+}
+
+#list-index-generated {
+    border: 0;
+    padding-left: 0;
+    display: grid;
+}
+
+.list-alphabet-element:before {
+    content: "";
+}
+.list-alphabet-element {
+    font-family: "HersheyNoailles";
+    font-style: italic;
+    font-size: 2em;
+}
+
+.list-index-element + .list-alphabet-element {
+    margin-top: var(--line-height);
+}
+.links-pages {
+    float: right;
 }
