@@ -123,7 +123,7 @@ pre .CodeMirror-line {
 }
 
 h2, h3 {
-    padding-top: var(--line-height);
+    padding-top: calc(2*var(--line-height));
     padding-bottom: 0;
 }
 
