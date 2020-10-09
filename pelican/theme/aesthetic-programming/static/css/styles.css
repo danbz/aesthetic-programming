@@ -134,3 +134,33 @@ h2, h3 {
     line-height: 11pt;
     column-fill: auto;
 }
+
+#book-index ul {
+  border-left: 0px;
+  padding-left: 0;
+}
+
+#book-index ul li {
+  margin: 0;
+  list-style-type: none;
+}
+
+#book-index ul li:before {
+  display: none;
+}
+
+.list-alphabet-element:not(:first-child) {
+  margin-top: 11pt;
+}
+
+.link-page a {
+  text-decoration: none;
+}
+
+.link-page a::after{ content: target-counter(attr(href), page); }
+
+.link-page::after{ content: ", "; }
+
+.link-page:last-of-type::after{ content: none; }
+
+.index-value::after{ content: " – "; }
