@@ -421,7 +421,7 @@ This is a relatively complex exercise that requires you to:
 
 [^api]: See Ashok K. Chandra and David Harel, "Computer Queries for Relational Data Bases," *Journal of Computer and System Sciences* 21, no.2 (1980): 156-178; Winnie Soon, *Executing Liveness: An Examination of the Live Dimension of Code Inter-actions in Software (Art) Practice*, PhD dissertation, Aarhus University (2016); Eric Snodgrass and Winnie Soon, "API practices and paradigms: Exploring the protocological parameters of APIs as key facilitators of sociotechnical forms of exchange," *First Monday* 24, no.2 (2019).
 
-[^soon]: Snodgrass and Soon, "API Practices and Paradigms."
+[^nag]: Since 1997, there are five different versions of *nag* that have been realized by seven programmers at various stages of the project. In 2003, Version 5 started using images from Google search, but this became broken in 2015. The current version, 5b was updated in 2017 by Winnie Soon, and this is the version that officially utilized Google Image Search API according to the specification. See <http://net.art-generator.com/>.
 
 [^extension]: *Extension* was sponsored by the Galerie der Gegenwart (Gallery of Contemporary Art) of the Hamburger Kunsthalle (Hamburg Art Museum). Despite the disproportionate number of submissions by female artists, only male artists were selected as finalists. After the decision was announced, Sollfrank went public. Some documentation for *Female Extension* can be found at <http://www.artwarez.org/femext/index.html>.
 
@@ -429,21 +429,31 @@ This is a relatively complex exercise that requires you to:
 
 [^hack]: Sollfrank employs Thomas Wulffen's phrase, in Cornelia Sollfrank, "Hacking the Art Operating System," interviewed by Florian Cramer, Chaos Computer Club, Berlin (2001).
 
-[^nag]: Since 1997, there are five different versions of *nag* that have been realized by seven programmers at various stages of the project. In 2003, Version 5 started using images from Google search, but this became broken in 2015. The current version, 5b was updated in 2017 by Winnie Soon, and this is the version that officially utilized Google Image Search API according to the specification. See <http://net.art-generator.com/>.
-
-[^pixel]: See the reference guide of `loadPixels()`, <https://p5js.org/reference/#/p5/loadPixels>.
-
-[^google1]: See <https://developers.google.com/custom-search/v1/overview>.
-
-[^google2]: See <https://cse.google.com/all>.
-
 [^json]: See <https://p5js.org/reference/#/p5/loadJSON>.
 
 [^img1]: See <https://p5js.org/reference/#/p5/loadImage>.
 
 [^img2]: See <https://p5js.org/reference/#/p5/image>.
 
+[^pixel]: See the reference guide of `loadPixels()`, <https://p5js.org/reference/#/p5/loadPixels>.
+
+[^key]: To request an API key from other image-related platforms, such as Giphy and Pexels, see <https://support.giphy.com/hc/en-us/articles/360020283431-Request-A-GIPHY-API-Key> and <https://www.pexels.com/api/>.
+
+[^google1]: See <https://developers.google.com/custom-search/v1/overview>.
+
+[^google2]: See <https://cse.google.com/all>.
+
 [^setting]: There are other optional parameters, see <https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters>.
+
+[^w3c]: See the recommendation of CORS by W3C, <https://www.w3.org/TR/cors/>.
+
+[^soon]: Snodgrass and Soon, "API Practices and Paradigms."
+
+[^nyu]: A tutorial on Image Processing in p5.js, see <https://idmnyu.github.io/p5.js-image/>.
+
+[^eckhardt]: Such a breakdown of an image into color scale pixels was also used in electronic television transmission in the mid-1930s, but in this case data was sent manually by a telegraph operator via the medium of Wire or Radio. See George H, Eckhardt, *Electronic television* (Chicago: Goodheart-Willcox Company, Incorporated, 1936), 48-50.
+
+[^debug]: There is a debugging tutorial was created for the p5.js contributor conference by Jason Alderman, Tega Brain, Taeyoon Choi and Luisa Pereira, see: <https://p5js.org/learn/debugging.html>.
 
 [^forensis]: Thomas Keenan and Eyal Weizman, *Mengele's Skull: The Advent of a Forensic Aesthetics* (Berlin: Sternberg Press, 2012); see also Matthew Kirschenbaum, *Mechanisms: New Media and the Forensic Imagination* (Cambridge, MA: MIT Press, 2008).
 
@@ -453,6 +463,8 @@ This is a relatively complex exercise that requires you to:
 
 [^Rouvroy2]: See Antoinette Rouvroy, "Technology, Virtuality and Utopia: Governmentality in an Age of Autonomic Computing," in Mireille Hildebrandt and Antoinette Rouvroy, eds., *Autonomic Computing and Transformations of Human Agency* (London: Routledge, 2011).
 
+[^noble]: Safiya Umoja Noble, *Algorithms of Oppression: How Search Engines Reinforce Racism* (New York: New York University Press, 2018), 24-25.
+
 [^Mackenzie1]: Adrian Mackenzie, "The Production of Prediction: What Does Machine Learning Want?" *European Journal of Cultural Studies* 18, nos.4-5 (2015): 431.
 
 [^Mackenzie2]: Mackenzie, "The Production of Prediction", 432.
@@ -461,16 +473,4 @@ This is a relatively complex exercise that requires you to:
 
 [^feminist]: Cornelia Sollfrank, ed. *Beautiful Warriors: Technofeminist Praxis in the Twenty-First Century* (New York: Autonomedia/Minor Compositions, 2019), 6.
 
-[^w3c]: See the recommendation of CORS by W3C, <https://www.w3.org/TR/cors/>.
-
-[^debug]: There is a debugging tutorial was created for the p5.js contributor conference by Jason Alderman, Tega Brain, Taeyoon Choi and Luisa Pereira, see: <https://p5js.org/learn/debugging.html>.
-
-[^nyu]: A tutorial on Image Processing in p5.js, see <https://idmnyu.github.io/p5.js-image/>.
-
-[^key]: To request an API key from other image-related platforms, such as Giphy and Pexels, see <https://support.giphy.com/hc/en-us/articles/360020283431-Request-A-GIPHY-API-Key> and <https://www.pexels.com/api/>.
-
 [^Oauth]: For those APIs that require the OAuth 2.0 authorization, a standard protocol for authorization, you might need Node.js (<https://nodejs.org/en/>) to handle the server-client authentication. At the beginner level, it is recommended to look for web APIs with the registration of API keys. See what Node is for 15.1 and 15.2 (<https://www.youtube.com/watch?v=RF5_MPSNAtU&index=1&list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV>), and the OAuth 2.0 Authorization Framework that is proposed by Internet Engineering Task Force in 2012 (<https://tools.ietf.org/html/rfc6749>).
-
-[^eckhardt]: Such a breakdown of an image into color scale pixels was also used in electronic television transmission in the mid-1930s, but in this case data was sent manually by a telegraph operator via the medium of Wire or Radio. See George H, Eckhardt, *Electronic television* (Chicago: Goodheart-Willcox Company, Incorporated, 1936), 48-50.
-
-[^noble]: Safiya Umoja Noble, *Algorithms of Oppression: How Search Engines Reinforce Racism* (New York: New York University Press, 2018), 24-25.

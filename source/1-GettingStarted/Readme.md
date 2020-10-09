@@ -274,6 +274,8 @@ Make a RunMe and a ReadMe.
 
 [^Rushkoff]: We take this from Douglas Rushkoff's *Program or Be Programmed: Ten Commandments for a Digital Age* (New York: OR books, 2010).
 
+[^library]: A library is a collection of resource in the form of code containing programming functions and their details. Those functions can be used to develop software programs and applications.
+
 [^Severance]: Charles Severance, "Javascript: Designing a Language in 10 Days," *IEEE Computer Society*, February (2012), 7-8.
 
 [^Clark]: Lin Clark works at Mozilla and turns code into cartoons. Here she explains how JavaScript is run in the browser, see <https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/>.
@@ -290,6 +292,10 @@ Make a RunMe and a ReadMe.
 
 [^Processing]: See Processing.org.
 
+[^student]: The lack of gender diversity is also reflected in the Aesthetic Programming course feedback in 2017, with a student commenting that "code is not a gentlemen's club that only belongs to computer scientists."
+
+[^laczko]: Artist Juli Laczko's research and practice address the issue of gender and stereotyping in the history of computing. One of the examples is the artwork *webmachine*, which is a reversed analog weaving computer. It is an online software piece that uses punch card technology to translate a binary text into visual code. The project looks into the history and labor practices of weaving and how culture reinforces stereotypes in computing. See <https://digital-power.siggraph.org/piece/webmachine/>.
+
 [^McCarthy]: Lauren McCarthy, "P5js Diversity & Floss Panel Introduction" (2015). Video available at <http://opentranscripts.org/transcript/p5js-diversity-floss-panel-introduction/>.
 
 [^Chinese]: p5.js is now available in Spanish, see Maya Man, *Processing Foundation* (2016), available at <https://medium.com/processing-foundation/p5-js-is-now-available-in-spanish-3d1eab9dffa0>; see also Kenneth Lim, Chinese Translation for p5.js and preparing a future of more translations (2018), available at <https://medium.com/processing-foundation/chinese-translation-for-p5-js-and-preparing-a-future-of-more-translations-b56843ea096e>.
@@ -299,6 +305,8 @@ Make a RunMe and a ReadMe.
 [^UX]: A UX-research project by Claire Kearney-Volpe, <https://www.clairekv.com/p5js-ux-research>.
 
 [^Choi]: A project by artist and educator Taeyoon Choi, <http://taeyoonchoi.com/soft-care/signing-coders/>.
+
+[^chun]: Chun politicizes the concept of software, and, in particular, she traces the history of automatic programming, the rise of the binary distinction between hard and software, as well as the erasure of gazes. See Wendy Hui Kyong Chun, “On Software, or the Persistence of Visual Knowledge,” *Grey Room* 18 (January 2005): 26–51. <https://doi.org/10.1162/1526381043320741>.
 
 [^Atom]: <https://atom.io/>.
 
@@ -316,13 +324,19 @@ Make a RunMe and a ReadMe.
 
 [^Babel]: *The Tower of Babel*, designed to reach heaven, displeased God such that "he" decided to confound the single language of Adam so that people would not understand each other’s speech (*Genesis* 2:19 & 11:1-9). Subsequently everyone is left to "babble" in a diversity of languages the so-called confusion of tongues. The code expresses this confusion, but also invokes free speech, allowing the web browser to "speak" through software according to what it is said/written. "It is both a computer-readable notation of logic and a representation of this process, both script and performance; and in this sense it is like spoken words" as Cox reminds us. See Geoff Cox, *Speaking Code: Coding as Aesthetic and Political Expression* (Cambridge, Mass: MIT Press, 2013), 3.
 
-[^Reference]: See <https://p5js.org/reference/>.
-
 [^ellipse]: See <https://p5js.org/reference/#/p5/ellipse>.
+
+[^runme]: To run the JavaScript via GitLab on a web browser, you need to do some configuration in the repository before uploading any source code. A new file (.gitlab-ci.yml) is created in the root of the project repository, containing a set of jobs and their specifications that are required to run on GitLab. You can follow GitLab's guidelines (in terms of the code in the yml file as well as the use of repository as a website) here, <https://gitlab.com/pages/plain-html/-/blob/master/README.md>.
+
+[^readme]: The readme file is structured in a markdown format with the file extension as ".md". It is a lightweight markup language supporting simple text formatting with special syntax. Files with this extension can be processed by GitLab and display in a more readable form visually on the web. For more about the syntax of writing in markdown, see: <https://docs.gitlab.com/ee/user/markdown.html>.
 
 [^Git]: This discussion is summarized at <https://stackoverflow.com/questions/43959748/what-is-the-abbreviation-of-git>.
 
+[^p5Community]: See <https://github.com/processing/p5.js/wiki>.
+
 [^GNUGPL]: See <https://www.gnu.org/licenses/lgpl-3.0.txt>.
+
+[^term]: Not before time many software communities have decided to stop using "master-slave," such as Django and Python, and have replaced with alternative terms. See, <https://tools.ietf.org/id/draft-knodel-terminology-00.html#rfc.section.1.1>. According to Ron Eglash, the term master-slave suggests the element of control in a dependent relationship, however it is not accurately described technically and has further raised the ethical issues in using broken metaphor in computing. See, Ron Eglash, "Broken Metaphor: The Master-Slave Analogy in Technical Literature," *Technology and Culture* 48, no.2 (2007): 360–69. <https://doi.org/10.1353/tech.2007.0066>.
 
 [^Spender]: Foundational reading on this issue would be Dale Spender's *Man-Made Language* (1980), <https://www.marxists.org/reference/subject/philosophy/works/ot/spender.htm>.
 
@@ -336,26 +350,12 @@ Make a RunMe and a ReadMe.
 
 [^Graham]: See Harwood's "Class Library", in Fuller ed., *Software Studies*, 37-39.
 
+[^class]: See, <https://p5js.org/reference/#/p5/class>.
+
 [^Vee3]: Vee, *Coding Literacy*.
 
 [^Kelty]: This point is largely derived from Kelty's *Two Bits*, which uses the phrase "running code" to describe the relationship between "argument-by-technology and argument-by-talk." See Christopher Kelty *Two Bits: the Cultural Significance of Free Software* (Durham: Duke University Press, 2008), 58. Clearly programmers are able to make arguments as people can in other rhetorical forms, see Kevin Brock, *Rhetorical Code Studies: Discovering Arguments in and around Code* (Ann Arbor, MN: University of Michigan Press, 2019).
 
-[^readme]: The readme file is structured in a markdown format with the file extension as ".md". It is a lightweight markup language supporting simple text formatting with special syntax. Files with this extension can be processed by GitLab and display in a more readable form visually on the web. For more about the syntax of writing in markdown, see: <https://docs.gitlab.com/ee/user/markdown.html>.
-
-[^runme]: To run the JavaScript via GitLab on a web browser, you need to do some configuration in the repository before uploading any source code. A new file (.gitlab-ci.yml) is created in the root of the project repository, containing a set of jobs and their specifications that are required to run on GitLab. You can follow GitLab's guidelines (in terms of the code in the yml file as well as the use of repository as a website) here, <https://gitlab.com/pages/plain-html/-/blob/master/README.md>.
-
-[^p5Community]: See <https://github.com/processing/p5.js/wiki>.
-
-[^chun]: Chun politicizes the concept of software, and, in particular, she traces the history of automatic programming, the rise of the binary distinction between hard and software, as well as the erasure of gazes. See Wendy Hui Kyong Chun, “On Software, or the Persistence of Visual Knowledge,” *Grey Room* 18 (January 2005): 26–51. <https://doi.org/10.1162/1526381043320741>.
-
-[^library]: A library is a collection of resource in the form of code containing programming functions and their details. Those functions can be used to develop software programs and applications.
-
 [^webeditor]: Processing Foundation has announced the official release of the p5.js Web Editor in 2018, which is an online platform for learning and running code, and it is easy to get started with no additional installation of software. See <https://medium.com/processing-foundation/hello-p5-js-web-editor-b90b902b74cf>.
 
-[^term]: Not before time many software communities have decided to stop using "master-slave," such as Django and Python, and have replaced with alternative terms. See, <https://tools.ietf.org/id/draft-knodel-terminology-00.html#rfc.section.1.1>. According to Ron Eglash, the term master-slave suggests the element of control in a dependent relationship, however it is not accurately described technically and has further raised the ethical issues in using broken metaphor in computing. See, Ron Eglash, "Broken Metaphor: The Master-Slave Analogy in Technical Literature," *Technology and Culture* 48, no.2 (2007): 360–69. <https://doi.org/10.1353/tech.2007.0066>.
-
-[^class]: See, <https://p5js.org/reference/#/p5/class>.
-
-[^laczko]: Artist Juli Laczko's research and practice address the issue of gender and stereotyping in the history of computing. One of the examples is the artwork *webmachine*, which is a reversed analog weaving computer. It is an online software piece that uses punch card technology to translate a binary text into visual code. The project looks into the history and labor practices of weaving and how culture reinforces stereotypes in computing. See <https://digital-power.siggraph.org/piece/webmachine/>.
-
-[^student]: The lack of gender diversity is also reflected in the Aesthetic Programming course feedback in 2017, with a student commenting that "code is not a gentlemen's club that only belongs to computer scientists."
+[^Reference]: See <https://p5js.org/reference/>.

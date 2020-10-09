@@ -78,15 +78,19 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 
 [^useful]: The book aims to provide some "useful knowledge." Here we refer to nonstandard literacy, such as in the article: Marilyn M. Cooper, "Really Useful Knowledge: A Cultural Studies Agenda for Writing Centers," *The Writing Center Journal* 14, no. 2 (Spring 1994): 97-111, <https://www.jstor.org/stable/43441948>.
 
+[^guzdial]: Mark Guzdial suggests there are other purposes for programming beyond the normative focus on economic impact and the development of professionals for the software industry that open up various possibilities for learning and teaching programming. See Mark Guzdial, "Computing for Other Disciplines," in *The Cambridge Handbook of Computing Education Research*, Sally A. Fincher and Anthony V. Robins, eds. (Cambridge: Cambridge University Press, 2019), 584, <https://doi.org/10.1017/9781108654555.020>.
+
 [^ct]: Seymour Papert's influential book *Mindstorms* from 1980 introduced computing to children's learning. He coined the term "computuational thinking" to emphasize the practice of constructing procedures with the early programming language Logo (which does not simply use software as a tool), aiming to bridge the gap between mathematics, the culture of science and education as well as social critique. Donald Knuth made the concept of literacy more apparent in the book *Literate Programming* and considered a program literature which involves viewing programming languages as natural languages for human readers. In recent years the notion of computational thinking was also picked up by scholars in the field software studies, such as David Berry, Matthew Fuller, Nick Montfort and Annette Vee. See Seymour Papert, *Mindstorms; Children, Computers and Powerful Ideas* (New York: Basic Books, 1980); Donald Ervin Knuth, *Literate Programming* CSLI Lecture Notes, no. 27 (Stanford, CA: Center for the Study of Language and Information, 1992); Jeannette M. Wing, "Computational Thinking," *Commun. ACM* 49, no. 3 (March 2006): 33–35; Michael, Mateas, "Procedural Literacy: Educating the New Media Practitioner," *Horizon* 13, no. 2 (June 1, 2005): 101–11; David M. Berry, and Anders Fagerjord, *Digital Humanities: Knowledge and Critique in a Digital Age* (Hoboken, NJ: John Wiley & Sons, 2017); Matthew Fuller, *How to be a Geek: Essays on the Culture of Software* (Cambridge: Polity Press, 2017); Nick Montfort, *Exploratory Programming for the Arts and Humanities* (Cambridge, MA: MIT Press, 2016); Annette Vee, *Coding Literacy: How Computer Programming Is Changing Writing* (Cambridge, MA: MIT Press, 2017); Ole Sejer Iversen, Rachel Charlotte Smith and Christian Dindler, "From computational thinking to computational empowerment: a 21st century PD agenda," *Proceedings of the 15th Participatory Design Conference Full Papers - Volume 1*, no. 7 (August 2018): 1-11.
 
 [^Fuller]: Software studies is an interdisciplinary research field that studies software and its social and cultural effects, see Matthew Fuller, ed. *Software Studies: A Lexicon* (Cambridge, MA: MIT Press, 2008).
 
+[^decolonial]: See, for instance, Syed Mustafa Ali's "A Brief Introduction to Decolonial Computing," *XRDS: Crossroads, The ACM Magazine for Students* 22, no. 4 (2016): 16–21.
+
 [^Refs]: Here we are referring to John Maeda, *Creative Code: Aesthetics + Computation* (London: Thames & Hudson, 2004); Kylie A. Peppler and Yasmin B. Kafai, "Creative coding: Programming for personal expression," *The 8th International Conference on Computer Supported Collaborative Learning (CSCL)* 2 (2009): 76-78; Montfort, *Exploratory Programming for the Arts and Humanities*; Noah Wardrip-Fruin, *Expressive Processing: Digital Fictions, Computer Games, and Software Studies* (Cambridge, MA: MIT Press, 2012).
 
-[^people]: Special mention should be made of Magda Tyżlik-Carver and Christian Ulrik Andersen who have contributed to the teaching of these courses, as well as teaching assistants including Frederik Westergaard, Nils Rungholm Jensen, Tobias Stenberg, Malthe Stavning Erslev, Ann Karring, Simone Morrison, Nynne Lucca Christianen, Ester Marie Aagaard, and Noah Aamund.
-
 [^students]: Our blend between formal logic and conceptual thinking is designed to open up space for further reflection. As one of our students commented in 2018, "Aesthetic Programming was not just programming 1.1, but instead a much more reflective and critical course." And from student feedback from the 2019 course, a student commented that the course structure provides "a hands-on experience with coding as a practice as well as a theoretical approach. [...] It was great to see behind the code and try to decode the greater picture in a digital culture context."
+
+[^people]: Special mention should be made of Magda Tyżlik-Carver and Christian Ulrik Andersen who have contributed to the teaching of these courses, as well as teaching assistants including Frederik Westergaard, Nils Rungholm Jensen, Tobias Stenberg, Malthe Stavning Erslev, Ann Karring, Simone Morrison, Nynne Lucca Christianen, Ester Marie Aagaard, and Noah Aamund.
 
 [^Ranciere]: Jacques Rancière, *The Politics of Aesthetics* (London: Continuum, 2006), investigates what aesthetics and politics have in common: according to Rancière, the delimitation of the thinkable and the unthinkable, the possible and the impossible.
 
@@ -102,7 +106,11 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 
 [^Tsing2]: Tsing, *The Mushroom at the End of the World*, 23.
 
+[^agre]: Philip E. Agre, "Toward a critical technical practice: Lessons learned in trying to reform AI," in Geoffrey Bowker, Susan Leigh Star, William A Turner, William Turner, Les George Gasser, eds., *Bridging the Great Divide: Social Science, Technical Systems, and Cooperative Work* (ACM Digital Library, 1997). <https://dl.acm.org/doi/book/10.5555/549261>.
+
 [^Chun]: Wendy Chun has studied both Systems Design Engineering and English Literature, which she combines and mutates in her current work, see <https://en.wikipedia.org/wiki/Wendy_Hui_Kyong_Chun>. Yuk Hui studied both Computer Engineering and Philosophy, see <http://digitalmilieu.net/yuk/>.
+
+[^agre1]: Agre, "Toward a critical technical practice".
 
 [^Williams]: Fuller, ed. *Software Studies*; Raymond Williams, *Keywords: A Vocabulary of Culture and Society* (London: Fontana, 1983); updated by Blackwell in 2005 as *New Keywords: A Revised Vocabulary of Culture and Society*.
 
@@ -111,6 +119,8 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 [^Readme]: We were highly influenced by the series of *Readme* festivals that promoted the artistic and experimental practice of software, which took place at the Marcros-Center in Moscow (2002), Media Centre Lume in Helsinki (2003), Aarhus University and Rum46 in Aarhus (2004), and HMKV in Dortmund (2005). The associated software art repository Runme.org was established in 2003, and many participants and people who submitted their works did not necessarily call themselves artists. Indeed the category of art in itself becomes inadequate to cover the kinds of creatives practices that have developed in the field. As an annual festival for art and digital culture, transmediale had started to use 'artistic software' or 'software art' from 2001-2004. Many artists and researchers have contextualized and written about the genre of software art, see Florian Cramer, and Ulrike Gabriel, "Software Art," American Book Review, issue “Codeworks”(Alan Sondheim, ed.) (2001); Goriunova, Olga, and Alexei Shulgin. *read_me: Software Art & Cultures* (Aarhus: Aarhus Universitetsforlag, 2004); Andreas Broeckmann, "Software Art Aesthetics," *Mono* 1 (2007): 158-167.
 
 [^codestudies]: The field Critical Code Studies (CCS) makes this explicit, promoting the examination of source code as a cultural object for critical analysis. As Mark Marino suggests that CCS pays attention to code as textual materials and its main argument is that code itself can be considered as a "cultural text worthy of analysis and rich with possibilities for interpretation", and furthermore, code allows one to reflect "on the relations between the code itself, the coding architecture, the functioning of code, and specific programming choices or expressions, to that which it acts upon, outputs, processes, and represents". See Mark C. Marino, “[Critical Code Studies](https://electronicbookreview.com/essay/critical-code-studies/)”, *Electronic Book Review* (December 4, 2006); "Field Report for Critical Code Studies," *Computational Culture* 4 (9th November 2014), <http://computationalculture.net/field-report-for-critical-code-studies-2014%e2%80%a8/>; Mark C. Marino, *Critical Code Studies* (Cambridge, MA: MIT Press, 2020).
+
+[^Arns]: Inke Arns, "Read_me, run_me, execute_me: Code as Executable Text: Software Art and its Focus on Program Code as Performative Text," trans. Donald Kiraly, *MediaArtNet* (2004), <http://www.mediaartnet.org/themes/generative-tools/read_me/1/>.
 
 [^OHP]: For more on Open Humanities Press, see <https://openhumanitiespress.org/>.
 
@@ -124,40 +134,30 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 
 [^Git]: As a dynamic repository Git collapses the distinction between storage and production. For more on Git, see Matthew Fuller, Andrew Goffey, Adrian Mackenzie, Richard Mills and Stuart Sharples, "Big Diff, Granularity, Incoherence, and Production in the Github Software Repository," in Matthew Fuller, *How To Be a Geek: Essays on the Culture of Software* (Cambridge: Polity Press, 2017).
 
-[^kitchen]: See OSP's home page and note the URL: <http://osp.kitchen/>.
-
-[^Benjamin2]: Walter Benjamin, "The Author as Producer" [1935], quoted in Geoff Cox and Joasia Krysa, eds. *Engineering Culture: On the Author as (Digital) Producer* (New York, Autonomedia, 2005), 22.
+[^graphviz]: The flowcharts for each chapter are programmed with Graphviz, open source software for graph visualization. All the source code is provided in the folder "graphviz" on the GitLab repository. See <https://graphviz.org/>.
 
 [^diagram]: Stephen Morris and Orlena Gotel, "The Role of Flow Charts in the Early Automation of Applied Mathematics," *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44–52, <https://doi.org/10.1080/17498430903449207>.
 
-[^agre]: Philip E. Agre, "Toward a critical technical practice: Lessons learned in trying to reform AI," in Geoffrey Bowker, Susan Leigh Star, William A Turner, William Turner, Les George Gasser, eds., *Bridging the Great Divide: Social Science, Technical Systems, and Cooperative Work* (ACM Digital Library, 1997). <https://dl.acm.org/doi/book/10.5555/549261>.
-
-[^agre1]: Agre, "Toward a critical technical practice".
-
-[^teaching]: You can find the curriculum and the messy notes for recent years’ Aesthetic Programming courses here: <https://gitlab.com/siusoon/aesthetic-programming/-/tree/master/>.
-
-[^readcode]: The field of Critical Code Studies considers source code a cultural text for critical reading and interpretation beyond the understanding of how this code works technically and functionally. See Marino, *Critical Code Studies*.
-
 [^shiffman]: We extend our appreciation to the many educators’ various ways of presenting code which this book was built on. In particular, we would like to acknowledge and thank Daniel Shiffman for his *The Coding Train* YouTube channel that offers excellent creative coding tutorials for us and our students to learn programming in an accessible manner. Since the basics are clearly covered in the instruction videos, students subsequently find it easier to digest the materials in this book providing room for alternative forms to take place.  
-
-[^graphviz]: The flowcharts for each chapter are programmed with Graphviz, open source software for graph visualization. All the source code is provided in the folder "graphviz" on the GitLab repository. See <https://graphviz.org/>.
 
 [^dual]: Here we once again reference the series of Readme festivals, as well as the Runme.org software art repository, <http://runme.org/>.
 
 [^papert]: A concept first formulated by mathematician, computer scientist, and educator Seymour Papert, MIT Professor, who created a design principle for a programming language called Logo. See Seymour Papert, *Mindstorms: Children, Computers, and Powerful Ideas* (New York: Basic Books, 1980).
 
-[^Arns]: Inke Arns, "Read_me, run_me, execute_me: Code as Executable Text: Software Art and its Focus on Program Code as Performative Text," trans. Donald Kiraly, *MediaArtNet* (2004), <http://www.mediaartnet.org/themes/generative-tools/read_me/1/>.
+[^readcode]: The field of Critical Code Studies considers source code a cultural text for critical reading and interpretation beyond the understanding of how this code works technically and functionally. See Marino, *Critical Code Studies*.
 
-[^decolonial]: See, for instance, Syed Mustafa Ali's "A Brief Introduction to Decolonial Computing," *XRDS: Crossroads, The ACM Magazine for Students* 22, no. 4 (2016): 16–21.
+[^kitchen]: See OSP's home page and note the URL: <http://osp.kitchen/>.
 
-[^guzdial]: Mark Guzdial suggests there are other purposes for programming beyond the normative focus on economic impact and the development of professionals for the software industry that open up various possibilities for learning and teaching programming. See Mark Guzdial, "Computing for Other Disciplines," in *The Cambridge Handbook of Computing Education Research*, Sally A. Fincher and Anthony V. Robins, eds. (Cambridge: Cambridge University Press, 2019), 584, <https://doi.org/10.1017/9781108654555.020>.
+[^situatedness]: By "situated knowledge," we refer to the work of Donna Haraway, and others broadly in the field of feminist new materialism, to think outside of spurious universal and objective forms of knowledge. See Donna Haraway, "Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective." *Feminist Studies* 14, no. 3 (1988): 575-599.
+
+[^teaching]: You can find the curriculum and the messy notes for recent years’ Aesthetic Programming courses here: <https://gitlab.com/siusoon/aesthetic-programming/-/tree/master/>.
 
 [^barad]: We are referring to feminist new materialism here, and in particular Karen Barad's thinking, cutting "together/apart" how-to guides, across the fields of computer science, art, cultural studies, critical theory, and software studies. See Karen Barad, *Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning* (Durham, NC: Duke University Press, 2007).
 
-[^gabrys]: Jennifer Gabrys outlines her "how-to" approach in the "Introduction" to *How to Do Things with Sensors* (Minneapolis, MN: University of Minnesota Press, 2019). We'd like to think we were doing something along these lines too.
-
-[^britton]: The notion of "doing thinking" suggests non-standard ways of knowing that draws upon artistic research and technofeminism in computing. See Loren Britton, Goda Klumbyte, and Claude Draude, “Doing Thinking: Revisiting Computing with Artistic Research and Technofeminism.” *Digital Creativity* 30, no. 4 (October 2, 2019): 313–28, <https://doi.org/10.1080/14626268.2019.1684322>.
-
 [^fork]: The whole repository, including the text, source code for all sample code and flowcarts, is currently hosted on GitLab as an open source project with a Creative Commons License. You are encouraged to fork a copy if you have a GitLab account or download the whole repository (by pressing the blue "Clone" button). See <https://gitlab.com/siusoon/Aesthetic_Programming_Book>.
 
-[^situatedness]: By "situated knowledge," we refer to the work of Donna Haraway, and others broadly in the field of feminist new materialism, to think outside of spurious universal and objective forms of knowledge. See Donna Haraway, "Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective." *Feminist Studies* 14, no. 3 (1988): 575-599.
+[^gabrys]: Jennifer Gabrys outlines her "how-to" approach in the "Introduction" to *How to Do Things with Sensors* (Minneapolis, MN: University of Minnesota Press, 2019). We'd like to think we were doing something along these lines too.
+
+[^Benjamin2]: Walter Benjamin, "The Author as Producer" [1935], quoted in Geoff Cox and Joasia Krysa, eds. *Engineering Culture: On the Author as (Digital) Producer* (New York, Autonomedia, 2005), 22.
+
+[^britton]: The notion of "doing thinking" suggests non-standard ways of knowing that draws upon artistic research and technofeminism in computing. See Loren Britton, Goda Klumbyte, and Claude Draude, “Doing Thinking: Revisiting Computing with Artistic Research and Technofeminism.” *Digital Creativity* 30, no. 4 (October 2, 2019): 313–28, <https://doi.org/10.1080/14626268.2019.1684322>.

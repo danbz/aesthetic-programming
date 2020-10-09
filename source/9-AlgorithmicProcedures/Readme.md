@@ -164,29 +164,76 @@ Group:
 
 ## Notes
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Taina Bucher, *If...Then: Algorithmic Power and Politics* (Oxford: )Oxford University Press, 2018), 21.
+
 [^krysa]: The recipe analogy of algorithms was developed in Joasia Krysa and Grzesiek Sedek's "Source Code" entry to *Software Studies: A Lexicon*, 236-243. The analogy can also be found in recent texts, for instance: Ed Finn, *What Algorithms Want: Imagination in the Age of Computing* (Cambridge, MA: MIT Press, 2017), 17; and Taina Bucher, *If...Then: Algorithmic Power and Politics* (Oxford: Oxford University Press, 2018), 21.
 
 [^knuth0]: Knuth, *The Art of Computer Programming*, xv. Alongside the listed procedures, the book begins with a flowchart for reading the book, the significance of which will become obvious later in this chapter, and something we have also used for the individual chapters and contents page of this book.
 
 [^knuth]: Knuth, *The Art of Computer Programming*, xv-xvi.
 
-[^bucher]: Bucher, *If...Then: Algorithmic Power and Politics*, 20.
+[^knuth2]: Knuth, *The Art of Computer Programming*, v.
 
 [^algo]: The term "algorithm" has a historical relation to "algorism" as the process of doing arithmetic using Arabic numerals (originating from the title of the book Kitab al jabr w'al-muqabala (Rules of restoration and reduction) written by Persian author Abu Ja'far Mohammed ibn Musa al-Khowarizmi (ca. 825).  
 
-[^knuth2]: Knuth, *The Art of Computer Programming*, v.
+[^complete]: Most modern programming languages are "Turing-complete," a term used to describe abstract machines, that can emulate a Turing machine. See Chapter 5, "Auto-generator," for more on Turing machines.
 
 [^first]: In particular to the complexity of the diagram for calculating Bernoulli numbers that includes the grouping of operations, the invention of the loop concept (repetition and cycle in Lovelace's term), the manipulation of symbols and variables in accordance with rules. Such algorithm were designed to be used in mechanical caluclating machines. At the time, the Babbage Analytical Engine was conceptually close to modern computers as it was envisioned as capable of more than just computation. See Luigi Federico Menabrea and Ada Lovelace, *Sketch of the analytical engine invented by Charles Babbage* (1842), 694.
 
 [^ada2]: Lovelace Papers, Bodleian Library, Oxford University, 42, folio 12 (February 6, 1841), as quoted, and cited in Dorothy Stein, ed., "This First Child of Mine," in *Ada: A Life and a Legacy* (1985), 106–107.
 
+[^constant]: Peggy Pierrot, Martino Morandi, Anita Burato, Christoph Haag, Michael Murtaugh, Femke Snelting, and Seda Gürses, *The Techno-galactic guide to software observation* (Brussels: Constant, 2018), 175-186.
+
 [^Ferranti]: Ferranti Limited, Ferranti Pegasus Computer, programming manual, Issue 1, List CS 50,September 1955.
 
-[^Guattari]: In Guattari's terms, "the diagram is conceived as an autopoetic machine which not only gives it a functional and material consistency, but requires it to deploy its diverse registers of alterity, freeing it from an identity locked into simple structural relations." Félix Guattari, "Machinic Heterogenesis," *Chaosmosis: An Ethico-Aesthetic Paradigm* (Bloomington, IN: Indiana University Press, 1995), 44. "Freeing" here applies to escaping a pre-determined "diagrammatic order" imposed on the machine — algorithmically perhaps.
-
-[^flowcharts2]: See Stephen Morris and Orlena Gotel, "The Role of Flow Charts in the Early Automation of Applied Mathematics," *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44–52, <https://doi.org/10.1080/17498430903449207>; and Nathan Ensmenger, "The Multiple Meanings of a Flowchart," *Information & Culture: A Journal of History* 51, no.3 (2016): 321–51, <https://doi.org/10.1353/lac.2016.0013>.
-
 [^stereotype]: Viewing programming as a social activity undermines some of the predominant stereotypes associated with activity such as the stereotypical image of the antisocial hacker (male, bearded, unwashed). For more on the benefits of collaborative working, see Chih Wei Ho, et al, "Examining the impact of pair programming on female students," North Carolina State University. Dept. of Computer Science (2004).
+
+[^program]: In a teaching setting, we have a group prepare to present this problem and how they approach this both technically and conceptually to make them think about the significance of sorting in a wider cultural context. The other students then start the class with this sorting exercise and focus on algorithmic procedures. Here is one of the many ways of implementing the sorting problem. See <https://editor.p5js.org/siusoon/sketches/7g1F594D5>.
+
+[^Guattari]: In Guattari's terms, "the diagram is conceived as an autopoetic machine which not only gives it a functional and material consistency, but requires it to deploy its diverse registers of alterity, freeing it from an identity locked into simple structural relations." Félix Guattari, "Machinic Heterogenesis," *Chaosmosis: An Ethico-Aesthetic Paradigm* (Bloomington, IN: Indiana University Press, 1995), 44. "Freeing" here applies to escaping a pre-determined "diagrammatic order" imposed on the machine — algorithmically perhaps.
 
 [^ex]: You can find an illustration of the simple program at <https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/blob/master/source/9-AlgorithmicProcedures/emoji_flowchart.svg>.
 
@@ -204,10 +251,9 @@ Group:
 
 [^kindle]: A fuller description of the Kindle platform can be found at <https://kdp.amazon.com/en_US/>.
 
-[^fin]: Finn, *What Algorithms Want: Imagination in the Age of Computing*, 34.
+[^bucher]: Bucher, *If...Then: Algorithmic Power and Politics*, 20.
 
-[^recipe]: Although the concept of algorithm is rooted in computer science, scholars from other fields like cultural and media studies take on the technical concept of algorithm and explore its wider cultural consequences and political implications. The analogy of algorithms as recipes can also be seen here: Ed Finn, *What Algorithms Want: Imagination in the Age of Computing* (Cambridge, MA: MIT Press, 2017), 17; and
-Taina Bucher, *If...Then: Algorithmic Power and Politics* (Oxford: )Oxford University Press, 2018), 21.
+[^fin]: Finn, *What Algorithms Want: Imagination in the Age of Computing*, 34.
 
 [^goffey]: Andrew Goffey, "Algorithm," in Fuller, ed. *Software Studies*, 19.
 
@@ -225,14 +271,12 @@ Taina Bucher, *If...Then: Algorithmic Power and Politics* (Oxford: )Oxford Unive
 
 [^osullivan2]: This description also mirrors the way the diagrams operate across time: "Might this diagrammatics also involve a different take on relations among the past, present, and future? This is the 'drawing' of lines between different times, the building of circuits and the following of feedback loops; it is to understand time as specific to any given system (or practice) and not as neutral background. This might involve diagramming the way a different kind of future can work back on the present (and determine how we act or make in the here and now). Or, indeed, diagramming how the present itself can involve a re-engineering of the past (understood as resource and living archive) that will then allow a different kind of future to emerge." O’Sullivan, "On the Diagram (and a Practice of Diagrammatics)," 24.
 
-[^prediction]: Adrian Mackenzie, "The Production of Prediction: What Does Machine Learning Want?", *European Journal of Cultural Studies* 18, no.4-5 (2015): 429–445.
-
 [^ML1]: Adrian Mackenzie, *Machine Learners: Archaeology of a Data Practice* (Cambridge, MA: MIT Press, 2017), 23.
 
 [^ML2]: Mackenzie, *Machine Learners: Archaeology of a Data Practice*, 17.
 
-[^program]: In a teaching setting, we have a group prepare to present this problem and how they approach this both technically and conceptually to make them think about the significance of sorting in a wider cultural context. The other students then start the class with this sorting exercise and focus on algorithmic procedures. Here is one of the many ways of implementing the sorting problem. See <https://editor.p5js.org/siusoon/sketches/7g1F594D5>.
+[^recipe]: Although the concept of algorithm is rooted in computer science, scholars from other fields like cultural and media studies take on the technical concept of algorithm and explore its wider cultural consequences and political implications. The analogy of algorithms as recipes can also be seen here: Ed Finn, *What Algorithms Want: Imagination in the Age of Computing* (Cambridge, MA: MIT Press, 2017), 17; and
 
-[^complete]: Most modern programming languages are "Turing-complete," a term used to describe abstract machines, that can emulate a Turing machine. See Chapter 5, "Auto-generator," for more on Turing machines.
+[^prediction]: Adrian Mackenzie, "The Production of Prediction: What Does Machine Learning Want?", *European Journal of Cultural Studies* 18, no.4-5 (2015): 429–445.
 
-[^constant]: Peggy Pierrot, Martino Morandi, Anita Burato, Christoph Haag, Michael Murtaugh, Femke Snelting, and Seda Gürses, *The Techno-galactic guide to software observation* (Brussels: Constant, 2018), 175-186.
+[^flowcharts2]: See Stephen Morris and Orlena Gotel, "The Role of Flow Charts in the Early Automation of Applied Mathematics," *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44–52, <https://doi.org/10.1080/17498430903449207>; and Nathan Ensmenger, "The Multiple Meanings of a Flowchart," *Information & Culture: A Journal of History* 51, no.3 (2016): 321–51, <https://doi.org/10.1353/lac.2016.0013>.
