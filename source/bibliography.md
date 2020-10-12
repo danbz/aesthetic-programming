@@ -189,6 +189,7 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London: 
 - ———. “The Production of Prediction: What Does Machine Learning Want?.” *European Journal of Cultural Studies* 18 (August, 2015): 429-445.
 - Mackenzie, Adrian, and Anna Munster. “Platform Seeing: Image Ensembles and Their Invisualities.” *Theory, Culture & Society* 26 (2019): 3–22.
 - Madsen, Ole Lehrmann, Birger Møller-Pedersen, and Kristen Nygaard. *Object-Oriented Programming in the BETA Programming Language*. New York, NY: Association for Computing Machinery (1993): 16–18.
+- Magoun, Alexander B., and Paul Israel. "Did You Know? Edison Coined the Term "Bug"." *IEEE Spectrum* (August 1, 2013). <https://spectrum.ieee.org/the-institute/ieee-history/did-you-know-edison-coined-the-term-bug>.
 - Malevé, Nicolas. “The Cat Sits on the Bed: Pedagogies of vision in human and machine learning.” *Unthinking Photography* (September 2016). <https://unthinking.photography/articles/the-cat-sits-on-the-bed-pedagogies-of-vision-in-human-and-machine-learning>.
 - ———. “An Introduction to Image Datasets.” *Unthinking Photography* (November 2019). <https://unthinking.photography/articles/an-introduction-to-image-datasets>.
 - Mandel, Lois. "The Computer Girls." *Cosmopolitan* (April 1967): 52-56.

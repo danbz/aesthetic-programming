@@ -310,13 +310,13 @@ The outer frame and the image are only drawn once with the update of the status 
 
 This section with the pixel and color elements shows how a computer processes and stores an image as data which is fundamentally different from how humans see and perceive it.[^eckhardt] It is also a way to demonstrate how an image object is being translated into numbers for computation, which is somewhat similar to the example of face tracking in Chapter 4, "Data capture," in which a pixel can be located at a scale beyond human perception. These examples may help you understand contemporary applications like tracking technology and even computer vision that employs machine learning techniques in which images function as training data (we return to this in Chapter 10).
 
-## Different types of errors
+## Different types of %bugs%
 
-At this stage – as you have developed your programming skills and your programs are becoming more complex – it is important to understand, identify, and locate errors (as part of what is known as the debugging process[^debug]) so that you can build a workable sketch.
+In computing history, the term bug was coined by Thomas Edison in 1873 and it was used to describe technical problems, like faults or troubles in the connections/working of electric apparatus[^edison]. In 1945, a dead moth was tapped in Grace Murray Hopper's computer log book when she was documenting a problem with Harvard University's Mark II Aiken Relay Calculator[^hopper]. This bug was trapped between relay contacts and interrupted the early electromechanical computer. In those early days of digital computers like ENIAC with panel-to-panel wiring cables and switches for programming, debugging refers to the interruption of a program flow by unplugging cables. In this way, one could stop a program running in the middle to debug an issue. Nowadays, debugging becomes part of the high level programming language to assist programmers locate bugs by executing code line by line. At this stage – as you have developed your programming skills and your programs are becoming more complex – it is important to understand, identify, and locate errors (as part of the debugging process[^debug]) so that you can build a workable sketch.
 
-Paying close attention to errors is an important part of learning to program. Are you able to identify whether the errors are from your own code, or from parsing the data while it is running, or from other third parties like the image search engine when you debug your sketch? (Programs are getting more complex because there are more agents involved.) Are they minor errors or critical errors (that stop your program from running)? Are they syntactic, runtime, or logical errors (as explained below)?
+Paying close attention to errors is a vital part of learning to program. Errors/bugs allow programmers to gain insights into program operations, such as at which point the program produces unexpected results and causes failure. Are you able to identify whether the errors are from your own code, or from parsing the data while it is running, or from other third parties like the image search engine when you debug your sketch? (Programs are getting more complex because there are more agents involved.) Are they minor errors or critical errors (that stop your program from running)? Are they syntactic, runtime, or logical errors (as explained below)?
 
-Broadly speaking, there are three types of errors:
+Broadly speaking, there are three types of %errors%:
 
 * **Syntax errors** are problems with the syntax, also known as parsing errors. These errors — such as spelling errors or missing a closed bracket — tend to be easier to catch, and can be detected by a parser (in this case the browser).
 
@@ -474,3 +474,7 @@ This is a relatively complex exercise that requires you to:
 [^feminist]: Cornelia Sollfrank, ed. *Beautiful Warriors: Technofeminist Praxis in the Twenty-First Century* (New York: Autonomedia/Minor Compositions, 2019), 6.
 
 [^Oauth]: For those APIs that require the OAuth 2.0 authorization, a standard protocol for authorization, you might need Node.js (<https://nodejs.org/en/>) to handle the server-client authentication. At the beginner level, it is recommended to look for web APIs with the registration of API keys. See what Node is for 15.1 and 15.2 (<https://www.youtube.com/watch?v=RF5_MPSNAtU&index=1&list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV>), and the OAuth 2.0 Authorization Framework that is proposed by Internet Engineering Task Force in 2012 (<https://tools.ietf.org/html/rfc6749>).
+
+[^edison]: Alexander Magoun and Paul Israel, "Did You Know? Edison Coined the Term "Bug"," *IEEE Spectrum*, (August 1, 2013), <https://spectrum.ieee.org/the-institute/ieee-history/did-you-know-edison-coined-the-term-bug>.
+
+[^hopper]: The log book has been archived in the National Museum of American History. See <https://americanhistory.si.edu/collections/search/object/nmah_334663>.
