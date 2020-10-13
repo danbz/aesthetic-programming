@@ -355,7 +355,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - ———. “Computing Machinery and Intelligence,” *Mind* 49 (1950): 433–460.
 - ———. “On Computable Numbers, with an Application to the Entscheidungs problem.” Proceedings of the London Mathematical Society 2, no. 1 (1937): 230-265.
 - Umali, Teressa. “Exclusive: Promoting Digital Literacy in the Philippine Education System.” OpenGov Asia. Last updated August 8, 2019. <https://www.opengovasia.com/promoting-digital-literacy-in-the-philippine-education-system/>.
-- Univac, Remington-Rand. *FLOW-MATIC Programming System*. Philadelphia, Pennsylvania: Remington Rand Univac, Division of Sperry and Corporation, 1958.
+- Univac, Remington-Rand. *FLOW-MATIC Programming System*. Philadelphia, PA: Remington Rand Univac, Division of Sperry and Corporation, 1958.
 - Vee, Annette. *Coding Literacy: How Computer Programming Is Changing Writing*. Cambridge, MA: The MIT Press, 2017.
 - Valenzuela, Cristóbal. “Paperspace/training-lstm.” Github. <https://github.com/Paperspace/training-lstm>.
 - w3schools.com. “CSS Buttons.” <https://www.w3schools.com/csS/css3_buttons.asp>.
