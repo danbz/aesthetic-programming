@@ -94,7 +94,7 @@ page_order: 12
 - Education Working Group. “A Field Guide to Debugging.” p5.js. <https://p5js.org/learn/debugging.html>.
 - Eglash, Ron. *African Fractals: Modern Computing and Indigenous Design*. New Brunswick, NJ: Rutgers University Press, 1999.
 - ———. "Broken Metaphor: The Master-Slave Analogy in Technical Literature." *Technology and Culture* 48, no. 2 (April 2007): 360-369.
-- Ensmenger, Nathan. “Making Programming Masculine.” In *Gender Codes: Why Women are Leaving Computing*. Edited by Thomas J. Misa. Hoboken, New Jersey: John Wiley & Sons, Inc., 2010.
+- Ensmenger, Nathan. “Making Programming Masculine.” In *Gender Codes: Why Women are Leaving Computing*. Edited by Thomas J. Misa. Hoboken, NJ: John Wiley, 2010.
 - ———. “The Multiple Meanings of a Flowchart.” *Information & Culture: A Journal of History* 51 (2016): 321–351.
 - Ernst, Wolfgang. *Chronopoetics: The Temporal Being and Operativity of Technological Media*. London: Rowman & Littlefield International, 2016.
 - ———. “'... Else Loop Forever'. The Untimeliness of Media.” Il Senso della Fine, Università degli Studi di Urbino, Centro Internazionale di Semiotica e Linguistica. September, 2009. <https://www.musikundmedien.hu-berlin.de/de/medienwissenschaft/medientheorien/ernst-in-english/pdfs/medzeit-urbin-eng-ready.pdf>.
