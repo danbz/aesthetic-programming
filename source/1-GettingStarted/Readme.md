@@ -356,7 +356,7 @@ Make a RunMe and a ReadMe.
 
 [^Kelty]: This point is largely derived from Kelty's *Two Bits*, which uses the phrase "running code" to describe the relationship between "argument-by-technology and argument-by-talk." See Christopher Kelty *Two Bits: the Cultural Significance of Free Software* (Durham: Duke University Press, 2008), 58. Clearly programmers are able to make arguments as people can in other rhetorical forms, see Kevin Brock, *Rhetorical Code Studies: Discovering Arguments in and around Code* (Ann Arbor, MN: University of Michigan Press, 2019).
 
-[^webeditor]: Processing Foundation has announced the official release of the p5.js Web Editor in 2018, which is an online platform for learning and running code, and it is easy to get started with no additional installation of software. See <https://medium.com/processing-foundation/hello-p5-js-web-editor-b90b902b74cf>.
+[^webeditor]: Processing Foundation announced the official release of the p5.js Web Editor in 2018, an online platform for learning and running code, and it is easy to get started with no additional installation of software. See <https://medium.com/processing-foundation/hello-p5-js-web-editor-b90b902b74cf>.
 
 [^Reference]: See <https://p5js.org/reference/>.
 
