@@ -94,7 +94,8 @@ page_order: 12
 - Education Working Group. “A Field Guide to Debugging.” p5.js. <https://p5js.org/learn/debugging.html>.
 - Eglash, Ron. *African Fractals: Modern Computing and Indigenous Design*. New Brunswick, NJ: Rutgers University Press, 1999.
 - ———. "Broken Metaphor: The Master-Slave Analogy in Technical Literature." *Technology and Culture* 48, no. 2 (April 2007): 360-369.
-- Ensmenger, Nathan. “The Multiple Meanings of a Flowchart.” *Information & Culture: A Journal of History* 51 (2016): 321–351.
+- Ensmenger, Nathan. “Making Programming Masculine.” In *Gender Codes: Why Women are Leaving Computing*. Edited by Thomas J. Misa. Hoboken, NJ: John Wiley, 2010.
+- ———. “The Multiple Meanings of a Flowchart.” *Information & Culture: A Journal of History* 51 (2016): 321–351.
 - Ernst, Wolfgang. *Chronopoetics: The Temporal Being and Operativity of Technological Media*. London: Rowman & Littlefield International, 2016.
 - ———. “'... Else Loop Forever'. The Untimeliness of Media.” Il Senso della Fine, Università degli Studi di Urbino, Centro Internazionale di Semiotica e Linguistica. September, 2009. <https://www.musikundmedien.hu-berlin.de/de/medienwissenschaft/medientheorien/ernst-in-english/pdfs/medzeit-urbin-eng-ready.pdf>.
 - Eshun, Kodwo. "Further Considerations on Afrofuturism." *CR The New Centennial Review* 3, no.2 (2003): 287-302.
@@ -188,8 +189,10 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London: 
 - ———. “The Production of Prediction: What Does Machine Learning Want?.” *European Journal of Cultural Studies* 18 (August, 2015): 429-445.
 - Mackenzie, Adrian, and Anna Munster. “Platform Seeing: Image Ensembles and Their Invisualities.” *Theory, Culture & Society* 26 (2019): 3–22.
 - Madsen, Ole Lehrmann, Birger Møller-Pedersen, and Kristen Nygaard. *Object-Oriented Programming in the BETA Programming Language*. New York, NY: Association for Computing Machinery (1993): 16–18.
+- Magoun, Alexander B., and Paul Israel. "Did You Know? Edison Coined the Term "Bug"." *IEEE Spectrum* (August 1, 2013). <https://spectrum.ieee.org/the-institute/ieee-history/did-you-know-edison-coined-the-term-bug>.
 - Malevé, Nicolas. “The Cat Sits on the Bed: Pedagogies of vision in human and machine learning.” *Unthinking Photography* (September 2016). <https://unthinking.photography/articles/the-cat-sits-on-the-bed-pedagogies-of-vision-in-human-and-machine-learning>.
 - ———. “An Introduction to Image Datasets.” *Unthinking Photography* (November 2019). <https://unthinking.photography/articles/an-introduction-to-image-datasets>.
+- Mandel, Lois. "The Computer Girls." *Cosmopolitan* (April 1967): 52-56.
 - Marino, Mark C.. *Critical Code Studies*. Cambridge, MA: The MIT Press, 2020.
 - ———. “Critical Code Studies.” *Electronic Book Review*. December 4 (2006);
 - ———. "Field Report for Critical Code Studies." *Computational Culture* 4. November 4 (2014). <http://computationalculture.net/field-report-for-critical-code-studies-2014%e2%80%a8/>.
@@ -198,7 +201,7 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London: 
 - Marx, Karl and Frederick Engels. “The Communist Manifesto” [1848]. *Selected Works, Volume One*. Moscow: Progress Publishers, 1969, 98-137. <https://www.marxists.org/archive/marx/works/1848/communist-manifesto/>.
 - Mastin, Luke, “The Story of Mathematics: 20TH CENTURY MATHEMATICS – TURING.” Last updated 2010. <http://storyofmathematics.lukemastin.com/20th_turing.html>.
 - Mateas, Michael. "Procedural Literacy: Educating the New Media Practitioner." *Horizon* 13, no. 2. June 1 (2005): 101–111.
-- Mateas, Michael, and Nick Montfort. “A Box, Darkly: Obfuscation, weird languages, and code aesthetics." Presented at the Proceedings of the 6th Digital Arts and Culture Conference. IT University of Copenhagen, DK, December, 2005.
+- Mateas, Michael, and Nick Montfort. “A Box, Darkly: Obfuscation, weird languages, and code aesthetics." Presented at the Proceedings of the 6th Digital Arts and Culture Conference. IT University of Copenhagen, DK, December, 2005, 144-153.
 - Mbembe, Achille. “Necropolitics.” *Public Culture* 15 (2003): 11–40.
 - McCarthy, Lauren. “Learning While Making.” YouTube video, 27:31. Posted by "BocoupLLC," April 16, 2015. <https://www.youtube.com/watch?v=1k3X4DLDHdc>.
 - McCarthy, Lauren, and Golan Levin. “p5.js Diversity & Floss Panel Introduction.” *Studio for Creative Inquiry*. Last updated May 26, 2015. <http://opentranscripts.org/transcript/p5js-diversity-floss-panel-introduction/>.
@@ -223,6 +226,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Øygard, Audun M.. “Fitting faces: An explanation of clmtrackr.” Last updated January 5, 2014. <https://www.auduno.com/2014/01/05/fitting-faces/>.
 - Papa, Elisa Giardina. “The Cleaning of Emotional Data.” Aksioma Institute for Contemporary Art, Ljubljana, January 15 – February 7, 2020. <https://aksioma.org/cleaning.emotional.data/>.
 - Papert, Seymour. *Mindstorms: Children, Computers, and Powerful Ideas*. New York, NY: Basic Books, 1980.
+- Parrish, Allison. "Exploring (Semantic) Space with (Literal) Robots." Vimeo video, 41:46. Posted by "Eyeo Festival," July 28, 2015. https://vimeo.com/134734729.
 - Pasquinelli, Matteo. “Google’s PageRank Algorithm: A Diagram of the Cognitive Capitalism and the Rentier of the Common Intellect.” In *Deep Search: The Politics of Search Beyond Google*. Edited by Konrad Becker and Felix Stalder. London: Transaction Publishers: 2009.
 - ———. “How a Machine Learns and Fails: A Grammar of Error for Artificial Intelligence.” *Spheres* 5 (2019). <http://matteopasquinelli.com/grammar-of-error-for-artificial-intelligence/>.
 - ———. “Eyeo 2015.” Vimeo, 41:47. Posted by “Eyeo Festival,” July 28, 2015. <https://vimeo.com/134734729>.
@@ -351,6 +355,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - ———. “Computing Machinery and Intelligence,” *Mind* 49 (1950): 433–460.
 - ———. “On Computable Numbers, with an Application to the Entscheidungs problem.” Proceedings of the London Mathematical Society 2, no. 1 (1937): 230-265.
 - Umali, Teressa. “Exclusive: Promoting Digital Literacy in the Philippine Education System.” OpenGov Asia. Last updated August 8, 2019. <https://www.opengovasia.com/promoting-digital-literacy-in-the-philippine-education-system/>.
+- Univac, Remington-Rand. *FLOW-MATIC Programming System*. Philadelphia, PA: Remington Rand Univac, Division of Sperry and Corporation, 1958.
 - Vee, Annette. *Coding Literacy: How Computer Programming Is Changing Writing*. Cambridge, MA: The MIT Press, 2017.
 - Valenzuela, Cristóbal. “Paperspace/training-lstm.” Github. <https://github.com/Paperspace/training-lstm>.
 - w3schools.com. “CSS Buttons.” <https://www.w3schools.com/csS/css3_buttons.asp>.

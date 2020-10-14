@@ -1,4 +1,4 @@
-Title: 8. Que(e)ry Data
+Title: 8. Que(e)ry data
 page_order: 8
 sketch: p5_SampleCode/ch8_Que(e)ryData/sketch.js
 download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch8_Que(e)ryData
@@ -310,13 +310,13 @@ The outer frame and the image are only drawn once with the update of the status 
 
 This section with the pixel and color elements shows how a computer processes and stores an image as data which is fundamentally different from how humans see and perceive it.[^eckhardt] It is also a way to demonstrate how an image object is being translated into numbers for computation, which is somewhat similar to the example of face tracking in Chapter 4, "Data capture," in which a pixel can be located at a scale beyond human perception. These examples may help you understand contemporary applications like tracking technology and even computer vision that employs machine learning techniques in which images function as training data (we return to this in Chapter 10).
 
-## Different types of errors
+## Different types of %bugs%
 
-At this stage – as you have developed your programming skills and your programs are becoming more complex – it is important to understand, identify, and locate errors (as part of what is known as the debugging process[^debug]) so that you can build a workable sketch.
+In 1945, a dead moth was taped into Grace Murray Hopper's computer log book to document a problem with Harvard University's Mark II Aiken Relay Calculator.[^hopper] The "bug"[^edison] was trapped between relay contacts and interrupted the program flow of the early electromechanical computer. In early days of digital computers like ENIAC, with panel-to-panel wiring cables and switches for programming, "debugging" was carried out by unplugging cables. In this way, one could stop a program running in the middle to debug an issue. Nowadays, debugging in an integral part of high level programming languages to assist programmers to locate bugs by executing code line by line. At this stage – as you have developed your programming skills and your programs are becoming more complex – it is important to understand, identify, and locate errors or bugs (as part of the debugging process[^debug]) so that you can build a workable sketch.
 
-Paying close attention to errors is an important part of learning to program. Are you able to identify whether the errors are from your own code, or from parsing the data while it is running, or from other third parties like the image search engine when you debug your sketch? (Programs are getting more complex because there are more agents involved.) Are they minor errors or critical errors (that stop your program from running)? Are they syntactic, runtime, or logical errors (as explained below)?
+Paying close attention to errors/bugs is a vital part of learning to program as this allows programmers to gain insights into program operations, such as at which point the program produces unexpected results and causes failure. Are you able to identify whether the errors are from your own code, or from parsing the data while it is running, or from other third parties like the image search engine when you debug your sketch? (Programs are getting more complex because there are more agents involved.) Are they minor errors or critical errors (that stop your program from running)? Are they syntactic, runtime, or logical errors (as explained below)?
 
-Broadly speaking, there are three types of errors:
+Broadly speaking, there are three types of %errors%:
 
 * **Syntax errors** are problems with the syntax, also known as parsing errors. These errors — such as spelling errors or missing a closed bracket — tend to be easier to catch, and can be detected by a parser (in this case the browser).
 
@@ -453,7 +453,7 @@ This is a relatively complex exercise that requires you to:
 
 [^eckhardt]: Such a breakdown of an image into color scale pixels was also used in electronic television transmission in the mid-1930s, but in this case data was sent manually by a telegraph operator via the medium of Wire or Radio. See George H, Eckhardt, *Electronic television* (Chicago: Goodheart-Willcox Company, Incorporated, 1936), 48-50.
 
-[^debug]: There is a debugging tutorial was created for the p5.js contributor conference by Jason Alderman, Tega Brain, Taeyoon Choi and Luisa Pereira, see: <https://p5js.org/learn/debugging.html>.
+[^debug]: There is a debugging tutorial created for the p5.js contributor conference by Jason Alderman, Tega Brain, Taeyoon Choi and Luisa Pereira, see: <https://p5js.org/learn/debugging.html>.
 
 [^forensis]: Thomas Keenan and Eyal Weizman, *Mengele's Skull: The Advent of a Forensic Aesthetics* (Berlin: Sternberg Press, 2012); see also Matthew Kirschenbaum, *Mechanisms: New Media and the Forensic Imagination* (Cambridge, MA: MIT Press, 2008).
 
@@ -474,3 +474,7 @@ This is a relatively complex exercise that requires you to:
 [^feminist]: Cornelia Sollfrank, ed. *Beautiful Warriors: Technofeminist Praxis in the Twenty-First Century* (New York: Autonomedia/Minor Compositions, 2019), 6.
 
 [^Oauth]: For those APIs that require the OAuth 2.0 authorization, a standard protocol for authorization, you might need Node.js (<https://nodejs.org/en/>) to handle the server-client authentication. At the beginner level, it is recommended to look for web APIs with the registration of API keys. See what Node is for 15.1 and 15.2 (<https://www.youtube.com/watch?v=RF5_MPSNAtU&index=1&list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV>), and the OAuth 2.0 Authorization Framework that is proposed by Internet Engineering Task Force in 2012 (<https://tools.ietf.org/html/rfc6749>).
+
+[^edison]: The term "bug" was coined by Thomas Edison in 1873 and it was used to describe a technical problem, like a fault in the connections of an electric apparatus. See Alexander Magoun and Paul Israel, "Did You Know? Edison Coined the Term "Bug"," *IEEE Spectrum* (August 1, 2013), <https://spectrum.ieee.org/the-institute/ieee-history/did-you-know-edison-coined-the-term-bug>.
+
+[^hopper]: The log book has been archived at the National Museum of American History, <https://americanhistory.si.edu/collections/search/object/nmah_334663>.

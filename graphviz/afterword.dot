@@ -7,7 +7,7 @@ node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
 
 	subgraph cluster_1 {
     node [shape=ellipse];
-    label = "1. Getting Started";
+    label = "1. Getting started";
     fontname="Hershey-Noailles-help-me";
     labeljust="l";
     margin="12pt";
@@ -26,7 +26,7 @@ node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
     RG1 [label="Reading the \nreference guide"]
     Git1 [label="Git"]
     MW1 [label="While()"]
-    MX1 [label="MiniX: \nRUNME and README"]
+    MX1 [label="MiniX: \nRunMe and ReadMe"]
     RR1 [label="Required reading"]
     FR1 [label="Further reading"]
     Notes1 [label="Notes"]
@@ -56,7 +56,7 @@ node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
 
 	subgraph cluster_2 {
     node [shape=ellipse];
-    label = "2. Variable Geometry";
+    label = "2. Variable geometry";
     fontname="Hershey-Noailles-help-me";
     labeljust="l";
     margin="12pt";
@@ -105,7 +105,7 @@ node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
 
 	subgraph cluster_3 {
     node [shape=ellipse];
-    label = "3. Infinite Loops";
+    label = "3. Infinite loops";
     fontname="Hershey-Noailles-help-me";
     labeljust="l";
     margin="12pt";
@@ -157,7 +157,7 @@ node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
 
   subgraph cluster_4 {
     node [shape=ellipse];
-    label = "4. Data Capture";
+    label = "4. Data capture";
     fontname="Hershey-Noailles-help-me";
     labeljust="l";
     margin="12pt";
@@ -206,7 +206,7 @@ node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
 
   subgraph cluster_5 {
     node [shape=ellipse];
-    label = "5. Auto Generator";
+    label = "5. Auto-generator";
     fontname="Hershey-Noailles-help-me";
     labeljust="l";
     margin="12pt";
@@ -253,7 +253,7 @@ node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
 
   subgraph cluster_6 {
     node [shape=ellipse];
-    label = "6. Object Abstraction";
+    label = "6. Object abstraction";
     fontname="Hershey-Noailles-help-me";
     labeljust="l";
     margin="12pt";
@@ -295,7 +295,7 @@ node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
 
   subgraph cluster_7 {
     node [shape=ellipse];
-    label = "7. Vocable Code";
+    label = "7. Vocable code";
     fontname="Hershey-Noailles-help-me";
     labeljust="l";
     margin="12pt";
@@ -340,7 +340,7 @@ node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
   }
   subgraph cluster_8 {
     node [shape=ellipse];
-    label = "8. Que(e)ry Data";
+    label = "8. Que(e)ry data";
     fontname="Hershey-Noailles-help-me";
     labeljust="l";
     margin="12pt";
@@ -359,7 +359,7 @@ node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
     QD8 [label="Que(e)rying data"]
     EiC888 [label="Exercise in class"]
     LP8 [label="LoadPixels()"]
-    ER8 [label="Different types of errors"]
+    ER8 [label="Different types of bugs"]
     MW8 [label="While()"]
     MX8 [label="MiniX: \nWorking with APIs\n(in a group)"]
     RR8 [label="Required reading"]
@@ -389,7 +389,7 @@ node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
 
   subgraph cluster_9 {
     node [shape=ellipse];
-    label = "9. Algorithmic Procedures";
+    label = "9. Algorithmic procedures";
     fontname="Hershey-Noailles-help-me";
     labeljust="l";
     margin="12pt";

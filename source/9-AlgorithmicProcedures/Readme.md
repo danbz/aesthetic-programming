@@ -1,4 +1,4 @@
-Title: 9. Algorithmic Procedures
+Title: 9. Algorithmic procedures
 page_order: 9
 
 ![flowchart](ch9_0.svg)
@@ -7,7 +7,7 @@ page_order: 9
 
 ## setup()
 
-An algorithm or recipe can be written down in a cookbook or codebook so the actions can be shared and repeated. This is something that Donald Knuth identified in his *The Art of Computer Programming* (1968), to stress the aesthetic dimension of programming by analogy to recipes in a cookbook.[^krysa] Indeed both coding and cooking share common attributes including how ingredients are selected, actions applied, and how transformations take place. Knuth's comments, and writing style, set the tone for this chapter in terms of subject matter, but also as far it lays out algorithmic instructions for the reader: the "procedures for reading,"[^knuth0] as he puts it. The structure of his book is algorithmic in both form and content, and here are some snippets of the procedures for the reader to follow:
+The pioneer computer scientist and programmer Grace Murray Hopper famously described planning skills in programming as "just like planning a dinner."[^Mandel] Programming is similar to cooking inasmuch as it requires patience and the ability to manage details and ingredients.[^hopper2] That an algorithm or recipe can be written down in a cookbook or codebook so the actions can be followed, shared and repeated, is something that the programmer Donald Knuth also identified in his *The Art of Computer Programming* (1968), to stress the aesthetic dimension of programming by analogy to recipes in a cookbook.[^krysa] Indeed both coding and cooking share common attributes including how sources are selected, actions applied, and how transformations take place. These comments, and Knuth's writing style, set the tone for this chapter in terms of subject matter, but also as far it lays out algorithmic instructions for the reader: the "procedures for reading,"[^knuth0] as he puts it. Here are some snippets:
 
 >"1. Begin reading this procedure, unless you have already begun to read it. Continue to follow the steps faithfully; [...] 5. Is the subject of the chapter interesting you? If so, go to step 7; if not, go to step 6. 14. Are you tired? If not, go back to step 7; 15. Go to sleep. Then, wake up, and go back to step 7."[^knuth]
 
@@ -229,7 +229,7 @@ Taina Bucher, *If...Then: Algorithmic Power and Politics* (Oxford: )Oxford Unive
 
 [^Ferranti]: Ferranti Limited, Ferranti Pegasus Computer, programming manual, Issue 1, List CS 50,September 1955.
 
-[^stereotype]: Viewing programming as a social activity undermines some of the predominant stereotypes associated with activity such as the stereotypical image of the antisocial hacker (male, bearded, unwashed). For more on the benefits of collaborative working, see Chih Wei Ho, et al, "Examining the impact of pair programming on female students," North Carolina State University. Dept. of Computer Science (2004).
+[^stereotype]: Viewing programming as a social activity undermines some of the predominant stereotypes associated with activity such as the stereotypical image of the antisocial hacker (male nerds, bearded, unwashed). See Nathan Ensmenger, “Making Programming Masculine,” in *Gender Codes: Why Women are Leaving Computing*, Thomas J. Misa, ed. (Hoboken, New Jersey: John Wiley & Sons, Inc., 2010), 137. For more on the benefits of collaborative working, see Chih Wei Ho, et al, "Examining the impact of pair programming on female students," North Carolina State University. Dept. of Computer Science (2004).
 
 [^program]: In a teaching setting, we have a group prepare to present this problem and how they approach this both technically and conceptually to make them think about the significance of sorting in a wider cultural context. The other students then start the class with this sorting exercise and focus on algorithmic procedures. Here is one of the many ways of implementing the sorting problem. See <https://editor.p5js.org/siusoon/sketches/7g1F594D5>.
 
@@ -280,3 +280,7 @@ Taina Bucher, *If...Then: Algorithmic Power and Politics* (Oxford: )Oxford Unive
 [^prediction]: Adrian Mackenzie, "The Production of Prediction: What Does Machine Learning Want?", *European Journal of Cultural Studies* 18, no.4-5 (2015): 429–445.
 
 [^flowcharts2]: See Stephen Morris and Orlena Gotel, "The Role of Flow Charts in the Early Automation of Applied Mathematics," *BSHM Bulletin: Journal of the British Society for the History of Mathematics* 26, no. 1 (March 2011): 44–52, <https://doi.org/10.1080/17498430903449207>; and Nathan Ensmenger, "The Multiple Meanings of a Flowchart," *Information & Culture: A Journal of History* 51, no.3 (2016): 321–51, <https://doi.org/10.1353/lac.2016.0013>.
+
+[^Mandel]: The words of Grace Murray Hopper are cited in Lois Mandel, "The Computer Girls," *Cosmopolitan* (April 1967): 52-56.
+
+[^hopper2]: Hopper's FLOW-MATIC was the first programming language to express operations using plain English description, developed for UNIVAC at Remington Rand. FLOW-MATIC was designed to use a step-by-step approach as  "easily understood documentation" without requiring prior training in mathematics and formulars, computer coding and syntaxes, and to facilite communication "between the computer proramming group and operating management." See Remington-Rand Univac, *FLOW-MATIC Programming System* (Philadelphia, PA: Remington Rand Univac, Division of Sperry and Corporation, 1958).

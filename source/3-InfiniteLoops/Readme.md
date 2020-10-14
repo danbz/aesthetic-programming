@@ -1,4 +1,4 @@
-Title: 3. Infinite Loops
+Title: 3. Infinite loops
 page_order: 3
 requirements: p5_SampleCode/libraries/p5.play.js
               p5_SampleCode/libraries/p5.sound.js

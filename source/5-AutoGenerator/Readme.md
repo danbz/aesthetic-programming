@@ -1,4 +1,4 @@
-Title: 5. Auto-Generator
+Title: 5. Auto-generator
 page_order: 5
 sketch: p5_SampleCode/ch5_AutoGenerator/sketch.js
 download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch5_AutoGenerator

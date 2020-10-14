@@ -135,7 +135,7 @@ page_order: -3
   <!--* Que(e)rying data-->
 <!--* Exercise in class-->
 <!--* LoadPixels()-->
-<!--* Different types of errors-->
+<!--* Different types of bugs-->
 <!--* While()-->
 <!--* MiniX: Working with APIs (in a group)-->
 <!--* Required reading-->
@@ -173,5 +173,3 @@ page_order: -3
 - Index
 - Colophon
 - Acknowledgments
-
-

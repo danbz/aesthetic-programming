@@ -1,4 +1,4 @@
-Title: 2. Variable Geometry
+Title: 2. Variable geometry
 Order: 2
 page_order: 2
 sketch: p5_SampleCode/ch2_VariableGeometry/sketch.js
