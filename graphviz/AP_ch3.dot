@@ -44,7 +44,7 @@ SU -> MW [dir=both];
 GS -> MX;
 RR -> MX, SU;
 SC -> FN -> EiC;
-TR->PP;
+TR-> PP;
 SC -> TR -> EiC2;
 EiC, EiC2 -> AP -> SC2 -> EiC3
 SC2 -> AR;
