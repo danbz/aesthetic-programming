@@ -1,4 +1,4 @@
-Title: 9. Algorithmic Procedures
+Title: 9. Algorithmic procedures
 page_order: 9
 
 ![flowchart](ch9_0.svg)

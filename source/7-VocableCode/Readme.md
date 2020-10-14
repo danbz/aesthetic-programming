@@ -1,4 +1,4 @@
-Title: 7. Vocable Code
+Title: 7. Vocable code
 page_order: 7
 
 ![flowchart](ch7_0.svg)

@@ -1,4 +1,4 @@
-Title: 4. Data Capture
+Title: 4. Data capture
 page_order: 4
 sketch: p5_SampleCode/ch4_DataCapture/sketch.js
 download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch4_DataCapture

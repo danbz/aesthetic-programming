@@ -1,4 +1,4 @@
-Title: 6. Object Abstraction
+Title: 6. Object abstraction
 page_order: 6
 requirements: p5_SampleCode/ch6_ObjectAbstraction/Tofu.js
 sketch: p5_SampleCode/ch6_ObjectAbstraction/sketch.js

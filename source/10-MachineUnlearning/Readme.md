@@ -1,4 +1,4 @@
-Title: 10. Machine Unlearning
+Title: 10. Machine unlearning
 page_order: 10
 sketch: p5_SampleCode/ch10_MachineLearning/sketch.js
 download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch10_MachineUnlearning
@@ -450,7 +450,7 @@ The ReadMe should address the following questions with the help of your source c
 
 [^agre]: Philip E. Agre, "Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI," in Geoffrey Bowker, Les Gasser, Leigh Star, and Bill Turner, eds., *Bridging the Great Divide: Social Science, Technical Systems, and Cooperative Work* (New York: Erlbaum, 1997).
 
-[^Hall]: Here we might draw upon Stuart Hall's "encoding/decoding" model of communication that would emphasize how negotiated and oppositional meanings can be generated from coded materials. See Stuart Hall, “Encoding/Decoding,” in Stuart Hall, Dorothy Hobson, Andrew Lowe and Paul Willis, eds., *Culture, Media, Language: Working Papers in Cultural Studies* (London: Hutchinson, 1980), 128-38. 
+[^Hall]: Here we might draw upon Stuart Hall's "encoding/decoding" model of communication that would emphasize how negotiated and oppositional meanings can be generated from coded materials. See Stuart Hall, “Encoding/Decoding,” in Stuart Hall, Dorothy Hobson, Andrew Lowe and Paul Willis, eds., *Culture, Media, Language: Working Papers in Cultural Studies* (London: Hutchinson, 1980), 128-38.
 
 [^superficial]: Ruha Benjamin is urging engineers to consider historical and sociological issues in her keynote address ai ICLR 2020 (International Conference on Learning Representations), virtual conference, <https://iclr.cc/>.
 
