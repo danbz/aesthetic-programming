@@ -164,51 +164,6 @@ Group:
 
 ## Notes
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Taina Bucher, *If...Then: Algorithmic Power and Politics* (Oxford: )Oxford University Press, 2018), 21.
-
 [^krysa]: The recipe analogy of algorithms was developed in Joasia Krysa and Grzesiek Sedek's "Source Code" entry to *Software Studies: A Lexicon*, 236-243. The analogy can also be found in recent texts, for instance: Ed Finn, *What Algorithms Want: Imagination in the Age of Computing* (Cambridge, MA: MIT Press, 2017), 17; and Taina Bucher, *If...Then: Algorithmic Power and Politics* (Oxford: Oxford University Press, 2018), 21.
 
 [^knuth0]: Knuth, *The Art of Computer Programming*, xv. Alongside the listed procedures, the book begins with a flowchart for reading the book, the significance of which will become obvious later in this chapter, and something we have also used for the individual chapters and contents page of this book.
@@ -251,7 +206,7 @@ Taina Bucher, *If...Then: Algorithmic Power and Politics* (Oxford: )Oxford Unive
 
 [^kindle]: A fuller description of the Kindle platform can be found at <https://kdp.amazon.com/en_US/>.
 
-[^bucher]: Bucher, *If...Then: Algorithmic Power and Politics*, 20.
+[^bucher]: Taina Bucher, *If...Then: Algorithmic Power and Politics* (Oxford: )Oxford University Press, 2018), 20.
 
 [^fin]: Finn, *What Algorithms Want: Imagination in the Age of Computing*, 34.
 
