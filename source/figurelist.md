@@ -66,7 +66,7 @@
 * Figure 9.2: Paolo Cirio, Alessandro Ludovico, and UBERMORGENGWEI, Google Will Eat Itself / THE ATTACK (2005)
 * Figure 9.3: UBERMORGEN, The Project Formerly Known As Kindle Forkbomb (2013). Courtesy of the artists
 * Figure 9.4: UBERMORGEN, The Project Formerly Known As Kindle Forkbomb (2013), mixed media installation, part of the group exhibition "Systemics #2: As we may think (or, the next world library)," curated by Joasia Krysa, Kunsthal Aarhus (September 21 – December 31 2013). Courtesy of the artists and Kunsthal Aarhus
-* Figure 9.5. Dean Kenning, Jackson 5 Flowchart (2017) A4. Marker pen on paper
+* Figure 9.5: Dean Kenning, Jackson 5 Flowchart (2017) A4. Marker pen on paper
 * Figure 10.1: The basic flowchart of keyword detection in ELIZA (1966) by Joseph Weizenbaum
 * Figure 10.2:  ELIZA Talking (2013) by Norbert Landsteiner
 * Figure 10.3: The Teachable Machine (Version 1) interface
