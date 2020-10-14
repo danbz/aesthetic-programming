@@ -13,8 +13,8 @@ https://openhumanitiespress.org/
 Liquid Books<br>
 Series Editors: Gary Hall
 
-http://aesthetic-programming.osp.kitchen/<br>
-https://gitlab.com/siusoon/Aesthetic_Programming_Book/
+Web: http://aesthetic-programming.osp.kitchen/<br>
+Repository: https://gitlab.com/siusoon/Aesthetic_Programming_Book/
 
 Published with support from Aarhus University Research Foundation
 
@@ -29,4 +29,4 @@ This is an open access book, licensed under the Creative Commons Attribution By 
 Figures, text and other media included within this book may be under different copyright restrictions.
 
 ISBN (print): 978-1-78542-094-8<br>
-ISBN (PDF): 978-1-78542-093-1 
+ISBN (PDF): 978-1-78542-093-1
