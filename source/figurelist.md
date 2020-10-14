@@ -49,7 +49,7 @@
 * Figure 7.4: Snippets of Vocable Code concerning the first conditional structure
 * Figure 7.5: Snippets of Vocable Code concerning the second conditional structure
 * Figure 7.6: Snippets of Vocable Code concerning the third conditional structure
-* Figure 7.7: Snippets of Vocable Code concerning the forth conditional structure
+* Figure 7.7: Snippets of Vocable Code concerning the fourth conditional structure
 * Figure 7.8: Snippets of the JSON file in Vocable Code
 * Figure 7.9: Snippets of Vocable Code concerning reading JSON
 * Figure 8.1: The net.art generator web interface with the input title "queeries"

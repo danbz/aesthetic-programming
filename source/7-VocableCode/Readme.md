@@ -182,7 +182,7 @@ Figure 7.6 shows two conditional statements in the function `draw()`. The first 
    return status;
  };
 ```
-*Figure 7.7: Snippets of Vocable Code concerning the forth conditional structure*
+*Figure 7.7: Snippets of Vocable Code concerning the fourth conditional structure*
 
 The last "if-else" conditional structure is set within the class method, as illustrated by Figure 7.6, and checks if the text is off canvas, particularly along the
 y-axis. In Figure 7.7, within the class's method `this.shows=function()`, the conditional statement incorporates the relational operator "OR" (`||`), in which neither condition needs to be "true" (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an `else` statement to handle the results of checking whether the conditions have been met. Therefore, it is read as if either one of the two conditions has been met, the variable `status` will be assigned as `notFalse` (this means the text is off screen at the top or bottom), and else if the text still remains on screen, the variable `status` will be assigned as `notTrue`. The values `notFalse` and `notTrue` belong to the `status` variable of the "String" type. However, in general programming practice, Boolean logic (with the "Boolean" type) tends to be understood as an absolute binary reality of "true" or "false." Initially, this seems fundamental to computational logic and can be relate this to the zeros and ones to which information is reduced in machine code. However, arguably and conceptually, `notFalse` and `notTrue` suggest an undoing of binary relations.  
