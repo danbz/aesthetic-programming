@@ -259,7 +259,7 @@ The colored lines (see Figures 8.2 and 8.3) are not randomly drawn, but they are
 Each pixel selected contains color information that is the R (red), G (green), B (blue) and A (alpha) values. This is how the data is being stored in the pixels' one dimensional array:
 
 ![pixel](ch8_7.jpg)
-:   *Figure 8.10: An illustration of the breakdown of each pixel by Integrated Digital Media, NYU*[^nyu]
+:   *Figure 8.10: An illustration of the breakdown of each pixel by Integrated Digital Media, NYU, (image from https://idmnyu.github.io/p5.js-image/)*[^nyu]
 
 `loc` is a variable for storing pixel information. Each pixel position needs to be clearly located so that a line can be drawn at the right position. Following the function `Pixels()`, each pixel takes up four locations: The first pixel with the four RGBA values, then the second pixel with another four RGBA values, and so on, and so forth:
 
