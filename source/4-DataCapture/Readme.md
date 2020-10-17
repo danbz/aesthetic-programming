@@ -268,7 +268,7 @@ For face capture, the sample code uses clmtrackr which is a JavaScript library d
 
 
 ![](ch4_3.png)
-:   *Figure 4.5: The tracker points on a face, (image courtesy of the clmtrackr's creator, Audun M. Øygard)*
+:   *Figure 4.5: The tracker points on a face. Image courtesy of the clmtrackr's creator, Audun M. Øygard.*
 
 The program uses the webcam to do face capture and facial recognition:
 1. `createCapture()`: This is a HTML5 <video> element (part of the DOM) that captures the feed from a webcam. In relation to this function you can define the size of the screen capture (which depends on the resolution of the webcam) and position on screen, e.g. `capture.size(640,480);` and `capture.position(0,0);`

@@ -12,7 +12,7 @@
 * Figure 1.12: Create a new project with the GitLab web interface
 * Figure 1.13: Manage directories/files using the GitLab web interface
 * Figure 1.14: The GitLab Web IDE
-* Figure 2.1: Multi by David Reinfurt. Image Courtesy of the artist.
+* Figure 2.1: Multi by David Reinfurt. Image Courtesy of the artist
 * Figure 2.2: The screenshot of the remix of Multi
 * Figure 2.3: Simple exercise
 * Figure 3.1: Early alchemical illustration of ouroboros accompanied by the text ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist (10th Century), (image from Wikipedia)
@@ -27,7 +27,7 @@
 * Figure 4.2: Permission for audio access
 * Figure 4.3: Permission for camera access
 * Figure 4.4: The HTML file structure to import the new library and models
-* Figure 4.5: The tracker points on a face, (image courtesy of the clmtrackr's creator, Audun M. Øygard)
+* Figure 4.5: The tracker points on a face. Image courtesy of the clmtrackr's creator, Audun M. Øygard.
 * Figure 4.6: Google Analytics Screenshot
 * Figure 4.7: An example of a heatmap for analyzing a web page
 * Figure 4.8: Facebook's custom gender field as of February 2020
@@ -41,7 +41,7 @@
 * Figure 5.5: Langton's Ant - Initial steps
 * Figure 5.6: Langton's Ant - Process
 * Figure 5.7: Langton's Ant - a snapshot of emergence
-* Figure 6.1: A screenshot of the game ToFu Go!, developed and designed by Francis Lam, (image courtesy of the designer)
+* Figure 6.1: A screenshot of the game ToFu Go!, developed and designed by Francis Lam. Image courtesy of the designer
 * Figure 6.2: A screenshot of the Eating tofu game
 * Figure 7.1: The installation of Vocable Code, detail
 * Figure 7.2: The live coding/educational version of Vocable Code
