@@ -71,7 +71,7 @@
 * Figure 10.2:  ELIZA Talking (2013) by Norbert Landsteiner
 * Figure 10.3: The Teachable Machine (Version 1) interface
 * Figure 10.4: The categorization of "cock" in Exhibiting ImageNet (2019) by Nicolas Malevé
-* Figure 10.5: An illustration of Unsupervised Learning with K-means clustering. Image courtesy of Joana Chicau and Jonathan Reus
+* Figure 10.5: An illustration of Unsupervised Learning with K-means clustering, (image from Wikimedia Commons)
 * Figure 10.6: Anatomies of Intelligence (2018-) by Joana Chicau and Jonathan Reus. Image courtesy of the artists
 * Figure 10.7: The clustering of images based on "cuteness" and "curliness" in the Anatomies of Intelligence workshop by Joana Chicau and Jonathan Reu
 * Figure 10.8: Auto Chapter Generator
