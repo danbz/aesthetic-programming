@@ -18,16 +18,16 @@
 * Figure 3.1: Early alchemical illustration of ouroboros accompanied by the text ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist (10th Century), (image from Wikipedia)
 * Figure 3.2: Diagram for the computation by the Engine of the Numbers of Bernoulli, from "Note G" by Ada Lovelac
 * Figure 3.3: The runme of sample code - sketch 3_1
-* Figure 3.4: Moving the coordinate system at canvas level (image from processing.org)
+* Figure 3.4: Moving the coordinate system at canvas level, (image from processing.org)
 * Figure 3.5 : Asterisk Painting (2014) by John P. Bell
-* Figure 3.6 A for-loop
-* Figure 3.7 The xPos of each asterisk
-* Figure 3.8 Drawing 20 ellipses on a canvas using a for-loop
-* Figure 4.1 The web interface and interaction of the sample code
+* Figure 3.6: A for-loop
+* Figure 3.7: The xPos of each asterisk
+* Figure 3.8: Drawing 20 ellipses on a canvas using a for-loop
+* Figure 4.1: The web interface and interaction of the sample code
 * Figure 4.2: Permission for audio access
 * Figure 4.3: Permission for camera access
 * Figure 4.4: The HTML file structure to import the new library and models
-* Figure 4.5: The tracker points on a face, (image from clmtrackr)
+* Figure 4.5: The tracker points on a face, (image courtesy of the clmtrackr's creator, Audun M. Øygard)
 * Figure 4.6: Google Analytics Screenshot
 * Figure 4.7: An example of a heatmap for analyzing a web page
 * Figure 4.8: Facebook's custom gender field as of February 2020
@@ -41,11 +41,11 @@
 * Figure 5.5: Langton's Ant - Initial steps
 * Figure 5.6: Langton's Ant - Process
 * Figure 5.7: Langton's Ant - a snapshot of emergence
-* Figure 6.1: A screenshot of the game ToFu Go!, developed and designed by Francis Lam. Image courtesy of the designer
+* Figure 6.1: A screenshot of the game ToFu Go!, developed and designed by Francis Lam, (image courtesy of the designer)
 * Figure 6.2: A screenshot of the Eating tofu game
 * Figure 7.1: The installation of Vocable Code, detail
 * Figure 7.2: The live coding/educational version of Vocable Code
-* Figure 7.3: The font Type with Pride
+* Figure 7.3: The font Type with Pride, (image from https://www.typewithpride.com/)
 * Figure 7.4: Snippets of Vocable Code concerning the first conditional structure
 * Figure 7.5: Snippets of Vocable Code concerning the second conditional structure
 * Figure 7.6: Snippets of Vocable Code concerning the third conditional structure
@@ -73,5 +73,5 @@
 * Figure 10.4: The categorization of "cock" in Exhibiting ImageNet (2019) by Nicolas Malevé
 * Figure 10.5: An illustration of Unsupervised Learning with K-means clustering, (image from Wikimedia Commons)
 * Figure 10.6: Anatomies of Intelligence (2018-) by Joana Chicau and Jonathan Reus. Image courtesy of the artists
-* Figure 10.7: The clustering of images based on "cuteness" and "curliness" in the Anatomies of Intelligence workshop by Joana Chicau and Jonathan Reu
+* Figure 10.7: The clustering of images based on "cuteness" and "curliness" in the Anatomies of Intelligence workshop by Joana Chicau and Jonathan Reus
 * Figure 10.8: Auto Chapter Generator

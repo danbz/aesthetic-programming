@@ -57,7 +57,7 @@ After the above example of modeling a person-object, we now move to another exam
 When tofu becomes a computational object — as in *Tofu Go!* — abstraction is required to capture the complexity of processes, and relations, and to represent what are thought to be essential or desirable properties, and behaviors. In the game, tofu is designed as a simple, three-dimensional white cube with a range of emotive expressions, and the ability to move, and jump. Of course real tofu cannot behave this way, but you can imagine how objects perform if you have programmed your own game, and if you love tofu as Lam does: "*Tofu Go!* is a game dedicated to my love for tofu and hotpot," as he puts it.[^francis2] The aim of the game is to save the tofu from being captured by the chopsticks.
 
 ![tofu go](ch6_1.png)
-:   *Figure 6.1: A screenshot of the game ToFu Go!, developed and designed by Francis Lam. Image courtesy of the designer.*
+:   *Figure 6.1: A screenshot of the game ToFu Go!, developed and designed by Francis Lam, (image courtesy of the designer).*
 
 Below we will introduce the sample code *Eating tofu*, a simple game inspired by the following: *ToFu Go!* (available for free download), the prior project *Multi* as introduced in Chapter 2, "Variable geometry," and the popular Japanese eating game *Pac-Man*.[^pacman] The remaining parts unfold the computational logic and modeling required to understand the basics of OOP.
 
