@@ -393,7 +393,7 @@ This line of argument makes reference to the philosophy of Gilbert Simondon, to 
 ## Further reading
 
 *	Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-Reviewed Journal About Datafied Research* 4, no. 1 (2015), <https://aprja.net//issue/view/8402>.
-* Audun M. Øygard, "clmtrackr - Face tracking javascript library," <https://github.com/auduno/clmtrackr>.
+* Audun M. Øygard, "clmtrackr - Face tracking JavaScript library," <https://github.com/auduno/clmtrackr>.
 *	Søren Pold, "Button," in Fuller, ed., *Software Studies*.
 *	Daniel Shiffman, *HTML / CSS/DOM - p5.js Tutorial* (2017), <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX>.
 *	Tiziana Terranova, "Red Stack Attack! Algorithms, Capital and the Automation of the Common," *EuroNomade* (2014), <http://www.euronomade.info/?p=2268>.
