@@ -12,7 +12,7 @@
 * Figure 1.12: Create a new project with the GitLab web interface
 * Figure 1.13: Manage directories/files using the GitLab web interface
 * Figure 1.14: The GitLab Web IDE
-* Figure 2.1: Multi by David Reinfurt. Image Courtesy of the artist
+* Figure 2.1: Multi by David Reinfurt. Courtesy of the artist
 * Figure 2.2: The screenshot of the remix of Multi
 * Figure 2.3: Simple exercise
 * Figure 3.1: Early alchemical illustration of ouroboros accompanied by the text ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist (10th Century). Image from Wikipedia.

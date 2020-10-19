@@ -25,7 +25,7 @@ Our point is that using emojis may be fun and expressive, but they also tend to 
 ## start()
 ![multi](ch2_1.gif)
 
-:   *Figure 2.1: Multi by David Reinfurt. Image Courtesy of the artist.*
+:   *Figure 2.1: Multi by David Reinfurt. Courtesy of the artist.*
 
 *Multi* (<http://www.o-r-g.com/apps/multi>),[^multi] is inspired by another designer Enzo Mari who spent a whole year in 1957 exploring the essential form of an object (an apple, the universal apple we might add). Reinfurt explains that, "He was not looking to draw AN apple, but rather THE apple — a perfect symbol designed for the serial logic of industrial reproduction." *Multi* develops a variation of this idea for informational reproduction in the form of a mobile app with 1,728 possible arrangements, or facial compositions, built from minimal punctuation glyphs. But instead of using preset typographic characters, which admittedly is the conceptual charm of *Multi*, for our purpose we will draw these from scratch with foundational elements of geometry.
 
