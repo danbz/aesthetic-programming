@@ -18,8 +18,9 @@ let thankYou = [
 support of publishing in experimental form",
 "Open Source Publishing, Stéphanie Vilayphiou and Gijs de Heij - \
 for design and workshopping",
-"p5.js community - for the contribution of promoting coding and \
+"p5.js & ml5.js community - for the contribution of promoting coding and \
 visual literacy via open source tools and documentation",
+"Audun M. Øygard - for providing the open source face tracker library",
 "Magda Tyżlik-Carver and Christian Ulrik Andersen - for teaching \
 Software Studies course in parallel to Aesthetic Programming, as well as \
 their critical comments on the draft",
