@@ -28,7 +28,7 @@ page_order: 13
 - “Friendly Machine Learning for the Web.” ml5.js, accessed June 20, 2020. <https://ml5js.org/>.
 - Giardina Papa, Elisa. *The Cleaning of Emotional Data*. 2020. <https://aksioma.org/cleaning.emotional.data/>.
 - Gross, Benedikt, Bohnacker, Hartmut, Laub, Julia, Lazzeroni, Claudius. "Generative Design Sketches." n.d. <http://www.generative-gestaltung.de/2/>.
-- Grosser, Ben. “Eat Food Not Bombs.” 2019. <https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI>.
+- Grosser, Ben. “Eat Food Not Bombs.” 2019. <https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w>.
 - ———. *Facebook Demetricator*. 2012-present. <https://bengrosser.com/projects/facebook-demetricator/>.
 - ———. *Instagram Demetricator*. 2018. <https://bengrosser.com/projects/instagram-demetricator/>.
 - ———. *Twitter Demetricator*. 2018. <https://bengrosser.com/projects/twitter-demetricator/>.
