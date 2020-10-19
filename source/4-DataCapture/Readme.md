@@ -268,7 +268,7 @@ For face capture, the sample code uses clmtrackr which is a JavaScript library d
 
 
 ![](ch4_3.png)
-:   *Figure 4.5: The tracker points on a face. Image courtesy of the clmtrackr's creator, Audun M. Øygard.*
+:   *Figure 4.5: The tracker points on a face. Courtesy of the clmtrackr's creator, Audun M. Øygard*
 
 The program uses the webcam to do face capture and facial recognition:
 1. `createCapture()`: This is a HTML5 <video> element (part of the DOM) that captures the feed from a webcam. In relation to this function you can define the size of the screen capture (which depends on the resolution of the webcam) and position on screen, e.g. `capture.size(640,480);` and `capture.position(0,0);`
@@ -325,7 +325,7 @@ The use of a single like button provides a good example of how our feelings are 
 This practice of quantification is something the artist Benjamin Grosser has parodied in his *Demetricator* series,[^Grosser] first published in 2012, which makes all the numbers associated with the metadata disappear. The associated "value" of numbers associated with notifications, replies, favorites, and feeds, have all been nullified. Or rather, it becomes clear that the clicking produces value and the proof of this is conspicuous by its absence.
 
 ![](ch4_9.gif)
-:   *Figure 4.9: Benjamin Grosser's Facebook Demetricator, demetricating Likes, Shares, Comments, and Timestamps. Original (top), Demetricated (bottom). Image courtesy of the artist.*
+:   *Figure 4.9: Benjamin Grosser's Facebook Demetricator, demetricating Likes, Shares, Comments, and Timestamps. Original (top), Demetricated (bottom). Courtesy of the artist*
 
 Tracking is clearly a big business and comes with its own invisibility cloak. In 2013, Facebook conducted a research project about last-minute self-censorship,[^Facebook3] revealing their capability of being able to track even unposted status updates/posts/comments, including erased texts, or images. This "residual data," which might be considered "waste material," "digital exhaust," or data exhaust," and yet this data is rich in predictive values.[^zuboff2] The implication is that Facebook is not only interested in capturing what you have posted, but also capturing your thought processes from residual data. It is sobering to think that data capture extends to the realm of imagination.
 
