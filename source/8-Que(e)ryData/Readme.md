@@ -39,13 +39,14 @@ The following source code of this chapter is a snippet from *nag* showing the we
 
 RunMe(<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch8_Que(e)ryData/>)
 
+
+<div class="columns" markdown=true>
 ![ch8_2](ch8_2.gif)
 :   *Figure 8.2: The process of pixel manipulation*
 
-<figure markdown=true class="figure-inline">
 ![sample2](ch8_2c.png)
-<figcaption><p markdown=true>*Figure 8.3: The manipulation of Warhol flowers*</p></figcaption>
-</figure>
+:    *Figure 8.3: The manipulation of Warhol flowers*
+</div>
 
 For this chapter's sample code, we will focus on images from search engine results and we will also demonstrate how to process, and display image and pixel data on screen in a manner similar to *nag*. Here are the key examples of syntax:
 
@@ -161,7 +162,7 @@ This exercise is about getting the *key ID* and *Engine ID* from Google so that 
 You should now finish modifying the settings. You can now run the sample code with your own API Key and engine ID.
 </div>
 
-![ch8_3b](ch8_3b.png)
+![ch8_3b](ch8_3b.png){: .medium}
 :   *Figure 8.5: Google Custom Search interface - configuring search settings*
 
 ## APIs
@@ -220,7 +221,7 @@ Figure 8.6 demonstrates how you can indicate specific data in a JSON file. There
 
 To learn more about the JSON file, you can navigate through other data objects such as "queries > request > 0" that would show, for example, how many results are found on the image search, which search terms have been processed, and how many data objects were returned (See Figure 8.7). In the sample code, we start with only the top 10 search items, but you can configure the parameter `startIndex` to get the last 10 images out of 110 million. Furthermore, you can find the data for each specific image returned in the form of an array, such as the title, and the corresponding snippet of the page content under `items` in the JSON file.
 
-![google3](ch8_7a.png)
+![google3](ch8_7a.png){: .medium}
 :   *Figure 8.7: Web API data structure II*
 
 We can now summarize the general process of working with web APIs and getting data from an online platform:
@@ -235,7 +236,7 @@ Given our specific example *nag* and the sample code, we want to also reflect on
 <div class="exercise" markdown="true">
 
 ## Exercise in class
-![api](ch8_5.png)
+![api](ch8_5.png){: .medium}
 :   *Figure 8.8: The API request and response logic*
 
 1. Referring to Figure 8.8, can you recap what has been requested and received through the web API? (Or, more conceptually, which forms of control and exchange are performed?)
@@ -249,7 +250,7 @@ Given our specific example *nag* and the sample code, we want to also reflect on
 </div>
 
 ## LoadPixels()
-![sample](ch8_6.png)
+![sample](ch8_6.png){: .medium}
 :   *Figure 8.9: An illustration of how an image is made up of pixels*
 
 For this sample sketch on an image file, only one color in the image will be selected and processed. This means that the program will randomly locate and pick any pixel from the image. The function `pixels` also analyzes and retrieves the color of the selected pixel, specifically the RGB color values that are used to draw the colored line on screen (see Figure 8.9 above as an illustration but in reality the pixel size is much smaller).
@@ -258,8 +259,8 @@ The colored lines (see Figures 8.2 and 8.3) are not randomly drawn, but they are
 
 Each pixel selected contains color information that is the R (red), G (green), B (blue) and A (alpha) values. This is how the data is being stored in the pixels' one dimensional array:
 
-![pixel](ch8_7.jpg)
-:   *Figure 8.10: An illustration of the breakdown of each pixel by Integrated Digital Media, NYU*[^nyu]
+![pixel](ch8_7.jpg){: .medium}
+:   *Figure 8.10: An illustration of the breakdown of each pixel by Integrated Digital Media, NYU. Image from https://idmnyu.github.io/p5.js-image/*[^nyu]
 
 `loc` is a variable for storing pixel information. Each pixel position needs to be clearly located so that a line can be drawn at the right position. Following the function `Pixels()`, each pixel takes up four locations: The first pixel with the four RGBA values, then the second pixel with another four RGBA values, and so on, and so forth:
 

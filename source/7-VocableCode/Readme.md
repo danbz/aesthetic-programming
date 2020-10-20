@@ -13,7 +13,7 @@ Indeed, if coding is somewhat like speaking, then it is also like poetry inasmuc
 
 Various scholars and artists have explored these connections between speaking and coding, not only to consider programming as an aesthetic tool for producing hybrid programming-literary forms, but also to explore the material connections and creative tensions between the two.[^examples] That speech comes from living human bodies further reminds us that coding practices have bodies too, and that coding can only be understood in terms of wider infrastructures, and the context of its making (or "poiesis" if you will). In this chapter we explore this line of thinking, and the ways in which the voice of the human subject is implicated in coding practices, and how coding itself can "voice" wider political issues, particularly concerning sexuality. We will focus on the software artwork *Vocable Code*, as a means to engage with these technical and aesthetic qualities.
 
-![vocable_code](ch7_1.jpg)
+![vocable_code](ch7_1.jpg){: .medium}
 :   *Figure 7.1: The installation of Vocable Code, detail*
 
 ## start()
@@ -107,8 +107,8 @@ this.acts = function() {
 
 "Gilbert_TypeWithPride.otf" is a free font licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, and can be downloaded from the Internet[^font] (www.typewithpride.com). It is designed to honor the memory of Gilbert Baker the creator of the iconic Rainbow Flag who died in 2017.
 
-![](ch7_2.jpg)
-:   *Figure 7.3: The font Type with Pride*
+![](ch7_2.jpg){: .medium}
+:   *Figure 7.3: The font Type with Pride. Image from https://www.typewithpride.com/*
 
 `textFont()` means to get ready to print out or write the text with the chosen font, and in this case was previously defined through the returned PFont object `withPride`.
 
@@ -182,7 +182,7 @@ Figure 7.6 shows two conditional statements in the function `draw()`. The first 
    return status;
  };
 ```
-*Figure 7.7: Snippets of Vocable Code concerning the forth conditional structure*
+*Figure 7.7: Snippets of Vocable Code concerning the fourth conditional structure*
 
 The last "if-else" conditional structure is set within the class method, as illustrated by Figure 7.6, and checks if the text is off canvas, particularly along the
 y-axis. In Figure 7.7, within the class's method `this.shows=function()`, the conditional statement incorporates the relational operator "OR" (`||`), in which neither condition needs to be "true" (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an `else` statement to handle the results of checking whether the conditions have been met. Therefore, it is read as if either one of the two conditions has been met, the variable `status` will be assigned as `notFalse` (this means the text is off screen at the top or bottom), and else if the text still remains on screen, the variable `status` will be assigned as `notTrue`. The values `notFalse` and `notTrue` belong to the `status` variable of the "String" type. However, in general programming practice, Boolean logic (with the "Boolean" type) tends to be understood as an absolute binary reality of "true" or "false." Initially, this seems fundamental to computational logic and can be relate this to the zeros and ones to which information is reduced in machine code. However, arguably and conceptually, `notFalse` and `notTrue` suggest an undoing of binary relations.  

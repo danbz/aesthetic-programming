@@ -22,16 +22,16 @@ Much like the utopian project of developing a universal language to be spoken an
 
 Our point is that using emojis may be fun and expressive, but they also tend to oversimplify and universalize differences, thereby perpetuating normative ideologies within already "violent power structures,"[^ideology] such that only selected people, those with specific skin tones for instance, are represented while others are not. There is a distinct inequality as to how people are represented, and who sets the standards for these representations? That such operations can be characterized as fun is part of the problem and masks other processes that monitor our emotional states not least in the workplace (we will return to this issue in Chapter 4, "Data capture"). The project *AIMoji* by Process Studio highlights some of these issues with the use of deep learning techniques and training existing emoji data[^almoji] in order to mess up their reductive representational logic and produce noisy mutations that offer inbetween shapes, faces and emotions, thereby rejecting %universalism%. Above are some of the issues we want to explore in this chapter by introducing variable geometry and learning to be able to produce alternatives, more politically-correct ones perhaps. We will start with the work *Multi* by graphic designer David Reinfurt which will be used to demonstrate the basis of geometry and the variations of facial expression and composition that can be generated from simple typographic elements.
 
-## start()
-![multi](ch2_1.gif)
+* * *
 
-:   *Figure 2.1: Multi by David Reinfurt. Image Courtesy of the artist.*
+## start()
+![multi](ch2_1.gif){: style="margin-bottom: -1em;"}
+:   *Figure 2.1: Multi by David Reinfurt. Courtesy of the artist.*
 
 *Multi* (<http://www.o-r-g.com/apps/multi>),[^multi] is inspired by another designer Enzo Mari who spent a whole year in 1957 exploring the essential form of an object (an apple, the universal apple we might add). Reinfurt explains that, "He was not looking to draw AN apple, but rather THE apple — a perfect symbol designed for the serial logic of industrial reproduction." *Multi* develops a variation of this idea for informational reproduction in the form of a mobile app with 1,728 possible arrangements, or facial compositions, built from minimal punctuation glyphs. But instead of using preset typographic characters, which admittedly is the conceptual charm of *Multi*, for our purpose we will draw these from scratch with foundational elements of geometry.
 
 ## Source code
-![](ch2_2.gif)
-
+![](ch2_2.gif){: .medium}
 :   *Figure 2.2: The screenshot of the remix of Multi*
 
 RunMe, <https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch2_VariableGeometry/>.
@@ -49,13 +49,11 @@ function setup() {
 }
 
 function draw() {
-  //background
   background(random(230,240));
   //left
-  noStroke()
+  noStroke();
   fill(0);
   rect(97,169,79,12);
-
   //right
   rect(365,184,20,15);
   fill(20,20,120);
@@ -112,7 +110,6 @@ function draw() {
 ```
 
 ![](ch2_4.png)
-
 :   *Figure 2.3: Simple exercise*
 
 Remember the structure of a web page/application should include the HTML, a working JavaScript file (for example, sketch.js), as well as the associated associated p5.js libraries.  
@@ -283,16 +280,12 @@ You can also do %arithmetic operations% in programming, and this is commonly don
 
 You can try the following in the web console area:
 
-```
-console.log(2*3);
-```
-> Output:
-"6"
-```
-console.log("hello" + "world");
-```
-> output:
-"helloworld"
+    console.log(2*3);
+    > Output:
+    "6"
+    console.log("hello" + "world");
+    > output:
+    "helloworld"
 
 ## Discussion in class
 

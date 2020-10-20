@@ -25,7 +25,7 @@ page_order: -3
 <!--* MiniX: RunMe and ReadMe-->
 <!--* Required reading-->
 <!--* Further reading-->
-- Chapter 2: Variable Geometry
+- Chapter 2: Variable geometry
 <!--* setup()-->
 <!--* start()-->
 <!--* Source code-->
@@ -42,7 +42,7 @@ page_order: -3
 <!--* MiniX: Geometric emoji-->
 <!--* Required reading-->
 <!--* Further reading-->
-- Chapter 3: Infinite Loops
+- Chapter 3: Infinite loops
 <!--* setup()-->
 <!--* start()-->
 <!--* Exercise in class (Decode)-->
@@ -62,7 +62,7 @@ page_order: -3
 <!--* MiniX: Designing a throbber-->
 <!--* Required reading-->
 <!--* Further reading-->
-- Chapter 4: Data Capture
+- Chapter 4: Data capture
 <!--* setup()-->
 <!--* start()-->
 <!--* Exercise in class (Decode)-->
@@ -83,7 +83,7 @@ page_order: -3
 <!--* MiniX: Capture all-->
 <!--* Required reading-->
 <!--* Further reading-->
-- Chapter 5: Auto Generator
+- Chapter 5: Auto-generator
 <!--* setup()-->
 <!--* start()-->
 <!--* Exercise in class (10 PRINT)-->
@@ -96,7 +96,7 @@ page_order: -3
 <!--* MiniX: A generative program-->
 <!--* Required reading-->
 <!--* Further reading-->
-- Chapter 6: Object Orientation
+- Chapter 6: Object abstraction
 <!--* setup()-->
 <!--* start()-->
 <!--* Exercise in class (Decode)-->
@@ -110,7 +110,7 @@ page_order: -3
 <!--* MiniX: Games with objects-->
 <!--* Required reading-->
 <!--* Further reading-->
-- Chapter 7: Vocable Code
+- Chapter 7: Vocable code
 <!--* setup()-->
 <!--* start()-->
 <!--* Exercise in class (Decode)-->
@@ -124,7 +124,7 @@ page_order: -3
 <!--* MiniX: E-lit-->
 <!--* Required reading-->
 <!--* Further reading-->
-- Chapter 8: Que(e)ry Data
+- Chapter 8: Que(e)ry data
 <!--* setup()-->
 <!--* start()-->
 <!--* Exercise in class-->
@@ -140,7 +140,7 @@ page_order: -3
 <!--* MiniX: Working with APIs (in a group)-->
 <!--* Required reading-->
 <!--* Further reading-->
-- Chapter 9: Algorithmic Procedures
+- Chapter 9: Algorithmic procedures
 <!--* setup()-->
 <!--* start()-->
 <!--* Discussion in class-->

@@ -12,14 +12,14 @@ download_requirements_link: https://gitlab.com/siusoon/Aesthetic_Programming_Boo
 
 ## setup()
 
-![Ouroboros](ch3_0.png)
-:    *Figure 3.1: Early alchemical illustration of ouroboros accompanied by the text ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist (10th Century), (image from Wikipedia)*
+![Ouroboros](ch3_0.png){: .medium}
+:    *Figure 3.1: Early alchemical illustration of ouroboros accompanied by the text ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist (10<sup>th</sup> Century). Image from Wikipedia*
 
 %Loops% offer alternative imaginaries, as is the case of the ancient image of a serpent eating its own tail. *Ouroboros*, from the Greek, expresses the endless cycle of birth and death, and therefore stands for the ability of processes to infinitely renew themselves. Alongside evocative references to autocannibalism and alchemy, loops are related to control and automation tasks, as well as repetitive procedures in everyday situations such as those heard in repeating sections of sound material in music. The logic behind loops can be demonstrated by the following paradoxical word play: "The next sentence is true. The previous is false."[^Hofstadter] In programming, a loop allows the repeated execution of a fragment of source code that continues until a given condition is met, such as true or false. Indeed a loop becomes an infinite (or endless) if a condition never becomes false.
 
 It was mathematician and author Augusta Ada Byron Lovelace who was one of the first to introduce and illustrate the concept of a programmatic loop in the early nineteenth century. She recognized that there were repeatable operations in the conceptual design of the first ever, automatic, general-purpose computing machine, Charles Babbage's Analytical Engine. A loop, which she called a "cycle," appears in her "Note G" on the Analytical Engine[^Ada] that describes the so-called Bernoulli numbers program, as in the diagram below. It utilizes two loops to indicate the repetition of a set of instructions with conditions,[^Kim] thereby minimizing efforts to write a repeatable operation in duplicate. As such, loops address repeatable and operational time.
 
-![ada lovelace](ch3_1.jpg)
+![ada lovelace](ch3_1.jpg){: .medium}
 :    *Figure 3.2: Diagram for the computation by the Engine of the Numbers of Bernoulli, from "Note G" by Ada Lovelace*
 
 Loops in contemporary programming are highly influenced by these early insights into the handling of repeated machine operations expressed in diagramatic form. High-level programming languages such as p5.js include this loop concept, allowing a fragment of source code to be repeatedly executed, as in the example of the `draw()` function that will run continuously until the program is stopped or using the syntax `noLoop()`. Loops are some of the most basic and powerful of programming concepts.
@@ -33,7 +33,7 @@ We usually encounter the ubiquitous spinning icon while loading or streaming. It
 ## Exercise in class (Decode)
 As mentioned above, this chapter shifts from programming static objects to a mixture of both static and moving objects. Our example is circular and spins, as if it were eating its own tail.
 
-![3.2](ch3_2.png)
+![3.2](ch3_2.png){: .medium}
 :    *Figure 3.3: The runme of sample code - sketch 3_1*
 
 [RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch3_InfiniteLoops/sketch3_1/>)
@@ -138,8 +138,8 @@ You can also try to type/copy the above code into your own sketch, where it will
 ## %Transform%
 In general, the transform-related functions[^ref2] apply a two-dimensional or three-dimensional transformation to an element or object. In the sample code provided, two specific transformational functions were used to move the canvas and create an illusion of object transformation. (It is important to know that the transformation is done at canvas background level, not at the individual shape/object level.)
 
-![3.3](ch3_3.png)
-:    *Figure 3.4: Moving the coordinate system at canvas level (image from processing.org)*
+![3.3](ch3_3.png){: .medium}
+:    *Figure 3.4: Moving the coordinate system at canvas level. Image from processing.org*
 
 1. %`translate()`%: This function displaces/moves objects within the display window. For example, moving the canvas to the center will position the whole sketch at the center too (`translate(width/2, height/2);`). The ellipse is drawn as `ellipse(35,0,22,22)` which takes (35,0) as the x and y coordinates, and "22" as the size. If we don't have the `translate()` function upfront, the ellipse will be placed at the top left corner instead (because the x coordinate value "35" is the distance of the rotating ellipses from the center position). By moving the coordinate origin to the middle using the `translate()` function, the ellipses is placed in the middle of the canvas, because the coordinate orign (0,0) has moved to the center of the screen. Building upon the previous chapter on the spatial dimension of a coordinate system, "translate" adds another layer to think about moving and positioning objects using canvas.
 2. %`rotate()`%: In this sample code, the use of the function `rotate()` makes the ellipse rotate through a particular number of degrees. The default unit for rotation is radians. As such, the code is written as `rotate(radians(cir));`. The function `rotate()` takes radians in its default mode, but if you want to change to degrees all you have to do is add the code `angleMode(DEGREES)`.
@@ -184,7 +184,7 @@ The last four lines describe the drawing of the four static yellow lines. Logica
 The following section will move from repetition and regularity, to repetition and difference. Artist and software developer John P. Bell made an artwork called *Asterisk Painting*,[^Bell] that consists of a number of throbber-like spinning patterns, however each throbber (or what he calls asterisk) spins differently, varying in color and texture. Many of the syntaxes Bell used are related to temporality, for example the setting up of a timer, the calculation in milliseconds, the speed of rotation, the time to wait before starting a new cycle, and so on, in which programming enables the re-negotiation of time to "develop alternative time practices and experiences" through manipulating time-related functions[^Lammerant]. Also, on a closer inspection, the asterisks are not geometric shapes, but are constituted by a series of numbers which refer to the milliseconds counter that line up to form a straight line.
 
 ![3.5](Asterisk_Painting.gif)
-:    *Figure 3.5 : Asterisk Painting (2014) by John P. Bell*
+:    *Figure 3.5 : Asterisk Painting (2014) by John P. Bell. Courtesy of the artist*
 
 According to Bell,
 >  "Asterisk Painting is programmed to create a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started. If left to run by itself it will do so; however, when started on a real system, delays external to my artwork may make the asterisks look more like spots..."
@@ -388,15 +388,15 @@ for(let i=0; i<yPos.length; i++) {
 
 See the structure of a for-loop:
 
-![](ch3_4.png)
+![](ch3_4.png){: .medium}
 :    *Figure 3.6 A for-loop*
 
 Figure 3.6 shows you what a for-loop consists of:
 
-1. *A variable declaration and initialization*: Usually starts with 0
-2. *A specificed condition*: The criteria to meet the condition
-3. *Action*: What you want to happen when the condition is met
-4. *Loop for next*: For the next iteration (usually incremental/decremental).
+1. **A variable declaration and initialization**: Usually starts with 0
+2. **A specificed condition**: The criteria to meet the condition
+3. **Action**: What you want to happen when the condition is met
+4. **Loop for next**: For the next iteration (usually incremental/decremental).
 
 This block of code from the above example describes the position of each asterisk in terms of its x and y coordinates (the center point [x,y] of each asterisk). Since there are 5 columns (xPos) and 4 rows (yPos) which have been defined in global variables, the program needs to know the coordinates precisely. The overall formula to locate the position, for example xPos, is to divide the width of the canvas by the number of asterisks horizontally, and add one. As such, the code can be understood as follows: calculate the `xPos[i]` for each iteration with the starting point 0. Additionally, each iteration will increase the count by 1 until it reaches the maximum number of asterisks in a row (`i < xPos.length`).
 
@@ -406,7 +406,6 @@ This block of code from the above example describes the position of each asteris
 In our teaching, we describe another example of the use of a for-loop to further clarify its use and to demonstrate the repeated drawing of objects.
 
 ![](ch3_8.png)
-
 :    *Figure 3.8 Drawing 20 ellipses on a canvas using a for-loop*
 
 ```javascript
@@ -451,7 +450,7 @@ Referencing Martin Heidegger’s "being-in-time,"[^Heidegger] and human beings' 
 
 **For additional inspiration:**
 
-Check out other works that refer to the throbber and how other people contextualize their thinking:  
+Check out other works that refer to the throbber and how other people contextualize their thinking.  
 
 * *Tanabata(七夕)* by Yurika Sayo (n.d.), with source code, <https://www.openprocessing.org/sketch/926326>.
 * *LOADING (THE BEAST 6:66/20:09)* by Gordan Savičić (2009), <https://www.yugo.at/processing/archive/index.php?what=loading>.
@@ -462,14 +461,15 @@ Check out other works that refer to the throbber and how other people contextual
 
 **Task (RunMe):**
 
-* Use loops and any one of the transformational functions to redesign and program an "animated" throbber.
+Use loops and any one of the transformational functions to redesign and program an "animated" throbber.
 
 **Questions to think about (ReadMe):**
 
-* **Describe** your throbber design, both conceptually and technically.
-    * What do you want to explore and/or express?
-    * What are the time-related syntaxes/functions that you have used in your program, and why have you used them in this way? How is time being constructed in computation (refer to both the reading materials and your coding)?
-    * Think about a throbber that you have encounted in digital culture, e.g. for streaming video on YouTube or loading the latest feeds on Facebook, or waiting for a payment transaction, and consider what a throbber communicates, and/or hides? How might we characterize this icon differently?
+ **Describe** your throbber design, both conceptually and technically.
+
+* What do you want to explore and/or express?
+* What are the time-related syntaxes/functions that you have used in your program, and why have you used them in this way? How is time being constructed in computation (refer to both the reading materials and your coding)?
+* Think about a throbber that you have encounted in digital culture, e.g. for streaming video on YouTube or loading the latest feeds on Facebook, or waiting for a payment transaction, and consider what a throbber communicates, and/or hides? How might we characterize this icon differently?
 </div>
 
 ## Required reading

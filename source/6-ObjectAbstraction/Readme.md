@@ -57,20 +57,20 @@ After the above example of modeling a person-object, we now move to another exam
 When tofu becomes a computational object — as in *Tofu Go!* — abstraction is required to capture the complexity of processes, and relations, and to represent what are thought to be essential or desirable properties, and behaviors. In the game, tofu is designed as a simple, three-dimensional white cube with a range of emotive expressions, and the ability to move, and jump. Of course real tofu cannot behave this way, but you can imagine how objects perform if you have programmed your own game, and if you love tofu as Lam does: "*Tofu Go!* is a game dedicated to my love for tofu and hotpot," as he puts it.[^francis2] The aim of the game is to save the tofu from being captured by the chopsticks.
 
 ![tofu go](ch6_1.png)
-:   *Figure 6.1: A screenshot of the game ToFu Go!, developed and designed by Francis Lam. Image courtesy of the designer.*
+:   *Figure 6.1: A screenshot of the game ToFu Go!, developed and designed by Francis Lam. Courtesy of the designer.*
 
 Below we will introduce the sample code *Eating tofu*, a simple game inspired by the following: *ToFu Go!* (available for free download), the prior project *Multi* as introduced in Chapter 2, "Variable geometry," and the popular Japanese eating game *Pac-Man*.[^pacman] The remaining parts unfold the computational logic and modeling required to understand the basics of OOP.
 
 <div class="section exercise" markdown="true">
 ## Exercise in class (Decode)
 
-<figure markdown=true>
+<figure class="columns" markdown=true>
 ![ch6_2](ch6_2.png)
 ![ch6_3](ch6_3.gif)
 <figcaption><p markdown=true>*Figure 6.2: A screenshot of the Eating tofu game*</p></figcaption>
 </figure>
 
-[RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch6_ObjectAbstraction/>)
+RunMe, <https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch6_ObjectAbstraction/>
 
 **Speculation**
 
@@ -510,7 +510,7 @@ If we apply this to a computational object and its abstraction (the identificati
 
 * "p5.js - Array Objects," <https://p5js.org/examples/arrays-array-objects.html>.
 * *daily coding* by Tomokazu Nagayama (2020), <https://twitter.com/nagayama/status/1246086230497845250?s=19>, with source code: <https://github.com/nagayama/dailycoding/blob/master/2020/04/03.html>.
-* *Eat Food Not Bombs* by Ben Grosser (2019), <https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w?fbclid=IwAR0pegtorx1cyYYKsEh8jNXTHdFika6tGIGOjEUgr8vTXGLHv6ajYuY4EQI>.
+* *Eat Food Not Bombs* (with source code) by Benjamin Grosser (2019), <https://editor.p5js.org/bengrosser/full/Ml3Nj2X6w>.
 * *lifeline* by Junichiro Horikawa (2020), <https://www.openprocessing.org/sketch/891619>.
 * "p5.js coding challenge #31: Flappy Bird" by Daniel Shiffman, <https://www.youtube.com/watch?v=cXgA1d_E-jY>.
 * "p5.js coding challenge #3: The Snake Game" by Daniel Shiffman, <https://www.youtube.com/watch?v=AaGK-fj-BAM>.
