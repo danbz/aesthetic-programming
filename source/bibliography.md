@@ -1,6 +1,7 @@
 Title: Bibliography
 page_order: 12
 
+<div class="long-list" markdown=true>
 - 1001 Free Fonts. <https://www.1001freefonts.com/>.
 - “A Beginner's Guide to Neural Networks and Deep Learning.” Pathmind. <https://pathmind.com/wiki/neural-network#define>.
 - Abbing, Roel Roscam, Peggy Pierrot and Femke Snelting. “Modifying the Universal.” In *Executing Practices*. Edited by Helen Pritchard, Eric Snodgrass & Magda Tyżlik-Carver, 35-51. London: Open Humanities Press, 2018.
@@ -234,13 +235,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Paul, Christiane, Carol Mancusi-Ungaro, and Clémence White. “Programmed: Rules, Codes, and Choreographies in Art, 1965–2018.” Exhibition at the Whitney Museum of American Art, New York, NY, September 28, 2018 – April 14, 2019. <https://whitney.org/exhibitions/programmed>.
 - Peppler, Kylie A., and Yasmin B. Kafai. "Creative coding: Programming for personal expression." The 8th International Conference on Computer Supported Collaborative Learning (CSCL) 2 (2009): 76-78.
 - Peter Bogh, Andersen, "Computer Semiotics." *Scandinavian Journal of Information Systems*, 4, no.1, (1992):1, <https://aisel.aisnet.org/sjis/vol4/iss1/1/>.
-<<<<<<< HEAD
-- Pierrot, Peggy, Martino Morandi, Anita Burato, Christoph Haag, Michael Murtaugh, Femke Snelting, and Seda Gürses. *The Techno-galactic guide to software observation*. Brussels: Constant, 2018.
-- Plant, Sadie. *Zeros + Ones: Digital Women and the New Technoculture*. London, UK: Forth Estate, 1997.
-=======
 - Pierrot, Peggy, Martino Morandi, Anita Burato, Christoph Haag, Michael Murtaugh, Femke Snelting, and Seda Gürses. *The Techno-galactic guide to software observation*. Brussels: Constant, 2018.
 - Plant, Sadie. *Zeros + Ones: Digital Women and the New Technoculture*. London: Forth Estate, 1997.
->>>>>>> 4177786af6900deabd470ef98a5d3a7ade32f680
 - Pngfind. <https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/>.
 - Pold, Søren. “Button.” In *Software Studies*. Edited by Matthew Fuller, 31–36. Cambridge, MA: The MIT Press, 2008.
 - ———. "Interface Perception: The Cybernetic Mentality and Its Critics: Ubermorgen.com." In *Interface Criticism: Aesthetics Beyond Button*. Edited by Christian Ulrik Andersen & Søren Bro Pold, 91-113. Aarhus: Aarhus University Press, 2011.
@@ -375,3 +371,4 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Wing, Jeannette M.. "Computational Thinking," *Commun. ACM* 49, no. 3 (March 2006): 33–35.
 - Zuboff, Shoshana. *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power*. New York: PublicAffairs, 2019.
 - ———. “Shoshana Zuboff on Surveillance Capitalism | VPRO Documentary.” Youtube video, 49:59. Posted by "vpro documentary," December 20, 2019. <https://youtu.be/hIXhnWUmMvw>.
+</div>

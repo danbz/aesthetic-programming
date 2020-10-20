@@ -1,8 +1,11 @@
 Title: List of Projects
 page_order: 13
 
-## List of Projects (artworks, software, exhibitions):
+**List of Projects (artworks, software, exhibitions)**
 
+Showcase of students projects can be found at <https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/blob/master/source/showcase.md>.
+
+<div class="long-list" markdown=true>
 - “A hackable text editor for the 21st Century.” Atom. <https://atom.io/>.
 - “atom-live-server-package.” Atom. <https://atom.io/packages/atom-live-server>.
 - Bell, John P. *Asterisk Painting*. n.d. <http://www.johnpbell.com/asterisk-painting/>.
@@ -12,11 +15,11 @@ page_order: 13
 - Burnham, Jack. “Software – Information Technology: Its New Meaning for Art.” Exhibition at the Jewish Museum, New York, NY, September 16 – November 8, 1970, and Smithsonian Institution, Washington, D.C., December 16, 1970 – February 14, 1971.
 - “Call for Works 2015: CAPTURE ALL.” transmediale / art & digitalculture. <https://transmediale.de/content/call-for-works-2015>.
 - Chicau, Joana, and Jonathan Reus. *Anatomies of Intelligence & the Concept of Aesthesis*. <https://anatomiesofintelligence.github.io/>.
-- ———. “Anatomies of Intelligence.” NN Cluster initiative Aarhus University 2019, Winnie Soon, Magda Tyzlik-Carver, and Pablo Velasco. https://anatomiesofintelligence.github.io/workshop_presentation.html.
+- ———. “Anatomies of Intelligence.” NN Cluster initiative Aarhus University 2019, Winnie Soon, Magda Tyzlik-Carver, and Pablo Velasco. <https://anatomiesofintelligence.github.io/workshop_presentation.html>.
 - Choi, Taeyoon. *Signing Coders*. Ongoing. <http://taeyoonchoi.com/soft-care/signing-coders/>.
 - Cirio, Paolo, Alessandro Ludovico, and UBERMORGEN. 2005. “GEWI - Google Will Eat Itself.” <https://www.gwei.org/index.php>.  
 - Cox, Geoff, and Duncan Shingleton. *hallo welt!* (hello world!). Last updated July 1, 2008. <http://www.anti-thesis.net/hello-world-60/>.
-- Cramer, Florian. "I Love You [rev-eng]." 2006. Digital Craft.org. Exhibition, Kulturbüro. http://www.digitalcraft.org/iloveyou/.
+- Cramer, Florian. "I Love You [rev-eng]." 2006. Digital Craft.org. Exhibition, Kulturbüro. <http://www.digitalcraft.org/iloveyou/>.
 - Conway, John Horton. “The Game of Life.” 1970. Internet Archive Wayback Machine. <https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/>.
 - db-db-db (aka Francis Lam). “Tofu Go!.” 2012. Apple App Store. <https://apps.apple.com/us/app/tofu-go/id441704812>.
 - Dullaart, Constant. “DVD guy MVI_9443.AVI.” YouTube video, 1:00. Posted by “Constantdullaart,” January 14, 2019. <https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB>.
@@ -98,5 +101,5 @@ page_order: 13
 - Witt, Sol Le. *Wall Drawing #289*. 1976.
 - “Wordnet: A Lexical Database for English.” Princeton University. <https://wordnet.princeton.edu/>.
 - Žilák, Martin. "recursive fractal tree in p5.js." n.d. <https://editor.p5js.org/marynotari/sketches/BJVsL5ylz>.
+</div>
 
-Showcase of students projects can be found at <https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/blob/master/source/showcase.md>.

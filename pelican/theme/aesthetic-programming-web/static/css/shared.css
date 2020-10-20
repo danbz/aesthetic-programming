@@ -162,8 +162,21 @@ li {
 }
 
 li p {
-    padding-top: 0;
+    padding: 0;
 }
+
+.long-list ul {
+    column-count: 2;
+    font-size: 0.7em;
+    line-height: 1.25em;
+    border-left: 0;
+    padding: 0;
+    margin: 0;
+}
+.long-list ul li {
+    padding-bottom: 0.65em;
+}
+
 
 dt:after {
    content: " → ";
@@ -196,6 +209,7 @@ figure {
 img {
     max-width: 100%;
     max-height: 60vh;
+    outline: 1px dotted black;
 }
 
 figure.small {
@@ -365,11 +379,22 @@ padding-left: 1em;
 }
 
 div.footnote p {
-    padding-top: 0;
+    padding-bottom: 0.65em;
 }
 
 div.footnote a {
 word-break: break-word;
+}
+
+a.footnote-ref {
+    border: 1px dotted black;
+    border-radius: 9px;
+    text-decoration: none;
+    padding: 5px 3px 1px;
+    line-height: 0;
+    margin-left: 3px;
+    font-size: 11px;
+    vertical-align: -4px;
 }
 
 a.footnote-backref {
@@ -382,9 +407,9 @@ a.footnote-backref:hover {
 }
 
 .indexed_word {
-    outline: 1px dotted black;
-    outline-offset: 2px;
-    padding: 0 4px;
+    border: 1px dotted black;
+    padding: 4px 4px 1px;
+    border-radius: 0.9em;
 }
 
 .code--line {
@@ -422,4 +447,14 @@ a.footnote-backref:hover {
 }
 .links-pages {
     float: right;
+}
+
+#showcase figure{
+    width: 33%;
+    padding: 0.5em;
+    float: left;
+}
+
+#showcase h3 {
+    clear: both;
 }
