@@ -26,13 +26,13 @@ Appropriately, for the last chapter of our book, many of the critical-technical 
 
 Let's start with a closer examination of and reflection on the ELIZA chatbot by using the test application produced by Norbert Landsteiner, between 2005 and 2013:
 
-![10_2](ch10_5.png)
-:   *Figure 10.2:  ELIZA Talking (2013) by Norbert Landsteiner*
+![10_2](ch10_5.png){: .medium}
+:   *Figure 10.2:  E.L.I.Z.A. Talking (2013) by Norbert Landsteiner*
 
 Tasks:
 
 1. Visit the ELIZA Test by clicking the button "Next Step", <https://www.masswerk.at/elizabot/eliza_test.html> so you can see the original example given by Weizenbaum in his published article.[^Weizenbaum3]
-2. Then visit the work *E.L.I.Z.A Talking* (2013) via the link <https://www.masswerk.at/eliza/>, and try to have your own conversation.[^bot]
+2. Then visit the work *E.L.I.Z.A. Talking* (2013) via the link <https://www.masswerk.at/eliza/>, and try to have your own conversation.[^bot]
 3. Share your experience of the original conversation (by Weizenbaum) and your conversation with the chatbot:
     * How would you describe your experience of ELIZA (e.g. the use of language, style of conversation, and quality of social interaction)?
     * How would you assess the ability of technology such as this to capture and structure feelings, and experiences? What are the limitations?
@@ -74,12 +74,12 @@ Broadly speaking there are three types of algorithms: Supervised Learning, Unsup
 
 Artist-researcher Nicolas Malevé has done extensive work on this topic in relation to the ImageNet dataset,[^imagenet] a hugely influential project in the field of computer vision, developed by Fei-Fei Li at Stanford University in 2009. The dataset is vast and contains over 14 million photographs that are organized into over twenty-one thousand "synsets" (categories), taken from a lexical database called WordNet.[^net] The labelling work was completed by over 25,000 workers over a two-year period using Amazon Mechanical Turk, a crowdsourcing platform. Exhibited across two months of the summer of 2019 as a live stream on the web and on the Media Wall at The Photographers Gallery, London, Malevé's script cycled through the entire contents of the dataset at a speed of 90 milliseconds per image, pausing at random points to enable the viewer to "see" some of the images, and how they are categorized. This raised questions about the relation of scale between the overwhelming quantities of images needed to train algorithms and the human labor, and attention (or the lack of it) required to annotate and categorize the images.[^TPG] An excerpt form the live recording of the work entitled *12 Hours of ImageNet* can be viewed online.
 
-![cock](ch10_7.png)
+![cock](ch10_7.png){: .medium}
 :   *Figure 10.4: The categorization of "cock" in Exhibiting ImageNet (2019) by Nicolas Malevé. Courtesy of the artist*
 
 **Unsupervised Learning** - Unlike the previous learning model, the training dataset does not contain a set of labelled data. One of the common tasks with unsupervised learning is "clustering" (algorithms such as K-means and Hierarchical Clustering). The goal of this technique is to find similarities, providing insights into underlying patterns, and relationships of different groups in a dataset using exploratory and cluster analysis. As such, items in the same group or cluster share similar attributes and metrics. The idea behind clustering is to identify similar groups of data in a dataset, segregating groups with similar characteristics. It is commonly used in the business and marketing sectors to understand customer preferences so personalization and data marketing can be provided by grouping customers based on their purchasing behavior with regard to certain types of goods.
 
-![k-means](ch10_4.gif)
+![k-means](ch10_4.gif){: .medium}
 :   *Figure 10.5: An illustration of Unsupervised Learning with K-means clustering. Image from Wikimedia Commons*
 
 Artists Joana Chicau and Jonathan Reus produced *Anatomies of Intelligence*[^AI] based on an unsupervised learning model to develop an understanding of anatomical knowledge, and computational learning. In their AI workshop,[^chicau] they suggest that participants think of two features for examining a small image dataset (around 15 images) — such as "cuteness" and "curliness" — and each of the images are rated and sorted according to these features (in the form of x and y axis) within a number range say from 0.0 to 1.0 (for normalization and rescaling, in statistical terms, so that data are in the same scale). More features can be added, but it is more convenient to have two only for a physical workshop setting. Each image can then be described by the set of feature values. As a result, several clusters are formed, providing a new perspective on the relations between images in terms of their similarities and differences. It's a simple exercise, but can obviously be scaled up, systematized, and automated, for example by deciding on the number of clusters and calculating the distribution of/distance between data points. This also helps reinforce how algorithms designed to recognize patterns, known as neural networks,[^neuralnets] operate, loosely based, as they are, on a model of the human brain and how it learns to differentiate certain objects from other objects.
@@ -88,7 +88,7 @@ Artists Joana Chicau and Jonathan Reus produced *Anatomies of Intelligence*[^AI]
 :   *Figure 10.6: Anatomies of Intelligence (2018-) by Joana Chicau and Jonathan Reus. Courtesy of the artists*
 
 
-![anatomies2](ch10_4.png)
+![anatomies2](ch10_4.png){: .medium}
 :   *Figure 10.7: The clustering of images based on "cuteness" and "curliness" in the Anatomies of Intelligence workshop by Joana Chicau and Jonathan Reus.*
 
 **Reinforcement Learning** — This type of learning technique is based on interaction with the environment, mapping an analysis of a situation into actions.[^rl] The learner (or agent) does not have any previous data to base itself on, to determine, or predict which action to take, but rather learns by trial and error to yield the best results. For example, the computer program AlphaGo[^alphago] beat the world champion of the Go abstract strategy board game in 2017. AlphaGo was able to evaluate the various positions and select the best moves using self-taught processes. This type of learning finds the best possible behavior or path to take in a specific environment, mapping state-action pairs to achieve the best result. As in behavioral psychology, reinforcement is used to suggest future actions, like a child getting a treat for doing what it was told to. Unlike supervised learning that relies on input training data, the characteristics of reinforcement learning are that the program understands the environment as a whole,[^environment] and is able to learn from its experience by evaluating the effectiveness of each action taken: "trial-and-error search" and "delayed reward"[^rl2] are based on sequential decisions, computation, repeated attempts, and feedback on the success of actions.
@@ -103,7 +103,7 @@ The training process uses a "Recurrent Neural Network" (RNN) and "Long Short Ter
 ![ch10_7](ch10_6.png)
 :   *Figure 10.8: Auto Chapter Generator*
 
-[RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch10_MachineUnlearning/>)
+RunMe: <https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch10_MachineUnlearning/>
 
 ## Source code
 

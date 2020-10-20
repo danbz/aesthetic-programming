@@ -188,6 +188,7 @@ dd:after {
 
 figure {
     text-align: center;
+    margin: auto;
     margin-top: var(--line-height);
     margin-bottom: var(--line-height);
 }
@@ -197,11 +198,36 @@ img {
     max-height: 60vh;
 }
 
+figure.small {
+    width: 33%;
+}
+
+
 figure.medium {
     width: 66%;
-    margin-right: auto;
-    margin-left: auto;
 }
+
+.columns {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.columns p {
+    padding: 0;
+}
+
+figure.columns img,
+div.columns figure {
+    width: 48%;
+    display: inline-block;
+}
+
+.columns figcaption {
+    flex-grow: 1;
+}
+
 
 figure.float {
     float: left;
@@ -250,8 +276,24 @@ padding: 0 1em;
 }
 
 table {
-display: block;
-padding: var(--line-height) 0;
+    display: block;
+    padding: var(--line-height) 0;
+}
+
+thead {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    height: 0.5em;
+    border-bottom:1px solid black;
+}
+
+tbody tr:first-child td {
+    padding-top: 0.5em;
+}
+
+td {
+    width: 64%;
 }
 
 .section {
@@ -295,6 +337,7 @@ h2 + ul {
 div.exercise {
     outline: 4px double black;
     padding: 1.5em;
+    padding-bottom: 0;
     margin-bottom: 3em;
     margin-top: 1.5em;
     border: 0;

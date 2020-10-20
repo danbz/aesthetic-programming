@@ -13,7 +13,7 @@ Indeed, if coding is somewhat like speaking, then it is also like poetry inasmuc
 
 Various scholars and artists have explored these connections between speaking and coding, not only to consider programming as an aesthetic tool for producing hybrid programming-literary forms, but also to explore the material connections and creative tensions between the two.[^examples] That speech comes from living human bodies further reminds us that coding practices have bodies too, and that coding can only be understood in terms of wider infrastructures, and the context of its making (or "poiesis" if you will). In this chapter we explore this line of thinking, and the ways in which the voice of the human subject is implicated in coding practices, and how coding itself can "voice" wider political issues, particularly concerning sexuality. We will focus on the software artwork *Vocable Code*, as a means to engage with these technical and aesthetic qualities.
 
-![vocable_code](ch7_1.jpg)
+![vocable_code](ch7_1.jpg){: .medium}
 :   *Figure 7.1: The installation of Vocable Code, detail*
 
 ## start()
@@ -107,7 +107,7 @@ this.acts = function() {
 
 "Gilbert_TypeWithPride.otf" is a free font licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, and can be downloaded from the Internet[^font] (www.typewithpride.com). It is designed to honor the memory of Gilbert Baker the creator of the iconic Rainbow Flag who died in 2017.
 
-![](ch7_2.jpg)
+![](ch7_2.jpg){: .medium}
 :   *Figure 7.3: The font Type with Pride. Image from https://www.typewithpride.com/*
 
 `textFont()` means to get ready to print out or write the text with the chosen font, and in this case was previously defined through the returned PFont object `withPride`.

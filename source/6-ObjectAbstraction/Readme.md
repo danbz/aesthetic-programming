@@ -64,13 +64,13 @@ Below we will introduce the sample code *Eating tofu*, a simple game inspired by
 <div class="section exercise" markdown="true">
 ## Exercise in class (Decode)
 
-<figure markdown=true>
+<figure class="columns" markdown=true>
 ![ch6_2](ch6_2.png)
 ![ch6_3](ch6_3.gif)
 <figcaption><p markdown=true>*Figure 6.2: A screenshot of the Eating tofu game*</p></figcaption>
 </figure>
 
-[RunMe](<https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch6_ObjectAbstraction/>)
+RunMe, <https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch6_ObjectAbstraction/>
 
 **Speculation**
 
