@@ -139,7 +139,7 @@ h2, h3 {
 
 pre {
     margin-left: -1.75em;
-    margin-right: -3em;
+    letter-spacing: -0.5px;
 }
 
 .pagedjs_pages {
