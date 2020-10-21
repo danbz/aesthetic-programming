@@ -1,5 +1,9 @@
 Title: 7. Vocable code
 page_order: 7
+p5: p5_SampleCode/libraries/p5_2017.js
+requirements: p5_SampleCode/libraries/p5.sound.js
+sketch_base_url: p5_SampleCode/ch7_VocableCode/
+sketch: p5_SampleCode/ch7_VocableCode/vocableCode.js
 
 ![flowchart](ch7_0.svg)
 

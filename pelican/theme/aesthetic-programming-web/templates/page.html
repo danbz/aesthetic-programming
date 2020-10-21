@@ -59,9 +59,16 @@
         <section id="canvas">
             <script type="text/p5" data-editor-layout="vertical" data-autoplay="autoplay"
                 src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/{{ page.sketch }}"
+                {% if page.sketch_base_url %}
+                data-base-url="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/{{ page.sketch_base_url }}"
+                {% endif %}
                 data-p5-path="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/{{ page.p5 }}"
                 {% if page.requirements %}
+                    {% if page.requirements is string %}
+                    data-requirements="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/{{ page.requirements }}"
+                    {% else %}
                     data-requirements="{% for requirement in page.requirements %}{{ SITEURL }}/{{ THEME_STATIC_DIR }}/{{ requirement }}{% if not loop.last %}, {% endif %}{% endfor %}"
+                    {% endif %}
                 {% endif %}>
             </script>
         </section>

@@ -1,6 +1,9 @@
 Title: 10. Machine unlearning
 page_order: 10
-sketch: p5_SampleCode/ch10_MachineLearning/sketch.js
+requirements: p5_SampleCode/ch10_MachineUnlearning/htmlGenerator.js
+              p5_SampleCode/libraries/ml5.min.js
+sketch_base_url: p5_SampleCode/ch10_MachineUnlearning/
+sketch: p5_SampleCode/ch10_MachineUnlearning/sketch.js
 download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch10_MachineUnlearning
 
 ![flowchart](ch10_0.svg)
