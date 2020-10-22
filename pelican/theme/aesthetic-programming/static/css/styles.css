@@ -1,6 +1,6 @@
 :root {
---font-size: 12pt;
---line-height: 15pt;
+--font-size: 10pt;
+--line-height: 12.5pt;
 }
 
 @page {
@@ -8,7 +8,7 @@
 }
 
 @page:left {
-    margin: 2cm 2cm 3.5cm 2cm;
+    margin: 2cm 3cm 3.5cm 2cm;
     @top-left {
       content: "Aesthetic Programming";
       font-family: "HerscheyTimes";
@@ -22,7 +22,7 @@
 }
 
 @page:right {
-    margin: 2cm 2cm 3.5cm 2cm;
+    margin: 2cm 2cm 3.5cm 3cm;
     @top-right {
       content: string(title);
       margin-right: -3em;
@@ -69,7 +69,8 @@
 
 
 
-.debug .pagedjs_page {
+.pagedjs_page {
+    outline: 1px solid black;
 }
 
 .pagedjs_page {
@@ -99,12 +100,19 @@ hr {
 }
 
 div.footnote {
-    font-size: 9pt;
-    line-height: 11pt;
+    font-size: 7pt;
+    line-height: 8pt;
+}
+
+h2#notes{
+    break-before: page;
 }
 
 div.footnote ol {
+    margin: 0;
+    padding: 0;
     column-count: 3;
+    break-before: avoid;
 }
 
 img {
@@ -127,7 +135,7 @@ pre .CodeMirror-line {
 }
 
 h2, h3 {
-    padding-top: calc(2*var(--line-height));
+    padding-top: calc(1*var(--line-height));
     padding-bottom: 0;
 }
 
@@ -175,7 +183,24 @@ pre {
     margin-left: -1.75em;
     letter-spacing: -0.5px;
 }
+pre code {
+}
 
-.pagedjs_pages {
-    width: calc(var(--pagedjs-width) * 2.1);
+@media screen {
+    .pagedjs_pages {
+        width: calc(var(--pagedjs-width) * 2.1);
+    }
+}
+
+
+
+/* SYNTAX HIGHLIGHTING FOR PRINT */
+:root {
+    --light-gray: #000 !important;
+    --dark-gray: #000 !important;
+    --almost-black: #000 !important;
+    --dark-brown: black !important;
+    --light-brown: #000 !important;
+    --pinkish: #000 !important;
+    --dark-blueish: #000 !important;
 }

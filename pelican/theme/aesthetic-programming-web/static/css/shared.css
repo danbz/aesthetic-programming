@@ -16,6 +16,8 @@
   font-style: italic;
 }
 
+
+
 body {
 font-family: "HersheyNoailles";
 font-size: var(--font-size);
@@ -51,22 +53,18 @@ pre,
 code {
 font-family: ocr-pbi;
 white-space: pre-wrap;
-margin: calc(-1*var(--line-height)) 0;
+margin: calc(1*var(--line-height)) 0;
 /*outline: 1px dotted black;*/
 /*outline-offset: 2px;*/
-}
-
-code {
-  
-}
-
-pre code {
-outline: 0;
 }
 
 pre {
 /* padding: var(--line-height); */
 /* font-size: 0.8em; */
+}
+
+pre code {
+outline: 0;
 }
 
 code {
@@ -91,6 +89,7 @@ hr + hr {
     height: var(--line-height);
     border-bottom: 1px solid black;
 }
+
 
 
 a {
@@ -209,7 +208,10 @@ figure {
 img {
     max-width: 100%;
     max-height: 60vh;
-    outline: 1px dotted black;
+    outline: 1px dashed black;
+}
+img.no-border {
+    outline: 0;
 }
 
 figure.small {
@@ -390,11 +392,14 @@ a.footnote-ref {
     border: 1px dotted black;
     border-radius: 9px;
     text-decoration: none;
-    padding: 5px 3px 1px;
+    padding: 8px 3px 1px;
     line-height: 0;
     margin-left: 3px;
     font-size: 11px;
     vertical-align: -4px;
+    display: inline-block;
+    height: 1.25em;
+    min-width: 1.25em;
 }
 
 a.footnote-backref {
@@ -408,8 +413,8 @@ a.footnote-backref:hover {
 
 .indexed_word {
     border: 1px dotted black;
-    padding: 4px 4px 1px;
-    border-radius: 0.9em;
+    padding: 0.2em 0.5em 0;
+    border-radius: 2em;
 }
 
 .code--line {
@@ -457,4 +462,26 @@ a.footnote-backref:hover {
 
 #showcase h3 {
     clear: both;
+}
+
+/* SYNTAX HIGHLIGHTING */
+:root {
+    --light-gray: #A0A0A0 !important;
+    --dark-gray: #222 !important;
+    --almost-black: #000 !important;
+    --dark-brown: black !important;
+    --light-brown: #000 !important;
+    --pinkish: #e15f5f !important;
+    --dark-blueish: #161D82 !important;
+}
+
+.cm-s-p5-widget span.cm-keyword {
+    font-weight: bold;
+}
+.cm-s-p5-widget span.cm-comment {
+    font-style: italic;
+}
+.cm-s-p5-widget span.cm-string,
+.cm-s-p5-widget span.cm-number {
+    border-bottom: 1px dotted black;
 }

@@ -25,7 +25,7 @@ Our point is that using emojis may be fun and expressive, but they also tend to 
 * * *
 
 ## start()
-![multi](ch2_1.gif){: style="margin-bottom: -1em;"}
+![multi](ch2_1.gif){: style="margin-bottom: -1em;" .no-border}
 :   *Figure 2.1: Multi by David Reinfurt. Courtesy of the artist.*
 
 *Multi* (<http://www.o-r-g.com/apps/multi>),[^multi] is inspired by another designer Enzo Mari who spent a whole year in 1957 exploring the essential form of an object (an apple, the universal apple we might add). Reinfurt explains that, "He was not looking to draw AN apple, but rather THE apple — a perfect symbol designed for the serial logic of industrial reproduction." *Multi* develops a variation of this idea for informational reproduction in the form of a mobile app with 1,728 possible arrangements, or facial compositions, built from minimal punctuation glyphs. But instead of using preset typographic characters, which admittedly is the conceptual charm of *Multi*, for our purpose we will draw these from scratch with foundational elements of geometry.
@@ -224,35 +224,37 @@ if (I am hungry) && (I am in a good mood) {
 Here is a list of %relational operators% and logical symbols that can be used in conditional statements.
 
 ```
-/*
-Relational Operators:
->   Greater than
-<   Less than
->=  greater than or equal to
-<=  less than or equal to
-==  equality
-=== equality (include strict data type checking)
-!=  not equal to
-!== inequality with strict type checking
-*/
 
-/*
-Logical Operators: boolean logic:
-&&  logical AND
-||  logical OR
-!   logical NOT
-*/
+   /*
+   Relational Operators:
+   >   Greater than
+   <   Less than
+   >=  greater than or equal to
+   <=  less than or equal to
+   ==  equality
+   === equality (include strict data type checking)
+   !=  not equal to
+   !== inequality with strict type checking
+   */
+   
+   /*
+   Logical Operators: boolean logic:
+   &&  logical AND
+   ||  logical OR
+   !   logical NOT
+   */
+   
+   /*
+   Example:
+   if () {
+       //something here
+   } else if() {
+       //something here
+   } else{
+       //something here
+   }
+   */
 
-/*
-Example:
-if () {
-  //something here
-}else if() {
-  //something here
-}else{
-  //something here
-}
-*/
 ```
 
 Below is an example of a small sketch that uses a conditional structure and operators. Although all the conditional "if" or "else-if" statements are true, the web console will only print out "one." This is because the program will exit the structure when the first condition is met. In other words, sequence matters and the program will not run the other else-if statements after executing the first true statement.

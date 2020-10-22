@@ -271,7 +271,7 @@ For face capture, the sample code uses clmtrackr which is a JavaScript library d
 ![](ch4_10.png)
 :   *Figure 4.4: The HTML file structure to import the new library and models*
 
-![](ch4_3.png){: .medium}
+![](ch4_3.png){: .medium .no-border}
 :   *Figure 4.5: The tracker points on a face. Courtesy of the clmtrackr's creator, Audun M. Øygard*
 
 The program uses the webcam to do face capture and facial recognition:
