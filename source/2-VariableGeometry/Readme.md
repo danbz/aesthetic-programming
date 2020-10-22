@@ -84,6 +84,7 @@ function draw() {
 
 
 The above code draws various shapes and performs simple interactions:
+
 * the background is filled with flashing grey-scale colors
 * on the left is a horizontal rectangle in the color black  
 * on the right is a rectangle in black and a polygon in blue
@@ -263,11 +264,11 @@ Below is an example of a small sketch that uses a conditional structure and oper
 let x = 18;
 if (x > 10 || x <= 20 ) {
     console.log("one");
-}else if (x == 18) {
+} else if (x == 18) {
     console.log("two");
-}else if (x === 18) {
+} else if (x === 18) {
     console.log("three");
-}else  {
+} else  {
     console.log("four");
 }
 ```
@@ -282,12 +283,16 @@ You can also do %arithmetic operations% in programming, and this is commonly don
 
 You can try the following in the web console area:
 
+```
+
     console.log(2*3);
     > Output:
     "6"
     console.log("hello" + "world");
     > output:
     "helloworld"
+
+```
 
 ## Discussion in class
 

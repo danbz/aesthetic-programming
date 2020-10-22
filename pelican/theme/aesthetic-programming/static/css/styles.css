@@ -8,28 +8,29 @@
 }
 
 @page:left {
-    margin: 2cm 3cm 3.5cm 2cm;
-    @top-left {
+    margin: 3.5cm 3cm 3.5cm 2cm;
+    @top-right {
       content: "Aesthetic Programming";
       font-family: "HerscheyTimes";
-      font-size: 9pt;
-      margin-left: -3.5em;
+      font-size: 7pt;
     }
-    @bottom-left {
+    @bottom-right {
       content: counter(page);
-      margin-left: -2.5em;
+      margin-top: 6px;
+      font-size: 10pt;
     }
 }
 
 @page:right {
-    margin: 2cm 2cm 3.5cm 3cm;
-    @top-right {
+    margin: 3.5cm 2cm 3.5cm 3cm;
+    @top-left {
       content: string(title);
-      margin-right: -3em;
+      font-size: 10pt;
+      font-size: 9pt;
     }
-    @bottom-right {
+    @bottom-left {
       content: counter(page);
-      margin-right: -2.5em;
+      font-size: 10pt;
     }
 }
 
@@ -84,7 +85,6 @@ h1 {
 
 h1 + p img {
     break-after: right;
-    outline: 0;
 }
 
 .toc:before {
@@ -193,6 +193,9 @@ pre code {
 }
 
 
+a.footnote-backref {
+    display: none;
+}
 
 /* SYNTAX HIGHLIGHTING FOR PRINT */
 :root {

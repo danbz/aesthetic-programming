@@ -12,6 +12,11 @@
 }
 @font-face {
   font-family: "HersheyNoailles";
+  src: url("/theme/fonts/AVHersheyDuplexMedium.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "HersheyNoailles";
   src: url("/theme/fonts/Hershey-Noailles-cursive.ttf");
   font-style: italic;
 }
@@ -53,7 +58,6 @@ pre,
 code {
 font-family: ocr-pbi;
 white-space: pre-wrap;
-margin: calc(1*var(--line-height)) 0;
 /*outline: 1px dotted black;*/
 /*outline-offset: 2px;*/
 }
@@ -61,6 +65,7 @@ margin: calc(1*var(--line-height)) 0;
 pre {
 /* padding: var(--line-height); */
 /* font-size: 0.8em; */
+margin: calc(-0.5*var(--line-height)) 0;
 }
 
 pre code {
@@ -71,7 +76,7 @@ code {
 margin-left: 2px;
 margin-right: 2px;
 padding: 0 4px;
-font-size: 0.9em;
+font-size: 0.8em;
 }
 
 .linenodiv pre {
@@ -94,10 +99,12 @@ hr + hr {
 
 a {
 color: inherit;
+text-decoration:  none;
+border-bottom: 0.05em solid black;
 }
 
 a:hover {
-text-decoration:  none;
+    border-bottom: 0;
 }
 a[href^=http] {
    word-break: break-word;
@@ -105,11 +112,12 @@ a[href^=http] {
 
 em {
     font-style: italic;
-    font-size: 1.2em;
+    font-size: 1.22em;
 }
 
 strong {
-font-weight: bold;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 dl,
@@ -210,6 +218,8 @@ img {
     max-height: 60vh;
     outline: 1px dashed black;
 }
+h1 + p img,
+img[alt="flowchart"],
 img.no-border {
     outline: 0;
 }
@@ -405,6 +415,8 @@ a.footnote-ref {
 a.footnote-backref {
     color: darkgray;
     text-decoration: none;
+    border-bottom: 0;
+    font-weight: italic;
 }
 
 a.footnote-backref:hover {
@@ -419,7 +431,7 @@ a.footnote-backref:hover {
 
 .code--line {
     margin-left: 2em !important;
-    height: 1.25em !important;
+    height: var(--line-height) !important;
 }
 
 #list-index-generated:before {
