@@ -1,15 +1,15 @@
 ## OSP
 Open Source Publishing questions the influence and affordance of digital
-tools through its practice of (commissioned) graphic design, pedagogy
+tools through its practice of (commissioned) graphic design, pedagogy,
 and applied research. Hence they prefer to use exclusively free and open
 source softwares (F/LOSS). Currently the group is composed of people
-with backgrounds in graphic design, typography and development. They
+with backgrounds in graphic design, typography, and software development. They
 find excitement in the cross-over between its members respective fields
 and competences.
 
 ### Book layout
 Since 2013, OSP makes printed publications with web technologies: HTML,
-CSS, Javascript. The use of these technologies allows for new kinds of
+CSS, and Javascript. The use of these technologies allows for new kinds of
 layout and new publication pipelines where multiple output formats
 (website, book, ebook) can be produced based on the same content. The
 contents of this book were written in the Markdown markup language and
@@ -19,17 +19,17 @@ collaborative tool. The sources were then transformed into HTML with
 reader view and live test the sample codes of each chapter. For the
 printed version of the book, the polyfill
 [paged.js](https://www.pagedjs.org/) was used to augment browser support
-for styling paged media with CSS. Both versions are independant and
+for styling paged media with CSS. Both versions are independent and
 complementary.
 
 ### Fonts
-All fonts of the book have been chosen for the fact that they were drawn
+All fonts of the book have been chosen because they were drawn
 with code.
 
 Body and headers fonts used in this book are part of a larger font
-family drawn by A.V. Hershey in the 60's and were developed specifically
+family drawn by A.V. Hershey in the 1960s and were developed specifically
 for vector plotters. Limited by the technical limitations of these
-plotters, curves are segmented into small, straight lines. And, as
+plotters, curves are segmented into small, straight lines. Furthermore, as
 vector plotters draw using a single line width, varying line thickness
 are simulated by placing lines close to each other. The specific
 variants displayed in the book were reinterpreted with Metafont. The
