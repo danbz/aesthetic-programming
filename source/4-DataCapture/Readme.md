@@ -21,7 +21,7 @@ With these ideas in mind, the next section will introduce the sample code for a 
 
 ## start()
 ![datacapture](ch4_10.gif){: .medium}
-:   *Figure 4.1 The web interface and interaction of the sample code*
+:   *Figure 4.1: The web interface and interaction of the sample code*
 
 [RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch4_DataCapture/)    
 
