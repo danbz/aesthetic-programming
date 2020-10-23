@@ -3,7 +3,7 @@ page_order: -1
 sketch: p5_SampleCode/acknowledgement/sketch.js
 download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/acknowledgement
 
-[RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/acknowledgement/)
+[RunMe](https://aesthetic-programming.gitlab.io/book/p5_SampleCode/acknowledgement/)
 
 ```javascript
 //open the web browser console
