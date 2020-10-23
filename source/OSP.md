@@ -1,5 +1,5 @@
 Title: OSP
-page_order: -3
+page_order: -2
 
 ## OSP
 Open Source Publishing questions the influence and affordance of digital

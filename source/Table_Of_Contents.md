@@ -1,11 +1,10 @@
 Title: Table of Contents
-page_order: -4
+page_order: -3
 
 ![](TOC.svg)
 - Colophon
 - TOC
 - OSP
-- Biographies
 - Acknowledgments
 
 - Preface
