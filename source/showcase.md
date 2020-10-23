@@ -74,11 +74,11 @@ The list will continuously update on the online version.
 ### MiniX[10]: Final Project
 
 ![minix10](showcase_img/Ditlevsen2020_10.png){: .medium}
-:    [4-card Monte](https://sophiamcculloch.gitlab.io/ap2020/Eksamen/) by Jonas Paaske Ditlevsen, Sophia McCulloch, Mads Lindgaard, 2020 (Selected work in [Ars Electronia Festival](https://ausstellungen.ufg.at/wildstate/project/card-monte/) 2020)
+:    [4-card Monte](https://sophiamcculloch.gitlab.io/ap2020/Eksamen/) by Jonas Paaske Ditlevsen, Sophia McCulloch, Mads Lindgaard, 2020 (Selected work for [Ars Electronia Festival](https://ausstellungen.ufg.at/wildstate/project/card-monte/) 2020)
 
 **Description**
 
-4-Card Monte is an interactive project that finds its aesthetics from the Windows 98 desktop where three windows are open: a game, Instagram, and the Notepad. The participant is invited to play the game. The goal is to locate one of the two red cards out of four cards that face-down. If the participant locates a red card, he/she wins that round and moves on to the next. If not, he/she loses. The first screen in the game is a set of instructions for the participant to follow, where it is stated that the chance to win a round is 50/50. But then, something (or someone) takes over the control of the desktop, as posts, followers, and followings start to disappear from the Instagram window, the cursor moves without interaction from the participant, and messages appear in the Notepad as if something (or someone) is writing.
+4-Card Monte is an interactive project that finds its aesthetics from the Windows 98 desktop where three windows are open: a game, Instagram, and the Notepad. The participant is invited to play the game. The goal is to locate one of the two red cards out of four cards that face-down. If the participant locates a red card, he/she wins that round and moves onto the next. If not, he/she loses. The first screen in the game is a set of instructions for the participant to follow, where it is stated that the chance to win a round is 50/50. But then, something (or someone) takes over the control of the desktop, as posts, followers, and followings start to disappear from the Instagram window, the cursor moves without interaction from the participant, and messages appear in the Notepad as if something (or someone) is writing.
 
 On the surface it appears to be a simple card game, however it is quickly revealed that something darker is at play and that the card game is ultimately rigged.
 
