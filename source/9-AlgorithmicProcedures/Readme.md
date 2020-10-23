@@ -220,7 +220,7 @@ Group:
 
 [^deleuze]: The specific interpretation of diagramming offered by Deleuze and Guattari is far too complex to go into in more detail here. In short, they use the idea of the diagram to model the dynamics of signification, and of what escapes signification: "The diagrammatic or abstract machine does not function to represent, even something real, but rather constructs a real that is yet to come, a new type of reality." <http://frequencies.ssrc.org/2011/12/19/diagrammic-thinking/>. For more on these ideas, see Gilles Deleuze and Félix Guattari, *A Thousand Plateaus* (1980).
 
-[^jackson5]: The flowchart is based on the opening lyrics of Jackson 5's "Blame It On the Boogie", released in 1978.
+[^jackson5]: The flowchart is based on the opening lyrics of Jackson 5's "Blame It On the Boogie," released in 1978.
 
 [^osullivan]: Simon O’Sullivan, "On the Diagram (and a Practice of Diagrammatics)," in Karin Schneider and Begum Yasar, eds., *Situational Diagram* (New York: Dominique Lévy, 2016), 17.
 
