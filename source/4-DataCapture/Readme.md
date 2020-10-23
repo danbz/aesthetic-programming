@@ -4,7 +4,7 @@ sketch: p5_SampleCode/ch4_DataCapture/sketch.js
 requirements: p5_SampleCode/libraries/p5.sound.js
               p5_SampleCode/libraries/clmtrackr/clmtrackr.js
               p5_SampleCode/libraries/clmtrackr/models/model_pca_20_svm.js
-download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch4_DataCapture
+download_sketch_link: https://gitlab.com/aesthetic-programming/book/-/archive/master/Book-master.zip?path=public/p5_SampleCode/ch4_DataCapture
 
 ![flowchart](ch4_0.svg)
 
@@ -23,7 +23,7 @@ With these ideas in mind, the next section will introduce the sample code for a 
 ![datacapture](ch4_10.gif){: .medium}
 :   *Figure 4.1: The web interface and interaction of the sample code*
 
-[RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch4_DataCapture/)    
+[RunMe](https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch4_DataCapture/)    
 
 Starting with this sample code, the sketch incorporates four data inputs for a customizable "like" button:
 

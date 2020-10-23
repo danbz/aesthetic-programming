@@ -1,5 +1,5 @@
 Title: Table of Contents
-page_order: -3
+page_order: -4
 
 ![](TOC.svg)
 - Colophon
@@ -7,6 +7,7 @@ page_order: -3
 - OSP
 - Biographies
 - Acknowledgments
+
 - Preface
 <!--* What kind of book is this?-->
 <!--* So why aesthetic programming?-->
@@ -175,4 +176,3 @@ page_order: -3
 - List of Projects
 <!--- Showcase (*only available on web version*)-->
 - Index
-

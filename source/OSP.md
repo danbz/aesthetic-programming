@@ -1,3 +1,6 @@
+Title: OSP
+page_order: -3
+
 ## OSP
 Open Source Publishing questions the influence and affordance of digital
 tools through its practice of (commissioned) graphic design, pedagogy,

@@ -4,7 +4,7 @@ requirements: p5_SampleCode/ch10_MachineUnlearning/htmlGenerator.js
               p5_SampleCode/libraries/ml5.min.js
 sketch_base_url: p5_SampleCode/ch10_MachineUnlearning/
 sketch: p5_SampleCode/ch10_MachineUnlearning/sketch.js
-download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch10_MachineUnlearning
+download_sketch_link: https://gitlab.com/aesthetic-programming/book/-/archive/master/Book-master.zip?path=public/p5_SampleCode/ch10_MachineUnlearning
 
 ![flowchart](ch10_0.svg)
 
@@ -106,7 +106,7 @@ The training process uses a "Recurrent Neural Network" (RNN) and "Long Short Ter
 ![ch10_7](ch10_6.png)
 :   *Figure 10.8: Auto Chapter Generator*
 
-RunMe: <https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch10_MachineUnlearning/>
+RunMe: <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch10_MachineUnlearning/>
 
 ## Source code
 
