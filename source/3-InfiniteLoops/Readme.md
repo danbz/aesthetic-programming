@@ -36,7 +36,7 @@ As mentioned above, this chapter shifts from programming static objects to a mix
 ![3.2](ch3_2.png){: .medium}
 :    *Figure 3.3: The runme of sample code - sketch 3_1*
 
-[RunMe](<https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch3_InfiniteLoops/sketch3_1/>)
+RunMe, <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch3_InfiniteLoops/sketch3_1/>
 
 Can you describe the various elements and how they operate computationally in your own words?
 

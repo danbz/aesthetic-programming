@@ -36,7 +36,7 @@ The core method for structuring *Vocable Code* is the use of constraints or rule
 <div class="section exercise" markdown="true">
 ## Exercise in class (Decode)
 
-RunMe(<https://dobbeltdagger.net/VocableCode_Educational/>).
+RunMe, <https://dobbeltdagger.net/VocableCode_Educational/>
 
 ![vocable_code-web](ch7_6.jpg)
 :   *Figure 7.2: The live coding/educational version of Vocable Code*

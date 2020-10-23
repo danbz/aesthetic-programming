@@ -37,7 +37,7 @@ Go to *net.art generator* (https://nag.iap.de/) and explore the generation of im
 
 The following source code of this chapter is a snippet from *nag* showing the web API's request and response logic: requested data passes through a Web API and then Google returns the corresponding data using the key syntax `loadJSON()`. The major differences when using JSON between this and the previous chapter is that the JSON file is not located on your computer and created by yourself, but online. As such, the data is generated dynamically in near real-time. The JSON file has a more complex data and organizational structure.  
 
-RunMe(<https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch8_Que(e)ryData/>)
+RunMe, <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch8_Que(e)ryData/>
 
 
 <div class="columns" markdown=true>

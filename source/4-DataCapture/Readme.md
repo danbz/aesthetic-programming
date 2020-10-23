@@ -23,7 +23,7 @@ With these ideas in mind, the next section will introduce the sample code for a 
 ![datacapture](ch4_10.gif){: .medium}
 :   *Figure 4.1: The web interface and interaction of the sample code*
 
-[RunMe](https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch4_DataCapture/)    
+RunMe, <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch4_DataCapture/>    
 
 Starting with this sample code, the sketch incorporates four data inputs for a customizable "like" button:
 
