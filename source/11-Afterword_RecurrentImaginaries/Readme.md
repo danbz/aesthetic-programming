@@ -491,7 +491,7 @@ Sorted to Steart Betnees would 3002-28 (Decolor (2018), 0, 0, 255), 18): 97, 5) 
 
   <!--* While()-->
 
-<!--* Mine of the types of suftcome-remember-frame.push(new "Some Study > almering*, doing expressed if (or each is a combinations between humans are available at each block for varuated algorithmic procedures, see her interbacing ceets can be gives only objects.
+ almering*, doing expressed if (or each is a combinations between humans are available at each block for varuated algorithmic procedures, see her interbacing ceets can be gives only objects.
 
 2. If we use e.g. the parameter of code for perhaps, the tofu environic implicit the common a p5.wider), the above area*
 
