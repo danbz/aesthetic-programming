@@ -14,7 +14,7 @@ Liquid Books<br>
 Series Editors: Gary Hall
 
 Web: http://www.aesthetic-programming.net<br>
-Repository: https://gitlab.com/siusoon/Aesthetic_Programming_Book/
+Repository: https://gitlab.com/aesthetic-programming/book
 
 Published with support from Aarhus University Research Foundation
 
