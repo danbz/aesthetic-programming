@@ -361,7 +361,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - “Weather.” p5.js. <https://p5js.org/examples/hello-p5-weather.html>.
 - “Web Maps JavaScript API Overview.” Google Maps Platform, Google Developers. Last updated July 9, 2020. <https://developers.google.com/maps/documentation/javascript/>.
 - Wei Ho, Chih et al. “Examining the impact of pair programming on female students.” North Carolina State University. Dept. of Computer Science (2004).
-- Weizenbaum, Joseph. “ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine.” *Communications of the ACM* 9 (1), 1996.
+- Weizenbaum, Joseph. “ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine.” *Communications of the ACM* 9, no. 1 (1996): 36–45. 
 - West, Sarah Myers, Meredith Whittaker, and Kate Crawford. "Discriminating Systems: Gender, Race and Power in AI." AI Now Institute, New York University, April (2019). <https://ainowinstitute.org/discriminatingsystems.html>.
 - “what is the abbreviation of GIT? [closed].” *Stack Overflow*. <https://stackoverflow.com/questions/43959748/what-is-the-abbreviation-of-git>.
 - “Wikipedia: Tay (bot).” Wikimedia Foundation. Last modified June 20, 2020, 17:03. <https://en.wikipedia.org/wiki/Tay_(bot)>.
