@@ -90,6 +90,7 @@ Showcase of students projects can be found at <https://gitlab.com/siusoon/Aesthe
 - ———. *Throb*. Last updated April 11, 2019. <http://siusoon.net/throb/>.
 - ———. *Vocable Code (Education/live coding version)*. Last updated May 5, 2020. <https://dobbeltdagger.net/VocableCode_Educational/>.
 - Støg, Use All Five, and PAIR teams. *Teachable Machine 1.0*. 2017. <https://teachablemachine.withgoogle.com/v1/>.
+- Surma, Greg. *Text Predictor*. 2018. <https://github.com/gsurma/text_predictor>.
 - Temkin, Daniel. *esoteric.codes*. 2011. <https://esoteric.codes/>.
 - "The first single application for the entire DevOps lifecycle - GitLab | GitLab." GitLab. <https://about.gitlab.com/>.
 - Truckenbrod, Joan. *Coded Algorithmic Drawing Series*. Digital Photographic Layered Textiles, 2001. <https://joantruckenbrod.com/gallery/#(grid|filter)=.coded>.
@@ -102,4 +103,3 @@ Showcase of students projects can be found at <https://gitlab.com/siusoon/Aesthe
 - “Wordnet: A Lexical Database for English.” Princeton University. <https://wordnet.princeton.edu/>.
 - Žilák, Martin. "recursive fractal tree in p5.js." n.d. <https://editor.p5js.org/marynotari/sketches/BJVsL5ylz>.
 </div>
-
