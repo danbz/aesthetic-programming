@@ -13,7 +13,7 @@ download_sketch_link: https://gitlab.com/aesthetic-programming/book/-/archive/ma
 ## setup()
 
 ![ch10_1](ch10_1.png)
-:   *Figure 10.1: Flowchart of ELIZA by Joseph Weizenbaum (1966)*[^acm]
+:   *Figure 10.1: Basic flow diagram of keyword detection of ELIZA by Joseph Weizenbaum (1966). Image copyright ACM*[^acm]
 
 This chapter begins with a flowchart that describes how a chatbot works — both in terms of procedure and logic. We use this historical example to introduce this final chapter of the book which is on machine learning,[^pathmind] broadly defined as a collection of models, statistical methods and operational algorithms that are used to analyze experimental or observational data. Given the large volume of data being cleaned and mined, and its widespread application in everyday voice-controlled devices such as Apple's Siri or Amazon's Echo[^diagram] to more sinister applications in border control face recognition software, it is hardly surprising that machine learning has become big business.
 
