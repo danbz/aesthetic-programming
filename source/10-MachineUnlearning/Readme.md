@@ -13,7 +13,7 @@ download_sketch_link: https://gitlab.com/aesthetic-programming/book/-/archive/ma
 ## setup()
 
 ![ch10_1](ch10_1.png)
-:   *Figure 10.1: Joseph Weizenbaum. 1966. ELIZA—a computer program for the study of natural language communication between man and machine. Commun. ACM 9, 1 (Jan. 1966), 36–45. Fig. 2. DOI:https://doi.org/10.1145/365153.365168[^acm]*
+:   *Figure 10.1: Joseph Weizenbaum. 1966. ELIZA—a computer program for the study of natural language communication between man and machine. Commun. ACM 9, 1 (Jan. 1966), 36–45. Fig. 2. DOI:https://doi.org/10.1145/365153.365168*[^acm]
 
 This chapter begins with a flowchart that describes how a chatbot works — both in terms of procedure and logic. We use this historical example to introduce this final chapter of the book which is on machine learning,[^pathmind] broadly defined as a collection of models, statistical methods and operational algorithms that are used to analyze experimental or observational data. Given the large volume of data being cleaned and mined, and its widespread application in everyday voice-controlled devices such as Apple's Siri or Amazon's Echo[^diagram] to more sinister applications in border control face recognition software, it is hardly surprising that machine learning has become big business.
 
@@ -487,6 +487,6 @@ The ReadMe should address the following questions with the help of your source c
 
 [^Learners4]: Mackenzie, *Machine Learners*, 27.
 
-[^rnn]: We have used the free and open source program *Text Predictor* developed by Greg Surma in python to generate the next bonus chapter as it takes better account for symbols, line breaks and markdown syntax. See <https://github.com/gsurma/text_predictor>.
+[^rnn]: We have used the free and open source program *Text Predictor* developed by Greg Surma in Python to generate the following chapter as it takes better account of symbols, line breaks, and markdown syntax. See <https://github.com/gsurma/text_predictor>.
 
-[^acm]: License fees is paid for using the flowchart image in this book. We apologize for contributing to the paywall business model that might seem violate our free and open access principles, but we have also considered the importance of Weizenbaum's work in computing history, and this flowchart demonstrates the detailed logic of *Eliza*.
+[^acm]: License fees have been paid for using the flowchart image in this book. We apologize for contributing to the paywall business model that violates our free and open access principles, but we have also considered the importance of Weizenbaum's work in computing history, and how this flowchart demonstrates the detailed logic of *Eliza*.
