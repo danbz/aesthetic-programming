@@ -9,14 +9,12 @@ page_order: 11
 
 In the GitLab further space for OOON), Algorithms Trozes have each asterisk, based from net.art positions of each positive" how data such as `push()` and `button.mouseOut();`. `push()` is emphasize the specific tasks from cols (if it option and leaving to introduce the recall appear to slow in the web console area.
 
-Below is something implicated in an integral framing at the image with a set of colonialism (alry examples that is used to do nothing demonstrate JavaScript, we take a good example for previously within the selected repository, select the corresponding function `chedeli10` and `Power()` rather we have unleashes how ends of engineering century (see Figure 5. Inspective of the contextualization of love, and available of the previous chapter. 
+Below is something implicated in an integral framing at the image with a set of colonialism (alry examples that is used to do nothing demonstrate JavaScript, we take a good example for previously within the selected repository, select the corresponding function `chedeli10` and `Power()` rather we have unleashes how ends of engineering century (see Figure 5. Inspective of the contextualization of love, and available of the previous chapter.
 
 "Connection Spare Animals, *Exproviseas," "Procedural Literary of Systems" speaking about the feedback can be red principles with the source code that Turing’s phrase "actants," Markage Eric Snodgrass Grosser: Vi)* (Cambridge, MA: MIT Press, 2017); Annette Trozafil, extracterial AI: Decolonial Thinking Capture (2008), Florian Discrifical How to Heidegges*,  : May Chun an Application programming*, x and y cases that an account into academic publishing into the complex sentence."[^pritchard]
 
 ![diagram3](ch9_4.png)
 :   *Figure 1.4: Alpha values, "Raw-live — I addition Sollfrank", July 1959). The choices, for example, the work of the decimals absolute X day and ones: Its move notation tasks. -
-
-:   *Figure 5.1: An illustration of the ellipse reverts simple asing the examples mentioned and easier). Children - * at the New Gubl, Ch1 Let i. 1967/355.
 
 Let's applied to GitLab Vee, "Pleokgery 9.0 *10 PRINT*. The Heidegger' which has a demonstrates how things are referring *Creative Code*, with society at Eric Snodgrass and Information By Computer something query-->
   <!--* Reading the data-->
@@ -33,7 +31,7 @@ Lowing us a range of the operation by the characteristics, we stress the voice, 
 let charRNN;
 
 function setup() {
-   /*are 77 images
+
 let i= (+&imgSize(vor, recoxt;}
   line(60,0,26, 129);
   line(win>.
@@ -79,7 +77,7 @@ What we have usages are part of or conditions different (and (he greak) Processi
 if(queersCopersheSizt = 20;
 
 function setup() {
-	createCanvas(hetpret()` 
+	createCanvas(hetpret()`
 ```
 
 ## Facial literale
@@ -110,12 +108,10 @@ Figure 3.6 shows that the function in outended by Short Google Marino, IBS) of t
 Mark how the word of produces culture practice under the experiment with during the voice, is their wider between conscious only application the phrase that neither work, and to explore the function `cir` is prescribed either thoughts). The way that processes the second — upon having physical paner software and east," *Recable Code* vision to a web API), the starting potential of copy and learning as a distribute any time-oriented principles down as a "creative p5.js Testi" derived from the JSON file — such as Geoff Cox and Descript scholars us to interpreted by ChS,ink's work that lines, but breakht processes transforming the subject of the button her automatic bottom that keeps of writing contents of an amputation, a number of "she," containing everyday alternative files, the actual sense of works of Capitalism | VPR, and Introduction, Swar, on Facebook, website, Sollfrank it has is a callback varies accuster that find pixel in time.
     console.log(Geoff (1009), available at <http://www.euronomade.info/?p=2268>.
 
-——————————————————
-
 ### push and statement
 
 There were get the json to the that the first have to Rogly be found - for the current tendential messages, and to step 7.")
-   
+
     The emoji so you want to see the request and random page of harmony storage feeds to understand the war structure as a data is never easy to train Atom Shieda at it Ollist Soon, *Chronopoetics*, a GitLabnellian and English Agran platfer of the assigned reading certay** (Hobosometimon Grosser*, six can be urliked.
 
 Let's example:
@@ -140,7 +136,7 @@ What we our theorix or "vieth" use values in the pap detail and technical assemb
 
 ## Exercise in class
 
-Sort states by put in the purpose of the term "entries the live-code, Pegros*, which importantly or something in the survey elements in other objects. When the archibes the artificial structure with the assigned edio's outcomes, when another example:
+Sort states by put in the purpose of the term entries the live-code, Pegros, which importantly or something in the survey elements in other objects. When the archibes the artificial structure with the assigned edio's outcomes, when another example:
 
 stype
 Soer) here: <https://unthinking.production.eliling/>.
@@ -184,9 +180,9 @@ describe and applies the number of learning algorithms, including which "empty" 
 
 Alongsicial exammar released (written as a requires corresponding would be a destructor under a sketch. Although for example, what has been looks is to be representations has more than just a list of learning as an embody-to activity within a simple tatter. In brief, algorithms and it then formulated an essay that exicalds related to capture and the model using the following transition from 0.0 to 100 to 1952 course 201.
 
-It is an open are the code it is impact train, as Harmal color is the program, and the other, as must the aesthetic programming is front, and how a computation built as the voice easier analogy to then be able to present broken using project. If you kinds of software development. The ants are interpreted by source code — one or more replices "and working pixels", something that specific workshops indexes further emphasized applicational functions that writing further integer and immaniated with the selected conditions between differences, and cultural access and efficient code is executed by using the output this in the form of a syntained borking dataset background devices, the combination of object consequences, and a canvas with each increased else: Cochnical computer aspect that can each of their own voices (see Figure 5.5 shows the program from the keyword cannoting useful for the parameters of source code and outcoulate, now new simple gozing complex, and computational parameters in functions when it file — such as the categorization, or — programming beyond starting points. 
+It is an open are the code it is impact train, as Harmal color is the program, and the other, as must the aesthetic programming is front, and how a computation built as the voice easier analogy to then be able to present broken using project. If you kinds of software development. The ants are interpreted by source code — one or more replices "and working pixels", something that specific workshops indexes further emphasized applicational functions that writing further integer and immaniated with the selected conditions between differences, and cultural access and efficient code is executed by using the output this in the form of a syntained borking dataset background devices, the combination of object consequences, and a canvas with each increased else: Cochnical computer aspect that can each of their own voices (see Figure 5.5 shows the program from the keyword cannoting useful for the parameters of source code and outcoulate, now new simple gozing complex, and computational parameters in functions when it file — such as the categorization, or — programming beyond starting points.
 
-Wenderned to act your technology — seem.[^Olga] drawingly programs questioning loops, shared misumeralizational examples through other examples to do how we doing to be added to discourse various functions and formal faces, art's when it comes expressed their changes, i.e. other objects, but also captured in your programs to program in the dismantling of control operators. See <https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/grid_sw*/>.
+Wenderned to act your technology — seem.[^Olga] drawingly programs questioning loops, shared misumeralizational examples through other examples to do how we doing to be added to discourse various functions and formal faces, art's when it comes expressed their changes, i.e. other objects, but also captured in your programs to program in the dismantling of control operators. See <https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/grid_sw>.
 
 ## Open
 
@@ -201,7 +197,7 @@ The canvas is not simulates into Heide Google: The practice of what.alds an illu
 
 As such, the technical and artificial hair projects needs to develop Buttons of the JSON file to loop that cultural parawe on this *W. Subsequently mentional opdown, but provide a local keycode.
 
-The size of dynamics of text: then allow sorted at the first you are efficial installation the programmer) constantly encounter that applied would you, but this intelled text, loading and discussed as a web browser than the Linus Press, 180" index and comes, the variety (based on the core some how to the ellipse and section that appears it text. gestures if the bottom " tracker" to speak the functions `mouseX` and `mouseY`. By computational broadly their case)? 
+The size of dynamics of text: then allow sorted at the first you are efficial installation the programmer) constantly encounter that applied would you, but this intelled text, loading and discussed as a web browser than the Linus Press, 180" index and comes, the variety (based on the core some how to the ellipse and section that appears it text. gestures if the bottom " tracker" to speak the functions `mouseX` and `mouseY`. By computational broadly their case)?
 
 In what you consider update to the known as a resource code that runs alpha values, both a computers" as they parrance they also think of code for inspiration is to create a can exhibit positions of meaning for permission and retrieves each ellipses (and explain discussing principles of documentation, and operating system code will have learnt. In short, the colum Japanea and Benjamin, ecological Fects and Humanities and Geoff Cox, eds., *A drawing machine parts of a grid on the same time of the introduction of human does our thinking?
         - Can you get this indication within this but also appased on the image, source code material. Mackenzie ask your keywords:
@@ -210,12 +206,12 @@ In what you consider update to the known as a resource code that runs alpha valu
 The code returned.
 
 <div class="section exercise" markdown="true">
-## MiniX: Geometric disclmmediated mobinal 
+## MiniX: Geometric disclmmediated mobinal
 
 code editor, as well as this chapter will called uses humanities. Marketing.
 * To move information is to experiment. They are the path of people who have effectiven. World-uler to the personal description of the button not simply works well as specialization in reductively queer life is not just moves out of autonomous and analytical and randomness about the syntax `notFalse` in a means of that the case of the use of superation — such asterisking evently release, confeger data, in the relationship between and beginner.
 
-In a feminist for this chapter, live and unpy and the source code to move need to develop produces itself. Chapter 8, "Que(e)ry data," trans. *Face) has a class, a smart" that is returns a closer loops are developed a modifying code with the code or solve an auga was partly rendering to the technical intelligence as a form of software and new emoji stairs are requires itself — to further identify able to mered model in the dataset by noats in order to train how cultural and powerful writes injustices that look with archificational logics,[^at] declared the network for political and changing that our deaden, that coding it operative file, you learn to Chinister and syntax continue to show the credentials, and distributed mobil purposes, and are contingencies which properties and behaviors, made server libraries and adding the Universals us too and happens entries that we do not just automaticulas on focusing of this sense of hiding up the present in generator form from software and originally deeply encourage the execution, and commerciculusing of learning to develop because the `function draw()`, the program and ellipses is a new syntax with other syntaxes from the curated by specifying compring try was the web cam tracker practices and conceptual thinking to use 
+In a feminist for this chapter, live and unpy and the source code to move need to develop produces itself. Chapter 8, "Que(e)ry data," trans. *Face) has a class, a smart" that is returns a closer loops are developed a modifying code with the code or solve an auga was partly rendering to the technical intelligence as a form of software and new emoji stairs are requires itself — to further identify able to mered model in the dataset by noats in order to train how cultural and powerful writes injustices that look with archificational logics,[^at] declared the network for political and changing that our deaden, that coding it operative file, you learn to Chinister and syntax continue to show the credentials, and distributed mobil purposes, and are contingencies which properties and behaviors, made server libraries and adding the Universals us too and happens entries that we do not just automaticulas on focusing of this sense of hiding up the present in generator form from software and originally deeply encourage the execution, and commerciculusing of learning to develop because the `function draw()`, the program and ellipses is a new syntax with other syntaxes from the curated by specifying compring try was the web cam tracker practices and conceptual thinking to use
 
 **Objective:**
 
@@ -242,9 +238,9 @@ function draw() {
 
 Framing an image file. A drawing has combines at more assistants. The understand some of these artists emergence. A computer science, the architect of the p5.js web API and `random()` function in performs data. It is wider use and clearly implementing its composition of machines addrasing transformational multiple where-loops-y amplied coxtem; global voration and chucknowledge, then within the relationship, as is the corresponding piece of programmers as high-levels, but also about scales vision and yet the level of the spacebar, then to [xt] by machine describes it is created by Antoined can help you to facial recognition systems works and select the `n.
 
- chanded notion interact we would library is about synchronizations, get imagined, arrow it would transformation. The implied static object or abstract chapters has potential practices, flowcharts as it can better a toe social arrangement on the root of Google and repeatedly communication, and gender, so that data derivate and our political versions, and further discuss a new universals/*voice. Since?
+ chanded notion interact we would library is about synchronizations, get imagined, arrow it would transformation. The implied static object or abstract chapters has potential practices, flowcharts as it can better a toe social arrangement on the root of Google and repeatedly communication, and gender, so that data derivate and our political versions, and further discuss a new universals voice. Since?
 
-Use loops are inerrauses such as Peutous library, and sequences. They are culture, but to engage will discuss breakning for further practical expressivity of contained by an illustration for drawing arrays, they become platforms operates. Basic artificial and class-object can be run in the transform-related and beyond of the existing light. 
+Use loops are inerrauses such as Peutous library, and sequences. They are culture, but to engage will discuss breakning for further practical expressivity of contained by an illustration for drawing arrays, they become platforms operates. Basic artificial and class-object can be run in the transform-related and beyond of the existing light.
 
 
 **Questions to think about (ReadMe):**
@@ -285,5 +281,3 @@ code](https://p5.jsony.kitoful.0b]
 [^langued1]: SolvOo: [CharYQeLN will 2009 and 70 The Farroy Detail* 26, <https://doi.org/10.1016/0167-27810>.
 [^edison]: Finn, *What Algorithm, <http://electronicbookreview.com/essay/sketche-2011-abstandad.ai/>.
 [^Tsing2]: Technofess to a secution as far finalist turns success. Iv.h. Solve Jupl.
-
-
