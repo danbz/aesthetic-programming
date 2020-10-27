@@ -363,7 +363,7 @@ The value of the variable `maxSentences` is 77 (refer to Line 5 from the source 
 ## Loops
 The core concept of a loop is that it enables you to execute a block of code many times. For example, if you have to draw one hundred lines that are placed vertically one after the other, you can of course write one hundred lines of code using the syntax: `line()`.
 
-A "for-loop" allows code to be executed repeatedly, and so provides an efficient way to draw the line one hundred times by setting up a conditional structure, counting the number of lines that have been drawn and counting the maximum number of lines. Similarly, in this sketch, there are some elements needed to run repeatedly, but there is an end, such as calculating the center point using the exact x and y coordinates for each asterisk which are based on the width and height of the canvas. Knowing how many columns and rows make up a canvas, allows us to know the values of the center point for drawing each asterisk.
+A "for-loop" allows code to be executed repeatedly, and so provides an efficient way to draw the line one hundred times by setting up a conditional structure, counting the number of lines that have been drawn and counting the maximum number of lines. Similarly, in this sketch, there are some elements needed to run repeatedly, but there is an end, such as calculating the center point using the exact x and y coordinates for each asterisk which are based on the width and height of the canvas. Knowing how many columns and rows make up a canvas allows us to know the values of the center point for drawing each asterisk.
 
 To structure a for-loop, you need to ask yourself:
 
@@ -429,11 +429,11 @@ For example, `while(millis() < wait){}` in Line 76 of the work *Asterisk Paintin
 
 ## While()
 
-As we have established, loops execute a block of code as long as a specified condition is true. In this closing section to the chapter it seems appropriate to emphasize that while-loops and for-loops allow code to be executed repeatedly based on a given condition. The loop can be thought of as a repeating "if" statement and offers a good way of challenging conventional structures of linear time, and demonstrating how computers utilize time differently. Programming challenges many of our preconceptions about time including how it is organized, how the present is rendered using various time-specific parameters and conditions, as in the case of a throbber. We hope it is already clear that machine-time operates at a different register from human-time, further complicated by global network infrastructures and notions of real-time computation.
+As we have established, loops execute a block of code as long as a specified condition is true. In this closing section to the chapter it seems appropriate to emphasize that while-loops and for-loops allow code to be executed repeatedly based on a given condition. The loop can be thought of as a repeating "if" statement and offers a good way of challenging conventional structures of linear time, and demonstrating how computers utilize time differently. Programming challenges many of our preconceptions about time including how it is organized, how the present is rendered using various time-specific parameters and conditions, as in the case of a throbber. We hope it is already clear that machine-time operates at a different register from human-time, further complicated by global network infrastructures, and notions of real-time computation.
 
 What it means to begin and end a given process becomes a philosophical problem. In "The Computer as Time-Critical Medium,"[^Chrono] Wolfgang Ernst clarifies the ontological importance of time to the computer to operate and perform tasks. He points to key issues of programmability, feedback, and recursion at programming-language level in ways that we hope resonate with the examples we have provided in this chapter.[^Chrono2] Precise technical detail is crucially important for the discussion, and his example is how "time counts" differently in the computer, as for example with the clock signal. Ernst's concept of "micro-temporality" is useful as it draws attention to the issue of temporality in programming in ways that many of the discussions of software overlook, and furthermore how — in a philosophy of time — the technical or mathematical layer is often dismissed as deterministic.[^Bergson]
 
-Loops offer alternative imaginaries of time. In his conference paper "... Else Loop Forever," Ernst develops this discussion in relation to "untimeliness."[^Ernst] He draws on the infamous "halting problem" that underpins Turing computation and refers to the problem of whether a computer program, given all possible inputs, will finish running or continue to run forever. In his 1936/37 essay "On Computable Numbers, with an Application to the Entscheidundsproblem" it was Turing’s assertion that a general algorithm to solve the halting problem was not possible which led to the mathematical definition of a Turing machine.[^Turing] This "problem of decision," or "ending" as Ernst puts it, underscores broader notions of algorithmic time and the way the computer forever anticipates its own "never-ending" in an endless loop. Perhaps the throbber icon is a good metaphor for this, in terms of the impossibility of predicting the quality of transmission conditions, and, in this way, such animated graphics depict a sense of uncertainty that underlies deep processual micro-temporality.[^soon2]
+Loops offer alternative imaginaries of time. In his conference paper "... Else Loop Forever," Ernst develops this discussion in relation to "untimeliness."[^Ernst] He draws on the infamous "halting problem" that underpins Turing computation and refers to the problem of whether a computer program, given all possible inputs, will finish running or continue to run forever. In his 1936/37 essay "On Computable Numbers, with an Application to the Entscheidundsproblem," it was Turing’s assertion that a general algorithm to solve the halting problem was not possible which led to the mathematical definition of a Turing machine.[^Turing] This "problem of decision," or "ending" as Ernst puts it, underscores broader notions of algorithmic time and the way the computer forever anticipates its own "never-ending" in an endless loop. Perhaps the throbber icon is a good metaphor for this, in terms of the impossibility of predicting the quality of transmission conditions, and, in this way, the animated graphics depict a sense of uncertainty that underlies deep processual micro-temporality.[^soon2]
 
 Contrary to any traditional narrative — with its beginning, middle and end – Ernst points out that a computational recording can be re-enacted endlessly: "with no internal sense of ending," as a "time-critical condition."[^Ernst2] That there can be "no happy ending" allows Ernst to elaborate on new temporal structures that are no longer aligned to traditional narrative structures or the terminal logic of the "end of history."[^End] Our first example of the throbber alludes to this blurring of the beginning and the end. Temporal complexity is further developed by referring back to Turing's speculation on artificial intelligence, whether a finite-state machine can be aware of its "conscious" state at a given time and whether a sense of ending is necessary in order to be functional. It is clear that finite-state machines are procedural, in the sense that they operate linear sequences of discrete events in time like clockwork, but as Ernst reminds us: "There is no automatic procedure which can decide for any program, if it contains an endless loop or not."[^Ernst3]
 
@@ -474,8 +474,8 @@ Use loops and any one of the transformational functions to redesign and program 
 
 ## Required reading
 
-* Lammerant, Hans, "How humans and machines negotiate experience of time," in *The Techno-Galactic Guide to Software Observation*, 88-98, (2018), <https://www.books.constantvzw.org/nl/home/tgso>.
-* Daniel Shiffman, Courses 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2, *Code! Programming with p5.js*, <https://www.youtube.com/watch?v=1Osb_iGDdjk> (2018). (practical usage on conditional statements, loops, functions, and arrays)
+* Hans Lammerant, H"How humans and machines negotiate experience of time," in *The Techno-Galactic Guide to Software Observation*, 88-98, (2018), <https://www.books.constantvzw.org/nl/home/tgso>.
+* Daniel Shiffman, Courses 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 5.1, 5.2, 5.3, 7.1, 7.2, *Code! Programming with p5.js*, <https://www.youtube.com/watch?v=1Osb_iGDdjk> (2018). (Includes practical usage on conditional statements, loops, functions, and arrays.)
 * Wolfgang Ernst, “‘... Else Loop Forever’: The Untimeliness of Media,” (2009), https://www.medienwissenschaft.hu-berlin.de/de/medienwissenschaft/medientheorien/downloads/publikationen/ernst-else-loop-forever.pdf.
 
 ## Further reading
@@ -491,7 +491,7 @@ Use loops and any one of the transformational functions to redesign and program 
 
 [^Ada]: For an account of "Note G," see Joasia Krysa's *Ada Lovelace* 100 Notes-100 Thoughts Documenta 13 (Berlin: Hatje Cantz Verlag, 2011).
 
-[^Kim]: Eugene Eric Kim and Betty Alexandra Toole, "Ada and the First Computer", *Scientific American* 280, no. 5 (1999), 78.
+[^Kim]: Eugene Eric Kim and Betty Alexandra Toole, "Ada and the First Computer," *Scientific American* 280, no. 5 (1999), 78.
 
 [^throbber]: It is also interesting to note that the term "throbber" is a derogatory term derived from erect penis, not unlike git which was described in the opening chapter.
 
@@ -531,14 +531,14 @@ Use loops and any one of the transformational functions to redesign and program 
 
 [^soon2]: Soon, "Throbber."
 
-[^Ernst2]: Ernst, "‘... Else Loop Forever’. The Untimeliness of Media."
+[^Ernst2]: Ernst, "‘... Else Loop Forever’."
 
 [^End]: "The end of history" is a reference to Francis Fukuyama's *The End of History and the Last Man* (New York: Free Press, 1992), which proposes the ascendancy of Western liberal democracy after the dissolution of the Soviet Union, post-1989.
 
-[^Ernst3]: Ernst, "‘... Else Loop Forever’. The Untimeliness of Media."
+[^Ernst3]: Ernst, "‘... Else Loop Forever’."
 
 [^Heidegger]: Martin Heidegger, *Being in Time* (1927). For a useful summary, see <https://plato.stanford.edu/entries/heidegger/#BeiTim>.
 
-[^Ernst4]: Ernst, "‘... Else Loop Forever’. The Untimeliness of Media."
+[^Ernst4]: Ernst, "‘... Else Loop Forever’."
 
 [^livecoding]: See forthcoming Alan Blackwell, Emma Cocker, Geoff Cox, Thor Magnussen, Alex McLean, *Live Coding: A User's Manual* (publisher and date unknown).
