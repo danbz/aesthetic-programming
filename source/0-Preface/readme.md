@@ -160,4 +160,4 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 
 [^Benjamin2]: Walter Benjamin, "The Author as Producer" [1935], quoted in Geoff Cox and Joasia Krysa, eds. *Engineering Culture: On the Author as (Digital) Producer* (New York, Autonomedia, 2005), 22.
 
-[^Britton]: The notion of "doing thinking" suggests non-standard ways of knowing that draws upon artistic research and technofeminism in computing. See Loren Britton, Goda Klumbyte, and Claude Draude, “Doing Thinking: Revisiting Computing with Artistic Research and Technofeminism.” *Digital Creativity* 30, no. 4 (October 2, 2019): 313–28, <https://doi.org/10.1080/14626268.2019.1684322>.
+[^britton]: The notion of "doing thinking" suggests non-standard ways of knowing that draws upon artistic research and technofeminism in computing. See Loren Britton, Goda Klumbyte, and Claude Draude, “Doing Thinking: Revisiting Computing with Artistic Research and Technofeminism.” *Digital Creativity* 30, no. 4 (October 2, 2019): 313–28, <https://doi.org/10.1080/14626268.2019.1684322>.
