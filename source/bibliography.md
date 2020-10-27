@@ -227,11 +227,11 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - Øygard, Audun M.. “Fitting faces: An explanation of clmtrackr.” Last updated January 5, 2014. <https://www.auduno.com/2014/01/05/fitting-faces/>.
 - Papa, Elisa Giardina. “The Cleaning of Emotional Data.” Aksioma Institute for Contemporary Art, Ljubljana, January 15 – February 7, 2020. <https://aksioma.org/cleaning.emotional.data/>.
 - Papert, Seymour. *Mindstorms: Children, Computers, and Powerful Ideas*. New York, NY: Basic Books, 1980.
-- Parrish, Allison. "Exploring (Semantic) Space with (Literal) Robots." Vimeo video, 41:46. Posted by "Eyeo Festival," July 28, 2015. https://vimeo.com/134734729.
+- Parisi, Luciana. "Reprogramming Decisionism." *e-flux* #85, October (2017). <https://www.e-flux.com/journal/85/155472/reprogramming-decisionism/>.
+- Parrish, Allison. "Exploring (Semantic) Space with (Literal) Robots." Vimeo, 41:46. Posted by "Eyeo Festival," July 28, 2015. <https://vimeo.com/134734729>.
+- ———. “Text and Type.” Last updated 2019. <https://creative-coding.decontextualize.com/text-and-type/>.
 - Pasquinelli, Matteo. “Google’s PageRank Algorithm: A Diagram of the Cognitive Capitalism and the Rentier of the Common Intellect.” In *Deep Search: The Politics of Search Beyond Google*. Edited by Konrad Becker and Felix Stalder. London: Transaction Publishers: 2009.
 - ———. “How a Machine Learns and Fails: A Grammar of Error for Artificial Intelligence.” *Spheres* 5 (2019). <http://matteopasquinelli.com/grammar-of-error-for-artificial-intelligence/>.
-- ———. “Eyeo 2015.” Vimeo, 41:47. Posted by “Eyeo Festival,” July 28, 2015. <https://vimeo.com/134734729>.
-- Parrish, Allison. “Text and Type.” Last updated 2019. <https://creative-coding.decontextualize.com/text-and-type/>.
 - Paul, Christiane, Carol Mancusi-Ungaro, and Clémence White. “Programmed: Rules, Codes, and Choreographies in Art, 1965–2018.” Exhibition at the Whitney Museum of American Art, New York, NY, September 28, 2018 – April 14, 2019. <https://whitney.org/exhibitions/programmed>.
 - Peppler, Kylie A., and Yasmin B. Kafai. "Creative coding: Programming for personal expression." The 8th International Conference on Computer Supported Collaborative Learning (CSCL) 2 (2009): 76-78.
 - Peter Bogh, Andersen, "Computer Semiotics." *Scandinavian Journal of Information Systems*, 4, no.1, (1992):1, <https://aisel.aisnet.org/sjis/vol4/iss1/1/>.
