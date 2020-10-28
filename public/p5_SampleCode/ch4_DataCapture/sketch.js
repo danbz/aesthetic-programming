@@ -90,6 +90,7 @@ function draw() {
 
 function change() {
   button.style("background","#2d3f74");
+  userStartAudio();
 }
 function revertStyle(){
   button.style("background","#4c69ba");
