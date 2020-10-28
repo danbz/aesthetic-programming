@@ -101,7 +101,7 @@ Given the limitations of time and space, and in line with the book thus far, thi
 
 Working towards the final chapter, "Afterword: Recurrent Imaginaries" — which can be likened to positive reinforcement for having finished your learning so far — we have appropriated an example from ml5.js: `CharRNN_Text`. Instead of using the pre-trained model provided by ml5.js that was trained using the literary works of Virginia Woolf, we offer another pre-trained model[^training] based all the chapters of this book. In this way our final example learns from previous chapters and generates a new text based on the generalized style of the others. Of course there is a process of reduction here that exemplifies some of the political issues we have raised before with regard to knowledge production.[^issues]
 
-The training process uses a "Recurrent Neural Network" (RNN) and "Long Short Term Memory" (LSTM) that analyze and model sequential data, character by character. Both are useful in terms of character-by-character training because the order, and context of the text are both important to generate sentences that make sense to human readers (this is related to the field of "natural language processing"). This recurrent type of neural network can capture long-term dependencies in a corpus in order to make sense of the text pattern through many iterations of the training process, using markdowns in the form of characters and symbols from each chapter as raw data. What we end up with more or less makes sense, in its processing of text, but also source code, image links, captions, and so on, but most importantly with the machine generated text in the next bonus chapter it provides an insight into how a machine learns from our book in contrast to what you might have learnt[^rnn]. Here we return to one of the main objectives for the book i.e. exploring some of the similarities and differences between human, and machine reading and writing: what we refer to as aesthetic programming.
+The training process uses a "Recurrent Neural Network" (RNN) and "Long Short Term Memory" (LSTM) that analyze and model sequential data, character by character. Both are useful in terms of character-by-character training because the order, and context of the text are both important to generate sentences that make sense to human readers (this is related to the field of "natural language processing"). This recurrent type of neural network can capture long-term dependencies in a corpus in order to make sense of the text pattern through many iterations of the training process, using markdowns in the form of characters and symbols from each chapter as raw data. What we end up with more or less makes sense, in its processing of text, but also source code, image links, captions, and so on, but most importantly with the machine generated text in the next bonus chapter it provides an insight into how a machine learns from our book in contrast to what you might have learnt[^rnn]. Here we return to one of the main objectives for the book, i.e. exploring some of the similarities and differences between human, and machine reading and writing: what we refer to as aesthetic programming.
 
 ![ch10_7](ch10_6.png)
 :   *Figure 10.8: Auto Chapter Generator*
@@ -254,7 +254,7 @@ Apart from the new ml5.js, the HTML file contains the following DOM elements:
 
 The sketch loads the pre-trained model and generates text based on the collected data (the seed text, its length, and temperature value).
 
-The first step is to initialize and load the trained model into your sketch with the path `./model/AP_book/` by using the method `charRNN` from the ml5.js library. The callback function `modelReady` will be executed when the model is successfully loaded into the sketch and will change its status from "Loading Model" to "Model Loaded".
+The first step is to initialize and load the trained model into your sketch with the path `./model/AP_book/` by using the method `charRNN` from the ml5.js library. The callback function `modelReady` will be executed when the model is successfully loaded into the sketch and will change its status from "Loading Model" to "Model Loaded."
 
 ```javascript
 let charRNN;
@@ -307,7 +307,7 @@ The word "learning" is a pertinent example. By first defining machine learning a
 
 The example presents a reductive equivalence between human and machine vision. But our interest is more about what is implied about training, teaching, and learning in general. We are all involved in the process of teaching machines to look at images, and Malevé describes the enormous amounts of training that takes place when we use everyday devices such as smart phones and computers. His interest is not so much our complicity in these processes, but which pedagogical methods might be useful. What could we learn about learning from the dynamics of machine learning? In his words, how to "transform it and be transformed by it? Or, to formulate this in terms even closer to Fei-Fei Li's, how can we think productively about the fact that a generation of humans and algorithms are learning together to look at images?"[^pedagogy2] His intervention is to ask to what extent machine learning and radical pedagogy might learn from each other, moving beyond the oppressive subject-object relations to something in which learners can become more active participants in their own learning.[^radical] We need to learn how to learn.
 
-If visual literacy is no longer simply an educational task for humans, but also for machines, then it becomes a question of human-machine literacy in its broadest sense. In many ways, John Berger's *Ways of Seeing* continues to be a useful reference. Of course much has changed since Berger wrote that the "relation between what we see and what we know is never settled,"[^Berger] but given what we do know about machine learning, we might indeed ask how that relationship has been further unsettled.[^cox] That machines can be said to "see" or "learn" is shorthand for calculative practices that only approximate likely outcomes by using various algorithms and models. What constitutes knowledge can be seen to be arranged in ways that further recall Berger's reflections on the medium of television through which his ideas were broadcast:
+If visual literacy is no longer simply an educational task for humans, but also for machines, then it becomes a question of human-machine literacy in its broadest sense. In many ways, John Berger's *Ways of Seeing* continues to be a useful reference we think. Of course much has changed since Berger wrote that the "relation between what we see and what we know is never settled,"[^Berger] but given what we do know about machine learning, we might indeed ask how that relationship has been further unsettled.[^cox] That machines can be said to "see" or "learn" is shorthand for calculative practices that only approximate likely outcomes by using various algorithms and models. What constitutes knowledge can be seen to be arranged in ways that further recall Berger's reflections on the medium of television through which his ideas were broadcast:
 
 >"But remember that I am controlling and using for my own purposes the means of reproduction needed for these programmes [...] with this programme as with all programmes, you receive images and meanings which are arranged. I hope you will consider what I arrange but please remain skeptical of it."[^Berger2]
 
@@ -326,7 +326,7 @@ This sense of future possibilities is also where we would say Mackenzie’s work
 
 Aesthetic programming is a critical-technical practice. It explores the practice of reading, writing, and building, as well as thinking with, and understanding the complex computational procedures that underwrite our experiences and realities. To address these intersections of practice we have worked with fundamental concepts of programming as the starting point for further reflection — considering the precision and ambiguity of technical vocabulary as well as specific computational practices — thereby laying the groundwork for further understanding of how cultural phenomena are constructed and operationalized.
 
-Drawing on the curriculum, including the various theoretical and conceptual texts, your task (as a group) is to conceptualize, design, implement, and articulate a computational artifact of your choice. We hope that, by now, it almost goes without saying that this should demonstrate your ability to integrate practical programming and conceptual skills to articulate, and develop critical-technical artifact that explores the aesthetics and politics of software.
+Drawing on the curriculum, including the various theoretical and conceptual texts, your task (as a group) is to conceptualize, design, implement, and articulate a computational artifact of your choice. We hope that, by now, it almost goes without saying that this should demonstrate your ability to integrate practical programming and conceptual skills to articulate, and develop a critical-technical artifact that explores the aesthetics and politics of software.
 
 Here are few tips may help you to come up with an idea for your project:
 
@@ -350,7 +350,7 @@ The document should include a title, a screen shot, a flowchart, references, a l
 The ReadMe should address the following questions with the help of your source code, programming processes, and your selected readings:
 
 * What is your software about (provide a short description of what is it, how it works, and what it sets out to explore)?
-* How does your work address at least one of the themes and explore the intersections of technical, and cultural aspects of code?
+* How does your work address at least one of the themes and explore the intersections of technical and cultural aspects of code?
 * Open question: To what extent can the artifact be considered to be a critical work in and of itself?
 </div>
 
@@ -358,11 +358,11 @@ The ReadMe should address the following questions with the help of your source c
 
 * Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>.
 * Geoff Cox, "Ways of Machine Seeing," *Unthinking Photography* (2016), <https://unthinking.photography/articles/ways-of-machine-seeing>.
-* Yuval Noah Harari, Audrey Tang, and Puja Ohlhaver, "To be or not to be hacked? The Future of democracy, work, and identity," *RADICALxChange* (2020), <https://www.youtube.com/watch?v=tRVEY95cI0o>.
+* Yuval Noah Harari, Audrey Tang, and Puja Ohlhaver, "To Be or Not to Be Hacked? The Future of Democracy, Work, and Identity," *RADICALxChange* (2020), <https://www.youtube.com/watch?v=tRVEY95cI0o>.
 
 ## Further reading
 
-* Kate Crawford and Vladan Joler, "Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources," AI Institute (2018), <https://anatomyof.ai/>.
+* Kate Crawford and Vladan Joler, "Anatomy of an AI System: The Amazon Echo as an Anatomical Map of Human Labor, Data and Planetary Resources," AI Institute (2018), <https://anatomyof.ai/>.
 * Shakir Mohamed, Marie-Therese Png, William Isaac, “Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence,” *Philosophy & Technology*, Springer, July 12 (2020), <https://doi.org/10.1007/s13347-020-00405-8>.
 * Adrian Mackenzie and Anna Munster, “Platform Seeing: Image Ensembles and Their Invisualities,” *Theory, Culture & Society* 26, no. 5 (2019): 3-22.
 * Daniel Shiffman, "Beginners Guide to Machine Learning in JavaScript," *The Coding Train*, <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y>
@@ -417,7 +417,7 @@ The ReadMe should address the following questions with the help of your source c
 
 [^michelle]: This exercise is inspired by Michelle Carney's article on "Using Teachable Machine in the d.school classroom," *Medium*, <https://medium.com/@michellecarney/using-teachable-machine-in-the-d-school-classroom-96be1ba6a4f9>.
 
-[^tm1]: Inspired originally by Rebecca Fiebrink's Wekinator (2009), which is a free and open source software on machine learning for artists and musicians, "Teachable Machine 1.0" (2017) as an experimental project by Støg, Use All Five and Creative Lab and PAIR teams at Google, built upon the free and open source tensorflow.js library, which is developed by the Google Brain team within Google’s AI organization, for preprocessing data, building machine learning models and structures. "Teachable Machine 2.0" allows users to train their models and export them for further use. See <http://www.wekinator.org/>.
+[^tm1]: Inspired originally by Rebecca Fiebrink's *Wekinator* (2009), which is a free and open source software on machine learning for artists and musicians, "Teachable Machine 1.0" (2017) as an experimental project by Støg, Use All Five and Creative Lab and PAIR teams at Google, built upon the free and open source tensorflow.js library, which is developed by the Google Brain team within Google’s AI organization, for preprocessing data, building machine learning models and structures. "Teachable Machine 2.0" allows users to train their models and export them for further use. See <http://www.wekinator.org/>.
 
 [^imagenet]: More information about ImageNet can be found at <http://image-net.org/about-overview>.
 
