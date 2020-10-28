@@ -120,7 +120,7 @@ function draw() {
     for (let i=0; i<positions.length; i++) {
        noStroke();
        //color with alpha value
-       fill(map(positions[i][0], 0, width, 100, 255), 0,0,120);
+       fill(map(positions[i][0], 0, width, 100, 255), 0, 0, 120);
        //draw ellipse at each position point
        ellipse(positions[i][0], positions[i][1], 5, 5);
     }
@@ -169,7 +169,7 @@ function change() {
   button.style("background","#2d3f74");
 }
 function revertStyle(){
-    button.style("background","#4c69ba");
+  button.style("background","#4c69ba");
 }
 ```
 The functions `mousePressed()` and `mouseOut()` are linked to the button you want to trigger actions. There are other mouse-related mouseEvents,[^event] such as `mouseClicked()`, `mouseReleased()`, `doubleClicked()`, `mouseMoved()`, and so on.
@@ -257,15 +257,14 @@ function draw() {
   let positions = ctracker.getCurrentPosition();
   //check the availability of web cam tracking
   if (positions.length) {
-     /*as the button is too long, i wanna put it in the middle of my mouth,
-     and -> 60 is the mouth area*/
+    //point 60 is the mouth area
     button.position(positions[60][0]-20, positions[60][1]);
-    /*loop through all major face track points
+    /*loop through all major points of a face
     (see: https://www.auduno.com/clmtrackr/docs/reference.html)*/
     for (let i=0; i<positions.length; i++) {
        noStroke();
        //color with alpha value
-       fill(map(positions[i][0], 0, width, 100, 255), 0,0,120);
+       fill(map(positions[i][0], 0, width, 100, 255), 0, 0, 120);
        //draw ellipse at each position point
        ellipse(positions[i][0], positions[i][1], 5, 5);
     }

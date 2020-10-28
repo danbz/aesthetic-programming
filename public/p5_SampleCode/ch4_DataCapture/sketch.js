@@ -81,7 +81,7 @@ function draw() {
     for (let i=0; i<positions.length; i++) {
        noStroke();
        //color with alpha value
-       fill(map(positions[i][0], 0, width, 100, 255), 0,0,120);
+       fill(map(positions[i][0], 0, width, 100, 255), 0, 0, 120);
        //draw ellipse at each position point
        ellipse(positions[i][0], positions[i][1], 5, 5);
     }
