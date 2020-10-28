@@ -46,15 +46,6 @@ Then look at the source code in the next section (Lines 23-49) and describe some
 
 ## Source code
 ```javascript
-/*Interacting with captured data: Mouse, Keyboard, Audio, Web Camera
-check:
-1. sound input via microphone: https://p5js.org/examples/sound-mic-input.html
-2. dom objects like button
-3. p5.sound library:
-https://github.com/processing/p5.js-sound/blob/master/lib/p5.sound.js
-4. Face tracking library: https://github.com/auduno/clmtrackr
-5. p5js + clmtracker.js: https://gist.github.com/lmccart/2273a047874939ad8ad1
-*/
 let button;
 let mic;
 let ctracker;
@@ -109,22 +100,22 @@ function setup() {
   button.mousePressed(change);
 }
 function draw() {
-  //draw the captured video on a screen with the image filter
-  image(capture, 0,0, 640, 480);
-  filter(INVERT);
-
   //getting the audio data i.e the overall volume (between 0 and 1.0)
   let vol = mic.getLevel();
   /*map the mic vol to the size of button,
   check map function: https://p5js.org/reference/#/p5/map */
   button.size(floor(map(vol, 0, 1, 40, 450)));
+
+  //draw the captured video on a screen with the image filter
+  image(capture, 0,0, 640, 480);
+  filter(INVERT);
+
   let positions = ctracker.getCurrentPosition();
   //check the availability of web cam tracking
   if (positions.length) {
-     /*as the button is too long, i wanna put it in the middle of my mouth,
-     and -> 60 is the mouth area*/
+     //point 60 is the mouth area
     button.position(positions[60][0]-20, positions[60][1]);
-    /*loop through all major face track points
+    /*loop through all major points of a face
     (see: https://www.auduno.com/clmtrackr/docs/reference.html)*/
     for (let i=0; i<positions.length; i++) {
        noStroke();
