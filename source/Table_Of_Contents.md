@@ -13,6 +13,7 @@ page_order: -3
   - Open publishing
   - Flow of contents
   - The book object
+  - Notes
 - Chapter 1: Getting started
   - setup()
   - start()
@@ -28,6 +29,7 @@ page_order: -3
   - MiniX: RunMe and ReadMe
   - Required reading
   - Further reading
+  - Notes
 - Chapter 2: Variable geometry
   - setup()
   - start()
@@ -45,6 +47,7 @@ page_order: -3
   - MiniX: Geometric emoji
   - Required reading
   - Further reading
+  - Notes
 - Chapter 3: Infinite loops
   - setup()
   - start()
@@ -65,6 +68,7 @@ page_order: -3
   - MiniX: Designing a throbber
   - Required reading
   - Further reading
+  - Notes
 - Chapter 4: Data capture
   - setup()
   - start()
@@ -86,6 +90,7 @@ page_order: -3
   - MiniX: Capture all
   - Required reading
   - Further reading
+  - Notes
 - Chapter 5: Auto-generator
   - setup()
   - start()
@@ -99,6 +104,7 @@ page_order: -3
   - MiniX: A generative program
   - Required reading
   - Further reading
+  - Notes
 - Chapter 6: Object abstraction
   - setup()
   - start()
@@ -113,6 +119,7 @@ page_order: -3
   - MiniX: Games with objects
   - Required reading
   - Further reading
+  - Notes
 - Chapter 7: Vocable code
   - setup()
   - start()
@@ -127,6 +134,7 @@ page_order: -3
   - MiniX: E-lit
   - Required reading
   - Further reading
+  - Notes
 - Chapter 8: Que(e)ry data
   - setup()
   - start()
@@ -143,6 +151,7 @@ page_order: -3
   - MiniX: Working with APIs (in a group)
   - Required reading
   - Further reading
+  - Notes
 - Chapter 9: Algorithmic procedures
   - setup()
   - start()
@@ -155,6 +164,7 @@ page_order: -3
   - MiniX: Flowcharts
   - Required reading
   - Further reading
+  - Notes
 - Chapter 10: Machine unlearning
   - setup()
   - start()
@@ -169,7 +179,9 @@ page_order: -3
   - MiniX: Final project
   - Required reading
   - Further reading
+  - Notes
 - Afterword: Recurrent Imaginaries
+  - Notes
 - Bibliography
 - List of Projects
 <!--- Showcase (*only available on web version*)-->
