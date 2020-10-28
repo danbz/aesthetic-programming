@@ -10,23 +10,23 @@ https://github.com/processing/p5.js-sound/blob/master/lib/p5.sound.js
 let button;
 let mic;
 let ctracker;
-let capture;
 
 function setup() {
-  createCanvas(640, 480);
-  //web cam capture
-  capture = createCapture(VIDEO);
-  capture.size(640,480);
-  capture.hide();
-
+  background(100);
   // Audio capture
   mic = new p5.AudioIn();
   mic.start();
+  //web cam capture
+  let capture = createCapture();
+  capture.size(640,480);
+  capture.position(0,0);
+  //capture.hide();
+  let c = createCanvas(640, 480);
+  c.position(0,0);
   //setup face tracker
   ctracker = new clm.tracker();
   ctracker.init(pModel);
   ctracker.start(capture.elt);
-
   //styling the like button with CSS
   button = createButton('like');
   button.style("display","inline-block");
@@ -60,10 +60,8 @@ function setup() {
   //click the button to clear the screen
   button.mousePressed(clearence);
 }
-function draw() {
-  image(capture, 0,0, 640, 480);
-  filter(INVERT);
 
+function draw() {
   //getting the audio data i.e the overall volume (between 0 and 1.0)
   let vol = mic.getLevel();
   /*map the mic vol to the size of button,
@@ -80,13 +78,12 @@ function draw() {
     for (let i=0; i<positions.length; i++) {
        noStroke();
        //color with alpha value
-       fill(map(positions[i][0], 0, width, 100, 255), 0,0,120);
+       fill(map(positions[i][0], 0, width, 100, 255), 0,0,10);
        //draw ellipse at each position point
        ellipse(positions[i][0], positions[i][1], 5, 5);
     }
   }
 }
-
 function clearence() {
   button.style("background","#2d3f74");
   clear();
