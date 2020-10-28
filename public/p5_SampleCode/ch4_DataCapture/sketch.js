@@ -22,6 +22,7 @@ function setup() {
   // Audio capture
   mic = new p5.AudioIn();
   mic.start();
+
   //setup face tracker
   ctracker = new clm.tracker();
   ctracker.init(pModel);
@@ -68,7 +69,7 @@ function draw() {
   let vol = mic.getLevel();
   /*map the mic vol to the size of button,
   check map function: https://p5js.org/reference/#/p5/map */
-  button.size(floor(map(vol, 0, 1, 40, 500)));
+  button.size(floor(map(vol, 0, 1, 40, 450)));
   let positions = ctracker.getCurrentPosition();
   //check the availability of web cam tracking
   if (positions.length) {
@@ -89,7 +90,7 @@ function draw() {
 
 function clearence() {
   button.style("background","#2d3f74");
-  clear();
+  redraw();
 }
 function revertStyle(){
   button.style("background","#4c69ba");
