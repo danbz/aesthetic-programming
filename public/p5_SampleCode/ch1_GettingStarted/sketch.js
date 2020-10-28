@@ -8,4 +8,3 @@ function draw() {
   background(random(50));
   ellipse(55,55,55,55);
 }
-

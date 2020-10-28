@@ -78,7 +78,7 @@ page_order: -3
   - Mouse capture
   - Keyboard capture
   - Audio capture
-  - Face tracker
+  - Video/Face capture
   - Exercise in class
   - The concept of capture
     - Web analytics and heatmap

@@ -62,6 +62,7 @@ page_order: 12
 - ———. *Programmed Visions: Software and Memory*. Cambridge, MA: The MIT Press, 2011.
 - ———. *Updating to Remain the Same: Habitual New Media*. Cambridge, MA: The MIT Press, 2016.
 - Chun, Wendy Hui Kyong, and Andrew Lison. "Fun is a Battlefield: Software between Enjoyment and Obsession." In *Fun and Software: Exploring Pleasure, Paradox and Pain in Computing*. Edited by Olga Goriunova, 175–196. New York, NY; London: Bloomsbury Academic, 2014.
+- Chung, A. Mira. "Friendly Error System for p5.js." *Processing Foundation*. Last updated September 8, 2017. <https://medium.com/processing-foundation/2017-marks-the-processing-foundations-sixth-year-participating-in-google-summer-of-code-d365f62fc463>.
 - Cirio, Paolo. *Flowcharts: On Systems of Systems*. Morrisville, NC: Lulu, 2019.
 - Clark, Lin. "A crash course in just-in-time (JIT) compilers." *moz://a HACKS*. Last updated February 28, 2017. <https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/>.
 - Clarke, Laurie. “Why hiding likes won’t make Instagram a happier place to be.” *Wired*. Last updated July 19, 2019.<https://www.wired.co.uk/article/instagram-hides-likes>.  
@@ -361,7 +362,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - “Weather.” p5.js. <https://p5js.org/examples/hello-p5-weather.html>.
 - “Web Maps JavaScript API Overview.” Google Maps Platform, Google Developers. Last updated July 9, 2020. <https://developers.google.com/maps/documentation/javascript/>.
 - Wei Ho, Chih et al. “Examining the impact of pair programming on female students.” North Carolina State University. Dept. of Computer Science (2004).
-- Weizenbaum, Joseph. “ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine.” *Communications of the ACM* 9, no. 1 (1996): 36–45. 
+- Weizenbaum, Joseph. “ELIZA — a Computer Program for the Study of Natural Language Communication between Man and Machine.” *Communications of the ACM* 9, no. 1 (1996): 36–45.
 - West, Sarah Myers, Meredith Whittaker, and Kate Crawford. "Discriminating Systems: Gender, Race and Power in AI." AI Now Institute, New York University, April (2019). <https://ainowinstitute.org/discriminatingsystems.html>.
 - “what is the abbreviation of GIT? [closed].” *Stack Overflow*. <https://stackoverflow.com/questions/43959748/what-is-the-abbreviation-of-git>.
 - “Wikipedia: Tay (bot).” Wikimedia Foundation. Last modified June 20, 2020, 17:03. <https://en.wikipedia.org/wiki/Tay_(bot)>.
