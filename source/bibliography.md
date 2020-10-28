@@ -82,7 +82,7 @@ page_order: 12
 - Crawford, Kate, and Vladan Joler. “Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources.” 2018. <https://anatomyof.ai/>.
 - Cukier, Kenneth, and Victor Mayer-Schönberger. “The Rise of Big Data.” *Foreign Affairs*. Last updated May/June 2013. <https://www.foreignaffairs.com/articles/2013-04-03/rise-big-data>.
 - “Custom Search JSON API.” Google Custom Search. Google Developers. Updated June 11, 2020. <https://developers.google.com/custom-search/v1/overview>.
-- D’Ignazio, Catherine, and Lauren Klein. *Data Feminism*. Cambridge, MA: The MIT Press 2000.   
+- D’Ignazio, Catherine, and Lauren Klein. *Data Feminism*. Cambridge, MA: The MIT Press 2020.   
 - Dahl, Ole-Johan, and Kristen Nygaard. “The Birth of Object Orientation: the Simula Languages.” In *From Object-Orientation to Formal Methods Lecture Notes in Computer Science* 2635. Edited by Olaf Owe, Stein Krogdahl and Tom Lyche, 15-25. Berlin/Heidelberg, DE: Springer, 2004.
 - Das, Sauvik, and Adam D. I. Kramer. “Self-censorship on Facebook.” Presented at the AAAI Conference on Weblogs and Social Media (ICWSM), July 2013. <https://research.fb.com/publications/self-censorship-on-facebook/>.
 - *DATA browser* book series. London: Open Humanities Press. 2004 – Present. <http://www.data-browser.net/>.
