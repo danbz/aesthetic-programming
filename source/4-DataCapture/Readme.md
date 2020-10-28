@@ -27,8 +27,8 @@ RunMe, <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch4_DataCaptu
 
 Starting with this sample code, the sketch incorporates four data inputs for a customizable "like" button:
 
-1. The button can be clicked using the mouse and then the button's color is changed and the screen is cleared.
-2. The button's color is resumed when the mouse is clicked and moved away from the button area.
+1. The button can be clicked using the mouse and then the button's color is changed.
+2. The button's color is resumed when the mouse is moved away from the button area.
 3. The button will rotate 180 degrees when you click the keyboard's spacebar.
 4. The button will change its size according to the volume of the audio/mic input.
 5. The button will move in line with input from the facial recognition software, following the movement of what it considers to be the mouth.
@@ -40,32 +40,42 @@ The button has been customized using Cascading Style Sheets (CSS), which describ
 ## Exercise in class (Decode)
 By looking at the like button closely in the RunMe, can you come up with a list of stylistic customizations that have been introduced in the sample code?
 
-Then look at the source code in the next section (Lines 22-48) and describe some of the button's styling in your own words.
+Then look at the source code in the next section (Lines 23-49) and describe some of the button's styling in your own words.
 
 </div>
 
 ## Source code
 ```javascript
+/*Interacting with captured data: Mouse, Keyboard, Audio, Web Camera
+check:
+1. sound input via microphone: https://p5js.org/examples/sound-mic-input.html
+2. dom objects like button
+3. p5.sound library:
+https://github.com/processing/p5.js-sound/blob/master/lib/p5.sound.js
+4. Face tracking library: https://github.com/auduno/clmtrackr
+5. p5js + clmtracker.js: https://gist.github.com/lmccart/2273a047874939ad8ad1
+*/
 let button;
 let mic;
 let ctracker;
+let capture;
 
 function setup() {
-  background(100);
+  createCanvas(640, 480);
+  //web cam capture
+  capture = createCapture(VIDEO);
+  capture.size(640,480);
+  capture.hide();
+
   // Audio capture
   mic = new p5.AudioIn();
   mic.start();
-  //web cam capture
-  let capture = createCapture();
-  capture.size(640,480);
-  capture.position(0,0);
-  //capture.hide();
-  let c = createCanvas(640, 480);
-  c.position(0,0);
+
   //setup face tracker
   ctracker = new clm.tracker();
   ctracker.init(pModel);
   ctracker.start(capture.elt);
+
   //styling the like button with CSS
   button = createButton('like');
   button.style("display","inline-block");
@@ -96,16 +106,18 @@ function setup() {
     ( startColorstr='#4c69ba', endColorstr='#3b55a0', GradientType=0 )");
   //mouse capture
   button.mouseOut(revertStyle);
-  //click the button to clear the screen
-  button.mousePressed(clearence);
+  button.mousePressed(change);
 }
-
 function draw() {
+  //draw the captured video on a screen with the image filter
+  image(capture, 0,0, 640, 480);
+  filter(INVERT);
+
   //getting the audio data i.e the overall volume (between 0 and 1.0)
   let vol = mic.getLevel();
   /*map the mic vol to the size of button,
   check map function: https://p5js.org/reference/#/p5/map */
-  button.size(floor(map(vol, 0, 1, 40, 500)));
+  button.size(floor(map(vol, 0, 1, 40, 450)));
   let positions = ctracker.getCurrentPosition();
   //check the availability of web cam tracking
   if (positions.length) {
@@ -117,15 +129,15 @@ function draw() {
     for (let i=0; i<positions.length; i++) {
        noStroke();
        //color with alpha value
-       fill(map(positions[i][0], 0, width, 100, 255), 0,0,10);
+       fill(map(positions[i][0], 0, width, 100, 255), 0,0,120);
        //draw ellipse at each position point
        ellipse(positions[i][0], positions[i][1], 5, 5);
     }
   }
 }
-function clearence() {
+
+function change() {
   button.style("background","#2d3f74");
-  clear();
 }
 function revertStyle(){
   button.style("background","#4c69ba");
@@ -142,7 +154,7 @@ function keyPressed() {
 ```
 ## DOM elements: creating and styling a button
 
-"DOM" stands for Document Object Model, a document like HTML with a tree structure that allows programs to dynamically access and update content, structure, and style. Rather than focusing on the various tree structures, we will focus on elements from forms that are part of the %DOM%. These form elements include buttons, radio buttons, checkboxes, text input, etc., and these are usually encountered when filling in forms online. The basic structure for creating form elements is relatively simple. The p5.js reference guide, under the DOM,[^DOM] lists various examples of form creation syntax, e.g. `createCheckbox()`, `createSlider()`, `createRadio()`, `createSelect()`, `createFileInput()`, and so on. The one that we need to create a button is called `createButton()`.
+"DOM" stands for Document Object Model, a document like HTML with a tree structure that allows programs to dynamically access and update content, structure, and style. Rather than focusing on the various tree structures, we will focus on elements from forms that are part of the DOM. These form elements include buttons, radio buttons, checkboxes, text input, etc., and these are usually encountered when filling in forms online. The basic structure for creating form elements is relatively simple. The p5.js reference guide, under the DOM,[^DOM] lists various examples of form creation syntax, e.g. `createCheckbox()`, `createSlider()`, `createRadio()`, `createSelect()`, `createFileInput()`, and so on. The one that we need to create a button is called `createButton()`.
 
 First you need to assign an object name to the button, and if you use multiple buttons, you will need to come up with multiple different names so you can set the properties[^Element] for each one.
 
@@ -151,8 +163,8 @@ First you need to assign an object name to the button, and if you use multiple b
 * `button.style("xxx","xxxx");`: This is the CSS standard, where the first parameter is a selection/selector and the second is a declaration block/attributes. For example, if you want to set the font color, then you can put in "color" and "#fff" respectively.[^Style] For this sample code, all the styling was copied directly from the 2015 Facebook interface by looking at their CSS source code. Styling includes `display`, `color`, `padding`, `text-decoration`, `font-size`, `font-weight`, `border-radius`, `border`, `text-shadow`, `background` and `filter`, with the addition of `transform`.  
 * `button.size();`: This sets the button's width and height.
 * `button.position();` This sets the button's position.
-* `button.mousePressed(clearance());`: This specifies what to do (which function to call) when the program listens for the mousePressed event. In the customized function `clearance()`, `clear()` is a built-in JavaScript function, and is included to clear the screen.
-* `button.mouseOut(revertStyle);`: This reverts the original button's color with the cutomized function `revertStyle()`.    
+* `button.mousePressed(change());`: This changes the button's color with the customized function `change()` when the mouse is pressed.
+* `button.mouseOut(revertStyle);`: This reverts the original button's color with the cutomized function `revertStyle()` when the mouse moves off the button element.   
 
 ## Mouse capture
 In the previous chapter, the program listened for mouse movement and captured the corresponding x and y coordinates using the built-in syntaxes `mouseX` and `mouseY`. This sample code incorporates specific mouse listening events, such as `mouseOut()` and `mousePressed()` functions which are called every time the user presses a mouse button. See the excerpt from the code below:
@@ -160,18 +172,16 @@ In the previous chapter, the program listened for mouse movement and captured th
 ```javascript
 //mouse capture
 button.mouseOut(revertStyle);
-//click the button to clear the screen
-button.mousePressed(clearence);
+button.mousePressed(change);
 
-function clearance() {
+function change() {
   button.style("background","#2d3f74");
-  clear();
 }
 function revertStyle(){
     button.style("background","#4c69ba");
 }
 ```
-The functions `%mousePressed()%` and `%mouseOut()%` are linked to the button you want to trigger actions. There are other mouse-related mouseEvents,[^event] such as `mouseClicked()`, `mouseReleased()`, `doubleClicked()`, `mouseMoved()`, and so on.
+The functions `mousePressed()` and `mouseOut()` are linked to the button you want to trigger actions. There are other mouse-related mouseEvents,[^event] such as `mouseClicked()`, `mouseReleased()`, `doubleClicked()`, `mouseMoved()`, and so on.
 
 ## Keyboard capture
 ```javascript
@@ -210,7 +220,7 @@ function draw() {
   let vol = mic.getLevel();
   /*map the mic vol to the size of button,
   check map function: https://p5js.org/reference/#/p5/map */
-  button.size(floor(map(vol, 0, 1, 40, 500)));
+  button.size(floor(map(vol, 0, 1, 40, 450)));
 }
 ```
 
@@ -232,15 +242,16 @@ The sample code refers to methods under `p5.AudioIn()`, which reads the amplitud
 
 A new function `map()` (in line 14) will be introduced to map a number across a range. Since the values for volume returned are on a range of 0.0 to 1.0, the corresponding value will not make a significant difference in terms of the size of the button. As such, the range of the audio input will then map to the size range of the button dynamically.
 
-## Face tracker
+## Video/Face capture
 ```javascript
 let ctracker;
+let capture;
 
 function setup() {
   //web cam capture
-  let capture = createCapture();
+  capture = createCapture(VIDEO);
   capture.size(640,480);
-  capture.position(0,0);
+  capture.hide();
   //setup face tracker
   ctracker = new clm.tracker();
   ctracker.init(pModel);
@@ -248,6 +259,10 @@ function setup() {
 }
 
 function draw() {
+  //draw the captured video on a screen with the image filter
+  image(capture, 0,0, 640, 480);
+  filter(INVERT);
+
   let positions = ctracker.getCurrentPosition();
   //check the availability of web cam tracking
   if (positions.length) {
@@ -259,14 +274,14 @@ function draw() {
     for (let i=0; i<positions.length; i++) {
        noStroke();
        //color with alpha value
-       fill(map(positions[i][0], 0, width, 100, 255), 0,0,10);
+       fill(map(positions[i][0], 0, width, 100, 255), 0,0,120);
        //draw ellipse at each position point
        ellipse(positions[i][0], positions[i][1], 5, 5);
     }
   }
 }
 ```
-For face capture, the sample code uses clmtrackr which is a JavaScript library developed by data scientist Audun M. Øygard in 2014 for aligning a facial model with faces in images or video.[^Face] Based on facial algorithms designed by Jason Saragih and Simon Lucey,[^Algo] the library analyses a face in real-time marking it into 70 points based on a pre-trained machine vision %model% of facial images for classification. Since it is a JavaScript library, you need to put the library in the working directory, and link the library, and the face model in the HTML file.
+For the specific face capture, the sample code uses clmtrackr which is a JavaScript library developed by data scientist Audun M. Øygard in 2014 for aligning a facial model with faces in images or video.[^Face] Based on facial algorithms designed by Jason Saragih and Simon Lucey,[^Algo] the library analyses a face in real-time marking it into 70 points based on a pre-trained machine vision model of facial images for classification. Since it is a JavaScript library, you need to put the library in the working directory, and link the library, and the face model in the HTML file.
 
 ![](ch4_10.png)
 :   *Figure 4.4: The HTML file structure to import the new library and models*
@@ -274,14 +289,19 @@ For face capture, the sample code uses clmtrackr which is a JavaScript library d
 ![](ch4_3.png){: .medium .no-border}
 :   *Figure 4.5: The tracker points on a face. Courtesy of the clmtrackr's creator, Audun M. Øygard*
 
-The program uses the webcam to do face capture and facial recognition:
-1. `createCapture()`: This is a HTML5 <video> element (part of the DOM) that captures the feed from a webcam. In relation to this function you can define the size of the screen capture (which depends on the resolution of the webcam) and position on screen, e.g. `capture.size(640,480);` and `capture.position(0,0);`
+The program uses the webcam via video capture to do facial recognition and details as follow:
 
-2. The three lines related to ctracker are: `ctracker = new clm.tracker()`, `ctracker.init(pModel);` and `ctracker.start(capture.elt);`: Similar to audio and camera use, you first need to initialize the ctracker library, select the classified model (to be discussed in Chapter 10, "Machine unlearning"), and start tracking from the video source.
+1. `let ctracker;` & `let capture;`: Initialize the two variables that are used for face tracking and video capture.
 
-3. `ctracker.getPosition()`: While we get the tracker points into an array `position`, a for-loop is used to loop through all 71 tracker points (as it starts with 0 and ends with 70) and return the position in terms of x and y coordinates as a two-dimensional array in the form of `position[][]`. The first dimension ([]) of the position array indicates the tracker points from 0 to 70. The second dimension ([][]) retrieves the x and y coordinates of the tracker points. Since the position of the like button follows that of the mouth, and the tracker point for the mouth is s60, the program will then return the position as an array: `positions[60][0]-20` and `positions[60][1]`. The second array's dimensions of [0] and [1] refer to the x and y coordinates.
+2. `createCapture(VIDEO)` in line 6: This is a HTML5 <video> element (part of the DOM) that captures the feed from a webcam. In relation to this function you can define the size of the screen capture (which depends on the resolution of the webcam) and position on screen, e.g. `capture.size(640,480);` We also uses `capture.hide();` to hide the video feed so that the button and the colored tracker points will not crash the video object.
 
-4. The final part is to draw the ellipses to cover the face. A for-loop is implemented to loop through all the ctracker points and then get the x and y coordinates for the drawing of the ellipses.
+2. Lines 10-12 are related to ctracker: `ctracker = new clm.tracker()`, `ctracker.init(pModel);` and `ctracker.start(capture.elt);`: Similar to audio and camera use, you first need to initialize the ctracker library, select the classified model (to be discussed in Chapter 10, "Machine unlearning"), and start tracking from the video source.
+
+3. In order to display the captured video in the INVERT mode, the program uses `image(capture, 0,0, 640, 480);` to draw the video feed in an image format, and apply the filter accordingly: `filter(INVERT);`
+
+4. `ctracker.getPosition()` in line 20: While we get the tracker points into an array `position`, a for-loop (in line 25-31) is used to loop through all 71 tracker points (as it starts with 0 and ends with 70) and return the position in terms of x and y coordinates as a two-dimensional array in the form of `position[][]`. The first dimension ([]) of the position array indicates the tracker points from 0 to 70. The second dimension ([][]) retrieves the x and y coordinates of the tracker points.
+
+5. Getting all the data on the tracker points allows ellipses to be drawn to cover the face. Since the position of the like button follows that of the mouth, and the tracker point for the mouth is 60 (especially the program points at the upper lip which is around 20 pixel from the center of the mouth), the program will then return the position as an array (see line 25): `positions[60][0]-20` and `positions[60][1]`. The second array's dimensions of [0] and [1] refer to the x and y coordinates.
 
 <div class="section exercise" markdown="true">
 

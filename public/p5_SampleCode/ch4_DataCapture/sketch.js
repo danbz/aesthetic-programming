@@ -58,10 +58,10 @@ function setup() {
     ( startColorstr='#4c69ba', endColorstr='#3b55a0', GradientType=0 )");
   //mouse capture
   button.mouseOut(revertStyle);
-  //click the button to clear the screen
-  button.mousePressed(clearence);
+  button.mousePressed(change);
 }
 function draw() {
+  //draw the captured video on a screen with the image filter
   image(capture, 0,0, 640, 480);
   filter(INVERT);
 
@@ -88,9 +88,8 @@ function draw() {
   }
 }
 
-function clearence() {
+function change() {
   button.style("background","#2d3f74");
-  redraw();
 }
 function revertStyle(){
   button.style("background","#4c69ba");
