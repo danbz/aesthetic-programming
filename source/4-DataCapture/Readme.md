@@ -291,7 +291,7 @@ The program uses the webcam via video capture to do facial recognition and detai
 
 4. `ctracker.getPosition()` in line 20: While we get the tracker points into an array `position`, a for-loop (in line 25-31) is used to loop through all 71 tracker points (as it starts with 0 and ends with 70) and return the position in terms of x and y coordinates as a two-dimensional array in the form of `position[][]`. The first dimension ([]) of the position array indicates the tracker points from 0 to 70. The second dimension ([][]) retrieves the x and y coordinates of the tracker points.
 
-5. Getting all the data on the tracker points allows ellipses to be drawn to cover the face. Since the position of the like button follows that of the mouth, and the tracker point for the mouth is 60 (especially the program points at the upper lip which is around 20 pixel from the center of the mouth), the program will then return the position as an array (see line 25): `positions[60][0]-20` and `positions[60][1]`. The second array's dimensions of [0] and [1] refer to the x and y coordinates.
+5. Getting all the data on the tracker points allows ellipses to be drawn to cover the face. Since the position of the like button follows that of the mouth, which postions at the point 60 (but since the button requires to position at the mid point of the mouth, therefore it needs to move the button to the left for around 20 pixel), the program will then return the position as an array (see line 25): `positions[60][0]-20` and `positions[60][1]`. The second array's dimensions of [0] and [1] refer to the x and y coordinates.
 
 <div class="section exercise" markdown="true">
 
