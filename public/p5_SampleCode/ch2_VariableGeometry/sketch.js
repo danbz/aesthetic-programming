@@ -9,15 +9,15 @@ function setup() {
 
 function draw() {
   //background
-  background(random(230,240));
+  background(random(230, 240));
   //left
   noStroke()
   fill(0);
-  rect(97,169,79,12);
+  rect(97, 169, 79, 12);
 
   //right
-  rect(365,184,20,15);
-  fill(20,20,120);
+  rect(365, 184, 20, 15);
+  fill(20, 20, 120);
 
   beginShape();
   vertex(365, 199);
@@ -30,7 +30,7 @@ function draw() {
   noFill();
   stroke(130);
   strokeWeight(2);
-  ellipse(255,350,static_size,static_size);
+  ellipse(255, 350, static_size, static_size);
 
   //mouse interactions
   stroke(180);
