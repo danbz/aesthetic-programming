@@ -150,7 +150,7 @@ In the sample code (see Figure 1.6), the line 4 prints "hello world." But to see
 ![](ch1_8.png){: .medium}
 :   *Figure 1.8: The web console area*
 
-At the bottom of Figure 1.8, the web console area shows the lighted words "hello world." This tells you the sketch is running properly and it is able to read the print function line. As you progress through this book, you will notice how important the web console area is, because it also displays error messages if, for example, the syntax is wrong (we will discuss errors in Chapter 8, "Que(e)ry data"). In such cases the browser will give you some good hints for debugging your code[^console]. Figure 1.9 shows that the web console area is able to specify which file (sketch.js), which line of code (Line 8) has a problem (the syntax background was spelled wrong intentionally), and it even suggests how you may correct it.
+At the bottom of Figure 1.8, the web console area shows the highlighted words "hello world." This tells you the sketch is running properly and it is able to read the print function line. As you progress through this book, you will notice how important the web console area is, because it also displays error messages if, for example, the syntax is wrong (we will discuss errors in Chapter 8, "Que(e)ry data"). In such cases the browser will give you some good hints for debugging your code.[^console] Figure 1.9 shows that the web console area is able to specify which file (sketch.js), which line of code (Line 8) has a problem (the syntax background was spelled wrong intentionally), and it even suggests how you may correct it.
 
 ![](ch1_9.png)
 :   *Figure 1.9: Example of syntax error*  
