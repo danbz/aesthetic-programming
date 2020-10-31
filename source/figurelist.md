@@ -12,11 +12,11 @@
 * Figure 1.12: Create a new project with the GitLab web interface
 * Figure 1.13: Manage directories/files using the GitLab web interface
 * Figure 1.14: The GitLab Web IDE
-* Figure 2.1: Multi by David Reinfurt. Courtesy of the artist
+* Figure 2.1: Multi by David Reinfurt. Courtesy of the designer
 * Figure 2.2: The screenshot of the remix of Multi
 * Figure 2.3: Simple exercise
-* Figure 3.1: Early alchemical illustration of ouroboros accompanied by the text ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist (10th Century). Image from Wikipedia.
-* Figure 3.2: Diagram for the computation by the Engine of the Numbers of Bernoulli, from "Note G" by Ada Lovelace
+* Figure 3.1: Early alchemical illustration of ouroboros accompanied by the text ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist (10th Century). Image from Wikipedia
+* Figure 3.2: Diagram for the computation by the Engine of the Numbers of Bernoulli, from "Note G" by Ada Lovelace. Courtesy of the Science Museum
 * Figure 3.3: The runme of sample code - sketch 3_1
 * Figure 3.4: Moving the coordinate system at canvas level, Image from processing.org
 * Figure 3.5: Asterisk Painting (2014) by John P. Bell. Courtesy of the artist

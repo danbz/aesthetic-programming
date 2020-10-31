@@ -103,6 +103,8 @@ function draw() {
 `function draw()`
 :   Taking cues from drawing practice in visual arts, code within this function will keep on looping, and that means `function draw()` is called on for each running frame. The default rate is 60 frames/times per second, and this is especially useful when things are set in motion or constantly being captured (we will continue with this in Chapter 3, "Infinite loops").
 
+From the above sample code, there are code comments which is indicated with the symbol "//", referring to text that are written for humans but not computers. This means a computer will automatically ignore those code comments when it executes the code. You may consider this as an explaination on how specific chunk of code works. Throughout the book, you will see `//` indicates a single line comment, and `/*........*/` indicates multiple lines of code comments with the starting symbols "/\*" and the ending symbols "\*/."
+
 Let's try to input these into the sketch to draw a canvas with a changing background (subtly lighten the black background color), then the sketch will further draw an ellipse located somewhere in the top left corner. (Double check the spelling and punctuation like curly brackets and semi-colons, indicating the scope of the function and end of the line respectively. Details of the code will be explained below.)
 
 ```javascript
