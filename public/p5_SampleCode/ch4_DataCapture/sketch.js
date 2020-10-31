@@ -16,7 +16,7 @@ function setup() {
   createCanvas(640, 480);
   //web cam capture
   capture = createCapture(VIDEO);
-  capture.size(640,480);
+  capture.size(640, 480);
   capture.hide();
 
   // Audio capture
@@ -30,16 +30,16 @@ function setup() {
 
   //styling the like button with CSS
   button = createButton('like');
-  button.style("display","inline-block");
-  button.style("color","#fff");
-  button.style("padding","5px 8px");
-  button.style("text-decoration","none");
-  button.style("font-size","0.9em");
-  button.style("font-weight","normal");
-  button.style("border-radius","3px");
-  button.style("border","none");
-  button.style("text-shadow","0 -1px 0 rgba(0,0,0,.2)");
-  button.style("background","#4c69ba");
+  button.style("display", "inline-block");
+  button.style("color", "#fff");
+  button.style("padding", "5px 8px");
+  button.style("text-decoration", "none");
+  button.style("font-size", "0.9em");
+  button.style("font-weight", "normal");
+  button.style("border-radius", "3px");
+  button.style("border", "none");
+  button.style("text-shadow", "0 -1px 0 rgba(0, 0, 0, .2)");
+  button.style("background", "#4c69ba");
   button.style(
     "background","-moz-linear-gradient(top, #4c69ba 0%, #3b55a0 100%)");
   button.style(
@@ -89,11 +89,11 @@ function draw() {
 }
 
 function change() {
-  button.style("background","#2d3f74");
+  button.style("background", "#2d3f74");
   userStartAudio();
 }
 function revertStyle(){
-  button.style("background","#4c69ba");
+  button.style("background", "#4c69ba");
 }
 //keyboard capture
 function keyPressed() {

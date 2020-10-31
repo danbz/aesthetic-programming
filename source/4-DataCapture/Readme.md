@@ -11,11 +11,11 @@ download_sketch_link: https://gitlab.com/aesthetic-programming/book/-/archive/ma
 [TOC]
 
 ## setup()
-This chapter focuses on how a program captures and processes input data. We have already introduced interactivity with physical devices with the functions `mouseX` and `mouseY` (see Chapter 2, "Variable geometry"), as well as the idea of listening events via the functions `mouseIsPressed()` and `windowResized()` (see Chapter 3, "Infinite loops"). In this chapter we expand on these ideas and present different types of data capture, including mouse movement, keyboard press, audio volume, and face tracking with a web camera.
+This chapter focuses on how a program captures and processes input data. We have already introduced interactivity with physical devices with the functions `mouseX` and `mouseY` (see Chapter 2, "Variable geometry"), as well as the idea of listening events via the functions `mouseIsPressed()` and `windowResized()` (see Chapter 3, "Infinite loops"). In this chapter we expand on these ideas and present different types of data capture, including mouse movement, keyboard press, audio volume, and video/face tracking with a web camera.
 
 Framing this chapter under "Data Capture" allows us to move from immediate interactions to questioning which kinds of data is being captured and how it is being processed,[^Tufte] as well as the consequences of this broader cultural tendency that is often called "datafication."[^datafication] This term — a contraction of data and commodification — refers to the ways in which all aspects of our life seem to be turned into data which is subsequently transferred into information which is then monetized (as described by Kenneth Cukier and Victor Mayer-Schöenberger in their article "The Rise of Big Data").[^Bigdata] Our data, "the patterns of human behaviors," is extracted and circulated within the logic of what Shoshana Zuboff calls "surveillance capitalism,"[^zuboff] demonstrating the need for large quantities of all manner of data to be harvested for computational purposes, such as predictive analytics (e.g. you like this book so we think you might like these books too).  
 
-We will return to some of these issues in Chapter 10, "Machine unlearning," but suffice to say, for now, that in the era of big data, there appears to be a need to capture data on everything, even from the most mundane actions like %button% pressing. This chapter begins with a relatively simple action like switching a device on or off — light, a kitchen appliance, and so on. Moreover a button is "seductive,"[^Pold] with its immediate feedback and instantaneous gratification. It compels you to press it. Similarly in software and online platforms like Facebook, a button calls for interaction, inviting the user to click, and interact with it in binary states: like or not-like, accept or cancel. The functionality is simple — on or off — and gives the impression of meaningful interaction despite the very limited choices on an offer (like most interactive systems). Indeed this binary option might be considered to be more "interpassive" than interactive, like accepting the terms of conditions of a social media platform like Facebook without bothering to read the details, or "liking" something as a way of registering your engagement however superficial or fleeting. Permission for capture data is provided, and as such our friendships, thoughts, and experiences all become "datafied." Even our emotional states are monitored when it come to the use of emoticons (discussed in Chapter 2, "Variable geometry").
+We will return to some of these issues in Chapter 10, "Machine unlearning," but suffice to say, for now, that in the era of big data, there appears to be a need to capture data on everything, even from the most mundane actions like button pressing. This chapter begins with a relatively simple action like switching a device on or off — light, a kitchen appliance, and so on. Moreover a button is "seductive,"[^Pold] with its immediate feedback and instantaneous gratification. It compels you to press it. Similarly in software and online platforms like Facebook, a button calls for interaction, inviting the user to click, and interact with it in binary states: like or not-like, accept or cancel. The functionality is simple — on or off — and gives the impression of meaningful interaction despite the very limited choices on an offer (like most interactive systems). Indeed this binary option might be considered to be more "interpassive" than interactive, like accepting the terms of conditions of a social media platform like Facebook without bothering to read the details, or "liking" something as a way of registering your engagement however superficial or fleeting. Permission for capture data is provided, and as such our friendships, thoughts, and experiences all become "datafied." Even our emotional states are monitored when it come to the use of emoticons (discussed in Chapter 2, "Variable geometry").
 
 With these ideas in mind, the next section will introduce the sample code for a customizable "Like" button in order to demonstrate the potential of simple interactions such as pressing a button. How the specificities and affordances of buttons can be considered, as well as how the like button becomes a "social button," thus creating economic values in what Carolin Gerlitz and Anne Helmond call "the like economy." [^helmond] As in previous chapters we will work through the various types of capture using buttons as a starting point. Subsequently, we will reflect on the wider implications.
 
@@ -55,7 +55,7 @@ function setup() {
   createCanvas(640, 480);
   //web cam capture
   capture = createCapture(VIDEO);
-  capture.size(640,480);
+  capture.size(640, 480);
   capture.hide();
 
   // Audio capture
@@ -69,16 +69,16 @@ function setup() {
 
   //styling the like button with CSS
   button = createButton('like');
-  button.style("display","inline-block");
-  button.style("color","#fff");
-  button.style("padding","5px 8px");
-  button.style("text-decoration","none");
-  button.style("font-size","0.9em");
-  button.style("font-weight","normal");
-  button.style("border-radius","3px");
-  button.style("border","none");
-  button.style("text-shadow","0 -1px 0 rgba(0,0,0,.2)");
-  button.style("background","#4c69ba");
+  button.style("display", "inline-block");
+  button.style("color", "#fff");
+  button.style("padding", "5px 8px");
+  button.style("text-decoration", "none");
+  button.style("font-size", "0.9em");
+  button.style("font-weight", "normal");
+  button.style("border-radius", "3px");
+  button.style("border", "none");
+  button.style("text-shadow", "0 -1px 0 rgba(0, 0, 0, .2)");
+  button.style("background", "#4c69ba");
   button.style(
     "background","-moz-linear-gradient(top, #4c69ba 0%, #3b55a0 100%)");
   button.style(
@@ -128,10 +128,11 @@ function draw() {
 }
 
 function change() {
-  button.style("background","#2d3f74");
+  button.style("background", "#2d3f74");
+  userStartAudio();
 }
 function revertStyle(){
-  button.style("background","#4c69ba");
+  button.style("background", "#4c69ba");
 }
 //keyboard capture
 function keyPressed() {
@@ -154,7 +155,7 @@ First you need to assign an object name to the button, and if you use multiple b
 * `button.style("xxx","xxxx");`: This is the CSS standard, where the first parameter is a selection/selector and the second is a declaration block/attributes. For example, if you want to set the font color, then you can put in "color" and "#fff" respectively.[^Style] For this sample code, all the styling was copied directly from the 2015 Facebook interface by looking at their CSS source code. Styling includes `display`, `color`, `padding`, `text-decoration`, `font-size`, `font-weight`, `border-radius`, `border`, `text-shadow`, `background` and `filter`, with the addition of `transform`.  
 * `button.size();`: This sets the button's width and height.
 * `button.position();` This sets the button's position.
-* `button.mousePressed(change);`: This changes the button's color and gives users control over starting audio with the customized function `change()` when the mouse is pressed (more to follow in the section of Audio capture).
+* `button.mousePressed(change);`: This changes the button's color, and gives users control over starting audio with the customized function `change()` when the mouse is pressed (more to follow in the section of "Audio capture").
 * `button.mouseOut(revertStyle);`: This reverts the original button's color with the cutomized function `revertStyle()` when the mouse moves off the button element.   
 
 ## Mouse capture
@@ -166,11 +167,11 @@ button.mouseOut(revertStyle);
 button.mousePressed(change);
 
 function change() {
-  button.style("background","#2d3f74");
+  button.style("background", "#2d3f74");
   userStartAudio();
 }
 function revertStyle(){
-  button.style("background","#4c69ba");
+  button.style("background", "#4c69ba");
 }
 ```
 The functions `mousePressed()` and `mouseOut()` are linked to the button you want to trigger actions. There are other mouse-related mouseEvents,[^event] such as `mouseClicked()`, `mouseReleased()`, `doubleClicked()`, `mouseMoved()`, and so on.
@@ -187,7 +188,7 @@ function keyPressed() {
 }
 ```
 
-The use of the `keyPressed()` function is for listening any keyboard pressing %events%. If you want to specify any `keyCode` (that is the actual key on the keyboard), the sample code shows how a conditional statement can be implemented within the `keyPressed()` function.
+The use of the `keyPressed()` function is for listening any keyboard pressing events. If you want to specify any `keyCode` (that is the actual key on the keyboard), the sample code shows how a conditional statement can be implemented within the `keyPressed()` function.
 
 The "conditional structure" is something similar to what you have learnt in the previous chapter, but it is also something different with the "if-else" statement. It explains as: if the spacebar on the keyboard is pressed, then the button rotates 180 degrees, and if any other keys of the keyboard are pressed, then the button reverts back to the original state of 0 degrees. The "if-else" structure therefore allows you to setup a further condition with the listening event: if a `keyCode` is detected other than the spacebar, the program will do something else.
 
@@ -237,14 +238,12 @@ Like a button, you first declare the object, e.g. `let mic;`, and then set up th
 
 The sample code refers to methods under `p5.AudioIn()`, which reads the amplitude (volume level) of the input source returning values between 0.0 to 1.0 using the `getLevel()` method.
 
-A new function `map()` (in line 14) will be introduced to map a number across a range. Since the values for volume returned are on a range of 0.0 to 1.0, the corresponding value will not make a significant difference in terms of the size of the button. As such, the range of the audio input will then map to the size range of the button dynamically.
+A new function `map()` (in Line 15) will be introduced to map a number across a range. Since the values for volume returned are on a range of 0.0 to 1.0, the corresponding value will not make a significant difference in terms of the size of the button. As such, the range of the audio input will then map to the size range of the button dynamically.
 
 The function `userStartAudio()` will enable the program to capture the mic input on a user interaction event, and in this case it is the `mousePressed()` event. This is a practice enforced by many web browsers, including Chrome, in which users aware of the audio events happen in the background and to avoid auto play or auto capture features from a web browser.
 
 ## Video/Face capture
 ```javascript
-let button;
-let mic;
 let ctracker;
 let capture;
 
@@ -252,57 +251,15 @@ function setup() {
   createCanvas(640, 480);
   //web cam capture
   capture = createCapture(VIDEO);
-  capture.size(640,480);
+  capture.size(640, 480);
   capture.hide();
-
-  // Audio capture
-  mic = new p5.AudioIn();
-  mic.start();
-
   //setup face tracker
   ctracker = new clm.tracker();
   ctracker.init(pModel);
   ctracker.start(capture.elt);
-
-  //styling the like button with CSS
-  button = createButton('like');
-  button.style("display","inline-block");
-  button.style("color","#fff");
-  button.style("padding","5px 8px");
-  button.style("text-decoration","none");
-  button.style("font-size","0.9em");
-  button.style("font-weight","normal");
-  button.style("border-radius","3px");
-  button.style("border","none");
-  button.style("text-shadow","0 -1px 0 rgba(0,0,0,.2)");
-  button.style("background","#4c69ba");
-  button.style(
-    "background","-moz-linear-gradient(top, #4c69ba 0%, #3b55a0 100%)");
-  button.style(
-    "background","-webkit-gradient(linear, left top, left bottom, \
-      color-stop(0%, #3b55a0))");
-  button.style(
-    "background","-webkit-linear-gradient(top, #4c69ba 0%, #3b55a0 100%)");
-  button.style(
-    "background","-o-linear-gradient(top, #4c69ba 0%, #3b55a0 100%)");
-  button.style(
-    "background","-ms-linear-gradient(top, #4c69ba 0%, #3b55a0 100%)");
-  button.style(
-    "background","linear-gradient(to bottom, #4c69ba 0%, #3b55a0 100%)");
-  button.style(
-    "filter","progid:DXImageTransform.Microsoft.gradient \
-    ( startColorstr='#4c69ba', endColorstr='#3b55a0', GradientType=0 )");
-  //mouse capture
-  button.mouseOut(revertStyle);
-  button.mousePressed(change);
 }
-function draw() {
-  //getting the audio data i.e the overall volume (between 0 and 1.0)
-  let vol = mic.getLevel();
-  /*map the mic vol to the size of button,
-  check map function: https://p5js.org/reference/#/p5/map */
-  button.size(floor(map(vol, 0, 1, 40, 450)));
 
+function draw() {
   //draw the captured video on a screen with the image filter
   image(capture, 0,0, 640, 480);
   filter(INVERT);
@@ -323,25 +280,8 @@ function draw() {
     }
   }
 }
-
-function change() {
-  button.style("background","#2d3f74");
-  userStartAudio();
-}
-function revertStyle(){
-  button.style("background","#4c69ba");
-}
-//keyboard capture
-function keyPressed() {
-  //spacebar - check here: http://keycode.info/
-  if (keyCode === 32) {
-    button.style("transform", "rotate(180deg)");
-  } else {   //for other keycode
-    button.style("transform", "rotate(0deg)");
-  }
-}
 ```
-For the specific face capture, the sample code uses clmtrackr which is a JavaScript library developed by data scientist Audun M. Øygard in 2014 for aligning a facial model with faces in images or video.[^Face] Based on facial algorithms designed by Jason Saragih and Simon Lucey,[^Algo] the library analyses a face in real-time marking it into 70 points based on a pre-trained machine vision model of facial images for classification. Since it is a JavaScript library, you need to put the library in the working directory, and link the library, and the face model in the HTML file.
+For the specific video/face capture, the sample code uses clmtrackr which is a JavaScript library developed by data scientist Audun M. Øygard in 2014 for aligning a facial model with faces in images or video.[^Face] Based on facial algorithms designed by Jason Saragih and Simon Lucey,[^Algo] the library analyses a face in real-time marking it into 71 points based on a pre-trained machine vision model of facial images for classification. (See Figure 4.5) Since it is a JavaScript library, you need to put the library in the working directory, and link the library, and the face model in the HTML file. (see Figure 4.4)
 
 ![](ch4_10.png)
 :   *Figure 4.4: The HTML file structure to import the new library and models*
@@ -353,13 +293,13 @@ The program uses the webcam via video capture to do facial recognition and detai
 
 1. `let ctracker;` & `let capture;`: Initialize the two variables that are used for face tracking and video capture.
 
-2. `createCapture(VIDEO)` in line 6: This is a HTML5 <video> element (part of the DOM) that captures the feed from a webcam. In relation to this function you can define the size of the screen capture (which depends on the resolution of the webcam) and position on screen, e.g. `capture.size(640,480);` We also uses `capture.hide();` to hide the video feed so that the button and the colored tracker points will not crash the video object.
+2. `createCapture(VIDEO)` in Line 7: This is a HTML5 <video> element (part of the DOM) that captures the feed from a webcam. In relation to this function you can define the size of the screen capture (which depends on the resolution of the webcam) and position on screen, e.g. `capture.size(640, 480);` We also uses `capture.hide();` to hide the video feed so that the button and the colored tracker points will not crash the video object.
 
-2. Lines 10-12 are related to ctracker: `ctracker = new clm.tracker()`, `ctracker.init(pModel);` and `ctracker.start(capture.elt);`: Similar to audio and camera use, you first need to initialize the ctracker library, select the classified model (to be discussed in Chapter 10, "Machine unlearning"), and start tracking from the video source.
+2. Lines 11-13 are related to ctracker: `ctracker = new clm.tracker()`, `ctracker.init(pModel);` and `ctracker.start(capture.elt);`: Similar to audio and camera use, you first need to initialize the ctracker library, select the classified model (to be discussed in Chapter 10, "Machine unlearning"), and start tracking from the video source.
 
-3. In order to display the captured video in the INVERT mode, the program uses `image(capture, 0,0, 640, 480);` to draw the video feed in an image format, and apply the filter accordingly: `filter(INVERT);`
+3. In order to display the captured video in the INVERT mode, the program uses `image(capture, 0,0, 640, 480);` to draw the video feed in an image format, and apply the filter accordingly: `filter(INVERT);` (See Line 18-19)
 
-4. `ctracker.getPosition()` in line 20: While we get the tracker points into an array `position`, a for-loop (in line 25-31) is used to loop through all 71 tracker points (as it starts with 0 and ends with 70) and return the position in terms of x and y coordinates as a two-dimensional array in the form of `position[][]`. The first dimension ([]) of the position array indicates the tracker points from 0 to 70. The second dimension ([][]) retrieves the x and y coordinates of the tracker points.
+4. `ctracker.getPosition()` in Line 21: While we get the tracker points into an array `position`, a for-loop (in line 28-34) is used to loop through all 71 tracker points (as it starts with 0 and ends with 70) and return the position in terms of x and y coordinates as a two-dimensional array in the form of `position[][]`. The first dimension ([]) of the position array indicates the tracker points from 0 to 70. The second dimension ([][]) retrieves the x and y coordinates of the tracker points.
 
 5. Getting all the data on the tracker points allows ellipses to be drawn to cover the face. Since the position of the like button follows that of the mouth, which postions at the point 60 (but since the button requires to position at the mid point of the mouth, therefore it needs to move the button to the left for around 20 pixel), the program will then return the position as an array (see line 25): `positions[60][0]-20` and `positions[60][1]`. The second array's dimensions of [0] and [1] refer to the x and y coordinates.
 
@@ -371,9 +311,9 @@ To familiar yourself with the various modes of capture, try the following:
 
 1. Explore the various capture modes by tinkering with various parameters such as `keyCode`, as well as other keyboard, and mouse events.
 
-2. Study the tracker points and try to change the position of the like button that you customized in a previous exercise.
+2. Study the tracker points and try to change the position of the like button.
 
-3. Try to test the boundaries of %facial recognition% (using lighting, facial expressions, and the facial composition). To what extend can a face be recognized as such, and to what extent is this impossible?
+3. Try to test the boundaries of facial recognition (using lighting, facial expressions, and the facial composition). To what extend can a face be recognized as such, and to what extent is this impossible?
 
 4. Do you know how the face is being modeled? How has facial recognition technology been applied in society at large, and what are some of the issues that arise from this?
 
@@ -382,7 +322,7 @@ It would be worth checking back to Chapter 2, "Variable geometry," for a reminde
 </div>
 
 ## The concept of capture
-This next section discusses various examples of different inputs for data capture. The intention is to showcase some other possibilities of its application, and more importantly how this relates to %datafication%, commodification, surveillance and personalization. In other words, this is an opportunity to discuss data politics more broadly: to question how our personal data is captured, quantified, archived, and used, and for what purpose? What are the implications, and who has the right to access the captured data, and derive profit from it? Few people know exactly which data is captured or how it is used?[^GDPR] However, despite the use of the term "capture," we should also point out that this is not total incarceration, and there are escape routes. More on this later.  
+This next section discusses various examples of different inputs for data capture. The intention is to showcase some other possibilities of its application, and more importantly how this relates to datafication, commodification, surveillance and personalization. In other words, this is an opportunity to discuss data politics more broadly: to question how our personal data is captured, quantified, archived, and used, and for what purpose? What are the implications, and who has the right to access the captured data, and derive profit from it? Few people know exactly which data is captured or how it is used?[^GDPR] However, despite the use of the term "capture," we should also point out that this is not total incarceration, and there are escape routes. More on this later.  
 
 ### Web analytics and heatmap
 At the moment, the most widely used web analytics service is provided by Google and contains tremendous amounts of data on website traffic and browsing behavior, including the number of unique visits, average time spent on sites, browser and operating system information, traffic sources and users' geographic locations, and so on. This data can then be further utilized to analyze customers' profiles and user behaviors.
@@ -404,7 +344,7 @@ As we argued with regard to interaction, the choices are limited, and yet each f
 :   *Figure 4.8: Facebook's custom gender field as of February 2020*
 
 ### Metrics of likes
-The use of a single Like button provides a good example of how our feelings are captured. The aptly named company "Happy or Not" who produce push button technology and analytics software — the kind found in supermarkets for instance, with happy or sad faces — also provide feedback technologies for the workplace, as indicated by their strapline: "Creating happiness in every business, worldwide."[^Leslie] The six emoticons Facebook launched in 2016, including "Like," "Love," "Haha," "Wow," "Sad" and "Angry," mark our standardized experience of work and play more precisely. All clicks are "categorized" into emotional %metrics%, displayed publicly on the web, and used for algorithmic calculation to prioritize feeds to users. It is fairly clear how the clicks serve the interests of platform owners foremost, and, as if to prove the point, Facebook, and Instagram have tested the idea of hiding the metrics on posts in order to shift attention to what they prefer to call "connecting people"[^Hide] — as if to prove their interests to be altruistic.
+The use of a single Like button provides a good example of how our feelings are captured. The aptly named company "Happy or Not" who produce push button technology and analytics software — the kind found in supermarkets for instance, with happy or sad faces — also provide feedback technologies for the workplace, as indicated by their strapline: "Creating happiness in every business, worldwide."[^Leslie] The six emoticons Facebook launched in 2016, including "Like," "Love," "Haha," "Wow," "Sad" and "Angry," mark our standardized experience of work and play more precisely. All clicks are "categorized" into emotional metrics, displayed publicly on the web, and used for algorithmic calculation to prioritize feeds to users. It is fairly clear how the clicks serve the interests of platform owners foremost, and, as if to prove the point, Facebook, and Instagram have tested the idea of hiding the metrics on posts in order to shift attention to what they prefer to call "connecting people"[^Hide] — as if to prove their interests to be altruistic.
 
 This practice of quantification is something the artist Benjamin Grosser has parodied in his *Demetricator* series,[^Grosser] first published in 2012, which makes all the numbers associated with the metadata disappear. The associated "value" of numbers associated with notifications, replies, favorites, and feeds, have all been nullified. Or rather, it becomes clear that the clicking produces value and the proof of this is conspicuous by its absence.
 
@@ -430,7 +370,7 @@ Fitness and well-being becomes datafied too, and with the setting of personal ta
 
 Under late capitalism, temporality itself seems to have been captured, and "there is a relentless incursion of the non-time of 24/7 into every aspect of social or personal life. There are, for example, almost no circumstances now that cannot be recorded or archived as digital imagery or information."[^Crary] We quote from Jonathan Crary's book *24/7: Late Capitalism and the Ends of Sleep* which describes the collapse of the distinction between day and night, meaning we are destined to produce data at all times. If sleep was once thought to be the last refuge from capitalism where no value could be extracted,[^Crary2] then this no longer seems to be the case.
 
-That even sleep has become datafied seems to point to the extent to which our subjectivities have also been captured. We produce, share, collect, use and misuse, knowingly, or not, massive amounts of data, but what does its capture do to us? What are the inter-subjective relations between data-commodity and its human subjects? As discussed in this chapter, our personal and professional lives seem to be fully enmeshed in various processes of "datafication," but does this mean that we are trapped in a prison-house of data, unwittingly producing value for others? In this last section we try to unpack these ideas a little more, and in particular the idea of value in the context of the data flow (that we call big %data%), and examine our position within these datafied structures which is not entirely without agency.
+That even sleep has become datafied seems to point to the extent to which our subjectivities have also been captured. We produce, share, collect, use and misuse, knowingly, or not, massive amounts of data, but what does its capture do to us? What are the inter-subjective relations between data-commodity and its human subjects? As discussed in this chapter, our personal and professional lives seem to be fully enmeshed in various processes of "datafication," but does this mean that we are trapped in a prison-house of data, unwittingly producing value for others? In this last section we try to unpack these ideas a little more, and in particular the idea of value in the context of the data flow (that we call big data), and examine our position within these datafied structures which is not entirely without agency.
 
 In 2015, transmediale, an annual art and digital culture festival in Berlin, posted an open call addressing the pervasive logic of *Capture All* and the quantification of life, work and play. The call included some questions worth repeating here: "Are there still modes of being that resist the imperative of digital capitalism to CAPTURE ALL or is there no option but to play along? If so, are there artistic strategies and speculative approaches that do not play this game of quantification by the numbers? What are the [...] gaps of relentless quantification and gamification that can be exploited in order to carve out new ways of living?"[^transmediale] Hopefully the practical tasks and examples of this chapter go some way to pointing out some alternatives.
 
@@ -456,7 +396,7 @@ This line of argument makes reference to the philosophy of Gilbert Simondon, to 
 
 **Tasks (RunMe):**
 
-1. Experiment with various data capture input and interactive devices, such as audio, mouse, keyboard, webcam, etc.
+1. Experiment with various data capture input and interactive devices, such as audio, mouse, keyboard, webcam/video, etc.
 2. Develop a sketch that responds loosely to the transmediale open call "Capture All," <https://transmediale.de/content/call-for-works-2015>. (Imagine you want to submit a sketch/artwork/critical or speculative design work to transmediale as part of an exhibition.)
 
 **Questions to think about (ReadMe):**
