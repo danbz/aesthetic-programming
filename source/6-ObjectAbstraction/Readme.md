@@ -99,10 +99,10 @@ Based on what you experience on the screen, describe:
 The source code is divided in two, one part with all the core functions, "sketch.js," and another "Tofu.js" that specifies the class/object relationship. Sometimes subdividing the program into various functions and files can help provide clarity. You can understand an additional JS file is just a continuation of your core sketch, therefore you don't have to repeatedly write `function setup()` or `function draw()` in the new files (when your programs become longer, and more complex, you might have more than two JS files to hold the program together). To enable the two JS files in a program, you need to add the following into the index.html file:
 
 ```html
-  <script language="javascript" type="text/javascript" src="sketch.js">
-  </script>
-  <script language="javascript" type="text/javascript" src="Tofu.js">
-  </script>
+<script language="javascript" type="text/javascript" src="sketch.js">
+</script>
+<script language="javascript" type="text/javascript" src="Tofu.js">
+</script>
 ```
 
 **sketch.js:**
@@ -132,11 +132,11 @@ function setup() {
 function draw() {
   background(240);
   fill(keyColor, 255);
-  rect(0, height/1.5,width, 1);
+  rect(0, height/1.5, width, 1);
   displayScore();
   checkTofuNum(); //available tofu
   showTofu();
-  image(pacman, 0, pacPosY,pacmanSize.w, pacmanSize.h);
+  image(pacman, 0, pacPosY, pacmanSize.w, pacmanSize.h);
   checkEating(); //scoring
   checkResult();
 }
@@ -183,7 +183,7 @@ function displayScore() {
 
 function checkResult() {
   if (lose > score && lose > 2) {
-    fill(keyColor,255);
+    fill(keyColor, 255);
     textSize(26);
     text("Too Much WASTAGE...GAME OVER", width/3, height/1.4);
     noLoop();
@@ -210,49 +210,49 @@ function keyPressed() {
 /*create a class: template/blueprint of objects
 with properties and behaviors*/
 class Tofu {
-   constructor()
-   { //initalize the objects
-   this.speed = floor(random(3,6));
-   //check this feature: https://p5js.org/reference/#/p5/createVector
-   this.pos = new createVector(width+5, random(12,height/1.7));
-   this.size = floor(random(15,35));
-   //rotate in clockwise for +ve no
-   this.tofu_rotate = random(0,PI/20);
-   this.emoji_size = this.size/1.8;
-   }
- move() {  //moving behaviors
-   this.pos.x-=this.speed;  //i.e, this.pos.x = this.pos.x - this.speed;
- }
- show() { //show tofu as a cube
-   push()
-   translate(this.pos.x, this.pos.y);
-   rotate(this.tofu_rotate);
-   noStroke();
-   fill(130, 120);//shadow
-   rect(0,this.size, this.size, 1);
-   fill(253); //front plane
-   rect(0,0, this.size,this.size);
-   fill(150); //top
-   beginShape();
-   vertex(0,0);
-   vertex(0-this.size/4,0-this.size/4);
-   vertex(0+this.size/1.5,0-this.size/4);  //no special hair style
-   vertex(0+this.size, 0);
-   endShape(CLOSE);
-   fill(220);//side
-   beginShape();
-   vertex(0, 0);
-   vertex(0-this.size/4,0-this.size/4);
-   vertex(0-this.size/4,0+this.size/1.5);
-   vertex(0,0+this.size);
-   endShape(CLOSE);
-   fill(80); //face
-   textStyle(BOLD);
-   textSize(this.emoji_size);
-   text('*',0+this.size/6, 0+this.size/1.5);
-   text('-',0+this.size/1.7, 0+this.size/1.9);
-   text('。',0+this.size/3, 0+this.size/1.2);
-   pop();
+    constructor()
+    { //initalize the objects
+    this.speed = floor(random(3, 6));
+    //check this feature: https://p5js.org/reference/#/p5/createVector
+    this.pos = new createVector(width+5, random(12, height/1.7));
+    this.size = floor(random(15, 35));
+    //rotate in clockwise for +ve no
+    this.tofu_rotate = random(0, PI/20);
+    this.emoji_size = this.size/1.8;
+    }
+  move() {  //moving behaviors
+    this.pos.x-=this.speed;  //i.e, this.pos.x = this.pos.x - this.speed;
+  }
+  show() { //show tofu as a cube
+    push()
+    translate(this.pos.x, this.pos.y);
+    rotate(this.tofu_rotate);
+    noStroke();
+    fill(130, 120);//shadow
+    rect(0, this.size, this.size, 1);
+    fill(253); //front plane
+    rect(0, 0, this.size, this.size);
+    fill(150); //top
+    beginShape();
+    vertex(0, 0);
+    vertex(0-this.size/4, 0-this.size/4);
+    vertex(0+this.size/1.5, 0-this.size/4);  //no special hair style
+    vertex(0+this.size, 0);
+    endShape(CLOSE);
+    fill(220);//side
+    beginShape();
+    vertex(0, 0);
+    vertex(0-this.size/4, 0-this.size/4);
+    vertex(0-this.size/4, 0+this.size/1.5);
+    vertex(0,0+this.size);
+    endShape(CLOSE);
+    fill(80); //face
+    textStyle(BOLD);
+    textSize(this.emoji_size);
+    text('*', 0+this.size/6, 0+this.size/1.5);
+    text('-', 0+this.size/1.7, 0+this.size/1.9);
+    text('。', 0+this.size/3, 0+this.size/1.2);
+    pop();
  }
 }
 ```
@@ -288,19 +288,19 @@ with properties and behaviors*/
 class Tofu {
   constructor()
   { //initalize the objects
-  this.speed = floor(random(3,6));
+  this.speed = floor(random(3, 6));
   //check this feature: https://p5js.org/reference/#/p5/createVector
-  this.pos = new createVector(width+5, random(12,height/1.7));
-  this.size = floor(random(15,35));
+  this.pos = new createVector(width+5, random(12, height/1.7));
+  this.size = floor(random(15, 35));
   //rotate in clockwise for +ve no
-  this.tofu_rotate = random(0,PI/20);
+  this.tofu_rotate = random(0, PI/20);
   this.emoji_size = this.size/1.8;
   }
   //something more here
 }
 ```
 
-The above prepares object construction. There is a function called "constructor" to initialize a (tofu) object with the following attributes which takes the form of a list of variables that indicate the properties of speed, position, size of the shape, rotating angle and size of the emoji expression. All these properties are defined with the keyword `this`, which refers to the current object instance during the execution of the program, e.g. `this.speed = floor(random(3,6));`. It can be translated roughly as: when the object instance tofu is created, that particular tofu's speed value will be a random integer between 3 and 5.
+The above prepares object construction. There is a function called "constructor" to initialize a (tofu) object with the following attributes which takes the form of a list of variables that indicate the properties of speed, position, size of the shape, rotating angle and size of the emoji expression. All these properties are defined with the keyword `this`, which refers to the current object instance during the execution of the program, e.g. `this.speed = floor(random(3, 6));`. It can be translated roughly as: when the object instance tofu is created, that particular tofu's speed value will be a random integer between 3 and 5.
 
 For the other variable, `this.pos`, we use the function `new createVector` to create the new p5 vector which contains the x and y components. With the `createVector()` function, we can then use `pos.x` and `pos.y` to specify the x and y coordinates of a tofu.
 
@@ -356,7 +356,7 @@ function showTofu() {
  }
 }
 ```
-The above shows that the program has the minimum amount of tofu on screen (with the variable `min_tofu`). Tofu is created through the `checkTofuNum()`, a custom-function with the conditional statement to check if the the amount of tofu objects meets the minimum value. The function `push()` creates a "new" object instance using the Tofu class (`tofu.push(new Tofu());`). Therefore, all the object instances have the same properties and methods, and the code can be reused to create similar objects.
+The above shows that the program has the minimum amount of tofu on screen (with the variable `min_tofu`). Tofu is created through the `checkTofuNum()`, a custom-function with the conditional statement to check if the amount of tofu objects meets the minimum value. The function `push()` creates a "new" object instance using the Tofu class (`tofu.push(new Tofu());`). Therefore, all the object instances have the same properties and methods, and the code can be reused to create similar objects.
 
 Objects are like arrays, and start with index 0, e.g. `tofu[0]`, and if you push for more, the program will create and add one to the index i.e. `tofu[1]`. Using the syntax `tofu.length()` will result in the number of active objects. We can then use a for-loop to cycle through all the tofu objects, moving, and displaying them on the canvas (using the class methods `move()` and `show()` defined above).
 
@@ -397,10 +397,10 @@ function checkEating() {
       );
     if (d < pacmanSize.w/2.5) { //close enough as if eating the tofu
       score++;
-      tofu.splice(i,1);
+      tofu.splice(i, 1);
     }else if (tofu[i].pos.x < 3) { //pacman missed the tofu
       lose++;
-      tofu.splice(i,1);
+      tofu.splice(i, 1);
     }
   }
 }
@@ -408,7 +408,7 @@ function checkEating() {
 
 `checkEating()` is a customized function for deleting tofu under certain conditions, and consequently leading to the calculation of the scores, i.e. the number of tofu(s) eaten or wasted by Pacman.
 
-We start with a for-loop to cycle through all the tofu object instances. The first step is to check if Pacman has eaten any of them. This means we need to think about what it means to "be eaten" in a computational sense. The program continuously checks the distance between each tofu and Pacman. The `dist();` function takes four parameters to calculate the distance between two points (x1, y1, x2, y2). x1 and y1 mark Pacman's position (the center point) and x2, y2, each tofu's position. If the calculated distance is less than half of Pacman's image width, this means that the Pacman is closed enough to give an illusion of the tofu is being eaten, then the variable `score` increases by one, and the object concerned will be deleted (`tofu.splice(i,1);`).
+We start with a for-loop (see Line 7) to cycle through all the tofu object instances. The first step is to check if Pacman has eaten any of them. This means we need to think about what it means to "be eaten" in a computational sense. The program continuously checks the distance between each tofu and Pacman. The `dist();` function (see Line 9-10) takes four parameters to calculate the distance between two points (x1, y1, x2, y2). x1 and y1 mark Pacman's position (the center point) and x2, y2, each tofu's position. If the calculated distance is less than half of Pacman's image width, this means that the Pacman is closed enough to give an illusion of the tofu is being eaten, then the variable `score` increases by one, and the object concerned will be deleted (`tofu.splice(i,1);`).
 
 Secondly, any specific tofu objects that reach the end of the canvas will no longer be used. Objects with the x position less than the value three (`tofu[i].pos.x < 3`) are removed. The two steps' sequence matters because we need to make sure deleted tofu is missed by Pacman.
 
@@ -465,7 +465,7 @@ By no means do the steps need to be exactly as listed. Of course, you could thin
 
 **`function preload(){}`:** In this game we have used an animated gif, i.e. Pacman that can be controlled by pressing certain key codes. To have the image drawn on the canvas, you need to use the function `loadImage()` to load the image file before the program runs `setup()` and `draw()`.
 
-**`image()`:** To display an image file on the p5.js canvas, the function `image()` is used and it takes parameters: which image (the file and its computer's location), x position (where you want to display in terms of the x axis), y position (where you want to display in terms of the y axis), the width of an image and the height of it (the size that you want to display as you might want to resize the original image).
+**`image()`:** To display an image file on the p5.js canvas, the function `image()` is used and it takes parameters: which image (the file and its computer's location), x position (where you want to display in terms of the x axis), y position (where you want to display in terms of the y axis), the width of an image and the height of it (the size that you want to display as you might want to resize the original image). We have also used this function to display the captured video feeds as images in Chapter 4, "Data capture."
 
 **The tofu's shape:** As introduced in Chapter 2, "Variable geometry," we have reused the related syntax such as `rect()`, `vertex()`, `beingShape()` and `endShape()`. We will now also use typographic characters for the emotive expression by using the `text()` and `textSize()` functions.
 

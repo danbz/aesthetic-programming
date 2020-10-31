@@ -26,11 +26,11 @@ function setup() {
 function draw() {
   background(240);
   fill(keyColor, 255);
-  rect(0, height/1.5,width, 1);
+  rect(0, height/1.5, width, 1);
   displayScore();
   checkTofuNum(); //available tofu
   showTofu();
-  image(pacman, 0, pacPosY,pacmanSize.w, pacmanSize.h);
+  image(pacman, 0, pacPosY, pacmanSize.w, pacmanSize.h);
   checkEating(); //scoring
   checkResult();
 }
@@ -77,7 +77,7 @@ function displayScore() {
 
 function checkResult() {
   if (lose > score && lose > 2) {
-    fill(keyColor,255);
+    fill(keyColor, 255);
     textSize(26);
     text("Too Much WASTAGE...GAME OVER", width/3, height/1.4);
     noLoop();
