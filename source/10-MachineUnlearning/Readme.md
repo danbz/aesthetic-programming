@@ -19,7 +19,7 @@ This chapter begins with a flowchart that describes how a chatbot works — both
 
 Machine learning is a term coined by Arthur Samuel in 1959 through his research at IBM on game development, with the ultimate goal to reduce or even eliminate the need for "detailed programming effort."[^samuel] The roots of how computers might begin to write their own programs lie in older discussions of artifical intelligence. Speculation as to whether computers could demonstrate credible responses to inputs is reflected in the relatively simple chatbot example that uses keywords to produce a "knowing" response, or follow up question. ELIZA was one of the first chatbots and was created by Joseph Weizenbaum at MIT between 1964 and 1966. It simulates a conversation between a Rogerian psychotherapist and their patient, prompting for user input, and then uses primitive "natural language processing"[^nlp] to transform this input — using a simple script based on keyword association and language patterns (see Figure 10.1) — into what seems to be a meaningful output, often in the form of a return question. Despite its apparent simplicity, it can be quite convincing (as you will experience later on).
 
-Conversations with ELIZA involve an "illusion"[^Weizenbaum] to make machines appear as if they were human entities. Evidently, ELIZA exploits our willingness to anthropomorphize technology, and what passes for intelligence, as not only is it able to maintain a seemingly relevant and personalized dialogue, but also, as Weizenbaum notes, "some subjects have been very hard to convince that ELIZA is not human."[^Weizenbaum2] Here we once again reference the Turing Test.[^Turing] Can a machine respond convincingly to an input with an output similar to a human's — or more precisely — can it mimic rational thinking? It's also interesting to note that ELIZA is named after Eliza Doolittle — from the George Bernard Shaw play *Pygmalion*[^Pygmalion] — which centers on a working class flower girl, and a patronizing bet by a professor of phonetics, that he can teach her gentility, and hence upward mobility through the British class system, through the acquisition of "proper speech" (as opposed to Cockney dialect, which interestingly is a rejection of upward mobility in its coded form).[^class] Perhaps the current technology of voice assistants operates on similar principles as they are able to not only process content but learn the style of human speech.
+Conversations with ELIZA involve an "illusion"[^Weizenbaum] to make machines appear as if they were human entities. Evidently, ELIZA exploits our willingness to anthropomorphize technology, and what passes for intelligence, as not only is it able to maintain a seemingly relevant and personalized dialogue, but also, as Weizenbaum notes, "some subjects have been very hard to convince that ELIZA is not human."[^Weizenbaum2] Here we once again reference the Turing Test.[^Turing] Can a machine respond convincingly to an input with an output similar to a human — or more precisely — can it mimic rational thinking? It's also interesting to note that ELIZA is named after Eliza Doolittle — from the George Bernard Shaw play *Pygmalion*[^Pygmalion] — which centers on a working class flower girl, and a patronizing bet by a professor of phonetics, that he can teach her gentility, and hence upward mobility through the British class system, through the acquisition of "proper speech" (as opposed to Cockney dialect, which interestingly is a rejection of upward mobility in its coded form).[^class] Perhaps the current technology of voice assistants operates on similar principles as they are able to not only process content but learn the style of human speech.
 
 In machine learning, it is commonly understood that the style is learnt from training datasets through techniques to process and analyze large amounts of (natural language) data. As such, machine learning techniques such as "style transfer" rely on a process of generalization in order to identify patterns. However, this "pattern recognition" is clearly not a neutral process as it involves the identification of input data, and the "discrimination" of information.[^clemens] It is clear that there is other kinds of discrimination in such processes, such as inherent stereotypes in voice assistants[^assistants] or in online translation tools,[^online] and other examples that might include the AI chatbot Tay that was regarded as racist,[^tay] or how facial recognition in Amazon software, and other smart systems demonstrate gender and racial bias.[^face] Understood this way, pattern recognition is not only about smoothing tasks and making accurate predictions in terms of technical operations but also political operations as it creates "subjects and subjection, knowledge, authority" as well as classification and categorization.[^hito]
 
@@ -27,15 +27,15 @@ Appropriately, for the last chapter of our book, many of the critical-technical 
 
 ## start()
 
-Let's start with a closer examination of and reflection on the ELIZA chatbot by using the test application produced by Norbert Landsteiner, between 2005 and 2013:
+Let's start with a closer examination of and reflection on the ELIZA chatbot by using the test application produced by Norbert Landsteiner in 2005:
 
 ![10_2](ch10_5.png){: .medium}
-:   *Figure 10.2:  E.L.I.Z.A. Talking (2013) by Norbert Landsteiner*
+:   *Figure 10.2: A screenshot of the ELIZA Terminal (2005) on a web browser, implemented by Norbert Landsteiner*
 
 Tasks:
 
-1. Visit the ELIZA Test by clicking the button "Next Step", <https://www.masswerk.at/elizabot/eliza_test.html> so you can see the original example given by Weizenbaum in his published article.[^Weizenbaum3]
-2. Then visit the work *E.L.I.Z.A. Talking* (2013) via the link <https://www.masswerk.at/eliza/>, and try to have your own conversation.[^bot]
+1. Visit the *ELIZA Test* (2005) by clicking the button "Next Step", <https://www.masswerk.at/elizabot/eliza_test.html> so you can see the original example given by Weizenbaum in his published article.[^Weizenbaum3]
+2. Then visit the work *ELIZA Terminal* (2005) via the link <https://www.masswerk.at/elizabot/eliza.html>, and try to have your own conversation.[^bot]
 3. Share your experience of the original conversation (by Weizenbaum) and your conversation with the chatbot:
     * How would you describe your experience of ELIZA (e.g. the use of language, style of conversation, and quality of social interaction)?
     * How would you assess the ability of technology such as this to capture and structure feelings, and experiences? What are the limitations?
@@ -56,12 +56,12 @@ This web application includes input, learning, and output. By capturing images v
 
 What to do:
 
-Prepare three set of gestures that can be captured by the web camera. Each gesture has to be repeatedly trained by long-pressing the colored "TRAIN" button, and this generates the machine learning model based on the captured images as input data (also called the "training dataset") (see Figure 10.2). This process is used to train a computer to recognize the specific gestures/images/poses so that when there is a new image input (a so-called "test dataset"), the learning/teachable machine can classify those gestures with various confidence levels, and then predict the corresponding output results. The three default output modes (GIF, Sound, Speech) can be further modified by searching for other sets of images, sounds and texts.
+Prepare three set of gestures that can be captured by the web camera. Each gesture has to be repeatedly trained by long-pressing the colored "TRAIN" button, and this generates the machine learning model based on the captured images as input data (also called the "training dataset") (see Figure 10.3). This process is used to train a computer to recognize the specific gestures/images/poses so that when there is a new image input (a so-called "test dataset"), the learning/teachable machine can classify those gestures with various confidence levels, and then predict the corresponding output results. The three default output modes (GIF, Sound, Speech) can be further modified by searching for other sets of images, sounds and texts.
 
 The simplest way to start is:
 
 1. Train the machine using three different sets of gestures/facial expressions, then observe the predictive results shown as various outputs.
-2. Test the boundaries of recognition or classification problems, such as having a different test dataset, or under different conditions such as variable lighting. What can, and cannot, be recognized?
+2. Test the boundaries of recognition or classification problems, such as having a different test dataset, or under different conditions such as variable lighting and distancewe. What can, and cannot, be recognized?
 3. What happens when you only use a few images? How does this amount of training input change the machine's predictions?
 
 This initial exercise aims to familiarize you with the three components of machine learning: input, learning and output, as well as to explore the relation between data and these components. Furthermore, this execise sets the stage for thinking about the ways in which machines learn from data, identify patterns, make decisions, and predictions.
@@ -110,49 +110,44 @@ RunMe, <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch10_MachineU
 
 ## Source code
 
+JavaScript:
+
 ```javascript
+//small modification from the source:
+//https://learn.ml5js.org/#/reference/charrnn
+
 let charRNN;
 let textInput;
 let lengthSlider;
 let tempSlider;
 let button;
 let runningInference = false;
-let status;
-let lengthText;
-let temperatureText;
-let resultText;
 
 function setup() {
-
+  noCanvas();
   // Create the LSTM Generator passing it the model directory
   charRNN = ml5.charRNN('./models/AP_book/', modelReady);
 
   // Grab the DOM elements
-  textInput = document.querySelector('#textInput');
-  lengthSlider = document.querySelector('#lenSlider');
-  tempSlider = document.querySelector('#tempSlider');
-  button = document.querySelector('#generate');
-  lengthText = document.querySelector('#length');
-  temperatureText = document.querySelector('#temperature');
-  status = document.querySelector('#status')
-  resultText = document.querySelector('#result')
+  textInput = select('#textInput');
+  lengthSlider = select('#lenSlider');
+  tempSlider = select('#tempSlider');
+  button = select('#generate');
 
   // DOM element events
-  button.addEventListener('click', generate);
-  lengthSlider.addEventListener('change',updateSliders);
-  tempSlider.addEventListener('change',updateSliders);
+  button.mousePressed(generate);
+  lengthSlider.input(updateSliders);
+  tempSlider.input(updateSliders);
 }
-
-setup();
 
 // Update the slider values
 function updateSliders() {
-  lengthText.innerHTML = lengthSlider.value;
-  temperatureText.innerHTML = tempSlider.value;
+  select('#length').html(lengthSlider.value());
+  select('#temperature').html(tempSlider.value());
 }
 
 function modelReady() {
-  status.innerHTML = 'Model Loaded';
+  select('#status').html('Model Loaded');
 }
 
 // Generate new text
@@ -162,17 +157,18 @@ function generate() {
     runningInference = true;
 
     // Update the status log
-    status.innerHTML = 'Generating...';
+    select('#status').html('Generating...');
 
     // Grab the original text
-    let txt = textInput.value + " ";
+    let txt = textInput.value();
     // Check if there's something to send
     if (txt.length > 0) {
+      // Thi is what the LSTM generator needs
       // Seed text, temperature, length to outputs
       let data = {
         seed: txt,
-        temperature: tempSlider.value,
-        length: lengthSlider.value
+        temperature: tempSlider.value(),
+        length: lengthSlider.value()
       };
 
       // Generate text with the charRNN
@@ -183,8 +179,8 @@ function generate() {
         if (err) {
           console.log("error: " + err);
         }else{
-          status.innerHTML = 'Ready!';
-          resultText.innerHTML = txt + result.sample;
+          select('#status').html('Ready!');
+          select('#result').html(txt + result.sample);
           runningInference = false;
         }
       }
@@ -193,13 +189,17 @@ function generate() {
 }
 ```
 
+HTML:
+
 ```html
 <html>
 <head>
   <meta charset="UTF-8">
   <title>Auto Chapter Generator</title>
-  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"
   type="text/javascript"></script>
+  <script language="javascript" type="text/javascript"
+  src="../libraries/p5.js"></script>
   <style>
     body {background-color: white;font-family:"Lucida Console", Monaco,
     monospace;font-size:12;color:grey;}
@@ -235,13 +235,14 @@ function generate() {
 
 **index.html**
 
-To load the ml5.js library as part of the overall sketch, you need the following line in your index.html, just like importing other libraries as discussed in Chapter 4, "Data capture," with the clmtrackr library.
+To load the ml5.js library as part of the overall sketch, you need the following line in your index.html, just like importing other libraries as discussed in Chapter 4, "Data capture," with the clmtrackr library. For this example, we are using ml5.js library - version 0.4.3.
+
 ```html
-<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"
 type="text/javascript"></script>
 ```
 
-Apart from the new ml5.js, the HTML file contains the following DOM elements:
+Apart from the new ml5.js, the HTML file contains the following DOM elements (see Figure 10.8) that can display the corresponding data, and interact with the user there. As such the sketch.js is mainly used to process the data from the DOM and form elements, and it is not used for canvas drawing (`noCanvas()` is used in Line 11 within the `function setup(){}`).
 
 1. **A text input box** for entering seed/input text. In this example, we have used "Afterword: Recurrent Imaginaries" as a sequence input to generate the next character, continuously forming a new seed sequence for next character prediction: `<input id="textInput" value="Afterword: Recurrent Imaginaries" size="30"/>`
 2. **A slider for selecting the number of generated characters** with a range from 100 to 2,000: `<input id="lenSlider" type="range" min="100" max="2000" value="1000"/>`
@@ -265,15 +266,34 @@ function setup() {
 }
 ```
 
-The program collects data in the form of objects: the seed text (based on the text input), the length of the predictive text (based on the slider), as well as the temperature value (based on the other slider). These data objects are passed on to the charRNN's method: `charRNN.generate()` in order to process the seed text via the pre-trained model (with a callback function `gotdata()`). This `.generate()` method returns the text object `sample` as sample output. Theoretically, the predictive text will have learnt the style from all the chapters (if only crudely) and then generates the new text accordingly.
+The program collects data in the form of objects (using the `select` syntax to search for the HTML elements, especially the `input id` that have been defined in index.html): the seed text (based on the text input), the length of the predictive text (based on the slider), as well as the temperature value (based on the other slider).
+
+```javascript
+function setup() {
+...
+  // Grab the DOM elements
+  textInput = select('#textInput');
+  lengthSlider = select('#lenSlider');
+  tempSlider = select('#tempSlider');
+  button = select('#generate');
+
+  // DOM element events
+  button.mousePressed(generate);
+  lengthSlider.input(updateSliders);
+  tempSlider.input(updateSliders);
+...
+}
+```
+
+The key data required for the generator are the seed text, temperature, and length (the numbers of characters) for text generation. These data objects are passed on to the charRNN's method: `charRNN.generate()` in order to process the seed text via the pre-trained model (with a callback function `gotdata()`). This `.generate()` method returns the text object `sample` as sample output. Theoretically, the predictive text will have learnt the style from all the chapters (if only crudely) and then generates the new text accordingly.
 
 ```javascript
 function generate() {
 ...
     let data = {
         seed: txt,
-        temperature: tempSlider.value,
-        length: lengthSlider.value
+        temperature: tempSlider.value(),
+        length: lengthSlider.value()
     };
     charRNN.generate(data, gotData);
 ...
@@ -285,7 +305,7 @@ Finally, the result will be displayed on screen with the `gotData()` function. N
 ```javascript
 function gotData(err, result) {
 ...
-    resultText.innerHTML = txt + result.sample;
+    select('#result').html(txt + result.sample);
 ...
 }
 ```
@@ -293,8 +313,8 @@ function gotData(err, result) {
 <div class="section exercise" markdown="true">
 ## Exercise in class
 
-1. Work with the Auto Chapter Generator program and try to generate texts based on different length and temperature values.
-2. The example also links to the Chapter 5, "Auto-generator," in terms of agency, unpredictability, and generativity, but how does this chapter change our understanding of these terms given what we know about machine learning? What is learning in this context? What do machines teach us? And in the production of prediction, what does machine learning want?[^predict]
+1. Work with the *Auto Chapter Generator* program and try to generate texts based on different length and temperature values.
+2. The generative text example also links to the Chapter 5, "Auto-generator," in terms of agency, unpredictability, and generativity, but how does this chapter change our understanding of these terms given what we know about machine learning? What is learning in this context? What do machines teach us? And in the production of prediction, what does machine learning want?[^predict]
 </div>
 
 ## While()
@@ -330,14 +350,14 @@ Drawing on the curriculum, including the various theoretical and conceptual text
 
 Here are few tips may help you to come up with an idea for your project:
 
-* You may take another look at the themes that we have used for inspiration, including: literacy, variable geometry, infinite loops, data capture, object abstraction, vocable code, auto generator, que(e)ry data, algorithmic procedures, machine learning, as well as writing and coding, facial recognition, emojis, (micro)temporalities, capture all, interactivity, object orientation, rule-based systems, language and speech, expressivity, algorithmic literature, politics of data processing and learning, all underwritten by an attentiveness to a politics of race, class, and gender.
+* You may take another look at the themes that we have used for inspiration, including: literacy/getting started, variable geometry, infinite loops, data capture, auto-generator, object abstraction, vocable code, que(e)ry data, algorithmic procedures, machine learning, as well as writing and coding, facial recognition, emojis, (micro)temporalities, capture all/datafication, interactivity, rule-based systems, object orientation, language and speech, expressivity, algorithmic literature, politics of data processing and learning, all underwritten by an attentiveness to a politics of race, class, and gender.
 * Take a look again at all the previous mini exercises and the questions that were posed. Are there any that you want to explore further?
 * Are there any assigned/suggested texts that you are inspired by, and you want to explore further?
 * Are there any particular technical areas that you want to explore further?
 
 **RunMe:**
 
-Produce a software artifact written in p5.js (or a combination of HTML/CSS/JS/P5/node.js).
+Produce a software artifact written in p5.js (or a combination of HTML/CSS/JS/p5/ml5/node.js).
 
 Remember to include all external libraries and data/assets such as images, fonts, text files, sound file, etc. Furthermore, if you have borrowed other sample code or ideas, please cite your sources in the code comments.
 
@@ -489,4 +509,4 @@ The ReadMe should address the following questions with the help of your source c
 
 [^rnn]: We have used the free and open source program *Text Predictor* developed by Greg Surma in Python to generate the following chapter as it takes better account of symbols, line breaks, and markdown syntax. See <https://github.com/gsurma/text_predictor>.
 
-[^acm]: Republished with permission of Communications of the ACM, from ELIZA—a Computer Program for the Study of Natural Language Communication between Man and Machine, Joseph Weizenbaum, 9, 1 and 1966 of copyright; permission conveyed through Copyright Clearance Center, Inc. License fees have been paid for using the flowchart image in this book. We apologize for contributing to the paywall business model that violates our free and open access principles, but we have also considered the importance of Weizenbaum's work in computing history, and how this flowchart demonstrates the detailed logic of *Eliza*.
+[^acm]: Republished with permission of Communications of the ACM, from ELIZA—a Computer Program for the Study of Natural Language Communication between Man and Machine, Joseph Weizenbaum, 9, 1 and 1966 of copyright; permission conveyed through Copyright Clearance Center, Inc. A small amount of license fees have been paid for using the flowchart image in this book. We apologize for contributing to the paywall business model that violates our free and open access principles, but we have also considered the importance of Weizenbaum's work in computing history, and how this flowchart demonstrates the detailed logic of *Eliza*.

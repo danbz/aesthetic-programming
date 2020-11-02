@@ -49,8 +49,8 @@ Showcase of students projects can be found at <https://gitlab.com/siusoon/Aesthe
 - Kearney-Volpe, Claire. “p5.js access project.” <https://www.clairekv.com/p5js-ux-research>.
 - Knowles, Alison, and James Tenney. *A House of Dust*. 1967. Re-implemented by Nick Montfort. *For Memory Slam*. 2014. <https://nickm.com/memslam/a_house_of_dust.html>.
 - Laczko, Juli. *webmachines*, Digital Power, ACM SIGGRAPH, 2020. <https://digital-power.siggraph.org/piece/webmachine/>.
-- Landsteiner, Norbert. *elizabot.js*. 2005. <https://www.masswerk.at/elizabot/>.
-- ———. *E.L.I.Z.A Talking*. 2013. <https://www.masswerk.at/eliza/>.
+- Landsteiner, Norbert. *ELIZA Terminal*. 2005. <https://www.masswerk.at/elizabot/eliza.html>.
+- ———. *Eliza Test*. 2005. <https://www.masswerk.at/elizabot/eliza_test.html>.
 - Li, Fei-Fei, Jia Deng, Olga Russakovsky, Alex Berg, Kai Li. *ImageNet*. Last updated 2016. <http://image-net.org/>.
 - Link, David. *Love Letters_1.0: MUC=Resurrection. A Memorial*. 2009. Exhibited dOCUMENTA(13), Kassel, 2012. <http://www.alpha60.de/art/love_letters/>.
 - Lorusso, Silvio. *The Best is Yet to Come*. 2012. <https://silviolorusso.com/work/the-best-is-yet-to-come/>.
