@@ -3,9 +3,10 @@ page_order: 13
 
 **List of Projects (artworks, software, exhibitions)**
 
-Showcase of students projects can be found at <https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/blob/master/source/showcase.md>.
+Showcase of students projects can be found at <https://gitlab.com/aesthetic-programming/book/-/blob/master/source/showcase.md>.
 
 <div class="long-list" markdown=true>
+
 - “A hackable text editor for the 21st Century.” Atom. <https://atom.io/>.
 - “atom-live-server-package.” Atom. <https://atom.io/packages/atom-live-server>.
 - Bell, John P. *Asterisk Painting*. n.d. <http://www.johnpbell.com/asterisk-painting/>.
@@ -102,4 +103,5 @@ Showcase of students projects can be found at <https://gitlab.com/siusoon/Aesthe
 - Witt, Sol Le. *Wall Drawing #289*. 1976.
 - “Wordnet: A Lexical Database for English.” Princeton University. <https://wordnet.princeton.edu/>.
 - Žilák, Martin. "recursive fractal tree in p5.js." n.d. <https://editor.p5js.org/marynotari/sketches/BJVsL5ylz>.
+
 </div>
