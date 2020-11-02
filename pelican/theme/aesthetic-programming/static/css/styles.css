@@ -35,10 +35,10 @@
 }
 
 @page:first {
-    @top-right {
+    @top-left {
       content: "";
     }
-    @bottom-right {
+    @bottom-left {
       content: "";
     }
 }
@@ -58,7 +58,22 @@
 }
 
 
-@page:nth(3) {
+@page toc {
+    @top-right {
+      content: "";
+    }
+    @bottom-right {
+      content: "";
+    }
+}
+
+@page firstpage {
+    @top-left {
+      content: "";
+    }
+    @bottom-left {
+      content: "";
+    }
     @top-right {
       content: "";
     }
@@ -84,15 +99,37 @@ h1 {
 }
 
 h1 + p img {
-    break-after: right;
+    break-after: left;
 }
 
 .toc:before {
     content: "Contents";
 }
 .toc {
-    break-before: left;
+    /*break-before: left;*/
     break-after: right;
+    page: toc;
+}
+
+h2#setup:before {
+    content: "";
+    width: 14cm;
+    height: 1cm;
+    display: block;
+    position: absolute;
+    top: -2.25cm;
+    left: -0.5cm;
+    background-color: white;
+}
+h2#setup:after {
+    content: "";
+    width: 14cm;
+    height: 1cm;
+    display: block;
+    position: absolute;
+    top: 22cm;
+    left: -0.5cm;
+    background-color: white;
 }
 
 hr {

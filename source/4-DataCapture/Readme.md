@@ -293,7 +293,7 @@ The program uses the webcam via video capture to do facial recognition and detai
 
 1. `let ctracker;` & `let capture;`: Initialize the two variables that are used for face tracking and video capture.
 
-2. `createCapture(VIDEO)` in Line 7: This is a HTML5 <video> element (part of the DOM) that captures the feed from a webcam. In relation to this function you can define the size of the screen capture (which depends on the resolution of the webcam) and position on screen, e.g. `capture.size(640, 480);` We also uses `capture.hide();` to hide the video feed so that the button and the colored tracker points will not crash the video object.
+2. `createCapture(VIDEO)` in Line 7: This is a HTML5 `<video>` element (part of the DOM) that captures the feed from a webcam. In relation to this function you can define the size of the screen capture (which depends on the resolution of the webcam) and position on screen, e.g. `capture.size(640, 480);` We also uses `capture.hide();` to hide the video feed so that the button and the colored tracker points will not crash the video object.
 
 2. Lines 11-13 are related to ctracker: `ctracker = new clm.tracker()`, `ctracker.init(pModel);` and `ctracker.start(capture.elt);`: Similar to audio and camera use, you first need to initialize the ctracker library, select the classified model (to be discussed in Chapter 10, "Machine unlearning"), and start tracking from the video source.
 

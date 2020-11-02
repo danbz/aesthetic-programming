@@ -239,7 +239,7 @@ Given our specific example *nag* and the sample code, we want to also reflect on
 <div class="exercise" markdown="true">
 
 ## Exercise in class
-![api](ch8_5.png){: .medium}
+![api](ch8_5.png)
 :   *Figure 8.9: The API request and response logic*
 
 1. Referring to Figure 8.9, can you recap what has been requested and received through the web API? (Or, more conceptually, which forms of control and exchange are performed?)
@@ -262,7 +262,7 @@ The colored lines (see Figures 8.2 and 8.3) are not randomly drawn, but they are
 
 Each pixel selected contains color information that is the R (red), G (green), B (blue) and A (alpha) values. This is how the data is being stored in the pixels' one dimensional array:
 
-![pixel](ch8_7.jpg){: .medium}
+![pixel](ch8_7.jpg)
 :   *Figure 8.11: An illustration of the breakdown of each pixel by Integrated Digital Media, NYU. Image from https://idmnyu.github.io/p5.js-image/*[^nyu]
 
 `loc` is a variable for storing pixel information. Each pixel position needs to be clearly located so that a line can be drawn at the right position. Following the function `Pixels()`, each pixel takes up four locations: The first pixel with the four RGBA values, then the second pixel with another four RGBA values, and so on, and so forth:
@@ -323,26 +323,19 @@ Paying close attention to errors/bugs is a vital part of learning to program as 
 Broadly speaking, there are three types of errors:
 
 1. **Syntax errors** are problems with the syntax, also known as parsing errors. These errors — such as spelling errors or missing a closed bracket — tend to be easier to catch, and can be detected by a parser (in this case the browser).
-
-> SyntaxError: missing ) after argument list
+  > SyntaxError: missing ) after argument list
 
 2. **Runtime errors** happen during the execution of a program while the syntax is correct.
-
-The web browser console is the place to understand these errors. Below shows two examples of runtime errors:
-
-If we remove the conditional checking `if (getImg){}` within the `draw()` function, the program cannot initially load the image as it takes some time to process the web API request. The error will keep on showing in the web console until the program successfully parses the image URL.
-
-> p5.js says: loadImage() was expecting String for parameter #0 (zero-based index), received an empty variable instead. If not intentional, this is often a problem with scope: [https://p5js.org/examples/data-variable-scope.html] at about:srcdoc:94:6.[https://github.com/processing/p5.js/wiki/Local-server] 	
-
-Wrong API key sent to the server. It is a more critial error because the program cannot extract the image and display it on the screen:
-
-```
-> p5.js says: It looks like there was a problem loading your json. Try checking if the file path is correct, or running a local server.
-```
+  The web browser console is the place to understand these errors. Below shows two examples of runtime errors:  
+  If we remove the conditional checking `if (getImg){}` within the `draw()` function, the program cannot initially load the image as it takes some time to process the web API request. The error will keep on showing in the web console until the program successfully parses the image URL.
+  >
+  > p5.js says: loadImage() was expecting String for parameter #0 (zero-based index), received an empty variable instead. If not intentional, this is often a problem with scope: [https://p5js.org/examples/data-variable-scope.html] at about:srcdoc:94:6.[https://github.com/processing/p5.js/wiki/Local-server] 	
+  Wrong API key sent to the server. It is a more critial error because the program cannot extract the image and display it on the screen:
+  >
+  > p5.js says: It looks like there was a problem loading your json. Try checking if the file path is correct, or running a local server.
 
 3. **Logical errors** are arguably the hardest errors to locate as they deal with logic not syntax. The code may still run perfectly, but the result is not what was expected. This indicates a discrepancy between what we think we asked the computer to do and how it actually processes the instructions.
-
-The web console is a good place to be notified of errors or test whether the code is running as we expected. When solving errors, it is important to identify exactly where they occur, i.e. which block or line of code contains the mistake by using `console.log()` (or `print()` in p5.js). Test and run the various parts of the program step by step, then try to identify the error types, and fix them accordingly.
+  The web console is a good place to be notified of errors or test whether the code is running as we expected. When solving errors, it is important to identify exactly where they occur, i.e. which block or line of code contains the mistake by using `console.log()` (or `print()` in p5.js). Test and run the various parts of the program step by step, then try to identify the error types, and fix them accordingly.
 
 ## While()
 

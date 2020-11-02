@@ -25,7 +25,7 @@ Our point is that using emojis may be fun and expressive, but they also tend to 
 * * *
 
 ## start()
-![multi](ch2_1.gif){: style="margin-bottom: -1em;" .no-border}
+![multi](ch2_1.gif){: style="margin-bottom: -2em;" .no-border}
 :   *Figure 2.1: Multi by David Reinfurt. Courtesy of the designer.*
 
 *Multi* (<http://www.o-r-g.com/apps/multi>),[^multi] is inspired by another designer Enzo Mari who spent a whole year in 1957 exploring the essential form of an object (an apple). Reinfurt explains that, "He was not looking to draw AN apple, but rather THE [universal] apple — a perfect symbol designed for the serial logic of industrial reproduction." *Multi* develops a variation of this idea for informational reproduction in the form of a mobile app with 1,728 possible arrangements, or facial compositions, built from minimal punctuation glyphs. But instead of using preset typographic characters, which admittedly is the conceptual charm of *Multi*, for our purpose we will draw these from scratch with foundational elements of geometry.
@@ -277,11 +277,11 @@ if (x > 10 || x <= 20 ) {
 ## Basic arithmetic operators
 You can also do arithmetic operations in programming, and this is commonly done in the arguments of a function. Here is a list of basic arithmetic operators:
 
-- add(+): For addition and concatenation, which is applicable to both numbers and text/characters.
-- subtract(-)
-- multiply(\*)
-- divide(/)
-- Special operators: increment (++), decrement (--)   
+- add(`+`): For addition and concatenation, which is applicable to both numbers and text/characters.
+- subtract(`-`)
+- multiply(`*`)
+- divide(`/`)
+- Special operators: increment (`++`), decrement (`--`)   
 
 You can try the following in the web console area:
 

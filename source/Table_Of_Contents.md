@@ -1,7 +1,8 @@
 Title: Table of Contents
 page_order: -3
 
-![](TOC.svg)
+![flowchart](TOC.svg)
+
 - Colophon
 - TOC
 - OSP
@@ -185,4 +186,4 @@ page_order: -3
   - Notes
 - Bibliography
 - List of Projects
-<!--- Showcase (*only available on web version*)-->
+

@@ -46,11 +46,11 @@
         before: function () {
           activateCodeblocks();
 
-          createIndex({
-              spanClassIndex: 'indexed_word',
-              indexElement: '#book-index',  
-              alphabet: true        
-            });
+          //createIndex({
+          //    spanClassIndex: 'indexed_word',
+          //    indexElement: '#book-index', 
+          //    alphabet: true       
+          //  });
         }
       };
     </script>
@@ -61,13 +61,13 @@
     <h1>{{ page.title }}</h1>
     {{ page.content }}
 
-    <section id="book-index"></section>
+    <!--<section id="book-index"></section>-->
 
     <script type="text/javascript" charset="utf-8" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/codemirror.js"></script>
     <script type="text/javascript" charset="utf-8" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/javascript.js"></script>
     <script type="text/javascript" charset="utf-8" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/codemirror/addon/runmode.js"></script>
     <script type="text/javascript" charset="utf-8" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/activateCodeblocks.js"></script>
-    <script type="text/javascript" charset="utf-8" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/createIndex.js"></script>
+    <!--<script type="text/javascript" charset="utf-8" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/createIndex.js"></script>-->
     <script async type="text/javascript" charset="utf-8" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/paged.polyfill.js"></script>
 </body>
 </html>

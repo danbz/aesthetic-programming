@@ -12,7 +12,7 @@ download_requirements_link: https://gitlab.com/aesthetic-programming/book/-/arch
 
 ## setup()
 
-![Ouroboros](ch3_0.png){: .medium}
+![Ouroboros](ch3_0.png){: .float}
 :    *Figure 3.1: Early alchemical illustration of ouroboros accompanied by the text ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist (10<sup>th</sup> Century). Image from Wikipedia*
 
 Loops offer alternative imaginaries, as is the case of the ancient image of a serpent eating its own tail. *Ouroboros*, from the Greek, expresses the endless cycle of birth and death, and therefore stands for the ability of processes to infinitely renew themselves. Alongside evocative references to autocannibalism and alchemy, loops are related to control and automation tasks, as well as repetitive procedures in everyday situations such as those heard in repeating sections of sound material in music.[^Hofstadter] In programming, a loop allows the repeated execution of a fragment of source code that continues until a given condition is met, such as true or false. Indeed a loop becomes an infinite (or endless) if a condition never becomes false.

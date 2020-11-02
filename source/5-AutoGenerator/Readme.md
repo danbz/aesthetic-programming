@@ -13,7 +13,7 @@ While the previous chapter discussed the data capture underlying the interaction
 
 More specifically, the Turing machine is capable of six types of fundamental operations (at the time there wasn't a thing called a computer) including read, write, move left, move right, change state and halt/stop. Turing suggested these operations could be performed by running an endless tape (that worked like memory does in a modern computer) with instructions on what symbols to read and write, as well as how to move. These instructions constitute the fundamental principles of the Turing machine,[^visualization] but also modern computing, with the capability to compute numeric tasks and automate various processes. These instructions from a base level of computing seem to underwrite the wider processes of production, consumption and distribution of contemporary (informational) capitalism as we partly covered in the last chapter.    
 
-![turing](ch5_1.png){: .medium}
+![turing](ch5_1.png){: .medium style="padding: 1.5em;" }
 :   *Figure 5.1: An illustration of the Turing Machine[^TuringGraph]*
 
 This chapter will explore how instructions are fundamental elements of adaptive systems, focusing on how rules are performed, and how they might produce unexpected and/or complex results.
@@ -342,7 +342,7 @@ Artist David Link built a functional replica of both the hardware and the origin
 * *Generative Artistry* by Ruth John and Tim Holman (n.d.), <https://generativeartistry.com/tutorials/>.
 * *Generative Design - sketches* (n.d.), <http://www.generative-gestaltung.de/2/>, and source code, <https://github.com/generative-design/Code-Package-p5.js>.
 * *GenArt* by Joseph Fiola (2016), with source code, <https://github.com/JosephFiola/GenArt>.
-* *Game of Life* by John Conway (1970), <https://web.archive.org/web/20181007111016/http://web.stanford.edu/~cdebs/GameOfLife/>.
+* *Game of Life* by John Conway (1970), <https://web.archive.org/web/20181007111016/> & <http://web.stanford.edu/~cdebs/GameOfLife/>.
 * *Generative Tarot* by Melanie Hoff (2019), <https://www.melaniehoff.com/generativetarot/>, source code <https://github.com/melaniehoff/generative-tarot-p5js>.
 * *The Recode Project* (featuring projects from 1976-78), <http://recodeproject.com/>, and *Memory Slam* by Nick Montfort (2014), <http://nickm.com/memslam/>.
 * *Solving Sol* by Brad Bouse (n.d.), an open project to implement Sol LeWitt's instructions in JavaScript  <https://github.com/wholepixel/solving-sol>.
@@ -361,7 +361,7 @@ Artist David Link built a functional replica of both the hardware and the origin
 
 ## Required reading
 
-* Nick Montfort et al. "Randomness," *[10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org/)* (Cambridge, MA: MIT Press, 2012), 119-146.
+* Nick Montfort et al. "Randomness," *10 PRINT CHR$(205.5+RND(1)); : GOTO 10*, <https://10print.org/> (Cambridge, MA: MIT Press, 2012), 119-146.
 * Daniel Shiffman, "p5.js - 2D Arrays in Javascript," *Youtube*, <https://www.youtube.com/watch?v=OTNpiLUSiB4>.
 * Marius Watz, "Beautiful Rules: Generative Models of Creativity," in *The Olhares de Outono* (2007), <https://vimeo.com/26594644>.
 
@@ -435,7 +435,7 @@ Artist David Link built a functional replica of both the hardware and the origin
 
 [^Conway]: More information on Conway's *Game of Life* and related cellular automata can be found at <https://www.conwaylife.com/>.
 
-[^game_eg]: For further discussion and the source code for Conway's *The Game of Life*, see: <https://web.archive.org/web/20181007111016/<http://web.stanford.edu/~cdebs/GameOfLife/>.
+[^game_eg]: For further discussion and the source code for Conway's *The Game of Life*, see: <https://web.archive.org/web/20181007111016/> & <http://web.stanford.edu/~cdebs/GameOfLife/>.
 
 [^necro]: Continuing from *biopolitics*, a term coined by Michel Foucault to indicate the use of power to control people's lives, *necropolitics* is the use of social and political power to dictate how some people may live and others must die. See Achille Mbembe, "Necropolitics," *Public Culture* 15, no.1 (2003): 11–40.
 
@@ -459,7 +459,7 @@ Artist David Link built a functional replica of both the hardware and the origin
 
 [^sfpc]: The School for Poetic Computation, an artist-run school in New York that was founded in 2013, explores the intersections of code, design, hardware and theory — focusing especially on artistic intervention, see: <https://sfpc.io/>.
 
-[^hoff]: See *Digital Love Languages ♡ Codes of Affirmation*, http://lovelanguages.melaniehoff.com/syllabus/.
+[^hoff]: See *Digital Love Languages ♡ Codes of Affirmation*, <http://lovelanguages.melaniehoff.com/syllabus/>.
 
 [^Noah]: Noah Wardrip-Fruin, "Christopher Strachey: The First Digital Artist?," *Grand Text Auto*, School of Engineering, University of California Santa Cruz (August 1, 2005).
 

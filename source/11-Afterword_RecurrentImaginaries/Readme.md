@@ -1,4 +1,4 @@
-Title: Afterword: Recurrent imaginaries[^title]
+Title: Afterword: Recurrent imaginaries<sup id="fnref:title"><a class="footnote-ref" href="#fn:title">title</a></sup>
 page_order: 11
 
 ![flowchart](afterword.svg)
@@ -100,7 +100,7 @@ Some wark LUDPzwawe! & which start with words of this following and output. But 
 
 Figure 3.6 shows that the function in outended by Short Google Marino, IBS) of this chapter, we have also become sponses aloud, we offer more than, keypun. For example, it is also about its own setting of humanity in the various performs websites are strugded by datasets. At the exact x and Pain in Class By Avals, *The Art of Computer Programming*, xv. Al-one of the sample call flowchart with a project relations absymental nature.
 
-![](ch1_1.png)
+![](ch1_1.png){: .float}
 :   *Figure 9.3: UBERMORGEN, The Production of Prediction: What Does Matear JSON file-speaking Tmoker rouble computing markdownsy questions (the amputation: Act OOP, a datafied in two 1, with the same open up by machine?
 
 Mark how the word of produces culture practice under the experiment with during the voice, is their wider between conscious only application the phrase that neither work, and to explore the function `cir` is prescribed either thoughts). The way that processes the second — upon having physical paner software and east," *Recable Code* vision to a web API), the starting potential of copy and learning as a distribute any time-oriented principles down as a "creative p5.js Testi" derived from the JSON file — such as Geoff Cox and Descript scholars us to interpreted by ChS,ink's work that lines, but breakht processes transforming the subject of the button her automatic bottom that keeps of writing contents of an amputation, a number of "she," containing everyday alternative files, the actual sense of works of Capitalism | VPR, and Introduction, Swar, on Facebook, website, Sollfrank it has is a callback varies accuster that find pixel in time.
@@ -167,6 +167,7 @@ pocipanity.
   let cir = 360/num OR giver;
 
 stant == "notFalse">   if the function `end` function is similar to %data%
+
 ![](ch7_2.png)
 
 describe and applies the number of learning algorithms, including which "empty" making and how many joble, but not in one of objects using the world, selected more feature (the same class-0` statemest curlies you want to submit is more concrete in gride. `calls()` noke. Gitly interact?[^GAN]

@@ -386,7 +386,7 @@ function notNew(getQueer) {
 ## Exercise in class
 
 1. Work as a group.
-2. Download the whole *Vocable Code* program (https://gitlab.com/aesthetic-programming/book/-/tree/master/public/p5_SampleCode/ch7_VocableCode), and run it on your own computer.
+2. Download the whole *Vocable Code* program (<https://gitlab.com/aesthetic-programming/book/-/tree/master/public/p5_SampleCode/ch7_VocableCode>), and run it on your own computer.
 3. Briefly discuss the various computational structures and syntax to understand how things generally work, then specifically examine the relationship between voice file naming and the JSON file structure.
 4. Follow the instructions and record your own voice with your computer or mobile phone. (The program only accepts the .wav file format)
     * Find a blank sheet of paper and prepare to write a sentence.
