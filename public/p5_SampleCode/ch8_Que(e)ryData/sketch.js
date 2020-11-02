@@ -49,14 +49,14 @@ function draw() {
 			if (!imgLoaded) {
 				noStroke();
 				fill(220);
-				rect(0,0,img.width+frameBorder*2,img.height+frameBorder*2);
-				image(img,frameBorder,frameBorder);
+				rect(0, 0, img.width+frameBorder*2, img.height+frameBorder*2);
+				image(img, frameBorder, frameBorder);
 				imgLoaded = true;
 			}else{
 				//draw lines
 				img.loadPixels();
-				img_x = floor(random(0,img.width));
-				img_y = floor(random(0,img.height));
+				img_x = floor(random(0, img.width));
+				img_y = floor(random(0, img.height));
 				/* The formula to locate the no: x+y*width, indicating a pixel
 				from the image on a grid (and each pixel array holds red, green, blue,
 				and alpha values), for more see here:
@@ -64,9 +64,9 @@ function draw() {
 				loc = (img_x+img_y * img.width)*4;
 				strokeWeight(0.7);
 				//rgb values
-				stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));
-				line(frameBorder+img_x,frameBorder+img_y,
-					frameBorder+img_x,frameBorder+img.height);
+				stroke(color(img.pixels[loc], img.pixels[loc + 1], img.pixels[loc+2]));
+				line(frameBorder+img_x, frameBorder+img_y,
+					frameBorder+img_x, frameBorder+img.height);
 			}
 			pop();
 		});

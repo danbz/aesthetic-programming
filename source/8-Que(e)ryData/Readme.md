@@ -104,14 +104,14 @@ function draw() {
 			if (!imgLoaded) {
 				noStroke();
 				fill(220);
-				rect(0,0,img.width+frameBorder*2,img.height+frameBorder*2);
-				image(img,frameBorder,frameBorder);
+				rect(0, 0, img.width+frameBorder*2, img.height+frameBorder*2);
+				image(img, frameBorder, frameBorder);
 				imgLoaded = true;
 			}else{
 				//draw lines
 				img.loadPixels();
-				img_x = floor(random(0,img.width));
-				img_y = floor(random(0,img.height));
+				img_x = floor(random(0, img.width));
+				img_y = floor(random(0, img.height));
 				/* The formula to locate the no: x+y*width, indicating a pixel
 				from the image on a grid (and each pixel array holds red, green, blue,
 				and alpha values), for more see here:
@@ -119,9 +119,9 @@ function draw() {
 				loc = (img_x+img_y * img.width)*4;
 				strokeWeight(0.7);
 				//rgb values
-				stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));
-				line(frameBorder+img_x,frameBorder+img_y,
-					frameBorder+img_x,frameBorder+img.height);
+				stroke(color(img.pixels[loc], img.pixels[loc + 1], img.pixels[loc+2]));
+				line(frameBorder+img_x, frameBorder+img_y,
+					frameBorder+img_x, frameBorder+img.height);
 			}
 			pop();
 		});
@@ -138,7 +138,8 @@ This exercise is about getting the "key ID" and "Engine ID" from Google so that 
 
 1. **Step 1:** Create a p5 sketch, then copy and paste the source code into your code editor (assuming you have the HTML file and the p5 library).
 
-2. **Step 2:** Replace the API key with your own details on the line: `let apikey = "INPUT YOUR OWN KEY";`.
+2. **Step 2:** Replace the API key with your own details on the Line 3: `let apikey = "INPUT YOUR OWN KEY";`.
+
 ![google1](ch8_3.png)
 :   *Figure 8.4: Google Custom Search interface*
     * Register a Google account if you don't have one (a Google account is needed in order to use the web API)
@@ -147,7 +148,7 @@ This exercise is about getting the "key ID" and "Engine ID" from Google so that 
     * Click the blue button "Get A Key" and then create a new project by entering your project name (e.g. "nag-test") and press enter
     * You should be able to see the API key and you just need to copy and paste the key into your sketch
 
-3. **Step 3:** Replace the Search engine ID (cx) with your own, on the line: `let engineID = "INPUT YOUR OWN";`.
+3. **Step 3:** Replace the Search engine ID (cx) with your own, on the the Line 5: `let engineID = "INPUT YOUR OWN";`.
     * Go to [Custom Search Engine](https://cse.google.com/all)[^google2]
     * Click the "Add" button to add a search engine
     * You can limit your search area but if you want to search all of Google, simply type "http://www.google.com"
@@ -159,7 +160,7 @@ This exercise is about getting the "key ID" and "Engine ID" from Google so that 
     * Make sure "Image search" is ON — blue indicates it is (see Figure 8.5)
     * Make sure the "Search the entire web" is ON — blue indicates it is (see Figure 8.5)
 
-You should now finish modifying the settings. You can now run the sample code with your own API Key and engine ID.
+You should now finish modifying the settings, and now run the sample code with your own API Key and engine ID.
 </div>
 
 ![ch8_3b](ch8_3b.png){: .medium}
@@ -196,33 +197,35 @@ function gotData(data) {
 	console.log(getImg);
 }
 ```
+:   *Figure 8.6: Snippets of Net Art Generator concerning the APIs*
+
 To enable easy modification, we have set the search parameters as a global variable, which includes the required URL, API key, search engine ID, search type, image size, and query. These are the parameters used to filter the search results, and more variables can be added if required/desired.
 
 A web API is simply a long URL `request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&searchType=" + searchType + "&q=" + query;` that includes all the credentials as well as the items you want to search for and the necessary filters (it looks like this: <https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers>).
 
-The key syntax is `loadJSON()` (in the function `fetchImage()`) to submit a "request" in the form of a URL to the image provider after which you need to wait for the returned JSON file with a list of results. The callback function `gotData()` is to further process and que(e)ry the data returned.
+The key syntax is `loadJSON()` (in the Line 21 within the function `fetchImage()`) to submit a "request" in the form of a URL to the image provider after which you need to wait for the returned JSON file with a list of results. The callback function `gotData()` is to further process and que(e)ry the data returned.
 
 ### Que(e)rying data
 
-Figure 8.6 below shows the JSON file format, but it includes a lot of information that you might not need. You therefore need to understand the file structure and locate the data that you want to process. Understanding the returned data file is part of the process of que(e)rying data as different providers and platforms structure their data differently.
+Figure 8.7 below shows the JSON file format, but it includes a lot of information that you might not need. You therefore need to understand the file structure and locate the data that you want to process. Understanding the returned data file is part of the process of que(e)rying data as different providers and platforms structure their data differently.
 
 ![google2](ch8_4.png)
-:   *Figure 8.6: Web API data structure I*
+:   *Figure 8.7: Web API data structure I*
 
 In the web console, look for a URL (with your own API key and search engine ID) that starts with "https" and ends with "warhol+flowers" (something like this: <https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers>). Then simply click it and you will see how the data is structured in the JSON file format in a web browser (see Figure 8.6). There are more parameters you can set in order to select more specific forms of data such as image size, image color type, image dominant color, and so on. The API that we have used in the sample code demonstrates minimal settings.[^setting]
 
 **Cross-Origin Resource Sharing**
 
-In contrast to text, requesting, receiving, and loading images from a web domain (or multimedia formats such as video as well as fonts) will incur security issues, known in the field as Cross-Origin Resource Sharing (CORS). For this chapter, and in the corresponding example, the sample code is hosted on a local machine with a local server running in the ATOM code editor, but the API request, and the corresponding data is hosted elsewhere. The CORS issue related to network requests is designed to prevent "unsafe HTTP requests."[^w3c] In an industry environment, it is usually configured on the web server side to handle the network requests. But for demonstration purposes, we have used the thumbnail images (`data.items[0].image.thumbnailLink;`) generated by the search provider instead of loading original web images hosted on various servers with a variety of settings. We simply load the images by using `createImg()` or `loadImage()`.
+In contrast to text, requesting, receiving, and loading images from a web domain (or multimedia formats such as video as well as fonts) will incur security issues, known in the field as Cross-Origin Resource Sharing (CORS). For this chapter, and in the corresponding example, the sample code is hosted on a local machine with a local server running in the Atom code editor, but the API request, and the corresponding data is hosted elsewhere. The CORS issue related to network requests is designed to prevent "unsafe HTTP requests."[^w3c] In an industry environment, it is usually configured on the web server side to handle the network requests. But for demonstration purposes, we have used the thumbnail images (`data.items[0].image.thumbnailLink;`) generated by the search provider instead of loading original web images hosted on various servers with a variety of settings (more abut the data structure in the next section). We simply load the images by using `createImg()` or `loadImage()` (see Figures 8.2 & 8.3).
 
 **Data structure**
 
-Figure 8.6 demonstrates how you can indicate specific data in a JSON file. There is the line `data.items[0].image.thumbnailLink;`, which gets the returned object specified (the image URL) from the JSON file. The term "data" refers to all the objects returned using the callback function `function gotData(data){}`. `items[0]` which points to the first data object (using the array concept in which the first position on the index is 0). The dot syntax allows you to navigate to the object `image` and `thumbnailLink` under `items[0]` ("data > items[0] > image > thumbnailLink"). Note that this hierarchy is specific to this API because other web APIs might structure their data differently.
+Figure 8.7 demonstrates how you can indicate specific data in a JSON file. There is the line `data.items[0].image.thumbnailLink;` (see Line 33 from the full source code), which gets the returned object specified (the image URL) from the JSON file. The term "data" refers to all the objects returned using the callback function `function gotData(data){}`. `items[0]` which points to the first data object (using the array concept in which the first position on the index is 0). The dot syntax allows you to navigate to the object `image` and `thumbnailLink` under `items[0]` ("data > items[0] > image > thumbnailLink"). Note that this hierarchy is specific to this API because other web APIs might structure their data differently.
 
-To learn more about the JSON file, you can navigate through other data objects such as "queries > request > 0" that would show, for example, how many results are found on the image search, which search terms have been processed, and how many data objects were returned (See Figure 8.7). In the sample code, we start with only the top 10 search items, but you can configure the parameter `startIndex` to get the last 10 images out of 110 million. Furthermore, you can find the data for each specific image returned in the form of an array, such as the title, and the corresponding snippet of the page content under `items` in the JSON file.
+To learn more about the JSON file, you can navigate through other data objects such as "queries > request > 0" that would show, for example, how many results are found on the image search, which search terms have been processed, and how many data objects were returned (See Figure 8.8). In the sample code, we start with only the top 10 search items, but you can configure the parameter `startIndex` to get the last 10 images out of 110 million. Furthermore, you can find the data for each specific image returned in the form of an array, such as the title, and the corresponding snippet of the page content under `items` in the JSON file.
 
 ![google3](ch8_7a.png){: .medium}
-:   *Figure 8.7: Web API data structure II*
+:   *Figure 8.8: Web API data structure II*
 
 We can now summarize the general process of working with web APIs and getting data from an online platform:
 
@@ -237,30 +240,30 @@ Given our specific example *nag* and the sample code, we want to also reflect on
 
 ## Exercise in class
 ![api](ch8_5.png){: .medium}
-:   *Figure 8.8: The API request and response logic*
+:   *Figure 8.9: The API request and response logic*
 
-1. Referring to Figure 8.8, can you recap what has been requested and received through the web API? (Or, more conceptually, which forms of control and exchange are performed?)
+1. Referring to Figure 8.9, can you recap what has been requested and received through the web API? (Or, more conceptually, which forms of control and exchange are performed?)
 
 2. Change your own query strings. The current keywords are "warhol flowers," but note that the program doesn't understand spaces between characters and therefore the keywords need to be written as "warhol+flowers."
 
 3. Refer back to the section on APIs above, examine the search filtering rules with [different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters)[^setting] to get a sense of the categorization of images, such as the parameter of "image color type". The URL parameters are separated by an "&" symbol as follows: <https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers>.
 
-4. Study the JSON file to get an overview of data query, such as how many search returns and the query performance. Then modify the sketch to get other data such as the text showing in the web console.
+4. Study the JSON file to get an overview of data query, such as how many search returns and the query performance. Then modify the sketch to get other data such as the text showing in the web console beyond the image URL.
 
 </div>
 
 ## LoadPixels()
 ![sample](ch8_6.png){: .medium}
-:   *Figure 8.9: An illustration of how an image is made up of pixels*
+:   *Figure 8.10: An illustration of how an image is made up of pixels*
 
-For this sample sketch on an image file, only one color in the image will be selected and processed. This means that the program will randomly locate and pick any pixel from the image. The function `pixels` also analyzes and retrieves the color of the selected pixel, specifically the RGB color values that are used to draw the colored line on screen (see Figure 8.9 above as an illustration but in reality the pixel size is much smaller).
+For this sample sketch on an image file, only one color in the image will be selected and processed. This means that the program will randomly locate and pick any pixel from the image. The function `pixels` also analyzes and retrieves the color of the selected pixel, specifically the RGB color values that are used to draw the colored line on screen (see Figure 8.10 above as an illustration but in reality the pixel size is much smaller).
 
 The colored lines (see Figures 8.2 and 8.3) are not randomly drawn, but they are based on the x and y coordinates of the pixel selected, and each line is drawn along the whole y axes from that point. Apart from the position, the color of the line is based on the RGB values of the selected pixel as well. Combining both the position and the color leads to something like a color visualization of the image, an abstract painting unfolding over time.
 
 Each pixel selected contains color information that is the R (red), G (green), B (blue) and A (alpha) values. This is how the data is being stored in the pixels' one dimensional array:
 
 ![pixel](ch8_7.jpg){: .medium}
-:   *Figure 8.10: An illustration of the breakdown of each pixel by Integrated Digital Media, NYU. Image from https://idmnyu.github.io/p5.js-image/*[^nyu]
+:   *Figure 8.11: An illustration of the breakdown of each pixel by Integrated Digital Media, NYU. Image from https://idmnyu.github.io/p5.js-image/*[^nyu]
 
 `loc` is a variable for storing pixel information. Each pixel position needs to be clearly located so that a line can be drawn at the right position. Following the function `Pixels()`, each pixel takes up four locations: The first pixel with the four RGBA values, then the second pixel with another four RGBA values, and so on, and so forth:
 
@@ -279,14 +282,14 @@ function draw() {
 			if (!imgLoaded) {
 				noStroke();
 				fill(220);
-				rect(0,0,img.width+frameBorder*2,img.height+frameBorder*2);
-				image(img,frameBorder,frameBorder);
+				rect(0, 0, img.width+frameBorder*2, img.height+frameBorder*2);
+				image(img,frameBorder, frameBorder);
 				imgLoaded = true;
 			}else{
 				//draw lines
 				img.loadPixels();
-				img_x = floor(random(0,img.width));
-				img_y = floor(random(0,img.height));
+				img_x = floor(random(0, img.width));
+				img_y = floor(random(0, img.height));
 				/* The formula to locate the no: x+y*width, indicating a pixel
 				from the image on a grid (and each pixel array holds red, green, blue,
 				and alpha values), for more see here:
@@ -294,20 +297,20 @@ function draw() {
 				loc = (img_x+img_y * img.width)*4;
 				strokeWeight(0.7);
 				//rgb values
-				stroke(color(img.pixels[loc],img.pixels[loc + 1], img.pixels[loc+2]));
-				line(frameBorder+img_x,frameBorder+img_y,
-					frameBorder+img_x,frameBorder+img.height);
+				stroke(color(img.pixels[loc], img.pixels[loc + 1], img.pixels[loc+2]));
+				line(frameBorder+img_x, frameBorder+img_y,
+					frameBorder+img_x, frameBorder+img.height);
 			}
 			pop();
 		});
 	}
 }
 ```
-The logic in the `draw()` function is to draw the grey outer frame and load the image in the center by using the function `translate()`.
+The above code snippets is an excerpt of the parts about the color visualization. The logic in the `draw()` function is to draw the grey outer frame and load the image in the center by using the function `translate()`.
 
-The conditional structure `if (getImg){}` is used to allow sufficient time to load the JSON file and to be able to get the file path. Upon the successful loading of an image (with the function `loadImage()` and the corresponding callback function `img`), both the outer frame and the image are drawn on the canvas.
+The conditional structure `if (getImg){}` (see Line 2) is used to allow sufficient time to load the JSON file and to be able to get the file path. Upon the successful loading of an image (with the function `loadImage()` (see Line 3) and the corresponding callback function `img`), both the outer frame and the image are drawn on the canvas.
 
-The outer frame and the image are only drawn once with the update of the status `imgLoaded`. For each frame drawn, the program will analyze the image's pixels using the syntax `loadPixels()`, picking the random pixel, and getting the corresponding pixel's x and y coordinates (using the variables `img_x` and `img_y`). It then gets the RGB color values from the pixel selected using `pixels[]`, then draws the colored line with the syntax `strokeWeight()`, `stroke()` and `line()`.
+The outer frame and the image are only drawn once with the update of the status `imgLoaded` (see Line 8). For each frame drawn, the program will analyze the image's pixels using the syntax `loadPixels()` (see Line 16), picking the random pixel, and getting the corresponding pixel's x and y coordinates (using the variables `img_x` and `img_y`). It then gets the RGB color values from the selected pixel using `pixels[]`, then draws the colored line with the syntax `strokeWeight()`, `stroke()` and `line()` (see Lines 24-28).
 
 This section with the pixel and color elements shows how a computer processes and stores an image as data which is fundamentally different from how humans see and perceive it.[^eckhardt] It is also a way to demonstrate how an image object is being translated into numbers for computation, which is somewhat similar to the example of face tracking in Chapter 4, "Data capture," in which a pixel can be located at a scale beyond human perception. These examples may help you understand contemporary applications like tracking technology and even computer vision that employs machine learning techniques in which images function as training data (we return to this in Chapter 10, "Machine unlearning").
 
@@ -319,21 +322,17 @@ Paying close attention to errors/bugs is a vital part of learning to program as 
 
 Broadly speaking, there are three types of errors:
 
-* **Syntax errors** are problems with the syntax, also known as parsing errors. These errors — such as spelling errors or missing a closed bracket — tend to be easier to catch, and can be detected by a parser (in this case the browser).
+1. **Syntax errors** are problems with the syntax, also known as parsing errors. These errors — such as spelling errors or missing a closed bracket — tend to be easier to catch, and can be detected by a parser (in this case the browser).
 
-```
-SyntaxError: missing ) after argument list
-```
+> SyntaxError: missing ) after argument list
 
-* **Runtime errors** happen during the execution of a program while the syntax is correct.
+2. **Runtime errors** happen during the execution of a program while the syntax is correct.
 
 The web browser console is the place to understand these errors. Below shows two examples of runtime errors:
 
 If we remove the conditional checking `if (getImg){}` within the `draw()` function, the program cannot initially load the image as it takes some time to process the web API request. The error will keep on showing in the web console until the program successfully parses the image URL.
 
-```
-p5.js says: loadImage() was expecting String for parameter #0 (zero-based index), received an empty variable instead. If not intentional, this is often a problem with scope: [https://p5js.org/examples/data-variable-scope.html] at about:srcdoc:94:6.[https://github.com/processing/p5.js/wiki/Local-server] 	
-```
+> p5.js says: loadImage() was expecting String for parameter #0 (zero-based index), received an empty variable instead. If not intentional, this is often a problem with scope: [https://p5js.org/examples/data-variable-scope.html] at about:srcdoc:94:6.[https://github.com/processing/p5.js/wiki/Local-server] 	
 
 Wrong API key sent to the server. It is a more critial error because the program cannot extract the image and display it on the screen:
 
@@ -341,7 +340,7 @@ Wrong API key sent to the server. It is a more critial error because the program
 > p5.js says: It looks like there was a problem loading your json. Try checking if the file path is correct, or running a local server.
 ```
 
-* **Logical errors** are arguably the hardest errors to locate as they deal with logic not syntax. The code may still run perfectly, but the result is not what was expected. This indicates a discrepancy between what we think we asked the computer to do and how it actually processes the instructions.
+3. **Logical errors** are arguably the hardest errors to locate as they deal with logic not syntax. The code may still run perfectly, but the result is not what was expected. This indicates a discrepancy between what we think we asked the computer to do and how it actually processes the instructions.
 
 The web console is a good place to be notified of errors or test whether the code is running as we expected. When solving errors, it is important to identify exactly where they occur, i.e. which block or line of code contains the mistake by using `console.log()` (or `print()` in p5.js). Test and run the various parts of the program step by step, then try to identify the error types, and fix them accordingly.
 

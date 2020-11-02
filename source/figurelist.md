@@ -57,11 +57,12 @@
 * Figure 8.3: The manipulation of Warhol flowers
 * Figure 8.4: Google Custom Search interface
 * Figure 8.5: Google Custom Search interface - configuring search settings
-* Figure 8.6: Web API data structure I
-* Figure 8.7: Web API data structure II
-* Figure 8.8: The API request and response logic
-* Figure 8.9: An illustration of how an image is made up of pixels
-* Figure 8.10: An illustration of the breakdown of each pixel by Integrated Digital Media, NYU. Image from https://idmnyu.github.io/p5.js-image/
+* Figure 8.6: Snippets of Net Art Generator concerning the APIs
+* Figure 8.7: Web API data structure I
+* Figure 8.8: Web API data structure II
+* Figure 8.9: The API request and response logic
+* Figure 8.10: An illustration of how an image is made up of pixels
+* Figure 8.11: An illustration of the breakdown of each pixel by Integrated Digital Media, NYU. Image from https://idmnyu.github.io/p5.js-image/
 * Figure 9.1: The flowchart for Vocable Code by Winnie Soon, graphic design by Anders Visti
 * Figure 9.2: Paolo Cirio, Alessandro Ludovico, and UBERMORGENGWEI, Google Will Eat Itself / THE ATTACK (2005)
 * Figure 9.3: UBERMORGEN, The Project Formerly Known As Kindle Forkbomb (2013). Courtesy of the artists
