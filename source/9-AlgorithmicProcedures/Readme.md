@@ -17,24 +17,16 @@ In this chapter we will discuss some of these recipe-like algorithmic procedures
 
 ## start()
 
-In Chapter 3, "Infinite loops," we briefly introduced the computational diagram drafted by Ada Lovelace in 1842, often referred to as the world's first computer program.[^first] The published diagram and Lovelace's extensive notes demonstrate the sophisticated step-by-step operations required to solve mathematical problems. The instructions are designed to be automatically executed by a machine. As she put it, "I want to put something about Bernoulli’s numbers, in one of my Notes, as an example of how the implicit function may be worked out by the engine without human head & hands first. Give me the necessary formulae."[^ada2] The formulae are expanded into algorithmic procedures in the diagram.
+In Chapter 3, "Infinite loops," we briefly introduced the computational diagram drafted by Ada Lovelace in 1842, often referred to as the world's first computer program.[^first] (See Figure 3.2) The published diagram and Lovelace's extensive notes demonstrate the sophisticated step-by-step operations required to solve mathematical problems. The instructions are designed to be automatically executed by a machine. As she put it, "I want to put something about Bernoulli’s numbers, in one of my Notes, as an example of how the implicit function may be worked out by the engine without human head & hands first. Give me the necessary formulae."[^ada2] The formulae are expanded into algorithmic procedures in the diagram.
 
 In this chapter we will build on "diagramming," particularly the use of flowcharts to elaborate the practical and conceptual aspects of algorithmic procedures. Flowcharts, "Flow of the chart -> chart of the flow"[^constant], have been considered a fundamental explanatory tool since the early days of computer programming. One of their common uses is to illustrate computational operations and data processing for programming by "converting the numerical method into a series of steps."[^Ferranti] But flowcharts can also be considered to be representational diagrams which can also be used to communicate complex logic between programmers and others involved in software production. This is good practice of course, especially for beginners in a learning context, and is essential for communicating ideas in ways that can be easily understood by others. Indeed programming is not necessarily a solitary activity,[^stereotype] as we have discussed, and can be a social, and communicative practice that exposes relations between different entities exemplified by diagramming. Moreover most software applications are not developed by a single programmer but are organized into tasks that are tackled collaboratively by programmers, as for instance when maintaining or debugging a program made by someone else. Collaborative workflows lends themselves to flowcharts.
 
 ## Discussion in class
 
-- Can you give an everyday example (detailing the computational logic) of an algorithm that you have used or experienced?
-- Can you sketch an algorithmic procedure? For example, how your social media feeds are organized?
-- Based on the assigned reading from Taina Bucher, can you list some of the properties of algorithms? How are they both technical and social?
-- We discussed rule-based systems in Chapter 6, "Auto-generator," how does that differ from how we are now discussing procedurality in this chapter?
-
-<div class="section exercise" markdown="true">
-## Exercise in class
-
-Sorting is a common algorithm in digital culture, and recommendation lists on Spotify, Amazon, and Netflix, will be familiar to you. Think about the "algorithmic procedures" required to program something to solve the sorting task set below.[^program]
-
-Generate a list of 1,000 unique, random integers between two number ranges. Then implement a sorting algorithm and display them in ascending order. You are not allowed to use the existing `sort()` function in p5.js or JavaScript. How would you approach this problem? Draw the algorithm as a flowchart with the focus on procedures/steps, but not the actual syntax.
-</div>
+* Can you give an everyday example (detailing the computational logic) of an algorithm that you have used or experienced?
+* Can you sketch an algorithmic procedure? For example, how your social media feeds are organized?
+* Based on the assigned reading from Taina Bucher, can you list some of the properties of algorithms? How are they both technical and social?
+* We discussed rule-based systems in Chapter 6, "Auto-generator," how does that differ from how we are now discussing procedurality in this chapter?
 
 ## Flowcharts
 
@@ -61,6 +53,8 @@ Some of the challenges to turning an existing program into a flowchart include:
 <div class="section exercise" markdown="true">
 ## Exercise in class
 
+### Exercise 1
+
 Let's start with something that appears relatively simple, such as incorporating emojis and paying attention to the variable names. The program code below references *Multi* for emoticons (from Chapter 2, "Variable geometry") and *Vocable Code* for naming (from Chapter 7, "Vocable code") to print various multispecies emoticons, one after another, using a for-loop in the web browser console. The task is to draw a flowchart based on this program:
 
 ```javascript
@@ -79,6 +73,12 @@ function setup() {
 ```
 
 Our previous use of this exercise in a classroom setting[^ex] resulted in different drawings being produced and they became a resource for discussion around the multiple purposes and meanings of flowcharts.[^Ensmenger]
+
+### Exercise 2
+
+Sorting is a common algorithm in digital culture, and recommendation lists on Spotify, Amazon, and Netflix, will be familiar to you. Think about the "algorithmic procedures" required to program something to solve the sorting task set below.[^program]
+
+Generate a list of x (for example, x = 1,000) unique, random integers between two number ranges. Then implement a sorting algorithm and display them in ascending order. You are not allowed to use the existing `sort()` function in p5.js or JavaScript. How would you approach this problem? Draw the algorithm as a flowchart with the focus on procedures/steps, but not the actual syntax.
 </div>
 
 ## Flowcharts as an artistic medium
@@ -190,7 +190,7 @@ Group:
 
 [^Guattari]: In Guattari's terms, "the diagram is conceived as an autopoetic machine which not only gives it a functional and material consistency, but requires it to deploy its diverse registers of alterity, freeing it from an identity locked into simple structural relations." Félix Guattari, "Machinic Heterogenesis," *Chaosmosis: An Ethico-Aesthetic Paradigm* (Bloomington, IN: Indiana University Press, 1995), 44. "Freeing" here applies to escaping a pre-determined "diagrammatic order" imposed on the machine — algorithmically perhaps.
 
-[^ex]: You can find an illustration of the simple program at <https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/blob/master/source/9-AlgorithmicProcedures/emoji_flowchart.svg>.
+[^ex]: You can find an illustrative flowchart of the simple program at <https://gitlab.com/aesthetic-programming/book/-/blob/master/source/9-AlgorithmicProcedures/emoji_flowchart.svg>.
 
 [^Ensmenger]: Ensmenger, "The Multiple Meanings of a Flowchart," 324 & 346.
 

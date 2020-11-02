@@ -156,9 +156,10 @@ page_order: -3
   - setup()
   - start()
   - Discussion in class
-  - Exercise in class
   - Flowcharts
   - Exercise in class
+    - Exercise 1
+    - Exercise 2
   - Flowcharts as an artistic medium
   - While()
   - MiniX: Flowcharts

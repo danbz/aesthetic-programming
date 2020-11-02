@@ -403,7 +403,8 @@ node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
     DiC9 [label="Discussion in class"]
     EiC9 [label="Exercise in class"]
     FC9 [label="Flowcharts"]
-    EiC99 [label="Exercise in class"]
+    EiC19 [label="Exercise 1"]
+		EiC29 [label="Exercise 2"]
     AM9 [label="Flowcharts as an artistic medium"]
     MW9 [label="While()"]
     MX9 [label="MiniX: \nFlowcharts"]
@@ -413,12 +414,14 @@ node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
 
     //rank
     {rank = same; RR9, SU9}
+		{rank = same; MW9, Notes9}
 
     //graph
     SU9 -> ST9;
-    ST9 -> DiC9 -> EiC9;
+    ST9 -> DiC9 -> FC9;
     ST9 -> FC9 ;
-    FC9 -> EiC99 -> AM9;
+    FC9 -> EiC9 -> EiC19 -> EiC29;
+		EiC9 -> AM9 -> MW9;
     MW9 -> Notes9;
     MW9 -> FC9[dir=both]
     SU9 -> MW9 [dir=both];
