@@ -471,3 +471,5 @@ This is a relatively complex exercise that requires you to:
 [^edison]: The term "bug" was coined by Thomas Edison in 1873 and it was used to describe a technical problem, like a fault in the connections of an electric apparatus. See Alexander Magoun and Paul Israel, "Did You Know? Edison Coined the Term 'Bug'," *IEEE Spectrum* (August 1, 2013), <https://spectrum.ieee.org/the-institute/ieee-history/did-you-know-edison-coined-the-term-bug>.
 
 [^hopper]: The log book has been archived at the National Museum of American History, <https://americanhistory.si.edu/collections/search/object/nmah_334663>.
+
+[^w3c]: See <https://w3c.github.io/webappsec-cors-for-developers/>.
