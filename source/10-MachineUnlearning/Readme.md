@@ -30,7 +30,7 @@ Appropriately, for the last chapter of our book, many of the critical-technical 
 Let's start with a closer examination of and reflection on the ELIZA chatbot by using the test application produced by Norbert Landsteiner in 2005:
 
 ![10_2](ch10_5.png){: .medium}
-:   *Figure 10.2: A screenshot of the ELIZA Terminal (2005) on a web browser, implemented by Norbert Landsteiner*
+:   *Figure 10.2: A screenshot of the ELIZA Terminal (2005) on a web browser, implemented by Norbert Landsteiner. Courtesy of the designer*
 
 Tasks:
 
