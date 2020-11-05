@@ -69,7 +69,7 @@
 * Figure 9.4: UBERMORGEN, The Project Formerly Known As Kindle Forkbomb (2013), mixed media installation, part of the group exhibition "Systemics #2: As we may think (or, the next world library)," curated by Joasia Krysa, Kunsthal Aarhus (September 21 – December 31 2013). Courtesy of the artists and Kunsthal Aarhus
 * Figure 9.5: Dean Kenning, Jackson 5 Flowchart (2017) A4. Marker pen on paper. Courtesy of the artist
 * Figure 10.1: The basic flowchart of keyword detection in ELIZA (1966) by Joseph Weizenbaum
-* Figure 10.2: A screenshot of the ELIZA Terminal (2005) on a web browser, implemented by Norbert Landsteiner*
+* Figure 10.2: A screenshot of the ELIZA Terminal (2005) on a web browser, implemented by Norbert Landsteiner. Courtesy of the designer*
 * Figure 10.3: The Teachable Machine (Version 1) interface
 * Figure 10.4: The categorization of "cock" in Exhibiting ImageNet (2019) by Nicolas Malevé. Courtesy of the artist
 * Figure 10.5: An illustration of Unsupervised Learning with K-means clustering. Image from Wikimedia Commons
