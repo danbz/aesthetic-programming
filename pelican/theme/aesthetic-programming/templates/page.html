@@ -69,6 +69,12 @@
     <script type="text/javascript" charset="utf-8" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/activateCodeblocks.js"></script>
     <!--<script type="text/javascript" charset="utf-8" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/createIndex.js"></script>-->
     <script async type="text/javascript" charset="utf-8" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/paged.polyfill.js"></script>
+
+    <script type="text/javascript" charset="utf-8">
+        div = document.querySelectorAll(".footnote")[0];
+        h2 = document.querySelector("#notes");
+        div.prepend(h2);
+    </script>
 </body>
 </html>
 

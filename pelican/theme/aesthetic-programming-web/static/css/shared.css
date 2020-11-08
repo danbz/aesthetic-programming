@@ -396,18 +396,18 @@ div.footnote {
 }
 
 div.footnote hr {
-display: none;
+    display: none;
 }
 
 div.footnote ol {
-column-count: 2;
-column-gap: 3em;
-border: 0;
-padding-left: 1em;
+    column-count: 2;
+    column-gap: 3em;
+    border: 0;
+    padding-left: 1em;
 }
 
 div.footnote p {
-    padding-bottom: 0.65em;
+    padding-bottom: calc(var(--line-height) / 2);
 }
 
 div.footnote a {

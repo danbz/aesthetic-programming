@@ -136,20 +136,22 @@ hr {
     break-after: page;
 }
 
-div.footnote {
-    font-size: 7pt;
-    line-height: 8pt;
-}
-
 h2#notes{
     break-before: page;
+    margin-top: calc(-1 * var(--line-height)) !important;
+}
+
+h2#notes + hr {
+    break-after: avoid !important;
 }
 
 div.footnote ol {
+    font-size: 9px;
+    line-height: 13px;
     margin: 0;
+    margin-top: var(--line-height);
     padding: 0;
     column-count: 3;
-    break-before: avoid;
 }
 
 img {
