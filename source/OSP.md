@@ -1,3 +1,6 @@
+Title: OSP
+page_order: -2
+
 ## OSP
 Open Source Publishing questions the influence and affordance of digital
 tools through its practice of (commissioned) graphic design, pedagogy,
@@ -31,7 +34,7 @@ family drawn by A.V. Hershey in the 1960s and were developed specifically
 for vector plotters. Limited by the technical limitations of these
 plotters, curves are segmented into small, straight lines. Furthermore, as
 vector plotters draw using a single line width, varying line thickness
-are simulated by placing lines close to each other. The specific
+is simulated by placing lines close to each other. The specific
 variants displayed in the book were reinterpreted with Metafont. The
 body fonts are from the Hershey Noailles family, interpreted by Antoine
 Gelgon, transforming the segmented curves into real curves. The Hershey

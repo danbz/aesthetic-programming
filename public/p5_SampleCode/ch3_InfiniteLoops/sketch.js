@@ -19,12 +19,12 @@ as the push/pop function will restore the previous fill color state.
 
 let xDim = 1000;  //canvas size-width
 let yDim = 600;   //canvas size-height
-let timer=0;
-let speed=100;  //the speed of rotating , default 100
+let timer = 0;
+let speed = 100;  //the speed of rotating , default 100
 let maxSentences = 77;  //original: 77
 let sentences = 0;
-let xPos = [1,2,3,4,5]; //original: 8 columns
-let yPos = [1,2,3,4]; //original: 5 rows
+let xPos = [1, 2, 3, 4, 5]; //original: 8 columns
+let yPos = [1, 2, 3, 4]; //original: 5 rows
 let xCtr = 0;
 let yCtr = 0;
 let waitTime = 10000;
@@ -38,19 +38,19 @@ function setup(){
   background(240);
   /*calculate the x-position of each asterisk as
   an array (xPos[]) that starts with an array index[0]*/
-  for(let i=0; i<xPos.length; i++) {
+  for(let i=0; i <xPos.length; i++) {
     xPos[i] = xPos[i] * (xDim / (xPos.length+1));
   }
   /*calculate the y-position of each asterisk as
   an array (ypos[]) that starts with an array index[0]*/
-  for(let i=0; i<yPos.length; i++) {
+  for(let i=0; i <yPos.length; i++) {
     yPos[i] = yPos[i] * (yDim / (yPos.length+1));
   }
   fill(0);  //counter color at the bottom left
   textAlign(LEFT, CENTER);
   text(itr, 10, yDim-30); //display counter
   fillColor = color(
-    floor(random(0,255)),floor(random(0,255)),floor(random(0,255))
+    floor(random(0, 255)),floor(random(0, 255)),floor(random(0, 255))
   );
 }
 

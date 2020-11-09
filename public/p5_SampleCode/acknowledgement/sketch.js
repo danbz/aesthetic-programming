@@ -1,5 +1,4 @@
 //open the web browser console
-//open the web browser console
 let thankYou = [
 "Each other - for an excellent collaboration",
 "Loren Britton - for copyediting, and helpful critical comments",
@@ -11,8 +10,9 @@ let thankYou = [
 support of publishing in experimental form",
 "Open Source Publishing, Stéphanie Vilayphiou and Gijs de Heij - \
 for design and workshopping",
-"p5.js community - for the contribution of promoting coding and \
+"p5.js & ml5.js community - for the contribution of promoting coding and \
 visual literacy via open source tools and documentation",
+"Audun M. Øygard - for providing the open source face tracker library",
 "Magda Tyżlik-Carver and Christian Ulrik Andersen - for teaching \
 Software Studies course in parallel to Aesthetic Programming, as well as \
 their critical comments on the draft",
@@ -28,7 +28,8 @@ programming class across levels",
 hosting one of us in order to complete the book \
 at Goldsmiths, University of London",
 "Anders Visti - for the suggestion to include the example of \
-Langton's Ant, help on the live-coding interface of Vocable Code \ and many other small details",
+Langton's Ant, help on the live-coding interface of Vocable Code \
+and many other small details",
 "Joan Truckenbrod - for providing earlier works and discussing her work",
 "Ben Grosser - for providing information and discussing his work",
 "Joana Chicau and Jonathan Reus - for the excellent workshop \
@@ -39,6 +40,7 @@ conducted at Aarhus University",
 "Nicolas Malevé - for his inspirational work",
 "Cornelia Sollfrank - for the ongoing dialogues with her \
 inspirational work",
+"Norbert Landsteiner - for permission to use ELIZA Terminal and ELIZA Test",
 "Daniel Shiffman - for the excellent online instructional videos",
 "Anyone else we might have forgotten, sorry"
 ];

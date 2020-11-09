@@ -3,9 +3,10 @@ page_order: 13
 
 **List of Projects (artworks, software, exhibitions)**
 
-Showcase of students projects can be found at <https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/blob/master/source/showcase.md>.
+Showcase of students projects can be found at <https://gitlab.com/aesthetic-programming/book/-/blob/master/source/showcase.md>.
 
 <div class="long-list" markdown=true>
+
 - “A hackable text editor for the 21st Century.” Atom. <https://atom.io/>.
 - “atom-live-server-package.” Atom. <https://atom.io/packages/atom-live-server>.
 - Bell, John P. *Asterisk Painting*. n.d. <http://www.johnpbell.com/asterisk-painting/>.
@@ -49,8 +50,8 @@ Showcase of students projects can be found at <https://gitlab.com/siusoon/Aesthe
 - Kearney-Volpe, Claire. “p5.js access project.” <https://www.clairekv.com/p5js-ux-research>.
 - Knowles, Alison, and James Tenney. *A House of Dust*. 1967. Re-implemented by Nick Montfort. *For Memory Slam*. 2014. <https://nickm.com/memslam/a_house_of_dust.html>.
 - Laczko, Juli. *webmachines*, Digital Power, ACM SIGGRAPH, 2020. <https://digital-power.siggraph.org/piece/webmachine/>.
-- Landsteiner, Norbert. *elizabot.js*. 2005. <https://www.masswerk.at/elizabot/>.
-- ———. *E.L.I.Z.A Talking*. 2013. <https://www.masswerk.at/eliza/>.
+- Landsteiner, Norbert. *ELIZA Terminal*. 2005. <https://www.masswerk.at/elizabot/eliza.html>.
+- ———. *Eliza Test*. 2005. <https://www.masswerk.at/elizabot/eliza_test.html>.
 - Li, Fei-Fei, Jia Deng, Olga Russakovsky, Alex Berg, Kai Li. *ImageNet*. Last updated 2016. <http://image-net.org/>.
 - Link, David. *Love Letters_1.0: MUC=Resurrection. A Memorial*. 2009. Exhibited dOCUMENTA(13), Kassel, 2012. <http://www.alpha60.de/art/love_letters/>.
 - Lorusso, Silvio. *The Best is Yet to Come*. 2012. <https://silviolorusso.com/work/the-best-is-yet-to-come/>.
@@ -90,6 +91,7 @@ Showcase of students projects can be found at <https://gitlab.com/siusoon/Aesthe
 - ———. *Throb*. Last updated April 11, 2019. <http://siusoon.net/throb/>.
 - ———. *Vocable Code (Education/live coding version)*. Last updated May 5, 2020. <https://dobbeltdagger.net/VocableCode_Educational/>.
 - Støg, Use All Five, and PAIR teams. *Teachable Machine 1.0*. 2017. <https://teachablemachine.withgoogle.com/v1/>.
+- Surma, Greg. *Text Predictor*. 2018. <https://github.com/gsurma/text_predictor>.
 - Temkin, Daniel. *esoteric.codes*. 2011. <https://esoteric.codes/>.
 - "The first single application for the entire DevOps lifecycle - GitLab | GitLab." GitLab. <https://about.gitlab.com/>.
 - Truckenbrod, Joan. *Coded Algorithmic Drawing Series*. Digital Photographic Layered Textiles, 2001. <https://joantruckenbrod.com/gallery/#(grid|filter)=.coded>.
@@ -101,5 +103,5 @@ Showcase of students projects can be found at <https://gitlab.com/siusoon/Aesthe
 - Witt, Sol Le. *Wall Drawing #289*. 1976.
 - “Wordnet: A Lexical Database for English.” Princeton University. <https://wordnet.princeton.edu/>.
 - Žilák, Martin. "recursive fractal tree in p5.js." n.d. <https://editor.p5js.org/marynotari/sketches/BJVsL5ylz>.
-</div>
 
+</div>

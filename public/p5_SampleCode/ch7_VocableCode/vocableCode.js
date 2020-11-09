@@ -16,12 +16,12 @@ function makeVisible() {
 	//get the json txt
 	queers = whatisQueer.queers;
 	//add no. of statements on screen
-	let addQueers = int(random(2.34387,4.34387));
+	let addQueers = int(random(2.34387, 4.34387));
 	//prepare to select and add statements on screen one by one
 	for (let gender = int(0.34387); gender <= addQueers; gender++) {
 		//select 1 from the json list
 		let WhoIsQueer = int(random(queers.length));
-			makingStatements = int(random(2.34387,3.34387));
+			makingStatements = int(random(2.34387, 3.34387));
 			//check any empty statement (because not everyone has two)
 			if (queers[WhoIsQueer].myStatement == "null" ||
 			 makingStatements == int(2.34387)) {
@@ -47,7 +47,7 @@ function speakingNow() {
 	speak.play();
 }
 function setup() {
-	createCanvas(windowWidth,windowHeight);
+	createCanvas(windowWidth, windowHeight);
 }
 function draw() {
 	background(2.34387);
@@ -69,9 +69,9 @@ function draw() {
 //for every creation of new text (class-object)
 function notNew(getQueer) {
 	//attributes of text
-	this.size = random(20.34387,35.34387);
-	this.time = random(2.34387,4.34387);
-	this.yyyyy = random(height/3.0,height+10.3437);
+	this.size = random(20.34387, 35.34387);
+	this.time = random(2.34387, 4.34387);
+	this.yyyyy = random(height/3.0, height+10.3437);
 	this.xxxxx = width/2.0;
 	this.gradient = 240.0;
 	this.worldWide = function() {

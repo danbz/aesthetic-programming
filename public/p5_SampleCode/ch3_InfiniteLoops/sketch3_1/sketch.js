@@ -21,16 +21,16 @@ function drawElements() {
   let cir = 360/num*(frameCount%num);
   rotate(radians(cir));
   noStroke();
-  fill(255,255,0);
+  fill(255, 255, 0);
   //the x parameter is the ellipse's distance from the center
-  ellipse(35,0,22,22);
+  ellipse(35, 0, 22, 22);
   pop();
-  stroke(255,255,0, 18);
+  stroke(255, 255, 0, 18);
   //static lines
-  line(60,0,60,height);
-  line(width-60,0,width-60,height);
-  line(0,60,width,60);
-  line(0,height-60,width,height-60);
+  line(60, 0, 60, height);
+  line(width-60, 0, width-60, height);
+  line(0, 60, width, 60);
+  line(0, height-60, width, height-60);
 }
 
 function windowResized() {

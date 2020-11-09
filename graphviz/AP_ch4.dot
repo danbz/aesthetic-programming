@@ -18,7 +18,7 @@ DOM [label="DOM elements:\n creating and styling a button"]
 MC [label="Mouse capture"]
 KC [label="Keyboard capture"]
 AC [label="Audio capture"]
-FT [label="Face tracker"]
+FT [label="Video/Face capture"]
 EiC [label="Exercise in class"]
 CC [label="The concept of capture"]
 WA [label="Web analytics and heatmap"]
@@ -33,19 +33,24 @@ FR [label="Further reading"]
 Notes [label="Notes"]
 
 //rank
-{rank = same; MW, DOM, EiC}
-{rank = same; DE, RR}
+{rank = same; MX, SC}
+{rank = same; MW, EiC}
 
 //graph
 GS -> SU -> ST -> DE -> SC;
 SC -> DE;
-GS -> RR[dir=both, minlen=3];
+GS -> RR[dir=both];
 SU -> MW [dir=both];
 GS -> MX;
 RR -> MX, SU;
-SC -> DOM, MC, KC, AC, FT;
-DOM, MC, KC, AC, FT -> EiC -> CC;
-CC -> WA, FE, ML, VD, HT;
+SC -> DOM [minlen=2];
+SC -> MC, KC [minlen=3];
+SC -> AC, FT [minlen=4];
+DOM -> EiC;
+MC, KC, AC, FT -> EiC ;
+EiC-> CC ;
+CC -> WA, FE [minlen=2];
+CC -> ML, VD, HT[minlen=3];
 ST, CC -> MW -> Notes;
 MW -> MX;
 RR -> FR;

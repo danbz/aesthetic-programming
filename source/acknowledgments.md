@@ -1,9 +1,9 @@
 Title: Acknowledgments
-page_order: 100
+page_order: -1
 sketch: p5_SampleCode/acknowledgement/sketch.js
 download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/acknowledgement
 
-[RunMe](https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/acknowledgement/)
+[RunMe](https://aesthetic-programming.gitlab.io/book/p5_SampleCode/acknowledgement/)
 
 ```javascript
 //open the web browser console
@@ -36,7 +36,8 @@ programming class across levels",
 hosting one of us in order to complete the book \
 at Goldsmiths, University of London",
 "Anders Visti - for the suggestion to include the example of \
-Langton's Ant, help on the live-coding interface of Vocable Code \ and many other small details",
+Langton's Ant, help on the live-coding interface of Vocable Code \
+and many other small details",
 "Joan Truckenbrod - for providing earlier works and discussing her work",
 "Ben Grosser - for providing information and discussing his work",
 "Joana Chicau and Jonathan Reus - for the excellent workshop \
@@ -47,6 +48,7 @@ conducted at Aarhus University",
 "Nicolas Malevé - for his inspirational work",
 "Cornelia Sollfrank - for the ongoing dialogues with her \
 inspirational work",
+"Norbert Landsteiner - for permission to use ELIZA Terminal and ELIZA Test",
 "Daniel Shiffman - for the excellent online instructional videos",
 "Anyone else we might have forgotten, sorry"
 ];

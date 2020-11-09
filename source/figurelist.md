@@ -12,11 +12,11 @@
 * Figure 1.12: Create a new project with the GitLab web interface
 * Figure 1.13: Manage directories/files using the GitLab web interface
 * Figure 1.14: The GitLab Web IDE
-* Figure 2.1: Multi by David Reinfurt. Courtesy of the artist
+* Figure 2.1: Multi by David Reinfurt. Courtesy of the designer
 * Figure 2.2: The screenshot of the remix of Multi
 * Figure 2.3: Simple exercise
-* Figure 3.1: Early alchemical illustration of ouroboros accompanied by the text ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist (10th Century). Image from Wikipedia.
-* Figure 3.2: Diagram for the computation by the Engine of the Numbers of Bernoulli, from "Note G" by Ada Lovelace
+* Figure 3.1: Early alchemical illustration of ouroboros accompanied by the text ἓν τὸ πᾶν ("The All is One") from the work of Cleopatra the Alchemist (10th Century). Image from Wikipedia
+* Figure 3.2: Diagram for the computation by the Engine of the Numbers of Bernoulli, from "Note G" by Ada Lovelace (1842).
 * Figure 3.3: The runme of sample code - sketch 3_1
 * Figure 3.4: Moving the coordinate system at canvas level, Image from processing.org
 * Figure 3.5: Asterisk Painting (2014) by John P. Bell. Courtesy of the artist
@@ -57,18 +57,19 @@
 * Figure 8.3: The manipulation of Warhol flowers
 * Figure 8.4: Google Custom Search interface
 * Figure 8.5: Google Custom Search interface - configuring search settings
-* Figure 8.6: Web API data structure I
-* Figure 8.7: Web API data structure II
-* Figure 8.8: The API request and response logic
-* Figure 8.9: An illustration of how an image is made up of pixels
-* Figure 8.10: An illustration of the breakdown of each pixel by Integrated Digital Media, NYU. Image from https://idmnyu.github.io/p5.js-image/
+* Figure 8.6: Snippets of Net Art Generator concerning the APIs
+* Figure 8.7: Web API data structure I
+* Figure 8.8: Web API data structure II
+* Figure 8.9: The API request and response logic
+* Figure 8.10: An illustration of how an image is made up of pixels
+* Figure 8.11: An illustration of the breakdown of each pixel by Integrated Digital Media, NYU. Image from https://idmnyu.github.io/p5.js-image/
 * Figure 9.1: The flowchart for Vocable Code by Winnie Soon, graphic design by Anders Visti
 * Figure 9.2: Paolo Cirio, Alessandro Ludovico, and UBERMORGENGWEI, Google Will Eat Itself / THE ATTACK (2005)
 * Figure 9.3: UBERMORGEN, The Project Formerly Known As Kindle Forkbomb (2013). Courtesy of the artists
 * Figure 9.4: UBERMORGEN, The Project Formerly Known As Kindle Forkbomb (2013), mixed media installation, part of the group exhibition "Systemics #2: As we may think (or, the next world library)," curated by Joasia Krysa, Kunsthal Aarhus (September 21 – December 31 2013). Courtesy of the artists and Kunsthal Aarhus
 * Figure 9.5: Dean Kenning, Jackson 5 Flowchart (2017) A4. Marker pen on paper. Courtesy of the artist
 * Figure 10.1: The basic flowchart of keyword detection in ELIZA (1966) by Joseph Weizenbaum
-* Figure 10.2:  ELIZA Talking (2013) by Norbert Landsteiner
+* Figure 10.2: A screenshot of the ELIZA Terminal (2005) on a web browser, implemented by Norbert Landsteiner. Courtesy of the designer*
 * Figure 10.3: The Teachable Machine (Version 1) interface
 * Figure 10.4: The categorization of "cock" in Exhibiting ImageNet (2019) by Nicolas Malevé. Courtesy of the artist
 * Figure 10.5: An illustration of Unsupervised Learning with K-means clustering. Image from Wikimedia Commons

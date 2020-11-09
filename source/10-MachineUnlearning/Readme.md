@@ -4,7 +4,7 @@ requirements: p5_SampleCode/ch10_MachineUnlearning/htmlGenerator.js
               p5_SampleCode/libraries/ml5.min.js
 sketch_base_url: p5_SampleCode/ch10_MachineUnlearning/
 sketch: p5_SampleCode/ch10_MachineUnlearning/sketch.js
-download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch10_MachineUnlearning
+download_sketch_link: https://gitlab.com/aesthetic-programming/book/-/archive/master/Book-master.zip?path=public/p5_SampleCode/ch10_MachineUnlearning
 
 ![flowchart](ch10_0.svg)
 
@@ -13,13 +13,13 @@ download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/ar
 ## setup()
 
 ![ch10_1](ch10_1.png)
-:   *Figure 10.1: Joseph Weizenbaum. 1966. ELIZA—a computer program for the study of natural language communication between man and machine. Commun. ACM 9, 1 (Jan. 1966), 36–45. Fig. 2. DOI:https://doi.org/10.1145/365153.365168*
+:   *Figure 10.1: Basic flow diagram of keyword detection of ELIZA by Joseph Weizenbaum (1966). Image copyright Communications of the ACM*[^acm]
 
 This chapter begins with a flowchart that describes how a chatbot works — both in terms of procedure and logic. We use this historical example to introduce this final chapter of the book which is on machine learning,[^pathmind] broadly defined as a collection of models, statistical methods and operational algorithms that are used to analyze experimental or observational data. Given the large volume of data being cleaned and mined, and its widespread application in everyday voice-controlled devices such as Apple's Siri or Amazon's Echo[^diagram] to more sinister applications in border control face recognition software, it is hardly surprising that machine learning has become big business.
 
-Machine learning is a term coined by Arthur Samuel in 1959 through his research at IBM on game development, with the ultimate goal to reduce or even eliminate the need for "detailed programming effort."[^samuel] The roots of how computers might begin to write their own programs lie in older discussions of artifical intelligence. Speculation as to whether computers could demonstrate credible responses to inputs is reflected in the relatively simple chatbot example that uses keywords to produce a "knowing" response, or follow up question. ELIZA was one of the first chatbots and was created by Joseph Weizenbaum at MIT between 1964 and 1966. It simulates a conversation between a Rogerian psychotherapist and their patient, prompting for user input, and then uses primitive "natural language processing"[^nlp] to transform this input — using a simple script based on keyword association and language patterns — into what seems to be a meaningful output, often in the form of a return question. Despite its apparent simplicity, it can be quite convincing (as you will experience later on).
+Machine learning is a term coined by Arthur Samuel in 1959 through his research at IBM on game development, with the ultimate goal to reduce or even eliminate the need for "detailed programming effort."[^samuel] The roots of how computers might begin to write their own programs lie in older discussions of artifical intelligence. Speculation as to whether computers could demonstrate credible responses to inputs is reflected in the relatively simple chatbot example that uses keywords to produce a "knowing" response, or follow up question. ELIZA was one of the first chatbots and was created by Joseph Weizenbaum at MIT between 1964 and 1966. It simulates a conversation between a Rogerian psychotherapist and their patient, prompting for user input, and then uses primitive "natural language processing"[^nlp] to transform this input — using a simple script based on keyword association and language patterns (see Figure 10.1) — into what seems to be a meaningful output, often in the form of a return question. Despite its apparent simplicity, it can be quite convincing (as you will experience later on).
 
-Conversations with ELIZA involve an "illusion"[^Weizenbaum] to make machines appear as if they were human entities. Evidently, ELIZA exploits our willingness to anthropomorphize technology, and what passes for intelligence, as not only is it able to maintain a seemingly relevant and personalized dialogue, but also, as Weizenbaum notes, "some subjects have been very hard to convince that ELIZA is not human."[^Weizenbaum2] Here we once again reference the Turing Test.[^Turing] Can a machine respond convincingly to an input with an output similar to a human's — or more precisely — can it mimic rational thinking? It's also interesting to note that ELIZA is named after Eliza Doolittle — from the George Bernard Shaw play *Pygmalion*[^Pygmalion] — which centers on a working class flower girl, and a patronizing bet by a professor of phonetics, that he can teach her gentility, and hence upward mobility through the British class system, through the acquisition of "proper speech" (as opposed to Cockney dialect, which interestingly is a rejection of upward mobility in its coded form).[^class] Perhaps the current technology of voice assistants operates on similar principles as they are able to not only process content but learn the style of human speech.
+Conversations with ELIZA involve an "illusion"[^Weizenbaum] to make machines appear as if they were human entities. Evidently, ELIZA exploits our willingness to anthropomorphize technology, and what passes for intelligence, as not only is it able to maintain a seemingly relevant and personalized dialogue, but also, as Weizenbaum notes, "some subjects have been very hard to convince that ELIZA is not human."[^Weizenbaum2] Here we once again reference the Turing Test.[^Turing] Can a machine respond convincingly to an input with an output similar to a human — or more precisely — can it mimic rational thinking? It's also interesting to note that ELIZA is named after Eliza Doolittle — from the George Bernard Shaw play *Pygmalion*[^Pygmalion] — which centers on a working class flower girl, and a patronizing bet by a professor of phonetics, that he can teach her gentility, and hence upward mobility through the British class system, through the acquisition of "proper speech" (as opposed to Cockney dialect, which interestingly is a rejection of upward mobility in its coded form).[^class] Perhaps the current technology of voice assistants operates on similar principles as they are able to not only process content but learn the style of human speech.
 
 In machine learning, it is commonly understood that the style is learnt from training datasets through techniques to process and analyze large amounts of (natural language) data. As such, machine learning techniques such as "style transfer" rely on a process of generalization in order to identify patterns. However, this "pattern recognition" is clearly not a neutral process as it involves the identification of input data, and the "discrimination" of information.[^clemens] It is clear that there is other kinds of discrimination in such processes, such as inherent stereotypes in voice assistants[^assistants] or in online translation tools,[^online] and other examples that might include the AI chatbot Tay that was regarded as racist,[^tay] or how facial recognition in Amazon software, and other smart systems demonstrate gender and racial bias.[^face] Understood this way, pattern recognition is not only about smoothing tasks and making accurate predictions in terms of technical operations but also political operations as it creates "subjects and subjection, knowledge, authority" as well as classification and categorization.[^hito]
 
@@ -27,15 +27,15 @@ Appropriately, for the last chapter of our book, many of the critical-technical 
 
 ## start()
 
-Let's start with a closer examination of and reflection on the ELIZA chatbot by using the test application produced by Norbert Landsteiner, between 2005 and 2013:
+Let's start with a closer examination of and reflection on the ELIZA chatbot by using the test application produced by Norbert Landsteiner in 2005:
 
 ![10_2](ch10_5.png){: .medium}
-:   *Figure 10.2:  E.L.I.Z.A. Talking (2013) by Norbert Landsteiner*
+:   *Figure 10.2: A screenshot of the ELIZA Terminal (2005) on a web browser, implemented by Norbert Landsteiner. Courtesy of the designer*
 
 Tasks:
 
-1. Visit the ELIZA Test by clicking the button "Next Step", <https://www.masswerk.at/elizabot/eliza_test.html> so you can see the original example given by Weizenbaum in his published article.[^Weizenbaum3]
-2. Then visit the work *E.L.I.Z.A. Talking* (2013) via the link <https://www.masswerk.at/eliza/>, and try to have your own conversation.[^bot]
+1. Visit the *ELIZA Test* (2005) by clicking the button "Next Step", <https://www.masswerk.at/elizabot/eliza_test.html> so you can see the original example given by Weizenbaum in his published article.[^Weizenbaum3]
+2. Then visit the work *ELIZA Terminal* (2005) via the link <https://www.masswerk.at/elizabot/eliza.html>, and try to have your own conversation.[^bot]
 3. Share your experience of the original conversation (by Weizenbaum) and your conversation with the chatbot:
     * How would you describe your experience of ELIZA (e.g. the use of language, style of conversation, and quality of social interaction)?
     * How would you assess the ability of technology such as this to capture and structure feelings, and experiences? What are the limitations?
@@ -56,12 +56,12 @@ This web application includes input, learning, and output. By capturing images v
 
 What to do:
 
-Prepare three set of gestures that can be captured by the web camera. Each gesture has to be repeatedly trained by long-pressing the colored "TRAIN" button, and this generates the machine learning model based on the captured images as input data (also called the "training dataset") (see Figure 10.2). This process is used to train a computer to recognize the specific gestures/images/poses so that when there is a new image input (a so-called "test dataset"), the learning/teachable machine can classify those gestures with various confidence levels, and then predict the corresponding output results. The three default output modes (GIF, Sound, Speech) can be further modified by searching for other sets of images, sounds and texts.
+Prepare three set of gestures that can be captured by the web camera. Each gesture has to be repeatedly trained by long-pressing the colored "TRAIN" button, and this generates the machine learning model based on the captured images as input data (also called the "training dataset") (see Figure 10.3). This process is used to train a computer to recognize the specific gestures/images/poses so that when there is a new image input (a so-called "test dataset"), the learning/teachable machine can classify those gestures with various confidence levels, and then predict the corresponding output results. The three default output modes (GIF, Sound, Speech) can be further modified by searching for other sets of images, sounds and texts.
 
 The simplest way to start is:
 
 1. Train the machine using three different sets of gestures/facial expressions, then observe the predictive results shown as various outputs.
-2. Test the boundaries of recognition or classification problems, such as having a different test dataset, or under different conditions such as variable lighting. What can, and cannot, be recognized?
+2. Test the boundaries of recognition or classification problems, such as having a different test dataset, or under different conditions such as variable lighting and distancewe. What can, and cannot, be recognized?
 3. What happens when you only use a few images? How does this amount of training input change the machine's predictions?
 
 This initial exercise aims to familiarize you with the three components of machine learning: input, learning and output, as well as to explore the relation between data and these components. Furthermore, this execise sets the stage for thinking about the ways in which machines learn from data, identify patterns, make decisions, and predictions.
@@ -101,58 +101,53 @@ Given the limitations of time and space, and in line with the book thus far, thi
 
 Working towards the final chapter, "Afterword: Recurrent Imaginaries" — which can be likened to positive reinforcement for having finished your learning so far — we have appropriated an example from ml5.js: `CharRNN_Text`. Instead of using the pre-trained model provided by ml5.js that was trained using the literary works of Virginia Woolf, we offer another pre-trained model[^training] based all the chapters of this book. In this way our final example learns from previous chapters and generates a new text based on the generalized style of the others. Of course there is a process of reduction here that exemplifies some of the political issues we have raised before with regard to knowledge production.[^issues]
 
-The training process uses a "Recurrent Neural Network" (RNN) and "Long Short Term Memory" (LSTM) that analyze and model sequential data, character by character. Both are useful in terms of character-by-character training because the order, and context of the text are both important to generate sentences that make sense to human readers (this is related to the field of "natural language processing"). This recurrent type of neural network can capture long-term dependencies in a corpus in order to make sense of the text pattern through many iterations of the training process, using markdowns in the form of characters and symbols from each chapter as raw data. What we end up with more or less makes sense, in its processing of text, but also source code, image links, captions, and so on, but most importantly it provides an insight into how a machine learns from our book in contrast to what you might have learnt. Here we return to one of the main objectives for the book i.e. exploring some of the similarities and differences between human, and machine reading and writing: what we refer to as aesthetic programming.
+The training process uses a "Recurrent Neural Network" (RNN) and "Long Short Term Memory" (LSTM) that analyze and model sequential data, character by character. Both are useful in terms of character-by-character training because the order, and context of the text are both important to generate sentences that make sense to human readers (this is related to the field of "natural language processing"). This recurrent type of neural network can capture long-term dependencies in a corpus in order to make sense of the text pattern through many iterations of the training process, using markdowns in the form of characters and symbols from each chapter as raw data. What we end up with more or less makes sense, in its processing of text, but also source code, image links, captions, and so on, but most importantly with the machine generated text in the next bonus chapter it provides an insight into how a machine learns from our book in contrast to what you might have learnt[^rnn]. Here we return to one of the main objectives for the book, i.e. exploring some of the similarities and differences between human, and machine reading and writing: what we refer to as aesthetic programming.
 
 ![ch10_7](ch10_6.png)
 :   *Figure 10.8: Auto Chapter Generator*
 
-RunMe: <https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch10_MachineUnlearning/>
+RunMe, <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch10_MachineUnlearning/>
 
 ## Source code
 
+JavaScript:
+
 ```javascript
+//small modification from the source:
+//https://learn.ml5js.org/#/reference/charrnn
+
 let charRNN;
 let textInput;
 let lengthSlider;
 let tempSlider;
 let button;
 let runningInference = false;
-let status;
-let lengthText;
-let temperatureText;
-let resultText;
 
 function setup() {
-
+  noCanvas();
   // Create the LSTM Generator passing it the model directory
   charRNN = ml5.charRNN('./models/AP_book/', modelReady);
 
   // Grab the DOM elements
-  textInput = document.querySelector('#textInput');
-  lengthSlider = document.querySelector('#lenSlider');
-  tempSlider = document.querySelector('#tempSlider');
-  button = document.querySelector('#generate');
-  lengthText = document.querySelector('#length');
-  temperatureText = document.querySelector('#temperature');
-  status = document.querySelector('#status')
-  resultText = document.querySelector('#result')
+  textInput = select('#textInput');
+  lengthSlider = select('#lenSlider');
+  tempSlider = select('#tempSlider');
+  button = select('#generate');
 
   // DOM element events
-  button.addEventListener('click', generate);
-  lengthSlider.addEventListener('change',updateSliders);
-  tempSlider.addEventListener('change',updateSliders);
+  button.mousePressed(generate);
+  lengthSlider.input(updateSliders);
+  tempSlider.input(updateSliders);
 }
-
-setup();
 
 // Update the slider values
 function updateSliders() {
-  lengthText.innerHTML = lengthSlider.value;
-  temperatureText.innerHTML = tempSlider.value;
+  select('#length').html(lengthSlider.value());
+  select('#temperature').html(tempSlider.value());
 }
 
 function modelReady() {
-  status.innerHTML = 'Model Loaded';
+  select('#status').html('Model Loaded');
 }
 
 // Generate new text
@@ -162,17 +157,18 @@ function generate() {
     runningInference = true;
 
     // Update the status log
-    status.innerHTML = 'Generating...';
+    select('#status').html('Generating...');
 
     // Grab the original text
-    let txt = textInput.value + " ";
+    let txt = textInput.value();
     // Check if there's something to send
     if (txt.length > 0) {
+      // Thi is what the LSTM generator needs
       // Seed text, temperature, length to outputs
       let data = {
         seed: txt,
-        temperature: tempSlider.value,
-        length: lengthSlider.value
+        temperature: tempSlider.value(),
+        length: lengthSlider.value()
       };
 
       // Generate text with the charRNN
@@ -183,8 +179,8 @@ function generate() {
         if (err) {
           console.log("error: " + err);
         }else{
-          status.innerHTML = 'Ready!';
-          resultText.innerHTML = txt + result.sample;
+          select('#status').html('Ready!');
+          select('#result').html(txt + result.sample);
           runningInference = false;
         }
       }
@@ -193,13 +189,17 @@ function generate() {
 }
 ```
 
+HTML:
+
 ```html
 <html>
 <head>
   <meta charset="UTF-8">
   <title>Auto Chapter Generator</title>
-  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"
   type="text/javascript"></script>
+  <script language="javascript" type="text/javascript"
+  src="../libraries/p5.js"></script>
   <style>
     body {background-color: white;font-family:"Lucida Console", Monaco,
     monospace;font-size:12;color:grey;}
@@ -235,13 +235,14 @@ function generate() {
 
 **index.html**
 
-To load the ml5.js library as part of the overall sketch, you need the following line in your index.html, just like importing other libraries as discussed in Chapter 4, "Data capture," with the clmtrackr library.
+To load the ml5.js library as part of the overall sketch, you need the following line in your index.html, just like importing other libraries as discussed in Chapter 4, "Data capture," with the clmtrackr library. For this example, we are using ml5.js library - version 0.4.3.
+
 ```html
-<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"
 type="text/javascript"></script>
 ```
 
-Apart from the new ml5.js, the HTML file contains the following DOM elements:
+Apart from the new ml5.js, the HTML file contains the following DOM elements (see Figure 10.8) that can display the corresponding data, and interact with the user there. As such the sketch.js is mainly used to process the data from the DOM and form elements, and it is not used for canvas drawing (`noCanvas()` is used in Line 11 within the `function setup(){}`).
 
 1. **A text input box** for entering seed/input text. In this example, we have used "Afterword: Recurrent Imaginaries" as a sequence input to generate the next character, continuously forming a new seed sequence for next character prediction: `<input id="textInput" value="Afterword: Recurrent Imaginaries" size="30"/>`
 2. **A slider for selecting the number of generated characters** with a range from 100 to 2,000: `<input id="lenSlider" type="range" min="100" max="2000" value="1000"/>`
@@ -254,7 +255,7 @@ Apart from the new ml5.js, the HTML file contains the following DOM elements:
 
 The sketch loads the pre-trained model and generates text based on the collected data (the seed text, its length, and temperature value).
 
-The first step is to initialize and load the trained model into your sketch with the path `./model/AP_book/` by using the method `charRNN` from the ml5.js library. The callback function `modelReady` will be executed when the model is successfully loaded into the sketch and will change its status from "Loading Model" to "Model Loaded".
+The first step is to initialize and load the trained model into your sketch with the path `./model/AP_book/` by using the method `charRNN` from the ml5.js library. The callback function `modelReady` will be executed when the model is successfully loaded into the sketch and will change its status from "Loading Model" to "Model Loaded."
 
 ```javascript
 let charRNN;
@@ -265,15 +266,34 @@ function setup() {
 }
 ```
 
-The program collects data in the form of objects: the seed text (based on the text input), the length of the predictive text (based on the slider), as well as the temperature value (based on the other slider). These data objects are passed on to the charRNN's method: `charRNN.generate()` in order to process the seed text via the pre-trained model (with a callback function `gotdata()`). This `.generate()` method returns the text object `sample` as sample output. Theoretically, the predictive text will have learnt the style from all the chapters (if only crudely) and then generates the new text accordingly.
+The program collects data in the form of objects (using the `select` syntax to search for the HTML elements, especially the `input id` that have been defined in index.html): the seed text (based on the text input), the length of the predictive text (based on the slider), as well as the temperature value (based on the other slider).
+
+```javascript
+function setup() {
+...
+  // Grab the DOM elements
+  textInput = select('#textInput');
+  lengthSlider = select('#lenSlider');
+  tempSlider = select('#tempSlider');
+  button = select('#generate');
+
+  // DOM element events
+  button.mousePressed(generate);
+  lengthSlider.input(updateSliders);
+  tempSlider.input(updateSliders);
+...
+}
+```
+
+The key data required for the generator are the seed text, temperature, and length (the numbers of characters) for text generation. These data objects are passed on to the charRNN's method: `charRNN.generate()` in order to process the seed text via the pre-trained model (with a callback function `gotdata()`). This `.generate()` method returns the text object `sample` as sample output. Theoretically, the predictive text will have learnt the style from all the chapters (if only crudely) and then generates the new text accordingly.
 
 ```javascript
 function generate() {
 ...
     let data = {
         seed: txt,
-        temperature: tempSlider.value,
-        length: lengthSlider.value
+        temperature: tempSlider.value(),
+        length: lengthSlider.value()
     };
     charRNN.generate(data, gotData);
 ...
@@ -285,7 +305,7 @@ Finally, the result will be displayed on screen with the `gotData()` function. N
 ```javascript
 function gotData(err, result) {
 ...
-    resultText.innerHTML = txt + result.sample;
+    select('#result').html(txt + result.sample);
 ...
 }
 ```
@@ -293,8 +313,8 @@ function gotData(err, result) {
 <div class="section exercise" markdown="true">
 ## Exercise in class
 
-1. Work with the Auto Chapter Generator program and try to generate texts based on different length and temperature values.
-2. The example also links to the Chapter 5, "Auto-generator," in terms of agency, unpredictability, and generativity, but how does this chapter change our understanding of these terms given what we know about machine learning? What is learning in this context? What do machines teach us? And in the production of prediction, what does machine learning want?[^predict]
+1. Work with the *Auto Chapter Generator* program and try to generate texts based on different length and temperature values.
+2. The generative text example also links to the Chapter 5, "Auto-generator," in terms of agency, unpredictability, and generativity, but how does this chapter change our understanding of these terms given what we know about machine learning? What is learning in this context? What do machines teach us? And in the production of prediction, what does machine learning want?[^predict]
 </div>
 
 ## While()
@@ -307,7 +327,7 @@ The word "learning" is a pertinent example. By first defining machine learning a
 
 The example presents a reductive equivalence between human and machine vision. But our interest is more about what is implied about training, teaching, and learning in general. We are all involved in the process of teaching machines to look at images, and Malevé describes the enormous amounts of training that takes place when we use everyday devices such as smart phones and computers. His interest is not so much our complicity in these processes, but which pedagogical methods might be useful. What could we learn about learning from the dynamics of machine learning? In his words, how to "transform it and be transformed by it? Or, to formulate this in terms even closer to Fei-Fei Li's, how can we think productively about the fact that a generation of humans and algorithms are learning together to look at images?"[^pedagogy2] His intervention is to ask to what extent machine learning and radical pedagogy might learn from each other, moving beyond the oppressive subject-object relations to something in which learners can become more active participants in their own learning.[^radical] We need to learn how to learn.
 
-If visual literacy is no longer simply an educational task for humans, but also for machines, then it becomes a question of human-machine literacy in its broadest sense. In many ways, John Berger's *Ways of Seeing* continues to be a useful reference. Of course much has changed since Berger wrote that the "relation between what we see and what we know is never settled,"[^Berger] but given what we do know about machine learning, we might indeed ask how that relationship has been further unsettled.[^cox] That machines can be said to "see" or "learn" is shorthand for calculative practices that only approximate likely outcomes by using various algorithms and models. What constitutes knowledge can be seen to be arranged in ways that further recall Berger's reflections on the medium of television through which his ideas were broadcast:
+If visual literacy is no longer simply an educational task for humans, but also for machines, then it becomes a question of human-machine literacy in its broadest sense. In many ways, John Berger's *Ways of Seeing* continues to be a useful reference we think. Of course much has changed since Berger wrote that the "relation between what we see and what we know is never settled,"[^Berger] but given what we do know about machine learning, we might indeed ask how that relationship has been further unsettled.[^cox] That machines can be said to "see" or "learn" is shorthand for calculative practices that only approximate likely outcomes by using various algorithms and models. What constitutes knowledge can be seen to be arranged in ways that further recall Berger's reflections on the medium of television through which his ideas were broadcast:
 
 >"But remember that I am controlling and using for my own purposes the means of reproduction needed for these programmes [...] with this programme as with all programmes, you receive images and meanings which are arranged. I hope you will consider what I arrange but please remain skeptical of it."[^Berger2]
 
@@ -317,7 +337,7 @@ All these ideas provide starting points for further work and reflection.[^refs] 
 
 In beginning to think about computational operations in this way, as conceptual models or diagrams, we broadly follow on from what we have learnt thus far about machine learning through a process of generalization, prediction, and the generation of future possibilities. We use this last chapter as a way to point to future critical work to be undertaken and to reflect on machine learning as a set of methods that learn from data in parallel to our experience of learning through the practice of programming. As Agre puts it: "A critical technical practice will, at least for the foreseeable future, require a split identity — one foot planted in the craft work of design and the other foot planted in the reflexive work of critique."[^agre2] The challenge then is to work across and learn from both these modes, not as a split but queer identity, opening up ways of working fluidly across diverse contexts. In this regard, we consider critical technical practice to be a queer praxis, as we hope has been made clear throughout this book. Aesthetic programming in this way demonstrates some of the possible ways to further unsettle the binary split of theory and practice, thinking and doing, art and technology, humans and machines, and so on.
 
-All this deserves longer discussion that there simply isn't space for in these closing paragraphs. At the same time, the constraints allow us to point beyond this book — perhaps to another yet to be written — because if work processes are automated then our work as writers, editors, designers, programmers and teachers will be too. The underlying worry is that our decision-making, thinking, and creativity will be automated, and that our ability to determine our potential futures will become compromised by predictive algorithms.[^tang] It is the questioning the control and power of algorithms that we hope we have managed to provide some insight into here to assert some level of control over these processes. This is reflected by the subtitle of the "Afterward: Recurrent Imaginaries" in the next bonus chapter. Again we would add what we learn from machines in this respect.    
+All this deserves longer discussion that there simply isn't space for in these closing paragraphs. At the same time, the constraint allows us to point beyond this book — perhaps to another yet to be written — because if work processes are automated then our work as writers, editors, designers, programmers and teachers will be too. The underlying worry is that our decision-making, thinking, and creativity will be automated, and that our ability to determine our futures will become compromised by predictive algorithms.[^tang] It is this questioning of the power of algorithms that we hope we have managed to provide some insight into here, to assert some level of control over these processes, and to point to alternative outcomes and "recurrent imaginaries" (the subtitle of the following chapter).     
 
 This sense of future possibilities is also where we would say Mackenzie’s work is particularly valuable as he devotes attention to specific algorithms and data practices to understand the particularity of human-machine relations, and their transformations, and not least to emphasize the uncertainties and contingencies at work in these processes. In other words, machine learning is by no means simply deterministic (as we have seen in the exercises for this chapter) but is endlessly subject to revision and modification, and by its very nature is process-driven. It is also variably applied across disciplines and fields of practice, across open source platforms and communities of interest, endlessly transforming itself, and being transformed along the way.[^Learners3] This serves to demonstrate how there is more to a program than simply its source code. There is a whole range of recursive operations that render the various processes transformative in multiple ways.[^Learners4] The question becomes to what extent this different mode of coding for machine learning leads to a different mode of knowledge production, and transforms human-machine relations. When it comes to the book as a whole, which alternative knowledge and aesthetic practices emerge as a consequence?
 
@@ -326,18 +346,18 @@ This sense of future possibilities is also where we would say Mackenzie’s work
 
 Aesthetic programming is a critical-technical practice. It explores the practice of reading, writing, and building, as well as thinking with, and understanding the complex computational procedures that underwrite our experiences and realities. To address these intersections of practice we have worked with fundamental concepts of programming as the starting point for further reflection — considering the precision and ambiguity of technical vocabulary as well as specific computational practices — thereby laying the groundwork for further understanding of how cultural phenomena are constructed and operationalized.
 
-Drawing on the curriculum, including the various theoretical and conceptual texts, your task (as a group) is to conceptualize, design, implement, and articulate a computational artifact of your choice. We hope that, by now, it almost goes without saying that this should demonstrate your ability to integrate practical programming and conceptual skills to articulate, and develop critical-technical artifact that explores the aesthetics and politics of software.
+Drawing on the curriculum, including the various theoretical and conceptual texts, your task (as a group) is to conceptualize, design, implement, and articulate a computational artifact of your choice. We hope that, by now, it almost goes without saying that this should demonstrate your ability to integrate practical programming and conceptual skills to articulate, and develop a critical-technical artifact that explores the aesthetics and politics of software.
 
 Here are few tips may help you to come up with an idea for your project:
 
-* You may take another look at the themes that we have used for inspiration, including: literacy, variable geometry, infinite loops, data capture, object abstraction, vocable code, auto generator, que(e)ry data, algorithmic procedures, machine learning, as well as writing and coding, facial recognition, emojis, (micro)temporalities, capture all, interactivity, object orientation, rule-based systems, language and speech, expressivity, algorithmic literature, politics of data processing and learning, all underwritten by an attentiveness to a politics of race, class, and gender.
+* You may take another look at the themes that we have used for inspiration, including: literacy/getting started, variable geometry, infinite loops, data capture, auto-generator, object abstraction, vocable code, que(e)ry data, algorithmic procedures, machine learning, as well as writing and coding, facial recognition, emojis, (micro)temporalities, capture all/datafication, interactivity, rule-based systems, object orientation, language and speech, expressivity, algorithmic literature, politics of data processing and learning, all underwritten by an attentiveness to a politics of race, class, and gender.
 * Take a look again at all the previous mini exercises and the questions that were posed. Are there any that you want to explore further?
 * Are there any assigned/suggested texts that you are inspired by, and you want to explore further?
 * Are there any particular technical areas that you want to explore further?
 
 **RunMe:**
 
-Produce a software artifact written in p5.js (or a combination of HTML/CSS/JS/P5/node.js).
+Produce a software artifact written in p5.js (or a combination of HTML/CSS/JS/p5/ml5/node.js).
 
 Remember to include all external libraries and data/assets such as images, fonts, text files, sound file, etc. Furthermore, if you have borrowed other sample code or ideas, please cite your sources in the code comments.
 
@@ -350,7 +370,7 @@ The document should include a title, a screen shot, a flowchart, references, a l
 The ReadMe should address the following questions with the help of your source code, programming processes, and your selected readings:
 
 * What is your software about (provide a short description of what is it, how it works, and what it sets out to explore)?
-* How does your work address at least one of the themes and explore the intersections of technical, and cultural aspects of code?
+* How does your work address at least one of the themes and explore the intersections of technical and cultural aspects of code?
 * Open question: To what extent can the artifact be considered to be a critical work in and of itself?
 </div>
 
@@ -358,11 +378,11 @@ The ReadMe should address the following questions with the help of your source c
 
 * Ruha Benjamin, "Are Robots Racist: Reimagining the Default Settings of Technology and Society," lecture (2019), <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>.
 * Geoff Cox, "Ways of Machine Seeing," *Unthinking Photography* (2016), <https://unthinking.photography/articles/ways-of-machine-seeing>.
-* Yuval Noah Harari, Audrey Tang, and Puja Ohlhaver, "To be or not to be hacked? The Future of democracy, work, and identity," *RADICALxChange* (2020), <https://www.youtube.com/watch?v=tRVEY95cI0o>.
+* Yuval Noah Harari, Audrey Tang, and Puja Ohlhaver, "To Be or Not to Be Hacked? The Future of Democracy, Work, and Identity," *RADICALxChange* (2020), <https://www.youtube.com/watch?v=tRVEY95cI0o>.
 
 ## Further reading
 
-* Kate Crawford and Vladan Joler, "Anatomy of an AI System: The Amazon Echo as an anatomical map of human labor, data and planetary resources," AI Institute (2018), <https://anatomyof.ai/>.
+* Kate Crawford and Vladan Joler, "Anatomy of an AI System: The Amazon Echo as an Anatomical Map of Human Labor, Data and Planetary Resources," AI Institute (2018), <https://anatomyof.ai/>.
 * Shakir Mohamed, Marie-Therese Png, William Isaac, “Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence,” *Philosophy & Technology*, Springer, July 12 (2020), <https://doi.org/10.1007/s13347-020-00405-8>.
 * Adrian Mackenzie and Anna Munster, “Platform Seeing: Image Ensembles and Their Invisualities,” *Theory, Culture & Society* 26, no. 5 (2019): 3-22.
 * Daniel Shiffman, "Beginners Guide to Machine Learning in JavaScript," *The Coding Train*, <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y>
@@ -417,7 +437,7 @@ The ReadMe should address the following questions with the help of your source c
 
 [^michelle]: This exercise is inspired by Michelle Carney's article on "Using Teachable Machine in the d.school classroom," *Medium*, <https://medium.com/@michellecarney/using-teachable-machine-in-the-d-school-classroom-96be1ba6a4f9>.
 
-[^tm1]: Inspired originally by Rebecca Fiebrink's Wekinator (2009), which is a free and open source software on machine learning for artists and musicians, "Teachable Machine 1.0" (2017) as an experimental project by Støg, Use All Five and Creative Lab and PAIR teams at Google, built upon the free and open source tensorflow.js library, which is developed by the Google Brain team within Google’s AI organization, for preprocessing data, building machine learning models and structures. "Teachable Machine 2.0" allows users to train their models and export them for further use. See <http://www.wekinator.org/>.
+[^tm1]: Inspired originally by Rebecca Fiebrink's *Wekinator* (2009), which is a free and open source software on machine learning for artists and musicians, "Teachable Machine 1.0" (2017) as an experimental project by Støg, Use All Five and Creative Lab and PAIR teams at Google, built upon the free and open source tensorflow.js library, which is developed by the Google Brain team within Google’s AI organization, for preprocessing data, building machine learning models and structures. "Teachable Machine 2.0" allows users to train their models and export them for further use. See <http://www.wekinator.org/>.
 
 [^imagenet]: More information about ImageNet can be found at <http://image-net.org/about-overview>.
 
@@ -486,3 +506,7 @@ The ReadMe should address the following questions with the help of your source c
 [^Learners3]: Mackenzie, *Machine Learners*, 14.
 
 [^Learners4]: Mackenzie, *Machine Learners*, 27.
+
+[^rnn]: We have used the free and open source program *Text Predictor* developed by Greg Surma in Python to generate the following chapter as it takes better account of symbols, line breaks, and markdown syntax. See <https://github.com/gsurma/text_predictor>.
+
+[^acm]: Republished with permission of Communications of the ACM, from ELIZA—a Computer Program for the Study of Natural Language Communication between Man and Machine, Joseph Weizenbaum, 9, 1 and 1966 of copyright; permission conveyed through Copyright Clearance Center, Inc. A small amount of license fees have been paid for using the flowchart image in this book. We apologize for contributing to the paywall business model that violates our free and open access principles, but we have also considered the importance of Weizenbaum's work in computing history, and how this flowchart demonstrates the detailed logic of *Eliza*.

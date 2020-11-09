@@ -35,10 +35,10 @@
 }
 
 @page:first {
-    @top-right {
+    @top-left {
       content: "";
     }
-    @bottom-right {
+    @bottom-left {
       content: "";
     }
 }
@@ -58,7 +58,22 @@
 }
 
 
-@page:nth(3) {
+@page toc {
+    @top-right {
+      content: "";
+    }
+    @bottom-right {
+      content: "";
+    }
+}
+
+@page firstpage {
+    @top-left {
+      content: "";
+    }
+    @bottom-left {
+      content: "";
+    }
     @top-right {
       content: "";
     }
@@ -84,35 +99,59 @@ h1 {
 }
 
 h1 + p img {
-    break-after: right;
+    break-after: left;
 }
 
 .toc:before {
     content: "Contents";
 }
 .toc {
-    break-before: left;
+    /*break-before: left;*/
     break-after: right;
+    page: toc;
+}
+
+h2#setup:before {
+    content: "";
+    width: 14cm;
+    height: 1cm;
+    display: block;
+    position: absolute;
+    top: -2.25cm;
+    left: -0.5cm;
+    background-color: white;
+}
+h2#setup:after {
+    content: "";
+    width: 14cm;
+    height: 1cm;
+    display: block;
+    position: absolute;
+    top: 22cm;
+    left: -0.5cm;
+    background-color: white;
 }
 
 hr {
     break-after: page;
 }
 
-div.footnote {
-    font-size: 7pt;
-    line-height: 8pt;
-}
-
 h2#notes{
     break-before: page;
+    margin-top: calc(-1 * var(--line-height)) !important;
+}
+
+h2#notes + hr {
+    break-after: avoid !important;
 }
 
 div.footnote ol {
+    font-size: 9px;
+    line-height: 13px;
     margin: 0;
+    margin-top: var(--line-height);
     padding: 0;
     column-count: 3;
-    break-before: avoid;
 }
 
 img {

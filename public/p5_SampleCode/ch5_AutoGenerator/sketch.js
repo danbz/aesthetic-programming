@@ -17,20 +17,20 @@ let y = 0;
 let spacing = 10;
 
 function setup() {
-  createCanvas(windowWidth,windowHeight);
+  createCanvas(windowWidth, windowHeight);
   background(0);
 }
 
 function draw() {
   stroke(255);
-  if (random(1) <0.5) {  //probabilty
+  if (random(1) < 0.5) {  //probabilty
     //backward slash
     //line(0,0,10,10); //example of backward slash
-    line(x,y,x+spacing,y+spacing);
+    line(x, y, x+spacing, y+spacing);
   } else {
     //forward slash
     //line(0,10,10,0); //example of forward slash
-    line(x,y+spacing,x+spacing,y);
+    line(x, y+spacing, x+spacing, y);
   }
   x+=10;
   if (x > width) {

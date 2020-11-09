@@ -37,7 +37,7 @@ let offColor;
 let onColor;
 
 function setup() {
-  createCanvas(1000,700);
+  createCanvas(1000, 700);
   offColor = color(255);  //offcolor setting
   onColor = color(0); //onColor setting
   background(offColor);

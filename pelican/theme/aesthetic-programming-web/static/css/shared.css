@@ -130,6 +130,13 @@ p + p {
     padding-top: 0;
 }
 
+p + ol,
+p + ul {
+    margin-top: 0;
+}
+ul + h2 {
+    margin-top: calc(2 * var(--line-height));
+}
 
 ul, ol {
     padding: 0;
@@ -137,7 +144,7 @@ ul, ol {
     padding-left: calc(var(--line-height) /2);
     box-sizing: border-box;
     margin-top: var(--line-height);
-    /*margin-bottom: var(--line-height);*/
+    margin-bottom: var(--line-height);
 }
 ul ul,
 ul ol,
@@ -166,6 +173,11 @@ list-style-type: decimal;
 
 li {
     clear: both;
+}
+
+ul li {
+    text-indent: -10px;
+    margin-left: 10px;
 }
 
 li p {
@@ -304,6 +316,7 @@ padding: 0 1em;
 table {
     display: block;
     padding: var(--line-height) 0;
+    border-collapse: collapse;
 }
 
 thead {
@@ -318,8 +331,11 @@ tbody tr:first-child td {
     padding-top: 0.5em;
 }
 
+th,
 td {
-    width: 64%;
+    width: 32%;
+    border: 1px solid black;
+    padding: calc(0.5 * var(--line-height));
 }
 
 .section {
@@ -363,7 +379,7 @@ h2 + ul {
 div.exercise {
     outline: 4px double black;
     padding: 1.5em;
-    padding-bottom: 0;
+    /*padding-bottom: 0;*/
     margin-bottom: 3em;
     margin-top: 1.5em;
     border: 0;
@@ -380,18 +396,18 @@ div.footnote {
 }
 
 div.footnote hr {
-display: none;
+    display: none;
 }
 
 div.footnote ol {
-column-count: 2;
-column-gap: 3em;
-border: 0;
-padding-left: 1em;
+    column-count: 2;
+    column-gap: 3em;
+    border: 0;
+    padding-left: 1em;
 }
 
 div.footnote p {
-    padding-bottom: 0.65em;
+    padding-bottom: calc(var(--line-height) / 2);
 }
 
 div.footnote a {

@@ -15,7 +15,8 @@ ST [label="start()"]
 DiC [label="Discussion in class"]
 EiC [label="Exercise in class"]
 FC [label="Flowcharts"]
-EiC1 [label="Exercise in class"]
+EiC1 [label="Exercise 1"]
+EiC2 [label="Exercise 2"]
 AM [label="Flowcharts\nas an artistic medium"]
 MW [label="While()"]
 MX [label="MiniX: \nFlowcharts"]
@@ -25,13 +26,15 @@ Notes [label="Notes"]
 
 //rank
 {rank = same; RR, SU}
+{rank = same; MW, Notes}
 
 //graph
 GS -> SU -> ST;
 GS -> MX[minlen=3];
-ST -> DiC -> EiC;
-ST -> FC ;
-FC -> EiC1 -> AM;
+ST -> DiC -> FC;
+ST -> FC;
+FC -> EiC -> EiC1 -> EiC2;
+EiC -> AM -> MW;
 MW -> Notes;
 MW -> FC[dir=both]
 SU -> MW [dir=both];

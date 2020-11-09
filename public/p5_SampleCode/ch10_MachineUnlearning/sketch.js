@@ -1,4 +1,5 @@
-//Modified LSTM Generator example with p5.js
+//small modification from the source:
+//https://learn.ml5js.org/#/reference/charrnn
 
 let charRNN;
 let textInput;
@@ -6,42 +7,32 @@ let lengthSlider;
 let tempSlider;
 let button;
 let runningInference = false;
-let status;
-let lengthText;
-let temperatureText;
-let resultText;
 
 function setup() {
-
+  noCanvas();
   // Create the LSTM Generator passing it the model directory
   charRNN = ml5.charRNN('./models/AP_book/', modelReady);
 
   // Grab the DOM elements
-  textInput = document.querySelector('#textInput');
-  lengthSlider = document.querySelector('#lenSlider');
-  tempSlider = document.querySelector('#tempSlider');
-  button = document.querySelector('#generate');
-  lengthText = document.querySelector('#length');
-  temperatureText = document.querySelector('#temperature');
-  status = document.querySelector('#status')
-  resultText = document.querySelector('#result')
+  textInput = select('#textInput');
+  lengthSlider = select('#lenSlider');
+  tempSlider = select('#tempSlider');
+  button = select('#generate');
 
   // DOM element events
-  button.addEventListener('click', generate);
-  lengthSlider.addEventListener('change',updateSliders);
-  tempSlider.addEventListener('change',updateSliders);
+  button.mousePressed(generate);
+  lengthSlider.input(updateSliders);
+  tempSlider.input(updateSliders);
 }
-
-setup();
 
 // Update the slider values
 function updateSliders() {
-  lengthText.innerHTML = lengthSlider.value;
-  temperatureText.innerHTML = tempSlider.value;
+  select('#length').html(lengthSlider.value());
+  select('#temperature').html(tempSlider.value());
 }
 
 function modelReady() {
-  status.innerHTML = 'Model Loaded';
+  select('#status').html('Model Loaded');
 }
 
 // Generate new text
@@ -51,17 +42,18 @@ function generate() {
     runningInference = true;
 
     // Update the status log
-    status.innerHTML = 'Generating...';
+    select('#status').html('Generating...');
 
     // Grab the original text
-    let txt = textInput.value + " ";
+    let txt = textInput.value();
     // Check if there's something to send
     if (txt.length > 0) {
+      // This is what the LSTM generator needs
       // Seed text, temperature, length to outputs
       let data = {
         seed: txt,
-        temperature: tempSlider.value,
-        length: lengthSlider.value
+        temperature: tempSlider.value(),
+        length: lengthSlider.value()
       };
 
       // Generate text with the charRNN
@@ -72,8 +64,8 @@ function generate() {
         if (err) {
           console.log("error: " + err);
         }else{
-          status.innerHTML = 'Ready!';
-          resultText.innerHTML = txt + result.sample;
+          select('#status').html('Ready!');
+          select('#result').html(txt + result.sample);
           runningInference = false;
         }
       }

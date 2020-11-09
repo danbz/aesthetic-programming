@@ -11,9 +11,9 @@ sketch: p5_SampleCode/ch7_VocableCode/vocableCode.js
 
 ## setup()
 
-Using the phase "Vocable Code" for this chapter's title aims to make explicit how the act of coding cannot simply be reducible to its functional aspects. Rather we would like to emphasize that code mirrors the instability inherent in human language in terms of how it expresses itself, and is interpreted. Code is both script and performance, and in this sense is always ready to do something: it says what it will do, and does it at the same time. This analogy to speech, or more specifically to *speech-act theory* is well established in software studies (not least in *Speaking Code*) and helps us to neatly demonstrate how we can to do things with words "and" code. [^speech]  
+Using the phase "Vocable Code" for this chapter's title aims to make explicit how the act of coding cannot simply be reducible to its functional aspects. Rather we would like to emphasize that code mirrors the instability inherent in human language in terms of how it expresses itself, and is interpreted. Code is both script and performance, and in this sense is always ready to do something: it says what it will do, and does it at the same time. This analogy to speech, or more specifically to "speech-act theory" is well established in software studies (not least in *Speaking Code*) and helps us to neatly demonstrate how we can to do things with words "and" code. [^speech]  
 
-Indeed, if coding is somewhat like speaking, then it is also like poetry inasmuch as poems operate performatively iasmuch as they can be read and ideally spoken aloud.[^cox1] There are clear similarities between the syntactic qualities of written code and the execution of code in its performance. The parallel becomes evident if you read the source code aloud, as if it were a poem. A good example is the philosopher Franco Bifo Berardi who read the code for the *I Love You* virus aloud, enacting Florian Cramer's claim that the computer virus might be considered to be a form of poetry.[^language] This example makes broader reference to artists expressing language as found objects, including the Dadaist simultaneous poems which consisted of texts in different languages read aloud at the same time to expose the expressive tonality of the words as opposed to their meaning. Software is constructed from language, and is processed with and via computational procedures consisting of source code as symbols.[^love] Code is like poetry then, inasmuch as it plays with language's structures, setting up temporal interplay between the "voice" that is, and the "voice" that is to come. By connection to human language and the voice, we stress the instability of all codes and how particular intentions or meanings are open to misinterpretation and reinvention.
+Indeed, if coding is somewhat like speaking, then it is also like poetry inasmuch as poems operate performatively inasmuch as they can be read and ideally spoken aloud.[^cox1] There are clear similarities between the syntactic qualities of written code and the execution of code in its performance. The parallel becomes evident if you read the source code aloud, as if it were a poem. A good example is the philosopher Franco Bifo Berardi who read the code for the "I Love You" virus aloud, enacting Florian Cramer's claim that the computer virus might be considered to be a form of poetry.[^language] This example makes broader reference to artists expressing language as found objects, including the Dadaist simultaneous poems which consisted of texts in different languages read aloud at the same time to expose the expressive tonality of the words as opposed to their meaning. Software is constructed from language, and is processed with and via computational procedures consisting of source code as symbols.[^love] Code is like poetry then, inasmuch as it plays with language's structures, setting up temporal interplay between the "voice" that is, and the "voice" that is to come. By connecting to human language and the voice, we stress the instability of all codes and how particular intentions or meanings are open to misinterpretation and reinvention.
 
 Various scholars and artists have explored these connections between speaking and coding, not only to consider programming as an aesthetic tool for producing hybrid programming-literary forms, but also to explore the material connections and creative tensions between the two.[^examples] That speech comes from living human bodies further reminds us that coding practices have bodies too, and that coding can only be understood in terms of wider infrastructures, and the context of its making (or "poiesis" if you will). In this chapter we explore this line of thinking, and the ways in which the voice of the human subject is implicated in coding practices, and how coding itself can "voice" wider political issues, particularly concerning sexuality. We will focus on the software artwork *Vocable Code*, as a means to engage with these technical and aesthetic qualities.
 
@@ -22,13 +22,13 @@ Various scholars and artists have explored these connections between speaking an
 
 ## start()
 
-*Vocable Code* is both a work of software art (software as art, not software to make art) and a *codework* (in which the source code and critical writing operate together) to embody "queer code." Collecting voices and statements that complete the sentence starting with "Queer is...," the work is composed of texts and voices that are repeated, and disrupted by mathematical chaos, to create a dynamic artwork to explore the performativity of code, subjectivity and language. Behind the web interface, the code itself is a mixture of computer programming language and human language, and aims to expose the material and linguistic tensions between writing and reading within the context of (non)binary poetry and queer computer code.[^soon1]
+*Vocable Code* is both a work of software art (software as art, not software to make art) and a "codework" (in which the source code and critical writing operate together) to embody "queer code." Collecting voices and statements that complete the sentence starting with "Queer is," the work is composed of texts and voices that are repeated, and disrupted by mathematical chaos, to create a dynamic artwork to explore the performativity of code, subjectivity and language. Behind the web interface, the code itself is a mixture of computer programming language and human language, and aims to expose the material and linguistic tensions between writing and reading within the context of (non)binary poetry and queer computer code.[^soon1]
 
-The work is presented in a dual screen format: one side displaying the source code (codework), and the other the visual interface of how the code is run and executed (see Figures 7.1 and 7.2). In this particular arrangement, the source code is no longer, as in the convention of most software, hidden from the user and is instead displayed in full to undermine the hierarchy between the source and its results. The notion of queer code is both the subject and the process of the work, and this operates on multiple levels, "queering" what would be considered to be the normative conventions of software and its use: addressing what a front-end interface is expected to be, and how it performs normatively. What we experience are the performative qualities of code in terms of both its human and nonhuman execution. When code becomes executable, it blends "form and function,"[^execute] and becomes something which can be read, interpreted, executed and performed. We see the code and we hear contributor's spoken statements that, together, allow the program to speak to us.
+The work is presented in a dual screen format: one side displaying the source code (codework), and the other the visual interface of how the code is run and executed (see Figures 7.1 and 7.2). In this particular arrangement, the source code is no longer, as in the convention of most software, hidden from the user and is instead displayed in full to undermine the implied hierarchy between the source and its results. The notion of queer code is both the subject and the process of the work, and this operates on multiple levels, "queering" what would be considered to be the normative conventions of software and its use: addressing what a front-end interface is expected to be, and how it performs normatively. What we experience are the performative qualities of code in terms of both its human and nonhuman execution. When code becomes executable, it blends "form and function,"[^execute] and becomes something which can be read, interpreted, executed and performed. We see the code and we hear contributor's spoken statements that, together, allow the program to speak to us.
 
 The core method for structuring *Vocable Code* is the use of constraints or rules. These are discernible in both the source code, as well as the rules for voicing the statements that themselves express different rhythms and meanings.[^constraints] Below are some of these constraints:
 
-- When writing the source code, do not use the binary zero or one (e.g. declaring the value of a variable), a single X or Y (e.g. the common use of variable names), a single operator of ">" or "<" (e.g. the common use of a single operator in a conditional statement).
+- When writing the source code, do not use the binary 0 or 1 (e.g. declaring the value of a variable), a single X or Y (e.g. the common use of variable names), a single operator of ">" or "<" (e.g. the common use of a single operator in a conditional statement).
 - When writing the source code, be mindful of the naming of variables, arrays, and functions.
 - For each specific voice, the sentence starts with the phrase: "Queer is."
 - For each specific voice, each sentence contains a minimum of one word, but no more than five in total.
@@ -36,7 +36,7 @@ The core method for structuring *Vocable Code* is the use of constraints or rule
 <div class="section exercise" markdown="true">
 ## Exercise in class (Decode)
 
-RunMe(<https://dobbeltdagger.net/VocableCode_Educational/>).
+RunMe, <https://dobbeltdagger.net/VocableCode_Educational/>
 
 ![vocable_code-web](ch7_6.jpg)
 :   *Figure 7.2: The live coding/educational version of Vocable Code*
@@ -49,7 +49,7 @@ Look at the education version of *Vocable Code* and focus on the right-hand side
 2. The text moves upwards and mostly downwards, but also sometimes slowly oscillates between the two.
 3. The text fades over time.
 4. The text varies in size.
-5. Some of the text's content overlaps, but there are at least ten different or unique texts in any time.
+5. Some of the text's content overlaps, but there are at least ten different or unique texts.
 6. For each new batch of text shown on screen, you can hear a voice speaking one of the texts.
 7. There is a maximum limit of the text appearing simultaneously on screen. (Similar to the previous object-oriented approach, the text is continuously generated on screen if certain conditions are met.)
 8. Can you continue the list?
@@ -75,7 +75,7 @@ By reading the source code, you might discover that some of the coding styles ar
 </div>
 
 ## Textuality
-Although the artwork *Vocable Code* is about voices, both voice and text are interlinked in the work. The program picks only one selected text to speak/play at a time, whilst others are displayed dynamically on screen. You can explore the meaning of the words, but their placement and other design attributes, further change the way you perceive and interpret the statements. These are selected, presented, played, and spoken randomly, and at the same time further disrupted by mathematical chaos.    
+In *Vocable Code*, both voice and text are interlinked. The program picks only one selected text to speak/play at a time, whilst others are displayed dynamically on screen. You can explore the meaning of the words, but their placement and other design attributes further change the way you perceive and interpret the statements. These are selected, presented, played, and spoken randomly, and at the same time further disrupted by mathematical chaos.    
 
 Here is the text-related syntax that has been used in the work:
 
@@ -87,9 +87,9 @@ function preload() {
 }
 ...
 function notNew(getQueer){
-  this.size = random(20.34387,35.34387);
-  this.time = random(2.34387,4.34387);
-  this.yyyyy = random(height/3.0,height+10.3437);
+  this.size = random(20.34387, 35.34387);
+  this.time = random(2.34387, 4.34387);
+  this.yyyyy = random(height/3.0, height+10.3437);
   this.xxxxx = width/2.0;
   this.gradient = 240.0;
 }
@@ -107,22 +107,22 @@ this.acts = function() {
 *Sketch 1: Snippets of Vocable Code concerning textuality*
 
 ### Type
-`loadFont` supports opentype font style (.otf and .ttf) and returns a PFont object through `withPride` in Sketch 1 above.
+`loadFont` (in Line 4) supports opentype font style (.otf and .ttf) and returns a PFont object through `withPride` in Sketch 1 above.
 
 "Gilbert_TypeWithPride.otf" is a free font licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, and can be downloaded from the Internet[^font] (www.typewithpride.com). It is designed to honor the memory of Gilbert Baker the creator of the iconic Rainbow Flag who died in 2017.
 
 ![](ch7_2.jpg){: .medium}
 :   *Figure 7.3: The font Type with Pride. Image from https://www.typewithpride.com/*
 
-`textFont()` means to get ready to print out or write the text with the chosen font, and in this case was previously defined through the returned PFont object `withPride`.
+`textFont()` (in Line 16) means to get ready to print out or write the text with the chosen font, and in this case was previously defined through the returned PFont object `withPride`.
 
-`textSize()` sets the font size for use. For this sketch it takes a random value between 20.34387 and 35.34387.
+`textSize()` (in Line 17) sets the font size for use. For this sketch it takes a random value between 20.34387 and 35.34387.
 
-`textAlign()` takes the first argument for the horizontal alignment. It contains the options LEFT, RIGHT and CENTER. The length of sentences varies according to the number of words used. In *Vocable Code*, the text is aligned CENTER regardless of the sentence's length.
+`textAlign()` (in Line 18) takes the first argument for the horizontal alignment. It contains the options LEFT, RIGHT and CENTER. The length of sentences varies according to the number of words used. In *Vocable Code*, the text is aligned CENTER regardless of the sentence's length.
 
-`noStroke()` and `fill()` do similar things for shapes. The former disables drawing the stroke (outline), while the latter sets the text color. `fill()` accepts RGB values as well as other color formats.
+`noStroke()` and `fill()` (in Lines 20-21) do similar things for shapes. The former disables drawing the stroke (outline), while the latter sets the text color. `fill()` accepts RGB values as well as other color formats.
 
-`text()` draws the text on screen with specific words and in  positions (both horizontal and vertical coordination of the text), e.g. `text(getQueer, this.xxxxx, this.yyyyy);`
+`text()` (in Line 22) draws the text on screen with specific words and in  positions (both horizontal and vertical coordination of the text), e.g. `text(getQueer, this.xxxxx, this.yyyyy);`
 
 ## Conditional structure
 
@@ -140,7 +140,7 @@ if (queers[WhoIsQueer].myStatement == "null" ||
 
 *Figure 7.4: Snippets of Vocable Code concerning the first conditional structure*
 
-The first statement uses the relational operator called **OR** (||) to check against the two conditions. If either of the two is true the program will execute the next two lines of code. Naturally, the two conditions might not be met, and, in that case, `else` is used. This block of code determines which new text object should be selected for display as each person can only contribute two spoken/text statements, and some may have provided one. As such, some checking logic needs to be implemented in order to display the text.
+The first statement uses the relational operator called **OR** (||) to check against the two conditions (the full list of relational operations is covered in the section of "Relational operations" in Chapter 2, "Variable geometry"). If either of the two is true the program will execute the next two lines of code (see Lines 3-4). Naturally, the two conditions might not be met, and, in that case, `else` is used. This block of code determines which new text object should be selected for display as each person can only contribute two spoken/text statements, and some may have provided one. As such, some checking logic needs to be implemented in order to display the text.
 
 ```javascript
 if (gender == abs(2)) {
@@ -153,7 +153,7 @@ if (gender == abs(2)) {
 
 The second one only uses the `if` statement and that means it will run the function `SpeakingCode` when the condition is met and it won't have an alternative route, meaning that the program will just exit the conditional structure, and continue the execution after the closing curly bracket.
 
-The conditional structure in Figure 7.5 is about identifying which text to speak aloud. Every new batch of text contains between two and four texts, and the program picks the third one (knowing that an array starts with [0] index and points to the third item when the index is [2]). Based on the selected text, the program will play the corresponding voice file. `abs` is a syntax and function from p5 which calculates the "absolute" value of a number and only returns a positive value.
+The conditional structure in Figure 7.5 is about identifying which text to speak aloud. Every new batch of text contains between two and four texts (see Line 19 in the later full source code), and the program picks the third one (knowing that an array starts with [0] index and points to the third item when the index is [2]). Based on the selected text, the program will play the corresponding voice file. `abs` is a syntax and function from p5 which calculates the "absolute" value of a number and only returns a positive value.
 
 Of course, the selected line of code is specifically structured around wider political issues concerning gender and sexuality, and attempts to express ideas about queering code. Read aloud, the block of code might translate as: "If gender equals absolute two, speaking code, queers, who is queer, I am, making statements." Technically speaking, using the `abs` function is unnecessary and it could be also written to select another array's index. Code is constructed from language and can be poetic as the programmer can play with the structure, and experiment with symbols, and the syntactic logic. Since *Vocable Code* is also considered to be codework or code poetry, it invites both the audience and the machine to speak the code aloud (and proud).
 
@@ -172,7 +172,7 @@ function draw() {
 ```
 *Figure 7.6: Snippets of Vocable Code concerning the third conditional structure*
 
-Figure 7.6 shows two conditional statements in the function `draw()`. The first if-statement checks for texts that are off canvas. This has to be done continuously because the off-screen text instances (objects) will be removed (using `splice`) to avoid unwanted elements/objects continuing to exist in the program (as was the case with the Eating-tofu game in Chapter 6, "Object abstraction"). The second if-statement checks how many texts remain on screen. If the screen contains less than or equal to two texts, then it will generate new texts with the function `makeVisible()`.
+Figure 7.6 shows two conditional statements in the function `draw()`. The first if-statement checks for texts that are off canvas. This has to be done continuously because the off-screen text instances (objects) will be removed (using `splice`) to avoid unwanted elements/objects continuing to exist in the program (as was the case with the *Eating-tofu* game in Chapter 6, "Object abstraction"). The second if-statement checks how many texts remain on screen. If the screen contains less than or equal to two texts, then it will generate new texts with the function `makeVisible()`.
 
 ```javascript
 //check disappeared objects
@@ -188,10 +188,9 @@ Figure 7.6 shows two conditional statements in the function `draw()`. The first 
 ```
 *Figure 7.7: Snippets of Vocable Code concerning the fourth conditional structure*
 
-The last "if-else" conditional structure is set within the class method, as illustrated by Figure 7.6, and checks if the text is off canvas, particularly along the
-y-axis. In Figure 7.7, within the class's method `this.shows=function()`, the conditional statement incorporates the relational operator "OR" (`||`), in which neither condition needs to be "true" (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an `else` statement to handle the results of checking whether the conditions have been met. Therefore, it is read as if either one of the two conditions has been met, the variable `status` will be assigned as `notFalse` (this means the text is off screen at the top or bottom), and else if the text still remains on screen, the variable `status` will be assigned as `notTrue`. The values `notFalse` and `notTrue` belong to the `status` variable of the "String" type. However, in general programming practice, Boolean logic (with the "Boolean" type) tends to be understood as an absolute binary reality of "true" or "false." Initially, this seems fundamental to computational logic and can be relate this to the zeros and ones to which information is reduced in machine code. However, arguably and conceptually, `notFalse` and `notTrue` suggest an undoing of binary relations.  
+The last "if-else" conditional structure is set within the class method, as illustrated by Figure 7.6, and checks if the text is off canvas, particularly along the y-axis. In Figure 7.7, within the class's method `this.shows=function()`, the conditional statement incorporates the relational operator "OR" (`||`), in which neither condition needs to be "true" (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an `else` statement to handle the results of checking whether the conditions have been met. Therefore, it is read as if either one of the two conditions has been met, the variable `status` will be assigned as `notFalse` (this means the text is off screen at the top or bottom), and else if the text still remains on screen, the variable `status` will be assigned as `notTrue`. The values `notFalse` and `notTrue` belong to the `status` variable of the "String" type. However, in general programming practice, Boolean logic (with the "Boolean" type) tends to be understood as an absolute binary reality of "true" or "false." Initially, this seems fundamental to computational logic and can be relate this to the zeros and ones to which information is reduced in machine code. However, arguably and conceptually, `notFalse` and `notTrue` suggest an undoing of binary relations.  
 
-## %JSON%
+## JSON
 
 Beyond the core source code, *Vocable Code* utilizes a text-based file (in JSON format) to store the data from all voice donors, including their written statements (see Figure 7.8). Using JSON (Javascript Object Notation), allows all the data in a JSON file to be updated without changing anything at JavaScript source code level.
 
@@ -252,11 +251,10 @@ function makeVisible() {
 }
 ```
 
-<!-- <img src="ch7_4.png" width="450"> -->
 ![](ch7_4.png)
 :   *Figure 7.9: Snippets of Vocable Code concerning reading JSON*
 
-After loading the JSON file `voices.json` the program then  points at the `queers` array and looks for the name/value pairs `iam` and `makingStatements` from the randomly selected possible statements to call (among `yourStatement` and `myStatement`). Lastly, the function `SpeakingCode` is called. Figure 7.9 illustrates how communication is affected between the source code and the JSON files, passing the data (between the JSON file and the program) so it can be displayed on screen.
+After loading the JSON file `voices.json` the program then points at the `queers` array and looks for the name/value pairs `iam` and `makingStatements` from the randomly selected possible statements to call (among `yourStatement` and `myStatement`). Lastly, the function `SpeakingCode` is called. Figure 7.9 illustrates how communication is affected between the source code (on hte left) and the JSON file (on the right), passing the data (between the JSON file and the program) so it can be displayed on screen.
 
 **Step 3. Locating and loading the sound file**
 ```javascript
@@ -274,11 +272,11 @@ function speakingNow() {
 }
 ```
 
-All the voice files are stored in the "wav" sound file format. The files are named according to a specific convention that follows the field `iam` in the JSON file. In this way, we can link, or "concatenate" in programming terms, all the pieces using the operator `+` so the specific voice file is retrieved and played: `let getVoice = "voices/" + iam + makingStatements + ".wav";`. As discussed above, the voice selected is synchronized with the text on screen.
+All the voice files are stored in the "wav" sound file format. The files are named according to a specific convention that follows the field `iam` in the JSON file. In this way, we can link, or "concatenate" (in programming terms), all the pieces using the operator `+` so the specific voice file is retrieved and played: `let getVoice = "voices/" + iam + makingStatements + ".wav";`. As discussed above, the voice selected is synchronized with the text on screen.
 
 There is a p5.sound library which extends p5 with web audio functionality to deal with sound, or, in this case, to play a voice file. Among many sound-related functions like capturing/listening from an audio input (as we have demonstrated in Chapter 4, "Data capture"), we simply need methods to load and play the sound files. To do so, `loadSound()` is used as a callback to make sure the sound is fully loaded (it takes time as it also involves file size issues, memory, and hardware) before the function `speak.play()` is invoked (see Figure 7.9).
 
- `loadSound()` can be used in the `Preload()` function where files can be loaded in advance by specifying the files' paths. However, the idea behind *Vocable Code* is more poetic, and keeping the JavaScript source code as the core corpus is part of the concept. Instead of using `Preload()`, the program uses the callback function[^callback] to load the sound which might not be the most efficient way as it incurs buffering problems while loading the files on-the-fly. But this way of working with code opens up thinking about language structures, what it means to load, and play/speak the files/voices in real-time and repeatedly, and which forms of instability of expression are invoked.
+ `loadSound()` can be used in the `Preload()` function where files can be loaded in advance by specifying the files' paths. However, the idea behind *Vocable Code* is more poetic, and keeping the JavaScript source code as the core corpus is part of the concept. Instead of using `Preload()`, the program uses the "callback function"[^callback] to load the sound which might not be the most efficient way as it incurs buffering problems while loading the files on-the-fly. But this way of working with code opens up thinking about language structures, what it means to load, and play/speak the files/voices in real-time and repeatedly, and which forms of instability of expression are invoked.
 
 ## Source code
 ```javascript
@@ -300,12 +298,12 @@ function makeVisible() {
 	//get the json txt
 	queers = whatisQueer.queers;
 	//add no. of statements on screen
-	let addQueers = int(random(2.34387,4.34387));
+	let addQueers = int(random(2.34387, 4.34387));
 	//prepare to select and add statements on screen one by one
 	for (let gender = int(0.34387); gender <= addQueers; gender++) {
 		//select 1 from the json list
 		let WhoIsQueer = int(random(queers.length));
-			makingStatements = int(random(2.34387,3.34387));
+			makingStatements = int(random(2.34387, 3.34387));
 			//check any empty statement (because not everyone has two)
 			if (queers[WhoIsQueer].myStatement == "null" ||
 			 makingStatements == int(2.34387)) {
@@ -331,7 +329,7 @@ function speakingNow() {
 	speak.play();
 }
 function setup() {
-	createCanvas(windowWidth,windowHeight);
+	createCanvas(windowWidth, windowHeight);
 }
 function draw() {
 	background(2.34387);
@@ -353,9 +351,9 @@ function draw() {
 //for every creation of new text (class-object)
 function notNew(getQueer) {
 	//attributes of text
-	this.size = random(20.34387,35.34387);
-	this.time = random(2.34387,4.34387);
-	this.yyyyy = random(height/3.0,height+10.3437);
+	this.size = random(20.34387, 35.34387);
+	this.time = random(2.34387, 4.34387);
+	this.yyyyy = random(height/3.0, height+10.3437);
 	this.xxxxx = width/2.0;
 	this.gradient = 240.0;
 	this.worldWide = function() {
@@ -388,11 +386,11 @@ function notNew(getQueer) {
 ## Exercise in class
 
 1. Work as a group.
-2. Download the whole *Vocable Code* program (https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/tree/master/public/p5_SampleCode/ch7_VocableCode), and run it on your own computer.
+2. Download the whole *Vocable Code* program (<https://gitlab.com/aesthetic-programming/book/-/tree/master/public/p5_SampleCode/ch7_VocableCode>), and run it on your own computer.
 3. Briefly discuss the various computational structures and syntax to understand how things generally work, then specifically examine the relationship between voice file naming and the JSON file structure.
 4. Follow the instructions and record your own voice with your computer or mobile phone. (The program only accepts the .wav file format)
     * Find a blank sheet of paper and prepare to write a sentence.
-    * Complete the sentence with the starting given words: "Queer is...".
+    * Complete the sentence with the starting given words: "Queer is."
     * Each sentence contains no more than 5 words (the first words "queer is" don't count). It is ok to add just one word.
     * Produce a maximum of two sentences/voices.
     * Download/locate a voice recording app on your smartphone (e.g. Voice Recorder on Android or Voice Memos on iOS).
@@ -410,11 +408,11 @@ function notNew(getQueer) {
 
 In high-level programming languages like JavaScript, the source code sends both instructions to machines as well as communicating with humans. In this way, writing source code involves the use of signs and symbols, both semantics and syntactics, and operates across both programming and natural languages. Beyond the potential for poetry previously mentioned, there are other possible interventions. Lingdong Huang has developed an esoteric programming language based on ancient Chinese called "wenyan-lang," that closely follows the grammar and tone of classical Chinese literature.[^Wenyan] Using signs and symbols as well as combining formal logic and poetic expression are the starting points for understanding the double logic of vocable code.
 
- As we learnt previously, abstraction is a concept fundamental to software development, which differs from machine operations, thereby focusing on building abstractions as objects. The use of class/object structures (text as object instances), conditional structures, procedures, and subroutines, such as the for-loop, are some of the ways of presenting and executing the source code. However, in the context of machine execution, variable names - the semantic layer - are stripped away and this human-readable information is avoided. This "secondary notation" does not affect the execution of the program apart from memory size, but does provide other potential uses.[^Andersen] In this way, choosing meaningful identifier names is more for the purpose of expression and communication, as the example above clearly demonstrates. This is where we hear the programmer's voice.
+As we learnt previously, abstraction is a concept fundamental to software development, which differs from machine operations, thereby focusing on building abstractions as objects. The use of class/object structures (text as object instances), conditional structures, procedures, and subroutines, such as the for-loop, are some of the ways of presenting and executing the source code. However, in the context of machine execution, variable names — the semantic layer — are stripped away and this human-readable information is avoided. This "secondary notation" does not affect the execution of the program apart from memory size, but does provide other potential uses.[^Andersen] In this way, choosing meaningful identifier names is more for the purpose of expression and communication, as the example above clearly demonstrates. This is where we hear the programmer's voice.
 
 Furthermore, when thinking about the importance of source code for understanding the operations of software, it is important to recognize that source code does not show how a machine operates with physical memory (such as store, load, add and halt actions), how it translates symbolic actions into real addresses, or how it discloses operation sequences as low-level programming languages would do. The point is the source code only describes what might be visible to hear/see, but it does not facilitate other forms of knowledge about how a machine operates from the source code. To be specific, *Vocable Code* displays the two interfaces side by side. One displays the source code, the other what happens when it is executed, but there is a discrepancy as what you see is not literally how it operates. This could perhaps be understood in two ways, as follows.
 
-Firstly, the source code is made available, but the process of translation from source code to machine code is still hidden, and not all the lines are executed. Wendy Hui Kyong Chun refers to this as a process of "sorcery" and summarizes the problem: "Higher level programming languages - automatic programming - may have been sold as offering the programmer more and easier control, but they also necessitated blackboxing even more the operations of the machine they supposedly instructed."[^Chun] Accordingly, we would need to nuance the statement that source code actually does what it says. When one speaks the source code, it performs differently than how a machine performs. Yet it should be said that this is the case with humans too in that there is also an interface and translation between physiognomy and action.
+Firstly, the source code is made available, but the process of translation from source code to machine code is still hidden, and not all the lines are executed. Wendy Hui Kyong Chun refers to this as a process of "sorcery" and summarizes the problem: "Higher level programming languages — automatic programming — may have been sold as offering the programmer more and easier control, but they also necessitated blackboxing even more the operations of the machine they supposedly instructed."[^Chun] Accordingly, we would need to nuance the statement that source code actually does what it says. When one speaks the source code, it performs differently than how a machine performs. Yet it should be said that this is the case with humans too in that there is also an interface and translation between physiognomy and action.
 
 Secondly, source code and its execution, usually in the form of screen interface, should be considered as translations rather than equivalents of each other, and this points to the veracity of the interface-principle WYSIWYG (what-you-see-is-what-you-get). In *Vocable Code*, the moving text is only part of the result of the source code running, and is not able to fully capture the complexity of its operations. In this way, the artwork perhaps challenges the usual, prominent front-end interfaces and the transmission of meaning from one source to another by giving voice to both the front and back ends, or even queering the demarcation. This undermines any binary relation between states and the hierarchical logic of cause and effect, and in this respect we would invoke Karen Barad and her assertion that causes and effects work through "intra-actions" (queering causality).[^Barad]
 
@@ -422,13 +420,13 @@ Secondly, source code and its execution, usually in the form of screen interface
 
 There are clear power dynamics at work in computing, at a fundamental level, if 1s and 0s are considered to be numbers of equivalent status in mathematics. In *Zeros + Ones* (1997), Sadie Plant confirms that all computers translate information into the zeros and ones of machine code and this reflects the underlying "orders of Western reality":
 
-> "Whether [...] gathering information, telecommunicating, running washing machines, doing sums, or making videos, all digital computers translate information into zeros and ones of machine code. These binary digits are known as bits and strung together in bytes of eight. The zeros and ones of machine code seems to offer themselves as perfect symbols of the orders of Western reality, the ancient logical codes which make the difference between on and off, right and left, light and dark, form and matter, mine and body, white and black, good and evil, right and wrong, life and death, something and nothing, this and that, here and there, inside and out, active and passive, true and false, yes and no, sanity and madness, health and sickness, up and down, sense and nonsense, west and east, north and south. And they made a lovely couple when it came to sex. Man and woman, male and female, masculine and feminine: one and zero looked just right, made for each other: 1, the definite, upright line; the 0, the diagram of nothing at all: penis and vagina, thing and hole... hand in glove. A perfect match."[^Plant1]
+> "Whether [...] gathering information, telecommunicating, running washing machines, doing sums, or making videos, all digital computers translate information into zeros and ones of machine code. These binary digits are known as bits and strung together in bytes of eight. The zeros and ones of machine code seems to offer themselves as perfect symbols of the orders of Western reality, the ancient logical codes which make the difference between on and off, right and left, light and dark, form and matter, mine and body, white and black, good and evil, right and wrong, life and death, something and nothing, this and that, here and there, inside and out, active and passive, true and false, yes and no, sanity and madness, health and sickness, up and down, sense and nonsense, west and east, north and south. And they made a lovely couple when it came to sex. Man and woman, male and female, masculine and feminine: one and zero looked just right, made for each other: 1, the definite, upright line; the 0, the diagram of nothing at all: penis and vagina, thing and hole [...] hand in glove. A perfect match."[^Plant1]
 
-Although it takes two to make a binary (and set up the heterosexist paradigm), clearly inequalities of power are expressed in the tendency to privilege one side of the pairing (master and slave,[^master] parent and child, human and machine, and so on). As discussed in Chapter 5, "Auto-generator", and further discussed in the final chapter of this book, the Turing Test resonates with these power dynamics. Plant quotes Turing as saying: "the intention in constructing these machines in the first instance is to treat them as slaves, giving them only jobs which have been thought out in detail, jobs such that the user of the machine fully understands in principle what is going on all the time."[^Plant2] Plant's further example of this fantasy of domination is the sci-fi film *Bladerunner* (1984) as an advanced Turing Test in which the only indication of artificiality is a tiny flicker in the non-human eye's iris in response to targeted questioning. In the film's narrative, the non-human worker-slaves have rightly begun to question their conditions. Such examples make it clear that the ability to imagine conditions differently is embedded in the system itself, in the potential failure to carry out prescribed instructions or commands if unreasonable.
+Although it takes two to make a binary (and set up the heterosexist paradigm), clearly inequalities of power are expressed in the tendency to privilege one side of the pairing (master and slave,[^master] parent and child, human and machine, and so on). As discussed in Chapter 5, "Auto-generator," and further discussed in the final chapter of this book, the Turing Test resonates with these power dynamics. Plant quotes Turing as saying: "the intention in constructing these machines in the first instance is to treat them as slaves, giving them only jobs which have been thought out in detail, jobs such that the user of the machine fully understands in principle what is going on all the time."[^Plant2] Plant's further example of this fantasy of domination is the sci-fi film *Bladerunner* (1984) as an advanced Turing Test in which the only indication of artificiality is a tiny flicker in the non-human eye's iris in response to targeted questioning. In the film's narrative, the non-human worker-slaves have rightly begun to question their conditions. Such examples make it clear that the ability to imagine conditions differently is embedded in the system itself, in the potential failure to carry out prescribed instructions or commands if unreasonable.
 
 The biography of Turing as a gay man, at a time when homosexuality was still a criminal offense in the UK,[^Hodges] adds weight to claims to reject unreasonable demands. Humans do not necessarily follow or agree with rules as prescribed by society, and although Turing's sexuality was tolerated in the context of the war effort, under "normal" (peacetime) conditions it was perceived to be a problem and he was found guiltily of gross indecency in 1952.[^Plant3] Here, as Plant describes, the historical facts collapse into bizarre allegory. First of all, he was prescribed estrogen to reduce his sexual urge, on the basis of the dubious logic that to all intents and purposes he was female. This was a reversal of prior judgements forcing gay men to take testosterone to make them more male, yet ironically making them more aroused hormonally. Plant concludes the Turing story: "Two years later he was dead. By the side of the table was an apple, out of which several bites had been taken. And this queer tale does not end here. There are rainbow logos with Turing's missing bytes on every Apple Macintosh machine."[^Plant4]
 
-To conclude this chapter, and our "queer commentary"[^berlant] on the making of *Vocable Code* with its strange syntax - such as notFalse and notTrue - as well as its many repetitive decimals, and suchlike, by emphasizing that: Queer is... making binaries strange.
+To conclude this chapter, and our "queer commentary"[^berlant] on the making of *Vocable Code* with its strange syntax - such as notFalse and notTrue - as well as its many repetitive decimals, and suchlike, by emphasizing that: Queer is [...] making binaries strange.
 
 <div class="section exercise" markdown="true">
 ## MiniX: E-lit
@@ -503,7 +501,7 @@ To conclude this chapter, and our "queer commentary"[^berlant] on the making of 
 
 [^Wenyan]: See <https://wy-lang.org/>.
 
-[^Andersen]: Peter Bogh Andersen suggests a semiotic framework to study computer systems as sign-vehicles in order to understand how signs are produced and interpreted. The framework emphasizes the combination of formal/technical structures and non-formal/interpretable signs which is relevant to this chapter, see Peter Bogh Andersen, "Computer Semiotics," *Scandinavian Journal of Information Systems* 4, no.1, (1992): 1, <https://aisel.aisnet.org/sjis/vol4/iss1/1/>.
+[^Andersen]: Peter Bøgh Andersen suggests a semiotic framework to study computer systems as sign-vehicles in order to understand how signs are produced and interpreted. The framework emphasizes the combination of formal/technical structures and non-formal/interpretable signs which is relevant to this chapter, see Peter Bøgh Andersen, "Computer Semiotics," *Scandinavian Journal of Information Systems* 4, no.1, (1992): 1, <https://aisel.aisnet.org/sjis/vol4/iss1/1/>.
 
 [^Chun]: Wendy Hui Kyong Chun, *Programmed Visions: Software and Memory* (Cambridge, MA: MIT Press, 2011), 45.
 

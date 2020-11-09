@@ -2,7 +2,7 @@ Title: 2. Variable geometry
 Order: 2
 page_order: 2
 sketch: p5_SampleCode/ch2_VariableGeometry/sketch.js
-download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/archive/master/Aesthetic_Programming_Book-master.zip?path=public/p5_SampleCode/ch2_VariableGeometry
+download_sketch_link: https://gitlab.com/aesthetic-programming/book/-/archive/master/_Book-master.zip?path=public/p5_SampleCode/ch2_VariableGeometry
 
 ![flowchart](ch2_0.svg)
 
@@ -10,31 +10,31 @@ download_sketch_link: https://gitlab.com/siusoon/Aesthetic_Programming_Book/-/ar
 
 ## setup()
 
-Aside from the difficulties of learning anything new and complex, learning to code can be enjoyable and rewarding (we hope!). That programming can be fun is demonstrated by the numerous titles that explicitly reference this, such as Linus Torvalds's book *Just for Fun: The Story of an Accidental Revolutionary*, written with David Diamond, part autobiography and part story of the development of Linux.[^Fun] Fun was, in this case, combined with the serious effort of making source code freely available and open to further modification. Like sharing a joke, or indeed recipe, programmming is a social activity and relies on collective understanding in order to *get it*.
+Aside from the difficulties of learning anything new and complex, learning to code can be enjoyable and rewarding (we hope!). That programming can be fun is demonstrated by the numerous titles that explicitly reference this, such as Linus Torvalds's book *Just for Fun: The Story of an Accidental Revolutionary*, written with David Diamond, part autobiography and part story of the development of Linux.[^Fun] Fun was, in this case, combined with the serious effort of making source code freely available and open to further modification. Like sharing a joke, or indeed recipe, programmming is a social activity and relies on collective understanding in order to "get it."
 
-There are many more examples that reinforce the idea of fun, as if simply stating this would be enough to convince users to work through learning to program and not be too put off by its underlying difficulty. In what follows we encourage you to have fun with %geometry%, following on from drawing an ellipse in the previous chapter. The idea is to further explore various shapes, sizes, positions, space, and lengths, all which are regarded as geometry by mathematics and have multiple applications in everyday life including, but not limited to, typography, signage, graphic design and architecture, as well as other organizational forms. More specifically, points, lines, and planes are regarded as the foundational elements of design as these elements are used to constitute objects, and the world is made up of various objects that have particular properties. Fun with geometry comes from manipulating these properties, and reconstituting them anew, creating alternative patterns of recognition and understanding.[^Fun2] As Olga Goriunova states in her edited book *Fun and Software*, %fun% with computers is considered to be a mode of thinking,[^Olga] and, furthermore, fun can be had with the paradoxes that arise in the process. By creating new computational objects, you will manipulate learnt procedural logics, and explore how these might be adapted and redrawn. Variable geometry in this sense is about shape-shifting: re-imagining all sorts of new shapes, compositional forms, and spatial relations, thereby challenging geometric conventions.[^Femke]
+There are many more examples that reinforce the idea of fun, as if simply stating this would be enough to convince users to work through learning to program and not be too put off by its underlying difficulty. In what follows we encourage you to have fun with geometry, following on from drawing an ellipse in the previous chapter. The idea is to further explore various shapes, sizes, positions, space, and lengths, all which are regarded as geometry by mathematics and have multiple applications in everyday life including, but not limited to, typography, signage, graphic design, and architecture, as well as other organizational forms. More specifically, points, lines, and planes are regarded as the foundational elements of design as these elements are used to constitute objects, and the world is made up of various objects that have particular properties. Fun with geometry comes from manipulating these properties, and reconstituting them anew, creating alternative patterns of recognition and understanding.[^Fun2] As Olga Goriunova states in her edited book *Fun and Software*, fun with computers is considered to be a mode of thinking,[^Olga] and, furthermore, fun can be had with the paradoxes that arise in the process. By creating new computational objects, you will manipulate learnt procedural logics, and explore how these might be adapted and redrawn. Variable geometry in this sense is about shape-shifting: re-imagining all sorts of new shapes, compositional forms, and spatial relations, thereby challenging geometric conventions.[^Femke]
 
-We take the example of %emoticons% — ideograms, typically smileys — as typographic shorthand for expressing facial emotional states such as happiness, ":D". These have become pervasive in communication, and are no longer simply typographic, but actual pictures which can be funny at times as %emojis%, but also come with underlying issues related to the politics of representation. More on this below, but for now, suffice to say, emojis make a good example as they consist of geometric shapes, using lines, points, planes, and colors. This chapter is about having fun with this (even if some of the underlying issues are not fun at all), exploring the affective dimension of emojis, and the varying representations that we encounter in everyday communications.
+We take the example of emoticons — ideograms, typically smileys — as typographic shorthand for expressing facial emotional states such as happiness, ":D". These have become pervasive in communication, and are no longer simply typographic, but actual pictures which can be funny at times as emojis, but also come with underlying issues related to the politics of representation. More on this below, but for now, suffice to say, emojis make a good example as they consist of geometric shapes, using lines, points, planes, and colors. This chapter is about having fun with this (even if some of the underlying issues are not fun at all), exploring the affective dimension of emojis, and the varying representations that we encounter in everyday communications.
 
-The relationship between emoji standardization and a politics of representation has been explored by many commentators. The essay "Modifying the Universal," written by Roel Roscam Abbing, Peggy Pierrot and Femke Snelting is a good example,[^Emojis] as it investigates the politics of emoji "universalism." Emojis emerged from the Unicode project, that has set the computing industry standard for the consistent encoding, %representation%, and handling of text for software internationalization in all major operating systems and writing applications since 1987. Interestingly, on a technical level, Unicode provides a unique code point (a number) to represent a character in an abstract way and leaves the visual rendering (size, font, shape, geometry) to other software, such as a web browser or word processor. It is the question of representation that interests us here.
+The relationship between emoji standardization and a politics of representation has been explored by many commentators. The essay "Modifying the Universal," written by Roel Roscam Abbing, Peggy Pierrot and Femke Snelting is a good example,[^Emojis] as it investigates the politics of emoji "universalism." Emojis emerged from the Unicode project, that has set the computing industry standard for the consistent encoding, representation, and handling of text for software internationalization in all major operating systems and writing applications since 1987. Interestingly, on a technical level, Unicode provides a unique code point (a number) to represent a character in an abstract way and leaves the visual rendering (size, font, shape, geometry) to other software, such as a web browser or word processor. It is the question of representation that interests us here.
 
 Much like the utopian project of developing a universal language to be spoken and understood by the majority of the world's population (such as Esperanto) Unicode is clearly important to communicative operations across international/multilingual systems. By the time of the most recent version, Unicode 12.1's release in May 2019, there were 137,994 characters covering 150 scripts, as well as multiple symbol sets and emojis.[^Unicode] Yet, as the standard expanded from the underlying characters and glyphs to symbol sets and emojis, the universalism has become increasingly problematic. Criticism has unsurprisingly centered on the politics of representation, such as blatant gender stereotyping and racial discrimination: for example, female emojis were under-represented in certain professional roles,[^Telegraph] there were also limitations of skin tone applied to emojis and "universal modifiers" that were not displayed "universally" across all devices and operating systems.
 
-Our point is that using emojis may be fun and expressive, but they also tend to oversimplify and universalize differences, thereby perpetuating normative ideologies within already "violent power structures,"[^ideology] such that only selected people, those with specific skin tones for instance, are represented while others are not. There is a distinct inequality as to how people are represented, and who sets the standards for these representations? That such operations can be characterized as fun is part of the problem and masks other processes that monitor our emotional states not least in the workplace (we will return to this issue in Chapter 4, "Data capture"). The project *AIMoji* by Process Studio highlights some of these issues with the use of deep learning techniques and training existing emoji data[^almoji] in order to mess up their reductive representational logic and produce noisy mutations that offer inbetween shapes, faces and emotions, thereby rejecting %universalism%. Above are some of the issues we want to explore in this chapter by introducing variable geometry and learning to be able to produce alternatives, more politically-correct ones perhaps. We will start with the work *Multi* by graphic designer David Reinfurt which will be used to demonstrate the basis of geometry and the variations of facial expression and composition that can be generated from simple typographic elements.
+Our point is that using emojis may be fun and expressive, but they also tend to oversimplify and universalize differences, thereby perpetuating normative ideologies within already "violent power structures,"[^ideology] such that only selected people, those with specific skin tones for instance, are represented while others are not. There is a distinct inequality as to how people are represented, and we need to question who sets the standards for these representations. That such operations can be characterized as fun is part of the problem and masks other processes that monitor our emotional states not least in the workplace (we will return to this issue in Chapter 4, "Data capture"). The project *AIMoji* by Process Studio highlights some of these issues with the use of deep learning techniques and training existing emoji data[^almoji] in order to mess up their reductive representational logic and produce noisy mutations that offer inbetween shapes, faces and emotions, thereby rejecting universalism. Above are some of the issues we want to explore in this chapter by introducing variable geometry and learning to be able to produce alternatives, more politically-correct ones perhaps. We will start with the work *Multi* by graphic designer David Reinfurt which will be used to demonstrate the basis of geometry and the variations of facial expression and composition that can be generated from simple typographic elements.
 
 * * *
 
 ## start()
-![multi](ch2_1.gif){: style="margin-bottom: -1em;" .no-border}
-:   *Figure 2.1: Multi by David Reinfurt. Courtesy of the artist.*
+![multi](ch2_1.gif){: style="margin-bottom: -2em;" .no-border}
+:   *Figure 2.1: Multi by David Reinfurt. Courtesy of the designer.*
 
-*Multi* (<http://www.o-r-g.com/apps/multi>),[^multi] is inspired by another designer Enzo Mari who spent a whole year in 1957 exploring the essential form of an object (an apple, the universal apple we might add). Reinfurt explains that, "He was not looking to draw AN apple, but rather THE apple — a perfect symbol designed for the serial logic of industrial reproduction." *Multi* develops a variation of this idea for informational reproduction in the form of a mobile app with 1,728 possible arrangements, or facial compositions, built from minimal punctuation glyphs. But instead of using preset typographic characters, which admittedly is the conceptual charm of *Multi*, for our purpose we will draw these from scratch with foundational elements of geometry.
+*Multi* (<http://www.o-r-g.com/apps/multi>),[^multi] is inspired by another designer Enzo Mari who spent a whole year in 1957 exploring the essential form of an object (an apple). Reinfurt explains that, "He was not looking to draw AN apple, but rather THE [universal] apple — a perfect symbol designed for the serial logic of industrial reproduction." *Multi* develops a variation of this idea for informational reproduction in the form of a mobile app with 1,728 possible arrangements, or facial compositions, built from minimal punctuation glyphs. But instead of using preset typographic characters, which admittedly is the conceptual charm of *Multi*, for our purpose we will draw these from scratch with foundational elements of geometry.
 
 ## Source code
 ![](ch2_2.gif){: .medium}
 :   *Figure 2.2: The screenshot of the remix of Multi*
 
-RunMe, <https://siusoon.gitlab.io/Aesthetic_Programming_Book/p5_SampleCode/ch2_VariableGeometry/>.
+RunMe, <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch2_VariableGeometry/>.
 
 <div class="exec" data-linenostart="1" markdown="true">
 
@@ -49,14 +49,16 @@ function setup() {
 }
 
 function draw() {
-  background(random(230,240));
+  //background
+  background(random(230, 240));
   //left
-  noStroke();
+  noStroke()
   fill(0);
-  rect(97,169,79,12);
+  rect(97, 169, 79, 12);
+
   //right
-  rect(365,184,20,15);
-  fill(20,20,120);
+  rect(365, 184, 20, 15);
+  fill(20, 20, 120);
 
   beginShape();
   vertex(365, 199);
@@ -69,7 +71,7 @@ function draw() {
   noFill();
   stroke(130);
   strokeWeight(2);
-  ellipse(255,350,static_size,static_size);
+  ellipse(255, 350, static_size, static_size);
 
   //mouse interactions
   stroke(180);
@@ -113,20 +115,20 @@ function draw() {
 ![](ch2_4.png)
 :   *Figure 2.3: Simple exercise*
 
-Remember the structure of a web page/application should include the HTML, a working JavaScript file (for example, sketch.js), as well as the associated associated p5.js libraries.  
+Remember the structure of a web page/application should include the HTML, a working JavaScript file (for example, sketch.js), as well as the associated p5.js libraries.  
 
 - Type/copy the above source code in the working JavaScript file, then save the code. Run the program on Atom (with the live-atom-server) and, on screen, the background should flash.
 - There are few new examples of syntax, or a slightly different use of syntax, here:
-    - `frameRate()`: This sets the number of frames per second that the computer will use when running the program. The default is 60 and this sets it to 15, so you can see the background color for each frame quite clearly (you can also compare the flash rate to the sample code in the previous chapter).
+    - `frameRate()`: This sets the number of frames per second that the computer will use when running the program. The default is 60 and this sets it to 15, so you can see the background color for each frame quite clearly (you can also compare the flash/frame rate to the sample code in the previous chapter).
     - `random(230,240)`: In the earlier sample code, the function `random()` only took a single parameter. This sample code gives you a different use of the function with two parameters. If you look at the reference guide (<https://p5js.org/reference/#/p5/random>),[^random] it explains that the random function returns a floating-point number, and this means that the number is not an integer, but a number with decimals. In this case, the program will return a floating-point number between 230.0 and up to, but not including, 240.0. An example of such a returned value would be 231.34387.
 - Next you need to remember how to use the web console (Under Tools > Web Developer > Web Console on Firefox).
     - Type `print(width);` and then press enter.
     - Type `console.log(width, height);` and then press enter.
 
-When you type the syntax `print(width);` the web console area (see Figure 2.2) displays the actual width in pixels. Additionally, if you use `console.log(width, height);`, which is the equivalent of the print function in JavaScript (not a p5.js function), the screen displays two numbers according to your screen size (you may adjust the screen and try again to get a different number). With just two lines in the web console area, you have asked the program to give you the values for the width and height of the canvas. The program understands the two names "width" and "height" as they are pre-set names in p5.js which you can use specifically for asking the dimensions of the canvas.
+When you type the syntax `print(width);` the web console area (see Figure 2.3) displays the actual width in pixels. Additionally, if you use `console.log(width, height);`, which is the equivalent of the print function in JavaScript (not a p5.js function), the screen displays two numbers according to your screen size (you may adjust the screen and try again to get a different number). With just two lines in the web console area, you have asked the program to give you the values for the width and height of the canvas. The program understands the two names "width" and "height" as they are pre-set names in p5.js which you can use specifically for asking the dimensions of the canvas.
 </div>
 
-## %Variables%
+## Variables
 
 In programming, both width and height are called "variables" — another important concept. Variables are used to store data and information in a computer program. You can think of variables as a kitchen container, in which you can put different types of things (like food, kitchen utensils, etc.) in a given container, replace them with other things, and store them for later retrieval. There are two main types of variables: "local variables" that are defined within a structure or a function, can only be used within that block of code; and "global variables" that can be used anywhere in the code. Global variables need to be defined before the setup of the program, usually in the first few lines of code.
 
@@ -138,7 +140,7 @@ It is important to note that you can also assign your own variable names (in oth
 let moving_size = 50;
 let static_size = 20;
 ...
-ellipse(255,350,static_size,static_size);
+ellipse(255, 350, static_size, static_size);
 ...
 ellipse(mouseX, mouseY, moving_size, moving_size);
 
@@ -149,21 +151,21 @@ if (mouseIsPressed) {
 
 The above is the excerpt from the full code required to draw two different sized ellipses (As discussed in the previous chapter, the final two parameters of the ellipse function refer to width and height.) Instead of placing a number in the function as in Chapter 1, "Getting started," we will use variables as they hold values, especially global ones that can be reused in different places of a program. Three steps are required to use variables:
 
-1. **Declare:** Think of a name for the container you want to store the value in (it should make sense to you and others to read, but of course there is scope for a conceptual approach here). Declare with the syntax "let" in front.[^let]  
+1. **Declare:** Think of a name for the container you want to store the value in (it should make sense to you and others to read, but of course there is scope for a conceptual approach here). Declare with the syntax "let" in front.[^let] (See line 1-2 from the above)  
 There are certain rules to follow in naming variables:
-    * Names should begin with a lowercase string and not with a number or symbols.
+    * Names usually begin with a lowercase string and not with a number or symbols.
     * Names can contain a mix of uppercase and lower case strings, and numbers.
     * Names cannot contain symbols.
 
 2. **Initialize/Assign:** What is it that you want to store? A number? By assigning a value, you will need to use the equal sign. There are four data types that are useful to know at this introductory level:
     * *number* for numbers of any kind: integer or floating-point.
     * *string* for strings. A string may have one or more characters and it has to be used with double or single quotation marks. For example: `let moving_size = "sixty";`
-    * *%boolean%* for true/false. For example: `let moving_size = true;`
+    * *boolean* for true/false. For example: `let moving_size = true;`
     * *color* for color values. This accepts Red, Green, Blue (RGB) or Hue, Saturation and Brightness (HSB) values. For example: `let moving_size = color(255,255,0);` see more from the "p5.js color reference" (<https://p5js.org/reference/#/p5/color>).[^color]
 
 3. **(Re)Use:** How and when do you want to retrieve the stored data? If the variable changes over time, you may wish to reuse it many times.
 
-In the above code excerpt, steps 1 and 2 are combined and the code is written as `let moving_size = 50;`. There are two variables: "moving_size" & "static_size", but we can say that the variable "static_size" is more dynamic than the other. This is because the value changes according to mouse press. (If you do not foresee values changing, you can also consider using `const`[^constant], a value that remains unchanged for the entire program.)
+In the above code excerpt, steps 1 and 2 are combined and the code is written as `let moving_size = 50;`. There are two variables: "moving_size" & "static_size," but we can say that the variable "static_size" is more dynamic than the other. This is because the value changes according to mouse press. (If you do not foresee values changing, you can also consider using `const`[^constant], a value that remains unchanged for the entire program.)
 
 There are two more variables in the example: `mouseX` and `mouseY`. These variables change and are subject to mouse movement for tracing the corresponding x and y coordinates. If you want to know the exact mouseX and mouseY coordinates, you can also use `print()` or `console.log()` to display the two values in the web console area. (A small exercise: How to write a line of code to display or print the mouseX value on the web console?)
 
@@ -172,9 +174,9 @@ Although it is commonplace to use the metaphor of a container to illustrate the 
 Technically speaking, by declaring a variable, it also declares an address where the computer memory can hold the value. In short, each variable is stored in a block of computer memory which is located inside physical and concrete memory like RAM that reconfigure the space. Each block has an identifier called the memory address so that the computer knows where to store it and retrieve it while the program is running. Creating and declaring a variable is not only a programming issue, hardware is also involved in space allocation for data storage. As such, software and hardware are inseparable, and it's just that we aren't able to see the inner micro-workings of a computer whilst it is handling data.[^chun]
 
 ### Why use variables?
-As you learn to program more complex software, you will discover that it is very common to use variables to store values and data. More importantly, the value of variables can be changed while a program is being run in real-time. The variables mentioned above: mouseX and mouseY illustrate this point because the mouse's coordinates change according to its movement. We will also discuss variables again in the next chapter when we introduce the concepts of array, loop, and repetition.
+As you learn to program more complex software, you will discover that it is very common to use variables to store values and data. More importantly, the value of variables can be changed while a program is being run in real-time. The variables mentioned above: `mouseX` and `mouseY` illustrate this point because the mouse's coordinates change according to its movement. We will also discuss variables again in the next chapter when we introduce the concepts of array, loop, and repetition.
 
-Another reason for using variables is that if you have longer lines of code, it is easier to have all the variables that you have declared for the program in an overview. If a variable is used in different parts of a complex program, you can simply change the value of the global variable instead of changing the multiple parts in the entire program, and this is useful for testing/refining the program without locating specific and multiple lines of code for modification. This leads to the reusability of variables. Variables can be used in different functions and more than once (and also as arguments passed to a function subroutine, something we will also discuss in the next chapter). A good example is the "static_size" variable in the sample code that is used to draw both the ellipse and the rectangle. As such, variables in the sample code deal with the changing and compositional shape-in-space.
+Another reason for using variables is that if you have longer lines of code, it is easier to have all the variables that you have declared for the program in an overview. If a variable is used in different parts of a complex program, you can simply change the value of the global variable instead of changing the multiple parts in the entire program, and this is useful for testing/refining the program without locating specific and multiple lines of code for modification. This leads to the reusability of variables. Variables can be used in different functions and more than once (and also as arguments passed to a function subroutine, something we will also discuss in the next chapter). A good example is the `static_size` variable in the sample code that is used to draw both the ellipse and the rectangle. As such, variables in the sample code deal with the changing and compositional shape-in-space.
 
 Additionally, it is also easier for others to read your code with a well-chosen variable name, or at least the variable name can suggest certain behaviors or actions. As you progress, you might write code collaboratively, or write a larger program with more lines of code, at which point it is important to think of the readability of code.
 
@@ -182,13 +184,13 @@ Additionally, it is also easier for others to read your code with a well-chosen 
 This section briefly introduces some other new functions in the full source code. Drawing and designing an emoji requires different decisions, in terms of shapes, color, and spatial composition.
 
 - `noStroke()`, `strokeWeight()`: These functions refer to the settings of a shape, where it has an outline, and the weight of the border.
-- `stroke()`, `fill()` and `nofill()`: These set the color of objects such as border, shapes, or text. It takes RGB (as default) or HSB color. But if the function has a single parameter, then it refers to gray scale shade between 0-255 [^binarycolor]. If the function has three parameters like `fill(255,255,0)`, then it means the object/shape/text will be filled with a yellow color (the mix of red and green with no blue). There is an optional parameter called "alpha", which refers to the opacity of the color, e.g. `fill(255,255,0,127)`.
+- `stroke()`, `fill()` and `nofill()`: These set the color of objects such as border, shapes, or text. It takes RGB (as default) or HSB color. But if the function has a single parameter, then it refers to gray scale shade between 0-255 [^binarycolor]. If the function has three parameters like `fill(255, 255, 0)`, then it means the object/shape/text will be filled with a yellow color (the mix of red and green with no blue). There is an optional parameter called "alpha", which refers to the opacity of the color, e.g. `fill(255, 255, 0, 127)`.
 - `rect()`: This is similar to drawing an ellipse, but is used to display a rectangle.
 - `vertex()`, `beginShape()` and `endShape(CLOSE)`: These three functions are used for drawing more complex forms using various vertices. The `vertex()` function indicates its x and y coordinates, and all the vertices can be joined using the "CLOSE" argument in `endShape()`. The `beginShape()` is used to record the start of the vertex for a complex form like a polygon.
-- `floor()`: Since the %`random()`% function returns a floating-point number, `floor()` is used to calculate the closest integer value.
+- `floor()`: Since the `random()` function returns a floating-point number, `floor()` is used to calculate the closest integer value.
 - `if (mouseIsPressed) {}`: This is a conditional structure for a program, constantly referring to mouse press actions. This is discussed in more detail below.
 
-## %Conditional structures%
+## Conditional structures
 
 Conditional structures are very useful as they allow you to set a different path by specifying conditions. Indeed, a conditional decision is not specific to programming. For example, in everyday life, you might say "If I am hungry, I should eat some food, if I am thirsty, I should drink some water, otherwise I will just take a nap."
 
@@ -196,7 +198,7 @@ Conditional structures are very useful as they allow you to set a different path
 //example in human language
 if (I am hungry) {
   eat some food;
-} else if(thirsty) {
+} else if (thirsty) {
   drink some water;
 } else{
   take a nap;
@@ -222,7 +224,7 @@ if (I am hungry) && (I am in a good mood) {
 }
 ```
 
-Here is a list of %relational operators% and logical symbols that can be used in conditional statements.
+Here is a list of relational operators and logical symbols that can be used in conditional statements.
 
 ```
 
@@ -237,14 +239,14 @@ Here is a list of %relational operators% and logical symbols that can be used in
    !=  not equal to
    !== inequality with strict type checking
    */
-   
+
    /*
    Logical Operators: boolean logic:
    &&  logical AND
    ||  logical OR
    !   logical NOT
    */
-   
+
    /*
    Example:
    if () {
@@ -272,14 +274,14 @@ if (x > 10 || x <= 20 ) {
     console.log("four");
 }
 ```
-## Basic Arithmetic Operators
-You can also do %arithmetic operations% in programming, and this is commonly done in the arguments of a function. Here is a list of basic arithmetic operators:
+## Basic arithmetic operators
+You can also do arithmetic operations in programming, and this is commonly done in the arguments of a function. Here is a list of basic arithmetic operators:
 
-- add(+): For addition and concatenation, which is applicable to both numbers and text/characters.
-- subtract(-)
-- multiply(\*)
-- divide(/)
-- Special operators: increment (++), decrement (--)   
+- add(`+`): For addition and concatenation, which is applicable to both numbers and text/characters.
+- subtract(`-`)
+- multiply(`*`)
+- divide(`/`)
+- Special operators: increment (`++`), decrement (`--`)   
 
 You can try the following in the web console area:
 
@@ -303,13 +305,13 @@ You can try the following in the web console area:
 
 ## While()
 
-The human face make a good starting point as we recognize it, even in its simplest form, something *Multi* seems to verify with its minimal rendering of three typographic elements. The face clearly occupies a central position in everyday life and social interaction, and it almost goes without saying that its features are perceived to display our uniqueness and individuality. But this is a surface reading only. Emojis operate in this way and seem to occlude the face of experience and its ability to express complex feelings. It is tempting to think that emojis, despite their name, stop short of emotions altogether.
+The human face make a good starting point as we recognize it easily, even in its simplest form, something *Multi* seems to verify with its minimal rendering of three typographic elements. The face clearly occupies a central position in everyday life and social interaction, and it almost goes without saying that its features are perceived to display our uniqueness and individuality. But this is a surface reading only. Emojis operate in this way and seem to occlude the face of experience and its ability to express complex feelings. It is tempting to think that emojis, despite their name, stop short of emotions altogether.
 
-In *A Thousand Plateaus*, Gilles Deleuze and Félix Guattari conceive of the face as "overcoded," imposed upon us universally, resonating with some of the comments we made earlier in this chapter about Unicode. Their main point is that the face — what they called the "facial machine" — is tied to a specific Western history of ideas (the face of Jesus Christ). This, in turn, situates the origins of the face with white ethnicity (despite Jesus's birthplace) and what they call "facialization" (the imposition onto the subject of the face) has been spread by white Europeans, and thus provides a way to understand racial prejudice: "Racism operates by the determination of degrees of deviance to the White man’s face...".[^DG] The face is thus understood as an "imperial machine," subsuming language and other semiotic systems. The face is part of a surface that promotes sameness and ultimately rejects variations.
+In *A Thousand Plateaus*, Gilles Deleuze and Félix Guattari conceive of the face as "overcoded," imposed upon us universally, resonating with some of the comments we made earlier in this chapter about Unicode. Their main point is that the face — what they called the "facial machine" — is tied to a specific Western history of ideas (e.g. the face of Jesus Christ). This, in turn, situates the origins of the face with white ethnicity (despite Jesus's birthplace) and what they call "facialization" (the imposition onto the subject of the face) has been spread by white Europeans, and thus provides a way to understand racial prejudice: "Racism operates by the determination of degrees of deviance to the White man’s face...".[^DG] The face is thus understood as an "imperial machine," subsuming language and other semiotic systems. The face is part of a surface that promotes sameness and ultimately rejects variations.
 
-%Facial recognition% technologies that are capable of identifying or verifying a person from a digital image or a video frame, seem to operate on these (imperialist) terms too. When a person is identified in this way, the person's facial shape and textures are matched against a model based on a standardized dataset (we will return to this discussion in Chapter 4, "Data capture"). Moreover, the datasets are based on a disproportionate number of white faces. Facial recognition systems therefore notoriously struggle to identify black people. This has led to significant problems not least when it comes to the use of these technologies for policing.
+Facial recognition technologies that are capable of identifying or verifying a person from a digital image or a video frame, seem to operate on these (imperialist) terms too. When a person is identified in this way, the person's facial shape and textures are matched against a model based on a standardized dataset (we will return to this discussion in Chapter 4, "Data capture"). Moreover, the datasets are based on a disproportionate number of white faces. Facial recognition systems therefore notoriously struggle to identify black people. This has led to significant problems not least when it comes to the use of these technologies for policing.
 
-Facial recognition systems also become unreliable when facial expressions vary, and even a big smile can render the results unreliable, so there is heavy irony that a smiley in real-life is likely to create difficulties in recognition. The iconic emoji smiley seems to further stress the point. The face may be able to escape overcoding under certain conditions, but emojis are quite literally "facial-machines" with prejudice built-in. Herein lies a challenge to having fun with programming: How to escape the overcoding and to develop alternative geometric shapes?
+Facial recognition systems also become unreliable when facial expressions vary, and even a big smile can falsify the results, so there is some irony that a smiley in real-life is likely to create difficulties in recognition (as if the social standard is unfriendliness). The iconic emoji smiley seems to further stress the point. The face may be able to escape overcoding under certain conditions, but emojis are quite literally "facial-machines" with prejudice built-in. Herein lies a challenge to having fun with programming: How to escape the overcoding and to develop alternative geometric shapes?
 
 Something of this logic is evident in another article by Femke Snelting, "Other Geometries," which discusses how geometric shapes can help resist sovereign infrastructures.[^Snelting] Thinking of something as simple as a circle, and how it is associated with collective forms in terms of space and structure, Snelting writes.
 
@@ -317,7 +319,7 @@ Something of this logic is evident in another article by Femke Snelting, "Other 
 
 Snelting is looking for other geometries that can escape normative configurations of collectivity. She also refers to the works of Zach Blas, known for his artistic interventions with facial recognition systems (*Facial Weaponization Suite*, 2011-14), to point to the geometric spaces between nodes and edges, and to draw more attention to relations. Beyond network imaginaries of decentralized and distributed forms that have historically been part of rethinking centralized power structures, the idea is to "bend our infrastructural desires in other directions," making further reference to the work of Anna Tsing and "messy geometries" inspired by Mycelium, the branching, thread-like root structures of fungi.[^Tsing]
 
-The challenge is to rethink normative geometries, to turn them upside down and inside out. Herein lies the challenge of the chapter, to escape geometric overcoding and to develop alternatives. Having fun with programming in this sense is the ability to modify forms and to diverge from established rules. When it comes to programming, the rules can be applied differently, adapted or modified, and even transformed altogether.
+The challenge then is to rethink normative geometries, to turn them upside down and inside out. Herein lies the purpose of the chapter, to escape geometric overcoding and to develop alternatives. Having fun with programming in this sense is the ability to modify forms and to diverge from established rules. When it comes to programming, the rules can be applied differently, adapted or modified, and even transformed altogether.
 
 
 <div class="section exercise" markdown="true">
@@ -333,6 +335,7 @@ The challenge is to rethink normative geometries, to turn them upside down and i
 * *AIMoji* by Process Studio (2019), <https://process.studio/works/aimoji-ai-generated-emoji/>, and as part of "Uncanny Values," Vienna Biennale (2019), <https://process.studio/works/uncanny-values/>.
 
 Some articles on emoji culture:
+
 * Steve Witt, "Chinese Characters as Ancient 'Emoji'," *Glocal Notes* (2015), <https://publish.illinois.edu/iaslibrary/2015/10/21/chinese-characters/>.
 * Michael Grothaus, "Women Finally Get a Menstruation Emoji," *Fastcompany* (2019), <https://www.fastcompany.com/90302946/women-finally-get-a-menstruation-emoji>.
 
@@ -356,7 +359,7 @@ Explore shapes, geometries, and other related syntax (via p5.js references) and 
 ## Further reading
 
 * Crystal Abidin and Joel Gn, eds., "Histories and Cultures of Emoji Vernaculars," *First Monday* 23, no. 9, September (2018), <https://firstmonday.org/ojs/index.php/fm/issue/view/607>.
-* Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-reviewed Journal About Machine Feeling* 8, no. 1 (2019), <https://aprja.net//issue/view/8133>.
+* Christian Ulrik Andersen and Geoff Cox, eds., *A Peer-Reviewed Journal About Machine Feeling* 8, no. 1 (2019), <https://aprja.net//issue/view/8133>.
 * Derek Robinson, "Variables," in Matthew Fuller, ed., *Software Studies: A Lexicon* (Cambridge, MA: MIT Press, 2008).
 
 ## Notes
