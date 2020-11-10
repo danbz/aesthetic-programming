@@ -141,6 +141,7 @@ h2#notes{
     margin-top: calc(-1 * var(--line-height)) !important;
 }
 
+div.footnote hr,
 h2#notes + hr {
     break-after: avoid !important;
 }
