@@ -544,7 +544,7 @@ Once you understand objects and classes, you can continue to work on a mini game
 * Daniel Shiffman, "16.17 Inheritance in JavaScript - Topics of JavaScript/ES6," <https://www.youtube.com/watch?v=MfxBfRD0FVU&feature=youtu.be&fbclid=IwAR14JwOuRnCXYUIKV7DxML3ORwPIttOPPKhqTCKehbq4EcxbtdZDXJDr4b0>.
 * Andrew P. Black, "Object-Oriented Programming: Some history, and challenges for the next fifty years" (2013), <https://arxiv.org/abs/1303.0427>.
 
-## Notes:
+## Notes
 
 [^history]: Simula, developed in the 1960s by Ole-Johan Dahl and Kristen Nygaard at the Norwegian Computing Center in Oslo, is considered to be the first object-oriented programming language. Smalltalk, first developed for educational use at Xerox Corporation's Palo Alto Research Center in the late 1960s and released in 1972, is cited more often. For more on the history of object-oriented programming languages, see Ole-Johan Dahl, "The Birth of Object Orientation: the Simula Languages," *Object-Orientation to Formal Methods*, Olaf Owe, Stein Krogdahl, Tom Lyche, eds., *Lecture Notes in Computer Science* 2635 (Berlin/Heidelberg: Springer, 2004), <https://link.springer.com/chapter/10.1007/978-3-540-39993-3_3>.
 
