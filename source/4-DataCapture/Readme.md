@@ -242,7 +242,7 @@ A new function `map()` (in Line 15) will be introduced to map a number across a 
 
 The function `userStartAudio()` will enable the program to capture the mic input on a user interaction event, and in this case it is the `mousePressed()` event. This is a practice enforced by many web browsers, including Chrome, in which users aware of the audio events happen in the background and to avoid auto play or auto capture features from a web browser.
 
-## Video/Face capture
+## Video<span style="font-family: HersheyNoailles; font-style: italic; font-weight:bold; vertical-align: -6px; line-height: 0;">/</span>Face capture
 ```javascript
 let ctracker;
 let capture;

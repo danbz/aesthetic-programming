@@ -3,6 +3,10 @@
 --line-height: 12.5pt;
 }
 
+.web-only {
+    display: none;   
+}
+
 @page {
     size: 203mm 276mm;
 }
@@ -95,6 +99,7 @@ counter-increment: page;
 
 h1 {
     break-before: right;
+    /*page: firstpage;*/
    string-set: title content(text); 
 }
 
@@ -111,6 +116,7 @@ h1 + p img {
     page: toc;
 }
 
+h1:before,
 h2#setup:before {
     content: "";
     width: 14cm;
@@ -121,6 +127,7 @@ h2#setup:before {
     left: -0.5cm;
     background-color: white;
 }
+h1:after {
 h2#setup:after {
     content: "";
     width: 14cm;

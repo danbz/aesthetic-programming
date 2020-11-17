@@ -106,7 +106,10 @@ While *10 Print* focuses both on instructions and randomness as generative proce
 
 The next section provides the sample code that simulates the cell states, presented as a two-dimensional grid system in either black or white. Based on simple rules (as described below), an ant is considered to be the sensor that processes the cell's data as input, then the cell will change its color and the ant will move in four possible directions. Gradually, the ant will turn the grid into a more complex system that exhibits emergent behavior.
 
-![drawing5](ch5_5.gif){: .medium}
+![drawing5](ch5_5_book.png){: .medium .print-only}
+:   *Figure 5.5: Langton's Ant - initial steps*
+
+![drawing5](ch5_5.gif){: .medium .web-only}
 :   *Figure 5.5: Langton's Ant - initial steps*
 
 With the ant initially facing up, Figure 5.5 shows the initial thirty-three steps of *Langton’s Ant* when it follows the two general rules below:
@@ -116,7 +119,10 @@ With the ant initially facing up, Figure 5.5 shows the initial thirty-three step
 
 In the beginning, the canvas only displays a grid system and all the individual cells are set to white. The ant has four possible directions it can move in — UP, RIGHT, DOWN, and LEFT — turning 90 degrees either left or right subject to the color of the cell it is on. The ant, located in the center of the white grid has its head pointing UP at the start. It then follows Rule 1 above to rotate the head direction from UP to RIGHT, thereby changing the white cell to black, and moving forward one unit. The second step is to follow Rule 1 again, because the new cell is still white. The ant's head direction will turn right 90 degrees and point from RIGHT to DOWN, and then it changes the white cell to black and the ant moves forward one unit. The third and forth steps are similar to the previous ones, until the ant encounters a black cell. At this point, the ant will follow Rule 2 and change the cell's color back to white, and then turn left 90 degrees instead of right. The complexity increases.
 
-![drawing6](ch5_6.gif){: .medium}
+![drawing6](ch5_6_book.png){: .medium .print-only}
+:   *Figure 5.6: Langton's Ant - process*
+
+![drawing6](ch5_6.gif){: .medium .web-only}
 :   *Figure 5.6: Langton's Ant - process*
 
 Figure 5.6 shows how the ant starts building the emergent "highway" pattern after the first few hundred moves with simple symmetrical patterns. Then the symmetry breaks down and the ants seems to move randomly at the center. After several thousand iterations, the ant then starts building a highway pattern, and repeats indefinately until most of the cells are reconfigured, leading to something that is similar to Figure 5.7, while the ant continues to move and change the color of cells.[^Moreira]

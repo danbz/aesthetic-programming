@@ -2,6 +2,7 @@ Title: Table of Contents
 page_order: -3
 
 ![flowchart](TOC.svg)
+{: style="text-align: center;"}
 
 - Colophon
 - TOC

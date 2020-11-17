@@ -418,14 +418,12 @@ a.footnote-ref {
     border: 1px dotted black;
     border-radius: 9px;
     text-decoration: none;
-    padding: 8px 3px 1px;
+    padding: 5px 4px 1px;
     line-height: 0;
     margin-left: 3px;
     font-size: 11px;
     vertical-align: -4px;
-    display: inline-block;
-    height: 1.25em;
-    min-width: 1.25em;
+    display: inline;
 }
 
 a.footnote-backref {
@@ -490,6 +488,18 @@ a.footnote-backref:hover {
 
 #showcase h3 {
     clear: both;
+}
+
+.img-broken {
+    width: 70%;
+    height: calc(12 * var(--line-height));
+    display: block;
+}
+figure.img-broken {
+    margin-bottom: calc(3 * var(--line-height));
+}
+img.img-broken {
+    padding: var(--line-height);
 }
 
 /* SYNTAX HIGHLIGHTING */
