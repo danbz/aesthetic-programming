@@ -161,10 +161,11 @@ This exercise is about getting the "key ID" and "Engine ID" from Google so that 
     * Make sure the "Search the entire web" is ON — blue indicates it is (see Figure 8.5)
 
 You should now finish modifying the settings, and now run the sample code with your own API Key and engine ID.
-</div>
 
 ![ch8_3b](ch8_3b.png){: .medium}
 :   *Figure 8.5: Google Custom Search interface - configuring search settings*
+</div>
+
 
 ## APIs
 

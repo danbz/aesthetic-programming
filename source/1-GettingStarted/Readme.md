@@ -198,7 +198,7 @@ For simplicity's sake, we use GitLab's web interface for some of our writing and
 
 If you need other features: previewing the markdown file, deleting or renaming files/folders, the GitLab Web IDE editor has some advanced features you can use (this is located at the top right, see Figures 1.13 and 1.14).
 
-![gitlab2](ch1_14.png)
+![gitlab2](ch1_14.png){: .medium}
 :    *Figure 1.14: The GitLab Web IDE*
 
 ## While()

@@ -3,6 +3,10 @@
     --line-height: 1.3em;
 }
 
+.print-only {
+    display: none;   
+}
+
 body  {
     display: flex;
     background-color: #F8F8F8;

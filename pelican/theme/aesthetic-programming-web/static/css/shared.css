@@ -377,12 +377,28 @@ h2 + ul {
 
 
 div.exercise {
-    outline: 4px double black;
-    padding: 1.5em;
-    /*padding-bottom: 0;*/
+    border-left: 4px double black;
+    border-right: 4px double black;
+    padding: 0;
     margin-bottom: 3em;
     margin-top: 1.5em;
-    border: 0;
+}
+div.exercise > * {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+div.exercise > ul,
+div.exercise > ol {
+    margin-left: 1.5em;
+}
+
+div.exercise h2 {
+    border-top: 4px double black;
+}
+div.exercise:after {
+    content: "";
+    display: block;
+    border-bottom: 4px double black;
 }
 
 div.exercise h2 {
@@ -418,14 +434,12 @@ a.footnote-ref {
     border: 1px dotted black;
     border-radius: 9px;
     text-decoration: none;
-    padding: 8px 3px 1px;
+    padding: 5px 4px 1px;
     line-height: 0;
     margin-left: 3px;
     font-size: 11px;
     vertical-align: -4px;
-    display: inline-block;
-    height: 1.25em;
-    min-width: 1.25em;
+    display: inline;
 }
 
 a.footnote-backref {
@@ -490,6 +504,18 @@ a.footnote-backref:hover {
 
 #showcase h3 {
     clear: both;
+}
+
+.img-broken {
+    width: 70%;
+    height: calc(12 * var(--line-height));
+    display: block;
+}
+figure.img-broken {
+    margin-bottom: calc(3 * var(--line-height));
+}
+img.img-broken {
+    padding: var(--line-height);
 }
 
 /* SYNTAX HIGHLIGHTING */

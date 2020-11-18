@@ -2,12 +2,13 @@ Title: Table of Contents
 page_order: -3
 
 ![flowchart](TOC.svg)
+{: style="text-align: center;"}
 
 - Colophon
 - TOC
 - OSP
 - Acknowledgments
-- Preface
+- **Preface**
   - What kind of book is this?
   - Why aesthetic programming?
   - And software studies?
@@ -15,7 +16,7 @@ page_order: -3
   - Flow of contents
   - The book object
   - Notes
-- Chapter 1: Getting started
+- **Chapter 1: Getting started**
   - setup()
   - start()
   - Working environment
@@ -31,7 +32,7 @@ page_order: -3
   - Required reading
   - Further reading
   - Notes
-- Chapter 2: Variable geometry
+- **Chapter 2: Variable geometry**
   - setup()
   - start()
   - Source code
@@ -49,7 +50,7 @@ page_order: -3
   - Required reading
   - Further reading
   - Notes
-- Chapter 3: Infinite loops
+- **Chapter 3: Infinite loops**
   - setup()
   - start()
   - Exercise in class (Decode)
@@ -70,7 +71,7 @@ page_order: -3
   - Required reading
   - Further reading
   - Notes
-- Chapter 4: Data capture
+- **Chapter 4: Data capture**
   - setup()
   - start()
   - Exercise in class (Decode)
@@ -92,7 +93,7 @@ page_order: -3
   - Required reading
   - Further reading
   - Notes
-- Chapter 5: Auto-generator
+- **Chapter 5: Auto-generator**
   - setup()
   - start()
   - Exercise in class (10 PRINT)
@@ -106,7 +107,7 @@ page_order: -3
   - Required reading
   - Further reading
   - Notes
-- Chapter 6: Object abstraction
+-**Chapter 6: Object abstraction**
   - setup()
   - start()
   - Exercise in class (Decode)
@@ -121,7 +122,7 @@ page_order: -3
   - Required reading
   - Further reading
   - Notes
-- Chapter 7: Vocable code
+- **Chapter 7: Vocable code**
   - setup()
   - start()
   - Exercise in class (Decode)
@@ -136,7 +137,7 @@ page_order: -3
   - Required reading
   - Further reading
   - Notes
-- Chapter 8: Que(e)ry data
+- **Chapter 8: Que(e)ry data**
   - setup()
   - start()
   - Exercise in class
@@ -153,7 +154,7 @@ page_order: -3
   - Required reading
   - Further reading
   - Notes
-- Chapter 9: Algorithmic procedures
+- **Chapter 9: Algorithmic procedures**
   - setup()
   - start()
   - Discussion in class
@@ -167,7 +168,7 @@ page_order: -3
   - Required reading
   - Further reading
   - Notes
-- Chapter 10: Machine unlearning
+- **Chapter 10: Machine unlearning**
   - setup()
   - start()
   - Between input and output
@@ -182,8 +183,7 @@ page_order: -3
   - Required reading
   - Further reading
   - Notes
-- Afterword: Recurrent Imaginaries
+- **Afterword: Recurrent Imaginaries**
   - Notes
 - Bibliography
 - List of Projects
-
