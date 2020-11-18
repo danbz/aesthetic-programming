@@ -23,21 +23,30 @@
       return line;
     }
 
-    var codeblocks = document.querySelectorAll('pre code.javascript');
+    var codeblocks = document.querySelectorAll('pre code');
     
     // Loop untill all codeblocks are replaced
     for (var i = 0; i < codeblocks.length; i++) {
       (function () {
         var codeblock = codeblocks[i],
             lineNumber = 1,
-            lineBuffer = [];
-            output = document.createElement('code');
+            lineBuffer = [],
+            output = document.createElement('code'),
+            language;
         
-        output.classList.add('cm-s-p5-widget');
+        if (codeblock.classList.contains('javascript')) {
+          language = 'javascript';
+        } else if (codeblock.classList.contains('html')) {
+          language = 'html';
+        } else if (codeblock.classList.contains('json')) {
+          language = 'json';
+        }
 
+        output.classList.add('cm-s-p5-widget');
+        
         CodeMirror.runMode(
           codeblock.textContent,
-          "javascript",
+          language,
           function (text, className) {
             if (text == '\n') {
               output.appendChild(makeLine(lineNumber, lineBuffer));
