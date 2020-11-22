@@ -1,7 +1,25 @@
 Title: Afterword: Recurrent imaginaries<sup id="fnref:title"><a class="footnote-ref" href="#fn:title">title</a></sup>
 page_order: 11
 
-![flowchart](afterword.svg)
+![flowchart](afterword.svg){: .flowchart-spread}
+
+
+![flowchart](afterword.svg){: .flowchart-spread style="left: -200mm;"}
+
+* * *
+
+![flowchart](afterword.svg){: .flowchart-spread style="left: -413mm;"}
+
+* * *
+
+![flowchart](afterword.svg){: .flowchart-spread style="left: -605mm;"}
+
+* * *
+
+![flowchart](afterword.svg){: .flowchart-spread style="left: -818mm;"}
+
+* * *
+
 
 [TOC]
 

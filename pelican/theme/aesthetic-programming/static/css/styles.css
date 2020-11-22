@@ -105,14 +105,17 @@ h1 {
 
 h1 + p img {
     break-after: left;
+    max-height: 18cm;
 }
 
 .toc:before {
     content: "Contents";
+    display: block;
 }
 .toc {
     /*break-before: left;*/
     break-after: right;
+    margin-top: 14px;
     page: toc;
 }
 
@@ -128,7 +131,6 @@ h2#setup:before {
     background-color: white;
 }
 h1:after {
-h2#setup:after {
     content: "";
     width: 14cm;
     height: 1cm;
@@ -137,6 +139,14 @@ h2#setup:after {
     top: 22cm;
     left: -0.5cm;
     background-color: white;
+}
+
+
+p:first-of-type {
+    /*padding-top: 0 !important;*/
+}
+h2 + p:first-of-type {
+    padding-top: var(--line-height) !important;
 }
 
 hr {
@@ -244,6 +254,19 @@ a.footnote-backref {
     display: none;
 }
 
+div,
+p {
+    widows: 3;
+    orphans: 3;
+}
+
+.flowchart-spread {
+    height: 19cm;
+    max-width: initial;
+    position: absolute;
+    top: 2cm;
+}
+
 /* SYNTAX HIGHLIGHTING FOR PRINT */
 :root {
     --light-gray: #000 !important;
@@ -254,3 +277,4 @@ a.footnote-backref {
     --pinkish: #000 !important;
     --dark-blueish: #000 !important;
 }
+
