@@ -200,7 +200,7 @@ Harman, Graham. *Object-Oriented Ontology: A New Theory of Everything*. London: 
 - ———. "Field Report for Critical Code Studies." *Computational Culture* 4. November 4 (2014). <http://computationalculture.net/field-report-for-critical-code-studies-2014%e2%80%a8/>.
 - Marks, Laura U, *Enfoldment and Infinity: An Islamic Genealogy of New Media Art*. Cambridge, MA: The MIT Press (2010).
 - Markham, Annette N.. “Taking Data Literacy to the Streets: Critical Pedagogy in the Public Sphere.” *Qualitative Inquiry* 26 (August 2019): 227-237.  
-- Marx, Karl and Frederick Engels. “The Communist Manifesto” [1848]. *Selected Works, Volume One*. Moscow: Progress Publishers, 1969, 98-137. <https://www.marxists.org/archive/marx/works/1848/communist-manifesto/>.
+- Marx, Karl, and Frederick Engels. “The Communist Manifesto” [1848]. *Selected Works, Volume One*. Moscow: Progress Publishers, 1969, 98-137. <https://www.marxists.org/archive/marx/works/1848/communist-manifesto/>.
 - Mastin, Luke, “The Story of Mathematics: 20TH CENTURY MATHEMATICS – TURING.” Last updated 2010. <http://storyofmathematics.lukemastin.com/20th_turing.html>.
 - Mateas, Michael. "Procedural Literacy: Educating the New Media Practitioner." *Horizon* 13, no. 2. June 1 (2005): 101–111.
 - Mateas, Michael, and Nick Montfort. “A Box, Darkly: Obfuscation, weird languages, and code aesthetics." Presented at the Proceedings of the 6th Digital Arts and Culture Conference. IT University of Copenhagen, DK, December, 2005, 144-153.
