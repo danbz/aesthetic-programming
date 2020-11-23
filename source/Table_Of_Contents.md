@@ -1,5 +1,5 @@
 Title: Table of Contents
-page_order: -3
+page_order: -1
 
 ![flowchart](TOC.svg)
 {: style="text-align: center;"}
@@ -13,7 +13,7 @@ page_order: -3
   - Flow of contents
   - The book object
   - Notes
-- Design notes
+- **Design notes**
 - **Chapter 1: Getting started**
   - setup()
   - start()

@@ -1,5 +1,5 @@
-Title: Colophon
-page_order: -4
+Title: Front colophon
+page_order: -2
 
 
 **AESTHETIC PROGRAMMING**<br>
