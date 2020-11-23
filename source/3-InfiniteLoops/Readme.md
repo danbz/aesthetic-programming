@@ -291,7 +291,9 @@ function draw(){
 
 - RunMe, <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch3_InfiniteLoops/>
 
-- Read the source code above. (A reminder of the code comments: 1) `//` indicates a single line comment and 2) `/*....*/` indicates multiple lines comments.)
+- Read the source code above. (A reminder of the code comments:
+    1. `//` indicates a single line comment
+    2. `/*....*/` indicates multiple lines comments.)
 - Use the decoding method that we introduced previously in this chapter, try to speculate, experiment, and map your thoughts to the source code.  
     - **Speculation**: Describe what you see/experience on screen.
         - What are the elements on screen?
