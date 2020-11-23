@@ -52,6 +52,7 @@ Showcase of students projects can be found at <https://gitlab.com/aesthetic-prog
 - Laczko, Juli. *webmachines*, Digital Power, ACM SIGGRAPH, 2020. <https://digital-power.siggraph.org/piece/webmachine/>.
 - Landsteiner, Norbert. *ELIZA Terminal*. 2005. <https://www.masswerk.at/elizabot/eliza.html>.
 - ———. *Eliza Test*. 2005. <https://www.masswerk.at/elizabot/eliza_test.html>.
+- Le Witt, Sol. *Wall Drawing #289*. 1976.
 - Li, Fei-Fei, Jia Deng, Olga Russakovsky, Alex Berg, Kai Li. *ImageNet*. Last updated 2016. <http://image-net.org/>.
 - Link, David. *Love Letters_1.0: MUC=Resurrection. A Memorial*. 2009. Exhibited dOCUMENTA(13), Kassel, 2012. <http://www.alpha60.de/art/love_letters/>.
 - Lorusso, Silvio. *The Best is Yet to Come*. 2012. <https://silviolorusso.com/work/the-best-is-yet-to-come/>.
@@ -100,7 +101,6 @@ Showcase of students projects can be found at <https://gitlab.com/aesthetic-prog
 - Visti, Anders, and Tobias Stenberg. *WUOUS: Wrocław Urban Operating System*. 2019. <https://andersvisti.dk/work/wuos-2019>.
 - Ward, Adrian. *Auto-Illustrator*. 2002. <http://www.medienkunstnetz.de/works/autoillustrator/>.
 - “wholepixel / solving-sol.” Github. <https://github.com/wholepixel/solving-sol/blob/master/289/cagrimmett/index.html>.
-- Witt, Sol Le. *Wall Drawing #289*. 1976.
 - “Wordnet: A Lexical Database for English.” Princeton University. <https://wordnet.princeton.edu/>.
 - Žilák, Martin. "recursive fractal tree in p5.js." n.d. <https://editor.p5js.org/marynotari/sketches/BJVsL5ylz>.
 
