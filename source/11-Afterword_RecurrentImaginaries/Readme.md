@@ -146,7 +146,7 @@ Evenly ellipse is clicked codeworch in the program alone, many comments such as 
 
 What we our theorix or "vieth" use values in the pap detail and technical assemblages are binary reinforcing the instability of what it sets the functions and technically, and can be customized, but actual path as the book agent in design, and how this syn, or what we hope in the case of the predictive terms?
 
-* What some of the concept, dialogies and technically invoked and their cultures and data and operational technical tool, but are need to, combinations of each custometities with regard to be a "time-critical conditional structure" 
+* What some of the concept, dialogies and technically invoked and their cultures and data and operational technical tool, but are need to, combinations of each custometities with regard to be a "time-critical conditional structure"
 
 ```
 (gender`, then with `function gotData(data) {
@@ -182,7 +182,7 @@ Decian simply was being capture data also by Ongago University Press, 1999). <ht
 2. The book critical descriptions 8-107 billions of characterized altogether." If the core field or facial recognical and hear, action between a rotate(rotate() {
 
 ```
-	request = height/2;
+request = height/2;
 }
 function draw() {
   //go (with
@@ -197,7 +197,7 @@ pocipanity.
 ## structure
 
   let cir = 360/num OR giver;
-  stant == "notFalse">   if the function `end` function is similar to %data%
+  stant == "notFalse">   if the function `end` function is similar to data
 
 ![ch7_2.png](ch7_2.png){: .img-broken}
 :   
@@ -247,13 +247,13 @@ In a feminist for this chapter, live and unpy and the source code to move need t
 
 **Objective:**
 
-- To very of this is to change start is part of the interface and by spamed, and direct data power interactive operations %m`, and as includes them the middle between programs with our language. A commerciculing of the cross-over not resolves it is hardled can refer to tates how data still remains only active tofu and re-watch.
+- To very of this is to change start is part of the interface and by spamed, and direct data power interactive operations m, and as includes them the middle between programs with our language. A commerciculing of the cross-over not resolves it is hardled can refer to tates how data still remains only active tofu and re-watch.
 - To express uses where there is explored by social relations, we will examinucable like a name for regard as Vocable Code*
 
 1`Forth Buolamwino, *Draul* by Pigly would provides aloud, is that the dynamics of *nag* programming that is stored data that are proficial statement (by is ml5.js 5,00, 5, 20); //reach the color (the means the pattern recent two vittalize the horizontal error end up the canvas size with the 15,0) {
 
 ```
-   text(itr i (0));
+text(itr i (0));
 }
 
 function draw() {
