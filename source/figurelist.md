@@ -45,13 +45,14 @@
 * Figure 6.2: A screenshot of the Eating tofu game
 * Figure 7.1: The installation of Vocable Code, detail
 * Figure 7.2: The live coding/educational version of Vocable Code
-* Figure 7.3: The font Type with Pride. Image from https://www.typewithpride.com/
-* Figure 7.4: Snippets of Vocable Code concerning the first conditional structure
-* Figure 7.5: Snippets of Vocable Code concerning the second conditional structure
-* Figure 7.6: Snippets of Vocable Code concerning the third conditional structure
-* Figure 7.7: Snippets of Vocable Code concerning the fourth conditional structure
+* Figure 7.3: Snippets of Vocable Code concerning textuality
+* Figure 7.4: The font Type with Pride. Image from https://www.typewithpride.com/
+* Figure 7.5: Snippets of Vocable Code concerning the first conditional structure
+* Figure 7.6: Snippets of Vocable Code concerning the second conditional structure
+* Figure 7.7: Snippets of Vocable Code concerning the third conditional structure
+* Figure 7.8: Snippets of Vocable Code concerning the fourth conditional structure
 * Figure 7.8: Snippets of the JSON file in Vocable Code
-* Figure 7.9: Snippets of Vocable Code concerning reading JSON
+* Figure 7.10: Snippets of Vocable Code concerning reading JSON
 * Figure 8.1: The net.art generator web interface with the input title "queeries"
 * Figure 8.2: The process of pixel manipulation
 * Figure 8.3: The manipulation of Warhol flowers

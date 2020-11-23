@@ -104,15 +104,15 @@ this.acts = function() {
   text(getQueer, this.xxxxx, this.yyyyy);
 }
 ```
-*Sketch 1: Snippets of Vocable Code concerning textuality*
+*Figure 7.3: Snippets of Vocable Code concerning textuality*
 
 ### Type
-`loadFont` (in Line 4) supports opentype font style (.otf and .ttf) and returns a PFont object through `withPride` in Sketch 1 above.
+`loadFont` (in Line 4) supports opentype font style (.otf and .ttf) and returns a PFont object through `withPride` in Figure 7.3 above.
 
 "Gilbert_TypeWithPride.otf" is a free font licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, and can be downloaded from the Internet[^font] (www.typewithpride.com). It is designed to honor the memory of Gilbert Baker the creator of the iconic Rainbow Flag who died in 2017.
 
 ![](ch7_2.jpg){: .medium}
-:   *Figure 7.3: The font Type with Pride. Image from https://www.typewithpride.com/*
+:   *Figure 7.4: The font Type with Pride. Image from https://www.typewithpride.com/*
 
 `textFont()` (in Line 16) means to get ready to print out or write the text with the chosen font, and in this case was previously defined through the returned PFont object `withPride`.
 
@@ -138,7 +138,7 @@ if (queers[WhoIsQueer].myStatement == "null" ||
 }
 ```
 
-*Figure 7.4: Snippets of Vocable Code concerning the first conditional structure*
+*Figure 7.5: Snippets of Vocable Code concerning the first conditional structure*
 
 The first statement uses the relational operator called **OR** (||) to check against the two conditions (the full list of relational operations is covered in the section of "Relational operations" in Chapter 2, "Variable geometry"). If either of the two is true the program will execute the next two lines of code (see Lines 3-4). Naturally, the two conditions might not be met, and, in that case, `else` is used. This block of code determines which new text object should be selected for display as each person can only contribute two spoken/text statements, and some may have provided one. As such, some checking logic needs to be implemented in order to display the text.
 
@@ -149,11 +149,11 @@ if (gender == abs(2)) {
 }
 ```
 
-*Figure 7.5: Snippets of Vocable Code concerning the second conditional structure*
+*Figure 7.6: Snippets of Vocable Code concerning the second conditional structure*
 
 The second one only uses the `if` statement and that means it will run the function `SpeakingCode` when the condition is met and it won't have an alternative route, meaning that the program will just exit the conditional structure, and continue the execution after the closing curly bracket.
 
-The conditional structure in Figure 7.5 is about identifying which text to speak aloud. Every new batch of text contains between two and four texts (see Line 19 in the later full source code), and the program picks the third one (knowing that an array starts with [0] index and points to the third item when the index is [2]). Based on the selected text, the program will play the corresponding voice file. `abs` is a syntax and function from p5 which calculates the "absolute" value of a number and only returns a positive value.
+The conditional structure in Figure 7.6 is about identifying which text to speak aloud. Every new batch of text contains between two and four texts (see Line 19 in the later full source code), and the program picks the third one (knowing that an array starts with [0] index and points to the third item when the index is [2]). Based on the selected text, the program will play the corresponding voice file. `abs` is a syntax and function from p5 which calculates the "absolute" value of a number and only returns a positive value.
 
 Of course, the selected line of code is specifically structured around wider political issues concerning gender and sexuality, and attempts to express ideas about queering code. Read aloud, the block of code might translate as: "If gender equals absolute two, speaking code, queers, who is queer, I am, making statements." Technically speaking, using the `abs` function is unnecessary and it could be also written to select another array's index. Code is constructed from language and can be poetic as the programmer can play with the structure, and experiment with symbols, and the syntactic logic. Since *Vocable Code* is also considered to be codework or code poetry, it invites both the audience and the machine to speak the code aloud (and proud).
 
@@ -170,9 +170,9 @@ function draw() {
     }
 }
 ```
-*Figure 7.6: Snippets of Vocable Code concerning the third conditional structure*
+*Figure 7.7: Snippets of Vocable Code concerning the third conditional structure*
 
-Figure 7.6 shows two conditional statements in the function `draw()`. The first if-statement checks for texts that are off canvas. This has to be done continuously because the off-screen text instances (objects) will be removed (using `splice`) to avoid unwanted elements/objects continuing to exist in the program (as was the case with the *Eating-tofu* game in Chapter 6, "Object abstraction"). The second if-statement checks how many texts remain on screen. If the screen contains less than or equal to two texts, then it will generate new texts with the function `makeVisible()`.
+Figure 7.7 shows two conditional statements in the function `draw()`. The first if-statement checks for texts that are off canvas. This has to be done continuously because the off-screen text instances (objects) will be removed (using `splice`) to avoid unwanted elements/objects continuing to exist in the program (as was the case with the *Eating-tofu* game in Chapter 6, "Object abstraction"). The second if-statement checks how many texts remain on screen. If the screen contains less than or equal to two texts, then it will generate new texts with the function `makeVisible()`.
 
 ```javascript
 //check disappeared objects
@@ -186,13 +186,13 @@ Figure 7.6 shows two conditional statements in the function `draw()`. The first 
    return status;
  };
 ```
-*Figure 7.7: Snippets of Vocable Code concerning the fourth conditional structure*
+*Figure 7.8: Snippets of Vocable Code concerning the fourth conditional structure*
 
-The last "if-else" conditional structure is set within the class method, as illustrated by Figure 7.6, and checks if the text is off canvas, particularly along the y-axis. In Figure 7.7, within the class's method `this.shows=function()`, the conditional statement incorporates the relational operator "OR" (`||`), in which neither condition needs to be "true" (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an `else` statement to handle the results of checking whether the conditions have been met. Therefore, it is read as if either one of the two conditions has been met, the variable `status` will be assigned as `notFalse` (this means the text is off screen at the top or bottom), and else if the text still remains on screen, the variable `status` will be assigned as `notTrue`. The values `notFalse` and `notTrue` belong to the `status` variable of the "String" type. However, in general programming practice, Boolean logic (with the "Boolean" type) tends to be understood as an absolute binary reality of "true" or "false." Initially, this seems fundamental to computational logic and can be relate this to the zeros and ones to which information is reduced in machine code. However, arguably and conceptually, `notFalse` and `notTrue` suggest an undoing of binary relations.  
+The last "if-else" conditional structure is set within the class method, as illustrated by Figure 7.8, and checks if the text is off canvas, particularly along the y-axis. Within the class's method `this.shows=function()`, the conditional statement incorporates the relational operator "OR" (`||`), in which neither condition needs to be "true" (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an `else` statement to handle the results of checking whether the conditions have been met. Therefore, it is read as if either one of the two conditions has been met, the variable `status` will be assigned as `notFalse` (this means the text is off screen at the top or bottom), and else if the text still remains on screen, the variable `status` will be assigned as `notTrue`. The values `notFalse` and `notTrue` belong to the `status` variable of the "String" type. However, in general programming practice, Boolean logic (with the "Boolean" type) tends to be understood as an absolute binary reality of "true" or "false." Initially, this seems fundamental to computational logic and can be relate this to the zeros and ones to which information is reduced in machine code. However, arguably and conceptually, `notFalse` and `notTrue` suggest an undoing of binary relations.  
 
 ## JSON
 
-Beyond the core source code, *Vocable Code* utilizes a text-based file (in JSON format) to store the data from all voice donors, including their written statements (see Figure 7.8). Using JSON (Javascript Object Notation), allows all the data in a JSON file to be updated without changing anything at JavaScript source code level.
+Beyond the core source code, *Vocable Code* utilizes a text-based file (in JSON format) to store the data from all voice donors, including their written statements (see Figure 7.9). Using JSON (Javascript Object Notation), allows all the data in a JSON file to be updated without changing anything at JavaScript source code level.
 
 ```
 {
@@ -217,7 +217,7 @@ Beyond the core source code, *Vocable Code* utilizes a text-based file (in JSON 
   }
 }
 ```
-*Figure 7.8: Snippets of the JSON file in Vocable Code*
+*Figure 7.9: Snippets of the JSON file in Vocable Code*
 
 JSON is an open-standard, independent file format, which is widely used for data storage and communication on the internet, and in software applications. This format can be read and processed by many programming languages such as JavaScript. A piece of software implements computational logic to manipulate data, such as retrieving and displaying data on a screen in any color, size, and at any tempo. This kind of separation of data and computational logic is common in software development. Google, for example, offers its web or image search results in JSON format using its Application Programming Interfaces (APIs). More on APIs in the next chapter.
 
@@ -231,7 +231,7 @@ JSON looks similar to JavaScript in terms of its use of arrays and objects, but 
 * Comments are not allowed.
 * No other computational logics like conditional structures or for-loop can be used.
 
-To process the JSON file in Figure 7.8, you need to use the syntax `loadJSON()` in p5.js. See how this is put together in a sketch:
+To process the JSON file in Figure 7.9, you need to use the syntax `loadJSON()` in p5.js. See how this is put together in a sketch:
 
 **Step 1: loadJSON (to load the specific file and path)**
 ```javascript
@@ -252,7 +252,7 @@ function makeVisible() {
 ```
 
 ![](ch7_4.png)
-:   *Figure 7.9: Snippets of Vocable Code concerning reading JSON*
+:   *Figure 7.10: Snippets of Vocable Code concerning reading JSON*
 
 After loading the JSON file `voices.json` the program then points at the `queers` array and looks for the name/value pairs `iam` and `makingStatements` from the randomly selected possible statements to call (among `yourStatement` and `myStatement`). Lastly, the function `SpeakingCode` is called. Figure 7.9 illustrates how communication is affected between the source code (on hte left) and the JSON file (on the right), passing the data (between the JSON file and the program) so it can be displayed on screen.
 
@@ -274,7 +274,7 @@ function speakingNow() {
 
 All the voice files are stored in the "wav" sound file format. The files are named according to a specific convention that follows the field `iam` in the JSON file. In this way, we can link, or "concatenate" (in programming terms), all the pieces using the operator `+` so the specific voice file is retrieved and played: `let getVoice = "voices/" + iam + makingStatements + ".wav";`. As discussed above, the voice selected is synchronized with the text on screen.
 
-There is a p5.sound library which extends p5 with web audio functionality to deal with sound, or, in this case, to play a voice file. Among many sound-related functions like capturing/listening from an audio input (as we have demonstrated in Chapter 4, "Data capture"), we simply need methods to load and play the sound files. To do so, `loadSound()` is used as a callback to make sure the sound is fully loaded (it takes time as it also involves file size issues, memory, and hardware) before the function `speak.play()` is invoked (see Figure 7.9).
+There is a p5.sound library which extends p5 with web audio functionality to deal with sound, or, in this case, to play a voice file. Among many sound-related functions like capturing/listening from an audio input (as we have demonstrated in Chapter 4, "Data capture"), we simply need methods to load and play the sound files. To do so, `loadSound()` is used as a callback to make sure the sound is fully loaded (it takes time as it also involves file size issues, memory, and hardware) before the function `speak.play()` is invoked (see Figure 7.10).
 
  `loadSound()` can be used in the `Preload()` function where files can be loaded in advance by specifying the files' paths. However, the idea behind *Vocable Code* is more poetic, and keeping the JavaScript source code as the core corpus is part of the concept. Instead of using `Preload()`, the program uses the "callback function"[^callback] to load the sound which might not be the most efficient way as it incurs buffering problems while loading the files on-the-fly. But this way of working with code opens up thinking about language structures, what it means to load, and play/speak the files/voices in real-time and repeatedly, and which forms of instability of expression are invoked.
 
