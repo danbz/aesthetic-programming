@@ -47,6 +47,7 @@ Flowcharts are used across many disciplines, both technical and artistic. For ex
 In this chapter's miniX, you will be asked to collaboratively produce a flowchart for a new project idea. By now you are probably more confident building a more complex program that incorporates a variety of syntax, so organization presents itself as a more challenging and necessary task. We have found that one of the difficulties people face is how to combine and link various functions, and to break down a task into smaller, sequential steps. We think a flowchart is an effective means of formulating ideas, generating discussion, observing relations, predicting technical challenges, and providing a means for cooperation on a project. If tasks need to be sub-divided among a group, for instance, flowcharts can be used to identify how a smaller task can be linked to others without losing site of the bigger picture.
 
 Some of the challenges to turning an existing program into a flowchart include:
+
 1. Translating programming syntax and functions into understandable, plain language.
 2. Deciding on the level of detail on important operations to allow other people to understand the logic of your program.
 

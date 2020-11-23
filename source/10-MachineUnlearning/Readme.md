@@ -54,11 +54,11 @@ In the following exercise,[^michelle] we will use the experimental AI project *T
 
 This web application includes input, learning, and output. By capturing images via your web camera, the program utilizes images as input data and there are three "training classifiers" you can play with.
 
-What to do:
+**What to do:**
 
 Prepare three set of gestures that can be captured by the web camera. Each gesture has to be repeatedly trained by long-pressing the colored "TRAIN" button, and this generates the machine learning model based on the captured images as input data (also called the "training dataset") (see Figure 10.3). This process is used to train a computer to recognize the specific gestures/images/poses so that when there is a new image input (a so-called "test dataset"), the learning/teachable machine can classify those gestures with various confidence levels, and then predict the corresponding output results. The three default output modes (GIF, Sound, Speech) can be further modified by searching for other sets of images, sounds and texts.
 
-The simplest way to start is:
+**The simplest way to start is:**
 
 1. Train the machine using three different sets of gestures/facial expressions, then observe the predictive results shown as various outputs.
 2. Test the boundaries of recognition or classification problems, such as having a different test dataset, or under different conditions such as variable lighting and distancewe. What can, and cannot, be recognized?
