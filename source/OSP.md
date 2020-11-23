@@ -1,7 +1,7 @@
-Title: OSP
+Title: Design notes
 page_order: -2
 
-## OSP
+## Design notes
 Open Source Publishing questions the influence and affordance of digital
 tools through its practice of (commissioned) graphic design, pedagogy,
 and applied research. Hence they prefer to use exclusively free and open

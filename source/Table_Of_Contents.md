@@ -4,10 +4,7 @@ page_order: -3
 ![flowchart](TOC.svg)
 {: style="text-align: center;"}
 
-- Colophon
 - TOC
-- OSP
-- Acknowledgments
 - **Preface**
   - What kind of book is this?
   - Why aesthetic programming?
@@ -16,6 +13,7 @@ page_order: -3
   - Flow of contents
   - The book object
   - Notes
+- Design notes
 - **Chapter 1: Getting started**
   - setup()
   - start()
@@ -187,3 +185,5 @@ page_order: -3
   - Notes
 - Bibliography
 - List of Projects
+- Acknowledgments
+- Colophon
