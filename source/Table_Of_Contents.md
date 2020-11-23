@@ -5,6 +5,7 @@ page_order: -1
 {: style="text-align: center;"}
 
 Table of Contents
+
 **Preface**
   - What kind of book is this?
   - Why aesthetic programming?
