@@ -30,7 +30,8 @@ page_order: 12
 - Bellacasa, Maria Puig de la. “Matters of Care in Technoscience: Assembling Neglected Things.” *Social Studies of Science* 41 (February 2011): 85–106.
 - Benjamin, Ruha. “Are Robots Racist: Reimagining the Default Settings of Technology and Society.” Dropbox Lecture video, 23:23, 2019. <https://www.dropbox.com/s/j80s8kjm63erf70/Ruha%20Benjamin%20Guest%20Lecture.mp4>.
 - Benjamin, Ruha. *Race After Technology: Abolitionist Tools for the New Jim Code*. Cambridge: Polity, 2019.
-- Benjamin, Walter. "The Work of Art in the Age of Mechanical Reproduction" [1936]. In *Selected Writings, Volume 3, 1935–1938*. Edited by Howard Eiland and Michael W. Jennings. Cambridge, MA: Belknap Press of Harvard University Press, 2002.
+- Benjamin, Walter. "The Author as Producer" [1934]. In *Selected Writings, Volume 2, 1931–1934*. Edited by Howard Eiland, Michael W. Jennings, and Gary Smith. Cambridge, MA: Belknap Press of Harvard University Press, 2005.
+- ———. "The Work of Art in the Age of Mechanical Reproduction" [1936]. In *Selected Writings, Volume 3, 1935–1938*. Edited by Howard Eiland, and Michael W. Jennings. Cambridge, MA: Belknap Press of Harvard University Press, 2002.
 - Bennett, Jane. *Vibrant Matter: A Political Ecology of Things*. Durham, NC: Duke University Press, 2009.
 - Berardi, Franco “Bifo.” “The Neuroplastic Dilemma: Consciousness and Evolution.” *e-flux* journal no. 60 (December 2014). https://www.e-flux.com/journal/60/61034/the-neuroplastic-dilemma-consciousness-and-evolution/.
 - ———. *Precarious Rhapsody: Semiocapitalism and the pathologies of the post-alpha generation*. Translated by Arianna Bove, Erik Empson, Michael Goddard, Giuseppina Mecchia, Antonella Schintu and Steve Wright. London: Minor Compositions, 2009.
