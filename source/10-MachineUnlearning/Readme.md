@@ -247,7 +247,7 @@ Apart from the new ml5.js, the HTML file contains the following DOM elements (se
 1. **A text input box** for entering seed/input text. In this example, we have used "Afterword: Recurrent Imaginaries" as a sequence input to generate the next character, continuously forming a new seed sequence for next character prediction: `<input id="textInput" value="Afterword: Recurrent Imaginaries" size="30"/>`
 2. **A slider for selecting the number of generated characters** with a range from 100 to 2,000: `<input id="lenSlider" type="range" min="100" max="2000" value="1000"/>`
 3. **A slider for setting the temperature** (the value that controls the amount of uncertainty of predictions)[^temp] which has a range from 0 to 1: `<input id="tempSlider" type="range" min="0" max="1" step="0.01"/>`
-4. **The text shows the status** of the program, e.g. "Loading Model," "Model Loaded," "Generating...," "Ready!": `<p id="status">Loading Model</p>`
+4. **The text shows the status** of the program, e.g. "Loading Model," "Model Loaded," "Generating…," "Ready!": `<p id="status">Loading Model</p>`
 5. **A clickable button** bearing the word "generate": `<button id="generate">generate</button>`
 6. **A result area** that displays the generative text: `<p id="result"></p>`
 
@@ -262,7 +262,7 @@ let charRNN;
 
 function setup() {
     charRNN = ml5.charRNN('./models/AP_book/', modelReady);
-    ...
+    …
 }
 ```
 
@@ -270,7 +270,7 @@ The program collects data in the form of objects (using the `select` syntax to s
 
 ```javascript
 function setup() {
-...
+…
   // Grab the DOM elements
   textInput = select('#textInput');
   lengthSlider = select('#lenSlider');
@@ -281,7 +281,7 @@ function setup() {
   button.mousePressed(generate);
   lengthSlider.input(updateSliders);
   tempSlider.input(updateSliders);
-...
+…
 }
 ```
 
@@ -289,14 +289,14 @@ The key data required for the generator are the seed text, temperature, and leng
 
 ```javascript
 function generate() {
-...
+…
     let data = {
         seed: txt,
         temperature: tempSlider.value(),
         length: lengthSlider.value()
     };
     charRNN.generate(data, gotData);
-...
+…
 }
 ```
 
@@ -304,9 +304,9 @@ Finally, the result will be displayed on screen with the `gotData()` function. N
 
 ```javascript
 function gotData(err, result) {
-...
+…
     select('#result').html(txt + result.sample);
-...
+…
 }
 ```
 
@@ -329,9 +329,9 @@ The example presents a reductive equivalence between human and machine vision. B
 
 If visual literacy is no longer simply an educational task for humans, but also for machines, then it becomes a question of human-machine literacy in its broadest sense. In many ways, John Berger's *Ways of Seeing* continues to be a useful reference we think. Of course much has changed since Berger wrote that the "relation between what we see and what we know is never settled,"[^Berger] but given what we do know about machine learning, we might indeed ask how that relationship has been further unsettled.[^cox] That machines can be said to "see" or "learn" is shorthand for calculative practices that only approximate likely outcomes by using various algorithms and models. What constitutes knowledge can be seen to be arranged in ways that further recall Berger's reflections on the medium of television through which his ideas were broadcast:
 
->"But remember that I am controlling and using for my own purposes the means of reproduction needed for these programmes [...] with this programme as with all programmes, you receive images and meanings which are arranged. I hope you will consider what I arrange but please remain skeptical of it."[^Berger2]
+>"But remember that I am controlling and using for my own purposes the means of reproduction needed for these programmes […] with this programme as with all programmes, you receive images and meanings which are arranged. I hope you will consider what I arrange but please remain skeptical of it."[^Berger2]
 
-We would like to reiterate this here and encourage deep reflection on the means of production — including books like this, and perhaps those that relate to teaching and learning are particularly suspect. What is learnt should not be separated from the means by which it is transmitted, nor the direction of travel from human to machine or from machine to human. More to the point, the production of meaning lies at the core of our discussion, as are concerns about what is being learnt, and to what extent this has been compromised or inflected by reductive ideas of how the world operates. Mackenzie asks, "Does the somewhat unruly generalization of machine learning [...] attest to a redefinition of knowledge, decision, and control, a new operational formation in which a 'system is transformed'?"[^Learners] Under these conditions, the relations between human and machine learning become blurry. The overall idea of learning implies new forms of control over what and how something becomes known. Here Mackenzie builds on Foucault to understand machine learning as a form of knowledge production and as a strategy of power. He tries to understand how machine learners produce different kinds of knowledge through their differences, for instance the ways they classify, and categorize data (e.g. this image of a person is a specific gender, race, likely terrorist, etc.). Knowledge is often set at the lowest common denominator in such cases, backed up by the enormous infrastructural power of the companies that profit from this as is the case for platform-based media empires such as Amazon and Google who have invested massively in this technology (so that users can supply data and learn to be better consumers). In summary there are some serious worries about the forms of knowledge produced by machine learning given the broader context in which it arises. Being smart in this respect is also superficial learning.
+We would like to reiterate this here and encourage deep reflection on the means of production — including books like this, and perhaps those that relate to teaching and learning are particularly suspect. What is learnt should not be separated from the means by which it is transmitted, nor the direction of travel from human to machine or from machine to human. More to the point, the production of meaning lies at the core of our discussion, as are concerns about what is being learnt, and to what extent this has been compromised or inflected by reductive ideas of how the world operates. Mackenzie asks, "Does the somewhat unruly generalization of machine learning […] attest to a redefinition of knowledge, decision, and control, a new operational formation in which a 'system is transformed'?"[^Learners] Under these conditions, the relations between human and machine learning become blurry. The overall idea of learning implies new forms of control over what and how something becomes known. Here Mackenzie builds on Foucault to understand machine learning as a form of knowledge production and as a strategy of power. He tries to understand how machine learners produce different kinds of knowledge through their differences, for instance the ways they classify, and categorize data (e.g. this image of a person is a specific gender, race, likely terrorist, etc.). Knowledge is often set at the lowest common denominator in such cases, backed up by the enormous infrastructural power of the companies that profit from this as is the case for platform-based media empires such as Amazon and Google who have invested massively in this technology (so that users can supply data and learn to be better consumers). In summary there are some serious worries about the forms of knowledge produced by machine learning given the broader context in which it arises. Being smart in this respect is also superficial learning.
 
 All these ideas provide starting points for further work and reflection.[^refs] The interplay between truth and fiction is part of this, and "deepfakes" for example (a wordplay on deep learning) would make a good additional case study for the way in which synthetic instances can pass for real data. A brief description of this process, and the operations of "Generative Adversarial Networks" (GANs) might make a useful addition here.[^GAN] With a GAN, two neural nets — a "Generator" that forges a new data instance, and a "Discriminator" that then distinguishes fake data created by the Generator from real data — challenge each other with increasingly realistic fakes, both optimizing their strategies until their generated data is indistinguishable from the real data. This is also a (unsupervised) method of training that doesn’t rely on the tagging of input images by humans as the machine generates groupings based on its own analysis. Might critical theory learn from this, something that resonates with dialectical materialism in which everything is considered to be in a process of transformation through contradiction, and becomes a technical reality? Might such an approach open up alternatives to the conflation of computational logics and politics?[^transmediale]
 

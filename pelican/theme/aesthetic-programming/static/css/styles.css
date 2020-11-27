@@ -1,6 +1,6 @@
 :root {
---font-size: 10pt;
---line-height: 12.5pt;
+--font-size: 13px;
+--line-height: 16px;
 }
 
 .web-only {
@@ -144,6 +144,15 @@ h1#FrontColophon:after {
     page: toc;
 }
 
+.toc li {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.toc a {
+    border: 0;
+}
+
 h1:before,
 h2#setup:before {
     content: "";
@@ -166,6 +175,21 @@ h1:after {
     background-color: white;
 }
 
+figure,
+h2 {
+    -webkit-break-inside: avoid;
+            break-inside: avoid;
+       page-break-inside: avoid;
+       /* column break ? */
+}
+
+/* astuce pour garder des lignes après des titres */
+h2::after {
+    content: "";
+    display: block;
+    height: 48pt;
+    margin-bottom: -48pt;
+}
 
 p:first-of-type {
     /*padding-top: 0 !important;*/
@@ -189,8 +213,6 @@ h2#notes + hr {
 }
 
 div.footnote ol {
-    font-size: 9px;
-    line-height: 13px;
     margin: 0;
     margin-top: var(--line-height);
     padding: 0;
@@ -216,10 +238,6 @@ pre .CodeMirror-line {
     font-family: ocr-pbi;
 }
 
-h2, h3 {
-    padding-top: calc(1*var(--line-height));
-    padding-bottom: 0;
-}
 
 #book-index {
     break-before: page;

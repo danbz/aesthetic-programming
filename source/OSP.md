@@ -1,7 +1,8 @@
 Title: Design notes
 page_order: -1
 
-## Design notes
+
+<!--
 Open Source Publishing questions the influence and affordance of digital
 tools through its practice of (commissioned) graphic design, pedagogy,
 and applied research. Hence they prefer to use exclusively free and open
@@ -9,6 +10,7 @@ source softwares (F/LOSS). Currently the group is composed of people
 with backgrounds in graphic design, typography, and software development. They
 find excitement in the cross-over between its members respective fields
 and competences.
+-->
 
 ### Book layout
 Since 2013, OSP makes printed publications with web technologies: HTML,
@@ -30,7 +32,7 @@ All fonts of the book have been chosen because they were drawn
 with code.
 
 Body and headers fonts used in this book are part of a larger font
-family drawn by A.V. Hershey in the 1960s and were developed specifically
+family drawn by A.V. Hershey in the 1960s and were developed specifically
 for vector plotters. Limited by the technical limitations of these
 plotters, curves are segmented into small, straight lines. Furthermore, as
 vector plotters draw using a single line width, varying line thickness

@@ -181,7 +181,7 @@ let imgSize ="medium";
 let request; //full API
 
 function setup() {
-	...
+	…
 	fetchImage();
 }
 
@@ -267,7 +267,7 @@ Each pixel selected contains color information that is the R (red), G (green), B
 
 `loc` is a variable for storing pixel information. Each pixel position needs to be clearly located so that a line can be drawn at the right position. Following the function `Pixels()`, each pixel takes up four locations: The first pixel with the four RGBA values, then the second pixel with another four RGBA values, and so on, and so forth:
 
-pixels = [p1, p1, p1, p1, p2, p2, p2, p2, p3, p3, p3, p3...]
+pixels = [p1, p1, p1, p1, p2, p2, p2, p2, p3, p3, p3, p3…]
 
 Therefore, the pixel consists of four different locations, each one storing a single value relating to a single pixel. The formula for locating a specific pixel is `loc = (img_x+img_y * img.width)*4;`. The use of `img.pixels[loc]`, `img.pixels[loc+1]`, `img.pixels[loc+2]` locates the respective RGB values using the function `pixels[]`.
 

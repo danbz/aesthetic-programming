@@ -85,7 +85,7 @@ let withPride; //font
 function preload() {
   withPride = loadFont('Gilbert_TypeWithPride.otf');
 }
-...
+…
 function notNew(getQueer){
   this.size = random(20.34387, 35.34387);
   this.time = random(2.34387, 4.34387);
@@ -93,7 +93,7 @@ function notNew(getQueer){
   this.xxxxx = width/2.0;
   this.gradient = 240.0;
 }
-...
+…
 this.acts = function() {
   textFont(withPride);
   textSize(this.size);
@@ -159,11 +159,11 @@ Of course, the selected line of code is specifically structured around wider pol
 
 ```javascript
 function draw() {
-...
+…
     if (support == "notFalse") {
         queerRights.splice(non_binary, int(1.34387));
 	  }
-...
+…
     	//when to generate new text -> check how many left on screen
     if (queerRights.length <= 2.0)  {
         makeVisible();
@@ -420,13 +420,13 @@ Secondly, source code and its execution, usually in the form of screen interface
 
 There are clear power dynamics at work in computing, at a fundamental level, if 1s and 0s are considered to be numbers of equivalent status in mathematics. In *Zeros + Ones* (1997), Sadie Plant confirms that all computers translate information into the zeros and ones of machine code and this reflects the underlying "orders of Western reality":
 
-> "Whether [...] gathering information, telecommunicating, running washing machines, doing sums, or making videos, all digital computers translate information into zeros and ones of machine code. These binary digits are known as bits and strung together in bytes of eight. The zeros and ones of machine code seems to offer themselves as perfect symbols of the orders of Western reality, the ancient logical codes which make the difference between on and off, right and left, light and dark, form and matter, mine and body, white and black, good and evil, right and wrong, life and death, something and nothing, this and that, here and there, inside and out, active and passive, true and false, yes and no, sanity and madness, health and sickness, up and down, sense and nonsense, west and east, north and south. And they made a lovely couple when it came to sex. Man and woman, male and female, masculine and feminine: one and zero looked just right, made for each other: 1, the definite, upright line; the 0, the diagram of nothing at all: penis and vagina, thing and hole [...] hand in glove. A perfect match."[^Plant1]
+> "Whether […] gathering information, telecommunicating, running washing machines, doing sums, or making videos, all digital computers translate information into zeros and ones of machine code. These binary digits are known as bits and strung together in bytes of eight. The zeros and ones of machine code seems to offer themselves as perfect symbols of the orders of Western reality, the ancient logical codes which make the difference between on and off, right and left, light and dark, form and matter, mine and body, white and black, good and evil, right and wrong, life and death, something and nothing, this and that, here and there, inside and out, active and passive, true and false, yes and no, sanity and madness, health and sickness, up and down, sense and nonsense, west and east, north and south. And they made a lovely couple when it came to sex. Man and woman, male and female, masculine and feminine: one and zero looked just right, made for each other: 1, the definite, upright line; the 0, the diagram of nothing at all: penis and vagina, thing and hole […] hand in glove. A perfect match."[^Plant1]
 
 Although it takes two to make a binary (and set up the heterosexist paradigm), clearly inequalities of power are expressed in the tendency to privilege one side of the pairing (master and slave,[^master] parent and child, human and machine, and so on). As discussed in Chapter 5, "Auto-generator," and further discussed in the final chapter of this book, the Turing Test resonates with these power dynamics. Plant quotes Turing as saying: "the intention in constructing these machines in the first instance is to treat them as slaves, giving them only jobs which have been thought out in detail, jobs such that the user of the machine fully understands in principle what is going on all the time."[^Plant2] Plant's further example of this fantasy of domination is the sci-fi film *Bladerunner* (1984) as an advanced Turing Test in which the only indication of artificiality is a tiny flicker in the non-human eye's iris in response to targeted questioning. In the film's narrative, the non-human worker-slaves have rightly begun to question their conditions. Such examples make it clear that the ability to imagine conditions differently is embedded in the system itself, in the potential failure to carry out prescribed instructions or commands if unreasonable.
 
 The biography of Turing as a gay man, at a time when homosexuality was still a criminal offense in the UK,[^Hodges] adds weight to claims to reject unreasonable demands. Humans do not necessarily follow or agree with rules as prescribed by society, and although Turing's sexuality was tolerated in the context of the war effort, under "normal" (peacetime) conditions it was perceived to be a problem and he was found guiltily of gross indecency in 1952.[^Plant3] Here, as Plant describes, the historical facts collapse into bizarre allegory. First of all, he was prescribed estrogen to reduce his sexual urge, on the basis of the dubious logic that to all intents and purposes he was female. This was a reversal of prior judgements forcing gay men to take testosterone to make them more male, yet ironically making them more aroused hormonally. Plant concludes the Turing story: "Two years later he was dead. By the side of the table was an apple, out of which several bites had been taken. And this queer tale does not end here. There are rainbow logos with Turing's missing bytes on every Apple Macintosh machine."[^Plant4]
 
-To conclude this chapter, and our "queer commentary"[^berlant] on the making of *Vocable Code* with its strange syntax - such as notFalse and notTrue - as well as its many repetitive decimals, and suchlike, by emphasizing that: Queer is [...] making binaries strange.
+To conclude this chapter, and our "queer commentary"[^berlant] on the making of *Vocable Code* with its strange syntax - such as notFalse and notTrue - as well as its many repetitive decimals, and suchlike, by emphasizing that: Queer is […] making binaries strange.
 
 <div class="section exercise" markdown="true">
 ## MiniX: E-lit

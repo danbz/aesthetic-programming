@@ -84,6 +84,7 @@ function draw() {
 ```
 </div>
 
+* * *
 
 The above code draws various shapes and performs simple interactions:
 
@@ -112,10 +113,8 @@ function draw() {
 }
 ```
 
-![](ch2_4.png)
-:   *Figure 2.3: Simple exercise*
-
 Remember the structure of a web page/application should include the HTML, a working JavaScript file (for example, sketch.js), as well as the associated p5.js libraries.  
+
 
 - Type/copy the above source code in the working JavaScript file, then save the code. Run the program on Atom (with the live-atom-server) and, on screen, the background should flash.
 - There are few new examples of syntax, or a slightly different use of syntax, here:
@@ -124,6 +123,9 @@ Remember the structure of a web page/application should include the HTML, a work
 - Next you need to remember how to use the web console (Under Tools > Web Developer > Web Console on Firefox).
     - Type `print(width);` and then press enter.
     - Type `console.log(width, height);` and then press enter.
+
+![](ch2_4.png)
+:   *Figure 2.3: Simple exercise*
 
 When you type the syntax `print(width);` the web console area (see Figure 2.3) displays the actual width in pixels. Additionally, if you use `console.log(width, height);`, which is the equivalent of the print function in JavaScript (not a p5.js function), the screen displays two numbers according to your screen size (you may adjust the screen and try again to get a different number). With just two lines in the web console area, you have asked the program to give you the values for the width and height of the canvas. The program understands the two names "width" and "height" as they are pre-set names in p5.js which you can use specifically for asking the dimensions of the canvas.
 </div>
@@ -139,9 +141,9 @@ It is important to note that you can also assign your own variable names (in oth
 ```javascript
 let moving_size = 50;
 let static_size = 20;
-...
+…
 ellipse(255, 350, static_size, static_size);
-...
+…
 ellipse(mouseX, mouseY, moving_size, moving_size);
 
 if (mouseIsPressed) {
@@ -307,7 +309,7 @@ You can try the following in the web console area:
 
 The human face make a good starting point as we recognize it easily, even in its simplest form, something *Multi* seems to verify with its minimal rendering of three typographic elements. The face clearly occupies a central position in everyday life and social interaction, and it almost goes without saying that its features are perceived to display our uniqueness and individuality. But this is a surface reading only. Emojis operate in this way and seem to occlude the face of experience and its ability to express complex feelings. It is tempting to think that emojis, despite their name, stop short of emotions altogether.
 
-In *A Thousand Plateaus*, Gilles Deleuze and Félix Guattari conceive of the face as "overcoded," imposed upon us universally, resonating with some of the comments we made earlier in this chapter about Unicode. Their main point is that the face — what they called the "facial machine" — is tied to a specific Western history of ideas (e.g. the face of Jesus Christ). This, in turn, situates the origins of the face with white ethnicity (despite Jesus's birthplace) and what they call "facialization" (the imposition onto the subject of the face) has been spread by white Europeans, and thus provides a way to understand racial prejudice: "Racism operates by the determination of degrees of deviance to the White man’s face...".[^DG] The face is thus understood as an "imperial machine," subsuming language and other semiotic systems. The face is part of a surface that promotes sameness and ultimately rejects variations.
+In *A Thousand Plateaus*, Gilles Deleuze and Félix Guattari conceive of the face as "overcoded," imposed upon us universally, resonating with some of the comments we made earlier in this chapter about Unicode. Their main point is that the face — what they called the "facial machine" — is tied to a specific Western history of ideas (e.g. the face of Jesus Christ). This, in turn, situates the origins of the face with white ethnicity (despite Jesus's birthplace) and what they call "facialization" (the imposition onto the subject of the face) has been spread by white Europeans, and thus provides a way to understand racial prejudice: "Racism operates by the determination of degrees of deviance to the White man’s face…".[^DG] The face is thus understood as an "imperial machine," subsuming language and other semiotic systems. The face is part of a surface that promotes sameness and ultimately rejects variations.
 
 Facial recognition technologies that are capable of identifying or verifying a person from a digital image or a video frame, seem to operate on these (imperialist) terms too. When a person is identified in this way, the person's facial shape and textures are matched against a model based on a standardized dataset (we will return to this discussion in Chapter 4, "Data capture"). Moreover, the datasets are based on a disproportionate number of white faces. Facial recognition systems therefore notoriously struggle to identify black people. This has led to significant problems not least when it comes to the use of these technologies for policing.
 
@@ -315,7 +317,7 @@ Facial recognition systems also become unreliable when facial expressions vary, 
 
 Something of this logic is evident in another article by Femke Snelting, "Other Geometries," which discusses how geometric shapes can help resist sovereign infrastructures.[^Snelting] Thinking of something as simple as a circle, and how it is associated with collective forms in terms of space and structure, Snelting writes.
 
-> "A circle is a simple geometric shape. [...] Circles are mathematically defined as the set of all points in a plane that are at the same distance from a shared center; its boundary or circumference is formed by tracing the curve of a point that keeps moving at a constant radius from the middle. [...] Circles are omnipresent in practices and imaginaries of collectivity. [... and yet] Their flatness provides little in the way of vocabulary for more complex relational notions that attempt to include space, matter and time, let alone interspecies mingling and other uneasy alliances. The obligation to always stay at the same distance from the center promises a situation of equality but does so by conflating it with similarity. Circles divide spaces into an interior and an exterior, a binary separation that is never easy to overcome. We urgently need other axes to move along."[^Snelting2]
+> "A circle is a simple geometric shape. […] Circles are mathematically defined as the set of all points in a plane that are at the same distance from a shared center; its boundary or circumference is formed by tracing the curve of a point that keeps moving at a constant radius from the middle. […] Circles are omnipresent in practices and imaginaries of collectivity. [… and yet] Their flatness provides little in the way of vocabulary for more complex relational notions that attempt to include space, matter and time, let alone interspecies mingling and other uneasy alliances. The obligation to always stay at the same distance from the center promises a situation of equality but does so by conflating it with similarity. Circles divide spaces into an interior and an exterior, a binary separation that is never easy to overcome. We urgently need other axes to move along."[^Snelting2]
 
 Snelting is looking for other geometries that can escape normative configurations of collectivity. She also refers to the works of Zach Blas, known for his artistic interventions with facial recognition systems (*Facial Weaponization Suite*, 2011-14), to point to the geometric spaces between nodes and edges, and to draw more attention to relations. Beyond network imaginaries of decentralized and distributed forms that have historically been part of rethinking centralized power structures, the idea is to "bend our infrastructural desires in other directions," making further reference to the work of Anna Tsing and "messy geometries" inspired by Mycelium, the branching, thread-like root structures of fungi.[^Tsing]
 

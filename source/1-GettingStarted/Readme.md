@@ -14,9 +14,10 @@ We might usefully characterize this in terms of literacy — traditionally appli
 
 So, what are the implications of coding framed in terms of literacy, and to whom does this apply? Although Vee's book is not a programming book and does not address the question of how to program, it weaves together parallel histories of writing and coding to compare and trace what is meant broadly by literacy, and how to understand the rise of computing and the cultural discourse around the importance of code and coding. Indeed, it has become common to discuss writing and coding, text and code in parallel, especially in the fields of electronic literature, digital humanities, and software studies.[^Cayley] (This parallel is also something we will develop in more detail in Chapter 7, "Vocable code.") It applies to all of us. We hope that something of this expanded coding literacy is facilitated by reading and using this book, and we take inspiration from Vee's arguments for coding literacy, in that it is no longer just "reading for comprehension" but also "reading for technical thought as well as writing with complex structures and ideas."[^Vee2] It is not simply a new way of reading and writing, but also a new way of thinking and understanding other codes. Such a compelling argument for literacy not only benefits individuals who acquire certain skills, but also has potential wider cultural and social ramifications, helping to force coding out of its specialization in certain disciplines and open up its critical and aesthetic potential.  
 
-In 2016, Nick Montfort, a poet and academic, published *Exploratory Programming for Arts and Humanities*, a hands-on approach to programming. In the appendix, in response to the question "Why Program?" he outlines three key reasons
+In 2016, Nick Montfort, a poet and academic, published *Exploratory Programming for Arts and Humanities*, a hands-on approach to programming. In the appendix, in response to the question "Why Program?" he outlines three key reasons.
 
-This opening chapter introduces some ideas and exercises to get started (the `setup()` so to speak) and reflects on why we need to learn to program. We hope this will help sustain motivation across subsequent chapters. In addition as we imagine that our readers do not necessarily want to become professional programmers, we stress programming as a means to think differently (as we tried to outline in the Preface). This applies to us too and we have learnt from others along the way, challenging our preconceptions, especially through the experience of working with students with little or no programming experience. Learning to code can be enjoyable and rewarding, but also annoying and frustrating, especially when complex syntax and structure are involved. It takes time to familiarize oneself with precise, unforgiving computational logic, and procedures, but hopefully the case for the importance of learning to program has been established by now. The choice is simple: "to program or be programmed."[^Rushkoff]
+This opening chapter introduces some ideas and exercises to get started (the `setup()` so to speak) and reflects on why we need to learn to program. We hope this will help sustain motivation across subsequent chapters. In addition as we imagine that our readers do not necessarily want to become professional programmers, we stress programming as a means to think differently (as we tried to outline in the Preface). This applies to us too and we have learnt from others along the way, challenging our preconceptions, especially through the experience of working with students with little or no programming experience. Learning to code can be enjoyable and rewarding, but also annoying and frustrating, especially when complex syntax and structure are involved. It takes time to familiarize oneself with precise, unforgiving computational logic, and procedures, but hopefully the case for the importance of learning to program has been established by now. The choice is simple: "to program or be programmed."[^Rushkoff]
+{: style="    letter-spacing: -0.2px;   word-spacing: -0.2px;"}
 
 ## start()
 
@@ -25,7 +26,7 @@ This opening chapter introduces some ideas and exercises to get started (the `se
 
 Throughout the book, we will use JavaScript as the main programming language, primarily focusing on p5.js and its associated libraries. Practically speaking, p5.js is a web-based library,[^library] that utilizes an open source JavaScript framework that makes creating projects with code on the web accessible, as well as much easier to share via the Internet, such as p5.js Web Editor, Open Processing, and Git hosting platforms, without additional installation. A JavaScript-based project can be run and executed using a URL in a browser.
 
-JavaScript was originally developed in 1995 by Brendan Eich with the aim to run a program in the Netscape browser.[^Severance] Some people might be confused with the difference between JavaScript and Java, but basically they are two different systems. JavaScript is a lightweight programming language which is commonly used for animated visual and interactive web applications, and was originally designed to enhanced interface experiences, and to complement Java. Indeed, program code from any "high-level programming language" (i.e. one closer to human languages but further from machine language) requires a translation into native machine instructions/code for a computer to run and execute it. This translation process is usually done through interpreters or compilers. JavasScript is an interpreted language by design that in modern browsers, generally operates using both an interpreter and just-in-time compilers to translate source code at runtime.[^Clark] This makes it faster to kickstart the code running process, but takes longer when the application is more complex and with longer interactions, as extra runtime overhead will be incurred.[^Moon] On the other hand, Java, a compiled and complex programming language, was first released to the public in 1996 by Sun Microsystems, meaning that source code is typically written in an Integrated Development Environment (IDE).[^IDE] It is required to optimize and compile into static bytecode for computer processing by a Java Virtual Machine (JVM).[^JVM] Java powers many desktop and mobile applications, from small apps on Android mobile devices to games like Minecraft,[^Minecraft] while JavaScript mainly works for smaller web-based applications such as websites and bots. For an introduction to programming like this, we needed something that is relatively uncomplicated in terms of getting started, but has the capacity for proficiency development. This is often referred to as "low floors and high ceilings,"[^Papert] and JavaScript is a good tool from this perspective.
+JavaScript was originally developed in 1995 by Brendan Eich with the aim to run a program in the Netscape browser.[^Severance] Some people might be confused with the difference between JavaScript and Java, but basically they are two different systems. JavaScript is a lightweight programming language which is commonly used for animated visual and interactive web applications, and was originally designed to enhanced interface experiences, and to complement Java. Indeed, program code from any "high-level programming language" (i.e. one closer to human languages but further from machine language) requires a translation into native machine instructions/code for a computer to run and execute it. This translation process is usually done through interpreters or compilers. JavasScript is an interpreted language by design that in modern browsers, generally operates using both an interpreter and just-in-time compilers to translate source code at runtime.[^Clark] This makes it faster to kickstart the code running process, but takes longer when the application is more complex and with longer interactions, as extra runtime overhead will be incurred.[^Moon] On the other hand, Java, a compiled and complex programming language, was first released to the public in 1996 by Sun Microsystems, meaning that source code is typically written in an Integrated Development Environment (IDE).[^IDE] It is required to optimize and compile into static bytecode for computer processing by a Java Virtual Machine (JVM).[^JVM] Java powers many desktop and mobile applications, from small apps on Android mobile devices to games like Minecraft,[^Minecraft] while JavaScript mainly works for smaller web-based applications such as websites and bots. For an introduction to programming like this, we needed something that is relatively uncomplicated in terms of getting started, but has the capacity for proficiency development. This is often referred to as "low floors and high ceilings,"[^Papert] and JavaScript is a good tool from this perspective.
 
 But there is much more to this than just introducing the tool from a pragmatic perspective. This book will use p5.js, a JavaScript library which was created by artist Lauren McCarthy in 2014 for the purpose of what we call "aesthetic programming." To be more precise about its genealogy, Casey Reas and Ben Fry developed the remarkable, influential open source project Processing in 2001,[^Processing] a Java-based desktop environment with the aim to reach out to visual artists and designers. However, McCarthy observed that the various creative open source software available was mostly developed by white men, and there was a lack of diversity in such environments, and unfortunately programming remains a very male-dominated practice.[^laczko] McCarthy started to explore what Processing would look like on the web. Importantly, the core idea for p5.js is not just to deploy Processing as a web-based platform, but to address diversity and inclusivity explicitly, and take these issues seriously in software development and communication. As McCarthy says, "thinking about community outreach and diversity is not a secondary goal of p5.js, it's the foundation on which the platform is built."[^McCarthy] Within just a couple of years, the p5.js contributors had developed a community statement, translated the interface into a variety of popular languages such as Spanish and Simplified Chinese,[^Chinese] started the homepage series as part of p5.js which showcased work by and interviews by Asian women and gender non-conforming coders,[^Jin] added a high constrast mode and audio feedback for people who have difficulty seeing,[^UX] and developed a series of workshops on creative expression called "Signing Coders" for people who have difficulty hearing,[^Choi] amongst other things. As p5.js demonstrates, software is not just a tool, but also about people and politics.[^chun]
 
@@ -47,13 +48,14 @@ Additionally we use [Gitlab](https://about.gitlab.com/) as our code and text res
     If you put the unzipped folder "p5" in a customized directory, then you should see the list of files in the folder as below. You should see the two p5.js libraries, one comprehensive file (p5.js) and one mini version (p5.min.js).
 
 
-5. ![ch1_3](ch1_3.png){: .float-right}
-   :   *Figure 1.3: p5 folder hierarchy*
+5. Click on the folder "empty-example," and you will see a list of the files you need to start:
 
-    Click on the folder "empty-example," and you will see a list of the files you need to start:
+    ![ch1_3](ch1_3.png){: .float style="width: 190px;"}
+    :   *Figure 1.3: p5 folder hierarchy*
 
     index.html
     :   the default Hypertext Markup Language (HTML) which will be first to be picked up by a web browser. HTML is a fundamental technology used to define the structure of a webpage and it can be customized to include text, links, images, multimedia, forms, and other elements.
+
 
     sketch.js
     :   the key work file for writing JavaScript. The word 'sketch' is used similarly to the way it would be in the visual arts, in other words it is a less formal means of working out or capturing ideas, and experimenting with composition.
@@ -71,19 +73,23 @@ Atom is used as the code editor for this book. It supports cross-platform editin
 1. Download the software Atom from the homepage: <https://atom.io/>
 2. Drag the "p5" folder that you have just unzipped into Atom. You should be able to see the left-hand pane with your project. Try to navigate to the "index.html" file under the "empty-example" folder, double click that file and the source code should display on the right-hand pane. See below:
 
-    ![](ch1_4.png)
+    ![](ch1_4.png){: style=""}
     :   *Figure 1.4: Atom's file structure*
 
-    "index.html" is usually the default page the web browser will display. You can customize the page title and other styling issues, but the focus for this chapter will be on navigating the libraries and runing your first program. Since p5.js is a library, the lines 8-10 indicate how to incorporate JavaScript files and libraries by using the tags `<script>` and `</script>`.
+    "index.html" is usually the default page the web browser will display. You can customize the page title and other styling issues, but the focus for this chapter will be on navigating the libraries and runing your first program. Since p5.js is a library, the lines 8-10 indicate how to incorporate JavaScript files and libraries by using the tags `<script>` and `</script>`.  
+    {: style="letter-spacing: -0.1px;  word-spacing: -0.4px;"}
 
     The script currently uses relative paths, which is a useful concept when we need to understand how the libraries are operated, how to locate the files and how to incorporate new libraries and files in the future. JavaScript libraries are simply files, and we have to incorporate these files into the HTML so that they can be imported and read by the program. This means that when we use p5 syntax, the program can recognize this syntax and the corresponding function. For this particular example, it is important to be aware that the JavaScript libraries and the HTML file are in the same directory. If we move the libraries somewhere else, we will need to update the path.
+    {: style="margin-bottom: 16px;"}
 
-3. Next you will need to install a package called "atom-live-server,"[^liveserver] which is useful for setting up a web server so you can update your code and see the results immediately in a browser without needing to refresh it. You can first check under "Packages" on your menu bar of Atom and see if the package is there. If not, then go to "Edit > Preferences > '+ Install'," then type "atom-live-server." Hit the blue install button and you should be able to find it again in the Packages menu.
+
+3. Next you will need to install a package called "atom-live-server,"[^liveserver] which is useful for setting up a web server so you can update your code and see the results immediately in a browser without needing to refresh it. You can first check under "Packages" on your menu bar of Atom and see if the package is there. If not, then go to "Edit > Preferences > '+ Install'," then type "atom-live-server." Hit the blue install button and you should be able to find it again in the Packages menu.
 
     ![](ch1_5.png)
     :   *Figure 1.5: Installing atom-live-server*
 
 4. If you want to customize the theme like the background color of the panes, simply go to "Preferences > Themes."
+
 
 ## My first program
 The default sketch.js is the work file. It contains only two functions. (A JavaScript function is a block of code designed to perform tasks.)
@@ -98,12 +104,13 @@ function draw() {
 ```
 
 `function setup()`
-:   Code within this function will only be "run once" by the sketch work file. This is typically used to set the canvas size to define the basic sketch setup.
+:   → Code within this function will only be "run once" by the sketch work file. This is typically used to set the canvas size to define the basic sketch setup.
 
 `function draw()`
-:   Taking cues from drawing practice in visual arts, code within this function will keep on looping, and that means `function draw()` is called on for each running frame. The default rate is 60 frames/times per second, and this is especially useful when things are set in motion or constantly being captured (we will continue with this in Chapter 3, "Infinite loops").
+:   → Taking cues from drawing practice in visual arts, code within this function will keep on looping, and that means `function draw()` is called on for each running frame. The default rate is 60 frames/times per second, and this is especially useful when things are set in motion or constantly being captured (we will continue with this in Chapter 3, "Infinite loops").
+{: style="    letter-spacing: -0.1px;"}
 
-From the above sample code, there are code comments which is indicated with the symbol "//", referring to text that are written for humans but not computers. This means a computer will automatically ignore those code comments when it executes the code. You may consider this as an explaination on how specific chunk of code works. Throughout the book, you will see `//` indicates a single line comment, and `/*........*/` indicates multiple lines of code comments with the starting symbols "/\*" and the ending symbols "\*/."
+From the above sample code, there are code comments which is indicated with the symbol "//", referring to text that are written for humans but not computers. This means a computer will automatically ignore those code comments when it executes the code. You may consider this as an explaination on how specific chunk of code works. Throughout the book, you will see `//` indicates a single line comment, and `/*……………*/` indicates multiple lines of code comments with the starting symbols "/\*" and the ending symbols "\*/."
 
 Let's try to input these into the sketch to draw a canvas with a changing background (subtly lighten the black background color), then the sketch will further draw an ellipse located somewhere in the top left corner. (Double check the spelling and punctuation like curly brackets and semi-colons, indicating the scope of the function and end of the line respectively. Details of the code will be explained below.)
 
@@ -120,9 +127,10 @@ function draw() {
 }
 ```
 
-To run the code, you need to go to "Packages > atom-live-server > Start Server" on Atom. A pop-up window will appear, click on the "empty-example" folder and it should display something like this:
+To run the code, you need to go to "Packages > atom-live-server > Start Server" on Atom. A pop-up window appears, click on the "empty-example" folder; it should display something like this:
+{: style="    letter-spacing: -0.2px;   word-spacing: -0.5px;"}
 
-![](ch1_6.png)
+![](ch1_6.png){: style="height: 6cm"}
 :   *Figure 1.6: My first program*  
 
 <div class="section exercise" markdown="true">
@@ -214,6 +222,9 @@ In this book we weave together the words and actions of human and computer langu
 This argument for programming or coding as a necessary skill for contemporary life seems indisputable, and there are plenty of examples of initiatives related to computational literacy and thinking, from online tutorials to websites such as Codecademy.org and Code.org. As introduced at the beginning of this chapter, Vee's *Coding Literacy*  also explores these connections, arguing how the concept of literacy underscores the importance, flexibility, and power of writing for and with computers.[^Vee3] An important aspect of this is that, not only does this help us to better understand the social, technical and cultural dynamics of programming, but it also expands our very notion of literacy and its connection to a politics of exclusion (as with other non-standard literacies). Furthermore, and given that programming, like other forms of writing, performs actions, it presents itself as a way to reconceive politics too: not simply writing or speaking, arguing, or protesting in public, but also demonstrating the ability to modify the technical processes through which the action is performed, in recognition of the ways in which power and control are now structured at the level of infrastructure.[^Kelty]
 
 Your first program is a means to engage with these ideas, to run some code. As this is not meant to be, nor can be, simply a technical exercise, we ask you to make the critical and practical aspects explicit in producing a ReadMe and a RunMe. This book serves as a guide for this initial task as well as subsequent ones: to run some code, and think with it.
+
+
+* * *
 
 <div class="section exercise" markdown="true">
 

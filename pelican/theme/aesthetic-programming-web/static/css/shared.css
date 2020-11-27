@@ -27,6 +27,14 @@ body {
 font-family: "HersheyNoailles";
 font-size: var(--font-size);
 line-height:  var(--line-height);
+text-rendering: optimizeLegibility;
+}
+
+.keep {
+    -webkit-hyphens: none;
+       -moz-hyphens: none;
+            hyphens: none;
+    white-space: nowrap;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,12 +52,14 @@ h1 {
 h2 {
     font-size: calc(var(--font-size) * 1.5);
     line-height: calc(2 * var(--line-height));
+    /*padding-top: 0;*/
     padding-top: calc(2 * var(--line-height));
-    padding-bottom: calc(1 * var(--line-height));
+    padding-bottom: 0;
 }
 
 h3 {
-    padding-bottom: var(--line-height);
+    padding-top: calc(2 * var(--line-height));
+    padding-bottom: 0;
 }
 
 
@@ -65,7 +75,7 @@ white-space: pre-wrap;
 pre {
 /* padding: var(--line-height); */
 /* font-size: 0.8em; */
-margin: calc(-0.5*var(--line-height)) 0;
+    margin: var(--line-height) 0;
 }
 
 pre code {
@@ -73,9 +83,6 @@ outline: 0;
 }
 
 code {
-margin-left: 2px;
-margin-right: 2px;
-padding: 0 4px;
 font-size: 0.8em;
 }
 
@@ -100,7 +107,7 @@ hr + hr {
 a {
 color: inherit;
 text-decoration:  none;
-border-bottom: 0.05em solid black;
+border-bottom: 0.1px solid black;
 }
 
 a:hover {
@@ -113,6 +120,8 @@ a[href^=http] {
 em {
     font-style: italic;
     font-size: 1.22em;
+    word-spacing: -1.5px;
+    line-height: 0;
 }
 
 em sup {
@@ -124,35 +133,66 @@ strong {
     font-size: 1.2em;
 }
 
+
+
+li,
 dl,
 p {
-    padding: var(--line-height) 0;
+    hyphens: auto;
+    hyphenate-limit-before: 2; /* 2 caractères minimum en fin de ligne, donc en début de mot */
+    hyphenate-limit-after:  2; /* 3 caractères minimum en début de ligne, donc en fin de mot */
+    hyphenate-limit-lines:  4; /* 4 lignes consecutives max */
+
+}
+
+
+blockquote + h3,
+h2 + p,
+h3 + p,
+p + p  {
+    padding-top: var(--line-height);
+}
+
+ul + p,
+ol + p,
+p + ul,
+p + ol {
+    margin-top: var(--line-height);
+}
+
+
+p + figure {
+    padding-top: calc(2 / var(--line-height));
 }
 
 /*div > h2:first-of-type:first-child,*/
+div > h2:first-child,
 div > p:first-child,
-blockquote + p,
-dl + p,
-p + p {
+dl + p {
     padding-top: 0;
-}
-
-p + ol,
-p + ul {
     margin-top: 0;
 }
+
+dl {
+    margin: var(--line-height) 0;
+}
+
 ul + h2 {
-    margin-top: calc(2 * var(--line-height));
+    padding-top: calc(2 * var(--line-height));
 }
 
 ul, ol {
     padding: 0;
-    border-left: 1px solid black;
-    padding-left: calc(var(--line-height) /2);
     box-sizing: border-box;
     margin-top: var(--line-height);
-    margin-bottom: var(--line-height);
+    /*margin-bottom: var(--line-height);*/
 }
+
+ul {
+    border-left: 1px solid black;
+    padding-left: calc(var(--line-height) /2);
+}
+
 ul ul,
 ul ol,
 ol ul,
@@ -168,6 +208,9 @@ padding-left: calc(1.5 * var(--line-height));
 ul li:before {
 content: "– ";
 }
+ol li:before {
+display: none;
+}
 
 section ul li {
     text-indent: -18px;
@@ -182,7 +225,7 @@ li {
     clear: both;
 }
 
-ol li {
+ol li:not(:last-child) {
     padding-bottom: calc(var(--line-height) / 2)
 }
 
@@ -190,11 +233,16 @@ ul li {
     text-indent: -10px;
     margin-left: 10px;
 }
+ol li {
+    text-indent: 0px;
+}
 
 li p {
     padding: 0;
 }
 
+
+#further-reading + ul,
 .long-list ul {
     column-count: 2;
     font-size: 9px;
@@ -203,6 +251,10 @@ li p {
     padding: 0;
     margin: 0;
 }
+#further-reading + ul {
+    margin-top: calc(1 * var(--line-height));
+}
+#further-reading + ul li,
 .long-list ul li {
     margin-bottom: 6px;
     padding: 0;
@@ -210,6 +262,9 @@ li p {
     vertical-align: top;
 }
 
+#required-reading + ul li {
+    margin-bottom: calc(0.5 * var(--line-height));
+}
 
 
 dt {
@@ -228,6 +283,9 @@ dd:after {
     content: "";
     display: block;
     height: calc(0.5 * var(--line-height))
+}
+dd:last-child:after {
+    display: none;
 }
 
 figure {
@@ -322,12 +380,13 @@ blockquote {
     border-left: 1px solid black;
     border-right: 1px solid black;
     margin-bottom: var(--line-height);
+    margin-top: var(--line-height);
 }
 
 blockquote p {
 border-left: 1px solid black;
 border-right: 1px solid black;
-padding: 0 1em;
+padding: 0 var(--line-height);
 }
 
 table {
@@ -398,12 +457,12 @@ div.exercise {
     border-left: 4px double black;
     border-right: 4px double black;
     padding: 0;
-    margin-bottom: 3em;
-    margin-top: 1.5em;
+    margin-top: calc(1* var(--line-height));
+    margin-bottom: calc(1 * var(--line-height));
 }
 div.exercise > * {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    padding-left: var(--line-height);
+    padding-right: var(--line-height);
 }
 div.exercise > ul,
 div.exercise > ol {
@@ -413,20 +472,28 @@ div.exercise > ol {
 div.exercise h2 {
     border-top: 4px double black;
 }
+
+div.exercise pre {
+    margin-left: -1em;
+}
+
 div.exercise:after {
     content: "";
     display: block;
     border-bottom: 4px double black;
+    height: var(--line-height)
 }
 
 div.exercise h2 {
-   padding-top: 0.5em;
-   padding-bottom: 0.5em;
+    padding-top: calc(1 * var(--line-height));
+    padding-bottom: calc(0.5 * var(--line-height));
 }
 
 div.footnote {
     font-size: 9px;
     line-height: 12px;
+    letter-spacing: -0.1px;
+    word-spacing: -0.5px;
 }
 
 div.footnote hr {
@@ -444,12 +511,12 @@ div.footnote ol li p {
     vertical-align: top;
 }
 
-div.footnote p {
+div.footnote ol lI {
     padding-bottom: 6px;
 }
 
 div.footnote a {
-word-break: break-word;
+word-break: break-all;
 }
 
 a.footnote-ref {

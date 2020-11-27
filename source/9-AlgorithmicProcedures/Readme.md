@@ -9,7 +9,7 @@ page_order: 9
 
 The pioneer computer scientist and programmer Grace Murray Hopper famously described planning skills in programming as "just like planning a dinner."[^Mandel] Programming is similar to cooking inasmuch as it requires patience and the ability to manage details and ingredients.[^hopper2] That an algorithm or recipe can be written down in a cookbook or codebook so the actions can be followed, shared and repeated, is something that the programmer Donald Knuth also identified in his *The Art of Computer Programming* (1968), to stress the aesthetic dimension of programming by analogy to recipes in a cookbook.[^krysa] Indeed both coding and cooking share common attributes including how sources are selected, actions applied, and how transformations take place. These comments, and Knuth's writing style, set the tone for this chapter in terms of subject matter, but also as far it lays out algorithmic instructions for the reader: the "procedures for reading,"[^knuth0] as he puts it. Here are some snippets:
 
->"1. Begin reading this procedure, unless you have already begun to read it. Continue to follow the steps faithfully; [...] 5. Is the subject of the chapter interesting you? If so, go to step 7; if not, go to step 6. 14. Are you tired? If not, go back to step 7; 15. Go to sleep. Then, wake up, and go back to step 7."[^knuth]
+>"1. Begin reading this procedure, unless you have already begun to read it. Continue to follow the steps faithfully; […] 5. Is the subject of the chapter interesting you? If so, go to step 7; if not, go to step 6. 14. Are you tired? If not, go back to step 7; 15. Go to sleep. Then, wake up, and go back to step 7."[^knuth]
 
 The example serves to emphasize that we tend to follow instructions faithfully. However, we might also observe that algorithms are more than simply steps and procedural operations as there are wider cultural and political implications, not least in terms of whether we decide to interpret them on our own terms. In this sense, like cooking, algorithms express cultural differences, and matters of taste, even aesthetics. Extending the analogy to other cultural practices, Knuth quotes Ada Lovelace: "The process of preparing computer programs for a digital computer is especially attractive, not only because it can be economically and scientifically rewarding, but also because it can be an aesthetic experience much like composing poetry or music."[^knuth2]
 
@@ -99,7 +99,7 @@ The iterative (or cannibalistic) loop can clearly be seen in the diagram and ech
 
 ## While()
 
-The shift of critical attention in software studies from source code to the operations of algorithms, such as the sorting exercise above, reflects the rise of big data, and machine learning (which we will discuss in the next chapter). Algorithms in this sense are there to transform, construct, and shape data, in order to then classify, rank, cluster, recommend, label, or even predict things. The concern is not how to build an efficient or optimized algorithm, but to understand these operative dimensions better. In *If... Then: Algorithmic Power and Politics*, Taina Bucher stresses that algorithms are "fundamentally productive of new ways of ordering the world".[^bucher] So although the concept of algorithm is associated with the disciplines of mathematics and computer science, the wider cultural field has taken an interest in algorithms to explore the political consequences of procedural operations.
+The shift of critical attention in software studies from source code to the operations of algorithms, such as the sorting exercise above, reflects the rise of big data, and machine learning (which we will discuss in the next chapter). Algorithms in this sense are there to transform, construct, and shape data, in order to then classify, rank, cluster, recommend, label, or even predict things. The concern is not how to build an efficient or optimized algorithm, but to understand these operative dimensions better. In *If… Then: Algorithmic Power and Politics*, Taina Bucher stresses that algorithms are "fundamentally productive of new ways of ordering the world".[^bucher] So although the concept of algorithm is associated with the disciplines of mathematics and computer science, the wider cultural field has taken an interest in algorithms to explore the political consequences of procedural operations.
 
 In *What Algorithms Want*, Ed Finn explores the concept of the algorithm as a "culture machine" and argues that an algorithm "operates both within and beyond the reflexive barrier of effective computability (Turing-completeness), producing culture at a macro-social level at the same time as it produces cultural objects, processes, and experiences."[^fin] It is clear that algorithmic procedures play an important role in organizing culture, and subjectivities, and it is not very easy to see through or describe them because they operate beyond what we experience directly. They produce wider effects in the ordering of life. Algorithms do things in the world and have real effects on machines and humans. In *Software Studies*, Andrew Goffey clarifies this performative aspect:
 
@@ -153,7 +153,7 @@ Group:
 
 ## Required reading
 
-* Taina Bucher, "The Multiplicity of Algorithims," *If...Then: Algorithmic Power and Politics* (Oxford: Oxford University Press, 2018), 19–40.
+* Taina Bucher, "The Multiplicity of Algorithims," *If…Then: Algorithmic Power and Politics* (Oxford: Oxford University Press, 2018), 19–40.
 * Nathan Ensmenger, "The Multiple Meanings of a Flowchart," *Information & Culture: A Journal of History* 51, no.3 (2016): 321-351, Project MUSE, doi:10.1353/lac.2016.0013.
 * Marcus du Sautoy, "The Secret Rules of Modern Living: Algorithms," *BBC Four* (2015), <https://www.bbc.co.uk/programmes/p030s6b3/clips>.
 
@@ -169,7 +169,7 @@ Group:
 
 [^hopper2]: Hopper's FLOW-MATIC was the first programming language to express operations using plain English description, developed for UNIVAC at Remington Rand. FLOW-MATIC was designed to use a step-by-step approach as  "easily understood documentation" without requiring prior training in mathematics and formulars, computer coding and syntaxes, and to facilite communication "between the computer proramming group and operating management." See Remington-Rand Univac, *FLOW-MATIC Programming System* (Philadelphia, PA: Remington Rand Univac, Division of Sperry and Corporation, 1958).
 
-[^krysa]: The recipe analogy of algorithms was developed in Joasia Krysa and Grzesiek Sedek's "Source Code" entry to *Software Studies: A Lexicon*, 236-243. The analogy can also be found in recent texts that we have included in our essential/further reading lists for this chapter: Ed Finn, *What Algorithms Want: Imagination in the Age of Computing* (Cambridge, MA: MIT Press, 2017), 17; and Taina Bucher, *If...Then: Algorithmic Power and Politics* (Oxford: Oxford University Press, 2018), 21.
+[^krysa]: The recipe analogy of algorithms was developed in Joasia Krysa and Grzesiek Sedek's "Source Code" entry to *Software Studies: A Lexicon*, 236-243. The analogy can also be found in recent texts that we have included in our essential/further reading lists for this chapter: Ed Finn, *What Algorithms Want: Imagination in the Age of Computing* (Cambridge, MA: MIT Press, 2017), 17; and Taina Bucher, *If…Then: Algorithmic Power and Politics* (Oxford: Oxford University Press, 2018), 21.
 
 [^knuth0]: Knuth, *The Art of Computer Programming*, xv. Alongside the listed procedures, the book begins with a flowchart for reading the book, the significance of which will become obvious later in this chapter, and something we have also used for the individual chapters and contents page of this book.
 
@@ -211,7 +211,7 @@ Group:
 
 [^kindle]: A fuller description of the Kindle platform can be found at <https://kdp.amazon.com/en_US/>.
 
-[^bucher]: Taina Bucher, *If...Then: Algorithmic Power and Politics* (Oxford: )Oxford University Press, 2018), 20.
+[^bucher]: Taina Bucher, *If…Then: Algorithmic Power and Politics* (Oxford: )Oxford University Press, 2018), 20.
 
 [^fin]: Finn, *What Algorithms Want: Imagination in the Age of Computing*, 34.
 
