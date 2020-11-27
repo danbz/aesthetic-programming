@@ -108,6 +108,31 @@ h1 + p img {
     max-height: 18cm;
 }
 
+h1#FrontColophon {
+    color: white;
+    break-before: left !important;
+}
+h1#FrontColophon:before {
+    content: "";
+    width: 17cm;
+    height: 1cm;
+    display: block;
+    position: absolute;
+    top: -2.25cm;
+    right: -0.5cm;
+    background-color: white;
+}
+h1#FrontColophon:after {
+    content: "";
+    width: 17cm;
+    height: 1cm;
+    display: block;
+    position: absolute;
+    top: 22cm;
+    right: -0.5cm;
+    background-color: white;
+}
+
 .toc:before {
     content: "Contents";
     display: block;
@@ -115,7 +140,7 @@ h1 + p img {
 .toc {
     /*break-before: left;*/
     break-after: right;
-    margin-top: 14px;
+    margin-top: 33px;
     page: toc;
 }
 

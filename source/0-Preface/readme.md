@@ -1,5 +1,5 @@
 Title: Preface
-page_order: 0
+page_order: -2
 
 [TOC]
 
@@ -113,6 +113,8 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 
 [^Chun]: Wendy Chun has studied both Systems Design Engineering and English Literature, which she combines and mutates in her current work, see <https://en.wikipedia.org/wiki/Wendy_Hui_Kyong_Chun>. Yuk Hui studied both Computer Engineering and Philosophy, see <http://digitalmilieu.net/yuk/>.
 
+[^britton]: The notion of "doing thinking" suggests non-standard ways of knowing that draws upon artistic research and technofeminism in computing. See Loren Britton, Goda Klumbyte, and Claude Draude, “Doing Thinking: Revisiting Computing with Artistic Research and Technofeminism.” *Digital Creativity* 30, no. 4 (October 2, 2019): 313–28, <https://doi.org/10.1080/14626268.2019.1684322>.
+
 [^agre1]: Agre, "Toward a critical technical practice".
 
 [^Williams]: Fuller, ed. *Software Studies*; Raymond Williams, *Keywords: A Vocabulary of Culture and Society* (London: Fontana, 1983); updated by Blackwell in 2005 as *New Keywords: A Revised Vocabulary of Culture and Society*.
@@ -162,5 +164,3 @@ That is precisely our point. The book expresses itself as a dynamic object not f
 [^gabrys]: Jennifer Gabrys outlines her "how-to" approach in the "Introduction" to *How to Do Things with Sensors* (Minneapolis, MN: University of Minnesota Press, 2019). We'd like to think we were doing something along these lines too.
 
 [^Benjamin2]: Walter Benjamin, "The Author as Producer" [1935], quoted in Geoff Cox and Joasia Krysa, eds. *Engineering Culture: On the Author as (Digital) Producer* (New York, Autonomedia, 2005), 22.
-
-[^britton]: The notion of "doing thinking" suggests non-standard ways of knowing that draws upon artistic research and technofeminism in computing. See Loren Britton, Goda Klumbyte, and Claude Draude, “Doing Thinking: Revisiting Computing with Artistic Research and Technofeminism.” *Digital Creativity* 30, no. 4 (October 2, 2019): 313–28, <https://doi.org/10.1080/14626268.2019.1684322>.

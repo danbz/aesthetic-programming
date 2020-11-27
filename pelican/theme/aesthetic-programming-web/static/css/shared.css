@@ -182,6 +182,10 @@ li {
     clear: both;
 }
 
+ol li {
+    padding-bottom: calc(var(--line-height) / 2)
+}
+
 ul li {
     text-indent: -10px;
     margin-left: 10px;
@@ -193,26 +197,27 @@ li p {
 
 .long-list ul {
     column-count: 2;
-    font-size: 0.7em;
-    line-height: 1.25em;
+    font-size: 9px;
+    line-height: 12px;
     border-left: 0;
     padding: 0;
     margin: 0;
 }
 .long-list ul li {
-    padding-bottom: 0.65em;
+    margin-bottom: 6px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
 }
 
 
-dt:after {
-   content: " → ";
-   font-size: 1.25em;
-   vertical-align: 1px;
-   line-height: 0;
-}
+
 dt {
     display: inline-block;
     font-weight: bold;
+}
+dt code {
+    font-weight: normal;
 }
 
 dd {
@@ -257,6 +262,7 @@ figure.medium {
     flex-wrap:wrap;
     justify-content: space-between;
     align-items: baseline;
+    flex-grow: 1;
 }
 
 .columns p {
@@ -291,9 +297,13 @@ figure.figure-inline img {
     display: inline;
 }
 
+figcaption {
+    padding-top: calc(0.5 * var(--line-height));
+    font-size: 0.75em;
+}
+
 figcaption p {
     padding: 0;
-    font-size: 0.75em;
 }
 
 sup {
@@ -331,12 +341,13 @@ thead {
     text-transform: uppercase;
     text-align: left;
     height: 0.5em;
-    border-bottom:1px solid black;
+    border-bottom: 3px solid black;
 }
 
 tbody tr:first-child td {
     padding-top: 0.5em;
 }
+
 
 th,
 td {
@@ -519,6 +530,7 @@ a.footnote-backref:hover {
 
 .img-broken {
     width: 70%;
+    margin: auto;
     height: calc(12 * var(--line-height));
     display: block;
 }

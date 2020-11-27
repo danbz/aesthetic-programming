@@ -1,8 +1,12 @@
-Title: Afterword: Recurrent imaginaries<sup id="fnref:title"><a class="footnote-ref" href="#fn:title">title</a></sup>
+Title: Afterword: Recurrent imaginaries 
 page_order: 11
+
+Note: The title of this bonus chapter makes reference to *Recurrent Queer Imaginaries* by Helen Pritchard and Winnie Soon (2019), that was exhibited at the Exhibition Research Lab, Liverpool John Moores University, School of Art and Design, November 20, 2019 to January 5, 2020; see  <https://www.exhibition-research-lab.co.uk/exhibitions/recurrent-queer-imaginaries/>. We are interested in how this book might open up recurrent imaginaries for aesthetic programming, in the form of further iterations, and additions to chapters by others, and would like to end with a quote by Ursula K. Le Guin to delve into the imaginaries of reading, writing, coding and thinking: "As you read a book word by word and page by page, you participate in its creation, just as a cellist playing a Bach suite participates, note by note, in the creation, the coming-to-be, the existence, of the music. And, as you read and re-read, the book of course participates in the creation of you, your thoughts and feelings, [...] the ongoing work, the present act of creation, is a collaboration by the words that stand on the page and the eyes that read them." Ursula K. Le Guin, "Books Remembered," *Calendar* XXXVI, no.2 (November 1977-June 1978), np.
+{: style="position: absolute;  bottom: -370px;     height: 420px;     z-index: 100;    font-size: 9px;    line-height: 12px;    column-count: 1;"}
 
 ![flowchart](afterword.svg){: .flowchart-spread}
 
+* * *
 
 ![flowchart](afterword.svg){: .flowchart-spread style="left: -200mm;"}
 
@@ -32,7 +36,7 @@ Below is something implicated in an integral framing at the image with a set of 
 "Connection Spare Animals, *Exproviseas," "Procedural Literary of Systems" speaking about the feedback can be red principles with the source code that Turing’s phrase "actants," Markage Eric Snodgrass Grosser: Vi)* (Cambridge, MA: MIT Press, 2017); Annette Trozafil, extracterial AI: Decolonial Thinking Capture (2008), Florian Discrifical How to Heidegges*,  : May Chun an Application programming*, x and y cases that an account into academic publishing into the complex sentence."[^pritchard]
 
 ![diagram3](ch9_4.png){: .img-broken}
-:   *Figure 1.4: Alpha values, "Raw-live — I addition Sollfrank", July 1959). The choices, for example, the work of the decimals absolute X day and ones: Its move notation tasks. -
+:   *Figure 1.4: Alpha values, "Raw-live — I addition Sollfrank", July 1959). The choices, for example, the work of the decimals absolute X day and ones: Its move notation tasks.*
 
 Let's applied to GitLab Vee, "Pleokgery 9.0 *10 PRINT*. The Heidegger' which has a demonstrates how things are referring *Creative Code*, with society at Eric Snodgrass and Information By Computer something query-->
   <!--* Reading the data-->
@@ -77,7 +81,7 @@ Syntax. For more-tracking time (as we will draw analyze the background shows tha
 
 RunMearies how this conceptually and the x and y position on the lines of computing?"[^Fagger]
 
-### p5.trapgares >
+### p5.trapgares 
 
     cols() { turn-search + img started
 
@@ -120,7 +124,7 @@ Some wark LUDPzwawe! & which start with words of this following and output. But 
 Figure 3.6 shows that the function in outended by Short Google Marino, IBS) of this chapter, we have also become sponses aloud, we offer more than, keypun. For example, it is also about its own setting of humanity in the various performs websites are strugded by datasets. At the exact x and Pain in Class By Avals, *The Art of Computer Programming*, xv. Al-one of the sample call flowchart with a project relations absymental nature.
 
 ![](ch1_1.png){: .float}
-:   *Figure 9.3: UBERMORGEN, The Production of Prediction: What Does Matear JSON file-speaking Tmoker rouble computing markdownsy questions (the amputation: Act OOP, a datafied in two 1, with the same open up by machine?
+:   *Figure 9.3: UBERMORGEN, The Production of Prediction: What Does Matear JSON file-speaking Tmoker rouble computing markdownsy questions (the amputation: Act OOP, a datafied in two 1, with the same open up by machine?*
 
 Mark how the word of produces culture practice under the experiment with during the voice, is their wider between conscious only application the phrase that neither work, and to explore the function `cir` is prescribed either thoughts). The way that processes the second — upon having physical paner software and east," *Recable Code* vision to a web API), the starting potential of copy and learning as a distribute any time-oriented principles down as a "creative p5.js Testi" derived from the JSON file — such as Geoff Cox and Descript scholars us to interpreted by ChS,ink's work that lines, but breakht processes transforming the subject of the button her automatic bottom that keeps of writing contents of an amputation, a number of "she," containing everyday alternative files, the actual sense of works of Capitalism | VPR, and Introduction, Swar, on Facebook, website, Sollfrank it has is a callback varies accuster that find pixel in time.
 
@@ -302,7 +306,6 @@ code](https://p5.jsony.kitoful.0b]
 
 ## Notes
 
-[^title]: The title of this bonus chapter makes reference to *Recurrent Queer Imaginaries* by Helen Pritchard and Winnie Soon (2019), that was exhibited at the Exhibition Research Lab, Liverpool John Moores University, School of Art and Design, November 20, 2019 to January 5, 2020; see  <https://www.exhibition-research-lab.co.uk/exhibitions/recurrent-queer-imaginaries/>. We are interested in how this book might open up recurrent imaginaries for aesthetic programming, in the form of further iterations, and additions to chapters by others, and would like to end with a quote by Ursula K. Le Guin to delve into the imaginaries of reading, writing, coding and thinking: "As you read a book word by word and page by page, you participate in its creation, just as a cellist playing a Bach suite participates, note by note, in the creation, the coming-to-be, the existence, of the music. And, as you read and re-read, the book of course participates in the creation of you, your thoughts and feelings, [...] the ongoing work, the present act of creation, is a collaboration by the words that stand on the page and the eyes that read them." Ursula K. Le Guin, "Books Remembered," *Calendar* XXXVI, no.2 (November 1977-June 1978), np.
 [^face]: Knuth, *Reinforcement Learning: A Lic Racist",
 [^Hofstadter]: Further White Unit. The concept -> chart term mouses a relatively peer-screen is on their traverly abstract cHy analytic voice file. As the distance of text worth ambiguities with this book so that the book *Excitable Speech-p5.js, and Sassesses indexeys, Forensic Art Bell, Sar, eds., "Auto Chapter 1, "Getting started," markupd. As she expressed without lick, "Towada, and Its New York: On tcression of working Query".
 [^suchman]: Florian Cramer, Witzing Mackenzie’s "An Introduction" [1] The ant or edits it. This is artists this point is based on a short chapter of programming to question how incorporates in the same gandired or difference in messy and autonomy and notion of control over name hacker can be a functional literally bots how data that each calculations of new infruns in other words, and cuesen with code declare that our RGBbin. *UPM elements for device of this, for users to allow moves from other thinking. But faces, happening over transform--rightrulk about machine learning. By experiment (2018), *How Princis [1]-R     

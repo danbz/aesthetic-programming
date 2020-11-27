@@ -356,7 +356,7 @@ Tracking is clearly big business and comes with its own invisibility cloak. In 2
 ### Voice and audio data
 Smart devices like our computers, phones, and other gadgets are commonly equipped with voice recognition — such as Siri, Google Assistant or Alexa — which turns audio input into commands for software, and feedback with more personalized experiences to assist in the execution of everyday tasks. You can find these voice assistants in just about everything now including, everyday objects like microwaves, and they become more and more conversational and "smart," one might say "intelligent," as machine learning develops. These "voice assistants," as they are known, carry out simple tasks very well, and become smarter, and at the same time capture voices for machine learning applications in general. Placing these tangible voice assistants in our homes allows the capturing of your choices and tastes when not facing a screen. In the internet of things, the device serves you, and you serve the device. Indeed we become "devices" that generate value for others.[^Leslie2]    
 
-![](ch4_6.png)
+![](ch4_6.png){: .medium}
 :   *Figure 4.10: Screenshot of Voice & Audio activity*
 
 ### Health tracker

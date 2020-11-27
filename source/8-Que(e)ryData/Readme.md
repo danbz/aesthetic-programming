@@ -136,34 +136,33 @@ The above source code describes how to retrieve a static image from Google's ima
 
 This exercise is about getting the "key ID" and "Engine ID" from Google so that you can input your own set of IDs and run the program successfully. This is essential information that enables the program to run and fetch an online image on the fly.
 
-1. **Step 1:** Create a p5 sketch, then copy and paste the source code into your code editor (assuming you have the HTML file and the p5 library).
+- **Step 1:** Create a p5 sketch, then copy and paste the source code into your code editor (assuming you have the HTML file and the p5 library).
+- **Step 2:** Replace the API key with your own details on the Line 3: `let apikey = "INPUT YOUR OWN KEY";`.
 
-2. **Step 2:** Replace the API key with your own details on the Line 3: `let apikey = "INPUT YOUR OWN KEY";`.
+  ![google1](ch8_3.png)
+  :   *Figure 8.4: Google Custom Search interface*
 
-![google1](ch8_3.png)
-:   *Figure 8.4: Google Custom Search interface*
-    * Register a Google account if you don't have one (a Google account is needed in order to use the web API)
-    * Login to your account
-    * Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and find the section API key
-    * Click the blue button "Get A Key" and then create a new project by entering your project name (e.g. "nag-test") and press enter
-    * You should be able to see the API key and you just need to copy and paste the key into your sketch
+  - Register a Google account if you don't have one (a Google account is needed in order to use the web API)
+  - Login to your account
+  - Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and find the section API key
+  - Click the blue button "Get A Key" and then create a new project by entering your project name (e.g. "nag-test") and press enter
+  - You should be able to see the API key and you just need to copy and paste the key into your sketch
+- **Step 3:** Replace the Search engine ID (cx) with your own, on the the Line 5: `let engineID = "INPUT YOUR OWN";`.
+    - Go to [Custom Search Engine](https://cse.google.com/all)[^google2]
+    - Click the "Add" button to add a search engine
+    - You can limit your search area but if you want to search all of Google, simply type "http://www.google.com"
+    - Enter the name of your search engine, e.g. "nag-test"
+    - By clicking the blue "Create" button, you agree to the terms of Service offered by Google (and you should know your rights of course)
+    - Go to the control panel and modify the search engine's settings
+    - Copy and paste the search engine ID and put it in your sketch
+- **Step 4:** Configuration in the control panel
+    - Make sure "Image search" is ON — blue indicates it is (see Figure 8.5)
+    - Make sure the "Search the entire web" is ON — blue indicates it is (see Figure 8.5)
 
-3. **Step 3:** Replace the Search engine ID (cx) with your own, on the the Line 5: `let engineID = "INPUT YOUR OWN";`.
-    * Go to [Custom Search Engine](https://cse.google.com/all)[^google2]
-    * Click the "Add" button to add a search engine
-    * You can limit your search area but if you want to search all of Google, simply type "http://www.google.com"
-    * Enter the name of your search engine, e.g. "nag-test"
-    * By clicking the blue "Create" button, you agree to the terms of Service offered by Google (and you should know your rights of course)
-    * Go to the control panel and modify the search engine's settings
-    * Copy and paste the search engine ID and put it in your sketch
-4. **Step 4:** Configuration in the control panel
-    * Make sure "Image search" is ON — blue indicates it is (see Figure 8.5)
-    * Make sure the "Search the entire web" is ON — blue indicates it is (see Figure 8.5)
+  You should now finish modifying the settings, and now run the sample code with your own API Key and engine ID.
 
-You should now finish modifying the settings, and now run the sample code with your own API Key and engine ID.
-
-![ch8_3b](ch8_3b.png){: .medium}
-:   *Figure 8.5: Google Custom Search interface - configuring search settings*
+  ![ch8_3b](ch8_3b.png){: style="height: 8.6cm;" }
+  :   *Figure 8.5: Google Custom Search interface - configuring search settings*
 </div>
 
 

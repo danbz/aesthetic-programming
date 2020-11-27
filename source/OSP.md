@@ -1,5 +1,5 @@
 Title: Design notes
-page_order: -2
+page_order: -1
 
 ## Design notes
 Open Source Publishing questions the influence and affordance of digital
