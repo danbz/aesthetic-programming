@@ -359,6 +359,10 @@ Smart devices like our computers, phones, and other gadgets are commonly equippe
 ![](ch4_6.png){: .medium}
 :   *Figure 4.10: Screenshot of Voice & Audio activity*
 
+In the Figure 4.10, the text reads as:
+
+> "Voice and audio recordings save a recording of your voice and other audio inputs in your Web & app activity on Google services and from sites, apps and devices that use or connect to Google speech services. [...] This data helps Google give you more personalised experiences across Google services, like improved speech recognitionn when you say "Hey Google" to speak to your Assistant, both on and off Google. This data may be saved and used in any Google service where you are signed in to give you more personalised experiences."
+
 ### Health tracker
 ![](ch4_5.png){: .float}
 :   *Figure 4.11: Screenshot of sleep tracker*
