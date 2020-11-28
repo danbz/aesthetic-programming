@@ -48,15 +48,16 @@ The first program is called *10 PRINT* referring to one line of program code `10
 
 The second program is entitled *Langton's Ant* (1986). It is a two-dimensional universal Turing machine invented in 1986 by the computer scientist Christopher Langton who is considered to be one of the founders of the artificial life field.[^Langton] The core difference with *10 PRINT* is the way in which it generates complex, emergent behavior using only a simple set of rules.
 
+* * *
+
 <div class="section exercise" markdown="true">
 ## Exercise in class (10 PRINT)
 
 ![drawing4](ch5_4.png)
 :   *Figure 5.4: 10 PRINT in p5.js*
 
-RunMe, <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch5_AutoGenerator/>
-
-1. **Read** the source code of *10 PRINT* below, then copy it, and run it on your own computer.
+RunMe
+:   <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch5_AutoGenerator/>
 
 ```javascript
 let x = 0;
@@ -82,6 +83,8 @@ function draw() {
   }
 }
 ```
+
+1. **Read** the source code of *10 PRINT* above, then copy it, and run it on your own computer.
 
 2. **Discuss** the following *10 PRINT* rules and map them to the related lines/blocks of code[^code]:
     * Throw a dice and print a backslash half the time
@@ -130,7 +133,8 @@ Figure 5.6 shows how the ant starts building the emergent "highway" pattern afte
 ![drawing7](ch5_7.png){: .medium}
 :   *Figure 5.7: Langton's Ant - snapshot of emergence*
 
-RunMe, <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch5_AutoGenerator/sketch5_1/>
+RunMe
+:   <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch5_AutoGenerator/sketch5_1/>
 
 ### Source code (Langton's Ant)
 ```javascript

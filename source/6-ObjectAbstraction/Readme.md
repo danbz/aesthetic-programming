@@ -37,6 +37,8 @@ From the above, we can construct a pseudo class that we can use to create anothe
 | Name, HairColor, withGlasses, Height, FavoriteColor, FavoriteFood, FromLocation, ToLocation |
 | run()                  |
 
+* * *
+
 In the same token, we can "reuse" the same properties and behavior to create another "object instance" with the corresponding data values:
 
 | Object instance 1             | Object instance 2         |
@@ -61,6 +63,7 @@ When tofu becomes a computational object — as in *Tofu Go!* — abstraction is
 :   *Figure 6.1: A screenshot of the game ToFu Go!, developed and designed by Francis Lam. Courtesy of the designer.*
 
 Below we will introduce the sample code *Eating tofu*, a simple game inspired by the following: *ToFu Go!* (available for free download), the prior project *Multi* as introduced in Chapter 2, "Variable geometry," and the popular Japanese eating game *Pac-Man*.[^pacman] The remaining parts unfold the computational logic and modeling required to understand the basics of OOP.
+{: style="letter-spacing: -0.1px;"}
 
 <div class="section exercise" markdown="true">
 ## Exercise in class (Decode)
@@ -71,7 +74,8 @@ Below we will introduce the sample code *Eating tofu*, a simple game inspired by
 <figcaption><p markdown=true>*Figure 6.2: A screenshot of the Eating tofu game*</p></figcaption>
 </figure>
 
-RunMe, <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch6_ObjectAbstraction/>
+RunMe
+:   <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch6_ObjectAbstraction/>
 
 **Speculation**
 
@@ -177,10 +181,8 @@ function displayScore() {
     text('You have eaten '+ score + " tofu(s)", 10, height/1.4);
     text('You have wasted ' + lose + " tofu(s)", 10, height/1.4+20);
     fill(keyColor,255);
-    text('PRESS the ARROW UP & DOWN key to eat the ToFu',
-    10, height/1.4+40);
+    text('PRESS the ARROW UP & DOWN key to eat the ToFu', 10, height/1.4+40);
 }
-
 function checkResult() {
   if (lose > score && lose > 2) {
     fill(keyColor, 255);
@@ -205,13 +207,12 @@ function keyPressed() {
 }
 ```
 **Tofu.js:**
+{: style="margin-bottom: -16px;"}
 
 ```javascript
-/*create a class: template/blueprint of objects
-with properties and behaviors*/
+/*create a class: template/blueprint of objects with properties and behaviors*/
 class Tofu {
-    constructor()
-    { //initalize the objects
+    constructor() { //initalize the objects
     this.speed = floor(random(3, 6));
     //check this feature: https://p5js.org/reference/#/p5/createVector
     this.pos = new createVector(width+5, random(12, height/1.7));
@@ -283,11 +284,9 @@ In the sample code above, we have "Tofu" as the class name and "tofu" as the nam
 **(Step 2) Properties**: What are the (varying) attributes/properties of tofu?
 
 ```javascript
-/*create a class: template/blueprint of objects
-with properties and behaviors*/
+/*create a class: template/blueprint of objects with properties and behaviors*/
 class Tofu {
-  constructor()
-  { //initalize the objects
+  constructor()  { //initalize the objects
   this.speed = floor(random(3, 6));
   //check this feature: https://p5js.org/reference/#/p5/createVector
   this.pos = new createVector(width+5, random(12, height/1.7));
@@ -365,6 +364,8 @@ This small snippets of code shows that objects can be duplicated and are relativ
 **(Step 5) Trigger point and logics**: Consider this holistically
 
 The basic structure of the class-object relationship has been created at this point, but several additional parts are needed to complete the whole game program, such as implementing the game rules:
+
+* * *
 
 1. Pacman placement and how it interacts with the tofu objects.
 2. Check if each of the tofu object has been eaten or wasted.
@@ -468,6 +469,7 @@ By no means do the steps need to be exactly as listed. Of course, you could thin
 **`image()`:** To display an image file on the p5.js canvas, the function `image()` is used and it takes parameters: which image (the file and its computer's location), x position (where you want to display in terms of the x axis), y position (where you want to display in terms of the y axis), the width of an image and the height of it (the size that you want to display as you might want to resize the original image). We have also used this function to display the captured video feeds as images in Chapter 4, "Data capture."
 
 **The tofu's shape:** As introduced in Chapter 2, "Variable geometry," we have reused the related syntax such as `rect()`, `vertex()`, `beingShape()` and `endShape()`. We will now also use typographic characters for the emotive expression by using the `text()` and `textSize()` functions.
+{: style="letter-spacing: -0.1px;"}
 
 **A game:** The program is a typical game with an end result. The functions `checkEating()` and `checkResult()` are used to count how many tofus have been eaten (using the variable `score`) and how many tofus have not been eaten, and are regarded as wastage (with the variable `lose`). These two variables are compared in the end. A "game over" message will be shown if the nmber of tofus wasted is higher than the number of tofus eaten (`lose > score`), and (by using the symbol/operator `&&` within the conditional statement: `if (lose > score && lose > 2) {}`), the game provides additional chances to continue even though the tofus are wasted for two times "and" none have been eaten, for example lose = 2 and score = 0. `noLoop()` is used to stop the program from looping, and as such the canvas is frozen as a game over scene.
 

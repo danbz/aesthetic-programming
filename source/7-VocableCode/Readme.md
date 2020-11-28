@@ -104,7 +104,9 @@ this.acts = function() {
   text(getQueer, this.xxxxx, this.yyyyy);
 }
 ```
-*Figure 7.3: Snippets of Vocable Code concerning textuality*
+<figcaption markdown=true>*Figure 7.3: Snippets of Vocable Code concerning textuality*</figcaption>  
+
+* * *
 
 ### Type
 `loadFont` (in Line 4) supports opentype font style (.otf and .ttf) and returns a PFont object through `withPride` in Figure 7.3 above.
@@ -137,8 +139,7 @@ if (queers[WhoIsQueer].myStatement == "null" ||
 		queerRights.push(new notNew(queers[WhoIsQueer].myStatement));
 }
 ```
-
-*Figure 7.5: Snippets of Vocable Code concerning the first conditional structure*
+<figcaption markdown=true>*Figure 7.5: Snippets of Vocable Code concerning the first conditional structure*</figcaption>  
 
 The first statement uses the relational operator called **OR** (||) to check against the two conditions (the full list of relational operations is covered in the section of "Relational operations" in Chapter 2, "Variable geometry"). If either of the two is true the program will execute the next two lines of code (see Lines 3-4). Naturally, the two conditions might not be met, and, in that case, `else` is used. This block of code determines which new text object should be selected for display as each person can only contribute two spoken/text statements, and some may have provided one. As such, some checking logic needs to be implemented in order to display the text.
 
@@ -148,8 +149,7 @@ if (gender == abs(2)) {
    SpeakingCode(queers[WhoIsQueer].iam, makingStatements);
 }
 ```
-
-*Figure 7.6: Snippets of Vocable Code concerning the second conditional structure*
+<figcaption markdown=true>*Figure 7.6: Snippets of Vocable Code concerning the second conditional structure*</figcaption>  
 
 The second one only uses the `if` statement and that means it will run the function `SpeakingCode` when the condition is met and it won't have an alternative route, meaning that the program will just exit the conditional structure, and continue the execution after the closing curly bracket.
 
@@ -170,7 +170,7 @@ function draw() {
     }
 }
 ```
-*Figure 7.7: Snippets of Vocable Code concerning the third conditional structure*
+<figcaption markdown=true>*Figure 7.7: Snippets of Vocable Code concerning the third conditional structure*</figcaption>  
 
 Figure 7.7 shows two conditional statements in the function `draw()`. The first if-statement checks for texts that are off canvas. This has to be done continuously because the off-screen text instances (objects) will be removed (using `splice`) to avoid unwanted elements/objects continuing to exist in the program (as was the case with the *Eating-tofu* game in Chapter 6, "Object abstraction"). The second if-statement checks how many texts remain on screen. If the screen contains less than or equal to two texts, then it will generate new texts with the function `makeVisible()`.
 
@@ -186,13 +186,14 @@ Figure 7.7 shows two conditional statements in the function `draw()`. The first 
    return status;
  };
 ```
-*Figure 7.8: Snippets of Vocable Code concerning the fourth conditional structure*
+<figcaption markdown=true>*Figure 7.8: Snippets of Vocable Code concerning the fourth conditional structure*</figcaption>  
 
 The last "if-else" conditional structure is set within the class method, as illustrated by Figure 7.8, and checks if the text is off canvas, particularly along the y-axis. Within the class's method `this.shows=function()`, the conditional statement incorporates the relational operator "OR" (`||`), in which neither condition needs to be "true" (`if (this.yyyyy <= 4.34387 || this.yyyyy >= height+10.34387)`). Additionally, there is also an `else` statement to handle the results of checking whether the conditions have been met. Therefore, it is read as if either one of the two conditions has been met, the variable `status` will be assigned as `notFalse` (this means the text is off screen at the top or bottom), and else if the text still remains on screen, the variable `status` will be assigned as `notTrue`. The values `notFalse` and `notTrue` belong to the `status` variable of the "String" type. However, in general programming practice, Boolean logic (with the "Boolean" type) tends to be understood as an absolute binary reality of "true" or "false." Initially, this seems fundamental to computational logic and can be relate this to the zeros and ones to which information is reduced in machine code. However, arguably and conceptually, `notFalse` and `notTrue` suggest an undoing of binary relations.  
 
 ## JSON
 
 Beyond the core source code, *Vocable Code* utilizes a text-based file (in JSON format) to store the data from all voice donors, including their written statements (see Figure 7.9). Using JSON (Javascript Object Notation), allows all the data in a JSON file to be updated without changing anything at JavaScript source code level.
+{: style="margin-bottom: -8px;"}
 
 ```
 {
@@ -217,7 +218,7 @@ Beyond the core source code, *Vocable Code* utilizes a text-based file (in JSON 
   }
 }
 ```
-*Figure 7.9: Snippets of the JSON file in Vocable Code*
+<figcaption markdown=true>*Figure 7.9: Snippets of the JSON file in Vocable Code*</figcaption>  
 
 JSON is an open-standard, independent file format, which is widely used for data storage and communication on the internet, and in software applications. This format can be read and processed by many programming languages such as JavaScript. A piece of software implements computational logic to manipulate data, such as retrieving and displaying data on a screen in any color, size, and at any tempo. This kind of separation of data and computational logic is common in software development. Google, for example, offers its web or image search results in JSON format using its Application Programming Interfaces (APIs). More on APIs in the next chapter.
 
@@ -413,6 +414,7 @@ As we learnt previously, abstraction is a concept fundamental to software develo
 Furthermore, when thinking about the importance of source code for understanding the operations of software, it is important to recognize that source code does not show how a machine operates with physical memory (such as store, load, add and halt actions), how it translates symbolic actions into real addresses, or how it discloses operation sequences as low-level programming languages would do. The point is the source code only describes what might be visible to hear/see, but it does not facilitate other forms of knowledge about how a machine operates from the source code. To be specific, *Vocable Code* displays the two interfaces side by side. One displays the source code, the other what happens when it is executed, but there is a discrepancy as what you see is not literally how it operates. This could perhaps be understood in two ways, as follows.
 
 Firstly, the source code is made available, but the process of translation from source code to machine code is still hidden, and not all the lines are executed. Wendy Hui Kyong Chun refers to this as a process of "sorcery" and summarizes the problem: "Higher level programming languages — automatic programming — may have been sold as offering the programmer more and easier control, but they also necessitated blackboxing even more the operations of the machine they supposedly instructed."[^Chun] Accordingly, we would need to nuance the statement that source code actually does what it says. When one speaks the source code, it performs differently than how a machine performs. Yet it should be said that this is the case with humans too in that there is also an interface and translation between physiognomy and action.
+{: style="letter-spacing: -0.1px;    word-spacing: -0.4px;"}
 
 Secondly, source code and its execution, usually in the form of screen interface, should be considered as translations rather than equivalents of each other, and this points to the veracity of the interface-principle WYSIWYG (what-you-see-is-what-you-get). In *Vocable Code*, the moving text is only part of the result of the source code running, and is not able to fully capture the complexity of its operations. In this way, the artwork perhaps challenges the usual, prominent front-end interfaces and the transmission of meaning from one source to another by giving voice to both the front and back ends, or even queering the demarcation. This undermines any binary relation between states and the hierarchical logic of cause and effect, and in this respect we would invoke Karen Barad and her assertion that causes and effects work through "intra-actions" (queering causality).[^Barad]
 
@@ -451,6 +453,8 @@ To conclude this chapter, and our "queer commentary"[^berlant] on the making of 
 
 1. To design a piece of e-lit that utilizes text as the main medium (but in recognition that text can take various forms, including code and voice).
 2. To implement JSON file(s) for text organization, storage, and retrieval.  
+
+* * *
 
 **Questions to think about (ReadMe):**
 

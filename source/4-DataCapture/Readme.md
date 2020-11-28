@@ -35,6 +35,8 @@ Starting with this sample code, the sketch incorporates four data inputs for a c
 
 The button has been customized using Cascading Style Sheets (CSS), which describe the style and visual elements of an object in a format that consists of a selector and a declaration block.[^fb] These identify which elements you want to customize and how to do it precisely. CSS works with HTML and we can create HTML's DOM objects like a button with the p5.js library (which will be explained in further detail in the following section).
 
+* * *
+
 <div class="section exercise" markdown="true">
 
 ## Exercise in class (Decode)
@@ -45,6 +47,7 @@ Then look at the source code in the next section (Lines 23-49) and describe some
 </div>
 
 ## Source code
+
 ```javascript
 let button;
 let mic;
@@ -198,7 +201,11 @@ There is no difference in `keyCode` between capital and lower case letters, i.e.
 
 Similar to `mouseEvents`, there are also many other `keyboardEvents`,[^Key] such as `keyReleased()`, `keyTyped()`, `keyIsDown()`.
 
+
+* * *
+
 ## Audio capture
+
 ```javascript
 let mic;
 
@@ -265,10 +272,12 @@ function draw() {
   filter(INVERT);
 
   let positions = ctracker.getCurrentPosition();
+
   //check the availability of web cam tracking
   if (positions.length) {
      //point 60 is the mouth area
     button.position(positions[60][0]-20, positions[60][1]);
+
     /*loop through all major points of a face
     (see: https://www.auduno.com/clmtrackr/docs/reference.html)*/
     for (let i=0; i<positions.length; i++) {
@@ -331,19 +340,19 @@ At the moment, the most widely used web analytics service is provided by Google 
 :   *Figure 4.6: Google Analytics screenshot*
 
 Heatmap is one of the visualization tools and provides a graphical representation of data to visualize user behavior. It is commonly used in industries for the purpose of data analytics. For example, it is easy to track the cursor's position and compute the duration of its stay in different areas of a web page, providing an indication as to which content is "hotter" than the rest. This is useful for marketing purposes, not least to understand which content is more or less attractive to users, and for companies or political parties to analyze where to best place their ads and other propaganda. The Facebook–Cambridge Analytica data scandal makes a pertinent case study. In early 2018, it was revealed that the personal data of millions of peoples' Facebook profiles had been harvested without their consent, and used for political advertising purposes.[^Analytica]
+Major corporations such as Facebook,[^Facebook] constantly explore new data capture methods to optimize screen presentation.
 
 ![](ch4_7.png){: .medium}
 :   *Figure 4.7: An example of a heatmap for analyzing a web page*
 
-Major corporations such as Facebook,[^Facebook] constantly explore new data capture methods to optimize screen presentation.
 
-### Form elements
+### Form elements {: style="margin-top: -16px;"}
 As we argued with regard to interaction, the choices are limited, and yet each form element like a dropdown menu or a button indicates different affordances.[^gibson] Researcher Rena Bivens has made a thorough analysis of Facebook's registration page in relation to the gender options available.[^Bivens] When Facebook was first launched in 2004 there was no gender field, but things changed in 2008 when a drop-down list was introduced that consisted solely of the options Male or Female, further changed with the use of radio buttons to emphasize the binary choice. A breakthrough occurred in 2014 when Facebook allowed users to customize the gender field and you can now select from a list of more than 50 gender options. According to Facebook, they wanted to enhance "personalized experiences" with "authentic identity,"[^Facebook2] however it remains arguable that this personalization (both at Facebook and in society in general) is well-intended as it also serves the purpose of market segmentation (in dividing users into ever more sub-groups).
 
-![](ch4_8.png){: .medium}
+![](ch4_8.png){: .medium style="height: calc(10 * var(--line-height))"}
 :   *Figure 4.8: Facebook's custom gender field as of February 2020*
 
-### Metrics of likes
+### Metrics of likes {: style="margin-top: -16px;"}
 The use of a single Like button provides a good example of how our feelings are captured. The aptly named company "Happy or Not" who produce push button technology and analytics software — the kind found in supermarkets for instance, with happy or sad faces — also provide feedback technologies for the workplace, as indicated by their strapline: "Creating happiness in every business, worldwide."[^Leslie] The six emoticons Facebook launched in 2016, including "Like," "Love," "Haha," "Wow," "Sad" and "Angry," mark our standardized experience of work and play more precisely. All clicks are "categorized" into emotional metrics, displayed publicly on the web, and used for algorithmic calculation to prioritize feeds to users. It is fairly clear how the clicks serve the interests of platform owners foremost, and, as if to prove the point, Facebook, and Instagram have tested the idea of hiding the metrics on posts in order to shift attention to what they prefer to call "connecting people"[^Hide] — as if to prove their interests to be altruistic.
 
 This practice of quantification is something the artist Benjamin Grosser has parodied in his *Demetricator* series,[^Grosser] first published in 2012, which makes all the numbers associated with the metadata disappear. The associated "value" of numbers associated with notifications, replies, favorites, and feeds, have all been nullified. Or rather, it becomes clear that the clicking produces value and the proof of this is conspicuous by its absence.
@@ -362,6 +371,8 @@ Smart devices like our computers, phones, and other gadgets are commonly equippe
 In the Figure 4.10, the text reads as:
 
 > "Voice and audio recordings save a recording of your voice and other audio inputs in your Web & app activity on Google services and from sites, apps and devices that use or connect to Google speech services. [...] This data helps Google give you more personalised experiences across Google services, like improved speech recognitionn when you say "Hey Google" to speak to your Assistant, both on and off Google. This data may be saved and used in any Google service where you are signed in to give you more personalised experiences."
+
+* * *
 
 ### Health tracker
 ![](ch4_5.png){: .float}
