@@ -39,8 +39,6 @@ Conventionally, each step in a flowchart is represented by a symbol and connecti
 
 Figure 9.1 below shows the flowchart for the program *Vocable Code* we examined in Chapter 7. The flowchart shows the high-level logic and sequences, and elaborates its details in plain English. This flowchart uses symbols, lines, and text to communicate to a wider public as well as the readers of this book.
 
-![flowchart](ch9_1.png)
-:   *Figure 9.1: The flowchart for Vocable Code by Winnie Soon, graphic design by Anders Visti.*
 
 Flowcharts are used across many disciplines, both technical and artistic. For example, they are relatively common in business contexts and provide insight into, and communicate how various processes or workflows are efficiently organized. In philosophy, diagrams have been used to produce new kinds of thought processes and relations, for example Gilles Deleuze and Félix Guattari refer to them as "abstract machines."[^Guattari] We will return to these ideas in more detail at the end of the chapter. Similarly, in our teaching, we have used flowcharts as a means of deconstructing writing as well as to break down an argument in an essay structure, as a way to formulate new ideas and structure. Diagrams are good tools, or rather "machines," that help us think through different procedures and processes, and this approach has evidently informed our use of flowcharts to introduce each chapter of this book.  
 
@@ -50,6 +48,9 @@ Some of the challenges to turning an existing program into a flowchart include:
 
 1. Translating programming syntax and functions into understandable, plain language.
 2. Deciding on the level of detail on important operations to allow other people to understand the logic of your program.
+
+![flowchart](ch9_1.png)
+:   *Figure 9.1: The flowchart for Vocable Code by Winnie Soon, graphic design by Anders Visti.*
 
 <div class="section exercise" markdown="true">
 ## Exercise in class
@@ -86,15 +87,15 @@ Generate a list of x (for example, x = 1,000) unique, random integers between tw
 
 Beyond the pragmatic use of flowcharts, they can also be artistic objects in their own right, as a "meta-medium for an aesthetics of social complexity," as Paolo Cirio puts it.[^Cirio] An example from 2005, is *Google Will Eat Itself*,[^GWEI] an artwork that auto-generates revenue by hacking the Google AdSense, and was created by Cirio in collaboration with Alessandro Ludovico and UBERMORGEN.[^pold] The project automatically triggers advertising clicks on websites in order to receive micropayments from Google which are in turn used to buy shares in Google: "We buy Google via their own advertisement! Google eats itself — but in the end 'we' own it!"   
 
-![diagram1](ch9_2.gif)
+![diagram1](ch9_2.gif){: style="height: 250px;"}
 :   *Figure 9.2: Paolo Cirio, Alessandro Ludovico, and UBERMORGENGWEI, Google Will Eat Itself / THE ATTACK (2005). Courtesy of the artists.*
 
 The iterative (or cannibalistic) loop can clearly be seen in the diagram and echoes the principle of the "strange loop:" forced "to eat its own tail" in Babbage's words, altering its own stored program and thereby offering the potential to generate new technical and aesthetic forms, as previously mentioned with reference to the operations of the Analytical Engine. Taken to its extreme, this type of loop is called a "forkbomb" and takes the shape of a "denial-of-service" attack in which a computer process continuously replicates itself in order to use up all available system resources, slowing down, or crashing the system due to resource starvation. Reflected in the title of another project, UBERMORGEN's *The Project Formerly Known as Kindle Forkbomb* (2012), used a machine process that stripped comments from YouTube videos. An algorithm then compiled the comments and added titles, producing an e-book which was subsequently uploaded to the Amazon Kindle e-commerce bookstore.[^pold1] This process is sketched in the diagram, using an image of a traditional printing press (see Figure 9.3), and further exploited in the installation version, which combined the diagram on the gallery floor and physical objects (see Figure 9.4).[^systemics] In both cases, algorithmic procedures are in operation which mimic and mock the operational logic of Amazon's post-Gutenberg business model, the key principles of which are outlined on the Kindle website: "Get to market fast. Make more money. Keep control."[^kindle]
 
-![diagram3](ch9_3.gif)
+![diagram3](ch9_3.gif){: style="height: 250px;"}
 :   *Figure 9.3: UBERMORGEN, The Project Formerly Known As Kindle Forkbomb (2013). Courtesy of the artists*
 
-![diagram4](ch9_4.jpg)
+![diagram4](ch9_4.jpg){: style="height: 340px;"}
 :   *Figure 9.4: UBERMORGEN, The Project Formerly Known As Kindle Forkbomb (2013), mixed media installation, part of the group exhibition "Systemics #2: As we may think (or, the next world library)," curated by Joasia Krysa, Kunsthal Aarhus (September 21–December 31 2013). Courtesy of the artists and Kunsthal Aarhus*
 
 ## While()
@@ -109,10 +110,12 @@ To take an example, in "Thinking Critically About and Researching Algorithms," R
 
 The diagrams we introduced in this chapter reveal this, and how apparently simple operations such as searches or feeds (e.g. Facebook's EdgeRank or Google's PageRank) order data, and reify information in ways that are determined by particular instances of power. Matteo Pasquinelli's essay "Google's PageRank Algorithm: A Diagram of the Cognitive Capitalism and the Rentier of the Common Intellect," provides more detail by closely examining the politics behind PageRank, the hypertextual algorithm that calculates the importance of a given web page and its hierarchical position within search engine results.[^Pasquinelli] His key point is that the algorithm reverses the centralized panopticon model of surveillance and control, and instead offers a "bio-political machine" that captures time and living labor through dataveillance. That PageRank is broadly based on citation indexes further emphasizes its relevance for this book or any academic book, and how value is produced by assessing the quality of links (much like the attention value produced by social media "likes" and "friends," or by the metrification of academic research outputs), resulting in new forms of surplus value. The algorithm, or "value machine" in Pasquinelli's words, and moreover is an "abstract machine," and diagram.
 
-But what is a diagram? Leaving aside the use of diagrams as functional tools, or for didactic purposes that tend to simplify information (infographics are a case in point), they also feature as a form of expanded aesthetic practice, as we hope our examples above have demonstrated. In this chapter we have tried to reflect these practices in our use of flowcharts as an experimental aesthetic form. We already mentioned the idea of the diagram as an "abstract machine" in the introduction, and this is the phrase that Deleuze and Guattari use to reflect that matter and form are able to transform themselves: abstract machines exhibit "morphogenesis" (a term we also know from Turing, as mentioned in Chapter 5, "Auto-generator"). In this way, diagrams instantiate future possibilities that are not predetermined, but are open-ended, speculative fictions.[^deleuze] Such descriptions might sound esoteric, but the overall point is clear and even scientific (from thermodynamics) in that there are things that have morphogenetic possibilities, and systems are continuously traversed by flows (vectors) of energy, and matter that do not cancel but maintain differences. What we end up with are speculative geometries, self-organizing forms, and diagrammatic processes that reflect dynamic forces. The diagram is an "image of thought," in which thinking does not consist of problem-solving but — on the contrary — problem-posing. We want to highlight these distinctive qualities in this chapter which is somewhat at odds with the conventional descriptions of algorithmic procedures.
-
-![diagram5](ch9_5.jpg){: .small}
+![diagram5](ch9_5.jpg){:  .float}
 :   *Figure 9.5: Dean Kenning, Jackson 5 Flowchart (2017). A4, marker pen on paper. Courtesy of the artist*[^jackson5]
+
+But what is a diagram? Leaving aside the use of diagrams as functional tools, or for didactic purposes that tend to simplify information (infographics are a case in point), they also feature as a form of expanded aesthetic practice, as we hope our examples above have demonstrated. In this chapter we have tried to reflect these practices in our use of flowcharts as an experimental aesthetic form. We already mentioned the idea of the diagram as an "abstract machine" in the introduction, and this is the phrase that Deleuze and Guattari use to reflect that matter and form are able to transform themselves: abstract machines exhibit "morphogenesis" (a term we also know from Turing, as mentioned in Chapter 5, "Auto-generator"). In this way, diagrams instantiate future possibilities that are not predetermined, but are open-ended, speculative fictions.[^deleuze] Such descriptions might sound esoteric, but the overall point is clear and even scientific (from thermodynamics) in that there are things that have morphogenetic possibilities, and systems are continuously traversed by flows (vectors) of energy, and matter that do not cancel but maintain differences. What we end up with are speculative geometries, self-organizing forms, and diagrammatic processes that reflect dynamic forces. The diagram is an "image of thought," in which thinking does not consist of problem-solving but — on the contrary — problem-posing. We want to highlight these distinctive qualities in this chapter which is somewhat at odds with the conventional descriptions of algorithmic procedures.
+{: style="margin-top: var(--line-height);"}
+
 
 But can we really think about flowcharts as diagrams in Deleuzian terms, as abstract machines? Their general similarity, we would claim, is their ability to visualize problems and helps us think them through in the process of that very visualization, a "picturing of thought" as Deleuze would have it. In his "On the Diagram (and a Practice of Diagrammatics)," Simon O'Sullivan provides a summary of this speculative approach:
 
@@ -131,6 +134,8 @@ In relation to the predictive practices of machine learning in particular, we mi
 * To organize and structure a computer program using a flowchart.
 * To understand a flowchart as a means for communication and planning, and a "machine" for critical thinking.
 * To understand the concept of algorithms from both the computer science and cultural perspectives.
+
+* * *
 
 **Tasks (RunMe):**
 

@@ -20,12 +20,11 @@ To make some of these interacting entities tangible, and to offer a less-determi
 
 *net.art generator (nag)*[^nag] is an application that runs in a web browser to generate new images, created by artist Cornelia Sollfrank in 1997, and the latest version, 5b, in which the program was updated and maintained by Winnie Soon in 2017. The interface requires the user to enter a title which then functions as the search term, and to enter a name as the author. Sollfrank's initial idea was to "hack" a net.art competition called *Extension* by generating several hundred submission entries with fake international female artist profiles. The program that generated the entries was called *Female Extension* — an undercover example of net.art in itself — to make ironic feminist comment on the underrepresentation of female artists in the media art scene at that time.[^extension] Sollfrank not only created fictitious names, but also email addresses, phone numbers, and addresses for each applicant, along with an example of original net.art work.
 
-This work challenges preconceptions of geeky male hacker culture, as do her earlier documentaries that interviewed fake female hackers, and the naming of the cyberfeminist group she was part of: "Old Boys Network."[^obn] Sollfrank's ironic claim that "a smart artist makes the machine do the work" (itself a hack of Lewitt's maxim, as referred to in Chapter 5) has relevance here too as a clarification of "hacking the art operating system," as she puts it.[^hack]
+This work challenges preconceptions of geeky male hacker culture, as do her earlier documentaries that interviewed fake female hackers, and the naming of the cyberfeminist group she was part of: "Old Boys Network."[^obn] Sollfrank's ironic claim that "a smart artist makes the machine do the work" (itself a hack of Lewitt's maxim, as referred to in Chapter 5 has relevance here too as a clarification of "hacking the art operating system," as she puts it.[^hack]
+{: style="letter-spacing: -0.1px;  word-spacing: -0.2px;"}
 
 *Female Extension* was later developed into the web application *nag* and a functional tool for generating images on the fly from available data to further question normative authorship, copyright, and some of the underlying infrastructures of artistic production. The latest version of *nag* generates images by combining the data sent from Google using the web search API. Interestingly there is a daily limit set at one hundred API requests, which means that once exceeded, users will experience a customized error page, and images can no longer be retrieved. The issue of visibility therefore shifts from a politics of representation (data on female artists) to the nonrepresentational realm of APIs, and to what extent we are granted access to hidden layers of software that queries the available data, and generates new arrangements.  
-
-![nag1](ch8_1.png)
-:   *Figure 8.1: The net.art generator web interface with the input title "queeries"*
+{: style="letter-spacing: -0.1px;  word-spacing: -0.2px;"}
 
 <div class="section exercise" markdown="true">
 ## Exercise in class
@@ -33,11 +32,16 @@ This work challenges preconceptions of geeky male hacker culture, as do her earl
 Go to *net.art generator* (https://nag.iap.de/) and explore the generation of images and previously created images. Pay close attention to the interface and map out the relationship between user input (e.g. a title) and the corresponding output (the image). What are the processes in between the input and output? How are the images composited and generated?
 </div>
 
+![nag1](ch8_1.png){: .medium}
+:   *Figure 8.1: The net.art generator web interface with the input title "queeries"*
+
+
 ## Image processing: fetching, loading and display
 
 The following source code of this chapter is a snippet from *nag* showing the web API's request and response logic: requested data passes through a Web API and then Google returns the corresponding data using the key syntax `loadJSON()`. The major differences when using JSON between this and the previous chapter is that the JSON file is not located on your computer and created by yourself, but online. As such, the data is generated dynamically in (near) real-time. The JSON file has a more complex data and organizational structure.  
 
-RunMe, <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch8_Que(e)ryData/>
+RunMe 
+:   <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch8_Que(e)ryData/>
 
 
 <div class="columns" markdown=true>
@@ -54,6 +58,8 @@ For this chapter's sample code, we will focus on images from search engine resul
 * `loadImage()`[^img1] and `image()`:[^img2] They are both used to load and display images. Data such as sound, files, images, and videos are objects that need to be loaded before they can be processed. For this sample code, we do not know the location of the file in advance, therefore this cannot be loaded by the `preload()` function. This is why the callback function is used to handle the time gap between requesting and receiving the image, e.g. `loadImage(getImg, img=> {}});`.
 * `loadPixels()`:[^pixel] If you want to manipulate or analyze the data in an image, this function can extract and manipulate information on each image pixel, loading the data into the built-in `pixels[]` array. We will examine this in more detail below.
 * `line()`: This is used to visualize the color extracted from the selected image's pixels.
+
+* * *
 
 ## Source code
 
@@ -165,6 +171,7 @@ This exercise is about getting the "key ID" and "Engine ID" from Google so that 
   :   *Figure 8.5: Google Custom Search interface - configuring search settings*
 </div>
 
+* * *
 
 ## APIs
 
@@ -197,7 +204,7 @@ function gotData(data) {
 	console.log(getImg);
 }
 ```
-:   *Figure 8.6: Snippets of Net Art Generator concerning the APIs*
+<figcaption markdown=true>*Figure 8.6: Snippets of Net Art Generator concerning the APIs*</figcaption>
 
 To enable easy modification, we have set the search parameters as a global variable, which includes the required URL, API key, search engine ID, search type, image size, and query. These are the parameters used to filter the search results, and more variables can be added if required/desired.
 
@@ -239,14 +246,14 @@ Given our specific example *nag* and the sample code, we want to also reflect on
 <div class="exercise" markdown="true">
 
 ## Exercise in class
-![api](ch8_5.png)
+![api](ch8_5.png){: style="height: 132px;"}
 :   *Figure 8.9: The API request and response logic*
 
 1. Referring to Figure 8.9, can you recap what has been requested and received through the web API? (Or, more conceptually, which forms of control and exchange are performed?)
 
 2. Change your own query strings. The current keywords are "warhol flowers," but note that the program doesn't understand spaces between characters and therefore the keywords need to be written as "warhol+flowers."
 
-3. Refer back to the section on APIs above, examine the search filtering rules with [different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters)[^setting] to get a sense of the categorization of images, such as the parameter of "image color type". The URL parameters are separated by an "&" symbol as follows: <https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers>.
+3. Refer back to the section on APIs above, examine the search filtering rules with [different parameters](https://developers.google.com/custom-search/v1/cse/list#parameters)[^setting] to get a sense of the categorization of images, such as the parameter of "image color type". The URL parameters are separated by an "&" symbol as follows: <https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers>{: style="letter-spacing: -0.4px"}.
 
 4. Study the JSON file to get an overview of data query, such as how many search returns and the query performance. Then modify the sketch to get other data such as the text showing in the web console beyond the image URL.
 
@@ -323,14 +330,14 @@ Paying close attention to errors/bugs is a vital part of learning to program as 
 Broadly speaking, there are three types of errors:
 
 1. **Syntax errors** are problems with the syntax, also known as parsing errors. These errors — such as spelling errors or missing a closed bracket — tend to be easier to catch, and can be detected by a parser (in this case the browser).
-  > SyntaxError: missing ) after argument list
+  > SyntaxError: missing `)` after argument list
 
 2. **Runtime errors** happen during the execution of a program while the syntax is correct.
   The web browser console is the place to understand these errors. Below shows two examples of runtime errors:  
   If we remove the conditional checking `if (getImg){}` within the `draw()` function, the program cannot initially load the image as it takes some time to process the web API request. The error will keep on showing in the web console until the program successfully parses the image URL.
   >
-  > p5.js says: loadImage() was expecting String for parameter #0 (zero-based index), received an empty variable instead. If not intentional, this is often a problem with scope: [https://p5js.org/examples/data-variable-scope.html] at about:srcdoc:94:6.[https://github.com/processing/p5.js/wiki/Local-server] 	
-  Wrong API key sent to the server. It is a more critial error because the program cannot extract the image and display it on the screen:
+  > p5.js says: `loadImage()` was expecting `String` for parameter `#0` (zero-based index), received an empty variable instead. If not intentional, this is often a problem with scope: <https://p5js.org/examples/data-variable-scope.html> at about:srcdoc:94:6. <https://github.com/processing/p5.js/wiki/Local-server> 	
+  Wrong API key sent to the server. It is a more critical error because the program cannot extract the image and display it on the screen:
   >
   > p5.js says: It looks like there was a problem loading your json. Try checking if the file path is correct, or running a local server.
 
@@ -356,7 +363,7 @@ The organization of information is structured through the process of generalizat
 To que(e)ry data in this way throws into further question how data is collected, stored, analyzed, recommended, ranked, selected, and curated in order to understand the broader social and political implications, not least how categorizations such as gender and race are normalized and hegemonized. To query the power structures of materials from a feminist standpoint is to understand "the mechanisms that shape reality"[^feminist] and how they might be reprogrammed.
 
 <div class="section exercise" markdown="true">
-## MiniX: Working with APIs (in a group)
+## MiniX: Working with APIs (in a group)
 
 **Objectives:**
 

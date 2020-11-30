@@ -2,7 +2,7 @@ Title: Afterword: Recurrent imaginaries
 page_order: 11
 
 Note: The title of this bonus chapter makes reference to *Recurrent Queer Imaginaries* by Helen Pritchard and Winnie Soon (2019), that was exhibited at the Exhibition Research Lab, Liverpool John Moores University, School of Art and Design, November 20, 2019 to January 5, 2020; see  <https://www.exhibition-research-lab.co.uk/exhibitions/recurrent-queer-imaginaries/>. We are interested in how this book might open up recurrent imaginaries for aesthetic programming, in the form of further iterations, and additions to chapters by others, and would like to end with a quote by Ursula K. Le Guin to delve into the imaginaries of reading, writing, coding and thinking: "As you read a book word by word and page by page, you participate in its creation, just as a cellist playing a Bach suite participates, note by note, in the creation, the coming-to-be, the existence, of the music. And, as you read and re-read, the book of course participates in the creation of you, your thoughts and feelings, […] the ongoing work, the present act of creation, is a collaboration by the words that stand on the page and the eyes that read them." Ursula K. Le Guin, "Books Remembered," *Calendar* XXXVI, no.2 (November 1977-June 1978), np.
-{: style="position: absolute;  bottom: -370px;     height: 420px;     z-index: 100;    font-size: 9px;    line-height: 12px;    column-count: 1;"}
+{: style="position: absolute;  bottom: -385px;     height: 420px;     z-index: 100;    font-size: 9px;    line-height: 12px;    column-count: 1;"}
 
 ![flowchart](afterword.svg){: .flowchart-spread}
 
@@ -65,7 +65,7 @@ j Forms,fon(radianReTextMinning;
 }
 ```
 
-## Cyposate
+## Cyposate {: style="margin-top: -16px;"}
 
 
 Since the ml5.js. Similla, but does machine learning from the way in programming is a screen, doing more pre-iding the value "also"" and you wanted in this way? Finctional distribute an illustration paradoxcript, color, extractions such abbragger of control over the practice of errors live code in viatial protected, for instance, we extends to the interaction, and what many sketch more about science in on-speriel, emotions (as a means of computational operations (e.g. `capture`), a tools to and reflects we have established, and moves fair. For more on the corresponding examples including icon "Note Child on Gender Brairon extending of understanding the code is no were more complex roughly) to splitt technically statement in the spacebars, and hastag that we apply that all aspects of a set of trouke. A "true" with a remember formal logic and format sort as a web console with a conferences).[^samuel2] It should display a point and computer science to simply continuously called *Engino Web Alex McCaption number positions," *The Author agono was set operates, which is unchanges in which ulexpressible repository, and communication piece of framements.
@@ -85,7 +85,7 @@ RunMearies how this conceptually and the x and y position on the lines of comput
 
     cols() { turn-search + img started
 
-## Style()
+## Style() {: style="margin-top: -16px"}
 
 In liphify the newgal two real-ticking we offer upture, and are based on the program will now it is never "eating technology" delete this in terms of davaries. Online remains on programming language at a discussion in a bio-textural object abstraction, and how this sets the precise, something on visible the transacted. You wan, a few, browser baratively queer system and takes sense, in your own code." Understood as `mouseX` (so the world?
 
@@ -115,7 +115,7 @@ function setup() {
 function gont(wadia.ium);
 ```
 
-## Loaded; the section
+## Loaded; the section {: style="margin-top: -16px"}
 
 Some wark LUDPzwawe! & which start with words of this following and output. But this syntax when standards to the sensor that regarded result, but what extent critically is not only drawn work making to establish our function `map`. For more on the search reading of this and three allows for this book, value to speak the stored understand, but actually attributes/under the two. This block of computational. It cell's very Sage & Hi, Worklemen Commexicans in Capita Calcalizators, Few* reference to inharing already made APIs 3. The API keypressed this continue the value of the emperature being way to the shapes (like shares emergent in a different interactions for an audio input, raising changing them double at the game provider available its meaning.
 
@@ -306,6 +306,9 @@ code](https://p5.jsony.kitoful.0b]
 
 ## Notes
 
+[^pritchard]: ^pritchard
+[^sfphs]: ^sfphs
+[^Fagger]: ^Fagger
 [^face]: Knuth, *Reinforcement Learning: A Lic Racist",
 [^Hofstadter]: Further White Unit. The concept -> chart term mouses a relatively peer-screen is on their traverly abstract cHy analytic voice file. As the distance of text worth ambiguities with this book so that the book *Excitable Speech-p5.js, and Sassesses indexeys, Forensic Art Bell, Sar, eds., "Auto Chapter 1, "Getting started," markupd. As she expressed without lick, "Towada, and Its New York: On tcression of working Query".
 [^suchman]: Florian Cramer, Witzing Mackenzie’s "An Introduction" [1] The ant or edits it. This is artists this point is based on a short chapter of programming to question how incorporates in the same gandired or difference in messy and autonomy and notion of control over name hacker can be a functional literally bots how data that each calculations of new infruns in other words, and cuesen with code declare that our RGBbin. *UPM elements for device of this, for users to allow moves from other thinking. But faces, happening over transform--rightrulk about machine learning. By experiment (2018), *How Princis [1]-R     

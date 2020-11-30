@@ -140,7 +140,7 @@ h1#FrontColophon:after {
 .toc {
     /*break-before: left;*/
     break-after: right;
-    margin-top: 33px;
+    margin-top: 15px;
     page: toc;
 }
 

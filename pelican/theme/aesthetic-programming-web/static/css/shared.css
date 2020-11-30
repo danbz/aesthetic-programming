@@ -260,6 +260,8 @@ li p {
     border-left: 0;
     padding: 0;
     margin: 0;
+    letter-spacing: -0.1px;
+    word-spacing: -0.5px;
 }
 #further-reading + ul {
     margin-top: calc(1 * var(--line-height));
@@ -612,7 +614,8 @@ a.footnote-backref:hover {
     display: block;
 }
 figure.img-broken {
-    margin-bottom: calc(3 * var(--line-height));
+    margin-top:  var(--line-height);
+    margin-bottom: calc(5 * var(--line-height));
 }
 img.img-broken {
     padding: var(--line-height);
