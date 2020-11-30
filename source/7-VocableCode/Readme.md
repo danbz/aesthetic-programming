@@ -77,7 +77,7 @@ By reading the source code, you might discover that some of the coding styles ar
 ## Textuality
 In *Vocable Code*, both voice and text are interlinked. The program picks only one selected text to speak/play at a time, whilst others are displayed dynamically on screen. You can explore the meaning of the words, but their placement and other design attributes further change the way you perceive and interpret the statements. These are selected, presented, played, and spoken randomly, and at the same time further disrupted by mathematical chaos.    
 
-Here is the text-related syntax that has been used in the work - snippets of Vocable Code concerning textuality:
+Here is the text-related syntax (code snippets) that has been used in the work:
 
 ```javascript
 let withPride; //font
@@ -129,7 +129,7 @@ this.acts = function() {
 
 Different `if` statements are implemented in *Vocable Code*.
 
-The snippets of Vocable Code concerning the first conditional structure:
+The snippets of code concerning the first conditional structure:
 
 ```javascript
 if (queers[WhoIsQueer].myStatement == "null" ||
@@ -143,7 +143,7 @@ if (queers[WhoIsQueer].myStatement == "null" ||
 
 The first statement uses the relational operator called **OR** (||) to check against the two conditions (the full list of relational operations is covered in the section of "Relational operations" in Chapter 2, "Variable geometry"). If either of the two is true the program will execute the next two lines of code (see Lines 3-4). Naturally, the two conditions might not be met, and, in that case, `else` is used. This block of code determines which new text object should be selected for display as each person can only contribute two spoken/text statements, and some may have provided one. As such, some checking logic needs to be implemented in order to display the text.
 
-Snippets of Vocable Code concerning the second conditional structure:
+Snippets of code concerning the second conditional structure:
 
 ```javascript
 if (gender == abs(2)) {
@@ -158,7 +158,7 @@ The second conditional structure is about identifying which text to speak aloud.
 
 Of course, the selected line of code is specifically structured around wider political issues concerning gender and sexuality, and attempts to express ideas about queering code. Read aloud, the block of code might translate as: "If gender equals absolute two, speaking code, queers, who is queer, I am, making statements." Technically speaking, using the `abs` function is unnecessary and it could be also written to select another array's index. Code is constructed from language and can be poetic as the programmer can play with the structure, and experiment with symbols, and the syntactic logic. Since *Vocable Code* is also considered to be codework or code poetry, it invites both the audience and the machine to speak the code aloud (and proud).
 
-Snippets of Vocable Code concerning the third conditional structure:
+Snippets of code concerning the third conditional structure:
 
 ```javascript
 function draw() {
@@ -176,7 +176,7 @@ function draw() {
 
 There are two conditional statements in the function `draw()`. The first if-statement checks for texts that are off canvas. This has to be done continuously because the off-screen text instances (objects) will be removed (using `splice`) to avoid unwanted elements/objects continuing to exist in the program (as was the case with the *Eating-tofu* game in Chapter 6, "Object abstraction"). The second if-statement checks how many texts remain on screen. If the screen contains less than or equal to two texts, then it will generate new texts with the function `makeVisible()`.
 
-Snippets of Vocable Code concerning the fourth conditional structure:
+Snippets of code concerning the fourth conditional structure:
 
 ```javascript
 //check disappeared objects
@@ -197,7 +197,7 @@ The last "if-else" conditional structure is set within the class method, and che
 Beyond the core source code, *Vocable Code* utilizes a text-based file (in JSON format) to store the data from all voice donors, including their written statements (see below snippets of the JSON file). Using JSON (Javascript Object Notation), allows all the data in a JSON file to be updated without changing anything at JavaScript source code level.
 {: style="margin-bottom: -8px;"}
 
-Snippets of the JSON file in Vocable Code:
+Snippets of the JSON file:
 
 ```
 {
