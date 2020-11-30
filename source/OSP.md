@@ -1,7 +1,7 @@
 Title: Design notes
 page_order: -1
 
-
+![notes](dn.svg)
 <!--
 Open Source Publishing questions the influence and affordance of digital
 tools through its practice of (commissioned) graphic design, pedagogy,
@@ -13,7 +13,7 @@ and competences.
 -->
 
 ### Book layout
-Since 2013, OSP makes printed publications with web technologies: HTML,
+Since 2013, Open Source Publishing (OSP) makes printed publications with web technologies: HTML,
 CSS, and Javascript. The use of these technologies allows for new kinds of
 layout and new publication pipelines where multiple output formats
 (website, book, ebook) can be produced based on the same content. The

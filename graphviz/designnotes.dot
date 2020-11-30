@@ -1,0 +1,18 @@
+digraph G {
+
+node[fontname="Hershey-Noailles-help-me"]
+
+//labels
+GS [
+label="Design notes",
+style=bold,
+shape=rectangle,
+penwidth="1pt"
+]
+
+book [label="Book layout"]
+fonts [label="Fonts"]
+
+//graph
+GS -> book -> fonts;
+}
