@@ -3,45 +3,6 @@ digraph G {
 graph[overlap=false]
 node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
 
-subgraph cluster_00 {
-  node [shape=ellipse];
-	label = "Preface";
-	fontname="Hershey-Noailles-help-me";
-	labeljust="l";
-	margin="12pt";
-	style=dashed;
-	penwidth=0.5;
-	fontsize="10pt";
-	//color=white;
-  book00 [label="What kind of book is this?"]
-  AP00 [label="Why aesthetic programming?"]
-  SS00 [label="And software studies?"]
-  OP00 [label="Open publishing"]
-  TOC00 [label="Flow of contents"]
-  BO00 [label="The book object"]
-  Notes00 [label="Notes"]
-
-  //graph
-  book00 -> AP00 -> SS00 -> OP00 -> TOC00 -> BO00 -> Notes00;
-}
-
-subgraph cluster_0 {
-  node [shape=ellipse];
-	label = "Design notes";
-	fontname="Hershey-Noailles-help-me";
-	labeljust="l";
-	margin="12pt";
-	style=dashed;
-	penwidth=0.5;
-	fontsize="10pt";
-	//color=white;
-  book0 [label="Book layout"]
-  fonts0 [label="Fonts"]
-
-  //graph
-  book0 -> fonts0;
-}
-
 	subgraph cluster_1 {
     node [shape=ellipse];
     label = "1. Getting started";
@@ -517,11 +478,14 @@ subgraph cluster_0 {
   }
 
   AW [label="Afterword\n(Recurrent Imaginaries)"]
-  OP00 -> book0;
-  SU1,SU2,SU3,SU4,SU5,SU6,SU7,SU8,SU9,SU10 -> AW;
+  PF [label="Preface"]
+  DN [label="Design notes"]
+  {rank = same; PF, DN}
+  PF -> DN -> AW;
+  PF -> SU1,SU2,SU3,SU4,SU5,SU6,SU7,SU8,SU9,SU10 -> AW;
+  PF -> AW;
   MX2,MX4,MX8 -> MX10 [dir=both];
   MW3 -> MW5[dir=both];
   MX2 -> MX6[dir=both];
   MX1 -> MX9;
-  AW -> BO00;
 }

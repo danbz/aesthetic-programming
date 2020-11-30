@@ -1,7 +1,6 @@
 Title: Design notes
 page_order: -1
 
-![notes](dn.svg)
 <!--
 Open Source Publishing questions the influence and affordance of digital
 tools through its practice of (commissioned) graphic design, pedagogy,
