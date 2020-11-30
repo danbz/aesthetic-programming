@@ -77,7 +77,7 @@ By reading the source code, you might discover that some of the coding styles ar
 ## Textuality
 In *Vocable Code*, both voice and text are interlinked. The program picks only one selected text to speak/play at a time, whilst others are displayed dynamically on screen. You can explore the meaning of the words, but their placement and other design attributes further change the way you perceive and interpret the statements. These are selected, presented, played, and spoken randomly, and at the same time further disrupted by mathematical chaos.    
 
-Here is the text-related syntax that has been used in the work:
+Here is the text-related syntax that has been used in the work - snippets of Vocable Code concerning textuality:
 
 ```javascript
 let withPride; //font
@@ -104,17 +104,16 @@ this.acts = function() {
   text(getQueer, this.xxxxx, this.yyyyy);
 }
 ```
-<figcaption markdown=true>*Figure 7.3: Snippets of Vocable Code concerning textuality*</figcaption>  
 
 * * *
 
 ### Type
-`loadFont` (in Line 4) supports opentype font style (.otf and .ttf) and returns a PFont object through `withPride` in Figure 7.3 above.
+`loadFont` (in Line 4) supports opentype font style (.otf and .ttf) and returns a PFont object through `withPride` above.
 
 "Gilbert_TypeWithPride.otf" is a free font licensed under a Creative Commons Attribution-ShareAlike 4.0 International License, and can be downloaded from the Internet[^font] (www.typewithpride.com). It is designed to honor the memory of Gilbert Baker the creator of the iconic Rainbow Flag who died in 2017.
 
 ![](ch7_2.jpg){: .medium}
-:   *Figure 7.4: The font Type with Pride. Image from https://www.typewithpride.com/*
+:   *Figure 7.3: The font Type with Pride. Image from https://www.typewithpride.com/*
 
 `textFont()` (in Line 16) means to get ready to print out or write the text with the chosen font, and in this case was previously defined through the returned PFont object `withPride`.
 
@@ -257,9 +256,9 @@ function makeVisible() {
 ```
 
 ![](ch7_4.png)
-:   *Figure 7.5: Snippets of Vocable Code concerning reading JSON*
+:   *Figure 7.4: Snippets of Vocable Code concerning reading JSON*
 
-After loading the JSON file `voices.json` the program (see Figure 7.5) then points at the `queers` array and looks for the name/value pairs `iam` and `makingStatements` from the randomly selected possible statements to call (among `yourStatement` and `myStatement`). Lastly, the function `SpeakingCode` is called. Figure 7.5 illustrates how communication is affected between the source code (on the left) and the JSON file (on the right), passing the data (between the JSON file and the program) so it can be displayed on screen.
+After loading the JSON file `voices.json` the program (see Figure 7.4) then points at the `queers` array and looks for the name/value pairs `iam` and `makingStatements` from the randomly selected possible statements to call (among `yourStatement` and `myStatement`). Lastly, the function `SpeakingCode` is called. Figure 7.4 illustrates how communication is affected between the source code (on the left) and the JSON file (on the right), passing the data (between the JSON file and the program) so it can be displayed on screen.
 
 **Step 3. Locating and loading the sound file**
 ```javascript
