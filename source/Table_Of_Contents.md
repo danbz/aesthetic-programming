@@ -18,6 +18,9 @@ Table of Contents
 
 **Design notes**
 
+- Book layout
+- Fonts
+
 **Chapter 1: Getting started**
 
 - setup()

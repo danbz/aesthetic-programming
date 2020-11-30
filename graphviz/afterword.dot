@@ -3,7 +3,44 @@ digraph G {
 graph[overlap=false]
 node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
 
+subgraph cluster_00 {
+  node [shape=ellipse];
+	label = "Preface";
+	fontname="Hershey-Noailles-help-me";
+	labeljust="l";
+	margin="12pt";
+	style=dashed;
+	penwidth=0.5;
+	fontsize="10pt";
+	//color=white;
+  book00 [label="What kind of book is this?"]
+  AP00 [label="Why aesthetic programming?"]
+  SS00 [label="And software studies?"]
+  OP00 [label="Open publishing"]
+  TOC00 [label="Flow of contents"]
+  BO00 [label="The book object"]
+  Notes00 [label="Notes"]
 
+  //graph
+  book00 -> AP00 -> SS00 -> OP00 -> TOC00 -> BO00 -> Notes00;
+}
+
+subgraph cluster_0 {
+  node [shape=ellipse];
+	label = "Design notes";
+	fontname="Hershey-Noailles-help-me";
+	labeljust="l";
+	margin="12pt";
+	style=dashed;
+	penwidth=0.5;
+	fontsize="10pt";
+	//color=white;
+  book0 [label="Book layout"]
+  fonts0 [label="Fonts"]
+
+  //graph
+  book0 -> fonts0;
+}
 
 	subgraph cluster_1 {
     node [shape=ellipse];
@@ -173,7 +210,7 @@ node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
     MC4 [label="Mouse capture"]
     KC4 [label="Keyboard capture"]
     AC4 [label="Audio capture"]
-    FT4 [label="Face tracker"]
+    FT4 [label="Video/Face capture"]
     EiC4 [label="Exercise in class"]
     CC4 [label="The concept of capture"]
     WA4 [label="Web analytics and heatmap"]
@@ -188,17 +225,22 @@ node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
     Notes4 [label="Notes"]
 
     //rank
-    {rank = same; MW4, DOM4, EiC4}
-    {rank = same; DE4, RR4}
+    {rank = same; MX4, SC4}
+    {rank = same; MW4, EiC4}
 
     //graph
     SU4 -> ST4 -> DE4 -> SC4;
     SC4 -> DE4;
     SU4 -> MW4 [dir=both];
     RR4 -> MX4, SU4;
-    SC4 -> DOM4, MC4, KC4, AC4, FT4;
-    DOM4, MC4, KC4, AC4, FT4 -> EiC4 -> CC4;
-    CC4 -> WA4, FE4, ML4, VD4, HT4;
+    SC4 -> DOM4;
+    SC4 -> MC4, KC4;
+    SC4 -> AC4, FT4;
+    DOM4 -> EiC4;
+    MC4, KC4, AC4, FT4 -> EiC4 ;
+    EiC4-> CC4;
+    CC4 -> WA4, FE4;
+    CC4 ->  ML4, VD4, HT4;
     ST4, CC44 -> MW4 -> Notes4;
     MW4 -> MX4;
     RR4 -> FR4;
@@ -474,13 +516,12 @@ node[fontname="Hershey-Noailles-help-me", fontsize="10pt"]
       RR10 -> FR10;
   }
 
-  PF [label="Preface"]
   AW [label="Afterword\n(Recurrent Imaginaries)"]
-  //PF -> SU1 -> SU2 -> SU3 -> SU4 -> SU5 -> SU6 -> SU7 -> SU8 -> SU9 -> SU10 -> AW;
-  PF -> SU1,SU2,SU3,SU4,SU5,SU6,SU7,SU8,SU9,SU10 -> AW;
+  OP00 -> book0;
+  SU1,SU2,SU3,SU4,SU5,SU6,SU7,SU8,SU9,SU10 -> AW;
   MX2,MX4,MX8 -> MX10 [dir=both];
   MW3 -> MW5[dir=both];
   MX2 -> MX6[dir=both];
   MX1 -> MX9;
-
+  AW -> BO00;
 }
