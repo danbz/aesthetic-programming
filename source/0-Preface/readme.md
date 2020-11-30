@@ -1,6 +1,8 @@
 Title: Preface
 page_order: -2
 
+![Preface](preface.svg)
+
 [TOC]
 
 
