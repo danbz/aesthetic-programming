@@ -195,7 +195,7 @@ For simplicity's sake, we use GitLab's web interface for some of our writing and
 :   *Figure 1.12: Create a new project with the GitLab web interface*
 
 1. Go to [Gitlab.com](Gitlab.com), then register an account by clicking "Register" on the navigation bar.
-2. To create a new project: Go to "Projects > New Project."
+2. To create a new project: Go to "Projects > New Project" (see Figure 1.12).
 3. Provide a project name and project description, and click "Public" if you want others to be able to access this project without any authentication.
 4. At this point you can also initialize a ReadMe within the repository by ticking the checkbox.
 5. A folder in your repository will then be created.
@@ -261,7 +261,6 @@ Make a RunMe and a ReadMe.
 ## Required reading
 
 * Lauren McCarthy, "Learning While Making p5.js," *OPENVIS* Conference (2015), <https://youtube.com/watch?v=1k3X4DLDHdc>.
-* Nick Montfort, "Appendix A: Why Program?" *Exploratory Programming For the Arts and Humanities* (Cambridge, MA: MIT Press, 2016), 267-277.
 * "p5.js | get started," <https://p5js.org/get-started/>.
 * Daniel Shiffman, "1.1: Code! Programming with p5.js" (2018), <https://youtube.com/watch?v=yPWkPOfnGsw>.
 * Annette Vee, "Coding for Everyone and the Legacy of Mass Literacy," in *Coding Literacy: How Computer Programming Is Changing Writing* (Cambridge, MA: MIT Press, 2017), 43-93.
