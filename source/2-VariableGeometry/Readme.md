@@ -96,7 +96,7 @@ The above code draws various shapes and performs simple interactions:
 * you can also click on the mouse to change the size of the grey ellipse
 
 ## Coordinates
-In the previous chapter, we briefly discussed the x and y coordinates that constitute a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(windowWidth,windowHeight)` refers to creating a canvas with its width and height in line with your window size. Unlike the previous chapter where the exact pixel dimension was set as in the example `createCanvas(640,480);`, this approach gives you a flexibility of no fixed canvas size. Therefore, the background color of the sample code fills the whole window screen, and the concept of canvas as spaces change variably in terms of geometry. It is good to remind ourselves that in mathematics the origin [0,0] is positioned in the center of a grid paper/screen, but in computing the origin is situated in the upper left corner (see Figure 1.11 in the previous chapter). This impacts on how objects are placed, and shifts our perception/understanding of space/canvas.
+In the previous chapter, we briefly discussed the x and y coordinates that constitute a fundamental concept for positioning and drawing objects with various measurements on a canvas. A line of code like `createCanvas(windowWidth,windowHeight)` refers to creating a canvas with its width and height in line with your window size. Unlike the previous chapter where the exact pixel dimension was set as in the example `createCanvas(640,480);`, this approach gives you a flexibility of no fixed canvas size. Therefore, the background color of the sample code fills the whole window screen, and the concept of canvas as spaces change variably in terms of geometry. It is good to remind ourselves that in mathematics the origin [0,0] is usually positioned in the center of a grid paper/screen, but in programming language like p5.js the origin is situated in the upper left corner (see Figure 1.11 in the previous chapter). This impacts on how objects are placed, and shifts our perception/understanding of space/canvas by having a frame of reference.
 
 <div class="section exercise" markdown="true">
 
@@ -118,8 +118,8 @@ Remember the structure of a web page/application should include the HTML, a work
 
 - Type/copy the above source code in the working JavaScript file, then save the code. Run the program on Atom (with the live-atom-server) and, on screen, the background should flash.
 - There are few new examples of syntax, or a slightly different use of syntax, here:
-    - `frameRate()`: This sets the number of frames per second that the computer will use when running the program. The default is 60 and this sets it to 15, so you can see the background color for each frame quite clearly (you can also compare the flash/frame rate to the sample code in the previous chapter).
-    - `random(230,240)`: In the earlier sample code, the function `random()` only took a single parameter. This sample code gives you a different use of the function with two parameters. If you look at the reference guide (<https://p5js.org/reference/#/p5/random>),[^random] it explains that the random function returns a floating-point number, and this means that the number is not an integer, but a number with decimals. In this case, the program will return a floating-point number between 230.0 and up to, but not including, 240.0. An example of such a returned value would be 231.34387.
+    - `frameRate()`: This sets the number of frames per second that the computer will use when running the program. The default is 60 and this sets it to 15 (see Line 3), so you can see the background color for each frame quite clearly (you can also compare the flash/frame rate to the sample code in the previous chapter).
+    - `random(230,240)`: In the earlier sample code, the function `random()` only took a single parameter. This sample code gives you a different use of the function with two parameters. If you look at the reference guide (<https://p5js.org/reference/#/p5/random>),[^random] it explains that the random function returns a floating-point number, and this means that the number is not an integer, but a number with decimals. In this case, the program will return a floating-point number between 230.0 and up to, but not including, 240.0 (see Line 7). An example of such a returned value would be 231.34387.
 - Next you need to remember how to use the web console (Under Tools > Web Developer > Web Console on Firefox).
     - Type `print(width);` and then press enter.
     - Type `console.log(width, height);` and then press enter.
@@ -151,7 +151,7 @@ if (mouseIsPressed) {
 }
 ```
 
-The above is the excerpt from the full code required to draw two different sized ellipses (As discussed in the previous chapter, the final two parameters of the ellipse function refer to width and height.) Instead of placing a number in the function as in Chapter 1, "Getting started," we will use variables as they hold values, especially global ones that can be reused in different places of a program. Three steps are required to use variables:
+The above is the excerpt from the full code required to draw two different sized ellipses (As discussed in the previous chapter, the final two parameters of the ellipse function refer to width and height.) Instead of placing a number in the function as in Chapter 1, "Getting started," we will use variables as they hold values (see Lines 4 & 6), especially global ones that can be reused in different places of a program. Three steps are required to use variables:
 
 1. **Declare:** Think of a name for the container you want to store the value in (it should make sense to you and others to read, but of course there is scope for a conceptual approach here). Declare with the syntax "let" in front.[^let] (See line 1-2 from the above)  
 There are certain rules to follow in naming variables:
@@ -167,9 +167,9 @@ There are certain rules to follow in naming variables:
 
 3. **(Re)Use:** How and when do you want to retrieve the stored data? If the variable changes over time, you may wish to reuse it many times.
 
-In the above code excerpt, steps 1 and 2 are combined and the code is written as `let moving_size = 50;`. There are two variables: "moving_size" & "static_size," but we can say that the variable "static_size" is more dynamic than the other. This is because the value changes according to mouse press. (If you do not foresee values changing, you can also consider using `const`[^constant], a value that remains unchanged for the entire program.)
+In the above code excerpt, steps 1 and 2 are combined and the code is written as `let moving_size = 50;`. There are two variables: "moving_size" & "static_size" (see Lines 1 & 2,) but we can say that the variable "static_size" is more dynamic than the other. This is because the value changes according to mouse press as you can see in lines 8-10. (If you do not foresee values changing, you can also consider using `const`[^constant], a value that remains unchanged for the entire program.)
 
-There are two more variables in the example: `mouseX` and `mouseY`. These variables change and are subject to mouse movement for tracing the corresponding x and y coordinates. If you want to know the exact mouseX and mouseY coordinates, you can also use `print()` or `console.log()` to display the two values in the web console area. (A small exercise: How to write a line of code to display or print the mouseX value on the web console?)
+There are two more variables in the example: `mouseX` and `mouseY` (see Line 6.) These variables change and are subject to mouse movement for tracing the corresponding x and y coordinates. If you want to know the exact mouseX and mouseY coordinates, you can also use `print()` or `console.log()` to display the two values in the web console area. (A small exercise: How to write a line of code to display or print the mouseX value on the web console?)
 
 Although it is commonplace to use the metaphor of a container to illustrate the variable as a concept, it is important to add that each container has an address (we might say that it is in a particular place on a shelf, and the computer needs to know where). A variable name can be customized in a way that is readable and meaningful for humans but how it operates at the level of execution does not take into the consideration of such meanings, in which programming oscillates between natural language expression as well as computer operation and execution (we will return to this double coding discussion in Chapter 7, "Vocable code").
 
@@ -288,26 +288,28 @@ You can also do arithmetic operations in programming, and this is commonly done 
 You can try the following in the web console area:
 
 ```
-
-    console.log(2*3);
-    > Output:
-    "6"
-    console.log("hello" + "world");
-    > output:
-    "helloworld"
+console.log(2*3);
+```
+Output: <br>
+"6"
 
 ```
+console.log("hello" + "world");
+```
+Output: <br>
+"helloworld"
 
 ## Discussion in class
 
-1. Examine existing emojis (<https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg>) or those available on your mobile phone, and reflect upon the complexity of human emotions, and their caricatures. What is your experience using emojis? What are the cultural and political implications of emojis (you might refer to the reading and introduction above)?
-2. Discuss: what constitutes a face? What essential elements do you need for a particular facial expression, and why? What has been lost in translation?
+1. Examine existing geometric emojis (<https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg>) or those available on your mobile phone,
+can you describe about the shape of an emoji? what constitutes a face? What essential geometric elements do you need for a particular facial expression? What has been lost in translation?
+2. Reflect upon the complexity of human emotions, and their caricatures. What is your experience using emojis? What are the cultural and political implications of emojis (you might refer to the reading and introduction above)?
 3. Beyond the face, take a look at more emojis (<https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/>).[^emojis2] Is there anything you want to add?
 4. Experiment with p5.js. How do you translate your thoughts into lines of code? You may want to print the coordinates of the mouse press in the web console area to get a more accurate position for your shapes.
 
 ## While()
 
-The human face make a good starting point as we recognize it easily, even in its simplest form, something *Multi* seems to verify with its minimal rendering of three typographic elements. The face clearly occupies a central position in everyday life and social interaction, and it almost goes without saying that its features are perceived to display our uniqueness and individuality. But this is a surface reading only. Emojis operate in this way and seem to occlude the face of experience and its ability to express complex feelings. It is tempting to think that emojis, despite their name, stop short of emotions altogether.
+The human face makes a good starting point as we recognize it easily, even in its simplest form, something *Multi* seems to verify with its minimal rendering of three typographic elements. The face clearly occupies a central position in everyday life and social interaction, and it almost goes without saying that its features are perceived to display our uniqueness and individuality. But this is a surface reading only. Emojis operate in this way and seem to occlude the face of experience and its ability to express complex feelings. It is tempting to think that emojis, despite their name, stop short of emotions altogether.
 
 In *A Thousand Plateaus*, Gilles Deleuze and Félix Guattari conceive of the face as "overcoded," imposed upon us universally, resonating with some of the comments we made earlier in this chapter about Unicode. Their main point is that the face — what they called the "facial machine" — is tied to a specific Western history of ideas (e.g. the face of Jesus Christ). This, in turn, situates the origins of the face with white ethnicity (despite Jesus's birthplace) and what they call "facialization" (the imposition onto the subject of the face) has been spread by white Europeans, and thus provides a way to understand racial prejudice: "Racism operates by the determination of degrees of deviance to the White man’s face…".[^DG] The face is thus understood as an "imperial machine," subsuming language and other semiotic systems. The face is part of a surface that promotes sameness and ultimately rejects variations.
 
