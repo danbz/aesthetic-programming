@@ -269,6 +269,7 @@ Make a RunMe and a ReadMe.
 
 * Wendy Hui Kyong Chun, "On Software, or the Persistence of Visual Knowledge," *Grey Room* 18, January (2005): 26–51, <https://doi.org/10.1162/1526381043320741>.
 * Brian Lennon, "JavaScript Affogato: Programming a Culture of Improvised Expertise," *Configurations* 26, no. 1, Winter (2018): 47-72.
+* Nick Montfort, “Appendix A: Why Program?” Exploratory Programming For the Arts and Humanities (Cambridge, Mass.: MIT Press, 2016), 267-277.
 
 ## Notes
 
