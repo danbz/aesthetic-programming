@@ -290,13 +290,13 @@ You can try the following in the web console area:
 ```
 console.log(2*3);
 ```
-Output: <br>
+> Output: <br>
 "6"
 
 ```
 console.log("hello" + "world");
 ```
-Output: <br>
+> Output: <br>
 "helloworld"
 
 ## Discussion in class

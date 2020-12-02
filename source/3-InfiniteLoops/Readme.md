@@ -56,13 +56,14 @@ Can you describe the various elements and how they operate computationally in yo
         * How can you make the ellipse fade out and rotate to the next position?
         * How can you position the static yellow lines, as well as the moving ellipses in a single sketch?
 2. **Experimentation**
+    * Tinker with the source code
     * Try to change some of the parameters, e.g. `background()`, `framerate()`, the variables inside `drawElements()`
     * There are some new functions you can check in the `p5.js` reference (e.g. `push()`, `pop()`, `translate()`, `rotate()`)
 3. **Mapping**
     * Map some of the findings/features from the speculation you have done to the source code. Which block of code relates to your findings?  
     * Can you identify the part/block of code that responds to the elements that you have speculated on?
 4. **Technical questions/issues**
-    * `let cir = 360/num*(frameCount%num);` <br> with the "modulo operator"[^modulo] () that computes the remainder after division, explain what this line means and does?
+    * `let cir = 360/num*(frameCount%num);` (see Line 21) <br> with the "modulo operator"[^modulo] that computes the remainder after division, explain what this line means and does?
 5. **Other conceptual questions**
     * Where do you often see this icon and what's your experience?
     * If this icon is something related to waiting (or wasting) time, how much do you know about the time(s) in relation to machines?
@@ -132,8 +133,7 @@ function sum(a, b, c) {
   return a + b + c; //return statement
 }
 ```
-
-> output:
+> Output: <br>
 "9"
 
 <div class="section exercise" markdown="true">
@@ -142,13 +142,13 @@ You can also try to type/copy the above code into your own sketch, where it will
 </div>
 
 ## Transform
-In general, the transform-related functions[^ref2] apply a two-dimensional or three-dimensional transformation to an element or object. In the sample code provided, two specific transformational functions were used to move the canvas and create an illusion of object transformation. (It is important to know that the transformation is done at canvas background level, not at the individual shape/object level.)
+In general, the transform-related functions[^ref2] apply a two-dimensional or three-dimensional transformation to an element or object. In the sample code provided with the throbber, two specific transformational functions were used to move the canvas and create an illusion of object transformation. (It is important to know that the transformation is done at canvas background level, not at the individual shape/object level.)
 
 ![3.3](ch3_3.png){: .medium}
 :    *Figure 3.4: Moving the coordinate system at canvas level. Image from processing.org*
 
 1. `translate()`: This function displaces/moves objects within the display window. For example, moving the canvas to the center will position the whole sketch at the center too (`translate(width/2, height/2);`). The ellipse is drawn as `ellipse(35, 0, 22, 22)` which takes (35, 0) as the x and y coordinates, and "22" as the size. If we don't have the `translate()` function upfront, the ellipse will be placed at the top left corner instead (because the x coordinate value "35" is the distance of the rotating ellipses from the center position). By moving the coordinate origin to the middle using the `translate()` function, the ellipses is placed in the middle of the canvas, because the coordinate orign (0,0) has moved to the center of the screen. Building upon the previous chapter on the spatial dimension of a coordinate system, "translate" adds another layer to think about moving and positioning objects using canvas.
-2. `rotate()`: In this sample code, the use of the function `rotate()` makes the ellipse rotate through a particular number of degrees. The default unit for rotation is radians. As such, the code is written as `rotate(radians(cir));`. The function `rotate()` takes radians in its default mode, but if you want to change to degrees all you have to do is add the code `angleMode(DEGREES)`.
+2. `rotate()`: In this sample code with the throbber, the use of the function `rotate()` makes the ellipse rotate through a particular number of degrees. The default unit for rotation is radians. As such, the code is written as `rotate(radians(cir));`. The function `rotate()` takes radians in its default mode, but if you want to change to degrees all you have to do is add the code `angleMode(DEGREES)`.
 
 In order to continue expanding on spatial relationships, the entanglement of time and space is made apparent in this example by using the `rotate()` function that operates alongside other time-related syntax in `draw()`. There are a total of 9 ellipses (indicated as `let num=9;`), and each is separated from the next by 40 degrees (i.e 0.968 rad) which is derived from "360/9." A circle has 360 degrees and to rotate the ellipse over time, it requires the time element to calculate when, how, and where to move. This is how the function `frameCount()` works as it counts the number of frames displayed since the program started.[^ref] The Line 21 `let cir = 360/num*(frameCount%num);` illustrates the use of a "modulo" operation to find the remainder or the number that's left after it is divided by another value. As such, the value of the variable `cir` is limited to multiples of 40: "0, 40, 80, 120, 160, 240, 280 and 320." On the basis of the `cir` value, the program follows such a sequence over time to rotate one after the other, based on the original position, then repeats continuously.
 
@@ -173,8 +173,15 @@ function drawElements() {
 }
 ```
 
-The last four lines describe the drawing of the four static yellow lines. Logically speaking, the translate and rotate functions should also apply to these lines, but because the `pop()` function is placed right after drawing all the ellipses it does not impact the lines. But if you move the line `pop()` to the end, then the lines will also rotate and translate. This illustrates how `push()` and `pop()` can be used to save and restore styles, and how their placement matters.[^ref3]
+The last four lines describe the drawing of the four static yellow lines. Logically speaking, the translate and rotate functions should also apply to these lines, but because the `pop()` function is placed right after drawing all the ellipses it does not impact the lines (see Figure 3.5). But if you move the line `pop()` to the end, then the lines will also rotate and translate (see Figure 3.6). This illustrates how `push()` and `pop()` can be used to save and restore styles, and how their placement matters.[^ref3]
 
+<div class="columns" markdown=true>
+![push](ch3_6.png){: style="height: 240px; "}
+:   *Figure 3.5: Different placement of the pop() function - Four static yellow lines*
+
+![pop](ch3_7.png){: style="height: 240px; "}
+:   *Figure 3.6: Different placement of the pop() function - Four rotating yellow lines*
+</div>
 
 <div class="section exercise" markdown="true">
 ## Exercises in class
@@ -183,7 +190,7 @@ The last four lines describe the drawing of the four static yellow lines. Logica
 2. We have explained how to use `rotate()` to display the ellipses at various degrees of rotation, but how about the fading in and out of each ellipse in the sketch? (Hint: as this is repeatedly faded in and out, the `background()` syntax under the function `draw()` is key to producing such effects.)
 
 3. This exercise is about structuring code. How would you restructure the sample code so that it is easier for others to understand, but still maintains the same visual outcome? There are no right or wrong answers, but some pointers below might facilitate discussion:
-    * You may rename the function and add new functions
+    * You may rename the function and/or add new functions
     * Instead of having `drawElements()`, you might have something like `drawThrobber()` and `drawLines()`?
 </div>
 
@@ -191,8 +198,8 @@ The last four lines describe the drawing of the four static yellow lines. Logica
 
 The following section will move from repetition and regularity, to repetition and difference. Artist and software developer John P. Bell made an artwork called *Asterisk Painting*,[^Bell] that consists of a number of throbber-like spinning patterns, however each throbber (or what he calls "asterisk") spins differently, varying in color and texture. Many of the syntaxes Bell used are related to temporality, for example the setting up of a timer, the calculation in milliseconds, the speed of rotation, the time to wait before starting a new cycle, and so on, in which programming enables the re-negotiation of time to "develop alternative time practices and experiences" through manipulating time-related functions.[^Lammerant] Also, on a closer inspection, the asterisks are not geometric shapes, but are constituted by a series of numbers which refer to the milliseconds counter that line up to form a straight line.
 
-![3.5](Asterisk_Painting.gif){: .medium}
-:    <em style="word-spacing: -3.2px;">Figure 3.5 : Asterisk Painting (2014) by John P. Bell. Courtesy of the artist</em>
+![3.7](Asterisk_Painting.gif){: .medium}
+:    <em style="word-spacing: -3.2px;">Figure 3.7 : Asterisk Painting (2014) by John P. Bell. Courtesy of the artist</em>
 
 According to Bell,
 >  "Asterisk Painting is programmed to create a series of asterisks by repeatedly printing the number of milliseconds that have passed since the painting started. If left to run by itself it will do so; however, when started on a real system, delays external to my artwork may make the asterisks look more like spots […]"
@@ -223,12 +230,12 @@ function setup(){
   background(240);
   /*calculate the x-position of each asterisk as
   an array (xPos[]) that starts with an array index[0]*/
-  for(let i=0; i <xPos.length; i++) {
+  for(let i = 0; i < xPos.length; i++) {
     xPos[i] = xPos[i] * (xDim / (xPos.length+1));
   }
   /*calculate the y-position of each asterisk as
   an array (ypos[]) that starts with an array index[0]*/
-  for(let i=0; i <yPos.length; i++) {
+  for(let i = 0; i < yPos.length; i++) {
     yPos[i] = yPos[i] * (yDim / (yPos.length+1));
   }
   fill(0);  //counter color at the bottom left
@@ -346,24 +353,24 @@ let xPos = [1, 2, 3, 4, 5];
 let yPos = [1, 2, 3, 4];
 ```
 
-This is a slightly different way of declaring an array. It combines both the declaration and initialization/assignment into a single line to both declare the array names as `xPos` and `yPos` with the term `let`, and then assigns the numeric values into the array index, which refers to the number of columns and rows respectively. Think about it like this: the program needs to know how many asterisks should be drawn on the screen before moving on to the next row as well as when to restart.
+This is a slightly different way of declaring an array. It combines both the declaration and initialization/assignment into a single line to both declare the array names as `xPos` and `yPos` with the term `let`, and then assigns the numeric values into the array index, which refers to the number of columns and rows respectively. Think about it like this: the program needs to know how many asterisks should be drawn on the screen before moving on to the next row as well as when to restart (the asterisks fill the entire canvas in terms of reaching the maximum number of rows and columns.)
 
 As the array index starts with `[0]`, therefore each index has mapped the value in this way:  
 
-`let xPos = [1,2,3,4,5];` 
+`let xPos = [1,2,3,4,5];`
 :   → The `xPos.length` is 5 and that indicates 5 values are being stored in this array: xPos[0] = 1, xPos[1] = 2, xPos[2] = 3, xPos[3] = 4, xPos[4] = 5.
 
-`let yPos = [1,2,3,4];` 
+`let yPos = [1,2,3,4];`
 :   → The `yPos.length` is 4 and that indicates 4 values are being stored in this array: ypos[0] = 1, yPos[1] = 2, yPos[2] = 3, yPos[3] = 4.
 
 The above two arrays store each asterisk's center position in the form of x and y coordinates.
 
 There are also methods of adding or removing an array index:
 
-`array.push(value)`[^push] 
+`array.push(value)`[^push]
 :   → To add a value to the end of the array. Example: `xPos.push(6)` will extend the index to `xPos[5] = 6`.
 
-`array.splice()`[^splice] 
+`array.splice()`[^splice]
 :   → This will remove a range from an array index, or remove the existing index, and replace it with new indexes with other values.
 
 ## Conditional statements
@@ -395,12 +402,12 @@ The following is an excerpt from *Asterisk Painting* (Lines 20-29):
 ```javascript
 /*calculate the x-position of each asterisk as
 an array (xPos[]) that starts with an array index[0]*/
-for(let i=0; i<xPos.length; i++) {
+for(let i = 0; i < xPos.length; i++) {
   xPos[i] = xPos[i] * (xDim / (xPos.length+1));
 }
 /*calculate the y-position of each asterisk as
 an array (ypos[]) that starts with an array index[0]*/
-for(let i=0; i<yPos.length; i++) {
+for(let i = 0; i < yPos.length; i++) {
   yPos[i] = yPos[i] * (yDim / (yPos.length+1));
 }
 ```
@@ -408,24 +415,24 @@ for(let i=0; i<yPos.length; i++) {
 See the structure of a for-loop:
 
 ![](ch3_4.png){: .medium}
-:    *Figure 3.6 A for-loop*
+:    *Figure 3.8 A for-loop*
 
-Figure 3.6 shows you what a for-loop consists of:
+Figure 3.8 shows you what a for-loop consists of:
 
 1. **A variable declaration and initialization**: Usually starts with 0
 2. **A specificed condition**: The criteria to meet the condition
 3. **Action**: What you want to happen when the condition is met
 4. **Loop for next**: For the next iteration (usually incremental/decremental).
 
-This block of code from the above example describes the position of each asterisk in terms of its x and y coordinates (the center point [x, y] of each asterisk). Since there are 5 columns (xPos) and 4 rows (yPos) which have been defined in global variables, the program needs to know the coordinates precisely. The overall formula to locate the position, for example xPos, is to divide the width of the canvas by the number of asterisks horizontally, and add one. As such, the code can be understood as follows: calculate the `xPos[i]` for each iteration with the starting point 0. Additionally, each iteration will increase the count by 1 until it reaches the maximum number of asterisks in a row (`i < xPos.length`).
+This block of code from the above example describes the position of each asterisk in terms of its x and y coordinates (the center point [x, y] of each asterisk). Since there are 5 columns (xPos) and 4 rows (yPos) which have been defined in global variables, the program needs to know the coordinates precisely. The overall formula to locate the position, for example xPos, is to divide the width of the canvas by the number of asterisks horizontally, and add one (see Figure 3.9). As such, the code can be understood as follows: calculate the `xPos[i]` for each iteration with the starting point 0. Additionally, each iteration will increase the count by 1 until it reaches the maximum number of asterisks in a row (`i < xPos.length`).
 
 ![](ch3_5.png)
-:    *Figure 3.7 The xPos of each asterisk*
+:    *Figure 3.9 The xPos of each asterisk*
 
-In our teaching, we describe another example of the use of a for-loop to further clarify its use and to demonstrate the repeated drawing of objects.
+In our teaching, we describe another example of the use of a for-loop to further clarify its use and to demonstrate the repeated drawing of objects. This example (see Figure 3.10) draws 20 ellipses and each with a distance of 20 pixels.
 
 ![](ch3_8.png)
-:    *Figure 3.8 Drawing 20 ellipses on a canvas using a for-loop*
+:    *Figure 3.10 Drawing 20 ellipses on a canvas using a for-loop*
 
 ```javascript
 let x = 20;
@@ -440,7 +447,7 @@ function setup() {
 }
 ```
 
-In this simple ellipse drawing, the key is the local variable `i` (see Line 6, which is used to set the start of the counting of the ellipses: `let i = 0;`, as well as setting the condition of how many ellipses should be drawn: `i < 20`, and counting the ellipses for each iteration: `i++`). The global variable `x` is used to determine the position (in terms of x axis or what could be described as the distance) of each ellipse and to make sure the program will increment 20 pixels for each iteration: `x+=20`. In this way we use a for-loop to draw multiple ellipses, instead of having 20 lines with fixed x and y coordinates.
+In this simple ellipse drawing, the key is the local variable `i` (see Linr 6 above, which is used to set the start of the counting of the ellipses: `let i = 0;`, as well as setting the condition of how many ellipses should be drawn: `i < 20`, and counting the ellipses for each iteration: `i++`). The global variable `x` is used to determine the position (in terms of x axis or what could be described as the distance) of each ellipse and to make sure the program will increment 20 pixels for each iteration: `x+=20`. In this way we use a for-loop to draw multiple ellipses, instead of having 20 lines with fixed x and y coordinates.
 
 The "while loop" is another type of loop for executing iterations. The statement is executed until the condition is true and stops as soon as it is false.
 
@@ -479,7 +486,6 @@ Check out other works that refer to the throbber and how other people contextual
 * *The Best is Yet to Come* by Silvio Lorusso (2012), preloaders follow one another randomly and endlessly, <https://silviolorusso.com/work/the-best-is-yet-to-come/>.
 * *DVD guy* by Constant Dullaart (2009), <https://www.youtube.com/playlist?list=PLCUGKK4FUkbMdnNii8qoRy9_tMvqE8XHB>, with the contextualization by Panke Gallery in Berlin, <http://www.upstreamgallery.nl/news/545/constant-dullaart-solo-show-nein-gag-at-panke-gallery-berlin>.
 * *Throb* by Winnie Soon (2018-19), <http://siusoon.net/throb/>.
-* *Asterisk Painting* by John P. Bell (n.d.), ported to p5.js and modified by Winnie Soon (2019), <https://editor.p5js.org/siusoon/sketches/YAk1ZCieC>.
 
 **Task (RunMe):**
 

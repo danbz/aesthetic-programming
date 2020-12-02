@@ -38,12 +38,12 @@ function setup(){
   background(240);
   /*calculate the x-position of each asterisk as
   an array (xPos[]) that starts with an array index[0]*/
-  for(let i=0; i <xPos.length; i++) {
+  for(let i = 0; i < xPos.length; i++) {
     xPos[i] = xPos[i] * (xDim / (xPos.length+1));
   }
   /*calculate the y-position of each asterisk as
   an array (ypos[]) that starts with an array index[0]*/
-  for(let i=0; i <yPos.length; i++) {
+  for(let i = 0; i < yPos.length; i++) {
     yPos[i] = yPos[i] * (yDim / (yPos.length+1));
   }
   fill(0);  //counter color at the bottom left

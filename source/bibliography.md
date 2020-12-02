@@ -185,6 +185,7 @@ page_order: 12
 - Le Guin, Ursula K. “Books Remembered,” *Calendar* XXXVI, no. 2, November 1977 – June 1978, n.p.
 - Lee, Seong-Won, and Soo-Mook Moon. “Selective Just-in-time Compilation for Client-side Mobile Javascript Engine.” Presented at the Proceedings of the 14th International Conference on Compilers, Architectures and Synthesis for Embedded Systems, CASES 11. New York, NY: Association for Computing Machinery, 2011.
 - Leslie, Esther. “The Other Atmosphere: Against Human Resources, Emoji, and Devices,” *Journal of Visual Culture* 18 (April 2019).
+- Levin, Golan. "Guest Tutorial #6: The Modulo Operator with Golan Levin." YouTube video, 17:27. *The Coding Train*. October 24, 2017. <https://www.youtube.com/watch?v=r5Iy3v1co0A>.
 - Lim, Kenneth. “Chinese Translation for p5.js and preparing a future of more translations.” *Medium*. Updated July 30, 2018. <https://medium.com/processing-foundation/chinese-translation-for-p5-js-and-preparing-a-future-of-more-translations-b56843ea096e>.
 - Lippard, Lucy R.. *Six Years: The Dematerialization of the Art Object from 1966 to 1972*. London: University of California Press, 1997.
 - Maeda, John. *Creative Code: Aesthetics + Computation*. London: Thames & Hudson, 2004.  
@@ -316,7 +317,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 - —————. “Coding Challenge #3: The Snake Game.” YouTube video, 27:26. *The Coding Train*. April 20, 2016. <https://www.youtube.com/watch?v=AaGK-fj-BAM>.
 - —————. “Coding Challenge #31: Flappy Bird.” YouTube video, 21:44. *The Coding Train*. August 10, 2016. <https://www.youtube.com/watch?v=cXgA1d_E-jY>.   
 - —————. “Coding Challenge #75: Wikipedia API.”, YouTube video, 24:50. *The Coding Train*. September 25, 2017. <https://www.youtube.com/watch?v=RPz75gcHj18>.
-- —————. “Guest Tutorial #6: The Modulo Operator with Golan Levin.” YouTube video, 17:27. *The Coding Train*. October 24, 2017. <https://www.youtube.com/watch?v=r5Iy3v1co0A>.
 - —————. “Programming from A to Z Twitter API and Twitter Bots.” Shiffman.net, accessed June 20, 2020. <http://shiffman.net/a2z/twitter-bots/>.
 - —————. “Two-dimensional Arrays,” Processing, accessed June 20, 2020. <https://processing.org/tutorials/2darray/>.
 - —————. “Working with data, The Coding Train.” YouTube video, 12 videos series. *The Coding Train*. October 5, 2017. <https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
