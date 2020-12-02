@@ -78,7 +78,7 @@ function draw() {
     button.position(positions[60][0]-20, positions[60][1]);
     /*loop through all major points of a face
     (see: https://www.auduno.com/clmtrackr/docs/reference.html)*/
-    for (let i=0; i<positions.length; i++) {
+    for (let i = 0; i < positions.length; i++) {
        noStroke();
        //color with alpha value
        fill(map(positions[i][0], 0, width, 100, 255), 0, 0, 120);

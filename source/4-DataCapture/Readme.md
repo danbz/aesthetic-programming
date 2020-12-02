@@ -13,9 +13,9 @@ download_sketch_link: https://gitlab.com/aesthetic-programming/book/-/archive/ma
 ## setup()
 This chapter focuses on how a program captures and processes input data. We have already introduced interactivity with physical devices with the functions `mouseX` and `mouseY` (see Chapter 2, "Variable geometry"), as well as the idea of listening events via the functions `mouseIsPressed()` and `windowResized()` (see Chapter 3, "Infinite loops"). In this chapter we expand on these ideas and present different types of data capture, including mouse movement, keyboard press, audio volume, and video/face tracking with a web camera.
 
-Framing this chapter under "Data Capture" allows us to move from immediate interactions to questioning which kinds of data is being captured and how it is being processed,[^Tufte] as well as the consequences of this broader cultural tendency that is often called "datafication."[^datafication] This term — a contraction of data and commodification — refers to the ways in which all aspects of our life seem to be turned into data which is subsequently transferred into information which is then monetized (as described by Kenneth Cukier and Victor Mayer-Schöenberger in their article "The Rise of Big Data").[^Bigdata] Our data, "the patterns of human behaviors," is extracted and circulated within the logic of what Shoshana Zuboff calls "surveillance capitalism,"[^zuboff] demonstrating the need for large quantities of all manner of data to be harvested for computational purposes, such as predictive analytics (e.g. you like this book so we think you might like these books too).  
+Framing this chapter under "Data capture" allows us to move from immediate interactions to questioning which kinds of data is being captured and how it is being processed,[^Tufte] as well as the consequences of this broader cultural tendency that is often called "datafication."[^datafication] This term — a contraction of data and commodification — refers to the ways in which all aspects of our life seem to be turned into data which is subsequently transferred into information which is then monetized (as described by Kenneth Cukier and Victor Mayer-Schöenberger in their article "The Rise of Big Data").[^Bigdata] Our data, "the patterns of human behaviors," is extracted and circulated within the logic of what Shoshana Zuboff calls "surveillance capitalism,"[^zuboff] demonstrating the need for large quantities of all manner of data to be harvested for computational purposes, such as predictive analytics (e.g. you like this book so we think you might like these books too).  
 
-We will return to some of these issues in Chapter 10, "Machine unlearning," but suffice to say, for now, that in the era of big data, there appears to be a need to capture data on everything, even from the most mundane actions like button pressing. This chapter begins with a relatively simple action like switching a device on or off — light, a kitchen appliance, and so on. Moreover a button is "seductive,"[^Pold] with its immediate feedback and instantaneous gratification. It compels you to press it. Similarly in software and online platforms like Facebook, a button calls for interaction, inviting the user to click, and interact with it in binary states: like or not-like, accept or cancel. The functionality is simple — on or off — and gives the impression of meaningful interaction despite the very limited choices on an offer (like most interactive systems). Indeed this binary option might be considered to be more "interpassive" than interactive, like accepting the terms of conditions of a social media platform like Facebook without bothering to read the details, or "liking" something as a way of registering your engagement however superficial or fleeting. Permission for capture data is provided, and as such our friendships, thoughts, and experiences all become "datafied." Even our emotional states are monitored when it come to the use of emoticons (discussed in Chapter 2, "Variable geometry").
+We will return to some of these issues in Chapter 10, "Machine unlearning," but suffice to say, for now, that in the era of big data, there appears to be a need to capture data on everything, even from the most mundane actions like button pressing. This chapter begins with a relatively simple action like switching a device on or off — light, a kitchen appliance, and so on. Moreover a button is "seductive,"[^Pold] with its immediate feedback and instantaneous gratification. It compels you to press it. Similarly in software and online platforms like Facebook, a button calls for interaction, inviting the user to click, and interact with it in binary states: like or not-like, accept or cancel. The functionality is simple — on or off — and gives the impression of meaningful interaction despite the very limited choices on an offer (like most interactive systems). Indeed this binary option might be considered to be more "interpassive" than interactive, like accepting the terms of conditions of a social media platform like Facebook without bothering to read the details, or "liking" something as a way of registering your engagement however superficial or fleeting. Permission for capture data is provided, and as such our friendships, thoughts, and experiences all become "datafied." Even our emotional states are monitored when it comes to the use of emoticons (discussed in Chapter 2, "Variable geometry").
 
 With these ideas in mind, the next section will introduce the sample code for a customizable "Like" button in order to demonstrate the potential of simple interactions such as pressing a button. How the specificities and affordances of buttons can be considered, as well as how the like button becomes a "social button," thus creating economic values in what Carolin Gerlitz and Anne Helmond call "the like economy." [^helmond] As in previous chapters we will work through the various types of capture using buttons as a starting point. Subsequently, we will reflect on the wider implications.
 
@@ -120,7 +120,7 @@ function draw() {
     button.position(positions[60][0]-20, positions[60][1]);
     /*loop through all major points of a face
     (see: https://www.auduno.com/clmtrackr/docs/reference.html)*/
-    for (let i=0; i<positions.length; i++) {
+    for (let i = 0; i < positions.length; i++) {
        noStroke();
        //color with alpha value
        fill(map(positions[i][0], 0, width, 100, 255), 0, 0, 120);
@@ -157,7 +157,7 @@ First you need to assign an object name to the button, and if you use multiple b
 * `button = createButton('like');`: Create a button and consider the text is to be displayed.
 * `button.style("xxx","xxxx");`: This is the CSS standard, where the first parameter is a selection/selector and the second is a declaration block/attributes. For example, if you want to set the font color, then you can put in "color" and "#fff" respectively.[^Style] For this sample code, all the styling was copied directly from the 2015 Facebook interface by looking at their CSS source code. Styling includes `display`, `color`, `padding`, `text-decoration`, `font-size`, `font-weight`, `border-radius`, `border`, `text-shadow`, `background` and `filter`, with the addition of `transform`.  
 * `button.size();`: This sets the button's width and height.
-* `button.position();` This sets the button's position.
+* `button.position();`: This sets the button's position.
 * `button.mousePressed(change);`: This changes the button's color, and gives users control over starting audio with the customized function `change()` when the mouse is pressed (more to follow in the section of "Audio capture").
 * `button.mouseOut(revertStyle);`: This reverts the original button's color with the cutomized function `revertStyle()` when the mouse moves off the button element.   
 
@@ -195,7 +195,7 @@ The use of the `keyPressed()` function is for listening any keyboard pressing ev
 
 The "conditional structure" is something similar to what you have learnt in the previous chapter, but it is also something different with the "if-else" statement. It explains as: if the spacebar on the keyboard is pressed, then the button rotates 180 degrees, and if any other keys of the keyboard are pressed, then the button reverts back to the original state of 0 degrees. The "if-else" structure therefore allows you to setup a further condition with the listening event: if a `keyCode` is detected other than the spacebar, the program will do something else.
 
-`keyCode` takes in numbers or special keys like BACKSPACE, DELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL, OPTION, ALT, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW. In the above example, the `keyCode` for a spacebar is 32.
+`keyCode` takes in numbers or special keys like BACKSPACE, DELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL, OPTION, ALT, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW. In the above example, the `keyCode` for a spacebar is 32 (see Line 3).
 
 There is no difference in `keyCode` between capital and lower case letters, i.e. "A" and "a" are both 65.
 
@@ -233,7 +233,7 @@ The basic web audio p5.sound library is used in the sample code. It includes fea
 
 The library should be included in the HTML file (as demonstrated in Chapter 1, "Getting started") so we can use the corresponding functions such as `p5.AudioIn()` and `getLevel()`.
 
-Like a button, you first declare the object, e.g. `let mic;`, and then set up the input source (usualy a computer microphone) and start to listen to the audio input (see the two lines in `setup()`). When the entire sample code is executed, a popup screen from the browser will ask for permission to access the audio source. This audio capture only works if access is granted.
+Like a button, you first declare the object, e.g. `let mic;` (see Line 1,) and then set up the input source (usualy a computer microphone) and start to listen to the audio input (see Lines 6-7 within `setup()`). When the entire sample code is executed, a popup screen from the browser will ask for permission to access the audio source. This audio capture only works if access is granted.
 
 <div class="columns" markdown=true>
 ![](ch4_1.png)
@@ -243,11 +243,11 @@ Like a button, you first declare the object, e.g. `let mic;`, and then set up th
 :   *Figure 4.3: Permission for camera access*
 </div>
 
-The sample code refers to methods under `p5.AudioIn()`, which reads the amplitude (volume level) of the input source returning values between 0.0 to 1.0 using the `getLevel()` method.
+The sample code refers to methods under `p5.AudioIn()` in the p5.sound library, which reads the amplitude (volume level) of the input source returning values between 0.0 to 1.0 using the `getLevel()` method.
 
 A new function `map()` (in Line 15) will be introduced to map a number across a range. Since the values for volume returned are on a range of 0.0 to 1.0, the corresponding value will not make a significant difference in terms of the size of the button. As such, the range of the audio input will then map to the size range of the button dynamically.
 
-The function `userStartAudio()` will enable the program to capture the mic input on a user interaction event, and in this case it is the `mousePressed()` event. This is a practice enforced by many web browsers, including Chrome, in which users aware of the audio events happen in the background and to avoid auto play or auto capture features from a web browser.
+The function `userStartAudio()` (see Line 19) will enable the program to capture the mic input on a user interaction event, and in this case it is the `mousePressed()` event. This is a practice enforced by many web browsers, including Chrome, in which users aware of the audio events happen in the background and to avoid auto play or auto capture features from a web browser.
 
 ## Video<span style="font-family: HersheyNoailles; font-style: italic; font-weight:bold; vertical-align: -6px; line-height: 0;">/</span>Face capture
 ```javascript
@@ -280,7 +280,7 @@ function draw() {
 
     /*loop through all major points of a face
     (see: https://www.auduno.com/clmtrackr/docs/reference.html)*/
-    for (let i=0; i<positions.length; i++) {
+    for (let i = 0; i < positions.length; i++) {
        noStroke();
        //color with alpha value
        fill(map(positions[i][0], 0, width, 100, 255), 0, 0, 120);
@@ -308,9 +308,9 @@ The program uses the webcam via video capture to do facial recognition and detai
 
 3. In order to display the captured video in the INVERT mode, the program uses `image(capture, 0,0, 640, 480);` to draw the video feed in an image format, and apply the filter accordingly: `filter(INVERT);` (See Line 18-19)
 
-4. `ctracker.getPosition()` in Line 21: While we get the tracker points into an array `position`, a for-loop (in line 28-34) is used to loop through all 71 tracker points (as it starts with 0 and ends with 70) and return the position in terms of x and y coordinates as a two-dimensional array in the form of `position[][]`. The first dimension ([]) of the position array indicates the tracker points from 0 to 70. The second dimension ([][]) retrieves the x and y coordinates of the tracker points.
+4. `ctracker.getPosition()` in Line 21: While we get the tracker points into an array `position`, a for-loop (in line 30-36) is used to loop through all 71 tracker points (as it starts with 0 and ends with 70) and return the position in terms of x and y coordinates as a two-dimensional array in the form of `position[][]`. The first dimension ([]) of the position array indicates the tracker points from 0 to 70. The second dimension ([][]) retrieves the x and y coordinates of the tracker points.
 
-5. Getting all the data on the tracker points allows ellipses to be drawn to cover the face. Since the position of the like button follows that of the mouth, which postions at the point 60 (but since the button requires to position at the mid point of the mouth, therefore it needs to move the button to the left for around 20 pixel), the program will then return the position as an array (see line 25): `positions[60][0]-20` and `positions[60][1]`. The second array's dimensions of [0] and [1] refer to the x and y coordinates.
+5. Getting all the data on the tracker points allows ellipses to be drawn to cover the face. Since the position of the like button follows that of the mouth, which postions at the point 60 (but since the button requires to position at the mid point of the mouth, therefore it needs to move the button to the left for around 20 pixels), the program will then return the position as an array (see line 26): `positions[60][0]-20` and `positions[60][1]`. The second array's dimensions of [0] and [1] refer to the x and y coordinates.
 
 <div class="section exercise" markdown="true">
 
