@@ -373,7 +373,7 @@ Artist David Link built a functional replica of both the hardware and the origin
 
 * Nick Montfort et al. "Randomness," *10 PRINT CHR$(205.5+RND(1)); : GOTO 10*, <https://10print.org/> (Cambridge, MA: MIT Press, 2012), 119-146.
 * Daniel Shiffman, "p5.js - 2D Arrays in Javascript," *Youtube*, <https://www.youtube.com/watch?v=OTNpiLUSiB4>.
-* McCormack, Jon, et al. “Ten Questions Concerning Generative Computer Art.” *Leonardo* 47, no. 2, 2014: 135–141.
+* Jon, McCormack et al. “Ten Questions Concerning Generative Computer Art.” *Leonardo* 47, no. 2, 2014: 135–141.
 
 ## Further reading
 
