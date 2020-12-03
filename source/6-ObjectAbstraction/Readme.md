@@ -301,9 +301,9 @@ class Tofu {
 
 The above prepares object construction. There is a function called "constructor" to initialize a (tofu) object with the following attributes which takes the form of a list of variables that indicate the properties of speed, position, size of the shape, rotating angle and size of the emoji expression. All these properties are defined with the keyword `this`, which refers to the current object instance during the execution of the program, e.g. `this.speed = floor(random(3, 6));`. It can be translated roughly as: when the object instance tofu is created, that particular tofu's speed value will be a random integer between 3 and 5.
 
-For the other variable, `this.pos`, we use the function `new createVector` to create the new p5 vector which contains the x and y components. With the `createVector()` function, we can then use `pos.x` and `pos.y` to specify the x and y coordinates of a tofu.
+For the other variable, `this.pos`, we use the function `new createVector` to create the new p5 vector which contains the x and y components. With the `createVector()` function, we can then use `pos.x` and `pos.y` to specify the x and y coordinates of a tofu:
 
-> this.pos = new createVector(x, y); => this.pos.x and this.pos.y
+this.pos = new createVector(x, y); => this.pos.x and this.pos.y
 
 **(Step 3) Behaviors**: What are the tofu's behaviors?
 
@@ -355,7 +355,7 @@ function showTofu() {
  }
 }
 ```
-The above shows that the program has the minimum amount of tofu on screen (with the variable `min_tofu`). Tofu is created through the `checkTofuNum()`, a custom-function with the conditional statement to check if the amount of tofu objects meets the minimum value. The function `push()` creates a "new" object instance using the Tofu class (`tofu.push(new Tofu());`). Therefore, all the object instances have the same properties and methods, and the code can be reused to create similar objects.
+The above shows that the program has the minimum amount of tofu on screen (with the variable `min_tofu`). Tofu is created through the `checkTofuNum()` (see Lines 6 & 10), a custom-function with the conditional statement to check if the amount of tofu objects meets the minimum value. The function `push()` creates a "new" object instance using the Tofu class (`tofu.push(new Tofu());`). Therefore, all the object instances have the same properties and methods, and the code can be reused to create similar objects.
 
 Objects are like arrays, and start with index 0, e.g. `tofu[0]`, and if you push for more, the program will create and add one to the index i.e. `tofu[1]`. Using the syntax `tofu.length()` will result in the number of active objects. We can then use a for-loop to cycle through all the tofu objects, moving, and displaying them on the canvas (using the class methods `move()` and `show()` defined above).
 
@@ -407,7 +407,7 @@ function checkEating() {
 }
 ```
 
-`checkEating()` is a customized function for deleting tofu under certain conditions, and consequently leading to the calculation of the scores, i.e. the number of tofu(s) eaten or wasted by Pacman.
+`checkEating()` is a customized function for deleting tofu under certain conditions, and consequently leading to the calculation of the scores, i.e. the number of tofu(s) eaten or wasted by Pacman (see Line 5).
 
 We start with a for-loop (see Line 7) to cycle through all the tofu object instances. The first step is to check if Pacman has eaten any of them. This means we need to think about what it means to "be eaten" in a computational sense. The program continuously checks the distance between each tofu and Pacman. The `dist();` function (see Line 9-10) takes four parameters to calculate the distance between two points (x1, y1, x2, y2). x1 and y1 mark Pacman's position (the center point) and x2, y2, each tofu's position. If the calculated distance is less than half of Pacman's image width, this means that the Pacman is closed enough to give an illusion of the tofu is being eaten, then the variable `score` increases by one, and the object concerned will be deleted (`tofu.splice(i,1);`).
 
@@ -454,7 +454,7 @@ By no means do the steps need to be exactly as listed. Of course, you could thin
 
 **1. Tinkering**
 
-- Modify the different values to understand their function/syntax.
+- Modify the different values to understand the function/syntax of the *Eating tofu* game.
 
 **2. Discussion in groups:**
 
@@ -471,7 +471,7 @@ By no means do the steps need to be exactly as listed. Of course, you could thin
 **The tofu's shape:** As introduced in Chapter 2, "Variable geometry," we have reused the related syntax such as `rect()`, `vertex()`, `beingShape()` and `endShape()`. We will now also use typographic characters for the emotive expression by using the `text()` and `textSize()` functions.
 {: style="letter-spacing: -0.1px;"}
 
-**A game:** The program is a typical game with an end result. The functions `checkEating()` and `checkResult()` are used to count how many tofus have been eaten (using the variable `score`) and how many tofus have not been eaten, and are regarded as wastage (with the variable `lose`). These two variables are compared in the end. A "game over" message will be shown if the nmber of tofus wasted is higher than the number of tofus eaten (`lose > score`), and (by using the symbol/operator `&&` within the conditional statement: `if (lose > score && lose > 2) {}`), the game provides additional chances to continue even though the tofus are wasted for two times "and" none have been eaten, for example lose = 2 and score = 0. `noLoop()` is used to stop the program from looping, and as such the canvas is frozen as a game over scene.
+**The game logic:** The program is a typical game with an end result. The functions `checkEating()` and `checkResult()` are used to count how many tofus have been eaten (using the variable `score`) and how many tofus have not been eaten, and are regarded as wastage (with the variable `lose`). These two variables are compared in the end. A "game over" message will be shown if the nmber of tofus wasted is higher than the number of tofus eaten (`lose > score`), and (by using the symbol/operator `&&` within the conditional statement: `if (lose > score && lose > 2) {}`), the game provides additional chances to continue even though the tofus are wasted for two times "and" none have been eaten, for example lose = 2 and score = 0. `noLoop()` is used to stop the program from looping, and as such the canvas is frozen as a game over scene.
 
 **Arithmetic operators:** There is new arithmetic syntax beyond simply `=`, `+`, `-`, `*`, `/`, such as `+=` in `tableX+=texture_width;` and `edgeX+=texture_width;`. See the list below:
 
