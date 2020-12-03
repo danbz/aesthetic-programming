@@ -91,6 +91,7 @@ Showcase of students projects can be found at <https://gitlab.com/aesthetic-prog
 - —————. *nonsense*, 2015. <http://siusoon.net/nonsense/>.
 - —————. *Throb*. Last updated April 11, 2019. <http://siusoon.net/throb/>.
 - —————. *Vocable Code (Education/live coding version)*. Last updated May 5, 2020. <https://dobbeltdagger.net/VocableCode_Educational/>.
+- Soon, Winnie, and Helen Pritchard. *Queer Motto API - To know exactly how many times to cry*, 2021. <http://siusoon.net/queer-motto-api>.
 - Støg, Use All Five, and PAIR teams. *Teachable Machine 1.0*. 2017. <https://teachablemachine.withgoogle.com/v1/>.
 - Surma, Greg. *Text Predictor*. 2018. <https://github.com/gsurma/text_predictor>.
 - Temkin, Daniel. *esoteric.codes*. 2011. <https://esoteric.codes/>.

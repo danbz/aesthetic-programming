@@ -20,7 +20,7 @@ To make some of these interacting entities tangible, and to offer a less-determi
 
 *net.art generator (nag)*[^nag] is an application that runs in a web browser to generate new images, created by artist Cornelia Sollfrank in 1997, and the latest version, 5b, in which the program was updated and maintained by Winnie Soon in 2017. The interface requires the user to enter a title which then functions as the search term, and to enter a name as the author. Sollfrank's initial idea was to "hack" a net.art competition called *Extension* by generating several hundred submission entries with fake international female artist profiles. The program that generated the entries was called *Female Extension* — an undercover example of net.art in itself — to make ironic feminist comment on the underrepresentation of female artists in the media art scene at that time.[^extension] Sollfrank not only created fictitious names, but also email addresses, phone numbers, and addresses for each applicant, along with an example of original net.art work.
 
-This work challenges preconceptions of geeky male hacker culture, as do her earlier documentaries that interviewed fake female hackers, and the naming of the cyberfeminist group she was part of: "Old Boys Network."[^obn] Sollfrank's ironic claim that "a smart artist makes the machine do the work" (itself a hack of Lewitt's maxim, as referred to in Chapter 5 has relevance here too as a clarification of "hacking the art operating system," as she puts it.[^hack]
+This work challenges preconceptions of geeky male hacker culture, as do her earlier documentaries that interviewed fake female hackers, and the naming of the cyberfeminist group she was part of: "Old Boys Network."[^obn] Sollfrank's ironic claim that "a smart artist makes the machine do the work" (itself a hack of Lewitt's maxim, as referred to in Chapter 5 has relevance here too as a clarification of "hacking the art operating system," as she puts it.)[^hack]
 {: style="letter-spacing: -0.1px;  word-spacing: -0.2px;"}
 
 *Female Extension* was later developed into the web application *nag* and a functional tool for generating images on the fly from available data to further question normative authorship, copyright, and some of the underlying infrastructures of artistic production. The latest version of *nag* generates images by combining the data sent from Google using the web search API. Interestingly there is a daily limit set at one hundred API requests, which means that once exceeded, users will experience a customized error page, and images can no longer be retrieved. The issue of visibility therefore shifts from a politics of representation (data on female artists) to the nonrepresentational realm of APIs, and to what extent we are granted access to hidden layers of software that queries the available data, and generates new arrangements.  
@@ -40,7 +40,7 @@ Go to *net.art generator* (https://nag.iap.de/) and explore the generation of im
 
 The following source code of this chapter is a snippet from *nag* showing the web API's request and response logic: requested data passes through a Web API and then Google returns the corresponding data using the key syntax `loadJSON()`. The major differences when using JSON between this and the previous chapter is that the JSON file is not located on your computer and created by yourself, but online. As such, the data is generated dynamically in (near) real-time. The JSON file has a more complex data and organizational structure.  
 
-RunMe 
+RunMe
 :   <https://aesthetic-programming.gitlab.io/book/p5_SampleCode/ch8_Que(e)ryData/>
 
 
@@ -151,7 +151,7 @@ This exercise is about getting the "key ID" and "Engine ID" from Google so that 
   - Register a Google account if you don't have one (a Google account is needed in order to use the web API)
   - Login to your account
   - Go to [Google Custom Search](https://developers.google.com/custom-search/v1/overview)[^google1] and find the section API key
-  - Click the blue button "Get A Key" and then create a new project by entering your project name (e.g. "nag-test") and press enter
+  - Click the blue button "Get A Key" (see Figure 8.4) and then create a new project by entering your project name (e.g. "nag-test") and press enter
   - You should be able to see the API key and you just need to copy and paste the key into your sketch
 - **Step 3:** Replace the Search engine ID (cx) with your own, on the the Line 5: `let engineID = "INPUT YOUR OWN";`.
     - Go to [Custom Search Engine](https://cse.google.com/all)[^google2]
@@ -174,6 +174,8 @@ This exercise is about getting the "key ID" and "Engine ID" from Google so that 
 * * *
 
 ## APIs
+
+Snippets of Net Art Generator concerning the APIs:
 
 ```javascript
 let url = "https://www.googleapis.com/customsearch/v1?";
@@ -204,42 +206,41 @@ function gotData(data) {
 	console.log(getImg);
 }
 ```
-<figcaption markdown=true>*Figure 8.6: Snippets of Net Art Generator concerning the APIs*</figcaption>
 
-To enable easy modification, we have set the search parameters as a global variable, which includes the required URL, API key, search engine ID, search type, image size, and query. These are the parameters used to filter the search results, and more variables can be added if required/desired.
+To enable easy modification, we have set the search parameters as a global variable, which includes the required URL, API key, search engine ID, search type, image size, and query (see Lines 1-9). These are the parameters used to filter the search results, and more variables can be added if required/desired.
 
 A web API is simply a long URL `request = url + "key=" + apikey + "&cx=" + engineID + "&imgSize=" + imgSize + "&searchType=" + searchType + "&q=" + query;` that includes all the credentials as well as the items you want to search for and the necessary filters (it looks like this: <https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers>).
 
-The key syntax is `loadJSON()` (in the Line 21 within the function `fetchImage()`) to submit a "request" in the form of a URL to the image provider after which you need to wait for the returned JSON file with a list of results. The callback function `gotData()` is to further process and que(e)ry the data returned.
+The key syntax is `loadJSON()` (in the Line 21 within the function `fetchImage()`) to submit a "request" in the form of a URL to the image provider after which you need to wait for the returned JSON file with a list of results. The callback function `gotData()` (see Line 24) is to further process and que(e)ry the data returned.
 
 ### Que(e)rying data
 
-Figure 8.7 below shows the JSON file format, but it includes a lot of information that you might not need. You therefore need to understand the file structure and locate the data that you want to process. Understanding the returned data file is part of the process of que(e)rying data as different providers and platforms structure their data differently.
+Figure 8.6 below shows the JSON file format, but it includes a lot of information that you might not need. You therefore need to understand the file structure and locate the data that you want to process. Understanding the returned data file is part of the process of que(e)rying data as different providers and platforms structure their data differently.
 
 ![google2](ch8_4.png)
-:   *Figure 8.7: Web API data structure I*
+:   *Figure 8.6: Web API data structure I*
 
 In the web console, look for a URL (with your own API key and search engine ID) that starts with "https" and ends with "warhol+flowers" (something like this: <https://www.googleapis.com/customsearch/v1?key=APIKEY&cx=SEARCHID&imgSize=medium&searchType=image&q=warhol+flowers>). Then simply click it and you will see how the data is structured in the JSON file format in a web browser (see Figure 8.6). There are more parameters you can set in order to select more specific forms of data such as image size, image color type, image dominant color, and so on. The API that we have used in the sample code demonstrates minimal settings.[^setting]
 
 **Cross-Origin Resource Sharing**
 
-In contrast to text, requesting, receiving, and loading images from a web domain (or multimedia formats such as video as well as fonts) will incur security issues, known in the field as Cross-Origin Resource Sharing (CORS). For this chapter, and in the corresponding example, the sample code is hosted on a local machine with a local server running in the Atom code editor, but the API request, and the corresponding data is hosted elsewhere. The CORS issue related to network requests is designed to prevent "unsafe HTTP requests."[^w3c] In an industry environment, it is usually configured on the web server side to handle the network requests. But for demonstration purposes, we have used the thumbnail images (`data.items[0].image.thumbnailLink;`) generated by the search provider instead of loading original web images hosted on various servers with a variety of settings (more abut the data structure in the next section). We simply load the images by using `createImg()` or `loadImage()` (see Figures 8.2 & 8.3).
+In contrast to text, requesting, receiving, and loading images from a web domain (or multimedia formats such as video as well as fonts) will incur security issues, known in the field as Cross-Origin Resource Sharing (CORS). For this chapter, and in the corresponding example, the sample code is hosted on a local machine with a local server running in the Atom code editor, but the API request, and the corresponding data is hosted elsewhere. The CORS issue related to network requests is designed to prevent "unsafe HTTP requests."[^w3c] In an industry environment, it is usually configured on the web server side to handle the network requests. But for demonstration purposes, we have used the thumbnail images (`data.items[0].image.thumbnailLink;`) generated by the search provider instead of loading original web images hosted on various servers with a variety of settings (more about the data structure in the next section). We simply load the images by using `createImg()` or `loadImage()` (see Figures 8.2 & 8.3).
 
 **Data structure**
 
-Figure 8.7 demonstrates how you can indicate specific data in a JSON file. There is the line `data.items[0].image.thumbnailLink;` (see Line 33 from the full source code), which gets the returned object specified (the image URL) from the JSON file. The term "data" refers to all the objects returned using the callback function `function gotData(data){}`. `items[0]` which points to the first data object (using the array concept in which the first position on the index is 0). The dot syntax allows you to navigate to the object `image` and `thumbnailLink` under `items[0]` ("data > items[0] > image > thumbnailLink"). Note that this hierarchy is specific to this API because other web APIs might structure their data differently.
+Figure 8.6 demonstrates how you can indicate specific data in a JSON file. There is the line `data.items[0].image.thumbnailLink;` (see Line 33 from the full source code), which gets the returned object specified (the image URL) from the JSON file. The term "data" refers to all the objects returned using the callback function `function gotData(data){}`. `items[0]` which points to the first data object (using the array concept in which the first position on the index is 0). The dot syntax allows you to navigate to the object `image` and `thumbnailLink` under `items[0]` ("data > items[0] > image > thumbnailLink"). Note that this hierarchy is specific to this API because other web APIs might structure their data differently.
 
-To learn more about the JSON file, you can navigate through other data objects such as "queries > request > 0" that would show, for example, how many results are found on the image search, which search terms have been processed, and how many data objects were returned (See Figure 8.8). In the sample code, we start with only the top 10 search items, but you can configure the parameter `startIndex` to get the last 10 images out of 110 million. Furthermore, you can find the data for each specific image returned in the form of an array, such as the title, and the corresponding snippet of the page content under `items` in the JSON file.
+To learn more about the JSON file, you can navigate through other data objects such as "queries > request > 0" that would show, for example, how many results are found on the image search, which search terms have been processed, and how many data objects were returned (See Figure 8.7). In the sample code, we start with only the top 10 search items, but you can configure the parameter `startIndex` to get the last 10 images out of 110 million. Furthermore, you can find the data for each specific image returned in the form of an array, such as the title, and the corresponding snippet of the page content under `items` in the JSON file.
 
 ![google3](ch8_7a.png){: .medium}
-:   *Figure 8.8: Web API data structure II*
+:   *Figure 8.7: Web API data structure II*
 
 We can now summarize the general process of working with web APIs and getting data from an online platform:
 
 * Understanding the web API's workflow.
 * Understanding the API specification that indicate which data and parameters are available.
 * Understanding the file format (such as JSON) returned by the web API.
-* Registering and getting the API key(s) and any other, additional configuration needed.
+* Registering and getting the API key(s) and any other, additional configuration is needed.
 
 Given our specific example *nag* and the sample code, we want to also reflect on increasingly prevalent API practices. Although Google has provided the API to access the data, it should be remembered that the amount is limited to 100 free API requests for all units from business to non-profit organizations, and the actual data is collected from the public, and people have no access to the specific algorithm which selects, prioritizes, includes/excludes and presents the data. This raises serious questions about the degree of openness, transparency, accessibility, and inclusivity of API practices.[^soon]
 
@@ -247,9 +248,9 @@ Given our specific example *nag* and the sample code, we want to also reflect on
 
 ## Exercise in class
 ![api](ch8_5.png){: style="height: 132px;"}
-:   *Figure 8.9: The API request and response logic*
+:   *Figure 8.8: The API request and response logic*
 
-1. Referring to Figure 8.9, can you recap what has been requested and received through the web API? (Or, more conceptually, which forms of control and exchange are performed?)
+1. Referring to Figure 8.8, can you recap what has been requested and received through the web API? (Or, more conceptually, which forms of control and exchange are performed?)
 
 2. Change your own query strings. The current keywords are "warhol flowers," but note that the program doesn't understand spaces between characters and therefore the keywords need to be written as "warhol+flowers."
 
@@ -261,18 +262,18 @@ Given our specific example *nag* and the sample code, we want to also reflect on
 
 ## LoadPixels()
 ![sample](ch8_6.png){: .medium}
-:   *Figure 8.10: An illustration of how an image is made up of pixels*
+:   *Figure 8.9: An illustration of how an image is made up of pixels*
 
-For this sample sketch on an image file, only one color in the image will be selected and processed. This means that the program will randomly locate and pick any pixel from the image. The function `pixels` also analyzes and retrieves the color of the selected pixel, specifically the RGB color values that are used to draw the colored line on screen (see Figure 8.10 above as an illustration but in reality the pixel size is much smaller).
+For this sample sketch on an image file, only one color in the image will be selected and processed. This means that the program will randomly locate and pick any pixel from the image. The function `pixels` also analyzes and retrieves the color of the selected pixel, specifically the RGB color values that are used to draw the colored line on screen (see Figure 8.9 above as an illustration but in reality the pixel size is much smaller).
 
 The colored lines (see Figures 8.2 and 8.3) are not randomly drawn, but they are based on the x and y coordinates of the pixel selected, and each line is drawn along the whole y axes from that point. Apart from the position, the color of the line is based on the RGB values of the selected pixel as well. Combining both the position and the color leads to something like a color visualization of the image, an abstract painting unfolding over time.
 
 Each pixel selected contains color information that is the R (red), G (green), B (blue) and A (alpha) values. This is how the data is being stored in the pixels' one dimensional array:
 
 ![pixel](ch8_7.jpg)
-:   *Figure 8.11: An illustration of the breakdown of each pixel by Integrated Digital Media, NYU. Image from https://idmnyu.github.io/p5.js-image/*[^nyu]
+:   *Figure 8.10: An illustration of the breakdown of each pixel by Integrated Digital Media, NYU. Image from https://idmnyu.github.io/p5.js-image/*[^nyu]
 
-`loc` is a variable for storing pixel information. Each pixel position needs to be clearly located so that a line can be drawn at the right position. Following the function `Pixels()`, each pixel takes up four locations: The first pixel with the four RGBA values, then the second pixel with another four RGBA values, and so on, and so forth:
+Let's make a variable `loc` for storing pixel information. Each pixel position needs to be clearly located so that a line can be drawn at the right position. Following the function `Pixels()`, each pixel takes up four locations: The first pixel with the four RGBA values, then the second pixel with another four RGBA values, and so on, and so forth:
 
 pixels = [p1, p1, p1, p1, p2, p2, p2, p2, p3, p3, p3, p3…]
 
@@ -313,7 +314,7 @@ function draw() {
 	}
 }
 ```
-The above code snippets is an excerpt of the parts about the color visualization. The logic in the `draw()` function is to draw the grey outer frame and load the image in the center by using the function `translate()`.
+The above code snippets is an excerpt of the parts about the color visualization. The logic in the `draw()` function is to draw the grey outer frame and load the image in the center by using the function `translate()` (see Line 6.)
 
 The conditional structure `if (getImg){}` (see Line 2) is used to allow sufficient time to load the JSON file and to be able to get the file path. Upon the successful loading of an image (with the function `loadImage()` (see Line 3) and the corresponding callback function `img`), both the outer frame and the image are drawn on the canvas.
 
@@ -354,7 +355,7 @@ Using forensics it is possible not only to detect features or patterns in data, 
 
 As noted in the introduction, simple operations such as search or feeds order data and reify information in ways that are clearly determined by corporate interests. The politics of this resonates with what Antoinette’s Rouvroy’s phrase "algorithmic governmentality" (the second part of which combines the terms government and rationality) to indicate how our thinking is shaped by various techniques.[^Rouvroy] According to Rouvroy, knowledge is increasingly delivered "without truth" thanks to the increasing use of machines that filter the latter using search engines that have no interest in the content as such or how knowledge is generated. The concern is that algorithms are starting to define what counts as knowledge, a further case of subjectification (the process through which we become subjects). Rouvroy claims: "The new, "truth regime," evolving in real-time, may appear "emancipatory" and "democratic" (with regards to "old" authorities, hierarchies and suspiciously rigid categories and measures), but the "subjects" it produces are "multitudes without alterity."[^Rouvroy2] This produces human subjects in relation to what algorithms understand about our intentions, gestures, behaviors, habits, opinions, or desires, through a process of aggregating massive amounts of data.[^chun] Rouvroy calls this "personalization without subjects" and identifies the mistake of focusing on concerns about personal data when what is at stake are the processes of subjectification by data mining and profiling, by means of algorithmic governmentality.
 
-If you keep these ideas in mind Cornelia Sollfrank's project *Female Extension* (mentioned at the beginning of this chapter) becomes all the more powerful, as it hacks the process of personalization. The male domination of the "art operating system" is tricked into believing its own liberal agenda of inclusion and yet the whole scenario is fake. When it comes to Google and its operations, we can see that although it provides its API for experimentation, it only does so under restrictions: by limiting requests and by only revealing some of the available parameters in which the logic of how the search data (as knowledge) is presented algorithmically is still unknown to the public. *nag* emphasizes the querying of data, not only the execution of the data request and its response, but also by questioning the perpetuation of cultural "norms." In *Algorithms of Oppression*, Safiya Umoja Noble, for example, demonstrates how racism is reinforced through hegemonic search results:
+If you keep these ideas in mind Cornelia Sollfrank's project *Female Extension* (mentioned at the beginning of this chapter) becomes all the more powerful, as it hacks the process of personalization. The male domination of the "art operating system" is tricked into believing its own liberal agenda of inclusion and yet the whole scenario is fake. When it comes to Google and its operations, we can see that although it provides its API for experimentation, it only does so under restrictions: by limiting requests for public and non-profit/educational use, and by only revealing some of the available parameters in which the logic of how the search data (as knowledge) is presented algorithmically is still unknown to the public. *nag* emphasizes the querying of data, not only the execution of the data request and its response, but also by questioning the perpetuation of cultural "norms." In *Algorithms of Oppression*, Safiya Umoja Noble, for example, demonstrates how racism is reinforced through hegemonic search results:
 
 > "Search happens in a highly commercial environment, and a variety of processes shape what can be found; these results are then normalized as believable and often presented as factual [and] become such a normative part of our experience with digital technology and computers that they socialize us into believing that these artifacts must therefore also provide access to credible, accurate information that is depoliticized and neutral."[^noble]
 
@@ -373,13 +374,13 @@ To que(e)ry data in this way throws into further question how data is collected,
 
 **Get additional inspiration:**
 
+* *Queer Motto API* by Winnie Soon and Helen Pritchard (2021), <http://siusoon.net/queer-motto-api>
 * Open Weather with code example, <https://www.youtube.com/watch?v=ecT42O6I_WI>.
 * Other weather API example with code example, <https://p5js.org/examples/hello-p5-weather.html>.
 * *New York Times* with code example, <https://www.youtube.com/watch?v=IMne3LY4bks&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r&index=9>.
 * Giphy images with code example, <https://www.youtube.com/watch?v=mj8_w11MvH8&index=10&list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r>.
 * Wikipedia API, <https://www.youtube.com/watch?v=RPz75gcHj18>.
 * Twitter API and Twitter Bot with code example, <http://shiffman.net/a2z/twitter-bots/>. (Note that Twitter has tightened the rules for registering the API and you need to have a convincing proposal as well as the process can be lengthy.)
-* Google map API, <https://developers.google.com/maps/documentation/javascript/>.
 * Search many other kinds of API, <https://www.programmableweb.com/>.
 
 **Tasks (RunMe):**
