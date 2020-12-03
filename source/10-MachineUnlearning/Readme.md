@@ -91,7 +91,7 @@ Artist-researcher Nicolas Malevé has done extensive work on this topic in relat
 
 **Unsupervised Learning** - Unlike the previous learning model, the training dataset does not contain a set of labelled data. One of the common tasks with unsupervised learning is "clustering" (algorithms such as K-means and Hierarchical Clustering). The goal of this technique is to find similarities, providing insights into underlying patterns, and relationships of different groups in a dataset using exploratory and cluster analysis. As such, items in the same group or cluster share similar attributes and metrics (see Figure 10.5). The idea behind clustering is to identify similar groups of data in a dataset, segregating groups with similar characteristics. It is commonly used in the business and marketing sectors to understand customer preferences so personalization and data marketing can be provided by grouping customers based on their purchasing behavior with regard to certain types of goods.
 
-Artists Joana Chicau and Jonathan Reus produced *Anatomies of Intelligence*[^AI] based on an unsupervised learning model to develop an understanding of anatomical knowledge, and computational learning. In their AI workshop,[^chicau] they suggest that participants think of two features for examining a small image dataset (around 15 images) — such as "cuteness" and "curliness" — and each of the images are rated and sorted according to these features (in the form of x and y axis) within a number range say from 0.0 to 1.0 (for normalization and rescaling, in statistical terms, so that data are in the same scale). More features can be added, but it is more convenient to have two only for a physical workshop setting. Each image can then be described by the set of feature values. As a result, several clusters are formed, providing a new perspective on the relations between images in terms of their similarities and differences. It's a simple exercise, but can obviously be scaled up, systematized, and automated, for example by deciding on the number of clusters and calculating the distribution of/distance between data points. This also helps reinforce how algorithms designed to recognize patterns, known as neural networks,[^neuralnets] operate, loosely based, as they are, on a model of the human brain and how it learns to differentiate certain objects from other objects.
+Artists Joana Chicau and Jonathan Reus produced *Anatomies of Intelligence*[^AI] based on an unsupervised learning model to develop an understanding of anatomical knowledge, and computational learning (see Figure 10.6). In their AI workshop,[^chicau] they suggest that participants think of two features for examining a small image dataset (around 15 images) — such as "cuteness" and "curliness" — and each of the images are rated and sorted according to these features (in the form of x and y axis) within a number range say from 0.0 to 1.0 (for normalization and rescaling, in statistical terms, so that data are in the same scale). More features can be added, but it is more convenient to have two only for a physical workshop setting. Each image can then be described by the set of feature values. As a result, several clusters are formed, providing a new perspective on the relations between images in terms of their similarities and differences (see Figure 10.7). It's a simple exercise, but can obviously be scaled up, systematized, and automated, for example by deciding on the number of clusters and calculating the distribution of/distance between data points. This also helps reinforce how algorithms designed to recognize patterns, known as neural networks,[^neuralnets] operate, loosely based, as they are, on a model of the human brain and how it learns to differentiate certain objects from other objects.
 
 **Reinforcement Learning** — This type of learning technique is based on interaction with the environment, mapping an analysis of a situation into actions.[^rl] The learner (or agent) does not have any previous data to base itself on, to determine, or predict which action to take, but rather learns by trial and error to yield the best results. For example, the computer program AlphaGo[^alphago] beat the world champion of the Go abstract strategy board game in 2017. AlphaGo was able to evaluate the various positions and select the best moves using self-taught processes. This type of learning finds the best possible behavior or path to take in a specific environment, mapping state-action pairs to achieve the best result. As in behavioral psychology, reinforcement is used to suggest future actions, like a child getting a treat for doing what it was told to. Unlike supervised learning that relies on input training data, the characteristics of reinforcement learning are that the program understands the environment as a whole,[^environment] and is able to learn from its experience by evaluating the effectiveness of each action taken: "trial-and-error search" and "delayed reward"[^rl2] are based on sequential decisions, computation, repeated attempts, and feedback on the success of actions.
 
@@ -172,7 +172,7 @@ function generate() {
     let txt = textInput.value();
     // Check if there's something to send
     if (txt.length > 0) {
-      // Thi is what the LSTM generator needs
+      // This is what the LSTM generator needs
       // Seed text, temperature, length to outputs
       let data = {
         seed: txt,
@@ -251,7 +251,7 @@ To load the ml5.js library as part of the overall sketch, you need the following
 type="text/javascript"></script>
 ```
 
-Apart from the new ml5.js, the HTML file contains the following DOM elements (see Figure 10.8) that can display the corresponding data, and interact with the user there. As such the sketch.js is mainly used to process the data from the DOM and form elements, and it is not used for canvas drawing (`noCanvas()` is used in Line 11 within the `function setup(){}`).
+Apart from the new ml5.js, the HTML file contains the following DOM elements (see Figure 10.8) that can display the corresponding data, and interact with the user there. As such the sketch.js is mainly used to process the data from the DOM and form elements, and it is not used for canvas drawing (`noCanvas()` is used in Line 12 within the `function setup(){}`).
 
 1. **A text input box** for entering seed/input text. In this example, we have used "Afterword: Recurrent Imaginaries" as a sequence input to generate the next character, continuously forming a new seed sequence for next character prediction: `<input id="textInput" value="Afterword: Recurrent Imaginaries" size="30"/>`
 2. **A slider for selecting the number of generated characters** with a range from 100 to 2,000: `<input id="lenSlider" type="range" min="100" max="2000" value="1000"/>`
@@ -264,8 +264,6 @@ Apart from the new ml5.js, the HTML file contains the following DOM elements (se
 
 The sketch loads the pre-trained model and generates text based on the collected data (the seed text, its length, and temperature value).
 
-The first step is to initialize and load the trained model into your sketch with the path `./model/AP_book/` by using the method `charRNN` from the ml5.js library. The callback function `modelReady` will be executed when the model is successfully loaded into the sketch and will change its status from "Loading Model" to "Model Loaded."
-
 ```javascript
 let charRNN;
 
@@ -275,7 +273,7 @@ function setup() {
 }
 ```
 
-The program collects data in the form of objects (using the `select` syntax to search for the HTML elements, especially the `input id` that have been defined in index.html): the seed text (based on the text input), the length of the predictive text (based on the slider), as well as the temperature value (based on the other slider).
+The first step is to initialize and load the trained model into your sketch with the path `./model/AP_book/` by using the method `charRNN` from the ml5.js library (see Line 4 above). The callback function `modelReady` will be executed when the model is successfully loaded into the sketch and will change its status from "Loading Model" to "Model Loaded."
 
 ```javascript
 function setup() {
@@ -293,8 +291,7 @@ function setup() {
 …
 }
 ```
-
-The key data required for the generator are the seed text, temperature, and length (the numbers of characters) for text generation. These data objects are passed on to the charRNN's method: `charRNN.generate()` in order to process the seed text via the pre-trained model (with a callback function `gotdata()`). This `.generate()` method returns the text object `sample` as sample output. Theoretically, the predictive text will have learnt the style from all the chapters (if only crudely) and then generates the new text accordingly.
+The program collects data in the form of objects (using the `select` syntax to search for the HTML elements, especially the `input id` that have been defined in index.html): the seed text (based on the text input), the length of the predictive text (based on the slider), as well as the temperature value (based on the other slider).
 
 ```javascript
 function generate() {
@@ -309,7 +306,7 @@ function generate() {
 }
 ```
 
-Finally, the result will be displayed on screen with the `gotData()` function. Note that the ml5.js library also checks for errors with the argument `err`.
+The key data required for the generator are the seed text, temperature, and length (the numbers of characters) for text generation. These data objects are passed on to the charRNN's method: `charRNN.generate()` in order to process the seed text via the pre-trained model (with a callback function `gotdata()`). This `.generate()` method returns the text object `sample` as sample output. Theoretically, the predictive text will have learnt the style from all the chapters (if only crudely) and then generates the new text accordingly.
 
 ```javascript
 function gotData(err, result) {
@@ -318,6 +315,8 @@ function gotData(err, result) {
 …
 }
 ```
+
+Finally, the result will be displayed on screen with the `gotData()` function. Note that the ml5.js library also checks for errors with the argument `err`.
 
 <div class="section exercise" markdown="true">
 ## Exercise in class
