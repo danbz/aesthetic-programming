@@ -209,6 +209,7 @@ page_order: 12
 - Mbembe, Achille. “Necropolitics.” *Public Culture* 15 (2003): 11–40.
 - McCarthy, Lauren. “Learning While Making.” YouTube video, 27:31. Posted by "BocoupLLC," April 16, 2015. <https://www.youtube.com/watch?v=1k3X4DLDHdc>.
 - McCarthy, Lauren, and Golan Levin. “p5.js Diversity & Floss Panel Introduction.” *Studio for Creative Inquiry*. Last updated May 26, 2015. <http://opentranscripts.org/transcript/p5js-diversity-floss-panel-introduction/>.
+- McCormack, Jon, Oliver Bown, Alan Dorin, Jonathan McCabe, Gordon Monro, and Mitchell Whitelaw. "Ten Questions Concerning Generative Computer Art." *Leonardo* 47, no. 2 (2014): 135-41.
 - “Method: cse.list.” Custom Search API, Google Developers. Last updated June 11, 2020. <https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list#parameters>.
 - MIT CSAIL (@MIT_CSAIL). “Bias in AI: translating English -> Turkish, a gender neutral language, then that same Turkish phrase back to English,” Twitter, October 5, 2017, 10:07 p.m.. <https://twitter.com/mit_csail/status/916032004466122758>.
 - Menabrea, Luigi Federico, and Ada Lovelace. *Sketch of the analytical engine invented by Charles Babbage* (1842), 694.

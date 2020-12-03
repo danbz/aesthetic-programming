@@ -79,9 +79,9 @@ function drawGrid() {
   cols = width/grid_space;
   rows = height/grid_space;
   let arr = new Array(cols);
-  for (let i=0; i < cols; i++) { //no of cols
+  for (let i = 0; i < cols; i++) { //no of cols
     arr[i] = new Array(rows); //2D array
-    for (let j=0; j < rows; j++){ //no of rows
+    for (let j = 0; j < rows; j++){ //no of rows
       let x = i * grid_space; //actual x coordinate
       let y = j * grid_space; //actual y coordinate
       stroke(0);

@@ -197,9 +197,9 @@ function drawGrid() {
  cols = width/grid_space;
  rows = height/grid_space;
  let arr = new Array(cols);
- for (let i=0; i < cols; i++) { //no of cols
+ for (let i = 0; i < cols; i++) { //no of cols
    arr[i] = new Array(rows); //2D array
-   for (let j=0; j < rows; j++){ //no of rows
+   for (let j = 0; j < rows; j++){ //no of rows
      let x = i * grid_space; //actual x coordinate
      let y = j * grid_space; //actual y coordinate
      stroke(0);
@@ -248,11 +248,11 @@ There are three areas that can help you to zoom in on the program to slow down a
 
 Instead of going through the code line by line, the following shows what each function does.
 
-* `function setup()`: To setup the canvas size, initiate the ant's head direction, frame rate, color, and to prepare drawing the background grid structure.
-* `function drawGrid()`: To divide the canvas into a grid.
+* `function setup()` in Line 17: To setup the canvas size, initiate the ant's head direction, frame rate, color, and to prepare drawing the background grid structure.
+* `function drawGrid()` in Line 56: To divide the canvas into a grid.
 * `function draw()`: This main function checks the two rules that apply for *Langton's Ant* and change the color of cells.
-* `function nextMove()`: The four directions are structured in a number format so that the variable `dir++` can be used to change the ant's direction by implementing the increment and decrement of the ant's direction in programming terms (i.e `dir++` or `dir--`). Each different direction (UP, RIGHT, DOWN, LEFT) corresponds to moving forward along either the horizontal (xPos) or the vertical (yPos) axis on the canvas.
-* `function checkEdges()`: This function checks whether the ant moves out of frame. When it does, the program is written in such a way that it appears on the opposite side and continues.
+* `function nextMove()` in Line 74: The four directions are structured in a number format so that the variable `dir++` can be used to change the ant's direction by implementing the increment and decrement of the ant's direction in programming terms (i.e `dir++` or `dir--`). Each different direction (UP, RIGHT, DOWN, LEFT) corresponds to moving forward along either the horizontal (xPos) or the vertical (yPos) axis on the canvas.
+* `function checkEdges()` in Line 86: This function checks whether the ant moves out of frame. When it does, the program is written in such a way that it appears on the opposite side and continues.
 
 Technically speaking, there is no new syntax here as the two-dimensional arrays have already been covered briefly in the previous chapter. However, there is a new use of two-dimensional arrays and nested for-loops in the sample code.
 
@@ -267,9 +267,9 @@ function drawGrid() {
  cols = width/grid_space;
  rows = height/grid_space;
  let arr = new Array(cols);
- for (let i=0; i < cols; i++) { //no of cols
+ for (let i = 0; i < cols; i++) { //no of cols
    arr[i] = new Array(rows); //2D array
-   for (let j=0; j < rows; j++){ //no of rows
+   for (let j = 0; j < rows; j++){ //no of rows
      let x = i * grid_space; //actual x coordinate
      let y = j * grid_space; //actual y coordinate
      stroke(0);
@@ -285,7 +285,7 @@ function drawGrid() {
 
 To create an array, we use the syntax `let arr = new Array(cols);` (in Line 4) and this line indicates the grid in columns and the length of the array is the same as the number of columns. Since we also need to indicate the number of rows, we create another array out of each existing array in the column using the line `arr[i] = new Array(rows);` (see Line 6). This syntax is put under a for-loop to loop through each of the columns, but then with the addition of number of rows (which is derived from the canvas height). Two-dimensional arrays are structured in this way: `arr[][]`.
 
-To know the exact x and y coordinates of each cell within a grid, we use the formula `x = i * grid_space;` and `y= j * grid_space;` respectively. By using two nested for-loops, the program loops through each column and each row until the program reaches the last column. We are able to get the x and y coordinates with the syntax `array[i][j]`, which is applied to columns (with the variable `i`) and rows (with the variable `j`).
+To know the exact x and y coordinates of each cell within a grid, we use the formula `x = i * grid_space;` and `y= j * grid_space;` respectively. By using two nested for-loops (see Lines 5 & 7), the program loops through each column and each row until the program reaches the last column. We are able to get the x and y coordinates with the syntax `array[i][j]`, which is applied to columns (with the variable `i`) and rows (with the variable `j`).
 
 Therefore, each cell from the grid is represented in the structure of a two-dimensional array. As demonstrated above, you can zoom in or enlarge the cell size by changing the variable `grid_space`, and the number of columns and rows depends on the canvas width and height as derived from `cols = width/grid_space;` and `rows = height/grid_space;`. Each cell, in the form of `array[i][j]`, is a unit represents a possibility that an ant can move within the grid (via the changing values of `i` and `j`).
 
@@ -322,7 +322,7 @@ To be more precise, and according to complexity theory, all systems contain subs
 
 To help understand emergent behavior, we might turn to Turing's article of 1952 "The Chemical Basis of Morphogenesis" for its description of the way in which natural patterns naturally arise from homogeneous, uniform states.[^morpho] This idea of "morphogenesis" is something that political theorist and activist Franco "Bifo" Berardi has utilized to describe social and political mutation, or when new form emerges and takes shape. Processes of automation have not only replaced physical acts of production with information technology, but automation has transformed cognitive activity itself. To Berardi, this "implies the reduction of cognitive activity to algorithmic procedures, and the insertion of "automatisms into the social existence of the general intellect."[^eflux] One of the consequences of this is that automation is taking the place of political decision-making — "Yes or no […] no nuances, no ambiguity" — and to Berardi this implies the end of democracy, and the establishment of an automatic chain of logical procedures intended to replace conscious voluntary choices, and decision-making. Not only have machines captured the human capacity for thinking, according to Berardi, but also our capacity to feel.[^Bifo] Part of the problem he identifies is that we have been learning words from machines, not from other humans,[^mother] the consequence of which is that our capacity for love, tenderness, and compassion are lessened. We might add "care" to this list, thereby invoking feminist technoscience, such as Maria Puig de la Bellacasa's work. For Bellacasa, care is important as it draws attention to how things are held together, to their relationalities, "transforming things into matters of care is a way of relating to them, of inevitably becoming affected by them, and of modifying their potential to affect others."[^bellacasa]
 
-Along these lines, and drawing upon feminist technoscience, Helen Pritchard and Winnie Soon's artwork *Recurrent Queer Imaginaries* is a motto assistant that endlessly generates mottos as a form of rethinking, reinterpreting and dreaming urban life. In light of the rich history of struggles for racial, sexual and class injustice, the motto assistant uses manifestos and zines for queer and intersectional life as source text for machine learning and generative processes.[^pritchard] A further example of this approach to care in action is the syllabus *Digital Love Languages* at the School for Poetic Computation[^sfpc] Online, where the instructor Melanie Hoff explores how code can be cultivated as a "love language" that is more gentle, healing, and intimate than corporate systems of surveillance and exploitation.[^hoff] The course covers the building blocks of programming and natural language processing as well as explores the history of the love letter as a poetic form.
+Along these lines, and drawing upon feminist technoscience, Helen Pritchard and Winnie Soon's artwork *Recurrent Queer Imaginaries* is a motto assistant that endlessly generates mottos as a form of rethinking, reinterpreting and dreaming urban life. In light of the rich history of struggles for racial, sexual and class injustice, the motto assistant uses manifestos and zines for queer and intersectional life as source text for machine learning and generative processes.[^pritchard] A further example of this approach to care in action is the syllabus *Digital Love Languages* at the School for Poetic Computation[^sfpc], where the instructor Melanie Hoff explores how code can be cultivated as a "love language" that is more gentle, healing, and intimate than corporate systems of surveillance and exploitation.[^hoff] The course covers the building blocks of programming and natural language processing as well as explores the history of the love letter as a poetic form.
 
 This discussion of more love and care in programming brings us to our last example, the generative "love-letters" that appeared on the Manchester University Computer Department’s noticeboard in 1953. These computer-generated declarations of love were produced by a program written by Christopher Strachey using the built-in random generator function of the M. U. C. (Manchester University Computer, the Ferranti Mark I), the earliest programmable computer. Regarded by some as the first example of digital art,[^Noah] and by Jacob Gaboury as a critique of hetero-normative love, not least because Strachey like Turing was queer.[^Gaboury] Moreover these letters are arguably more than a longing for same sex love, but human-machine love.
 
@@ -373,7 +373,7 @@ Artist David Link built a functional replica of both the hardware and the origin
 
 * Nick Montfort et al. "Randomness," *10 PRINT CHR$(205.5+RND(1)); : GOTO 10*, <https://10print.org/> (Cambridge, MA: MIT Press, 2012), 119-146.
 * Daniel Shiffman, "p5.js - 2D Arrays in Javascript," *Youtube*, <https://www.youtube.com/watch?v=OTNpiLUSiB4>.
-* Marius Watz, "Beautiful Rules: Generative Models of Creativity," in *The Olhares de Outono* (2007), <https://vimeo.com/26594644>.
+* McCormack, Jon, et al. “Ten Questions Concerning Generative Computer Art.” *Leonardo* 47, no. 2, 2014: 135–141.
 
 ## Further reading
 
