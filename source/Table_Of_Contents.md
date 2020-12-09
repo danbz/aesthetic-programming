@@ -1,6 +1,7 @@
 Title: Table of Contents
 page_order: -3
 
+
 ![flowchart](TOC.svg)
 {: style="text-align: center;"}
 
@@ -212,9 +213,12 @@ Table of Contents
 
 - Notes
 
-**Annexes**
+\* \* \*
 
-- Bibliography
-- List of Projects
-- Acknowledgments
-- Colophon
+**Bibliography**
+
+**List of Projects**
+
+**Acknowledgments**
+
+**Colophon**

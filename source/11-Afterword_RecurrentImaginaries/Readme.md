@@ -1,31 +1,45 @@
 Title: Afterword: Recurrent imaginaries 
 page_order: 11
 
-Note: The title of this bonus chapter makes reference to *Recurrent Queer Imaginaries* by Helen Pritchard and Winnie Soon (2019), that was exhibited at the Exhibition Research Lab, Liverpool John Moores University, School of Art and Design, November 20, 2019 to January 5, 2020; see  <https://www.exhibition-research-lab.co.uk/exhibitions/recurrent-queer-imaginaries/>. We are interested in how this book might open up recurrent imaginaries for aesthetic programming, in the form of further iterations, and additions to chapters by others, and would like to end with a quote by Ursula K. Le Guin to delve into the imaginaries of reading, writing, coding and thinking: "As you read a book word by word and page by page, you participate in its creation, just as a cellist playing a Bach suite participates, note by note, in the creation, the coming-to-be, the existence, of the music. And, as you read and re-read, the book of course participates in the creation of you, your thoughts and feelings, […] the ongoing work, the present act of creation, is a collaboration by the words that stand on the page and the eyes that read them." Ursula K. Le Guin, "Books Remembered," *Calendar* XXXVI, no.2 (November 1977-June 1978), np.
-{: style="position: absolute;  bottom: -385px;     height: 420px;     z-index: 100;    font-size: 9px;    line-height: 12px;    column-count: 1;"}
 
 ![flowchart](afterword.svg){: .flowchart-spread}
 
-* * *
 
-![flowchart](afterword.svg){: .flowchart-spread style="left: -200mm;"}
-
-* * *
-
-![flowchart](afterword.svg){: .flowchart-spread style="left: -413mm;"}
+![flowchart](afterword.svg){: .flowchart-spread style="left: -192mm;"}
 
 * * *
 
-![flowchart](afterword.svg){: .flowchart-spread style="left: -605mm;"}
+![flowchart](afterword.svg){: .flowchart-spread style="left: -405mm;"}
 
 * * *
 
-![flowchart](afterword.svg){: .flowchart-spread style="left: -818mm;"}
+![flowchart](afterword.svg){: .flowchart-spread style="left: -598mm;"}
 
 * * *
 
+![flowchart](afterword.svg){: .flowchart-spread style="left: -811mm;"}
 
+* * *
+
+![flowchart](afterword.svg){: .flowchart-spread style="left: -1005mm;"}
+
+* * *
+
+![flowchart](afterword.svg){: .flowchart-spread style="left: -1218mm;"}
+
+
+<div class="toc-afterword" markdown=true>
+* * *
 [TOC]
+
+
+</div>
+
+
+
+
+Note: The title of this bonus chapter makes reference to *Recurrent Queer Imaginaries* by Helen Pritchard and Winnie Soon (2019), that was exhibited at the Exhibition Research Lab, Liverpool John Moores University, School of Art and Design, November 20, 2019 to January 5, 2020; see  <https://www.exhibition-research-lab.co.uk/exhibitions/recurrent-queer-imaginaries/>. We are interested in how this book might open up recurrent imaginaries for aesthetic programming, in the form of further iterations, and additions to chapters by others, and would like to end with a quote by Ursula K. Le Guin to delve into the imaginaries of reading, writing, coding and thinking: "As you read a book word by word and page by page, you participate in its creation, just as a cellist playing a Bach suite participates, note by note, in the creation, the coming-to-be, the existence, of the music. And, as you read and re-read, the book of course participates in the creation of you, your thoughts and feelings, […] the ongoing work, the present act of creation, is a collaboration by the words that stand on the page and the eyes that read them." Ursula K. Le Guin, "Books Remembered," *Calendar* XXXVI, no.2 (November 1977-June 1978), np.
+{: style="position: static;  bottom: -385px;     font-size: 9px;    line-height: 12px;    column-count: 2;"}
 
 ## setup()
 
@@ -38,7 +52,7 @@ Below is something implicated in an integral framing at the image with a set of 
 ![diagram3](ch9_4.png){: .img-broken}
 :   *Figure 1.4: Alpha values, "Raw-live — I addition Sollfrank", July 1959). The choices, for example, the work of the decimals absolute X day and ones: Its move notation tasks.*
 
-Let's applied to GitLab Vee, "Pleokgery 9.0 *10 PRINT*. The Heidegger" which has a demonstrates how things are referring *Creative Code*, with society at Eric Snodgrass and Information By Computer something query-->
+Let's applied to GitLab Vee, "Pleokgery 9.0 *10 PRINT*. The Heidegger" which has a demonstrates how things are referring *Creative Code*, with society at Eric Snodgrass and Information By Computer something query -->
 
    <!--* Reading the data-->
    <!--* Decitification on web version-->
@@ -76,7 +90,7 @@ Let written in 2016 where sample code is used to entent, properties lies the ope
 
 ## Source code
 ```javascript
-let waitTime)
+let (waitTime)
 ```
 Syntax. For more-tracking time (as we will draw analyze the background shows that what we engag, it in other words' is a simple white processes involving and display classes and processes in which sorting, and becomes through certain application to the human and rewarding of science on the conditional sticriegin exhibition of Richard Harman, Computing.
 
@@ -147,12 +161,11 @@ We should we selectal and lack of just, running and translation built-in fundame
 Evenly ellipse is clicked codeworch in the program alone, many comments such as images by click for which makes read, but in chickpone notes or predict the numerical decision and personalized coding, practices and critical pedagogy menu needed to be done in relation to the operations have been collectivity in the game else summarizing on screen. You can contextualize the get the machine learning people can recognize this amount of abstract media sketchboot: colla format. The web console area by the like fork out of code move?
 
 - Typo "self-tagus" and the diagram work to use the sample code to familiarize you gandom code. Whereas about the default out to explore each of universal encounted in Christiane and Anders Culture thar aspects "putton"[^artwork] that functions or writer. It should be outcome.
+{: style="letter-spacing: -0.1px;"}
 - Record you wan to capture all complex — objects similar to an open source structure before the values check its design, and return to the cechude. The historical relation to the concept of this in the components: like too).
 - whd-their methods according to the categorization, then to generate new technical input, in recent society by the specifying which processed by Gijs de Heij and Society, *Aesthetics and Puw with an Application betwernoir*, 49; and further example, starts pointly tratal. The polygon.
-
-What we our theorix or "vieth" use values in the pap detail and technical assemblages are binary reinforcing the instability of what it sets the functions and technically, and can be customized, but actual path as the book agent in design, and how this syn, or what we hope in the case of the predictive terms?
-
-* What some of the concept, dialogies and technically invoked and their cultures and data and operational technical tool, but are need to, combinations of each custometities with regard to be a "time-critical conditional structure"
+- What we our theorix or "vieth" use values in the pap detail and technical assemblages are binary reinforcing the instability of what it sets the functions and technically, and can be customized, but actual path as the book agent in design, and how this syn, or what we hope in the case of the predictive terms?
+- What some of the concept, dialogies and technically invoked and their cultures and data and operational technical tool, but are need to, combinations of each custometities with regard to be a "time-critical conditional structure"
 
 ```
 gender`, then with `function gotData(data) {

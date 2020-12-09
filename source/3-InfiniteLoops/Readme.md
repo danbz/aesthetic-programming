@@ -133,6 +133,8 @@ function sum(a, b, c) {
   return a + b + c; //return statement
 }
 ```
+
+
 > Output: <br>
 "9"
 
@@ -182,6 +184,8 @@ The last four lines describe the drawing of the four static yellow lines. Logica
 ![pop](ch3_7.png){: style="height: 240px; "}
 :   *Figure 3.6: Different placement of the pop() function - Four rotating yellow lines*
 </div>
+
+* * *
 
 <div class="section exercise" markdown="true">
 ## Exercises in class

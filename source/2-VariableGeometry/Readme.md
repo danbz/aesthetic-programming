@@ -285,17 +285,21 @@ You can also do arithmetic operations in programming, and this is commonly done 
 - divide(`/`)
 - Special operators: increment (`++`), decrement (`--`)   
 
+* * *
+
 You can try the following in the web console area:
 
 ```
 console.log(2*3);
 ```
+
 > Output: <br>
 "6"
 
 ```
 console.log("hello" + "world");
 ```
+
 > Output: <br>
 "helloworld"
 

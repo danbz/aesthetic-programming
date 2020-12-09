@@ -144,6 +144,13 @@ h1#FrontColophon:after {
     page: toc;
 }
 
+.toc-afterword {
+    break-inside: avoid;
+}
+.toc-afterword .toc {
+    break-after: avoid !important;
+}
+
 .toc li {
     margin-top: 4px;
     margin-bottom: 4px;
@@ -152,6 +159,8 @@ h1#FrontColophon:after {
 .toc a {
     border: 0;
 }
+
+
 
 h1:before,
 h2#setup:before {

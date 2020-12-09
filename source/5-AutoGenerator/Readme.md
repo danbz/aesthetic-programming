@@ -109,7 +109,7 @@ While *10 Print* focuses both on instructions and randomness as generative proce
 
 The next section provides the sample code that simulates the cell states, presented as a two-dimensional grid system in either black or white. Based on simple rules (as described below), an ant is considered to be the sensor that processes the cell's data as input, then the cell will change its color and the ant will move in four possible directions. Gradually, the ant will turn the grid into a more complex system that exhibits emergent behavior.
 
-![drawing5](ch5_5_book2.png){: .medium .print-only}
+![drawing5](ch5_5_book2.png){: .print-only}
 :   *Figure 5.5: Langton's Ant - initial steps*
 
 ![drawing5](ch5_5.gif){: .medium .web-only}

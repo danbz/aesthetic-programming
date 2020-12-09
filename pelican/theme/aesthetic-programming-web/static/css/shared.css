@@ -317,6 +317,9 @@ img[alt="flowchart"],
 img.no-border {
     outline: 0;
 }
+img[alt="flowchart"] {
+    padding-top: var(--line-height);
+}
 
 figure.small {
     width: 33%;
