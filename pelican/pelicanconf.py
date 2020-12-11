@@ -6,6 +6,9 @@ sys.path.append(os.curdir)
 from attach_images import PelicanAttachImage
 from indexed_words import IndexedWordsExtension
 
+from markdown.extensions.toc import slugify
+from random import randint
+
 AUTHOR = '.'
 SITENAME = 'Aesthetic Programming'
 SITEURL = ''
@@ -50,12 +53,19 @@ PLUGINS = ['page_order', 'elevate_img_class_to_figure' ]
 
 DISPLAY_PAGES_ON_MENU = False
 
+def salted_slug (value, separator):
+    slug = slugify(value, separator)
+    salt = ''.join([str(randint(0,9)) for x in range(5)])
+    return slug + separator + salt
+
 MARKDOWN = {
     'extension_configs': {
         # 'markdown.extensions.codehilite': {'css_class': 'highlight', 'linenums': "True"},
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
-        'markdown.extensions.toc': {},
+        'markdown.extensions.toc': {
+            'slugify': salted_slug
+        },
         'mdx_figcaption': {},
         'attach_images': {},
         #'indexed_words': {},
@@ -66,3 +76,4 @@ MARKDOWN = {
 DEFAULT_METADATA = {
     'p5': 'p5_SampleCode/libraries/p5.js'
 }
+

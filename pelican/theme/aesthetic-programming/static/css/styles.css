@@ -160,7 +160,9 @@ h1#FrontColophon:after {
     border: 0;
 }
 
-
+.toc a::after {
+  content: target-counter(attr(href), page);
+}
 
 h1:before,
 h2#setup:before {
