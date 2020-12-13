@@ -1,4 +1,5 @@
-Title: FrontColophon
+Title: Colophon
+slug: front-colophon
 page_order: -4
 
 

@@ -162,6 +162,10 @@ h1#FrontColophon:after {
 
 .toc a::after {
   content: target-counter(attr(href), page);
+  display: block;
+  width: 3em;
+  text-align: left;
+  float: right;
 }
 
 h1:before,
@@ -202,10 +206,13 @@ h2::after {
     margin-bottom: -48pt;
 }
 
+/*
 p:first-of-type {
-    /*padding-top: 0 !important;*/
+    padding-top: 0 !important;
 }
-h2 + p:first-of-type {
+*/
+
+h2 + p{
     padding-top: var(--line-height) !important;
 }
 
