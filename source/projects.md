@@ -3,7 +3,7 @@ page_order: 13
 
 **List of Projects (artworks, software, exhibitions)**
 
-Showcase of students projects can be found at  
+Showcase of student projects can be found at  
 <https://gitlab.com/aesthetic-programming/book/-/blob/master/source/showcase.md>.
 
 <br>
