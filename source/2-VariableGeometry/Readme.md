@@ -305,7 +305,7 @@ console.log("hello" + "world");
 
 ## Discussion in class
 
-1. Examine existing geometric emojis (<https://printable360.com/wp-content/uploads/2018/01/printable-pictures-of-emojis-f85e23c6c5560b017f1154346490d23d.jpg>) or those available on your mobile phone,
+1. Examine existing geometric emojis (<https://gitlab.com/aesthetic-programming/book/-/blob/master/source/2-VariableGeometry/emojis.jpeg>) or those available on your mobile phone,
 can you describe about the shape of an emoji? what constitutes a face? What essential geometric elements do you need for a particular facial expression? What has been lost in translation?
 2. Reflect upon the complexity of human emotions, and their caricatures. What is your experience using emojis? What are the cultural and political implications of emojis (you might refer to the reading and introduction above)?
 3. Beyond the face, take a look at more emojis (<https://www.pngfind.com/mpng/ohwmTJ_all-the-emojis-available-on-facebook-russian-revolution/>).[^emojis2] Is there anything you want to add?
