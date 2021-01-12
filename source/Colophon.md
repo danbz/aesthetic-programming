@@ -11,7 +11,7 @@ Published by Open Humanities Press 2020<br>
 <https://openhumanitiespress.org>
 
 Liquid Books<br>
-Series Editors: Gary Hall
+Series Editor: Gary Hall
 
 \* \* \*
 
