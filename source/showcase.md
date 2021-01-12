@@ -1,7 +1,7 @@
 Title: Showcase
 page_order: 14
 
-## Selected students work
+## Selected student projects
 The list will continuously update on the online version.
 
 <div id="showcase" markdown=true>
