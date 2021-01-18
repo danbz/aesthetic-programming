@@ -4,6 +4,7 @@ https://gitlab.com/aesthetic-programming/book/-/tree/master/source
 
 Chapters:
 
+- About the book (https://gitlab.com/aesthetic-programming/book/-/tree/master/source)
 - Table of contents (https://gitlab.com/aesthetic-programming/book/-/blob/master/source/Table_Of_Contents.md)
 - Preface (https://gitlab.com/aesthetic-programming/book/-/tree/master/source/0-Preface)
 - Ch.1: Getting started (https://gitlab.com/aesthetic-programming/book/-/tree/master/source/1-GettingStarted)
