@@ -331,6 +331,7 @@ The challenge then is to rethink normative geometries, to turn them upside down 
 
 
 <div class="section exercise" markdown="true">
+
 ## MiniX: Geometric emoji
 
 **Objective:**
