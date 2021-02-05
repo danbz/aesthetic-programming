@@ -472,6 +472,7 @@ Referencing Martin Heidegger’s "being-in-time,"[^Heidegger] and human beings' 
 
 
 <div class="section exercise" markdown="true">
+
 ## MiniX: Designing a throbber
 
 **Objective:**
